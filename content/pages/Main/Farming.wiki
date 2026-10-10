@@ -1,0 +1,64 @@
+<translate>
+DragonMineZ adds its own crops. '''Namek Moss''' is the base of everything: combined with other ingredients it becomes six stat plants that give a short buff when eaten, plus the '''Zenkai Lotus'''. These plants are also the ingredients of the stat [[Special:MyLanguage/Capsules|Capsules]]. The colored [[Special:MyLanguage/Senzu Bean|Senzu Beans]] are farmed the same way.
+</translate>
+
+<translate>
+== Growing crops ==
+
+* DMZ crops are planted on '''Farmland''', except Namek Moss, which is planted on '''Namek grass'''.
+* They need light to grow.
+* Harvesting a fully grown plant gives '''3''' of it; an unripe one gives back 1.
+* Bone meal works, but only succeeds 25% of the time.
+</translate>
+
+<translate>
+== Namek Moss ==
+
+Craft '''Wheat Seeds''' with a '''Healing Liquid Bucket''' to get Namek Moss, then plant it on Namek grass. It is the base ingredient of every plant below, of the Curative Flask and of several other recipes.
+</translate>
+
+<translate>
+== Stat plants ==
+
+Each plant is crafted from 4 Namek Moss and 2 of a second ingredient, then grown like any crop. Eating it gives a short buff.
+</translate>
+{| class="wikitable"
+! <translate>Plant</translate> !! <translate>Recipe</translate> !! <translate>Effect when eaten</translate>
+|-
+| <translate>Oozaru Root</translate> || <translate>4 Namek Moss + 2 Raw Dino Meat</translate> || <translate>+15 STR for 15 seconds</translate>
+|-
+| <translate>Katchin Sprout</translate> || <translate>4 Namek Moss + 2 Turtle Scale</translate> || <translate>+15 RES for 15 seconds</translate>
+|-
+| <translate>Meteor Flower</translate> || <translate>4 Namek Moss + 2 Gunpowder</translate> || <translate>+15 SKP for 15 seconds</translate>
+|-
+| <translate>Aura Lily</translate> || <translate>4 Namek Moss + 2 Glowstone Dust</translate> || <translate>+15 PWR for 15 seconds</translate>
+|-
+| <translate>Hermit's Fern</translate> || <translate>4 Namek Moss + 2 Senzu Beans</translate> || <translate>+15 VIT and Regeneration III for 15 seconds</translate>
+|-
+| <translate>Kaioshin Fruit</translate> || <translate>4 Namek Moss + 2 Golden Apples</translate> || <translate>Regenerates 10% of your max ki per second for 5 seconds</translate>
+|-
+| <translate>Zenkai Lotus</translate> || <translate>4 Namek Moss + 2 Amethyst Shards</translate> || <translate>Clears your negative effects and combat cooldowns</translate>
+|}
+<translate>
+A plant's buff can't be stacked: eating it again while the buff is active does nothing. The buffs show up as effects (see [[Special:MyLanguage/Effects#Plant buffs|Effects]]).
+</translate>
+
+<translate>
+== Senzu crops ==
+
+'''Senzu Bean Seeds''' (Health, Ki and Stamina) grow the colored Senzu Beans. A Senzu crop always drops its seeds back, plus a bean when it is fully grown. See [[Special:MyLanguage/Senzu Bean#Growing them|Senzu Bean]] for how to get the seeds.
+</translate>
+
+<translate>
+== Turtle Scale ==
+
+'''Turtle Scale''' drops from [[Special:MyLanguage/Giant Turtle|Giant Turtles]] or is crafted from a vanilla Scute. It goes into the Katchin Sprout and the Yellow Capsule.
+</translate>
+
+<translate>
+== Curative Flask ==
+
+Brew a '''Water Bottle''' with '''Namek Moss''' in a brewing stand to get a '''Curative Flask''' (Regeneration V for 5 seconds). Every stat capsule and the Mastery Capsule need one (see [[Special:MyLanguage/Capsules|Capsules]]).
+</translate>
+
+{{Navbox Items}}

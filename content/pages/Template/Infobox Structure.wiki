@@ -1,0 +1,27 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-structure
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Content
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Dimension, Biome, Location, Locate
+|General_label={{#invoke:Labels|get|General}}
+|Dimension_label={{#invoke:Labels|get|Dimension}}
+|Biome_label={{#invoke:Labels|get|Biome}}
+|Location_label={{#invoke:Labels|get|Location}}
+|Locate_label={{#invoke:Labels|get|Locate}}
+|Locate={{#if:{{{Locate|}}}|<code>{{{Locate}}}</code>}}
+
+|Content=Inhabitants, Purpose, Protection
+|Content_label={{#invoke:Labels|get|Content}}
+|Inhabitants_label={{#invoke:Labels|get|Inhabitants}}
+|Purpose_label={{#invoke:Labels|get|Purpose}}
+|Protection_label={{#invoke:Labels|get|Protection}}
+}}[[Category:Structures{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

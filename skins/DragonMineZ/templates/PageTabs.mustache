@@ -1,0 +1,30 @@
+<div class="dmz-tabs">
+	<div class="dmz-tabs__group">
+		{{#has-dmz-navigation}}
+		<button type="button" class="dmz-tab-button" id="dmz-sidebar-toggle" aria-controls="dmz-sidebar" aria-label="{{msg-dmz-sidebar-toggle}}" title="{{msg-dmz-sidebar-toggle}}">
+			<span class="material-symbols-rounded" aria-hidden="true">dock_to_right</span>
+		</button>
+		{{/has-dmz-navigation}}
+		{{#data-portlets.data-namespaces}}
+		<nav id="{{id}}" class="{{class}} dmz-tablist" aria-label="{{label}}"><ul>{{{html-items}}}</ul></nav>
+		{{/data-portlets.data-namespaces}}
+		{{#data-portlets.data-variants}}
+		{{^is-empty}}<nav id="{{id}}" class="{{class}} dmz-tablist" aria-label="{{label}}"><ul>{{{html-items}}}</ul></nav>{{/is-empty}}
+		{{/data-portlets.data-variants}}
+	</div>
+	<div class="dmz-tabs__group">
+		{{#data-portlets.data-views}}
+		<nav id="{{id}}" class="{{class}} dmz-tablist dmz-views" aria-label="{{label}}"><ul>{{{html-items}}}</ul></nav>
+		{{/data-portlets.data-views}}
+		{{#has-dmz-actions}}
+		<div class="dmz-dropdown dmz-more" data-dmz-dropdown>
+			<button type="button" class="dmz-tab-button" aria-label="{{msg-dmz-more}}" title="{{msg-dmz-more}}" aria-haspopup="true" aria-expanded="false" data-dmz-dropdown-toggle>
+				<span class="material-symbols-rounded" aria-hidden="true">more_horiz</span>
+			</button>
+			<div class="dmz-dropdown__panel dmz-more__panel" data-dmz-dropdown-panel hidden>
+				{{#data-portlets.data-actions}}{{>MenuPortlet}}{{/data-portlets.data-actions}}
+			</div>
+		</div>
+		{{/has-dmz-actions}}
+	</div>
+</div>

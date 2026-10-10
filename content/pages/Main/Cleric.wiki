@@ -1,0 +1,47 @@
+{{Infobox Class
+|quote=<translate>The support caster: a huge energy pool and healing uptime.</translate>
+|Passive=<translate>Blessing</translate>
+|Playstyle=<translate>Healer and support; the fastest class to train</translate>
+|Strength=0.5
+|Strike Power=0.5
+|Resistance=<translate>DEF 0.168, STM 2.6</translate>
+|Vitality=1.2
+|Ki Power=0.8
+|Energy=3.0
+}}
+<translate>
+'''Cleric''' is the support caster among the [[Special:MyLanguage/Classes|classes]]. It has a huge Energy and Stamina scaling, a passive that shortens the cooldowns of its healing ki attacks, and it is the cheapest and fastest class to train.
+</translate>
+
+<translate>
+== Passive: Blessing ==
+
+* '''Healing''' ki attacks get '''−20%''' cooldown.
+* Healing ki attacks that also grant an ally a '''buff''' get '''−15%''' cooldown instead, but their buff lasts '''+25%''' longer.
+
+See [[Special:MyLanguage/Ki Attacks|Ki Attacks]] for the healing techniques.
+</translate>
+
+<translate>
+== Starting stats and regeneration ==
+
+* '''Starting stats:''' RES 5 · ENE 15
+* '''Regeneration''' (per 5 seconds): health 0.5 (+0.015 per VIT) · Ki 12.0 (+0.24 per ENE) · stamina 16.0 (+0.045 per VIT, +0.06 per RES)
+* '''TP gain ×1.25''' and '''TP cost ×0.9''': the cheapest and fastest class to train.
+</translate>
+
+<translate>
+== Stat scaling ==
+
+The Cleric's standout scalings are '''Stamina''' (STM 2.6, the highest of all classes) and '''Energy''' (3.0). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|Custom Races|stats.json}}
+<translate>
+The class id is <code>cleric</code>. Its passive values are <code>cdPrimary</code> (0.20), <code>cdSecondary</code> (0.15) and <code>durationBonus</code> (0.25), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings, regeneration and the TP multipliers.
+</translate>
+
+{{Navbox Classes}}

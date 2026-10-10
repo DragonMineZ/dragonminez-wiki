@@ -1,0 +1,110 @@
+<translate>
+'''Ki attacks''' are ranged energy techniques: blasts, beams, disks, barrages and giant spheres. Their damage scales with your '''Ki Damage (PWR)''', and their size grows with your Ki Power. Most of them are charged by holding the slot key, can be overcharged for more power, and gain experience that you spend on upgrades.
+</translate>
+
+<translate>
+== How ki attacks work ==
+</translate>
+{{Main|Techniques}}
+<translate>
+* You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand.
+* Hold the technique's slot key to charge it and release it to fire. Small Ball and Laser attacks are instant; the other types charge to 100% and can be overcharged to 175%. Medium Ball and Giant Ball attacks fire on their own at the cap.
+* If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.
+* Damage is your Ki Damage × the technique's damage multiplier (listed below) × the type's damage multiplier (1.0 by default) × the charge.
+* Every attack belongs to a '''type''' (Wave, Laser, Giant Ball…) that sets its cast time, how it behaves and which stats it can upgrade. See the [[Special:MyLanguage/Techniques|Techniques]] page for the type table, overcharge and upgrades.
+* Wave and Beam attacks can [[Special:MyLanguage/Beam Clash|clash]] with each other.
+</translate>
+
+<translate>
+== Ki attacks taught by masters ==
+
+Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to unlock the technique.
+</translate>
+{| class="wikitable sortable"
+! <translate>Technique</translate> !! <translate>Type</translate> !! <translate>Taught by</translate> !! <translate>TP cost</translate> !! <translate>Damage multiplier</translate> !! <translate>Cooldown (seconds)</translate>
+|-
+| '''<translate>Ki Barrage</translate>''' || <translate>Barrage</translate> || {{L|Gohan}}, {{L|Piccolo}}, {{L|Krillin}}, {{L|Trunks}}, {{L|Cell}}, {{L|Yamcha}} || 1,000 || ×1.0 || 10
+|-
+| '''<translate>Masenko</translate>''' || <translate>Wave</translate> || {{L|Gohan}}, {{L|Piccolo}}, {{L|Cell}} || 1,500 || ×1.5 || 10
+|-
+| '''<translate>Kamehameha</translate>''' || <translate>Wave</translate> || {{L|Master Roshi}}, {{L|Goku}}, {{L|Gohan}}, {{L|Cell}}, {{L|Yamcha}} || 2,000 || ×2.0 || 10
+|-
+| '''<translate>Galick Gun</translate>''' || <translate>Wave</translate> || {{L|Vegeta}}, {{L|Trunks}}, {{L|Cell}} || 2,000 || ×2.0 || 10
+|-
+| '''<translate>Death Beam</translate>''' || <translate>Laser</translate> || {{L|Frieza}}, {{L|Cell}} || 2,500 || ×0.75 || 10
+|-
+| '''<translate>Kienzan (Destructo Disc)</translate>''' || <translate>Disk</translate> || {{L|Piccolo}}, {{L|Krillin}}, {{L|Cell}} || 3,000 || ×1.5 || 10
+|-
+| '''<translate>Special Beam Cannon (Makankosappo)</translate>''' || <translate>Beam</translate> || {{L|Gohan}}, {{L|Piccolo}} || 3,500 || ×0.75 || 20
+|-
+| '''<translate>Burning Attack</translate>''' || <translate>Medium Ball</translate> || {{L|Trunks}} || 3,500 || ×1.5 || 10
+|-
+| '''<translate>Big Bang Attack</translate>''' || <translate>Medium Ball</translate> || {{L|Vegeta}} || 4,000 || ×2.0 || 10
+|-
+| '''<translate>Spirit Ball (Sokidan)</translate>''' || <translate>Medium Ball</translate> || {{L|Yamcha}} || 4,000 || ×1.25 || 12
+|-
+| '''<translate>Double Kienzan</translate>''' || <translate>Disk</translate> || {{L|Krillin}}, {{L|Frieza}} || 4,000 || ×1.75 || 10
+|-
+| {{L|Emperor's Death Beam}} || <translate>Laser</translate> || {{L|Frieza}} || 5,000 || ×1.25 || 10
+|-
+| '''<translate>Final Flash</translate>''' || <translate>Wave</translate> || {{L|Vegeta}} || 5,000 || ×2.5 || 10
+|-
+| {{L|Heat Dome Attack}} || <translate>Wave</translate> || {{L|Trunks}} || 6,000 || ×2.25 || 12
+|-
+| {{L|Hellzone Grenade}} || <translate>Barrage</translate> || {{L|Piccolo}} || 6,000 || ×2.5 || 15
+|-
+| '''<translate>Spirit Bomb</translate>''' || <translate>Giant Ball</translate> || {{L|Goku}}, {{L|King Kai}} || 10,000 || ×3.0 || 10
+|-
+| '''<translate>Supernova</translate>''' || <translate>Giant Ball</translate> || {{L|Frieza}} || 12,000 || ×3.0 || 10
+|-
+| '''<translate>Final Explosion</translate>''' || <translate>Explosion</translate> || {{L|Vegeta}} || 20,000 || ×2.25 || 10
+|-
+| '''<translate>Soul Punisher</translate>''' || <translate>Medium Ball</translate> || {{L|Old Kai}} || 25,000 || ×3.5 || 45
+|-
+| '''<translate>Assault Rain</translate>''' || <translate>Barrage</translate> || '''<translate>Majin Buu</translate>''' || 4,500 || ×1.0 || 15
+|}
+
+<translate>
+Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.
+</translate>
+
+<translate>
+=== Special behaviour ===
+
+* [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]] fires a rapid chain of 10 death beams; the follow-up shots deal 20% of the first one's damage.
+* [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]] launches the closest enemy in front of you (within 8 blocks) into the air before the beam hits.
+* [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]] needs a target (lock on or aim at one): the ki blasts surround it and then close in.
+</translate>
+
+<translate>
+== Ki attacks not taught by default ==
+
+No master offers these in the default lists. Some come from other sources; server owners can add any of them to a master's list, and admins can grant them with {{Command|/dmztech add}}.
+</translate>
+{| class="wikitable"
+! <translate>Technique</translate> !! <translate>Type</translate> !! <translate>TP cost</translate> !! <translate>Damage multiplier</translate> !! <translate>Cooldown (seconds)</translate> !! <translate>How to get it</translate>
+|-
+| '''<translate>Supernova (Cooler)</translate>''' || <translate>Giant Ball</translate> || 15,000 || ×3.5 || 10 || <translate>20% drop from the {{L|Metal Cooler Core}} world boss.</translate>
+|-
+| '''<translate>Kill Driver</translate>''' || <translate>Disk</translate> || 16,000 || ×2.25 || 12 || <translate>25% drop from the {{L|Turles}} world boss.</translate>
+|-
+| {{L|Mouth Blast}} || <translate>Wave</translate> || 4,500 || ×1.75 || 12 || <translate>Granted while in Great Ape (Oozaru) form. You can steer the beam while it fires.</translate>
+|}
+
+<translate>
+World boss drop chances are the server defaults; see [[Special:MyLanguage/World Bosses|World Bosses]].
+
+The mod also includes these ki attacks: '''Dodon Ray''', '''Tri-Beam''', '''Neo Tri-Beam''' and '''Blaster Meteor'''.
+</translate>
+
+<translate>
+== Fake Moon ==
+</translate>
+{{Main|Fake Moon}}
+{| class="wikitable"
+! <translate>Technique</translate> !! <translate>Taught by</translate> !! <translate>TP cost</translate> !! <translate>Cooldown (seconds)</translate> !! <translate>Effect</translate>
+|-
+| {{L|Fake Moon}} || {{L|Vegeta}} || 3,000 || 45 || <translate>Creates an artificial moon that triggers the Great Ape (Oozaru) transformation for characters with a tail. Deals no damage.</translate>
+|}
+
+{{Navbox Abilities}}

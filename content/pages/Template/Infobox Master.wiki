@@ -1,0 +1,27 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-master
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Training info
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Location, Structure, Alignment, Locate
+|General_label={{#invoke:Labels|get|General}}
+|Location_label={{#invoke:Labels|get|Location}}
+|Structure_label={{#invoke:Labels|get|Structure}}
+|Alignment_label={{#invoke:Labels|get|Alignment}}
+|Locate_label={{#invoke:Labels|get|Locate}}
+|Locate={{#if:{{{Locate|}}}|<code>{{{Locate}}}</code>}}
+
+|Training info=Teaches, Training, Services
+|Training info_label={{#invoke:Labels|get|Training}}
+|Teaches_label={{#invoke:Labels|get|Teaches}}
+|Training_label={{#invoke:Labels|get|Training}}
+|Services_label={{#invoke:Labels|get|Services}}
+}}[[Category:Masters{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

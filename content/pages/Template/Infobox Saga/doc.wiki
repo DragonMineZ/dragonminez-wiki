@@ -1,0 +1,48 @@
+Infobox for saga pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Saga
+|title=
+|image=
+|caption=
+|quote=
+|Order=
+|Quests=
+|Difficulty=
+|Villains=
+|Unlocks=
+|Rewards=
+|Previous=
+|Next=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Order</code>
+|-
+| <code>Quests</code>
+|-
+| <code>Difficulty</code>
+|-
+| <code>Villains</code>
+|-
+| <code>Unlocks</code>
+|-
+| <code>Rewards</code>
+|-
+| <code>Previous</code>
+|-
+| <code>Next</code>
+|}

@@ -1,0 +1,14 @@
+{{Navbox
+|title={{#invoke:Labels|get|Configuration}}
+|link=Configuration
+|group1={{#invoke:Labels|get|Config files}}
+|list1={{L|General Server Config}}{{·}}{{L|General User Config}}{{·}}{{L|Combat Config}}{{·}}{{L|Skills Config}}{{·}}{{L|Entities Config}}
+|group2={{#invoke:Labels|get|Game systems}}
+|list2={{L|Gravity Config}}{{·}}{{L|Dynamic Growth}}
+|group3={{#invoke:Labels|get|Server administration}}
+|list3={{L|Gamerules}}{{·}}{{L|Permissions}}{{·}}{{L|Notice to Server Owners}}{{·}}{{L|Reloading and Updating Changes}}
+}}<noinclude>
+Navigation box shown at the bottom of every configuration page: config files, game systems configured in their own pages, and server administration.
+
+<pre>{{Navbox Configuration}}</pre>
+</noinclude>

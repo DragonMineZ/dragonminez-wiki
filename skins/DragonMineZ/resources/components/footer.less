@@ -1,0 +1,160 @@
+.dmz-footer {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 64px 24px;
+	border-top: 1px solid rgba( 255, 255, 255, 0.05 );
+	background: #1c1b22;
+	color: #ffffff;
+
+	@media ( min-width: @dmz-bp-md ) {
+		padding: 64px 32px;
+	}
+}
+
+.dmz-footer__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	max-width: 896px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dmz-footer__brand {
+	display: block;
+	margin-bottom: 8px;
+	transition: transform 0.15s ease;
+
+	&:hover {
+		transform: scale( 1.05 );
+	}
+
+	&:active {
+		transform: scale( 0.95 );
+	}
+}
+
+.dmz-footer__logo {
+	display: block;
+	height: 40px;
+	width: auto;
+	object-fit: contain;
+
+	@media ( min-width: @dmz-bp-md ) {
+		height: 48px;
+	}
+}
+
+.dmz-footer__info {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.dmz-footer__rights {
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	letter-spacing: 0.025em;
+}
+
+.dmz-footer__description {
+	max-width: 576px;
+	margin: 0;
+	color: rgba( 255, 255, 255, 0.7 );
+	font-size: 14px;
+	line-height: 1.625;
+}
+
+.dmz-footer__divider {
+	width: 66.666%;
+	max-width: 400px;
+	height: 1px;
+	margin: 8px 0 4px;
+	border-radius: 9999px;
+	background: rgba( 255, 255, 255, 0.2 );
+}
+
+.dmz-footer__socials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin-top: 4px;
+
+	@media ( min-width: @dmz-bp-sm ) {
+		gap: 24px;
+	}
+
+	@media ( min-width: @dmz-bp-md ) {
+		gap: 32px;
+	}
+}
+
+.dmz-footer__social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1;
+	text-decoration: none;
+	transition: all 0.3s ease;
+
+	@media ( min-width: @dmz-bp-sm ) {
+		font-size: 24px;
+	}
+
+	svg {
+		width: 1em;
+		height: 1em;
+	}
+
+	&:hover {
+		color: rgba( 255, 255, 255, 0.8 );
+		transform: translateY( -4px );
+	}
+}
+
+.dmz-footer__wiki {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	margin-top: 28px;
+	color: rgba( 255, 255, 255, 0.45 );
+	font-size: 12px;
+	line-height: 1.6;
+
+	p {
+		margin: 0;
+	}
+
+	a {
+		color: rgba( 255, 255, 255, 0.65 );
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}
+
+.dmz-footer__places {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 6px 20px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+}

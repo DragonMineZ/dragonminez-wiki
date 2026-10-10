@@ -1,0 +1,65 @@
+{{Infobox Item
+|quote=<translate>The classic emergency heal.</translate>
+|Type=<translate>Consumable</translate>
+|Effect=<translate>Fully restores health, ki and stamina</translate>
+|Duration=<translate>Instant (12-second shared cooldown)</translate>
+|Obtained=<translate>Korin, dragon wishes, story quests and raids</translate>
+|Crafting=<translate>Senzu Bean (Health) + Senzu Bean (Ki) + Senzu Bean (Stamina) + Namek Moss gives 3</translate>
+}}
+<translate>
+'''Senzu Beans''' fully restore your health, ki and stamina in one bite. They are the classic emergency heal of DragonMineZ: keep a few on you for tough fights, saga bosses and raids.
+
+Besides the regular bean there are three colored beans, '''Health''', '''Ki''' and '''Stamina''', which each restore only their own resource. Unlike regular beans, you can grow them yourself.
+</translate>
+
+<translate>
+== Getting Senzu Beans ==
+
+* '''Korin''' gives you '''5''' Senzu Beans once every '''15 minutes''' (see [[Special:MyLanguage/Korin|Korin]]). The service shows a live countdown while it is on cooldown.
+* '''Dragon wishes:''' [[Special:MyLanguage/Shenron|Shenron]] grants 16 Senzu Beans and [[Special:MyLanguage/Porunga|Porunga]] grants 32.
+* '''Story quests:''' many saga quests reward Senzu Beans, for example ''Korin's Senzu Beans'' in the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] (see [[Special:MyLanguage/Sagas|Sagas]]).
+* '''Raids:''' [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] rewards 2 and [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] rewards 3.
+* '''Crafting:''' one Health, one Ki and one Stamina Senzu Bean plus a Namek Moss make '''3''' regular Senzu Beans.
+</translate>
+
+<translate>
+== Colored Senzu Beans ==
+</translate>
+{| class="wikitable"
+! <translate>Bean</translate> !! <translate>Effect</translate>
+|-
+| <translate>Senzu Bean (Health)</translate> || <translate>Fully restores your health only.</translate>
+|-
+| <translate>Senzu Bean (Ki)</translate> || <translate>Fully restores your ki only.</translate>
+|-
+| <translate>Senzu Bean (Stamina)</translate> || <translate>Fully restores your stamina only.</translate>
+|}
+
+<translate>
+=== Growing them ===
+
+Each colored bean grows from its own seeds: '''Senzu Bean Seeds (Health)''', '''(Ki)''' and '''(Stamina)'''. Plant them on Farmland, like any DMZ crop (see [[Special:MyLanguage/Farming|Farming]]). A Senzu crop always drops its seeds back, plus a bean when it is fully grown.
+
+You can craft the seeds in two ways:
+
+* from a bean of that color;
+* from a Namek Moss and a capsule: Green Capsule for Health seeds, Blue Capsule for Ki seeds and Yellow Capsule for Stamina seeds (see [[Special:MyLanguage/Capsules|Capsules]]).
+</translate>
+
+<translate>
+== Cooldown ==
+
+All Senzu Beans '''share one cooldown''', 12 seconds by default, so you can't chain one bean of each color. Eating a bean from the [[Special:MyLanguage/Senzu Bag|Senzu Bag]] uses the same cooldown. The [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Ant)]] has its own cooldown of the same length.
+</translate>
+{{Config|General Server Config|senzuCooldownTicks}}
+
+<translate>
+== Other uses ==
+
+* '''[[Special:MyLanguage/Senzu Bag|Senzu Bag]]:''' carries up to 64 beans of any color in one slot.
+* '''[[Special:MyLanguage/Heart Medicine|Heart Medicine]]:''' brew a Senzu Bean into any Potion of Regeneration.
+* '''Hermit's Fern:''' 4 Namek Moss and 2 Senzu Beans make this stat plant (see [[Special:MyLanguage/Farming|Farming]]).
+* The Green Capsule recipe uses a Senzu Bean (Health) (see [[Special:MyLanguage/Capsules|Capsules]]).
+</translate>
+
+{{Navbox Items}}

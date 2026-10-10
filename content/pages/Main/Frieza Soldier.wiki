@@ -1,0 +1,46 @@
+{{Infobox Mob
+|Type=<translate>Hostile, wild enemy</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate>Ajissa Plains and Sacred Land</translate>
+|Behavior=<translate>Attacks on sight; Novice AI</translate>
+|Health=100
+|Damage=15
+|Abilities=<translate>Ki blasts (first model only)</translate>
+|Drops=<translate>1–2 Iron Ingots, Blaster Cannon (rare)</translate>
+}}
+<translate>
+'''Frieza's Soldiers''' are the foot soldiers of Frieza's army, which occupies [[Special:MyLanguage/Namek|Planet Namek]]. Three soldier models share identical drops and spawn conditions; the first model also fires ki blasts. A soldier standing in the Namekian Ruins is the scout of the [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] raid.
+</translate>
+
+<translate>
+== Spawning ==
+
+Frieza's Soldiers spawn in the Ajissa Plains and Sacred Land biomes of Namek (spawn weight 2 and groups of 1 for each model). They are '''wild enemies''': they spawn under open sky, day or night, away from torches and other light. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]].
+</translate>
+
+<translate>
+== Behavior ==
+
+Natural soldiers fight on the '''Novice''' AI tier. Their health and damage above are their base values.
+</translate>
+
+<translate>
+== Drops ==
+
+Each model drops:
+* 1–2 '''Iron Ingot''' (+0–1 Looting)
+* '''Blaster Cannon''': rare (about a 5% chance, slightly increased by Looting)
+</translate>
+
+<translate>
+== Raids and story ==
+
+The [[Special:MyLanguage/Namekian Ruins|Namekian Ruins]], a Namekian settlement razed by Frieza's army, have a Frieza soldier in the plaza: killing it starts [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], where waves of much stronger soldiers escort Frieza's elite.
+
+In the [[Special:MyLanguage/Frieza Saga|Frieza Saga]] you fight them in '''Landing on Namek''' (8 soldiers), '''Defend the Namekians''' (16), '''Raid Frieza's Ship''' (10) and '''Guard the Medical Machine''' (3 waves of 4).
+</translate>
+
+{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:saga_friezasoldier01</code>, <code>dragonminez:saga_friezasoldier02</code>, <code>dragonminez:saga_friezasoldier03</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]

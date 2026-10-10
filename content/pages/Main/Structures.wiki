@@ -1,0 +1,209 @@
+<translate>
+DragonMineZ generates landmark structures across its worlds. Most of them are the homes of [[Special:MyLanguage/Masters|masters]], the trainer NPCs who teach you [[Special:MyLanguage/Skills|skills]] and [[Special:MyLanguage/Techniques|techniques]]. Others are [[Special:MyLanguage/World Bosses|world boss]] lairs, [[Special:MyLanguage/Raids|raid]] sites, [[Special:MyLanguage/Tournaments|tournament]] arenas and villages. This page explains how structures generate, how they're protected and how to find them, and lists every one of them.
+</translate>
+
+<div class="dmz-cards">
+{{Card|Goku's House|<translate>Home of Goku, Gohan and Chi-Chi, in the plains.</translate>}}
+{{Card|Kame House|<translate>Master Roshi and Krillin's island home on the coast.</translate>}}
+{{Card|Kami's Lookout|<translate>Korin, Dende, Mr. Popo and the portal to the Time Chamber.</translate>}}
+{{Card|Piccolo's House|<translate>Piccolo's home in the plains.</translate>}}
+{{Card|Majin Buu's House|<translate>Majin Buu's home in the plains.</translate>}}
+{{Card|Yamcha's House|<translate>Yamcha's hideout in the desert.</translate>}}
+{{Card|Dr. Gero's Lab|<translate>Where Humans can become Androids.</translate>}}
+{{Card|Fortuneteller Baba's Palace|<translate>Baba's palace rising from the sea, and her tournament.</translate>}}
+{{Card|Cell Arena|<translate>Cell's ring, home of the Cell Games.</translate>}}
+{{Card|Babidi's Spaceship|<translate>Babidi's ship, where the Majin mark is given.</translate>}}
+{{Card|Trunks' Ship|<translate>Trunks' time machine.</translate>}}
+{{Card|Vegeta's Saiyan Pod|<translate>Vegeta and Bulma, at a crashed Saiyan pod.</translate>}}
+{{Card|Red Ribbon Tower|<translate>A Red Ribbon outpost that keeps spawning soldiers and robots.</translate>}}
+{{Card|Tree of Might|<translate>A giant tree in the swamps and the lair of Turles.</translate>}}
+{{Card|Saiyan Crater|<translate>A crashed Saiyan pod that starts the Saiyan Assault raid.</translate>}}
+{{Card|Frieza's Ship|<translate>Frieza's ship on the Ajissa Plains of Namek.</translate>}}
+{{Card|Grand Elder's House|<translate>Grand Elder Guru's home in the Sacred Land of Namek.</translate>}}
+{{Card|Namekian Village|<translate>Namekian traders and warriors on Namek.</translate>}}
+{{Card|Namekian Ruins|<translate>A razed village that starts Frieza's Invasion.</translate>}}
+{{Card|Big Gete Star|<translate>A half-buried mechanical sphere and the lair of the Metal Cooler Core.</translate>}}
+{{Card|Old Kai's Pillar|<translate>Old Kai's home on the Sacred Kai Planet.</translate>}}
+{{Card|Demon Village|<translate>Adobe villages of the Third Demon World.</translate>}}
+{{Card|Gomah Camp|<translate>A palisade camp that starts the Gomah's Army raid.</translate>}}
+{{Card|Gomah's Horn Cradle|<translate>Gomah's floating throne island.</translate>}}
+</div>
+
+<translate>
+== Every structure ==
+</translate>
+{| class="wikitable"
+! <translate>Structure</translate> !! <translate>Id</translate> !! <translate>World</translate> !! <translate>Where</translate> !! <translate>What you find</translate>
+|-
+| {{L|Goku's House}} || <code>goku_house</code> || {{L|Earth}} || <translate>Plains</translate> || <translate>Goku, Gohan and Chi-Chi</translate>
+|-
+| {{L|Kame House}} || <code>roshi_house</code> || {{L|Earth}} || <translate>Oceans (coastal)</translate> || <translate>Master Roshi and Krillin</translate>
+|-
+| {{L|Kami's Lookout}} || <code>kamilookout</code> || {{L|Earth}} || <translate>Near the world spawn (any biome)</translate> || <translate>Korin, Dende, Mr. Popo and the Time Chamber portal</translate>
+|-
+| {{L|Piccolo's House}} || <code>piccolo_house</code> || {{L|Earth}} || <translate>Plains</translate> || {{L|Piccolo}}
+|-
+| {{L|Majin Buu's House}} || <code>buu_house</code> || {{L|Earth}} || <translate>Plains</translate> || {{L|Majin Buu}}
+|-
+| {{L|Yamcha's House}} || <code>yamcha_house</code> || {{L|Earth}} || <translate>Deserts</translate> || {{L|Yamcha}}
+|-
+| {{L|Dr. Gero's Lab}} || <code>gero_lab</code> || {{L|Earth}} || <translate>Rocky biome or mountains</translate> || {{L|Dr. Gero}}
+|-
+| {{L|Fortuneteller Baba's Palace}} || <code>baba_palace</code> || {{L|Earth}} || <translate>Oceans</translate> || <translate>Fortuneteller Baba; tournament arena</translate>
+|-
+| {{L|Cell Arena}} || <code>cell_arena</code> || {{L|Earth}} || <translate>Plains</translate> || <translate>Cell; tournament arena</translate>
+|-
+| {{L|Babidi's Spaceship}} || <code>babidi</code> || {{L|Earth}} || <translate>Mountains</translate> || {{L|Babidi}}
+|-
+| {{L|Trunks' Ship}} || <code>trunks_ship</code> || {{L|Earth}} || <translate>Land biomes</translate> || {{L|Trunks}}
+|-
+| {{L|Vegeta's Saiyan Pod}} || <code>vegeta_pod</code> || {{L|Earth}} || <translate>Rocky biomes</translate> || <translate>Vegeta and Bulma</translate>
+|-
+| {{L|Tree of Might}} || <code>tree_of_might</code> || {{L|Earth}} || <translate>Swamps, at least 1,000 blocks from 0, 0 (one per world)</translate> || <translate>Lair of Turles</translate>
+|-
+| {{L|Saiyan Crater}} || <code>saiyan_crater</code> || {{L|Earth}} || <translate>Anywhere on land, spread out and kept away from villages</translate> || <translate>Saiyan Assault raid site</translate>
+|-
+| {{L|Red Ribbon Tower}} || <code>rrtower</code> || {{L|Earth}} || <translate>Most land biomes</translate> || <translate>A Red Ribbon outpost where [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]] soldiers and robots spawn</translate>
+|-
+| {{L|Frieza's Ship}} || <code>frieza_ship</code> || {{L|Namek}} || <translate>Ajissa Plains</translate> || {{L|Frieza}}
+|-
+| {{L|Grand Elder's House}} || <code>elder_guru</code> || {{L|Namek}} || <translate>Sacred Land</translate> || {{L|Grand Elder Guru}}
+|-
+| {{L|Namekian Village}} || <code>village_ajissa</code>, <code>village_sacred</code> || {{L|Namek}} || <translate>Ajissa Plains and Sacred Land</translate> || <translate>Namekian Traders and Warriors</translate>
+|-
+| {{L|Namekian Ruins}} || <code>namek_ruins</code> || {{L|Namek}} || <translate>Spread out, away from Ajissa villages</translate> || <translate>Frieza's Invasion raid site</translate>
+|-
+| {{L|Big Gete Star}} || <code>gete_star</code> || {{L|Namek}} || <translate>Ajissa Plains or Sacred Land, at least 1,000 blocks from 0, 0 (one per world)</translate> || <translate>Lair of the Metal Cooler Core</translate>
+|-
+| {{L|Old Kai's Pillar}} || <code>oldkai_pillar</code> || {{L|Sacred Kai Planet}} || <translate>Sacred Kai Plains</translate> || {{L|Old Kai}}
+|-
+| <translate>'''Time Chamber'''</translate> || <code>timechamber</code> || {{L|Hyperbolic Time Chamber}} || <translate>Fixed, at the chamber's entry point</translate> || <translate>Mr. Popo and the portal back to Kami's Lookout</translate>
+|-
+| <translate>'''Otherworld Tournament grounds'''</translate> || <code>otherworld_tournament</code> <translate>(for <code>/dmzlocate</code> only)</translate> || {{L|Otherworld}} || <translate>Fixed: ring centre at 0, 355, −1200</translate> || <translate>Arena of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]</translate>
+|-
+| {{L|Demon Village}} || <code>demon_village</code> || {{L|Demon Realm}} || <translate>Third Demon World</translate> || <translate>Demon Realm Villagers and a Time Patroller</translate>
+|-
+| {{L|Gomah Camp}} || <code>gomah_camp</code> || {{L|Demon Realm}} || <translate>Any of the three Demon Worlds, kept away from demon villages</translate> || <translate>Gomah's Army raid site</translate>
+|-
+| {{L|Gomah's Horn Cradle}} || <code>gomah_cradle</code> || {{L|Demon Realm}} || <translate>Fixed spot high above the First Demon World, around X −1112, Z −1144 (one per world)</translate> || <translate>Lair of Gomah</translate>
+|}
+
+<translate>
+Not every master lives in a structure you can locate: [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/King Yemma|King Yemma]], the [[Special:MyLanguage/Grand Kai|Grand Kai]] and the Otherworld's [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] live in the [[Special:MyLanguage/Otherworld|Otherworld]]. See [[Special:MyLanguage/Masters|Masters]].
+</translate>
+
+<translate>
+== Alignment ==
+</translate>
+{{Main|Masters}}
+<translate>
+Some masters only train you if your [[Special:MyLanguage/Alignment|alignment]] fits their morality (bands: Good 61–100, Neutral 41–60, Evil 0–40). Without the right alignment, their '''Skills''', '''Train''' and new quests stay locked:
+* '''Good alignment (61 or higher)''': [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gohan|Gohan]] at Goku's House, [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] at [[Special:MyLanguage/Kame House|Kame House]], [[Special:MyLanguage/Old Kai|Old Kai]] at [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]], and [[Special:MyLanguage/King Kai|King Kai]] in the Otherworld.
+* '''Evil alignment (40 or lower)''': [[Special:MyLanguage/Cell|Cell]] at the Cell Arena and [[Special:MyLanguage/Frieza|Frieza]] at Frieza's Ship.
+* '''Every other master''' has no alignment requirement by default.
+</translate>
+
+<translate>
+Some services have their own alignment rules, such as Babidi's mark or the Grand Elder's potential unlock. Whether NPCs are hostile toward you is a separate, configurable system (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+</translate>
+
+<translate>
+== How structures generate ==
+</translate>
+{{Config|General Server Config|generateCustomStructures}}
+<translate>
+Each master's structure is placed '''once per world''' and only in its biomes, so structures don't spawn on top of each other. Before placing one, DragonMineZ checks the biome, water and slope over the structure's whole footprint and keeps the best spot it finds. The surface buildings are then '''fitted to the terrain''': the best rotation is chosen, the building is set on the ground around it, and the land under and around its footprint is filled or trimmed, so houses don't cut square holes into hills or stand on walls of filler blocks. [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]] and [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], which reach underground, keep their own placement.
+</translate>
+
+<translate>
+Some structures have NPCs living in them besides their master, such as '''Chi-Chi''' in [[Special:MyLanguage/Goku's House|Goku's House]]. Each one spawns once per structure, also in structures generated before it was added, and doesn't come back if it dies. Server owners can add their own with a datapack (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+</translate>
+
+<translate>
+Server owners can turn DragonMineZ structures off entirely.
+</translate>
+
+<translate>
+=== Existing worlds ===
+</translate>
+<translate>
+Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters only appear in newly generated chunks.
+</translate>
+
+<translate>
+== Protection ==
+</translate>
+{{See also|Gamerules}}
+<translate>
+* '''Master structures''' (every structure that is a master's home, plus the Time Chamber) can't be damaged by ki attacks unless the gamerule <code>allowKiGriefingMasterStructures</code> is <code>true</code> (default <code>false</code>).
+* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).
+* Some lairs have their own unbreakable parts: the wood and roots of the [[Special:MyLanguage/Tree of Might|Tree of Might]] and the hull of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].
+</translate>
+
+<translate>
+== Finding structures ==
+</translate>
+<translate>
+=== The locate command ===
+</translate>
+{{See also|Commands|Permissions}}
+<translate>
+{{Command|/dmzlocate &lt;structure&gt;}} finds the nearest DragonMineZ structure with that id in the dimension you're in, and prints the coordinates of the structure itself (its centre, at floor level) and its distance. Click the coordinates to get a ready-made teleport command. It accepts a bare id (<code>goku_house</code>) or a full one (<code>dragonminez:goku_house</code>), and tab-completes every DragonMineZ structure plus <code>otherworld_tournament</code> (which only works inside the Otherworld). It needs the <code>dragonminez.dmzlocate</code> permission.
+</translate>
+
+<translate>
+If nothing is found nearby, it tells you which dimension and biomes the structure generates in, so you know where to explore. For world boss lairs, operators can use {{Command|/dmzworldboss locate}} (see [[Special:MyLanguage/World Bosses|World Bosses]]).
+</translate>
+
+<translate>
+=== Treasure maps ===
+</translate>
+<translate>
+Several NPCs sell treasure maps with a red X that point to the nearest structure of their kind. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located (re-open the trade window).
+</translate>
+
+{| class="wikitable"
+! <translate>Map to</translate> !! <translate>Sold by</translate> !! <translate>Cost</translate>
+|-
+| {{L|Goku's House}} || <translate>[[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]], tier 1</translate> || <translate>10 Cooked Dino Meat</translate>
+|-
+| {{L|Kame House}} || <translate>Capsule Corp Assistant, tier 1</translate> || <translate>8 Cod</translate>
+|-
+| {{L|Piccolo's House}} || <translate>Capsule Corp Assistant, tier 2</translate> || <translate>1 Water Bucket</translate>
+|-
+| {{L|Yamcha's House}} || <translate>Capsule Corp Assistant, tier 2</translate> || <translate>1 Bone</translate>
+|-
+| {{L|Kami's Lookout}} || <translate>Capsule Corp Assistant, tier 3</translate> || <translate>1 Spruce Sapling</translate>
+|-
+| {{L|Fortuneteller Baba's Palace}} || <translate>Capsule Corp Assistant, tier 3 (always offered)</translate> || <translate>6 Glass Bottles</translate>
+|-
+| {{L|Cell Arena}} || <translate>Capsule Corp Assistant, tier 3</translate> || <translate>1 Tier-1 Radar Chip</translate>
+|-
+| {{L|Dr. Gero's Lab}} || <translate>Capsule Corp Assistant, tier 4</translate> || <translate>16 Iron Ingots</translate>
+|-
+| {{L|Trunks' Ship}} || <translate>Capsule Corp Assistant, tier 4</translate> || <translate>1 Iron Sword</translate>
+|-
+| {{L|Vegeta's Saiyan Pod}} || <translate>Capsule Corp Assistant, tier 5</translate> || <translate>1 Red Scouter</translate>
+|-
+| {{L|Babidi's Spaceship}} || <translate>Capsule Corp Assistant, tier 5</translate> || <translate>4 Ender Pearls</translate>
+|-
+| {{L|Majin Buu's House}} || <translate>Capsule Corp Assistant, tier 5 (always offered)</translate> || <translate>1 Cake</translate>
+|-
+| {{L|Frieza's Ship}} || <translate>[[Special:MyLanguage/Capsule Corp Namekian|Capsule Corp Namekian]]</translate> || <translate>1 Tier-1 Radar Chip</translate>
+|-
+| {{L|Grand Elder's House}} || <translate>Capsule Corp Namekian</translate> || <translate>1 Healing Bucket</translate>
+|-
+| {{L|Big Gete Star}} || <translate>[[Special:MyLanguage/Namekian Trader|Namekian Trader]]</translate> || <translate>16 Emeralds</translate>
+|-
+| <translate>Tamagami Number Three, Two and One lairs</translate> || <translate>[[Special:MyLanguage/Time Patroller|Time Patroller]]</translate> || <translate>12, 16 and 20 Emeralds</translate>
+|-
+| {{L|Gomah's Horn Cradle}} || <translate>Time Patroller</translate> || <translate>24 Emeralds</translate>
+|}
+
+<translate>
+Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace map is offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.
+</translate>
+
+{{Navbox Structures}}
+
+[[Category:Structures{{#translation:}}]]

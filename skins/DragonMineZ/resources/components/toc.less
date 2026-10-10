@@ -1,0 +1,136 @@
+.mw-body-content .toc,
+.mw-body-content #toc {
+	position: relative;
+	display: inline-block;
+	min-width: 260px;
+	max-width: 100%;
+	margin: 6px 0 22px;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid var( --glass-strong );
+	border-radius: 16px;
+	background: var( --surface-elevated );
+	font-size: 13.5px;
+	line-height: 1.45;
+
+	.toctitle {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 10px 44px 10px 14px;
+		border-bottom: 1px solid var( --glass );
+		direction: ltr;
+
+		&::before {
+			content: 'toc';
+			color: var( --muted );
+			font-family: 'Material Symbols Rounded';
+			font-size: 19px;
+			font-weight: normal;
+			line-height: 1;
+			font-feature-settings: 'liga';
+		}
+
+		h2 {
+			display: inline;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			color: var( --foreground );
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 700;
+			font-style: normal;
+			letter-spacing: -0.01em;
+		}
+	}
+
+	.toctogglespan {
+		position: static;
+	}
+
+	.toctogglelabel {
+		position: absolute;
+		inset: 0;
+		cursor: pointer;
+		font-size: 0;
+
+		&::after {
+			content: 'expand_less';
+			position: absolute;
+			top: 50%;
+			right: 12px;
+			color: var( --muted );
+			font-family: 'Material Symbols Rounded';
+			font-size: 20px;
+			font-weight: normal;
+			line-height: 1;
+			font-feature-settings: 'liga';
+			transform: translateY( -50% );
+		}
+	}
+
+	.toctogglecheckbox {
+		display: none;
+	}
+
+	.toctogglecheckbox:checked ~ .toctitle {
+		border-bottom-color: transparent;
+
+		.toctogglelabel::after {
+			content: 'expand_more';
+		}
+	}
+
+	.toctogglecheckbox:checked ~ ul {
+		display: none;
+	}
+
+	ul {
+		margin: 0;
+		padding: 8px 8px 10px;
+		list-style: none;
+	}
+
+	ul ul {
+		margin: 0 0 0 18px;
+		padding: 0;
+	}
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+
+	a {
+		display: flex;
+		gap: 8px;
+		padding: 4px 8px;
+		border-radius: 8px;
+		color: var( --fg-80 );
+		font-weight: 600;
+		text-decoration: none;
+
+		&:hover {
+			background: var( --glass );
+			color: var( --link );
+			text-decoration: none;
+		}
+	}
+
+	.tocnumber {
+		min-width: 1.4em;
+		color: var( --muted );
+		font-variant-numeric: tabular-nums;
+	}
+
+	.toctext {
+		color: inherit;
+	}
+}
+
+.mw-body-content .toclimit-3 .toclevel-2 ul,
+.mw-body-content .toclimit-2 .toclevel-1 ul {
+	display: none;
+}

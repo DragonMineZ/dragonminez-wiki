@@ -1,0 +1,161 @@
+<translate>
+DragonMineZ adds dozens of character-themed '''armor sets''': Goku, Vegeta, Piccolo, Bardock, Trunks, the Androids, the DBOnline clans and many more. They aren't made at a vanilla crafting table. Crafting a set takes two steps:
+
+# Paint the set's '''armor pattern''' (its blueprint) at a '''Pattern Station'''.
+# Assemble each piece at '''Dr. Kikono's Station''', which runs on '''Star Energy'''.
+
+DMZ armor is real protective gear: it adds to the defense you get from your Resistance stat. Two special sets, The Strongest Armor and the Invincible Armor, are dragon wishes instead.
+</translate>
+
+<div class="dmz-cards">
+{{Card|Z Armor Sets|<translate>The 51 sets painted on a Blank Pattern (Z), from Goku's GI to the DBOnline clans.</translate>}}
+{{Card|Super Armor Sets|<translate>The 31 sets painted on a Blank Pattern (Super), from Whis Symbol GIs to the Time Patrol.</translate>}}
+{{Card|The Strongest Armor|<translate>A set granted by Shenron's wish.</translate>}}
+{{Card|Invincible Armor|<translate>Two sets granted by Porunga's wishes.</translate>}}
+</div>
+
+<translate>
+== What you need ==
+</translate>
+{| class="wikitable"
+! <translate>Thing</translate> !! <translate>Role</translate>
+|-
+| <translate>Pattern Station (block)</translate> || <translate>A two-block-tall workbench where you paint armor patterns.</translate>
+|-
+| <translate>Blank Pattern (Z) / Blank Pattern (Super)</translate> || <translate>The blank blueprints you paint at the Pattern Station.</translate>
+|-
+| <translate>Dr. Kikono's Station (block)</translate> || <translate>The armor-crafting machine. Holds up to '''2,000 Star Energy'''.</translate>
+|-
+| <translate>Fuel Generator (block)</translate> || <translate>Burns fuel to produce '''Star Energy''' (holds up to 1,000).</translate>
+|-
+| <translate>Energy Cable (block)</translate> || <translate>Carries energy from the generator to the station.</translate>
+|-
+| <translate>Kikono materials</translate> || <translate>'''Kikono Cloth''' and '''Kikono String''', made from Kikono Shards mined on [[Special:MyLanguage/Namek|Namek]] (see [[Special:MyLanguage/Kikono Materials|Kikono Materials]]).</translate>
+|-
+| <translate>Armor Crafting Kit</translate> || <translate>Needed to craft Kikono String, Kikono Cloth and the Pattern Station. It isn't consumed.</translate>
+|-
+| <translate>Template</translate> || <translate>A vanilla iron armor piece of the matching slot (Iron Helmet, Chestplate, Leggings or Boots), used as the base.</translate>
+|}
+
+<translate>
+== Crafting the equipment ==
+
+All of these are made at a normal crafting table.
+</translate>
+{| class="wikitable"
+! <translate>Result</translate> !! <translate>Recipe</translate>
+|-
+| <translate>Armor Crafting Kit</translate> || <translate>Red Wool + Shears (shapeless)</translate>
+|-
+| <translate>Kikono String ×2</translate> || <translate>Kikono Shard + Armor Crafting Kit (shapeless)</translate>
+|-
+| <translate>Kikono Cloth</translate> || <translate>4 Kikono String + Armor Crafting Kit (shapeless)</translate>
+|-
+| <translate>Pattern Station</translate> || <translate><code>T S T / Q K Q / T S T</code>: T is a Crafting Table, S is a Quartz Slab, Q is a Block of Quartz, K is an Armor Crafting Kit</translate>
+|-
+| <translate>Blank Pattern (Z)</translate> || <translate><code>R R R / P W P / R R R</code>: R is Red Wool, P is Paper, W is White Wool</translate>
+|-
+| <translate>Blank Pattern (Super)</translate> || <translate><code>C B C / P W P / C B C</code>: C is Cyan Wool, B is a Blank Pattern (Z), P is Paper, W is White Wool</translate>
+|-
+| <translate>Dr. Kikono's Station</translate> || <translate><code>A C A / K T K / P S P</code>: A is an Anvil, C is a Diamond Chestplate, K is a Kikono Block, T is a Radar's CPU (Namek), P is a Heavy Weighted Pressure Plate, S is a Smithing Table</translate>
+|-
+| <translate>Fuel Generator</translate> || <translate>8 Crying Obsidian around a Radar's Chip (Earth)</translate>
+|-
+| <translate>Energy Cable ×4</translate> || <translate>4 Black Wool around a Radar's Chip (Earth), in a plus shape</translate>
+|}
+<translate>
+See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the Radar's Chip and Radar's CPU.
+</translate>
+
+<translate>
+== Painting the pattern ==
+
+Open the '''Pattern Station''' to get a '''6×6 grid'''. Each armor pattern is a small piece of '''pixel art''': place the matching blank pattern in its cell of the grid and fill the other cells with '''dyes''' (any of the 16 colors) and '''gold nuggets''' following the design. When the picture matches, the finished pattern appears in the result slot. Empty cells must stay empty.
+
+* Dragon Ball Z sets use a '''Blank Pattern (Z)''' (see [[Special:MyLanguage/Z Armor Sets|Z Armor Sets]]).
+* Dragon Ball Super sets use a '''Blank Pattern (Super)''' (see [[Special:MyLanguage/Super Armor Sets|Super Armor Sets]]).
+* With '''JEI''' installed, every pattern design can be looked up in its own ''Pattern Station'' recipe category.
+
+The '''Gete Pattern''' is not painted: Bulma hands it out through her Gete sidequests (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).
+</translate>
+
+<translate>
+== Assembling the armor ==
+</translate>
+
+<translate>
+=== Star Energy ===
+
+Dr. Kikono's Station runs on '''Star Energy''', which you generate yourself:
+
+# Place a '''Fuel Generator''' and put '''any furnace fuel''' in it (coal, charcoal, wood, blaze rods, lava buckets…). It burns fuel just like a furnace, filling its energy buffer.
+# Connect the generator to the station with '''Energy Cables'''.
+# The station draws the energy it needs from the network.
+
+Each armor piece costs '''1,000 Star Energy''' and takes '''10 seconds''' by default. The [[Special:MyLanguage/Gravity Device|Gravity Device]] runs on the same Star Energy network.
+</translate>
+
+<translate>
+=== Procedure ===
+
+# Mine '''Namek Deepslate Kikono Ore''' on Namek for '''Kikono Shards''', then craft '''Kikono String''' and '''Kikono Cloth'''.
+# Set up a '''Fuel Generator''', '''Energy Cables''' and '''Dr. Kikono's Station''', and fuel the generator.
+# Open the station and load the '''pattern''' of the armor you want, the '''template''' (the matching iron armor piece) and the '''Kikono materials''' in the shape of that piece.
+# With enough Star Energy, the station crafts the piece. Repeat for each piece of the set.
+</translate>
+{| class="wikitable"
+! <translate>Piece</translate> !! <translate>Kikono Cloth</translate> !! <translate>Kikono String</translate> !! <translate>Template</translate>
+|-
+| <translate>Helmet (only some sets)</translate> || 2 || 3 || <translate>Iron Helmet</translate>
+|-
+| <translate>Chestplate</translate> || 5 || 3 || <translate>Iron Chestplate</translate>
+|-
+| <translate>Leggings</translate> || 5 || 2 || <translate>Iron Leggings</translate>
+|-
+| <translate>Boots</translate> || 2 || 2 || <translate>Iron Boots</translate>
+|}
+
+<translate>
+The station can copy enchantments from the template onto the result. With the matching mods installed, it can also copy Weapon Leveling levels and Apotheosis affixes and sockets. Server owners toggle this in the server config.
+</translate>
+{{Config|General Server Config|crafting}}
+
+<translate>
+The same station also makes the '''Gete tools''' (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).
+</translate>
+
+<translate>
+== Defense and resistance ==
+
+Every crafted set uses the '''Kikono''' armor material:
+</translate>
+{| class="wikitable"
+! <translate>Piece</translate> !! <translate>Armor points</translate>
+|-
+| <translate>Helmet</translate> || 2
+|-
+| <translate>Chestplate</translate> || 35
+|-
+| <translate>Leggings</translate> || 26
+|-
+| <translate>Boots</translate> || 16
+|}
+<translate>
+Each piece also gives '''5 toughness''' and '''0.1 knockback resistance''', and can be repaired with Kikono Shards.
+
+This '''stacks on top of your Resistance (RES) stat''': DMZ adds '''50% of your armor value''' and '''70% of your armor toughness''' to your Defense. RES is your character's built-in defense: it drives your damage mitigation, max Stamina and Poise (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). A well-geared fighter takes noticeably less damage and is harder to stagger. See [[Special:MyLanguage/Combat|Combat]] for how mitigation and poise work in fights, and [[Special:MyLanguage/Enchantments|Enchantments]] for DMZ's armor enchantments.
+</translate>
+
+<translate>
+== Battle damage ==
+
+A few sets, Goku's Turtle Hermit GI, Great Saiyaman and Vegeta's Saiyan armor, switch to a torn, battle-damaged look once they drop below half durability. Resource packs can add a damaged look to any set by shipping <code>textures/armor/&lt;set&gt;_damaged_layer1.png</code> and <code>_damaged_layer2.png</code>.
+</translate>
+
+<translate>
+== Wish armor ==
+
+[[Special:MyLanguage/The Strongest Armor|The Strongest Armor]] and the [[Special:MyLanguage/Invincible Armor|Invincible Armor]] aren't crafted: they are dragon wishes (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]).
+</translate>
+
+{{Navbox Items}}

@@ -1,0 +1,28 @@
+{{>Header}}
+<div class="dmz-shell{{#is-dmz-sidebar-collapsed}} is-sidebar-collapsed{{/is-dmz-sidebar-collapsed}}" id="dmz-shell">
+	<div class="dmz-frame{{#has-dmz-rail}} has-rail{{/has-dmz-rail}}">
+		{{#has-dmz-navigation}}{{>Sidebar}}{{/has-dmz-navigation}}
+		<main id="content" class="mw-body dmz-panel dmz-content" role="main">
+			{{>PageTabs}}
+			<div class="dmz-content__inner">
+				<div id="siteNotice" class="dmz-site-notice">{{{html-site-notice}}}</div>
+				{{{html-user-message}}}
+				{{#is-dmz-home}}{{>Hero}}{{/is-dmz-home}}
+				{{>PageHeader}}
+				{{{html-dmz-translation-notice}}}
+				<div id="bodyContent" class="mw-body-content dmz-article">
+					<div id="contentSub"{{{html-user-language-attributes}}}>{{{html-subtitle}}}</div>
+					<div id="contentSub2">{{{html-undelete-link}}}</div>
+					{{{html-body-content}}}
+					<div class="dmz-clear"></div>
+					{{{html-categories}}}
+				</div>
+				{{{html-after-content}}}
+			</div>
+		</main>
+		{{#has-dmz-rail}}<aside class="dmz-rail" aria-label="{{msg-dmz-rail-label}}">{{{html-dmz-rail}}}</aside>{{/has-dmz-rail}}
+	</div>
+</div>
+{{>Footer}}
+{{>FloatingMenu}}
+{{>SearchOverlay}}

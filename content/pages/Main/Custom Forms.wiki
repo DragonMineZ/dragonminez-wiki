@@ -1,0 +1,282 @@
+<translate>
+'''Custom forms''' are transformations you add or change with JSON files. Forms can live in two places; both use exactly the same JSON schema and Java class (<code>FormConfig.java</code>), and only the folder they sit in changes what they mean:
+</translate>
+
+{| class="wikitable"
+! <translate>Location</translate> !! <translate>What it is</translate>
+|-
+| <code>config/dragonminez/races/<race>/forms/*.json</code> || <translate>'''Race forms''' belong to one race only (for example, Super Saiyan only exists for Saiyans). See [[Special:MyLanguage/Custom Races|Custom Races]].</translate>
+|-
+| <code>config/dragonminez/forms/*.json</code> || <translate>'''Stack forms''' are shared by all races and designed to layer on top of whatever race form is already active.</translate>
+|}
+
+<translate>
+This page is about the second kind, stack forms, but the [[Special:MyLanguage/Custom Forms#Field reference|field reference]] below applies to race forms too.
+</translate>
+
+<translate>
+Loader: <code>ConfigManager.createOrLoadStackForms()</code> reads every file in <code>config/dragonminez/forms/</code> (<code>ConfigLoader.loadStackForms</code>). Files whose name starts with <code>old_</code> are ignored.
+</translate>
+
+<translate>
+== What a stack form is ==
+</translate>
+{{Main|Transformations}}
+<translate>
+A stack form doesn't replace your current transformation: it stacks its multipliers on top of it. The clearest example is [[Special:MyLanguage/Kaioken|Kaioken]]: a Saiyan can be in base form or Super Saiyan and ''also'' be in Kaioken x2 at the same time, multiplying whatever form they are already in. The built-in stack form groups are <code>kaioken</code> (x2, x3, x4, x10, x20) and <code>ultimate</code> (<code>StackForms.java</code>).
+</translate>
+
+<translate>
+A stack group is unlocked by the stack skill named in its <code>formType</code>: <code>kaioken</code> or <code>ultimate</code>. A form of the group becomes available when that skill reaches the form's <code>unlockOnSkillLevel</code>.
+</translate>
+
+<translate>
+== File structure ==
+</translate>
+<translate>
+There is one file per group, for example <code>config/dragonminez/forms/kaioken.json</code> (shortened):
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "configVersion": "2.2.0",
+  "groupName": "kaioken",
+  "formType": "kaioken",
+  "forms": {
+    "x2": {
+      "name": "x2",
+      "unlockOnSkillLevel": 1,
+      "keepBaseFormHeadBones": true,
+      "strMultiplier": 1.1,
+      "skpMultiplier": 1.1,
+      "defMultiplier": 1.125,
+      "pwrMultiplier": 1.1,
+      "speedMultiplier": 1.1,
+      "healthDrain": 0.03,
+      "attackSpeed": 1.1,
+      "tintColor": "#FF0000",
+      "tintIntensity": 0.1,
+      "auraColor": "#DB182C",
+      "auraLayer": 1,
+      "formStackable": true,
+      "stackDrainMultiplier": 1.0,
+      "incompatibleWith": ["ultimate.ultimate"],
+      "shareMasteryWith": ["kaioken.x3"],
+      "shareMasteryMultiplier": 0.25
+    }
+  }
+}
+</syntaxhighlight>
+
+<translate>
+<code>groupName</code> is the group key (lowercase); groups are identified by it, not by the filename. Everything nested under <code>forms</code> is one form entry, keyed by its own <code>name</code>. Any field you leave out takes the default shown below.
+</translate>
+
+{{Note|type=config|title=<translate>Config version</translate>|text=<translate>Use <code>"configVersion": "2.2.0"</code>. A custom form file with an older or missing version is backed up to <code>config/dragonminez/oldBackup/</code> and saved again with the current version; your values are kept. A file with broken JSON syntax is skipped and reported until you fix it.</translate>}}
+
+<translate>
+== Field reference ==
+</translate>
+<translate>
+Schema source: <code>src/main/java/com/dragonminez/common/config/FormConfig.java</code>.
+</translate>
+
+<translate>
+=== Unlock and requirements ===
+</translate>
+{{Config|General Server Config|gameplay}}
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>name</code> || <translate>String</translate> || <code>""</code> || <translate>Form key within the group (for example <code>x2</code>, <code>x3</code> or <code>ultimate</code>).</translate>
+|-
+| <code>unlockOnSkillLevel</code> || <translate>Integer</translate> || <code>0</code> || <translate>Level of the group's form skill that unlocks this form.</translate>
+|-
+| <code>formRequisite</code> || <translate>String</translate> || <code>""</code> || <translate>Other forms that must be mastered first, as <code>"group.form"</code>. Separate several with commas.</translate>
+|-
+| <code>formRequisiteType</code> || <translate>String</translate> || <code>all</code> || <translate><code>all</code>: every listed form needs the mastery. <code>any</code>: one is enough.</translate>
+|-
+| <code>unlockOnMastery</code> || <translate>Double</translate> || <code>0.0</code> || <translate>Mastery the <code>formRequisite</code> forms need. <code>0</code> turns the requirement off.</translate>
+|-
+| <code>levelRequisite</code> || <translate>Integer</translate> || <code>0</code> || <translate>Player level needed. Until it is reached, the form skill cannot be leveled up to this form. Toggle: <code>levelFormRequisiteEnabled</code> in <code>general-server.json</code> → <code>gameplay</code>.</translate>
+|-
+| <code>sagaRequisite</code> || <translate>String</translate> || <code>""</code> || <translate>Saga quest that must be completed first, as <code>"sagaId:questId"</code> (for example <code>"frieza_saga:10"</code>). Until it is completed, the form skill cannot be leveled up to this form. Ignored when story mode is off or the quest does not exist. Toggle: <code>sagaFormRequisiteEnabled</code> in <code>general-server.json</code> → <code>gameplay</code>.</translate>
+|}
+
+<translate>
+=== Visuals ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>customModel</code> || <translate>String</translate> || <code>""</code> || <translate>Model key for the form. Looked up like a race model: built-in keys or your own <code>geo/entity/races/<key>.geo.json</code> (see [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]]). A stack form's model wins over the race form's.</translate>
+|-
+| <code>keepBaseFormHeadBones</code> || <translate>Boolean</translate> || <code>false</code> || <translate>Keeps the player's chosen head bone (ears, horns and so on) visible in this form.</translate>
+|-
+| <code>hideTail</code> || <translate>Boolean</translate> || <code>false</code> || <translate>Hides the Saiyan tail while in this form.</translate>
+|-
+| <code>transformationAnimation</code> || <translate>String</translate> || <code>transf.generic</code> || <translate>Animation played while charging into this form. Built-in values: <code>transf.generic</code>, <code>transf.ssj</code>, <code>transf.ssj3</code>, <code>transf.ssg2</code>, <code>transf.ozaru</code>, <code>transf.absorb</code>, <code>transf.berserker</code>, <code>transf.freezer</code>, <code>transf.freezer2</code>, <code>transf.janemba</code>, <code>transf.daima</code>. Any animation name from the player animation files (<code>assets/dragonminez/animations/entity/races/*.animation.json</code>) works, so a resource pack can add its own. Empty means the generic animation.</translate>
+|-
+| <code>bodyColor1</code>, <code>bodyColor2</code>, <code>bodyColor3</code>, <code>hairColor</code>, <code>eye1Color</code>, <code>eye2Color</code> || <translate>Hex string</translate> || <code>""</code> || <translate>Color overrides. Empty keeps the player's color. Colors blend in while charging.</translate>
+|-
+| <code>furUsesHairColor</code> || <translate>Boolean</translate> || <code>false</code> || <translate>On SSJ4 models (a <code>customModel</code> containing <code>ssj4gt</code> or <code>ssj4d</code>), colors the fur with the hair color.</translate>
+|-
+| <code>hairType</code> || <translate>String</translate> || <code>""</code> || <translate>Which of the player's hair styles to show: <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> or <code>ssj4</code>.</translate>
+|-
+| <code>forcedHairCode</code> || <translate>String</translate> || <code>""</code> || <translate>A hair code (from the hair editor) forced while in this form.</translate>
+|-
+| <code>extraFormLayer</code>, <code>extraFormColor</code> || <translate>String / Hex</translate> || <code>""</code> || <translate>Extra texture drawn over the body, tinted with <code>extraFormColor</code> (white if empty). Use a full <code>namespace:path</code> or a path inside the <code>dragonminez</code> namespace, for example <code>textures/entity/races/my_overlay.png</code>.</translate>
+|-
+| <code>auraType</code> || <translate>String</translate> || <code>kakarot</code> || <translate>2D aura sprite set: <code>kakarot</code> or <code>god</code>.</translate>
+|-
+| <code>auraType3D</code> || <translate>String</translate> || <code>userPreference</code> || <translate>3D aura style: <code>smooth</code>, <code>sparking</code>, <code>god</code> or <code>userPreference</code> (each player's own setting). A form that names <code>god</code> shows it for any race; as a player preference it is Glind-only.</translate>
+|-
+| <code>auraColor</code> || <translate>Hex string</translate> || <code>""</code> || <translate>Aura color. Empty keeps the player's aura color.</translate>
+|-
+| <code>auraLayer</code> || <translate>Integer</translate> || <code>0</code> || <translate>Aura layer slot. Forms on different layers show separate auras at the same time (the Kaioken forms use layer <code>1</code>).</translate>
+|-
+| <code>aura3DStyle</code> || <translate>Object</translate> || <translate>See below</translate> || <translate>Shape of the 3D aura (see [[Special:MyLanguage/Custom Forms#3D aura shape|3D aura shape]]).</translate>
+|-
+| <code>extraAuraType</code>, <code>extraAuraType3D</code>, <code>extraAuraColor</code>, <code>extraAuraLayer</code>, <code>extraAura3DStyle</code> || — || <translate><code>kakarot</code>, <code>userPreference</code>, <code>#FFFFFF</code>, <code>-1</code>, defaults</translate> || <translate>A second aura. <code>extraAuraLayer</code> must be <code>1</code>–<code>6</code> to show; <code>-1</code> means none.</translate>
+|-
+| <code>hasLightnings</code>, <code>lightningColor</code> || <translate>Boolean / Hex</translate> || <code>false</code>, <code>""</code> || <translate>Lightning bolts around the player.</translate>
+|-
+| <code>modelScaling</code> || <translate><code>[x, y, z]</code> floats</translate> || <code>[0.9375, 0.9375, 0.9375]</code> || <translate>Model scale factors.</translate>
+|-
+| <code>tintColor</code>, <code>tintIntensity</code> || <translate>Hex / Double</translate> || <code>#FF0000</code>, <code>0.0</code> || <translate>Color tint over the player while transformed. <code>0</code> means no tint.</translate>
+|-
+| <code>outlineShader</code> || <translate>Object</translate> || — || <translate><code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).</translate>
+|}
+
+<translate>
+=== 3D aura shape ===
+</translate>
+<translate>
+These keys go inside <code>aura3DStyle</code> and <code>extraAura3DStyle</code> (and inside a race's <code>aura3DStyle</code> in <code>character.json</code>). Every key is optional; a missing key uses the default.
+</translate>
+
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>size</code> || <code>[1.10, 1.17, 1.02]</code> || <translate>Width, height and depth of the aura shell.</translate>
+|-
+| <code>flamePeaks</code> || <code>12</code> || <translate>Number of flame tongues around the shell (1–64). Smooth style only.</translate>
+|-
+| <code>waveFrequency</code>, <code>waveSpeed</code>, <code>waveAmplitude</code> || <code>2.0</code>, <code>5.0</code>, <code>0.75</code> || <translate>Flame waves. In the sparking style, <code>waveAmplitude</code> is the spike reach and <code>waveSpeed</code> is the surge speed.</translate>
+|-
+| <code>noiseDetail</code>, <code>upwardBias</code> || <code>0.10</code>, <code>0.54</code> || <translate>Flame turbulence, and how strongly it flows upwards.</translate>
+|-
+| <code>coreAlpha</code>, <code>rimAlpha</code>, <code>rimPower</code>, <code>rimThreshold</code> || <code>0.05</code>, <code>1.0</code>, <code>4.0</code>, <code>0.05</code> || <translate>Opacity of the center and of the edge.</translate>
+|-
+| <code>coreColor</code>, <code>rimColor</code>, <code>noiseColor</code> || <code>""</code> || <translate>Hex colors. Empty means derived from the aura color.</translate>
+|-
+| <code>secondBorderColor</code> || <code>""</code> || <translate>Hex color of an outer fringe around the edge. Sparking style only; empty means no fringe.</translate>
+|-
+| <code>bloomIntensity</code> || <code>1.0</code> || <translate>Glow strength.</translate>
+|-
+| <code>spikeDensity</code>, <code>spikeBurstRate</code>, <code>spikeRarity</code>, <code>bandStart</code> || <code>32</code>, <code>3.0</code>, <code>3.0</code>, <code>0.50</code> || <translate>Sparking style only: spike columns (4–32), burst rate, how rare spikes are, and where the outline band starts.</translate>
+|}
+
+<translate>
+=== Stats and drains ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>strMultiplier</code>, <code>skpMultiplier</code>, <code>stmMultiplier</code>, <code>defMultiplier</code>, <code>vitMultiplier</code>, <code>pwrMultiplier</code>, <code>eneMultiplier</code>, <code>speedMultiplier</code> || <translate>Double</translate> || <code>1.0</code> || <translate>Stat multipliers. RES uses the average of <code>defMultiplier</code> and <code>stmMultiplier</code>. A race form and a stack form add their bonuses together, or multiply them if <code>multiplicationInsteadOfAdditionForMultipliers</code> is on in <code>general-server.json</code>.</translate>
+|-
+| <code>attackSpeed</code> || <translate>Double</translate> || <code>1.0</code> || <translate>Attack speed multiplier.</translate>
+|-
+| <code>energyDrain</code>, <code>staminaDrain</code>, <code>healthDrain</code> || <translate>Double</translate> || <code>0.0</code> || <translate>Drain while transformed (also used for the cost of transforming). Values below <code>0</code> are treated as <code>0</code>.</translate>
+|-
+| <code>staminaDrainMultiplier</code> || <translate>Double</translate> || <code>1.0</code> || <translate>Multiplier on the stamina each attack costs while transformed.</translate>
+|-
+| <code>otherworldTimeDrain</code>, <code>otherworldTimeDrainMastered</code> || <translate>Double</translate> || <code>1.0</code>, <code>1.0</code> || <translate>How fast this form drains Baba's temporary-revive timer, at 0 mastery and at full mastery (blended in between). See [[Special:MyLanguage/Otherworld|Otherworld]].</translate>
+|}
+
+<translate>
+=== Mastery ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>maxMastery</code> || <translate>Double</translate> || <code>100.0</code> || <translate>Maximum mastery (<code>0</code> means no mastery progression).</translate>
+|-
+| <code>masteryPerHitDealt</code>, <code>masteryPerHitReceived</code> || <translate>Double</translate> || <code>0.01</code> || <translate>Mastery gained per hit.</translate>
+|-
+| <code>passiveMasteryEveryFiveSeconds</code> || <translate>Double</translate> || <code>0.001</code> || <translate>Passive mastery gained every 5 seconds in the form.</translate>
+|-
+| <code>maxStatsMultiplier</code> || <translate>Double</translate> || <code>1.25</code> || <translate>At full mastery, stat multipliers above <code>1</code> are multiplied by this (scales up linearly with mastery).</translate>
+|-
+| <code>maxCostMultiplier</code> || <translate>Double</translate> || <code>0.5</code> || <translate>At full mastery, the form's drains are multiplied by this (scales linearly with mastery).</translate>
+|-
+| <code>stackOnMastery</code> || <translate>Double</translate> || <code>0.0</code> || <translate>Mastery this form needs before it can be combined with a stack form (or, for a stack form, with a race form).</translate>
+|-
+| <code>instantTransformOnMastery</code> || <translate>Double</translate> || <code>40.0</code> || <translate>Mastery this form needs for instant transformation (no charge, costs ki).</translate>
+|-
+| <code>allowFreeTransformOnMastery</code> || <translate>Double</translate> || <code>50.0</code> || <translate>Mastery this form needs before you can transform straight into it instead of going through the group in order. The group's first unlocked form never needs it.</translate>
+|-
+| <code>shareMasteryWith</code>, <code>shareMasteryMultiplier</code> || <translate>List / Double</translate> || <code>[]</code>, <code>1.0</code> || <translate>Whenever this form gains mastery, each listed form (<code>"group.form"</code>) gains that amount × <code>shareMasteryMultiplier</code>. The default Kaioken forms share 25% with the next one up.</translate>
+|}
+
+<translate>
+=== Stacking behavior ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>formStackable</code> || <translate>Boolean</translate> || <code>true</code> || <translate>Both the race form and the stack form must allow stacking.</translate>
+|-
+| <code>stackDrainMultiplier</code> || <translate>Double</translate> || <code>2.0</code> || <translate>While a race form and a stack form are combined, the drains of both forms are multiplied by the <code>stackDrainMultiplier</code> of both forms.</translate>
+|-
+| <code>incompatibleWith</code> || <translate>List of <code>"group.form"</code></translate> || <code>["ultimate.ultimate"]</code> || <translate>Forms that cannot be active at the same time as this one (checked both ways). On a race form, listing <code>ultimate.ultimate</code> also keeps the Ultimate form from copying it as your best form; DragonMineZ's own forms only list it on each race's top tier.</translate>
+|-
+| <code>formCombo</code> || <translate>String</translate> || <code>""</code> || <translate>Weapon attributes id used for melee combos while in this form, for example <code>dragonminez:giant</code> for giant forms. A bare name is looked up under <code>dragonminez:</code>, then <code>minecraft:</code>. See [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]].</translate>
+|}
+
+<translate>
+=== Costs and effects ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>triggerItemCosts</code> || <translate>List of <code>{ itemId</code> or <code>itemTag, nbt, count, consume }</code></translate> || <translate>Items needed to transform. Entries are alternatives: the first one the player can pay is used. <code>count</code> defaults to <code>1</code> and <code>consume</code> to <code>true</code>. <code>itemTag</code> is a tag id without <code>#</code>. Creative players skip it.</translate>
+|-
+| <code>durationItemCosts</code> || <translate>List of <code>{ itemId</code> or <code>itemTag, nbt, durationSeconds }</code></translate> || <translate>Items that keep the form going: one item buys <code>durationSeconds</code> (default <code>1</code>) of form time. When none is left, the form ends.</translate>
+|-
+| <code>mobEffects</code> || <translate>List of <code>{ effectId, amplifier, durationTicks, ambient, visible, showIcon }</code></translate> || <translate>Potion effects applied while transformed. <code>durationTicks</code> <code>-1</code> (the default) means as long as the form lasts.</translate>
+|}
+
+<translate>
+== Translation keys ==
+</translate>
+<translate>
+Stack form groups and forms are named with these keys:
+</translate>
+
+<syntaxhighlight lang="text">
+race.dragonminez.stack.group.<groupName>       # e.g. "race.dragonminez.stack.group.kaioken" -> "Kaioken"
+race.dragonminez.stack.form.<groupName>.<name>  # e.g. "race.dragonminez.stack.form.kaioken.x2" -> "x2"
+</syntaxhighlight>
+
+<translate>
+Add these to your <code>en_us.json</code> or to your own language file. Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+<translate>
+# Save your file under <code>config/dragonminez/forms/</code>.
+# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
+# Run <code>/dmzreload config</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
+# Transform in game and check that stats, drains, visuals and stacking behave as expected.
+</translate>
+
+{{Navbox Modding}}

@@ -1,0 +1,217 @@
+<translate>
+'''Custom races''' are playable races you add to DragonMineZ with config files alone. No Java code or add-on jar is needed: a folder with a few JSON files defines the race's look, its classes, its racial skill and its transformations, and the race then shows up in character creation.
+</translate>
+
+<translate>
+== How DragonMineZ finds races ==
+</translate>
+<translate>
+DragonMineZ loads its built-in races first (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>), then scans the subfolders of <code>config/dragonminez/races/</code>. Any other folder name there is treated as a custom race key (use lowercase). Each race folder holds:
+</translate>
+
+<syntaxhighlight lang="text">
+config/dragonminez/races/<race_key>/
+  character.json      # appearance, model, racial skill, form skill prices
+  stats.json          # per-class base stats and scaling
+  forms/*.json        # the race's transformation groups
+</syntaxhighlight>
+
+<translate>
+If you create an empty folder, DragonMineZ generates a <code>character.json</code> and a <code>stats.json</code> with neutral defaults the next time configs load. It does '''not''' generate any forms for a custom race: you add those yourself (see step 3).
+</translate>
+
+<translate>
+For a good starting point, copy an existing race folder (for example <code>races/saiyan/</code>), rename it and tune the values inside.
+</translate>
+
+<translate>
+Source: <code>src/main/java/com/dragonminez/common/config/ConfigManager.java</code> (<code>loadAllRaces</code>, <code>createOrLoadRace</code>).
+</translate>
+
+{{Note|type=config|title=<translate>Config version</translate>|text=<translate>Every file carries a <code>"configVersion"</code> string (currently <code>"2.2.0"</code>). A custom file with an older or missing version is backed up to <code>config/dragonminez/oldBackup/</code> and saved again with the current version; your values are kept. A file with broken JSON syntax is never overwritten: it is reported and skipped until you fix it. See [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].</translate>}}
+
+<translate>
+== Step 1: Configure the character ==
+</translate>
+<translate>
+<code>character.json</code> sets the race's appearance, model, racial skill and form skill prices:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "configVersion": "2.2.0",
+  "hasGender": false,
+  "useVanillaSkin": false,
+  "customModel": "saibaman",
+  "isLayered": true,
+  "headBones": ["ears1"],
+  "racialSkill": "namekian",
+  "hasSaiyanTail": false,
+  "auraType": "kakarot",
+  "auraType3D": "userPreference",
+  "defaultModelScaling": [0.9375, 0.9375, 0.9375],
+  "defaultBodyType": 0,
+  "slimBodyTypes": [],
+  "defaultHairType": 0,
+  "defaultEyesType": 0,
+  "defaultNoseType": 0,
+  "defaultMouthType": 0,
+  "defaultTattooType": 0,
+  "defaultBodyColor": "#3E8E2E",
+  "defaultBodyColor2": "#2A5C20",
+  "defaultBodyColor3": "#9BD36A",
+  "defaultHairColor": "#222629",
+  "defaultEye1Color": "#B40000",
+  "defaultEye2Color": "#B40000",
+  "defaultAuraColor": "#7FFF00",
+  "formSkillsCosts": {
+    "superforms": { "buyFromMaster": false, "prices": [20000, 45000, 80000] },
+    "godforms": { "buyFromMaster": false, "prices": [] },
+    "legendaryforms": { "buyFromMaster": false, "prices": [] }
+  }
+}
+</syntaxhighlight>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>hasGender</code> || <translate>Boolean</translate> || <translate><code>true</code> gives the race a male/female choice. Custom models and textures then use <code>_male</code> / <code>_female</code> suffixes (see [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]]).</translate>
+|-
+| <code>useVanillaSkin</code> || <translate>Boolean</translate> || <translate>When <code>true</code>, body type <code>0</code> renders the player's own Minecraft skin; the race's own body textures start at body type <code>1</code>.</translate>
+|-
+| <code>customModel</code> || <translate>String</translate> || <translate>Model key. Empty means the race looks like a Human. A built-in key (for example <code>namekian</code>, <code>majin</code> or <code>frostdemon</code>) reuses that model and its textures; any other key loads your own model. The built-in keys are listed on [[Special:MyLanguage/Custom Models and Assets#Built-in model keys|Custom Models and Assets]].</translate>
+|-
+| <code>isLayered</code> || <translate>Boolean</translate> || <translate><code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces.</translate>
+|-
+| <code>headBones</code> || <translate>List of strings</translate> || <translate>Bone names the player can choose from in character customization (one at a time, plus a "none" option), for example ears, horns or antennas. Join bones with <code>+</code> to show several at once (<code>"ears1+horns2"</code>). The special entry <code>"hair"</code> enables the hair editor for the race. Bones are looked up in <code>geo/entity/raceparts.geo.json</code> first, then in the race model.</translate>
+|-
+| <code>racialSkill</code> || <translate>String</translate> || <translate>Which racial skill the race uses: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> or <code>glind</code>. A custom race uses the same tuning as the race it borrows from (<code>general-server.json</code> → <code>racialSkills.<skill></code>). See [[Special:MyLanguage/Racial Skills|Racial Skills]].</translate>
+|-
+| <code>hasSaiyanTail</code> || <translate>Boolean</translate> || <translate>Gives the race a Saiyan tail.</translate>
+|-
+| <code>auraType</code> || <translate>String</translate> || <translate>2D aura sprite set: <code>kakarot</code> or <code>god</code>.</translate>
+|-
+| <code>auraType3D</code> || <translate>String</translate> || <translate>3D aura style of the base form: <code>smooth</code>, <code>sparking</code>, <code>god</code> or <code>userPreference</code> (follows each player's own setting).</translate>
+|-
+| <code>aura3DStyle</code> || <translate>Object</translate> || <translate>Fine-tuning of the base 3D aura shape. The keys are listed on [[Special:MyLanguage/Custom Forms#3D aura shape|Custom Forms]].</translate>
+|-
+| <code>defaultModelScaling</code> || <code>[x, y, z]</code> || <translate>Base model size.</translate>
+|-
+| <code>defaultBodyType</code> || <translate>Integer</translate> || <translate>Body type selected by default in character creation.</translate>
+|-
+| <code>slimBodyTypes</code> || <translate>List of integers</translate> || <translate>Body types (other than <code>0</code>) that use slim arms. Body type <code>0</code> always follows the player's skin model.</translate>
+|-
+| <code>defaultHairType</code>, <code>defaultEyesType</code>, <code>defaultNoseType</code>, <code>defaultMouthType</code>, <code>defaultTattooType</code> || <translate>Integer</translate> || <translate>Default customization indices.</translate>
+|-
+| <code>defaultBodyColor</code>, <code>defaultBodyColor2</code>, <code>defaultBodyColor3</code>, <code>defaultHairColor</code>, <code>defaultEye1Color</code>, <code>defaultEye2Color</code>, <code>defaultAuraColor</code> || <translate>Hex string</translate> || <translate>Default colors in character creation.</translate>
+|-
+| <code>formSkillsCosts</code> || <translate>Object</translate> || <translate>One entry per form skill the race can level (see below).</translate>
+|}
+
+<translate>
+Schema source: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.
+</translate>
+
+<translate>
+=== Form skill prices ===
+</translate>
+<translate>
+Each key of <code>formSkillsCosts</code> is a form skill: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> or <code>androidforms</code>. The value is either a plain array of prices or an object with these fields:
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>prices</code> || <translate>List of numbers</translate> || <translate>TP price of each level, in order. The number of entries is the skill's maximum level, so an empty list means the race cannot level that skill.</translate>
+|-
+| <code>buyFromMaster</code> || <translate>Boolean</translate> || <translate><code>true</code>: the first level has to be bought from a master before the skill can be leveled from the Skills menu.</translate>
+|}
+
+<translate>
+A form unlocks when this skill reaches the form's <code>unlockOnSkillLevel</code> (see step 3).
+</translate>
+
+<translate>
+=== Android upgrade for custom races ===
+</translate>
+<translate>
+Dr. Gero's android upgrade is offered to any race whose <code>formSkillsCosts</code> has at least one price under <code>androidforms</code> (by default only [[Special:MyLanguage/Human|Humans]]). The upgrade puts the player into the <code>androidbase</code> form of the <code>androidforms</code> group, so the race also needs an <code>androidforms</code> form group in its <code>forms/</code> folder. The easiest way is to copy <code>races/human/forms/androidforms.json</code> into your race's <code>forms/</code> folder. See [[Special:MyLanguage/Android|Android]] for the upgrade itself.
+</translate>
+
+<translate>
+== Step 2: Configure the classes ==
+</translate>
+<translate>
+<code>stats.json</code> holds a <code>classes</code> object with one block per class. DragonMineZ generates the eight default classes: <code>warrior</code>, <code>spiritualist</code>, <code>martialartist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> and <code>unversed</code> (see [[Special:MyLanguage/Classes|Classes]]). You can add your own class by duplicating a block under a new key; it shows up in character creation for that race. A player whose class isn't in the race's file uses the <code>warrior</code> values.
+</translate>
+
+<translate>
+Inside each class block:
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>baseStats</code> || <translate>Object</translate> || <translate>Starting stats: <code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code>, <code>ENE</code>.</translate>
+|-
+| <code>statScaling</code> || <translate>Object</translate> || <translate><code>STR_scaling</code>, <code>SKP_scaling</code>, <code>STM_scaling</code>, <code>DEF_scaling</code>, <code>VIT_scaling</code>, <code>PWR_scaling</code>, <code>ENE_scaling</code>. The optional <code>VIT_scaling_max</code> and <code>DEF_scaling_max</code> make the scaling grow from the normal value towards this maximum as the stat rises (up to the curve knee set in <code>general-server.json</code>); leave them out for flat scaling.</translate>
+|-
+| <code>baseHp5</code>, <code>hp5VitScaling</code> || <translate>Number</translate> || <translate>Health regenerated every 5 seconds, plus a share of VIT.</translate>
+|-
+| <code>baseEp5</code>, <code>ep5EneScaling</code> || <translate>Number</translate> || <translate>Ki regenerated every 5 seconds, plus a share of ENE.</translate>
+|-
+| <code>baseSp5</code>, <code>sp5StmScaling</code>, <code>sp5ResScaling</code> || <translate>Number</translate> || <translate>Stamina regenerated every 5 seconds, plus a share of VIT (<code>sp5StmScaling</code>, despite its name) and a share of RES (<code>sp5ResScaling</code>, <code>0</code> when missing).</translate>
+|-
+| <code>tpCostMultiplier</code>, <code>tpGainMultiplier</code> || <translate>Number</translate> || <translate>Class-wide multipliers on TP costs and TP gains.</translate>
+|-
+| <code>passive</code> || <translate>Object</translate> || <translate><code>enabled</code> plus a <code>values</code> map with the tuning of the class passive (the keys depend on the class).</translate>
+|}
+
+<translate>
+Schema source: <code>src/main/java/com/dragonminez/common/config/RaceStatsConfig.java</code>. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for what each stat does.
+</translate>
+
+<translate>
+== Step 3: Add form groups ==
+</translate>
+{{Main|Custom Forms}}
+<translate>
+Each file in <code>races/<race_key>/forms/</code> defines one form group. Race forms use exactly the same schema as stack forms, so the full field reference is on [[Special:MyLanguage/Custom Forms|Custom Forms]]. The fields that matter most for a race group are:
+</translate>
+<translate>
+* <code>groupName</code>: the group key (lowercase). Groups are identified by this value, not by the filename.
+* <code>formType</code>: the form skill that unlocks the group: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> or <code>androidforms</code>. The race needs prices for that skill in <code>formSkillsCosts</code>.
+* <code>forms</code>: the forms of the group, in transformation order. Each form's <code>unlockOnSkillLevel</code> is the skill level that unlocks it.
+* <code>customModel</code>: a model key for the form (looked up the same way as the race's <code>customModel</code>).
+</translate>
+<translate>
+Files whose name starts with <code>old_</code> are ignored. See [[Special:MyLanguage/Transformations|Transformations]] for how forms work in game.
+</translate>
+
+<translate>
+== Step 4: Add translation keys ==
+</translate>
+<translate>
+Race and form names are translated with these keys:
+</translate>
+<translate>
+* <code>race.dragonminez.<race_key></code>: the name of the race.
+* <code>race.dragonminez.<race_key>.desc</code>: a short description shown in character creation.
+* <code>race.dragonminez.<race_key>.group.<group_key></code>: the name of a form group.
+* <code>race.dragonminez.<race_key>.form.<group_key>.<form_key></code>: the name of a form.
+</translate>
+<translate>
+The default language file is <code>src/main/resources/assets/dragonminez/lang/en_us.json</code>. Feel free to edit your <code>en_us.json</code> or create a new language file for your custom race. You don't need to add translation keys for anything else: DragonMineZ automatically merges the translations already made on Crowdin with your own.
+</translate>
+
+<translate>
+== Step 5: Reload and validate ==
+</translate>
+<translate>
+# Save your JSON files.
+# Run <code>/dmzreload config</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
+# Open character creation and check that your race appears.
+# Check its forms, colors and scaling in game.
+</translate>
+
+{{Navbox Modding}}

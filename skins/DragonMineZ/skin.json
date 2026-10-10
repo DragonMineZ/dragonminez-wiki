@@ -1,0 +1,216 @@
+{
+	"name": "DragonMineZ",
+	"version": "1.0.0",
+	"author": [
+		"DragonMineZ Team"
+	],
+	"url": "https://wiki.dragonminez.com",
+	"descriptionmsg": "dragonminez-skin-desc",
+	"namemsg": "skinname-dragonminez",
+	"license-name": "GPL-3.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Skins\\DragonMineZ\\": "includes/"
+	},
+	"ValidSkinNames": {
+		"dragonminez": {
+			"class": "MediaWiki\\Skins\\DragonMineZ\\SkinDragonMineZ",
+			"args": [
+				{
+					"name": "dragonminez",
+					"template": "skin",
+					"supportsMwHeading": true,
+					"responsive": true,
+					"toc": true,
+					"link": {
+						"text-wrapper": {
+							"tag": "span"
+						}
+					},
+					"bodyClasses": [
+						"dmz-skin"
+					],
+					"styles": [
+						"skins.dragonminez.styles"
+					],
+					"scripts": [
+						"skins.dragonminez.scripts"
+					],
+					"messages": [
+						"sitetitle",
+						"tagline",
+						"search",
+						"searchsuggest-search",
+						"navigation-heading",
+						"dmz-nav-download",
+						"dmz-nav-discord",
+						"dmz-nav-hairsalon",
+						"dmz-nav-wiki",
+						"dmz-nav-menu",
+						"dmz-download-platform",
+						"dmz-wiki-badge",
+						"dmz-footer-rights",
+						"dmz-footer-description",
+						"dmz-menu-options",
+						"dmz-menu-close",
+						"dmz-theme-light",
+						"dmz-theme-dark",
+						"dmz-menu-language",
+						"dmz-language-success",
+						"dmz-toc-title",
+						"dmz-search-placeholder",
+						"dmz-search-open",
+						"dmz-search-close",
+						"dmz-search-fulltext",
+						"dmz-search-empty",
+						"dmz-user-tools",
+						"dmz-translation-available",
+						"dmz-translation-missing",
+						"dmz-translation-switch",
+						"dmz-home-hero-title",
+						"dmz-home-hero-subtitle",
+						"dmz-login",
+						"dmz-sidebar-toggle",
+						"dmz-more",
+						"dmz-rail-label",
+						"dmz-search-shortcut"
+					]
+				}
+			]
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "main",
+		"UserGetLanguageObject": "main",
+		"OutputPageBodyAttributes": "main",
+		"SkinBuildSidebar": "main",
+		"PageViewUpdates": "main",
+		"InternalParseBeforeLinks": "main",
+		"LoadExtensionSchemaUpdates": "schema"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Skins\\DragonMineZ\\Hooks",
+			"services": [
+				"MainConfig"
+			]
+		},
+		"schema": {
+			"class": "MediaWiki\\Skins\\DragonMineZ\\SchemaHooks"
+		}
+	},
+	"config": {
+		"DMZWebUrl": {
+			"value": "https://dragonminez.com",
+			"description": "Base URL of dragonminez-web, used by the header, footer and logo."
+		},
+		"DMZCookieDomain": {
+			"value": "",
+			"description": "Domain for the shared dmz_theme and dmz_lang cookies, e.g. .dragonminez.com. Empty means host-only."
+		},
+		"DMZLanguages": {
+			"merge_strategy": "provide_default",
+			"value": [
+				"en",
+				"es",
+				"pt"
+			],
+			"description": "Reader languages offered by the floating selector. The first one is the source language of the content."
+		},
+		"DMZDefaultLanguage": {
+			"value": "en",
+			"description": "Interface language for readers whose cookie and browser language are not in DMZLanguages."
+		},
+		"DMZModVersion": {
+			"value": "2.2",
+			"description": "Mod version shown in the side rail version card."
+		},
+		"DMZViewSample": {
+			"value": 4,
+			"description": "Only one in this many anonymous page views is written to dmz_page_views (incrementing by this amount)."
+		}
+	},
+	"ConfigRegistry": {
+		"dragonminez": "GlobalVarConfig::newInstance"
+	},
+	"MessagesDirs": {
+		"DragonMineZ": [
+			"i18n"
+		]
+	},
+	"SkinLessImportPaths": {
+		"dragonminez": "resources/mediawiki.less"
+	},
+	"ResourceModules": {
+		"skins.dragonminez.styles": {
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
+			"features": {
+				"normalize": true,
+				"elements": false,
+				"content-links": false,
+				"content-links-external": false,
+				"content-media": true,
+				"content-tables": false,
+				"interface": false,
+				"interface-category": false,
+				"interface-edit-section-links": true,
+				"interface-indicators": true,
+				"interface-message-box": true,
+				"interface-site-notice": false,
+				"interface-subtitle": true,
+				"interface-user-message": true,
+				"i18n-ordered-lists": true,
+				"i18n-headings": true,
+				"toc": false
+			},
+			"styles": [
+				"resources/skin.less"
+			]
+		},
+		"skins.dragonminez.scripts": {
+			"packageFiles": [
+				"resources/skin.js",
+				"resources/prefs.js",
+				"resources/header.js",
+				"resources/search.js",
+				"resources/sidebar.js",
+				"resources/floatingMenu.js",
+				"resources/dropdowns.js"
+			],
+			"messages": [
+				"dmz-search-empty",
+				"dmz-search-fulltext",
+				"dmz-language-success",
+				"dmz-theme-light",
+				"dmz-theme-dark",
+				"dmz-menu-options",
+				"dmz-menu-close",
+				"dmz-sidebar-toggle"
+			],
+			"dependencies": [
+				"mediawiki.util"
+			]
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"dragonminez": {
+			"+mediawiki.special": "resources/overrides/special.less",
+			"+mediawiki.special.search.styles": "resources/overrides/search.less",
+			"+mediawiki.action.edit.styles": "resources/overrides/edit.less",
+			"+mediawiki.action.history.styles": "resources/overrides/history.less",
+			"+mediawiki.diff.styles": "resources/overrides/diff.less",
+			"+ext.pygments": "resources/overrides/pygments.less",
+			"+ext.translate": "resources/overrides/translate.less",
+			"+oojs-ui-core.styles": "resources/overrides/ooui.less",
+			"+mediawiki.htmlform.styles": "resources/overrides/htmlform.less"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "DragonMineZ"
+	},
+	"manifest_version": 2
+}

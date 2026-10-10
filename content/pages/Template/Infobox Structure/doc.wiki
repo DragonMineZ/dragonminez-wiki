@@ -1,0 +1,45 @@
+Infobox for structure pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Structure
+|title=
+|image=
+|caption=
+|quote=
+|Dimension=
+|Biome=
+|Location=
+|Locate=
+|Inhabitants=
+|Purpose=
+|Protection=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Dimension</code>
+|-
+| <code>Biome</code>
+|-
+| <code>Location</code>
+|-
+| <code>Locate</code>
+|-
+| <code>Inhabitants</code>
+|-
+| <code>Purpose</code>
+|-
+| <code>Protection</code>
+|}

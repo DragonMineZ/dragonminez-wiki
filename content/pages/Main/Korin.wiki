@@ -1,0 +1,46 @@
+{{Infobox Master
+|Location={{L|Earth}}, <translate>near the world spawn</translate>
+|Structure={{L|Kami's Lookout}}
+|Alignment=<translate>None (the Nimbus depends on your alignment)</translate>
+|Locate=/dmzlocate kamilookout
+|Services=<translate>Flying Nimbus, Senzu Beans</translate>
+}}
+<translate>
+'''Korin''' (Master Korin) lives at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] on [[Special:MyLanguage/Earth|Earth]]. He teaches no skills: instead he gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and a regular supply of [[Special:MyLanguage/Senzu Bean|Senzu Beans]].
+</translate>
+
+<translate>
+== Location ==
+</translate>
+<translate>
+Korin lives at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the world spawn, together with [[Special:MyLanguage/Dende|Dende]] and [[Special:MyLanguage/Mr. Popo|Mr. Popo]]. Capsule Corp Assistants sell a map to it at trade tier 3 (see [[Special:MyLanguage/Kami's Lookout#Finding it|Kami's Lookout]]).
+</translate>
+
+<translate>
+== Services ==
+</translate>
+<translate>
+* '''Flying Nimbus''': gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] if your [[Special:MyLanguage/Alignment|alignment]] is above 50, otherwise a '''Black Nimbus'''. It's locked if you already carry one.
+* '''Senzu Beans''': gives you 5 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], once every 15 minutes. A live timer shows when you can ask again.
+</translate>
+
+{{Config|General Server Config|senzuGiftAmount}}
+<translate>
+The number of beans and the cooldown are server defaults (<code>senzuGiftAmount</code>, <code>senzuGiftCooldownTicks</code>).
+</translate>
+
+<translate>
+== In the story ==
+</translate>
+<translate>
+* [[Special:MyLanguage/Classic Saga|Classic Saga]] quest 19, ''The Sacred Water'': find Kami's Lookout and give Korin 1 Water Bucket. The reward includes the '''[[Special:MyLanguage/Sacred Water|Sacred Water]]''', which permanently multiplies all your stats by ×1.1 when you drink it (once per character).
+* [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 10, ''Korin's Senzu Beans'': talk to Korin.
+</translate>
+
+<translate>
+== Side quests ==
+</translate>
+{{Main|Sidequests}}
+{{#invoke:Sidequests|giver|karin}}
+
+{{Navbox Masters}}

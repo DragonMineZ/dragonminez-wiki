@@ -1,0 +1,79 @@
+<header id="dmz-header" class="dmz-header dark">
+	<div class="dmz-header__inner">
+		<div class="dmz-header__brand">
+			<a href="{{dmz-web-url}}" class="dmz-header__logo">
+				<img src="{{dmz-logo-src}}" alt="DragonMineZ - Logo" width="385" height="56">
+			</a>
+			<a href="{{dmz-wiki-home-url}}" class="dmz-chip dmz-chip--glass dmz-header__badge">{{msg-dmz-nav-wiki}}</a>
+		</div>
+
+		{{#data-search-box}}
+		<form action="{{form-action}}" class="dmz-header-search" role="search" id="dmz-header-search" data-dmz-search>
+			<input type="hidden" name="title" value="{{page-title}}">
+			<span class="material-symbols-rounded dmz-header-search__icon" aria-hidden="true">search</span>
+			<input type="search" name="search" class="dmz-header-search__input" id="dmz-header-search-input" placeholder="{{msg-dmz-search-placeholder}}" autocomplete="off" spellcheck="false" accesskey="f" aria-label="{{msg-search}}" aria-controls="dmz-header-search-results" aria-autocomplete="list" data-dmz-search-input>
+			<kbd class="dmz-header-search__kbd" title="{{msg-dmz-search-shortcut}}">/</kbd>
+			<div class="dmz-search__results dmz-header-search__results" id="dmz-header-search-results" role="listbox" hidden data-dmz-search-results></div>
+		</form>
+		{{/data-search-box}}
+
+		<div class="dmz-header__right">
+			<nav id="dmz-nav" class="dmz-nav" aria-label="DragonMineZ">
+				<div class="dmz-nav__links">
+					<div class="dmz-dropdown dmz-download" data-dmz-dropdown>
+						<button type="button" class="dmz-nav__link dmz-download__toggle" aria-haspopup="true" aria-expanded="false" data-dmz-dropdown-toggle>
+							<span>{{msg-dmz-nav-download}}</span>
+							<span class="material-symbols-rounded dmz-dropdown__chevron" aria-hidden="true">expand_more</span>
+						</button>
+						<div class="dmz-dropdown__panel dmz-download__panel" data-dmz-dropdown-panel hidden>
+							{{#array-dmz-downloads}}
+							<a class="dmz-download__item" href="{{url}}" target="_blank" rel="noopener noreferrer">
+								<span class="dmz-download__icon">{{{html-icon}}}</span>
+								<span class="dmz-download__text">
+									<span class="dmz-download__name">{{name}}</span>
+									<span class="dmz-download__caption">{{msg-dmz-download-platform}}</span>
+								</span>
+								<span class="material-symbols-rounded dmz-download__arrow" aria-hidden="true">chevron_right</span>
+							</a>
+							{{/array-dmz-downloads}}
+						</div>
+					</div>
+					<a class="dmz-nav__link" href="{{dmz-discord-url}}" target="_blank" rel="noopener noreferrer">{{msg-dmz-nav-discord}}</a>
+					<a class="dmz-nav__link" href="{{dmz-hairsalon-url}}">{{msg-dmz-nav-hairsalon}}</a>
+					<a class="dmz-nav__link is-active" href="{{dmz-wiki-home-url}}" aria-current="page">{{msg-dmz-nav-wiki}}</a>
+				</div>
+				<div class="dmz-nav__wiki" id="dmz-nav-wiki"></div>
+			</nav>
+
+			<div class="dmz-header__actions">
+				<button type="button" class="dmz-icon-button" id="dmz-search-button" aria-label="{{msg-dmz-search-open}}" data-dmz-search-open>
+					<span class="material-symbols-rounded" aria-hidden="true">search</span>
+				</button>
+				{{#data-dmz-user}}
+				<div class="dmz-dropdown dmz-user" data-dmz-dropdown>
+					<button type="button" class="dmz-avatar" aria-label="{{msg-dmz-user-tools}}" aria-haspopup="true" aria-expanded="false" data-dmz-dropdown-toggle>{{initial}}</button>
+					<div class="dmz-dropdown__panel dmz-user__panel" data-dmz-dropdown-panel hidden>
+						<a class="dmz-user__head" href="{{url}}">
+							<span class="dmz-avatar dmz-avatar--lg" aria-hidden="true">{{initial}}</span>
+							<span class="dmz-user__name">{{name}}</span>
+						</a>
+						{{#data-notifications}}
+						<div id="{{id}}" class="{{class}} dmz-menu-portlet">
+							<ul class="dmz-menu-portlet__list">{{{html-items}}}</ul>
+						</div>
+						{{/data-notifications}}
+						{{#data-menu}}
+						<div id="{{id}}" class="{{class}} dmz-menu-portlet">
+							<ul class="dmz-menu-portlet__list">{{{html-items}}}</ul>
+						</div>
+						{{/data-menu}}
+					</div>
+				</div>
+				{{/data-dmz-user}}
+				<button type="button" id="dmz-menu-button" class="dmz-icon-button dmz-header__menu-button" aria-label="{{msg-dmz-nav-menu}}" aria-controls="dmz-nav" aria-expanded="false">
+					<span class="material-symbols-rounded" aria-hidden="true">menu</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</header>

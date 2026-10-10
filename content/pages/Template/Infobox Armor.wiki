@@ -1,0 +1,25 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-armor
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Crafting
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Pieces, Defense, Set bonus
+|General_label={{#invoke:Labels|get|General}}
+|Pieces_label={{#invoke:Labels|get|Pieces}}
+|Defense_label={{#invoke:Labels|get|Defense}}
+|Set bonus_label={{#invoke:Labels|get|Set bonus}}
+
+|Crafting=Pattern, Crafted at, Materials
+|Crafting_label={{#invoke:Labels|get|Crafting}}
+|Pattern_label={{#invoke:Labels|get|Pattern}}
+|Crafted at_label={{#invoke:Labels|get|Crafted at}}
+|Materials_label={{#invoke:Labels|get|Materials}}
+}}[[Category:Armor{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

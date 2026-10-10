@@ -1,0 +1,49 @@
+<translate>
+'''Add-on development''' means writing your own Forge mod that depends on DragonMineZ and reacts to it: granting bonus TP, listening for form changes, adding new quest objective and reward types, adding buttons to the utility menu and so on. These pages are for Java developers who can run a Forge 1.20.1 development environment.
+</translate>
+
+<translate>
+If you only want to tune numbers or add races, forms, quests or wishes, you don't need any of this: see [[Special:MyLanguage/Modding|Modding]] instead. DragonMineZ has no Java API to register new races, forms, skills or techniques; new races and forms are added through JSON config files.
+</translate>
+
+<translate>
+== Guides ==
+</translate>
+<div class="dmz-cards">
+{{Card|Developer Scope and Prerequisites|<translate>Who these pages are for, the two ways to extend DMZ and the baseline setup.</translate>}}
+{{Card|Add-on Getting Started|<translate>Toolchain versions, incompatible mods and what an add-on can safely rely on.</translate>}}
+{{Card|Implementation and Events|<translate>Every DMZ event, reading player state, extension registries and networking.</translate>}}
+{{Card|Creating a DMZ Addon|<translate>Set up the Gradle project, declare the dependency and receive your first event.</translate>}}
+</div>
+
+<translate>
+== The project ==
+</translate>
+<div class="dmz-cards">
+{{Card|Contributing|<translate>Report bugs, suggest features, build the mod and open pull requests.</translate>}}
+{{Card|Security Policy|<translate>How to report a vulnerability and how to keep a server safe.</translate>}}
+</div>
+
+<translate>
+== Reading order ==
+</translate>
+<translate>
+# [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]]: match the toolchain and make sure your development environment builds against DMZ.
+# [[Special:MyLanguage/Implementation and Events|Implementation and Events]]: wire up the actual hooks.
+# [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]]: the full Gradle and <code>mods.toml</code> setup.
+</translate>
+
+<translate>
+== Ground rules for add-ons ==
+</translate>
+<translate>
+* Hook <code>com.dragonminez.common</code> almost exclusively: it is the shared, most stable layer. On the client, the only hooks meant for add-ons are <code>DMZClientEvent</code> and the utility menu slots.
+* Prefer reacting to DMZ events (changing their settable fields, or cancelling them) over changing DMZ data directly.
+* Register your own network channel; never add packets to DMZ's channel.
+* Never trust client input for stats, unlocks, quests, wishes or progression: validate it on the server.
+* Don't depend on <code>com.dragonminez.mixin</code> classes or on DMZ internals that the guides don't mention; they can change without notice between versions.
+* Don't bundle or depend on Legendary Tooltips, Epic Fight or Better Combat: DMZ refuses to start alongside them.
+</translate>
+
+__NOTOC__
+{{Navbox Add-ons}}

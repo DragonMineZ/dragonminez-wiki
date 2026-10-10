@@ -1,0 +1,38 @@
+{{Infobox Structure
+|Dimension={{L|Earth}}
+|Biome=<translate>Swamps</translate>
+|Location=<translate>At least 1,000 blocks from 0, 0; one per world</translate>
+|Locate=/dmzlocate tree_of_might
+|Inhabitants={{L|Turles}}
+|Purpose=<translate>World boss lair</translate>
+|Protection=<translate>Unbreakable wood and roots</translate>
+}}
+<translate>
+The '''Tree of Might''' is a giant tree that grows in a swamp on [[Special:MyLanguage/Earth|Earth]], with a canopy about 340 blocks wide. The clearing under it is the lair of the [[Special:MyLanguage/World Bosses|world boss]] [[Special:MyLanguage/Turles|Turles]].
+</translate>
+
+<translate>
+== The tree ==
+</translate>
+<translate>
+* The tree's wood and roots are '''unbreakable'''.
+* Its rare glowing fruit drops the '''[[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]]'''.
+* In worlds created before the tree was added, it still appears: because it's too big to place at once, it's filled in gradually and visibly grows (see [[Special:MyLanguage/Structures#Existing worlds|Existing worlds]]).
+</translate>
+
+<translate>
+== Turles ==
+</translate>
+{{Main|Turles}}
+<translate>
+[[Special:MyLanguage/Turles|Turles]] sleeps in the clearing under the tree. His lair is only set up once the Tree of Might has been generated, and he wakes when a survival or adventure player comes within 32 blocks. See [[Special:MyLanguage/World Bosses|World Bosses]] for how lairs, waking and respawning work.
+</translate>
+
+<translate>
+== Finding it ==
+</translate>
+<translate>
+The Tree of Might generates once per world, in a swamp at least 1,000 blocks from the world origin. Operators can see where Turles' lair is with {{Command|/dmzworldboss locate}}, and players with the locate permission can use {{Command|/dmzlocate tree_of_might}}.
+</translate>
+
+{{Navbox Structures}}

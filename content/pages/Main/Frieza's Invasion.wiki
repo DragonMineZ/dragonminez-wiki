@@ -1,0 +1,86 @@
+{{Infobox Raid
+|quote=<translate>Now you shall know the wrath of the Emperor...</translate>
+|Raid id=frieza_invasion
+|Dimension={{L|Namek}}
+|Raid site=<translate>Namekian Ruins: a razed Namekian settlement with a Frieza soldier in the plaza</translate>
+|Waves=5
+|Bosses=<translate>Cui; Dodoria and Zarbon; the Ginyu Force (Guldo, Recoome, Burter, Jeice and Ginyu)</translate>
+|Scout health=400
+|Scout melee=18
+|Scout ki=12
+|Rewards=<translate>30,000 TP, Hero of the Village and Hero of the World II (10 min), 16 Golden Carrots, 3 Senzu Beans, 1 Blaster Cannon</translate>
+|Defeat penalty=<translate>−20 alignment</translate>
+}}
+<translate>
+'''Frieza's Invasion''' is the raid of [[Special:MyLanguage/Namek|Planet Namek]]. Kill the Frieza soldier left in a razed Namekian settlement and the Emperor sends five waves of his army after you, led by Cui, then Dodoria and Zarbon, and finally the whole '''Ginyu Force'''.
+</translate>
+
+<translate>
+== Finding the Namekian Ruins ==
+
+The [[Special:MyLanguage/Namekian Ruins|Namekian Ruins]] are a Namekian settlement razed by Frieza's army, spread out across Namek away from the Ajissa villages. A [[Special:MyLanguage/Frieza Soldier|Frieza soldier]] stands in the scorched plaza, shown with a supervillain aura. When you come within 80 blocks you sense it: ''"You sense an evil ki... Frieza's soldiers just razed a Namekian settlement nearby!"''. See [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== Starting the raid ==
+
+The scout has 400 health, 18 melee damage and 12 ki damage, and fights on the Novice AI tier. When it dies, the killer receives the '''Emperor's Wrath''' omen for 60 seconds (''"The Emperor is displeased... brace for the incoming hordes."''). When it runs out, the raid starts where you stand. Drinking milk to remove the omen calls the raid off. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].
+</translate>
+
+<translate>
+== Waves ==
+
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid. The soldiers of each wave are drawn at random from the three Frieza soldier models. Bosses stay dormant until the soldiers of their wave are dead.
+</translate>
+{| class="wikitable"
+! <translate>Wave</translate> !! <translate>Enemies</translate> !! <translate>Health / melee / ki</translate> !! <translate>AI tier</translate>
+|-
+| 1 || <translate>5 Frieza Soldiers</translate> || 100 / 15 / 10 || <translate>Novice</translate>
+|-
+| 2 || <translate>10 Frieza Soldiers</translate> || 130 / 18 / 12 || <translate>Novice</translate>
+|-
+| rowspan="2" | 3 || <translate>15 Frieza Soldiers</translate> || 160 / 22 / 15 || <translate>Novice</translate>
+|-
+| <translate>Cui (boss)</translate> || 900 / 45 / 40 || <translate>Smart</translate>
+|-
+| rowspan="3" | 4 || <translate>15 Frieza Soldiers</translate> || 190 / 26 / 18 || <translate>Novice</translate>
+|-
+| <translate>Dodoria (boss)</translate> || 7,000 / 60 / 50 || <translate>Smart</translate>
+|-
+| <translate>Zarbon (boss), who transforms</translate> || <translate>6,800 / 65 / 55; transformed health 10,200</translate> || <translate>Smart</translate>
+|-
+| rowspan="6" | 5 || <translate>15 Frieza Soldiers</translate> || 220 / 30 / 20 || <translate>Novice</translate>
+|-
+| <translate>Guldo (boss)</translate> || 6,000 / 55 / 60 || <translate>Smart</translate>
+|-
+| <translate>Recoome (boss)</translate> || 10,000 / 90 / 50 || <translate>Smart</translate>
+|-
+| <translate>Burter (boss)</translate> || 10,000 / 70 / 55 || <translate>Elite</translate>
+|-
+| <translate>Jeice (boss)</translate> || 10,000 / 70 / 65 || <translate>Elite</translate>
+|-
+| <translate>Ginyu (boss)</translate> || 14,000 / 110 / 85 || <translate>Elite</translate>
+|}
+
+<translate>
+== Rewards ==
+
+Every participant still fighting when the last wave is cleared gets:
+* '''30,000 TP'''
+* '''Hero of the Village''' and '''Hero of the World II''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])
+* 16 [[Special:MyLanguage/Golden Carrot|Golden Carrots]], 3 [[Special:MyLanguage/Senzu Bean|Senzu Beans]] and 1 '''Blaster Cannon'''
+</translate>
+
+<translate>
+== Defeat ==
+
+If every participant falls or leaves, the raid is lost: the remaining soldiers vanish, everyone sees ''"You couldn't defend Namek from Frieza..."'' and loses '''20 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).
+</translate>
+
+<translate>
+== In the story ==
+
+In the [[Special:MyLanguage/Frieza Saga|Frieza Saga]], the quest '''The Ruined Village''' sends you to find the Namekian Ruins.
+</translate>
+
+{{Navbox Challenges}}

@@ -1,0 +1,35 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-raid
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Scout, Rewards info
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Raid id, Dimension, Raid site, Waves, Bosses
+|General_label={{#invoke:Labels|get|General}}
+|Raid id_label={{#invoke:Labels|get|Raid id}}
+|Raid id={{#if:{{{Raid id|}}}|<code>{{{Raid id}}}</code>}}
+|Dimension_label={{#invoke:Labels|get|Dimension}}
+|Raid site_label={{#invoke:Labels|get|Raid site}}
+|Waves_label={{#invoke:Labels|get|Waves}}
+|Bosses_label={{#invoke:Labels|get|Bosses}}
+
+|Scout=Scout health, Scout melee, Scout ki
+|Scout_label={{#invoke:Labels|get|Scout}}
+|Scout health_label={{#invoke:Labels|get|Scout health}}
+|Scout health={{#if:{{{Scout health|}}}|{{formatnum:{{{Scout health}}}}}}}
+|Scout melee_label={{#invoke:Labels|get|Scout melee}}
+|Scout ki_label={{#invoke:Labels|get|Scout ki}}
+
+|Rewards info=Rewards, Defeat penalty
+|Rewards info_label={{#invoke:Labels|get|Rewards}}
+|Rewards info_collapsible=yes
+|Rewards_label={{#invoke:Labels|get|Rewards}}
+|Defeat penalty_label={{#invoke:Labels|get|Defeat penalty}}
+}}[[Category:Raids{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

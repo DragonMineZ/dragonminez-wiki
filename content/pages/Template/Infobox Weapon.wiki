@@ -1,0 +1,26 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-weapon
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Obtaining
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Moveset, Reach, Critical chance, Critical damage, Durability
+|General_label={{#invoke:Labels|get|General}}
+|Moveset_label={{#invoke:Labels|get|Moveset}}
+|Reach_label={{#invoke:Labels|get|Reach}}
+|Critical chance_label={{#invoke:Labels|get|Critical chance}}
+|Critical damage_label={{#invoke:Labels|get|Critical damage}}
+|Durability_label={{#invoke:Labels|get|Durability}}
+
+|Obtaining=Obtained, Required for
+|Obtaining_label={{#invoke:Labels|get|Obtaining}}
+|Obtained_label={{#invoke:Labels|get|Obtained}}
+|Required for_label={{#invoke:Labels|get|Required for}}
+}}[[Category:Special Weapons{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,60 @@
+{{Infobox Skill
+|quote=<translate>Feel the power of everyone around you.</translate>
+|Type=<translate>Movement and utility</translate>
+|Max level=10
+|Key={{Key|F4}}
+|Taught by={{L|Gohan}}, {{L|Krillin}}, {{L|Frieza}}
+|Cost=<translate>300 to 3,000 TP per level</translate>
+|Effect=<translate>Senses the ki of living beings around you and sets your lock-on range for homing ki attacks.</translate>
+}}
+<translate>
+'''Ki Sense''' lets you sense the ki of the living beings around you. In '''Combat''' mode it shows a panel with the health and Battle Power of every being you can see; in '''Search''' mode it reveals everyone nearby through walls. It also decides how far your lock-on reaches for homing ki attacks.
+</translate>
+
+<translate>
+== Learning it ==
+
+[[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Krillin|Krillin]] (both Good alignment) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Ki Sense. Level 1 costs 300 TP and each level costs 300 TP more than the previous one, up to 3,000 TP for level 10.
+</translate>
+
+<translate>
+== Modes ==
+
+Press {{Key|F4}} to cycle through '''Combat''' mode, '''Search''' mode and off. While you wear a [[Special:MyLanguage/Scouters|scouter]], {{Key|F4}} toggles the scouter readout instead.
+</translate>
+{| class="wikitable"
+! <translate>Mode</translate> !! <translate>Range</translate> !! <translate>At level 10</translate> !! <translate>What you see</translate>
+|-
+| '''<translate>Combat</translate>''' || <translate>10 blocks + 3 per level</translate> || <translate>40 blocks</translate> || <translate>Every being you can see gets a panel above its head with its health (plus ki and stamina for players), its Battle Power and the damage it takes.</translate>
+|-
+| '''<translate>Search</translate>''' || <translate>30 blocks + 20 per level</translate> || <translate>230 blocks</translate> || <translate>The world turns grey and every being shows through walls as an aura: red or orange if it is stronger than you, yellow if it is about as strong, blue if it is weaker or passive. Stronger beings have bigger auras.</translate>
+|}
+
+<translate>
+The Combat panels are described on the [[Special:MyLanguage/HUD|HUD]] page. With the '''Ki Sense - Accumulative Damage''' option on (Config tab of the Character Menu), the damage a target takes is summed up instead of shown as single popups.
+
+A lock-on sound warns you when something stronger than you comes into range, or powers up, out of your sight.
+</translate>
+
+<translate>
+== Lock-on range ==
+
+Ki Sense also sets your '''lock-on range''' ({{Key|Z}}) for homing ki attacks: '''15 blocks + 5 per level''', so 65 blocks at level 10. While you are locked on, homing attacks follow your target. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].
+</translate>
+
+<translate>
+== Androids ==
+
+[[Special:MyLanguage/Android|Androids]] sense 10 blocks further, don't need line of sight in Combat mode, and get +25 blocks of lock-on range.
+</translate>
+
+<translate>
+== Hiding from Ki Sense ==
+
+* At '''0% Power Release''' you are hidden from Ki Sense.
+* A [[Special:MyLanguage/Glind|Glind]]'s '''Divine Ki''' hides them from Ki Sense, Scouters and [[Special:MyLanguage/Instant Transmission|Instant Transmission]], unless the seeker is a Glind too, has unlocked a God Form, is in a God form or is under Kami's Blessing. Lock-on still works on them.
+* Players in a God form, such as the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]], are hidden from Ki Sense unless you have godly ki yourself: the God Form skill, a God form of your own or a Glind's Divine Ki.
+* The [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]], the reward of Bulma's Cloaking Device sidequest, hides your Battle Power: scouters and Ki Sense can't read you.
+</translate>
+
+{{Navbox Abilities}}

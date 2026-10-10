@@ -1,0 +1,25 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-skill
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Effect info
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Max level, Key, Taught by, Cost
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Max level_label={{#invoke:Labels|get|Max level}}
+|Key_label={{#invoke:Labels|get|Key}}
+|Taught by_label={{#invoke:Labels|get|Taught by}}
+|Cost_label={{#invoke:Labels|get|Cost}}
+
+|Effect info=Effect
+|Effect info_label={{#invoke:Labels|get|Effect}}
+|Effect_label={{#invoke:Labels|get|Effect}}
+}}[[Category:Skills{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

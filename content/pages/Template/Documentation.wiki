@@ -1,0 +1,1 @@
+<includeonly><div class="dmz-doc">{{#ifexist:{{FULLPAGENAME}}/doc|{{:{{FULLPAGENAME}}/doc}}|<span class="dmz-doc__missing">[{{fullurl:{{FULLPAGENAME}}/doc|action=edit}} Create the documentation]</span>}}</div></includeonly><noinclude>Shows the <code>/doc</code> subpage of a template or module below it.</noinclude>

@@ -1,0 +1,45 @@
+{{Infobox Form
+|quote=<translate>Unleash your power to the limit: Ultimate takes the multipliers of your strongest form and adds a bonus.</translate>
+|Race=<translate>Every race</translate>
+|Group=<translate>Ultimate (1 tier)</translate>
+|Form type=<translate>Stack form</translate>
+|Requirements=<translate>Clear Old Kai's Ultimate Challenge (alignment above 61, Potential Unlock level 10)</translate>
+|Multiplier=<translate>Your best unlocked form +1.0 STR, SKP and PWR</translate>
+|Drain=<translate>None</translate>
+|Mastery=<translate>None of its own; uses the mastery of the form it copies</translate>
+}}
+<translate>
+'''Ultimate''' is a stack form unlocked by [[Special:MyLanguage/Old Kai|Old Kai]]. Unlike [[Special:MyLanguage/Kaioken|Kaioken]], it isn't used on top of another form: it takes the multipliers of your '''best unlocked form''' (with its mastery) and adds '''+1.0''' to its STR, SKP and PWR multipliers, with '''no drain'''. It can't be bought with Training Points.
+</translate>
+
+<translate>
+== Unlocking Ultimate ==
+</translate>
+{{See also|Old Kai|Training Minigames}}
+<translate>
+With an '''alignment above 61''' and '''Potential Unlock level 10''', talk to Old Kai at his pillar on the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]] and choose '''Unleash Power''' to start the '''Ultimate Challenge''': five training minigames back to back ([[Special:MyLanguage/Ki Control|Ki Control]], Gravity, Shadow Boxing, Precision and Rhythm), each until you clear its target level (10 levels, 6 for Rhythm). Clearing all five:
+
+* unlocks the '''Ultimate''' skill;
+* gives you the [[Special:MyLanguage/Z Sword|Z Sword]], only the first time you complete it.
+
+Both are needed for the [[Special:MyLanguage/Buu Saga|Buu Saga]] quest ''The Z Sword and Ultimate Power'', which asks you to reach Ultimate level 1.
+</translate>
+
+<translate>
+== How it works ==
+
+* Ultimate copies the multipliers of your '''best unlocked form''', with that form's mastery, and adds '''+1.0''' to its STR, SKP and PWR multipliers. It has '''no drain'''.
+* Each race's '''top tier''' is never copied: SSJ 4, Solaris, Super Namekian, Fifth Form, Ultra Majin, Ultra Perfect and True Form. Ultimate uses your best form below it.
+* Ultimate has no mastery of its own: it charges, and transforms instantly, as fast as the form it copies.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|General Server Config|ultimateFormFixedValue}}
+<translate>
+With <code>ultimateFormFixedValue</code> set to <code>true</code>, Ultimate stops copying your best form and only uses the multipliers written in its own form file (×2.0 STR, SKP and PWR and ×1.1875 DEF by default). The Ultimate form is defined in <code>config/dragonminez/forms/ultimate.json</code>.
+</translate>
+{{See also|Custom Forms|Transformations}}
+
+{{Navbox Races}}

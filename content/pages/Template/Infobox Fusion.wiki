@@ -1,0 +1,25 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-fusion
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Result info
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Method, Requirements, Duration, Item
+|General_label={{#invoke:Labels|get|General}}
+|Method_label={{#invoke:Labels|get|Method}}
+|Requirements_label={{#invoke:Labels|get|Requirements}}
+|Duration_label={{#invoke:Labels|get|Duration}}
+|Item_label={{#invoke:Labels|get|Item}}
+
+|Result info=Result, Ending
+|Result info_label={{#invoke:Labels|get|Result}}
+|Result_label={{#invoke:Labels|get|Result}}
+|Ending_label={{#invoke:Labels|get|Ending}}
+}}[[Category:Fusions{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

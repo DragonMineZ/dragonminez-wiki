@@ -1,0 +1,34 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-tournament
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Fighters info, Rewards info
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Tournament id, Host, Arena, Format, Ring, Difficulty
+|General_label={{#invoke:Labels|get|General}}
+|Tournament id_label={{#invoke:Labels|get|Tournament id}}
+|Tournament id={{#if:{{{Tournament id|}}}|<code>{{{Tournament id}}}</code>}}
+|Host_label={{#invoke:Labels|get|Host}}
+|Arena_label={{#invoke:Labels|get|Arena}}
+|Format_label={{#invoke:Labels|get|Format}}
+|Ring_label={{#invoke:Labels|get|Ring}}
+|Difficulty_label={{#invoke:Labels|get|Difficulty}}
+
+|Fighters info=Fighters, Final
+|Fighters info_label={{#invoke:Labels|get|Fighters}}
+|Fighters_label={{#invoke:Labels|get|Fighters}}
+|Final_label={{#invoke:Labels|get|Final}}
+
+|Rewards info=Rewards, Re-entry cooldown
+|Rewards info_label={{#invoke:Labels|get|Rewards}}
+|Rewards info_collapsible=yes
+|Rewards_label={{#invoke:Labels|get|Rewards}}
+|Re-entry cooldown_label={{#invoke:Labels|get|Re-entry cooldown}}
+}}[[Category:Tournaments{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

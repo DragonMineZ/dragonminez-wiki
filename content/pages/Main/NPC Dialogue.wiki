@@ -1,0 +1,226 @@
+<translate>
+'''NPC dialogue''' lets you give master NPCs branching conversations with JSON alone, with no Java. A dialogue tree is a set of '''nodes''': each node is one line the NPC says, plus the '''choices''' the player can answer with. Choices can lead to another node, be hidden behind '''conditions''', and run '''actions''' such as changing alignment, giving TP, running a command or starting a quest.
+</translate>
+
+<translate>
+Dialogue is per-world data, like quests and wishes.
+</translate>
+
+<translate>
+== Where files go ==
+</translate>
+
+<syntaxhighlight lang="text">
+<world save>/dragonminez/dialogues/*.json
+</syntaxhighlight>
+
+<translate>
+The folder is created the first time the server starts, together with an <code>_example.json</code> you can copy. Every <code>.json</code> file in the folder (no subfolders) holds '''one tree for one NPC'''. Files are loaded in alphabetical order; if two files target the same NPC, the later one wins.
+</translate>
+
+<translate>
+Dialogue loads at server start and reloads with <code>/dmzreload story</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].
+</translate>
+
+<translate>
+Source: <code>src/main/java/com/dragonminez/common/dialogue/</code> (<code>DialogueRegistry</code>, <code>DialogueParser</code>, <code>DialogueService</code>, <code>DialogueAction</code>).
+</translate>
+
+<translate>
+== Which NPCs can use it ==
+</translate>
+<translate>
+Dialogue trees work on '''master NPCs''': the trainers placed by [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]], such as Roshi or Goku. The <code>npc</code> field is the master's id. The masters DragonMineZ places by default use these ids:
+</translate>
+<translate>
+<code>roshi</code>, <code>goku</code>, <code>karin</code>, <code>dende</code>, <code>popo</code>, <code>gero</code>, <code>guru</code>, <code>kingkai</code> ([[Special:MyLanguage/King Kai|King Kai]]), <code>toribot</code>, <code>enma</code>, <code>baba</code>, <code>grandkai</code>, <code>otherworld_announcer</code>
+</translate>
+
+<translate>
+When a master has a tree, right-clicking it shows the tree '''instead of''' the master's usual options (Quests, Skills, Train and services; see [[Special:MyLanguage/Masters|Masters]]). The tree uses the same dialogue window: the line appears in the middle of the bottom band and the choices are listed on the right. Give one of your choices the <code>OPEN_QUESTS</code> action so players can still reach the master's quests. The player must have created a character first. A master's alignment requirement does not stop the conversation; it only locks Skills, Train and new quests (see [[Special:MyLanguage/Masters|Masters]]).
+</translate>
+
+<translate>
+The default quest NPCs (<code>dragonminez:quest_npc</code>, for example Bulma) keep their quest list and do not use dialogue trees.
+</translate>
+
+<translate>
+== File format ==
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "npc": "roshi",
+  "start": "greet",
+  "nodes": {
+    "greet": {
+      "line": "Well, if it isn't %player%! What brings you here?",
+      "choices": [
+        {
+          "text": "I want to get stronger.",
+          "goto": "training",
+          "conditions": { "operator": "AND", "conditions": [ { "type": "LEVEL", "minLevel": 5 } ] }
+        },
+        {
+          "text": "Give me your money!",
+          "goto": "angry",
+          "actions": [ { "type": "ALIGNMENT", "amount": -5 } ]
+        },
+        { "text": "Show me your quests.", "actions": [ { "type": "OPEN_QUESTS" } ] },
+        { "text": "Goodbye." }
+      ]
+    },
+    "training": {
+      "line": "Ha! I like your spirit. Take these training points and come back later.",
+      "choices": [
+        { "text": "Thank you!", "actions": [ { "type": "TPS", "amount": 50 } ] }
+      ]
+    },
+    "angry": {
+      "line": "How dare you! Leave my sight at once!"
+    }
+  }
+}
+</syntaxhighlight>
+
+<translate>
+=== Tree ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>npc</code> || <translate>String</translate> || <translate>'''Required.''' The id of the master the tree belongs to (case-insensitive). An id that starts with <code>_</code> keeps the file inactive; that is how <code>_example.json</code> stays off.</translate>
+|-
+| <code>start</code> || <translate>String</translate> || <translate>Id of the first node. Default <code>"start"</code>.</translate>
+|-
+| <code>nodes</code> || <translate>Object</translate> || <translate>'''Required.''' Map of node id to node.</translate>
+|}
+
+<translate>
+A tree is skipped (and the reason logged) when <code>npc</code> or <code>nodes</code> is missing, or when the <code>start</code> node does not exist.
+</translate>
+
+<translate>
+=== Node ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>line</code> || <translate>String</translate> || <translate>'''Required.''' What the NPC says. A translation key or plain text; supports [[Special:MyLanguage/NPC Dialogue#Placeholders|placeholders]]. A node without <code>line</code> is skipped.</translate>
+|-
+| <code>choices</code> || <translate>Array</translate> || <translate>The player's answers, listed as options. A node without choices just shows its line; the player leaves with '''Close''' or {{Key|Esc}}.</translate>
+|}
+
+<translate>
+=== Choice ===
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>text</code> || <translate>String</translate> || <translate>'''Required.''' Button text. A translation key or plain text; supports placeholders. A choice without <code>text</code> is skipped.</translate>
+|-
+| <code>goto</code> || <translate>String</translate> || <translate>Node to show next. Leave it out (or point it at a node that doesn't exist) to end the conversation.</translate>
+|-
+| <code>conditions</code> || <translate>Object</translate> || <translate>Optional. The choice is only shown when the conditions are met. Same format as quest <code>prerequisites</code> (see below). If the block can't be read, the whole choice is dropped rather than shown to everyone.</translate>
+|-
+| <code>actions</code> || <translate>Array</translate> || <translate>Optional. Actions run in order when the choice is picked (see below).</translate>
+|}
+
+<translate>
+=== Conditions ===
+</translate>
+<translate>
+<code>conditions</code> uses the quest condition-tree format: an <code>operator</code> (<code>AND</code> or <code>OR</code>) and a list of <code>conditions</code>, which can be nested. Every quest condition type works, for example:
+</translate>
+
+<syntaxhighlight lang="json">
+{ "operator": "OR", "conditions": [
+    { "type": "RACE", "race": "saiyan" },
+    { "type": "SAGA_QUEST", "sagaId": "saiyan_saga", "questId": 12 },
+    { "type": "ALIGNMENT", "max": 40 }
+] }
+</syntaxhighlight>
+
+<translate>
+The available types are <code>SAGA_QUEST</code>, <code>QUEST</code>, <code>LEVEL</code>, <code>STAT</code>, <code>RACE</code>, <code>CLASS</code>, <code>SKILL</code>, <code>BIOME</code>, <code>DIMENSION</code>, <code>STRUCTURE</code>, <code>ALIGNMENT</code> and <code>TIME</code>. Field names are the same as in quests (for example, <code>LEVEL</code> uses <code>minLevel</code>); see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Custom Quests]].
+</translate>
+
+<translate>
+Conditions are checked again on the server when the player picks the choice, so a hidden choice can't be forced.
+</translate>
+
+<translate>
+=== Actions ===
+</translate>
+
+{| class="wikitable"
+! <code>type</code> !! <translate>Fields</translate> !! <translate>What it does</translate>
+|-
+| <code>ALIGNMENT</code> || <code>amount</code> || <translate>Adds <code>amount</code> to the player's alignment (negative values lower it).</translate>
+|-
+| <code>TPS</code> || <code>amount</code> || <translate>Gives <code>amount</code> training points (positive amounts only).</translate>
+|-
+| <code>COMMAND</code> || <code>command</code> || <translate>Runs a command from the server with operator permissions. <code>%player%</code> is replaced with the player's name.</translate>
+|-
+| <code>START_QUEST</code> || <code>quest</code> || <translate>Starts a quest with the same rules as starting it from the quest log (prerequisites, start requirements, party). Use the side quest id (for example <code>"bulma_gero_blueprints"</code>) or <code>sagaId:questId</code> for a saga quest (for example <code>"saiyan_saga:3"</code>). If the quest can't be started, nothing happens.</translate>
+|-
+| <code>OPEN_QUESTS</code> || <translate>None</translate> || <translate>Switches the same window to the NPC's quest list (accept, turn in, see locked quests) and ends the tree (<code>goto</code> is ignored).</translate>
+|}
+
+<translate>
+<code>value</code> is accepted as a generic alias for <code>command</code> and <code>quest</code>. An action with an unknown <code>type</code> is skipped and logged.
+</translate>
+
+<translate>
+== Placeholders ==
+</translate>
+<translate>
+Lines and choice texts can contain these placeholders; they are filled in for the player reading them:
+</translate>
+
+{| class="wikitable"
+! <translate>Placeholder</translate> !! <translate>Value</translate>
+|-
+| <code>%player%</code> || <translate>Player name</translate>
+|-
+| <code>%race%</code> || <translate>Race id</translate>
+|-
+| <code>%class%</code> || <translate>Class id</translate>
+|-
+| <code>%level%</code> || <translate>Player level</translate>
+|-
+| <code>%alignment%</code> || <translate>Alignment</translate>
+|-
+| <code>%deaths%</code> || <translate>Number of deaths</translate>
+|-
+| <code>%form%</code> || <translate>Active form (<code>base</code> when untransformed)</translate>
+|-
+| <code>%dimension%</code> || <translate>Dimension name (for example <code>overworld</code>)</translate>
+|}
+
+<translate>
+Placeholders also work inside your own translations. Java add-ons can add more with <code>DMZTextPlaceholders.register(...)</code>; see [[Special:MyLanguage/Implementation and Events#Custom text placeholders|Implementation and Events]].
+</translate>
+
+<translate>
+== Translations ==
+</translate>
+<translate>
+<code>line</code> and <code>text</code> are shown translated when they match a translation key in a language file, and as written otherwise. The name tab above the line shows the NPC's usual name (its entity name, for example <code>entity.dragonminez.master_roshi</code>). Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+<translate>
+# Save your file under <code><world save>/dragonminez/dialogues/</code>.
+# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
+# Run <code>/dmzreload story</code>; see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].
+# Check the server console: it logs how many trees were loaded, and names any node, choice or action that was skipped.
+# Talk to the NPC and walk through every branch, including the choices gated by conditions.
+</translate>
+
+{{Navbox Modding}}

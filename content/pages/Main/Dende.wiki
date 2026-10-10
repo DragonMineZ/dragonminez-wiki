@@ -1,0 +1,48 @@
+{{Infobox Master
+|Location={{L|Earth}}, <translate>near the world spawn</translate>
+|Structure={{L|Kami's Lookout}}
+|Alignment=<translate>None (Kami's Blessing needs Good alignment)</translate>
+|Locate=/dmzlocate kamilookout
+|Services=<translate>Heal, Reset Stats, Grow/Remove Tail, Kami's Blessing</translate>
+}}
+<translate>
+'''Dende''' is the guardian of [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] on [[Special:MyLanguage/Earth|Earth]]. He teaches no skills; instead he offers healing, a full character reset, Saiyan tails and Kami's Blessing, a Training Point boost for Good-aligned players.
+</translate>
+
+<translate>
+== Location ==
+</translate>
+<translate>
+Dende lives at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the world spawn, together with [[Special:MyLanguage/Korin|Korin]] and [[Special:MyLanguage/Mr. Popo|Mr. Popo]]. Capsule Corp Assistants sell a map to it at trade tier 3 (see [[Special:MyLanguage/Kami's Lookout#Finding it|Kami's Lookout]]).
+</translate>
+
+<translate>
+== Services ==
+</translate>
+<translate>
+* '''Heal''': heals you. Like every healing service, it's locked when you're already at full health and doesn't work while you're knocked out after a temporary revive.
+* '''Reset Stats''': a full character reset. Dende asks for confirmation first, and the window closes afterwards.
+* '''Grow Tail''' / '''Remove Tail''': only for races with a Saiyan tail.
+* '''Kami's Blessing''': ×1.2 Training Points for 5 minutes, with a 30-minute cooldown shown as a live timer. Only for Good-aligned players (61 or higher). See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].
+</translate>
+
+{{Config|General Server Config|kamiBlessTpMultiplier}}
+<translate>
+The blessing's multiplier, duration and cooldown are server defaults.
+</translate>
+
+<translate>
+== In the story ==
+</translate>
+<translate>
+* [[Special:MyLanguage/Android Saga|Android Saga]] quest 21, ''A New Guardian'': find Kami's Lookout and talk to Dende.
+* [[Special:MyLanguage/Movies Saga|Movies Saga]] quest 1, ''Kami's Lookout Warning'': find Kami's Lookout and talk to Dende.
+</translate>
+
+<translate>
+== Side quests ==
+</translate>
+{{Main|Sidequests}}
+{{#invoke:Sidequests|giver|dende}}
+
+{{Navbox Masters}}

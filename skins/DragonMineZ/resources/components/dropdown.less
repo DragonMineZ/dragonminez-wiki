@@ -1,0 +1,198 @@
+.dmz-dropdown {
+	position: relative;
+}
+
+.dmz-dropdown__chevron {
+	transition: transform 0.3s ease;
+
+	[ aria-expanded='true' ] > & {
+		transform: rotate( 180deg );
+	}
+}
+
+.dmz-dropdown__panel {
+	position: absolute;
+	z-index: 50;
+	top: calc( 100% + 12px );
+	min-width: 220px;
+	box-sizing: border-box;
+	padding: 8px;
+	background: var( --surface-90 );
+	-webkit-backdrop-filter: blur( 24px );
+	backdrop-filter: blur( 24px );
+	border: 1px solid var( --glass-strong );
+	border-radius: 32px;
+	box-shadow: var( --shadow-dropdown );
+	animation: dmz-pop 0.2s ease-out;
+	text-align: left;
+
+	&[ hidden ] {
+		display: none;
+	}
+}
+
+.dmz-download__panel {
+	left: 50%;
+	translate: -50% 0;
+	width: 220px;
+
+	@media ( min-width: @dmz-bp-lg ) {
+		left: 0;
+		translate: none;
+	}
+}
+
+.dmz-download__item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 16px 20px;
+	border-radius: 24px;
+	color: var( --foreground );
+	text-decoration: none;
+	transition: all 0.2s ease;
+
+	&:hover {
+		background: rgba( 255, 255, 255, 0.1 );
+	}
+
+	&:active {
+		transform: scale( 0.98 );
+	}
+}
+
+.dmz-download__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	transition: transform 0.2s ease;
+
+	svg {
+		width: 1em;
+		height: 1em;
+	}
+
+	.dmz-download__item:hover & {
+		transform: scale( 1.1 );
+	}
+}
+
+.dmz-download__text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.dmz-download__name {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	color: var( --foreground );
+}
+
+.dmz-download__caption {
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var( --muted );
+}
+
+.dmz-download__arrow {
+	margin-left: auto;
+	font-size: 22px;
+	color: var( --muted );
+	transition: transform 0.2s ease;
+
+	.dmz-download__item:hover & {
+		transform: translateX( 4px );
+	}
+}
+
+.dmz-more__panel,
+.dmz-user__panel {
+	right: 0;
+	min-width: 240px;
+	padding: 6px;
+	border-radius: 16px;
+	background: var( --surface );
+}
+
+.dmz-user__head {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 10px 12px 14px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid var( --glass );
+	color: var( --foreground );
+	text-decoration: none;
+}
+
+.dmz-user__name {
+	font-size: 15px;
+	font-weight: 800;
+	letter-spacing: -0.01em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dmz-menu-portlet + .dmz-menu-portlet {
+	margin-top: 6px;
+	padding-top: 6px;
+	border-top: 1px solid var( --glass );
+}
+
+.dmz-menu-portlet__label {
+	padding: 8px 12px 4px;
+	color: var( --fg-50 );
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.dmz-menu-portlet__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 8px 12px;
+		border-radius: 12px;
+		color: var( --muted );
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 700;
+		text-decoration: none;
+		transition: all 0.2s ease;
+
+		&:hover {
+			background: var( --glass );
+			color: var( --foreground );
+		}
+	}
+
+	li.selected a {
+		background: var( --foreground );
+		color: var( --background );
+	}
+
+	li.new a {
+		color: var( --error );
+	}
+}

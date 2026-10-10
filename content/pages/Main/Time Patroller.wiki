@@ -1,0 +1,37 @@
+{{Infobox Mob
+|Type=<translate>Trader</translate>
+|Dimension={{L|Demon Realm}}
+|Spawns=<translate>One in the central plaza of every demon village</translate>
+|Behavior=<translate>Trades</translate>
+|Abilities=<translate>Sells maps to the Demon Realm world boss lairs</translate>
+|Drops=<translate>None</translate>
+}}
+<translate>
+The '''Time Patroller''' stands in the central plaza of every demon village in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He sells the maps to the Demon Realm [[Special:MyLanguage/World Bosses|world boss]] lairs: the three Tamagamis, one per Demon World floor, and [[Special:MyLanguage/Gomah|Gomah]].
+</translate>
+
+<translate>
+== Maps ==
+</translate>
+{| class="wikitable"
+! <translate>Map</translate> !! <translate>Leads to</translate> !! <translate>Cost</translate> !! <translate>Uses</translate>
+|-
+| <translate>Tamagami Number Three Map</translate> || {{L|Tamagami Number 3}} || <translate>12 Emeralds</translate> || 4
+|-
+| <translate>Tamagami Number Two Map</translate> || {{L|Tamagami Number 2}} || <translate>16 Emeralds</translate> || 4
+|-
+| <translate>Tamagami Number One Map</translate> || {{L|Tamagami Number 1}} || <translate>20 Emeralds</translate> || 4
+|-
+| <translate>Gomah's Horn Cradle Map</translate> || {{L|Gomah}} || <translate>24 Emeralds</translate> || 4
+|}
+
+<translate>
+A map stays '''out of stock''' until its boss's lair has been located. The lairs are picked while players are in the Demon Realm, so explore it first and re-open the trade window later. His trades restock once per in-game day.
+</translate>
+
+{{Note|type=warning|title=<translate>Alignment</translate>|<translate>Killing the Time Patroller or a Demon Realm Villager lowers your alignment.</translate>}}
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:time_patroller</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

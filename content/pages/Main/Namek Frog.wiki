@@ -1,0 +1,43 @@
+{{Infobox Mob
+|Type=<translate>Passive animal</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate>Ajissa Plains, Sacred Land and Namekian Rivers</translate>
+|Behavior=<translate>Harmless; hops away when hurt</translate>
+|Drops=<translate>1–2 Raw Frog Legs</translate>
+}}
+<translate>
+The '''Namekian Frog''' is the native amphibian of [[Special:MyLanguage/Namek|Planet Namek]]. There is also a rare '''Ginyu variant''', shown as ''Frog (Ginyu)'': a cosmetic nod to Captain Ginyu that behaves and drops exactly like a normal frog.
+</translate>
+
+<translate>
+== Spawning ==
+
+Both frogs spawn in the Ajissa Plains, Sacred Land and Namekian Rivers biomes.
+</translate>
+{| class="wikitable"
+! <translate>Frog</translate> !! <translate>Spawn weight</translate> !! <translate>Group size</translate>
+|-
+| <translate>Namekian Frog</translate> || 2 || 1–3
+|-
+| <translate>Frog (Ginyu)</translate> || 5 || 1
+|}
+
+<translate>
+== Behavior ==
+
+Both frogs are harmless and hop away when hurt.
+</translate>
+
+<translate>
+== Drops ==
+
+Both variants drop:
+* 1–2 '''Raw Frog Legs''' (cooks if on fire, +0–1 Looting)
+
+[[Special:MyLanguage/Namekian Trader|Namekian Traders]] also trade Raw Frog Legs.
+</translate>
+
+{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:namek_frog</code>, <code>dragonminez:namek_frog_ginyu</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Wildlife{{#translation:}}]]

@@ -1,0 +1,66 @@
+Infobox for world boss pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox World Boss
+|title=
+|image=
+|caption=
+|quote=
+|World=
+|Lair=
+|Coordinates=
+|How to find=
+|Boss key=
+|Respawn=
+|Health=
+|Transforms into=
+|Transformed health=
+|Minions=
+|Signature moves=
+|TP reward=
+|Drops=
+|Techniques=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>World</code>
+|-
+| <code>Lair</code>
+|-
+| <code>Coordinates</code>
+|-
+| <code>How to find</code>
+|-
+| <code>Boss key</code>
+|-
+| <code>Respawn</code>
+|-
+| <code>Health</code>
+|-
+| <code>Transforms into</code>
+|-
+| <code>Transformed health</code>
+|-
+| <code>Minions</code>
+|-
+| <code>Signature moves</code>
+|-
+| <code>TP reward</code>
+|-
+| <code>Drops</code>
+|-
+| <code>Techniques</code>
+|}

@@ -1,0 +1,70 @@
+{{Infobox Raid
+|quote=<translate>Wipe them out! This planet belongs to us now!</translate>
+|Raid id=saiyan_assault
+|Dimension={{L|Earth}}
+|Raid site=<translate>Saiyan Crater: a crashed Saiyan pod with a Saiyan scout</translate>
+|Waves=5
+|Bosses=<translate>Saiyan Elites, who become Oozarus in the last wave</translate>
+|Scout health=500
+|Scout melee=12
+|Scout ki=10
+|Rewards=<translate>10,000 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Green Scouter</translate>
+|Defeat penalty=<translate>−10 alignment</translate>
+}}
+<translate>
+The '''Saiyan Assault''' is the raid of [[Special:MyLanguage/Earth|Earth]]. A Saiyan pod crashes, its scout calls for backup with his last breath, and five waves of Saiyan Soldiers and Saiyan Elites land around you. In the last wave the Elites throw a fake moon and transform into '''Oozarus'''. It is the easiest of the three raids.
+</translate>
+
+<translate>
+== Finding a Saiyan Crater ==
+
+'''Saiyan Craters''' generate anywhere on land in the Overworld, spread out and kept away from villages. They only appear in newly generated chunks. Each crater holds a crashed Saiyan pod and one Saiyan scout with a supervillain aura. When you come within 80 blocks, your scouter warns you: ''"Your scouter picks up a Saiyan pod that just crashed nearby..."''. See [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== Starting the raid ==
+
+The scout has 500 health, 12 melee damage and 10 ki damage, and fights on the Novice AI tier. When it dies (''"With his last breath the Saiyan called for backup... brace yourself!"''), the killer receives the '''Emperor's Wrath''' omen for 60 seconds. When it runs out, the raid starts where you stand. Drinking milk to remove the omen calls the raid off. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].
+</translate>
+
+<translate>
+== Waves ==
+
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid. In waves 3 and 4 the Elites can't transform; in wave 5 they stay dormant until the soldiers fall, then call the moon (''"Look up at the moon... and witness the true power of a Saiyan!"'') and become Oozarus.
+</translate>
+{| class="wikitable"
+! <translate>Wave</translate> !! <translate>Enemies</translate> !! <translate>Health / melee / ki</translate> !! <translate>AI tier</translate>
+|-
+| 1 || <translate>4 Saiyan Soldiers</translate> || 500 / 12 / 10 || <translate>Novice</translate>
+|-
+| 2 || <translate>6 Saiyan Soldiers</translate> || 550 / 14 / 11 || <translate>Novice</translate>
+|-
+| rowspan="2" | 3 || <translate>6 Saiyan Soldiers</translate> || 600 / 15 / 12 || <translate>Novice</translate>
+|-
+| <translate>2 Saiyan Elites</translate> || 700 / 17 / 14 || <translate>Smart</translate>
+|-
+| rowspan="2" | 4 || <translate>6 Saiyan Soldiers</translate> || 650 / 16 / 13 || <translate>Novice</translate>
+|-
+| <translate>4 Saiyan Elites</translate> || 750 / 18 / 15 || <translate>Smart</translate>
+|-
+| rowspan="2" | 5 || <translate>6 Saiyan Soldiers</translate> || 700 / 17 / 14 || <translate>Novice</translate>
+|-
+| <translate>3 Saiyan Elites (bosses), becoming Oozarus</translate> || <translate>800 / 20 / 16; as Oozaru 1,500 / 55 / 45</translate> || <translate>Smart</translate>
+|}
+
+<translate>
+== Rewards ==
+
+Every participant still fighting when the last wave is cleared gets:
+* '''10,000 TP'''
+* '''Hero of the Village''' and '''Hero of the World''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])
+* 8 [[Special:MyLanguage/Golden Carrot|Golden Carrots]], 2 [[Special:MyLanguage/Senzu Bean|Senzu Beans]] and 1 Green Scouter (see [[Special:MyLanguage/Scouters|Scouters]])
+</translate>
+
+<translate>
+== Defeat ==
+
+If every participant falls or leaves, the raid is lost: the remaining Saiyans vanish, everyone sees ''"You couldn't defend Earth from the Saiyans..."'' and loses '''10 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).
+</translate>
+
+{{Navbox Challenges}}

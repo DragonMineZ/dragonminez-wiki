@@ -1,0 +1,4 @@
+<includeonly><div class="dmz-hatnote dmz-hatnote--config">{{#invoke:Labels|get|Configured in}}: {{L|{{{1}}}}}{{#if:{{{2|}}}| <code>{{{2}}}</code>}}</div></includeonly><noinclude>Tells server owners where a mechanic is configured.
+
+<pre>{{Config|General Server Config|worldBoss}}</pre>
+</noinclude>

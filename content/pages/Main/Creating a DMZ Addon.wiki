@@ -1,0 +1,163 @@
+<translate>
+'''Creating a DMZ Addon''' walks you through a full Forge add-on that integrates with DragonMineZ: your own mod jar that depends on DMZ and can react to its events and data. Read [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]] first for the required toolchain and versions.
+</translate>
+
+<translate>
+== Step 1: Create a Forge 1.20.1 project ==
+</translate>
+<translate>
+Start from the Forge MDK for Minecraft <code>1.20.1</code> with Forge <code>47.4.10</code>, ForgeGradle <code>6.0.30</code> and Java <code>17</code>, matching DMZ.
+</translate>
+
+<translate>
+These files of the DMZ repository are useful references for your project structure and setup:
+</translate>
+<translate>
+* <code>gradle.properties</code>
+* <code>build.gradle.kts</code>
+* <code>src/main/resources/META-INF/mods.toml</code>
+</translate>
+
+<translate>
+== Step 2: Set up Gradle ==
+</translate>
+<translate>
+DMZ uses the Kotlin Gradle DSL (<code>build.gradle.kts</code>), but you can use Groovy Gradle or any other setup you prefer for your add-on. Just make sure the Forge and Java versions match. A <code>build.gradle.kts</code> example:
+</translate>
+
+<syntaxhighlight lang="kotlin">
+plugins {
+    java
+    idea
+    id("net.minecraftforge.gradle") version "6.0.30"
+    id("org.parchmentmc.librarian.forgegradle") version "1.+"
+    id("org.spongepowered.mixin") version "0.7.38"
+}
+
+repositories {
+    maven("https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/") // GeckoLib
+    maven("https://maven.blamejared.com/")                             // TerraBlender
+    maven("https://maven.theillusivec4.top/")                          // Curios
+    flatDir { dirs("libs") }                                            // local DMZ jar
+    mavenCentral()
+}
+
+minecraft {
+    mappings("parchment", "2023.09.03-1.20.1")
+    runs {
+        configureEach {
+            workingDirectory(project.file("run"))
+            // DMZ ships mixins: let the dev runtime remap their refmap
+            property("mixin.env.remapRefMap", "true")
+            property("mixin.env.refMapRemappingFile", "${projectDir}/build/createSrgToMcp/output.srg")
+        }
+        create("client")
+        create("server")
+    }
+}
+
+dependencies {
+    minecraft("net.minecraftforge:forge:1.20.1-47.4.10")
+    annotationProcessor("org.spongepowered:mixin:0.8.7:processor")
+
+    // DMZ's mandatory dependencies: GeckoLib, TerraBlender & Curios
+    implementation(fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.8.3"))
+    implementation("com.eliotlash.mclib:mclib:20")
+    implementation(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.10"))
+    compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1:api"))
+    runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:5.14.1+1.20.1"))
+
+    // DragonMineZ itself (libs/dragonminez-2.2-alpha.jar)
+    implementation(fg.deobf("local:dragonminez:2.2-alpha"))
+}
+</syntaxhighlight>
+
+<translate>
+== Step 3: Declare the DMZ dependency ==
+</translate>
+<translate>
+In your add-on's <code>mods.toml</code>, add a dependency entry for <code>dragonminez</code>:
+</translate>
+
+<syntaxhighlight lang="toml">
+[[dependencies.your_addon_modid]]
+    modId="dragonminez"
+    mandatory=true # false if your addon also works without DMZ
+    versionRange="[2.2-alpha]" # Only allow the DMZ version you built against to avoid compatibility issues.
+    ordering="AFTER"
+    side="BOTH" # Choose between "CLIENT", "SERVER", or "BOTH" based on your addon needs.
+</syntaxhighlight>
+
+<translate>
+Set <code>mandatory</code> to <code>false</code> if your add-on also works without DMZ (see [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Optional dependency pattern]]). DMZ's own <code>mods.toml</code> uses <code>displayTest = "MATCH_VERSION"</code>, so the client and the server must run the same DMZ version anyway.
+</translate>
+
+<translate>
+== Step 4: Add DMZ to the compile classpath ==
+</translate>
+<translate>
+DMZ's build does not publish a Maven artifact, so use a local jar during development:
+</translate>
+<translate>
+# Download the DMZ release you target, or build it yourself with <code>./gradlew build</code> in the DMZ repository.
+# Use the '''no-classifier''' jar (<code>dragonminez-<version>.jar</code>): it bundles DMZ's database libraries. The <code>-slim</code> jar is not meant to be used.
+# Put it in your project's <code>libs/</code> folder and reference it through <code>fg.deobf(...)</code> as shown above, so ForgeGradle remaps it to your development mappings.
+</translate>
+<translate>
+Use <code>compileOnly</code> instead of <code>implementation</code> if you only want to compile against DMZ and run it from a separate instance.
+</translate>
+
+<translate>
+== Step 5: Listen to DMZ events ==
+</translate>
+<translate>
+DMZ publishes its server and common Forge events as nested classes of <code>com.dragonminez.common.events.DMZEvent</code>, and its client events as nested classes of <code>com.dragonminez.client.events.DMZClientEvent</code>. For example:
+</translate>
+
+<syntaxhighlight lang="java">
+@Mod.EventBusSubscriber(modid = "your_addon_modid", bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class DmzHooks {
+    @SubscribeEvent
+    public static void onTpGain(com.dragonminez.common.events.DMZEvent.TPGainEvent event) {
+        // Example: increase TP gain by 10%
+        int boosted = Math.round(event.getTpGain() * 1.10f);
+        event.setTpGain(boosted);
+    }
+}
+</syntaxhighlight>
+
+<translate>
+The event source files are <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code> and <code>src/main/java/com/dragonminez/client/events/DMZClientEvent.java</code>. The full list, plus the quest objective and reward registries, text placeholders and utility menu slots, is on [[Special:MyLanguage/Implementation and Events|Implementation and Events]].
+</translate>
+
+<translate>
+== Suggested add-on structure ==
+</translate>
+<translate>
+* <code>your/addon/MainModClass.java</code>
+* <code>your/addon/event/DmzHooks.java</code>
+* <code>src/main/resources/META-INF/mods.toml</code>
+* <code>src/main/resources/pack.mcmeta</code>
+</translate>
+
+<translate>
+== First milestone checklist ==
+</translate>
+<translate>
+# The add-on loads without crashing in the development client.
+# DMZ is detected when present.
+# One DMZ event is received in the logs.
+# One behavior change is visible in game.
+</translate>
+
+<translate>
+== Compatibility recommendations ==
+</translate>
+<translate>
+* Guard code paths that only work with DMZ behind mod-presence checks.
+* Log clear warnings when DMZ is missing or its version is incompatible.
+* Don't bundle or depend on Legendary Tooltips, Epic Fight or Better Combat: DMZ refuses to start alongside them.
+* Use your own network channel, and never trust client input for progression (see [[Special:MyLanguage/Implementation and Events#Networking|Networking]]).
+</translate>
+
+{{Navbox Add-ons}}

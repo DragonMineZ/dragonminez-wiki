@@ -1,0 +1,27 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-race
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Gameplay
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Parent race, Racial skill, Forms, Stack forms
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Parent race_label={{#invoke:Labels|get|Parent race}}
+|Racial skill_label={{#invoke:Labels|get|Racial skill}}
+|Forms_label={{#invoke:Labels|get|Forms}}
+|Stack forms_label={{#invoke:Labels|get|Stack forms}}
+
+|Gameplay=Strengths, Playstyle, Fusion
+|Gameplay_label={{#invoke:Labels|get|Gameplay}}
+|Strengths_label={{#invoke:Labels|get|Strengths}}
+|Playstyle_label={{#invoke:Labels|get|Playstyle}}
+|Fusion_label={{#invoke:Labels|get|Fusion}}
+}}[[Category:Races{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

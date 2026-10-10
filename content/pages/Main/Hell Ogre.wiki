@@ -1,0 +1,55 @@
+{{Infobox Mob
+|Type=<translate>Neutral; hostile to Evil players</translate>
+|Dimension={{L|Otherworld}}
+|Spawns=<translate>Hell's ground and stone blocks</translate>
+|Behavior=<translate>Attacks Evil-aligned players on sight, and anyone who hits an ogre</translate>
+|Health=200
+|Damage=20
+|Drops=<translate>None</translate>
+}}
+<translate>
+'''Hell Ogres''' are the red and blue ogres that walk the floor of Hell, below the clouds of the [[Special:MyLanguage/Otherworld|Otherworld]]. They only hunt Evil-aligned players. Another ogre, the '''Hell Ogre''' standing next to [[Special:MyLanguage/King Yemma|King Yemma]], is a quest NPC who knows where [[Special:MyLanguage/Janemba|Janemba]] sleeps.
+</translate>
+
+<translate>
+== Red and Blue Ogres ==
+
+Two ogres share the same stats and behavior: the '''Red Ogre''' and the '''Blue Ogre'''.
+</translate>
+{| class="wikitable"
+! <translate>Ogre</translate> !! <translate>Health</translate> !! <translate>Damage</translate> !! <translate>Spawn weight</translate> !! <translate>Group size</translate>
+|-
+| <translate>Red Ogre</translate> || 200 || 20 || 60 || 1–2
+|-
+| <translate>Blue Ogre</translate> || 200 || 20 || 40 || 1–2
+|}
+
+<translate>
+== Spawning ==
+
+The ogres spawn on Hell's ground and stone blocks, with at most 4 ogres within 48 blocks.
+</translate>
+
+<translate>
+== Behavior ==
+
+The ogres are '''only hostile to Evil-aligned players''' (alignment 0–40). Anyone else is left alone unless they hit an ogre first, which brings the nearby ogres in too. They fight on the '''Novice''' AI tier. See [[Special:MyLanguage/Alignment|Alignment]].
+</translate>
+
+<translate>
+== Drops ==
+
+The ogres drop nothing.
+</translate>
+
+<translate>
+== The Hell Ogre quest NPC ==
+
+In the cloud realm of the Otherworld, next to King Yemma, stands the '''Hell Ogre''', a quest NPC. He tells you about [[Special:MyLanguage/Janemba|Janemba]], whether it is awake and, once its lair is known, gives you its location at the bottom of Hell.
+</translate>
+
+{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:saga_ogre_red</code>, <code>dragonminez:saga_ogre_blue</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]
+[[Category:NPCs{{#translation:}}]]

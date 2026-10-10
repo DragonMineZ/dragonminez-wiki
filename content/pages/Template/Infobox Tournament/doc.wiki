@@ -1,0 +1,54 @@
+Infobox for tournament pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Tournament
+|title=
+|image=
+|caption=
+|quote=
+|Tournament id=
+|Host=
+|Arena=
+|Format=
+|Ring=
+|Difficulty=
+|Fighters=
+|Final=
+|Rewards=
+|Re-entry cooldown=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Tournament id</code>
+|-
+| <code>Host</code>
+|-
+| <code>Arena</code>
+|-
+| <code>Format</code>
+|-
+| <code>Ring</code>
+|-
+| <code>Difficulty</code>
+|-
+| <code>Fighters</code>
+|-
+| <code>Final</code>
+|-
+| <code>Rewards</code>
+|-
+| <code>Re-entry cooldown</code>
+|}

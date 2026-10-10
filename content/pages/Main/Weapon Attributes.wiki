@@ -1,0 +1,230 @@
+<translate>
+'''Weapon Attributes''' is a datapack system that tells the DragonMineZ combat engine how a specific item behaves in combat: attack range, animation, hitbox shape, damage multipliers, conditional attack variants (dual-wielding, sneaking, mounted and so on) and critical stats. Third-party weapon mods hook into this system to get proper DragonMineZ combat behavior.
+</translate>
+
+<translate>
+Loader: <code>WeaponRegistry.loadAttributes(resourceManager)</code>, in <code>src/main/java/com/dragonminez/common/combat/logic/weapon/WeaponRegistry.java</code>. It reloads with the vanilla datapack reload (<code>/reload</code> or a restart), '''not''' with <code>/dmzreload</code>.
+</translate>
+
+<translate>
+== File location and item mapping ==
+</translate>
+
+<syntaxhighlight lang="text">
+data/<namespace>/weapon_attributes/<item_path>.json
+</syntaxhighlight>
+
+<translate>
+The namespace and path become the target item id: <code>data/dragonminez/weapon_attributes/axe.json</code> applies to <code>dragonminez:axe</code>. A third-party mod defines its own weapons under its own namespace, for example <code>data/mymod/weapon_attributes/great_axe.json</code> for <code>mymod:great_axe</code>.
+</translate>
+
+{{Note|title=<translate>Better Combat datapacks</translate>|text=<translate>Any <code>bettercombat:</code> namespace found in these JSON files is rewritten to <code>dragonminez:</code> at load time, so weapon attribute datapacks written for the Better Combat mod mostly work as they are.</translate>}}
+
+<translate>
+== Top-level schema ==
+</translate>
+<translate>
+A file holds an <code>attributes</code> object:
+</translate>
+
+<syntaxhighlight lang="text">
+{
+  "attributes": { ... }
+}
+</syntaxhighlight>
+
+<translate>
+Or, to inherit another item's attributes and only override specific fields, it names a <code>parent</code>:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "parent": "dragonminez:sword",
+  "attributes": {
+    "crit_chance": 0.10,
+    "crit_damage": 0.15
+  }
+}
+</syntaxhighlight>
+
+<translate>
+<code>parent</code> chains can go several levels deep (a parent can have its own parent). Cycles are detected: a weapon whose parent chain loops back on itself fails to resolve and is skipped (logged as an error), so double-check your <code>parent</code> references.
+</translate>
+
+<translate>
+== Attributes fields ==
+</translate>
+{{Config|Combat Config|fallbackCompatibility}}
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>attack_range</code> || <translate>Number</translate> || <translate>Reach in blocks (the Minecraft default <code>3.0</code> if left out).</translate>
+|-
+| <code>pose</code> || <translate>String</translate> || <translate>GeckoLib animation pose for the main-hand weapon.</translate>
+|-
+| <code>off_hand_pose</code> || <translate>String</translate> || <translate>GeckoLib animation pose for the off-hand weapon.</translate>
+|-
+| <code>two_handed</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, the off hand can't be used while the weapon is wielded.</translate>
+|-
+| <code>category</code> || <translate>String</translate> || <translate>Free-form category tag. It is used for two things: matching <code>DUAL_WIELDING_SAME_CATEGORY</code> conditions between the main hand and the off hand, '''and''' as the target category for the <code>fallbackCompatibility</code> regex system in [[Special:MyLanguage/Combat Config|Combat Config]].</translate>
+|-
+| <code>crit_chance</code> || <translate>Number</translate> || <translate>Innate critical chance (<code>0.0</code>–<code>1.0</code>), applied as an attribute modifier.</translate>
+|-
+| <code>crit_damage</code> || <translate>Number</translate> || <translate>Innate critical damage multiplier, applied as an attribute modifier.</translate>
+|-
+| <code>attacks</code> || <translate>Array</translate> || <translate>'''Required.''' One or more attack variants (see below).</translate>
+|}
+
+<translate>
+== Attack entries ==
+</translate>
+<translate>
+Each entry of <code>attacks</code> describes one swing variant. DragonMineZ checks the <code>conditions</code> from top to bottom and uses the first attack whose conditions all pass.
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>conditions</code> || <translate>List of condition strings</translate> || <translate>All of them must be true for this variant to fire. Leave it out for an unconditional attack.</translate>
+|-
+| <code>hitbox</code> || <translate>String</translate> || <translate><code>FORWARD_BOX</code> (a box extending forward, closest to vanilla), <code>VERTICAL_PLANE</code> (a vertical sweeping slash) or <code>HORIZONTAL_PLANE</code> (a wide horizontal sweep).</translate>
+|-
+| <code>damage_multiplier</code> || <translate>Number</translate> || <translate>Multiplier on the weapon's base damage (default <code>1.0</code>).</translate>
+|-
+| <code>angle</code> || <translate>Number</translate> || <translate>Swing arc in degrees.</translate>
+|-
+| <code>upswing</code> || <translate>Number</translate> || <translate>Cooldown multiplier: <code>cooldownTicks = (1 / (4 - attackSpeed)) * 20 * upswing</code>. Lower means a faster follow-up. It also sets the swing's '''windup''' (the delay before the hit lands): animation ticks × <code>upswing</code> × 0.95, clamped to 3–7 ticks.</translate>
+|-
+| <code>animation</code> || <translate>String</translate> || <translate>GeckoLib animation name. It is checked against <code>animations/*.json</code>; if there is no exact match, DragonMineZ picks the closest name (Levenshtein distance) after stripping known prefixes (<code>dragonminez:</code>, <code>bettercombat:</code>, <code>combat.</code>).</translate>
+|-
+| <code>swing_sound</code> / <code>impact_sound</code> || <code>{ "id", "volume"*, "pitch"*, "randomness"* }</code> || <translate>Sound played on swing or impact. <code>volume</code> and <code>pitch</code> default to <code>1.0</code>, <code>randomness</code> to <code>0.1</code>.</translate>
+|}
+
+<translate>
+=== Attack conditions ===
+</translate>
+<translate>
+This is the complete list of conditions:
+</translate>
+
+{| class="wikitable"
+! <translate>Condition</translate> !! <translate>Meaning</translate>
+|-
+| <code>NOT_DUAL_WIELDING</code> || <translate>The off hand is empty (air).</translate>
+|-
+| <code>DUAL_WIELDING_ANY</code> || <translate>Both hands hold something.</translate>
+|-
+| <code>DUAL_WIELDING_SAME</code> || <translate>Both hands hold the exact same item id.</translate>
+|-
+| <code>DUAL_WIELDING_SAME_CATEGORY</code> || <translate>Both hands hold items that share the same <code>category</code>.</translate>
+|-
+| <code>NO_OFFHAND_ITEM</code> || <translate>The off hand is empty.</translate>
+|-
+| <code>OFF_HAND_SHIELD</code> || <translate>The off hand holds a shield.</translate>
+|-
+| <code>MAIN_HAND_ONLY</code> || <translate>The attack only applies to the main-hand weapon.</translate>
+|-
+| <code>OFF_HAND_ONLY</code> || <translate>The attack only applies to the off-hand weapon.</translate>
+|-
+| <code>MOUNTED</code> || <translate>The player is riding an entity.</translate>
+|-
+| <code>NOT_MOUNTED</code> || <translate>The player is not riding.</translate>
+|-
+| <code>SNEAKING</code> || <translate>The player is crouching.</translate>
+|-
+| <code>NOT_SNEAKING</code> || <translate>The player is standing.</translate>
+|}
+
+<translate>
+== Full example ==
+</translate>
+<translate>
+A dagger with several attacks and a dual-wield variant:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "attributes": {
+    "attack_range": 2,
+    "two_handed": false,
+    "category": "dagger",
+    "attacks": [
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.8,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "combat.one_handed_slash_horizontal_right_1",
+        "swing_sound": { "id": "dragonminez:dagger_slash" }
+      },
+      {
+        "hitbox": "HORIZONTAL_PLANE",
+        "damage_multiplier": 0.8,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "combat.one_handed_slash_horizontal_right_2",
+        "swing_sound": { "id": "dragonminez:dagger_slash" }
+      },
+      {
+        "conditions": ["DUAL_WIELDING_SAME_CATEGORY", "MAIN_HAND_ONLY"],
+        "hitbox": "FORWARD_BOX",
+        "damage_multiplier": 1.4,
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "combat.dual_handed_stab",
+        "swing_sound": { "id": "dragonminez:dagger_slash" }
+      }
+    ]
+  }
+}
+</syntaxhighlight>
+
+<translate>
+An inheritance example (<code>brave_sword.json</code>, overriding only the critical stats):
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "parent": "dragonminez:sword",
+  "attributes": {
+    "crit_chance": 0.10,
+    "crit_damage": 0.15
+  }
+}
+</syntaxhighlight>
+
+<translate>
+== Shipped attribute files ==
+</translate>
+{{See also|Special Weapons}}
+<translate>
+DragonMineZ ships these entries under <code>data/dragonminez/weapon_attributes/</code>, so you can use them as a <code>parent</code> or as a <code>weaponCombo</code> or fallback target:
+</translate>
+<translate>
+* '''Base movesets:''' <code>anchor</code>, <code>axe</code>, <code>battlestaff</code>, <code>claw</code>, <code>claymore</code>, <code>cutlass</code>, <code>dagger</code>, <code>double_axe</code>, <code>fist</code>, <code>giant</code>, <code>glaive</code>, <code>halberd</code>, <code>hammer</code>, <code>katana</code>, <code>lance</code>, <code>mace</code>, <code>pickaxe</code>, <code>rapier</code>, <code>scythe</code>, <code>sickle</code>, <code>soul_knife</code>, <code>spear</code>, <code>staff</code>, <code>sword</code>, <code>trident</code>, <code>twin_blade</code>, <code>wand</code>.
+* '''Signature weapons:''' <code>brave_sword</code> ([[Special:MyLanguage/Brave Sword|Brave Sword]], parent <code>sword</code>), <code>yajirobe_katana</code> ([[Special:MyLanguage/Yajirobe's Katana|Yajirobe's Katana]], parent <code>katana</code>), <code>z_sword</code> ([[Special:MyLanguage/Z Sword|Z Sword]], parent <code>claymore</code>) and <code>power_pole</code> ([[Special:MyLanguage/Power Pole|Power Pole]], parent <code>staff</code>, with its own three-hit combo).
+</translate>
+
+<translate>
+DragonMineZ items without an entry of their own (for example the [[Special:MyLanguage/Dimension Sword|Dimension Sword]] and the Tamagami weapons: [[Special:MyLanguage/Tamagami Sword|Tamagami Sword]], [[Special:MyLanguage/Tamagami Trident|Tamagami Trident]] and [[Special:MyLanguage/Tamagami Hammer|Tamagami Hammer]]) get their moveset from the <code>fallbackCompatibility</code> regexes in [[Special:MyLanguage/Combat Config|Combat Config]], just like third-party weapons.
+</translate>
+
+<translate>
+== For third-party weapon mods ==
+</translate>
+<translate>
+If your mod adds weapons and you don't ship a Weapon Attributes entry for them, DragonMineZ falls back to matching the item id of every item with an attack-damage modifier against the <code>fallbackCompatibility</code> list in [[Special:MyLanguage/Combat Config|Combat Config]] (for example, an item id containing <code>axe</code> is treated like <code>dragonminez:axe</code>). This gives a reasonable default, but a real datapack entry that matches your weapon's actual moveset and animations is always more accurate, and it always takes priority over the fallback guess.
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+<translate>
+# Add or edit files under <code>data/<namespace>/weapon_attributes/</code>.
+# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
+# Run the vanilla <code>/reload</code>, or restart. This is a plain datapack reload listener, not part of <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
+# Test the weapon in game: range, animation, hitbox shape and any conditional variants (dual-wielding, sneaking, mounted).
+</translate>
+
+{{Navbox Modding}}

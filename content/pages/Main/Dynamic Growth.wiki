@@ -1,0 +1,224 @@
+<translate>
+'''Dynamic Growth''' is a progression system that runs alongside buying stats with Training Points: instead of (or as well as) spending TP on stat points, you earn practice XP toward each stat just by using it, by dealing damage, taking hits, spending stamina and ki, and training on the right kind of target. When a stat's practice XP bar is full, that stat goes up by 1 point and you get a message and a sound.
+</translate>
+
+<translate>
+Practicing one stat also trains its '''linked''' stat at half speed, and stat points earned through practice '''don't make TP purchases more expensive''' (see the TP section below). Server owners configure the system under the <code>dynamicGrowth</code> key of <code>config/dragonminez/general-server.json</code>; it has its own page because it has more than 20 fields and its own anti-farming logic.
+</translate>
+
+<translate>
+== How each stat grows ==
+</translate>
+{{See also|Stats and Attributes|Training Points and Mastery}}
+{| class="wikitable"
+! <translate>Stat</translate> !! <translate>Practice XP comes from</translate>
+|-
+| STR || <translate>Melee damage dealt (also when Ki Infusion is active, see <code>kiWeaponMeleePwrShare</code>).</translate>
+|-
+| SKP || <translate>Damage dealt with strike techniques.</translate>
+|-
+| RES || <translate>Stamina spent (<code>staminaSpentXpRatio</code>).</translate>
+|-
+| VIT || <translate>Damage taken from an attacker.</translate>
+|-
+| PWR || <translate>Damage dealt with ki attacks and with ki weapons.</translate>
+|-
+| ENE || <translate>Ki spent (<code>energySpentXpRatio</code>).</translate>
+|}
+
+<translate>
+Damage-based XP uses the damage of the hit, capped at 20% of the target's max health (at least 1), multiplied by the practice-source multipliers below. Creative and spectator players don't gain practice XP, and stats that are already at their cap don't grow.
+</translate>
+
+<translate>
+=== Linked stats ===
+</translate>
+<translate>
+Every bit of practice XP also gives a share of it (<code>linkedStatXpShare</code>, '''50%''' by default) to the stat paired with it:
+</translate>
+
+{| class="wikitable"
+! <translate>Stat</translate> !! <translate>Linked stat</translate>
+|-
+| STR || <translate>SKP (and the other way round)</translate>
+|-
+| RES || <translate>VIT (and the other way round)</translate>
+|-
+| PWR || <translate>ENE (and the other way round)</translate>
+|}
+
+<translate>
+So punching mobs grows STR at full speed and SKP at half speed, spending ki grows ENE and some PWR, and so on. The linked share is applied before the linked stat's own per-stat multiplier and limits, so it gets ''up to'' half as much. Each half respects its own per-player toggle: the linked stat still gains XP when the main stat's growth is switched off, and vice versa.
+</translate>
+
+<translate>
+=== XP needed per point ===
+</translate>
+<translate>
+With <code>practiceCurveEnabled</code>, raising a stat that currently has the value <code>S</code> needs:
+</translate>
+
+<syntaxhighlight lang="text">
+RequiredXp = 70 + 2 × S + floor(S^1.35)
+</syntaxhighlight>
+
+<translate>
+With the curve disabled, every point needs a flat <code>100</code> XP. A single gain can never be bigger than 10% of the XP needed for the next point.
+</translate>
+
+<translate>
+=== Per-player toggles ===
+</translate>
+{{See also|General User Config|Menus}}
+<translate>
+When Dynamic Growth is enabled, each player can switch practice growth on or off for every stat from the '''Configuration''' screen of the character menu (Gameplay category, "Stat Growth" toggles). The choice is saved in the player's data.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+<translate>
+Everything below lives in the <code>dynamicGrowth</code> block of <code>config/dragonminez/general-server.json</code>.
+</translate>
+
+<translate>
+=== Master toggles ===
+</translate>
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>enabled</code> || <code>true</code> || <translate>Master toggle for the whole system.</translate>
+|-
+| <code>practiceCurveEnabled</code> || <code>true</code> || <translate>If <code>false</code>, every stat point needs a flat 100 practice XP instead of the curve above.</translate>
+|-
+| <code>practiceXpMultiplier</code> || <code>2.0</code> || <translate>Global multiplier applied to all practice XP.</translate>
+|}
+
+<translate>
+=== Per-stat practice multipliers ===
+</translate>
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>strPracticeMultiplier</code> || <code>1.0</code> || <translate>Multiplier on STR practice XP.</translate>
+|-
+| <code>skpPracticeMultiplier</code> || <code>1.0</code> || <translate>Multiplier on SKP practice XP.</translate>
+|-
+| <code>resPracticeMultiplier</code> || <code>1.5</code> || <translate>Multiplier on RES practice XP.</translate>
+|-
+| <code>vitPracticeMultiplier</code> || <code>0.5</code> || <translate>Multiplier on VIT practice XP.</translate>
+|-
+| <code>pwrPracticeMultiplier</code> || <code>1.0</code> || <translate>Multiplier on PWR practice XP.</translate>
+|-
+| <code>enePracticeMultiplier</code> || <code>1.5</code> || <translate>Multiplier on ENE practice XP.</translate>
+|}
+
+<translate>
+Negative values are treated as <code>0</code> (no growth for that stat).
+</translate>
+
+<translate>
+=== Stamina and ki spending ===
+</translate>
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>staminaSpentXpRatio</code> || <code>0.1</code> || <translate>RES practice XP per point of stamina spent.</translate>
+|-
+| <code>energySpentXpRatio</code> || <code>0.1</code> || <translate>ENE practice XP per point of ki spent.</translate>
+|-
+| <code>kiWeaponMeleePwrShare</code> || <code>0.25</code> || <translate>Melee hits with Ki Infusion active give STR XP plus this fraction of the same XP as PWR. (Melee hits with a ki weapon give PWR XP only.)</translate>
+|-
+| <code>linkedStatXpShare</code> || <code>0.5</code> || <translate>Fraction of every practice XP gain that also goes to the linked stat. <code>0</code> turns linked growth off.</translate>
+|}
+
+<translate>
+Stamina and ki spending award XP directly and bypass the repeat-target anti-farm check below, since they aren't tied to a specific target.
+</translate>
+
+<translate>
+=== TP interplay ===
+</translate>
+{{See also|General Server Config}}
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>naturalCombatTpMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the TP earned from hits and kills while Dynamic Growth is enabled. <code>0</code> removes combat TP entirely.</translate>
+|-
+| <code>manualTpPurchasesEnabled</code> || <code>true</code> || <translate>Whether players can still buy stat points with TP. If <code>false</code>, stats only grow through practice (and other sources such as capsules or racial skills).</translate>
+|-
+| <code>attributeTpCostMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the TP cost of buying a stat point (minimum <code>1.0</code>). See the TP cost formula on [[Special:MyLanguage/General Server Config|General Server Config]].</translate>
+|-
+| <code>growthStatsCountForTpCost</code> || <code>false</code> || <translate>Whether stat points earned through Dynamic Growth raise the TP cost of buying stats.</translate>
+|}
+
+<translate>
+The mod keeps count of the stat points each player earned through practice. With <code>growthStatsCountForTpCost</code> off (the default), those points are left out of the total used for the TP cost of the next stat point, so growing through practice never makes buying stats more expensive. The same reduced total drives the other values that follow the stat cost: the progression TP bonus (<code>increaseTPGainRelativeToTPCost</code>) and the TP rewards of training minigames.
+</translate>
+
+<translate>
+Points bought with TP or given by capsules, wishes, commands and so on count normally. If a <code>/dmzstats</code> reset keeps only a percentage of your stats, the practice count shrinks by the same percentage; a full reset clears it.
+</translate>
+
+<translate>
+=== Practice-source multipliers ===
+</translate>
+<translate>
+These scale XP down for easy or low-effort training, so the system doesn't trivially outpace the intended progression:
+</translate>
+
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>Applies when…</translate>
+|-
+| <code>passiveAnimalPracticeMultiplier</code> || <code>0.5</code> || <translate>Training on animals (cows, sheep and so on).</translate>
+|-
+| <code>villagerPracticeMultiplier</code> || <code>0.1</code> || <translate>Training on protected NPCs (villagers, Namekian villagers and traders, demon villagers, masters, the dragon).</translate>
+|-
+| <code>lowDamagePracticeMultiplier</code> || <code>0.2</code> || <translate>The hit dealt less than 0.5 damage.</translate>
+|-
+| <code>shadowDummyPracticeMultiplier</code> || <code>0.35</code> || <translate>Training on a Shadow Dummy.</translate>
+|-
+| <code>noRiskPracticeMultiplier</code> || <code>0.5</code> || <translate>The target is not a player or a monster and isn't targeting the player back (no real risk).</translate>
+|}
+
+<translate>
+Multipliers combine: a 0.3-damage hit on a passive cow counts <code>0.2 × 0.5 × 0.5</code>.
+</translate>
+
+<translate>
+=== Repeat-target anti-farming ===
+</translate>
+<translate>
+Grinding the same target repeatedly falls off inside a time window:
+</translate>
+
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>repeatTargetWindowSeconds</code> || <code>30</code> || <translate>Length of the window. It starts at the first hit on a target and restarts once it has fully elapsed.</translate>
+|-
+| <code>repeatTargetSoftCap</code> || <code>8</code> || <translate>Hits on the same target after which the soft multiplier applies.</translate>
+|-
+| <code>repeatTargetHardCap</code> || <code>24</code> || <translate>Hits on the same target after which the hard multiplier applies.</translate>
+|-
+| <code>repeatTargetSoftMultiplier</code> || <code>0.5</code> || <translate>Multiplier from hit 9 to hit 24 (with the default caps).</translate>
+|-
+| <code>repeatTargetHardMultiplier</code> || <code>0.15</code> || <translate>Multiplier from hit 25 on.</translate>
+|}
+
+<translate>
+With the defaults, hits 1–8 on the same target within the window give full XP (<code>1.0</code>), hits 9–24 give <code>0.5</code>, and every hit after that gives <code>0.15</code>. A cap of <code>0</code> disables that step. The [[Special:MyLanguage/Bio-Android|Bio-Android]] Vital Drain TP reward uses the same anti-farm counter.
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+{{See also|Reloading and Updating Changes|How to JSON}}
+<translate>
+# Edit the <code>dynamicGrowth</code> block in <code>config/dragonminez/general-server.json</code>.
+# Validate the JSON syntax.
+# Run <code>/dmzreload config</code>.
+# Test in-game: fight a mob and confirm that stat points arrive at the expected rate, and that repeated hits on the same target fall off as expected.
+</translate>
+
+{{Navbox Configuration}}

@@ -1,0 +1,42 @@
+Infobox for armor pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Armor
+|title=
+|image=
+|caption=
+|quote=
+|Pieces=
+|Defense=
+|Set bonus=
+|Pattern=
+|Crafted at=
+|Materials=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Pieces</code>
+|-
+| <code>Defense</code>
+|-
+| <code>Set bonus</code>
+|-
+| <code>Pattern</code>
+|-
+| <code>Crafted at</code>
+|-
+| <code>Materials</code>
+|}

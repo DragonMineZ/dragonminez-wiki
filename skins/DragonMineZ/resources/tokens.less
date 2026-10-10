@@ -1,0 +1,171 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.skin.codex-design-tokens/theme-wikimedia-ui-mixin-dark.less';
+@import 'mediawiki.skin.codex-design-tokens/theme-wikimedia-ui-reset.less';
+
+.dmz-palette-light() {
+	--background: #f9fafb;
+	--surface: #ffffff;
+	--surface-elevated: #f3f4f6;
+	--section: #f3f4f6;
+	--foreground: #111827;
+	--muted: #6b7280;
+	--glass: rgba( 0, 0, 0, 0.05 );
+	--glass-strong: rgba( 0, 0, 0, 0.1 );
+
+	--shadow-glow: 0 0 15px rgba( 0, 0, 0, 0.1 );
+	--shadow-glow-strong: 0 0 20px rgba( 0, 0, 0, 0.15 );
+	--shadow-glass: 0 4px 20px rgba( 0, 0, 0, 0.05 );
+	--shadow-alert: 0 12px 48px rgba( 0, 0, 0, 0.1 );
+	--shadow-hero: 0 0 80px rgba( 0, 0, 0, 0.1 );
+	--shadow-card-hover: 0 0 50px rgba( 0, 0, 0, 0.1 );
+	--shadow-dropdown: 0 10px 40px rgba( 0, 0, 0, 0.1 );
+
+	--drop-shadow-hero: 0 10px 30px rgba( 0, 0, 0, 0.2 );
+	--drop-shadow-portrait: 0 0 100px rgba( 0, 0, 0, 0.1 );
+	--drop-shadow-glow-orange: 0 0 20px rgba( 255, 100, 0, 0.1 );
+
+	--error: #ef4444;
+	--error-glass: rgba( 239, 68, 68, 0.1 );
+	--link: #c2410c;
+	--link-hover: #9a3412;
+	color-scheme: light;
+}
+
+.dmz-palette-dark() {
+	--background: #0a0a0b;
+	--surface: #121214;
+	--surface-elevated: #18181b;
+	--section: #1c1b22;
+	--foreground: #ffffff;
+	--muted: #9ca3af;
+	--glass: rgba( 255, 255, 255, 0.05 );
+	--glass-strong: rgba( 255, 255, 255, 0.1 );
+
+	--shadow-glow: 0 0 15px rgba( 255, 255, 255, 0.3 );
+	--shadow-glow-strong: 0 0 20px rgba( 255, 255, 255, 0.2 );
+	--shadow-glass: 0 4px 20px rgba( 0, 0, 0, 0.3 );
+	--shadow-alert: 0 12px 48px rgba( 0, 0, 0, 0.6 );
+	--shadow-hero: 0 0 80px rgba( 0, 0, 0, 0.6 );
+	--shadow-card-hover: 0 0 50px rgba( 0, 0, 0, 0.5 );
+	--shadow-dropdown: 0 10px 40px rgba( 0, 0, 0, 0.5 );
+
+	--drop-shadow-hero: 0 10px 30px rgba( 0, 0, 0, 0.8 );
+	--drop-shadow-portrait: 0 0 100px rgba( 0, 0, 0, 0.6 );
+	--drop-shadow-glow-orange: 0 0 20px rgba( 255, 100, 0, 0.2 );
+
+	--error: #ff4d4d;
+	--error-glass: rgba( 255, 77, 77, 0.1 );
+	--link: #fb923c;
+	--link-hover: #fdba74;
+	color-scheme: dark;
+}
+
+.dmz-mixes() {
+	--fg-90: ~'color-mix(in oklab, var(--foreground) 90%, transparent)';
+	--fg-80: ~'color-mix(in oklab, var(--foreground) 80%, transparent)';
+	--fg-70: ~'color-mix(in oklab, var(--foreground) 70%, transparent)';
+	--fg-60: ~'color-mix(in oklab, var(--foreground) 60%, transparent)';
+	--fg-50: ~'color-mix(in oklab, var(--foreground) 50%, transparent)';
+	--fg-40: ~'color-mix(in oklab, var(--foreground) 40%, transparent)';
+	--fg-30: ~'color-mix(in oklab, var(--foreground) 30%, transparent)';
+	--fg-20: ~'color-mix(in oklab, var(--foreground) 20%, transparent)';
+	--fg-10: ~'color-mix(in oklab, var(--foreground) 10%, transparent)';
+	--surface-90: ~'color-mix(in oklab, var(--surface) 90%, transparent)';
+	--surface-elevated-40: ~'color-mix(in oklab, var(--surface-elevated) 40%, transparent)';
+	--muted-50: ~'color-mix(in oklab, var(--muted) 50%, transparent)';
+	--error-20: ~'color-mix(in oklab, var(--error) 20%, transparent)';
+	--error-40: ~'color-mix(in oklab, var(--error) 40%, transparent)';
+	--orange: #f97316;
+	--orange-glass: rgba( 249, 115, 22, 0.1 );
+	--orange-border: rgba( 249, 115, 22, 0.35 );
+}
+
+.dmz-codex-map() {
+	--color-base: var( --foreground );
+	--color-base--hover: var( --fg-80 );
+	--color-emphasized: var( --foreground );
+	--color-subtle: var( --muted );
+	--color-base--subtle: var( --muted );
+	--color-placeholder: var( --muted );
+	--color-disabled: var( --fg-40 );
+	--color-inverted: var( --background );
+	--color-inverted-fixed: #ffffff;
+	--color-progressive: var( --foreground );
+	--color-progressive--hover: var( --fg-80 );
+	--color-progressive--active: var( --fg-60 );
+	--color-progressive--focus: var( --foreground );
+	--color-visited: var( --foreground );
+	--color-destructive: var( --error );
+	--color-destructive--hover: var( --error );
+	--color-destructive--active: var( --error );
+	--color-destructive--visited: var( --error );
+	--color-error: var( --error );
+	--color-link-red: var( --error );
+	--color-link-red--hover: var( --error );
+	--color-link-red--active: var( --error );
+	--color-link-red--focus: var( --error );
+	--color-link-red--visited: var( --error );
+	--color-notice: var( --foreground );
+	--background-color-base: var( --surface );
+	--background-color-neutral: var( --surface-elevated );
+	--background-color-neutral-subtle: var( --surface-elevated );
+	--background-color-interactive: var( --surface-elevated );
+	--background-color-interactive-subtle: var( --surface );
+	--background-color-inverted: var( --foreground );
+	--background-color-progressive: var( --foreground );
+	--background-color-progressive--hover: var( --fg-90 );
+	--background-color-progressive--active: var( --fg-80 );
+	--background-color-progressive--focus: var( --foreground );
+	--background-color-progressive-subtle: var( --glass-strong );
+	--background-color-destructive-subtle: var( --error-glass );
+	--background-color-error-subtle: var( --error-glass );
+	--background-color-warning-subtle: var( --orange-glass );
+	--background-color-notice-subtle: var( --surface-elevated );
+	--background-color-backdrop-light: rgba( 0, 0, 0, 0.8 );
+	--background-color-input-binary--checked: var( --foreground );
+	--border-color-base: var( --glass-strong );
+	--border-color-subtle: var( --glass-strong );
+	--border-color-muted: var( --glass );
+	--border-color-interactive: var( --fg-20 );
+	--border-color-input--hover: var( --fg-30 );
+	--border-color-progressive: var( --foreground );
+	--border-color-progressive--hover: var( --fg-80 );
+	--border-color-progressive--active: var( --fg-60 );
+	--border-color-progressive--focus: var( --fg-60 );
+	--border-color-input-binary--checked: var( --foreground );
+	--border-color-notice: var( --glass-strong );
+	--box-shadow-color-progressive--focus: var( --fg-60 );
+	--box-shadow-color-progressive-selected: var( --foreground );
+	--outline-color-progressive--focus: var( --fg-60 );
+}
+
+:root {
+	.cdx-mode-reset();
+	.dmz-palette-light();
+	.dmz-mixes();
+	.dmz-codex-map();
+}
+
+.dark {
+	.dmz-palette-dark();
+	.dmz-mixes();
+}
+
+html.dark {
+	.cdx-mode-dark();
+	.dmz-palette-dark();
+	.dmz-mixes();
+	.dmz-codex-map();
+}
+
+html.dark .skin-invert-image img,
+html.dark .skin-invert,
+html.dark .oo-ui-iconElement-icon:not( .oo-ui-image-progressive ):not( .oo-ui-image-destructive ):not( .oo-ui-checkboxInputWidget-checkIcon ):not( .oo-ui-image-invert ):not( .mw-no-invert ),
+html.dark .oo-ui-indicatorElement-indicator {
+	color-scheme: light;
+	filter: invert( 1 ) hue-rotate( 180deg );
+}
+
+html.dark .oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary .oo-ui-iconElement-icon {
+	filter: none;
+}

@@ -1,0 +1,48 @@
+name: dmz-wiki
+
+x-wiki: &wiki
+  image: dmz-wiki:local
+  restart: unless-stopped
+  env_file: .env
+  environment:
+    MW_DATA_DIR: /var/www/data
+    MW_SECRETS_FILE: /var/www/secrets/secrets.php
+    MW_LOCAL_SETTINGS: /var/www/secrets/LocalSettings.local.php
+  volumes:
+    - ./data/db:/var/www/data
+    - ./data/images:/var/www/html/images
+    - ./data/secrets:/var/www/secrets:ro
+  logging:
+    driver: json-file
+    options:
+      max-size: 10m
+      max-file: "3"
+
+services:
+  wiki:
+    <<: *wiki
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "127.0.0.1:${WIKI_PORT:-8091}:80"
+    mem_limit: 768m
+    memswap_limit: 1g
+    cpus: 1.5
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "-o", "/dev/null", "http://localhost/api.php?action=query&meta=siteinfo&format=json"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  jobrunner:
+    <<: *wiki
+    pull_policy: never
+    user: www-data
+    depends_on:
+      - wiki
+    entrypoint: ["/usr/local/bin/dmz-jobrunner"]
+    mem_limit: 256m
+    memswap_limit: 384m
+    cpus: 0.5

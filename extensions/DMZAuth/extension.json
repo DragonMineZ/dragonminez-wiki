@@ -1,0 +1,147 @@
+{
+	"name": "DMZAuth",
+	"version": "1.0.0",
+	"author": [
+		"DragonMineZ"
+	],
+	"url": "https://wiki.dragonminez.com",
+	"descriptionmsg": "dmzauth-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\DMZAuth\\": "includes/"
+	},
+	"MessagesDirs": {
+		"DMZAuth": [
+			"i18n"
+		]
+	},
+	"AuthManagerAutoConfig": {
+		"primaryauth": {
+			"DMZAuthClerk": {
+				"class": "MediaWiki\\Extension\\DMZAuth\\ClerkPrimaryAuthenticationProvider",
+				"sort": 0
+			}
+		}
+	},
+	"Hooks": {
+		"UserEffectiveGroups": "main",
+		"BeforePageDisplay": "main",
+		"AuthChangeFormFields": "main",
+		"SpecialPage_initList": "main",
+		"SkinTemplateNavigation::Universal": "main",
+		"LoadExtensionSchemaUpdates": "schema"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\DMZAuth\\Hooks",
+			"services": [
+				"MainConfig"
+			]
+		},
+		"schema": {
+			"class": "MediaWiki\\Extension\\DMZAuth\\SchemaHooks"
+		}
+	},
+	"ResourceModules": {
+		"ext.dmzAuth": {
+			"localBasePath": "resources",
+			"remoteExtPath": "DMZAuth/resources",
+			"packageFiles": [
+				"auth.js"
+			],
+			"styles": [
+				"auth.less"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.util"
+			],
+			"messages": [
+				"dmzauth-modal-title",
+				"dmzauth-modal-text",
+				"dmzauth-modal-roles",
+				"dmzauth-modal-nolonger",
+				"dmzauth-signin-discord",
+				"dmzauth-signing-in",
+				"dmzauth-not-configured",
+				"dmzauth-error",
+				"dmzauth-other-account",
+				"dmzauth-close",
+				"dmzauth-login-title",
+				"dmzauth-login-text"
+			]
+		}
+	},
+	"config": {
+		"DMZClerkPublishableKey": {
+			"value": "",
+			"description": "Clerk publishable key (pk_live_...). Public."
+		},
+		"DMZClerkFrontendApi": {
+			"value": "https://clerk.dragonminez.com",
+			"description": "Clerk Frontend API URL; also the expected issuer of session tokens."
+		},
+		"DMZClerkSecretKey": {
+			"value": "",
+			"description": "Clerk secret key (sk_live_...), used server-side to read the user's Discord account. Secret."
+		},
+		"DMZClerkBackendApi": {
+			"value": "https://api.clerk.com/v1",
+			"description": "Clerk Backend API base URL."
+		},
+		"DMZClerkAuthorizedParties": {
+			"value": [],
+			"description": "Origins allowed in the azp claim. Empty means $wgCanonicalServer.",
+			"merge_strategy": "provide_default"
+		},
+		"DMZDiscordGuildId": {
+			"value": "",
+			"description": "ID of the DragonMineZ Discord server."
+		},
+		"DMZDiscordBotToken": {
+			"value": "",
+			"description": "Token of a bot that is a member of the server, used to read member roles. Secret."
+		},
+		"DMZDiscordApi": {
+			"value": "https://discord.com/api/v10",
+			"description": "Discord API base URL."
+		},
+		"DMZDiscordGroupRoles": {
+			"value": {
+				"editor": [
+					"Wiki Maintainer",
+					"Moderator",
+					"@administrator"
+				],
+				"moderator": [
+					"Moderator",
+					"@administrator"
+				],
+				"sysop": [
+					"@administrator"
+				],
+				"interface-admin": [
+					"@administrator"
+				],
+				"bureaucrat": [
+					"@administrator"
+				]
+			},
+			"description": "Wiki group => Discord role names or IDs that grant it. @administrator matches the server owner and any role with the Administrator permission.",
+			"merge_strategy": "provide_default"
+		},
+		"DMZDiscordRoleTTL": {
+			"value": 300,
+			"description": "Seconds a member's Discord roles are cached before they are checked again."
+		},
+		"DMZAuthPasswordLogin": {
+			"value": false,
+			"description": "Keep MediaWiki's username and password login (emergency access and local labs)."
+		}
+	},
+	"manifest_version": 2
+}

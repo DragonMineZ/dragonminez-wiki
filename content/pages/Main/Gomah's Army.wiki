@@ -1,0 +1,70 @@
+{{Infobox Raid
+|quote=<translate>In the name of the Supreme Demon King, crush the intruder!</translate>
+|Raid id=gomah_assault
+|Dimension={{L|Demon Realm}}
+|Raid site=<translate>Gomah Camp: a palisade camp with a Gomah soldier, on any of the three Demon Worlds</translate>
+|Waves=5
+|Bosses=<translate>Glorio (wave 4); Majin Kuu and Majin Duu (wave 5)</translate>
+|Scout health=10000
+|Scout melee=900
+|Scout ki=800
+|Rewards=<translate>350,000 TP, Hero of the Village and Hero of the World III (10 min), 16 Golden Carrots, 4 Medi-Bugs (Ant)</translate>
+|Defeat penalty=<translate>−30 alignment</translate>
+}}
+<translate>
+'''Gomah's Army''' is the raid of the [[Special:MyLanguage/Demon Realm|Demon Realm]] and the hardest of the three. Kill the soldier guarding a [[Special:MyLanguage/Gomah|Gomah]] Camp and the camp sounds the alarm: five waves of Gomah's soldiers come for you, with '''Glorio''' in the fourth wave and '''Majin Kuu''' and '''Majin Duu''' in the last.
+</translate>
+
+<translate>
+== Finding a Gomah Camp ==
+
+'''Gomah Camps''' are palisade camps with tents and a campfire, found on any of the three Demon Worlds and kept away from the demon villages. Each one has a single [[Special:MyLanguage/Gomah Soldier|Gomah soldier]] with a supervillain aura. When you come within 80 blocks you sense it: ''"You sense many hostile ki... a camp of Gomah's soldiers is nearby."''. See [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== Starting the raid ==
+
+The scout is far stronger than a patrolling soldier: 10,000 health, 900 melee damage and 800 ki damage, on the Smart AI tier. When it dies, the killer receives the '''Emperor's Wrath''' omen for 60 seconds (''"The camp sounded the alarm... Gomah's army is coming for you!"''). When it runs out, the raid starts where you stand. Drinking milk to remove the omen calls the raid off. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].
+</translate>
+
+<translate>
+== Waves ==
+
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid. The soldiers of each wave are drawn at random from the two Gomah soldier models. Bosses stay dormant until the soldiers of their wave are dead.
+</translate>
+{| class="wikitable"
+! <translate>Wave</translate> !! <translate>Enemies</translate> !! <translate>Health / melee / ki</translate> !! <translate>AI tier</translate>
+|-
+| 1 || <translate>6 Gomah Soldiers</translate> || 8,000 / 750 / 650 || <translate>Novice</translate>
+|-
+| 2 || <translate>8 Gomah Soldiers</translate> || 10,000 / 900 / 800 || <translate>Novice</translate>
+|-
+| 3 || <translate>10 Gomah Soldiers</translate> || 12,000 / 1,100 / 950 || <translate>Smart</translate>
+|-
+| rowspan="2" | 4 || <translate>10 Gomah Soldiers</translate> || 14,000 / 1,300 / 1,100 || <translate>Smart</translate>
+|-
+| <translate>Glorio (boss)</translate> || 450,000 / 19,000 / 17,000 || <translate>Elite</translate>
+|-
+| rowspan="3" | 5 || <translate>10 Gomah Soldiers</translate> || 16,000 / 1,500 / 1,300 || <translate>Smart</translate>
+|-
+| <translate>Majin Kuu (boss)</translate> || 750,000 / 31,000 / 28,000 || <translate>Elite</translate>
+|-
+| <translate>Majin Duu (boss)</translate> || 800,000 / 33,000 / 30,000 || <translate>Elite</translate>
+|}
+
+<translate>
+== Rewards ==
+
+Every participant still fighting when the last wave is cleared gets:
+* '''350,000 TP'''
+* '''Hero of the Village''' and '''Hero of the World III''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])
+* 16 [[Special:MyLanguage/Golden Carrot|Golden Carrots]] and 4 '''Medi-Bugs (Ant)''', each restoring 85% of your health, ki and stamina
+</translate>
+
+<translate>
+== Defeat ==
+
+If every participant falls or leaves, the raid is lost: the remaining soldiers vanish, everyone sees ''"You couldn't stop Gomah's army..."'' and loses '''30 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).
+</translate>
+
+{{Navbox Challenges}}

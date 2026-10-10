@@ -1,0 +1,28 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-technique
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Stats
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Attack type, Taught by, Races
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Attack type_label={{#invoke:Labels|get|Attack type}}
+|Taught by_label={{#invoke:Labels|get|Taught by}}
+|Races_label={{#invoke:Labels|get|Races}}
+
+|Stats=Ki cost, Damage, Cooldown, Charge time, Range
+|Stats_label={{#invoke:Labels|get|Stats}}
+|Ki cost_label={{#invoke:Labels|get|Ki cost}}
+|Damage_label={{#invoke:Labels|get|Damage}}
+|Cooldown_label={{#invoke:Labels|get|Cooldown}}
+|Charge time_label={{#invoke:Labels|get|Charge time}}
+|Range_label={{#invoke:Labels|get|Range}}
+}}[[Category:Techniques{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

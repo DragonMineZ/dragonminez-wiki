@@ -1,0 +1,9 @@
+<includeonly><div class="dmz-card"><div class="dmz-card__media">{{#invoke:Labels|image|{{{image|}}}|page={{{1}}}|size=480px|placeholder=Placeholder-wide.png}}</div><div class="dmz-card__body"><div class="dmz-card__title">{{L|{{{1}}}|{{{title|}}}}}</div>{{#if:{{{2|}}}|<div class="dmz-card__text">{{{2}}}</div>}}</div></div></includeonly><noinclude>A clickable card for hub pages: image (or placeholder), page name and a short text. Wrap a group of cards in <code><nowiki><div class="dmz-cards"></nowiki></code>.
+
+<pre>
+<div class="dmz-cards">
+{{Card|Saiyan|<translate>A warrior race that grows stronger after every battle.</translate>}}
+{{Card|Namekian|<translate>Peaceful regenerators with a deep link to magic.</translate>}}
+</div>
+</pre>
+</noinclude>

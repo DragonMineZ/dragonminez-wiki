@@ -1,0 +1,21 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-dragon
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Dimension, Dragon Balls, Radar, Wishes, Cooldown
+|General_label={{#invoke:Labels|get|General}}
+|Dimension_label={{#invoke:Labels|get|Dimension}}
+|Dragon Balls_label={{#invoke:Labels|get|Dragon Balls}}
+|Radar_label={{#invoke:Labels|get|Radar}}
+|Wishes_label={{#invoke:Labels|get|Wishes}}
+|Cooldown_label={{#invoke:Labels|get|Cooldown}}
+}}[[Category:Dragons{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

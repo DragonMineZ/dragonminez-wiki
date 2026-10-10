@@ -1,0 +1,193 @@
+.mw-body-content .druid-container {
+	float: right;
+	clear: right;
+	width: 320px;
+	margin: 0 0 24px 32px;
+	border: 1px solid var( --glass-strong );
+	border-radius: 24px;
+	background: var( --surface-elevated );
+	color: var( --fg-80 );
+	font-size: 14px;
+	line-height: 1.5;
+	overflow: hidden;
+
+	@media ( max-width: ( @dmz-bp-md - 1px ) ) {
+		float: none;
+		width: auto;
+		margin: 0 0 24px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	p + p {
+		margin-top: 0.5em;
+	}
+
+	ul {
+		margin: 0;
+		padding-left: 18px;
+	}
+
+	li {
+		margin: 0.15em 0;
+	}
+}
+
+.druid-title {
+	padding: 20px 20px 16px;
+	color: var( --foreground );
+	font-size: 22px;
+	line-height: 1.05;
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: -0.025em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.druid-main-image,
+.druid-main-images {
+	display: block;
+	padding: 0 12px 12px;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 16px;
+	}
+}
+
+.druid-main-image-caption,
+.druid-main-images-caption {
+	margin-top: 8px;
+	color: var( --muted );
+	font-size: 12px;
+}
+
+.druid-main-images-labels,
+.druid-section-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 6px;
+	padding: 0 12px 12px;
+}
+
+.druid-main-images-label,
+.druid-section-tab {
+	padding: 4px 12px;
+	border: 1px solid var( --glass-strong );
+	border-radius: 9999px;
+	color: var( --muted );
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.2s ease;
+
+	&:hover {
+		color: var( --foreground );
+		background: var( --glass );
+	}
+
+	&.focused {
+		background: var( --foreground );
+		border-color: var( --foreground );
+		color: var( --background );
+	}
+}
+
+.druid-toggleable-data,
+.druid-main-images-file,
+.druid-toggleable-heading {
+	&:not( .focused ) {
+		display: none;
+	}
+}
+
+.druid-section-container {
+	border-top: 1px solid var( --glass-strong );
+
+	.druid-main-image + &,
+	&:first-child {
+		border-top: 0;
+	}
+}
+
+.druid-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	padding: 14px 20px 6px;
+	color: var( --fg-60 );
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.druid-collapsible {
+	cursor: pointer;
+	user-select: none;
+
+	.druid-section::after {
+		content: 'expand_more';
+		font-family: 'Material Symbols Rounded';
+		font-size: 18px;
+		font-weight: normal;
+		letter-spacing: normal;
+		text-transform: none;
+		font-feature-settings: 'liga';
+		transition: transform 0.3s ease;
+	}
+
+	&.druid-collapsible-collapsed .druid-section::after {
+		transform: rotate( -90deg );
+	}
+
+	&:hover .druid-section {
+		color: var( --foreground );
+	}
+}
+
+.druid-row {
+	display: grid;
+	grid-template-columns: minmax( 0, 42% ) minmax( 0, 1fr );
+	gap: 12px;
+	padding: 7px 20px;
+
+	&:last-child {
+		padding-bottom: 16px;
+	}
+
+	&.druid-collapsed {
+		display: none;
+	}
+}
+
+.druid-label {
+	color: var( --foreground );
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.druid-data {
+	min-width: 0;
+	overflow-wrap: anywhere;
+}
+
+.druid-data-wide {
+	grid-column: ~'1 / -1';
+}
+
+.druid-container-dmz-world-boss .druid-data-Quote {
+	color: var( --fg-70 );
+	font-style: italic;
+	text-align: center;
+}

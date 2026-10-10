@@ -1,0 +1,63 @@
+{{Infobox Mob
+|Type=<translate>Villager profession</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate>Its own house in plains villages; any unemployed villager can take the job</translate>
+|Behavior=<translate>Trades</translate>
+|Abilities=<translate>Sells treasure maps to Earth structures</translate>
+|Drops=<translate>None</translate>
+}}
+<translate>
+The '''Capsule Corp Assistant''' is a custom villager profession, often called the "CC-Villager". Besides trading, it works as a '''structure locator''': for a price it sells filled treasure maps that lead to the landmarks of [[Special:MyLanguage/Earth|Earth]], from Goku's House to Majin Buu's House.
+</translate>
+
+<translate>
+== Finding one ==
+
+Its house generates in '''plains villages''' on Earth. Its job site block is the '''Fuel Generator''': any unemployed villager can take the job by claiming one, so you can also create your own assistant.
+</translate>
+
+<translate>
+== Treasure maps ==
+
+The maps unlock across its five trade tiers. Every map also costs an empty Map, and each map trade can be used up to 8 times.
+</translate>
+{| class="wikitable"
+! <translate>Tier</translate> !! <translate>Map to</translate> !! <translate>Cost</translate>
+|-
+| 1 || <translate>Goku's House</translate> || <translate>10 Cooked Dino Meat</translate>
+|-
+| 1 || <translate>Roshi's House</translate> || <translate>8 Cod</translate>
+|-
+| 2 || <translate>Piccolo's House</translate> || <translate>1 Water Bucket</translate>
+|-
+| 2 || <translate>Yamcha's House</translate> || <translate>1 Bone</translate>
+|-
+| 3 || <translate>Kami's Lookout</translate> || <translate>1 Spruce Sapling</translate>
+|-
+| 3 || <translate>Fortuneteller Baba's Palace (always offered)</translate> || <translate>6 Glass Bottles</translate>
+|-
+| 3 || <translate>Cell Arena</translate> || <translate>1 Tier-1 Radar Chip</translate>
+|-
+| 4 || <translate>Gero's Lab</translate> || <translate>16 Iron Ingots</translate>
+|-
+| 4 || <translate>Trunks' Ship</translate> || <translate>1 Iron Sword</translate>
+|-
+| 5 || <translate>Vegeta's Pod</translate> || <translate>1 Red Scouter</translate>
+|-
+| 5 || <translate>Babidi's Ship</translate> || <translate>4 Ender Pearls</translate>
+|-
+| 5 || <translate>Majin Buu's House (always offered)</translate> || <translate>1 Cake</translate>
+|}
+
+<translate>
+The [[Special:MyLanguage/Fortuneteller Baba's Palace|Baba's Palace]] map is offered by every assistant of tier 3 or higher and the '''Buu's House''' map by every tier-5 assistant. They are added the next time you open its trades, so assistants that levelled up before also get them.
+
+Every map points at the nearest structure of its kind with a red X. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located; re-open the trade window to check again.
+</translate>
+
+{{See also|Structures|Masters|Capsule Corp Namekian}}
+
+{{Note|type=config|title=<translate>Villager profession</translate>|<code>capsule_corp_assistant</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

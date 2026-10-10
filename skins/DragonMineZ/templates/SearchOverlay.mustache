@@ -1,0 +1,18 @@
+<div class="dmz-search" id="dmz-search" hidden>
+	<div class="dmz-search__backdrop" data-dmz-search-close></div>
+	<div class="dmz-search__dialog" role="dialog" aria-modal="true" aria-label="{{msg-search}}">
+		{{#data-search-box}}
+		<form action="{{form-action}}" class="dmz-search__form" role="search" id="dmz-search-form">
+			<input type="hidden" name="title" value="{{page-title}}">
+			<div class="dmz-search__bar">
+				<input type="search" name="search" id="dmz-search-input" class="dmz-search__input" placeholder="{{msg-dmz-search-placeholder}}" autocomplete="off" spellcheck="false" accesskey="f" aria-label="{{msg-search}}" aria-controls="dmz-search-results" aria-autocomplete="list">
+				<div class="dmz-search__side">
+					<span class="dmz-search__icon" data-dmz-search-icon><span class="material-symbols-rounded" aria-hidden="true">search</span></span>
+					<button type="button" class="dmz-search__clear" data-dmz-search-clear aria-label="{{msg-dmz-search-close}}" hidden><span class="material-symbols-rounded" aria-hidden="true">close</span></button>
+				</div>
+			</div>
+		</form>
+		{{/data-search-box}}
+		<div class="dmz-search__results" id="dmz-search-results" role="listbox" hidden></div>
+	</div>
+</div>

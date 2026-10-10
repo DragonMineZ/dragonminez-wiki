@@ -1,0 +1,21 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-effect
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Source, Duration, Effect, Stacks
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Source_label={{#invoke:Labels|get|Source}}
+|Duration_label={{#invoke:Labels|get|Duration}}
+|Effect_label={{#invoke:Labels|get|Effect}}
+|Stacks_label={{#invoke:Labels|get|Stacks}}
+}}[[Category:Effects{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

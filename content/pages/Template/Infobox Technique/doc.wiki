@@ -1,0 +1,51 @@
+Infobox for technique pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Technique
+|title=
+|image=
+|caption=
+|quote=
+|Type=
+|Attack type=
+|Taught by=
+|Races=
+|Ki cost=
+|Damage=
+|Cooldown=
+|Charge time=
+|Range=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Type</code>
+|-
+| <code>Attack type</code>
+|-
+| <code>Taught by</code>
+|-
+| <code>Races</code>
+|-
+| <code>Ki cost</code>
+|-
+| <code>Damage</code>
+|-
+| <code>Cooldown</code>
+|-
+| <code>Charge time</code>
+|-
+| <code>Range</code>
+|}

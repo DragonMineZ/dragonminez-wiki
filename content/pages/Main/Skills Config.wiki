@@ -1,0 +1,280 @@
+<translate>
+Skill costs, which races can learn each skill and which master teaches what all live in one file, <code>config/dragonminez/skills.json</code>. Technique tuning (experience, cooldowns, cast times, ki attack sizes and terrain destruction) lives next to it in <code>config/dragonminez/techniques.json</code>. Both files are documented on this page.
+</translate>
+
+<translate>
+Their schemas are defined in <code>SkillsConfig.java</code> and <code>TechniqueConfig.java</code>. For what each skill and technique does in game, see [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Techniques|Techniques]].
+</translate>
+
+<translate>
+== Top-level structure of skills.json ==
+</translate>
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>configVersion</code> || <translate>A version string</translate> || <translate>Internal schema version. Do not hand-edit it (see [[Special:MyLanguage/How to JSON|How to JSON]]).</translate>
+|-
+| <code>kiSkills</code> || <translate>List of ids</translate> || <translate>Ki attack technique names (for example <code>kamehameha</code>, <code>final_flash</code>).</translate>
+|-
+| <code>strikeSkills</code> || <translate>List of ids</translate> || <translate>Strike attack technique names (for example <code>meteor</code>, <code>dragon_fist</code>).</translate>
+|-
+| <code>evasionSkills</code> || <code>taiyoken</code>, <code>rage_scream</code>, <code>afterimage</code>, <code>sleep_recovery</code>, <code>dimensional_teleport</code> || <translate>Evasion technique names.</translate>
+|-
+| <code>formSkills</code> || <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code>, <code>androidforms</code> || <translate>The transformation-tier skill names.</translate>
+|-
+| <code>stackSkills</code> || <code>kaioken</code>, <code>ultimate</code> || <translate>The stack-form skill names.</translate>
+|-
+| <code>androidBlacklistedForms</code> || <code>superforms</code>, <code>legendaryforms</code> || <translate>Form skill names Androids are barred from learning.</translate>
+|-
+| <code>skills</code> || <translate>See below</translate> || <translate>A map of skill name to <code>{ costs, allowedRaces }</code>.</translate>
+|-
+| <code>skillOfferings</code> || <translate>See below</translate> || <translate>A map of master name to a list of skill names.</translate>
+|}
+
+<translate>
+There is no separate <code>skill-offerings.json</code>: <code>skillOfferings</code> lives inside <code>skills.json</code> alongside <code>skills</code>.
+</translate>
+
+{{Note|type=warning|title=<translate>Category lists are not kept on upgrade</translate>|text=<translate>The category lists (<code>kiSkills</code>, <code>strikeSkills</code>, <code>evasionSkills</code>, <code>formSkills</code>, <code>stackSkills</code>, <code>androidBlacklistedForms</code>) describe what exists in code. They are '''refreshed from the mod's defaults whenever the config is upgraded to a new version''', so edits to them are not carried over. <code>skills</code> and <code>skillOfferings</code> keep your edits.</translate>}}
+
+<translate>
+== Skill costs and eligibility ==
+</translate>
+{{See also|Skills|Training Points and Mastery}}
+<translate>
+The <code>skills</code> map sets the cost of every level of a skill and which races can learn it:
+</translate>
+
+<syntaxhighlight lang="json">
+"skills": {
+  "kamehameha": { "costs": [2000], "allowedRaces": [] },
+  "kaioken": { "costs": [1000, 1500, 2500, 4000, 7500], "allowedRaces": [] },
+  "potentialunlock": { "costs": [600, 1600, 2400, 3200, 4000, 4800, 5600, 6400, 7200, 8000, -1, 8800, 9600], "allowedRaces": [] }
+}
+</syntaxhighlight>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>What it does</translate>
+|-
+| <code>costs</code> || <translate>List of the Training Point cost to upgrade to each level. Index 0 is level 1's cost, and so on. The number of entries is the skill's max level. A <code>-1</code> entry marks that level as not purchasable: it must be granted another way (for example Potential Unlock level 11 from Grand Elder Guru, or Ultimate from Old Kai).</translate>
+|-
+| <code>allowedRaces</code> || <translate>List of the races allowed to learn this skill. An empty list (or <code>"all"</code>) means every race can learn it.</translate>
+|}
+
+<translate>
+Form skills (<code>superforms</code>, <code>godforms</code>, <code>legendaryforms</code>, <code>androidforms</code>) are priced per race in <code>races/&lt;race&gt;/character.json</code> instead (see [[Special:MyLanguage/Custom Races|Custom Races]]).
+</translate>
+
+<translate>
+=== Default skill costs ===
+</translate>
+{| class="wikitable"
+! <translate>Skill</translate> !! <translate>Costs per level (TP)</translate>
+|-
+| <code>jump</code>, <code>sprint</code>, <code>meditation</code>, <code>kisense</code> || 300, 600, 900, 1,200, 1,500, 1,800, 2,100, 2,400, 2,700, 3,000
+|-
+| <code>fly</code> || 1,500, 600, 900, 1,200, 1,500, 1,800, 2,100, 2,400, 2,700, 3,000
+|-
+| <code>kicontrol</code> || 3,000
+|-
+| <code>potentialunlock</code> || 600, 1,600, 2,400, 3,200, 4,000, 4,800, 5,600, 6,400, 7,200, 8,000, '''-1''', 8,800, 9,600
+|-
+| <code>kiboost</code> || 2,000, 4,000, 6,000, 8,000
+|-
+| <code>kimanipulation</code>, <code>instant_transmission</code>, <code>defense_penetration</code>, <code>healing_reduction</code>, <code>ki_infusion</code>, <code>kiprotection</code> || 600, 1,200, 1,800, 2,200, 2,600, 2,800, 3,000, 3,200, 3,600, 4,000
+|-
+| <code>kaioken</code> || 1,000, 1,500, 2,500, 4,000, 7,500
+|-
+| <code>ultimate</code> || '''-1''' <translate>(granted by Old Kai)</translate>
+|-
+| <code>fusion</code> || 25,000, 5,000, 10,000, 15,000, 20,000
+|}
+
+<translate>
+Every predefined technique has a single cost (its unlock price); see the tables on [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]] and [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].
+</translate>
+
+<div id="skillOfferings"></div>
+<translate>
+== Who teaches which skills ==
+</translate>
+{{See also|Masters|NPC Placement and Alignment}}
+<translate>
+The <code>skillOfferings</code> map lists the skills and techniques each master offers:
+</translate>
+
+<syntaxhighlight lang="json">
+"skillOfferings": {
+  "goku": ["kicontrol", "fly", "instant_transmission", "fusion", "kamehameha", "spiritbomb", "dragon_fist", "super_god_fist", "oozaru_fist"],
+  "roshi": ["jump", "meditation", "kicontrol", "kamehameha", "afterimage"],
+  "default": ["kicontrol", "jump"]
+}
+</syntaxhighlight>
+
+<translate>
+Keys are the '''master id''' (or the id of a quest NPC) offering the skill. <code>"default"</code> is the fallback list used by any master or NPC that has no entry of its own. Purchases are checked on the server: you must be within '''10 blocks''' of a master that offers the skill, your race must be allowed, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you.
+</translate>
+
+<translate>
+=== Default offerings ===
+</translate>
+{| class="wikitable"
+! <translate>Master id</translate> !! <translate>Master</translate> !! <translate>Skills offered</translate>
+|-
+| <code>roshi</code> || {{L|Master Roshi}} || <code>jump</code>, <code>meditation</code>, <code>kicontrol</code>, <code>kamehameha</code>, <code>afterimage</code>
+|-
+| <code>goku</code> || {{L|Goku}} || <code>kicontrol</code>, <code>fly</code>, <code>instant_transmission</code>, <code>fusion</code>, <code>kamehameha</code>, <code>spiritbomb</code>, <code>dragon_fist</code>, <code>super_god_fist</code>, <code>oozaru_fist</code>
+|-
+| <code>kingkai</code> || {{L|King Kai}} || <code>kicontrol</code>, <code>kaioken</code>, <code>potentialunlock</code>, <code>kimanipulation</code>, <code>kaioken_attack</code>, <code>spiritbomb</code>
+|-
+| <code>vegeta</code> || {{L|Vegeta}} || <code>kicontrol</code>, <code>defense_penetration</code>, <code>potentialunlock</code>, <code>galick_gun</code>, <code>big_bang</code>, <code>final_flash</code>, <code>final_explosion</code>, <code>fake_moon</code>, <code>deadly_dance_vegetto</code>, <code>spirit_breaking_cannon</code>
+|-
+| <code>oldkai</code> || {{L|Old Kai}} || <code>kicontrol</code>, <code>ki_infusion</code>, <code>healing_reduction</code>, <code>soul_punisher</code>
+|-
+| <code>gohan</code> || {{L|Gohan}} || <code>kicontrol</code>, <code>kiboost</code>, <code>kiprotection</code>, <code>kisense</code>, <code>masenko</code>, <code>makkanko</code>, <code>kamehameha</code>, <code>ki_barrage</code>
+|-
+| <code>piccolo</code> || {{L|Piccolo}} || <code>potentialunlock</code>, <code>kicontrol</code>, <code>masenko</code>, <code>makkanko</code>, <code>ki_barrage</code>, <code>kienzan</code>, <code>hellzone_grenade</code>
+|-
+| <code>krillin</code> || {{L|Krillin}} || <code>kicontrol</code>, <code>sprint</code>, <code>kisense</code>, <code>kienzan</code>, <code>kienzan_doble</code>, <code>ki_barrage</code>, <code>taiyoken</code>, <code>afterimage</code>, <code>deadly_dance</code>
+|-
+| <code>frieza</code> || {{L|Frieza}} || <code>kicontrol</code>, <code>fly</code>, <code>jump</code>, <code>sprint</code>, <code>kisense</code>, <code>meditation</code>, <code>potentialunlock</code>, <code>death_beam</code>, <code>emperor_death_beam</code>, <code>supernova</code>, <code>kienzan_doble</code>, <code>deadly_dance</code>, <code>meteor</code>
+|-
+| <code>trunks</code> || {{L|Trunks}} || <code>kicontrol</code>, <code>kiboost</code>, <code>kiprotection</code>, <code>burning_attack</code>, <code>heat_dome</code>, <code>shining_sword_attack</code>, <code>galick_gun</code>, <code>ki_barrage</code>, <code>meteor</code>
+|-
+| <code>cell</code> || {{L|Cell}} || <code>kicontrol</code>, <code>instant_transmission</code>, <code>kimanipulation</code>, <code>ki_infusion</code>, <code>kiprotection</code>, <code>defense_penetration</code>, <code>healing_reduction</code>, <code>kiboost</code>, <code>kamehameha</code>, <code>kienzan</code>, <code>galick_gun</code>, <code>masenko</code>, <code>death_beam</code>, <code>ki_barrage</code>, <code>afterimage</code>, <code>deadly_dance</code>, <code>meteor</code>
+|-
+| <code>yamcha</code> || {{L|Yamcha}} || <code>kicontrol</code>, <code>ki_infusion</code>, <code>wolf_fang</code>, <code>sokidan</code>, <code>kamehameha</code>, <code>ki_barrage</code>
+|-
+| <code>baba_earth</code> || {{L|Fortuneteller Baba}} || <code>kicontrol</code>, <code>meditation</code>
+|-
+| <code>default</code> || <translate>Any other master or NPC</translate> || <code>kicontrol</code>, <code>jump</code>
+|}
+
+<translate>
+== What JSON can and can't change ==
+</translate>
+<translate>
+* '''Retune existing skills:''' yes. Change <code>costs</code>, tighten or loosen <code>allowedRaces</code>, and add or remove a skill or technique from a master's <code>skillOfferings</code> list (for example, to let Roshi teach Kienzan).
+* '''Add a brand-new skill or predefined technique:''' '''no''', not with JSON alone. New skills need actual Java code and registration before you can reference their name here. JSON only controls cost, eligibility and offering for skills that already exist in code. Players can still design their own ki attacks in the Technique Creator (see [[Special:MyLanguage/Techniques|Techniques]]).
+</translate>
+
+<div id="techniques.json"></div>
+<translate>
+== techniques.json ==
+</translate>
+{{See also|Techniques|Ki Attacks|Strike Attacks|Evasion Techniques}}
+<translate>
+<code>config/dragonminez/techniques.json</code> tunes techniques '''by kind''': one entry per ki attack '''type''', and one per predefined strike and evasion technique. It is synced to clients and reloaded with the rest of the config.
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "KiAttacks": {
+    "wave": { "castTimeTicks": 50, "damageMultiplier": 1.0, "kiCostMultiplier": 1.0, "baseSizeCap": 2.0, "transformedSizeCap": 5.0, "maxDestructionRadius": 12.0, "...": "..." }
+  },
+  "StrikeAttacks": {
+    "dragon_fist": { "cooldownTicks": 320, "damageMultiplier": 1.0, "...": "..." }
+  },
+  "EvasionAttacks": {
+    "taiyoken": { "cooldownTicks": 900, "...": "..." }
+  }
+}
+</syntaxhighlight>
+
+<translate>
+=== Ki attacks ===
+</translate>
+<translate>
+<code>KiAttacks</code> has one entry per ki attack type: <code>small_ball</code>, <code>medium_ball</code>, <code>giant_ball</code>, <code>wave</code>, <code>laser</code>, <code>beam</code>, <code>disk</code>, <code>explosion</code>, <code>shield</code>, <code>barrage</code> and <code>area</code>.
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>minXPCost</code> || <code>100</code> || <translate>Base XP cost of an upgrade (grows with the technique's strength and the upgrades already bought).</translate>
+|-
+| <code>maxXPCost</code> || <code>-1</code> || <translate>Upper limit for an upgrade's XP cost (<code>-1</code> means no limit).</translate>
+|-
+| <code>xpCostMultiplier</code> || <code>1.0</code> || <translate>Multiplier on upgrade XP costs; above 1 each extra upgrade gets pricier.</translate>
+|-
+| <code>xpGainMultiplier</code> || <code>1.0</code> || <translate>Multiplier on XP gained.</translate>
+|-
+| <code>xpGainPerHit</code> / <code>xpGainPerKill</code> || <code>1</code> / <code>3</code> || <translate>XP gained per hit / per kill.</translate>
+|-
+| <code>kiCostMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the ki cost of this type.</translate>
+|-
+| <code>damageMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the damage of this type.</translate>
+|-
+| <code>destructionMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the block-destruction radius of this type (<code>0</code> means no terrain damage).</translate>
+|-
+| <code>maxDestructionRadius</code> || <translate>Giant Ball and Explosion <code>32</code>; Wave, Beam and Area <code>12</code>; others <code>6</code></translate> || <translate>Hard cap on the destruction radius (<code>0</code> or less means no cap).</translate>
+|-
+| <code>castTimeTicks</code> || <translate>Small Ball and Laser <code>0</code>; Medium Ball and Disk <code>30</code>; Barrage, Shield and Area <code>40</code>; Wave and Beam <code>50</code>; Giant Ball and Explosion <code>60</code></translate> || <translate>Time to charge to 100%. Small Ball and Laser are always instant.</translate>
+|-
+| <code>baseSizeCap</code> || <translate>Giant Ball <code>15</code>, Explosion <code>12</code>, Medium Ball <code>4.5</code>, Wave <code>2</code>, Beam and Disk <code>1.2</code>, Barrage <code>1.5</code>, others <code>0</code></translate> || <translate>Largest size the attack grows to with Ki Power in base form (<code>0</code> keeps the technique's own size).</translate>
+|-
+| <code>transformedSizeCap</code> || <translate>Giant Ball and Explosion <code>25</code>, Medium Ball <code>7</code>, Wave <code>5</code>, Beam and Disk <code>2.3</code>, Barrage <code>2.5</code>, others <code>0</code></translate> || <translate>The same, while transformed or using a stack form such as Kaioken.</translate>
+|-
+| <code>sizePowerFloor</code> / <code>sizePowerCeiling</code> || <code>100</code> / <code>1000000</code> || <translate>Ki Power at which an attack is at its own size / reaches the cap (the growth in between is logarithmic).</translate>
+|}
+
+<translate>
+Block destruction is also subject to the ki-griefing gamerules (see [[Special:MyLanguage/Gamerules|Gamerules]]).
+</translate>
+
+<translate>
+=== Strike attacks ===
+</translate>
+<translate>
+<code>StrikeAttacks</code> has one entry per strike technique id.
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120</translate> || <translate>Technique cooldown (before upgrades).</translate>
+|-
+| <code>castTimeTicks</code> || <code>0</code> || <translate>Cast time shown in the technique details (strikes start as soon as you press the key).</translate>
+|-
+| <code>damageMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the technique's damage.</translate>
+|-
+| <code>kiCostMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the ki cost.</translate>
+|-
+| <code>minXPCost</code> / <code>maxXPCost</code> / <code>xpCostMultiplier</code> || <code>100</code> / <code>-1</code> / <code>1.0</code> || <translate>Upgrade XP costs, as for ki attacks.</translate>
+|-
+| <code>xpGainMultiplier</code> / <code>xpGainPerHit</code> / <code>xpGainPerKill</code> || <code>1.0</code> / <code>1</code> / <code>3</code> || <translate>XP gains, as for ki attacks.</translate>
+|}
+
+<translate>
+=== Evasion techniques ===
+</translate>
+<translate>
+<code>EvasionAttacks</code> has one entry per evasion technique id.
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+|-
+| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80</translate> || <translate>Technique cooldown (before upgrades).</translate>
+|-
+| <code>damageMultiplier</code> || <code>1.0</code> || <translate>Multiplier on damage (Rage Scream).</translate>
+|-
+| <code>kiCostMultiplier</code> || <code>1.0</code> || <translate>Multiplier on the ki cost.</translate>
+|-
+| <code>minXPCost</code> / <code>maxXPCost</code> / <code>xpCostMultiplier</code> || <code>100</code> / <code>-1</code> / <code>1.0</code> || <translate>Upgrade XP costs.</translate>
+|-
+| <code>xpGainMultiplier</code> / <code>xpGainPerHit</code> || <code>1.0</code> / <code>2</code> || <translate>XP gains (evasion techniques gain XP each time they're used).</translate>
+|}
+
+<translate>
+== Reload and validate ==
+</translate>
+{{See also|Reloading and Updating Changes|How to JSON}}
+<translate>
+# Edit <code>config/dragonminez/skills.json</code>, <code>techniques.json</code> or both.
+# Validate the JSON syntax.
+# Run <code>/dmzreload config</code> (or <code>/dmzreload</code>). Connected players get the new values resynced automatically.
+# Check the skill menu in-game for the master you changed.
+</translate>
+
+{{Navbox Configuration}}

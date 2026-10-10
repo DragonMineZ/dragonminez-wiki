@@ -1,0 +1,193 @@
+<translate>
+DragonMineZ replaces vanilla fighting with its own '''combat system''': weapon movesets with real windups, stamina, blocking and parrying, poise and guard breaks, a layered defense, damage-scaled knockback, dashes and passive dodges, ki charging with the '''Ki Surge''', a dedicated combat flight mode and weapons made of ki. This page explains what you experience in a fight; the numbers are the server defaults.
+</translate>
+{{Config|Combat Config}}
+
+<translate>
+== Melee attacks ==
+
+Every weapon is bound to a '''moveset''': a combo chain of attacks you cycle through as you keep swinging, each with its own reach, sweep angle, windup and damage. Bare fists have a moveset too. See [[Special:MyLanguage/Special Weapons|Special Weapons]] for the movesets and the signature weapons that use them.
+</translate>
+
+* <translate>'''Combos''': consecutive attacks step through the moveset (attack 1, 2, 3…) and loop. Different weapon classes swing, sweep and reach very differently.</translate>
+* <translate>'''Dual-wielding''': hold a weapon in each hand and your combo alternates hands automatically.</translate>
+* <translate>'''Reach''': each moveset has its own range (a staff out-reaches a sword), on top of your normal reach.</translate>
+* <translate>'''Windup''': a melee swing lands a moment after you press attack, between '''3 and 7 ticks''' depending on the swing animation and the weapon. Other players see your swing as it starts. The server times the windup and checks every target against the real attack hitbox and line of sight before the hit counts.</translate>
+* <translate>'''Blocking cancels swings''': you can't deal melee damage while blocking, and starting to block cancels a swing in progress.</translate>
+* <translate>'''Attack speed''': however high your attack speed is, there are always at least 2 ticks between attacks. You can't attack while riding a mount by default.</translate>
+* <translate>'''Giant enemies''': hitting a giant enemy (Hirudegarn, Slug, [[Special:MyLanguage/Janemba|Janemba]]…) counts once per swing, no matter how many of its body parts you touch.</translate>
+
+<translate>
+Melee damage comes from '''Strength''' (and strike damage from '''Strike Power'''); critical hits are explained on [[Special:MyLanguage/Stats and Attributes#Critical hits|Stats and Attributes]]. Weapons from other mods get a DMZ moveset too: see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]].
+</translate>
+
+<translate>
+== Stamina ==
+
+Swinging, blocking, dashing, sprinting and combat flight all cost '''Stamina'''. A melee attack costs stamina in proportion to its damage, and extra gravity makes each attack cost more. Your stamina pool and its regeneration come from Resistance and Vitality (see [[Special:MyLanguage/Stats and Attributes#Derived resources|Stats and Attributes]]).
+</translate>
+
+<translate>
+== Blocking ==
+
+Hold {{Key|Right Mouse}} with empty hands to '''block'''. A block reduces the damage of incoming hits by '''5% to 65%''', scaled by your defense, but every blocked hit costs stamina (a quarter of the damage you blocked).
+
+=== Poise and guard breaks ===
+
+While you block, part of the incoming damage (a quarter of it, or 1.5 times that share against non-player attackers) is dealt to your '''Poise''' as well. When your poise or your stamina runs out, your '''guard breaks''':
+</translate>
+
+* <translate>you are '''stunned''' for '''3 seconds''' (you can't move or act);</translate>
+* <translate>hits you take while guard-broken ignore '''66%''' of your defense.</translate>
+
+<translate>
+Poise starts regenerating again '''5 seconds''' after it last took damage. Your max poise is 25 plus a value derived from your defense.
+
+=== Parrying ===
+
+Start a block '''within 150 ms''' of a hit and it becomes a '''parry''':
+</translate>
+
+* <translate>you take '''no damage''';</translate>
+* <translate>the attacker is knocked back and '''staggered''' for 3 seconds (−25% movement and attack speed), and a non-player attacker is also '''stunned''';</translate>
+* <translate>ki blasts are '''deflected''' and strike attacks are '''countered''';</translate>
+* <translate>a parried attacker's melee attacks cost '''twice''' as much stamina for 4 seconds.</translate>
+
+<translate>
+== Taking damage ==
+
+Every hit you take goes through your defense: penetration, negation of tiny hits, flat absorption, percentage reduction (capped at '''88%''', or '''93%''' with Protection enchantments) and adaptive mitigation, then blocking and Ki Protection. The full step-by-step is on [[Special:MyLanguage/Stats and Attributes#How defense works|Stats and Attributes]]. Because defense is multiplied by your '''Power Release''', fighting uncharged leaves you far more exposed.
+
+=== Knockback ===
+
+Knockback scales with how much of a hit got through your defense and how big it was:
+</translate>
+
+* <translate>a hit your defense almost fully absorbed only pushes you '''15%''' as far;</translate>
+* <translate>a hit that deals at least '''15%''' of your max health counts as '''heavy''' and pushes you harder the bigger it is, up to '''2.5×''' the normal knockback.</translate>
+
+<translate>
+=== Knockdowns ===
+
+In fights that don't allow kills, a hit that would have killed a player '''knocks them down''' for '''30 seconds''' instead. This happens in party PvP, with '''Friendly Fist''' switched on (a Ki Action in the Utility Menu), when sparring a Shadow Dummy, and while a [[Special:MyLanguage/Namekian|Namekian]] or [[Special:MyLanguage/Majin|Majin]] is preparing an absorption. [[Special:MyLanguage/World Bosses|World boss]] fights have their own knockout rules.
+
+=== Logging out in combat ===
+
+If you log out in the middle of a fight, you die the next time you log in.
+</translate>
+
+<translate>
+== Mobility ==
+
+=== Dash and perfect evasion ===
+
+Press {{Key|R}} to '''dash''', or dash twice for a '''double dash'''. A single dash has a '''4-second''' cooldown and a double dash '''12 seconds'''. Dashing at the right moment, within '''200 ms''' of an attack, is a '''perfect evasion'''; after one, the next perfect evasion can't trigger for 1.5 seconds (a dash during that time is a normal dash).
+
+A tap of the [[Special:MyLanguage/Instant Transmission|Instant Transmission]] key shares the dash cooldown, and warping to a master or player through the Instant Transmission menu has a '''30-second''' cooldown (see [[Special:MyLanguage/Skills|Skills]]). For evasion techniques such as [[Special:MyLanguage/Afterimage|Afterimage]] and [[Special:MyLanguage/Solar Flare|Solar Flare]], see [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].
+
+=== Lock-on ===
+
+Press {{Key|Z}} to '''lock on''' to a target. Homing ki attacks follow your locked-on target (your lock-on range comes from the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill), a tap of Instant Transmission takes you to it, and strike attacks rush to it first. In third person, the crosshair glides to where your attacks will land and softly locks onto hostile targets in reach.
+</translate>
+
+<translate>
+== Speed and passive dodge ==
+
+'''Resistance''' raises your '''Speed''' (see [[Special:MyLanguage/Stats and Attributes#Speed|Stats and Attributes]]). If you know the [[Special:MyLanguage/Meditation|Meditation]] skill, Speed also lets you '''automatically dodge''' basic melee attacks:
+</translate>
+
+* <translate>against '''players''', you need to be faster than the attacker: '''2.5×''' their Speed at Meditation level 1, down to '''1.4×''' at level 10;</translate>
+* <translate>against '''other enemies''', you need a higher Battle Power: '''2×''' theirs at Meditation level 1, down to '''1×''' at level 10.</translate>
+
+<translate>
+Once you just meet the requirement your dodge chance is '''10%''', and it grows the further you exceed it, up to '''35%''' against players and '''50%''' against other enemies at Meditation level 10 (at level 1 the maximum is 60% of those values). Each dodge costs '''3%''' of your max stamina, there are at least 0.5 seconds between two dodges, and every consecutive dodge makes the next one less likely (×0.75) until you go 3 seconds without dodging. [[Special:MyLanguage/Glind|Glinds]] get a higher dodge chance from their '''Celestial Body''' racial skill.
+</translate>
+
+<translate>
+== Ki charging and Ki Surge ==
+
+Hold {{Key|C}} to '''charge ki''' and raise your '''Power Release''' up to your limit; double-tap it to jump straight to your maximum. Power Release multiplies your damage, defense, speed and Battle Power (see [[Special:MyLanguage/Stats and Attributes#Power Release|Stats and Attributes]]).
+</translate>
+
+* <translate>'''Taking a hit while charging stops the charge''' (and any surge progress), and you can't start charging again for half a second.</translate>
+* <translate>While you charge, arrows and other non-ki projectiles are '''deflected'''.</translate>
+* <translate>Hold {{Key|Alt}} + {{Key|C}} to lower your release, or cap it with '''Limit Release''' in the Utility Menu (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
+
+<translate>
+=== Ki Burst ===
+
+The moment you reach full Ki while charging, you release a '''Ki Burst''' that pushes back enemies within 8 blocks whose Battle Power is lower than yours.
+
+=== Ki Surge ===
+
+Keep charging at full Ki and the '''Ki Surge''' bar fills (4 seconds by default; letting go of {{Key|C}} empties it). When the bar is full you enter a '''Ki Surge''':
+</translate>
+
+* <translate>a big burst damages and blows back everyone within 10 blocks, for up to a quarter of your max Ki (less with distance). It can never kill;</translate>
+* <translate>for '''12 seconds''' your ki attacks deal '''15%''' more damage and fly '''25%''' faster, you charge techniques '''20%''' faster, move and fly '''25%''' faster and attack '''40%''' faster, and your aura grows;</translate>
+* <translate>but spending Ki costs '''25%''' more and drains the bar (spending X% of your max Ki removes 1.5 × X% of the bar);</translate>
+* <translate>being '''stunned''' ends the surge. After a surge ends or is lost, you wait '''15 seconds''' before the next one.</translate>
+
+<translate>
+An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''' can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
+</translate>
+
+<translate>
+=== Ki Transfer ===
+
+Hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} while looking at another player to give them your Ki. Every giver also raises the receiver's STR, SKP, DEF and PWR by 5%, while the giver slows down, can't fight and is left weaker for a while afterwards. Ki that doesn't fit in the receiver's bar goes into the ki attack they are charging. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].
+</translate>
+
+<translate>
+== Ki Protection and Ki Infusion ==
+
+These two skills, bought from [[Special:MyLanguage/Masters|masters]], only work while switched on (in the Skills menu, or under '''Ki Actions''' in the Utility Menu):
+</translate>
+
+* <translate>[[Special:MyLanguage/Ki Protection|Ki Protection]] reduces incoming damage by '''2.5% per level''' (up to 25%), spending Ki equal to '''15%''' of the incoming damage. With too little Ki, the reduction is scaled down to what you can pay.</translate>
+* <translate>[[Special:MyLanguage/Ki Infusion|Ki Infusion]] adds bonus melee damage equal to '''2.5% of your max Ki per level''' (up to +25%), spending '''2.5%''' (level 1) to '''7.5%''' (level 10) of your max Ki per hit. It only triggers if you have enough Ki.</translate>
+
+<translate>
+See [[Special:MyLanguage/Skills|Skills]] for the masters who teach them.
+
+== Ki weapons ==
+
+The [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] skill lets you form weapons out of ki from the '''Ki Weapons''' entry of the Utility Menu while your main hand is empty. Each one uses a weapon moveset, deals bonus damage from your Ki Damage (×10% per Ki Manipulation level) and costs Ki on every attack:
+</translate>
+
+{| class="wikitable"
+! <translate>Ki weapon</translate> !! <translate>Moveset</translate> !! <translate>Bonus damage</translate> !! <translate>Ki per attack</translate>
+|-
+| <translate>'''Ki Blade'''</translate> || <translate>Sword</translate> || <translate>Ki Damage × 0.25 × (level × 10%)</translate> || 6
+|-
+| <translate>'''Ki Scythe'''</translate> || <translate>Scythe</translate> || <translate>Ki Damage × 0.45 × (level × 10%)</translate> || 8
+|-
+| <translate>'''Ki Claw Lance'''</translate> || <translate>Trident</translate> || <translate>Ki Damage × 0.65 × (level × 10%)</translate> || 14
+|}
+
+<translate>
+Ki Manipulation also raises the damage of basic ki blasts ({{Key|Alt}} + {{Key|Right Mouse}}) by 5% of your Ki Damage per level.
+
+== Combat flight ==
+
+The [[Special:MyLanguage/Fly|Fly]] skill has two modes, switched with {{Key|Alt}} + {{Key|F}}: '''Search Fly''', a fast, free-steering 360° flight for travel, and '''Combat Fly''', a momentum-based hover tuned for fighting.
+</translate>
+
+* <translate>Taking or dealing damage while in Search Fly switches you to '''Combat Fly''', and you stay locked in it for '''8 seconds'''.</translate>
+* <translate>With '''Mode Lock''' on (Utility Menu, '''Movement → Fly'''), you go back to the flight mode you chose once that lock ends.</translate>
+* <translate>Combat Fly is faster while you sprint or hold the movement key, drains Ki at '''half''' the normal flight rate, and lets you boost with a flight impulse that costs a little Ki and has a short cooldown.</translate>
+* <translate>The '''Flight Speed''' option in the same menu caps your flight speed between 5% and 100%.</translate>
+
+<translate>
+See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Controls|Controls]].
+
+== Techniques in combat ==
+
+Ki attacks, strike attacks and evasion techniques are fired from your technique slots ({{Key|Alt}} + 1–4 and {{Key|Ctrl}} + 1–4); they need the [[Special:MyLanguage/Ki Control|Ki Control]] skill, at least '''5%''' Power Release and an empty main hand. Every strike attack starts a short '''shared cooldown''' (3 seconds, halved when it misses), so owning several strikes doesn't let you chain them; missing a strike completely refunds part of its Ki. Two beams that meet head-on start a '''beam clash'''. Everything about techniques is on [[Special:MyLanguage/Techniques|Techniques]].
+
+== Who you can hit ==
+
+Party members are always friendly unless your party has PvP switched on, players fighting the same world boss with you are friendly even then (see [[Special:MyLanguage/World Bosses#Truce|World Bosses]]), and [[Special:MyLanguage/Tournaments|tournament]] rivals are always hostile. By default DMZ's combat targeting treats other players and every mob as hostile, except villagers, iron golems and the guards of the Guard Villagers mod, which are neutral.
+</translate>
+
+{{Navbox Mechanics}}

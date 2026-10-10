@@ -1,0 +1,44 @@
+{{Infobox Technique
+|quote=<translate>Tear through space and strike from behind.</translate>
+|Type=<translate>Evasion technique</translate>
+|Taught by=<translate>None by default (dropped by {{L|Janemba}})</translate>
+|Races=<translate>All</translate>
+|Damage=<translate>None</translate>
+|Cooldown=<translate>4 seconds</translate>
+|Charge time=<translate>Instant</translate>
+|Range=<translate>64 blocks (locked-on target)</translate>
+}}
+<translate>
+'''Dimensional Warp''' is an evasion technique that teleports you behind your locked-on target, even from far away. It is one of the rewards of the [[Special:MyLanguage/Janemba|Janemba]] world boss, and its short cooldown makes it one of the most mobile techniques in the game.
+</translate>
+
+<translate>
+== Getting it ==
+
+No master teaches Dimensional Warp by default. It has a '''20%''' chance to drop from the [[Special:MyLanguage/Janemba|Janemba]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''12,000 TP''', and admins can grant it with {{Command|/dmztech add}}.
+
+Like every evasion technique, it needs [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and it must be equipped in a technique slot.
+</translate>
+
+<translate>
+== How it works ==
+
+* '''With a locked-on target within 64 blocks''', you teleport right behind it.
+* '''Without a target''', you teleport a few blocks forward.
+
+Lock on with {{Key|Z}}; your lock-on range depends on [[Special:MyLanguage/Ki Sense|Ki Sense]]. After using it, all your evasion techniques share a short lockout (the technique's duration + 3 seconds).
+</translate>
+
+<translate>
+== Upgrades ==
+
+Dimensional Warp gains experience every time you use it. Spend it in the Skills menu on '''duration''' (+2.5% per level, up to +50%) and '''cooldown'''.
+</translate>
+
+<translate>
+== Notes ==
+
+* [[Special:MyLanguage/Afterimage|Afterimage]] works in a similar way, but only reaches targets within 24 blocks.
+</translate>
+
+{{Navbox Abilities}}

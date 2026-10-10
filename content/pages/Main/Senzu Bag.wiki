@@ -1,0 +1,34 @@
+{{Infobox Item
+|quote=<translate>A bundle for your beans.</translate>
+|Type=<translate>Container</translate>
+|Effect=<translate>Holds up to 64 Senzu Beans of any color</translate>
+|Stack size=1
+|Crafting=<translate>3 Leather and any seeds</translate>
+}}
+<translate>
+The '''Senzu Bag''' carries up to '''64 [[Special:MyLanguage/Senzu Bean|Senzu Beans]]''' of any color in a single inventory slot, like a bundle. Regular, Health, Ki and Stamina beans can be mixed in the same bag, and you can eat them straight from it.
+</translate>
+
+<translate>
+== Crafting ==
+
+Crafting table: <code>L S L / _ L _</code>, where L is Leather, S is any seeds (such as Wheat Seeds or Senzu seeds) and _ is an empty slot.
+</translate>
+
+<translate>
+== Filling and emptying the bag ==
+
+* In your inventory, right-click beans onto the bag, or the bag onto beans, to put them in.
+* Right-click the bag onto an empty slot to take a stack back out.
+* The bag is a '''pile''': the beans you put in last come out first. Beans of the same color added one after another share one entry.
+* The tooltip lists what is inside.
+</translate>
+
+<translate>
+== Using it in your hand ==
+
+* '''Right-click''' with the bag in your hand to move the most recently added stack into your inventory. Whatever doesn't fit stays in the bag; nothing is dropped.
+* '''Shift + right-click''' eats one bean straight from the bag: the most recently added one you can eat right now. It has the usual effect and uses the shared Senzu cooldown (see [[Special:MyLanguage/Senzu Bean#Cooldown|Senzu Bean]]).
+</translate>
+
+{{Navbox Items}}

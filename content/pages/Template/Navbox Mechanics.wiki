@@ -1,0 +1,13 @@
+{{Navbox
+|title={{#invoke:Labels|get|Mechanics}}
+|group1={{#invoke:Labels|get|Getting started}}
+|list1={{L|Beginner's Guide}}{{·}}{{L|Character Customization}}{{·}}{{L|FAQ}}
+|group2={{#invoke:Labels|get|Gameplay}}
+|list2={{L|Stats and Attributes}}{{·}}{{L|Alignment}}{{·}}{{L|Training Points and Mastery}}{{·}}{{L|Combat}}{{·}}{{L|Ki Transfer}}
+|group3={{#invoke:Labels|get|Interface}}
+|list3={{L|Menus}}{{·}}{{L|Controls}}{{·}}{{L|HUD}}
+|group4={{#invoke:Labels|get|Reference}}
+|list4={{L|Commands}}{{·}}{{L|Changelog}}
+}}<noinclude>
+Navigation box for the mechanics and reference pages (Beginner's Guide, stats, alignment, training, combat, menus, controls, HUD, commands, FAQ and changelog). Add <code><nowiki>{{Navbox Mechanics}}</nowiki></code> at the bottom of each of those pages.
+</noinclude>

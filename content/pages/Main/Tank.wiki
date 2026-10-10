@@ -1,0 +1,46 @@
+{{Infobox Class
+|quote=<translate>The wall: the best defense and vitality scaling, sustained through stamina.</translate>
+|Passive=<translate>Fortress</translate>
+|Playstyle=<translate>Frontline defender; trains faster than average</translate>
+|Strength=0.6
+|Strike Power=0.7
+|Resistance=<translate>DEF 0.384, STM 1.5</translate>
+|Vitality=2.5
+|Ki Power=0.5
+|Energy=0.8
+}}
+<translate>
+'''Tank''' is the wall among the [[Special:MyLanguage/Classes|classes]]. It has the best Defense scaling and a high Vitality scaling, its passive turns stamina regeneration into extra health regeneration, and it gains Training Points '''25%''' faster than average.
+</translate>
+
+<translate>
+== Passive: Fortress ==
+
+* '''50%''' of your stamina regeneration is granted as bonus '''health regeneration''' (it is a bonus, not a conversion).
+* Healing you receive from passives or ally skills (not from eating) is '''+25%''' more effective.
+* Below '''30%''' health, both bonuses are '''doubled'''.
+</translate>
+
+<translate>
+== Starting stats and regeneration ==
+
+* '''Starting stats:''' RES 10 · VIT 10
+* '''Regeneration''' (per 5 seconds): health 2.25 (+0.075 per VIT) · Ki 5.0 (+0.10 per ENE) · stamina 9.0 (+0.03375 per VIT, +0.045 per RES)
+* '''TP gain ×1.25''': the Tank trains faster than average.
+</translate>
+
+<translate>
+== Stat scaling ==
+
+The Tank's standout scalings are '''Defense''' (DEF 0.384, the highest of all classes) and '''Vitality''' (2.5). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|Custom Races|stats.json}}
+<translate>
+The class id is <code>tank</code>. Its passive values are <code>stmToHpRegenRatio</code> (0.5), <code>healingBonus</code> (0.25), <code>lowHpThreshold</code> (0.30) and <code>lowHpMultiplier</code> (2.0), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings, regeneration and the TP gain multiplier.
+</translate>
+
+{{Navbox Classes}}

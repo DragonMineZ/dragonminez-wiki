@@ -1,0 +1,79 @@
+{{Infobox Structure
+|Dimension={{L|Demon Realm}}
+|Biome=<translate>Third Demon World</translate>
+|Locate=/dmzlocate demon_village
+|Inhabitants={{L|Demon Realm Villager}}, {{L|Time Patroller}}
+|Purpose=<translate>Medi-Bug trading and maps to the world boss lairs</translate>
+}}
+<translate>
+'''Demon villages''' are the settlements of the Third Demon World in the [[Special:MyLanguage/Demon Realm|Demon Realm]]: a plaza surrounded by 3–5 adobe houses, 1–2 farms, adobe-brick paths and lantern posts. Their villagers sell Medi-Bugs, a Time Patroller sells maps to the Demon Realm's world bosses, and Gomah's soldiers keep raiding them.
+</translate>
+
+<translate>
+== Who lives here ==
+</translate>
+<translate>
+=== Demon Realm Villagers ===
+</translate>
+<translate>
+Each house holds 1–2 [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]]. '''40%''' of them are '''bug traders''' who sell 2–3 of these offers:
+</translate>
+
+{| class="wikitable"
+! <translate>Offer</translate> !! <translate>Price</translate> !! <translate>Uses</translate>
+|-
+| <translate>Medi-Bug (Ant)</translate> || <translate>8 Emeralds</translate> || 6
+|-
+| <translate>Pair of Medi-Bugs (Beetle)</translate> || <translate>16 Emeralds</translate> || 2
+|-
+| <translate>Medi-Bug (Rhino)</translate> || <translate>6 Emeralds</translate> || 6
+|-
+| <translate>Medi-Bug (Worm)</translate> || <translate>6 Emeralds</translate> || 6
+|}
+
+<translate>
+See [[Special:MyLanguage/Medi-Bugs|Medi-Bugs]] for what each one does. The other villagers don't trade.
+</translate>
+
+<translate>
+=== Time Patroller ===
+</translate>
+<translate>
+One [[Special:MyLanguage/Time Patroller|Time Patroller]] stands on the plaza of every village. He sells maps to the world boss lairs:
+</translate>
+
+{| class="wikitable"
+! <translate>Map</translate> !! <translate>Leads to</translate> !! <translate>Price</translate> !! <translate>Uses</translate>
+|-
+| <translate>Tamagami Number Three Map</translate> || {{L|Tamagami Number 3}} || <translate>12 Emeralds</translate> || 4
+|-
+| <translate>Tamagami Number Two Map</translate> || {{L|Tamagami Number 2}} || <translate>16 Emeralds</translate> || 4
+|-
+| <translate>Tamagami Number One Map</translate> || {{L|Tamagami Number 1}} || <translate>20 Emeralds</translate> || 4
+|-
+| <translate>Gomah's Horn Cradle Map</translate> || {{L|Gomah's Horn Cradle}} || <translate>24 Emeralds</translate> || 4
+|}
+
+<translate>
+A map stays out of stock until that boss's lair has been found; the lairs are searched for while players are in the Demon Realm.
+</translate>
+
+<translate>
+Every resident restocks once per in-game day when you trade with them. Killing a Demon Realm Villager or the Time Patroller '''lowers your [[Special:MyLanguage/Alignment|alignment]]'''.
+</translate>
+
+<translate>
+== Gomah's patrols ==
+</translate>
+<translate>
+While players are within 6 chunks of a demon village, [[Special:MyLanguage/Gomah Soldier|Gomah Soldiers]] show up on its outskirts in waves of 1–3 (a 30% chance every 20 seconds, up to 4 soldiers per village). Some are bigger or smaller than usual, with stats scaled to match. They attack players, not the villagers.
+</translate>
+
+<translate>
+== Finding one ==
+</translate>
+<translate>
+Demon villages only generate on the Third Demon World, the top floor where the [[Special:MyLanguage/Space Pod|Space Pod]] drops you. Players with the locate permission can use {{Command|/dmzlocate demon_village}} in the Demon Realm.
+</translate>
+
+{{Navbox Structures}}

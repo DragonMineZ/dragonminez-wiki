@@ -1,0 +1,37 @@
+{{Infobox Technique
+|quote=<translate>A long combo of strikes, a slam and ki blasts.</translate>
+|Type=<translate>Strike attack</translate>
+|Taught by=<translate>None by default (dropped by {{L|Turles}})</translate>
+|Races=<translate>All</translate>
+|Damage=<translate>×2.6, scales with Strike Damage and Ki Damage</translate>
+|Cooldown=<translate>30 seconds</translate>
+|Charge time=<translate>Instant</translate>
+|Range=<translate>6 blocks (12 while flying)</translate>
+}}
+<translate>
+'''Meteor Burst''' is a long strike combo that lasts about 6 seconds and mixes strikes, a slam and ki blasts. It is a rare reward of the [[Special:MyLanguage/Turles|Turles]] world boss, and unlike most strike attacks it scales with both your Strike Damage (SKP) and your Ki Damage (PWR).
+</translate>
+
+<translate>
+== Getting it ==
+
+No master teaches Meteor Burst by default. It has a '''15%''' chance to drop from the [[Special:MyLanguage/Turles|Turles]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''24,000 TP''', and admins can grant it with {{Command|/dmztech add}}.
+
+You need [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and the technique must be equipped in a technique slot.
+</translate>
+
+<translate>
+== How it works ==
+
+Press the technique's slot key. As with every strike attack, you rush to the target in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying. Then the combo plays out over about '''6 seconds''', mixing strikes, a slam and ki blasts. Its damage multiplier is ×2.6, and it scales with both SKP and PWR.
+
+Meteor Burst has the longest cooldown of any strike attack: '''30 seconds'''.
+</translate>
+
+<translate>
+== Upgrades ==
+
+Like every strike attack, it gains experience when it hits, which you can spend on damage and cooldown (−2.5% per level, up to −50%). See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
+</translate>
+
+{{Navbox Abilities}}

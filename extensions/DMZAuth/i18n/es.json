@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"DragonMineZ"
+		]
+	},
+	"dmzauth-desc": "Inicio de sesión en la Wiki de DragonMineZ con Discord a través de Clerk. Los permisos de edición salen de los roles del servidor de Discord de DragonMineZ.",
+	"dmzauth-modal-title": "Editar la wiki",
+	"dmzauth-modal-text": "Solo los usuarios con acceso pueden editar los artículos de la Wiki de DragonMineZ.",
+	"dmzauth-modal-roles": "El acceso depende de tu rol en el servidor de Discord de DragonMineZ: Wiki Maintainer, Moderator o un rol con permisos de administrador.",
+	"dmzauth-modal-nolonger": "Iniciaste sesión, pero tu cuenta de Discord ya no tiene un rol con acceso para editar la wiki.",
+	"dmzauth-signin-discord": "Iniciar sesión con Discord",
+	"dmzauth-signing-in": "Iniciando sesión…",
+	"dmzauth-not-configured": "El inicio de sesión con Discord todavía no está configurado en esta wiki.",
+	"dmzauth-error": "No se pudo iniciar sesión. Vuelve a intentarlo en un momento.",
+	"dmzauth-other-account": "Usar otra cuenta de Discord",
+	"dmzauth-close": "Cerrar",
+	"dmzauth-login-title": "Iniciar sesión",
+	"dmzauth-login-text": "La wiki usa tu cuenta de Discord. Solo los miembros con acceso pueden editar.",
+	"dmzauth-noscript": "Iniciar sesión con Discord necesita JavaScript.",
+	"dmzauth-error-token": "No se pudo verificar tu sesión de Discord. Vuelve a intentarlo.",
+	"dmzauth-error-expired": "Tu sesión de Discord expiró. Vuelve a intentarlo.",
+	"dmzauth-error-service": "El servicio de inicio de sesión no respondió. Vuelve a intentarlo en un momento.",
+	"dmzauth-error-nodiscord": "Tu cuenta no está vinculada a Discord. Inicia sesión con Discord.",
+	"dmzauth-error-noaccess": "Solo los usuarios con acceso pueden editar la wiki. Tu cuenta de Discord no tiene el rol Wiki Maintainer, Moderator ni un rol de administrador.",
+	"dmzauth-error-username": "No se encontró un nombre de usuario libre para tu cuenta de Discord. Pide ayuda a un Wiki Maintainer.",
+	"group-editor": "Editores",
+	"group-editor-member": "{{GENDER:$1|editor|editora}}",
+	"grouppage-editor": "{{ns:project}}:Editores",
+	"group-moderator": "Moderadores",
+	"group-moderator-member": "{{GENDER:$1|moderador|moderadora}}",
+	"grouppage-moderator": "{{ns:project}}:Moderadores"
+}

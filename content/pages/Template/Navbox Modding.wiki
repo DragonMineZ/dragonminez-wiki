@@ -1,0 +1,16 @@
+{{Navbox
+|title={{#invoke:Labels|get|Modding}}
+|link=Modding
+|group1={{#invoke:Labels|get|Basics}}
+|list1={{L|How to JSON}}{{·}}{{L|Locating Specific Folders}}
+|group2={{#invoke:Labels|get|Characters and forms}}
+|list2={{L|Custom Races}}{{·}}{{L|Custom Forms}}{{·}}{{L|Custom Models and Assets}}
+|group3={{#invoke:Labels|get|Story and NPCs}}
+|list3={{L|Custom Quests}}{{·}}{{L|Custom Wishes}}{{·}}{{L|NPC Placement and Alignment}}{{·}}{{L|NPC Dialogue}}
+|group4={{#invoke:Labels|get|Datapacks}}
+|list4={{L|Space Pod Destinations}}{{·}}{{L|Weapon Attributes}}
+|group5={{#invoke:Labels|get|Related}}
+|list5={{L|Add-on Development}}{{·}}{{L|Configuration}}{{·}}{{L|Reloading and Updating Changes}}
+}}<noinclude>
+Navigation box for the modding pages (data add-ons made with JSON and resource packs).
+</noinclude>

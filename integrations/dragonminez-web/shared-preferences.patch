@@ -1,0 +1,96 @@
+diff --git a/src/components/ui/FloatingMenu.tsx b/src/components/ui/FloatingMenu.tsx
+index 8f34a6f..d0a316a 100644
+--- a/src/components/ui/FloatingMenu.tsx
++++ b/src/components/ui/FloatingMenu.tsx
+@@ -4,6 +4,7 @@ import FloatingLanguageSelector from './FloatingLanguageSelector';
+ import Tooltip from './Tooltip';
+ import SuccessAlert from './SuccessAlert';
+ import { useLanguage } from '../../i18n';
++import { THEME_COOKIE, readSharedPref, writeSharedPref } from '../../lib/sharedPrefs';
+ 
+ export function FloatingMenu() {
+     const { language, t, isLoaded: isI18nLoaded } = useLanguage();
+@@ -15,7 +16,7 @@ export function FloatingMenu() {
+ 
+     useEffect(() => {
+         setIsMounted(true);
+-        const savedTheme = localStorage.getItem('theme');
++        const savedTheme = readSharedPref(THEME_COOKIE) ?? localStorage.getItem('theme');
+         const theme = savedTheme ? savedTheme === 'dark' : true;
+         setIsDark(theme);
+         if (theme) {
+@@ -34,6 +35,7 @@ export function FloatingMenu() {
+         const newDark = !isDark;
+         setIsDark(newDark);
+         localStorage.setItem('theme', newDark ? 'dark' : 'light');
++        writeSharedPref(THEME_COOKIE, newDark ? 'dark' : 'light');
+         if (newDark) {
+             document.documentElement.classList.add('dark');
+         } else {
+diff --git a/src/i18n/store.ts b/src/i18n/store.ts
+index 79aca61..eb231b3 100644
+--- a/src/i18n/store.ts
++++ b/src/i18n/store.ts
+@@ -1,4 +1,5 @@
+ import type { Language, Translations } from './types';
++import { LANG_COOKIE, readSharedPref, writeSharedPref } from '../lib/sharedPrefs';
+ 
+ export interface I18nState {
+   language: Language;
+@@ -32,7 +33,7 @@ class I18nStore {
+   private getInitialLanguage(): Language {
+     if (typeof window === 'undefined') return 'es';
+     
+-    const saved = localStorage.getItem(STORAGE_KEY) as Language;
++    const saved = (readSharedPref(LANG_COOKIE) ?? localStorage.getItem(STORAGE_KEY)) as Language;
+     if (saved && ['es', 'en', 'pt'].includes(saved)) return saved;
+ 
+     const browserLang = navigator.language.split('-')[0];
+@@ -51,6 +52,7 @@ class I18nStore {
+     this.state = { ...this.state, language: lang, isLoaded: false };
+     if (typeof window !== 'undefined') {
+       localStorage.setItem(STORAGE_KEY, lang);
++      writeSharedPref(LANG_COOKIE, lang);
+       document.documentElement.lang = lang;
+       this.loadTranslations(lang);
+     }
+diff --git a/src/layouts/Layout.astro b/src/layouts/Layout.astro
+index e473312..3a2aa7a 100644
+--- a/src/layouts/Layout.astro
++++ b/src/layouts/Layout.astro
+@@ -56,6 +56,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+ 
+     <script is:inline>
+       const theme = (() => {
++        const shared = document.cookie.match(/(?:^|;\s*)dmz_theme=(light|dark)/);
++        if (shared) {
++          return shared[1];
++        }
+         if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+           return localStorage.getItem('theme');
+         }
+diff --git a/src/lib/sharedPrefs.ts b/src/lib/sharedPrefs.ts
+new file mode 100644
+index 0000000..720be29
+--- /dev/null
++++ b/src/lib/sharedPrefs.ts
+@@ -0,0 +1,19 @@
++const ONE_YEAR = 60 * 60 * 24 * 365;
++const SHARED_DOMAIN = 'dragonminez.com';
++
++export const THEME_COOKIE = 'dmz_theme';
++export const LANG_COOKIE = 'dmz_lang';
++
++export function readSharedPref(name: string): string | null {
++    if (typeof document === 'undefined') return null;
++    const match = document.cookie.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
++    return match ? decodeURIComponent(match[1]) : null;
++}
++
++export function writeSharedPref(name: string, value: string): void {
++    if (typeof document === 'undefined') return;
++    const host = window.location.hostname;
++    const domain = host === SHARED_DOMAIN || host.endsWith(`.${SHARED_DOMAIN}`) ? `; Domain=.${SHARED_DOMAIN}` : '';
++    const secure = window.location.protocol === 'https:' ? '; Secure' : '';
++    document.cookie = `${name}=${encodeURIComponent(value)}; Path=/; Max-Age=${ONE_YEAR}; SameSite=Lax${domain}${secure}`;
++}

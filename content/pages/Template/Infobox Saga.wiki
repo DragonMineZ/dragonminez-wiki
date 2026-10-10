@@ -1,0 +1,31 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-saga
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Rewards info, Story
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Order, Quests, Difficulty, Villains
+|General_label={{#invoke:Labels|get|General}}
+|Order_label={{#invoke:Labels|get|Order}}
+|Quests_label={{#invoke:Labels|get|Quests}}
+|Difficulty_label={{#invoke:Labels|get|Difficulty}}
+|Villains_label={{#invoke:Labels|get|Villains}}
+
+|Rewards info=Unlocks, Rewards
+|Rewards info_label={{#invoke:Labels|get|Rewards}}
+|Rewards info_collapsible=yes
+|Unlocks_label={{#invoke:Labels|get|Unlocks}}
+|Rewards_label={{#invoke:Labels|get|Rewards}}
+
+|Story=Previous, Next
+|Story_label={{#invoke:Labels|get|Story}}
+|Previous_label={{#invoke:Labels|get|Previous}}
+|Next_label={{#invoke:Labels|get|Next}}
+}}[[Category:Sagas{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

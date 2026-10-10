@@ -1,0 +1,26 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-form
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Stats
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Race, Group, Form type, Requirements
+|General_label={{#invoke:Labels|get|General}}
+|Race_label={{#invoke:Labels|get|Race}}
+|Group_label={{#invoke:Labels|get|Group}}
+|Form type_label={{#invoke:Labels|get|Form type}}
+|Requirements_label={{#invoke:Labels|get|Requirements}}
+
+|Stats=Multiplier, Drain, Mastery
+|Stats_label={{#invoke:Labels|get|Stats}}
+|Multiplier_label={{#invoke:Labels|get|Multiplier}}
+|Drain_label={{#invoke:Labels|get|Drain}}
+|Mastery_label={{#invoke:Labels|get|Mastery}}
+}}[[Category:Forms{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

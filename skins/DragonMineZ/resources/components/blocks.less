@@ -1,0 +1,265 @@
+.mw-body-content .dmz-cards {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax( 200px, 1fr ) );
+	gap: 14px;
+	margin: 18px 0 26px;
+}
+
+.mw-body-content .dmz-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border: 1px solid var( --glass );
+	border-radius: 16px;
+	background: var( --surface-elevated );
+	transition: border-color 0.2s ease, transform 0.2s ease;
+
+	&:hover {
+		border-color: var( --glass-strong );
+		transform: translateY( -2px );
+
+		.dmz-card__title a {
+			color: var( --link );
+		}
+	}
+}
+
+.mw-body-content .dmz-card__media {
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+	background: var( --surface );
+
+	img,
+	.dmz-placeholder img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 0;
+	}
+
+	.dmz-placeholder {
+		display: block;
+		height: 100%;
+	}
+}
+
+.mw-body-content .dmz-card__body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 12px 14px 14px;
+}
+
+.mw-body-content .dmz-card__title {
+	font-size: 15.5px;
+	line-height: 1.3;
+	font-weight: 800;
+	letter-spacing: -0.015em;
+
+	a,
+	a:visited {
+		color: var( --foreground );
+		text-decoration: none;
+
+		&::after {
+			content: '' !important;
+			position: absolute;
+			inset: 0;
+		}
+	}
+
+	a.new {
+		color: var( --foreground );
+		opacity: 0.6;
+	}
+}
+
+.mw-body-content .dmz-card__text {
+	color: var( --fg-70 );
+	font-size: 13px;
+	line-height: 1.5;
+
+	p {
+		margin: 0;
+	}
+}
+
+.mw-body-content .dmz-navbox {
+	clear: both;
+	margin: 34px 0 8px;
+	overflow: hidden;
+	border: 1px solid var( --glass-strong );
+	border-radius: 16px;
+	background: var( --surface-elevated );
+	font-size: 13.5px;
+	line-height: 1.6;
+
+	.mw-collapsible-toggle {
+		float: right;
+		margin: 9px 14px 0 0;
+		color: var( --muted );
+		font-size: 12px;
+		font-weight: 700;
+
+		a {
+			color: var( --muted );
+		}
+	}
+}
+
+.mw-body-content .dmz-navbox__title {
+	padding: 10px 16px;
+	border-bottom: 1px solid var( --glass );
+	background: var( --glass );
+	color: var( --foreground );
+	font-size: 15px;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: -0.015em;
+	text-align: left;
+
+	a,
+	a:visited {
+		color: var( --foreground );
+	}
+}
+
+.mw-body-content .dmz-navbox.mw-collapsed .dmz-navbox__title {
+	border-bottom: 0;
+}
+
+.mw-body-content .dmz-navbox__row {
+	display: grid;
+	grid-template-columns: minmax( 0, 1fr );
+	border-top: 1px solid var( --glass );
+
+	&:first-child {
+		border-top: 0;
+	}
+
+	@media ( min-width: @dmz-bp-md ) {
+		grid-template-columns: 170px minmax( 0, 1fr );
+	}
+}
+
+.mw-body-content .dmz-navbox__group {
+	padding: 8px 16px;
+	color: var( --foreground );
+	font-weight: 700;
+
+	@media ( min-width: @dmz-bp-md ) {
+		border-right: 1px solid var( --glass );
+		text-align: right;
+	}
+}
+
+.mw-body-content .dmz-navbox__list {
+	padding: 8px 16px;
+
+	p {
+		margin: 0;
+	}
+}
+
+.dmz-dot {
+	color: var( --muted );
+	font-weight: 700;
+}
+
+.mw-body-content .dmz-hatnote {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+	margin: 0 0 14px;
+	padding-left: 12px;
+	border-left: 3px solid var( --link );
+	color: var( --fg-70 );
+	font-size: 13.5px;
+	font-style: italic;
+
+	&::before {
+		content: 'subdirectory_arrow_right';
+		align-self: center;
+		font-family: 'Material Symbols Rounded';
+		font-size: 17px;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		font-feature-settings: 'liga';
+		color: var( --link );
+	}
+
+	&--see::before {
+		content: 'link';
+	}
+
+	&--config::before {
+		content: 'tune';
+	}
+
+	a {
+		font-style: normal;
+	}
+}
+
+.mw-body-content .dmz-placeholder img {
+	opacity: 0.9;
+}
+
+.mw-body-content code.dmz-command {
+	color: var( --link );
+	white-space: nowrap;
+}
+
+.mw-body-content .dmz-sidequests {
+	td {
+		vertical-align: top;
+	}
+
+	td:first-child {
+		min-width: 200px;
+		width: 30%;
+	}
+
+	td > ul,
+	td > ol {
+		margin: 0 0 0 1.2em;
+	}
+
+	li + li {
+		margin-top: 2px;
+	}
+}
+
+.mw-body-content .dmz-sidequest__desc {
+	margin-top: 4px;
+	color: var( --fg-70 );
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.mw-body-content .dmz-sidequest__giver,
+.mw-body-content .dmz-sidequest__note {
+	margin-top: 6px;
+	color: var( --muted );
+	font-size: 12.5px;
+	line-height: 1.4;
+}
+
+.mw-body-content .dmz-sidequest__note {
+	margin: 0 0 4px;
+}
+
+.mw-body-content .dmz-tag {
+	display: inline-block;
+	margin-left: 4px;
+	padding: 1px 8px;
+	border: 1px solid var( --glass-strong );
+	border-radius: 9999px;
+	color: var( --fg-70 );
+	font-size: 11.5px;
+	font-weight: 700;
+	vertical-align: 1px;
+}

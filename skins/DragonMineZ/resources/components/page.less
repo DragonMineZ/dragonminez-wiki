@@ -1,0 +1,349 @@
+.dmz-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px 12px;
+	padding: 8px 10px;
+	border-bottom: 1px solid var( --glass );
+	border-radius: 20px 20px 0 0;
+	background: var( --surface-elevated-40 );
+}
+
+.dmz-tabs__group {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+}
+
+.dmz-tablist ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 4px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.dmz-tablist li {
+	margin: 0;
+	list-style: none;
+}
+
+.dmz-tablist a {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	height: 32px;
+	padding: 0 14px;
+	box-sizing: border-box;
+	border-radius: 9999px;
+	color: var( --muted );
+	font-size: 13.5px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	text-decoration: none;
+	white-space: nowrap;
+	transition: background-color 0.2s ease, color 0.2s ease;
+
+	&:hover {
+		background: var( --glass-strong );
+		color: var( --foreground );
+	}
+}
+
+.dmz-tablist li.selected a {
+	background: var( --foreground );
+	color: var( --background );
+}
+
+.dmz-tablist li.new a {
+	color: var( --error );
+}
+
+.dmz-views a::before {
+	font-family: 'Material Symbols Rounded';
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	font-feature-settings: 'liga';
+}
+
+.dmz-views #ca-ve-edit a::before,
+.dmz-views #ca-edit a::before {
+	content: 'edit';
+}
+
+.dmz-views #ca-ve-edit ~ #ca-edit a::before,
+.dmz-views #ca-viewsource a::before {
+	content: 'code';
+}
+
+.dmz-views #ca-history a::before {
+	content: 'history';
+}
+
+.dmz-anon {
+	#ca-viewsource,
+	#ca-talk.new {
+		display: none;
+	}
+}
+
+.dmz-tab-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	padding: 0;
+	border: 0;
+	border-radius: 9999px;
+	background: transparent;
+	color: var( --muted );
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease;
+
+	.material-symbols-rounded {
+		font-size: 20px;
+	}
+
+	&:hover,
+	&[ aria-expanded='true' ] {
+		background: var( --glass-strong );
+		color: var( --foreground );
+	}
+}
+
+#dmz-sidebar-toggle {
+	display: none;
+
+	@media ( min-width: @dmz-bp-lg ) {
+		display: inline-flex;
+	}
+
+	.is-sidebar-collapsed & .material-symbols-rounded {
+		transform: scaleX( -1 );
+	}
+}
+
+.dmz-content__inner {
+	padding: 22px 18px 36px;
+
+	@media ( min-width: @dmz-bp-md ) {
+		padding: 28px 36px 44px;
+	}
+}
+
+.dmz-page-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+	gap: 12px 20px;
+	margin-bottom: 18px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid var( --glass );
+}
+
+.dmz-page-header__main {
+	min-width: 0;
+	flex: 1 1 320px;
+}
+
+.dmz-page-header__aside {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dmz-skin #firstHeading,
+.dmz-skin .firstHeading {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: var( --foreground );
+	font-family: inherit;
+	font-size: 32px;
+	line-height: 1.08;
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: -0.035em;
+	overflow-wrap: anywhere;
+
+	@media ( min-width: @dmz-bp-md ) {
+		font-size: 40px;
+	}
+
+	.mw-page-title-namespace,
+	.mw-page-title-separator {
+		color: var( --muted );
+		font-weight: 700;
+	}
+}
+
+.mw-indicators {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 13px;
+
+	&:empty {
+		display: none;
+	}
+}
+
+.dmz-page-languages {
+	display: flex;
+	gap: 2px;
+	padding: 3px;
+	border: 1px solid var( --glass );
+	border-radius: 9999px;
+	background: var( --surface-elevated );
+
+	&:empty {
+		display: none;
+	}
+}
+
+.dmz-lang-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	height: 28px;
+	padding: 0 10px 0 4px;
+	box-sizing: border-box;
+	border-radius: 9999px;
+	color: var( --muted );
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: background-color 0.2s ease, color 0.2s ease;
+
+	img {
+		width: 20px;
+		height: 20px;
+		border-radius: 9999px;
+		object-fit: cover;
+	}
+
+	&:hover {
+		background: var( --glass-strong );
+		color: var( --foreground );
+	}
+
+	&.is-active {
+		background: var( --foreground );
+		color: var( --background );
+	}
+
+	&.is-disabled {
+		opacity: 0.35;
+		cursor: not-allowed;
+
+		&:hover {
+			background: transparent;
+			color: var( --muted );
+		}
+	}
+}
+
+.dmz-translation-notice {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0 0 20px;
+	padding: 8px 8px 8px 10px;
+	border: 1px solid var( --glass );
+	border-radius: 16px;
+	background: var( --surface-elevated );
+
+	@media ( max-width: ( @dmz-bp-md - 1px ) ) {
+		flex-wrap: wrap;
+	}
+}
+
+.dmz-notice__icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 9999px;
+	background: var( --glass-strong );
+	color: var( --foreground );
+	font-size: 19px;
+}
+
+.dmz-notice__text {
+	flex: 1 1 240px;
+	color: var( --fg-80 );
+	font-size: 13.5px;
+	line-height: 19px;
+	font-weight: 500;
+}
+
+.dmz-notice__action {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	padding: 7px 8px 7px 14px;
+	border-radius: 9999px;
+	background: var( --foreground );
+	color: var( --background );
+	font-size: 13px;
+	font-weight: 700;
+	text-decoration: none;
+	white-space: nowrap;
+	transition: opacity 0.2s ease, transform 0.2s ease;
+
+	&,
+	&:visited {
+		color: var( --background );
+	}
+
+	.material-symbols-rounded {
+		font-size: 18px;
+	}
+
+	&:hover {
+		opacity: 0.9;
+		transform: scale( 1.03 );
+	}
+}
+
+.dmz-site-notice {
+	margin-bottom: 18px;
+	padding: 12px 16px;
+	border: 1px solid var( --glass-strong );
+	border-radius: 16px;
+	background: var( --surface-elevated );
+	color: var( --fg-80 );
+	font-size: 14px;
+
+	&:empty {
+		display: none;
+	}
+}
+
+.usermessage {
+	margin-bottom: 18px;
+	padding: 12px 16px;
+	border: 1px solid var( --orange-border );
+	border-radius: 16px;
+	background: var( --orange-glass );
+	color: var( --foreground );
+	font-weight: 600;
+}
+
+.dmz-home .dmz-page-header {
+	display: none;
+}
+
+.dmz-chip-button {
+	display: none;
+}

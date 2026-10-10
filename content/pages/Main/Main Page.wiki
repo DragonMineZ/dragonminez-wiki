@@ -1,0 +1,88 @@
+__NOTOC__
+<div class="dmz-start">
+<div class="dmz-start__text">
+<div class="dmz-start__title"><translate>New to DragonMineZ?</translate></div>
+<div class="dmz-start__lead"><translate>The beginner's guide takes you from creating your character to your first master, your first saga and your first transformation.</translate></div>
+</div>
+<div class="dmz-start__actions">
+<span class="dmz-button">[[Special:MyLanguage/Beginner's Guide|<translate>Read the beginner's guide</translate>]]</span>
+<span class="dmz-button dmz-button--secondary">[[Special:MyLanguage/Controls|<translate>See the controls</translate>]]</span>
+</div>
+</div>
+
+<div class="dmz-section-title"><translate>Choose your race</translate></div>
+<div class="dmz-section-lead"><translate>Your race decides your transformations, your racial skill and how your stats grow. Compare them all on the [[Special:MyLanguage/Races|races page]].</translate></div>
+<div class="dmz-cards dmz-cards--tall">
+{{Card|Human}}
+{{Card|Saiyan}}
+{{Card|Namekian}}
+{{Card|Frost Demon}}
+{{Card|Bio-Android}}
+{{Card|Majin}}
+{{Card|Glind}}
+{{Card|Android}}
+</div>
+
+<div class="dmz-section-title"><translate>Explore the wiki</translate></div>
+<div class="dmz-portals">
+<div class="dmz-portal" data-icon="person">
+<div class="dmz-portal__title">[[Special:MyLanguage/Races|<translate>Your warrior</translate>]]</div>
+<div class="dmz-portal__text"><translate>Everything that makes your character yours, and how it grows stronger.</translate></div>
+<div class="dmz-portal__links">{{L|Races}} {{L|Classes}} {{L|Transformations}} {{L|Racial Skills}} {{L|Skills}} {{L|Techniques}} {{L|Fusions}} {{L|Stats and Attributes}} {{L|Training Points and Mastery}}</div>
+</div>
+<div class="dmz-portal" data-icon="public">
+<div class="dmz-portal__title">[[Special:MyLanguage/Dimensions|<translate>The world</translate>]]</div>
+<div class="dmz-portal__text"><translate>Where to go, who to train with and what lives out there.</translate></div>
+<div class="dmz-portal__links">{{L|Dimensions}} {{L|Structures}} {{L|Masters}} {{L|Training Minigames}} {{L|Bestiary}} {{L|Sagas}} {{L|Sidequests}} {{L|Dragons and Wishes}}</div>
+</div>
+<div class="dmz-portal" data-icon="skull">
+<div class="dmz-portal__title">[[Special:MyLanguage/World Bosses|<translate>Challenges</translate>]]</div>
+<div class="dmz-portal__text"><translate>Fights to take on with your friends once you are ready.</translate></div>
+<div class="dmz-portal__links">{{L|World Bosses}} {{L|Raids}} {{L|Tournaments}}</div>
+</div>
+<div class="dmz-portal" data-icon="shield">
+<div class="dmz-portal__title">[[Special:MyLanguage/Items|<translate>Gear</translate>]]</div>
+<div class="dmz-portal__text"><translate>What you carry, wear and wield, and how to get it.</translate></div>
+<div class="dmz-portal__links">{{L|Items}} {{L|Armor}} {{L|Special Weapons}} {{L|Effects}} {{L|Enchantments}} {{L|Weights}} {{L|Gravity Device}}</div>
+</div>
+<div class="dmz-portal" data-icon="menu_book">
+<div class="dmz-portal__title">[[Special:MyLanguage/Combat|<translate>Reference</translate>]]</div>
+<div class="dmz-portal__text"><translate>How fighting works, what each screen does and every key.</translate></div>
+<div class="dmz-portal__links">{{L|Combat}} {{L|Alignment}} {{L|Gravity}} {{L|Menus}} {{L|Controls}} {{L|HUD}} {{L|Commands}} {{L|Character Customization}}</div>
+</div>
+<div class="dmz-portal" data-icon="dns">
+<div class="dmz-portal__title">[[Special:MyLanguage/Configuration|<translate>Servers and config</translate>]]</div>
+<div class="dmz-portal__text"><translate>Every config file, gamerule and permission for server owners.</translate></div>
+<div class="dmz-portal__links">{{L|Configuration}} {{L|General Server Config}} {{L|Combat Config}} {{L|Permissions}} {{L|Gamerules}} {{L|Notice to Server Owners}}</div>
+</div>
+<div class="dmz-portal" data-icon="construction">
+<div class="dmz-portal__title">[[Special:MyLanguage/Modding|<translate>Create your own</translate>]]</div>
+<div class="dmz-portal__text"><translate>Add races, forms, quests, wishes and NPCs with JSON files, no code needed.</translate></div>
+<div class="dmz-portal__links">{{L|How to JSON}} {{L|Custom Races}} {{L|Custom Forms}} {{L|Custom Quests}} {{L|Custom Wishes}} {{L|NPC Dialogue}}</div>
+</div>
+<div class="dmz-portal" data-icon="extension">
+<div class="dmz-portal__title">[[Special:MyLanguage/Add-on Development|<translate>Forge add-ons</translate>]]</div>
+<div class="dmz-portal__text"><translate>Write Java add-ons on top of DragonMineZ.</translate></div>
+<div class="dmz-portal__links">{{L|Add-on Getting Started}} {{L|Implementation and Events}} {{L|Creating a DMZ Addon}}</div>
+</div>
+<div class="dmz-portal" data-icon="handshake">
+<div class="dmz-portal__title">[[Special:MyLanguage/Contributing|<translate>The project</translate>]]</div>
+<div class="dmz-portal__text"><translate>Help with code, translations or this wiki, and report security issues.</translate></div>
+<div class="dmz-portal__links">{{L|Contributing}} {{L|Security Policy}} {{L|FAQ}} {{L|Changelog}}</div>
+</div>
+</div>
+
+<div class="dmz-feature">
+<div class="dmz-section-title">DragonMineZ v2.2</div>
+<div class="dmz-feature__text"><translate>This wiki documents DragonMineZ v2.2. The changelog lists everything that changed since v2.1.3, and the FAQ answers the most common questions.</translate></div>
+<div class="dmz-feature__actions">
+<span class="dmz-button">[[Special:MyLanguage/Changelog|<translate>Read the changelog</translate>]]</span>
+<span class="dmz-button dmz-button--secondary">[[Special:MyLanguage/FAQ|<translate>Open the FAQ</translate>]]</span>
+</div>
+</div>
+
+<div class="dmz-discord-cta">
+<div class="dmz-discord-cta__title"><translate>Join the Time Patrol</translate></div>
+<div class="dmz-discord-cta__text"><translate>Connect with thousands of players, find groups for raids and get direct support from the developers.</translate></div>
+<span class="dmz-discord-cta__button">[https://discord.com/servers/dragonmine-z-1216429657273012415 <i class="fa-brands fa-discord"></i> <translate>Join Discord</translate>]</span>
+</div>

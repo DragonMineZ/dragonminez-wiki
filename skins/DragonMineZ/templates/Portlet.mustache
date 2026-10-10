@@ -1,0 +1,11 @@
+<details id="{{id}}" class="{{class}} dmz-portlet dmz-panel"{{#is-dmz-open}} open{{/is-dmz-open}}{{{html-user-language-attributes}}}>
+	<summary class="dmz-portlet__header">
+		<span id="{{id}}-label" class="dmz-portlet__label">{{label}}</span>
+		<span class="material-symbols-rounded dmz-portlet__chevron" aria-hidden="true">expand_more</span>
+	</summary>
+	<div class="mw-portlet-body dmz-portlet__body">
+		{{{html-before-portal}}}
+		<ul>{{{html-items}}}</ul>
+		{{{html-after-portal}}}
+	</div>
+</details>

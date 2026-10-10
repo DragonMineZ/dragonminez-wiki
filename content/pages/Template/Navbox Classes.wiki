@@ -1,0 +1,10 @@
+{{Navbox
+|title={{#invoke:Labels|get|Classes}}
+|link=Classes
+|group1={{#invoke:Labels|get|Playable classes}}
+|list1={{L|Warrior}}{{·}}{{L|Martial Artist}}{{·}}{{L|Spiritualist}}{{·}}{{L|Berserker}}{{·}}{{L|Paladin}}{{·}}{{L|Tank}}{{·}}{{L|Cleric}}{{·}}{{L|Unversed}}
+|group2={{#invoke:Labels|get|Related}}
+|list2={{L|Races}}{{·}}{{L|Stats and Attributes}}{{·}}{{L|Character Customization}}{{·}}{{L|Training Points and Mastery}}
+}}<noinclude>
+Navigation box for the player classes. Add <code><nowiki>{{Navbox Classes}}</nowiki></code> at the bottom of the Classes page and of every class page.
+</noinclude>

@@ -1,0 +1,129 @@
+.dmz-sidebar {
+	position: sticky;
+	top: @dmz-sticky-top;
+	max-height: calc( 100vh - @dmz-sticky-top - 20px );
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+.dmz-sidebar__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.dmz-portlet {
+	overflow: hidden;
+
+	&[ open ] .dmz-portlet__chevron {
+		transform: rotate( 180deg );
+	}
+}
+
+.dmz-portlet__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	padding: 11px 12px 11px 16px;
+	color: var( --foreground );
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	cursor: pointer;
+	list-style: none;
+	user-select: none;
+	transition: background-color 0.2s ease;
+
+	&::-webkit-details-marker {
+		display: none;
+	}
+
+	&:hover {
+		background: var( --glass );
+	}
+
+	[ open ] > & {
+		border-bottom: 1px solid var( --glass );
+	}
+}
+
+.dmz-portlet__chevron {
+	color: var( --muted );
+	font-size: 20px;
+	transition: transform 0.25s ease;
+}
+
+.dmz-portlet__body {
+	padding: 6px;
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 1px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+
+	li a {
+		display: block;
+		padding: 6px 10px;
+		border-radius: 10px;
+		color: var( --muted );
+		font-size: 13.5px;
+		line-height: 19px;
+		font-weight: 600;
+		text-decoration: none;
+		transition: background-color 0.15s ease, color 0.15s ease;
+
+		&:hover {
+			background: var( --glass );
+			color: var( --foreground );
+		}
+	}
+
+	li.is-active a {
+		background: var( --glass-strong );
+		color: var( --foreground );
+		box-shadow: inset 3px 0 0 var( --link );
+	}
+
+	li.new a {
+		color: var( --error );
+	}
+}
+
+.dmz-nav__wiki {
+	.dmz-sidebar__inner {
+		display: grid;
+		grid-template-columns: repeat( auto-fill, minmax( 220px, 1fr ) );
+		gap: 10px;
+		text-align: left;
+	}
+
+	.dmz-portlet {
+		background: rgba( 255, 255, 255, 0.03 );
+		border-color: rgba( 255, 255, 255, 0.08 );
+	}
+
+	.dmz-portlet__header {
+		color: #ffffff;
+	}
+
+	.dmz-portlet__body li a {
+		color: rgba( 255, 255, 255, 0.7 );
+		font-size: 15px;
+
+		&:hover {
+			color: #ffffff;
+			background: rgba( 255, 255, 255, 0.06 );
+		}
+	}
+}

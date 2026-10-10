@@ -1,0 +1,51 @@
+Infobox for class pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Class
+|title=
+|image=
+|caption=
+|quote=
+|Passive=
+|Playstyle=
+|Recommended races=
+|Strength=
+|Strike Power=
+|Resistance=
+|Vitality=
+|Ki Power=
+|Energy=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Passive</code>
+|-
+| <code>Playstyle</code>
+|-
+| <code>Recommended races</code>
+|-
+| <code>Strength</code>
+|-
+| <code>Strike Power</code>
+|-
+| <code>Resistance</code>
+|-
+| <code>Vitality</code>
+|-
+| <code>Ki Power</code>
+|-
+| <code>Energy</code>
+|}

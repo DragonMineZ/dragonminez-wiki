@@ -1,0 +1,45 @@
+Infobox for dimension pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Dimension
+|title=
+|image=
+|caption=
+|quote=
+|Gravity=
+|Access=
+|Biomes=
+|Resources=
+|Inhabitants=
+|Structures=
+|Bosses=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Gravity</code>
+|-
+| <code>Access</code>
+|-
+| <code>Biomes</code>
+|-
+| <code>Resources</code>
+|-
+| <code>Inhabitants</code>
+|-
+| <code>Structures</code>
+|-
+| <code>Bosses</code>
+|}

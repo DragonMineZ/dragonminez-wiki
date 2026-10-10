@@ -1,0 +1,74 @@
+<translate>
+Every race in DragonMineZ has a '''racial skill''': a set of signature passives and, for some races, abilities you trigger yourself. The race-selection screen and the '''Skills''' menu always show your server's live values, with each part of the racial skill listed as its own entry; the numbers on this wiki are the defaults. Each race page explains its racial skill in full.
+</translate>
+
+<translate>
+== Racial skills by race ==
+</translate>
+{| class="wikitable"
+! <translate>Race</translate> !! <translate>Parts</translate> !! <translate>Used with the action key</translate>
+|-
+| {{L|Human}} || <translate>Blood-Fueled Ki, Fast Learner, Adrenaline</translate> || —
+|-
+| {{L|Android}} || <translate>Android Core, Absorption Barrier, Fast Learner, Adrenaline</translate> || <translate>Absorption Barrier (hold G)</translate>
+|-
+| {{L|Saiyan}} || <translate>Zenkai, Limitless Power</translate> || —
+|-
+| {{L|Namekian}} || <translate>Assimilation, Regeneration, Water Affinity</translate> || <translate>Assimilation (hold G); Regeneration is used from the X menu</translate>
+|-
+| {{L|Frost Demon}} || <translate>Prodigious Strength, Evolutionary Mastery, Hardened Body, Power Reserve</translate> || —
+|-
+| {{L|Bio-Android}} || <translate>Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate> || <translate>All three, depending on your form</translate>
+|-
+| {{L|Majin}} || <translate>Absorption, Sweet Tooth, Healing Magic</translate> || <translate>Absorption (hold G)</translate>
+|-
+| {{L|Glind}} || <translate>Divine Ki, Celestial Body, Divine Punishment, Light and Darkness</translate> || <translate>None: every part is passive</translate>
+|}
+
+<translate>
+== Using an active racial skill ==
+</translate>
+{{See also|Controls|Menus}}
+<translate>
+# Hold '''X''' to open the utility menu and select '''Racial Skill''' in the '''Actions''' slice.
+# Hold or press the '''action key''' ('''G''' by default). What it does depends on your race.
+
+'''Alt + G''' triggers the racial skill's secondary action while a racial skill is selected, such as dismissing your Cell Jrs. as a Bio-Android.
+
+While Namekian '''Assimilation''' or Majin '''Absorption''' is the selected action, your '''finishing blows knock enemies down instead of killing them''', so you can absorb them.
+</translate>
+
+<translate>
+== Racial progress ==
+
+Some racial skills build up progress that stays with you until you lose it or reset it:
+
+* '''Zenkai''' (Saiyan): up to 3 permanent boosts to STR, SKP and PWR, each raising your Power Release limit through Limitless Power.
+* '''Assimilation''' (Namekian): up to 4 assimilations; you lose the latest one when you die.
+* '''Absorption''' (Majin): up to 3 absorptions; you lose all of them when you die.
+* '''Cell Jr.''' (Bio-Android): up to 3 summoned Cell Jrs. at a time.
+</translate>
+
+<translate>
+== Resetting racial progress ==
+
+The permanent racial gains (Zenkai boosts and the Power Release bonus, assimilations, absorptions and Cell Jrs.) can be reset:
+
+* '''Wish:''' the '''Reset Passive''' wish, available from both [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]].
+* '''Command:''' <code>/dmzracial reset [targets]</code>, with the permission nodes <code>dmzracial.reset.self</code> and <code>dmzracial.reset.others</code> (see [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Permissions|Permissions]]). It also clears racial cooldowns and despawns your Cell Jrs.
+
+After a reset you can earn them again from zero.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|General Server Config|racialSkills}}
+<translate>
+All racial tuning lives in <code>config/dragonminez/general-server.json</code> under <code>racialSkills</code>. A master switch, <code>enableRacialSkills</code>, turns every racial skill on or off, and each race has its own section (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>) with its own <code>enabled</code> switch and values. Which section a race uses is set by <code>racialSkill</code> in its <code>races/&lt;race&gt;/character.json</code>. Reload the config with <code>/dmzreload config</code>.
+
+Config files from before v2.2 that still use the old flat keys (such as <code>saiyanZenkaiAmount</code>, <code>namekianAssimilationAmount</code> or <code>majinAbsorptionAmount</code>) are moved into the per-race sections automatically the first time v2.2 loads the file. The old Majin Revive and Human Ki regeneration keys are removed.
+</translate>
+{{See also|General Server Config|Custom Races|Reloading and Updating Changes}}
+
+{{Navbox Races}}

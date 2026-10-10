@@ -1,0 +1,42 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-world-boss
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Combat, Rewards
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=World, Lair, Coordinates, How to find, Boss key, Respawn
+|General_label={{#invoke:Labels|get|General}}
+|World_label={{#invoke:Labels|get|World}}
+|Lair_label={{#invoke:Labels|get|Lair}}
+|Coordinates_label={{#invoke:Labels|get|Coordinates}}
+|How to find_label={{#invoke:Labels|get|How to find}}
+|Boss key_label={{#invoke:Labels|get|Boss key}}
+|Boss key={{#if:{{{Boss key|}}}|<code>{{{Boss key}}}</code>}}
+|Respawn_label={{#invoke:Labels|get|Respawn}}
+|Respawn={{#if:{{{Respawn|}}}|{{{Respawn}}}|{{#invoke:Labels|get|1 hour after defeat}}}}
+
+|Combat=Health, Transforms into, Transformed health, Minions, Signature moves
+|Combat_label={{#invoke:Labels|get|Combat}}
+|Health_label={{#invoke:Labels|get|Health}}
+|Health={{#if:{{{Health|}}}|{{formatnum:{{{Health}}}}}}}
+|Transforms into_label={{#invoke:Labels|get|Transforms into}}
+|Transformed health_label={{#invoke:Labels|get|Transformed health}}
+|Transformed health={{#if:{{{Transformed health|}}}|{{formatnum:{{{Transformed health}}}}}}}
+|Minions_label={{#invoke:Labels|get|Minions}}
+|Signature moves_label={{#invoke:Labels|get|Signature moves}}
+
+|Rewards=TP reward, Drops, Techniques
+|Rewards_label={{#invoke:Labels|get|Rewards}}
+|Rewards_collapsible=yes
+|TP reward_label={{#invoke:Labels|get|TP reward}}
+|TP reward={{#if:{{{TP reward|}}}|{{formatnum:{{{TP reward}}}}}}}
+|Drops_label={{#invoke:Labels|get|Drops}}
+|Techniques_label={{#invoke:Labels|get|Techniques}}
+}}[[Category:World Bosses{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

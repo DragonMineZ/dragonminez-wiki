@@ -1,0 +1,283 @@
+<translate>
+'''Custom wishes''' change what a dragon grants when it is summoned, entirely with JSON and no Java. Wish JSON lives in two different places, depending on what you are trying to do:
+</translate>
+
+{| class="wikitable"
+! <translate>Goal</translate> !! <translate>Where</translate> !! <translate>Format</translate>
+|-
+| <translate>Override the wish list of a dragon ([[Special:MyLanguage/Shenron|Shenron]], [[Special:MyLanguage/Porunga|Porunga]] or an add-on dragon) on one world.</translate> || <code><world save>/dragonminez/wishes/<dragon_id>.json</code> || <translate>A plain JSON '''array''' of wish objects.</translate>
+|-
+| <translate>Ship a '''new dragon''', or wishes as part of a distributable pack.</translate> || <translate>An add-on pack (folder or <code>.zip</code>) under <code><game dir>/dragonballs/</code></translate> || <translate>A JSON '''object''' with <code>dragon</code> and <code>wishes</code> fields.</translate>
+|}
+
+<translate>
+Both formats use the same wish objects underneath; only the outer wrapper differs. Standard datapacks are '''not''' read for dragons or wishes: use an add-on pack instead. For how players summon dragons and pick wishes, see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].
+</translate>
+
+<translate>
+== How the wish lists are merged ==
+</translate>
+<translate>
+# Wish lists from add-on packs are loaded first (one list per dragon).
+# Every known dragon without a list gets an empty one.
+# Each file in <code><world save>/dragonminez/wishes/</code> then '''replaces''' the whole list of the dragon named by its filename.
+</translate>
+
+<translate>
+== Base fields of every wish ==
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "type": "attributes",
+  "name": "wish.shenron.attributes.name",
+  "description": "wish.shenron.attributes.desc",
+  "amount": 100
+}
+</syntaxhighlight>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>type</code> || <translate>String</translate> || <translate>One of the [[Special:MyLanguage/Custom Wishes#Wish types|wish types]] below.</translate>
+|-
+| <code>name</code> || <translate>String</translate> || <translate>Translation key for the wish's display name.</translate>
+|-
+| <code>description</code> || <translate>String</translate> || <translate>Translation key for the wish's description.</translate>
+|-
+| <code>repeatable</code> || <translate>Boolean</translate> || <translate>Optional. Dragons that grant several wishes (Porunga) let a player pick the same wish more than once per summon. Set it to <code>false</code> to allow the wish only once. When it is absent, the wish is repeatable.</translate>
+|}
+
+<translate>
+Source: <code>Wish.java</code> (base class), <code>WishTypeAdapterFactory.java</code> (mapping from type to class).
+</translate>
+
+<translate>
+== Wish types ==
+</translate>
+
+{| class="wikitable"
+! <code>type</code> !! <translate>Extra fields</translate> !! <translate>What it does</translate>
+|-
+| <code>item_list_wish</code> || <translate><code>items</code>: list of item objects</translate> || <translate>Grants one or more items described as typed item objects (see below). Example: <code>{ "type": "item_list_wish", "name": "wish.shenron.senzu.name", "description": "wish.shenron.senzu.desc", "items": [{ "itemType": "generic_item", "itemId": "dragonminez:senzu_bean", "count": 16 }] }</code></translate>
+|-
+| <code>item</code> || <code>itemId</code>, <code>count</code> || <translate>Grants one item stack. Example: <code>{ "type": "item", "name": "...", "description": "...", "itemId": "dragonminez:senzu_bean", "count": 16 }</code></translate>
+|-
+| <code>multi_wish</code> || <translate><code>items</code>: list of <code>{ "a": "<item_id>", "b": <count> }</code></translate> || <translate>Grants several item stacks. Example: <code>{ "type": "multi_wish", "name": "...", "description": "...", "items": [{ "a": "dragonminez:kikono_shard", "b": 32 }, { "a": "minecraft:iron_ingot", "b": 64 }] }</code></translate>
+|-
+| <code>attributes</code> || <code>amount</code> || <translate>Grants <code>amount</code> Attributes, split into Attribute Points and the TP those points would cost the player right now (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The default '''Power Boost''' wishes use it. Example: <code>{ "type": "attributes", "name": "...", "description": "...", "amount": 100 }</code></translate>
+|-
+| <code>attributepoints</code> || <code>amount</code> || <translate>Grants <code>amount</code> Attribute Points only. Example: <code>{ "type": "attributepoints", "name": "...", "description": "...", "amount": 50 }</code></translate>
+|-
+| <code>tps</code> || <code>amount</code> || <translate>Grants a fixed amount of Training Points. Example: <code>{ "type": "tps", "name": "...", "description": "...", "amount": 5000 }</code></translate>
+|-
+| <code>skill</code> || <code>skill</code>, <code>level</code> || <translate>Raises a skill to at least <code>level</code>, for example <code>{ "type": "skill", "name": "...", "description": "...", "skill": "kaioken", "level": 2 }</code>. Ignored if the player is already at that level.</translate>
+|-
+| <code>command</code> || <translate><code>commands</code>: string array, where <code>%player%</code> is replaced with the player's name</translate> || <translate>Runs commands. Example: <code>{ "type": "command", "name": "...", "description": "...", "commands": ["effect give %player% minecraft:regeneration 60 1"] }</code></translate>
+|-
+| <code>revive</code> || <translate><code>maxTargets</code> (default <code>1</code>)</translate> || <translate>Truly revives up to <code>maxTargets</code> dead players, chosen in the wish screen. See [[Special:MyLanguage/Otherworld|Otherworld]].</translate>
+|-
+| <code>passivereset</code> || <translate>None</translate> || <translate>Resets racial passive skill bonuses (Zenkai, Assimilation and Absorption).</translate>
+|-
+| <code>recustomize</code> || <translate>None</translate> || <translate>Opens the character customization screen.</translate>
+|-
+| <code>relocatestats</code> || <translate>None</translate> || <translate>Lets the player redistribute their spent stat points.</translate>
+|-
+| <code>changedifficulty</code> || <translate>None</translate> || <translate>Lets the player pick their story difficulty again.</translate>
+|-
+| <code>resetstory</code> || <translate>None</translate> || <translate>Resets all story quest progress.</translate>
+|}
+
+<translate>
+<code>item_list_wish</code> is what the default wishes use. Each entry of <code>items</code> is a typed item object, so a wish can also grant enchanted gear, potions or trimmed armor:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "type": "item_list_wish",
+  "name": "wish.shenron.strongest.name",
+  "description": "wish.shenron.strongest.desc",
+  "items": [
+    { "itemType": "enchanted_item", "itemId": "minecraft:diamond_sword", "count": 1, "enchantments": { "minecraft:sharpness": 5 } },
+    { "itemType": "potion", "itemId": "minecraft:potion", "count": 1, "potion": "minecraft:strong_healing" }
+  ]
+}
+</syntaxhighlight>
+
+<translate>
+The fields of each item object (<code>generic_item</code>, <code>enchanted_item</code>, <code>enchanted_book</code>, <code>potion</code>, <code>splash_potion</code>, <code>lingering_potion</code>, <code>tipped_arrow</code>, <code>trimmed_armor</code>) are listed on [[Special:MyLanguage/Custom Quests#Item objects|Custom Quests]].
+</translate>
+
+<translate>
+Source: the classes under <code>src/main/java/com/dragonminez/common/wish/wishes/</code>, and the dispatch table in <code>WishTypeAdapterFactory.java</code>.
+</translate>
+
+<translate>
+== Overriding a dragon's wishes ==
+</translate>
+<translate>
+Drop a file named after the dragon's id in <code><world save>/dragonminez/wishes/</code>, for example <code>shenron.json</code> or <code>porunga.json</code>. It is a '''plain array''', with no wrapper object:
+</translate>
+
+<syntaxhighlight lang="json">
+[
+  {
+    "type": "item_list_wish",
+    "name": "wish.shenron.senzu.name",
+    "description": "wish.shenron.senzu.desc",
+    "items": [ { "itemType": "generic_item", "itemId": "dragonminez:senzu_bean", "count": 16 } ]
+  },
+  {
+    "type": "attributes",
+    "name": "wish.shenron.attributes.name",
+    "description": "wish.shenron.attributes.desc",
+    "amount": 100
+  },
+  {
+    "type": "revive",
+    "name": "wish.shenron.revive.name",
+    "description": "wish.shenron.revive.desc",
+    "maxTargets": 3
+  }
+]
+</syntaxhighlight>
+
+{{Note|type=warning|title=<translate>The file replaces the whole list</translate>|text=<translate>This file '''completely replaces''' that dragon's wish list; it is not added on top of the add-on pack wishes. If you only want to add one wish and keep the rest, copy the dragon's full existing wish list first and then add yours to it.</translate>}}
+
+<translate>
+If <code>shenron.json</code> or <code>porunga.json</code> don't exist yet, DragonMineZ creates them with the default wish list the first time wishes load, so you always have a working example to start from. Any other filename you create here sets the wish list of that dragon id; it only shows up if a dragon with that id exists (see [[Special:MyLanguage/Custom Wishes#Adding a new dragon|Adding a new dragon]]).
+</translate>
+
+<translate>
+Every wish is checked when the file loads: an unknown <code>type</code> or an unknown key is reported in the JSON load report. A file that fails to parse (broken JSON, an invalid item object) is skipped as a whole and reported, so the dragon keeps its add-on pack wishes until you fix it.
+</translate>
+
+<translate>
+Source: <code>WishManager.loadWishes()</code> and <code>loadWishConfig()</code>.
+</translate>
+
+<translate>
+== Adding a new dragon ==
+</translate>
+<translate>
+A wish override file alone only works for a dragon id that already has a '''dragon definition''' (entity, ball set and summon rules). A new dragon, ball set or radar comes from an add-on pack under <code><game dir>/dragonballs/</code>: a folder or a <code>.zip</code> file with this layout:
+</translate>
+
+<syntaxhighlight lang="text">
+<pack_name>/
+  definitions/
+    dragon.json
+    ballset.json
+    radar.json
+    wishes.json
+  assets/
+    dragon.json
+    ballset.json
+    radar.json
+</syntaxhighlight>
+
+<translate>
+Packs are loaded in alphabetical order and merge over the built-in definitions by id: a pack whose <code>dragon.json</code> uses an existing dragon id overrides that dragon's definition. Dragons, ball sets and radars register their entity, blocks and items when the game starts, so '''new ones need a game restart'''. See [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]] for the full folder map.
+</translate>
+
+<translate>
+=== Dragon definition ===
+</translate>
+<translate>
+<code>definitions/dragon.json</code>:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "my_dragon",
+  "entity_registry_name": "my_dragon",
+  "entity_width": 3.0,
+  "entity_height": 17.0,
+  "dimensions": ["minecraft:overworld"],
+  "ball_set": "my_ball_set",
+  "wish_screen_id": "my_dragon",
+  "wish_count": 1,
+  "asset_definition": "my_dragon"
+}
+</syntaxhighlight>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>What it does</translate>
+|-
+| <code>id</code> || <translate>Dragon id.</translate>
+|-
+| <code>entity_registry_name</code> || <translate>Registry name of the dragon entity (<code>dragonminez:<name></code>). Keep it equal to <code>id</code>: summoning looks the entity up by the dragon id.</translate>
+|-
+| <code>entity_width</code>, <code>entity_height</code> || <translate>Entity size.</translate>
+|-
+| <code>dimensions</code> || <translate>Dimensions the dragon can be summoned in.</translate>
+|-
+| <code>ball_set</code> || <translate>Id of the ball set that summons it.</translate>
+|-
+| <code>wish_screen_id</code> || <translate>Id of the wish list the dragon offers (the <code>dragon</code> value in <code>wishes.json</code> and the filename of a per-world override).</translate>
+|-
+| <code>wish_count</code> || <translate>How many wishes are granted per summon.</translate>
+|-
+| <code>asset_definition</code> || <translate>Optional id of an <code>assets/dragon.json</code> entry (<code>id</code>, <code>renderer_type</code>, <code>model</code>, <code>texture</code>, <code>animation</code>).</translate>
+|}
+
+<translate>
+=== Ball set definition ===
+</translate>
+<translate>
+<code>definitions/ballset.json</code> takes these keys: <code>id</code>, <code>dimensions</code>, <code>copies</code> (default <code>5</code>), <code>spawn_range</code>, <code>summon_radius</code> (how close the other balls must be to the one you right-click), <code>blocks</code> (star number to block registry name), <code>asset_definition</code>, <code>display_name</code> and <code>natural_spawn</code> (optional, default <code>true</code>).
+</translate>
+<translate>
+* A set is complete when '''every star listed in <code>blocks</code>''' is placed within <code>summon_radius</code>, so a set doesn't have to have seven balls.
+* With <code>"natural_spawn": false</code>, the set's balls are never scattered around the world (not at world start, not after a wish, not by <code>/dmzdragonballs</code>): they only exist if you hand them out yourself, for example as quest or world boss rewards.
+</translate>
+
+<translate>
+=== Radar definition ===
+</translate>
+<translate>
+<code>definitions/radar.json</code> takes these keys: <code>id</code>, <code>item_registry_name</code>, <code>dimensions</code>, <code>ball_set</code>, <code>tooltip_key</code>, <code>ranges</code>, <code>recipe_definition</code>, <code>chip_item</code>, <code>cpu_item</code>, <code>chip_model_item</code>, <code>cpu_model_item</code>, <code>asset_definition</code> and <code>display_name</code>. A radar with <code>chip_item</code> and <code>cpu_item</code> and no <code>recipe_definition</code> gets a crafting recipe from those two items. See [[Special:MyLanguage/Dragon Radar|Dragon Radar]] for the built-in radar.
+</translate>
+
+<translate>
+=== Pack wish list ===
+</translate>
+<translate>
+<code>definitions/wishes.json</code> uses a wrapper object. This is the add-on pack format, different from the per-world array format above:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "dragon": "my_dragon",
+  "wishes": [
+    { "type": "tps", "name": "wish.my_dragon.tps.name", "description": "wish.my_dragon.tps.desc", "amount": 5000 }
+  ]
+}
+</syntaxhighlight>
+
+<translate>
+Every key in these files is checked against the lists above, and unknown keys are reported in the JSON load report.
+</translate>
+
+<translate>
+Source: <code>DragonBallPackManager.java</code>, <code>DragonDefinition.java</code>, <code>DragonBallSetDefinition.java</code>, <code>DragonRadarDefinition.java</code>, <code>DragonWishRegistry.java</code>.
+</translate>
+
+<translate>
+== Translation keys ==
+</translate>
+<translate>
+The convention is <code>wish.<dragon_id>.<wish_key>.name</code> / <code>wish.<dragon_id>.<wish_key>.desc</code>, for example <code>wish.shenron.senzu.name</code>. Add these keys to your <code>en_us.json</code> or to your own language file. Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+<translate>
+# Save your wish override files under <code><world save>/dragonminez/wishes/</code>, or your add-on pack under <code><game dir>/dragonballs/</code>.
+# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
+# For per-world overrides, run <code>/dmzreload wishes</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]. Wish lists inside add-on packs are read again by the vanilla <code>/reload</code>; run <code>/dmzreload wishes</code> afterwards so the per-world overrides are applied on top again. New dragons, ball sets and radars need a full restart.
+# Summon the dragon in game and check that the wish list matches what you expect.
+</translate>
+
+{{Navbox Modding}}

@@ -1,0 +1,188 @@
+<translate>
+'''World bosses''' are huge, persistent enemies that sleep in fixed '''lairs''' across the worlds of DragonMineZ. Anyone can walk in and wake one, everyone nearby fights it together, and when it falls every fighter is ranked by '''contribution''' and rolls for rewards. A defeated boss comes back after an hour.
+</translate>
+
+<div class="dmz-cards">
+{{Card|Janemba|<translate>The demon of Hell, who turns into Super Janemba mid-fight.</translate>}}
+{{Card|Turles|<translate>The Saiyan under the Tree of Might, empowered by its fruit.</translate>}}
+{{Card|Metal Cooler Core|<translate>The heart of the Big Gete Star and its army of metal copies.</translate>}}
+{{Card|Tamagami Number 3|<translate>The hammer-wielding guardian of the Third Demon World.</translate>}}
+{{Card|Tamagami Number 2|<translate>The trident-wielding guardian of the Second Demon World.</translate>}}
+{{Card|Tamagami Number 1|<translate>The swordsman who guards the First Demon World.</translate>}}
+{{Card|Gomah|<translate>The Demon King, who grows stronger the longer the fight lasts.</translate>}}
+</div>
+
+<translate>
+== The bosses ==
+</translate>
+{| class="wikitable"
+! <translate>Boss</translate> !! <translate>Boss key</translate> !! <translate>World</translate> !! <translate>Lair</translate> !! <translate>Health</translate>
+|-
+| {{L|Janemba}} || <code>janemba</code> || {{L|Otherworld}} || <translate>A ring of spikes at the very bottom of Hell, about 1,000 blocks from the centre of the Otherworld.</translate> || <translate>6,720,000 (Super Janemba: 7,350,000)</translate>
+|-
+| {{L|Turles}} || <code>turles</code> || {{L|Earth}} || <translate>The clearing under the Tree of Might (swamps, at least 1,000 blocks from 0, 0).</translate> || 72,000
+|-
+| {{L|Metal Cooler Core}} || <code>metal_cooler_core</code> || {{L|Namek}} || <translate>The inner chamber of the Big Gete Star.</translate> || 468,000
+|-
+| {{L|Tamagami Number 3}} || <code>tamagami_3</code> || {{L|Demon Realm}} || <translate>A stone platform on the Third Demon World.</translate> || 2,340,000
+|-
+| {{L|Tamagami Number 2}} || <code>tamagami_2</code> || {{L|Demon Realm}} || <translate>A stone platform on the Second Demon World.</translate> || 9,465,000
+|-
+| {{L|Tamagami Number 1}} || <code>tamagami_1</code> || {{L|Demon Realm}} || <translate>A stone platform on the First Demon World.</translate> || 12,750,000
+|-
+| {{L|Gomah}} || <code>gomah</code> || {{L|Demon Realm}} || <translate>His throne on Gomah's Horn Cradle, a floating island high above the First Demon World, around X −1112, Z −1144.</translate> || 18,969,000
+|}
+
+<translate>
+== Lairs, waking and respawning ==
+
+* Each lair's position is chosen once per world. The lair is prepared and the boss spawns when a player comes within '''128 blocks''' of it. [[Special:MyLanguage/Turles|Turles]] waits until the [[Special:MyLanguage/Tree of Might|Tree of Might]] has been generated, the Tamagami lairs are searched for while players are in the [[Special:MyLanguage/Demon Realm|Demon Realm]], and [[Special:MyLanguage/Gomah|Gomah]] needs his Horn Cradle to have generated.
+* A sleeping boss '''wakes up''' when a survival or adventure player comes within '''32 blocks''' of its lair. The Metal Cooler Core only wakes for players inside its chamber, and a Tamagami or Gomah also wakes when you hit it. The boss then shows a boss bar to everyone within 64 blocks.
+* If nobody is left fighting (no participant within range of the lair or the boss), the boss '''goes back to sleep''' at full health. A sleeping boss that has been pushed away from its lair is sent back to it.
+* After a boss is defeated, it '''respawns after 1 hour''' of game time.
+* Lairs '''repair themselves''' outside a fight. When a player comes near a lair whose floor has been destroyed, the Janemba and Tamagami arenas are rebuilt, and the Tree of Might, the Big Gete Star and Gomah's Horn Cradle are restored in the chunks that are loaded. A boss that is due to respawn waits up to a minute for the repair first.
+</translate>
+
+<translate>
+=== Finding a lair ===
+
+You don't need commands to reach the bosses:
+* The '''Hell Ogre''' next to [[Special:MyLanguage/King Yemma|King Yemma]] tells you where [[Special:MyLanguage/Janemba|Janemba]] sleeps (see [[Special:MyLanguage/Hell Ogre|Hell Ogre]]).
+* [[Special:MyLanguage/Namekian Trader|Namekian Traders]] sell a map to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], the lair of the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]].
+* The [[Special:MyLanguage/Time Patroller|Time Patroller]] in the demon villages sells maps to the three Tamagami lairs and to Gomah's Horn Cradle.
+
+Operators can use <code>/dmzworldboss locate</code> to see every lair and whether its boss is alive, respawning or waiting to spawn (see the commands below). If a lair's structure hasn't generated yet, <code>locate</code> and <code>tp</code> tell you which dimension and biomes to explore to generate it.
+</translate>
+
+<translate>
+== Fighting ==
+
+=== Participants ===
+
+Every player with a character within '''150 blocks''' of the boss joins the fight. Joining puts the hidden '''Revive''' technique in your technique slot '''4'''; whatever was there comes back when the fight ends or you leave the dimension.
+
+While you take part in the fight the '''World Boss Theme''' plays. It stops when you leave the area, and a victory tune plays when the boss falls.
+
+=== Truce ===
+
+The fighters of a world boss are on the same side. Once you have contribution points in the fight or have been knocked out in it, you can't hurt any other fighter in the same situation, even with party PvP on or outside any party, and your beams don't [[Special:MyLanguage/Beam Clash|clash]] with theirs. The truce lasts until '''15 seconds''' after the fight ends.
+</translate>
+
+{{Config|General Server Config|worldBoss}}
+
+<translate>
+=== How bosses fight ===
+
+World bosses fight on the '''Expert''' AI tier: everything the Elite tier does, with the fastest reactions and near-perfect dodging and aim (see [[Special:MyLanguage/Sagas|Sagas]] for the AI tiers). World bosses that can '''Zanzoken''' (teleport out of the way) can do it on any player hit while it's off cooldown.
+
+Their big moves are marked on the ground before they land: red circles and lanes show where a hit will fall. Each boss page lists its moves and phases.
+</translate>
+
+<translate>
+=== Knockouts instead of death ===
+
+During a world boss fight, a lethal hit '''knocks you down''' instead of killing you: you drop to the ground, glow, and see a desaturated screen with the number of revives you have left. You stay down until an ally revives you.
+
+* Each player has '''3 lives''' per fight. A life is only used when you're revived; with no lives left you can no longer be revived.
+* If '''every''' participant is knocked out at the same time, the fight is lost: the downed players die and the boss goes back to sleep.
+* If the fight ends any other way without a kill (the boss resets, an operator resets it…), downed players get back up and keep their lives.
+</translate>
+
+<translate>
+=== Reviving allies ===
+
+Press the Revive technique's key while looking at (or locked on to) a downed ally within '''6 blocks'''. Hold still for '''15 seconds''': moving more than a block, being stunned, or taking damage that adds up to '''10%''' of your max health during the cast cancels it and puts Revive on a 15-second cooldown. Several players can revive the same ally at once to get them up faster. If every cast on an ally stops, the progress already made isn't lost at once: it fades three times as fast as one reviver builds it, so a new cast soon after picks up where it left off.
+
+A successful revive restores '''25%''' of the ally's health, ki and stamina and puts Revive on a '''90-second''' cooldown for everyone who helped.
+</translate>
+
+<translate>
+== Contribution ==
+
+Your contribution is the sum of four totals, each weighted equally by default:
+</translate>
+{| class="wikitable"
+! <translate>Category</translate> !! <translate>What counts</translate>
+|-
+| <translate>'''Damage dealt'''</translate> || <translate>Damage to the boss and its minions (physical, strike, ki and other).</translate>
+|-
+| <translate>'''Damage mitigated'''</translate> || <translate>Damage blocked by your defense, by blocking, and by your ki barriers (including barriers you put on allies).</translate>
+|-
+| <translate>'''Damage received'''</translate> || <translate>Damage you took from the boss and its minions.</translate>
+|-
+| <translate>'''Healing done'''</translate> || <translate>Healing on yourself and on allies. Food, Senzu Beans and the revive restore don't count.</translate>
+|}
+
+<translate>
+Your '''share''' is your points divided by everyone's points. During the fight, the '''boss contribution''' panel on your HUD shows up to 8 fighters (always including you), alternating between share and points, with bars tinted in each player's aura colour. When the boss falls the panel stays on screen for 15 seconds. You can move it with the [[Special:MyLanguage/HUD|HUD]] editor.
+</translate>
+
+<translate>
+== Rewards ==
+
+When the boss is defeated, everyone in range sees a victory title with their placement and share. Every contributor then rolls each reward of that boss:
+
+* A reward with a 100% chance is '''guaranteed''', and its amount (TP, item count) scales with your points: the top contributor gets the full amount, and everyone else at least '''50%''' of it.
+* Other rewards are rolled with their chance, boosted by your rank: '''MVP +25%''', '''2nd +15%''', '''3rd +10%'''.
+* A reward that teaches a predefined technique also unlocks it.
+</translate>
+{| class="wikitable"
+! <translate>Boss</translate> !! <translate>Default rewards</translate>
+|-
+| {{L|Janemba}} || <translate>1,350,000 TP, Dimension Sword (50%), Dimensional Warp technique (20%)</translate>
+|-
+| {{L|Turles}} || <translate>50,000 TP, Fruit of the Tree of Might (50%), Kill Driver technique (25%), Meteor Burst technique (15%)</translate>
+|-
+| {{L|Metal Cooler Core}} || <translate>750,000 TP, 4 Gete Ingots, Supernova (Cooler) technique (20%), each of the six Gete capsules (12% each)</translate>
+|-
+| {{L|Tamagami Number 3}} || <translate>1,500,000 TP, Tamagami Hammer (30%)</translate>
+|-
+| {{L|Tamagami Number 2}} || <translate>2,000,000 TP, Tamagami Trident (30%)</translate>
+|-
+| {{L|Tamagami Number 1}} || <translate>2,700,000 TP, Tamagami Sword (30%)</translate>
+|-
+| {{L|Gomah}} || <translate>3,500,000 TP, Demon Eye (2%)</translate>
+|}
+
+<translate>
+Each Tamagami also drops its own '''Demon Realm Dragon Ball''' on its platform when defeated: Tamagami Number 3 the 3-star ball, Number 2 the 2-star and Number 1 the 1-star. The three balls summon [[Special:MyLanguage/Porunga|Porunga]] in the Demon Realm.
+</translate>
+
+<translate>
+=== Results screen ===
+
+Each contributor gets a chat summary of what they received with a '''[More info]''' link. It opens the '''results screen''', also available with <code>/dmzworldboss results</code> for 30 minutes after the fight. It shows rank badges, a four-colour contribution bar per player (red for damage, blue for mitigated, orange for received, green for healed; hover for the breakdown), and each player's chances and received rewards. Click a player to see theirs.
+</translate>
+
+<translate>
+== Commands ==
+</translate>
+{| class="wikitable"
+! <translate>Command</translate> !! <translate>Permission</translate> !! <translate>What it does</translate>
+|-
+| {{Command|/dmzworldboss results}} || <translate>Everyone</translate> || <translate>Opens the results screen of your last world boss fight (kept for 30 minutes).</translate>
+|-
+| {{Command|/dmzworldboss locate [boss]}} || <translate>Level 2</translate> || <translate>Without a boss: lists every lair with clickable coordinates, distance and status (alive, respawning in…, waiting to spawn). With a boss key: just that one.</translate>
+|-
+| {{Command|/dmzworldboss tp [boss]}} || <translate>Level 2</translate> || <translate>Teleports you to a lair.</translate>
+|-
+| {{Command|/dmzworldboss reset [boss]}} || <translate>Level 2</translate> || <translate>Ends the fight, removes the boss and clears its lair state and respawn timer, so the lair is set up again and the boss respawns. The Tree of Might, the Big Gete Star and Gomah's Horn Cradle are also restored (over a few seconds) in the chunks that are loaded: stand next to a big lair and run it again to restore the rest. The Janemba and Tamagami arenas are rebuilt when a player gets close. A boss that isn't loaded is removed as soon as its chunk loads.</translate>
+|-
+| {{Command|/dmzworldboss ready [boss]}} || <translate>Level 2</translate> || <translate>Clears the respawn timer so the boss can spawn (or wake) right away.</translate>
+|}
+
+<translate>
+Without a boss, <code>tp</code>, <code>reset</code> and <code>ready</code> use the '''nearest lair in the dimension you're in''' (<code>janemba</code> if this dimension has none). The boss keys are <code>janemba</code>, <code>turles</code>, <code>metal_cooler_core</code>, <code>tamagami_3</code>, <code>tamagami_2</code>, <code>tamagami_1</code> and <code>gomah</code>.
+</translate>
+
+{{See also|Commands|Permissions}}
+
+<translate>
+== Configuration ==
+
+Server owners can tune the fights in the <code>worldBoss</code> section of <code>general-server.json</code>: the contribution range and category weights, the number of lives, the revive slot, cast time, range, cooldowns and restore amount, the damage that interrupts a revive and how fast unfinished revive progress fades, how long the truce lasts after a fight, the rank chance bonuses, the guaranteed reward minimum and minimum share, and each boss's reward list. A boss missing from the reward list uses its default rewards, and an empty list disables its drops.
+</translate>
+
+{{Config|General Server Config|worldBoss}}
+
+{{Navbox Challenges}}

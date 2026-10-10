@@ -1,0 +1,11 @@
+[Unit]
+Description=DragonMineZ wiki backup
+Wants=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/dragonminez-wiki
+ExecStart=/opt/dragonminez-wiki/scripts/backup.sh
+Nice=10
+IOSchedulingClass=idle

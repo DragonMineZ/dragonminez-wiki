@@ -1,0 +1,37 @@
+{{Infobox Mob
+|Type=<translate>Passive animal</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate>Beaches, on sand no higher than 4 blocks above sea level</translate>
+|Behavior=<translate>Wanders and swims; panics when hurt</translate>
+|Health=40
+|Drops=<translate>1 Raw Giant Turtle, 1–2 Turtle Scales</translate>
+}}
+<translate>
+The '''Giant Turtle''' is a harmless beach dweller of [[Special:MyLanguage/Earth|Earth]]. It never attacks, and it is the main source of '''Turtle Scales'''.
+</translate>
+
+<translate>
+== Spawning ==
+
+Giant Turtles spawn on beaches, on sand no higher than 4 blocks above sea level (spawn weight 8, groups of 1–2). They come in three shell variants.
+</translate>
+
+<translate>
+== Behavior ==
+
+The Giant Turtle is passive: it wanders and swims, and panics when hurt.
+</translate>
+
+<translate>
+== Drops ==
+
+* 1 '''Raw Giant Turtle''' (cooks if on fire, +0–1 Looting)
+* 1–2 '''Turtle Scale''' (+0–1 Looting)
+
+Turtle Scales can also be crafted from a vanilla Scute. They are used for the '''Katchin Sprout''' and the yellow [[Special:MyLanguage/Capsules|capsule]] (see [[Special:MyLanguage/Items|Items]]).
+</translate>
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:giant_turtle</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Wildlife{{#translation:}}]]

@@ -1,0 +1,87 @@
+<translate>
+'''Fusions''' let two players merge into a single, much stronger character for a limited time. There are three ways to fuse, and they work differently: the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] (Metamoru), the [[Special:MyLanguage/Potara Earrings|Potara Earrings]] (Pothala) and the [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]]. In every case one player becomes the '''leader''' who controls the fused body while the other rides along, and the fusion grants big bonus stats for its whole duration.
+</translate>
+
+<div class="dmz-cards">
+{{Card|Fusion Dance|<translate>The classic dance. Free, but both players must share race, form and power level.</translate>}}
+{{Card|Potara Earrings|<translate>A Porunga wish. Any races, the strongest bonus, and the earrings break afterwards.</translate>}}
+{{Card|Medi-Bug Beetles|<translate>A pair of beetles from the Demon Realm. Any races, no dragon needed.</translate>}}
+</div>
+
+<translate>
+== How fusions work ==
+</translate>
+{{Config|General Server Config|fusionDurationSeconds / fusionCooldownSeconds / fusionBoosts}}
+<translate>
+* Two players fuse into one character. The '''leader''' controls the fused body; the partner rides along as a passenger.
+* The fusion grants bonus '''STR''', '''SKP''' and '''PWR''' based on the partner's stats, with a multiplier that depends on the method.
+* A fusion lasts '''15 minutes''' by default (the Fusion Dance can be shorter, depending on the Fusion skill level).
+* It ends early on death or disconnect.
+* The '''Fusion cooldown''' is '''30 minutes''' by default.
+
+Durations, cooldown and the boosted stats are server settings.
+</translate>
+
+<translate>
+== While fused ==
+
+The fused character is the '''leader's''' body with both fighters' power:
+
+* '''Race, class and stats''' stay the leader's, plus the fusion bonus.
+* '''Skills''' use the higher level of the two players, and '''techniques''' from both are available (except the partner's revive technique). Mastery and technique experience earned while fused are kept when you split.
+* '''Transformations:''' form masteries are combined (the higher of the two). When the two players are different races, the leader can also use the '''partner's race forms''' at the partner's skill levels and mastery; for example, a Frost Demon fused with a Saiyan can go Super Saiyan. Android forms are never shared, and a Mutant partner only lends its own race's legendary forms.
+* '''Appearance:''' body, hair and aura colours are blended 50/50, and one eye takes the partner's eye colour. If both players have hair, the hairstyles are merged into a two-tone fused hairstyle. Racial traits the leader lacks (a Saiyan tail, ears, antennae, horns, wings…) are borrowed from the partner. Partner-race forms keep their model but use the leader's skin and face, while the extra parts of that model (horns, wings, tails…) keep the partner race's own texture.
+* '''Name:''' the fused character's name combines half of each player's name.
+* '''TP:''' the partner receives half of the Training Points the leader earns.
+* You '''can't''' buy or upgrade skills, create, import or delete techniques, or take Dr. Gero's android upgrade while fused.
+
+The partner is kept with the leader: if they drift more than 5 blocks away or end up in another dimension, they are pulled back.
+</translate>
+
+<translate>
+== Ending a fusion ==
+
+A fusion ends when its '''timer''' runs out, or early if either player '''dies''', '''disconnects''' or '''changes game mode'''. Both players split back apart and their original appearance is restored; any form the leader doesn't own is reverted.
+
+The '''Fusion cooldown''' only blocks the Fusion Dance. A Fusion Dance puts both players on cooldown; a Potara or Medi-Bug Beetle fusion puts the leader on cooldown when its timer runs out.
+</translate>
+
+<translate>
+== Comparison ==
+</translate>
+{| class="wikitable"
+! !! {{L|Fusion Dance}} !! {{L|Potara Earrings}} !! {{L|Medi-Bug Beetles}}
+|-
+! <translate>Needs</translate>
+| <translate>The Fusion skill on both players</translate> || <translate>A pair of Potara earrings (Porunga wish)</translate> || <translate>A pair of beetles (Demon Realm traders, Medi-Bug Market sidequest)</translate>
+|-
+! <translate>Same race required?</translate>
+| <translate>Yes, and the same form</translate> || <translate>No</translate> || <translate>No</translate>
+|-
+! <translate>Stat gap limit</translate>
+| <translate>Yes (50% by default)</translate> || <translate>No</translate> || <translate>No</translate>
+|-
+! <translate>Upgraded Androids</translate>
+| <translate>Can't fuse</translate> || <translate>Can fuse</translate> || <translate>Can fuse</translate>
+|-
+! <translate>How to start</translate>
+| <translate>Both select Fusion in the Utility Menu and hold {{Key|G}} close together</translate> || <translate>Both wear matching earrings and get near each other</translate> || <translate>Both eat matching beetles within 30 seconds and 20 blocks of each other</translate>
+|-
+! <translate>Leader</translate>
+| <translate>The player who fills the charge first</translate> || <translate>The player wearing the right earring</translate> || <translate>The player who ate first</translate>
+|-
+! <translate>Stat multiplier</translate>
+| ×1.25 → ×2.0 || ×1.75 → ×2.5 || ×1.25 → ×2.0
+|-
+! <translate>Duration</translate>
+| <translate>Scales with the Fusion skill level</translate> || <translate>Full duration</translate> || <translate>Full duration</translate>
+|-
+! <translate>After it ends</translate>
+| <translate>Both players get a Fusion cooldown</translate> || <translate>The earrings break</translate> || <translate>The beetles are consumed</translate>
+|}
+
+<translate>
+All fusions end early if either player dies or logs out.
+</translate>
+
+{{Navbox Abilities}}

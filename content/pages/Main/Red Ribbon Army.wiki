@@ -1,0 +1,60 @@
+{{Infobox Mob
+|Type=<translate>Hostile, wild enemy</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate>Biomes with savanna, plains or snowy villages, and inside the Red Ribbon Tower</translate>
+|Behavior=<translate>Attacks players and villagers on sight</translate>
+|Damage=<translate>5 (soldier), 15 (robots)</translate>
+|Drops=<translate>Redstone, Iron Nuggets, Iron Ingots</translate>
+}}
+<translate>
+The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike.
+</translate>
+
+<translate>
+== Red Ribbon's Soldier ==
+</translate>
+{| class="wikitable"
+! <translate>Health</translate> !! <translate>Damage</translate> !! <translate>Where it spawns</translate>
+|-
+| 40 || 5 || <translate>Biomes with savanna, plains or snowy villages (weight 30, groups of 1–3), and inside the Red Ribbon Tower (weight 100, groups of 2–4)</translate>
+|}
+
+<translate>
+'''Drops:'''
+* 1–3 '''Redstone''' (+0–1 Looting)
+* 1–3 '''Iron Nugget''' (+0–1 Looting)
+</translate>
+
+<translate>
+== Red Ribbon robots ==
+
+Three robot models share the same stats, drops and spawn conditions; they only differ in model and spawn rate.
+</translate>
+{| class="wikitable"
+! <translate>Health</translate> !! <translate>Damage</translate> !! <translate>Where they spawn</translate>
+|-
+| 120 || 15 || <translate>Biomes with savanna, plains or snowy villages (first model weight 5, second and third weight 10, always alone), and inside the Red Ribbon Tower (weights 43, 42 and 41, groups of 1–2)</translate>
+|}
+
+<translate>
+'''Drops (each model):'''
+* 1–2 '''Iron Ingot''' (+0–1 Looting)
+* 1–2 '''Redstone''' (+0–1 Looting)
+</translate>
+
+<translate>
+== Spawning ==
+
+Soldiers and robots are '''wild enemies''': out in the open they spawn under open sky, day or night, away from torches and other light. The [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a Red Ribbon outpost found in most land biomes, also spawns them indoors in dim spots (block light 7 or less), and vanilla monsters don't spawn in it. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]] and [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== In the story ==
+
+The [[Special:MyLanguage/Classic Saga|Classic Saga]] pits you against the army's officers: Colonel Silver in '''The Red Ribbon Army''', then General Red in '''Red Ribbon Headquarters''' and General Black's Robot in '''Officer Black's Battle Robot''', both at the Red Ribbon Tower.
+</translate>
+
+{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:red_ribbon_soldier</code>, <code>dragonminez:robot1</code>, <code>dragonminez:robot2</code>, <code>dragonminez:robot3</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]

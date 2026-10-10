@@ -1,0 +1,161 @@
+.dmz-rail-card {
+	padding: 6px;
+}
+
+.dmz-rail-card__title {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0;
+	padding: 8px 10px 8px;
+	border: 0;
+	color: var( --foreground );
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+
+	.material-symbols-rounded {
+		color: var( --link );
+		font-size: 19px;
+	}
+}
+
+.dmz-rail-card__list {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+}
+
+.dmz-rail-card__link {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	padding: 6px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: background-color 0.15s ease;
+
+	&:hover {
+		background: var( --glass );
+
+		.dmz-rail-card__text {
+			color: var( --link );
+		}
+	}
+}
+
+.dmz-rail-card__text {
+	color: var( --fg-80 );
+	font-size: 13.5px;
+	line-height: 19px;
+	font-weight: 600;
+	transition: color 0.15s ease;
+}
+
+.dmz-rail-card__meta {
+	color: var( --muted );
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.dmz-rail-version {
+	padding: 16px;
+	overflow: hidden;
+	background:
+		radial-gradient( 120% 90% at 100% 0%, rgba( 249, 115, 22, 0.16 ), transparent 60% ),
+		var( --surface );
+}
+
+.dmz-rail-version__label {
+	margin: 0;
+	color: var( --muted );
+	font-size: 12.5px;
+	font-weight: 600;
+}
+
+.dmz-rail-version__number {
+	margin: 2px 0 14px;
+	color: var( --foreground );
+	font-size: 22px;
+	line-height: 1.1;
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: -0.035em;
+}
+
+.dmz-rail-version__actions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	.dmz-pill--primary {
+		flex: 1 1 auto;
+		min-width: 0;
+		padding: 0 14px;
+		white-space: nowrap;
+	}
+}
+
+.dmz-pill {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	height: 36px;
+	padding: 0 16px;
+	box-sizing: border-box;
+	border: 1px solid var( --glass );
+	border-radius: 9999px;
+	background: var( --surface-elevated );
+	color: var( --foreground );
+	font-size: 13.5px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+
+	&:visited {
+		color: var( --foreground );
+	}
+
+	.material-symbols-rounded {
+		font-size: 18px;
+	}
+
+	&:hover {
+		border-color: var( --glass-strong );
+		transform: scale( 1.04 );
+	}
+
+	&:active {
+		transform: scale( 0.96 );
+	}
+
+	&--primary,
+	&--primary:visited {
+		border-color: var( --foreground );
+		background: var( --foreground );
+		color: var( --background );
+		box-shadow: var( --shadow-glow );
+	}
+
+	&--icon {
+		width: 36px;
+		padding: 0;
+		font-size: 18px;
+
+		svg {
+			width: 1em;
+			height: 1em;
+		}
+	}
+}

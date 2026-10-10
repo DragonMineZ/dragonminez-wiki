@@ -1,0 +1,16 @@
+{{Navbox
+|title={{#invoke:Labels|get|Races}}
+|link=Races
+|group1={{#invoke:Labels|get|Playable races}}
+|list1={{L|Human}}{{·}}{{L|Saiyan}}{{·}}{{L|Namekian}}{{·}}{{L|Frost Demon}}{{·}}{{L|Bio-Android}}{{·}}{{L|Majin}}{{·}}{{L|Glind}}
+|group2={{#invoke:Labels|get|Sub-races}}
+|list2={{L|Android}}
+|group3={{#invoke:Labels|get|Mechanics}}
+|list3={{L|Racial Skills}}{{·}}{{L|Transformations}}{{·}}{{L|Super Saiyan God Ritual}}
+|group4={{#invoke:Labels|get|Stack forms}}
+|list4={{L|Kaioken}}{{·}}{{L|Ultimate}}
+|group5={{#invoke:Labels|get|Related}}
+|list5={{L|Classes}}{{·}}{{L|Character Customization}}{{·}}{{L|Training Points and Mastery}}{{·}}{{L|Fusions}}{{·}}{{L|Custom Races}}{{·}}{{L|Custom Forms}}
+}}<noinclude>
+Navigation box for the races, the Android sub-race, racial skills, transformations and stack forms. Add <code><nowiki>{{Navbox Races}}</nowiki></code> at the bottom of each of those pages.
+</noinclude>

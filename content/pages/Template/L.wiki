@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:Labels|link|{{{1}}}|{{{2|}}}}}</includeonly><noinclude>Link to a wiki page in the reader's language, using the translated page name from [[Module:Labels/data]] when there is one.
+
+<pre>{{L|Saiyan}}  {{L|Namek|the planet Namek}}</pre>
+</noinclude>

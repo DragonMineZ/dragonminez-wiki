@@ -1,0 +1,124 @@
+<translate>
+DragonMineZ adds its own '''status effects'''. Some are gameplay effects you will notice: combat control, buffs, food and plant boosts, the [[Special:MyLanguage/Majin Mark|Majin Mark]] and the Mutant. The rest are '''internal markers''' the mod uses to track transformations, charging, dashes and cooldowns.
+</translate>
+
+<translate>
+== Commands ==
+
+Admins can give or remove DMZ's three long-term character effects, [[Special:MyLanguage/Fruit of the Tree of Might|Might Fruit]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Mutant|Mutant]], with <code>/dmzeffect</code> (<code>-1</code> means permanent):
+
+* <code>/dmzeffect give &lt;mightfruit, majin or mutant&gt; &lt;seconds or -1&gt; [targets]</code>
+* <code>/dmzeffect remove &lt;effect&gt; [targets]</code>
+* <code>/dmzeffect clear [targets]</code>
+
+Besides the effects, <code>/dmzeffect clear</code> also removes the God Ritual cooldown and the Ki Transfer effects.
+
+The other effects work with the vanilla <code>/effect</code> command, using their id with the <code>dragonminez:</code> prefix. See [[Special:MyLanguage/Commands|Commands]].
+</translate>
+
+<translate>
+== Combat control ==
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| <translate>Stunned</translate> || <code>stun</code> || <translate>You can't move or act. Applied when your '''guard is broken''' (3 seconds by default), to the loser of a beam clash, and by some techniques (for example the Bio-Android's Vital Drain).</translate>
+|-
+| <translate>Staggered</translate> || <code>stagger</code> || <translate>−25% movement and attack speed. Applied for 3 seconds to an attacker whose hit you '''parry'''.</translate>
+|-
+| <translate>Ki Slow</translate> || <code>ki_slow</code> || <translate>−90% movement speed for a moment (1.5 seconds) after being hit by a ki attack (not by small ki blasts).</translate>
+|-
+| <translate>Candy</translate> || <code>candy</code> || <translate>Majin Buu's candy beam: the target is turned into candy and left helpless.</translate>
+|}
+
+<translate>
+== Buffs ==
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| <translate>Might Fruit</translate> || <code>mightfruit</code> || <translate>The power boost from eating a [[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]] (×1.2 by default, for 1 minute).</translate>
+|-
+| <translate>TP Multiplier</translate> || <code>tp_gain</code> || <translate>Boosts your '''Training Point''' gain (+25% per level; see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]]).</translate>
+|-
+| <translate>Mastery Multiplier</translate> || <code>mastery_gain</code> || <translate>Boosts your '''form mastery''' gain (+25% per level). Also given by the Medi-Bug (Worm) (see [[Special:MyLanguage/Medi-Bugs|Medi-Bugs]]).</translate>
+|-
+| <translate>Ki Regeneration</translate> || <code>ki_regen</code> || <translate>Boosts ki regeneration (+25% per level).</translate>
+|-
+| <translate>Stamina Regeneration</translate> || <code>stamina_regen</code> || <translate>Boosts stamina regeneration (+25% per level).</translate>
+|-
+| <translate>Medi-Bug Shell</translate> || <code>medi_shell</code> || <translate>From eating a Medi-Bug (Rhino): you take '''30% less damage''' for 45 seconds.</translate>
+|-
+| <translate>Kami's Blessing</translate> || <code>kami_bless</code> || <translate>Given by [[Special:MyLanguage/Dende|Dende]] to good-aligned players: '''×1.2 TP gain''' for 5 minutes, with a 30-minute cooldown. It also lets you sense [[Special:MyLanguage/Glind|Glind]] players.</translate>
+|-
+| <translate>Hero of the World</translate> || <code>world_hero</code> || <translate>Given to every participant who survives a won '''raid''': '''+25% TP gain''' for 10 minutes (see [[Special:MyLanguage/Raids|Raids]]).</translate>
+|-
+| <translate>Adrenaline</translate> || <code>adrenaline</code> || <translate>Shown while a Human's '''Adrenaline''' is active (see [[Special:MyLanguage/Human|Human]]).</translate>
+|}
+{{Config|General Server Config}}
+
+<translate>
+== Plant buffs ==
+
+Eating the farming plants gives a short boost (see [[Special:MyLanguage/Farming|Farming]]). A plant's buff can't be stacked.
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| <translate>Oozaru Root</translate> || <code>oozaru_root</code> || <translate>'''+15 STR''' for 15 seconds.</translate>
+|-
+| <translate>Katchin Sprout</translate> || <code>katchin_sprout</code> || <translate>'''+15 RES''' for 15 seconds.</translate>
+|-
+| <translate>Meteor Flower</translate> || <code>meteor_flower</code> || <translate>'''+15 SKP''' for 15 seconds.</translate>
+|-
+| <translate>Aura Lily</translate> || <code>aura_lily</code> || <translate>'''+15 PWR''' for 15 seconds.</translate>
+|-
+| <translate>Hermit's Fern</translate> || <code>hermit_fern</code> || <translate>'''+15 VIT''' for 15 seconds.</translate>
+|-
+| <translate>Ki Regeneration (Kaioshin Fruit)</translate> || <code>kaioshin_fruit</code> || <translate>Restores '''10% of your max ki every second''' for 5 seconds.</translate>
+|}
+
+<translate>
+== Raids ==
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| <translate>Emperor's Wrath</translate> || <code>raid_wrath</code> || <translate>The omen you get after killing a raid scout: when it runs out, a '''raid''' starts around you. Removing it (for example with milk) cancels the omen. See [[Special:MyLanguage/Raids|Raids]].</translate>
+|}
+
+<translate>
+== Ki Transfer and the God Ritual ==
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| <translate>Shared Ki</translate> || <code>ki_transfer_boost</code> || <translate>Other players are giving you Ki with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: '''+5%''' STR, SKP, DEF and PWR per giver (up to +25%). Its level is the number of givers, and it lingers for a while after they stop.</translate>
+|-
+| <translate>Ki Exhaustion</translate> || <code>ki_transfer_drain</code> || <translate>You have been giving Ki with Ki Transfer: '''−5%''' STR, SKP, DEF and PWR for every 3 seconds of giving (up to −25%). It lasts while you give, then 5 seconds for every 3 seconds you gave.</translate>
+|-
+| <translate>God Ritual CD</translate> || <code>god_ritual_cd</code> || <translate>You can't take part in the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: 30 minutes after a successful ritual (for the receiver, after Super Saiyan God ends), or 30 seconds after an interrupted one.</translate>
+|}
+
+<translate>
+== Character effects ==
+
+These two effects change your character for a long time and have their own pages.
+</translate>
+{| class="wikitable"
+! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
+|-
+| {{L|Majin Mark}} || <code>majin</code> || <translate>Babidi's mark: a '''permanent power boost''' (×1.3 by default) that also puts the Majin "M" on your character.</translate>
+|-
+| {{L|Mutant}} || <code>mutant</code> || <translate>Marks you as one of the server's rare '''Mutants''', with faster TP and mastery gain and a '''rage meter''' that powers up the Legendary forms.</translate>
+|}
+
+<translate>
+== Internal markers ==
+
+The mod uses these to track state and cooldowns; you normally won't interact with them directly:
+
+<code>transform</code>, <code>transformed</code>, <code>stack_transform</code>, <code>stack_transformed</code>, <code>kicharge</code>, <code>fly</code>, <code>fused</code>, <code>fusion_cd</code>, <code>saiyan_passive</code> (Zenkai cooldown), <code>bioandroid_passive</code> (Vital Drain cooldown), <code>bioandroid_explode_cd</code> (Self-Destruct cooldown), <code>majin_revive</code> (Revive cooldown), <code>dash_cd</code>, <code>doubledash_cd</code>, <code>teleport_cd</code>, <code>ki_blast_cd</code>, <code>poise_cd</code>.
+</translate>
+
+{{Navbox Items}}

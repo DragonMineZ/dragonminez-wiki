@@ -1,0 +1,28 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-class
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Stat scaling
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Passive, Playstyle, Recommended races
+|General_label={{#invoke:Labels|get|General}}
+|Passive_label={{#invoke:Labels|get|Passive}}
+|Playstyle_label={{#invoke:Labels|get|Playstyle}}
+|Recommended races_label={{#invoke:Labels|get|Recommended races}}
+
+|Stat scaling=Strength, Strike Power, Resistance, Vitality, Ki Power, Energy
+|Stat scaling_label={{#invoke:Labels|get|Stat scaling}}
+|Strength_label={{#invoke:Labels|get|Strength}}
+|Strike Power_label={{#invoke:Labels|get|Strike Power}}
+|Resistance_label={{#invoke:Labels|get|Resistance}}
+|Vitality_label={{#invoke:Labels|get|Vitality}}
+|Ki Power_label={{#invoke:Labels|get|Ki Power}}
+|Energy_label={{#invoke:Labels|get|Energy}}
+}}[[Category:Classes{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

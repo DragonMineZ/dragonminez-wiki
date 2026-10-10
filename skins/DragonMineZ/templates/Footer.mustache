@@ -1,0 +1,32 @@
+<footer id="footer" class="dmz-footer mw-footer" role="contentinfo"{{{html-user-language-attributes}}}>
+	<div class="dmz-footer__inner">
+		<a href="{{dmz-web-url}}" class="dmz-footer__brand">
+			<img src="{{dmz-logo-src}}" alt="DragonMineZ Logo" class="dmz-footer__logo" width="330" height="48" loading="lazy">
+		</a>
+
+		<div class="dmz-footer__info">
+			<p class="dmz-footer__rights">© {{dmz-year}} <span>{{msg-dmz-footer-rights}}</span></p>
+			<p class="dmz-footer__description">{{msg-dmz-footer-description}}</p>
+		</div>
+
+		<div class="dmz-footer__divider"></div>
+
+		<div class="dmz-footer__socials">
+			{{#array-dmz-socials}}
+			<span class="dmz-tooltip-wrapper">
+				<a href="{{url}}" target="_blank" rel="noopener noreferrer" class="dmz-footer__social" aria-label="{{label}}">{{{html-icon}}}</a>
+				<span class="dmz-tooltip" role="tooltip">{{label}}</span>
+			</span>
+			{{/array-dmz-socials}}
+		</div>
+
+		<div class="dmz-footer__wiki">
+			{{#data-last-modified}}<p class="dmz-footer__lastmod">{{{text}}}</p>{{/data-last-modified}}
+			<ul class="dmz-footer__places">
+				{{#data-footer.data-places.array-items}}<li id="{{id}}">{{{html}}}</li>{{/data-footer.data-places.array-items}}
+				{{^is-dmz-registered}}<li id="footer-places-login"><a href="{{dmz-login-url}}" rel="nofollow">{{msg-dmz-login}}</a></li>{{/is-dmz-registered}}
+			</ul>
+			{{#data-copyright}}<p class="dmz-footer__copyright">{{{html}}}</p>{{/data-copyright}}
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,97 @@
+<translate>
+DragonMineZ is configured through JSON files that server owners, singleplayer hosts and add-on authors can edit. Most of them live in the <code>config/dragonminez</code> folder of the game or server instance and are generated the first time DMZ boots; story, wish and NPC data lives inside each world save instead. The server sends its config files to every player who joins, so on a server everyone plays with the server's values.
+</translate>
+
+<translate>
+This section of the wiki documents every config file, the gamerules and permission nodes DMZ adds, and how to apply and keep your changes safely.
+</translate>
+
+<div class="dmz-cards">
+{{Card|General Server Config|<translate>Progression, TP, world generation, the story, racial skills, world bosses and storage.</translate>}}
+{{Card|General User Config|<translate>Personal client settings: HUD behavior, cameras, auras and tutorials.</translate>}}
+{{Card|Combat Config|<translate>Blocking, parrying, mitigation, Speed, Ki Surge, combat flight and ki weapons.</translate>}}
+{{Card|Skills Config|<translate>Skill costs, which master teaches what, and technique tuning.</translate>}}
+{{Card|Entities Config|<translate>Base stats of DMZ creatures and saga enemy transformations.</translate>}}
+{{Card|Gravity Config|<translate>Dimension gravity, the Gravity Device and weight training zones.</translate>}}
+{{Card|Dynamic Growth|<translate>Practice-based stat growth and its anti-farming rules.</translate>}}
+{{Card|Gamerules|<translate>Ki-griefing and building protection for terrain and arenas.</translate>}}
+{{Card|Permissions|<translate>Every command permission node and how checks resolve.</translate>}}
+{{Card|Notice to Server Owners|<translate>Backups, updates and multiplayer advice before you edit anything.</translate>}}
+{{Card|Reloading and Updating Changes|<translate>What /dmzreload covers and how DMZ updates upgrade your files.</translate>}}
+</div>
+
+<translate>
+== Where config lives ==
+</translate>
+{{See also|Locating Specific Folders}}
+<translate>
+The <code>config/dragonminez/</code> folder belongs to the instance, not to a world: every world played on that instance uses the same files. Except for the client-only files marked below, the server sends every file in this folder to joining clients.
+</translate>
+
+{| class="wikitable"
+! <translate>File</translate> !! <translate>What it holds</translate> !! <translate>Documented on</translate>
+|-
+| <code>general-server.json</code> || <translate>Server-wide gameplay settings: progression, TP, world generation, the story, racial skills, Dynamic Growth, gravity, world bosses, storage.</translate> || {{L|General Server Config}}
+|-
+| <code>general-user.json</code> || <translate>'''Client-only.''' Personal client settings, never sent by the server.</translate> || {{L|General User Config}}
+|-
+| <code>hud_layout.json</code> || <translate>'''Client-only.''' HUD style and element layout, written by the HUD editor.</translate> || {{L|HUD}}
+|-
+| <code>radial_layout.json</code> || <translate>Client-side order of the entries in the radial menus, saved when you reorder them.</translate> ||
+|-
+| <code>combat.json</code> || <translate>Combat tuning values.</translate> || {{L|Combat Config}}
+|-
+| <code>skills.json</code> || <translate>Skill costs and eligibility, and which master offers which skill.</translate> || {{L|Skills Config}}
+|-
+| <code>techniques.json</code> || <translate>Ki attack, strike and evasion technique tuning.</translate> || {{L|Skills Config}}
+|-
+| <code>training.json</code> || <translate>Training minigame tuning.</translate> || {{L|Training Points and Mastery}}
+|-
+| <code>entities.json</code> || <translate>Base stats per entity and saga transformation defaults.</translate> || {{L|Entities Config}}
+|-
+| <code>races/&lt;race&gt;/character.json</code> || <translate>Race identity and appearance defaults.</translate> || {{L|Custom Races}}
+|-
+| <code>races/&lt;race&gt;/stats.json</code> || <translate>Race base stats and scaling per class.</translate> || {{L|Custom Races}}
+|-
+| <code>races/&lt;race&gt;/forms/*.json</code> || <translate>Forms that belong only to that race.</translate> || {{L|Custom Forms}}
+|-
+| <code>forms/*.json</code> || <translate>Shared stack forms layered on top of a race's own forms.</translate> || {{L|Custom Forms}}
+|-
+| <code>raids/*.json</code> || <translate>Raid definitions.</translate> || {{L|Raids}}
+|-
+| <code>tournaments/*.json</code> || <translate>Tournament definitions.</translate> || {{L|Tournaments}}
+|-
+| <code>oldBackup/</code> || <translate>Copies of config files DMZ upgraded or regenerated, in the same relative layout (for example <code>oldBackup/races/saiyan/stats.json</code>). DMZ never reads them back.</translate> || {{L|How to JSON}}
+|}
+
+<translate>
+The default races generated in <code>races/</code> are <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> and <code>glind</code>. Any other folder under <code>races/</code> is loaded as a custom race.
+</translate>
+
+<translate>
+Gameplay rules that aren't JSON files are covered on [[Special:MyLanguage/Gamerules|Gamerules]] (ki-griefing and arena building) and [[Special:MyLanguage/Permissions|Permissions]] (who can run each command). The per-world folders (sagas, quests, side quests, wishes, dialogues, NPC placements and JSON player data) are listed on [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]].
+</translate>
+
+<translate>
+== How config reaches the clients ==
+</translate>
+{{Main|Reloading and Updating Changes}}
+<translate>
+* When a player joins, the server sends them every file under <code>config/dragonminez</code> except <code>general-user.json</code> and <code>hud_layout.json</code>. While connected, the client uses the server's values for everything those files control.
+* The server sends the files as they are on disk. After editing a file, always run <code>/dmzreload config</code>; until you do, the server keeps running the old values while players who join afterwards already receive the edited file.
+* <code>/dmzreload config</code> and <code>/dmzconfig</code> resend the files to everyone online.
+* On disconnect, the client drops the server's copy and goes back to its own local files.
+</translate>
+
+<translate>
+== Editing config safely ==
+</translate>
+{{See also|How to JSON|Notice to Server Owners}}
+<translate>
+* Keep the files valid JSON. A file with a syntax error is never overwritten: DMZ runs on that file's defaults for the session and reports the file, line and column in the log (and in chat on login).
+* Don't edit <code>configVersion</code>. DMZ uses it to upgrade the file after a mod update: the old file is moved to <code>oldBackup/</code>, new defaults are written, and the values you changed are merged back in.
+* Comments and notes inside the files are removed whenever DMZ rewrites them, so keep your notes elsewhere.
+* Take your own backup before bulk edits on a live server.
+</translate>
+
+{{Navbox Configuration}}

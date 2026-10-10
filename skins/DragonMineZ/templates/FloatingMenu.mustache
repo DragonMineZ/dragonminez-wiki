@@ -1,0 +1,38 @@
+<div class="dmz-fab" id="dmz-fab">
+	<div class="dmz-fab__options" id="dmz-fab-options">
+		<span class="dmz-tooltip-wrapper">
+			<button type="button" class="dmz-fab__button dmz-fab__button--option" id="dmz-theme-toggle" aria-label="{{msg-dmz-theme-light}}">
+				<span class="material-symbols-rounded" data-dmz-theme-icon aria-hidden="true">light_mode</span>
+			</button>
+			<span class="dmz-tooltip" role="tooltip" data-dmz-theme-tooltip>{{msg-dmz-theme-light}}</span>
+		</span>
+		<div class="dmz-fab__language">
+			<div class="dmz-fab__flags" id="dmz-fab-flags">
+				{{#array-dmz-languages-menu}}
+				<span class="dmz-tooltip-wrapper">
+					<button type="button" class="dmz-flag{{#is-reader}} is-active{{/is-reader}}" data-dmz-lang="{{code}}" aria-label="{{label}}" lang="{{code}}">
+						<img src="{{flag-src}}" alt="{{label}}" width="40" height="40" loading="lazy">
+					</button>
+					<span class="dmz-tooltip" role="tooltip">{{label}}</span>
+				</span>
+				{{/array-dmz-languages-menu}}
+			</div>
+			<span class="dmz-tooltip-wrapper">
+				<button type="button" class="dmz-fab__button dmz-fab__button--option" id="dmz-lang-toggle" aria-label="{{msg-dmz-menu-language}}" aria-expanded="false" aria-controls="dmz-fab-flags">
+					<span class="material-symbols-rounded" aria-hidden="true">translate</span>
+				</button>
+				<span class="dmz-tooltip" role="tooltip">{{msg-dmz-menu-language}}</span>
+			</span>
+		</div>
+	</div>
+	<span class="dmz-tooltip-wrapper">
+		<button type="button" class="dmz-fab__button dmz-fab__button--main" id="dmz-fab-toggle" aria-label="{{msg-dmz-menu-options}}" aria-expanded="false" aria-controls="dmz-fab-options">
+			<span class="material-symbols-rounded" aria-hidden="true">settings</span>
+		</button>
+		<span class="dmz-tooltip" role="tooltip" data-dmz-fab-tooltip>{{msg-dmz-menu-options}}</span>
+	</span>
+</div>
+<div class="dmz-toast" id="dmz-toast" role="status" aria-live="polite" hidden>
+	<span class="dmz-toast__icon"><span class="material-symbols-rounded" aria-hidden="true">check</span></span>
+	<span class="dmz-toast__text" data-dmz-toast-text></span>
+</div>

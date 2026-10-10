@@ -1,0 +1,354 @@
+<translate>
+Every DragonMineZ command node is registered through Forge's <code>PermissionAPI</code>, so server owners running a permissions mod (LuckPerms, PermissionsEx and the like) can grant fine-grained access instead of relying on blanket operator status. Without a permissions mod, DMZ falls back to vanilla operator levels.
+</translate>
+
+<translate>
+Nodes are defined in <code>DMZPermissions.java</code>. Each one is registered under the <code>dragonminez</code> namespace, so its full name is <code>dragonminez.&lt;node&gt;</code>, for example <code>dragonminez.admin</code> or <code>dragonminez.dmzstats.set.self</code>. For what each command does, see [[Special:MyLanguage/Commands|Commands]].
+</translate>
+
+<translate>
+== How a permission check resolves ==
+</translate>
+<translate>
+For every command gated by a DMZ permission, the check passes if '''any''' of these is true:
+</translate>
+
+<translate>
+# The player has '''the specific node''' for that action.
+# The player has '''<code>dragonminez.admin</code>''', which grants every DMZ permission at once.
+# The player is a '''vanilla operator of level 2 or higher''' (<code>player.hasPermissions(2)</code>).
+# The player is one of the '''three DMZ team accounts''' hardcoded in the mod (see below).
+</translate>
+
+<translate>
+Commands run from the '''server console or command blocks''' (anything that isn't a player) always pass DMZ permission checks.
+</translate>
+
+<syntaxhighlight lang="java">
+if (PermissionAPI.getPermission(player, node) || PermissionAPI.getPermission(player, ADMIN) || player.hasPermissions(2)) return true;
+return isDmzTeamAccount(player);
+</syntaxhighlight>
+
+<translate>
+=== DMZ team accounts ===
+</translate>
+{{Note|type=warning|title=<translate>Transparency note</translate>|text=<translate>Three DMZ team accounts, identified by their Minecraft '''UUID''' (<code>19e318eb-9131-4466-af50-4958348249b8</code>, <code>5d651997-3ea5-49f3-8033-4ddce9cf8f4e</code>, <code>e4dfa0fb-5b43-4cde-89ab-92ac1a2d4f4a</code>), pass every DMZ permission check on any server running this code, regardless of your permission grants or operator configuration. This is hardcoded in <code>DMZPermissions</code>. When one of these accounts runs a command it could '''not''' have run with its normal permissions, the command's feedback is shown only to that account and is '''not broadcast to other operators''' or the server log, the way vanilla command feedback normally is.</translate>}}
+
+<translate>
+=== Commands gated by vanilla operator level ===
+</translate>
+<translate>
+A few commands don't use DMZ nodes at all: they simply require '''operator level 2''', and are not affected by <code>dragonminez.admin</code> or the team-account bypass.
+</translate>
+
+{| class="wikitable"
+! <translate>Command</translate> !! <translate>Note</translate>
+|-
+| {{Command|/dmzraid}} || <translate>Every subcommand (see [[Special:MyLanguage/Raids|Raids]]).</translate>
+|-
+| {{Command|/dmzworldboss}} || <translate>Every subcommand '''except <code>results</code>''', which anyone can use (see [[Special:MyLanguage/World Bosses|World Bosses]]).</translate>
+|-
+| {{Command|/dmztournament}} || <translate>Every subcommand (see [[Special:MyLanguage/Tournaments|Tournaments]]).</translate>
+|-
+| {{Command|/dmzquest questnpc}} || <translate>The quest-NPC spawning subcommands (the rest of <code>/dmzquest</code> uses nodes).</translate>
+|}
+
+<translate>
+<code>/dmzracial reply accept|reject</code> (answering a Namekian assimilation request) needs no permission at all.
+</translate>
+
+<translate>
+== Without a permissions mod ==
+</translate>
+<translate>
+Without LuckPerms, PermissionsEx or a similar mod handling these nodes, each node falls back to its default. In practice, only operators of level 2 or higher can use anything gated by a node that defaults to <code>false</code>. Everyone else only gets the handful of nodes that default to <code>true</code> (see the tables below), which are mostly "view or list your own stuff".
+</translate>
+
+<translate>
+== Granting nodes with a permissions mod ==
+</translate>
+<translate>
+Example using LuckPerms syntax (adjust it for the mod you run):
+</translate>
+
+<syntaxhighlight lang="text">
+/lp user <player> permission set dragonminez.dmzstats.set.self true
+/lp group <group> permission set dragonminez.dmzquest.list.others true
+/lp user <player> permission set dragonminez.admin true
+</syntaxhighlight>
+
+<translate>
+DMZ doesn't ship its own grant or revoke command: node management is entirely up to your permissions mod.
+</translate>
+
+<translate>
+== Node reference ==
+</translate>
+<translate>
+Nodes default to <code>false</code> (operators and admins only) unless the table says <code>true</code>. Rows written as <code>….self</code> / <code>.others</code> are two nodes: one for using the command on yourself and one for using it on other players.
+</translate>
+
+<translate>
+=== Admin ===
+</translate>
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.admin</code> || <code>false</code> || <translate>Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.</translate>
+|}
+
+<translate>
+=== Stats ===
+</translate>
+<translate>
+Nodes of <code>StatsCommand</code> (<code>/dmzstats</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzstats.set.self</code> || <code>false</code> || <translate>Set your own stats.</translate>
+|-
+| <code>dragonminez.dmzstats.set.others</code> || <code>false</code> || <translate>Set another player's stats.</translate>
+|-
+| <code>dragonminez.dmzstats.add.self</code> || <code>false</code> || <translate>Add to or remove from your own stats (<code>add</code> and <code>remove</code>).</translate>
+|-
+| <code>dragonminez.dmzstats.add.others</code> || <code>false</code> || <translate>Add to or remove from another player's stats.</translate>
+|-
+| <code>dragonminez.dmzstats.info.self</code> || <code>true</code> || <translate>View your own stats.</translate>
+|-
+| <code>dragonminez.dmzstats.info.others</code> || <code>false</code> || <translate>View another player's stats.</translate>
+|-
+| <code>dragonminez.dmzstats.reset.self</code> || <code>false</code> || <translate>Reset or relocate your own stats.</translate>
+|-
+| <code>dragonminez.dmzstats.reset.others</code> || <code>false</code> || <translate>Reset or relocate another player's stats.</translate>
+|}
+
+<translate>
+=== Skills ===
+</translate>
+<translate>
+Nodes of <code>SkillsCommand</code> (<code>/dmzskill</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzskill.set.self</code> / <code>.others</code> || <code>false</code> || <translate>Set skill levels.</translate>
+|-
+| <code>dragonminez.dmzskill.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Add a skill.</translate>
+|-
+| <code>dragonminez.dmzskill.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove a skill.</translate>
+|-
+| <code>dragonminez.dmzskill.list.self</code> || <code>true</code> || <translate>List your own skills.</translate>
+|-
+| <code>dragonminez.dmzskill.list.others</code> || <code>false</code> || <translate>List another player's skills.</translate>
+|}
+
+<translate>
+=== Techniques ===
+</translate>
+<translate>
+Nodes of <code>TechCommand</code> (<code>/dmztech</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmztech.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Grant a ki technique.</translate>
+|-
+| <code>dragonminez.dmztech.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove a ki technique.</translate>
+|-
+| <code>dragonminez.dmztech.list.self</code> || <code>true</code> || <translate>List your own techniques.</translate>
+|-
+| <code>dragonminez.dmztech.list.others</code> || <code>false</code> || <translate>List another player's techniques.</translate>
+|-
+| <code>dragonminez.dmztech.experience.self</code> / <code>.others</code> || <code>false</code> || <translate>Change technique experience.</translate>
+|}
+
+<translate>
+=== Technique cooldowns ===
+</translate>
+<translate>
+Nodes of <code>CooldownsCommand</code> (<code>/dmzcooldowns</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzcooldowns.self</code> || <code>false</code> || <translate>Change your own ki and strike technique cooldowns.</translate>
+|-
+| <code>dragonminez.dmzcooldowns.others</code> || <code>false</code> || <translate>Change another player's ki and strike technique cooldowns.</translate>
+|}
+
+<translate>
+=== Bonus stats ===
+</translate>
+<translate>
+Nodes of <code>BonusCommand</code> (<code>/dmzbonus</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzbonus.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Add bonus stats.</translate>
+|-
+| <code>dragonminez.dmzbonus.clear.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove or clear bonus stats (<code>remove</code> and <code>clear</code>).</translate>
+|}
+
+<translate>
+=== Effects ===
+</translate>
+<translate>
+Nodes of <code>EffectsCommand</code> (<code>/dmzeffect</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzeffect.give.self</code> / <code>.others</code> || <code>false</code> || <translate>Give a status effect.</translate>
+|-
+| <code>dragonminez.dmzeffect.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove a status effect.</translate>
+|-
+| <code>dragonminez.dmzeffect.clear.self</code> / <code>.others</code> || <code>false</code> || <translate>Clear all effects.</translate>
+|-
+| <code>dragonminez.dmzeffect.list.self</code> || <code>true</code> || <translate>List your own effects.</translate>
+|-
+| <code>dragonminez.dmzeffect.list.others</code> || <code>false</code> || <translate>List another player's effects.</translate>
+|}
+
+<translate>
+=== Points ===
+</translate>
+<translate>
+Nodes of <code>PointsCommand</code> (<code>/dmzpoints</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzpoints.set.self</code> / <code>.others</code> || <code>false</code> || <translate>Set points.</translate>
+|-
+| <code>dragonminez.dmzpoints.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Add points.</translate>
+|-
+| <code>dragonminez.dmzpoints.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove points.</translate>
+|-
+| <code>dragonminez.dmzpoints.info.self</code> || <code>true</code> || <translate>View your own points.</translate>
+|-
+| <code>dragonminez.dmzpoints.info.others</code> || <code>false</code> || <translate>View another player's points.</translate>
+|}
+
+<translate>
+=== Quests and sagas ===
+</translate>
+<translate>
+Nodes of <code>StoryCommand</code> (<code>/dmzquest</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate>
+|-
+| <code>dragonminez.dmzquest.list.self</code> || <code>true</code> || <translate>List your own quest progress.</translate>
+|-
+| <code>dragonminez.dmzquest.list.others</code> || <code>false</code> || <translate>List another player's quest progress.</translate>
+|-
+| <code>dragonminez.dmzquest.info</code> || <code>true</code> || <translate>View quest metadata.</translate>
+|-
+| <code>dragonminez.dmzquest.start.self</code> / <code>.others</code> || <code>false</code> || <translate>Force-start a quest.</translate>
+|-
+| <code>dragonminez.dmzquest.finish.self</code> / <code>.others</code> || <code>false</code> || <translate>Force-complete a quest.</translate>
+|-
+| <code>dragonminez.dmzquest.fail.self</code> / <code>.others</code> || <code>false</code> || <translate>Force-fail a quest.</translate>
+|-
+| <code>dragonminez.dmzquest.reset.self</code> / <code>.others</code> || <code>false</code> || <translate>Reset a quest.</translate>
+|-
+| <code>dragonminez.dmzquest.track.self</code> || <code>true</code> || <translate>Set your own tracked quest.</translate>
+|-
+| <code>dragonminez.dmzquest.track.others</code> || <code>false</code> || <translate>Set another player's tracked quest.</translate>
+|-
+| <code>dragonminez.dmzquest.startsaga.self</code> / <code>.others</code> || <code>false</code> || <translate>Force-start every quest in a saga.</translate>
+|-
+| <code>dragonminez.dmzquest.finishsaga.self</code> / <code>.others</code> || <code>false</code> || <translate>Force-complete every quest in a saga.</translate>
+|-
+| <code>dragonminez.dmzquest.resetsaga.self</code> / <code>.others</code> || <code>false</code> || <translate>Reset an entire saga.</translate>
+|-
+| <code>dragonminez.dmzquest.difficulty.self</code> || <code>false</code> || <translate>See or change your own story difficulty (<code>/dmzquest difficulty</code>).</translate>
+|-
+| <code>dragonminez.dmzquest.difficulty.others</code> || <code>false</code> || <translate>Change other players' story difficulty.</translate>
+|}
+
+<translate>
+=== Other commands ===
+</translate>
+{| class="wikitable"
+! <translate>Node</translate> !! <translate>Default</translate> !! <translate>Grants</translate> !! <translate>Command class</translate>
+|-
+| <code>dragonminez.dmzlocate</code> || <code>false</code> || <translate>Locate special structures.</translate> || <code>LocateCommand</code>
+|-
+| <code>dragonminez.dmzstructure</code> || <code>false</code> || <translate>Read structure-local coordinates and structure NPCs (<code>/dmzstructure</code>).</translate> || <code>StructureCommand</code>
+|-
+| <code>dragonminez.dmzdragonballs.status</code> || <code>false</code> || <translate>View where every Dragon Ball set is tracked (<code>/dmzdragonballs status</code>).</translate> || <code>DragonBallsCommand</code>
+|-
+| <code>dragonminez.dmzdragonballs.regenerate</code> || <code>false</code> || <translate>Refill a Dragon Ball set up to its configured copies (<code>/dmzdragonballs regenerate</code>).</translate> || <code>DragonBallsCommand</code>
+|-
+| <code>dragonminez.dmzrevive.self</code> / <code>.others</code> || <code>false</code> || <translate>Revive a player.</translate> || <code>ReviveCommand</code>
+|-
+| <code>dragonminez.dmzparty.use</code> || <code>true</code> || <translate>Use party commands.</translate> || <code>PartyCommand</code>
+|-
+| <code>dragonminez.dmzmastery.set</code> / <code>.add</code> || <code>false</code> || <translate>Set or add transformation mastery.</translate> || <code>MasteryCommand</code>
+|-
+| <code>dragonminez.dmz.reload</code> || <code>false</code> || <translate>Run <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).</translate> || <code>ReloadCommand</code>
+|-
+| <code>dragonminez.dmzform.set.self</code> / <code>.others</code> || <code>false</code> || <translate>Set a form.</translate> || <code>FormsCommand</code>
+|-
+| <code>dragonminez.dmzform.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Grant a form.</translate> || <code>FormsCommand</code>
+|-
+| <code>dragonminez.dmzform.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove a form.</translate> || <code>FormsCommand</code>
+|-
+| <code>dragonminez.dmzform.list.self</code> || <code>true</code> || <translate>List your own forms.</translate> || <code>FormsCommand</code>
+|-
+| <code>dragonminez.dmzform.list.others</code> || <code>false</code> || <translate>List another player's forms.</translate> || <code>FormsCommand</code>
+|-
+| <code>dragonminez.dmzracial.reset.self</code> / <code>.others</code> || <code>false</code> || <translate>Reset racial skills.</translate> || <code>RacialSkillCommand</code>
+|-
+| <code>dragonminez.dmzweight.give</code> || <code>false</code> || <translate>Give weight training items.</translate> || <code>WeightCommand</code>
+|-
+| <code>dragonminez.dmzalignment.set.self</code> / <code>.others</code> || <code>false</code> || <translate>Set alignment.</translate> || <code>AlignmentCommand</code>
+|-
+| <code>dragonminez.dmzalignment.add.self</code> / <code>.others</code> || <code>false</code> || <translate>Add alignment.</translate> || <code>AlignmentCommand</code>
+|-
+| <code>dragonminez.dmzalignment.remove.self</code> / <code>.others</code> || <code>false</code> || <translate>Remove alignment.</translate> || <code>AlignmentCommand</code>
+|-
+| <code>dragonminez.dmzalignment.info.self</code> || <code>true</code> || <translate>View your own alignment.</translate> || <code>AlignmentCommand</code>
+|-
+| <code>dragonminez.dmzalignment.info.others</code> || <code>false</code> || <translate>View another player's alignment.</translate> || <code>AlignmentCommand</code>
+|-
+| <code>dragonminez.dmztail.self</code> || <code>true</code> || <translate>Grow or cut your own tail.</translate> || <code>TailCommand</code>
+|-
+| <code>dragonminez.dmztail.others</code> || <code>false</code> || <translate>Grow or cut another player's tail.</translate> || <code>TailCommand</code>
+|-
+| <code>dragonminez.dmzminigame.self</code> || <code>false</code> || <translate>Open or learn training minigames for yourself with <code>/dmzminigame</code>.</translate> || <code>MinigameCommand</code>
+|-
+| <code>dragonminez.dmzminigame.others</code> || <code>false</code> || <translate>Open or teach training minigames to other players.</translate> || <code>MinigameCommand</code>
+|-
+| <code>dragonminez.dmzhalo.self</code> / <code>.others</code> || <code>false</code> || <translate>Toggle a halo.</translate> || <code>HaloCommand</code>
+|-
+| <code>dragonminez.dmzhair.self</code> || <code>true</code> || <translate>Resync or reset your own hair.</translate> || <code>HairCommand</code>
+|-
+| <code>dragonminez.dmzhair.others</code> || <code>false</code> || <translate>Resync or reset another player's hair.</translate> || <code>HairCommand</code>
+|-
+| <code>dragonminez.dmzclass.set.self</code> || <code>false</code> || <translate>Change your own class.</translate> || <code>ClassCommand</code>
+|-
+| <code>dragonminez.dmzclass.set.others</code> || <code>false</code> || <translate>Change another player's class.</translate> || <code>ClassCommand</code>
+|-
+| <code>dragonminez.admin</code> || <code>false</code> || <translate>Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.</translate> || <code>ConfigCommand</code>, <code>RestoreCommand</code>, <code>DebugCommand</code>
+|}
+
+<translate>
+== Applying changes ==
+</translate>
+<translate>
+Nodes are registered when the mod starts and don't need a config-style reload: grant and revoke changes take effect as soon as your permissions mod applies them (LuckPerms, for instance, applies most changes immediately).
+</translate>
+
+{{Navbox Configuration}}

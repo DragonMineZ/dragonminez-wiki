@@ -1,0 +1,414 @@
+<translate>
+'''Implementation and Events''' describes the hook surface DragonMineZ offers to add-ons: its events, how to read player state, the extension registries, and where to plug in your own networking and registries. Read it once your add-on builds against DMZ (see [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]]).
+</translate>
+
+<translate>
+== Listening to a DMZ event ==
+</translate>
+<translate>
+All server and common events are nested static classes of <code>com.dragonminez.common.events.DMZEvent</code>, posted to the standard Forge event bus (<code>MinecraftForge.EVENT_BUS</code>). Each nested class extends Forge's <code>Event</code> directly (<code>DMZEvent</code> itself is only the container), so subscribe to the specific nested class:
+</translate>
+
+<syntaxhighlight lang="java">
+@Mod.EventBusSubscriber(modid = "your_addon_modid", bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class DmzHooks {
+    @SubscribeEvent
+    public static void onTpGain(DMZEvent.TPGainEvent event) {
+        int boosted = Math.round(event.getTpGain() * 1.10f);
+        event.setTpGain(boosted);
+    }
+
+    @SubscribeEvent
+    public static void onFormChange(DMZEvent.FormChangeEvent event) {
+        if (event.isTransform()) {
+            // player transformed into event.getNewGroup() / event.getNewForm()
+        }
+    }
+}
+</syntaxhighlight>
+
+<translate>
+Events marked '''cancelable''' below carry Forge's <code>@Cancelable</code> annotation: <code>event.setCanceled(true)</code> blocks the underlying action. Fields marked ''settable'' have a setter (<code>setTpGain</code>, <code>setAmount</code>, ...), and DMZ uses the value after all listeners ran. All getters follow the field names (<code>getPlayer()</code>, <code>getOldValue()</code>, ...); boolean fields use <code>is...</code> (<code>isParry()</code>, <code>isBlocked()</code>).
+</translate>
+
+<translate>
+== Event list ==
+</translate>
+<translate>
+Source: <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code>.
+</translate>
+
+<translate>
+=== Stats, resources and progression ===
+</translate>
+
+{| class="wikitable"
+! <translate>Event</translate> !! <translate>Cancelable</translate> !! <translate>Fires when</translate> !! <translate>Key fields</translate>
+|-
+| <code>StatChangeEvent</code> || <translate>Yes</translate> || <translate>A stat (STR, SKP, RES, VIT, PWR or ENE) changes through a <code>Stats.set*()</code> call: commands, items, menus, and also when stats are loaded or copied (on both server and client).</translate> || <translate><code>player</code>, <code>stat</code> (<code>STRENGTH</code>, <code>STRIKE_POWER</code>, <code>RESISTANCE</code>, <code>VITALITY</code>, <code>KI_POWER</code> or <code>ENERGY</code>), <code>oldValue</code>, <code>newValue</code></translate>
+|-
+| <code>TPGainEvent</code> || <translate>Yes</translate> || <translate>Before a positive amount of training points is added (<code>Resources.addTrainingPoints</code>).</translate> || <translate><code>player</code>, <code>oldValue</code>, <code>tpGain</code> (settable), <code>shareWithParty</code> (settable); helper <code>getNewTpsValue()</code></translate>
+|-
+| <code>KiChargeEvent</code> || <translate>Yes</translate> || <translate>Once per second while the player is actively charging ki. Cancel it to stop that second's ki gain.</translate> || <translate><code>player</code>, <code>currentEnergy</code>, <code>maxEnergy</code>; helper <code>isEnergyFull()</code></translate>
+|-
+| <code>HealthRegenEvent</code> / <code>EnergyRegenEvent</code> / <code>StaminaRegenEvent</code> || <translate>Yes</translate> || <translate>Before the per-second regeneration of health, ki or stamina is applied. They share the <code>ResourceRegenEvent</code> base.</translate> || <translate><code>player</code>, <code>statsData</code>, <code>amount</code> (settable)</translate>
+|-
+| <code>FormChangeEvent</code> / <code>StackFormChangeEvent</code> || <translate>No</translate> || <translate>After the player's race form or stack form changes (server side).</translate> || <translate><code>player</code>, <code>oldGroup</code>, <code>oldForm</code>, <code>newGroup</code>, <code>newForm</code>; helpers <code>isTransform()</code> and <code>isUntransform()</code></translate>
+|-
+| <code>PlayerDataSaveEvent</code> || <translate>No</translate> || <translate>Player data is about to be written to the <code>JSON</code> or <code>DATABASE</code> storage backend. You may add your own keys to <code>data</code>.</translate> || <code>player</code>, <code>data</code>
+|-
+| <code>PlayerDataLoadEvent</code> || <translate>No</translate> || <translate>Player data was read from the <code>JSON</code> or <code>DATABASE</code> backend, right before it is applied to the player.</translate> || <code>player</code>, <code>data</code>
+|}
+
+{{Note|title=<translate>StatChangeEvent and loading</translate>|text=<translate><code>StatChangeEvent</code> also fires while DMZ loads saved data and applies client syncs. If you cancel it, check <code>event.getPlayer().level().isClientSide()</code> and your own conditions first, or you can block a player's saved stats from loading.</translate>}}
+
+{{Note|title=<translate>Storage backends</translate>|text=<translate><code>PlayerDataSaveEvent</code> and <code>PlayerDataLoadEvent</code> do not fire with the default <code>NBT</code> backend, where DMZ data is saved by vanilla with the player file. See [[Special:MyLanguage/General Server Config|General Server Config]] for the <code>storage</code> settings.</translate>}}
+
+<translate>
+=== Combat ===
+</translate>
+
+{| class="wikitable"
+! <translate>Event</translate> !! <translate>Cancelable</translate> !! <translate>Fires when</translate> !! <translate>Key fields</translate>
+|-
+| <code>DamageModifyEvent</code> || <translate>Yes</translate> || <translate>Damage calculation before mitigation, for a hit dealt by a player (melee hits and strike attacks). Cancel it to deal no DMZ damage.</translate> || <translate><code>attacker</code>, <code>victim</code>, <code>amount</code> (settable), <code>defensePenetration</code> (settable), <code>sourceType</code> (<code>MELEE</code> or <code>STRIKE</code>)</translate>
+|-
+| <code>DamageDealtEvent</code> || <translate>No</translate> || <translate>After blocking is resolved for a player's melee hit (amount before mitigation).</translate> || <code>attacker</code>, <code>victim</code>, <code>amount</code>, <code>blocked</code>, <code>parried</code>, <code>sourceType</code>
+|-
+| <code>PlayerDamageMitigatedEvent</code> || <translate>No</translate> || <translate>After DMZ has finished mitigating a hit taken by a player. Read-only: do not change damage here.</translate> || <translate><code>victim</code>, <code>source</code> (<code>DamageSource</code>), <code>rawDamage</code>, <code>defenseMitigated</code>, <code>blockMitigated</code>, <code>finalDamage</code></translate>
+|-
+| <code>PlayerBlockEvent</code> || <translate>Yes</translate> || <translate>The player successfully blocks or parries an attack. Cancel it and the player takes the full hit.</translate> || <translate><code>victim</code>, <code>attacker</code>, <code>originalDamage</code>, <code>finalDamage</code> (settable), <code>isParry</code> (settable), <code>poiseDamage</code> (settable)</translate>
+|-
+| <code>BarrierAbsorbEvent</code> || <translate>No</translate> || <translate>A ki barrier (the barrier technique or the Android barrier) absorbs a hit before it reaches the protected entity.</translate> || <translate><code>owner</code> (the barrier's creator), <code>protectedEntity</code>, <code>attacker</code>, <code>amount</code></translate>
+|-
+| <code>PlayerDashEvent</code> || <translate>Yes</translate> || <translate>Before a dash executes.</translate> || <translate><code>player</code>, <code>dashType</code> (<code>NORMAL</code> or <code>DOUBLE</code>), <code>distance</code> (settable), <code>kiCost</code> (settable)</translate>
+|-
+| <code>PlayerEvasionEvent</code> || <translate>Yes</translate> || <translate>Before an evasion triggers.</translate> || <translate><code>player</code>, <code>attacker</code>, <code>originalDamage</code>, <code>kiCost</code> (settable)</translate>
+|-
+| <code>CritChanceEvent</code> || <translate>No</translate> || <translate>While a player's critical chance is being resolved.</translate> || <translate><code>player</code>, <code>chance</code> (settable, 0 to 1)</translate>
+|-
+| <code>KiAttackCastEvent</code> || <translate>No</translate> || <translate>A player starts charging (casts) a ki attack.</translate> || <code>player</code>, <code>statsData</code>, <code>kiAttack</code>
+|-
+| <code>KiAttackFireEvent</code> || <translate>No</translate> || <translate>A charged ki attack is released.</translate> || <translate><code>player</code>, <code>statsData</code>, <code>kiAttack</code>, <code>chargeMultiplier</code>, <code>cooldownTicks</code> (settable, minimum 1)</translate>
+|-
+| <code>StrikeAttackCastEvent</code> || <translate>No</translate> || <translate>A player starts a strike attack.</translate> || <code>player</code>, <code>statsData</code>, <code>strike</code>
+|-
+| <code>StrikeAttackFireEvent</code> || <translate>No</translate> || <translate>A strike attack connects and starts on a target.</translate> || <code>player</code>, <code>statsData</code>, <code>strike</code>, <code>target</code>
+|}
+
+<translate>
+<code>DamageSourceType</code> also contains a <code>KI</code> value; in v2.2, ki attacks do not post <code>DamageModifyEvent</code> or <code>DamageDealtEvent</code>.
+</translate>
+
+<translate>
+=== Fusions and dragons ===
+</translate>
+
+{| class="wikitable"
+! <translate>Event</translate> !! <translate>Cancelable</translate> !! <translate>Fires when</translate> !! <translate>Key fields</translate>
+|-
+| <code>FusionEvent</code> || <translate>Yes</translate> || <translate>Before a fusion attempt. DMZ posts it for <code>METAMORU</code>, <code>POTHALA</code> and <code>BEETLE</code> (Medi-Bug Beetle) fusions; the enum also contains <code>ABSORPTION</code> and <code>ASSIMILATION</code>.</translate> || <code>initiator</code>, <code>target</code>, <code>type</code>
+|-
+| <code>DragonSummonedEvent</code> || <translate>No</translate> || <translate>After a dragon is summoned from a completed ball set.</translate> || <translate><code>player</code>, <code>level</code>, <code>position</code>, <code>dragonDefinition</code>, <code>ballSetDefinition</code>, <code>consumedPositions</code>; helpers <code>getDragonId()</code> and <code>getBallSetId()</code></translate>
+|}
+
+<translate>
+See [[Special:MyLanguage/Fusions|Fusions]] and [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]] for the gameplay side.
+</translate>
+
+<translate>
+=== Quests ===
+</translate>
+<translate>
+All quest events extend <code>QuestLifecycleEvent</code> and share its fields: <code>player</code>, <code>questKey</code> (<code>sagaId:questId</code> for saga quests, the string id for side quests), <code>saga</code> (null for side quests), <code>quest</code> and <code>partyMembers</code>.
+</translate>
+
+{| class="wikitable"
+! <translate>Event</translate> !! <translate>Cancelable</translate> !! <translate>Fires when</translate> !! <translate>Extra fields</translate>
+|-
+| <code>QuestStartEvent</code> || <translate>Yes</translate> || <translate>Before a quest is accepted.</translate> || <translate><code>difficulty</code> (settable)</translate>
+|-
+| <code>QuestObjectiveProgressEvent</code> || <translate>Yes</translate> || <translate>Before objective progress is stored.</translate> || <translate><code>objectiveIndex</code>, <code>oldProgress</code>, <code>newProgress</code> (settable), <code>objectiveRequired</code></translate>
+|-
+| <code>QuestFailEvent</code> || <translate>Yes</translate> || <translate>Before a quest is marked as failed.</translate> || <code>reason</code> (<code>PLAYER_DEATH</code>, <code>FORCED_RESET</code>, <code>SCRIPT</code>, <code>TIME_EXPIRED</code>, <code>ESCORT_FAILED</code>)
+|-
+| <code>QuestTurnInEvent</code> || <translate>Yes</translate> || <translate>Before a quest turn-in is applied.</translate> || <code>npcId</code>
+|-
+| <code>QuestRewardClaimEvent</code> || <translate>Yes</translate> || <translate>Before an individual reward is claimed.</translate> || <code>rewardIndex</code>
+|-
+| <code>QuestCompletedEvent</code> || <translate>No</translate> || <translate>When a quest completes.</translate> || <translate>Shared fields only</translate>
+|}
+
+<translate>
+=== Client events ===
+</translate>
+<translate>
+Client-only events live on <code>com.dragonminez.client.events.DMZClientEvent</code> and are posted on the Forge bus of the physical client. Register these listeners with <code>value = Dist.CLIENT</code>. None of them is cancelable, and they are informational: the server still decides what actually happens.
+</translate>
+
+{| class="wikitable"
+! <translate>Event</translate> !! <translate>Fires when</translate> !! <translate>Key fields</translate>
+|-
+| <code>PlayerAttackStart</code> || <translate>The local player starts the attack windup.</translate> || <code>player</code>, <code>attackHand</code>
+|-
+| <code>PlayerAttackHit</code> || <translate>The local player's attack resolves its targets (zero or more).</translate> || <translate><code>player</code>, <code>attackHand</code>, <code>targets</code>, <code>cursorTarget</code> (nullable)</translate>
+|-
+| <code>KiAttackCast</code> || <translate>The local player starts charging the ki attack in a slot.</translate> || <code>player</code>, <code>slot</code>
+|-
+| <code>KiAttackRelease</code> || <translate>The local player releases a charged ki attack.</translate> || <code>player</code>
+|-
+| <code>StrikeAttack</code> || <translate>The local player starts a strike attack.</translate> || <code>player</code>, <code>targetId</code>
+|}
+
+<translate>
+== Reading player state ==
+</translate>
+<translate>
+Get the capability from any <code>Player</code> (a server player, or the local player on the client; DMZ keeps the client copy in sync):
+</translate>
+
+<syntaxhighlight lang="java">
+StatsProvider.get(StatsCapability.INSTANCE, player).ifPresent(data -> {
+    String race = data.getCharacter().getRaceName();
+    String activeForm = data.getCharacter().getActiveForm();
+    float currentKi = data.getResources().getCurrentEnergy();
+    float maxKi = data.getMaxEnergy();
+    int level = data.getLevel();
+});
+</syntaxhighlight>
+
+<translate>
+<code>StatsProvider.get(cap, entity)</code> is a shortcut for <code>player.getCapability(StatsCapability.INSTANCE)</code>; both return a <code>LazyOptional<StatsData></code>. DMZ's getters are generated by Lombok at compile time, so you don't need Lombok in your add-on to call them.
+</translate>
+
+<translate>
+Useful reads on <code>StatsData</code>:
+</translate>
+
+{| class="wikitable"
+! <translate>Getter</translate> !! <translate>Returns</translate>
+|-
+| <code>getCharacter().getRaceName() / getCharacterClass() / getGender()</code> || <translate>Race, class and gender</translate>
+|-
+| <code>getCharacter().getActiveForm() / getActiveFormGroup()</code> || <translate>Current race form (an empty string in base form)</translate>
+|-
+| <code>getCharacter().getActiveStackForm() / getActiveStackFormGroup()</code> || <translate>Current stack form (for example the Kaioken tier)</translate>
+|-
+| <code>getStats().getStrength() / getStrikePower() / getResistance() / getVitality() / getKiPower() / getEnergy()</code> || <translate>Base stat values</translate>
+|-
+| <code>getResources().getCurrentEnergy() / getCurrentStamina() / getCurrentPoise() / getAlignment()</code> || <translate>Current resource pools and alignment</translate>
+|-
+| <code>getMaxHealth() / getMaxEnergy() / getMaxStamina() / getMaxPoise()</code> || <translate>Calculated resource caps</translate>
+|-
+| <code>getBattlePower() / getMeleeDamage() / getStrikeDamage() / getKiDamage() / getDefense()</code> || <translate>Calculated combat stats</translate>
+|-
+| <code>getLevel()</code> || <translate>Computed player level</translate>
+|-
+| <code>getPlayerQuestData()</code> || <translate>Quest progress (<code>getQuestStatus(questKey)</code>, <code>isQuestAccepted(questKey)</code>, <code>isQuestCompleted(questKey)</code>, <code>isSagaLocked(sagaId)</code>, <code>getTrackedQuestId()</code>, <code>getDifficulty()</code>)</translate>
+|-
+| <code>getSkills()</code> || <translate>Skill levels (<code>hasSkill(name)</code>, <code>getSkillLevel(name)</code>)</translate>
+|-
+| <code>getStatus()</code>, <code>getEffects()</code>, <code>getTechniques()</code>, <code>getBonusStats()</code> || <translate>Status flags, active effects, ki and strike techniques, bonus stat modifiers</translate>
+|}
+
+<translate>
+Race, form and stat math reads the live config every time, so values always reflect the current server config (including after <code>/dmzreload</code>).
+</translate>
+
+<translate>
+== Changing state safely ==
+</translate>
+<translate>
+DMZ's own stat setters (for example <code>Stats.setStrength()</code>) post a cancelable event first and only apply the change if it isn't cancelled:
+</translate>
+
+<syntaxhighlight lang="java">
+DMZEvent.StatChangeEvent event = new DMZEvent.StatChangeEvent(player, StatType.STRENGTH, oldValue, newValue);
+if (!MinecraftForge.EVENT_BUS.post(event)) {
+    // apply the change
+}
+</syntaxhighlight>
+
+<translate>
+In your add-on, prefer '''reacting to''' events (changing their settable fields, or cancelling them) over calling DMZ setters directly. Not every setter validates or posts an event (most <code>Resources</code> setters, for example, just clamp and apply with no event), so going through the event path is the one integration point guaranteed to stay stable.
+</translate>
+
+<translate>
+If you do change DMZ data from the server, do it on the server thread and send the client a fresh copy afterwards, the same way DMZ does:
+</translate>
+
+<syntaxhighlight lang="java">
+NetworkHandler.sendToTrackingEntityAndSelf(new StatsSyncS2C(serverPlayer), serverPlayer);
+</syntaxhighlight>
+
+<translate>
+<code>StatsSyncS2C</code> sends the full player data; DMZ also uses <code>ProgressionSyncS2C</code> (stats, bonus stats, skills, techniques, quest data) and <code>ResourceSyncS2C</code> (resources and status) for smaller updates.
+</translate>
+
+<translate>
+== Custom quest objectives and rewards ==
+</translate>
+{{See also|Custom Quests}}
+<translate>
+Add-ons can add new quest objective and reward '''types''' that quest JSON files can then use, without touching DMZ's parser. Register them during mod setup (for example in <code>FMLCommonSetupEvent</code>) on '''both''' sides: the client rebuilds quests from the synced registry with the same factories.
+</translate>
+
+<syntaxhighlight lang="java">
+QuestObjectiveRegistry.register("MEDITATE",
+    json -> new MeditateObjective(json.get("seconds").getAsInt()),                                 // parse quest JSON
+    (objective, out) -> out.addProperty("seconds", ((MeditateObjective) objective).getSeconds()),  // client sync fields
+    objective -> Component.translatable("myaddon.quest.meditate.obj"));                            // HUD/journal text
+
+QuestRewardRegistry.register("MY_CURRENCY",
+    json -> new MyCurrencyReward(json.get("amount").getAsInt()),
+    (reward, out) -> out.addProperty("amount", ((MyCurrencyReward) reward).getAmount()));
+</syntaxhighlight>
+
+<translate>
+The contract:
+</translate>
+<translate>
+* Objective classes extend <code>QuestObjective</code> and call the <code>QuestObjective(String customType, int required)</code> constructor; reward classes extend <code>QuestReward</code>, call <code>QuestReward(String customType)</code> and implement <code>giveReward(ServerPlayer)</code> and <code>getDescription()</code>. Objectives must also implement <code>checkProgress(Object... params)</code>.
+* In quest JSON, use your key as the <code>"type"</code> (for example <code>{"type": "MEDITATE", "seconds": 60}</code>). Type keys are case-insensitive (stored in upper case). Treat them like registry names: don't rename them once quests use them.
+* The sync writer must write every field your factory reads, because the client parses the synced JSON again with your factory.
+* Unknown types are reported in the JSON load report (see [[Special:MyLanguage/Developer Scope and Prerequisites#Finding JSON mistakes|Finding JSON mistakes]]) and the objective or reward is skipped.
+* Progress is server-authoritative and event-driven: listen to your own game events on the server and store progress with <code>PlayerQuestData.setObjectiveProgress(questKey, objectiveIndex, progress)</code>, then sync with <code>ProgressionSyncS2C</code>. Use <code>DMZEvent.QuestObjectiveProgressEvent</code> and <code>QuestCompletedEvent</code> to react to built-in quests.
+</translate>
+
+<translate>
+See [[Special:MyLanguage/Custom Quests|Custom Quests]] for the quest JSON format.
+</translate>
+
+<translate>
+== Custom text placeholders ==
+</translate>
+<translate>
+Quest, dialogue and NPC text supports <code>%placeholders%</code> such as <code>%player%</code>, <code>%race%</code>, <code>%class%</code>, <code>%level%</code>, <code>%alignment%</code>, <code>%deaths%</code>, <code>%form%</code> and <code>%dimension%</code>. Add your own during mod setup:
+</translate>
+
+<syntaxhighlight lang="java">
+DMZTextPlaceholders.register("zeni", (player, data) -> String.valueOf(MyAddon.getZeni(player)));
+// "%zeni%" in quest/dialogue text now resolves to your value
+</syntaxhighlight>
+
+<translate>
+Keys are case-insensitive. The resolver runs on whichever side renders the text (usually the client), and it must handle a <code>null</code> <code>StatsData</code>.
+</translate>
+
+<translate>
+== Utility menu buttons ==
+</translate>
+<translate>
+The utility (radial) menu on the client has two free slots, on the left and right of the wheel, reserved for add-ons. Add a button from client setup:
+</translate>
+
+<syntaxhighlight lang="java">
+UtilityMenuScreen.addMenuSlot(new IUtilityMenuSlot() {
+    @Override
+    public ButtonInfo render(StatsData statsData) {
+        return new ButtonInfo(Component.literal("My Addon"), Component.literal("Open"));
+    }
+
+    @Override
+    public void handle(StatsData statsData, boolean rightClick) {
+        // client side: open your screen or send your own packet to the server
+    }
+});
+</syntaxhighlight>
+
+<translate>
+Slots are filled in registration order; registrations beyond the two free slots are not shown. Override <code>hasRightClickAction</code> to return <code>true</code> if your button also reacts to right-click. <code>IUtilityMenuSlot</code> and <code>ButtonInfo</code> live in <code>com.dragonminez.client.gui.utilitymenu</code>.
+</translate>
+
+<translate>
+== Armor and render layers ==
+</translate>
+<translate>
+* '''Armor from your add-on:''' DMZ's armor item class <code>DbzArmorItem</code> (<code>common/init/armor</code>) has a constructor <code>DbzArmorItem(material, type, properties, modId, itemId)</code>. Pass your own <code>modId</code> and the textures are read from your own namespace: <code>assets/<modId>/textures/armor/<itemId>_layer1.png</code> (<code>_layer2</code> for leggings), plus the optional <code><itemId>_damaged_layer1.png</code> and <code>_damaged_layer2.png</code>, used once the item has lost more than half of its durability.
+* '''Other armor:''' regular <code>ArmorItem</code>s from other mods are drawn on DMZ's player model with their normal armor texture.
+* '''Third-party render layers:''' render layers that other mods add to the vanilla player renderer are forwarded onto DMZ's player model. Vanilla layers and cosmetic armor layers are skipped, and nothing is forwarded while the player is an Oozaru.
+</translate>
+
+<translate>
+== Networking ==
+</translate>
+<translate>
+DMZ's channel is <code>NetworkHandler.INSTANCE</code> (a Forge <code>SimpleChannel</code> at <code>dragonminez:network</code>). Don't register your own packets on it: DMZ assigns packet ids by registration order, so anything you add would shift or collide with DMZ's ids. Register your own <code>SimpleChannel</code> in your add-on instead, and use DMZ's as a reference for the pattern (<code>messageBuilder</code>, encoder, decoder and handler, with an explicit direction).
+</translate>
+
+<translate>
+You can use DMZ's send helpers (<code>sendToPlayer</code>, <code>sendToTrackingEntityAndSelf</code>, ...) to send DMZ's own sync packets, as shown above.
+</translate>
+
+<translate>
+Never trust the client in your own packets either: validate on the server anything that affects stats, unlocks, quests, wishes or progression.
+</translate>
+
+<translate>
+There is no client-side "data synced" event. On the client, read the capability when you need it (for example while rendering) instead of trying to intercept DMZ packets.
+</translate>
+
+<translate>
+== Using DMZ's registries ==
+</translate>
+<translate>
+Import the <code>Main*</code> registry holders directly instead of hardcoding resource locations:
+</translate>
+
+<syntaxhighlight lang="java">
+import com.dragonminez.common.init.MainItems;
+import com.dragonminez.common.init.MainAttributes;
+
+Item redCapsule = MainItems.RED_CAPSULE.get();
+Attribute strength = MainAttributes.STRENGTH.get();
+</syntaxhighlight>
+
+<translate>
+Available under <code>common/init/</code>: <code>MainItems</code>, <code>MainBlocks</code>, <code>MainBlockEntities</code>, <code>MainEntities</code>, <code>MainAttributes</code>, <code>MainEffects</code>, <code>MainEnchants</code>, <code>MainPotions</code>, <code>MainSounds</code>, <code>MainParticles</code>, <code>MainFluids</code>, <code>MainMenus</code>, <code>MainRecipes</code>, <code>MainTabs</code>, <code>MainTags</code>, <code>MainVillagers</code>, <code>MainDamageTypes</code>, <code>MainGameRules</code>, <code>MainLootModifiers</code>.
+</translate>
+
+<translate>
+== Optional dependency pattern ==
+</translate>
+<translate>
+If your add-on should work with or without DMZ installed, follow DMZ's own pattern for optional integrations (<code>common/compat/WeaponLevelingCompat.java</code>):
+</translate>
+
+<syntaxhighlight lang="java">
+public final class DmzCompat {
+    private static Boolean loaded;
+
+    public static boolean isLoaded() {
+        if (loaded == null) loaded = ModList.get().isLoaded("dragonminez");
+        return loaded;
+    }
+
+    public static int getLevel(Player player) {
+        if (!isLoaded()) return 0;   // safe fallback without DMZ
+        return Impl.getLevel(player);
+    }
+
+    // Only this nested class imports DMZ classes, so it is never loaded without DMZ.
+    private static final class Impl {
+        static int getLevel(Player player) {
+            return StatsProvider.get(StatsCapability.INSTANCE, player).map(StatsData::getLevel).orElse(0);
+        }
+    }
+}
+</syntaxhighlight>
+
+<translate>
+# Check <code>ModList.get().isLoaded("dragonminez")</code> once and cache the result.
+# Keep every DMZ import inside classes that are only touched after that check (event listeners for DMZ events included: register them manually, and only when DMZ is loaded).
+# Guard every call that touches DMZ behind that flag, with a safe fallback or default when it is <code>false</code>.
+# Log a clear info or warning message either way, so server owners can tell at a glance whether the integration is active.
+</translate>
+
+<translate>
+== Next step ==
+</translate>
+<translate>
+See [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]] for the full Gradle project setup and the <code>mods.toml</code> dependency declaration.
+</translate>
+
+{{Navbox Add-ons}}

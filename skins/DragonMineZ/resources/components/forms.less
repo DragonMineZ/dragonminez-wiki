@@ -1,0 +1,189 @@
+.dmz-skin {
+	.mw-body input[ type='text' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body input[ type='search' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body input[ type='password' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body input[ type='email' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body input[ type='number' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body input[ type='url' ]:not( .oo-ui-inputWidget-input ):not( .cdx-text-input__input ),
+	.mw-body select:not( .oo-ui-inputWidget-input ):not( .cdx-select ),
+	.mw-body textarea:not( .oo-ui-inputWidget-input ):not( .cdx-text-area__textarea ) {
+		box-sizing: border-box;
+		max-width: 100%;
+		padding: 10px 16px;
+		border: 1px solid var( --glass );
+		border-radius: 16px;
+		background: var( --surface );
+		color: var( --foreground );
+		font-family: inherit;
+		font-size: 15px;
+		line-height: 1.4;
+		transition: all 0.2s ease;
+
+		&::placeholder {
+			color: var( --fg-40 );
+		}
+
+		&:hover {
+			border-color: var( --glass-strong );
+		}
+
+		&:focus {
+			outline: none;
+			border-color: var( --fg-40 );
+			background: var( --surface-elevated );
+			box-shadow: 0 10px 15px -3px rgba( 0, 0, 0, 0.1 );
+		}
+	}
+
+	.mw-body textarea {
+		padding: 14px 18px;
+	}
+
+	#wpTextbox1 {
+		width: 100%;
+		font-family: @font-family-monospace;
+		font-size: 13.5px;
+		line-height: 1.6;
+		background: var( --surface-elevated );
+	}
+
+	.mw-body input[ type='submit' ],
+	.mw-body input[ type='button' ],
+	.mw-body button.mw-ui-button,
+	.mw-body .mw-ui-button,
+	.mw-body .cdx-button:not( .cdx-button--weight-quiet ) {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 6px;
+		min-height: 40px;
+		padding: 0 22px;
+		border: 1px solid var( --glass );
+		border-radius: 9999px;
+		background: var( --surface-elevated );
+		color: var( --foreground );
+		font-family: inherit;
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: -0.025em;
+		cursor: pointer;
+		transition: all 0.2s ease;
+
+		&:hover {
+			border-color: var( --glass-strong );
+			background: var( --surface );
+		}
+	}
+
+	.mw-body .cdx-button--action-progressive.cdx-button--weight-primary,
+	.mw-body .mw-ui-button.mw-ui-progressive,
+	.mw-body input[ type='submit' ].mw-ui-progressive,
+	.mw-body #wpSave {
+		border-color: var( --foreground );
+		background: var( --foreground );
+		color: var( --background );
+		box-shadow: var( --shadow-glow );
+
+		&:hover {
+			opacity: 0.9;
+			transform: scale( 1.03 );
+			background: var( --foreground );
+		}
+	}
+
+	.mw-body .cdx-button--action-destructive.cdx-button--weight-primary {
+		border-color: var( --error-20 );
+		background: var( --error-glass );
+		color: var( --error );
+	}
+
+	.mw-body fieldset {
+		margin: 24px 0;
+		padding: 20px 24px;
+		border: 1px solid var( --glass-strong );
+		border-radius: 24px;
+	}
+
+	.mw-body legend {
+		padding: 0 8px;
+		color: var( --foreground );
+		font-weight: 800;
+	}
+
+	.mw-body label {
+		color: var( --fg-80 );
+	}
+}
+
+.dmz-skin .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button {
+	border-radius: 9999px;
+	font-weight: 700;
+}
+
+.dmz-skin .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	border-color: var( --foreground );
+	background-color: var( --foreground );
+	color: var( --background );
+
+	&:hover {
+		border-color: var( --fg-90 );
+		background-color: var( --fg-90 );
+	}
+
+	> .oo-ui-iconElement-icon {
+		filter: invert( 1 );
+	}
+}
+
+html:not( .dark ) .dmz-skin .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
+	filter: none;
+}
+
+.dmz-skin .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+	min-height: 40px;
+}
+
+.dmz-skin .ve-ui-toolbar-floating > .oo-ui-toolbar-bar,
+.dmz-skin .wikiEditor-ui-toolbar.dmz-sticky {
+	top: @dmz-header-height !important;
+}
+
+.dmz-skin .ve-init-mw-target .oo-ui-toolbar-bar,
+.dmz-skin .wikiEditor-ui-toolbar {
+	border-radius: 16px;
+	background: var( --surface );
+}
+
+.dmz-skin .wikiEditor-ui {
+	border-color: var( --glass-strong );
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.dmz-skin .oo-ui-textInputWidget input,
+.dmz-skin .oo-ui-textInputWidget textarea,
+.dmz-skin .oo-ui-dropdownWidget-handle,
+.dmz-skin .oo-ui-dropdownInputWidget select,
+.dmz-skin .oo-ui-menuTagMultiselectWidget,
+.dmz-skin .oo-ui-tagMultiselectWidget-handle {
+	border-radius: 14px;
+}
+
+.dmz-skin .cdx-text-input__input,
+.dmz-skin .cdx-select,
+.dmz-skin .cdx-select-vue__handle,
+.dmz-skin .cdx-text-area__textarea {
+	border-radius: 14px;
+}
+
+.dmz-skin .cdx-button {
+	border-radius: 9999px;
+}
+
+.dmz-skin .oo-ui-actionFieldLayout-input .oo-ui-inputWidget-input {
+	border-radius: 14px 0 0 14px;
+}
+
+.dmz-skin .oo-ui-actionFieldLayout-button .oo-ui-buttonElement-framed > .oo-ui-buttonElement-button {
+	border-radius: 0 14px 14px 0;
+}

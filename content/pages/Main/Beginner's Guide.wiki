@@ -1,0 +1,208 @@
+<translate>
+New to DragonMineZ? This guide walks you from your first login to your first transformation, one step at a time: create your character, learn the HUD and the controls, meet your first master, start the story, earn Training Points, learn to fight and fly, and finally transform. Each step links to the page that covers it in full, so you can dig deeper whenever you want.
+</translate>
+
+<translate>
+== Step 1: create your character ==
+</translate>
+{{Main|Character Customization}}
+<translate>
+When you join a world without a character, the creation screen opens by itself. If it doesn't, press {{Key|V}}: until you create one, the HUD reminds you with "Press [V] to begin your adventure!". A short interactive tutorial explains every screen the first time you see it.
+</translate>
+
+# <translate>'''Pick a race.''' A carousel shows the seven races: [[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]. The right panel lists each race's [[Special:MyLanguage/Racial Skills|racial skills]], and every race has its own line of [[Special:MyLanguage/Transformations|transformations]].</translate>
+# <translate>'''Design your look.''' The tabs cover your body, hair, eyes, face and tattoo. A pair of arrows lets you preview how you will look in each of your race's transformations.</translate>
+# <translate>'''Pick a class.''' The [[Special:MyLanguage/Classes|class]] decides your starting stats, how efficiently each stat grows and a unique passive. All eight classes are available to every race, and the panel shows each class's stats and passive before you choose.</translate>
+# <translate>'''Choose your aura''' (2D, 3D Smooth or 3D Sparking; Glinds also get 3D God) and its color, then press '''Confirm'''.</translate>
+
+{{Note|type=warning|<translate>Choose your race carefully. The '''Re-Customize''' wish lets you change your looks and your class later, but not your race: picking another race means a full character reset (such as Dende's '''Reset Stats''' service), which wipes your progress. The one exception is a Human, who can become an [[Special:MyLanguage/Android|Android]] through Dr. Gero.</translate>}}
+
+<translate>
+== Step 2: learn your screen and controls ==
+</translate>
+{{Main|HUD}}
+{{See also|Controls|Menus}}
+<translate>
+Right after you confirm, a short HUD tour shows you your bars: '''Health''', '''Ki''' (the energy you spend on ki attacks and transformations), '''Stamina''' (spent on sprinting, blocking, flying and melee) and '''Power Release'''. Quest notices and your tracked quest appear in the notifications stack in the top-right corner. You can move, resize or restyle every part of the HUD from the Character Menu → '''Config''' → '''Interface''' → '''HUD Layout'''.
+
+These are the keys you will use all the time:
+</translate>
+
+{| class="wikitable"
+! <translate>Key</translate> !! <translate>What it does</translate>
+|-
+| {{Key|V}} || <translate>Character Menu: stats, party, skills, quests, minigames and settings.</translate>
+|-
+| <translate>{{Key|X}} (hold)</translate> || <translate>Utility Menu: pick a transformation, a stack form or a racial skill.</translate>
+|-
+| <translate>{{Key|C}} (hold)</translate> || <translate>Charge ki to raise your Power Release.</translate>
+|-
+| <translate>{{Key|G}} (hold)</translate> || <translate>Use the action selected in the Utility Menu, for example to transform.</translate>
+|-
+| {{Key|Right Mouse}} || <translate>Block (with empty hands).</translate>
+|-
+| {{Key|R}} || <translate>Dash.</translate>
+|-
+| {{Key|Z}} || <translate>Lock on to a target.</translate>
+|-
+| {{Key|Alt}} + {{Key|1}}–{{Key|4}} || <translate>Fire the techniques in slots 1–4 ({{Key|Ctrl}} + 1–4 for slots 5–8).</translate>
+|-
+| {{Key|F}} || <translate>Fly (once you know the Fly skill).</translate>
+|}
+
+<translate>
+== Step 3: understand your stats ==
+</translate>
+{{Main|Stats and Attributes}}
+<translate>
+Your character has six attributes. Open the '''Stats''' tab of the Character Menu and click an attribute to spend [[Special:MyLanguage/Training Points and Mastery|Training Points (TP)]] on it; the '''TPC''' box shows what the next point costs.
+</translate>
+
+* <translate>'''Strength (STR)''': melee damage.</translate>
+* <translate>'''Strike Power (SKP)''': strike attack damage.</translate>
+* <translate>'''Ki Power (PWR)''': ki blast and energy-wave damage.</translate>
+* <translate>'''Resistance (RES)''': defense, stamina, poise and speed.</translate>
+* <translate>'''Vitality (VIT)''': max health and health regeneration.</translate>
+* <translate>'''Energy (ENE)''': your Ki pool and Ki regeneration.</translate>
+
+<translate>
+Your '''Power Release''' multiplies your damage, your defense, your speed and your Battle Power, so hold {{Key|C}} to charge before and during a fight. Your maximum release starts at 50%; the [[Special:MyLanguage/Potential Unlock|Potential Unlock]] skill raises it by 5% per level.
+</translate>
+
+<translate>
+== Step 4: find your first master ==
+</translate>
+{{Main|Masters}}
+<translate>
+[[Special:MyLanguage/Masters|Masters]] are the NPCs who teach you [[Special:MyLanguage/Skills|skills]] and [[Special:MyLanguage/Techniques|techniques]] in exchange for TP. The first thing to learn is [[Special:MyLanguage/Ki Control|Ki Control]]: every master teaches it, and without it you can't charge or use ki and strike techniques.
+
+Most masters live in landmark [[Special:MyLanguage/Structures|structures]] on [[Special:MyLanguage/Earth|Earth]]:
+</translate>
+
+* <translate>[[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the world spawn: [[Special:MyLanguage/Mr. Popo|Mr. Popo]], Dende and Korin, plus the portal to the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].</translate>
+* <translate>[[Special:MyLanguage/Kame House|Roshi's House]] on an ocean coast: [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]].</translate>
+* <translate>[[Special:MyLanguage/Goku's House|Goku's House]] in the plains: [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gohan|Gohan]].</translate>
+* <translate>[[Special:MyLanguage/Piccolo's House|Piccolo's House]] (plains), [[Special:MyLanguage/Yamcha's House|Yamcha's House]] (desert), '''Vegeta's Pod''' (rocky biomes), [[Special:MyLanguage/Trunks' Ship|Trunks' Ship]] (land biomes), [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]] (oceans) and '''Buu's House''' (plains).</translate>
+
+<translate>
+The '''Capsule Corp Assistant''' in Earth villages sells treasure maps that point straight to these buildings (see [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), and players with the permission can use <code>/dmzlocate</code>.
+
+'''Right-click''' a master to open the dialogue. '''Skills''' opens their shop (you must stay within 10 blocks of the master to buy), '''Train''' lets you spar with a '''Shadow Clone''' of yourself or play their training minigame, and some masters offer services. Every new character starts with an [[Special:MyLanguage/Alignment|alignment]] of 100 (Good), so the Good masters such as Roshi and Goku teach you right away; Cell and Frieza only train Evil characters.
+</translate>
+
+{{Note|type=tip|title=<translate>Useful services early on</translate>|<translate>At Kami's Lookout, Korin gives you 5 [[Special:MyLanguage/Senzu Bean|Senzu Beans]] every 15 minutes and a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]], and Dende heals you and gives Good characters '''Kami's Blessing''' (×1.2 TP for 5 minutes). Piccolo also heals you, and Master Roshi, King Kai and Piccolo hand out training [[Special:MyLanguage/Weights|weights]].</translate>}}
+
+<translate>
+== Step 5: start the story ==
+</translate>
+{{Main|Sagas}}
+<translate>
+The story mode retells Dragon Ball as a chain of quests, starting with the [[Special:MyLanguage/Classic Saga|Classic Saga]] and Kid Goku's adventures. Open the '''Quests''' tab of the Character Menu to see the '''Quest Tree'''.
+
+The first time you open it, you choose a story difficulty. '''This choice is permanent''' (only the '''Change Difficulty''' wish can change it later):
+</translate>
+
+{| class="wikitable"
+! !! <translate>Easy</translate> !! <translate>Normal</translate> !! <translate>Hard</translate>
+|-
+| <translate>Enemy health</translate> || ×0.75 || ×1 || ×2
+|-
+| <translate>Enemy damage</translate> || ×0.5 || ×1 || ×1.5
+|-
+| <translate>Training Points</translate> || ×1.25 || ×1 || ×1.25
+|-
+| <translate>Quest rewards</translate> || ×1 || ×1 || ×1.25
+|}
+
+<translate>
+Then select the first quest, '''A Fishy Welcome''' (defeat a Giant Fish at a river, beach or ocean on Earth), and press '''Start Quest'''. Press '''Track''' to follow the current objective in your notifications, with a direction arrow for location objectives.
+</translate>
+
+* <translate>Combat quests spawn their enemies '''for you''' (and your party), near you. Only those enemies count toward the objective.</translate>
+* <translate>Many quests can only be started in a specific place: a biome, a structure or a dimension.</translate>
+* <translate>When a quest is complete, press '''Claim Rewards'''. Quests pay '''Attributes''': half arrive as Attribute Points you place in the Stats tab, and half as the TP those points would cost you right now.</translate>
+* <translate>Inside a saga, quests unlock one after another, and each saga opens once you finish the one before it.</translate>
+* <translate>Playing with friends? Create a party in the '''Party''' tab: members share quest progress and play on the party leader's difficulty.</translate>
+
+{{Note|type=tip|<translate>Quest 19 of the Classic Saga, '''The Sacred Water''', asks you to climb to Kami's Lookout and hand Korin a Water Bucket. Drinking the Sacred Water you get permanently multiplies all your stats by ×1.1.</translate>}}
+
+<translate>
+== Step 6: train and earn TP ==
+</translate>
+{{Main|Training Points and Mastery}}
+<translate>
+Almost everything you do earns TP: every hit you land (2 TP), every kill (plus a quarter of the target's max health), just playing (1 TP every 5 seconds), traveling, mining, crafting and, above all, quests. To grow faster:
+</translate>
+
+* <translate>'''Play the training minigames.''' Krillin teaches [[Special:MyLanguage/Ki Control|Ki Control]], Gohan '''Shadow Boxing''', Trunks '''Precision''', Vegeta '''Gravity''' and Mr. Popo '''Rhythm''' (inside the Time Chamber). Reach level 5 in three runs with the master to learn a game; after that you can play it from the '''Minigames''' tab, and replaying it at its master pays 25% more. See [[Special:MyLanguage/Training Minigames|Training Minigames]].</translate>
+* <translate>'''Wear weights.''' Ask Master Roshi for a '''Turtle Shell''' and type the weight you want. The right load multiplies your TP, but overloading makes you weaker; the '''Gravity''' row of the Stats tab tells you how you are doing. See [[Special:MyLanguage/Weights|Weights]].</translate>
+* <translate>'''Train under gravity.''' The [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (portal at Kami's Lookout) has ×10 gravity and multiplies your TP by ×1.75; later you can build a [[Special:MyLanguage/Gravity Device|Gravity Device]].</translate>
+* <translate>'''Fight tough targets.''' Long fights pay TP on every hit, and the Shadow Clone from a master's '''Train''' option makes a good sparring partner.</translate>
+
+<translate>
+== Step 7: learn to fight ==
+</translate>
+{{Main|Combat}}
+* <translate>'''Charge first.''' Your damage and your defense both scale with your Power Release.</translate>
+* <translate>'''Block''' with {{Key|Right Mouse}} (empty hands). Starting a block right as a hit lands is a '''parry''': you take no damage and the attacker is staggered. Blocking drains your stamina and poise; if either runs out, your guard breaks and you are stunned.</translate>
+* <translate>'''Dash''' with {{Key|R}} and '''lock on''' with {{Key|Z}}.</translate>
+* <translate>'''Use techniques.''' Buy them from masters in the '''Skills''' tab, bind them to a slot ('''Bind to Slot''') and fire them with {{Key|Alt}} + 1–4. Ki attacks charge while you hold the key. Techniques need an empty main hand and at least 5% Power Release.</translate>
+* <translate>'''Watch your stamina.''' Swinging, blocking, dashing and sprinting all use it.</translate>
+
+<translate>
+== Step 8: take to the skies ==
+
+Learn the [[Special:MyLanguage/Fly|Fly]] skill (Goku and Frieza teach it) on top of Ki Control, charge at least 5% Power Release and press {{Key|F}}. {{Key|Alt}} + {{Key|F}} switches between '''Search Fly''' (fast travel) and '''Combat Fly''' (a hover tuned for fighting). Until then, Korin's [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] carries the pure of heart. See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Combat#Combat flight|Combat]].
+</translate>
+
+<translate>
+== Step 9: your first transformation ==
+</translate>
+{{Main|Transformations}}
+<translate>
+Transformations multiply your stats but drain a resource (usually Ki) while they are active. You buy them with TP in the '''Forms''' section of the Skills tab. To unlock a form you need its TP cost, 25% mastery on the previous form of its group, and often a story requisite. The first form of each race unlocks after Classic Saga quest 46, '''Training at the Lookout''':
+</translate>
+
+{| class="wikitable"
+! <translate>Race</translate> !! <translate>First form</translate>
+|-
+| {{L|Human}} || <translate>Buffed</translate>
+|-
+| {{L|Saiyan}} || <translate>Super Saiyan</translate>
+|-
+| {{L|Namekian}} || <translate>Giant</translate>
+|-
+| {{L|Frost Demon}} || <translate>Second Form</translate>
+|-
+| {{L|Majin}} || <translate>Kid Majin</translate>
+|-
+| {{L|Bio-Android}} || <translate>Semi-Perfect</translate>
+|-
+| {{L|Glind}} || <translate>Buffed</translate>
+|}
+
+# <translate>Hold {{Key|X}}, open '''Super Forms''' and click the form to select it.</translate>
+# <translate>Hold {{Key|G}} to charge the transformation. Your colors and size blend into the new form as the charge fills.</translate>
+# <translate>Fight while transformed to raise its '''mastery''': hits you deal and take count when you are at 50% Power Release or more. Mastery makes the form stronger, lowers its drain and, at 25%, unlocks the next form of the group. From 40% you can transform instantly (double-tap {{Key|G}}), paying extra Ki.</translate>
+# <translate>If you can't pay the drain, you drop back to base. Press {{Key|Alt}} + {{Key|G}} to power down one form yourself.</translate>
+
+<translate>
+== Step 10: if you die ==
+</translate>
+{{Main|Otherworld}}
+<translate>
+When the Otherworld is enabled, dying sends your spirit to the [[Special:MyLanguage/Otherworld|Otherworld]] with a halo instead of a normal respawn. You keep your abilities, you don't get hungry and you earn double TP there. [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can let you "borrow time" and walk the living world again as a spirit for a while, and the dragons' revive wishes bring you fully back to life. If your whole party is wiped out, any active fight quest fails and has to be started again.
+</translate>
+
+<translate>
+== Where to go next ==
+</translate>
+
+* <translate>'''Gather the Dragon Balls.''' Craft a [[Special:MyLanguage/Dragon Radar|Dragon Radar]], find the seven balls and summon [[Special:MyLanguage/Shenron|Shenron]] for a wish. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].</translate>
+* <translate>'''Travel to other worlds''' by [[Special:MyLanguage/Space Pod|Space Pod]]: [[Special:MyLanguage/Namek|Namek]] is always open, and more [[Special:MyLanguage/Dimensions|dimensions]] open as you progress.</translate>
+* <translate>'''Take on group challenges''': [[Special:MyLanguage/World Bosses|world bosses]], [[Special:MyLanguage/Raids|raids]] and [[Special:MyLanguage/Tournaments|tournaments]].</translate>
+* <translate>'''Fuse with a friend''' with the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] or other [[Special:MyLanguage/Fusions|fusions]].</translate>
+* <translate>'''Gear up''' with [[Special:MyLanguage/Armor|armor]], [[Special:MyLanguage/Special Weapons|special weapons]] and [[Special:MyLanguage/Items|items]].</translate>
+* <translate>Stuck? Check the [[Special:MyLanguage/FAQ|FAQ]].</translate>
+
+{{Navbox Mechanics}}

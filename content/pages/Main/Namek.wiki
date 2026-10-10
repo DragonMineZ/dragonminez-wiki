@@ -1,0 +1,91 @@
+{{Infobox Dimension
+|Gravity=×1.0
+|Access=<translate>Space Pod (always available)</translate>
+|Biomes=<translate>Ajissa Plains, Sacred Land, Namekian Rivers</translate>
+|Resources=<translate>Full vanilla ore set, Kikono Ore, Gete Debris, the Namek Dragon Balls</translate>
+|Inhabitants={{L|Namek Frog}}, {{L|Namekian Trader}}, {{L|Namekian Warrior}}, {{L|Capsule Corp Namekian}}, {{L|Frieza Soldier}}, {{L|Gete Robot}}, {{L|Giant Fish}}
+|Structures={{L|Frieza's Ship}}, {{L|Grand Elder's House}}, {{L|Namekian Village}}, {{L|Namekian Ruins}}, {{L|Big Gete Star}}
+|Bosses={{L|Metal Cooler Core}}
+}}
+<translate>
+'''Namek''' (Planet Namek, dimension id <code>dragonminez:namek</code>) is the home planet of the [[Special:MyLanguage/Namekian|Namekians]]: a green-skied world of Ajissa forests and blue waters. It's a full mining world and holds the Namek Dragon Balls that summon [[Special:MyLanguage/Porunga|Porunga]], Frieza's occupying army, the [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] raid and the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] inside the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].
+</translate>
+
+<translate>
+== Gravity ==
+</translate>
+{{Config|Gravity Config|gravityPerWorld}}
+<translate>
+Namek has normal gravity (×1.0) by default, the same as Earth.
+</translate>
+
+<translate>
+== Biomes ==
+</translate>
+<translate>
+* '''Ajissa Plains''': home of Frieza's Ship, the Ajissa-style Namekian villages and Frieza's soldiers.
+* '''Sacred Land''': the Grand Elder's region, with the Grand Elder's House and the Sacred-style villages.
+* '''Namekian Rivers''': the planet's waterways, where Giant Fish and Namek frogs live.
+</translate>
+
+<translate>
+== Ores and resources ==
+</translate>
+<translate>
+Namek has the '''full ore set''' embedded in Namek stone (and its deepslate variants): coal, copper, iron, gold, redstone, lapis, diamond and emerald, so it's a good place to mine vanilla resources.
+</translate>
+
+<translate>
+* '''Kikono Ore''' is exclusive to Namek. It drops '''Kikono Shards''', the base material for Kikono gear (Kikono Stick, String and Cloth) and the armor-crafting recipes. See [[Special:MyLanguage/Kikono Materials|Kikono Materials]] and [[Special:MyLanguage/Armor|Armor]].
+* '''[[Special:MyLanguage/Gete Tech|Gete Debris]]''' is a rare ore that generates like Ancient Debris, in small veins scattered underground, with a low chance. The drained ground around the [[Special:MyLanguage/Big Gete Star|Big Gete Star]] also hides some.
+</translate>
+
+<translate>
+== Creatures and NPCs ==
+</translate>
+{{Main|Bestiary}}
+<translate>
+* '''[[Special:MyLanguage/Namek Frog|Namek frogs]]''' (and their rare Ginyu variant) are harmless wildlife.
+* '''[[Special:MyLanguage/Namekian Trader|Namekian Traders]]''' sell general goods in the villages, including a '''Big Gete Star Map''' for 16 emeralds.
+* '''[[Special:MyLanguage/Namekian Warrior|Namekian Warriors]]''' defend the villages.
+* The '''[[Special:MyLanguage/Capsule Corp Namekian|Capsule Corp Namekian]]''' lives in Ajissa villages and sells treasure maps to [[Special:MyLanguage/Frieza's Ship|Frieza's Ship]] and the [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]].
+* '''[[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]]''' are hostile invaders that spawn in the Ajissa Plains and the Sacred Land.
+* '''[[Special:MyLanguage/Gete Robot|Gete Robots]]''': while players are near a Namekian village, small groups (up to 3 per village) show up on its outskirts and march on it.
+* '''Metal Cooler patrols''': around the Big Gete Star, up to 2 patrols (a Metal Cooler scout with 2–3 Gete Robots) roam near players.
+* [[Special:MyLanguage/Giant Fish|Giant Fish]] and vanilla water life (fish, squid) live in the rivers.
+</translate>
+
+<translate>
+== Structures ==
+</translate>
+{{Main|Structures}}
+{| class="wikitable"
+! <translate>Structure</translate> !! <translate>Where</translate> !! <translate>What you find</translate>
+|-
+| {{L|Frieza's Ship}} || <translate>Ajissa Plains</translate> || <translate>The master [[Special:MyLanguage/Frieza|Frieza]]</translate>
+|-
+| {{L|Grand Elder's House}} || <translate>Sacred Land</translate> || <translate>[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]</translate>
+|-
+| {{L|Namekian Village}} || <translate>Ajissa Plains and Sacred Land</translate> || <translate>Namekian Traders and Warriors</translate>
+|-
+| {{L|Namekian Ruins}} || <translate>Away from Ajissa villages</translate> || <translate>Raid site of [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]]</translate>
+|-
+| {{L|Big Gete Star}} || <translate>Ajissa Plains or Sacred Land, at least 1,000 blocks from 0, 0</translate> || <translate>The lair of the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]]</translate>
+|}
+
+<translate>
+== Dragon Balls ==
+</translate>
+{{Main|Porunga}}
+<translate>
+The seven Namek Dragon Balls are scattered around Namek's world spawn. Find them with the Namek [[Special:MyLanguage/Dragon Radar|Dragon Radar]] and bring them together to summon [[Special:MyLanguage/Porunga|Porunga]], who grants three wishes per summon. The [[Special:MyLanguage/Demon Realm|Demon Realm]] has a separate set of three Dragon Balls that also summons Porunga (see [[Special:MyLanguage/Demon Realm#Demon Realm Dragon Balls|Demon Realm]]).
+</translate>
+
+<translate>
+== Getting there ==
+</translate>
+<translate>
+Travel by [[Special:MyLanguage/Space Pod|Space Pod]]: the '''Namek''' destination is always available and lands you at the same X, Y and Z you left from. In the story, the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] ends with you repairing Vegeta's pod and flying to Namek, and the [[Special:MyLanguage/Frieza Saga|Frieza Saga]] takes place here. The [[Special:MyLanguage/Movies Saga|Movies Saga]] and the [[Special:MyLanguage/GT Saga|GT Saga]] also come back to Namek.
+</translate>
+
+{{Navbox Dimensions}}

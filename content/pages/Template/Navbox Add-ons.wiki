@@ -1,0 +1,14 @@
+{{Navbox
+|title={{#invoke:Labels|get|Add-on Development}}
+|link=Add-on Development
+|group1={{#invoke:Labels|get|Getting started}}
+|list1={{L|Developer Scope and Prerequisites}}{{·}}{{L|Add-on Getting Started}}
+|group2={{#invoke:Labels|get|Java add-ons}}
+|list2={{L|Implementation and Events}}{{·}}{{L|Creating a DMZ Addon}}
+|group3={{#invoke:Labels|get|Project}}
+|list3={{L|Contributing}}{{·}}{{L|Security Policy}}
+|group4={{#invoke:Labels|get|Related}}
+|list4={{L|Modding}}{{·}}{{L|Custom Quests}}{{·}}{{L|Configuration}}
+}}<noinclude>
+Navigation box for the add-on development and project pages (Java add-ons, contributing and security).
+</noinclude>

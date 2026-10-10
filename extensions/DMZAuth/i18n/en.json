@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"DragonMineZ"
+		]
+	},
+	"dmzauth-desc": "Sign in to the DragonMineZ Wiki with Discord through Clerk. Editing rights come from roles on the DragonMineZ Discord server.",
+	"dmzauth-modal-title": "Edit the wiki",
+	"dmzauth-modal-text": "Only users with access can edit the articles of the DragonMineZ Wiki.",
+	"dmzauth-modal-roles": "Access comes from your role on the DragonMineZ Discord server: Wiki Maintainer, Moderator or a role with administrator permissions.",
+	"dmzauth-modal-nolonger": "You are signed in, but your Discord account no longer has a role with access to edit the wiki.",
+	"dmzauth-signin-discord": "Sign in with Discord",
+	"dmzauth-signing-in": "Signing in…",
+	"dmzauth-not-configured": "Signing in with Discord isn't set up on this wiki yet.",
+	"dmzauth-error": "Couldn't sign you in. Try again in a moment.",
+	"dmzauth-other-account": "Use another Discord account",
+	"dmzauth-close": "Close",
+	"dmzauth-login-title": "Sign in",
+	"dmzauth-login-text": "The wiki uses your Discord account. Only members with access can edit.",
+	"dmzauth-noscript": "Signing in with Discord needs JavaScript.",
+	"dmzauth-error-token": "Your Discord session couldn't be verified. Try again.",
+	"dmzauth-error-expired": "Your Discord session expired. Try again.",
+	"dmzauth-error-service": "The sign-in service didn't answer. Try again in a moment.",
+	"dmzauth-error-nodiscord": "Your account isn't linked to Discord. Sign in with Discord.",
+	"dmzauth-error-noaccess": "Only users with access can edit the wiki. Your Discord account doesn't have the Wiki Maintainer, Moderator or administrator role.",
+	"dmzauth-error-username": "No free username was found for your Discord account. Ask a wiki maintainer for help.",
+	"group-editor": "Editors",
+	"group-editor-member": "{{GENDER:$1|editor}}",
+	"grouppage-editor": "{{ns:project}}:Editors",
+	"group-moderator": "Moderators",
+	"group-moderator-member": "{{GENDER:$1|moderator}}",
+	"grouppage-moderator": "{{ns:project}}:Moderators"
+}

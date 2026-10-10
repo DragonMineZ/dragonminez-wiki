@@ -1,0 +1,268 @@
+<translate>
+'''Space Pod destinations''' are the places a player can warp to from the [[Special:MyLanguage/Space Pod|Space Pod]] menu. They are a datapack system, not a <code>config/dragonminez</code> file, which makes them a good fit for datapacks and add-ons that want to add their own destinations (for example, a custom dimension mod adding its own entry).
+</translate>
+
+<translate>
+Loader: <code>SpacePodDestinationRegistry</code> (<code>src/main/java/com/dragonminez/common/spacepod/SpacePodDestinationRegistry.java</code>), a vanilla <code>SimpleJsonResourceReloadListener</code> over the <code>spacepod</code> directory. It reloads with the vanilla <code>/reload</code> or a restart, '''not''' with <code>/dmzreload</code>, and it is synced to clients automatically when datapacks sync.
+</translate>
+
+<translate>
+== File location ==
+</translate>
+
+<syntaxhighlight lang="text">
+data/<namespace>/spacepod/destinations.json
+</syntaxhighlight>
+
+<translate>
+Any namespace can contribute a <code>destinations.json</code> (or any other filename under that folder). They are all loaded together, sorted by resource location. DragonMineZ's own bundled file is <code>data/dragonminez/spacepod/destinations.json</code>.
+</translate>
+
+<translate>
+== Shipped destinations ==
+</translate>
+<translate>
+DragonMineZ's bundled <code>data/dragonminez/spacepod/destinations.json</code> uses <code>"replace": true</code> and contains:
+</translate>
+
+{| class="wikitable"
+! <code>id</code> !! <translate>Menu name</translate> !! <translate>Dimension</translate> !! <translate>Lands at</translate> !! <translate>Unlock rule</translate>
+|-
+| <code>overworld</code> || <translate>[[Special:MyLanguage/Earth|Earth]]</translate> || <code>minecraft:overworld</code> || <translate>Same X/Y/Z as the player</translate> || <code>ALWAYS</code>
+|-
+| <code>namek</code> || <translate>[[Special:MyLanguage/Namek|Namek]]</translate> || <code>dragonminez:namek</code> || <translate>Same X/Y/Z as the player</translate> || <code>ALWAYS</code>
+|-
+| <code>otherworld</code> || <translate>[[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <code>dragonminez:otherworld</code> || 54, 210, 1082 || <translate><code>OTHERWORLD_ENABLED</code> '''and''' the side quest <code>bulma_otherworld_drive</code> (''Otherworld Drive'')</translate>
+|-
+| <code>sacredkaiplanet</code> || <translate>[[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]]</translate> || <code>dragonminez:sacredkaiplanet</code> || <translate>Same X/Y/Z as the player</translate> || <translate>Saga quest <code>buu_saga:23</code> ([[Special:MyLanguage/Buu Saga|Buu Saga]])</translate>
+|-
+| <code>cereal</code> || <translate>Cereal Planet</translate> || <code>dragonminez:cereal_planet</code> || <translate>Same X/Y/Z as the player</translate> || <translate><code>NEVER</code> (reserved for an add-on dimension)</translate>
+|-
+| <code>beerus</code> || <translate>Beerus Planet</translate> || <code>dmzsuper:beerus_planet</code> || <translate>Same X/Y/Z as the player</translate> || <translate><code>NEVER</code> (reserved for an add-on dimension)</translate>
+|-
+| <code>time_chamber</code> || <translate>[[Special:MyLanguage/Hyperbolic Time Chamber|Time Chamber]]</translate> || <code>dragonminez:time_chamber</code> || 0.5, 130, 0.5 || <translate>Side quest <code>bulma_time_chamber_link</code> (''Temporal Comm-Link'')</translate>
+|-
+| <code>demon_realm</code> || <translate>[[Special:MyLanguage/Demon Realm|Demon Realm]]</translate> || <code>dragonminez:demon_realm</code> || <translate>160.5, 745, 0.5 (above the Third Demon World)</translate> || <translate>Saga quest <code>daima_saga:3</code> (''To the Demon Realm'', [[Special:MyLanguage/Daima Saga|Daima Saga]])</translate>
+|}
+
+<translate>
+All shipped entries use <code>"show_when_locked": true</code>, so locked worlds show up grayed out. See [[Special:MyLanguage/Dimensions|Dimensions]] for what each world offers.
+</translate>
+
+{{Note|type=warning|title=<translate>Load order matters</translate>|text=<translate>Files are applied in resource-location order, and DragonMineZ's bundled file uses <code>"replace": true</code>. A file in a namespace that sorts '''before''' <code>dragonminez</code> (for example <code>addon:</code>) is wiped by it: use a namespace that sorts after <code>dragonminez</code>, or put your own <code>data/dragonminez/spacepod/destinations.json</code> in a datapack to replace DragonMineZ's list. Entries are not merged by <code>id</code>: adding an entry with an id that already exists doesn't change the existing one.</translate>}}
+
+<translate>
+== Top-level shape ==
+</translate>
+
+<syntaxhighlight lang="text">
+{
+  "replace": false,
+  "destinations": [ ... ]
+}
+</syntaxhighlight>
+
+<translate>
+<code>replace</code> is optional and defaults to <code>false</code>. If <code>true</code>, it clears every destination loaded before this file and then adds this file's own. Use it if you want your pack to be the only authority on the destination list instead of adding to the others.
+</translate>
+
+<translate>
+== Destination fields ==
+</translate>
+
+{| class="wikitable"
+! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+|-
+| <code>id</code> || <translate>String</translate> || <translate>Unique destination id.</translate>
+|-
+| <code>name</code> || <translate>String</translate> || <translate>Translation key, or a literal string if <code>translate</code> is <code>false</code>.</translate>
+|-
+| <code>translate</code> || <translate>Boolean</translate> || <translate>Defaults to <code>true</code> (treat <code>name</code> as a translation key).</translate>
+|-
+| <code>dimension</code> || <translate>String</translate> || <translate>Id of the target dimension.</translate>
+|-
+| <code>icon_index</code> || <translate>Integer</translate> || <translate>Index into the built-in Space Pod icon sheet. Exactly one of <code>icon_index</code> and <code>icon_texture</code> is required.</translate>
+|-
+| <code>icon_texture</code> || <translate>String</translate> || <translate>Resource location of a custom texture, as an alternative to <code>icon_index</code>.</translate>
+|-
+| <code>x</code>, <code>y</code>, <code>z</code> || <translate>Number</translate> || <translate>Target coordinates. Either provide '''all three''', or '''only <code>y</code>''' (a special case that keeps the player's current X and Z and only changes their Y), or leave out all three. Providing just <code>x</code> or just <code>z</code> without the others is an error.</translate>
+|-
+| <code>show_when_locked</code> || <translate>Boolean</translate> || <translate>Defaults to <code>true</code>. If <code>true</code>, a locked destination still shows (grayed out); if <code>false</code>, it is hidden entirely until unlocked.</translate>
+|-
+| <code>unlock_rules</code> || <translate>String or object</translate> || <translate>The unlock condition (see [[Special:MyLanguage/Space Pod Destinations#Unlock rules|Unlock rules]]).</translate>
+|}
+
+<translate>
+== Unlock rules ==
+</translate>
+<translate>
+=== Primitives ===
+</translate>
+<translate>
+Primitives are bare strings:
+</translate>
+
+{| class="wikitable"
+! <translate>Rule</translate> !! <translate>Unlocked when</translate>
+|-
+| <code>"ALWAYS"</code> || <translate>Always.</translate>
+|-
+| <code>"NEVER"</code> || <translate>Never. This effectively disables the destination unless another pack overrides it.</translate>
+|-
+| <code>"KAIO_UNLOCKED"</code> || <translate>The player has unlocked Kaio's planet.</translate>
+|-
+| <code>"OTHERWORLD_ENABLED"</code> || <translate>Otherworld generation is enabled in the server config.</translate>
+|}
+
+<translate>
+=== Conditions ===
+</translate>
+<translate>
+Conditions are objects:
+</translate>
+
+{| class="wikitable"
+! <translate>Rule</translate> !! <translate>Shape</translate> !! <translate>Unlocked when</translate>
+|-
+| <translate>Quest</translate> || <code>{ "quest": "<quest_id>" }</code> || <translate>The player has completed that quest. Side quest and saga quest ids both work (for example <code>"buu_saga:23"</code>).</translate>
+|-
+| <translate>Level</translate> || <code>{ "level": N }</code> || <translate>The player's level is at least <code>N</code>.</translate>
+|-
+| <translate>Race</translate> || <code>{ "race": "<race_name>" }</code> || <translate>The player's race matches (case-insensitive).</translate>
+|-
+| <translate>Tag</translate> || <code>{ "tag": "<player_tag>" }</code> || <translate>The player has this Minecraft scoreboard tag.</translate>
+|-
+| <translate>Visited dimension</translate> || <code>{ "visited_dimension": "<dimension_id>" }</code> || <translate>The player has visited that dimension before.</translate>
+|-
+| <translate>Stat</translate> || <code>{ "stat": { "name": "<STAT_NAME>", "min": N } }</code> || <translate>The player's stat (for example <code>STRENGTH</code>) is at least <code>N</code>.</translate>
+|}
+
+<translate>
+=== Composite operators ===
+</translate>
+<translate>
+Composite operators can be nested to any depth, freely mixing primitives, conditions and other composites:
+</translate>
+
+<syntaxhighlight lang="text">
+{ "and": [ <rule>, <rule>, ... ] }
+{ "or":  [ <rule>, <rule>, ... ] }
+{ "not": <rule> }
+</syntaxhighlight>
+
+<translate>
+== Examples ==
+</translate>
+<translate>
+Always available:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "overworld",
+  "name": "gui.dragonminez.spacepod.overworld",
+  "dimension": "minecraft:overworld",
+  "icon_index": 0,
+  "unlock_rules": "ALWAYS"
+}
+</syntaxhighlight>
+
+<translate>
+Gated by an AND of a global toggle and a quest, with fixed coordinates:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "otherworld",
+  "name": "gui.dragonminez.spacepod.otherworld",
+  "dimension": "dragonminez:otherworld",
+  "icon_index": 2,
+  "x": 54.0,
+  "y": 210.0,
+  "z": 1082.0,
+  "unlock_rules": {
+    "and": ["OTHERWORLD_ENABLED", { "quest": "bulma_otherworld_drive" }]
+  }
+}
+</syntaxhighlight>
+
+<translate>
+Gated by a single saga quest, with fixed coordinates (the shipped Demon Realm entry):
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "demon_realm",
+  "name": "gui.dragonminez.spacepod.demon_realm",
+  "dimension": "dragonminez:demon_realm",
+  "icon_index": 6,
+  "x": 160.5,
+  "y": 745.0,
+  "z": 0.5,
+  "unlock_rules": { "quest": "daima_saga:3" }
+}
+</syntaxhighlight>
+
+<translate>
+Gated by a side quest, with the "keep X and Z, change only Y" coordinate form (<code>my_pack:sky_island</code> is a made-up example):
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "sky_island",
+  "name": "My Sky Island",
+  "translate": false,
+  "dimension": "my_pack:sky_island",
+  "icon_index": 2,
+  "y": 130.0,
+  "unlock_rules": { "quest": "bulma_time_chamber_link" }
+}
+</syntaxhighlight>
+
+<translate>
+A destination that can never be unlocked through this pack (useful if you want it hidden unless another pack overrides it):
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "id": "cereal",
+  "name": "gui.dragonminez.spacepod.cereal",
+  "dimension": "dragonminez:cereal_planet",
+  "icon_index": 4,
+  "unlock_rules": "NEVER"
+}
+</syntaxhighlight>
+
+<translate>
+A deeper nested example that combines level or race with a tag exclusion:
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "unlock_rules": {
+    "and": [
+      { "or": [{ "level": 10 }, { "race": "saiyan" }] },
+      { "not": { "tag": "tutorial_skipped" } }
+    ]
+  }
+}
+</syntaxhighlight>
+
+<translate>
+== Client screen ==
+</translate>
+<translate>
+Players browse destinations in <code>SpacePodScreen</code> (client side), which shows up to 7 entries at once and grays out or hides locked ones according to <code>show_when_locked</code>.
+</translate>
+
+<translate>
+== Reload and validate ==
+</translate>
+<translate>
+# Add or edit <code>data/<namespace>/spacepod/destinations.json</code>.
+# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
+# Run the vanilla <code>/reload</code>, or restart. This isn't covered by <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
+# Open the Space Pod menu in game and check that the destination appears and unlocks as expected.
+</translate>
+
+{{Navbox Modding}}

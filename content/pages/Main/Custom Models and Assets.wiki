@@ -1,0 +1,178 @@
+<translate>
+'''Custom models and assets''' let races and forms use your own geometry, body textures and faces. You don't need to build a separate add-on for this, but you do need to edit JSON config files and add assets to a resource pack.
+</translate>
+
+<translate>
+== How the model is chosen ==
+</translate>
+<translate>
+DragonMineZ picks the model key in this order:
+</translate>
+<translate>
+# The <code>customModel</code> of the active '''stack form''' (from <code>config/dragonminez/forms/<group>.json</code>).
+# The <code>customModel</code> of the active '''race form''' (from <code>races/<race>/forms/<group>.json</code>).
+# The race's <code>customModel</code> (from <code>races/<race>/character.json</code>).
+# The race's built-in default model (a custom race without <code>customModel</code> uses the Human model).
+</translate>
+
+<translate>
+Source: <code>src/main/java/com/dragonminez/client/model/DMZPlayerModel.java</code>.
+</translate>
+
+<translate>
+== Built-in model keys ==
+</translate>
+<translate>
+You can point any race or form at a model that already ships with DragonMineZ. These keys also bring that model's textures and faces with them:
+</translate>
+
+{| class="wikitable"
+! <translate>Family</translate> !! <translate>Keys</translate>
+|-
+| <translate>[[Special:MyLanguage/Human|Human]] / [[Special:MyLanguage/Saiyan|Saiyan]]</translate> || <code>human</code>, <code>saiyan</code>, <code>buffed</code>, <code>buffedg3</code>, <code>4arms</code>, <code>ssj4gt</code>, <code>ssj4d</code>, <code>oozaru</code>
+|-
+| <translate>[[Special:MyLanguage/Namekian|Namekian]]</translate> || <code>namekian</code>, <code>namekian_orange</code>, <code>namekian_buffed</code>
+|-
+| <translate>[[Special:MyLanguage/Majin|Majin]]</translate> || <code>majin</code>, <code>majin_super</code>, <code>majin_ultra</code>, <code>majin_evil</code>, <code>majin_kid</code>, <code>janemba_imperfect</code>, <code>janemba_fat</code>, <code>janemba_super</code>
+|-
+| <translate>[[Special:MyLanguage/Frost Demon|Frost Demon]]</translate> || <code>frostdemon</code>, <code>frostdemon_second</code>, <code>frostdemon_third</code>, <code>frostdemon_final</code>, <code>frostdemon_fifth</code>, <code>frostdemon_fp</code>, <code>frostdemon_mecha</code>, <code>frostdemon_metalcore</code>
+|-
+| <translate>[[Special:MyLanguage/Bio-Android|Bio-Android]]</translate> || <code>bioandroid</code>, <code>bioandroid_base</code>, <code>bioandroid_semi</code>, <code>bioandroid_perfect</code>, <code>bioandroid_ultra</code>, <code>bioandroid_xeno</code>, <code>bioandroid_xenofp</code>
+|-
+| <translate>[[Special:MyLanguage/Glind|Glind]]</translate> || <translate><code>glindtrueform</code>, <code>trascended</code> (uses the female model for female characters)</translate>
+|}
+
+<translate>
+The special key <code>finalbase</code> (used by the Ultimate stack form) switches back to the race's own base model for the built-in races.
+</translate>
+
+<translate>
+Any other key is a '''custom model key''' and follows the conventions below.
+</translate>
+
+<translate>
+== Geometry files ==
+</translate>
+<translate>
+Custom model files are looked up at this namespace and path, for race models '''and''' form models:
+</translate>
+
+<syntaxhighlight lang="text">
+assets/dragonminez/geo/entity/races/<model_key>.geo.json
+</syntaxhighlight>
+
+<translate>
+If the race has <code>hasGender: true</code>, DragonMineZ appends the gender suffix instead:
+</translate>
+
+<syntaxhighlight lang="text">
+assets/dragonminez/geo/entity/races/<model_key>_male.geo.json
+assets/dragonminez/geo/entity/races/<model_key>_female.geo.json
+</syntaxhighlight>
+
+<translate>
+If the file is not found, the player falls back to the default Human model. This suffix behavior comes from <code>DMZPlayerModel#resolveCustomModel</code>.
+</translate>
+
+<translate>
+Extra head parts chosen in character customization (the race's <code>headBones</code>) are taken from <code>assets/dragonminez/geo/entity/raceparts.geo.json</code> first, then from the race model itself, so you can add your own ear or horn bones directly to your model.
+</translate>
+
+<translate>
+== Body textures ==
+</translate>
+<translate>
+For custom model keys, body textures live in a folder named after the '''race key''': <code>assets/dragonminez/textures/entity/races/<race_key>/</code>.
+</translate>
+
+<translate>
+'''Layered races''' (<code>isLayered: true</code> in <code>character.json</code>) use three grayscale layers per body type, tinted with the three body colors:
+</translate>
+<translate>
+* <code><model_key>_<bodyType>_layer1.png</code> (body color 1)
+* <code><model_key>_<bodyType>_layer2.png</code> (body color 2)
+* <code><model_key>_<bodyType>_layer3.png</code> (body color 3)
+* With gender: <code><model_key>_male_<bodyType>_layer1.png</code>, <code><model_key>_female_<bodyType>_layer1.png</code> and so on.
+</translate>
+
+<translate>
+The number of body types offered in character customization is the number of consecutive <code><model_key>[_male|_female]_<n>_layer1.png</code> files found, starting at <code>0</code>. If the race has <code>useVanillaSkin: true</code>, body type <code>0</code> is the player's own Minecraft skin and your textures start at <code>1</code>. A missing <code>layer1</code> for a body type falls back to body type <code>0</code>.
+</translate>
+
+<translate>
+'''Non-layered races''' (<code>isLayered: false</code>) use a single texture tinted with body color 1: <code><model_key>.png</code>, or <code><model_key>_male.png</code> / <code><model_key>_female.png</code> with gender.
+</translate>
+
+<translate>
+Source: <code>src/main/java/com/dragonminez/client/util/SkinGathererProvider.java</code>, <code>src/main/java/com/dragonminez/client/util/TextureCounter.java</code>.
+</translate>
+
+<translate>
+== Face textures ==
+</translate>
+<translate>
+Layered custom races draw their own face from this folder:
+</translate>
+
+<syntaxhighlight lang="text">
+assets/dragonminez/textures/entity/races/<race_key>/faces/
+</syntaxhighlight>
+
+<translate>
+The files follow this naming pattern:
+</translate>
+<translate>
+* <code><model_key>_eye_<eyesType>_0.png</code> (white of the eye)
+* <code><model_key>_eye_<eyesType>_1.png</code> (eye color 1)
+* <code><model_key>_eye_<eyesType>_2.png</code> (eye color 2)
+* <code><model_key>_eye_<eyesType>_3.png</code> (eyebrows, hair color)
+* <code><model_key>_nose_<noseType>.png</code> (skin color)
+* <code><model_key>_mouth_<mouthType>.png</code> (skin color)
+</translate>
+
+<translate>
+A missing index falls back to <code>_0</code>. The customization screen offers your own eyes, noses and mouths first (counted from the files above, starting at <code>0</code>), followed by all of the Human ones, so players can also give your race a Human face.
+</translate>
+
+<translate>
+Non-layered custom races borrow the Human face entirely. When a race renders the player's Minecraft skin (body type <code>0</code> with <code>useVanillaSkin: true</code>), no face textures are drawn on top.
+</translate>
+
+<translate>
+Source: <code>src/main/java/com/dragonminez/client/render/layer/DMZSkinLayer.java</code> (<code>renderCustomFace</code>).
+</translate>
+
+<translate>
+== Assigning your model key ==
+</translate>
+<translate>
+Pick one place:
+</translate>
+<translate>
+* The race's default model: <code>races/<race>/character.json</code> → <code>customModel</code>
+* A specific form: <code>races/<race>/forms/<group>.json</code> → <code>forms.<form>.customModel</code>
+* A stack form: <code>forms/<group>.json</code> → <code>forms.<form>.customModel</code>
+</translate>
+<translate>
+Then add the matching geometry and textures to your resource pack. See [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]] for the other fields.
+</translate>
+
+<translate>
+== Transformation animations ==
+</translate>
+<translate>
+A form's <code>transformationAnimation</code> can name any animation defined in the player animation files under <code>assets/dragonminez/animations/entity/races/</code> (<code>movement</code>, <code>combat</code>, <code>ki</code>, <code>transf</code>, <code>skp</code>, <code>evs</code>). To add your own, ship a copy of <code>transf.animation.json</code> in your resource pack that keeps the built-in entries and adds your animation, then reference its name from the form config.
+</translate>
+
+<translate>
+== Checklist ==
+</translate>
+<translate>
+# Set <code>customModel</code> in the race or form config.
+# Add <code>geo/entity/races/<model_key>.geo.json</code> (plus <code>_male</code> and <code>_female</code> variants if the race has gender).
+# Add the body textures under <code>textures/entity/races/<race_key>/</code> (and gender variants if needed).
+# For layered races, add face textures for every eye, nose and mouth index you use.
+# Reload resources and run <code>/dmzreload</code>. Sometimes you will need to restart the game.
+</translate>
+
+{{Navbox Modding}}

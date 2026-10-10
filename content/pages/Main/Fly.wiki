@@ -1,0 +1,75 @@
+{{Infobox Skill
+|quote=<translate>Control your ki and take to the skies.</translate>
+|Type=<translate>Movement and utility</translate>
+|Max level=10
+|Key={{Key|F}}
+|Taught by={{L|Goku}}, {{L|Frieza}}
+|Cost=<translate>1,500 TP for level 1, then 600 to 3,000 TP per level</translate>
+|Effect=<translate>Ki flight with two modes, Search Fly and Combat Fly. Each level increases your speed.</translate>
+}}
+<translate>
+'''Fly''' is the skill that lets you fly with your ki. It has two flight modes: '''Search Fly''', a fast, free-steering 360° flight for travelling, and '''Combat Fly''', a momentum-based hover tuned for fighting. Each level of the skill makes you faster.
+</translate>
+
+<translate>
+== Learning it ==
+
+[[Special:MyLanguage/Goku|Goku]] (Good alignment) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Fly. To actually take off you also need [[Special:MyLanguage/Ki Control|Ki Control]] and at least '''5% Power Release'''.
+</translate>
+{| class="wikitable"
+! <translate>Level</translate> !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10
+|-
+! <translate>TP cost</translate>
+| 1,500 || 600 || 900 || 1,200 || 1,500 || 1,800 || 2,100 || 2,400 || 2,700 || 3,000
+|}
+
+<translate>
+== Taking off ==
+
+Jump and press {{Key|F}} in mid-air to start flying, and press it again to stop. You can also toggle Fly from the Utility Menu ({{Key|X}}) under '''Movement'''.
+</translate>
+
+<translate>
+== Flight modes ==
+</translate>
+{| class="wikitable"
+! <translate>Mode</translate> !! <translate>Best for</translate> !! <translate>How it feels</translate>
+|-
+| '''<translate>Search Fly</translate>''' || <translate>Travelling</translate> || <translate>Fast, free-steering 360° flight.</translate>
+|-
+| '''<translate>Combat Fly</translate>''' || <translate>Fighting</translate> || <translate>A momentum-based hover tuned for combat.</translate>
+|}
+
+<translate>
+Switch between them with {{Key|Alt}} + {{Key|F}}, or in the Utility Menu under '''Movement → Fly'''.
+
+By default, taking or dealing damage while in Search Fly switches you to Combat Fly for '''8 seconds'''.
+</translate>
+
+<translate>
+=== Flight options ===
+
+Hovering '''Fly''' in the Utility Menu ('''{{Key|X}} → Movement → Fly''') opens its options:
+
+* '''Search Fly / Combat Fly''' switches the mode (same as {{Key|Alt}} + {{Key|F}}).
+* '''Flight Speed''' caps your flight speed between 5% and 100% in 5% steps. The cap also slows rising and descending. Click it again to go back to 100%, or hover it and use the mouse wheel.
+* '''Mode Lock''' remembers the mode you chose. When taking or dealing damage forces you from Search Fly into Combat Fly, you are switched back to your chosen mode as soon as the Combat Fly lock ends.
+</translate>
+
+<translate>
+== Flying in combat ==
+
+* [[Special:MyLanguage/Strike Attacks|Strike attacks]] reach targets up to 12 blocks away while you fly, instead of 6.
+* During a '''Ki Surge''' you fly faster (see [[Special:MyLanguage/Combat|Combat]]).
+* By default Combat Fly drains Ki at half the normal rate.
+</translate>
+{{Config|Combat Config|combatFly*}}
+
+<translate>
+== Notes ==
+
+* If you can't fly yet, [[Special:MyLanguage/Korin|Korin]] gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] (or a Black Nimbus if your alignment is 50 or lower).
+* All flight keys can be rebound in Minecraft's controls (see [[Special:MyLanguage/Controls|Controls]]).
+</translate>
+
+{{Navbox Abilities}}

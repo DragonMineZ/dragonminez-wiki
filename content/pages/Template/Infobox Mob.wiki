@@ -1,0 +1,35 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-mob
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Combat, Rewards
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Dimension, Spawns, Behavior
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Dimension_label={{#invoke:Labels|get|Dimension}}
+|Spawns_label={{#invoke:Labels|get|Spawns}}
+|Behavior_label={{#invoke:Labels|get|Behavior}}
+
+|Combat=Health, Damage, Ki damage, Abilities
+|Combat_label={{#invoke:Labels|get|Combat}}
+|Health_label={{#invoke:Labels|get|Health}}
+|Health={{#if:{{{Health|}}}|{{formatnum:{{{Health}}}}}}}
+|Damage_label={{#invoke:Labels|get|Damage}}
+|Ki damage_label={{#invoke:Labels|get|Ki damage}}
+|Abilities_label={{#invoke:Labels|get|Abilities}}
+
+|Rewards=Drops, TP reward
+|Rewards_label={{#invoke:Labels|get|Rewards}}
+|Rewards_collapsible=yes
+|Drops_label={{#invoke:Labels|get|Drops}}
+|TP reward_label={{#invoke:Labels|get|TP reward}}
+|TP reward={{#if:{{{TP reward|}}}|{{formatnum:{{{TP reward}}}}}}}
+}}[[Category:Bestiary{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

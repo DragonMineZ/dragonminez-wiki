@@ -1,0 +1,26 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-dimension
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Content
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Gravity, Access, Biomes
+|General_label={{#invoke:Labels|get|General}}
+|Gravity_label={{#invoke:Labels|get|Gravity}}
+|Access_label={{#invoke:Labels|get|Access}}
+|Biomes_label={{#invoke:Labels|get|Biomes}}
+
+|Content=Resources, Inhabitants, Structures, Bosses
+|Content_label={{#invoke:Labels|get|Content}}
+|Resources_label={{#invoke:Labels|get|Resources}}
+|Inhabitants_label={{#invoke:Labels|get|Inhabitants}}
+|Structures_label={{#invoke:Labels|get|Structures}}
+|Bosses_label={{#invoke:Labels|get|Bosses}}
+}}[[Category:Dimensions{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

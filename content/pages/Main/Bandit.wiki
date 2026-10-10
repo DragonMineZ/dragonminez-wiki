@@ -1,0 +1,37 @@
+{{Infobox Mob
+|Type=<translate>Hostile, wild enemy</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate>Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions</translate>
+|Behavior=<translate>Attacks on sight</translate>
+|Health=75
+|Damage=10
+|Drops=<translate>1–2 Raw Beef (Steak if on fire)</translate>
+}}
+<translate>
+'''Bandits''' are outlaws who roam the forests, savannas and jungles of [[Special:MyLanguage/Earth|Earth]] and attack anyone they meet. They are one of the first human enemies a new fighter runs into.
+</translate>
+
+<translate>
+== Spawning ==
+
+Bandits spawn in savanna, forest and jungle biomes, and in biomes with plains or savanna villages or woodland mansions (spawn weight 12, groups of 1–2). They share this spawn table with the [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tiger]].
+
+The Bandit is a '''wild enemy''': it spawns under open sky, day or night, but never where light from torches and other blocks reaches, and it despawns when no player is around. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]].
+</translate>
+
+<translate>
+== Drops ==
+
+* 1–2 '''Raw Beef''' (+0–1 Looting); it drops cooked, as Steak, if the bandit dies while on fire.
+</translate>
+
+<translate>
+== In the story ==
+
+In the [[Special:MyLanguage/Daima Saga|Daima Saga]], the quest '''Demon Bandits''' sends you after 10 Bandits on the Third Demon World of the [[Special:MyLanguage/Demon Realm|Demon Realm]].
+</translate>
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:bandit</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]

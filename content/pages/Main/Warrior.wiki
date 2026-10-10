@@ -1,0 +1,50 @@
+{{Infobox Class
+|quote=<translate>The melee bruiser: balanced physical stats and the best sustained stamina in the game.</translate>
+|Passive=<translate>Fury</translate>
+|Playstyle=<translate>Melee combos</translate>
+|Strength=1.4
+|Strike Power=1.0
+|Resistance=<translate>DEF 0.24, STM 1.6</translate>
+|Vitality=1.8
+|Ki Power=0.5
+|Energy=1.5
+}}
+<translate>
+'''Warrior''' is the melee bruiser among the [[Special:MyLanguage/Classes|classes]]: balanced physical stats, a strong stamina scaling and a passive that rewards long melee combos with stamina regeneration and defense penetration.
+</translate>
+
+<translate>
+== Passive: Fury ==
+
+Landing '''3 consecutive unblocked melee hits''' grants '''1 Fury stack''', up to '''5'''.
+
+* Each stack gives '''+10% stamina regeneration'''.
+* At '''5 stacks''' you also gain '''+10% defense penetration'''.
+* A blocked hit resets the combo, and the combo also resets after 3 seconds without hits.
+* Stacks refresh when you deal damage and fade after 5 seconds without dealing damage.
+
+Defense penetration lowers the defense of the target you hit; see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].
+</translate>
+
+<translate>
+== Starting stats and regeneration ==
+
+* '''Starting stats:''' STR 10 · RES 5 · VIT 5
+* '''Regeneration''' (per 5 seconds): health 1.75 (+0.06 per VIT) · Ki 4.0 (+0.08 per ENE) · stamina 12.0 (+0.045 per VIT, +0.06 per RES)
+</translate>
+
+<translate>
+== Stat scaling ==
+
+The Warrior's standout scaling is '''stamina''' (STM 1.6), backed by solid Strength (1.4) and Vitality (1.8). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|Custom Races|stats.json}}
+<translate>
+The class id is <code>warrior</code>. Its passive values (<code>comboHits</code>, <code>maxStacks</code>, <code>stmRegenPerStack</code>, <code>armorPenAtMax</code>, <code>stackDurationTicks</code> and <code>comboResetTicks</code>) are set per race in <code>races/&lt;race&gt;/stats.json</code>, together with the starting stats, scalings and regeneration.
+</translate>
+
+{{Navbox Classes}}

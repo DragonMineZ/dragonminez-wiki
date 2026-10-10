@@ -1,0 +1,45 @@
+Infobox for item pages, built on [[Module:Infobox]] (DRUID). Every parameter is optional; empty rows are hidden. Labels are translated automatically from [[Module:Labels/data]]. Without <code>image</code> it shows <code>File:&lt;page name&gt;.png</code> when that file exists, or the placeholder otherwise, so uploading <code>File:&lt;page name&gt;.png</code> is enough to replace it.
+
+== Usage ==
+<pre>
+{{Infobox Item
+|title=
+|image=
+|caption=
+|quote=
+|Type=
+|Effect=
+|Duration=
+|Stack size=
+|Obtained=
+|Crafting=
+|Sold by=
+}}
+</pre>
+
+== Parameters ==
+{| class="wikitable"
+! Parameter
+|-
+| <code>title</code>
+|-
+| <code>image</code>
+|-
+| <code>caption</code>
+|-
+| <code>quote</code>
+|-
+| <code>Type</code>
+|-
+| <code>Effect</code>
+|-
+| <code>Duration</code>
+|-
+| <code>Stack size</code>
+|-
+| <code>Obtained</code>
+|-
+| <code>Crafting</code>
+|-
+| <code>Sold by</code>
+|}

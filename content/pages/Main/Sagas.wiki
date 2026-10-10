@@ -1,0 +1,178 @@
+<translate>
+'''Sagas''' are DragonMineZ's story mode. They retell the Dragon Ball story as chains of quests: fights against story characters, sparring sessions, deliveries and trips across [[Special:MyLanguage/Earth|Earth]], [[Special:MyLanguage/Namek|Namek]], the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]], the [[Special:MyLanguage/Otherworld|Otherworld]] and the [[Special:MyLanguage/Demon Realm|Demon Realm]]. You follow your progress in the '''Quest Tree''', the Quests tab of the [[Special:MyLanguage/Menus|character menu]]. Every quest pays out '''Attributes''' (stat points plus [[Special:MyLanguage/Training Points and Mastery|Training Points]]), and some also give items or unlocks.
+</translate>
+
+{{Note|type=config|title=<translate>Default sagas</translate>|<translate>These pages describe the default sagas. They are generated as editable JSON in the world folder, so server owners can change, remove or add fights (see [[Special:MyLanguage/Custom Quests|Custom Quests]]). Story mode itself can be turned off with <code>storyModeEnabled</code>, and the generation of the default sagas with <code>createDefaultSagas</code>, both in the [[Special:MyLanguage/General Server Config|General Server Config]].</translate>}}
+
+<div class="dmz-cards">
+{{Card|Classic Saga|<translate>Kid Goku's adventures, from his first Dragon Ball hunt to Piccolo Jr.</translate>}}
+{{Card|Saiyan Saga|<translate>Raditz, Nappa and Vegeta, ending with the flight to Namek.</translate>}}
+{{Card|Frieza Saga|<translate>Frieza's army, the Ginyu Force and Frieza's four forms on Namek.</translate>}}
+{{Card|Android Saga|<translate>Dr. Gero's Androids, Cell and the Cell Games.</translate>}}
+{{Card|Future Saga|<translate>Future Trunks' ruined timeline.</translate>}}
+{{Card|Buu Saga|<translate>The World Tournament, Babidi and Majin Buu in all his forms.</translate>}}
+{{Card|Movies Saga|<translate>The DBZ movies, from Garlic Jr. to Hirudegarn, alongside the main story.</translate>}}
+{{Card|GT Saga|<translate>The Black Star Dragon Balls, Baby, Super 17 and the Shadow Dragons.</translate>}}
+{{Card|Daima Saga|<translate>Gomah's wish and the three Demon Worlds.</translate>}}
+</div>
+
+<translate>
+== Saga order ==
+</translate>
+<translate>
+There are nine default sagas. A saga opens once you have completed '''every quest of the saga before it'''. Inside a saga, quests unlock one after another.
+</translate>
+
+{| class="wikitable"
+! <translate>Order</translate> !! <translate>Saga</translate> !! <translate>Opens after</translate> !! <translate>Quests</translate> !! <translate>Takes you to</translate>
+|-
+| 1 || {{L|Classic Saga}} || <translate>Available from the start</translate> || 52 || {{L|Earth}}
+|-
+| 2 || {{L|Saiyan Saga}} || {{L|Classic Saga}} || 16 || {{L|Earth}}, {{L|Namek}}
+|-
+| 3 || {{L|Frieza Saga}} || {{L|Saiyan Saga}} || 22 || {{L|Namek}}
+|-
+| 4 || {{L|Android Saga}} || {{L|Frieza Saga}} || 22 || {{L|Earth}}
+|-
+| 5 || {{L|Future Saga}} || {{L|Android Saga}} || 7 || {{L|Earth}}
+|-
+| 5 || {{L|Buu Saga}} || {{L|Android Saga}} || 42 || {{L|Earth}}, {{L|Hyperbolic Time Chamber}}, {{L|Sacred Kai Planet}}
+|-
+| 6 || {{L|GT Saga}} || {{L|Buu Saga}} || 46 || {{L|Earth}}, {{L|Namek}}, {{L|Sacred Kai Planet}}, {{L|Otherworld}}
+|-
+| 6 || {{L|Daima Saga}} || {{L|Buu Saga}} || 17 || {{L|Earth}}, {{L|Demon Realm}}
+|-
+| — || {{L|Movies Saga}} || {{L|Saiyan Saga}} #1 || 40 || {{L|Earth}}, {{L|Namek}}, {{L|Otherworld}}
+|}
+
+<translate>
+* The Future and Buu sagas both branch from the Android Saga, and the GT and Daima sagas both branch from the Buu Saga: play them in any order.
+* The [[Special:MyLanguage/Movies Saga|Movies Saga]] runs alongside the main story. Its first quest opens after ''Defeat Raditz'' (Saiyan Saga #1), and each later movie only opens once you have reached the matching point of the main story.
+* When you start the first quest of a saga, a title card (''A New Saga Begins'' and the saga's name) fades in on screen for you and every member of your party.
+* Most race transformations can only be bought after a given saga quest. Each saga page lists the forms it unlocks; see [[Special:MyLanguage/Transformations|Transformations]].
+</translate>
+
+<translate>
+== Difficulty ==
+</translate>
+{{Config|General Server Config|gameplay}}
+<translate>
+The first time you open the Quest Tree you pick a story difficulty: '''Easy''', '''Normal''' or '''Hard'''. '''The choice is permanent.''' The only way to change it later is the '''Change Difficulty''' wish of [[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]], which lets you choose again the next time you open the Quest Tree without resetting your saga progress.
+</translate>
+
+<translate>
+Difficulty only affects the enemies spawned for you and your party, never anyone else's, plus your own gains:
+</translate>
+
+{| class="wikitable"
+! !! <translate>Easy</translate> !! <translate>Normal</translate> !! <translate>Hard</translate>
+|-
+| <translate>Enemy health</translate> || ×0.75 || ×1 || ×2
+|-
+| <translate>Enemy damage</translate> || ×0.5 || ×1 || ×1.5
+|-
+| <translate>Training Points (global multiplier)</translate> || ×1.25 || ×1 || ×1.25
+|-
+| <translate>Quest rewards (Attributes, TP, items, alignment)</translate> || ×1 || ×1 || ×1.25
+|-
+| <translate>Enemy AI</translate> || <translate>Novice</translate> || <translate>Smart</translate> || <translate>Elite (Expert for final bosses)</translate>
+|}
+
+<translate>
+Easy and Hard both raise your Training Point gains on purpose: on Easy the bonus helps you progress fast, and on Hard it rewards the extra effort (Hard also multiplies quest rewards). Skill, form and technique unlocks given as rewards are never multiplied.
+</translate>
+
+<translate>
+=== Parties ===
+</translate>
+<translate>
+Party members share quest progress, and the party leader's difficulty applies to the whole party. You can only join a party playing on your difficulty or higher. Joining a higher-difficulty party asks for confirmation and '''permanently''' raises your own difficulty: it does not go back down when you leave.
+</translate>
+
+<translate>
+== How saga fights work ==
+</translate>
+<translate>
+* When a combat quest starts, its enemies are '''spawned for you''' near you, and only those quest enemies count toward the objective. Their health and damage come from the quest, scaled by your difficulty and your '''party size'''.
+* Many quests can only be '''started in a specific place''': a biome, a structure or a dimension (the ''Where'' column of the quest lists). Some also open only after a set amount of real time has passed since they became available (training periods).
+* '''Spar''' objectives are non-lethal: your sparring partner concedes instead of dying.
+* '''Survive waves''' objectives spawn successive waves of enemies around you.
+* If your whole party is wiped out, any active quest with a fight '''fails''' and its progress resets.
+* Some enemies transform mid-fight (for example Zarbon, Frieza's second form or Broly), switching to their next form with new stats.
+</translate>
+
+<translate>
+=== Enemy AI tiers ===
+</translate>
+<translate>
+Story enemies decide what to do in real time. How smart they are depends on their '''AI tier''', which comes from your difficulty unless the quest sets a tier of its own (<code>AITier</code>).
+</translate>
+
+{| class="wikitable"
+! <translate>Tier</translate> !! <translate>Used for</translate> !! <translate>Behavior</translate>
+|-
+| <translate>1 · Novice</translate> || <translate>Easy difficulty, naturally spawned mobs</translate> || <translate>Slow reactions. Melee, random combos and the occasional ki attack (one at a time). No dashing, no Zanzoken.</translate>
+|-
+| <translate>2 · Smart</translate> || <translate>Normal difficulty, tournament fighters</translate> || <translate>Faster reactions. Picks ki attacks that fit the situation, dashes in, strafes, uses Zanzoken and teleports, and reads your guard. Groups focus the player attacking them.</translate>
+|-
+| <translate>3 · Elite</translate> || <translate>Hard difficulty, Cell Jr.</translate> || <translate>Everything Smart does, plus kiting and flanking. Remembers which of its attacks worked, leads its aim, raises a ki barrier against incoming attacks and '''punishes you while you charge or transform'''. Targets the weakest or most exposed party member.</translate>
+|-
+| <translate>4 · Expert</translate> || <translate>[[Special:MyLanguage/World Bosses|World Bosses]]; on Hard, the final bosses listed below</translate> || <translate>Elite with the fastest reactions, near-perfect dodging and aim.</translate>
+|}
+
+<translate>
+'''Final bosses that use Expert AI on Hard:''' Kid Buu, Super [[Special:MyLanguage/Janemba|Janemba]], Hirudegarn (Final Form), Broly (Legendary Super Saiyan), Bojack (Full Power), [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]], Super Android 13, Bio-Broly (Giant), Cooler (Final Form), Lord Slug (Giant), Omega Shenron, Super 17, Golden Great Ape Baby, Super Baby Vegeta 2, Hyper Meta-Rilldo and Lord Luud.
+</translate>
+
+<translate>
+Each character also has its own '''Zanzoken level''' (none, 2, 4 or 6 after-image hops) and its own set of ki attacks and combos. The AI tier only decides how well they are used.
+</translate>
+
+<translate>
+== Rewards ==
+</translate>
+{{See also|Stats and Attributes}}
+<translate>
+Every saga quest pays '''Attributes''' (shown as "x40 Attributes"). Some also give items ([[Special:MyLanguage/Senzu Bean|Senzu Beans]], a [[Special:MyLanguage/Space Pod|Saiyan Space Pod]], a [[Special:MyLanguage/Dragon Radar|Dragon Radar]], the [[Special:MyLanguage/Dimension Sword|Dimension Sword]]…) or unlocks (the levels of the '''Legendary Forms''' skill from the Broly, Bio-Broly and Hirudegarn movies). You claim rewards from the Quest Tree once the quest is complete.
+</translate>
+
+<translate>
+Attributes are split when you claim them: '''half''' arrive as '''Attribute Points''' you place in the stats menu, and the other half as the '''Training Points''' those stat points would cost you right now. Because the TP part follows your current stat cost, a reward is worth as much late in the game as early on. Hover a reward in the Quest Tree (or under it in an NPC's quest sheet) to see the split and roughly how much TP it is worth for you.
+</translate>
+
+<translate>
+The values on the saga pages are '''base''' values. Your difficulty's quest-reward multiplier applies on top (Hard ×1.25), and after a story reset the Attributes shrink the same way TP rewards do (<code>storyResetTPMultiplier</code>). The server's TP boosts do not apply to them.
+</translate>
+
+<translate>
+A reward can also be limited to certain difficulties. The Quest Tree groups such rewards and greys out the ones your difficulty can't receive. None of the default saga rewards use this.
+</translate>
+
+<translate>
+== Dying during the story ==
+</translate>
+{{Config|General Server Config|babaTemporaryRevive}}
+<translate>
+If the [[Special:MyLanguage/Otherworld|Otherworld]] is enabled, dying sends you there as a spirit. After a short cooldown, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] (in the Otherworld) can let you '''borrow time''': a '''temporary revive''' (1 hour by default) during which you walk the living world as a spirit with a halo. The timer pauses while you are in the Otherworld, and drains faster while you are transformed, in some dimensions, and each time you borrow time again.
+</translate>
+
+<translate>
+A lethal hit while temporarily revived '''knocks you out''' instead of killing you, but it eats part of your remaining time and '''fails your active fight quest''', just like a death would. Server owners can switch Baba back to a permanent revive. The revive wishes of [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] bring dead players back to life for good. The full rules are on the [[Special:MyLanguage/Otherworld|Otherworld]] page.
+</translate>
+
+<translate>
+== Quest lists ==
+</translate>
+<translate>
+Each saga page lists its quests in play order, with these columns:
+* '''#''': the quest's number. Quests added to a saga later keep their own number, so on some sagas the numbers are not in play order; those pages also show the '''Step''' (the position in play order). Lock messages and references such as "Saiyan Saga #11" use the number.
+* '''Objective''': what to do. Several lines are done in order.
+* '''Where''': where the quest can be started.
+* '''Attributes''' and '''Other rewards''': base values.
+</translate>
+
+<translate>
+Janemba, [[Special:MyLanguage/Turles|Turles]], Metal Cooler Core and the three Tamagamis also roam the world as [[Special:MyLanguage/World Bosses|World Bosses]]. Fortuneteller Baba, Cell and the Otherworld Tournament host [[Special:MyLanguage/Tournaments|Tournaments]].
+</translate>
+
+{{Navbox Sagas}}

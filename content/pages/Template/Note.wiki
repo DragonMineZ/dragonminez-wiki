@@ -1,0 +1,2 @@
+<includeonly><div class="dmz-note dmz-note--{{#switch:{{{type|}}}|tip=tip|warning=warning|danger=danger|config=config|#default=info}}"><div class="dmz-note__body">{{#if:{{{title|}}}|<span class="dmz-note__title">{{{title}}}</span>}}
+{{{1|{{{text|}}}}}}</div></div></includeonly><noinclude>{{Documentation}}</noinclude>

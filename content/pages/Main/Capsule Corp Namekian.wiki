@@ -1,0 +1,35 @@
+{{Infobox Mob
+|Type=<translate>Trader</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate>Its own house inside Ajissa villages</translate>
+|Behavior=<translate>Trades</translate>
+|Abilities=<translate>Sells treasure maps to Namek structures</translate>
+|Drops=<translate>None</translate>
+}}
+<translate>
+The '''Capsule Corp Namekian''' is the [[Special:MyLanguage/Namek|Namek]] counterpart of the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]. It lives in its own house inside the '''Ajissa villages''' of Planet Namek and works as a structure locator, selling treasure maps to Namek's landmarks.
+</translate>
+
+<translate>
+== Treasure maps ==
+
+Each map trade can be used up to 8 times.
+</translate>
+{| class="wikitable"
+! <translate>Map to</translate> !! <translate>Cost</translate>
+|-
+| <translate>Frieza's Ship</translate> || <translate>1 Tier-1 Radar Chip</translate>
+|-
+| <translate>Grand Elder's House (Elder Guru)</translate> || <translate>1 Healing Bucket</translate>
+|}
+
+<translate>
+Every map points at the nearest structure of its kind with a red X. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located; re-open the trade window to check again.
+
+For the map to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], see the [[Special:MyLanguage/Namekian Trader|Namekian Trader]].
+</translate>
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:cc_namekian</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

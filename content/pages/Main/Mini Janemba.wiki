@@ -1,0 +1,40 @@
+{{Infobox Mob
+|quote=<translate>You've lingered in Hell too long… a Mini Janemba stampede is coming!</translate>
+|Type=<translate>Hostile, event</translate>
+|Dimension={{L|Otherworld}}
+|Spawns=<translate>A stampede of 20 after you linger 8 to 14 minutes in Hell</translate>
+|Behavior=<translate>Charges at you; the herd vanishes once one of them hits you</translate>
+|Health=20
+|Damage=2
+|Drops=<translate>None</translate>
+}}
+<translate>
+'''Mini Janembas''' are small copies of [[Special:MyLanguage/Janemba|Janemba]]. In Hell they come as a '''stampede''' that punishes players who stay too long, and in the Janemba world boss fight the boss calls them to his side.
+</translate>
+
+<translate>
+== The stampede ==
+
+Linger in Hell, below the clouds of the [[Special:MyLanguage/Otherworld|Otherworld]] (below Y 96), for '''8 to 14 minutes''' in a row and a herd of '''20 Mini Janembas''' comes charging at you from about 20 blocks away. The time is random, and it is rolled again each time you enter Hell and after every stampede.
+
+As soon as one of them lands a hit, knocking you back, the whole herd scatters and vanishes in a puff of smoke. Any that are left disappear after 40 seconds.
+
+Only survival and adventure players are targeted: being in creative or spectator mode, or leaving Hell, resets the timer, and there are no stampedes in Peaceful.
+</translate>
+
+<translate>
+== Drops ==
+
+Mini Janembas drop nothing.
+</translate>
+
+<translate>
+== In the Janemba fight ==
+
+During the [[Special:MyLanguage/Janemba|Janemba]] world boss fight, Janemba calls a ring of 10 Mini Janembas when his health drops to 80%, and again at 60%. While they are alive he sits back and doesn't fight; see [[Special:MyLanguage/Janemba|Janemba]] for the whole fight.
+</translate>
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:mini_janemba_stampede</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]

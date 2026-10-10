@@ -1,0 +1,26 @@
+<includeonly>{{#invoke:Infobox|main
+|kind=dmz-item
+|sep=,
+|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
+|image={{#invoke:Labels|image|{{{image|}}}}}
+|caption={{{caption|}}}
+|sections=Summary, General, Obtaining
+
+|Summary=Quote
+|Summary_nolabel=yes
+|Quote_nolabel=yes
+|Quote={{#if:{{{quote|}}}|''{{{quote}}}''}}
+
+|General=Type, Effect, Duration, Stack size
+|General_label={{#invoke:Labels|get|General}}
+|Type_label={{#invoke:Labels|get|Type}}
+|Effect_label={{#invoke:Labels|get|Effect}}
+|Duration_label={{#invoke:Labels|get|Duration}}
+|Stack size_label={{#invoke:Labels|get|Stack size}}
+
+|Obtaining=Obtained, Crafting, Sold by
+|Obtaining_label={{#invoke:Labels|get|Obtaining}}
+|Obtained_label={{#invoke:Labels|get|Obtained}}
+|Crafting_label={{#invoke:Labels|get|Crafting}}
+|Sold by_label={{#invoke:Labels|get|Sold by}}
+}}[[Category:Items{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

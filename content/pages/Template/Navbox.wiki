@@ -1,0 +1,11 @@
+<includeonly><div class="dmz-navbox mw-collapsible" role="navigation"><div class="dmz-navbox__title">{{#if:{{{link|}}}|{{L|{{{link}}}|{{{title}}}}}|{{{title}}}}}</div><div class="dmz-navbox__body mw-collapsible-content">{{#if:{{{list1|}}}|<div class="dmz-navbox__row">{{#if:{{{group1|}}}|<div class="dmz-navbox__group">{{{group1}}}</div>}}<div class="dmz-navbox__list">{{{list1}}}</div></div>}}{{#if:{{{list2|}}}|<div class="dmz-navbox__row">{{#if:{{{group2|}}}|<div class="dmz-navbox__group">{{{group2}}}</div>}}<div class="dmz-navbox__list">{{{list2}}}</div></div>}}{{#if:{{{list3|}}}|<div class="dmz-navbox__row">{{#if:{{{group3|}}}|<div class="dmz-navbox__group">{{{group3}}}</div>}}<div class="dmz-navbox__list">{{{list3}}}</div></div>}}{{#if:{{{list4|}}}|<div class="dmz-navbox__row">{{#if:{{{group4|}}}|<div class="dmz-navbox__group">{{{group4}}}</div>}}<div class="dmz-navbox__list">{{{list4}}}</div></div>}}{{#if:{{{list5|}}}|<div class="dmz-navbox__row">{{#if:{{{group5|}}}|<div class="dmz-navbox__group">{{{group5}}}</div>}}<div class="dmz-navbox__list">{{{list5}}}</div></div>}}{{#if:{{{list6|}}}|<div class="dmz-navbox__row">{{#if:{{{group6|}}}|<div class="dmz-navbox__group">{{{group6}}}</div>}}<div class="dmz-navbox__list">{{{list6}}}</div></div>}}{{#if:{{{list7|}}}|<div class="dmz-navbox__row">{{#if:{{{group7|}}}|<div class="dmz-navbox__group">{{{group7}}}</div>}}<div class="dmz-navbox__list">{{{list7}}}</div></div>}}{{#if:{{{list8|}}}|<div class="dmz-navbox__row">{{#if:{{{group8|}}}|<div class="dmz-navbox__group">{{{group8}}}</div>}}<div class="dmz-navbox__list">{{{list8}}}</div></div>}}</div></div></includeonly><noinclude>Collapsible navigation box shown at the bottom of related pages. Up to 8 rows of <code>groupN</code> / <code>listN</code>. Separate links with <code><nowiki>{{·}}</nowiki></code>.
+
+<pre>
+{{Navbox
+|title={{#invoke:Labels|get|Races}}
+|link=Races
+|group1={{#invoke:Labels|get|Playable races}}
+|list1={{L|Human}}{{·}}{{L|Saiyan}}
+}}
+</pre>
+</noinclude>

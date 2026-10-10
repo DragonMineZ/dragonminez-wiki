@@ -1,0 +1,98 @@
+<translate>
+'''Side quests''' are optional quests that run alongside the [[Special:MyLanguage/Sagas|sagas]]. DragonMineZ ships 125 of them: errands for the [[Special:MyLanguage/Masters|masters]], training challenges, trips to other worlds, fights against movie villains and the Capsule Corp gadgets [[Special:MyLanguage/Bulma|Bulma]] builds for you. Most of them unlock as the story moves forward, and they reward '''Attributes''' and items.
+</translate>
+
+<translate>
+== How side quests work ==
+</translate>
+<translate>
+Open the '''Story''' menu and switch to the '''Side''' tab of the quest tree. Side quests are sorted into categories (General, Story, Training, Exploration, Combat, Collection and Capsule Corp), and each one shows whether it is '''Locked''', '''Available''' or '''In Progress'''.
+</translate>
+
+<translate>
+* '''Starting and claiming:''' you can accept a side quest and claim its rewards from the quest tree or by talking to its NPC. The tables below show who gives each quest; quests without a giver only live in the quest tree.
+* '''Unlocking:''' most side quests open after a given saga quest, after another side quest or at a minimum level. Some can only be '''started''' while you meet an extra condition, such as an [[Special:MyLanguage/Alignment|alignment]] range or standing in a certain dimension, biome or structure. The '''Requirements''' column lists both.
+* '''Objectives:''' a numbered list must be done in order; a bulleted list marked ''In any order'' can be done in any order.
+* '''Enemies spawned by the quest''' only count when they come from that quest. Their health is listed next to the objective.
+* '''Rewards:''' '''Attributes''' are split between Attribute Points and TP that keep their value however expensive your stats get (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]).
+</translate>
+
+<translate>
+=== Playing in a party ===
+</translate>
+<translate>
+Every default side quest scales with your [[Special:MyLanguage/Menus#Party|party]]: item and kill counts go up for each extra member, and quest enemies get more health and damage. Every party member claims their own rewards. The multipliers are server settings (see [[Special:MyLanguage/Custom Quests|Custom Quests]]).
+</translate>
+
+<translate>
+=== Repeatable side quests ===
+</translate>
+<translate>
+''Medi-Bug Market'', from Bulma, can be repeated once an hour (real time). Every other default side quest can only be done once per character.
+</translate>
+
+{{Config|General Server Config|gameplay}}
+<translate>
+Servers can turn side quests off, stop the default files from being generated or add their own side quests: see [[Special:MyLanguage/Custom Quests|Custom Quests]].
+</translate>
+
+<translate>
+== Overview ==
+</translate>
+{{#invoke:Sidequests|summary}}
+
+<div id="story"></div>
+<translate>
+== Story ==
+</translate>
+<translate>
+Side stories that continue where the saga quests leave off.
+</translate>
+{{#invoke:Sidequests|category|story}}
+
+<div id="training"></div>
+<translate>
+== Training ==
+</translate>
+<translate>
+Training challenges set by the masters: sparring, meditation, gravity and skill goals.
+</translate>
+{{#invoke:Sidequests|category|training}}
+
+<div id="exploration"></div>
+<translate>
+== Exploration ==
+</translate>
+<translate>
+Trips to landmarks, biomes and the other worlds.
+</translate>
+{{#invoke:Sidequests|category|exploration}}
+
+<div id="combat"></div>
+<translate>
+== Combat ==
+</translate>
+<translate>
+Hunts and fights, from village night watches to rematches with villains from the movies, GT and Daima.
+</translate>
+{{#invoke:Sidequests|category|combat}}
+
+<div id="collection"></div>
+<translate>
+== Collection ==
+</translate>
+<translate>
+Gathering and delivery quests: food, materials and favours for the people you meet.
+</translate>
+{{#invoke:Sidequests|category|collection}}
+
+<div id="tech"></div>
+<translate>
+== Capsule Corp ==
+</translate>
+<translate>
+Bulma's gadget line. These quests unlock and upgrade [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations.
+</translate>
+{{#invoke:Sidequests|category|tech}}
+
+{{Navbox Sagas}}

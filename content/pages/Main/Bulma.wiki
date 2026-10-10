@@ -1,0 +1,49 @@
+{{Infobox Mob
+|Type=<translate>Quest NPC</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate>Placed with [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]</translate>
+|Behavior=<translate>Friendly; talks to characters with alignment 41 or higher</translate>
+|Abilities=<translate>Story deliveries and the Capsule Corp side quests</translate>
+|Drops=<translate>None</translate>
+}}
+<translate>
+'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets and a long list of errands.
+</translate>
+
+<translate>
+== Finding her ==
+</translate>
+<translate>
+Bulma is part of the structure: she is placed when [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] generates, in the rocky lands of Earth, next to [[Special:MyLanguage/Vegeta|Vegeta]]. Use the Capsule Corp Assistant's maps or <code>/dmzlocate</code> to find the pod (see [[Special:MyLanguage/Structures|Structures]]).
+</translate>
+
+<translate>
+== Alignment ==
+</translate>
+<translate>
+Bulma only talks to characters with an [[Special:MyLanguage/Alignment|alignment]] of 41 or higher. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+</translate>
+
+<translate>
+== In the story ==
+</translate>
+<translate>
+* [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 14, ''Repairing the Saiyan Pod'': find Vegeta's Saiyan Pod and give Bulma 8 Blocks of Iron, 4 Blocks of Redstone and 4 Diamonds.
+* Saiyan Saga quest 15, ''Prepare for Namek'': talk to Bulma; the reward is a Saiyan [[Special:MyLanguage/Space Pod|Space Pod]].
+* [[Special:MyLanguage/Android Saga|Android Saga]] quest 18, ''Gero's Blueprints'': bring her 16 Paper from [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]].
+* [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 38, ''Evacuate the City'': deliver 32 Bread and 24 Steak.
+* [[Special:MyLanguage/GT Saga|GT Saga]] quest 2, ''Parts for Bulma'': deliver radar pieces, redstone, iron and a Saiyan Space Pod; she gives you a [[Special:MyLanguage/Dragon Radar|Dragon Radar]].
+* [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3, ''To the Demon Realm'': deliver Ender Pearls, Crying Obsidian, Blocks of Redstone and Amethyst Shards for the trip to the [[Special:MyLanguage/Demon Realm|Demon Realm]].
+</translate>
+
+<translate>
+== Side quests ==
+</translate>
+{{Main|Sidequests}}
+<translate>
+Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world.
+</translate>
+{{#invoke:Sidequests|giver|bulma}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

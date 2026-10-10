@@ -1,0 +1,44 @@
+<translate>
+DragonMineZ adds its own meats and fish, hunted from the wildlife of [[Special:MyLanguage/Earth|Earth]] and [[Special:MyLanguage/Namek|Namek]]. More importantly, '''eating any food''', vanilla, DMZ or from another mod, also restores a share of your '''health, ki and stamina'''.
+</translate>
+
+<translate>
+== Food restores health, ki and stamina ==
+
+When you eat, the hunger and saturation the food restores also give back a slice of your resources. With the default settings, each hunger point restores:
+
+* '''1%''' of your max health;
+* '''1%''' of your max ki;
+* '''2%''' of your max stamina.
+
+Saturation adds a little more on top. Foods that restore fewer than 2 hunger points give no hunger-based recovery, and anything above 20 counts as 20. Server owners can exclude specific foods or whole mods.
+
+[[Special:MyLanguage/Majin|Majins]] heal 25% more from food thanks to their '''Sweet Tooth''' passive.
+</translate>
+{{Config|General Server Config|food}}
+
+<translate>
+== DMZ foods ==
+
+Raw meat can be cooked in a furnace, a smoker or on a campfire. Animals that die while on fire drop it already cooked.
+</translate>
+{| class="wikitable"
+! <translate>Food</translate> !! <translate>Hunger points (raw / cooked)</translate> !! <translate>Dropped by</translate>
+|-
+| <translate>Dino Meat</translate> || 4 / 8 || {{L|Dinosaurs}}
+|-
+| <translate>Baby Dino Meat</translate> || 2 / 5 || <translate>Baby dinosaurs (see [[Special:MyLanguage/Dinosaurs|Dinosaurs]])</translate>
+|-
+| <translate>Dino Tail</translate> || 6 / 12 || {{L|Dinosaurs}}
+|-
+| <translate>Frog Legs</translate> || 2 / 5 || {{L|Namek Frog}}
+|-
+| <translate>Giant Fish</translate> || 5 / 12 || {{L|Giant Fish}}
+|-
+| <translate>Giant Turtle</translate> || 5 / 12 || {{L|Giant Turtle}}
+|}
+<translate>
+Namekian Traders also sell Raw Frog Legs (see [[Special:MyLanguage/Namekian Trader|Namekian Trader]]).
+</translate>
+
+{{Navbox Items}}

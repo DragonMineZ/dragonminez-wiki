@@ -1,0 +1,23 @@
+Shows a highlighted note. It replaces the <code>&gt;</code> quotes of the old GitHub wiki.
+
+== Usage ==
+<pre>
+{{Note|type=warning|title=Back up your world|Run /dmzreload only after saving a backup.}}
+</pre>
+
+{| class="wikitable"
+! Parameter !! Description
+|-
+| <code>1</code> or <code>text</code> || The note text. Use <code>text=</code> if it contains an equals sign.
+|-
+| <code>type</code> || <code>info</code> (default), <code>tip</code>, <code>warning</code>, <code>danger</code> or <code>config</code>.
+|-
+| <code>title</code> || Optional bold title.
+|}
+
+== Examples ==
+{{Note|Plain information note.}}
+{{Note|type=tip|title=Tip|Hold the transform key to charge faster.}}
+{{Note|type=warning|title=Warning|This setting resets every player's stats.}}
+{{Note|type=danger|title=Danger|Deleting this folder wipes all quest progress.}}
+{{Note|type=config|title=Config default|<code>enableKiTerrainDestruction</code> is <code>true</code> by default.}}

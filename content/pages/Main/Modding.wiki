@@ -1,0 +1,109 @@
+<translate>
+'''Modding''' covers everything you can add to or change in DragonMineZ without writing Java code. Races, transformations, sagas, side quests, wishes, NPC conversations, [[Special:MyLanguage/Space Pod|Space Pod]] destinations, weapon movesets, models and textures are all read from JSON files and resource packs: you edit them with a text editor, reload them and test them in game.
+</translate>
+
+<translate>
+If this is your first time, start with [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]]. To write your own Forge mod that hooks into DragonMineZ, see [[Special:MyLanguage/Add-on Development|Add-on Development]] instead.
+</translate>
+
+<translate>
+== Getting started ==
+</translate>
+<div class="dmz-cards">
+{{Card|How to JSON|<translate>The JSON rules, the load report and how files are upgraded between versions.</translate>}}
+{{Card|Locating Specific Folders|<translate>Which folder holds which file: config, world save, Dragon Ball packs, datapacks and assets.</translate>}}
+</div>
+
+<translate>
+== Characters and forms ==
+</translate>
+<div class="dmz-cards">
+{{Card|Custom Races|<translate>Create a new playable race with its own look, classes and transformations.</translate>}}
+{{Card|Custom Forms|<translate>Every form field, and how to add stack forms that layer on top of race forms.</translate>}}
+{{Card|Custom Models and Assets|<translate>Point races and forms at your own models, body textures and faces.</translate>}}
+</div>
+
+<translate>
+== Story and NPCs ==
+</translate>
+<div class="dmz-cards">
+{{Card|Custom Quests|<translate>Write your own sagas, saga quests and side quests.</translate>}}
+{{Card|Custom Wishes|<translate>Change what a dragon grants, or ship a brand-new dragon.</translate>}}
+{{Card|NPC Placement and Alignment|<translate>Move master NPCs, place NPCs inside structures and decide how alignment affects them.</translate>}}
+{{Card|NPC Dialogue|<translate>Give masters branching conversations with conditions and actions.</translate>}}
+</div>
+
+<translate>
+== Datapacks ==
+</translate>
+<div class="dmz-cards">
+{{Card|Space Pod Destinations|<translate>Add worlds to the Space Pod menu and decide when they unlock.</translate>}}
+{{Card|Weapon Attributes|<translate>Define how a weapon swings, hits and combos in DragonMineZ combat.</translate>}}
+</div>
+
+<translate>
+== Data or code ==
+</translate>
+<translate>
+There are two ways to extend DragonMineZ. Everything in this section of the wiki is a data add-on; code add-ons are covered in [[Special:MyLanguage/Add-on Development|Add-on Development]].
+</translate>
+
+{| class="wikitable"
+! <translate>Approach</translate> !! <translate>What you need</translate> !! <translate>Where to start</translate>
+|-
+| <translate>'''Data add-ons''': configs, races, forms, quests, wishes, Dragon Ball packs and resource packs</translate> || <translate>A text editor and a DragonMineZ instance</translate> || {{L|How to JSON}}
+|-
+| <translate>'''Code add-ons''': your own Forge mod that hooks DragonMineZ events and APIs</translate> || <translate>A Forge 1.20.1 development environment</translate> || {{L|Add-on Getting Started}}
+|}
+
+<translate>
+DragonMineZ has no Java API to register new races, forms, skills or techniques: new races and forms are always added through JSON config files.
+</translate>
+
+<translate>
+== Where each kind of content lives ==
+</translate>
+{{Main|Locating Specific Folders}}
+<translate>
+* Tuning stats, damage or costs, or adding a race, form, entity or raid: <code>config/dragonminez/</code>
+* Adding or editing story content, wishes, dialogue or NPC placement for one world: <code><world save>/dragonminez/</code>
+* Shipping a distributable Dragon Ball pack: <code><game dir>/dragonballs/</code>
+* Space Pod destinations, weapon attributes and rhythm charts: a datapack
+* Adding a model, texture or animation: <code>assets/dragonminez/...</code> in a resource pack
+</translate>
+
+<translate>
+== Applying your changes ==
+</translate>
+{{Main|Reloading and Updating Changes}}
+<translate>
+Each kind of file is applied in a different way. <code>/dmzreload</code> with no argument reloads everything it covers.
+</translate>
+
+{| class="wikitable"
+! <translate>Content</translate> !! <translate>How to apply it</translate>
+|-
+| <translate>Races, forms, NPC placements and NPC alignment rules</translate> || {{Command|/dmzreload config}}
+|-
+| <translate>Sagas, quests, side quests and NPC dialogue</translate> || {{Command|/dmzreload story}}
+|-
+| <translate>Per-world wish lists</translate> || {{Command|/dmzreload wishes}}
+|-
+| <translate>Space Pod destinations, weapon attributes and structure NPCs</translate> || <translate>Vanilla <code>/reload</code></translate>
+|-
+| <translate>Wish lists inside Dragon Ball packs</translate> || <translate>Vanilla <code>/reload</code>, then <code>/dmzreload wishes</code></translate>
+|-
+| <translate>New dragons, ball sets and radars</translate> || <translate>Restart the game</translate>
+|-
+| <translate>Models, textures and animations</translate> || <translate>Resource reload ({{Key|F3}} + {{Key|T}}) or restart</translate>
+|}
+
+<translate>
+== Translating your content ==
+</translate>
+<translate>
+All in-game text uses translation keys. Races, forms, sagas, quests, wishes and dialogue lines take a translation key wherever a name or a text is shown, and each page of this section lists the key pattern it uses. Add your keys to your <code>en_us.json</code> or to your own language file in a resource pack (<code>assets/<namespace>/lang/<locale>.json</code>). You don't need to add translation keys for anything else: DragonMineZ merges the translations already made on Crowdin with your own.
+</translate>
+
+__NOTOC__
+{{Navbox Modding}}

@@ -1,0 +1,51 @@
+{{Infobox Item
+|quote=<translate>Read a fighter's Battle Power at a glance.</translate>
+|Type=<translate>Curio (Head Tech slot)</translate>
+|Effect=<translate>Reads the Battle Power of the entity you look at</translate>
+|Stack size=1
+|Obtained=<translate>Crafting, Saiyan Assault raid (Green)</translate>
+|Crafting=<translate>Radar's Piece, Radar's CPU (Earth), 2 stained glass panes and a Stone Button</translate>
+}}
+<translate>
+'''Scouters''' are head-worn devices that read the '''Battle Power''' of the entity you look at and point towards the strongest entity nearby. There are four colors, '''Red''', '''Blue''', '''Green''' and '''Purple''', which work the same way.
+</translate>
+
+<translate>
+== Using a scouter ==
+
+* Wear the scouter in the '''Head Tech''' Curios slot. It also works in the cosmetic slot.
+* It reads the Battle Power of the entity you look at within '''20 blocks''' and points towards the strongest entity nearby.
+* Press the [[Special:MyLanguage/Ki Sense|Ki Sense]] key ({{Key|F4}} by default) to toggle the readout (see [[Special:MyLanguage/Controls|Controls]]).
+* The readout is a HUD element you can move and mirror in the HUD editor. It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).
+</translate>
+
+<translate>
+=== Bulma's upgrades ===
+
+* The numbers only show once you complete Bulma's '''Scouter Calibration''' sidequest.
+* Her '''Bio-Scan Module''' sidequest adds extra information about the target.
+</translate>
+
+<translate>
+== Overloading ==
+
+Reading a Battle Power above '''150,000,000''' damages the scouter. After '''15''' overloads it breaks.
+</translate>
+
+<translate>
+== Who a scouter can't read ==
+
+* Players wearing the [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]].
+* [[Special:MyLanguage/Glind|Glind]] players, whose '''Divine Ki''' hides them unless the seeker is a Glind too, has unlocked a God Form, is in a God form or is under '''Kami's Blessing''' (see [[Special:MyLanguage/Effects|Effects]]).
+</translate>
+
+<translate>
+== Getting a scouter ==
+
+* '''Crafting table:''' <code>_ _ R / P P T / _ B _</code>, where R is Radar's Piece, P is a stained glass pane of the scouter's color (red, blue, green or purple), T is Radar's CPU (Earth), B is a Stone Button and _ is an empty slot. See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the parts.
+* The [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] raid rewards a Green Scouter.
+
+The [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] asks for a Red Scouter in exchange for its map to Vegeta's Pod.
+</translate>
+
+{{Navbox Items}}

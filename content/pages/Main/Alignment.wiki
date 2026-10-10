@@ -1,0 +1,154 @@
+<translate>
+'''Alignment''' measures how good or evil your character is, on a scale from 0 to 100. Every new character starts at '''100''' (fully Good). Your alignment moves with what you do (who you kill, the raids you lose, the tournaments you win, the quests and choices you make) and in turn decides which [[Special:MyLanguage/Masters|masters]] train you, how some NPCs treat you, which cloud you can ride and a few racial and combat perks.
+</translate>
+
+<translate>
+== Alignment bands ==
+</translate>
+
+{| class="wikitable"
+! <translate>Band</translate> !! <translate>Range</translate> !! <translate>In short</translate>
+|-
+| <translate>'''Good'''</translate> || 61–100 || <translate>Trains with Goku, Gohan, Master Roshi, Krillin, King Kai and Old Kai, and receives Kami's Blessing.</translate>
+|-
+| <translate>'''Neutral'''</translate> || 41–60 || <translate>Locked out of both the Good and the Evil masters.</translate>
+|-
+| <translate>'''Evil'''</translate> || 0–40 || <translate>Trains with Cell and Frieza, can receive the Majin Mark (below 39), and is attacked on sight by the ogres of Hell.</translate>
+|}
+
+<translate>
+Your current alignment is shown in the '''Stats''' tab of the Character Menu ({{Key|V}}, see [[Special:MyLanguage/Menus|Menus]]). The value always stays between 0 and 100.
+</translate>
+
+<translate>
+== What changes your alignment ==
+
+=== Fighting and killing ===
+
+Killing certain creatures and players changes the alignment of the player who lands the killing blow (melee or ki):
+</translate>
+
+{| class="wikitable"
+! <translate>You kill</translate> !! <translate>Alignment</translate>
+|-
+| <translate>A player with alignment 50 or more</translate> || −5
+|-
+| <translate>A player with alignment below 50 (or a player who hasn't created a character yet)</translate> || +2
+|-
+| <translate>Villagers, [[Special:MyLanguage/Namekian Warrior|Namekian Warriors]], [[Special:MyLanguage/Namekian Trader|Namekian Traders]], [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] and the [[Special:MyLanguage/Time Patroller|Time Patroller]]</translate> || −5
+|-
+| <translate>The [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Frieza Soldier|Frieza Soldiers]] and [[Special:MyLanguage/Bandit|Bandits]]</translate> || +2
+|}
+
+<translate>
+=== Raids ===
+
+Losing a [[Special:MyLanguage/Raids|raid]] costs every participant alignment:
+</translate>
+
+{| class="wikitable"
+! <translate>Raid</translate> !! <translate>Alignment on defeat</translate>
+|-
+| {{L|Saiyan Assault}} || −10
+|-
+| {{L|Frieza's Invasion}} || −20
+|-
+| {{L|Gomah's Army}} || −30
+|}
+
+<translate>
+=== Tournaments ===
+
+Winning a [[Special:MyLanguage/Tournaments|tournament]] raises your alignment:
+</translate>
+
+{| class="wikitable"
+! <translate>Tournament</translate> !! <translate>Alignment for the winner</translate>
+|-
+| {{L|Fortuneteller Baba's Tournament}} || +5
+|-
+| {{L|Cell Games}} || +10
+|-
+| {{L|Otherworld Tournament}} || +10
+|}
+
+<translate>
+=== Quests and dialogue ===
+
+Quests can reward (or take away) alignment, and that reward is scaled by your story difficulty like other quest rewards (Hard ×1.25, see [[Special:MyLanguage/Sagas|Sagas]]). Choices in an NPC's dialogue can also raise or lower it. Server owners and add-on authors set these up in their own quests and dialogue trees (see [[Special:MyLanguage/Custom Quests|Custom Quests]] and [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]]), and both can also require an alignment range before a quest or a choice becomes available.
+
+=== The Demon Eye ===
+
+While you wear the [[Special:MyLanguage/Demon Eye|Demon Eye]] (a drop of the [[Special:MyLanguage/Gomah|Gomah]] world boss), you lose '''1 alignment every 10 seconds''' by default. See [[Special:MyLanguage/Items|Items]].
+
+=== The Majin Mark ===
+
+[[Special:MyLanguage/Babidi|Babidi]] only brands you with the [[Special:MyLanguage/Majin Mark|Majin Mark]] if your alignment is below 39. Once you carry the mark, your alignment is '''held at 0''' for as long as you have it. See [[Special:MyLanguage/Effects|Effects]].
+
+=== Commands ===
+
+Admins can change alignment directly with <code>/dmzalignment set</code>, <code>add</code> and <code>remove</code> (see [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Permissions|Permissions]]).
+</translate>
+
+<translate>
+== What alignment affects ==
+
+=== Masters ===
+
+Some masters only train you if your alignment fits their morality:
+</translate>
+
+* <translate>'''Good masters''' ([[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]]) need an alignment of '''61 or higher'''.</translate>
+* <translate>'''Evil masters''' ([[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]]) need an alignment of '''40 or lower'''.</translate>
+* <translate>'''Every other master''' (Piccolo, Vegeta, Trunks, Yamcha, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] and the rest) has no alignment requirement by default.</translate>
+
+<translate>
+A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new quests''' stay locked ("Requires an alignment of 61 or higher" or "40 or lower") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.
+
+Cell and Frieza cover a huge chunk of the technique roster on their own, but because they need Evil alignment, a Good character can't learn everything from a single master. Since every character starts at 100, the Good masters accept you right away; to train with Cell or Frieza you first have to drop to 40 or less.
+</translate>
+
+<translate>
+=== Master services ===
+</translate>
+
+{| class="wikitable"
+! <translate>Service</translate> !! <translate>NPC</translate> !! <translate>Alignment needed</translate>
+|-
+| <translate>'''Flying Nimbus'''</translate> || <translate>[[Special:MyLanguage/Korin|Korin]], at Kami's Lookout</translate> || <translate>Above 50 for a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]]; otherwise he gives you a '''Black Nimbus'''.</translate>
+|-
+| <translate>'''Kami's Blessing''' (×1.2 TP for 5 minutes)</translate> || <translate>[[Special:MyLanguage/Dende|Dende]], at Kami's Lookout</translate> || <translate>Good (61 or more).</translate>
+|-
+| <translate>'''Unlock Potential''' (Potential Unlock level 10 to 11)</translate> || <translate>[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], on [[Special:MyLanguage/Namek|Namek]]</translate> || <translate>50 or more (below 50 he greets you coldly).</translate>
+|-
+| <translate>'''Receive the Mark''' (the Majin Mark)</translate> || <translate>[[Special:MyLanguage/Babidi|Babidi]], in Babidi's Ship</translate> || <translate>Below 39.</translate>
+|-
+| <translate>'''Unleash Power''' (the Ultimate Challenge)</translate> || {{L|Old Kai}} || <translate>62 or more, plus Potential Unlock level 10. Clearing it unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] form (see [[Special:MyLanguage/Transformations|Transformations]]).</translate>
+|}
+
+<translate>
+=== Riding a cloud ===
+
+Only the pure of heart can ride the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]]: it carries you only with an alignment of '''67 or more'''. The '''Black Nimbus''' is its darker counterpart and only carries riders with an alignment of '''66 or less'''.
+
+=== NPC hostility ===
+
+Besides the master rule above, each NPC can turn hostile or refuse to talk depending on your alignment. By default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20), and some refuse to talk to you until your alignment is high enough. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].
+
+=== The ogres of Hell ===
+
+The Red and Blue Ogres that walk the floor of Hell, below the [[Special:MyLanguage/Otherworld|Otherworld]], attack '''Evil-aligned''' players (0–40) on sight. Anyone else is left alone unless they hit an ogre first, which brings the nearby ogres in too. See [[Special:MyLanguage/Bestiary|Bestiary]].
+
+=== Glind: Light and Darkness ===
+</translate>
+{{Config|General Server Config|racialSkills}}
+<translate>
+The [[Special:MyLanguage/Glind|Glind]] racial skill '''Light and Darkness''' deals '''10%''' more damage to players of the opposite alignment ('''15%''' against Frost Demons, '''5%''' against Majins): with '''25''' alignment or less you punish players at '''60''' or more, and with '''75''' or more you punish players at '''40''' or less. Against any non-player foe a Glind always deals '''7.5%''' more damage.
+
+=== Other effects ===
+</translate>
+
+* <translate>Old Kai's '''Soul Punisher''' ki attack hits players who aren't Evil (alignment 41 or more) for only a quarter of its damage. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].</translate>
+* <translate>'''Akkuman''', one of the fighters of [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]], hits Evil-aligned players twice as hard.</translate>
+
+{{Navbox Mechanics}}

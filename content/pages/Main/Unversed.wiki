@@ -1,0 +1,47 @@
+{{Infobox Class
+|quote=<translate>The all-rounder: no weak stat, no standout stat, rewarded for mixing ki attacks and melee.</translate>
+|Passive=<translate>Resonance</translate>
+|Playstyle=<translate>Hybrid: alternates melee and ki attacks</translate>
+|Strength=0.9
+|Strike Power=0.9
+|Resistance=<translate>DEF 0.22, STM 1.35</translate>
+|Vitality=1.9
+|Ki Power=0.85
+|Energy=1.75
+}}
+<translate>
+'''Unversed''' is the all-rounder among the [[Special:MyLanguage/Classes|classes]]. It has no weak stat and no standout stat, starts with points in every attribute, and its passive rewards switching between ki attacks and melee.
+</translate>
+
+<translate>
+== Passive: Resonance ==
+
+Alternating between ki and melee empowers the other style:
+
+* '''Firing a ki attack''' empowers your next '''3 melee hits''' (or your next '''Strike''') to deal '''+15%''' damage.
+* '''Landing 3 melee hits''' (within 5 seconds of each other) or '''a Strike''' empowers your next damaging '''ki attack''' to deal '''+15%''' damage. Healing ki attacks neither use nor waste it.
+* Each charge lasts '''8 seconds''' and can't be renewed while it is still active.
+</translate>
+
+<translate>
+== Starting stats and regeneration ==
+
+* '''Starting stats:''' STR 4 · SKP 3 · RES 3 · VIT 4 · PWR 3 · ENE 3
+* '''Regeneration''' (per 5 seconds): health 1.4 (+0.048 per VIT) · Ki 5.0 (+0.10 per ENE) · stamina 10.0 (+0.0375 per VIT, +0.05 per RES)
+</translate>
+
+<translate>
+== Stat scaling ==
+
+Every Unversed scaling sits in the middle of the range: STR 0.9, SKP 0.9, DEF 0.22, STM 1.35, VIT 1.9, PWR 0.85 and ENE 1.75. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
+</translate>
+
+<translate>
+== Configuration ==
+</translate>
+{{Config|Custom Races|stats.json}}
+<translate>
+The class id is <code>unversed</code>. Its passive values (<code>physicalBonus</code>, <code>physicalCharges</code>, <code>kiBonus</code>, <code>meleeHitsToPrime</code>, <code>comboResetTicks</code>, <code>chargeDurationTicks</code> and <code>strikeWindowTicks</code>) are set per race in <code>races/&lt;race&gt;/stats.json</code>, together with the starting stats, scalings and regeneration.
+</translate>
+
+{{Navbox Classes}}

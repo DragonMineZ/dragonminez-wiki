@@ -1,0 +1,32 @@
+{{Infobox Mob
+|Type=<translate>Village defender</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate>Namekian villages</translate>
+|Behavior=<translate>Guards its village and attacks hostile mobs; does not trade</translate>
+|Health=200
+|Damage=<translate>About 15</translate>
+|Abilities=<translate>Flight</translate>
+|Drops=<translate>None</translate>
+}}
+<translate>
+'''Namekian Warriors''' are the defenders of the Namekian villages on [[Special:MyLanguage/Namek|Planet Namek]]. They don't trade: they guard their village, fly, and fight the hostile mobs that come near.
+</translate>
+
+<translate>
+== Where to find them ==
+
+Namekian Warriors are placed in the Namekian villages, Ajissa-style in the Ajissa Plains and Sacred-style in the Sacred Land, and the villages keep spawning a few more inside their walls.
+</translate>
+
+<translate>
+== Behavior ==
+
+Warriors use the village alert and defend behavior: they attack hostile mobs with about 15 melee damage and have 200 health. They can fly, and they return to their village when they wander off.
+
+They are the main target of the [[Special:MyLanguage/Gete Robot|Gete Robots]] that march on the villages.
+</translate>
+
+{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:namek_warrior</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

@@ -1,0 +1,190 @@
+<translate>
+DragonMineZ draws its own '''HUD''' for your '''Health''', '''Ki''', '''Stamina''' and '''Power Release''', plus extra panels for your party, quests, techniques and special fights. You can choose between four HUD styles, and every element can be moved, resized, mirrored or hidden in the '''HUD Editor'''.
+</translate>
+
+{{Note|type=tip|<translate>Open the editor from the Character Menu ({{Key|V}}) → '''Config''' → '''Interface''' → '''HUD Layout'''. Right after you create your character, a short tutorial points at your HUD and offers to open the editor.</translate>}}
+
+<translate>
+== HUD styles ==
+
+Pick the style with the '''Style''' button at the top of the HUD Editor.
+</translate>
+
+{| class="wikitable"
+! <translate>Style</translate> !! <translate>What it looks like</translate>
+|-
+| <translate>'''Xenoverse''' (default)</translate> || <translate>One compact block in the top-left corner with your bars and form and release info.</translate>
+|-
+| <translate>'''Modern'''</translate> || <translate>A head portrait of your character next to Health, Ki and Stamina stacked in one block, drawn in the metallic style of the DragonMineZ menus, with each bar split into four sections.</translate>
+|-
+| <translate>'''Compact'''</translate> || <translate>Three separate small bars ('''Health''', '''Ki and Release''', '''Stamina''') that you place one by one.</translate>
+|-
+| <translate>'''Vanilla'''</translate> || <translate>Minecraft-style blocks beside the hotbar: '''Health and Stamina''' on the left, '''Ki and Release''' on the right. They stay glued to the hotbar (and follow the offhand slot) unless you drag them away; snap them back onto the hotbar to glue them again.</translate>
+|}
+
+<translate>
+Every style shares the same bar animations:
+</translate>
+
+* <translate>Damage leaves a fading "chip", healing grows the bar, and the numbers pulse when they change. Big hits shake the Xenoverse, Modern and Compact HUDs.</translate>
+* <translate>'''Health''' shifts smoothly from green to yellow to red as it drops, '''Ki''' uses your ki color and '''Stamina''' is orange.</translate>
+* <translate>Every few seconds a light shine sweeps across your bars, cascading from Health to Ki to Stamina.</translate>
+* <translate>Ki bars (yours, your party's and the Ki Sense panels) ripple with a flowing light that speeds up and brightens while you charge ki.</translate>
+* <translate>Below '''25% health''' the Health bar beats like a heart (faster the lower it gets) and its frame flashes red.</translate>
+* <translate>The whole HUD freezes while the game is paused (including the Escape menu in multiplayer).</translate>
+* <translate>Numbers and labels use the DragonMineZ font, in a compact, easy-to-read format.</translate>
+
+{{Note|<translate>Coming from version 2.1: if you used the old ''alternative HUD'', you start on the '''Vanilla''' style; otherwise on '''Xenoverse'''.</translate>}}
+
+<translate>
+== HUD elements ==
+
+=== Main elements ===
+
+These are placed separately for each style.
+</translate>
+
+{| class="wikitable"
+! <translate>Element</translate> !! <translate>Shown when</translate>
+|-
+| <translate>'''Main HUD''' (or the Compact and Vanilla blocks)</translate> || <translate>Always.</translate>
+|-
+| <translate>'''Power Reserve'''</translate> || <translate>[[Special:MyLanguage/Frost Demon|Frost Demons]]: your stored ki reserve, in your ki color.</translate>
+|-
+| <translate>'''Rage Meter'''</translate> || <translate>Mutants (dark green) and the [[Special:MyLanguage/Saiyan|Saiyan]] False Super Saiyan charge (red).</translate>
+|-
+| <translate>'''Party'''</translate> || <translate>You are in a party: up to '''3''' allies (nearest first) with name, health and ki. Live bars when they are nearby, their face and distance when they are far away. A downed ally is marked.</translate>
+|-
+| <translate>'''Technique 1–4'''</translate> || <translate>The four rows of the '''technique hotbar''' (see below).</translate>
+|}
+
+<translate>
+Side meters such as the Power Reserve and the Rage Meter '''slide out of the screen''' while they are empty or don't apply to you, if they are placed against a screen edge; elements lined up behind them move up to fill the gap.
+
+=== Extras ===
+
+Switch the editor to the '''Extras''' view to place these. They are shared by every style.
+</translate>
+
+{| class="wikitable"
+! <translate>Element</translate> !! <translate>What it shows</translate>
+|-
+| <translate>'''Notifications'''</translate> || <translate>One stack (top-right by default) for quest notices, party invites, update alerts, the '''tracked quest''', the tutorial hint and the live [[Special:MyLanguage/Tournaments|tournament]] status (see below).</translate>
+|-
+| <translate>'''Scouter'''</translate> || <translate>The scouter readout while you wear a [[Special:MyLanguage/Scouters|scouter]] (not available in the Compact style).</translate>
+|-
+| <translate>'''Baba Temporary Revive'''</translate> || <translate>The time you have left in the world of the living when [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] brought you back temporarily (shows ''Paused'' or ''KO'' when relevant). See [[Special:MyLanguage/Otherworld|Otherworld]].</translate>
+|-
+| <translate>'''Boss Contribution'''</translate> || <translate>During a [[Special:MyLanguage/World Bosses|world boss]] fight: the contribution ranking of the fighters.</translate>
+|}
+
+<translate>
+=== Notifications ===
+</translate>
+
+* <translate>'''Pinned''' entries stay while they apply: your '''tracked quest''' (title, the current objective with progress, a direction arrow and distance for location objectives, and the time left on timed quests), the '''"Press [V] to begin your adventure!"''' hint before you create a character, and the live tournament notice.</translate>
+* <translate>'''Temporary''' entries (quest started, failed, objective done or completed, party invites, quest start errors and "update available") slide in for '''5 seconds'''; at most 5 are shown at once. Newer ones push older ones down.</translate>
+* <translate>If you place the stack at the bottom of the screen, it grows upwards.</translate>
+
+<translate>
+=== Technique hotbar ===
+
+Your 8 technique slots are shown as '''four rows''' (Technique 1–4), shared by '''Bar 1''' ({{Key|Alt}} + 1–4) and '''Bar 2''' ({{Key|Ctrl}} + 1–4):
+</translate>
+
+* <translate>Holding a bar's modifier shows that bar's four slots, with the key and the technique name.</translate>
+* <translate>When you let go, the rows fade out, except slots on '''cooldown''', which stay half-visible until they are ready, blink, and fade out a moment later.</translate>
+
+<translate>
+=== Ki Sense panels ===
+
+While [[Special:MyLanguage/Ki Sense|Ki Sense]] is in '''Combat''' mode ({{Key|F4}}, see [[Special:MyLanguage/Skills|Skills]]), every living being you sense gets a small panel floating above its head, built like the Modern HUD:
+</translate>
+
+* <translate>'''Players''' show Health, Ki (with the charging effect when they charge) and Stamina; any other creature shows only its Health bar.</translate>
+* <translate>The Health number is always shown, even with '''Hide HUD Numbers''' on; the Ki and Stamina numbers follow your HUD number options.</translate>
+* <translate>The panel shows the target's '''Battle Power''' above it, plus the damage and healing you see it take (summed up while '''Ki Sense - Accumulative Damage''' is on, as single popups otherwise; in % of max health with '''Adv. Desc. (Percentage)''' on).</translate>
+* <translate>Panels shrink with distance (down to a readable minimum), fade in and out as targets enter or leave your sense range, and stay hidden in the HUD Editor.</translate>
+
+<translate>
+A being at 0% Power Release can't be sensed.
+
+=== Party markers ===
+</translate>
+{{Config|General Server Config|partyMarkerRange}}
+<translate>
+With '''Party Markers''' on (Config → Interface), a pin with the ally's face over a tinted arrow floats over each party member's head, at any distance and through walls. Idle pins are small and slightly transparent; the pin closest to your crosshair grows and shows the ally's name and distance. Markers behind the camera are hidden.
+
+The server only shows allies in the '''same dimension''' within '''2,000 blocks''' who are alive and not hidden: an [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]] (see [[Special:MyLanguage/Items|Items]]), a god form you can't sense, or 0% Power Release hides them. Markers turn red when the ally is down.
+</translate>
+
+<translate>
+== Numbers on the HUD ==
+</translate>
+
+{| class="wikitable"
+! <translate>Option (Config → Interface)</translate> !! <translate>Effect</translate>
+|-
+| <translate>'''Always Visible HUD Values'''</translate> || <translate>Off (default): the numbers on your bars appear when a value changes and fade out about 2.5 seconds later. On: they are always shown.</translate>
+|-
+| <translate>'''Hide HUD Numbers'''</translate> || <translate>Hides the numbers on your bars, side meters and party rows completely (bars only).</translate>
+|}
+
+<translate>
+== The HUD Editor ==
+
+Opening the editor dims the screen and shows every HUD element of the current view with sample values (empty meters and an empty party are filled in so you can place them).
+</translate>
+
+{| class="wikitable"
+! <translate>Action</translate> !! <translate>How</translate>
+|-
+| <translate>'''Move'''</translate> || <translate>Drag an element. It soft-snaps (5 px) to screen edges, the screen centre and other elements, with guide lines.</translate>
+|-
+| <translate>'''Resize'''</translate> || <translate>Drag one of the 8 handles around the selected element.</translate>
+|-
+| <translate>'''Nudge'''</translate> || <translate>The arrow keys move the selected element by 1 (hold {{Key|Shift}} for 5).</translate>
+|-
+| <translate>'''Mirror'''</translate> || <translate>Right-click an element to flip it horizontally. Available for the Main HUD of the Xenoverse and Modern styles, the Party panel, the Scouter and the technique rows.</translate>
+|-
+| <translate>'''Show / Hide'''</translate> || <translate>Hide an element you don't want, or show it again.</translate>
+|-
+| <translate>'''Reset'''</translate> || <translate>Resets the selected element (or, with nothing selected, every element of the current view) to its default placement.</translate>
+|-
+| <translate>'''Undo / Redo'''</translate> || <translate>Buttons at the top, or {{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} ({{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}} also redoes). The last 5 changes are kept.</translate>
+|-
+| <translate>'''Style'''</translate> || <translate>Cycles the HUD style.</translate>
+|-
+| <translate>'''Extras'''</translate> || <translate>Switches between the main elements and the extras (and back with '''Main HUD''').</translate>
+|-
+| <translate>'''Done''' / {{Key|Esc}}</translate> || <translate>Saves the layout.</translate>
+|-
+| <translate>'''Cancel'''</translate> || <translate>Restores the layout and style you had when you opened the editor.</translate>
+|}
+
+<translate>
+'''Technique rows''' move as a group: hold {{Key|Shift}} while dragging to move all four rows, right-clicking one row mirrors all of them, resizing a row rescales the group, and Reset on a row resets all four.
+
+Positions and sizes are stored relative to your screen height, so a layout covers the same share of the screen at any window size or GUI scale (the Vanilla and Compact blocks keep their pixel size because they sit next to the hotbar).
+
+== Sharing a layout ==
+
+Your style and every placement are saved in their own file on your computer, <code>config/dragonminez/hud_layout.json</code>. To share your layout, send this one file. Drop a received file into your <code>config/dragonminez</code> folder and '''open the HUD Editor''': it re-reads the file when it opens, so no restart is needed. Servers never send this file, so every player keeps their own layout.
+</translate>
+
+<syntaxhighlight lang="json">
+{
+  "configVersion": "...",
+  "style": "xenoverse",
+  "layout": {
+    "xenoverse": { "main": { "anchorX": 0.0, "anchorY": 0.0, "offsetX": 3.0, "offsetY": 3.0, "scale": 1.2, "visible": true, "hotbar": false, "mirrored": false } },
+    "extras": { "notifications": { "anchorX": 1.0, "anchorY": 0.0, "offsetX": -6.0, "offsetY": 6.0, "scale": 0.9, "visible": true, "hotbar": false, "mirrored": false } }
+  }
+}
+</syntaxhighlight>
+
+* <translate><code>style</code>: <code>xenoverse</code>, <code>modern</code>, <code>compact</code> or <code>vanilla</code>.</translate>
+* <translate><code>layout.&lt;style&gt;.&lt;element&gt;</code>: <code>main</code>, <code>compact_health</code>, <code>compact_ki</code>, <code>compact_stamina</code>, <code>minecraft_left</code>, <code>minecraft_right</code>, <code>party</code>, <code>reserve</code>, <code>rage</code>, <code>skill_1</code> … <code>skill_4</code>. <code>layout.extras.&lt;element&gt;</code>: <code>notifications</code>, <code>scouter</code>, <code>baba_timer</code>, <code>boss_contribution</code>.</translate>
+* <translate>Each placement: <code>anchorX</code> and <code>anchorY</code> (0 = left or top, 0.5 = centre, 1 = right or bottom), <code>offsetX</code> and <code>offsetY</code>, <code>scale</code>, <code>visible</code>, <code>hotbar</code> (Vanilla blocks glued to the hotbar) and <code>mirrored</code>. Missing entries use the default placement.</translate>
+
+{{Navbox Mechanics}}

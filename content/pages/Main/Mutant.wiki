@@ -1,0 +1,50 @@
+{{Infobox Effect
+|quote=<translate>One lucky fighter on the server carries the legendary rage.</translate>
+|Type=<translate>Character effect (buff)</translate>
+|Source=<translate>The Mutant lottery, or an admin command</translate>
+|Duration=<translate>Until death (by default)</translate>
+|Effect=<translate>+25% TP gain, +50% form mastery gain, rage meter for the Legendary forms</translate>
+}}
+<translate>
+A '''Mutant''' is one of the server's rare chosen fighters. The '''Mutant''' effect speeds up your Training Point and form mastery gain and gives you a '''rage meter''' that lets you tap into your race's '''Legendary''' transformation line, even forms you haven't unlocked yet. Mutants are picked at random by a server lottery.
+</translate>
+
+<translate>
+== Benefits ==
+
+With the default settings, a Mutant gets:
+
+* '''+25% Training Point gain''' (×1.25);
+* '''+50% form mastery gain''' (×1.5);
+* a '''rage meter''' (see below).
+
+See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].
+</translate>
+
+<translate>
+== The rage meter ==
+
+* The meter fills while you fight worthy opponents: dealing or taking significant hits. Mixing melee, strike and ki attacks fills it faster.
+* It drains when you stay out of combat. Death resets it.
+* With a '''full''' meter, you can transform into Legendary forms you don't own yet. A borrowed form is worth your best unlocked non-legendary form, with its mastery, '''+0.5''' to each stat bonus, but never more than the Legendary form itself at full mastery.
+* A full meter inside a Legendary form turns into '''active rage''' for '''10 seconds'''. While it lasts, the Legendary forms you '''do''' own get '''33%''' more bonus power.
+* When the rage ends, borrowed forms revert down to your highest owned form, or to base.
+
+The meter has its own element on the HUD (see [[Special:MyLanguage/HUD|HUD]]). See [[Special:MyLanguage/Transformations|Transformations]] for the Legendary forms.
+</translate>
+
+<translate>
+== The Mutant lottery ==
+
+* By default the server runs a '''lottery every 30 minutes'''. Each roll picks an online player with a '''20% chance''', with up to '''1 Mutant on the server at a time'''. Becoming a Mutant is a rare, random event.
+* The Mutant status is '''lost on death''' by default. Dying frees the slot, so the lottery can pick a new holder.
+</translate>
+
+<translate>
+== Commands ==
+
+Admins can grant or revoke it directly with <code>/dmzeffect give mutant -1 &lt;player&gt;</code> and <code>/dmzeffect remove mutant &lt;player&gt;</code> (see [[Special:MyLanguage/Effects#Commands|Effects]] and [[Special:MyLanguage/Commands|Commands]]).
+</translate>
+{{Config|General Server Config|mutant}}
+
+{{Navbox Items}}
