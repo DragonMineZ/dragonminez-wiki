@@ -1,0 +1,51 @@
+<translate>
+A '''strike clash''' happens when two fighters rush at each other with [[Special:MyLanguage/Strike Attacks|strike attacks]]. Their fists meet, both are locked in place trading blows, and the same timing meter as a [[Special:MyLanguage/Beam Clash|beam clash]] decides who breaks through. The winner lands a heavy blow and gets the technique back at once; the loser is thrown back and left exhausted.
+</translate>
+
+<translate>
+== Starting a clash ==
+
+A clash starts when two fighters are both '''rushing''' with a strike attack, are heading at each other and come within about '''4.5 blocks''' of each other. A strike attack rushes when no enemy is already in reach in front of you (see [[Special:MyLanguage/Strike Attacks#How strike attacks work|Strike Attacks]]).
+
+If you use a strike attack on an enemy that is already rushing at you, you don't appear in front of it as usual: you rush back at it, so the two of you clash.
+
+* Only strike attacks that rush can clash. The Dragon Fist, Deadly Dance, Deadly Dance (Vegetto), Super God Fist, Wolf Fang, Gum Punch, Blue Hurricane, Oozaru Slam, Dimensional Fist and Dimensional Slash never do.
+* Allies never clash with each other: anyone your attacks treat as friendly, such as party members while party PvP is off (see [[Special:MyLanguage/Combat#Who you can hit|Combat]]).
+* A fighter at least twice as tall as the other doesn't clash: the smaller fighter's rush is simply stopped, as if it had missed.
+* Story enemies that rush with strike techniques can clash with you too (see [[Special:MyLanguage/Sagas#Enemy AI tiers|Sagas]]).
+
+While the clash lasts, both fighters are held in place facing each other and are '''invulnerable'''.
+</translate>
+
+<translate>
+== The timing meter ==
+
+A strike clash uses the same meter as a beam clash: a marker sweeps across it and you '''right-click''' when it is inside the window. A press near the centre is '''PERFECT''', anywhere else in the window is '''GOOD''', and a press outside it is a '''MISS'''. You can press even though you can't otherwise move or act during the clash. See [[Special:MyLanguage/Beam Clash#The timing meter|Beam Clash]] for the details.
+</translate>
+
+<translate>
+== Pushing through ==
+
+Every PERFECT or GOOD press builds momentum that pushes the clash towards your opponent, and momentum fades over time, so you have to keep hitting the window.
+
+Your power decides how hard each press pushes: your melee damage (from Strength) plus your Strike Damage (SKP). Enemies push with their melee damage, boosted by 50%. They press on their own, and the stronger they are, the more accurate their timing gets. A weaker fighter can still win with better timing.
+</translate>
+
+<translate>
+== Winning and losing ==
+
+The fighter who pushes far enough '''wins''':
+
+* The loser takes a heavy blow (for a player winner, half the damage of their strike technique), is knocked far back, takes extra impact damage if it slams into the ground or a wall, and is then '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).
+* The winner's technique and the shared strike cooldown are reset, so the winner can strike again right away. The loser's technique goes on its full cooldown.
+
+A clash can also end in other ways:
+
+* If neither fighter presses for 5 seconds, the clash ends in a '''draw''': both fighters are pushed apart and their techniques go on half cooldown.
+* After 12 seconds, whoever is ahead wins. If the clash is exactly even, it's a draw.
+* If either fighter dies or leaves, the clash ends with no winner and both techniques go on half cooldown.
+
+The Ki spent on the strike attack is not refunded, whatever the result.
+</translate>
+
+{{Navbox Abilities}}

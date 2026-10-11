@@ -22,7 +22,7 @@
 </translate>
 {{Config|Skills Config|skills.json}}
 <translate>
-Masters teach skills. Talk to a master and choose '''Skills''' in the dialogue to open their skill shop; each master only teaches a specific set (see the tables below and each master's page). Purchases are checked by the server: you must be within 10 blocks of a master who offers the skill, your race must be allowed to learn it, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you.
+Masters teach skills. Talk to a master and choose '''Skills''' in the dialogue to open their skill shop; each master only teaches a specific set (see the tables below and each master's page). Purchases are checked by the server: you must be within 10 blocks of a master who offers the skill, your race must be allowed to learn it, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you. Techniques are the exception to the race rule: any race can learn them, but a race-locked technique can only be equipped by its races (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]).
 
 Once you own a skill, you can level it up anywhere from the '''Skills''' tab of the Character Menu ({{Key|V}}), which has the tabs '''Skills''', [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]], '''Evasion Attacks''' and '''Forms'''. Double-click an entry to buy its next level with TP. Racial skills are listed there too, one entry per racial ability.
 

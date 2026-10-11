@@ -48,7 +48,7 @@ There are nine default sagas. A saga opens once you have completed '''every ques
 <translate>
 * The Future and Buu sagas both branch from the Android Saga, and the GT and Daima sagas both branch from the Buu Saga: play them in any order.
 * The [[Special:MyLanguage/Movies Saga|Movies Saga]] runs alongside the main story. Its first quest opens after ''Defeat Raditz'' (Saiyan Saga #1), and each later movie only opens once you have reached the matching point of the main story.
-* When you start the first quest of a saga, a title card (''A New Saga Begins'' and the saga's name) fades in on screen for you and every member of your party.
+* When you start the first quest of a saga, a title card (''A New Saga Begins'' and the saga's name) fades in on screen for you and for every party member who starts it with you.
 * Most race transformations can only be bought after a given saga quest. Each saga page lists the forms it unlocks; see [[Special:MyLanguage/Transformations|Transformations]].
 </translate>
 
@@ -86,18 +86,23 @@ Easy and Hard both raise your Training Point gains on purpose: on Easy the bonus
 === Parties ===
 </translate>
 <translate>
-Party members share quest progress, and the party leader's difficulty applies to the whole party. You can only join a party playing on your difficulty or higher. Joining a higher-difficulty party asks for confirmation and '''permanently''' raises your own difficulty: it does not go back down when you leave.
+Party members play quests together, but '''everyone keeps their own quest progress'''. When you start a quest, every party member within 128 blocks of you (in the same dimension) who has reached that point of the story joins it with you; only you need to be in the quest's starting place. Members who can't take it yet are left out, and the chat tells you why.
+
+While the quest runs, kills, deliveries and reaching a destination count for every member on that quest within 128 blocks. Items you have to collect must be in each player's own inventory, and a delivery has to be carried all at once by the player who hands it in: if the party only has enough between you, the NPC asks you to bring it all together. Everyone claims their own rewards.
+
+The party leader's difficulty applies to the whole party. You can only join a party playing on your difficulty or higher. Joining a higher-difficulty party asks for confirmation and '''permanently''' raises your own difficulty: it does not go back down when you leave.
 </translate>
 
 <translate>
 == How saga fights work ==
 </translate>
 <translate>
-* When a combat quest starts, its enemies are '''spawned for you''' near you, and only those quest enemies count toward the objective. Their health and damage come from the quest, scaled by your difficulty and your '''party size'''.
+* When a combat quest starts, its enemies are '''spawned for you''' near you, and only those quest enemies count toward the objective. Their health and damage come from the quest, scaled by your difficulty and by the number of '''party members''' near you who are on that quest.
 * Many quests can only be '''started in a specific place''': a biome, a structure or a dimension (the ''Where'' column of the quest lists). Some also open only after a set amount of real time has passed since they became available (training periods).
 * '''Spar''' objectives are non-lethal: your sparring partner concedes instead of dying.
-* '''Survive waves''' objectives spawn successive waves of enemies around you.
-* If your whole party is wiped out, any active quest with a fight '''fails''' and its progress resets.
+* '''Survive waves''' objectives spawn successive waves of enemies around you. If you move more than 64 blocks from where a wave started, change dimension, or some of its enemies disappear without being killed, that wave starts over.
+* If everyone in your party who is on a fight quest is dead at once, the quest '''fails''' for all of them and its progress resets.
+* If an update changes the objectives of a quest you have in progress, its progress resets and the chat tells you.
 * Some enemies transform mid-fight (for example Zarbon, Frieza's second form or Broly), switching to their next form with new stats.
 </translate>
 
@@ -126,6 +131,10 @@ Story enemies decide what to do in real time. How smart they are depends on thei
 
 <translate>
 Each character also has its own '''Zanzoken level''' (none, 2, 4 or 6 after-image hops) and its own set of ki attacks and combos. The AI tier only decides how well they are used.
+</translate>
+
+<translate>
+Some enemies use strike techniques the way players do. They '''rush''' at you from up to 24 blocks away when they can see you, and the technique starts when they reach you; if they don't reach you within 2 seconds, it's wasted. [[Special:MyLanguage/Turles|Turles]] uses [[Special:MyLanguage/Meteor Burst|Meteor Burst]] and Kid Buu the '''Mystic Ball Attack'''. If your own strike rush meets theirs head-on, the two of you start a [[Special:MyLanguage/Strike Clash|strike clash]]. Kid Buu and Majin Kuu can also take a 7-second '''Sleep Recovery''' nap that heals up to 60% of their max health.
 </translate>
 
 <translate>

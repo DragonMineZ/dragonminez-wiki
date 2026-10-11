@@ -21,9 +21,9 @@
 <translate>
 == How it works ==
 
-Hold the [[Special:MyLanguage/Brave Sword|Brave Sword]] in your main hand and press the technique's slot key. As with every strike attack, you rush to the target in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying. Its damage is your Strike Damage × 2.4.
+Hold the [[Special:MyLanguage/Brave Sword|Brave Sword]] in your main hand and press the technique's slot key. As with every strike attack, it picks a target in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying, and you appear right in front of it. Its damage is your Strike Damage × 2.4.
 
-If nothing is in range you dash forward and connect with whatever you reach; missing completely refunds 40% of the Ki and halves the cooldown. Every strike attack also starts a short shared cooldown (3 seconds by default).
+If nothing is in range you rush forward for up to 2 seconds, or straight at your locked-on target, and strike the first enemy you reach; missing completely refunds 40% of the Ki and halves the cooldown. Rushing at an enemy that is rushing at you starts a [[Special:MyLanguage/Strike Clash|strike clash]]. Every strike attack also starts a short shared cooldown (3 seconds by default).
 </translate>
 
 <translate>

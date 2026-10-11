@@ -58,7 +58,7 @@ The <code>skills</code> map sets the cost of every level of a skill and which ra
 |-
 | <code>costs</code> || <translate>List of the Training Point cost to upgrade to each level. Index 0 is level 1's cost, and so on. The number of entries is the skill's max level. A <code>-1</code> entry marks that level as not purchasable: it must be granted another way (for example Potential Unlock level 11 from Grand Elder Guru, or Ultimate from Old Kai).</translate>
 |-
-| <code>allowedRaces</code> || <translate>List of the races allowed to learn this skill. An empty list (or <code>"all"</code>) means every race can learn it.</translate>
+| <code>allowedRaces</code> || <translate>List of the races allowed to learn this skill. An empty list (or <code>"all"</code>) means every race can learn it. For techniques (ki, strike and evasion), every race can still learn them from a master, but only the listed races can equip them in a technique slot. By default <code>gum_punch</code>, <code>mystic_ball</code> and <code>sleep_recovery</code> are set to <code>["majin"]</code>.</translate>
 |}
 
 <translate>
@@ -112,7 +112,7 @@ The <code>skillOfferings</code> map lists the skills and techniques each master 
 </syntaxhighlight>
 
 <translate>
-Keys are the '''master id''' (or the id of a quest NPC) offering the skill. <code>"default"</code> is the fallback list used by any master or NPC that has no entry of its own. Purchases are checked on the server: you must be within '''10 blocks''' of a master that offers the skill, your race must be allowed, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you.
+Keys are the '''master id''' (or the id of a quest NPC) offering the skill. <code>"default"</code> is the fallback list used by any master or NPC that has no entry of its own. Purchases are checked on the server: you must be within '''10 blocks''' of a master that offers the skill, your race must be allowed (except for techniques, which any race can learn; see <code>allowedRaces</code> above), and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you.
 </translate>
 
 <translate>
@@ -146,6 +146,8 @@ Keys are the '''master id''' (or the id of a quest NPC) offering the skill. <cod
 | <code>yamcha</code> || {{L|Yamcha}} || <code>kicontrol</code>, <code>ki_infusion</code>, <code>wolf_fang</code>, <code>sokidan</code>, <code>kamehameha</code>, <code>ki_barrage</code>
 |-
 | <code>baba_earth</code> || {{L|Fortuneteller Baba}} || <code>kicontrol</code>, <code>meditation</code>
+|-
+| <code>buu</code> || {{L|Majin Buu}} || <code>assault_rain</code>, <code>gum_punch</code>, <code>mystic_ball</code>, <code>sleep_recovery</code>
 |-
 | <code>default</code> || <translate>Any other master or NPC</translate> || <code>kicontrol</code>, <code>jump</code>
 |}
@@ -232,7 +234,7 @@ Block destruction is also subject to the ki-griefing gamerules (see [[Special:My
 {| class="wikitable"
 ! <translate>Field</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
 |-
-| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120</translate> || <translate>Technique cooldown (before upgrades).</translate>
+| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> / <code>mystic_ball</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120</translate> || <translate>Technique cooldown (before upgrades).</translate>
 |-
 | <code>castTimeTicks</code> || <code>0</code> || <translate>Cast time shown in the technique details (strikes start as soon as you press the key).</translate>
 |-
@@ -255,7 +257,7 @@ Block destruction is also subject to the ki-griefing gamerules (see [[Special:My
 {| class="wikitable"
 ! <translate>Field</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
 |-
-| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80</translate> || <translate>Technique cooldown (before upgrades).</translate>
+| <code>cooldownTicks</code> || <translate>Set per technique, for example <code>sleep_recovery</code> 1200, <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80</translate> || <translate>Technique cooldown (before upgrades).</translate>
 |-
 | <code>damageMultiplier</code> || <code>1.0</code> || <translate>Multiplier on damage (Rage Scream).</translate>
 |-

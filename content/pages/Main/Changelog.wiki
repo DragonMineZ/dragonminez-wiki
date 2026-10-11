@@ -45,6 +45,8 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>Added the [[Special:MyLanguage/Tamagami Sword|Tamagami Sword]], [[Special:MyLanguage/Tamagami Trident|Tamagami Trident]] and [[Special:MyLanguage/Tamagami Hammer|Tamagami Hammer]] (Tamagami drops).</translate>
 * <translate>Reworked [[Special:MyLanguage/Raids|raids]]: [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] (Earth, with Oozaru transformations), a reworked [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] (Namek, from Cui to the Ginyu Force) and the new [[Special:MyLanguage/Gomah's Army|Gomah's Army]] (Demon Realm). Start them by killing the scout at a raid site, with an omen, a boss bar, dormant bosses, party participants, a leash countdown, rewards and an alignment penalty on defeat.</translate>
 * <translate>Added [[Special:MyLanguage/Tournaments|Tournaments]]: [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] (Gauntlet), [[Special:MyLanguage/Cell Games|The Cell Games]] (lethal Bracket) and [[Special:MyLanguage/Otherworld Tournament|The Otherworld Tournament]] (Bracket), solo or as a party, with PvP bouts, a rules screen, Ready checks, a bracket screen, TP and alignment rewards, and cooldowns.</translate>
+* <translate>World bosses now reward '''Attributes''' instead of TP (Janemba ×500, Turles ×50, Metal Cooler Core ×105, Tamagami Number 3, 2 and 1 ×90, ×300 and ×360, Gomah ×435), split like quest rewards, and you need at least 7.5% of the contribution points to get any reward. See [[Special:MyLanguage/World Bosses|World Bosses]].</translate>
+* <translate>World bosses scale with the number of fighters: every extra participant adds 50% health and 25% melee and ki damage. Their base health and damage now follow the Hard story difficulty.</translate>
 
 <translate>
 === Story and quests ===
@@ -55,7 +57,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>Added the [[Special:MyLanguage/Daima Saga|Daima Saga]] (17 quests): Gomah's wish, the three Demon Worlds, Glorio, the Tamagamis, Majin Kuu and Duu, and King Gomah.</translate>
 * <translate>Expanded the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] from 8 to 16 quests, and added 20 new quests to the [[Special:MyLanguage/Frieza Saga|Frieza]], [[Special:MyLanguage/Android Saga|Android]] and [[Special:MyLanguage/Buu Saga|Buu]] sagas (the Grand Elder, Nail, Porunga, the heart virus, Android 16, the Cell Games, Videl, Gotenks, Ultimate Gohan, Vegetto, the Spirit Bomb plan and more).</translate>
 * <translate>Added 37 new side quests.</translate>
-* <translate>Added saga title cards: "A New Saga Begins" appears for you and your party when a saga starts.</translate>
+* <translate>Added saga title cards: "A New Saga Begins" appears for you and the party members who start the saga with you.</translate>
 * <translate>New quest objectives: Spar (non-lethal duel), Deliver (hand items to an NPC), Survive Waves, Escort and Checkpoint Race.</translate>
 * <translate>Added repeatable quests (with a cooldown), daily quests and timed quests. Quests can now fail (time out, escort killed, party wiped) and be restarted.</translate>
 * <translate>Added a waypoint compass for location, escort and checkpoint objectives.</translate>
@@ -70,6 +72,8 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>Legendary forms are now unlocked by Broly's Second Coming, Giant Bio-Broly and Super Hildegarn in the [[Special:MyLanguage/Movies Saga|Movies Saga]] (after the GT or Daima saga).</translate>
 * <translate>Rebalanced every saga, the movies and side quests to fit the new form curve.</translate>
 * <translate>NPC quest lists are sorted in story order, and completed quests stay visible.</translate>
+* <translate>Reworked party quests: everyone keeps their own quest progress. Starting a quest brings in the party members within 128 blocks who have reached that point of the story, and kills, deliveries and destinations count for everyone on the quest nearby. See [[Special:MyLanguage/Sagas#Parties|Sagas]].</translate>
+* <translate>Parties remember who created them: the creator gets the lead back when they return, only the creator can disband, and the leader can kick offline members (but never the creator).</translate>
 
 <translate>
 === Races, forms and character ===
@@ -111,7 +115,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>New Hair Editor features: presets, global hair color, better import and export, hide or drag the body, and segment edits that carry over to the next segments. Old hair codes still import, and the Hair Salon website has its own button.</translate>
 * <translate>Added Auto-generate to the Hair Editor: it builds your Super Saiyan, SSJ 2, SSJ 3 and SSJ 4 hair from your Base style (all of them or one slot at a time).</translate>
 * <translate>Updated the hair presets: ten of them were redrawn (a new Raditz style among them), and several come with their own Super Saiyan 4 hair.</translate>
-* <translate>Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit).</translate>
+* <translate>Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit), with view buttons, a body-part picker to hide or isolate parts and double-click to fill a whole side.</translate>
 * <translate>Reworked [[Special:MyLanguage/Character Customization|character customization]]: tabbed preview grids for body, hair, eyes, face and tattoos, a transformation preview, a class stats and passives panel, and interactive tutorials.</translate>
 * <translate>Every race can now use the Human and Saiyan eyes, noses and mouths.</translate>
 * <translate>Male Majins can now have hair, and Bio-Androids have 6 body types (up from 3).</translate>
@@ -124,7 +128,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 </translate>
 
 * <translate>New [[Special:MyLanguage/Ki Attacks|ki techniques]]: [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]], Dodon Ray, Tri-Beam, Neo Tri-Beam, Assault Rain, Blaster Meteor, [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and Kill Driver.</translate>
-* <translate>New [[Special:MyLanguage/Strike Attacks|strike techniques]]: Spirit Breaking Cannon, [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] (needs the [[Special:MyLanguage/Brave Sword|Brave Sword]]), Oozaru Slam, Gum Punch, Blue Hurricane, Grab Throw, Meteor Combo, Meteor Burst, Dimensional Fist and Dimensional Slash.</translate>
+* <translate>New [[Special:MyLanguage/Strike Attacks|strike techniques]]: Spirit Breaking Cannon, [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] (needs the [[Special:MyLanguage/Brave Sword|Brave Sword]]), Oozaru Slam, Gum Punch, Blue Hurricane, Grab Throw, Meteor Combo, Meteor Burst, the Mystic Ball Attack (Majin only, taught by [[Special:MyLanguage/Majin Buu|Majin Buu]]), Dimensional Fist and Dimensional Slash.</translate>
 * <translate>New [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] category: [[Special:MyLanguage/Afterimage|Afterimage]], [[Special:MyLanguage/Solar Flare|Solar Flare]] (moved here), [[Special:MyLanguage/Rage Scream|Rage Scream]], Sleep Recovery and Dimensional Warp.</translate>
 * <translate>Reworked Soul Punisher, now also used by NPCs.</translate>
 * <translate>Oozaru loadout: as Oozaru or Golden Oozaru, your first three slots become Mouth Blast, Oozaru Slam and Rage Scream.</translate>
@@ -149,6 +153,11 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>New status [[Special:MyLanguage/Effects|effects]]: Adrenaline, Self-Destruct cooldown, Kami's Blessing, Medi-Bug Shell, Emperor's Wrath, Hero of the World, and the plant buffs.</translate>
 * <translate>Added [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} on another player to give them 2.5% of your max Ki per second. Every giver raises the receiver's STR, SKP, DEF and PWR by 5% (up to +25%), and Ki that overflows while the receiver charges a ki attack goes into that attack.</translate>
 * <translate>Ki Transfer has a cost: givers move at 40% speed, can't fight or regenerate Ki, and lose 5% STR, SKP, DEF and PWR for every 3 seconds of giving (up to 25%, the new '''Ki Exhaustion''' effect); receivers keep their bonus for a while after the link ends (the new '''Shared Ki''' effect).</translate>
+* <translate>Strike attacks now '''rush''': with no enemy in reach you fly forward for up to 2 seconds (straight at your lock-on target from up to 64 blocks away) and strike the first enemy you reach, instead of a short dash.</translate>
+* <translate>Added [[Special:MyLanguage/Strike Clash|strike clashes]]: two fighters rushing at each other with strike attacks lock fists in a timing duel on the beam clash meter. The winner lands a heavy blow and gets the technique back at once; the loser is knocked back and stunned.</translate>
+* <translate>The Spirit Bomb accepts [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: players within 64 blocks are called to help and can give 10% of their max Ki per second without looking at the caster. Their energy makes the bomb grow and hit up to 3 times harder.</translate>
+* <translate>Techniques can be limited to certain races: masters show a '''Race''' line, and a race-locked technique can be learned by anyone but only equipped by its races. Gum Punch, the Mystic Ball Attack and Sleep Recovery are Majin only.</translate>
+* <translate>New '''K.O.''' effect shows how long you stay knocked down.</translate>
 
 <translate>
 === Masters, minigames and NPCs ===
@@ -172,6 +181,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>New Gogeta (Super Saiyan) and Gogeta (Super Saiyan 4) models.</translate>
 * <translate>Updated models and textures for many existing characters: Goku, Gohan (kid, teen, adult and future), Vegeta, Trunks, Future Trunks, Goten, Piccolo, Videl, Chi-Chi, Androids 17 and 18, Janemba, Turles and more, plus the Goku, Piccolo, Trunks, King Kai and [[Special:MyLanguage/Old Kai|Old Kai]] masters.</translate>
 * <translate>Reworked the models and textures of Raditz, Nappa, Zarbon, Dodoria, Cui and the Ginyu Force.</translate>
+* <translate>Story enemies now rush at you with their strike techniques and can start strike clashes: Turles uses [[Special:MyLanguage/Meteor Burst|Meteor Burst]] and Kid Buu the Mystic Ball Attack.</translate>
 
 <translate>
 === Items and gear ===
@@ -217,6 +227,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>New looks for the [[Special:MyLanguage/Glind|Glind]] forms: Dark King (bulkier body, crimson hair, red eyes on black sclera, red outline and aura), a new model for Time Power: Dark King, outlines for Absorption and both Time Power forms, and an exclusive Glind eye style.</translate>
 * <translate>With the 3D: Sparking aura style, dark legendary auras (Shiyoken, Evil Namek, Xeno, Transcended and others) have a black outer edge.</translate>
 * <translate>[[Special:MyLanguage/Bio-Android|Bio-Android]] bodies have colored shading: shaded areas take a deeper tone of each body color.</translate>
+* <translate>Each race has its own ki charging animation.</translate>
 
 <translate>
 === HUD and interface ===
@@ -278,11 +289,13 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>New <code>/dmzstructure here&#124;npcs</code> command (permission <code>dragonminez.dmzstructure</code>) to read structure-local coordinates and check structure NPCs.</translate>
 * <translate>New datapack folder <code>data/&lt;namespace&gt;/structure_npcs/</code> to place NPCs inside DragonMineZ structures without editing their <code>.nbt</code> files. See [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].</translate>
 * <translate><code>general-server.json</code>: <code>structureMinDistanceFromSpawn</code> and <code>structureMinDistanceBetween</code> now default to 500 (were 0 and 250).</translate>
-* <translate><code>general-server.json</code>: new <code>kiTransfer</code> and <code>superSaiyanGodRitual</code> sections, and new <code>worldBoss</code> keys <code>reviveInterruptDamageRatio</code>, <code>reviveDecayMultiplier</code> and <code>truceGraceSeconds</code> (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
+* <translate><code>general-server.json</code>: new <code>kiTransfer</code> and <code>superSaiyanGodRitual</code> sections, and new <code>worldBoss</code> keys <code>reviveInterruptDamageRatio</code>, <code>reviveDecayMultiplier</code>, <code>truceGraceSeconds</code>, <code>healthPerExtraMember</code> and <code>damagePerExtraMember</code> (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
 * <translate>[[Special:MyLanguage/Custom Forms|Custom forms]]: new <code>secondBorderColor</code> key in <code>aura3DStyle</code> for an outer fringe on Sparking auras.</translate>
 * <translate>New <code>/dmzquest difficulty [easy&#124;normal&#124;hard] [targets]</code> to see or set a player's story difficulty (in a party it changes the leader's, so the whole party switches), with the new permission nodes <code>dmzquest.difficulty.self</code> and <code>dmzquest.difficulty.others</code>.</translate>
 * <translate><code>/dmzmastery</code> now takes its targets last and optional, like the other commands: <code>/dmzmastery set&#124;add &lt;group&gt; &lt;form&gt; &lt;value&gt; [targets]</code>.</translate>
 * <translate><code>/dmzeffect clear</code> also clears the God Ritual cooldown and the Ki Transfer effects.</translate>
+* <translate><code>/dmzquest start&#124;finish&#124;fail&#124;reset&#124;track</code> and the saga subcommands now only change the player you name, not their whole party; <code>/dmzparty kick</code> works on offline members, and <code>/dmzparty</code> and <code>/dmzparty list</code> no longer need <code>dmzparty.use</code>.</translate>
+* <translate><code>/dmzeffect remove knockout</code> ends a knockdown, and <code>/dmzeffect clear</code> now ends knockdowns too.</translate>
 
 <translate>
 === Add-on API and compatibility ===

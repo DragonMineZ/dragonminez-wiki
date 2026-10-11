@@ -17,7 +17,6 @@ For every command gated by a DMZ permission, the check passes if '''any''' of th
 # The player has '''the specific node''' for that action.
 # The player has '''<code>dragonminez.admin</code>''', which grants every DMZ permission at once.
 # The player is a '''vanilla operator of level 2 or higher''' (<code>player.hasPermissions(2)</code>).
-# The player is one of the '''three DMZ team accounts''' hardcoded in the mod (see below).
 </translate>
 
 <translate>
@@ -25,20 +24,14 @@ Commands run from the '''server console or command blocks''' (anything that isn'
 </translate>
 
 <syntaxhighlight lang="java">
-if (PermissionAPI.getPermission(player, node) || PermissionAPI.getPermission(player, ADMIN) || player.hasPermissions(2)) return true;
-return isDmzTeamAccount(player);
+return PermissionAPI.getPermission(player, node) || PermissionAPI.getPermission(player, ADMIN) || player.hasPermissions(2);
 </syntaxhighlight>
-
-<translate>
-=== DMZ team accounts ===
-</translate>
-{{Note|type=warning|title=<translate>Transparency note</translate>|text=<translate>Three DMZ team accounts, identified by their Minecraft '''UUID''' (<code>19e318eb-9131-4466-af50-4958348249b8</code>, <code>5d651997-3ea5-49f3-8033-4ddce9cf8f4e</code>, <code>e4dfa0fb-5b43-4cde-89ab-92ac1a2d4f4a</code>), pass every DMZ permission check on any server running this code, regardless of your permission grants or operator configuration. This is hardcoded in <code>DMZPermissions</code>. When one of these accounts runs a command it could '''not''' have run with its normal permissions, the command's feedback is shown only to that account and is '''not broadcast to other operators''' or the server log, the way vanilla command feedback normally is.</translate>}}
 
 <translate>
 === Commands gated by vanilla operator level ===
 </translate>
 <translate>
-A few commands don't use DMZ nodes at all: they simply require '''operator level 2''', and are not affected by <code>dragonminez.admin</code> or the team-account bypass.
+A few commands don't use DMZ nodes at all: they simply require '''operator level 2''', and are not affected by <code>dragonminez.admin</code>.
 </translate>
 
 {| class="wikitable"
@@ -293,7 +286,7 @@ Nodes of <code>StoryCommand</code> (<code>/dmzquest</code>).
 |-
 | <code>dragonminez.dmzrevive.self</code> / <code>.others</code> || <code>false</code> || <translate>Revive a player.</translate> || <code>ReviveCommand</code>
 |-
-| <code>dragonminez.dmzparty.use</code> || <code>true</code> || <translate>Use party commands.</translate> || <code>PartyCommand</code>
+| <code>dragonminez.dmzparty.use</code> || <code>true</code> || <translate>Invite, accept and reject invitations, kick, disband and toggle party PvP, with <code>/dmzparty</code> or the Party tab. Listing your party (<code>/dmzparty</code>, <code>/dmzparty list</code>) and leaving it don't need it.</translate> || <code>PartyCommand</code>
 |-
 | <code>dragonminez.dmzmastery.set</code> / <code>.add</code> || <code>false</code> || <translate>Set or add transformation mastery.</translate> || <code>MasteryCommand</code>
 |-

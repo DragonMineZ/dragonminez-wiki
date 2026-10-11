@@ -32,11 +32,10 @@
 |Minions_label={{#invoke:Labels|get|Minions}}
 |Signature moves_label={{#invoke:Labels|get|Signature moves}}
 
-|Rewards=TP reward, Drops, Techniques
+|Rewards=Reward, Drops, Techniques
 |Rewards_label={{#invoke:Labels|get|Rewards}}
 |Rewards_collapsible=yes
-|TP reward_label={{#invoke:Labels|get|TP reward}}
-|TP reward={{#if:{{{TP reward|}}}|{{formatnum:{{{TP reward}}}}}}}
+|Reward_label={{#invoke:Labels|get|Reward}}
 |Drops_label={{#invoke:Labels|get|Drops}}
 |Techniques_label={{#invoke:Labels|get|Techniques}}
 }}[[Category:World Bosses{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>

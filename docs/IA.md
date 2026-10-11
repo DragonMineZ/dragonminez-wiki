@@ -15,7 +15,7 @@ All fields are optional. Use the exact field names (they are case sensitive).
 - `{{Infobox Dimension}}` (adds Category:Dimensions): Gravity, Access, Biomes, Resources, Inhabitants, Structures, Bosses
 - `{{Infobox Structure}}` (adds Category:Structures): Dimension, Biome, Location, Locate, Inhabitants, Purpose, Protection
 - `{{Infobox Mob}}` (adds Category:Bestiary): Type, Dimension, Spawns, Behavior, Health, Damage, Ki damage, Abilities, Drops, TP reward
-- `{{Infobox World Boss}}` (adds Category:World Bosses): World, Lair, Coordinates, How to find, Boss key, Respawn, Health, Transforms into, Transformed health, Minions, Signature moves, TP reward, Drops, Techniques
+- `{{Infobox World Boss}}` (adds Category:World Bosses): World, Lair, Coordinates, How to find, Boss key, Respawn, Health, Transforms into, Transformed health, Minions, Signature moves, Reward, Drops, Techniques
 - `{{Infobox Raid}}` (adds Category:Raids): Raid id, Dimension, Raid site, Waves, Bosses, Scout health, Scout melee, Scout ki, Rewards, Defeat penalty
 - `{{Infobox Tournament}}` (adds Category:Tournaments): Tournament id, Host, Arena, Format, Ring, Difficulty, Fighters, Final, Rewards, Re-entry cooldown
 - `{{Infobox Saga}}` (adds Category:Sagas): Order, Quests, Difficulty, Villains, Unlocks, Rewards, Previous, Next

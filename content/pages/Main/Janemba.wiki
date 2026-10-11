@@ -3,12 +3,12 @@
 |Lair=<translate>A ring of spikes at the very bottom of Hell</translate>
 |How to find=<translate>About 1,000 blocks from the centre of the Otherworld; the Hell Ogre next to King Yemma tells you where</translate>
 |Boss key=janemba
-|Health=6720000
+|Health=8064000
 |Transforms into=<translate>Super Janemba</translate>
-|Transformed health=7350000
+|Transformed health=8820000
 |Minions=<translate>Mini Janembas</translate>
 |Signature moves=<translate>Mini Janemba swarm, leaping stomp, Mouth Blast, dimensional cuts</translate>
-|TP reward=1350000
+|Reward=<translate>×500 Attributes</translate>
 |Drops={{L|Dimension Sword}} (50%)
 |Techniques=<translate>Dimensional Warp (20%)</translate>
 }}
@@ -40,7 +40,7 @@ Janemba is a giant: hitting him counts once per swing, no matter how many of his
 <translate>
 === Super Janemba ===
 
-During the fight Janemba turns into '''Super Janemba''', who starts with full health (7,350,000). Any Mini Janembas still around vanish when he transforms.
+During the fight Janemba turns into '''Super Janemba''', who starts with full health (8,820,000 for a single fighter). Any Mini Janembas still around vanish when he transforms.
 
 * He warps around the battlefield to dodge and reposition.
 * He fires a [[Special:MyLanguage/Mouth Blast|Mouth Blast]] at the spot marked by a red circle under his target.
@@ -52,8 +52,8 @@ If the fight resets, Super Janemba goes back to sleep in his first form.
 <translate>
 == Rewards ==
 
-Every contributor rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):
-* '''1,350,000 TP''' (guaranteed; the amount scales with your contribution).
+Every contributor with at least 7.5% of the points rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):
+* '''×500 Attributes''' (guaranteed; the amount scales with your contribution): half as Attribute Points and half as Training Points, like quest rewards (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]).
 * [[Special:MyLanguage/Dimension Sword|Dimension Sword]] (50%).
 * The [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] technique (20%): an evasion technique that teleports you behind your locked-on target within 64 blocks, or a few blocks forward without a target. See [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].
 </translate>

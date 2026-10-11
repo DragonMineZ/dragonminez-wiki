@@ -37,7 +37,7 @@ INFOBOXES = {
     'World Boss': ('world-boss', 'World Bosses', [
         ('General', ['World', 'Lair', 'Coordinates', 'How to find', 'Boss key', 'Respawn']),
         ('Combat', ['Health', 'Transforms into', 'Transformed health', 'Minions', 'Signature moves']),
-        ('Rewards', ['TP reward', 'Drops', 'Techniques']),
+        ('Rewards', ['Reward', 'Drops', 'Techniques']),
     ]),
     'Raid': ('raid', 'Raids', [
         ('General', ['Raid id', 'Dimension', 'Raid site', 'Waves', 'Bosses']),
@@ -120,7 +120,7 @@ LABELS = {
     'Protection': ('Protección', 'Proteção'), 'Spawns': ('Aparición', 'Surgimento'),
     'Behavior': ('Comportamiento', 'Comportamento'), 'Health': ('Vida', 'Vida'), 'Damage': ('Daño', 'Dano'),
     'Ki damage': ('Daño de ki', 'Dano de ki'), 'Abilities': ('Habilidades', 'Habilidades'),
-    'TP reward': ('Recompensa de TP', 'Recompensa de TP'), 'World': ('Mundo', 'Mundo'),
+    'TP reward': ('Recompensa de TP', 'Recompensa de TP'), 'Reward': ('Recompensa', 'Recompensa'), 'World': ('Mundo', 'Mundo'),
     'Lair': ('Guarida', 'Covil'), 'Coordinates': ('Coordenadas', 'Coordenadas'),
     'How to find': ('Cómo encontrarlo', 'Como encontrar'), 'Boss key': ('Clave del jefe', 'Chave do chefe'),
     'Respawn': ('Reaparición', 'Reaparecimento'), 'Transforms into': ('Se transforma en', 'Transforma-se em'),

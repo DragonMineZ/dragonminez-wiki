@@ -1,5 +1,5 @@
 <translate>
-'''World bosses''' are huge, persistent enemies that sleep in fixed '''lairs''' across the worlds of DragonMineZ. Anyone can walk in and wake one, everyone nearby fights it together, and when it falls every fighter is ranked by '''contribution''' and rolls for rewards. A defeated boss comes back after an hour.
+'''World bosses''' are huge, persistent enemies that sleep in fixed '''lairs''' across the worlds of DragonMineZ. Anyone can walk in and wake one, everyone nearby fights it together (the boss gets tougher with every extra fighter), and when it falls every fighter is ranked by '''contribution''' and rolls for rewards. A defeated boss comes back after an hour.
 </translate>
 
 <div class="dmz-cards">
@@ -18,20 +18,24 @@
 {| class="wikitable"
 ! <translate>Boss</translate> !! <translate>Boss key</translate> !! <translate>World</translate> !! <translate>Lair</translate> !! <translate>Health</translate>
 |-
-| {{L|Janemba}} || <code>janemba</code> || {{L|Otherworld}} || <translate>A ring of spikes at the very bottom of Hell, about 1,000 blocks from the centre of the Otherworld.</translate> || <translate>6,720,000 (Super Janemba: 7,350,000)</translate>
+| {{L|Janemba}} || <code>janemba</code> || {{L|Otherworld}} || <translate>A ring of spikes at the very bottom of Hell, about 1,000 blocks from the centre of the Otherworld.</translate> || <translate>8,064,000 (Super Janemba: 8,820,000)</translate>
 |-
-| {{L|Turles}} || <code>turles</code> || {{L|Earth}} || <translate>The clearing under the Tree of Might (swamps, at least 1,000 blocks from 0, 0).</translate> || 72,000
+| {{L|Turles}} || <code>turles</code> || {{L|Earth}} || <translate>The clearing under the Tree of Might (swamps, at least 1,000 blocks from 0, 0).</translate> || 87,200
 |-
-| {{L|Metal Cooler Core}} || <code>metal_cooler_core</code> || {{L|Namek}} || <translate>The inner chamber of the Big Gete Star.</translate> || 468,000
+| {{L|Metal Cooler Core}} || <code>metal_cooler_core</code> || {{L|Namek}} || <translate>The inner chamber of the Big Gete Star.</translate> || 640,000
 |-
-| {{L|Tamagami Number 3}} || <code>tamagami_3</code> || {{L|Demon Realm}} || <translate>A stone platform on the Third Demon World.</translate> || 2,340,000
+| {{L|Tamagami Number 3}} || <code>tamagami_3</code> || {{L|Demon Realm}} || <translate>A stone platform on the Third Demon World.</translate> || 3,120,000
 |-
-| {{L|Tamagami Number 2}} || <code>tamagami_2</code> || {{L|Demon Realm}} || <translate>A stone platform on the Second Demon World.</translate> || 9,465,000
+| {{L|Tamagami Number 2}} || <code>tamagami_2</code> || {{L|Demon Realm}} || <translate>A stone platform on the Second Demon World.</translate> || 12,620,000
 |-
-| {{L|Tamagami Number 1}} || <code>tamagami_1</code> || {{L|Demon Realm}} || <translate>A stone platform on the First Demon World.</translate> || 12,750,000
+| {{L|Tamagami Number 1}} || <code>tamagami_1</code> || {{L|Demon Realm}} || <translate>A stone platform on the First Demon World.</translate> || 17,000,000
 |-
-| {{L|Gomah}} || <code>gomah</code> || {{L|Demon Realm}} || <translate>His throne on Gomah's Horn Cradle, a floating island high above the First Demon World, around X −1112, Z −1144.</translate> || 18,969,000
+| {{L|Gomah}} || <code>gomah</code> || {{L|Demon Realm}} || <translate>His throne on Gomah's Horn Cradle, a floating island high above the First Demon World, around X −1112, Z −1144.</translate> || 25,292,000
 |}
+
+<translate>
+The health shown is for a single fighter with the default settings: every extra fighter adds more (see [[Special:MyLanguage/World Bosses#Bigger groups, tougher bosses|Bigger groups, tougher bosses]]). World bosses are built on the Hard story difficulty: each one has 4 times the health of its [[Special:MyLanguage/Sagas|saga]] fight on Hard (8 times the Normal health) and the damage of that fight on Hard (1.5 times the Normal damage).
+</translate>
 
 <translate>
 == Lairs, waking and respawning ==
@@ -62,6 +66,10 @@ Operators can use <code>/dmzworldboss locate</code> to see every lair and whethe
 Every player with a character within '''150 blocks''' of the boss joins the fight. Joining puts the hidden '''Revive''' technique in your technique slot '''4'''; whatever was there comes back when the fight ends or you leave the dimension.
 
 While you take part in the fight the '''World Boss Theme''' plays. It stops when you leave the area, and a victory tune plays when the boss falls.
+
+=== Bigger groups, tougher bosses ===
+
+A world boss scales with the number of fighters: every participant after the first adds '''50%''' to its max health and '''25%''' to its melee and ki damage. With 2 fighters it has 1.5 times its health, with 4 fighters 2.5 times. Participants within 150 blocks of the boss count, including knocked-out ones; players in Creative or Spectator mode don't. The count is checked every 5 seconds, and when it changes the boss keeps the same percentage of its health. The bonus goes away when the boss goes back to sleep.
 
 === Truce ===
 
@@ -110,7 +118,7 @@ Your contribution is the sum of four totals, each weighted equally by default:
 |-
 | <translate>'''Damage received'''</translate> || <translate>Damage you took from the boss and its minions.</translate>
 |-
-| <translate>'''Healing done'''</translate> || <translate>Healing on yourself and on allies. Food, Senzu Beans and the revive restore don't count.</translate>
+| <translate>'''Healing done'''</translate> || <translate>Healing on yourself and on allies. Food, Senzu Beans and the revive restore don't count. Healing someone whose defense and blocking soak a lot of damage is worth more: each point healed counts as the damage it undoes before their defense and blocking, up to 10 times its value.</translate>
 |}
 
 <translate>
@@ -120,28 +128,30 @@ Your '''share''' is your points divided by everyone's points. During the fight, 
 <translate>
 == Rewards ==
 
-When the boss is defeated, everyone in range sees a victory title with their placement and share. Every contributor then rolls each reward of that boss:
+When the boss is defeated, everyone in range sees a victory title with their placement and share. Every contributor with at least '''7.5%''' of all the points then rolls each reward of that boss; below that share you get nothing, and the chat tells you your contribution wasn't enough.
 
-* A reward with a 100% chance is '''guaranteed''', and its amount (TP, item count) scales with your points: the top contributor gets the full amount, and everyone else at least '''50%''' of it.
+* A reward with a 100% chance is '''guaranteed''', and its amount (Attributes, item count) scales with your points: the top contributor gets the full amount, and everyone else at least '''50%''' of it.
 * Other rewards are rolled with their chance, boosted by your rank: '''MVP +25%''', '''2nd +15%''', '''3rd +10%'''.
 * A reward that teaches a predefined technique also unlocks it.
+
+Every boss pays '''Attributes''', split like quest rewards: half arrive as '''Attribute Points''' and half as the Training Points those points would cost you right now, so the reward keeps its value however expensive your stats get (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]). Your story difficulty doesn't change world boss rewards.
 </translate>
 {| class="wikitable"
 ! <translate>Boss</translate> !! <translate>Default rewards</translate>
 |-
-| {{L|Janemba}} || <translate>1,350,000 TP, Dimension Sword (50%), Dimensional Warp technique (20%)</translate>
+| {{L|Janemba}} || <translate>×500 Attributes, Dimension Sword (50%), Dimensional Warp technique (20%)</translate>
 |-
-| {{L|Turles}} || <translate>50,000 TP, Fruit of the Tree of Might (50%), Kill Driver technique (25%), Meteor Burst technique (15%)</translate>
+| {{L|Turles}} || <translate>×50 Attributes, Fruit of the Tree of Might (50%), Kill Driver technique (25%), Meteor Burst technique (15%)</translate>
 |-
-| {{L|Metal Cooler Core}} || <translate>750,000 TP, 4 Gete Ingots, Supernova (Cooler) technique (20%), each of the six Gete capsules (12% each)</translate>
+| {{L|Metal Cooler Core}} || <translate>×105 Attributes, 4 Gete Ingots, Supernova (Cooler) technique (20%), each of the six Gete capsules (12% each)</translate>
 |-
-| {{L|Tamagami Number 3}} || <translate>1,500,000 TP, Tamagami Hammer (30%)</translate>
+| {{L|Tamagami Number 3}} || <translate>×90 Attributes, Tamagami Hammer (30%)</translate>
 |-
-| {{L|Tamagami Number 2}} || <translate>2,000,000 TP, Tamagami Trident (30%)</translate>
+| {{L|Tamagami Number 2}} || <translate>×300 Attributes, Tamagami Trident (30%)</translate>
 |-
-| {{L|Tamagami Number 1}} || <translate>2,700,000 TP, Tamagami Sword (30%)</translate>
+| {{L|Tamagami Number 1}} || <translate>×360 Attributes, Tamagami Sword (30%)</translate>
 |-
-| {{L|Gomah}} || <translate>3,500,000 TP, Demon Eye (2%)</translate>
+| {{L|Gomah}} || <translate>×435 Attributes, Demon Eye (2%)</translate>
 |}
 
 <translate>
@@ -180,7 +190,7 @@ Without a boss, <code>tp</code>, <code>reset</code> and <code>ready</code> use t
 <translate>
 == Configuration ==
 
-Server owners can tune the fights in the <code>worldBoss</code> section of <code>general-server.json</code>: the contribution range and category weights, the number of lives, the revive slot, cast time, range, cooldowns and restore amount, the damage that interrupts a revive and how fast unfinished revive progress fades, how long the truce lasts after a fight, the rank chance bonuses, the guaranteed reward minimum and minimum share, and each boss's reward list. A boss missing from the reward list uses its default rewards, and an empty list disables its drops.
+Server owners can tune the fights in the <code>worldBoss</code> section of <code>general-server.json</code>: the contribution range and category weights, the number of lives, the revive slot, cast time, range, cooldowns and restore amount, the damage that interrupts a revive and how fast unfinished revive progress fades, how long the truce lasts after a fight, how much health and damage each extra fighter adds, the rank chance bonuses, the guaranteed reward minimum and minimum share, and each boss's reward list. A boss missing from the reward list uses its default rewards, and an empty list disables its drops. The Hard difficulty health and damage multipliers (<code>hardModeHPMultiplier</code>, <code>hardModeDamageMultiplier</code>) also scale every world boss.
 </translate>
 
 {{Config|General Server Config|worldBoss}}

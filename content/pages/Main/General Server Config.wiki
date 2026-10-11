@@ -150,7 +150,7 @@ The <code>gameplay</code> block is the largest section of the file: progression,
 |-
 | <code>progressionReferenceLevel</code> || <code>10000</code> || <translate>Player level whose stat cost gives the full <code>increaseTPGainRelativeToTPCost</code> bonus (minimum <code>2</code>, never above <code>maxValue</code>).</translate>
 |-
-| <code>attributeRewardPointRatio</code> || <code>0.5</code> || <translate>Share of an '''Attributes''' reward (quests, Power Boost wishes) given as Attribute Points, rounded down; the rest is given as the TP those stat points cost the player at that moment. Clamped to <code>0</code>–<code>1</code>.</translate>
+| <code>attributeRewardPointRatio</code> || <code>0.5</code> || <translate>Share of an '''Attributes''' reward (quests, Power Boost wishes, world bosses) given as Attribute Points, rounded down; the rest is given as the TP those stat points cost the player at that moment. Clamped to <code>0</code>–<code>1</code>.</translate>
 |-
 | <code>tpHealthRatio</code> || <code>0.25</code> || <translate>TP earned from a kill, scaled by the target's max health.</translate>
 |-
@@ -520,9 +520,9 @@ Stat capsule items grant stat points to the stat or stats configured in the <cod
 |-
 | <code>easyModeQuestRewardMultiplier</code> || <code>1.0</code> || <translate>Quest reward multiplier on Easy.</translate>
 |-
-| <code>hardModeHPMultiplier</code> || <code>2.0</code> || <translate>Enemy health multiplier on Hard.</translate>
+| <code>hardModeHPMultiplier</code> || <code>2.0</code> || <translate>Enemy health multiplier on Hard. World bosses always use it (times 4).</translate>
 |-
-| <code>hardModeDamageMultiplier</code> || <code>1.5</code> || <translate>Enemy damage multiplier on Hard.</translate>
+| <code>hardModeDamageMultiplier</code> || <code>1.5</code> || <translate>Enemy damage multiplier on Hard. World bosses always use it.</translate>
 |-
 | <code>hardModeTPMultiplier</code> || <code>1.25</code> || <translate>TP gain multiplier on Hard.</translate>
 |-
@@ -1106,7 +1106,9 @@ The <code>superSaiyanGodRitual</code> block controls the [[Special:MyLanguage/Su
 </translate>
 {{Main|World Bosses}}
 <translate>
-The <code>worldBoss</code> block tunes the world boss fights. Contribution points are the four totals (damage dealt, damage mitigated, damage received, healing) multiplied by their weights.
+The <code>worldBoss</code> block tunes the world boss fights. Contribution points are the four totals (damage dealt, damage mitigated, damage received, healing) multiplied by their weights. Healing counts more when the healed player's defense and blocking soak a lot of damage (up to 10 times).
+
+World boss health and damage aren't keys of this block: they follow the Hard difficulty multipliers. Each boss has its saga fight's Normal health × <code>hardModeHPMultiplier</code> × 4 and its Normal damage × <code>hardModeDamageMultiplier</code> (both in the difficulty multipliers of the <code>gameplay</code> section above). The values on the [[Special:MyLanguage/World Bosses|World Bosses]] pages use the defaults.
 </translate>
 
 {| class="wikitable"
@@ -1114,7 +1116,7 @@ The <code>worldBoss</code> block tunes the world boss fights. Contribution point
 |-
 | <code>contributionRange</code> || <code>150</code> || <translate>Players within this range of the boss take part in the fight (minimum <code>16</code>).</translate>
 |-
-| <code>audienceRefreshSeconds</code> || <code>5</code> || <translate>How often the participant list is refreshed.</translate>
+| <code>audienceRefreshSeconds</code> || <code>5</code> || <translate>How often the participant list, and with it the boss's group scaling, is refreshed.</translate>
 |-
 | <code>meterLingerSeconds</code> || <code>15</code> || <translate>How long the contribution HUD stays on screen after the kill.</translate>
 |-
@@ -1152,7 +1154,11 @@ The <code>worldBoss</code> block tunes the world boss fights. Contribution point
 |-
 | <code>guaranteedRewardMinRatio</code> || <code>0.5</code> || <translate>Guaranteed rewards (<code>chance</code> 1.0) scale from this fraction up to 100% with the player's points compared to the best player.</translate>
 |-
-| <code>minContributionShare</code> || <code>0.0</code> || <translate>Minimum share of total points needed to receive rewards.</translate>
+| <code>minContributionShare</code> || <code>0.075</code> || <translate>Minimum share of total points needed to receive any reward (<code>0.075</code> = 7.5%). Players below it get nothing.</translate>
+|-
+| <code>healthPerExtraMember</code> || <code>0.5</code> || <translate>Extra boss max health for each participant after the first, as a fraction of its health: with <code>0.5</code>, 2 fighters give ×1.5 and 4 give ×2.5. Participants in Creative or Spectator mode don't count. <code>0</code> turns it off.</translate>
+|-
+| <code>damagePerExtraMember</code> || <code>0.25</code> || <translate>The same for the boss's melee and ki damage.</translate>
 |-
 | <code>rewards</code> || <translate>See below</translate> || <translate>A map of boss key to reward list: the rewards of each boss.</translate>
 |}
@@ -1161,7 +1167,7 @@ The <code>worldBoss</code> block tunes the world boss fights. Contribution point
 === Boss rewards ===
 </translate>
 <translate>
-Each reward entry uses the same fields as a quest reward (<code>type</code>, <code>item</code>/<code>count</code>, <code>amount</code>, <code>skill</code>/<code>level</code>, <code>command</code>, <code>formGroup</code>/<code>formName</code>, …) plus <code>chance</code> (<code>0</code>–<code>1</code>, default <code>1.0</code>). A boss missing from the map uses its built-in rewards; write <code>"&lt;boss key&gt;": []</code> to disable drops for one boss.
+Each reward entry uses the same fields as a quest reward (<code>type</code>, <code>item</code>/<code>count</code>, <code>amount</code>, <code>skill</code>/<code>level</code>, <code>command</code>, <code>formGroup</code>/<code>formName</code>, …) plus <code>chance</code> (<code>0</code>–<code>1</code>, default <code>1.0</code>). The built-in rewards pay <code>ATTRIBUTES</code> (Janemba 500, Turles 50, Metal Cooler Core 105, Tamagami Number 3, 2 and 1 90, 300 and 360, Gomah 435) instead of TP. A boss missing from the map uses its built-in rewards; write <code>"&lt;boss key&gt;": []</code> to disable drops for one boss.
 </translate>
 
 {| class="wikitable"
@@ -1185,7 +1191,7 @@ Each reward entry uses the same fields as a quest reward (<code>type</code>, <co
 <syntaxhighlight lang="json">
 "rewards": {
   "janemba": [
-    { "type": "TPS", "amount": 1350000, "chance": 1.0 },
+    { "type": "ATTRIBUTES", "amount": 500, "chance": 1.0 },
     { "type": "ITEM", "item": "dragonminez:dimensional_sword", "count": 1, "chance": 0.5 },
     { "type": "SKILL", "skill": "dimensional_teleport", "level": 1, "chance": 0.2 }
   ]

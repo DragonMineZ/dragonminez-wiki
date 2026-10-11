@@ -71,6 +71,8 @@ Knockback scales with how much of a hit got through your defense and how big it 
 
 In fights that don't allow kills, a hit that would have killed a player '''knocks them down''' for '''30 seconds''' instead. This happens in party PvP, with '''Friendly Fist''' switched on (a Ki Action in the Utility Menu), when sparring a Shadow Dummy, and while a [[Special:MyLanguage/Namekian|Namekian]] or [[Special:MyLanguage/Majin|Majin]] is preparing an absorption. [[Special:MyLanguage/World Bosses|World boss]] fights have their own knockout rules.
 
+While you are down, the '''K.O.''' effect shows how long until you get back up (see [[Special:MyLanguage/Effects|Effects]]).
+
 === Logging out in combat ===
 
 If you log out in the middle of a fight, you die the next time you log in.
@@ -87,7 +89,7 @@ A tap of the [[Special:MyLanguage/Instant Transmission|Instant Transmission]] ke
 
 === Lock-on ===
 
-Press {{Key|Z}} to '''lock on''' to a target. Homing ki attacks follow your locked-on target (your lock-on range comes from the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill), a tap of Instant Transmission takes you to it, and strike attacks rush to it first. In third person, the crosshair glides to where your attacks will land and softly locks onto hostile targets in reach.
+Press {{Key|Z}} to '''lock on''' to a target. Homing ki attacks follow your locked-on target (your lock-on range comes from the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill), a tap of Instant Transmission takes you to it, and strike attacks rush straight at it from up to 64 blocks away. In third person, the crosshair glides to where your attacks will land and softly locks onto hostile targets in reach.
 </translate>
 
 <translate>
@@ -183,7 +185,7 @@ See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Controls|Contr
 
 == Techniques in combat ==
 
-Ki attacks, strike attacks and evasion techniques are fired from your technique slots ({{Key|Alt}} + 1–4 and {{Key|Ctrl}} + 1–4); they need the [[Special:MyLanguage/Ki Control|Ki Control]] skill, at least '''5%''' Power Release and an empty main hand. Every strike attack starts a short '''shared cooldown''' (3 seconds, halved when it misses), so owning several strikes doesn't let you chain them; missing a strike completely refunds part of its Ki. Two beams that meet head-on start a '''beam clash'''. Everything about techniques is on [[Special:MyLanguage/Techniques|Techniques]].
+Ki attacks, strike attacks and evasion techniques are fired from your technique slots ({{Key|Alt}} + 1–4 and {{Key|Ctrl}} + 1–4); they need the [[Special:MyLanguage/Ki Control|Ki Control]] skill, at least '''5%''' Power Release and an empty main hand. Every strike attack starts a short '''shared cooldown''' (3 seconds, halved when it misses), so owning several strikes doesn't let you chain them. With no enemy in reach, a strike attack '''rushes''' forward for up to 2 seconds, and missing completely refunds part of its Ki. Two beams that meet head-on start a [[Special:MyLanguage/Beam Clash|beam clash]], and two fighters rushing at each other with strike attacks start a [[Special:MyLanguage/Strike Clash|strike clash]]. Everything about techniques is on [[Special:MyLanguage/Techniques|Techniques]].
 
 == Who you can hit ==
 

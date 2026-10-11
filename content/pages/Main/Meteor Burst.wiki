@@ -6,10 +6,10 @@
 |Damage=<translate>×2.6, scales with Strike Damage and Ki Damage</translate>
 |Cooldown=<translate>30 seconds</translate>
 |Charge time=<translate>Instant</translate>
-|Range=<translate>6 blocks (12 while flying)</translate>
+|Range=<translate>6 blocks (12 while flying), then a 2-second rush</translate>
 }}
 <translate>
-'''Meteor Burst''' is a long strike combo that lasts about 6 seconds and mixes strikes, a slam and ki blasts. It is a rare reward of the [[Special:MyLanguage/Turles|Turles]] world boss, and unlike most strike attacks it scales with both your Strike Damage (SKP) and your Ki Damage (PWR).
+'''Meteor Burst''' is a long strike combo that lasts about 10 seconds and mixes strikes, a slam and ki blasts. It is a rare reward of the [[Special:MyLanguage/Turles|Turles]] world boss, and unlike most strike attacks it scales with both your Strike Damage (SKP) and your Ki Damage (PWR).
 </translate>
 
 <translate>
@@ -23,9 +23,25 @@ You need [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at
 <translate>
 == How it works ==
 
-Press the technique's slot key. As with every strike attack, you rush to the target in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying. Then the combo plays out over about '''6 seconds''', mixing strikes, a slam and ki blasts. Its damage multiplier is ×2.6, and it scales with both SKP and PWR.
+Press the technique's slot key. If an enemy is in reach in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying, the combo starts on it right away. Otherwise you rush forward for up to 2 seconds, or straight at your locked-on target, and the combo starts on the first enemy you reach. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
+
+The combo then plays out over about '''10 seconds''':
+
+# You dash in with a punch and launch the target into the air with an uppercut.
+# You rise above it and stomp it back down, vanish, reappear beneath it for a knee strike and hammer it into the ground.
+# You leap back, step up to the fallen target, charge a ball of ki in your hand, fire six ki blasts into it and finish with a ki explosion.
+
+The five blows share your Strike Damage × 2.6: 15% for the punch, 15% for the uppercut, 20% for the stomp, 15% for the knee and 35% for the hammer. The ki part deals damage based on 1.5 × your Ki Damage: 10% of it for each of the six blasts and 40% for the explosion.
+
+The target is carried through the whole combo; world bosses and giant multi-part enemies can't be carried, so they are pinned in place instead. Being stunned or knocked down cuts the combo short.
 
 Meteor Burst has the longest cooldown of any strike attack: '''30 seconds'''.
+</translate>
+
+<translate>
+== Enemies that use it ==
+
+[[Special:MyLanguage/Turles|Turles]] uses Meteor Burst both as a world boss and as a story enemy in the [[Special:MyLanguage/Movies Saga|Movies Saga]]. In the story he rushes at you from up to 24 blocks away when he can see you; if your own strike rush meets his head-on, the two of you [[Special:MyLanguage/Strike Clash|clash]].
 </translate>
 
 <translate>

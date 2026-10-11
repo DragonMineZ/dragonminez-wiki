@@ -11,7 +11,7 @@ Admins can give or remove DMZ's three long-term character effects, [[Special:MyL
 * <code>/dmzeffect remove &lt;effect&gt; [targets]</code>
 * <code>/dmzeffect clear [targets]</code>
 
-Besides the effects, <code>/dmzeffect clear</code> also removes the God Ritual cooldown and the Ki Transfer effects.
+<code>/dmzeffect remove</code> also accepts <code>knockout</code>, which removes the K.O. effect and gets a knocked-down player back up. Besides the effects, <code>/dmzeffect clear</code> also removes the God Ritual cooldown and the Ki Transfer effects, and ends a knockdown.
 
 The other effects work with the vanilla <code>/effect</code> command, using their id with the <code>dragonminez:</code> prefix. See [[Special:MyLanguage/Commands|Commands]].
 </translate>
@@ -22,13 +22,15 @@ The other effects work with the vanilla <code>/effect</code> command, using thei
 {| class="wikitable"
 ! <translate>Effect</translate> !! <translate>Id</translate> !! <translate>What it does</translate>
 |-
-| <translate>Stunned</translate> || <code>stun</code> || <translate>You can't move or act. Applied when your '''guard is broken''' (3 seconds by default), to the loser of a beam clash, and by some techniques (for example the Bio-Android's Vital Drain).</translate>
+| <translate>Stunned</translate> || <code>stun</code> || <translate>You can't move or act. Applied when your '''guard is broken''' (3 seconds by default), to the loser of a beam clash or a [[Special:MyLanguage/Strike Clash|strike clash]], and by some techniques (for example the Bio-Android's Vital Drain).</translate>
 |-
 | <translate>Staggered</translate> || <code>stagger</code> || <translate>−25% movement and attack speed. Applied for 3 seconds to an attacker whose hit you '''parry'''.</translate>
 |-
 | <translate>Ki Slow</translate> || <code>ki_slow</code> || <translate>−90% movement speed for a moment (1.5 seconds) after being hit by a ki attack (not by small ki blasts).</translate>
 |-
 | <translate>Candy</translate> || <code>candy</code> || <translate>Majin Buu's candy beam: the target is turned into candy and left helpless.</translate>
+|-
+| <translate>K.O.</translate> || <code>knockout</code> || <translate>Shown while you are '''knocked down''' (see [[Special:MyLanguage/Combat#Knockdowns|Combat]]), with the time left before you get back up. Milk doesn't remove it; removing it with a command gets you back up at once.</translate>
 |}
 
 <translate>

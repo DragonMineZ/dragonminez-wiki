@@ -7,6 +7,7 @@
 {{Card|Strike Attacks|<translate>Rush in and land a powerful melee technique.</translate>}}
 {{Card|Evasion Techniques|<translate>Blind, reposition or push your enemies away.</translate>}}
 {{Card|Beam Clash|<translate>When two beams meet head-on, timing and power decide the winner.</translate>}}
+{{Card|Strike Clash|<translate>When two strike rushes meet, fists collide in a timing duel.</translate>}}
 </div>
 
 <translate>
@@ -22,7 +23,9 @@ The same three conditions apply to evasion techniques. The only exception to the
 </translate>
 {{Config|Skills Config|skills.json}}
 <translate>
-Each predefined technique is learned from a specific master and costs a single payment of Training Points (TP) to unlock. A master only lists what your race is allowed to learn, and masters with an [[Special:MyLanguage/Alignment|alignment]] requirement won't teach you until your alignment fits. Up to 256 techniques can be unlocked.
+Each predefined technique is learned from a specific master and costs a single payment of Training Points (TP) to unlock. Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement won't teach you until your alignment fits. Up to 256 techniques can be unlocked.
+
+Some techniques belong to certain races. A master lists every technique they teach, and its details show a '''Race''' line, in red when your race can't use it. You can still learn such a technique, but you can only equip it in a slot if your race is allowed: in the Skills menu it shows '''Not usable by your race''' and has no '''Bind to Slot''' button. By default only three are restricted, all taught by [[Special:MyLanguage/Majin Buu|Majin Buu]] and usable only by [[Special:MyLanguage/Majin|Majins]]: Gum Punch, the Mystic Ball Attack and Sleep Recovery.
 
 Some techniques aren't taught by any master by default: a few drop from [[Special:MyLanguage/World Bosses|world bosses]], the Great Ape techniques are granted while you are in that form, and the rest can be added to a master's list by the server owner. Admins can grant any technique directly with {{Command|/dmztech add &lt;technique&gt; [targets]}} (see [[Special:MyLanguage/Commands|Commands]]).
 
@@ -44,7 +47,7 @@ You can also design your own ki attacks with the Technique Creator (see below).
 * Unlocked techniques are equipped into '''8 technique slots''' from the Skills menu ('''Bind to Slot''').
 * Default slot keys: {{Key|Alt}} + {{Key|1}}–{{Key|4}} for slots 1–4 and {{Key|Ctrl}} + {{Key|1}}–{{Key|4}} for slots 5–8. While you hold a bar's modifier, its four slots appear on the technique hotbar (see [[Special:MyLanguage/Controls|Controls]] and [[Special:MyLanguage/HUD|HUD]]).
 * '''Ki attacks:''' hold the slot key to charge and release it to fire. If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.
-* '''Strike attacks and evasion techniques''' activate as soon as you press the slot key.
+* '''Strike attacks and evasion techniques''' activate as soon as you press the slot key. A strike attack with no enemy in reach '''rushes''' forward to find one (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).
 * Every technique has its own cooldown. Riding an entity blocks the beam-type attacks that root you while charging.
 </translate>
 
@@ -167,6 +170,14 @@ Whether ki attacks may break blocks at all, and which structures are protected, 
 {{Main|Beam Clash}}
 <translate>
 When two beams (Wave or Beam type: Kamehameha, Galick Gun, Final Flash, Special Beam Cannon…) meet head-on, a '''beam clash''' starts. Both fighters are invulnerable while it lasts and a timing meter appears: right-click when the marker is inside the window to push your beam forward. The side that pushes far enough wins and breaks through; the loser is stunned for 3.5 seconds. Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam are simply destroyed.
+</translate>
+
+<translate>
+== Strike clashes ==
+</translate>
+{{Main|Strike Clash}}
+<translate>
+When two fighters rush at each other with strike attacks, a '''strike clash''' starts: both are held in place, trading blows, and the same timing meter decides who pushes through. The winner deals a heavy blow and gets the technique back at once; the loser is knocked back and stunned for 3.5 seconds.
 </translate>
 
 {{Navbox Abilities}}

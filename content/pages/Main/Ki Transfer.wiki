@@ -1,5 +1,5 @@
 <translate>
-'''Ki Transfer''' lets you give your Ki to another player. Hold the keys while you look at them and a stream of Ki flows from your hands into their chest: their Ki bar refills and, after a moment, every giver also makes them stronger. Giving has a price: you slow down, you can't fight while you give, and you stay weaker for a while afterwards. Five Saiyans giving their Ki to a sixth can also start the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]].
+'''Ki Transfer''' lets you give your Ki to another player. Hold the keys while you look at them and a stream of Ki flows from your hands into their chest: their Ki bar refills and, after a moment, every giver also makes them stronger. Giving has a price: you slow down, you can't fight while you give, and you stay weaker for a while afterwards. Players can also pour their energy into a charging Spirit Bomb, and five Saiyans giving their Ki to a sixth can start the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]].
 </translate>
 
 <translate>
@@ -54,6 +54,23 @@ The link ends, with a message to the giver, when:
 {{See also|Techniques}}
 <translate>
 If the receiver is charging a ki attack, the Ki that doesn't fit in their bar is stored for that attack instead of being lost, up to one full Ki bar of the receiver. The attack spends the stored Ki before the receiver's own, so a team can keep a big attack charging and overcharging. Whatever is left is lost when the receiver stops charging.
+</translate>
+
+<translate>
+== Giving energy to a Spirit Bomb ==
+</translate>
+{{See also|Ki Attacks}}
+<translate>
+When a player charges a '''Spirit Bomb''', everyone within '''64 blocks''' is asked for help: every 2.5 seconds a message and a chime tell nearby players who aren't already giving Ki or charging an attack of their own that the Spirit Bomb needs their strength.
+
+* To answer, hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} as usual. You don't have to look at the caster or even see them: if you aren't looking at another player, you link to the nearest player charging a Spirit Bomb within 64 blocks. You raise your hands and your energy flies up into the bomb.
+* While the receiver charges a Spirit Bomb, each giver sends '''10%''' of their max Ki every second instead of 2.5%.
+* The Ki makes the bomb '''grow''' instead of filling the caster's bar, up to 2.5 times the biggest size a ki attack can normally reach. Once it is that big, extra Ki fills the caster's bar as usual.
+* When the bomb is thrown, its damage is multiplied by how much bigger the givers made it, up to '''×3'''.
+* While someone is giving, the Spirit Bomb doesn't fire on its own when it reaches full charge: it keeps growing for as long as the caster holds the key.
+* A link made this way stretches to 64 blocks before it breaks (instead of 32), and ends when the bomb is thrown or the caster stops charging it.
+
+Everything else works as in a normal transfer: givers pay the same price (slowdown and Ki Exhaustion) and the caster gets the Shared Ki bonus.
 </translate>
 
 <translate>

@@ -174,7 +174,9 @@ If you play with your '''own Minecraft skin''' (body type 0 on a Human or Saiyan
 * <translate>'''Hair''' (2 steps): mark the hair pixels of the '''base layer''', then of the '''overlay layer''' (hat and jacket). Marked hair always follows your hair color, including form colors when you transform.</translate>
 
 <translate>
-'''Controls:''' drag on the model to paint, hold {{Key|Alt}} or use the '''Eraser''' button to erase, {{Key|Shift}} + drag for a straight axis line, and click then {{Key|Shift}} + click for a line from A to B. Drag outside the model to rotate, right drag to pan and use the mouse wheel to zoom. {{Key|Ctrl}} + {{Key|Z}} undoes, {{Key|Ctrl}} + {{Key|Y}} or {{Key|Ctrl}} + {{Key|X}} redoes.
+'''Controls:''' drag on the model to paint, hold {{Key|Alt}} or use the '''Eraser''' button to erase, {{Key|Shift}} + drag for a straight axis line, and click then {{Key|Shift}} + click for a line from A to B. '''Double-click''' to fill that whole side of the body part under the cursor (or to clear it with {{Key|Alt}} or the Eraser). Drag outside the model, or hold {{Key|Ctrl}} and drag anywhere, to rotate it: the camera turns freely, even over the top of the model. Right drag to pan and use the mouse wheel to zoom. {{Key|Ctrl}} + {{Key|Z}} undoes, {{Key|Ctrl}} + {{Key|Y}} or {{Key|Ctrl}} + {{Key|X}} redoes.
+
+The buttons in the top-left corner of the view snap the camera to '''Front''', '''Back''', '''Left''', '''Right''', '''Top''' or '''Bottom'''; '''Reset''' also brings back the default zoom and center. The '''Parts''' figure in the top-right corner shows or hides the head, body, arms and legs: click a part to hide or show it, or {{Key|Shift}} + click to show only that part (do it again to show them all). Hidden parts can't be painted, so hiding one lets you reach the sides it covers, such as the inside of the arms.
 
 The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Save''' and '''Cancel'''. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.
 

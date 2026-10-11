@@ -9,7 +9,7 @@
 <translate>
 * Evasion techniques must be equipped in a technique slot, and need an empty main hand, the [[Special:MyLanguage/Ki Control|Ki Control]] skill and at least 5% Power Release.
 * After using one, '''all''' your evasion techniques share a short lockout: the technique's duration + 3 seconds.
-* They gain experience every time you use them. Spend it on '''duration''' (+2.5% per level, up to +50%) and '''cooldown''' upgrades.
+* They gain experience every time you use them. Spend it on '''duration''' (+2.5% per level, up to +50%) and '''cooldown''' upgrades. Sleep Recovery's duration is fixed, so it only has cooldown upgrades.
 </translate>
 
 <translate>
@@ -22,8 +22,12 @@
 |-
 | {{L|Afterimage}} || {{L|Master Roshi}}, {{L|Krillin}}, {{L|Cell}} || 2,500 || 10 || <translate>With a locked-on target within 24 blocks, you blink around it and end up behind it; without one, you leave an afterimage behind and step a few blocks forward. Mobs targeting you within 16 blocks lose track of you.</translate>
 |-
-| '''<translate>Sleep Recovery</translate>''' || '''<translate>Majin Buu</translate>''' || 3,000 || 4 || <translate>A short nap that heals 20% of your max health over a few seconds.</translate>
+| '''<translate>Sleep Recovery</translate>''' || {{L|Majin Buu}} || 3,000 || 60 || <translate>A 7-second nap that heals 10% of your max health every second (up to 70%). You can't move, attack or use items while you sleep, and taking damage wakes you up. Only [[Special:MyLanguage/Majin|Majins]] can equip it.</translate>
 |}
+
+<translate>
+'''Sleep Recovery''' is a Majin technique: any race can learn it from Majin Buu, but only a Majin can equip it in a technique slot (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). Kid Buu and Majin Kuu also use it in the story: they take a 7-second nap that heals up to 60% of their max health.
+</translate>
 
 <translate>
 == Evasion techniques not taught by default ==
