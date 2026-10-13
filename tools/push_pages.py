@@ -128,6 +128,7 @@ def main() -> int:
     parser.add_argument('--only', action='append', default=[], help='Glob over page titles, repeatable.')
     parser.add_argument('--summary', default='Sync from dragonminez-wiki repository')
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--changed-list', help='write the titles of the pages created or updated to this file, one per line')
     args = parser.parse_args()
 
     user = os.environ.get('MW_BOT_USER')
@@ -143,6 +144,7 @@ def main() -> int:
     wiki.login(user, password)
 
     changed = 0
+    edited = []
     for path in files:
         title = page_title(root, path)
         if args.only and not any(fnmatch.fnmatch(title, pattern) for pattern in args.only):
@@ -153,12 +155,15 @@ def main() -> int:
         if current is not None and current.rstrip('\n') == text.rstrip('\n'):
             continue
         changed += 1
+        edited.append(title)
         action = 'create' if current is None else 'update'
         if args.dry_run:
             print(f'[dry-run] {action} {title} ({model})')
             continue
         result = wiki.edit(title, text, model, args.summary)
         print(f"{action} {title}: {result.get('result')} rev {result.get('newrevid', '-')}")
+    if args.changed_list:
+        pathlib.Path(args.changed_list).write_text(''.join(f'{title}\n' for title in edited), encoding='utf-8')
     uploaded = 0
     if files_dir.is_dir():
         for path in sorted(p for p in files_dir.rglob('*') if p.is_file()):

@@ -5,6 +5,7 @@ import os
 import pathlib
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.request
 
@@ -53,6 +54,14 @@ def pending_jobs(api: str) -> int:
         return int(json.loads(response.read())['query']['statistics'].get('jobs', 0))
 
 
+def marked_pages(api: str) -> set:
+    url = f'{api}?action=query&meta=messagegroups&mgprop=id&mgformat=flat&format=json&formatversion=2'
+    request = urllib.request.Request(url, headers={'User-Agent': 'DragonMineZ-WikiSync/1.0'})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        groups = json.loads(response.read())['query']['messagegroups']
+    return {group['id'][len('page-'):] for group in groups if group['id'].startswith('page-')}
+
+
 def wait_for_jobs(api: str, limit: int, timeout: int):
     deadline = time.time() + timeout
     while True:
@@ -90,31 +99,34 @@ def main() -> int:
         if not pages and not files and not translated:
             print('Nothing under content/ changed.')
             return 0
-    if args.dry_run:
-        if full:
-            print('Would sync every page, file and translation.')
-        else:
-            print(f'{len(pages)} page(s): ' + ', '.join(page_title(p) for p in pages))
-            print(f'{len(files)} file(s): ' + ', '.join(p.name for p in files))
-            print('mark: ' + ', '.join(page_title(p) for p in pages if translatable(p)))
-            print('import: ' + ', '.join(sorted({page_title(p) for p in pages if translatable(p)} | set(translated))))
+    if args.dry_run and not full:
+        print(f'{len(pages)} page(s): ' + ', '.join(page_title(p) for p in pages))
+        print(f'{len(files)} file(s): ' + ', '.join(p.name for p in files))
+        print('mark: ' + ', '.join(page_title(p) for p in pages if translatable(p)))
+        print('import: ' + ', '.join(sorted({page_title(p) for p in pages if translatable(p)} | set(translated))))
         return 0
     api = ['--api', args.api]
 
-    to_mark = []
     if full:
-        run('push_pages.py', *api)
+        with tempfile.TemporaryDirectory() as tmp:
+            report = pathlib.Path(tmp) / 'changed.txt'
+            run('push_pages.py', *api, f'--changed-list={report}', *(['--dry-run'] if args.dry_run else []))
+            edited = set(report.read_text(encoding='utf-8').splitlines()) if report.exists() else set()
+        marked = marked_pages(args.api)
+        to_mark = sorted(title for title in (page_title(p) for p in PAGES.rglob('*.wiki') if translatable(p))
+                         if title in edited or title not in marked)
+        if args.dry_run:
+            print(f'mark: {len(to_mark)} page(s): ' + ', '.join(to_mark))
+            print('import: every page (units that already match are skipped)')
+            return 0
     else:
         only = [f'--only={page_title(p)}' for p in pages] + [f'--only=File:{p.name}' for p in files]
         for batch in chunks(only, 200):
             run('push_pages.py', *api, *batch)
         to_mark = sorted(page_title(p) for p in pages if translatable(p))
 
-    if full:
-        run('translations.py', 'mark', '--every-page', *api)
-    elif to_mark:
-        for batch in chunks(to_mark):
-            run('translations.py', 'mark', *batch, *api)
+    for batch in chunks(to_mark):
+        run('translations.py', 'mark', *batch, *api)
 
     def import_translations(titles):
         if titles is None:
@@ -127,9 +139,9 @@ def main() -> int:
     if full or to_import:
         wait_for_jobs(args.api, args.job_limit, args.job_timeout)
         import_translations(to_import)
-    if full or to_mark:
+    if to_mark:
         wait_for_jobs(args.api, args.job_limit, args.job_timeout)
-        import_translations(None if full else to_mark)
+        import_translations(to_mark)
     return 0
 
 

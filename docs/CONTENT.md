@@ -60,6 +60,8 @@ docker compose start jobrunner
 
 `refresh-translatable-pages` deja un render por página e idioma en lugar de miles. Las ediciones chicas del día a día no necesitan esto.
 
+Con el workflow (`Sync content` → *full*) el jobrunner queda encendido, porque los trabajos de `mark` tienen que correr antes del `import`; al terminar el workflow alcanza con los comandos `manageJobs` y `refresh-translatable-pages` de arriba.
+
 Si no es la primera carga (ya había traducciones y cambió el inglés), con el jobrunner parado hay que correr los trabajos de `mark` antes del `import`, por lo explicado más abajo:
 
 ```bash

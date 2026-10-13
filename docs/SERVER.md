@@ -133,7 +133,7 @@ La base de datos de la VPS nunca se migra desde una PC: el repo es la fuente de 
 | `skins/`, `extensions/`, `config/`, `docker/` | `.github/workflows/image.yml` | Construye la imagen en GHCR y avisa a Dokploy (`DOKPLOY_WEBHOOK_URL`) para redesplegar. |
 | `content/` (páginas, imágenes, traducciones) | `.github/workflows/content.yml` | `tools/sync_content.py`: publica por la API solo lo que cambió en el push, marca para traducción las páginas fuente cambiadas, espera a que se vacíe la cola, importa las traducciones y commitea al repo los marcadores `<!--T:n-->` nuevos que asignó la wiki. |
 
-Para el workflow de contenido hacen falta dos *secrets* del repo (`Settings → Secrets and variables → Actions`): `MW_BOT_USER` y `MW_BOT_PASSWORD`, una BotPassword con los grants de la sección de instalación (con la forma `<usuario>@sync`). Cualquiera con permisos de administrador en la wiki puede crearla desde `Special:BotPasswords` sin entrar a la VPS. `Actions → Sync content → Run workflow` permite relanzarlo a mano, en modo *dry run* (solo lista) o *full* (todo el contenido).
+Para el workflow de contenido hacen falta dos *secrets* del repo (`Settings → Secrets and variables → Actions`): `MW_BOT_USER` y `MW_BOT_PASSWORD`, una BotPassword con los grants de la sección de instalación (con la forma `<usuario>@sync`). Cualquiera con permisos de administrador en la wiki puede crearla desde `Special:BotPasswords` sin entrar a la VPS. `Actions → Sync content → Run workflow` permite relanzarlo a mano, en modo *dry run* (solo lista) o *full*: compara todo el repo con la wiki y publica solo lo que falta o difiere (páginas, archivos y unidades traducidas), y marca para traducción solo las páginas que cambiaron o que la wiki no tiene marcadas. Sirve para ponerse al día si un sync no corrió o falló.
 
 Lo mismo a mano desde una PC, con las variables de entorno de la BotPassword:
 
@@ -143,7 +143,7 @@ python tools/sync_content.py --base <commit anterior>
 python tools/sync_content.py --full
 ```
 
-Notas: borrar o renombrar un archivo del repo no borra la página en la wiki (se hace a mano). Si Cloudflare tiene *Bot Fight Mode*, puede bloquear las llamadas desde GitHub a `/api.php`: en ese caso, una regla WAF que haga *skip* para esa ruta. La primera carga completa de traducciones conviene hacerla con el procedimiento de [CONTENT.md](CONTENT.md#traducciones) (jobrunner parado), no desde el workflow.
+Notas: borrar o renombrar un archivo del repo no borra la página en la wiki (se hace a mano). Si Cloudflare tiene *Bot Fight Mode*, puede bloquear las llamadas desde GitHub a `/api.php`: en ese caso, una regla WAF que haga *skip* para esa ruta. Una carga grande de traducciones (la primera, por ejemplo) se puede hacer con *full* y el jobrunner encendido; al terminar conviene reemplazar los renders repetidos que deja en la cola (ver [CONTENT.md](CONTENT.md#traducciones)).
 
 ## Integraciones
 
