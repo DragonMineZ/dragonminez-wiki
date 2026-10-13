@@ -1,0 +1,8 @@
+services:
+  wiki:
+    pull_policy: build
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+  jobrunner:
+    pull_policy: never

@@ -34,7 +34,7 @@ trap 'rm -f "$PASSFILE"' EXIT
 printf '%s' "$ADMIN_PASS" > "$PASSFILE"
 unset ADMIN_PASS
 
-docker compose build wiki
+docker compose pull wiki
 
 docker compose run --rm --no-deps -T \
 	-e ADMIN_USER="$ADMIN_USER" \
