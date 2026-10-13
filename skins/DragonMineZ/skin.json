@@ -89,6 +89,8 @@
 		"InternalParseBeforeLinks": "main",
 		"OutputPageParserOutput": "main",
 		"MediaWikiPerformAction": "main",
+		"GetLocalURL": "main",
+		"WebRequestPathInfoRouter": "main",
 		"LoadExtensionSchemaUpdates": "schema"
 	},
 	"HookHandlers": {

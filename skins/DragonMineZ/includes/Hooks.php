@@ -4,8 +4,10 @@ namespace MediaWiki\Skins\DragonMineZ;
 
 use MediaWiki\Config\Config;
 use MediaWiki\Deferred\DeferredUpdates;
+use MediaWiki\Hook\GetLocalURLHook;
 use MediaWiki\Hook\InternalParseBeforeLinksHook;
 use MediaWiki\Hook\MediaWikiPerformActionHook;
+use MediaWiki\Hook\WebRequestPathInfoRouterHook;
 use MediaWiki\Hook\SkinBuildSidebarHook;
 use MediaWiki\Hook\UserGetLanguageObjectHook;
 use MediaWiki\Html\Html;
@@ -24,7 +26,9 @@ class Hooks implements
 	PageViewUpdatesHook,
 	InternalParseBeforeLinksHook,
 	OutputPageParserOutputHook,
-	MediaWikiPerformActionHook
+	MediaWikiPerformActionHook,
+	GetLocalURLHook,
+	WebRequestPathInfoRouterHook
 {
 	private const VIEW_ONLY_PARAMS = [ 'oldid', 'diff', 'curid', 'printable', 'redirect', 'uselang', 'veaction', 'search' ];
 
@@ -79,16 +83,57 @@ class Hooks implements
 				return true;
 			}
 		}
+		[ $base, $suffix ] = ReaderLanguage::splitTitle( $title, $this->config );
+		$sourceCopy = $suffix !== null && $suffix === ReaderLanguage::sourceLanguage( $this->config ) && $base->exists();
 		$reader = ReaderLanguage::fromCookie( $request, $this->config ) ?? ReaderLanguage::fromBrowser( $request, $this->config );
-		if ( $reader === null || $reader === ReaderLanguage::pageLanguage( $title, $this->config ) ) {
-			return true;
+		$target = null;
+		if ( $reader !== null && $reader !== ReaderLanguage::pageLanguage( $title, $this->config ) ) {
+			$target = ReaderLanguage::variants( $title, $this->config )[$reader] ?? null;
 		}
-		$target = ReaderLanguage::variants( $title, $this->config )[$reader] ?? null;
-		if ( !$target || $target->equals( $title ) ) {
-			return true;
+		if ( !$target && $sourceCopy ) {
+			$target = $base;
 		}
-		$output->redirect( $target->getFullURL( $query ) );
-		return false;
+		if ( $target && !$target->equals( $title ) ) {
+			$output->redirect( $target->getFullURL( $query ), $reader === null ? '301' : '302' );
+			return false;
+		}
+		if ( $suffix !== null && !$sourceCopy && $base->exists() ) {
+			$path = (string)parse_url( $request->getRequestURL(), PHP_URL_PATH );
+			if ( strpos( $path, "/$suffix/" ) !== 0 ) {
+				$output->redirect( $title->getFullURL( $query ), '301' );
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public function onGetLocalURL( $title, &$url, $query ) {
+		if ( !$title->isContentPage() && !$title->inNamespace( NS_CATEGORY ) ) {
+			return;
+		}
+		[ $base, $suffix ] = ReaderLanguage::splitTitle( $title, $this->config );
+		if ( $suffix === null || $suffix === ReaderLanguage::sourceLanguage( $this->config ) ) {
+			return;
+		}
+		if ( $base->isMainPage() ) {
+			$path = "/$suffix/";
+		} else {
+			$path = "/$suffix" . str_replace( '$1', wfUrlencode( $base->getPrefixedDBkey() ), (string)$this->config->get( 'ArticlePath' ) );
+		}
+		$url = $query === '' || $query === [] ? $path : $path . '?' . ( is_array( $query ) ? wfArrayToCgi( $query ) : $query );
+	}
+
+	public function onWebRequestPathInfoRouter( $router ) {
+		$source = ReaderLanguage::sourceLanguage( $this->config );
+		$main = Title::newMainPage()->getPrefixedDBkey();
+		foreach ( ReaderLanguage::languages( $this->config ) as $code ) {
+			if ( $code === $source ) {
+				continue;
+			}
+			$router->add( "/$code" . (string)$this->config->get( 'ArticlePath' ), [ 'title' => "\$1/$code" ] );
+			$router->addStrict( "/$code", [ 'title' => "$main/$code" ] );
+			$router->addStrict( "/$code/", [ 'title' => "$main/$code" ] );
+		}
 	}
 
 	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {

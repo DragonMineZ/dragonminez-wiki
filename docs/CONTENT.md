@@ -30,6 +30,8 @@ La wiki se organiza por **entidades**, no por los documentos de la GitHub Wiki: 
 
 Fuente en inglés; traducciones a español (latino neutro, *tú*, como dragonminez.com) y portugués de Brasil (*você*). Cada página traducible se divide en unidades (`<!--T:n-->` en el archivo fuente) y cada unidad traducida vive en la wiki como `Translations:<Página>/<n>/<idioma>`.
 
+Por dentro cada traducción es la página `<Página>/es` o `<Página>/pt`, pero se sirve en `/es/wiki/<Página>` y `/pt/wiki/<Página>` (la portada en `/es/` y `/pt/`). El skin arma esas URLs (`GetLocalURL`), las enruta (`WebRequestPathInfoRouter`) y redirige las viejas (`/wiki/<Página>/es`) y la copia `/wiki/<Página>/en` de Translate a su forma canónica. Además lleva a cada lector a la versión de su idioma: cookie `dmz_lang` compartida con dragonminez.com o, si no hay, el idioma del navegador; sin ninguno de los dos no redirige, así los buscadores indexan cada versión.
+
 - `content/translations/{es,pt}/<Página>.json`: la traducción de cada unidad (`source`, `translation`, `outdated`). Es la fuente de verdad de las traducciones.
 - `docs/registry/glossary.tsv`: textos oficiales del juego (en_us del mod + Crowdin es-ES/pt-BR). Ítems, técnicas, habilidades, menús y teclas se traducen igual que en el juego. Se regenera con `python tools/build_glossary.py --mod <repo del mod>`, que también escribe `docs/registry/official-names.tsv` (nombres oficiales de páginas, con prioridad en `Module:Labels/data`) — las correcciones manuales van en `docs/registry/name-overrides.tsv`.
 - `python tools/check_translations.py [páginas…]`: compara cada unidad con su original (enlaces, plantillas, `<code>`, números, negritas, líneas) y lista lo que falte o no coincida.
