@@ -29,6 +29,7 @@ class Hooks implements
 		'report', 'search', 'settings', 'toc', 'translate', 'warning',
 		'bolt', 'construction', 'dns', 'extension', 'menu_book', 'person', 'public', 'skull', 'swords',
 		'dock_to_right', 'expand_less', 'hub', 'subdirectory_arrow_right', 'trending_up', 'update', 'image', 'keyboard', 'terminal', 'link', 'category', 'star', 'groups', 'school', 'map', 'inventory_2', 'auto_awesome', 'local_fire_department', 'shield', 'military_tech', 'pets', 'favorite', 'bolt', 'castle', 'rocket_launch', 'sports_martial_arts', 'emoji_events', 'diamond', 'science', 'tune', 'code', 'help', 'flag', 'apps', 'handshake', 'rocket',
+		'shuffle', 'account_tree', 'inventory',
 	];
 
 	public function __construct( private readonly Config $config ) {

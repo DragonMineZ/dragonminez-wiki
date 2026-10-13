@@ -1,0 +1,102 @@
+{
+ "Page_display_title": {
+  "source": "Dimensional Warp",
+  "translation": "Salto dimensional",
+  "outdated": false
+ },
+ "1": {
+  "source": "Tear through space and strike from behind.",
+  "translation": "Rasgue o espaço e ataque pelas costas.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Evasion technique",
+  "translation": "Técnica de evasão",
+  "outdated": false
+ },
+ "3": {
+  "source": "None by default (dropped by {{L|Janemba}})",
+  "translation": "Nenhum por padrão (dropado por {{L|Janemba}})",
+  "outdated": false
+ },
+ "4": {
+  "source": "All",
+  "translation": "Todas",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Nenhum",
+  "outdated": false
+ },
+ "6": {
+  "source": "4 seconds",
+  "translation": "4 segundos",
+  "outdated": false
+ },
+ "7": {
+  "source": "Instant",
+  "translation": "Instantâneo",
+  "outdated": false
+ },
+ "8": {
+  "source": "64 blocks (locked-on target)",
+  "translation": "64 blocos (alvo travado)",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Dimensional Warp''' is an evasion technique that teleports you behind your locked-on target, even from far away. It is one of the rewards of the [[Special:MyLanguage/Janemba|Janemba]] world boss, and its short cooldown makes it one of the most mobile techniques in the game.",
+  "translation": "O '''Salto dimensional''' é uma técnica de evasão que teleporta você para trás do seu alvo travado, mesmo de muito longe. É uma das recompensas do chefe de mundo [[Special:MyLanguage/Janemba|Janemba]], e sua recarga curta faz dela uma das técnicas com mais mobilidade do jogo.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Getting it ==",
+  "translation": "== Como conseguir ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "No master teaches Dimensional Warp by default. It has a '''20%''' chance to drop from the [[Special:MyLanguage/Janemba|Janemba]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''12,000 TP''', and admins can grant it with {{Command|/dmztech add}}.",
+  "translation": "Nenhum mestre ensina o Salto dimensional por padrão. Ele tem '''20%''' de chance de ser dropado pelo chefe de mundo [[Special:MyLanguage/Janemba|Janemba]] (o padrão do servidor; veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]). Donos de servidores também podem adicioná-lo à lista de um mestre, onde custa '''12,000 TP''', e administradores podem concedê-lo com {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Like every evasion technique, it needs [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and it must be equipped in a technique slot.",
+  "translation": "Como toda técnica de evasão, ele exige [[Special:MyLanguage/Ki Control|Controle de Ki]], a mão principal vazia e pelo menos 5% de Liberação de Poder, e precisa estar equipado em um slot de técnica.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== How it works ==",
+  "translation": "== Como funciona ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "* '''With a locked-on target within 64 blocks''', you teleport right behind it.\n* '''Without a target''', you teleport a few blocks forward.",
+  "translation": "* '''Com um alvo travado a até 64 blocos''', você se teleporta bem atrás dele.\n* '''Sem alvo''', você se teleporta alguns blocos para a frente.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Lock on with {{Key|Z}}; your lock-on range depends on [[Special:MyLanguage/Ki Sense|Ki Sense]]. After using it, all your evasion techniques share a short lockout (the technique's duration + 3 seconds).",
+  "translation": "Trave a mira com {{Key|Z}}; o alcance da sua mira depende do [[Special:MyLanguage/Ki Sense|Sentido de Ki]]. Depois de usá-lo, todas as suas técnicas de evasão compartilham um breve bloqueio (a duração da técnica + 3 segundos).",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Upgrades ==",
+  "translation": "== Melhorias ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "Dimensional Warp gains experience every time you use it. Spend it in the Skills menu on '''duration''' (+2.5% per level, up to +50%) and '''cooldown'''.",
+  "translation": "O Salto dimensional ganha experiência toda vez que você o usa. Gaste-a no menu de Habilidades em '''duração''' (+2.5% por nível, até +50%) e '''recarga'''.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* [[Special:MyLanguage/Afterimage|Afterimage]] works in a similar way, but only reaches targets within 24 blocks.",
+  "translation": "* A [[Special:MyLanguage/Afterimage|Imagem residual]] funciona de forma parecida, mas só alcança alvos a até 24 blocos.",
+  "outdated": false
+ }
+}

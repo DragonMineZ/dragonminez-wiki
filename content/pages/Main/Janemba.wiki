@@ -1,57 +1,71 @@
 {{Infobox World Boss
 |World={{L|Otherworld}}
-|Lair=<translate>A ring of spikes at the very bottom of Hell</translate>
-|How to find=<translate>About 1,000 blocks from the centre of the Otherworld; the Hell Ogre next to King Yemma tells you where</translate>
+|Lair=<translate><!--T:36--> A ring of spikes at the very bottom of Hell</translate>
+|How to find=<translate><!--T:37--> About 1,000 blocks from the centre of the Otherworld; the Hell Ogre next to King Yemma tells you where</translate>
 |Boss key=janemba
+|forms=Janemba; Super Janemba
+|Super Janemba_image=Janemba (Super Janemba).png
+|Super Janemba_Health=8820000
+|Super Janemba_Transforms into=none
+|Super Janemba_Transformed health=none
 |Health=8064000
-|Transforms into=<translate>Super Janemba</translate>
+|Transforms into=<translate><!--T:38--> Super Janemba</translate>
 |Transformed health=8820000
-|Minions=<translate>Mini Janembas</translate>
-|Signature moves=<translate>Mini Janemba swarm, leaping stomp, Mouth Blast, dimensional cuts</translate>
-|Reward=<translate>×500 Attributes</translate>
+|Minions=<translate><!--T:39--> Mini Janembas</translate>
+|Signature moves=<translate><!--T:40--> Mini Janemba swarm, leaping stomp, Mouth Blast, dimensional cuts</translate>
+|Reward=<translate><!--T:41--> ×500 Attributes</translate>
 |Drops={{L|Dimension Sword}} (50%)
-|Techniques=<translate>Dimensional Warp (20%)</translate>
+|Techniques=<translate><!--T:42--> Dimensional Warp (20%)</translate>
 }}
 <translate>
+<!--T:43-->
 '''Janemba''' is the world boss of the [[Special:MyLanguage/Otherworld|Otherworld]]. The giant demon sleeps in a ring of spikes at the very bottom of Hell, calls swarms of Mini Janembas to his side and turns into '''Super Janemba''' during the fight. Defeating him can teach you the [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] technique.
 </translate>
 
 <translate>
-== Finding the lair ==
+== Finding the lair == <!--T:44-->
 
+<!--T:45-->
 The lair lies at the very bottom of '''Hell''', the rugged underworld below the Otherworld's clouds, about 1,000 blocks from the centre of the Otherworld. The '''Hell Ogre''' who stands next to [[Special:MyLanguage/King Yemma|King Yemma]] in the cloud realm tells you about Janemba, whether it is awake and, once the lair is known, where it is (see [[Special:MyLanguage/Hell Ogre|Hell Ogre]]).
 
+<!--T:46-->
 The lair is prepared and Janemba spawns when a player comes within 128 blocks of it, and he wakes when a survival or adventure player comes within 32 blocks. After an operator resets the boss, the arena is rebuilt when a player gets close.
 </translate>
 
-{{Note|type=warning|title=<translate>Watch the clock</translate>|<translate>Staying in Hell for 8 to 14 minutes in a row sends a [[Special:MyLanguage/Mini Janemba|Mini Janemba stampede]] at you, and Red and Blue [[Special:MyLanguage/Hell Ogre|Ogres]] attack Evil-aligned players on sight.</translate>}}
+{{Note|type=warning|title=<translate><!--T:47--> Watch the clock</translate>|<translate><!--T:48--> Staying in Hell for 8 to 14 minutes in a row sends a [[Special:MyLanguage/Mini Janemba|Mini Janemba stampede]] at you, and Red and Blue [[Special:MyLanguage/Hell Ogre|Ogres]] attack Evil-aligned players on sight.</translate>}}
 
 <translate>
-== The fight ==
+== The fight == <!--T:49-->
 
-=== Janemba ===
+=== Janemba === <!--T:50-->
 
+<!--T:51-->
 Janemba is a giant: hitting him counts once per swing, no matter how many of his body parts you touch.
 
+<!--T:52-->
 * '''Mini Janemba swarm.''' When his health drops to 80%, and again at 60%, Janemba calls a ring of 10 Mini Janembas around him. While they are alive he sits back and doesn't fight. When the last one falls he stays down, stunned, for 5 more seconds: the best moment to hit him hard.
 * '''Leaping stomp.''' When his target is within about 26 blocks, he leaps high into the air. A red circle with a 14-block radius marks the spot under his target, and he slams down on it, hurting and launching everyone inside.
 </translate>
 
 <translate>
-=== Super Janemba ===
+=== Super Janemba === <!--T:53-->
 
+<!--T:54-->
 During the fight Janemba turns into '''Super Janemba''', who starts with full health (8,820,000 for a single fighter). Any Mini Janembas still around vanish when he transforms.
 
+<!--T:55-->
 * He warps around the battlefield to dodge and reposition.
 * He fires a [[Special:MyLanguage/Mouth Blast|Mouth Blast]] at the spot marked by a red circle under his target.
 * From a distance, he rips the air with six '''dimensional cuts''' in a row aimed at his target.
 
+<!--T:56-->
 If the fight resets, Super Janemba goes back to sleep in his first form.
 </translate>
 
 <translate>
-== Rewards ==
+== Rewards == <!--T:57-->
 
+<!--T:58-->
 Every contributor with at least 7.5% of the points rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):
 * '''×500 Attributes''' (guaranteed; the amount scales with your contribution): half as Attribute Points and half as Training Points, like quest rewards (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]).
 * [[Special:MyLanguage/Dimension Sword|Dimension Sword]] (50%).
@@ -59,8 +73,9 @@ Every contributor with at least 7.5% of the points rolls these default rewards (
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:59-->
 
+<!--T:60-->
 The [[Special:MyLanguage/Movies Saga|Movies Saga]] has its own fights against Janemba and Super Janemba in the Otherworld, after Buu Saga quest 34. The '''Super Janemba''' quest rewards a Dimension Sword, and on Hard difficulty Super Janemba fights on the Expert AI tier there too.
 </translate>
 

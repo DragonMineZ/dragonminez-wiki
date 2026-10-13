@@ -1,0 +1,82 @@
+{
+ "Page_display_title": {
+  "source": "Martial Artist",
+  "translation": "Artista Marcial",
+  "outdated": false
+ },
+ "1": {
+  "source": "The technical striker: hits harder the more hurt the enemy is.",
+  "translation": "El luchador técnico: golpea más fuerte cuanto más herido está el enemigo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Executioner Strikes",
+  "translation": "Golpes de Verdugo",
+  "outdated": false
+ },
+ "3": {
+  "source": "Strike attacks and finishing weakened foes",
+  "translation": "Super Golpes y rematar enemigos debilitados",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.18, STM 1.3",
+  "translation": "DEF 0.18, STM 1.3",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Martial Artist''' is the technical striker among the [[Special:MyLanguage/Classes|classes]]. It has the best Strike Power scaling, a sturdy Vitality scaling, and a passive that makes its strike attacks hit harder as the target's health drops.",
+  "translation": "'''Artista Marcial''' es el luchador técnico entre las [[Special:MyLanguage/Classes|clases]]. Tiene el mejor escalado de Super Golpes, un sólido escalado de Vitalidad y una pasiva que hace que sus Super Golpes peguen más fuerte a medida que baja la vida del objetivo.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Executioner Strikes ==",
+  "translation": "== Pasiva: Golpes de Verdugo ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Strike''' attacks deal up to '''+25%''' damage based on the '''target's''' missing health:",
+  "translation": "Los ataques de '''golpe''' infligen hasta un '''+25%''' de daño según la vida que le falta '''al objetivo''':",
+  "outdated": false
+ },
+ "8": {
+  "source": "* no bonus while the target is above '''75%''' health;\n* the bonus rises as its health drops, up to the full '''+25%''' at '''25%''' health or below.",
+  "translation": "* sin bonificación mientras el objetivo tiene más del '''75%''' de vida;\n* la bonificación sube a medida que baja su vida, hasta el '''+25%''' completo con '''25%''' de vida o menos.",
+  "outdated": false
+ },
+ "9": {
+  "source": "It is great for finishing weakened foes. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]] for the techniques it applies to.",
+  "translation": "Es ideal para rematar enemigos debilitados. Consulta [[Special:MyLanguage/Strike Attacks|Super Golpes]] para ver las técnicas a las que se aplica.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Estadísticas iniciales y regeneración ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "* '''Starting stats:''' SKP 10 · VIT 10\n* '''Regeneration''' (per 5 seconds): health 1.5 (+0.0525 per VIT) · Ki 4.0 (+0.08 per ENE) · stamina 9.0 (+0.03375 per VIT, +0.045 per RES)",
+  "translation": "* '''Estadísticas iniciales:''' SKP 10 · VIT 10\n* '''Regeneración''' (cada 5 segundos): vida 1.5 (+0.0525 por VIT) · Ki 4.0 (+0.08 por ENE) · stamina 9.0 (+0.03375 por VIT, +0.045 por RES)",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalado de estadísticas ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "The Martial Artist's standout scalings are '''Strike Power''' (1.8) and '''Vitality''' (2.2). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "Los escalados destacados del Artista Marcial son '''Super Golpes''' (1.8) y '''Vitalidad''' (2.2). Los valores de VIT y DEF crecen en curva a medida que inviertes más, hasta 4 veces la tasa inicial. Compara todas las clases en la página [[Special:MyLanguage/Classes#Default stat scalings|Clases]].",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "The class id is <code>martialartist</code>. Its passive values are <code>maxBonus</code> (0.25), <code>hpHigh</code> (0.75) and <code>hpLow</code> (0.25), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings and regeneration.",
+  "translation": "El id de la clase es <code>martialartist</code>. Sus valores de pasiva son <code>maxBonus</code> (0.25), <code>hpHigh</code> (0.75) y <code>hpLow</code> (0.25), y se definen por raza en <code>races/&lt;race&gt;/stats.json</code> junto con las estadísticas iniciales, los escalados y la regeneración.",
+  "outdated": false
+ }
+}

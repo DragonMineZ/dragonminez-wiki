@@ -1,0 +1,912 @@
+{
+ "Page_display_title": {
+  "source": "Combat Config",
+  "translation": "Configuração de combate",
+  "outdated": false
+ },
+ "1": {
+  "source": "<code>combat.json</code> controls stamina, blocking and parrying, damage mitigation, knockback, Speed and the passive dodge, ki charging and the Ki Surge, combat flight, ki weapons and the compatibility layer for weapons from other mods. It is a file of its own: none of these values are part of <code>general-server.json</code>.",
+  "translation": "O <code>combat.json</code> controla a estâmina, o bloqueio e o parry, a mitigação de dano, a repulsão, a Velocidade e a esquiva passiva, a carga de ki e o Surto de Ki, o voo de combate, as armas de ki e a camada de compatibilidade com armas de outros mods. É um arquivo próprio: nenhum destes valores faz parte do <code>general-server.json</code>.",
+  "outdated": false
+ },
+ "2": {
+  "source": "The file lives at <code>config/dragonminez/combat.json</code>; its schema is defined in <code>CombatConfig.java</code>. For how combat plays out in game, see [[Special:MyLanguage/Combat|Combat]]; for how defense and mitigation are applied step by step, see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]. Technique-specific tuning (cooldowns, cast times, sizes, destruction) lives in <code>techniques.json</code>, documented on [[Special:MyLanguage/Skills Config|Skills Config]].",
+  "translation": "O arquivo fica em <code>config/dragonminez/combat.json</code>; seu esquema é definido em <code>CombatConfig.java</code>. Para ver como o combate funciona no jogo, consulte [[Special:MyLanguage/Combat|Combate]]; para ver como a defesa e a mitigação são aplicadas passo a passo, consulte [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]]. O ajuste específico de cada técnica (recargas, tempos de conjuração, tamanhos, destruição) fica em <code>techniques.json</code>, documentado em [[Special:MyLanguage/Skills Config|Configuração de habilidades]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Core combat and status ==",
+  "translation": "== Combate básico e status ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "5": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "6": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "7": {
+  "source": "Stamina cost of a melee attack relative to its damage.",
+  "translation": "Custo de estâmina de um ataque corpo a corpo em relação ao seu dano.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Stamina cost of a blocked hit, relative to the damage blocked.",
+  "translation": "Custo de estâmina de um golpe bloqueado, em relação ao dano bloqueado.",
+  "outdated": false
+ },
+ "9": {
+  "source": "How long a player stays '''knocked down''' when a hit would have killed them but the fight doesn't allow kills (party PvP, Friendly Fist, Shadow Dummy sparring, or a Namekian or Majin preparing an absorption).",
+  "translation": "Quanto tempo um jogador fica '''nocauteado''' quando um golpe o teria matado, mas a luta não permite mortes (PvP de grupo, Punho Amigável, treino com o Boneco de Sombra, ou um Namekuseijin ou Majin preparando uma absorção).",
+  "outdated": false
+ },
+ "10": {
+  "source": "Baseline value forms scale their energy drain against (see the per-form <code>energyDrain</code> on [[Special:MyLanguage/Custom Forms|Custom Forms]]). Also used to size the ki cost of ki weapons.",
+  "translation": "Valor de referência contra o qual as formas escalam seu consumo de energia (veja o <code>energyDrain</code> de cada forma em [[Special:MyLanguage/Custom Forms|Formas personalizadas]]). Também é usado para calcular o custo de ki das armas de ki.",
+  "outdated": false
+ },
+ "11": {
+  "source": "If a player logs out mid-combat, they die on their next login.",
+  "translation": "Se um jogador sair no meio do combate, ele morre ao entrar de novo.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Shared cooldown after any strike attack, so owning several strikes doesn't let you chain them (halved when a strike misses).",
+  "translation": "Recarga compartilhada depois de qualquer ataque de golpe, para que ter vários não permita encadeá-los (cai pela metade quando o golpe erra).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Calculates the Battle Power of non-DMZ mobs from their health, attack, armor, ranged attack and speed. When <code>false</code>, it is simply <code>max health + attack damage × 5</code>.",
+  "translation": "Calcula o Poder de luta dos mobs que não são do DMZ a partir da vida, ataque, armadura, ataque à distância e velocidade. Quando é <code>false</code>, é simplesmente <code>max health + attack damage × 5</code>.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Blocking, parrying and poise ==",
+  "translation": "== Bloqueio, parry e postura ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "16": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "17": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "18": {
+  "source": "Master toggle for blocking.",
+  "translation": "Interruptor geral do bloqueio.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Master toggle for parrying (requires blocking to be enabled).",
+  "translation": "Interruptor geral do parry (exige que o bloqueio esteja ativado).",
+  "outdated": false
+ },
+ "20": {
+  "source": "Starting a block this close to the hit (in milliseconds) turns it into a '''parry''': no damage, the attacker is knocked back and staggered, non-player attackers are stunned, ki blasts are deflected and strike attacks are countered.",
+  "translation": "Começar a bloquear com esta antecedência em relação ao golpe (em milissegundos) o transforma em um '''parry''': você não sofre dano, o atacante é repelido e cambaleia, atacantes que não são jogadores ficam atordoados, rajadas de ki são desviadas e ataques de golpe recebem um contra-ataque.",
+  "outdated": false
+ },
+ "21": {
+  "source": "A parried attacker's melee attacks cost this much more stamina for 4 seconds.",
+  "translation": "Os ataques corpo a corpo de um atacante que sofreu um parry custam esta quantidade a mais de estâmina por 4 segundos.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Stun duration after a guard break.",
+  "translation": "Duração do atordoamento após uma quebra de guarda.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Fraction of incoming damage converted to poise damage while blocking (×1.5 against non-player attackers). When poise or stamina runs out, your guard breaks.",
+  "translation": "Fração do dano recebido convertida em dano de postura enquanto você bloqueia (×1.5 contra atacantes que não são jogadores). Quando a postura ou a estâmina acabam, sua guarda quebra.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Ticks before poise starts regenerating again after taking poise damage.",
+  "translation": "Ticks até a postura voltar a se regenerar depois de sofrer dano de postura.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Maximum damage reduction while blocking.",
+  "translation": "Redução de dano máxima ao bloquear.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Minimum damage reduction while blocking.",
+  "translation": "Redução de dano mínima ao bloquear.",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Damage mitigation ==",
+  "translation": "== Mitigação de dano ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "29": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "30": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "31": {
+  "source": "Hard cap on the percentage reduction from defense.",
+  "translation": "Limite absoluto da redução percentual pela defesa.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Hard cap on defense and Protection enchantments combined.",
+  "translation": "Limite absoluto da defesa e dos encantamentos de Proteção combinados.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Fraction of your defense '''lost''' for hits taken while guard-broken.",
+  "translation": "Fração da sua defesa '''perdida''' nos golpes sofridos com a guarda quebrada.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Maximum fraction of a hit that flat defense can absorb (clamped to <code>0.0</code>–<code>1.0</code>).",
+  "translation": "Fração máxima de um golpe que a defesa fixa pode absorver (limitada a <code>0.0</code>–<code>1.0</code>).",
+  "outdated": false
+ },
+ "35": {
+  "source": "Scale of the percentage-reduction curve, relative to the expected maximum defense (clamped to at least <code>0.01</code>). Lower values make defense reach high reductions sooner.",
+  "translation": "Escala da curva de redução percentual, em relação à defesa máxima esperada (limitada a no mínimo <code>0.01</code>). Valores menores fazem a defesa atingir reduções altas mais cedo.",
+  "outdated": false
+ },
+ "36": {
+  "source": "Fully negates hits that are tiny compared to your flat defense.",
+  "translation": "Anula totalmente golpes minúsculos em comparação com sua defesa fixa.",
+  "outdated": false
+ },
+ "37": {
+  "source": "A hit is negated when your flat defense is at least this many times the incoming damage (minimum <code>1.0</code>).",
+  "translation": "Um golpe é anulado quando sua defesa fixa é pelo menos esta quantidade de vezes o dano recebido (mínimo <code>1.0</code>).",
+  "outdated": false
+ },
+ "38": {
+  "source": "Extra reduction for hits that are small compared to your flat defense.",
+  "translation": "Redução extra para golpes pequenos em comparação com sua defesa fixa.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Hit-to-flat-defense ratio at which the adaptive reduction equals <code>adaptativeMitigationParityValue</code>.",
+  "translation": "Proporção entre golpe e defesa fixa em que a redução adaptativa é igual a <code>adaptativeMitigationParityValue</code>.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Adaptive reduction at the parity ratio (smaller hits get more, bigger hits less).",
+  "translation": "Redução adaptativa na proporção de paridade (golpes menores recebem mais, golpes maiores, menos).",
+  "outdated": false
+ },
+ "41": {
+  "source": "Hit-to-flat-defense ratio at which the adaptive reduction reaches 0.",
+  "translation": "Proporção entre golpe e defesa fixa em que a redução adaptativa chega a 0.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Maximum adaptive reduction.",
+  "translation": "Redução adaptativa máxima.",
+  "outdated": false
+ },
+ "43": {
+  "source": "== Knockback ==",
+  "translation": "== Repulsão ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "45": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "46": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "47": {
+  "source": "Scales knockback by how much of a hit got through your defense and how big it was.",
+  "translation": "Escala a repulsão conforme quanto do golpe passou pela sua defesa e o tamanho dele.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Knockback multiplier for a hit your defense almost fully absorbed.",
+  "translation": "Multiplicador de repulsão para um golpe que sua defesa absorveu quase por completo.",
+  "outdated": false
+ },
+ "49": {
+  "source": "Hits dealing at least this fraction of your max health count as '''heavy''' and knock you back harder.",
+  "translation": "Golpes que causam pelo menos esta fração da sua vida máxima contam como '''pesados''' e te empurram mais longe.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Extra knockback per health fraction above the heavy-hit threshold (multiplier <code>1 + (fraction − threshold) × gain</code>).",
+  "translation": "Repulsão extra por fração de vida acima do limiar de golpe pesado (multiplicador <code>1 + (fraction − threshold) × gain</code>).",
+  "outdated": false
+ },
+ "51": {
+  "source": "Maximum knockback multiplier.",
+  "translation": "Multiplicador de repulsão máximo.",
+  "outdated": false
+ },
+ "52": {
+  "source": "== Ki Protection and Ki Infusion ==",
+  "translation": "== Proteção de Ki e Infusão de Ki ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "54": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "55": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "56": {
+  "source": "Damage reduction per level of the Ki Protection skill.",
+  "translation": "Redução de dano por nível da habilidade Proteção de Ki.",
+  "outdated": false
+ },
+ "57": {
+  "source": "Ki spent per point of incoming damage while Ki Protection is active.",
+  "translation": "Ki gasto por ponto de dano recebido enquanto a Proteção de Ki está ativa.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Bonus melee damage per level of Ki Infusion, as a fraction of your max ki.",
+  "translation": "Dano corpo a corpo extra por nível de Infusão de Ki, como fração do seu ki máximo.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Ki cost per hit (% of max ki) at Ki Infusion level 1.",
+  "translation": "Custo de ki por golpe (% do ki máximo) com Infusão de Ki no nível 1.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Ki cost per hit (% of max ki) at Ki Infusion level 10.",
+  "translation": "Custo de ki por golpe (% do ki máximo) com Infusão de Ki no nível 10.",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Speed and passive dodge ==",
+  "translation": "== Velocidade e esquiva passiva ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "Speed comes from Resistance. Players with the [[Special:MyLanguage/Meditation|Meditation]] skill can automatically dodge basic melee attacks: against players you need to be faster than the attacker, against other enemies you need a higher Battle Power. A dodge costs stamina, and consecutive dodges get less likely.",
+  "translation": "A Velocidade vem da Resistência. Jogadores com a habilidade [[Special:MyLanguage/Meditation|Meditação]] podem esquivar automaticamente de ataques corpo a corpo básicos: contra jogadores, você precisa ser mais rápido que o atacante; contra outros inimigos, precisa de um Poder de luta maior. Cada esquiva custa estâmina, e esquivas seguidas ficam cada vez menos prováveis.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "64": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "65": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "66": {
+  "source": "Master toggle for Speed (movement bonus, step assist and passive dodge).",
+  "translation": "Interruptor geral da Velocidade (bônus de movimento, ajuda para subir blocos e esquiva passiva).",
+  "outdated": false
+ },
+ "67": {
+  "source": "Effective Resistance that adds +1.0 Speed at full Power Release.",
+  "translation": "Resistência efetiva que adiciona +1.0 de Velocidade com a liberação de poder no máximo.",
+  "outdated": false
+ },
+ "68": {
+  "source": "Extra Speed multiplier while transformed or using a stack form.",
+  "translation": "Multiplicador extra de Velocidade enquanto você está transformado ou usando uma forma acumulável.",
+  "outdated": false
+ },
+ "69": {
+  "source": "Maximum movement-speed multiplier from Speed.",
+  "translation": "Multiplicador máximo de velocidade de movimento dado pela Velocidade.",
+  "outdated": false
+ },
+ "70": {
+  "source": "Speed from which you step up blocks without jumping.",
+  "translation": "Velocidade a partir da qual você sobe blocos sem pular.",
+  "outdated": false
+ },
+ "71": {
+  "source": "Extra step height given by step assist.",
+  "translation": "Altura de passo extra dada pela ajuda para subir blocos.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Toggle for the passive dodge.",
+  "translation": "Interruptor da esquiva passiva.",
+  "outdated": false
+ },
+ "73": {
+  "source": "How many times faster than an attacking player you must be to dodge, at Meditation level 1 / 10.",
+  "translation": "Quantas vezes mais rápido que um jogador atacante você precisa ser para esquivar, com Meditação no nível 1 / 10.",
+  "outdated": false
+ },
+ "74": {
+  "source": "How far beyond the required speed ratio (as a multiple) you reach the maximum chance.",
+  "translation": "Quanto além da proporção de velocidade exigida (como múltiplo) você atinge a chance máxima.",
+  "outdated": false
+ },
+ "75": {
+  "source": "How many times higher your Battle Power must be than a non-player attacker's, at Meditation level 1 / 10.",
+  "translation": "Quantas vezes maior que o de um atacante que não é jogador o seu Poder de luta precisa ser, com Meditação no nível 1 / 10.",
+  "outdated": false
+ },
+ "76": {
+  "source": "How far beyond the required Battle Power ratio you reach the maximum chance.",
+  "translation": "Quanto além da proporção de Poder de luta exigida você atinge a chance máxima.",
+  "outdated": false
+ },
+ "77": {
+  "source": "Speed assumed for a non-player attacker that has no Battle Power.",
+  "translation": "Velocidade assumida para um atacante que não é jogador e não tem Poder de luta.",
+  "outdated": false
+ },
+ "78": {
+  "source": "Dodge chance once you just meet the requirement.",
+  "translation": "Chance de esquiva quando você mal cumpre o requisito.",
+  "outdated": false
+ },
+ "79": {
+  "source": "Maximum dodge chance against players / other enemies at Meditation level 10.",
+  "translation": "Chance máxima de esquiva contra jogadores / outros inimigos com Meditação no nível 10.",
+  "outdated": false
+ },
+ "80": {
+  "source": "At Meditation level 1 the maximum chance is this fraction of the values above.",
+  "translation": "Com Meditação no nível 1, a chance máxima é esta fração dos valores acima.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Each consecutive dodge multiplies the next chance by this.",
+  "translation": "Cada esquiva seguida multiplica a próxima chance por este valor.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Ticks without dodging that reset the streak.",
+  "translation": "Ticks sem esquivar que zeram a sequência.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Minimum ticks between two dodges.",
+  "translation": "Ticks mínimos entre duas esquivas.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Stamina spent per dodge (fraction of max stamina).",
+  "translation": "Estâmina gasta por esquiva (fração da estâmina máxima).",
+  "outdated": false
+ },
+ "85": {
+  "source": "== Mobility ==",
+  "translation": "== Mobilidade ==",
+  "outdated": false
+ },
+ "86": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "87": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "88": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "89": {
+  "source": "Master toggle for the perfect-evasion timing mechanic.",
+  "translation": "Interruptor geral da mecânica de evasão perfeita por timing.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Timing window (in milliseconds) for a perfect evasion. After a perfect evasion, the next one can't trigger for 1.5 seconds (a dash during that time is a normal dash).",
+  "translation": "Janela de tempo (em milissegundos) para uma evasão perfeita. Depois de uma evasão perfeita, a próxima não pode ser ativada por 1.5 segundos (uma Esquiva nesse período é uma Esquiva normal).",
+  "outdated": false
+ },
+ "91": {
+  "source": "Cooldown for a single dash (also used by the Instant Transmission tap).",
+  "translation": "Recarga de uma Esquiva simples (também usada pelo toque da Transmissão instantânea).",
+  "outdated": false
+ },
+ "92": {
+  "source": "Cooldown for a double dash.",
+  "translation": "Recarga de uma Esquiva Dupla.",
+  "outdated": false
+ },
+ "93": {
+  "source": "Cooldown after an Instant Transmission warp to a master or a player.",
+  "translation": "Recarga depois de se teleportar com a Transmissão instantânea até um mestre ou um jogador.",
+  "outdated": false
+ },
+ "94": {
+  "source": "== Ki charging and Ki Surge ==",
+  "translation": "== Carga de ki e Surto de Ki ==",
+  "outdated": false
+ },
+ "95": {
+  "source": "Charging ki (default {{Key|C}}) to full and '''keeping on charging''' fills the '''Ki Surge''' bar. When you first reach full ki you release a '''Ki Burst''' that pushes back weaker enemies around you. Once the bar is full you enter a '''Ki Surge''': a bigger burst damages and blows back everyone nearby (it can't kill), then for a while your ki attacks hit harder and fly faster, you charge, move, fly and attack faster, and your aura grows; but spending ki costs more and drains the bar. Being stunned ends the surge.",
+  "translation": "Carregar ki (por padrão {{Key|C}}) até o máximo e '''continuar carregando''' enche a barra de '''Surto de Ki'''. Na primeira vez que você atinge o ki máximo, libera uma '''Explosão de Ki''' que empurra os inimigos mais fracos ao seu redor. Quando a barra enche, você entra em um '''Surto de Ki''': uma explosão maior causa dano e arremessa todos por perto (não pode matar) e, por um tempo, seus ataques de ki batem mais forte e voam mais rápido, você carrega, se move, voa e ataca mais rápido, e sua aura cresce; mas gastar ki custa mais e esvazia a barra. Ser atordoado encerra o surto.",
+  "outdated": false
+ },
+ "96": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "97": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "98": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "99": {
+  "source": "Taking a hit while charging ki stops the charge (and any surge progress, which starts the surge cooldown).",
+  "translation": "Sofrer um golpe enquanto carrega ki interrompe a carga (e qualquer progresso do surto, o que inicia a recarga do surto).",
+  "outdated": false
+ },
+ "100": {
+  "source": "While charging ki, non-ki projectiles (arrows and the like) are deflected.",
+  "translation": "Enquanto você carrega ki, projéteis que não são de ki (flechas e similares) são desviados.",
+  "outdated": false
+ },
+ "101": {
+  "source": "Ticks you can't restart charging after being interrupted.",
+  "translation": "Ticks em que você não pode voltar a carregar depois de ser interrompido.",
+  "outdated": false
+ },
+ "102": {
+  "source": "Master toggle for the Ki Burst and the Ki Surge.",
+  "translation": "Interruptor geral da Explosão de Ki e do Surto de Ki.",
+  "outdated": false
+ },
+ "103": {
+  "source": "Radius and push of the Ki Burst on reaching full ki (only enemies with lower Battle Power are pushed).",
+  "translation": "Raio e empurrão da Explosão de Ki ao atingir o ki máximo (só inimigos com Poder de luta menor são empurrados).",
+  "outdated": false
+ },
+ "104": {
+  "source": "Seconds of charging at full ki needed to fill the surge bar.",
+  "translation": "Segundos carregando com o ki no máximo necessários para encher a barra de surto.",
+  "outdated": false
+ },
+ "105": {
+  "source": "How long a Ki Surge lasts.",
+  "translation": "Quanto tempo dura um Surto de Ki.",
+  "outdated": false
+ },
+ "106": {
+  "source": "Cooldown after a surge ends or is lost.",
+  "translation": "Recarga depois que um surto termina ou é perdido.",
+  "outdated": false
+ },
+ "107": {
+  "source": "Spending ki during a surge also drains the bar (spending X% of max ki removes 1.5 × X% of the bar).",
+  "translation": "Gastar ki durante um surto também esvazia a barra (gastar X% do ki máximo remove 1.5 × X% da barra).",
+  "outdated": false
+ },
+ "108": {
+  "source": "Surge burst damage as a fraction of your max ki (less with distance; never lethal).",
+  "translation": "Dano da explosão do surto como fração do seu ki máximo (menor com a distância; nunca é letal).",
+  "outdated": false
+ },
+ "109": {
+  "source": "Radius and push of the surge burst.",
+  "translation": "Raio e empurrão da explosão do surto.",
+  "outdated": false
+ },
+ "110": {
+  "source": "Ki cost multiplier during a surge.",
+  "translation": "Multiplicador do custo de ki durante um surto.",
+  "outdated": false
+ },
+ "111": {
+  "source": "Ki attack damage multiplier during a surge.",
+  "translation": "Multiplicador do dano dos ataques de ki durante um surto.",
+  "outdated": false
+ },
+ "112": {
+  "source": "Ki attack projectile speed multiplier during a surge.",
+  "translation": "Multiplicador da velocidade dos projéteis de ataques de ki durante um surto.",
+  "outdated": false
+ },
+ "113": {
+  "source": "Technique charging speed multiplier during a surge.",
+  "translation": "Multiplicador da velocidade de carga de técnicas durante um surto.",
+  "outdated": false
+ },
+ "114": {
+  "source": "Movement / flight speed multiplier during a surge.",
+  "translation": "Multiplicador da velocidade de movimento / voo durante um surto.",
+  "outdated": false
+ },
+ "115": {
+  "source": "Attack speed multiplier during a surge.",
+  "translation": "Multiplicador da velocidade de ataque durante um surto.",
+  "outdated": false
+ },
+ "116": {
+  "source": "Aura size / animation speed during a surge (visual only).",
+  "translation": "Tamanho da aura / velocidade da animação durante um surto (apenas visual).",
+  "outdated": false
+ },
+ "117": {
+  "source": "An [[Special:MyLanguage/Android|Android's]] Absorption Barrier can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
+  "translation": "A Barreira de Absorção de um [[Special:MyLanguage/Android|Android]] também pode forçar um Surto de Ki quando transborda (veja [[Special:MyLanguage/Racial Skills|Habilidades raciais]]).",
+  "outdated": false
+ },
+ "118": {
+  "source": "== Combat flight ==",
+  "translation": "== Voo de combate ==",
+  "outdated": false
+ },
+ "119": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "120": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "121": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "122": {
+  "source": "When you take or deal damage while flying in Search Fly, you're switched to Combat Fly.",
+  "translation": "Quando você sofre ou causa dano enquanto voa em Voo de busca, você passa para o Voo de combate.",
+  "outdated": false
+ },
+ "123": {
+  "source": "How long you stay locked in Combat Fly after an auto-switch. With '''Mode Lock''' on (radial menu), you go back to the flight mode you locked once this ends.",
+  "translation": "Quanto tempo você fica preso no Voo de combate após uma troca automática. Com a '''Trava de modo''' ativada (menu radial), ao terminar você volta ao modo de voo que travou.",
+  "outdated": false
+ },
+ "124": {
+  "source": "Base combat-flight speed.",
+  "translation": "Velocidade base do voo de combate.",
+  "outdated": false
+ },
+ "125": {
+  "source": "Combat-flight speed while sprinting.",
+  "translation": "Velocidade do voo de combate ao correr.",
+  "outdated": false
+ },
+ "126": {
+  "source": "Speed multiplier while holding the movement key.",
+  "translation": "Multiplicador de velocidade enquanto você segura a tecla de movimento.",
+  "outdated": false
+ },
+ "127": {
+  "source": "Ki drain rate multiplier while combat-flying.",
+  "translation": "Multiplicador do ritmo de consumo de ki durante o voo de combate.",
+  "outdated": false
+ },
+ "128": {
+  "source": "Ki cost (%) of a flight impulse or boost.",
+  "translation": "Custo de ki (%) de um impulso ou arrancada de voo.",
+  "outdated": false
+ },
+ "129": {
+  "source": "Cooldown (in ticks) between flight impulses.",
+  "translation": "Recarga (em ticks) entre impulsos de voo.",
+  "outdated": false
+ },
+ "130": {
+  "source": "== Attack pacing ==",
+  "translation": "== Ritmo de ataque ==",
+  "outdated": false
+ },
+ "131": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "132": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "133": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "134": {
+  "source": "Scales the short attack cooldown applied when you stop breaking a block, relative to your normal attack cooldown (clamped to <code>0.2</code>–<code>1.0</code>).",
+  "translation": "Escala a breve recarga de ataque aplicada quando você para de quebrar um bloco, em relação à sua recarga de ataque normal (limitada a <code>0.2</code>–<code>1.0</code>).",
+  "outdated": false
+ },
+ "135": {
+  "source": "Whether players can attack while mounted.",
+  "translation": "Se os jogadores podem atacar enquanto estão montados.",
+  "outdated": false
+ },
+ "136": {
+  "source": "Minimum ticks between attacks, however high your attack speed is.",
+  "translation": "Ticks mínimos entre ataques, por mais alta que seja sua velocidade de ataque.",
+  "outdated": false
+ },
+ "137": {
+  "source": "'''Melee windup.''' A melee swing lands a moment after you press attack: the windup is the swing animation's length × the attack's <code>upswing</code> value from its [[Special:MyLanguage/Weapon Attributes|weapon attributes]] × 0.95, between '''3 and 7 ticks'''. The server times the windup (with some tolerance for lag) and checks every target against the real attack hitbox and line of sight before the hit counts. You can't deal melee damage while blocking, and starting to block cancels a swing in progress.",
+  "translation": "'''Preparação corpo a corpo.''' Um golpe corpo a corpo acerta um instante depois que você aperta atacar: a preparação é a duração da animação do golpe × o valor <code>upswing</code> do ataque nos seus [[Special:MyLanguage/Weapon Attributes|atributos de armas]] × 0.95, entre '''3 e 7 ticks'''. O servidor cronometra a preparação (com certa tolerância a lag) e verifica cada alvo contra a hitbox real do ataque e a linha de visão antes de o golpe contar. Você não pode causar dano corpo a corpo enquanto bloqueia, e começar a bloquear cancela um golpe em andamento.",
+  "outdated": false
+ },
+ "138": {
+  "source": "== Ki weapons ==",
+  "translation": "== Armas de ki ==",
+  "outdated": false
+ },
+ "139": {
+  "source": "<code>kiWeaponsConfig</code> is a map keyed by weapon type (<code>blade</code>, <code>scythe</code>, <code>clawlance</code>): the Ki Blade, Ki Scythe and Ki Claw Lance unlocked by the [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] skill. Default value:",
+  "translation": "<code>kiWeaponsConfig</code> é um mapa cujas chaves são os tipos de arma (<code>blade</code>, <code>scythe</code>, <code>clawlance</code>): a Lâmina de Ki, a Foice de Ki e a Lança Garra de Ki desbloqueadas pela habilidade [[Special:MyLanguage/Ki Manipulation|Manipulação de Ki]]. Valor padrão:",
+  "outdated": false
+ },
+ "140": {
+  "source": "Each entry has these fields:",
+  "translation": "Cada entrada tem estes campos:",
+  "outdated": false
+ },
+ "141": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "142": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "143": {
+  "source": "Flat bonus damage per hit.",
+  "translation": "Dano extra fixo por golpe.",
+  "outdated": false
+ },
+ "144": {
+  "source": "Bonus damage = Ki Damage × this × (Ki Manipulation level × 0.1).",
+  "translation": "Dano extra = Dano de ki × este valor × (nível de Manipulação de Ki × 0.1).",
+  "outdated": false
+ },
+ "145": {
+  "source": "Flat ki cost per attack.",
+  "translation": "Custo de ki fixo por ataque.",
+  "outdated": false
+ },
+ "146": {
+  "source": "Extra ki cost per attack = <code>baselineFormDrain</code> × this.",
+  "translation": "Custo de ki extra por ataque = <code>baselineFormDrain</code> × este valor.",
+  "outdated": false
+ },
+ "147": {
+  "source": "Vanilla-style attack-speed attribute modifier (negative is slower).",
+  "translation": "Modificador do atributo de velocidade de ataque no estilo vanilla (negativo é mais lento).",
+  "outdated": false
+ },
+ "148": {
+  "source": "Hex color string used to render the weapon's ki effect.",
+  "translation": "Texto com a cor hexadecimal usada para renderizar o efeito de ki da arma.",
+  "outdated": false
+ },
+ "149": {
+  "source": "Moveset the weapon uses (a [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] id).",
+  "translation": "Combo que a arma usa (um id de [[Special:MyLanguage/Weapon Attributes|Atributos de armas]]).",
+  "outdated": false
+ },
+ "150": {
+  "source": "== Weapon registry ==",
+  "translation": "== Registro de armas ==",
+  "outdated": false
+ },
+ "151": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "152": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "153": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "154": {
+  "source": "Logs weapon-registry resolution for debugging.",
+  "translation": "Registra no log a resolução do registro de armas para depuração.",
+  "outdated": false
+ },
+ "155": {
+  "source": "Compresses the synced weapon registry payload sent to clients.",
+  "translation": "Comprime os dados do registro de armas sincronizado enviados aos clientes.",
+  "outdated": false
+ },
+ "156": {
+  "source": "== Player combat relations ==",
+  "translation": "== Relações de combate do jogador ==",
+  "outdated": false
+ },
+ "157": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "158": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "159": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "160": {
+  "source": "A map of entity id to <code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>: a per-entity override for how combat targeting treats that entity. Party members (unless party PvP is on) are always friendly, and tournament rivals always hostile.",
+  "translation": "Um mapa de id de entidade para <code>HOSTILE</code>, <code>NEUTRAL</code> ou <code>FRIENDLY</code>: uma exceção por entidade de como a seleção de alvos do combate trata essa entidade. Membros do grupo (a menos que o PvP de grupo esteja ativado) são sempre amigáveis, e rivais de torneio sempre hostis.",
+  "outdated": false
+ },
+ "161": {
+  "source": "List of entity ids excluded from mastery and combat-progress gains (for example training dummies).",
+  "translation": "Lista de ids de entidades excluídas dos ganhos de domínio e de progresso de combate (por exemplo, bonecos de treino).",
+  "outdated": false
+ },
+ "162": {
+  "source": "Default relation (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>) toward passive mobs not otherwise listed.",
+  "translation": "Relação padrão (<code>HOSTILE</code>, <code>NEUTRAL</code> ou <code>FRIENDLY</code>) com mobs passivos que não estejam listados em outro lugar.",
+  "outdated": false
+ },
+ "163": {
+  "source": "Default relation toward hostile mobs not otherwise listed.",
+  "translation": "Relação padrão com mobs hostis que não estejam listados em outro lugar.",
+  "outdated": false
+ },
+ "164": {
+  "source": "Default relation toward anything else.",
+  "translation": "Relação padrão com todo o resto.",
+  "outdated": false
+ },
+ "165": {
+  "source": "== Fallback compatibility for third-party weapons ==",
+  "translation": "== Compatibilidade de reserva para armas de terceiros ==",
+  "outdated": false
+ },
+ "166": {
+  "source": "When a weapon has no dedicated [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] entry, DMZ matches its item id against a list of regular expressions to infer a sensible weapon category. Only items with an attack-damage modifier are considered.",
+  "translation": "Quando uma arma não tem uma entrada própria em [[Special:MyLanguage/Weapon Attributes|Atributos de armas]], o DMZ compara o id do item com uma lista de expressões regulares para deduzir uma categoria de arma razoável. Só são considerados itens com um modificador de dano de ataque.",
+  "outdated": false
+ },
+ "167": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "168": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "169": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "170": {
+  "source": "Master toggle for this system.",
+  "translation": "Interruptor geral deste sistema.",
+  "outdated": false
+ },
+ "171": {
+  "source": "Item ids matching this regular expression are never treated as a DMZ-style weapon.",
+  "translation": "Ids de item que correspondem a esta expressão regular nunca são tratados como armas no estilo do DMZ.",
+  "outdated": false
+ },
+ "172": {
+  "source": "20 default entries (below)",
+  "translation": "20 entradas padrão (abaixo)",
+  "outdated": false
+ },
+ "173": {
+  "source": "Ordered list of <code>{ item_id_regex, weapon_attributes }</code> mappings from regular expression to category; the first match wins.",
+  "translation": "Lista ordenada de mapeamentos <code>{ item_id_regex, weapon_attributes }</code> de expressão regular para categoria; vence a primeira correspondência.",
+  "outdated": false
+ },
+ "174": {
+  "source": "Default mappings (<code>item_id_regex</code> → <code>weapon_attributes</code> category):",
+  "translation": "Mapeamentos padrão (<code>item_id_regex</code> → categoria de <code>weapon_attributes</code>):",
+  "outdated": false
+ },
+ "175": {
+  "source": "Regular expression",
+  "translation": "Expressão regular",
+  "outdated": false
+ },
+ "176": {
+  "source": "Category",
+  "translation": "Categoria",
+  "outdated": false
+ },
+ "177": {
+  "source": "(catch-all)",
+  "translation": "(curinga)",
+  "outdated": false
+ },
+ "178": {
+  "source": "Precise control",
+  "translation": "Controle preciso",
+  "outdated": false
+ },
+ "179": {
+  "source": "If you are adding a weapon mod's item and want precise control instead of relying on regular-expression inference, give it a real [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] entry. The datapack entry always wins over the fallback guess.",
+  "translation": "Se você vai adicionar um item de um mod de armas e quer controle preciso em vez de depender da dedução por expressão regular, dê a ele uma entrada real em [[Special:MyLanguage/Weapon Attributes|Atributos de armas]]. A entrada do datapack sempre vence o palpite de reserva.",
+  "outdated": false
+ },
+ "180": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "181": {
+  "source": "# Edit <code>config/dragonminez/combat.json</code>.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code> (or <code>/dmzreload</code>).\n# Test in-game: block and parry timing, ki weapon damage and cost, and (if relevant) a third-party weapon's inferred category.",
+  "translation": "# Edite <code>config/dragonminez/combat.json</code>.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code> (ou <code>/dmzreload</code>).\n# Teste no jogo: o timing do bloqueio e do parry, o dano e o custo das armas de ki e (se for o caso) a categoria deduzida de uma arma de terceiros.",
+  "outdated": false
+ }
+}

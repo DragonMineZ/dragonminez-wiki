@@ -1,48 +1,54 @@
 {{Infobox Mob
-|Type=<translate>Hostile</translate>
+|Type=<translate><!--T:1--> Hostile</translate>
 |Dimension={{L|Namek}}
-|Spawns=<translate>Outside Namekian villages, and in patrols around the Big Gete Star</translate>
-|Behavior=<translate>Marches on Namekian villages and fights their warriors; Novice AI</translate>
+|Spawns=<translate><!--T:2--> Outside Namekian villages, and in patrols around the Big Gete Star</translate>
+|Behavior=<translate><!--T:3--> Marches on Namekian villages and fights their warriors; Novice AI</translate>
 |Health=400
 |Damage=25
-|Abilities=<translate>Its hits launch you into the air</translate>
-|Drops=<translate>None</translate>
+|Abilities=<translate><!--T:4--> Its hits launch you into the air</translate>
+|Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
+<!--T:6-->
 '''Gete Robots''' are machines from the [[Special:MyLanguage/Big Gete Star|Big Gete Star]] that march on the Namekian villages of [[Special:MyLanguage/Namek|Planet Namek]]. Their hits launch you into the air.
 </translate>
 
 <translate>
-== Village raids ==
+== Village raids == <!--T:7-->
 
+<!--T:8-->
 While you are near a Namekian village (Ajissa or Sacred), small waves of 1–2 robots can appear outside it every so often, up to 3 per village. They walk toward the village center and fight the [[Special:MyLanguage/Namekian Warrior|Namekian Warriors]] on the way, who are their main target.
 </translate>
 
 <translate>
-== Metal Cooler patrols ==
+== Metal Cooler patrols == <!--T:9-->
 
-Around the Big Gete Star, up to 2 patrols roam near players. Each patrol is a Metal Cooler scout leading 2–3 Gete Robots. The Big Gete Star's inner chamber is the lair of the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss.
+<!--T:10-->
+Around the Big Gete Star, up to 2 patrols roam near players. Each patrol is a [[Special:MyLanguage/Metal Cooler|Metal Cooler]] scout leading 2–3 Gete Robots. The Big Gete Star's inner chamber is the lair of the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:11-->
 
+<!--T:12-->
 Gete Robots fight on the '''Novice''' AI tier. The health and damage above are their base values.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:13-->
 
+<!--T:14-->
 Gete Robots drop nothing.
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:15-->
 
+<!--T:16-->
 The [[Special:MyLanguage/Movies Saga|Movies Saga]] quest [[Special:MyLanguage/Big Gete Star|Big Gete Star]] asks you to defeat 10 Gete Robots in the Ajissa Plains of Namek, before you face Metal Cooler and the Metal Cooler Core.
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:saga_gete_robot</code>}}
+{{Note|type=config|title=<translate><!--T:17--> Entity id</translate>|<code>dragonminez:saga_gete_robot</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Hostile mobs{{#translation:}}]]

@@ -1,100 +1,114 @@
 <translate>
+<!--T:1-->
 '''Add-on Getting Started''' covers what you need in place ''before'' you wire up your own Forge mod against DragonMineZ: the toolchain versions, the mods to avoid, and the parts of DMZ an add-on can safely rely on. Read it before [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]].
 </translate>
 
 <translate>
-== Who this is for ==
+== Who this is for == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 These pages are for Forge add-on developers who want their own mod jar to react to DMZ: granting bonus TP, listening for form changes, adding new quest objective and reward types, adding buttons to the utility menu and so on. If you just want to tune numbers or add races, forms, quests or wishes, you don't need any of this; see [[Special:MyLanguage/Developer Scope and Prerequisites|Developer Scope and Prerequisites]] instead.
 </translate>
 
 <translate>
+<!--T:4-->
 DMZ has no Java API to register new races, forms, skills or techniques: new races and forms are added through JSON config files (see [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]]).
 </translate>
 
 <translate>
-== Required toolchain ==
+== Required toolchain == <!--T:5-->
 </translate>
 
 {| class="wikitable"
-! <translate>Requirement</translate> !! <translate>Version</translate> !! <translate>Where it is declared</translate>
+! <translate><!--T:6--> Requirement</translate> !! <translate><!--T:7--> Version</translate> !! <translate><!--T:8--> Where it is declared</translate>
 |-
 | Minecraft || <code>1.20.1</code> || <code>gradle.properties</code>
 |-
-| Forge || <translate><code>47.4.10</code> (accepts <code>[47,)</code>)</translate> || <translate><code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
+| Forge || <translate><!--T:9--> <code>47.4.10</code> (accepts <code>[47,)</code>)</translate> || <translate><!--T:10--> <code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
 |-
-| ForgeGradle || <code>6.0.30</code> || <translate><code>build.gradle.kts</code> plugins</translate>
+| ForgeGradle || <code>6.0.30</code> || <translate><!--T:11--> <code>build.gradle.kts</code> plugins</translate>
 |-
-| Java || <code>17</code> || <translate><code>build.gradle.kts</code> toolchain</translate>
+| Java || <code>17</code> || <translate><!--T:12--> <code>build.gradle.kts</code> toolchain</translate>
 |-
-| <translate>Mappings</translate> || <translate>Parchment <code>2023.09.03-1.20.1</code></translate> || <code>gradle.properties</code>
+| <translate><!--T:13--> Mappings</translate> || <translate><!--T:14--> Parchment <code>2023.09.03-1.20.1</code></translate> || <code>gradle.properties</code>
 |-
-| GeckoLib || <code>4.8.3+</code> || <translate><code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
+| GeckoLib || <code>4.8.3+</code> || <translate><!--T:15--> <code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
 |-
-| TerraBlender || <code>3.0.1.10+</code> || <translate><code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
+| TerraBlender || <code>3.0.1.10+</code> || <translate><!--T:16--> <code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
 |-
-| Curios API || <translate><code>5.14.1+1.20.1</code> or newer</translate> || <translate><code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
+| Curios API || <translate><!--T:17--> <code>5.14.1+1.20.1</code> or newer</translate> || <translate><!--T:18--> <code>gradle.properties</code>, add-on <code>mods.toml</code></translate>
 |}
 
 <translate>
+<!--T:19-->
 Match these exactly (or with compatible version ranges) in your own add-on's <code>build.gradle</code> or <code>build.gradle.kts</code>, <code>gradle.properties</code> and <code>mods.toml</code>, or you will hit classloading and mixin mismatches at runtime. DMZ itself is currently on mod version <code>2.2-alpha</code> (<code>gradle.properties</code>).
 </translate>
 
 <translate>
+<!--T:20-->
 GeckoLib, TerraBlender and Curios are '''mandatory''' dependencies of DMZ, so they must be on your development runtime classpath too.
 </translate>
 
 <translate>
-== Incompatible mods ==
+== Incompatible mods == <!--T:21-->
 </translate>
 <translate>
+<!--T:22-->
 DMZ refuses to start (it throws an <code>IllegalStateException</code> while loading) when any of these mods is installed, and declares them <code>incompatible</code> in its <code>mods.toml</code>:
 </translate>
 <translate>
+<!--T:23-->
 * Legendary Tooltips (<code>legendarytooltips</code>)
 * Epic Fight (<code>epicfight</code>)
 * Better Combat (<code>bettercombat</code>)
 </translate>
 <translate>
+<!--T:24-->
 Don't depend on them, bundle them or add them to your development run configurations.
 </translate>
 
 <translate>
-== Pre-release builds ==
+== Pre-release builds == <!--T:25-->
 </translate>
 <translate>
+<!--T:26-->
 <code>2.2-alpha</code> is a pre-release build. Alpha and beta builds of DMZ only let whitelisted usernames join a world or server. The default ForgeGradle development username <code>Dev</code> is on the whitelist, so <code>runClient</code> works out of the box: keep that username for local testing.
 </translate>
 
 <translate>
-== Package layout ==
+== Package layout == <!--T:27-->
 </translate>
 <translate>
+<!--T:28-->
 Before writing any hook code, skim the source layout (<code>AI/Context.md</code> in the DMZ repository documents it in detail):
 </translate>
 <translate>
+<!--T:29-->
 * <code>com.dragonminez.client</code>: rendering, GUI and animation; client only.
 * <code>com.dragonminez.common</code>: config, stats, networking, quests and wishes; the surface most add-ons touch.
 * <code>com.dragonminez.server</code>: commands, storage, world generation and server events.
 * <code>com.dragonminez.mixin</code>: mixins; avoid depending on these from an add-on.
 </translate>
 <translate>
+<!--T:30-->
 Add-ons should hook <code>com.dragonminez.common</code> almost exclusively: it is the shared, most stable layer. The only client-side hooks meant for add-ons are <code>DMZClientEvent</code> and the utility menu slots (see [[Special:MyLanguage/Implementation and Events|Implementation and Events]]).
 </translate>
 
 <translate>
-== Two integration styles ==
+== Two integration styles == <!--T:31-->
 </translate>
 <translate>
+<!--T:32-->
 # '''Hard dependency:''' your add-on requires DMZ to be present (<code>mandatory=true</code> in <code>mods.toml</code>). This is the simplest option, but your add-on won't load without DMZ.
 # '''Soft (optional) dependency:''' your add-on works on its own and only turns on DMZ-specific behavior when DMZ is detected. DMZ uses this pattern itself for its optional integrations (<code>common/compat/WeaponLevelingCompat.java</code>, <code>common/compat/ApotheosisCompat.java</code>): check <code>ModList.get().isLoaded("dragonminez")</code> once, and keep every class that imports DMZ code behind that check. This is recommended if your add-on has value without DMZ installed. See [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Optional dependency pattern]].
 </translate>
 
 <translate>
-== What you can safely rely on ==
+== What you can safely rely on == <!--T:33-->
 </translate>
 <translate>
+<!--T:34-->
 * '''Events:''' the nested classes of <code>com.dragonminez.common.events.DMZEvent</code> (server and common) and <code>com.dragonminez.client.events.DMZClientEvent</code> (client) are the intended public hook surface. See [[Special:MyLanguage/Implementation and Events|Implementation and Events]] for the full list.
 * '''Read-only player state:''' <code>StatsCapability</code>, <code>StatsProvider</code> and <code>StatsData</code>, for reading race, form, stats and resources.
 * '''Extension registries:''' <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code> (custom quest content types), <code>DMZTextPlaceholders</code> (custom <code>%placeholders%</code> in quest and dialogue text) and <code>UtilityMenuScreen.addMenuSlot</code> (buttons in the client utility menu).
@@ -102,9 +116,10 @@ Add-ons should hook <code>com.dragonminez.common</code> almost exclusively: it i
 </translate>
 
 <translate>
-== What to avoid relying on ==
+== What to avoid relying on == <!--T:35-->
 </translate>
 <translate>
+<!--T:36-->
 * Values reported by the client for anything related to progression. DMZ never trusts them either; read from the server-side capability instead.
 * Changing <code>StatsData</code> fields directly outside of events or commands. Prefer reacting to or cancelling events over poking values, and prefer DMZ's existing commands when you need to change something DMZ owns.
 * Registering packets on DMZ's network channel. DMZ's packet ids depend on registration order; use your own channel.
@@ -112,9 +127,10 @@ Add-ons should hook <code>com.dragonminez.common</code> almost exclusively: it i
 </translate>
 
 <translate>
-== Next step ==
+== Next step == <!--T:37-->
 </translate>
 <translate>
+<!--T:38-->
 Once your development environment builds against DMZ and you can see it detected at runtime, move on to [[Special:MyLanguage/Implementation and Events|Implementation and Events]] to wire up actual hooks, then to [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]] for the full Gradle and <code>mods.toml</code> setup.
 </translate>
 

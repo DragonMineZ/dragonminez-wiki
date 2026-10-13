@@ -1,174 +1,195 @@
 <translate>
+<!--T:1-->
 Your character is defined by '''six core attributes''' that you raise by training. They feed your '''derived resources''' (Health, Ki, Stamina and Poise), your damage, your defense, your speed and your overall '''Battle Power'''. This page explains what each attribute does, how regeneration, defense, speed and critical hits work, and how '''Power Release''' multiplies almost everything.
 </translate>
 
-{{Note|<translate>The exact numbers depend on your [[Special:MyLanguage/Races|race]] and [[Special:MyLanguage/Classes|class]] scalings. The values on this page describe what a stat drives, not fixed amounts, and every default can be changed by the server.</translate>}}
+{{Note|<translate><!--T:2--> The exact numbers depend on your [[Special:MyLanguage/Races|race]] and [[Special:MyLanguage/Classes|class]] scalings. The values on this page describe what a stat drives, not fixed amounts, and every default can be changed by the server.</translate>}}
 
 <translate>
-== The six core attributes ==
+== The six core attributes == <!--T:3-->
 </translate>
 
 {| class="wikitable"
-! <translate>Stat</translate> !! <translate>Key</translate> !! <translate>What it governs</translate>
+! <translate><!--T:4--> Stat</translate> !! <translate><!--T:5--> Key</translate> !! <translate><!--T:6--> What it governs</translate>
 |-
-| <translate>'''Strength'''</translate> || STR || <translate>'''Melee (physical) damage'''. A quarter of it is also added to strike damage.</translate>
+| <translate><!--T:7--> '''Strength'''</translate> || STR || <translate><!--T:8--> '''Melee (physical) damage'''. A quarter of it is also added to strike damage.</translate>
 |-
-| <translate>'''Strike Power'''</translate> || SKP || <translate>'''Strike damage''': ki-enhanced melee and technique hits.</translate>
+| <translate><!--T:9--> '''Strike Power'''</translate> || SKP || <translate><!--T:10--> '''Strike damage''': ki-enhanced melee and technique hits.</translate>
 |-
-| <translate>'''Resistance'''</translate> || RES || <translate>'''Defense''' (damage mitigation), '''max Stamina''', '''Stamina regeneration''', '''max Poise''' and your '''Speed'''.</translate>
+| <translate><!--T:11--> '''Resistance'''</translate> || RES || <translate><!--T:12--> '''Defense''' (damage mitigation), '''max Stamina''', '''Stamina regeneration''', '''max Poise''' and your '''Speed'''.</translate>
 |-
-| <translate>'''Vitality'''</translate> || VIT || <translate>'''Max Health''' (on a growing curve) and your '''Health and Stamina regeneration'''.</translate>
+| <translate><!--T:13--> '''Vitality'''</translate> || VIT || <translate><!--T:14--> '''Max Health''' (on a growing curve) and your '''Health and Stamina regeneration'''.</translate>
 |-
-| <translate>'''Ki Power'''</translate> || PWR || <translate>'''Ki blast and energy-wave damage'''.</translate>
+| <translate><!--T:15--> '''Ki Power'''</translate> || PWR || <translate><!--T:16--> '''Ki blast and energy-wave damage'''.</translate>
 |-
-| <translate>'''Energy'''</translate> || ENE || <translate>'''Max Ki''' (your energy pool) and your '''Ki regeneration'''.</translate>
+| <translate><!--T:17--> '''Energy'''</translate> || ENE || <translate><!--T:18--> '''Max Ki''' (your energy pool) and your '''Ki regeneration'''.</translate>
 |}
 
 <translate>
+<!--T:19-->
 Your three offensive stats stack: your total offense is melee (STR) plus strike (SKP) plus ki (PWR). RES, VIT and ENE build your survivability and your resource pools.
 
+<!--T:20-->
 You raise a stat by spending [[Special:MyLanguage/Training Points and Mastery|Training Points]] on it in the '''Stats''' tab of the [[Special:MyLanguage/Menus|Character Menu]]. The '''TPC''' box shows the TP cost of the next point, and the cost grows as your stats grow. [[Special:MyLanguage/Weights|Weights]] make training faster. Stats can also grow on their own from how you fight (see [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]); points gained that way don't make buying stats with TP more expensive. The server caps how far a stat can go (1,000,000 by default). Admins can edit stats and points with <code>/dmzstats</code> and <code>/dmzpoints</code> (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>
 
 <translate>
-=== Attribute Points and Attributes rewards ===
+=== Attribute Points and Attributes rewards === <!--T:21-->
 </translate>
 {{Config|General Server Config|gameplay}}
 <translate>
+<!--T:22-->
 '''Attribute Points (AP)''' are free stat points waiting to be placed. The Stats tab spends them first, before any TP. You get them from the '''Reallocate Stats''' wish, from <code>/dmzstats relocate</code> and from '''Attributes''' rewards.
 
+<!--T:23-->
 Saga quests, side quests and the dragons' '''Power Boost''' wish reward '''Attributes''' (shown as "x40 Attributes") instead of a fixed amount of TP, so they keep their value however expensive your stats get:
 </translate>
 
-* <translate>'''Half''' of them (rounded down, by default) arrive as '''Attribute Points'''.</translate>
-* <translate>The other half arrive as the '''Training Points those stat points would cost you right now''' (worked out after the AP above, so you get the TP for the ''next'' points). This TP is not multiplied again by your TP boosts and is not shared with your party. If the server turned off buying stats with TP (see [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]), this half gives nothing.</translate>
+* <translate><!--T:24--> '''Half''' of them (rounded down, by default) arrive as '''Attribute Points'''.</translate>
+* <translate><!--T:25--> The other half arrive as the '''Training Points those stat points would cost you right now''' (worked out after the AP above, so you get the TP for the ''next'' points). This TP is not multiplied again by your TP boosts and is not shared with your party. If the server turned off buying stats with TP (see [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]), this half gives nothing.</translate>
 
 <translate>
+<!--T:26-->
 Hovering an Attributes reward in the Quest Tree, in an NPC's quest sheet or in the wish screen shows the split and roughly how much TP it is worth at your current cost. Your story difficulty's quest-reward multiplier (Hard ×1.25) and the story-reset penalty apply to the number of Attributes. See [[Special:MyLanguage/Sagas|Sagas]] and [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].
 </translate>
 
 <translate>
-== Derived resources ==
+== Derived resources == <!--T:27-->
 </translate>
 
-* <translate>'''Health (HP)''': the vanilla 20 HP plus a bonus from '''VIT''' (multiplied by your class VIT scaling and your form multipliers). VIT is '''not linear''': see the Vitality curve below.</translate>
-* <translate>'''Ki (Energy, EP)''': a pool of 20 + ENE × your ENE scaling. You spend it to cast ki skills and to power transformations.</translate>
-* <translate>'''Stamina (SP)''': a pool of 20 + RES × your Stamina scaling. You spend it on sprinting, blocking, combat flight and melee actions (see [[Special:MyLanguage/Combat|Combat]]).</translate>
-* <translate>'''Poise''': 25 plus a value derived from your defense. Poise resists being staggered or stunned in combat.</translate>
+* <translate><!--T:28--> '''Health (HP)''': the vanilla 20 HP plus a bonus from '''VIT''' (multiplied by your class VIT scaling and your form multipliers). VIT is '''not linear''': see the Vitality curve below.</translate>
+* <translate><!--T:29--> '''Ki (Energy, EP)''': a pool of 20 + ENE × your ENE scaling. You spend it to cast ki skills and to power transformations.</translate>
+* <translate><!--T:30--> '''Stamina (SP)''': a pool of 20 + RES × your Stamina scaling. You spend it on sprinting, blocking, combat flight and melee actions (see [[Special:MyLanguage/Combat|Combat]]).</translate>
+* <translate><!--T:31--> '''Poise''': 25 plus a value derived from your defense. Poise resists being staggered or stunned in combat.</translate>
 
 <translate>
-=== Vitality curve ===
+=== Vitality curve === <!--T:32-->
 
+<!--T:33-->
 The health each point of VIT gives '''grows as you invest more VIT'''. Your class VIT scaling is the starting rate per point; it ramps up quadratically until VIT reaches the '''knee''' (16,000 VIT by default), where it reaches the class maximum (by default '''4×''' the starting rate), and it stays at that maximum for every point after the knee.
 </translate>
-{{Note|type=tip|title=<translate>Example</translate>|<translate>A Warrior has a VIT scaling of 1.8. At 16,000 VIT a flat 1.8 per point would give 28,800 bonus HP; the curve gives '''57,600''', and every VIT point past 16,000 is worth 7.2 HP.</translate>}}
+{{Note|type=tip|title=<translate><!--T:34--> Example</translate>|<translate><!--T:35--> A Warrior has a VIT scaling of 1.8. At 16,000 VIT a flat 1.8 per point would give 28,800 bonus HP; the curve gives '''57,600''', and every VIT point past 16,000 is worth 7.2 HP.</translate>}}
 <translate>
+<!--T:36-->
 The class maximum is set per class in each race's stats file (see [[Special:MyLanguage/Custom Races|Custom Races]]). A race file that doesn't have it yet keeps the flat (linear) scaling until the file is regenerated.
 </translate>
 
 <translate>
-== Regeneration ==
+== Regeneration == <!--T:37-->
 
+<!--T:38-->
 Regeneration is worked out per second from your class's base values "per 5 seconds" plus your attributes:
 </translate>
 
-* <translate>'''Health regeneration''': your class's base HP regeneration plus VIT × your class's HP regeneration scaling, divided by 5.</translate>
-* <translate>'''Ki regeneration''': your class's base Ki regeneration plus ENE × its Ki regeneration scaling, divided by 5. It is ×1.5 while you are actively '''charging ki''', plus '''+25% per level''' of the '''Ki Boost''' skill while charging.</translate>
-* <translate>'''Stamina regeneration''': your class's base Stamina regeneration plus VIT and RES × their stamina regeneration scalings, divided by 5. It is reduced while an action is draining stamina. Both VIT and RES count with your form and effect multipliers.</translate>
+* <translate><!--T:39--> '''Health regeneration''': your class's base HP regeneration plus VIT × your class's HP regeneration scaling, divided by 5.</translate>
+* <translate><!--T:40--> '''Ki regeneration''': your class's base Ki regeneration plus ENE × its Ki regeneration scaling, divided by 5. It is ×1.5 while you are actively '''charging ki''', plus '''+25% per level''' of the '''Ki Boost''' skill while charging.</translate>
+* <translate><!--T:41--> '''Stamina regeneration''': your class's base Stamina regeneration plus VIT and RES × their stamina regeneration scalings, divided by 5. It is reduced while an action is draining stamina. Both VIT and RES count with your form and effect multipliers.</translate>
 
 <translate>
+<!--T:42-->
 Regeneration is further modified by armor recovery [[Special:MyLanguage/Enchantments|enchantments]], the [[Special:MyLanguage/Meditation|Meditation]] skill (+5% Ki and Stamina regeneration per level), potion [[Special:MyLanguage/Effects|effects]], racial and class passives (for example the [[Special:MyLanguage/Warrior|Warrior]], [[Special:MyLanguage/Berserker|Berserker]] and [[Special:MyLanguage/Tank|Tank]] passives) and active transformation drain. The base values and scalings of each class are listed on [[Special:MyLanguage/Classes|Classes]].
 </translate>
 
 <translate>
-== How defense works ==
+== How defense works == <!--T:43-->
 </translate>
 {{Config|Combat Config}}
 <translate>
+<!--T:44-->
 '''Defense''' is your damage-mitigation value: DMZ replaces vanilla armor math with its own server-side calculation. Your defense is built from:
 </translate>
 
-* <translate>your '''Resistance (RES)''' × your class '''DEF scaling''' (plus any flat or percent DEF bonuses from forms, effects and so on);</translate>
-* <translate>your worn '''[[Special:MyLanguage/Armor|armor]]''', weighted as armor × 0.5 + toughness × 0.7;</translate>
-* <translate>any secondary DEF attributes and effects.</translate>
+* <translate><!--T:45--> your '''Resistance (RES)''' × your class '''DEF scaling''' (plus any flat or percent DEF bonuses from forms, effects and so on);</translate>
+* <translate><!--T:46--> your worn '''[[Special:MyLanguage/Armor|armor]]''', weighted as armor × 0.5 + toughness × 0.7;</translate>
+* <translate><!--T:47--> any secondary DEF attributes and effects.</translate>
 
 <translate>
+<!--T:48-->
 That total is then '''multiplied by your current Power Release''', so a character who isn't charged up defends far more weakly than one at full release, and by your form's DEF multiplier. Keeping your ki charged is part of tanking.
 
+<!--T:49-->
 DMZ uses that defense in two ways:
 </translate>
 
-* <translate>'''Flat defense''' follows the same kind of '''curve''' as Vitality: the DEF scaling of each RES point ramps up quadratically until RES reaches 20,000 (by default), where it reaches the class maximum (by default '''4×''' the class DEF scaling). Flat defense drives the flat absorption, the "negate the hit" check and the adaptive mitigation below.</translate>
-* <translate>'''Percent defense''' stays '''linear''' (class DEF scaling only) and drives the percentage reduction and blocking.</translate>
+* <translate><!--T:50--> '''Flat defense''' follows the same kind of '''curve''' as Vitality: the DEF scaling of each RES point ramps up quadratically until RES reaches 20,000 (by default), where it reaches the class maximum (by default '''4×''' the class DEF scaling). Flat defense drives the flat absorption, the "negate the hit" check and the adaptive mitigation below.</translate>
+* <translate><!--T:51--> '''Percent defense''' stays '''linear''' (class DEF scaling only) and drives the percentage reduction and blocking.</translate>
 
 <translate>
+<!--T:52-->
 When you take a hit, defense is applied in stages (default values):
 </translate>
 
-# <translate>'''Penetration and guard state.''' The attacker's '''defense penetration''' is subtracted from your defense first: from the Defense Penetration skill and weapon enchantment (2.5% per level each), a ki technique's armor penetration, or the Warrior passive, capped at '''50%''' in total. If your '''guard was broken''', your defense for that hit is cut by '''66%'''.</translate>
-# <translate>'''Negation.''' If your flat defense is at least '''2.5×''' the incoming damage, the hit is '''negated entirely'''.</translate>
-# <translate>'''Flat mitigation.''' Your flat defense is absorbed straight off the hit, up to '''82%''' of the incoming damage.</translate>
-# <translate>'''Percent reduction (diminishing returns).''' The remainder is reduced by a curve: more defense always helps, but with diminishing returns, hard-capped at '''88%'''.</translate>
-# <translate>'''Enchantment protection.''' Protection enchantments add their own reduction on top, with the combined total capped at '''93%'''.</translate>
-# <translate>'''Adaptive mitigation.''' Hits that are small compared to your flat defense are reduced further: a hit equal to your flat defense loses another '''35%''', shrinking to nothing once the hit is '''14×''' your flat defense, and never more than '''65%'''.</translate>
-# <translate>'''Blocking and Ki Protection.''' While you are actively '''blocking''', an extra block reduction applies (from 5% up to 65%, scaled by your defense). The [[Special:MyLanguage/Ki Protection|Ki Protection]] skill can also spend Ki to shave off more of the hit (2.5% per level by default). See [[Special:MyLanguage/Combat|Combat]].</translate>
+# <translate><!--T:53--> '''Penetration and guard state.''' The attacker's '''defense penetration''' is subtracted from your defense first: from the Defense Penetration skill and weapon enchantment (2.5% per level each), a ki technique's armor penetration, or the Warrior passive, capped at '''50%''' in total. If your '''guard was broken''', your defense for that hit is cut by '''66%'''.</translate>
+# <translate><!--T:54--> '''Negation.''' If your flat defense is at least '''2.5×''' the incoming damage, the hit is '''negated entirely'''.</translate>
+# <translate><!--T:55--> '''Flat mitigation.''' Your flat defense is absorbed straight off the hit, up to '''82%''' of the incoming damage.</translate>
+# <translate><!--T:56--> '''Percent reduction (diminishing returns).''' The remainder is reduced by a curve: more defense always helps, but with diminishing returns, hard-capped at '''88%'''.</translate>
+# <translate><!--T:57--> '''Enchantment protection.''' Protection enchantments add their own reduction on top, with the combined total capped at '''93%'''.</translate>
+# <translate><!--T:58--> '''Adaptive mitigation.''' Hits that are small compared to your flat defense are reduced further: a hit equal to your flat defense loses another '''35%''', shrinking to nothing once the hit is '''14×''' your flat defense, and never more than '''65%'''.</translate>
+# <translate><!--T:59--> '''Blocking and Ki Protection.''' While you are actively '''blocking''', an extra block reduction applies (from 5% up to 65%, scaled by your defense). The [[Special:MyLanguage/Ki Protection|Ki Protection]] skill can also spend Ki to shave off more of the hit (2.5% per level by default). See [[Special:MyLanguage/Combat|Combat]].</translate>
 
-{{Note|type=tip|title=<translate>Takeaways</translate>|<translate>Raise '''RES''' (and wear armor) to tank harder: your flat defense grows faster and faster up to about 20,000 RES. Keep your '''Power Release''' high in a fight, since defense scales with it. Remember the caps: percent reduction stops at '''88%''', or '''93%''' with enchantments.</translate>}}
+{{Note|type=tip|title=<translate><!--T:60--> Takeaways</translate>|<translate><!--T:61--> Raise '''RES''' (and wear armor) to tank harder: your flat defense grows faster and faster up to about 20,000 RES. Keep your '''Power Release''' high in a fight, since defense scales with it. Remember the caps: percent reduction stops at '''88%''', or '''93%''' with enchantments.</translate>}}
 
 <translate>
-== Speed ==
+== Speed == <!--T:62-->
 </translate>
 {{Config|Combat Config}}
 <translate>
+<!--T:63-->
 With the speed system enabled (it is on by default), '''Resistance''' also makes you faster:
 </translate>
 
 <code>Speed = 1 + (RES ÷ 10,000) × form speed multiplier × Power Release</code>
 
-* <translate>Every 10,000 RES at full release adds +1.0 Speed (by default).</translate>
-* <translate>While '''transformed''' (or using a stack form), the RES part is also multiplied by '''×2''', on top of the form's own speed multiplier (for example [[Special:MyLanguage/Kaioken|Kaioken]]).</translate>
-* <translate>Your '''movement speed''' bonus follows your Speed, capped at '''×3'''.</translate>
-* <translate>At Speed '''2.0''' or more you also get a '''+0.5 block step-up''', so you don't get stuck on single blocks while running.</translate>
-* <translate>Speed is also what decides your chance to '''dodge''' attacks automatically: see [[Special:MyLanguage/Combat#Speed and passive dodge|Combat]].</translate>
+* <translate><!--T:64--> Every 10,000 RES at full release adds +1.0 Speed (by default).</translate>
+* <translate><!--T:65--> While '''transformed''' (or using a stack form), the RES part is also multiplied by '''×2''', on top of the form's own speed multiplier (for example [[Special:MyLanguage/Kaioken|Kaioken]]).</translate>
+* <translate><!--T:66--> Your '''movement speed''' bonus follows your Speed, capped at '''×3'''.</translate>
+* <translate><!--T:67--> At Speed '''2.0''' or more you also get a '''+0.5 block step-up''', so you don't get stuck on single blocks while running.</translate>
+* <translate><!--T:68--> Speed is also what decides your chance to '''dodge''' attacks automatically: see [[Special:MyLanguage/Combat#Speed and passive dodge|Combat]].</translate>
 
 <translate>
-== Critical hits ==
+== Critical hits == <!--T:69-->
 
+<!--T:70-->
 Melee hits can '''crit'''. Every player has a base '''5% crit chance''' and '''×1.5 crit damage''' (the <code>dragonminez:crit_chance</code> and <code>dragonminez:crit_damage</code> attributes). The '''Critical Chance''' and '''Critical Damage''' [[Special:MyLanguage/Enchantments|enchantments]] on your main-hand weapon add '''+5%''' each per level, weapons can carry their own crit values (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]), and the [[Special:MyLanguage/Berserker|Berserker]] class passive adds crit chance at low health.
 </translate>
 
 <translate>
-== Battle Power ==
+== Battle Power == <!--T:71-->
 
+<!--T:72-->
 '''Battle Power (BP)''' is your overall "power level". It adds up your four combat stats ('''STR + SKP + RES + PWR''', each with its class scaling, form multipliers and bonuses) plus your '''VIT and ENE at half weight''', runs that through a growth curve, then multiplies it by your current '''Power Release''':
 </translate>
 
 <code>BP = 1,200 × (raw power ÷ 100)^1.2 × Power Release</code>
 
 <translate>
+<!--T:73-->
 BP is a decimal value, so it keeps growing smoothly even at very high stats. Upgraded [[Special:MyLanguage/Android|Androids]] always report the maximum possible Battle Power. You can read other beings' Battle Power with [[Special:MyLanguage/Scouters|Scouters]] or the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill (see [[Special:MyLanguage/HUD#Ki Sense panels|HUD]]).
 </translate>
 
 <translate>
-== Power Release ==
+== Power Release == <!--T:74-->
 
+<!--T:75-->
 '''Power Release''' is the percentage of your power you are currently channeling. Charging ki (hold {{Key|C}}) raises it. It acts as a '''multiplier''' on your melee, strike and ki damage, your defense, your speed and your Battle Power. Releasing more power costs energy upkeep.
 </translate>
 
-* <translate>Your '''maximum''' release starts at '''50%''', and each level of the [[Special:MyLanguage/Potential Unlock|Potential Unlock]] skill adds '''+5%''' (see [[Special:MyLanguage/Skills|Skills]]).</translate>
-* <translate>[[Special:MyLanguage/Saiyan|Saiyans]] can push that limit further with their '''Limitless Power''' racial skill.</translate>
-* <translate>Double-tapping the charge key jumps straight to your maximum, costing '''1% of your max Ki for every 5%''' of release gained.</translate>
-* <translate>Hold {{Key|Alt}} + {{Key|C}} to lower your release, or set a release cap with '''Limit Release''' in the Utility Menu (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
+* <translate><!--T:76--> Your '''maximum''' release starts at '''50%''', and each level of the [[Special:MyLanguage/Potential Unlock|Potential Unlock]] skill adds '''+5%''' (see [[Special:MyLanguage/Skills|Skills]]).</translate>
+* <translate><!--T:77--> [[Special:MyLanguage/Saiyan|Saiyans]] can push that limit further with their '''Limitless Power''' racial skill.</translate>
+* <translate><!--T:78--> Double-tapping the charge key jumps straight to your maximum, costing '''1% of your max Ki for every 5%''' of release gained.</translate>
+* <translate><!--T:79--> Hold {{Key|Alt}} + {{Key|C}} to lower your release, or set a release cap with '''Limit Release''' in the Utility Menu (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
 
 <translate>
+<!--T:80-->
 Ki and strike techniques and flight need at least '''5%''' Power Release. At '''0%''' you are hidden from Ki Sense.
 </translate>
 
 <translate>
-== Alignment ==
+== Alignment == <!--T:81-->
 </translate>
 {{Main|Alignment}}
 <translate>
+<!--T:82-->
 '''Alignment''' is a value from 0 to 100 (100 by default) that measures how good or evil your character is: '''Good''' 61–100, '''Neutral''' 41–60, '''Evil''' 0–40. It decides which masters train you, how some NPCs treat you and a few other perks.
 </translate>
 

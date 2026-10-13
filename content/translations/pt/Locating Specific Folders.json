@@ -1,0 +1,292 @@
+{
+ "Page_display_title": {
+  "source": "Locating Specific Folders",
+  "translation": "Encontrar pastas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Locating Specific Folders''' maps where DragonMineZ keeps its editable data. The files are split across a few different roots, depending on '''who owns the data''' and '''when it is read'''. Knowing which root you need saves a lot of confusion, especially since some folders only appear after you have run the server or the client at least once.",
+  "translation": "'''Encontrar pastas''' mostra onde o DragonMineZ guarda seus dados editáveis. Os arquivos ficam divididos entre algumas raízes diferentes, dependendo de '''a quem os dados pertencem''' e de '''quando eles são lidos'''. Saber de qual raiz você precisa evita muita confusão, principalmente porque algumas pastas só aparecem depois que você executa o servidor ou o cliente pelo menos uma vez.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Mod config folder ==",
+  "translation": "== Pasta de configuração do mod ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "<code>config/dragonminez/</code> holds the mod config. It belongs to the game instance, not to a world, and it is generated the first time DragonMineZ starts. This is where you tune balance and stats, and add custom races, forms and entities. Except for the two client-only files marked below, the server sends every file in this folder to joining clients (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).",
+  "translation": "<code>config/dragonminez/</code> guarda a configuração do mod. Ela pertence à instância do jogo, não a um mundo, e é gerada na primeira vez que o DragonMineZ inicia. É aqui que você ajusta o balanceamento e as estatísticas, e adiciona raças, formas e entidades personalizadas. Exceto pelos dois arquivos exclusivos do cliente indicados abaixo, o servidor envia todos os arquivos desta pasta aos clientes que entram (veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]).",
+  "outdated": false
+ },
+ "4": {
+  "source": "Path",
+  "translation": "Caminho",
+  "outdated": false
+ },
+ "5": {
+  "source": "Purpose",
+  "translation": "Finalidade",
+  "outdated": false
+ },
+ "6": {
+  "source": "Server-wide gameplay toggles (see [[Special:MyLanguage/General Server Config|General Server Config]]).",
+  "translation": "Opções de jogabilidade do servidor inteiro (veja [[Special:MyLanguage/General Server Config|Configuração do servidor]]).",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Client only.''' Personal client settings, never sent by the server (see [[Special:MyLanguage/General User Config|General User Config]]).",
+  "translation": "'''Apenas cliente.''' Configurações pessoais do cliente, nunca enviadas pelo servidor (veja [[Special:MyLanguage/General User Config|Configuração do cliente]]).",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Client only.''' HUD style and element layout (see [[Special:MyLanguage/HUD|HUD]]).",
+  "translation": "'''Apenas cliente.''' Estilo da HUD e layout dos elementos (veja [[Special:MyLanguage/HUD|HUD]]).",
+  "outdated": false
+ },
+ "9": {
+  "source": "Client-side order of the entries in the radial menus, saved when you reorder them.",
+  "translation": "Ordem das entradas dos menus radiais no cliente, salva quando você as reorganiza.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Combat tuning values (see [[Special:MyLanguage/Combat Config|Combat Config]]).",
+  "translation": "Valores de ajuste do combate (veja [[Special:MyLanguage/Combat Config|Configuração de combate]]).",
+  "outdated": false
+ },
+ "11": {
+  "source": "Skill costs, cooldowns and eligibility, and the skills each race and master offers; both live in this one file (see [[Special:MyLanguage/Skills Config|Skills Config]]).",
+  "translation": "Custos, recargas e requisitos das habilidades, e as habilidades que cada raça e mestre oferece; as duas coisas ficam neste único arquivo (veja [[Special:MyLanguage/Skills Config|Configuração de habilidades]]).",
+  "outdated": false
+ },
+ "12": {
+  "source": "Tuning of the TP training minigames (see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]]).",
+  "translation": "Ajuste dos minigames de treinamento de TP (veja [[Special:MyLanguage/Training Points and Mastery|pontos de treino e domínio]]).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Ki attack and strike attack tuning (see [[Special:MyLanguage/Skills Config|Skills Config]]).",
+  "translation": "Ajuste dos ataques de ki e dos ataques de golpe (veja [[Special:MyLanguage/Skills Config|Configuração de habilidades]]).",
+  "outdated": false
+ },
+ "14": {
+  "source": "Base stats of each entity and the saga transformation defaults (see [[Special:MyLanguage/Entities Config|Entities Config]]).",
+  "translation": "Estatísticas base de cada entidade e valores padrão das transformações de saga (veja [[Special:MyLanguage/Entities Config|Configuração de entidades]]).",
+  "outdated": false
+ },
+ "15": {
+  "source": "Race identity and appearance defaults (see [[Special:MyLanguage/Custom Races|Custom Races]]).",
+  "translation": "Identidade da raça e valores padrão da aparência (veja [[Special:MyLanguage/Custom Races|Raças personalizadas]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Race base stats and scaling for each class.",
+  "translation": "Estatísticas base da raça e escalonamento para cada classe.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Forms that belong only to that race.",
+  "translation": "Formas que pertencem apenas a essa raça.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Shared stack forms, layered on top of a race's own forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).",
+  "translation": "Formas acumuláveis compartilhadas, que se somam às formas próprias de uma raça (veja [[Special:MyLanguage/Custom Forms|Formas personalizadas]]).",
+  "outdated": false
+ },
+ "19": {
+  "source": "Raid definitions (see [[Special:MyLanguage/Raids|Raids]]).",
+  "translation": "Definições de incursões (veja [[Special:MyLanguage/Raids|Incursões]]).",
+  "outdated": false
+ },
+ "20": {
+  "source": "Tournament definitions (see [[Special:MyLanguage/Tournaments|Tournaments]]).",
+  "translation": "Definições de torneios (veja [[Special:MyLanguage/Tournaments|Torneios]]).",
+  "outdated": false
+ },
+ "21": {
+  "source": "Copies of the config files DragonMineZ upgraded or regenerated, in the same relative layout (for example <code>oldBackup/races/saiyan/stats.json</code>). DragonMineZ never reads them back.",
+  "translation": "Cópias dos arquivos de configuração que o DragonMineZ atualizou ou regenerou, com a mesma estrutura relativa (por exemplo, <code>oldBackup/races/saiyan/stats.json</code>). O DragonMineZ nunca volta a lê-las.",
+  "outdated": false
+ },
+ "22": {
+  "source": "The default races generated here are <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> and <code>glind</code>. Any other folder under <code>races/</code> is loaded as a custom race.",
+  "translation": "As raças padrão geradas aqui são <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> e <code>glind</code>. Qualquer outra pasta dentro de <code>races/</code> é carregada como raça personalizada.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Source: <code>ConfigManager.java</code> (<code>loadGeneralConfigs</code>, <code>loadAllRaces</code>, <code>createOrLoadStackForms</code>, <code>loadRaids</code>, <code>loadTournaments</code>).",
+  "translation": "Código-fonte: <code>ConfigManager.java</code> (<code>loadGeneralConfigs</code>, <code>loadAllRaces</code>, <code>createOrLoadStackForms</code>, <code>loadRaids</code>, <code>loadTournaments</code>).",
+  "outdated": false
+ },
+ "24": {
+  "source": "== World save folder ==",
+  "translation": "== Pasta do save do mundo ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "<code><world save>/dragonminez/</code> lives inside the world save, so its content belongs to one world, not to the whole instance. This is why quest and saga changes don't show up until you edit the right save folder:",
+  "translation": "<code><world save>/dragonminez/</code> fica dentro do save do mundo, então o conteúdo pertence a um único mundo, não à instância inteira. É por isso que as mudanças em missões e sagas não aparecem até você editar a pasta do save certo:",
+  "outdated": false
+ },
+ "26": {
+  "source": "* Singleplayer: <code>saves/<world>/dragonminez/</code>\n* Server: <code><server>/<level-name>/dragonminez/</code>\n* Development environment: <code>run/saves/<world>/dragonminez/</code>",
+  "translation": "* Um jogador: <code>saves/<world>/dragonminez/</code>\n* Servidor: <code><server>/<level-name>/dragonminez/</code>\n* Ambiente de desenvolvimento: <code>run/saves/<world>/dragonminez/</code>",
+  "outdated": false
+ },
+ "27": {
+  "source": "Path",
+  "translation": "Caminho",
+  "outdated": false
+ },
+ "28": {
+  "source": "Purpose",
+  "translation": "Finalidade",
+  "outdated": false
+ },
+ "29": {
+  "source": "Saga manifests (the <code>questFolder</code> pointer and the saga metadata).",
+  "translation": "Manifestos das sagas (o ponteiro <code>questFolder</code> e os metadados da saga).",
+  "outdated": false
+ },
+ "30": {
+  "source": "Quest files for one saga, loaded in alphabetical order (<code>01_...json</code>, <code>02_...json</code>, ...).",
+  "translation": "Arquivos de missões de uma saga, carregados em ordem alfabética (<code>01_...json</code>, <code>02_...json</code>, ...).",
+  "outdated": false
+ },
+ "31": {
+  "source": "Standalone side quests, loaded when side quests are enabled.",
+  "translation": "Missões secundárias independentes, carregadas quando as missões secundárias estão ativadas.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Wish list of each dragon (<code>shenron.json</code>, <code>porunga.json</code>, ...; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).",
+  "translation": "Lista de desejos de cada dragão (<code>shenron.json</code>, <code>porunga.json</code>, ...; veja [[Special:MyLanguage/Custom Wishes|Desejos personalizados]]).",
+  "outdated": false
+ },
+ "33": {
+  "source": "NPC dialogue trees (see [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]]). An <code>_example.json</code> is written the first time; files whose NPC id starts with <code>_</code> are not loaded.",
+  "translation": "Árvores de diálogo de NPCs (veja [[Special:MyLanguage/NPC Dialogue|Diálogos de NPCs]]). Na primeira vez, um <code>_example.json</code> é criado; arquivos cujo id de NPC começa com <code>_</code> não são carregados.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Spawn positions of master and trainer NPCs (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Posições de spawn dos NPCs mestres e treinadores (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
+  "outdated": false
+ },
+ "35": {
+  "source": "Alignment and hostility thresholds of each NPC (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Limites de índole e hostilidade de cada NPC (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
+  "outdated": false
+ },
+ "36": {
+  "source": "Player save data, only used when <code>storageType</code> is <code>JSON</code>.",
+  "translation": "Dados salvos dos jogadores, usados apenas quando <code>storageType</code> é <code>JSON</code>.",
+  "outdated": false
+ },
+ "37": {
+  "source": "Copies of default quest, saga and side quest files taken before DragonMineZ upgraded them, in the same relative layout.",
+  "translation": "Cópias dos arquivos padrão de missões, sagas e missões secundárias feitas antes de o DragonMineZ atualizá-los, com a mesma estrutura relativa.",
+  "outdated": false
+ },
+ "38": {
+  "source": "Summary of the last upgrade of the quest defaults: values updated, and conflicts kept as your edits.",
+  "translation": "Resumo da última atualização das missões padrão: valores atualizados e conflitos em que suas edições foram mantidas.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Source: <code>QuestRegistry.loadAll(server)</code>, <code>WishManager.loadWishes(server)</code>, <code>DialogueRegistry.loadAll(server)</code>.",
+  "translation": "Código-fonte: <code>QuestRegistry.loadAll(server)</code>, <code>WishManager.loadWishes(server)</code>, <code>DialogueRegistry.loadAll(server)</code>.",
+  "outdated": false
+ },
+ "40": {
+  "source": "=== Default story files ===",
+  "translation": "=== Arquivos de história padrão ===",
+  "outdated": false
+ },
+ "41": {
+  "source": "DragonMineZ writes its default saga, quest and side quest files only when they are missing and the default-generation toggles are on in <code>general-server.json</code> (<code>storyModeEnabled</code> and <code>createDefaultSagas</code> for sagas and saga quests, <code>createDefaultSideQuests</code> for side quests). With <code>autoUpdateQuests</code> on (the default), the files DragonMineZ generated are upgraded in place when a new DragonMineZ version changes them: your edits are kept, and a copy goes to <code>dragonminez/oldBackup/</code> first. Files you created yourself are never touched. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "O DragonMineZ cria seus arquivos padrão de sagas, missões e missões secundárias apenas quando eles não existem e as opções de geração padrão estão ativadas no <code>general-server.json</code> (<code>storyModeEnabled</code> e <code>createDefaultSagas</code> para sagas e missões de saga, <code>createDefaultSideQuests</code> para missões secundárias). Com <code>autoUpdateQuests</code> ativado (o padrão), os arquivos gerados pelo DragonMineZ são atualizados no lugar quando uma nova versão do DragonMineZ os altera: suas edições são mantidas e antes uma cópia vai para <code>dragonminez/oldBackup/</code>. Arquivos criados por você nunca são alterados. Veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]].",
+  "outdated": false
+ },
+ "42": {
+  "source": "=== World data files ===",
+  "translation": "=== Arquivos de dados do mundo ===",
+  "outdated": false
+ },
+ "43": {
+  "source": "Some DragonMineZ state is stored as vanilla \"saved data\": <code>.dat</code> files in the world's <code>data/</code> folder, or in a dimension's own <code>data/</code> folder. These files are binary and not meant to be edited by hand: <code>dragon_balls_data</code> (Dragon Ball positions), <code>dragonminez_mutants</code>, <code>dragonminez_parties</code>, <code>dragonminez_pothala_pairs</code>, <code>dragonminez_raids</code>, <code>dragonminez_raid_sites</code>, <code>dragonminez_structure_plan</code>, <code>dragonminez_worldbosses</code>, <code>dragonminez_npc_placements</code>, <code>dragonminez_tournaments</code> and <code>dragonminez_otherworld_tournament</code>.",
+  "translation": "Parte do estado do DragonMineZ é guardada como \"saved data\" do vanilla: arquivos <code>.dat</code> na pasta <code>data/</code> do mundo, ou na pasta <code>data/</code> própria de uma dimensão. Esses arquivos são binários e não foram feitos para serem editados à mão: <code>dragon_balls_data</code> (posições das Esferas do Dragão), <code>dragonminez_mutants</code>, <code>dragonminez_parties</code>, <code>dragonminez_pothala_pairs</code>, <code>dragonminez_raids</code>, <code>dragonminez_raid_sites</code>, <code>dragonminez_structure_plan</code>, <code>dragonminez_worldbosses</code>, <code>dragonminez_npc_placements</code>, <code>dragonminez_tournaments</code> e <code>dragonminez_otherworld_tournament</code>.",
+  "outdated": false
+ },
+ "44": {
+  "source": "== Dragon Ball pack folder ==",
+  "translation": "== Pasta de pacotes de Esferas do Dragão ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "<code><game dir>/dragonballs/</code> sits next to your worlds and instance (not inside the world save). It holds external, distributable Dragon Ball definitions: ball sets, radars, dragons and their wishes. Each add-on pack can be a plain folder or a <code>.zip</code> file. DragonMineZ also checks a <code>dragonballs</code> folder in the current working directory and in the parent of the game directory. The packs are loaded by <code>DragonBallPackManager</code>; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]].",
+  "translation": "<code><game dir>/dragonballs/</code> fica ao lado dos seus mundos e da instância (não dentro do save do mundo). Ela guarda definições externas e distribuíveis de Esferas do Dragão: conjuntos de esferas, radares, dragões e seus desejos. Cada pacote de addon pode ser uma pasta comum ou um arquivo <code>.zip</code>. O DragonMineZ também procura uma pasta <code>dragonballs</code> no diretório de trabalho atual e na pasta acima do diretório do jogo. Os pacotes são carregados pelo <code>DragonBallPackManager</code>; veja [[Special:MyLanguage/Custom Wishes|Desejos personalizados]].",
+  "outdated": false
+ },
+ "46": {
+  "source": "== Rhythm chart cache ==",
+  "translation": "== Cache de partituras do Ritmo ==",
+  "outdated": false
+ },
+ "47": {
+  "source": "<code><game dir>/dragonminez/rhythm_charts/</code> is created on the client by the Rhythm training minigame for the charts it generates from music. It is a cache, not configuration.",
+  "translation": "<code><game dir>/dragonminez/rhythm_charts/</code> é criada no cliente pelo minigame de treinamento Ritmo para as partituras que ele gera a partir das músicas. É um cache, não configuração.",
+  "outdated": false
+ },
+ "48": {
+  "source": "== Datapacks ==",
+  "translation": "== Datapacks ==",
+  "outdated": false
+ },
+ "49": {
+  "source": "Some systems are plain Forge or vanilla reload listeners. They follow the normal datapack rules (<code>data/<namespace>/...</code>) instead of living in <code>config/</code> or in the world save:",
+  "translation": "Alguns sistemas são reload listeners comuns do Forge ou do vanilla. Eles seguem as regras normais dos datapacks (<code>data/<namespace>/...</code>) em vez de ficar em <code>config/</code> ou no save do mundo:",
+  "outdated": false
+ },
+ "50": {
+  "source": "* <code>spacepod/*.json</code>: the [[Special:MyLanguage/Space Pod|Space Pod]] destination list (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]).\n* <code>weapon_attributes/*.json</code>: weapon attribute definitions (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]).\n* <code>structure_npcs/*.json</code>: NPCs placed inside DragonMineZ structures (see [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|NPC Placement and Alignment]]).\n* <code>rhythm_charts/*.json</code>: charts for the Rhythm training minigame.",
+  "translation": "* <code>spacepod/*.json</code>: a lista de destinos da [[Special:MyLanguage/Space Pod|Cápsula Espacial]] (veja [[Special:MyLanguage/Space Pod Destinations|Destinos da Cápsula Espacial]]).\n* <code>weapon_attributes/*.json</code>: definições de atributos de armas (veja [[Special:MyLanguage/Weapon Attributes|Atributos de armas]]).\n* <code>structure_npcs/*.json</code>: NPCs colocados dentro de estruturas do DragonMineZ (veja [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|Posicionamento e índole de NPCs]]).\n* <code>rhythm_charts/*.json</code>: partituras do minigame de treinamento Ritmo.",
+  "outdated": false
+ },
+ "51": {
+  "source": "These are picked up by the vanilla <code>/reload</code>, not by <code>/dmzreload</code>. Dragon Ball and wish definitions are '''not''' read from datapacks: use an add-on pack in <code><game dir>/dragonballs/</code> or the world's <code>dragonminez/wishes/</code> folder instead. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for the full breakdown.",
+  "translation": "Eles são recarregados pelo <code>/reload</code> do vanilla, não pelo <code>/dmzreload</code>. As definições de Esferas do Dragão e de desejos '''não''' são lidas de datapacks: use um pacote de addon em <code><game dir>/dragonballs/</code> ou a pasta <code>dragonminez/wishes/</code> do mundo. Veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]] para o detalhamento completo.",
+  "outdated": false
+ },
+ "52": {
+  "source": "== Resource pack assets ==",
+  "translation": "== Recursos de pacotes de recursos ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "Models, textures and animations referenced by config (the <code>customModel</code> fields) live under the normal resource pack namespace, for example:",
+  "translation": "Os modelos, texturas e animações referenciados pela configuração (os campos <code>customModel</code>) ficam no namespace normal do pacote de recursos, por exemplo:",
+  "outdated": false
+ },
+ "54": {
+  "source": "* <code>assets/dragonminez/geo/entity/races/</code>\n* <code>assets/dragonminez/lang/en_us.json</code> (the source language file)",
+  "translation": "* <code>assets/dragonminez/geo/entity/races/</code>\n* <code>assets/dragonminez/lang/en_us.json</code> (o arquivo de idioma-fonte)",
+  "outdated": false
+ },
+ "55": {
+  "source": "These need a resource reload ({{Key|F3}} + {{Key|T}} on the client) or a restart. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] and [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]].",
+  "translation": "Eles exigem uma recarga de recursos ({{Key|F3}} + {{Key|T}} no cliente) ou um reinício. Veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]] e [[Special:MyLanguage/Custom Models and Assets|Modelos e recursos próprios]].",
+  "outdated": false
+ },
+ "56": {
+  "source": "== Quick decision guide ==",
+  "translation": "== Guia rápido de decisão ==",
+  "outdated": false
+ },
+ "57": {
+  "source": "* Tuning stats, damage or costs, or adding a race, form, entity or raid: <code>config/dragonminez/</code>\n* Adding or editing story content, wishes, dialogue or NPC placement for '''this world''': <code><world save>/dragonminez/</code>\n* Shipping a distributable Dragon Ball pack: <code><game dir>/dragonballs/</code>\n* Space Pod destinations, weapon attributes, rhythm charts: a datapack\n* Adding a model, texture or animation: <code>assets/dragonminez/...</code> in a resource pack",
+  "translation": "* Ajustar estatísticas, dano ou custos, ou adicionar uma raça, forma, entidade ou incursão: <code>config/dragonminez/</code>\n* Adicionar ou editar conteúdo de história, desejos, diálogos ou o posicionamento de NPCs '''deste mundo''': <code><world save>/dragonminez/</code>\n* Distribuir um pacote de Esferas do Dragão: <code><game dir>/dragonballs/</code>\n* Destinos da Cápsula Espacial, atributos de armas, partituras de ritmo: um datapack\n* Adicionar um modelo, textura ou animação: <code>assets/dragonminez/...</code> em um pacote de recursos",
+  "outdated": false
+ }
+}

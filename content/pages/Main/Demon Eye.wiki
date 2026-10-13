@@ -1,24 +1,27 @@
 {{Infobox Item
-|quote=<translate>Gomah's third eye: great power at a steep price.</translate>
-|Type=<translate>Relic, Curio (Head Tech slot)</translate>
-|Effect=<translate>All stats ×1.5 while worn; drains ki, then health, and lowers alignment</translate>
-|Duration=<translate>While worn</translate>
+|quote=<translate><!--T:1--> Gomah's third eye: great power at a steep price.</translate>
+|Type=<translate><!--T:2--> Relic, Curio (Head Tech slot)</translate>
+|Effect=<translate><!--T:3--> All stats ×1.5 while worn; drains ki, then health, and lowers alignment</translate>
+|Duration=<translate><!--T:4--> While worn</translate>
 |Stack size=1
-|Obtained=<translate>Gomah world boss (2% drop)</translate>
+|Obtained=<translate><!--T:5--> Gomah world boss (2% drop)</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Demon Eye''' is the relic of King [[Special:MyLanguage/Gomah|Gomah]], the strongest world boss of the [[Special:MyLanguage/Demon Realm|Demon Realm]]. Worn in the '''Head Tech''' Curios slot, it multiplies all your stats by '''×1.5''', but it slowly drains you and corrupts your heart.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:7-->
 
+<!--T:8-->
 Gomah drops the Demon Eye 2% of the time when he is defeated (see [[Special:MyLanguage/World Bosses|World Bosses]]).
 </translate>
 
 <translate>
-== While you wear it ==
+== While you wear it == <!--T:9-->
 
+<!--T:10-->
 * All your stats are multiplied by '''×1.5'''.
 * Every second it drains '''2%''' of your max ki. Once your ki is empty, it drains '''2%''' of your max health instead. This drain is never lethal.
 * It lowers your [[Special:MyLanguage/Alignment|alignment]] by 1 every 10 seconds.
@@ -26,8 +29,9 @@ Gomah drops the Demon Eye 2% of the time when he is defeated (see [[Special:MyLa
 </translate>
 
 <translate>
-== Knocking it off ==
+== Knocking it off == <!--T:11-->
 
+<!--T:12-->
 '''3''' hits from behind within 10 seconds knock the Demon Eye off your forehead. The same rule works against Gomah himself during his fight.
 </translate>
 {{Config|General Server Config|gameplay}}

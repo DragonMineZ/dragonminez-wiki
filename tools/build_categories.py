@@ -18,6 +18,9 @@ HUBS = {
     'Wildlife': 'Bestiary',
     'Hostile mobs': 'Bestiary',
     'NPCs': 'Bestiary',
+    'Raid enemies': 'Raids',
+    'Tournament fighters': 'Tournaments',
+    'World boss minions': 'World Bosses',
     'Playable races': 'Races',
     'Sub-races': 'Races',
     'Earth masters': 'Masters',
@@ -62,6 +65,7 @@ def names() -> dict:
     merged.update(bt.LABELS)
     merged.update(bt.HUB_NAMES)
     merged.update(bt.NAMES)
+    merged.update(bt.official_names())
     return merged
 
 
@@ -83,7 +87,7 @@ def main() -> int:
     missing_hub = []
     for category in sorted(used_categories()):
         if category in HIDDEN:
-            written += write(CATEGORY_DIR / f'{category}.wiki', f'__HIDDENCAT__\n{HIDDEN_TEXT}\n', args.force)
+            written += write(CATEGORY_DIR / f'{category}.wiki', f'__HIDDENCAT__\n{HIDDEN_TEXT}\n', False)
             continue
         hub = HUBS.get(category, category)
         if not page_exists(hub):

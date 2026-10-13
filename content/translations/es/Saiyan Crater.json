@@ -1,0 +1,57 @@
+{
+ "Page_display_title": {
+  "source": "Saiyan Crater",
+  "translation": "Cráter saiyajin",
+  "outdated": false
+ },
+ "1": {
+  "source": "Any land biome",
+  "translation": "Cualquier bioma terrestre",
+  "outdated": false
+ },
+ "2": {
+  "source": "Spread out, kept away from villages",
+  "translation": "Dispersos, lejos de las aldeas",
+  "outdated": false
+ },
+ "3": {
+  "source": "A [[Special:MyLanguage/Saiyan Soldier|Saiyan scout]]",
+  "translation": "Un [[Special:MyLanguage/Saiyan Soldier|explorador saiyajin]]",
+  "outdated": false
+ },
+ "4": {
+  "source": "Raid site of the Saiyan Assault",
+  "translation": "Lugar de incursión del Asalto Saiyajin",
+  "outdated": false
+ },
+ "5": {
+  "source": "A '''Saiyan Crater''' is a crashed Saiyan pod with a [[Special:MyLanguage/Saiyan Soldier|Saiyan scout]] standing by it, somewhere on the land of [[Special:MyLanguage/Earth|Earth]]. Killing the scout starts the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] raid.",
+  "translation": "Un '''Cráter saiyajin''' es una nave saiyajin estrellada con un [[Special:MyLanguage/Saiyan Soldier|explorador saiyajin]] de pie junto a ella, en algún lugar de la superficie de la [[Special:MyLanguage/Earth|Tierra]]. Matar al explorador inicia la incursión [[Special:MyLanguage/Saiyan Assault|Asalto Saiyajin]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Starting the raid ==",
+  "translation": "== Cómo iniciar la incursión ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* When you come within 80 blocks of a crater, you get a chat warning: ''\"Your scouter picks up a Saiyan pod that just crashed nearby...\"''\n* Each crater has one scout, shown with a supervillain aura. Killing it starts the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]].\n* A crater is spent once its scout dies or disappears.",
+  "translation": "* Cuando llegas a menos de 80 bloques de un cráter, recibes un aviso en el chat: ''\"Tu escáner detecta una nave saiyajin que acaba de estrellarse cerca...\"''\n* Cada cráter tiene un explorador, que se muestra con un aura de supervillano. Matarlo inicia el [[Special:MyLanguage/Saiyan Assault|Asalto Saiyajin]].\n* Un cráter se agota una vez que su explorador muere o desaparece.",
+  "outdated": false
+ },
+ "8": {
+  "source": "See [[Special:MyLanguage/Raids|Raids]] for how a raid plays out.",
+  "translation": "Consulta [[Special:MyLanguage/Raids|Incursiones]] para saber cómo se desarrolla una incursión.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Finding one ==",
+  "translation": "== Cómo encontrarlos ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Saiyan Craters can generate anywhere on land, spread out and kept away from villages, but only in newly generated chunks. Players with the locate permission can use {{Command|/dmzlocate saiyan_crater}} to find the nearest one.",
+  "translation": "Los Cráteres saiyajin pueden generarse en cualquier parte de la superficie terrestre, dispersos y lejos de las aldeas, pero solo en chunks recién generados. Los jugadores con permiso de localización pueden usar {{Command|/dmzlocate saiyan_crater}} para encontrar el más cercano.",
+  "outdated": false
+ }
+}

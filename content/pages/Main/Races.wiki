@@ -1,84 +1,94 @@
 <translate>
+<!--T:1-->
 DragonMineZ has '''seven playable races''': [[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]. Each race has its own racial skill, appearance options and transformation lines. Humans can later become [[Special:MyLanguage/Android|Androids]], a sub-race with its own forms and racial skill. You pick your race when you create your character, and it shapes how you fight for the rest of the game.
 </translate>
 
 <div class="dmz-cards">
-{{Card|Human|<translate>Versatile fighters who learn fast and pay for cheaper ki with their own health.</translate>}}
-{{Card|Saiyan|<translate>A warrior race that survives lethal blows and grows stronger after every battle.</translate>}}
-{{Card|Namekian|<translate>Regenerators who assimilate other Namekians to grow stronger.</translate>}}
-{{Card|Frost Demon|<translate>Conquerors who earn more TP, master their forms faster and evolve through them.</translate>}}
-{{Card|Bio-Android|<translate>Artificial beings whose racial skill changes as they evolve toward perfection.</translate>}}
-{{Card|Majin|<translate>Magical beings who absorb their foes and get more out of every heal.</translate>}}
-{{Card|Glind|<translate>An ancient race whose divine ki hides them from scouters and cuts their foes' healing.</translate>}}
-{{Card|Android|<translate>Humans rebuilt by Dr. Gero, with cheaper ki, a ki-absorbing barrier and their own forms.</translate>}}
+{{Card|Human|<translate><!--T:2--> Versatile fighters who learn fast and pay for cheaper ki with their own health.</translate>}}
+{{Card|Saiyan|<translate><!--T:3--> A warrior race that survives lethal blows and grows stronger after every battle.</translate>}}
+{{Card|Namekian|<translate><!--T:4--> Regenerators who assimilate other Namekians to grow stronger.</translate>}}
+{{Card|Frost Demon|<translate><!--T:5--> Conquerors who earn more TP, master their forms faster and evolve through them.</translate>}}
+{{Card|Bio-Android|<translate><!--T:6--> Artificial beings whose racial skill changes as they evolve toward perfection.</translate>}}
+{{Card|Majin|<translate><!--T:7--> Magical beings who absorb their foes and get more out of every heal.</translate>}}
+{{Card|Glind|<translate><!--T:8--> An ancient race whose divine ki hides them from scouters and cuts their foes' healing.</translate>}}
+{{Card|Android|<translate><!--T:9--> Humans rebuilt by Dr. Gero, with cheaper ki, a ki-absorbing barrier and their own forms.</translate>}}
 </div>
 
 <translate>
-== Choosing a race ==
+== Choosing a race == <!--T:10-->
 </translate>
 {{Main|Character Customization}}
 <translate>
+<!--T:11-->
 The first screen of character creation is a carousel with every race loaded on the server: the seven default races plus any custom race added by the server or an add-on. Use the arrows under the model to browse them; each race has its own panorama background.
 
+<!--T:12-->
 * The left side shows the race description.
 * The right panel lists its racial skills with your server's live values.
 * Press '''Select''' to move on to customization with that race. Switching race resets your appearance to that race's defaults.
 
+<!--T:13-->
 Your race is permanent. The '''Re-Customize Character''' wish of [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] lets you change your appearance and class, but not your race. The only change of race in the game is a Human's upgrade into an Android (see [[Special:MyLanguage/Races#The Android upgrade|below]]).
 </translate>
 
 <translate>
-== Comparison ==
+== Comparison == <!--T:14-->
 </translate>
 {| class="wikitable"
-! <translate>Race</translate> !! <translate>Racial skill</translate> !! <translate>Form groups</translate> !! <translate>Hair and head parts</translate> !! <translate>Gender</translate>
+! <translate><!--T:15--> Race</translate> !! <translate><!--T:16--> Racial skill</translate> !! <translate><!--T:17--> Form groups</translate> !! <translate><!--T:18--> Hair and head parts</translate> !! <translate><!--T:19--> Gender</translate>
 |-
-| {{L|Human}} || <translate>Blood-Fueled Ki, Fast Learner, Adrenaline</translate> || <translate>Super (4 forms), Legendary (3)</translate> || <translate>Hairstyles</translate> || <translate>Yes</translate>
+| {{L|Human}} || <translate><!--T:20--> Blood-Fueled Ki, Fast Learner, Adrenaline</translate> || <translate><!--T:21--> Super (4 forms), Legendary (3)</translate> || <translate><!--T:22--> Hairstyles</translate> || <translate><!--T:23--> Yes</translate>
 |-
-| {{L|Android}} || <translate>Android Core, Absorption Barrier, Fast Learner, Adrenaline</translate> || <translate>Android (3)</translate> || <translate>Hairstyles</translate> || <translate>Yes</translate>
+| {{L|Android}} || <translate><!--T:24--> Android Core, Absorption Barrier, Fast Learner, Adrenaline</translate> || <translate><!--T:25--> Android (3)</translate> || <translate><!--T:26--> Hairstyles</translate> || <translate><!--T:27--> Yes</translate>
 |-
-| {{L|Saiyan}} || <translate>Zenkai, Limitless Power</translate> || <translate>Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1)</translate> || <translate>Hairstyles and a tail</translate> || <translate>Yes</translate>
+| {{L|Saiyan}} || <translate><!--T:28--> Zenkai, Limitless Power</translate> || <translate><!--T:29--> Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1)</translate> || <translate><!--T:30--> Hairstyles and a tail</translate> || <translate><!--T:31--> Yes</translate>
 |-
-| {{L|Namekian}} || <translate>Assimilation, Regeneration, Water Affinity</translate> || <translate>Super (3), Legendary (3)</translate> || <translate>Antennae</translate> || <translate>No</translate>
+| {{L|Namekian}} || <translate><!--T:32--> Assimilation, Regeneration, Water Affinity</translate> || <translate><!--T:33--> Super (3), Legendary (3)</translate> || <translate><!--T:34--> Antennae</translate> || <translate><!--T:35--> No</translate>
 |-
-| {{L|Frost Demon}} || <translate>Prodigious Strength, Evolutionary Mastery, Hardened Body, Power Reserve</translate> || <translate>Evolution (5), Artificial (3)</translate> || <translate>Horns</translate> || <translate>No</translate>
+| {{L|Frost Demon}} || <translate><!--T:36--> Prodigious Strength, Evolutionary Mastery, Hardened Body, Power Reserve</translate> || <translate><!--T:37--> Evolution (5), Artificial (3)</translate> || <translate><!--T:38--> Horns</translate> || <translate><!--T:39--> No</translate>
 |-
-| {{L|Bio-Android}} || <translate>Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate> || <translate>Bio-Evolution (4), Bio-Corruption (3)</translate> || <translate>None</translate> || <translate>No</translate>
+| {{L|Bio-Android}} || <translate><!--T:40--> Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate> || <translate><!--T:41--> Bio-Evolution (4), Bio-Corruption (3)</translate> || <translate><!--T:42--> None</translate> || <translate><!--T:43--> No</translate>
 |-
-| {{L|Majin}} || <translate>Absorption, Sweet Tooth, Healing Magic</translate> || <translate>Pure (4), Demon (3)</translate> || <translate>Head tentacle and hairstyles</translate> || <translate>Yes</translate>
+| {{L|Majin}} || <translate><!--T:44--> Absorption, Sweet Tooth, Healing Magic</translate> || <translate><!--T:45--> Pure (4), Demon (3)</translate> || <translate><!--T:46--> Head tentacle and hairstyles</translate> || <translate><!--T:47--> Yes</translate>
 |-
-| {{L|Glind}} || <translate>Divine Ki, Celestial Body, Divine Punishment, Light and Darkness</translate> || <translate>Super (5), Legendary (4)</translate> || <translate>Ears and hairstyles</translate> || <translate>Yes</translate>
+| {{L|Glind}} || <translate><!--T:48--> Divine Ki, Celestial Body, Divine Punishment, Light and Darkness</translate> || <translate><!--T:49--> Super (5), Legendary (4)</translate> || <translate><!--T:50--> Ears and hairstyles</translate> || <translate><!--T:51--> Yes</translate>
 |}
 
 <translate>
+<!--T:52-->
 Group names are the ones shown in game. Every class is available to every race (see [[Special:MyLanguage/Classes|Classes]]).
 </translate>
 
 <translate>
-== Racial skills ==
+== Racial skills == <!--T:53-->
 </translate>
 {{Main|Racial Skills}}
 <translate>
+<!--T:54-->
 Every race has a '''racial skill''': a set of signature passives and, for some races, an ability you use with the action key. The race-selection screen and the '''Skills''' menu list each part of it with your server's live values; the numbers on this wiki are the defaults.
 
+<!--T:55-->
 Racial skills that need input are used by selecting the racial skill in the '''X''' (utility) menu and pressing or holding the '''action key''' ('''G'''). The permanent racial bonuses (Zenkai, Assimilation, Absorption) can be reset with the '''Reset Passive''' wish or with <code>/dmzracial reset [targets]</code>.
 </translate>
 
 <translate>
-== Transformations ==
+== Transformations == <!--T:56-->
 </translate>
 {{Main|Transformations}}
 <translate>
+<!--T:57-->
 Each race has its own transformations, organized into form groups. You unlock them one after another with Training Points, mastery and progress in the [[Special:MyLanguage/Sagas|story]]. Every race page lists its complete set of forms with their costs, story requisites, multipliers and upkeep. On top of race forms, every race can learn the stack forms [[Special:MyLanguage/Kaioken|Kaioken]] and [[Special:MyLanguage/Ultimate|Ultimate]].
 </translate>
 
 <translate>
-== The Android upgrade ==
+== The Android upgrade == <!--T:58-->
 </translate>
 {{Main|Android}}
 <translate>
+<!--T:59-->
 Humans, and by default only Humans, can be converted into '''Androids''' by [[Special:MyLanguage/Dr. Gero|Dr. Gero]] in his laboratory. Androids are a sub-race of the Human race:
 
+<!--T:60-->
 * The change is '''permanent''': an Android can never go back to being a normal Human.
 * Androids lose the Human Super and Legendary forms and get the '''Android forms''' line instead (Android Base, Super Android, Fused Android).
 * Blood-Fueled Ki is replaced by '''Android Core''' and '''Absorption Barrier'''; Fast Learner and Adrenaline are kept.
@@ -86,50 +96,57 @@ Humans, and by default only Humans, can be converted into '''Androids''' by [[Sp
 </translate>
 
 <translate>
-== Legendary forms ==
+== Legendary forms == <!--T:61-->
 </translate>
 <translate>
+<!--T:62-->
 '''Every race has a Legendary form line with 3 levels''' (Glinds get two alternative forms on the third level). Several races show this group under their own name in game:
 </translate>
 {| class="wikitable"
-! <translate>Race</translate> !! <translate>Group in game</translate> !! <translate>Level 1</translate> !! <translate>Level 2</translate> !! <translate>Level 3</translate>
+! <translate><!--T:63--> Race</translate> !! <translate><!--T:64--> Group in game</translate> !! <translate><!--T:65--> Level 1</translate> !! <translate><!--T:66--> Level 2</translate> !! <translate><!--T:67--> Level 3</translate>
 |-
-| {{L|Human}} || <translate>Legendary</translate> || <translate>Shiyoken</translate> || <translate>Shin Shiyoken</translate> || <translate>Chou Shiyoken</translate>
+| {{L|Human}} || <translate><!--T:68--> Legendary</translate> || <translate><!--T:69--> Shiyoken</translate> || <translate><!--T:70--> Shin Shiyoken</translate> || <translate><!--T:71--> Chou Shiyoken</translate>
 |-
-| {{L|Saiyan}} || <translate>Mutant (the Legendary Super Saiyan line)</translate> || <translate>Ikari</translate> || <translate>SSJ Hybrid</translate> || <translate>SSJ Full Power</translate>
+| {{L|Saiyan}} || <translate><!--T:72--> Mutant (the Legendary Super Saiyan line)</translate> || <translate><!--T:73--> Ikari</translate> || <translate><!--T:74--> SSJ Hybrid</translate> || <translate><!--T:75--> SSJ Full Power</translate>
 |-
-| {{L|Namekian}} || <translate>Legendary</translate> || <translate>Evil Namek</translate> || <translate>Evil Giant Namek</translate> || <translate>Buffed Namek</translate>
+| {{L|Namekian}} || <translate><!--T:76--> Legendary</translate> || <translate><!--T:77--> Evil Namek</translate> || <translate><!--T:78--> Evil Giant Namek</translate> || <translate><!--T:79--> Buffed Namek</translate>
 |-
-| {{L|Frost Demon}} || <translate>Artificial</translate> || <translate>Mecha</translate> || <translate>Metal</translate> || <translate>Metal-Core</translate>
+| {{L|Frost Demon}} || <translate><!--T:80--> Artificial</translate> || <translate><!--T:81--> Mecha</translate> || <translate><!--T:82--> Metal</translate> || <translate><!--T:83--> Metal-Core</translate>
 |-
-| {{L|Bio-Android}} || <translate>Bio-Corruption</translate> || <translate>Xeno</translate> || <translate>Xeno Full Power</translate> || <translate>Xeno Max</translate>
+| {{L|Bio-Android}} || <translate><!--T:84--> Bio-Corruption</translate> || <translate><!--T:85--> Xeno</translate> || <translate><!--T:86--> Xeno Full Power</translate> || <translate><!--T:87--> Xeno Max</translate>
 |-
-| {{L|Majin}} || <translate>Demon</translate> || <translate>Innocence Demon</translate> || <translate>Giant Innocence Demon</translate> || <translate>Super Demon</translate>
+| {{L|Majin}} || <translate><!--T:88--> Demon</translate> || <translate><!--T:89--> Innocence Demon</translate> || <translate><!--T:90--> Giant Innocence Demon</translate> || <translate><!--T:91--> Super Demon</translate>
 |-
-| {{L|Glind}} || <translate>Legendary</translate> || <translate>Transcended</translate> || <translate>Dark King</translate> || <translate>Time Power: Dark King, Time Power: Realm of Light</translate>
+| {{L|Glind}} || <translate><!--T:92--> Legendary</translate> || <translate><!--T:93--> Transcended</translate> || <translate><!--T:94--> Dark King</translate> || <translate><!--T:95--> Time Power: Dark King, Time Power: Realm of Light</translate>
 |}
 
 <translate>
+<!--T:96-->
 By default every level of this line costs <code>-1</code> TP, which means it '''can't be bought''' with Training Points. There are two ways to use these forms:
 
+<!--T:97-->
 * '''Earn them in the story.''' Three quests of the [[Special:MyLanguage/Movies Saga|Movies Saga]] grant the Legendary Forms skill one level at a time.
 * '''Borrow them as a Mutant.''' A random player can become a [[Special:MyLanguage/Mutant|Mutant]] through the server's Mutant lottery. Mutants fill a rage meter in combat; while it is full or active they can use Legendary forms they don't own yet, at reduced power.
 
+<!--T:98-->
 Androids lose their Legendary line along with the Super forms. Both methods are explained in [[Special:MyLanguage/Transformations#Legendary forms|Transformations]]. Server owners can also give the three levels real TP costs in the race's <code>character.json</code>.
 </translate>
 
 <translate>
-== Customizing races (server owners) ==
+== Customizing races (server owners) == <!--T:99-->
 </translate>
 {{Config|Custom Races|character.json}}
 <translate>
+<!--T:100-->
 Each race has its own folder, <code>config/dragonminez/races/&lt;race&gt;/</code>. In its <code>character.json</code> you can edit:
 
+<!--T:101-->
 * '''Gender''' (<code>hasGender</code>). By default only Human, Saiyan, Majin and Glind use gender.
 * '''Model''': the vanilla player skin (<code>useVanillaSkin</code>), a custom model, layering, model scaling, head bones and which body types use slim arms (<code>slimBodyTypes</code>).
 * '''Default appearance''': body type, hair type, eyes, nose, mouth and tattoo, all colors (three body colors, hair, both eyes, aura) and the aura type (2D <code>auraType</code>, 3D <code>auraType3D</code> and its <code>aura3DStyle</code>).
 * '''Racial skill''' assignment and the '''form skill TP costs''' (Super, God, Legendary and Android forms).
 
+<!--T:102-->
 Players pick from the appearance options in the character-creation screen; how many body types, eyes and other options a race offers depends on how many textures exist for it. Class stat scalings live separately in the race's <code>stats.json</code>. The racial skills themselves are tuned in the <code>racialSkills</code> section of <code>general-server.json</code> (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
 </translate>
 {{See also|Custom Races|Custom Forms|General Server Config}}

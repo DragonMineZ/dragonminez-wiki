@@ -1,49 +1,55 @@
 {{Infobox Master
 |Location={{L|Earth}}, {{L|Otherworld}}
 |Structure={{L|Fortuneteller Baba's Palace}}
-|Alignment=<translate>None</translate>
+|Alignment=<translate><!--T:1--> None</translate>
 |Locate=/dmzlocate baba_palace
 |Teaches={{L|Ki Control}}, {{L|Meditation}}
-|Services=<translate>Tournament (Earth); Revive or Borrow time (Otherworld)</translate>
+|Services=<translate><!--T:2--> Tournament (Earth); Revive or Borrow time (Otherworld)</translate>
 }}
 <translate>
+<!--T:3-->
 '''Fortuneteller Baba''' appears in two places. On [[Special:MyLanguage/Earth|Earth]] she lives in [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], where she teaches two basic skills and hosts [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]]. In the [[Special:MyLanguage/Otherworld|Otherworld]] she is the one who sends dead players back among the living. Neither of them has an alignment requirement.
 </translate>
 
 <translate>
-== On Earth ==
+== On Earth == <!--T:4-->
 </translate>
 <translate>
-=== Location ===
+=== Location === <!--T:5-->
 </translate>
 <translate>
+<!--T:6-->
 The Earth's Baba lives in [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], which rises from an ocean and generates once per world. Every Capsule Corp Assistant of tier 3 or higher sells a map to it (see [[Special:MyLanguage/Fortuneteller Baba's Palace#Finding it|Fortuneteller Baba's Palace]]).
 </translate>
 
 <translate>
-=== Skills ===
+=== Skills === <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 * '''Skills:''' [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Meditation|Meditation]]
 </translate>
 
 <translate>
+<!--T:9-->
 They're paid for with Training Points. Her '''Train''' option spawns a Shadow Clone to spar with.
 </translate>
 
 <translate>
-=== Tournament ===
+=== Tournament === <!--T:10-->
 </translate>
 {{Main|Fortuneteller Baba's Tournament}}
 <translate>
+<!--T:11-->
 Her '''Tournament''' option opens the tournament screen of [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]], a gauntlet of knockout bouts held in her palace's arena. See [[Special:MyLanguage/Tournaments|Tournaments]].
 </translate>
 
 <translate>
-== In the Otherworld ==
+== In the Otherworld == <!--T:12-->
 </translate>
 {{Main|Otherworld}}
 <translate>
+<!--T:13-->
 The Otherworld's Baba stands in the cloud realm, near [[Special:MyLanguage/King Yemma|King Yemma]]. She teaches nothing; her service is '''Revive''' (or '''Borrow time'''):
 * It only works while you're dead, and has a cooldown after each death (180 seconds by default), shown as a live timer in the dialogue.
 * By default it's a '''temporary return''': you stay dead and keep your halo, but get one hour to walk the living world. Talk to King Yemma to actually travel there. The timer pauses in the Otherworld, runs faster in some worlds, while transformed and with every return you use, and a lethal hit knocks you out instead of killing you.
@@ -52,18 +58,20 @@ The Otherworld's Baba stands in the cloud realm, near [[Special:MyLanguage/King 
 </translate>
 
 <translate>
+<!--T:14-->
 The full rules are on the [[Special:MyLanguage/Otherworld#Fortuneteller Baba's temporary return|Otherworld]] page.
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:15-->
 </translate>
 <translate>
+<!--T:16-->
 * [[Special:MyLanguage/Classic Saga|Classic Saga]] quest 23, ''Fortuneteller Baba'': find Fortuneteller Baba's Palace and talk to Fortuneteller Baba.
 </translate>
 
 <translate>
-== Side quests ==
+== Side quests == <!--T:17-->
 </translate>
 {{Main|Sidequests}}
 {{#invoke:Sidequests|giver|baba_earth}}

@@ -1,17 +1,19 @@
 {{Infobox Item
-|quote=<translate>The color decides the stat.</translate>
-|Type=<translate>Consumable</translate>
-|Effect=<translate>Permanently raises one attribute (+5, or +15 for Gete Capsules)</translate>
-|Obtained=<translate>Crafting, story quests, Bulma's sidequests, Metal Cooler Core</translate>
-|Crafting=<translate>Curative Flask + an ingredient + Empty Capsule + 2 stat plants</translate>
+|quote=<translate><!--T:1--> The color decides the stat.</translate>
+|Type=<translate><!--T:2--> Consumable</translate>
+|Effect=<translate><!--T:3--> Permanently raises one attribute (+5, or +15 for Gete Capsules)</translate>
+|Obtained=<translate><!--T:4--> Crafting, story quests, Bulma's sidequests, Metal Cooler Core</translate>
+|Crafting=<translate><!--T:5--> Curative Flask + an ingredient + Empty Capsule + 2 stat plants</translate>
 }}
 <translate>
+<!--T:6-->
 '''Capsules''' are consumables that '''permanently raise one of your attributes''' when used. The '''color''' of the capsule decides which stat it raises (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The '''Mastery Capsule''' instead adds mastery to your active transformation.
 </translate>
 
 <translate>
-== How capsules work ==
+== How capsules work == <!--T:7-->
 
+<!--T:8-->
 * A normal capsule grants '''+5''' to its stat. Server owners can change the amount and the stat of each capsule.
 * A stat that is already at its cap isn't raised, and the capsule isn't used up.
 * You need a created character to use any capsule.
@@ -19,53 +21,58 @@
 {{Config|General Server Config|capsules}}
 
 <translate>
-== Stat capsules ==
+== Stat capsules == <!--T:9-->
 
+<!--T:10-->
 All stat capsules are shapeless recipes made with a Curative Flask, an Empty Capsule and the matching plants from [[Special:MyLanguage/Farming|Farming]].
 </translate>
 {| class="wikitable"
-! <translate>Capsule</translate> !! <translate>Stat it raises</translate> !! <translate>Recipe (shapeless)</translate>
+! <translate><!--T:11--> Capsule</translate> !! <translate><!--T:12--> Stat it raises</translate> !! <translate><!--T:13--> Recipe (shapeless)</translate>
 |-
-| <translate>Red</translate> || <translate>Strength (STR)</translate> || <translate>Curative Flask + Raw Dino Meat + Empty Capsule + 2 Oozaru Root</translate>
+| <translate><!--T:14--> Red</translate> || <translate><!--T:15--> Strength (STR)</translate> || {{Recipe|red_capsule}}
 |-
-| <translate>Purple</translate> || <translate>Strike Power (SKP)</translate> || <translate>Curative Flask + Gunpowder + Empty Capsule + 2 Meteor Flower</translate>
+| <translate><!--T:17--> Purple</translate> || <translate><!--T:18--> Strike Power (SKP)</translate> || {{Recipe|purple_capsule}}
 |-
-| <translate>Yellow</translate> || <translate>Resistance (RES)</translate> || <translate>Curative Flask + Turtle Scale + Empty Capsule + 2 Katchin Sprout</translate>
+| <translate><!--T:20--> Yellow</translate> || <translate><!--T:21--> Resistance (RES)</translate> || {{Recipe|yellow_capsule}}
 |-
-| <translate>Green</translate> || <translate>Vitality (VIT)</translate> || <translate>Curative Flask + Senzu Bean (Health) + Empty Capsule + 2 Hermit's Fern</translate>
+| <translate><!--T:23--> Green</translate> || <translate><!--T:24--> Vitality (VIT)</translate> || {{Recipe|green_capsule}}
 |-
-| <translate>Orange</translate> || <translate>Ki Power (PWR)</translate> || <translate>Curative Flask + Glowstone Dust + Empty Capsule + 2 Aura Lily</translate>
+| <translate><!--T:26--> Orange</translate> || <translate><!--T:27--> Ki Power (PWR)</translate> || {{Recipe|orange_capsule}}
 |-
-| <translate>Blue</translate> || <translate>Energy (ENE)</translate> || <translate>Curative Flask + Golden Apple + Empty Capsule + 2 Kaioshin Fruit</translate>
+| <translate><!--T:29--> Blue</translate> || <translate><!--T:30--> Energy (ENE)</translate> || {{Recipe|blue_capsule}}
 |}
 
 <translate>
-== Empty Capsule ==
-
-Craft it with a Glass Pane over Redstone over an Iron Ingot, in one vertical column.
+== Empty Capsule == <!--T:32-->
 </translate>
+{{Recipe|empty_capsule}}
 
 <translate>
-== Gete Capsules ==
+== Gete Capsules == <!--T:34-->
 
+<!--T:35-->
 '''Gete Capsules''' are the rare Gete-tech versions of each color. They raise the same stat but grant '''×3''' the points ('''+15''').
 
+<!--T:36-->
 * Craft one from a capsule of that color and a Gete Ingot (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).
 * The [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss drops each of the six Gete Capsules with a 12% chance.
 * Bulma's '''Capsule Tech''' sidequest rewards a Red and an Orange Gete Capsule.
 </translate>
+{{Recipe|gete_red_capsule|gete_purple_capsule|gete_yellow_capsule|gete_green_capsule|gete_orange_capsule|gete_blue_capsule|size=small}}
 
 <translate>
-== Mastery Capsule ==
-
-Shapeless recipe: Curative Flask + Amethyst Shard + Empty Capsule + 2 Zenkai Lotus.
-
+== Mastery Capsule == <!--T:37-->
+</translate>
+{{Recipe|mastery_capsule}}
+<translate>
+<!--T:39-->
 Use it while transformed to gain '''+5 mastery''' in your active form. It does nothing in base form or when the form's mastery is already maxed out. See [[Special:MyLanguage/Transformations|Transformations]].
 </translate>
 
 <translate>
-== Other sources and uses ==
+== Other sources and uses == <!--T:40-->
 
+<!--T:41-->
 * The quest '''The Sacred Water''' ([[Special:MyLanguage/Classic Saga|Classic Saga]] quest 19) rewards a Red, a Green and a Blue Capsule along with the [[Special:MyLanguage/Sacred Water|Sacred Water]].
 * A Green, Blue or Yellow Capsule crafted with a Namek Moss gives Senzu Bean Seeds (Health, Ki or Stamina). See [[Special:MyLanguage/Senzu Bean|Senzu Bean]].
 </translate>

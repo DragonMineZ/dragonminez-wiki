@@ -1,0 +1,667 @@
+{
+ "Page_display_title": {
+  "source": "Menus",
+  "translation": "Menús",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ has two in-game menus: the '''Character Menu''', a tabbed window for your stats, party, skills, quests, minigames and settings, and the '''Utility Menu''', a radial wheel for transforming and using skills in the middle of a fight. Talking to a master or a quest NPC opens the '''NPC dialogue'''. This page explains each of them.",
+  "translation": "DragonMineZ tiene dos menús en el juego: el '''Menú de personaje''', una ventana con pestañas para tus estadísticas, grupo, habilidades, misiones, minijuegos y ajustes, y el '''Menú de utilidades''', una rueda radial para transformarte y usar habilidades en plena pelea. Hablar con un maestro o con un NPC de misiones abre el '''diálogo con el NPC'''. Esta página explica cada uno.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Opening the menus ==",
+  "translation": "== Abrir los menús ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "4": {
+  "source": "Opens",
+  "translation": "Abre",
+  "outdated": false
+ },
+ "5": {
+  "source": "The '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config). Before you have created a character it opens character creation.",
+  "translation": "El '''Menú de personaje''' (Estadísticas, Grupo, Habilidades, Misiones, Minijuegos y Configuración). Antes de crear un personaje, abre la creación de personaje.",
+  "outdated": false
+ },
+ "6": {
+  "source": "{{Key|X}} (hold)",
+  "translation": "{{Key|X}} (mantener)",
+  "outdated": false
+ },
+ "7": {
+  "source": "The '''Utility Menu''' (transformations, stack forms, movement and actions).",
+  "translation": "El '''Menú de utilidades''' (transformaciones, formas acumulables, movimiento y acciones).",
+  "outdated": false
+ },
+ "8": {
+  "source": "''Unbound''",
+  "translation": "''Sin asignar''",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Open Party / Skills / Quests / Minigames / Config Tab''': optional shortcuts straight to one tab. They also switch tabs while the menu is open.",
+  "translation": "'''Abrir pest. Party / Habilidades / Misiones / Minijuegos / De config''': atajos opcionales directo a una pestaña. También cambian de pestaña con el menú abierto.",
+  "outdated": false
+ },
+ "10": {
+  "source": "All keys can be changed in Minecraft's controls options: see [[Special:MyLanguage/Controls|Controls]].",
+  "translation": "Todas las teclas se pueden cambiar en las opciones de controles de Minecraft: consulta [[Special:MyLanguage/Controls|Controles]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "Tutorials",
+  "translation": "Tutoriales",
+  "outdated": false
+ },
+ "12": {
+  "source": "The first time you open the race selection, the character customization, the Stats, Skills and Quests menus (and your first look at the HUD after creating a character), a short interactive tutorial highlights each part of the screen. Press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn them off, or see them all again, from '''Config''' → '''Interface'''. Almost every screen has a tutorial.",
+  "translation": "La primera vez que abres la selección de raza, la personalización del personaje y los menús de Estadísticas, Habilidades y Misiones (y la primera vez que ves el HUD después de crear un personaje), un breve tutorial interactivo resalta cada parte de la pantalla. Presiona {{Key|Enter}} o {{Key|Espacio}} para el siguiente paso, o {{Key|Esc}} para saltarlo. Puedes desactivarlos, o volver a verlos todos, desde '''Configuración''' → '''Interfaz'''. Casi todas las pantallas tienen un tutorial.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Character Menu ==",
+  "translation": "== Menú de personaje ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "A tabbed window opened with {{Key|V}}. Each tab is a button along the menu. Use the '''+/-''' size buttons (or the '''Menu Panel Scale''' option in Config) to make the menu bigger or smaller; the panels keep their pixel-art frame at any size.",
+  "translation": "Una ventana con pestañas que se abre con {{Key|V}}. Cada pestaña es un botón a lo largo del menú. Usa los botones de tamaño '''+/-''' (o la opción '''Escala del Panel de Menú''' en Configuración) para agrandar o achicar el menú; los paneles mantienen su marco de pixel art a cualquier tamaño.",
+  "outdated": false
+ },
+ "15": {
+  "source": "=== Stats ===",
+  "translation": "=== Estadísticas ===",
+  "outdated": false
+ },
+ "16": {
+  "source": "Your main character page:",
+  "translation": "Tu página principal del personaje:",
+  "outdated": false
+ },
+ "17": {
+  "source": "Your '''name, level, Battle Power''', [[Special:MyLanguage/Alignment|alignment]] and [[Special:MyLanguage/Classes|class]].",
+  "translation": "Tu '''nombre, nivel, Poder de Combate''', [[Special:MyLanguage/Alignment|alineamiento]] y [[Special:MyLanguage/Classes|clase]].",
+  "outdated": false
+ },
+ "18": {
+  "source": "The '''six attribute buttons''' ('''STR, SKP, RES, VIT, PWR''' and '''ENE'''): click one to '''spend Training Points''' and raise that stat (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The '''TPC''' box shows the TP cost of the next point; if you have pending '''Attribute Points''' (for example after a respec) they are spent first, at no TP cost.",
+  "translation": "Los '''seis botones de atributo''' ('''STR, SKP, RES, VIT, PWR''' y '''ENE'''): haz clic en uno para '''gastar Puntos de Entrenamiento''' y subir esa estadística (consulta [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]]). El recuadro '''TPs''' muestra el costo en TP del siguiente punto; si tienes '''Puntos de Atributo''' pendientes (por ejemplo, después de redistribuir), se gastan primero, sin costo de TP.",
+  "outdated": false
+ },
+ "19": {
+  "source": "The '''Statistics''' list: damage, defense, health, ki, stamina, speed, form multipliers and drains, and more, with the real costs charged by the server (stat costs, stamina regeneration and per-hit cost, form drains). Hover a row for details; hold {{Key|Shift}} for advanced descriptions.",
+  "translation": "La lista de '''Estadísticas''': daño, defensa, vida, ki, stamina, velocidad, multiplicadores y consumos de formas, y más, con los costos reales que cobra el servidor (costos de estadísticas, regeneración y costo por golpe de stamina, consumos de formas). Pasa el cursor sobre una fila para ver detalles; mantén {{Key|Shift}} para ver descripciones avanzadas.",
+  "outdated": false
+ },
+ "20": {
+  "source": "'''TP Multiplier''': hover it to see where each bonus comes from (class, gravity, weights, effects, [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]…). See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "'''Multiplicador de TP''': pasa el cursor por encima para ver de dónde viene cada bonificación (clase, gravedad, pesas, efectos, [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]…). Consulta [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento y maestría]].",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Gravity''': your current gravity, stat penalty, weights and training zone (see [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity|Gravity]]).",
+  "translation": "'''Gravedad''': tu gravedad actual, la penalización de estadísticas, las pesas y la zona de entrenamiento (consulta [[Special:MyLanguage/Weights|Pesas]] y [[Special:MyLanguage/Gravity|Gravedad]]).",
+  "outdated": false
+ },
+ "22": {
+  "source": "The stats can be shown as a '''list''' or as a '''hexagon''' chart ('''Hexagon Stats Display''' in Config).",
+  "translation": "Las estadísticas se pueden mostrar como '''lista''' o como gráfico '''hexagonal''' ('''Pantalla de Stats en Hexágono''' en Configuración).",
+  "outdated": false
+ },
+ "23": {
+  "source": "=== Party ===",
+  "translation": "=== Grupo ===",
+  "outdated": false
+ },
+ "24": {
+  "source": "Create and manage your party: invite online players, accept or reject invitations, kick members, leave or disband, and toggle party PvP. Party members can play quests together (see [[Special:MyLanguage/Sagas#Parties|Sagas]]), see each other on the [[Special:MyLanguage/HUD#Party markers|party HUD]] and get markers over each other's heads.",
+  "translation": "Crea y gestiona tu grupo: invita a jugadores conectados, acepta o rechaza invitaciones, expulsa miembros, abandona o disuelve el grupo y activa o desactiva el PvP de grupo. Los miembros del grupo pueden hacer misiones juntos (consulta [[Special:MyLanguage/Sagas#Parties|Sagas]]), verse en el [[Special:MyLanguage/HUD#Party markers|HUD de grupo]] y tener marcadores sobre la cabeza de los demás.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Once you are in a party, the '''Invite Players''' button lists the online players who aren't in it yet; going back from that list keeps your party and the invitations you already sent. Only the leader sends invitations: when another member picks a player, the leader gets a suggestion to invite them instead. When an invitation can't be sent, the chat tells you why (the level gap is too large, the party is full, the player is offline or plays on a higher difficulty).",
+  "translation": "Una vez en un grupo, el botón '''Invitar jugadores''' lista a los jugadores conectados que todavía no están en él; volver atrás desde esa lista conserva tu grupo y las invitaciones que ya enviaste. Solo el líder envía invitaciones: cuando otro miembro elige a un jugador, el líder recibe una sugerencia para invitarlo. Cuando no se puede enviar una invitación, el chat te dice por qué (la diferencia de nivel es demasiado grande, el grupo está lleno, el jugador está desconectado o juega en una dificultad más alta).",
+  "outdated": false
+ },
+ "26": {
+  "source": "The player who creates the party leads it. If they log off, the lead passes to another online member until they come back, and the chat tells everyone who leads. The leader can kick members, even offline ones, but never the creator. Only the creator can disband the party: their own button reads '''Disband''' instead of '''Leave''', and leaving as the creator disbands it.",
+  "translation": "El jugador que crea el grupo lo lidera. Si se desconecta, el liderazgo pasa a otro miembro conectado hasta que vuelva, y el chat avisa a todos quién lidera. El líder puede expulsar miembros, incluso desconectados, pero nunca al creador. Solo el creador puede disolver el grupo: su propio botón dice '''Disolver Grupo''' en lugar de '''Abandonar Grupo''', y si el creador abandona, el grupo se disuelve.",
+  "outdated": false
+ },
+ "27": {
+  "source": "'''Join Party''' lists your invitations with who sent them, the party's story difficulty and the time left (an invitation expires after 60 seconds). You can accept an invitation while you are in another party: you leave your old party when you join the new one (if you created it and it has other members, it is disbanded). You can only join a party that plays on your difficulty or higher, and joining a party on a higher difficulty raises yours '''permanently''', so the '''Accept''' button turns into '''Confirm & Join''' and needs a second click. Nobody can join or be invited to a party while its [[Special:MyLanguage/Tournaments|tournament]] is underway. See also <code>/dmzparty</code> on [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "'''Unirse a un grupo''' lista tus invitaciones con quién las envió, la dificultad de historia del grupo y el tiempo restante (una invitación caduca a los 60 segundos). Puedes aceptar una invitación aunque estés en otro grupo: abandonas tu grupo anterior al unirte al nuevo (si lo creaste tú y tiene otros miembros, se disuelve). Solo puedes unirte a un grupo que juegue en tu dificultad o una mayor, y unirte a un grupo de dificultad mayor sube la tuya de forma '''permanente''', así que el botón '''Aceptar''' se convierte en '''Confirmar y unirse''' y necesita un segundo clic. Nadie puede unirse ni ser invitado a un grupo mientras su [[Special:MyLanguage/Tournaments|torneo]] está en curso. Consulta también <code>/dmzparty</code> en [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== Skills ===",
+  "translation": "=== Habilidades ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "Learn and level your '''skills, techniques and transformations''' by spending Training Points. The tabs are '''Skills''', [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]], '''Evasion Attacks''' and '''Forms'''. Racial skills are listed here too, one entry per racial ability. Double-click an entry to buy it. Buying a skill or technique requires being near a master who offers it, and locked forms show what they are waiting for (for example \"Locked until: Frieza Saga - Quest 10\").",
+  "translation": "Aprende y sube de nivel tus '''habilidades, técnicas y transformaciones''' gastando Puntos de Entrenamiento. Las pestañas son '''Habilidades''', [[Special:MyLanguage/Ki Attacks|Ataques de Ki]], [[Special:MyLanguage/Strike Attacks|Super Golpes]], '''Ataques de evasión''' y '''Formas'''. Las habilidades raciales también aparecen aquí, una entrada por habilidad racial. Haz doble clic en una entrada para comprarla. Comprar una habilidad o técnica requiere estar cerca de un maestro que la ofrezca, y las formas bloqueadas muestran lo que les falta (por ejemplo \"Bloqueada hasta: Saga Freezer - Misión 10\").",
+  "outdated": false
+ },
+ "30": {
+  "source": "Techniques can be bound to a technique slot ('''Bind to Slot'''); a race-locked technique shows '''Not usable by your race''' instead, and the masters' shop lists the allowed races on a '''Race''' line. '''Create Skill''' opens the Technique Creator. [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]] and [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] only work while switched on here. See [[Special:MyLanguage/Skills|Skills]], [[Special:MyLanguage/Techniques|Techniques]] and [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "Las técnicas se pueden asignar a una ranura de técnica ('''Asignar a Ranura'''); una técnica exclusiva de una raza muestra en cambio '''No utilizable por tu raza''', y la tienda de los maestros indica las razas permitidas en una línea '''Raza'''. '''Crear Habilidad''' abre el Creador de Técnicas. [[Special:MyLanguage/Ki Infusion|Infusión de Ki]], [[Special:MyLanguage/Ki Protection|Protección de Ki]] y [[Special:MyLanguage/Ki Manipulation|Manipulación de Ki]] solo funcionan mientras están activadas aquí. Consulta [[Special:MyLanguage/Skills|Habilidades]], [[Special:MyLanguage/Techniques|Técnicas]] y [[Special:MyLanguage/Transformations|Transformaciones]].",
+  "outdated": false
+ },
+ "31": {
+  "source": "=== Quests ===",
+  "translation": "=== Misiones ===",
+  "outdated": false
+ },
+ "32": {
+  "source": "The '''Quest Tree''': your story progress, objectives and rewards. The left panel lists every saga as a collapsible dropdown with its completed/total counter; quests with side branches expand the same way. Select a quest node to see its description, objectives and rewards, '''Start Quest''', '''Track''' it on your HUD, and '''Claim Rewards''' once it is complete. Hovering an Attributes reward shows how it splits into Attribute Points and TP. See [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "El '''Árbol de Misiones''': tu progreso en la historia, objetivos y recompensas. El panel izquierdo lista cada saga como un desplegable con su contador de completadas/totales; las misiones con ramas secundarias se despliegan igual. Selecciona un nodo de misión para ver su descripción, objetivos y recompensas, '''Iniciar Misión''', '''Rastrear''' en tu HUD y '''Obtener recomp.''' cuando esté completa. Pasar el cursor sobre una recompensa de Atributos muestra cómo se reparte entre Puntos de Atributo y TP. Consulta [[Special:MyLanguage/Sagas|Sagas]].",
+  "outdated": false
+ },
+ "33": {
+  "source": "Story difficulty is chosen once",
+  "translation": "La dificultad de la historia se elige una sola vez",
+  "outdated": false
+ },
+ "34": {
+  "source": "The first time you open the Quests tab you pick '''Easy''', '''Normal''' or '''Hard'''. Difficulty scales the health and damage of the enemies spawned by your quests (only for you and your party) and your training-point and quest-reward multipliers. The choice is '''permanent''': the only way to change it later is the '''Change Difficulty''' wish (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]), although operators can also set it with <code>/dmzquest difficulty</code>. In a party, everyone plays on the party leader's difficulty.",
+  "translation": "La primera vez que abres la pestaña Misiones eliges '''Fácil''', '''Normal''' o '''Difícil'''. La dificultad ajusta la vida y el daño de los enemigos que generan tus misiones (solo para ti y tu grupo) y tus multiplicadores de Puntos de Entrenamiento y de recompensas de misión. La elección es '''permanente''': la única forma de cambiarla después es el deseo '''Cambiar dificultad''' (consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]]), aunque los operadores también pueden fijarla con <code>/dmzquest difficulty</code>. En un grupo, todos juegan en la dificultad del líder.",
+  "outdated": false
+ },
+ "35": {
+  "source": "=== Minigames ===",
+  "translation": "=== Minijuegos ===",
+  "outdated": false
+ },
+ "36": {
+  "source": "The training minigames ('''Rhythm''', [[Special:MyLanguage/Ki Control|Ki Control]], '''Shadow Boxing''', '''Precision''' and '''Gravity''') and the '''Shadow Dummy''', all of which reward Training Points. A minigame has to be '''learned from its master''' first (three runs that reach level 5); after that you can play it from here at any time. See [[Special:MyLanguage/Training Minigames|Training Minigames]].",
+  "translation": "Los minijuegos de entrenamiento ('''Ritmo''', [[Special:MyLanguage/Ki Control|Control de Ki]], '''Boxeo Sombra''', '''Precisión''' y '''Gravedad''') y el '''Doble de Sombra''', que dan Puntos de Entrenamiento. Primero tienes que '''aprender un minijuego con su maestro''' (tres partidas que lleguen al nivel 5); después puedes jugarlo desde aquí cuando quieras. Consulta [[Special:MyLanguage/Training Minigames|Minijuegos de entrenamiento]].",
+  "outdated": false
+ },
+ "37": {
+  "source": "=== Config ===",
+  "translation": "=== Configuración ===",
+  "outdated": false
+ },
+ "38": {
+  "source": "Your personal DragonMineZ settings, grouped in collapsible categories with a '''search box''' on top. They are saved on your computer, not on the server.",
+  "translation": "Tus ajustes personales de DragonMineZ, agrupados en categorías desplegables con un '''cuadro de búsqueda''' arriba. Se guardan en tu computadora, no en el servidor.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Category",
+  "translation": "Categoría",
+  "outdated": false
+ },
+ "40": {
+  "source": "Option",
+  "translation": "Opción",
+  "outdated": false
+ },
+ "41": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "42": {
+  "source": "'''Interface'''",
+  "translation": "'''Interfaz'''",
+  "outdated": false
+ },
+ "43": {
+  "source": "'''HUD Layout'''",
+  "translation": "'''Diseño del HUD'''",
+  "outdated": false
+ },
+ "44": {
+  "source": "Opens the [[Special:MyLanguage/HUD#The HUD Editor|HUD Editor]], where you also pick the HUD style.",
+  "translation": "Abre el [[Special:MyLanguage/HUD#The HUD Editor|Editor del HUD]], donde también eliges el estilo del HUD.",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Always Visible HUD Values'''",
+  "translation": "'''Valores del HUD Siempre Visibles'''",
+  "outdated": false
+ },
+ "46": {
+  "source": "Keeps the numbers on your HUD bars visible instead of fading them out.",
+  "translation": "Mantiene visibles los números de tus barras del HUD en lugar de desvanecerlos.",
+  "outdated": false
+ },
+ "47": {
+  "source": "'''Hide HUD Numbers'''",
+  "translation": "'''Ocultar Números del HUD'''",
+  "outdated": false
+ },
+ "48": {
+  "source": "Hides the numbers on your bars, side meters and party rows completely.",
+  "translation": "Oculta por completo los números de tus barras, medidores laterales y filas del grupo.",
+  "outdated": false
+ },
+ "49": {
+  "source": "'''Party Markers'''",
+  "translation": "'''Marcadores de grupo'''",
+  "outdated": false
+ },
+ "50": {
+  "source": "Shows a marker over each party member's head.",
+  "translation": "Muestra un marcador sobre la cabeza de cada miembro del grupo.",
+  "outdated": false
+ },
+ "51": {
+  "source": "'''Ki Sense - Accumulative Damage'''",
+  "translation": "'''Sentir Ki - Daño Acumulativo'''",
+  "outdated": false
+ },
+ "52": {
+  "source": "Sums up the damage a sensed target takes instead of showing single popups.",
+  "translation": "Suma el daño que recibe un objetivo detectado en lugar de mostrar cifras sueltas.",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''Advanced Description'''",
+  "translation": "'''Descripción Avanzada'''",
+  "outdated": false
+ },
+ "54": {
+  "source": "Shows the value of each HUD bar next to it.",
+  "translation": "Muestra el valor de cada barra del HUD junto a ella.",
+  "outdated": false
+ },
+ "55": {
+  "source": "'''Adv. Desc. (Percentage)'''",
+  "translation": "'''Desc. Avanzada (Porcentaje)'''",
+  "outdated": false
+ },
+ "56": {
+  "source": "Shows those values as a percentage instead of current / maximum.",
+  "translation": "Muestra esos valores como porcentaje en lugar de actual / máximo.",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''Hexagon Stats Display'''",
+  "translation": "'''Pantalla de Stats en Hexágono'''",
+  "outdated": false
+ },
+ "58": {
+  "source": "Shows the Stats tab as a hexagon chart instead of a list.",
+  "translation": "Muestra la pestaña Estadísticas como un gráfico hexagonal en lugar de una lista.",
+  "outdated": false
+ },
+ "59": {
+  "source": "'''Menu Panel Scale'''",
+  "translation": "'''Escala del Panel de Menú'''",
+  "outdated": false
+ },
+ "60": {
+  "source": "Size of the menu panels (0.5 to 2.5).",
+  "translation": "Tamaño de los paneles del menú (0.5 a 2.5).",
+  "outdated": false
+ },
+ "61": {
+  "source": "'''Utility Menu Scale'''",
+  "translation": "'''Escala del menú de utilidades'''",
+  "outdated": false
+ },
+ "62": {
+  "source": "Size of the Utility Menu (0.5 to 2.5).",
+  "translation": "Tamaño del Menú de utilidades (0.5 a 2.5).",
+  "outdated": false
+ },
+ "63": {
+  "source": "'''Tutorials'''",
+  "translation": "'''Tutoriales'''",
+  "outdated": false
+ },
+ "64": {
+  "source": "Turns the interactive tutorials on or off.",
+  "translation": "Activa o desactiva los tutoriales interactivos.",
+  "outdated": false
+ },
+ "65": {
+  "source": "'''Show Tutorials Again'''",
+  "translation": "'''Mostrar tutoriales de nuevo'''",
+  "outdated": false
+ },
+ "66": {
+  "source": "Forgets the tutorials you have already seen.",
+  "translation": "Olvida los tutoriales que ya viste.",
+  "outdated": false
+ },
+ "67": {
+  "source": "'''Gameplay'''",
+  "translation": "'''Jugabilidad'''",
+  "outdated": false
+ },
+ "68": {
+  "source": "'''Camera Movement while Flying'''",
+  "translation": "'''Mov de cam durante el Vuelo'''",
+  "outdated": false
+ },
+ "69": {
+  "source": "Tilts (banks) the camera with your flight turns.",
+  "translation": "Inclina (ladea) la cámara con tus giros en vuelo.",
+  "outdated": false
+ },
+ "70": {
+  "source": "'''Flight Turn Sensitivity'''",
+  "translation": "'''Sensibilidad de giro en vuelo'''",
+  "outdated": false
+ },
+ "71": {
+  "source": "Mouse turn sensitivity while flying.",
+  "translation": "Sensibilidad del mouse para girar mientras vuelas.",
+  "outdated": false
+ },
+ "72": {
+  "source": "'''Over Shoulder Camera'''",
+  "translation": "'''Camara sobre el hombro'''",
+  "outdated": false
+ },
+ "73": {
+  "source": "Opens its own settings: mode (disabled, lock-on only or always), shoulder side, distance, height, sideways offset and smoothing.",
+  "translation": "Abre sus propios ajustes: modo (deshabilitado, solo con lock-on o siempre), lado del hombro, distancia, altura, desplazamiento lateral y suavizado.",
+  "outdated": false
+ },
+ "74": {
+  "source": "'''Reserve First Hotbar Slot'''",
+  "translation": "'''Reservar primera ranura de la barra rápida'''",
+  "outdated": false
+ },
+ "75": {
+  "source": "Items you pick up (or receive from rewards, <code>/give</code> and so on) never land in your first hotbar slot, so that slot stays empty unless you put something there yourself. The server keeps the setting, also after you die.",
+  "translation": "Los objetos que recoges (o que recibes de recompensas, <code>/give</code>, etc.) nunca caen en la primera ranura de tu barra rápida, así que esa ranura queda vacía salvo que pongas algo tú mismo. El servidor guarda el ajuste, incluso después de morir.",
+  "outdated": false
+ },
+ "76": {
+  "source": "'''Stat Growth''' toggles",
+  "translation": "Interruptores de '''Crecimiento de stat'''",
+  "outdated": false
+ },
+ "77": {
+  "source": "One toggle per stat, only when the server has [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] on.",
+  "translation": "Un interruptor por estadística, solo cuando el servidor tiene activado el [[Special:MyLanguage/Dynamic Growth|Crecimiento dinámico]].",
+  "outdated": false
+ },
+ "78": {
+  "source": "'''Visuals'''",
+  "translation": "'''Visuales'''",
+  "outdated": false
+ },
+ "79": {
+  "source": "'''My Aura - 3D Style'''",
+  "translation": "'''Mi aura - Estilo 3D'''",
+  "outdated": false
+ },
+ "80": {
+  "source": "Draws your aura in 3D instead of 2D. Other players also see your aura in the style you picked.",
+  "translation": "Dibuja tu aura en 3D en lugar de 2D. Los demás jugadores también ven tu aura con el estilo que elegiste.",
+  "outdated": false
+ },
+ "81": {
+  "source": "'''My Aura - 3D Type'''",
+  "translation": "'''Mi aura - Tipo 3D'''",
+  "outdated": false
+ },
+ "82": {
+  "source": "Smooth, Sparking or (Glind only) God.",
+  "translation": "Smooth, Sparking o (solo Glind) God.",
+  "outdated": false
+ },
+ "83": {
+  "source": "'''Enemy Auras - 3D Style'''",
+  "translation": "'''Auras enemigas - Estilo 3D'''",
+  "outdated": false
+ },
+ "84": {
+  "source": "Draws the auras of NPCs and enemies in 3D.",
+  "translation": "Dibuja en 3D las auras de NPCs y enemigos.",
+  "outdated": false
+ },
+ "85": {
+  "source": "'''Transformation Outlines'''",
+  "translation": "'''Outlines de formas'''",
+  "outdated": false
+ },
+ "86": {
+  "source": "Shows the outline effect while transforming.",
+  "translation": "Muestra el efecto de contorno al transformarte.",
+  "outdated": false
+ },
+ "87": {
+  "source": "'''Enable Impact Frames'''",
+  "translation": "'''Activar Fotogramas de Impacto'''",
+  "outdated": false
+ },
+ "88": {
+  "source": "Enables the impact-frame screen flashes some hits and ki attacks trigger.",
+  "translation": "Activa los destellos de pantalla de fotogramas de impacto que provocan algunos golpes y ataques de ki.",
+  "outdated": false
+ },
+ "89": {
+  "source": "'''Use Animated First Person Model'''",
+  "translation": "'''Usar Modelo Animado en 1ra Pers.'''",
+  "outdated": false
+ },
+ "90": {
+  "source": "Uses the animated DragonMineZ model in first person.",
+  "translation": "Usa el modelo animado de DragonMineZ en primera persona.",
+  "outdated": false
+ },
+ "91": {
+  "source": "'''Solar Flare - Invert Palette'''",
+  "translation": "'''Destello Solar - Invertir Paleta'''",
+  "outdated": false
+ },
+ "92": {
+  "source": "Inverts the colors of the Solar Flare blinding flash.",
+  "translation": "Invierte los colores del destello cegador del Destello Solar.",
+  "outdated": false
+ },
+ "93": {
+  "source": "'''Audio'''",
+  "translation": "'''Audio'''",
+  "outdated": false
+ },
+ "94": {
+  "source": "'''Ki Sound Volume (%)'''",
+  "translation": "'''Volumen de sonidos de ki (%)'''",
+  "outdated": false
+ },
+ "95": {
+  "source": "Volume of the ki sounds (charging, ki blasts, beams and their explosions), from 0 to 100%.",
+  "translation": "Volumen de los sonidos de ki (carga, ráfagas de ki, ondas y sus explosiones), de 0 a 100%.",
+  "outdated": false
+ },
+ "96": {
+  "source": "== Utility Menu ==",
+  "translation": "== Menú de utilidades ==",
+  "outdated": false
+ },
+ "97": {
+  "source": "A radial wheel for the heat of battle. '''Hold''' {{Key|X}} to open it, hover a slice and click; '''release''' {{Key|X}} (or press {{Key|Esc}}) to close it. Every entry has its own icon. The wheel has these slices:",
+  "translation": "Una rueda radial para el calor de la batalla. '''Mantén''' {{Key|X}} para abrirla, pasa el cursor sobre una sección y haz clic; '''suelta''' {{Key|X}} (o presiona {{Key|Esc}}) para cerrarla. Cada entrada tiene su propio ícono. La rueda tiene estas secciones:",
+  "outdated": false
+ },
+ "98": {
+  "source": "Slice",
+  "translation": "Sección",
+  "outdated": false
+ },
+ "99": {
+  "source": "What it holds",
+  "translation": "Qué contiene",
+  "outdated": false
+ },
+ "100": {
+  "source": "'''Super Forms'''",
+  "translation": "'''Súper Formas'''",
+  "outdated": false
+ },
+ "101": {
+  "source": "Your Super, Legendary and Android form groups.",
+  "translation": "Tus grupos de formas Super, Legendarias y Androide.",
+  "outdated": false
+ },
+ "102": {
+  "source": "'''Extra Forms'''",
+  "translation": "'''Formas extra'''",
+  "outdated": false
+ },
+ "103": {
+  "source": "Every other form group of your race (god forms and so on).",
+  "translation": "Todos los demás grupos de formas de tu raza (formas divinas, etc.).",
+  "outdated": false
+ },
+ "104": {
+  "source": "'''Stack Skills'''",
+  "translation": "'''Formas Stack'''",
+  "outdated": false
+ },
+ "105": {
+  "source": "Stack forms such as Kaioken.",
+  "translation": "Formas acumulables como el Kaioken.",
+  "outdated": false
+ },
+ "106": {
+  "source": "'''Movement'''",
+  "translation": "'''Movimiento'''",
+  "outdated": false
+ },
+ "107": {
+  "source": "Toggle the [[Special:MyLanguage/Fly|Fly]], '''Jump''' and '''Sprint''' skills. Hovering [[Special:MyLanguage/Fly|Fly]] opens its flight options: '''Search Fly / Combat Fly''', '''Flight Speed''' and '''Mode Lock'''.",
+  "translation": "Activa o desactiva las habilidades [[Special:MyLanguage/Fly|Vuelo]], '''Salto''' y '''Sprint'''. Pasar el cursor sobre [[Special:MyLanguage/Fly|Vuelo]] abre sus opciones de vuelo: '''Vuelo de búsqueda / Vuelo de combate''', '''Velocidad de vuelo''' y '''Bloqueo de modo'''.",
+  "outdated": false
+ },
+ "108": {
+  "source": "'''Descend'''",
+  "translation": "'''Descender'''",
+  "outdated": false
+ },
+ "109": {
+  "source": "Power down one step: it drops your stack form first, then your form; in base form it sets your Power Release to 0%. Only shown when there is something to drop.",
+  "translation": "Baja un escalón de poder: primero quita tu forma acumulable y luego tu forma; en forma base pone tu Liberación de Poder en 0%. Solo aparece cuando hay algo que quitar.",
+  "outdated": false
+ },
+ "110": {
+  "source": "'''Actions'''",
+  "translation": "'''Acciones'''",
+  "outdated": false
+ },
+ "111": {
+  "source": "'''Racial Skill''' (Zenkai, Assimilation, Absorption, Vital Drain…; for Saiyans also hide or show the tail), the Namekian '''Regeneration''', '''Fusion''', '''Limit Release''', '''Ki Weapons''' and '''Ki Actions''' (Aura, Friendly Fist, Ki Protection and Ki Infusion).",
+  "translation": "'''Habilidad Racial''' (Zenkai, Asimilación, Absorción, Drenaje Vital…; para los Saiyajin, también ocultar o mostrar la cola), la '''Regeneración''' namekiana, '''Fusión''', '''Límite de liberación''', '''Armas de Ki''' y '''Acciones de Ki''' (Aura, Puño Amigo, Protección de Ki e Infusión de Ki).",
+  "outdated": false
+ },
+ "112": {
+  "source": "'''Forms:''' click a form to '''select''' it as your next transformation (then charge it with {{Key|G}}); '''double-click''' to transform instantly. See [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "'''Formas:''' haz clic en una forma para '''seleccionarla''' como tu próxima transformación (luego cárgala con {{Key|G}}); '''doble clic''' para transformarte al instante. Consulta [[Special:MyLanguage/Transformations|Transformaciones]].",
+  "outdated": false
+ },
+ "113": {
+  "source": "'''Limit Release:''' pick a maximum Power Release (5% steps, up to your max). Charging stops at that limit. Click it again while a limit is active to remove it. You can also hover it and use the '''mouse wheel''' to raise or lower the limit by 5%.",
+  "translation": "'''Límite de liberación:''' elige una Liberación de Poder máxima (en pasos de 5%, hasta tu máximo). La carga se detiene en ese límite. Vuelve a hacer clic con un límite activo para quitarlo. También puedes pasar el cursor por encima y usar la '''rueda del mouse''' para subir o bajar el límite un 5%.",
+  "outdated": false
+ },
+ "114": {
+  "source": "'''Search Fly / Combat Fly:''' switch your flight mode (same as {{Key|Alt}} + {{Key|F}}). See [[Special:MyLanguage/Combat#Combat flight|Combat]].",
+  "translation": "'''Vuelo de búsqueda / Vuelo de combate:''' cambia tu modo de vuelo (igual que {{Key|Alt}} + {{Key|F}}). Consulta [[Special:MyLanguage/Combat#Combat flight|Combate]].",
+  "outdated": false
+ },
+ "115": {
+  "source": "'''Flight Speed:''' cap your flight speed between 5% and 100% (5% steps); the cap also slows rising and descending. Click it again to go back to 100%, or hover it and use the '''mouse wheel'''.",
+  "translation": "'''Velocidad de vuelo:''' limita tu velocidad de vuelo entre el 5% y el 100% (en pasos de 5%); el límite también frena el ascenso y el descenso. Vuelve a hacer clic para volver al 100%, o pasa el cursor por encima y usa la '''rueda del mouse'''.",
+  "outdated": false
+ },
+ "116": {
+  "source": "'''Mode Lock:''' remembers the flight mode you chose. When taking or dealing damage forces you from Search Fly into Combat Fly, you are switched back to your chosen mode as soon as the Combat Fly lock ends.",
+  "translation": "'''Bloqueo de modo:''' recuerda el modo de vuelo que elegiste. Cuando recibir o infligir daño te obliga a pasar del Vuelo de búsqueda al Vuelo de combate, vuelves a tu modo elegido en cuanto termina el bloqueo del Vuelo de combate.",
+  "outdated": false
+ },
+ "117": {
+  "source": "When a category has more than 5 entries, the last slot becomes '''More''': it opens a list where you can '''drag entries to reorder them'''. Your order is saved on your computer.",
+  "translation": "Cuando una categoría tiene más de 5 entradas, la última ranura pasa a ser '''Más''': abre una lista donde puedes '''arrastrar las entradas para reordenarlas'''. Tu orden se guarda en tu computadora.",
+  "outdated": false
+ },
+ "118": {
+  "source": "Add-ons can add their own slices to the two free slots of the wheel.",
+  "translation": "Los addons pueden añadir sus propias secciones en los dos espacios libres de la rueda.",
+  "outdated": false
+ },
+ "119": {
+  "source": "== NPC dialogue ==",
+  "translation": "== Diálogo con NPCs ==",
+  "outdated": false
+ },
+ "120": {
+  "source": "'''Right-click''' a master or a quest NPC to talk to them (you need to have created your character first). The dialogue opens as a band across the bottom of the screen, with a live portrait of the NPC on the left, their line in the middle (typed out like a typewriter) and your options on the right. It gathers everything that NPC offers in one menu:",
+  "translation": "'''Haz clic derecho''' en un maestro o un NPC de misiones para hablar con él (primero tienes que haber creado tu personaje). El diálogo se abre como una franja en la parte inferior de la pantalla, con un retrato animado del NPC a la izquierda, su frase en el centro (escrita como en una máquina de escribir) y tus opciones a la derecha. Reúne todo lo que ese NPC ofrece en un solo menú:",
+  "outdated": false
+ },
+ "121": {
+  "source": "'''Quests''', in story order: accept, turn in, see why a quest is still locked, and look back at the ones you completed. The window stays open while you accept or turn in quests.",
+  "translation": "'''Misiones''', en orden de historia: aceptar, entregar, ver por qué una misión sigue bloqueada y repasar las que completaste. La ventana sigue abierta mientras aceptas o entregas misiones.",
+  "outdated": false
+ },
+ "122": {
+  "source": "'''Skills''': the master's skill shop.",
+  "translation": "'''Habilidades''': la tienda de habilidades del maestro.",
+  "outdated": false
+ },
+ "123": {
+  "source": "'''Train''': the '''Shadow Clone''' (a Shadow Dummy copy of you to spar with) and the master's minigame.",
+  "translation": "'''Entrenar''': el '''Clon de Sombra''' (una copia tuya, un Doble de Sombra, para entrenar) y el minijuego del maestro.",
+  "outdated": false
+ },
+ "124": {
+  "source": "The NPC's '''services''' (healing, Senzu Beans, weights, revive…).",
+  "translation": "Los '''servicios''' del NPC (curación, Semillas del Ermitaño, pesas, revivir…).",
+  "outdated": false
+ },
+ "125": {
+  "source": "'''Tournament''', for the tournament hosts.",
+  "translation": "'''Torneo''', para los anfitriones de torneos.",
+  "outdated": false
+ },
+ "126": {
+  "source": "Options you can't use yet stay visible but locked: hover them to see why. Cooldowns show a live timer. Click an option, or use {{Key|↑}} / {{Key|↓}} and {{Key|Enter}}, or the number keys {{Key|1}}–{{Key|9}}. {{Key|Space}} or {{Key|Enter}}, or a click on the text, shows the whole line at once. '''Back''' (or {{Key|Backspace}}, or a right-click) goes up one page; '''Close''' or {{Key|Esc}} leaves.",
+  "translation": "Las opciones que todavía no puedes usar siguen visibles pero bloqueadas: pasa el cursor por encima para ver por qué. Los tiempos de recarga muestran un temporizador en vivo. Haz clic en una opción, o usa {{Key|↑}} / {{Key|↓}} y {{Key|Enter}}, o las teclas numéricas {{Key|1}}–{{Key|9}}. {{Key|Espacio}} o {{Key|Enter}}, o un clic sobre el texto, muestran toda la frase de una vez. '''Atrás''' (o {{Key|Backspace}}, o un clic derecho) sube una página; '''Cerrar''' o {{Key|Esc}} sale.",
+  "outdated": false
+ },
+ "127": {
+  "source": "What each NPC offers is listed on [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Lo que ofrece cada NPC aparece en [[Special:MyLanguage/Masters|Maestros]].",
+  "outdated": false
+ },
+ "128": {
+  "source": "== Other screens ==",
+  "translation": "== Otras pantallas ==",
+  "outdated": false
+ },
+ "129": {
+  "source": "'''Wishes screen''': left-click a wish to pick it, right-click to remove your last pick of that wish; slots are numbered, and revive wishes have an in-screen target picker. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].",
+  "translation": "'''Pantalla de deseos''': haz clic izquierdo en un deseo para elegirlo y clic derecho para quitar tu última elección de ese deseo; las ranuras están numeradas, y los deseos de revivir tienen un selector de objetivo en la propia pantalla. Consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]].",
+  "outdated": false
+ },
+ "130": {
+  "source": "'''Tournament screen''': the bracket, the rules and the Ready check of a tournament. See [[Special:MyLanguage/Tournaments|Tournaments]].",
+  "translation": "'''Pantalla de torneo''': las llaves, las reglas y la comprobación de listos de un torneo. Consulta [[Special:MyLanguage/Tournaments|Torneos]].",
+  "outdated": false
+ },
+ "131": {
+  "source": "'''Space Pod menu''': press {{Key|H}} while riding a [[Special:MyLanguage/Space Pod|Space Pod]] to pick a destination.",
+  "translation": "'''Menú de Cápsula Espacial''': presiona {{Key|H}} mientras vas en una [[Special:MyLanguage/Space Pod|Cápsula Espacial]] para elegir un destino.",
+  "outdated": false
+ },
+ "132": {
+  "source": "'''Technique Creator''': opened with '''Create Skill''' in the Skills tab. See [[Special:MyLanguage/Techniques|Techniques]].",
+  "translation": "'''Creador de Técnicas''': se abre con '''Crear Habilidad''' en la pestaña Habilidades. Consulta [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ }
+}

@@ -1,117 +1,124 @@
 {{Infobox Dimension
 |Gravity=×1.0
-|Access=<translate>Your starting world; Space Pod (always available)</translate>
-|Biomes=<translate>Vanilla Overworld biomes, plus the DragonMineZ Rocky biome</translate>
-|Resources=<translate>Vanilla resources, the Earth Dragon Balls</translate>
+|Access=<translate><!--T:1--> Your starting world; Space Pod (always available)</translate>
+|Biomes=<translate><!--T:2--> Vanilla Overworld biomes, plus the DragonMineZ Rocky biome</translate>
+|Resources=<translate><!--T:3--> Vanilla resources, the Earth Dragon Balls</translate>
 |Inhabitants={{L|Dinosaurs}}, {{L|Sabertooth Tiger}}, {{L|Giant Fish}}, {{L|Giant Turtle}}, {{L|Bandit}}, {{L|Red Ribbon Army}}, {{L|Saibamen}}, {{L|Capsule Corp Assistant}}
 |Structures={{L|Goku's House}}, {{L|Kame House}}, {{L|Kami's Lookout}}, {{L|Piccolo's House}}, {{L|Majin Buu's House}}, {{L|Yamcha's House}}, {{L|Dr. Gero's Lab}}, {{L|Fortuneteller Baba's Palace}}, {{L|Cell Arena}}, {{L|Babidi's Spaceship}}, {{L|Trunks' Ship}}, {{L|Vegeta's Saiyan Pod}}, {{L|Tree of Might}}, {{L|Saiyan Crater}}, {{L|Red Ribbon Tower}}
 |Bosses={{L|Turles}}
 }}
 <translate>
+<!--T:4-->
 '''Earth''' is the vanilla Overworld (<code>minecraft:overworld</code>), the world where every character starts. DragonMineZ doesn't add a separate Earth dimension: it fills the Overworld with the homes of most [[Special:MyLanguage/Masters|masters]], landmark structures, Dragon Ball wildlife and enemies, the Earth Dragon Balls that summon [[Special:MyLanguage/Shenron|Shenron]], the world boss [[Special:MyLanguage/Turles|Turles]] and the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] raid.
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:5-->
 </translate>
 {{Config|Gravity Config|gravityPerWorld}}
 <translate>
+<!--T:6-->
 Earth has normal gravity (×1.0) by default. You can raise it locally with a [[Special:MyLanguage/Gravity Device|Gravity Device]] or train with [[Special:MyLanguage/Weights|weights]].
 </translate>
 
 <translate>
-== Biomes ==
+== Biomes == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 Earth keeps every vanilla biome. DragonMineZ adds the '''Rocky''' biome, where [[Special:MyLanguage/Saibamen|Saibamen]] sprout and [[Special:MyLanguage/Dinosaurs|dinosaurs]] roam; many [[Special:MyLanguage/Sagas|saga]] fights take place there.
 </translate>
 
 <translate>
-== Creatures and NPCs ==
+== Creatures and NPCs == <!--T:9-->
 </translate>
 {{Main|Bestiary}}
 {| class="wikitable"
-! <translate>Creature</translate> !! <translate>Where it lives</translate>
+! <translate><!--T:10--> Creature</translate> !! <translate><!--T:11--> Where it lives</translate>
 |-
-| {{L|Dinosaurs}} || <translate>Badlands, mountains, hills, the Rocky biome and biomes with savanna villages. Predators.</translate>
+| {{L|Dinosaurs}} || <translate><!--T:12--> Badlands, mountains, hills, the Rocky biome and biomes with savanna villages. Predators.</translate>
 |-
-| {{L|Sabertooth Tiger}} || <translate>Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions. Predator.</translate>
+| {{L|Sabertooth Tiger}} || <translate><!--T:13--> Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions. Predator.</translate>
 |-
-| {{L|Giant Fish}} || <translate>Oceans, deep oceans and beaches, in open water. Predator.</translate>
+| {{L|Giant Fish}} || <translate><!--T:14--> Oceans, deep oceans and beaches, in open water. Predator.</translate>
 |-
-| {{L|Giant Turtle}} || <translate>Beaches. Harmless.</translate>
+| {{L|Giant Turtle}} || <translate><!--T:15--> Beaches. Harmless.</translate>
 |-
-| {{L|Bandit}} || <translate>Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions.</translate>
+| {{L|Bandit}} || <translate><!--T:16--> Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions.</translate>
 |-
-| {{L|Red Ribbon Army}} || <translate>Around savanna, plains and snowy villages, and inside the Red Ribbon Tower.</translate>
+| {{L|Red Ribbon Army}} || <translate><!--T:17--> Around savanna, plains and snowy villages, and inside the Red Ribbon Tower.</translate>
 |-
-| {{L|Saibamen}} || <translate>The Rocky biome, in dim spots.</translate>
+| {{L|Saibamen}} || <translate><!--T:18--> The Rocky biome, in dim spots.</translate>
 |-
-| {{L|Capsule Corp Assistant}} || <translate>A villager profession whose house generates in plains villages. Sells treasure maps to Earth structures.</translate>
+| {{L|Capsule Corp Assistant}} || <translate><!--T:19--> A villager profession whose house generates in plains villages. Sells treasure maps to Earth structures.</translate>
 |}
 
 <translate>
+<!--T:20-->
 Some structures also house quest NPCs, such as '''Bulma''' at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] and '''Chi-Chi''' at [[Special:MyLanguage/Goku's House|Goku's House]].
 </translate>
 
 <translate>
-== Structures ==
+== Structures == <!--T:21-->
 </translate>
 {{Main|Structures}}
 {| class="wikitable"
-! <translate>Structure</translate> !! <translate>Where</translate> !! <translate>What you find</translate>
+! <translate><!--T:22--> Structure</translate> !! <translate><!--T:23--> Where</translate> !! <translate><!--T:24--> What you find</translate>
 |-
-| {{L|Goku's House}} || <translate>Plains</translate> || <translate>[[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]] and Chi-Chi</translate>
+| {{L|Goku's House}} || <translate><!--T:25--> Plains</translate> || <translate><!--T:26--> [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]] and Chi-Chi</translate>
 |-
-| {{L|Kame House}} || <translate>Oceans (coastal)</translate> || <translate>[[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]]</translate>
+| {{L|Kame House}} || <translate><!--T:27--> Oceans (coastal)</translate> || <translate><!--T:28--> [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]]</translate>
 |-
-| {{L|Kami's Lookout}} || <translate>Near the world spawn</translate> || <translate>[[Special:MyLanguage/Korin|Korin]], [[Special:MyLanguage/Dende|Dende]], [[Special:MyLanguage/Mr. Popo|Mr. Popo]] and the portal to the Hyperbolic Time Chamber</translate>
+| {{L|Kami's Lookout}} || <translate><!--T:29--> Near the world spawn</translate> || <translate><!--T:30--> [[Special:MyLanguage/Korin|Korin]], [[Special:MyLanguage/Dende|Dende]], [[Special:MyLanguage/Mr. Popo|Mr. Popo]] and the portal to the Hyperbolic Time Chamber</translate>
 |-
-| {{L|Piccolo's House}} || <translate>Plains</translate> || {{L|Piccolo}}
+| {{L|Piccolo's House}} || <translate><!--T:31--> Plains</translate> || {{L|Piccolo}}
 |-
-| {{L|Majin Buu's House}} || <translate>Plains</translate> || {{L|Majin Buu}}
+| {{L|Majin Buu's House}} || <translate><!--T:32--> Plains</translate> || {{L|Majin Buu}}
 |-
-| {{L|Yamcha's House}} || <translate>Deserts</translate> || {{L|Yamcha}}
+| {{L|Yamcha's House}} || <translate><!--T:33--> Deserts</translate> || {{L|Yamcha}}
 |-
-| {{L|Dr. Gero's Lab}} || <translate>Rocky biome or mountains</translate> || {{L|Dr. Gero}}
+| {{L|Dr. Gero's Lab}} || <translate><!--T:34--> Rocky biome or mountains</translate> || {{L|Dr. Gero}}
 |-
-| {{L|Fortuneteller Baba's Palace}} || <translate>Oceans</translate> || <translate>[[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] and her tournament</translate>
+| {{L|Fortuneteller Baba's Palace}} || <translate><!--T:35--> Oceans</translate> || <translate><!--T:36--> [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] and her tournament</translate>
 |-
-| {{L|Cell Arena}} || <translate>Plains</translate> || <translate>[[Special:MyLanguage/Cell|Cell]] and the Cell Games</translate>
+| {{L|Cell Arena}} || <translate><!--T:37--> Plains</translate> || <translate><!--T:38--> [[Special:MyLanguage/Cell|Cell]] and the Cell Games</translate>
 |-
-| {{L|Babidi's Spaceship}} || <translate>Mountains</translate> || {{L|Babidi}}
+| {{L|Babidi's Spaceship}} || <translate><!--T:39--> Mountains</translate> || {{L|Babidi}}
 |-
-| {{L|Trunks' Ship}} || <translate>Land biomes</translate> || {{L|Trunks}}
+| {{L|Trunks' Ship}} || <translate><!--T:40--> Land biomes</translate> || {{L|Trunks}}
 |-
-| {{L|Vegeta's Saiyan Pod}} || <translate>Rocky biomes</translate> || <translate>[[Special:MyLanguage/Vegeta|Vegeta]] and Bulma</translate>
+| {{L|Vegeta's Saiyan Pod}} || <translate><!--T:41--> Rocky biomes</translate> || <translate><!--T:42--> [[Special:MyLanguage/Vegeta|Vegeta]] and Bulma</translate>
 |-
-| {{L|Tree of Might}} || <translate>Swamps, at least 1,000 blocks from 0, 0</translate> || <translate>The lair of [[Special:MyLanguage/Turles|Turles]]</translate>
+| {{L|Tree of Might}} || <translate><!--T:43--> Swamps, at least 1,000 blocks from 0, 0</translate> || <translate><!--T:44--> The lair of [[Special:MyLanguage/Turles|Turles]]</translate>
 |-
-| {{L|Saiyan Crater}} || <translate>Anywhere on land</translate> || <translate>Raid site of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]</translate>
+| {{L|Saiyan Crater}} || <translate><!--T:45--> Anywhere on land</translate> || <translate><!--T:46--> Raid site of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]</translate>
 |-
-| {{L|Red Ribbon Tower}} || <translate>Most land biomes</translate> || <translate>A Red Ribbon outpost that keeps spawning [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]] soldiers and robots</translate>
+| {{L|Red Ribbon Tower}} || <translate><!--T:47--> Most land biomes</translate> || <translate><!--T:48--> A Red Ribbon outpost that keeps spawning [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]] soldiers and robots</translate>
 |}
 
 <translate>
-== Dragon Balls ==
+== Dragon Balls == <!--T:49-->
 </translate>
 {{Main|Shenron}}
 <translate>
+<!--T:50-->
 The seven Earth Dragon Balls are scattered around the world spawn (within 1,000 blocks by default). Find them with the [[Special:MyLanguage/Dragon Radar|Dragon Radar]] and bring them together to summon [[Special:MyLanguage/Shenron|Shenron]]. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].
 </translate>
 
 <translate>
-== World boss and raid ==
+== World boss and raid == <!--T:51-->
 </translate>
 <translate>
+<!--T:52-->
 * '''[[Special:MyLanguage/Turles|Turles]]''' sleeps in the clearing under the [[Special:MyLanguage/Tree of Might|Tree of Might]]. See [[Special:MyLanguage/World Bosses|World Bosses]].
 * Killing the scout at a [[Special:MyLanguage/Saiyan Crater|Saiyan Crater]] starts the '''[[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]''' raid. See [[Special:MyLanguage/Raids|Raids]].
 </translate>
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:53-->
 </translate>
 <translate>
+<!--T:54-->
 * Every character starts on Earth.
 * The [[Special:MyLanguage/Space Pod|Space Pod]] destination '''Earth''' is always available and lands you at the same X, Y and Z you left from.
 * In the [[Special:MyLanguage/Otherworld|Otherworld]], [[Special:MyLanguage/King Yemma|King Yemma]] sends you back to your spawn point when you're alive or on a temporary return.

@@ -1,0 +1,152 @@
+{
+ "Page_display_title": {
+  "source": "Ki Manipulation",
+  "translation": "Manipulação de Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "Give your ki a shape and an edge.",
+  "translation": "Dê ao seu ki uma forma e um fio.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Passive combat ability",
+  "translation": "Habilidade passiva de combate",
+  "outdated": false
+ },
+ "3": {
+  "source": "600 to 4,000 TP per level",
+  "translation": "De 600 a 4,000 TP por nível",
+  "outdated": false
+ },
+ "4": {
+  "source": "Form ki weapons, raise basic ki-blast damage, and unlock Shadow Dummy sparring at level 5.",
+  "translation": "Crie armas de ki, aumente o dano das rajadas de ki básicas e desbloqueie o treino com o Boneco de Sombra no nível 5.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Ki Manipulation''' lets you shape your ki into melee weapons: the '''Ki Blade''', the '''Ki Scythe''' and the '''Ki Claw Lance'''. Their damage scales with your Ki Damage and the skill's level, so ki-focused characters can fight up close without carrying a weapon. The skill also makes your basic ki blasts stronger and, from level 5, lets you spar with a Shadow Dummy.",
+  "translation": "A '''Manipulação de Ki''' permite moldar o seu ki em armas corpo a corpo: a '''Lâmina de Ki''', a '''Foice de Ki''' e a '''Lança Garra de Ki'''. O dano delas escala com o seu Dano de ki e o nível da habilidade, então personagens focados em ki podem lutar de perto sem carregar uma arma. A habilidade também deixa as suas rajadas de ki básicas mais fortes e, a partir do nível 5, permite treinar contra um Boneco de Sombra.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Como aprender ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/King Kai|King Kai]] (Good alignment) and [[Special:MyLanguage/Cell|Cell]] (Evil alignment) teach Ki Manipulation.",
+  "translation": "O [[Special:MyLanguage/King Kai|Rei Kai]] (índole Boa) e [[Special:MyLanguage/Cell|Cell]] (índole Má) ensinam a Manipulação de Ki.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Ki weapons ==",
+  "translation": "== Armas de ki ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "With your main hand empty, open the Utility Menu ({{Key|X}}) and pick a weapon from '''Actions → Ki Weapons'''. Each hit deals bonus damage equal to your '''Ki Damage × the weapon's scaling × 10% per skill level''', and each swing costs some Ki.",
+  "translation": "Com a mão principal vazia, abra o Menu de Utilidades ({{Key|X}}) e escolha uma arma em '''Ações → Arma de Ki'''. Cada golpe causa dano extra igual ao seu '''Dano de ki × o escalonamento da arma × 10% por nível da habilidade''', e cada golpe com a arma custa um pouco de Ki.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Weapon",
+  "translation": "Arma",
+  "outdated": false
+ },
+ "13": {
+  "source": "Damage scaling",
+  "translation": "Escalonamento de dano",
+  "outdated": false
+ },
+ "14": {
+  "source": "Bonus damage at level 10",
+  "translation": "Dano extra no nível 10",
+  "outdated": false
+ },
+ "15": {
+  "source": "Moveset",
+  "translation": "Combo",
+  "outdated": false
+ },
+ "16": {
+  "source": "Ki Blade",
+  "translation": "Lâmina de Ki",
+  "outdated": false
+ },
+ "17": {
+  "source": "25% of your Ki Damage",
+  "translation": "25% do seu Dano de ki",
+  "outdated": false
+ },
+ "18": {
+  "source": "Sword",
+  "translation": "Espada",
+  "outdated": false
+ },
+ "19": {
+  "source": "Ki Scythe",
+  "translation": "Foice de Ki",
+  "outdated": false
+ },
+ "20": {
+  "source": "45% of your Ki Damage",
+  "translation": "45% do seu Dano de ki",
+  "outdated": false
+ },
+ "21": {
+  "source": "Scythe",
+  "translation": "Foice",
+  "outdated": false
+ },
+ "22": {
+  "source": "Ki Claw Lance",
+  "translation": "Lança Garra de Ki",
+  "outdated": false
+ },
+ "23": {
+  "source": "65% of your Ki Damage",
+  "translation": "65% do seu Dano de ki",
+  "outdated": false
+ },
+ "24": {
+  "source": "Trident",
+  "translation": "Tridente",
+  "outdated": false
+ },
+ "25": {
+  "source": "The stronger the weapon, the more Ki each swing costs: the Ki Claw Lance is the most expensive and the Ki Blade the cheapest. The Ki Blade is also the fastest weapon and the Ki Scythe the slowest. These are the default values.",
+  "translation": "Quanto mais forte a arma, mais Ki cada golpe custa: a Lança Garra de Ki é a mais cara e a Lâmina de Ki a mais barata. A Lâmina de Ki também é a arma mais rápida e a Foice de Ki a mais lenta. Esses são os valores padrão.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Basic ki blasts ==",
+  "translation": "== Rajadas de ki básicas ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Each level also raises the damage of your basic ki blast ({{Key|Alt}} + right mouse button) by '''5% of your Ki Damage'''.",
+  "translation": "Cada nível também aumenta o dano da sua rajada de ki básica ({{Key|Alt}} + botão direito do mouse) em '''5% do seu Dano de ki'''.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Shadow Dummy ==",
+  "translation": "== Boneco de Sombra ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "At '''level 5''' and above, Ki Manipulation unlocks Shadow Dummy sparring. Once you have [[Special:MyLanguage/Ki Control|Ki Control]], Ki Manipulation level 5 and have killed a Shadow Dummy at least once, you can manifest a Shadow Dummy made of your own ki from the '''Minigames''' tab of the Character Menu. See [[Special:MyLanguage/Training Minigames|Training Minigames]].",
+  "translation": "A partir do '''nível 5''', a Manipulação de Ki desbloqueia o treino com o Boneco de Sombra. Depois de ter [[Special:MyLanguage/Ki Control|Controle de Ki]], Manipulação de Ki nível 5 e ter derrotado pelo menos um Boneco de Sombra, você pode manifestar um Boneco de Sombra feito do seu próprio ki pela aba '''Minigames''' do menu do personagem. Veja [[Special:MyLanguage/Training Minigames|Minijogos de treinamento]].",
+  "outdated": false
+ }
+}

@@ -1,0 +1,382 @@
+{
+ "Page_display_title": {
+  "source": "Weapon Attributes",
+  "translation": "Atributos de armas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Weapon Attributes''' is a datapack system that tells the DragonMineZ combat engine how a specific item behaves in combat: attack range, animation, hitbox shape, damage multipliers, conditional attack variants (dual-wielding, sneaking, mounted and so on) and critical stats. Third-party weapon mods hook into this system to get proper DragonMineZ combat behavior.",
+  "translation": "'''Atributos de armas''' es un sistema de datapacks que le dice al motor de combate de DragonMineZ cómo se comporta un objeto concreto en combate: alcance de ataque, animación, forma del hitbox, multiplicadores de daño, variantes de ataque condicionales (empuñar dos armas, agacharse, ir montado, etc.) y estadísticas críticas. Los mods de armas de terceros se conectan a este sistema para tener un comportamiento de combate de DragonMineZ adecuado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Loader: <code>WeaponRegistry.loadAttributes(resourceManager)</code>, in <code>src/main/java/com/dragonminez/common/combat/logic/weapon/WeaponRegistry.java</code>. It reloads with the vanilla datapack reload (<code>/reload</code> or a restart), '''not''' with <code>/dmzreload</code>.",
+  "translation": "Cargador: <code>WeaponRegistry.loadAttributes(resourceManager)</code>, en <code>src/main/java/com/dragonminez/common/combat/logic/weapon/WeaponRegistry.java</code>. Se recarga con la recarga de datapacks de vanilla (<code>/reload</code> o un reinicio), '''no''' con <code>/dmzreload</code>.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== File location and item mapping ==",
+  "translation": "== Ubicación del archivo y asignación al objeto ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "The namespace and path become the target item id: <code>data/dragonminez/weapon_attributes/axe.json</code> applies to <code>dragonminez:axe</code>. A third-party mod defines its own weapons under its own namespace, for example <code>data/mymod/weapon_attributes/great_axe.json</code> for <code>mymod:great_axe</code>.",
+  "translation": "El namespace y la ruta forman el id del objeto de destino: <code>data/dragonminez/weapon_attributes/axe.json</code> se aplica a <code>dragonminez:axe</code>. Un mod de terceros define sus propias armas en su propio namespace, por ejemplo <code>data/mymod/weapon_attributes/great_axe.json</code> para <code>mymod:great_axe</code>.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Better Combat datapacks",
+  "translation": "Datapacks de Better Combat",
+  "outdated": false
+ },
+ "6": {
+  "source": "Any <code>bettercombat:</code> namespace found in these JSON files is rewritten to <code>dragonminez:</code> at load time, so weapon attribute datapacks written for the Better Combat mod mostly work as they are.",
+  "translation": "Cualquier namespace <code>bettercombat:</code> que aparezca en estos archivos JSON se reescribe como <code>dragonminez:</code> al cargarse, así que los datapacks de atributos de armas escritos para el mod Better Combat funcionan casi siempre tal cual.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Top-level schema ==",
+  "translation": "== Esquema de nivel superior ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "A file holds an <code>attributes</code> object:",
+  "translation": "Un archivo contiene un objeto <code>attributes</code>:",
+  "outdated": false
+ },
+ "9": {
+  "source": "Or, to inherit another item's attributes and only override specific fields, it names a <code>parent</code>:",
+  "translation": "O bien, para heredar los atributos de otro objeto y sobrescribir solo algunos campos, indica un <code>parent</code>:",
+  "outdated": false
+ },
+ "10": {
+  "source": "<code>parent</code> chains can go several levels deep (a parent can have its own parent). Cycles are detected: a weapon whose parent chain loops back on itself fails to resolve and is skipped (logged as an error), so double-check your <code>parent</code> references.",
+  "translation": "Las cadenas de <code>parent</code> pueden tener varios niveles (un padre puede tener su propio padre). Los ciclos se detectan: un arma cuya cadena de padres vuelve sobre sí misma no se puede resolver y se omite (se registra como error), así que revisa bien tus referencias de <code>parent</code>.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Attributes fields ==",
+  "translation": "== Campos de los atributos ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "13": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "14": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "15": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "16": {
+  "source": "Reach in blocks (the Minecraft default <code>3.0</code> if left out).",
+  "translation": "Alcance en bloques (el valor por defecto de Minecraft, <code>3.0</code>, si se omite).",
+  "outdated": false
+ },
+ "17": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "18": {
+  "source": "GeckoLib animation pose for the main-hand weapon.",
+  "translation": "Pose de animación de GeckoLib para el arma de la mano principal.",
+  "outdated": false
+ },
+ "19": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "20": {
+  "source": "GeckoLib animation pose for the off-hand weapon.",
+  "translation": "Pose de animación de GeckoLib para el arma de la mano secundaria.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "22": {
+  "source": "If <code>true</code>, the off hand can't be used while the weapon is wielded.",
+  "translation": "Si es <code>true</code>, no se puede usar la mano secundaria mientras se empuña el arma.",
+  "outdated": false
+ },
+ "23": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "24": {
+  "source": "Free-form category tag. It is used for two things: matching <code>DUAL_WIELDING_SAME_CATEGORY</code> conditions between the main hand and the off hand, '''and''' as the target category for the <code>fallbackCompatibility</code> regex system in [[Special:MyLanguage/Combat Config|Combat Config]].",
+  "translation": "Etiqueta de categoría libre. Se usa para dos cosas: para comparar las condiciones <code>DUAL_WIELDING_SAME_CATEGORY</code> entre la mano principal y la secundaria, '''y''' como categoría de destino del sistema de regex <code>fallbackCompatibility</code> de [[Special:MyLanguage/Combat Config|Configuración de combate]].",
+  "outdated": false
+ },
+ "25": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "26": {
+  "source": "Innate critical chance (<code>0.0</code>–<code>1.0</code>), applied as an attribute modifier.",
+  "translation": "Probabilidad crítica innata (<code>0.0</code>–<code>1.0</code>), aplicada como modificador de atributo.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "28": {
+  "source": "Innate critical damage multiplier, applied as an attribute modifier.",
+  "translation": "Multiplicador de daño crítico innato, aplicado como modificador de atributo.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Array",
+  "translation": "Array",
+  "outdated": false
+ },
+ "30": {
+  "source": "'''Required.''' One or more attack variants (see below).",
+  "translation": "'''Obligatorio.''' Una o más variantes de ataque (ver abajo).",
+  "outdated": false
+ },
+ "31": {
+  "source": "== Attack entries ==",
+  "translation": "== Entradas de ataque ==",
+  "outdated": false
+ },
+ "32": {
+  "source": "Each entry of <code>attacks</code> describes one swing variant. DragonMineZ checks the <code>conditions</code> from top to bottom and uses the first attack whose conditions all pass.",
+  "translation": "Cada entrada de <code>attacks</code> describe una variante de golpe. DragonMineZ revisa las <code>conditions</code> de arriba abajo y usa el primer ataque cuyas condiciones se cumplen todas.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "34": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "35": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "36": {
+  "source": "List of condition strings",
+  "translation": "Lista de textos de condición",
+  "outdated": false
+ },
+ "37": {
+  "source": "All of them must be true for this variant to fire. Leave it out for an unconditional attack.",
+  "translation": "Todas deben cumplirse para que se active esta variante. Omítelo para un ataque sin condiciones.",
+  "outdated": false
+ },
+ "38": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "39": {
+  "source": "<code>FORWARD_BOX</code> (a box extending forward, closest to vanilla), <code>VERTICAL_PLANE</code> (a vertical sweeping slash) or <code>HORIZONTAL_PLANE</code> (a wide horizontal sweep).",
+  "translation": "<code>FORWARD_BOX</code> (una caja que se extiende hacia delante, lo más parecido a vanilla), <code>VERTICAL_PLANE</code> (un tajo vertical de barrido) o <code>HORIZONTAL_PLANE</code> (un barrido horizontal amplio).",
+  "outdated": false
+ },
+ "40": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "41": {
+  "source": "Multiplier on the weapon's base damage (default <code>1.0</code>).",
+  "translation": "Multiplicador del daño base del arma (por defecto <code>1.0</code>).",
+  "outdated": false
+ },
+ "42": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "43": {
+  "source": "Swing arc in degrees.",
+  "translation": "Arco del golpe en grados.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "45": {
+  "source": "Cooldown multiplier: <code>cooldownTicks = (1 / (4 - attackSpeed)) * 20 * upswing</code>. Lower means a faster follow-up. It also sets the swing's '''windup''' (the delay before the hit lands): animation ticks × <code>upswing</code> × 0.95, clamped to 3–7 ticks.",
+  "translation": "Multiplicador del tiempo de recarga: <code>cooldownTicks = (1 / (4 - attackSpeed)) * 20 * upswing</code>. Un valor menor significa un golpe siguiente más rápido. También define la '''preparación''' del golpe (el retraso antes de que impacte): ticks de animación × <code>upswing</code> × 0.95, limitado a 3–7 ticks.",
+  "outdated": false
+ },
+ "46": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "47": {
+  "source": "GeckoLib animation name. It is checked against <code>animations/*.json</code>; if there is no exact match, DragonMineZ picks the closest name (Levenshtein distance) after stripping known prefixes (<code>dragonminez:</code>, <code>bettercombat:</code>, <code>combat.</code>).",
+  "translation": "Nombre de animación de GeckoLib. Se compara con <code>animations/*.json</code>; si no hay una coincidencia exacta, DragonMineZ elige el nombre más parecido (distancia de Levenshtein) después de quitar los prefijos conocidos (<code>dragonminez:</code>, <code>bettercombat:</code>, <code>combat.</code>).",
+  "outdated": false
+ },
+ "48": {
+  "source": "Sound played on swing or impact. <code>volume</code> and <code>pitch</code> default to <code>1.0</code>, <code>randomness</code> to <code>0.1</code>.",
+  "translation": "Sonido que se reproduce al golpear o al impactar. <code>volume</code> y <code>pitch</code> valen <code>1.0</code> por defecto, y <code>randomness</code>, <code>0.1</code>.",
+  "outdated": false
+ },
+ "49": {
+  "source": "=== Attack conditions ===",
+  "translation": "=== Condiciones de ataque ===",
+  "outdated": false
+ },
+ "50": {
+  "source": "This is the complete list of conditions:",
+  "translation": "Esta es la lista completa de condiciones:",
+  "outdated": false
+ },
+ "51": {
+  "source": "Condition",
+  "translation": "Condición",
+  "outdated": false
+ },
+ "52": {
+  "source": "Meaning",
+  "translation": "Significado",
+  "outdated": false
+ },
+ "53": {
+  "source": "The off hand is empty (air).",
+  "translation": "La mano secundaria está vacía (aire).",
+  "outdated": false
+ },
+ "54": {
+  "source": "Both hands hold something.",
+  "translation": "Ambas manos sostienen algo.",
+  "outdated": false
+ },
+ "55": {
+  "source": "Both hands hold the exact same item id.",
+  "translation": "Ambas manos sostienen exactamente el mismo id de objeto.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Both hands hold items that share the same <code>category</code>.",
+  "translation": "Ambas manos sostienen objetos que comparten la misma <code>category</code>.",
+  "outdated": false
+ },
+ "57": {
+  "source": "The off hand is empty.",
+  "translation": "La mano secundaria está vacía.",
+  "outdated": false
+ },
+ "58": {
+  "source": "The off hand holds a shield.",
+  "translation": "La mano secundaria sostiene un escudo.",
+  "outdated": false
+ },
+ "59": {
+  "source": "The attack only applies to the main-hand weapon.",
+  "translation": "El ataque solo se aplica al arma de la mano principal.",
+  "outdated": false
+ },
+ "60": {
+  "source": "The attack only applies to the off-hand weapon.",
+  "translation": "El ataque solo se aplica al arma de la mano secundaria.",
+  "outdated": false
+ },
+ "61": {
+  "source": "The player is riding an entity.",
+  "translation": "El jugador va montado en una entidad.",
+  "outdated": false
+ },
+ "62": {
+  "source": "The player is not riding.",
+  "translation": "El jugador no va montado.",
+  "outdated": false
+ },
+ "63": {
+  "source": "The player is crouching.",
+  "translation": "El jugador está agachado.",
+  "outdated": false
+ },
+ "64": {
+  "source": "The player is standing.",
+  "translation": "El jugador está de pie.",
+  "outdated": false
+ },
+ "65": {
+  "source": "== Full example ==",
+  "translation": "== Ejemplo completo ==",
+  "outdated": false
+ },
+ "66": {
+  "source": "A dagger with several attacks and a dual-wield variant:",
+  "translation": "Una daga con varios ataques y una variante para empuñar dos armas:",
+  "outdated": false
+ },
+ "67": {
+  "source": "An inheritance example (<code>brave_sword.json</code>, overriding only the critical stats):",
+  "translation": "Un ejemplo de herencia (<code>brave_sword.json</code>, que solo sobrescribe las estadísticas críticas):",
+  "outdated": false
+ },
+ "68": {
+  "source": "== Shipped attribute files ==",
+  "translation": "== Archivos de atributos incluidos ==",
+  "outdated": false
+ },
+ "69": {
+  "source": "DragonMineZ ships these entries under <code>data/dragonminez/weapon_attributes/</code>, so you can use them as a <code>parent</code> or as a <code>weaponCombo</code> or fallback target:",
+  "translation": "DragonMineZ incluye estas entradas en <code>data/dragonminez/weapon_attributes/</code>, así que puedes usarlas como <code>parent</code> o como destino de <code>weaponCombo</code> o del sistema de respaldo:",
+  "outdated": false
+ },
+ "70": {
+  "source": "* '''Base movesets:''' <code>anchor</code>, <code>axe</code>, <code>battlestaff</code>, <code>claw</code>, <code>claymore</code>, <code>cutlass</code>, <code>dagger</code>, <code>double_axe</code>, <code>fist</code>, <code>giant</code>, <code>glaive</code>, <code>halberd</code>, <code>hammer</code>, <code>katana</code>, <code>lance</code>, <code>mace</code>, <code>pickaxe</code>, <code>rapier</code>, <code>scythe</code>, <code>sickle</code>, <code>soul_knife</code>, <code>spear</code>, <code>staff</code>, <code>sword</code>, <code>trident</code>, <code>twin_blade</code>, <code>wand</code>.\n* '''Signature weapons:''' <code>brave_sword</code> ([[Special:MyLanguage/Brave Sword|Brave Sword]], parent <code>sword</code>), <code>yajirobe_katana</code> ([[Special:MyLanguage/Yajirobe's Katana|Yajirobe's Katana]], parent <code>katana</code>), <code>z_sword</code> ([[Special:MyLanguage/Z Sword|Z Sword]], parent <code>claymore</code>) and <code>power_pole</code> ([[Special:MyLanguage/Power Pole|Power Pole]], parent <code>staff</code>, with its own three-hit combo).",
+  "translation": "* '''Combos base:''' <code>anchor</code>, <code>axe</code>, <code>battlestaff</code>, <code>claw</code>, <code>claymore</code>, <code>cutlass</code>, <code>dagger</code>, <code>double_axe</code>, <code>fist</code>, <code>giant</code>, <code>glaive</code>, <code>halberd</code>, <code>hammer</code>, <code>katana</code>, <code>lance</code>, <code>mace</code>, <code>pickaxe</code>, <code>rapier</code>, <code>scythe</code>, <code>sickle</code>, <code>soul_knife</code>, <code>spear</code>, <code>staff</code>, <code>sword</code>, <code>trident</code>, <code>twin_blade</code>, <code>wand</code>.\n* '''Armas características:''' <code>brave_sword</code> ([[Special:MyLanguage/Brave Sword|Espada Valiente]], padre <code>sword</code>), <code>yajirobe_katana</code> ([[Special:MyLanguage/Yajirobe's Katana|Katana de Yajirobe]], padre <code>katana</code>), <code>z_sword</code> ([[Special:MyLanguage/Z Sword|Espada Z]], padre <code>claymore</code>) y <code>power_pole</code> ([[Special:MyLanguage/Power Pole|Bastón Mágico]], padre <code>staff</code>, con su propio combo de tres golpes).",
+  "outdated": false
+ },
+ "71": {
+  "source": "DragonMineZ items without an entry of their own (for example the [[Special:MyLanguage/Dimension Sword|Dimension Sword]] and the Tamagami weapons: [[Special:MyLanguage/Tamagami Sword|Tamagami Sword]], [[Special:MyLanguage/Tamagami Trident|Tamagami Trident]] and [[Special:MyLanguage/Tamagami Hammer|Tamagami Hammer]]) get their moveset from the <code>fallbackCompatibility</code> regexes in [[Special:MyLanguage/Combat Config|Combat Config]], just like third-party weapons.",
+  "translation": "Los objetos de DragonMineZ que no tienen una entrada propia (por ejemplo la [[Special:MyLanguage/Dimension Sword|Espada Dimensional]] y las armas de Tamagami: [[Special:MyLanguage/Tamagami Sword|Espada de Tamagami]], [[Special:MyLanguage/Tamagami Trident|Tridente de Tamagami]] y [[Special:MyLanguage/Tamagami Hammer|Martillo de Tamagami]]) obtienen su combo de las regex de <code>fallbackCompatibility</code> de [[Special:MyLanguage/Combat Config|Configuración de combate]], igual que las armas de terceros.",
+  "outdated": false
+ },
+ "72": {
+  "source": "== For third-party weapon mods ==",
+  "translation": "== Para mods de armas de terceros ==",
+  "outdated": false
+ },
+ "73": {
+  "source": "If your mod adds weapons and you don't ship a Weapon Attributes entry for them, DragonMineZ falls back to matching the item id of every item with an attack-damage modifier against the <code>fallbackCompatibility</code> list in [[Special:MyLanguage/Combat Config|Combat Config]] (for example, an item id containing <code>axe</code> is treated like <code>dragonminez:axe</code>). This gives a reasonable default, but a real datapack entry that matches your weapon's actual moveset and animations is always more accurate, and it always takes priority over the fallback guess.",
+  "translation": "Si tu mod añade armas y no incluyes una entrada de Atributos de armas para ellas, DragonMineZ recurre a comparar el id de cada objeto con un modificador de daño de ataque con la lista <code>fallbackCompatibility</code> de [[Special:MyLanguage/Combat Config|Configuración de combate]] (por ejemplo, un id de objeto que contiene <code>axe</code> se trata como <code>dragonminez:axe</code>). Esto da un valor por defecto razonable, pero una entrada de datapack real que coincida con el combo y las animaciones reales de tu arma siempre es más precisa, y siempre tiene prioridad sobre la suposición del sistema de respaldo.",
+  "outdated": false
+ },
+ "74": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recargar y validar ==",
+  "outdated": false
+ },
+ "75": {
+  "source": "# Add or edit files under <code>data/<namespace>/weapon_attributes/</code>.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run the vanilla <code>/reload</code>, or restart. This is a plain datapack reload listener, not part of <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).\n# Test the weapon in game: range, animation, hitbox shape and any conditional variants (dual-wielding, sneaking, mounted).",
+  "translation": "# Añade o edita archivos en <code>data/<namespace>/weapon_attributes/</code>.\n# Valida la sintaxis JSON (consulta [[Special:MyLanguage/How to JSON|Cómo usar JSON]]).\n# Ejecuta el <code>/reload</code> de vanilla o reinicia. Es un listener de recarga de datapacks normal, no forma parte de <code>/dmzreload</code> (consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]]).\n# Prueba el arma en el juego: alcance, animación, forma del hitbox y cualquier variante condicional (empuñar dos armas, agacharse, ir montado).",
+  "outdated": false
+ }
+}

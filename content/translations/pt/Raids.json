@@ -1,0 +1,387 @@
+{
+ "Page_display_title": {
+  "source": "Raids",
+  "translation": "Incursões",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Raids''' are wave-based battles against an invading army. You trigger one by killing a marked '''scout''' at a raid site; after a short omen the army arrives in waves at your position, ending with its bosses. Survive every wave and everyone still fighting is rewarded; fall (or leave) and the raid is lost.",
+  "translation": "As '''incursões''' são batalhas em ondas contra um exército invasor. Você inicia uma matando um '''batedor''' marcado em um local de incursão; depois de um breve presságio, o exército chega em ondas até a sua posição e termina com seus chefes. Sobreviva a todas as ondas e todos que ainda estiverem lutando são recompensados; se você cair (ou sair), a incursão é perdida.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Saiyan soldiers and elites from a crashed pod, ending with Oozarus.",
+  "translation": "Soldados e elites saiyajins de uma nave caída, terminando com Grandes Macacos.",
+  "outdated": false
+ },
+ "3": {
+  "source": "Frieza's army on Namek, led by Cui, Dodoria, Zarbon and the Ginyu Force.",
+  "translation": "O exército de Freeza em Namekusei, liderado por Cui, Dodoria, Zarbon e a Força Ginyu.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Gomah's soldiers in the Demon Realm, with Glorio, Majin Kuu and Majin Duu.",
+  "translation": "Os soldados de Gomah no Reino Demoníaco, com Glorio, Majin Kuu e Majin Duu.",
+  "outdated": false
+ },
+ "5": {
+  "source": "== The raids ==",
+  "translation": "== As incursões ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "Raid",
+  "translation": "Incursão",
+  "outdated": false
+ },
+ "7": {
+  "source": "World",
+  "translation": "Mundo",
+  "outdated": false
+ },
+ "8": {
+  "source": "Raid site",
+  "translation": "Local da incursão",
+  "outdated": false
+ },
+ "9": {
+  "source": "Scout (health / melee / ki)",
+  "translation": "Batedor (vida / corpo a corpo / ki)",
+  "outdated": false
+ },
+ "10": {
+  "source": "Rewards",
+  "translation": "Recompensas",
+  "outdated": false
+ },
+ "11": {
+  "source": "Defeat",
+  "translation": "Derrota",
+  "outdated": false
+ },
+ "12": {
+  "source": "Saiyan Crater",
+  "translation": "Cratera saiyajin",
+  "outdated": false
+ },
+ "13": {
+  "source": "10,000 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Green Scouter",
+  "translation": "10,000 TP, Herói da Vila e Herói do Mundo (10 min), 8 Cenouras douradas, 2 Sementes dos Deuses, 1 Scouter (Verde)",
+  "outdated": false
+ },
+ "14": {
+  "source": "−10 alignment",
+  "translation": "−10 de índole",
+  "outdated": false
+ },
+ "15": {
+  "source": "Namekian Ruins",
+  "translation": "Ruínas namekuseijins",
+  "outdated": false
+ },
+ "16": {
+  "source": "30,000 TP, Hero of the Village and Hero of the World II (10 min), 16 Golden Carrots, 3 Senzu Beans, 1 Blaster Cannon",
+  "translation": "30,000 TP, Herói da Vila e Herói do Mundo II (10 min), 16 Cenouras douradas, 3 Sementes dos Deuses, 1 Canhão Blaster",
+  "outdated": false
+ },
+ "17": {
+  "source": "−20 alignment",
+  "translation": "−20 de índole",
+  "outdated": false
+ },
+ "18": {
+  "source": "Gomah Camp",
+  "translation": "Acampamento de Gomah",
+  "outdated": false
+ },
+ "19": {
+  "source": "350,000 TP, Hero of the Village and Hero of the World III (10 min), 16 Golden Carrots, 4 Medi-Bugs (Ant)",
+  "translation": "350,000 TP, Herói da Vila e Herói do Mundo III (10 min), 16 Cenouras douradas, 4 Medi-Bugs (Formiga)",
+  "outdated": false
+ },
+ "20": {
+  "source": "−30 alignment",
+  "translation": "−30 de índole",
+  "outdated": false
+ },
+ "21": {
+  "source": "All three raids have 5 waves. '''Hero of the World''' is a DMZ effect that boosts the TP you earn (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "As três incursões têm 5 ondas. '''Herói do Mundo''' é um efeito do DMZ que aumenta os TP que você ganha (veja [[Special:MyLanguage/Effects|Efeitos]]).",
+  "outdated": false
+ },
+ "22": {
+  "source": "== How a raid plays out ==",
+  "translation": "== Como uma incursão acontece ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "# '''Find a raid site.''' Saiyan Craters, Namekian Ruins and [[Special:MyLanguage/Gomah|Gomah]] Camps generate as structures (see [[Special:MyLanguage/Structures|Structures]]). When you come within 80 blocks of one, you get a chat warning, for example ''\"Your scouter picks up a Saiyan pod that just crashed nearby...\"''. Each site has one scout, shown with a supervillain aura; a site is spent once its scout dies or disappears.\n# '''Kill the scout.''' The player who kills it (or the nearest player, if nobody gets the credit) receives the '''Emperor's Wrath''' omen effect and the preparation music starts. The omen lasts the raid's preparation time (60 seconds by default). If the effect is removed early, for example by drinking milk, the raid is called off.\n# '''The raid starts''' where you stand when the omen runs out. The '''participants''' are you plus every member of your party (see [[Special:MyLanguage/Commands|Commands]]). Only one raid can run in the same area at a time.\n# '''Waves.''' Enemies drop in around the raid centre, 6–16 blocks out. A boss bar shows ''\"Raid — Wave X/Y — N left\"''; it turns purple on boss waves. Raid mobs glow so they're easy to find: minions in purple, bosses in red. In waves with bosses, the bosses stay '''dormant''' until their escort is dead, but attacking one wakes it up early. There's a short pause between waves (5 seconds by default).\n# '''Victory.''' When the last wave is cleared, every participant still fighting gets the rewards, the victory music, fireworks and the ''Hero of the World'' effect.\n# '''Defeat.''' A participant who dies, logs out, changes dimension or switches to spectator is out. Walking farther than 80 blocks (by default) from the raid centre gives you a 15-second countdown to come back. When no participant is left, the raid is lost: the remaining mobs vanish and every participant sees '''YOU LOST!''' and loses alignment (see the table above and [[Special:MyLanguage/Alignment|Alignment]]).",
+  "translation": "# '''Encontre um local de incursão.''' Crateras saiyajins, Ruínas namekuseijins e Acampamentos de [[Special:MyLanguage/Gomah|Gomah]] são gerados como estruturas (veja [[Special:MyLanguage/Structures|Estruturas]]). Quando você chega a menos de 80 blocos de um deles, recebe um aviso no chat, por exemplo ''\"Seu scouter detecta uma nave saiyajin que acabou de cair aqui perto...\"''. Cada local tem um batedor, mostrado com uma aura de supervilão; um local se esgota quando o batedor morre ou desaparece.\n# '''Mate o batedor.''' O jogador que o mata (ou o jogador mais próximo, se ninguém levar o crédito) recebe o efeito de presságio '''Ira do Imperador''' e a música de preparação começa. O presságio dura o tempo de preparação da incursão (60 segundos por padrão). Se o efeito for removido antes, por exemplo bebendo leite, a incursão é cancelada.\n# '''A incursão começa''' onde você estiver quando o presságio acabar. Os '''participantes''' são você e todos os membros do seu grupo (veja [[Special:MyLanguage/Commands|Comandos]]). Só pode haver uma incursão por vez na mesma área.\n# '''Ondas.''' Os inimigos caem ao redor do centro da incursão, a 6–16 blocos. Uma barra de chefe mostra ''\"Incursão — Onda X/Y — restam N\"''; ela fica roxa nas ondas com chefes. As criaturas da incursão brilham para serem fáceis de encontrar: lacaios em roxo, chefes em vermelho. Nas ondas com chefes, os chefes ficam '''adormecidos''' até que a escolta morra, mas atacar um deles o acorda antes. Há uma breve pausa entre as ondas (5 segundos por padrão).\n# '''Vitória.''' Quando a última onda é eliminada, todo participante que ainda estiver lutando recebe as recompensas, a música de vitória, fogos de artifício e o efeito ''Herói do Mundo''.\n# '''Derrota.''' Um participante que morre, sai do jogo, muda de dimensão ou passa para o modo espectador está fora. Afastar-se mais de 80 blocos (por padrão) do centro da incursão inicia uma contagem regressiva de 15 segundos para você voltar. Quando não resta nenhum participante, a incursão é perdida: as criaturas restantes desaparecem e todos os participantes veem '''VOCÊ PERDEU!''' e perdem índole (veja a tabela acima e [[Special:MyLanguage/Alignment|Índole]]).",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Difficulty ===",
+  "translation": "=== Dificuldade ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Raid mobs' health and damage are multiplied by the '''story difficulty''' of the player who started the raid, using the Easy and Hard health and damage multipliers of the server (see [[Special:MyLanguage/Sagas|Sagas]] for the difficulties).",
+  "translation": "A vida e o dano das criaturas da incursão são multiplicados pela '''dificuldade da história''' do jogador que a iniciou, usando os multiplicadores de vida e dano Fácil e Difícil do servidor (veja [[Special:MyLanguage/Sagas|Sagas]] para as dificuldades).",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "All <code>/dmzraid</code> subcommands require operator permission level 2.",
+  "translation": "Todos os subcomandos de <code>/dmzraid</code> exigem nível de permissão de operador 2.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "29": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "30": {
+  "source": "Starts a raid of that type at your position (default: <code>saiyan_assault</code>). Fails if a raid is already running nearby.",
+  "translation": "Inicia uma incursão desse tipo na sua posição (padrão: <code>saiyan_assault</code>). Falha se já houver uma incursão em andamento por perto.",
+  "outdated": false
+ },
+ "31": {
+  "source": "Cancels the nearest raid within 128 blocks (no defeat penalty).",
+  "translation": "Cancela a incursão mais próxima em um raio de 128 blocos (sem penalidade por derrota).",
+  "outdated": false
+ },
+ "32": {
+  "source": "Shows the nearest raid's id, status, wave, participant count and centre.",
+  "translation": "Mostra o id, o estado, a onda, o número de participantes e o centro da incursão mais próxima.",
+  "outdated": false
+ },
+ "33": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "34": {
+  "source": "Raids are defined in JSON files under <code>config/dragonminez/raids/</code>, so server owners can tune the shipped raids or add their own. Each raid is one file named after its id: <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> and <code>gomah_assault.json</code> are generated with their defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded as an '''extra raid''' with the file name as its id; files whose name starts with <code>old_</code> are ignored. Reload with <code>/dmzreload config</code>.",
+  "translation": "As incursões são definidas em arquivos JSON em <code>config/dragonminez/raids/</code>, então os donos de servidores podem ajustar as incursões incluídas ou adicionar as suas. Cada incursão é um arquivo com o nome do seu id: <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> e <code>gomah_assault.json</code> são gerados com os valores padrão e atualizados por versão como os outros arquivos de configuração. Qualquer outro arquivo <code>.json</code> na pasta é carregado como uma '''incursão extra''' com o nome do arquivo como id; arquivos cujo nome começa com <code>old_</code> são ignorados. Recarregue com <code>/dmzreload config</code>.",
+  "outdated": false
+ },
+ "35": {
+  "source": "=== Top-level fields ===",
+  "translation": "=== Campos principais ===",
+  "outdated": false
+ },
+ "36": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "37": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "38": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "39": {
+  "source": "Notes",
+  "translation": "Notas",
+  "outdated": false
+ },
+ "40": {
+  "source": "Managed by DMZ.",
+  "translation": "Gerenciado pelo DMZ.",
+  "outdated": false
+ },
+ "41": {
+  "source": "<code>false</code> removes the raid.",
+  "translation": "<code>false</code> remove a incursão.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Translation key shown on the boss bar.",
+  "translation": "Chave de tradução mostrada na barra de chefe.",
+  "outdated": false
+ },
+ "43": {
+  "source": "No second raid can start within this distance of a running one; also the range used to credit a scout kill to the nearest player.",
+  "translation": "Nenhuma segunda incursão pode começar a essa distância de uma em andamento; também é o alcance usado para creditar a morte de um batedor ao jogador mais próximo.",
+  "outdated": false
+ },
+ "44": {
+  "source": "How far participants can go from the raid centre before the 15-second countdown.",
+  "translation": "Até onde os participantes podem se afastar do centro da incursão antes da contagem regressiva de 15 segundos.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Pause between waves.",
+  "translation": "Pausa entre as ondas.",
+  "outdated": false
+ },
+ "46": {
+  "source": "<code>preparation</code> (sound event played during the omen) and <code>battle</code> (played during the waves; default <code>dragonminez:raid_ost_1</code>).",
+  "translation": "<code>preparation</code> (evento de som tocado durante o presságio) e <code>battle</code> (tocado durante as ondas; padrão <code>dragonminez:raid_ost_1</code>).",
+  "outdated": false
+ },
+ "47": {
+  "source": "How the raid is started (see below). A raid without a trigger can only be started with <code>/dmzraid start</code>.",
+  "translation": "Como a incursão é iniciada (veja abaixo). Uma incursão sem gatilho só pode ser iniciada com <code>/dmzraid start</code>.",
+  "outdated": false
+ },
+ "48": {
+  "source": "The waves, in order. A raid with no waves is skipped.",
+  "translation": "As ondas, em ordem. Uma incursão sem ondas é ignorada.",
+  "outdated": false
+ },
+ "49": {
+  "source": "<code>trainingPoints</code>, <code>effects</code> (<code>id</code>, <code>seconds</code>, <code>amplifier</code>) and <code>items</code> (<code>id</code>, <code>count</code>), given to every participant still fighting at the end.",
+  "translation": "<code>trainingPoints</code>, <code>effects</code> (<code>id</code>, <code>seconds</code>, <code>amplifier</code>) e <code>items</code> (<code>id</code>, <code>count</code>), dados a todo participante que ainda estiver lutando no final.",
+  "outdated": false
+ },
+ "50": {
+  "source": "<code>title</code> and <code>subtitle</code> (translation keys) and <code>alignment</code> (signed alignment change applied to every participant).",
+  "translation": "<code>title</code> e <code>subtitle</code> (chaves de tradução) e <code>alignment</code> (mudança de índole com sinal aplicada a todos os participantes).",
+  "outdated": false
+ },
+ "51": {
+  "source": "=== Trigger ===",
+  "translation": "=== Gatilho ===",
+  "outdated": false
+ },
+ "52": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "53": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "54": {
+  "source": "Notes",
+  "translation": "Notas",
+  "outdated": false
+ },
+ "55": {
+  "source": "The scout: an entity id, or an entity tag with <code>#</code> (for example <code>#dragonminez:frieza_soldiers</code>).",
+  "translation": "O batedor: um id de entidade, ou uma tag de entidade com <code>#</code> (por exemplo <code>#dragonminez:frieza_soldiers</code>).",
+  "outdated": false
+ },
+ "56": {
+  "source": "Dimension the trigger works in.",
+  "translation": "Dimensão em que o gatilho funciona.",
+  "outdated": false
+ },
+ "57": {
+  "source": "Chance that a '''naturally spawned''' mob matching <code>entityId</code> in that dimension is marked as a raid scout. <code>0</code> in all shipped raids, which rely on their raid sites instead.",
+  "translation": "Chance de uma criatura '''surgida naturalmente''' que corresponda a <code>entityId</code> nessa dimensão ser marcada como batedor de incursão. <code>0</code> em todas as incursões incluídas, que dependem dos seus locais de incursão.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Show the scout with the supervillain aura (default <code>true</code>).",
+  "translation": "Mostra o batedor com a aura de supervilão (padrão <code>true</code>).",
+  "outdated": false
+ },
+ "59": {
+  "source": "Length of the omen (default <code>60</code>).",
+  "translation": "Duração do presságio (padrão <code>60</code>).",
+  "outdated": false
+ },
+ "60": {
+  "source": "Translation keys for the raid-site warning, the omen and the start of the raid.",
+  "translation": "Chaves de tradução para o aviso do local de incursão, o presságio e o início da incursão.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Stats of the scout placed at a raid site.",
+  "translation": "Atributos do batedor colocado em um local de incursão.",
+  "outdated": false
+ },
+ "62": {
+  "source": "The structure raid sites (Saiyan Crater, Namekian Ruins and Gomah Camp) are tied to the three shipped raids. An extra raid can use <code>spawnChance</code> or <code>/dmzraid start</code>.",
+  "translation": "Os locais de incursão que são estruturas (Cratera saiyajin, Ruínas namekuseijins e Acampamento de Gomah) estão ligados às três incursões incluídas. Uma incursão extra pode usar <code>spawnChance</code> ou <code>/dmzraid start</code>.",
+  "outdated": false
+ },
+ "63": {
+  "source": "=== Waves ===",
+  "translation": "=== Ondas ===",
+  "outdated": false
+ },
+ "64": {
+  "source": "Each wave is <code>{ \"spawns\": [ ... ] }</code>, and each spawn entry describes one group:",
+  "translation": "Cada onda é <code>{ \"spawns\": [ ... ] }</code>, e cada entrada de surgimento descreve um grupo:",
+  "outdated": false
+ },
+ "65": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "66": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "67": {
+  "source": "Notes",
+  "translation": "Notas",
+  "outdated": false
+ },
+ "68": {
+  "source": "Entity id, or <code>#tag</code> to pick a random member of an entity tag for each mob.",
+  "translation": "Id de entidade, ou <code>#tag</code> para escolher um membro aleatório de uma tag de entidade para cada criatura.",
+  "outdated": false
+ },
+ "69": {
+  "source": "How many to spawn (default <code>1</code>).",
+  "translation": "Quantas gerar (padrão <code>1</code>).",
+  "outdated": false
+ },
+ "70": {
+  "source": "Absolute stats, before the difficulty multiplier.",
+  "translation": "Atributos absolutos, antes do multiplicador de dificuldade.",
+  "outdated": false
+ },
+ "71": {
+  "source": "<code>1</code> Novice, <code>2</code> Smart, <code>3</code> Elite, <code>4</code> Expert.",
+  "translation": "<code>1</code> Novato, <code>2</code> Inteligente, <code>3</code> Elite, <code>4</code> Especialista.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Texture variant, for mobs that have several.",
+  "translation": "Variante de textura, para criaturas que têm várias.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Boss behaviour: the mob waits until the rest of the wave is dead.",
+  "translation": "Comportamento de chefe: a criatura espera até que o resto da onda morra.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Whether the mob may transform (default <code>true</code>).",
+  "translation": "Se a criatura pode se transformar (padrão <code>true</code>).",
+  "outdated": false
+ },
+ "75": {
+  "source": "Stats of the transformed form.",
+  "translation": "Atributos da forma transformada.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Example: the first two waves of Frieza's Invasion.",
+  "translation": "Exemplo: as duas primeiras ondas da Invasão de Freeza.",
+  "outdated": false
+ }
+}

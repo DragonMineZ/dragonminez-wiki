@@ -1,0 +1,417 @@
+{
+ "Page_display_title": {
+  "source": "Skills",
+  "translation": "Habilidades",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Skills''' are the abilities you learn from [[Special:MyLanguage/Masters|masters]] and level up with [[Special:MyLanguage/Training Points and Mastery|Training Points]] (TP). Some change how you move and sense the world, others quietly modify your combat. Your attacks are [[Special:MyLanguage/Techniques|techniques]], which are bought the same way but work differently, and every race also has its own [[Special:MyLanguage/Racial Skills|racial skill]].",
+  "translation": "Las '''habilidades''' son las capacidades que aprendes de los [[Special:MyLanguage/Masters|maestros]] y subes de nivel con [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento]] (TP). Algunas cambian cómo te mueves y percibes el mundo; otras modifican tu combate en silencio. Tus ataques son [[Special:MyLanguage/Techniques|técnicas]], que se compran del mismo modo pero funcionan de forma distinta, y cada raza tiene además su propia [[Special:MyLanguage/Racial Skills|habilidad racial]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "Learn Ki Control first",
+  "translation": "Aprende primero Control de Ki",
+  "outdated": false
+ },
+ "3": {
+  "source": "[[Special:MyLanguage/Ki Control|Ki Control]] is the most important skill. It is the foundation for channeling ki, so flight, ki attacks, strike attacks and other ki-based actions won't work until you have it. Almost every master teaches it.",
+  "translation": "El [[Special:MyLanguage/Ki Control|Control de Ki]] es la habilidad más importante. Es la base para canalizar el ki, así que el vuelo, los ataques de ki, los Super Golpes y otras acciones basadas en el ki no funcionarán hasta que lo tengas. Casi todos los maestros lo enseñan.",
+  "outdated": false
+ },
+ "4": {
+  "source": "The foundation for channeling ki. Learn it first.",
+  "translation": "La base para canalizar el ki. Apréndelo primero.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Ki flight, with a fast travel mode and a mode for fighting.",
+  "translation": "Vuelo con ki, con un modo rápido para viajar y otro para pelear.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Feel the ki of the beings around you and extend your lock-on range.",
+  "translation": "Siente el ki de los seres a tu alrededor y amplía tu alcance para fijar objetivos.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Teleport behind a target, or warp to masters and allies.",
+  "translation": "Teletranspórtate detrás de un objetivo o viaja hasta maestros y aliados.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Raises your maximum Power Release.",
+  "translation": "Aumenta tu Liberación de Poder máxima.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Faster Ki and stamina regeneration and a passive melee dodge.",
+  "translation": "Regeneración de Ki y stamina más rápida y esquiva pasiva cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Shape your ki into blades, scythes and lances.",
+  "translation": "Da forma a tu ki como espadas, guadañas y lanzas.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Pour Ki into your blows for bonus melee damage.",
+  "translation": "Vierte Ki en tus golpes para hacer daño cuerpo a cuerpo extra.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Spend Ki to soften the hits you take.",
+  "translation": "Gasta Ki para suavizar los golpes que recibes.",
+  "outdated": false
+ },
+ "13": {
+  "source": "The Fusion skill: merge with a player of your own race.",
+  "translation": "La habilidad Fusión: únete con un jugador de tu propia raza.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Learning and levelling skills ==",
+  "translation": "== Cómo aprender y subir de nivel las habilidades ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Masters teach skills. Talk to a master and choose '''Skills''' in the dialogue to open their skill shop; each master only teaches a specific set (see the tables below and each master's page). Purchases are checked by the server: you must be within 10 blocks of a master who offers the skill, your race must be allowed to learn it, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you. Techniques are the exception to the race rule: any race can learn them, but a race-locked technique can only be equipped by its races (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]).",
+  "translation": "Los maestros enseñan habilidades. Habla con un maestro y elige '''Habilidades''' en el diálogo para abrir su tienda de habilidades; cada maestro solo enseña un conjunto concreto (consulta las tablas de abajo y la página de cada maestro). El servidor comprueba las compras: debes estar a 10 bloques o menos de un maestro que ofrezca la habilidad, tu raza debe poder aprenderla, y un maestro que te rechace por tu [[Special:MyLanguage/Alignment|alineamiento]] no te enseñará. Las técnicas son la excepción a la regla de raza: cualquier raza puede aprenderlas, pero una técnica limitada por raza solo pueden equiparla sus razas (consulta [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Once you own a skill, you can level it up anywhere from the '''Skills''' tab of the Character Menu ({{Key|V}}), which has the tabs '''Skills''', [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]], '''Evasion Attacks''' and '''Forms'''. Double-click an entry to buy its next level with TP. Racial skills are listed there too, one entry per racial ability.",
+  "translation": "Cuando tienes una habilidad, puedes subirla de nivel desde cualquier lugar en la pestaña '''Habilidades''' del menú de personaje ({{Key|V}}), que tiene las pestañas '''Habilidades''', [[Special:MyLanguage/Ki Attacks|Ataques de Ki]], [[Special:MyLanguage/Strike Attacks|Super Golpes]], '''Ataques de Evasión''' y '''Formas'''. Haz doble clic en una entrada para comprar su siguiente nivel con TP. Las habilidades raciales también aparecen ahí, una entrada por cada capacidad racial.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Each level has its own TP cost. A few levels can't be bought at all and are granted another way: level 11 of [[Special:MyLanguage/Potential Unlock|Potential Unlock]] comes from [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], and the [[Special:MyLanguage/Ultimate|Ultimate]] stack form from Old Kai's Ultimate Challenge.",
+  "translation": "Cada nivel tiene su propio costo en TP. Algunos niveles no se pueden comprar y se obtienen de otra forma: el nivel 11 de [[Special:MyLanguage/Potential Unlock|Potencial liberado]] lo da el [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]], y la forma acumulable [[Special:MyLanguage/Ultimate|Definitivo]], el Desafío Definitivo del Kaioshin Anciano.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Some skills only work while switched on. Fly, Jump and Sprint are toggled in the Utility Menu ({{Key|X}}) under '''Movement'''; [[Special:MyLanguage/Ki Protection|Ki Protection]] and [[Special:MyLanguage/Ki Infusion|Ki Infusion]] are toggled under '''Actions → Ki Actions''', and the ki weapons of [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] are formed from '''Actions → Ki Weapons'''.",
+  "translation": "Algunas habilidades solo funcionan mientras están activadas. Vuelo, Salto y Sprint se activan en el Menú de utilidades ({{Key|X}}) en '''Movimiento'''; la [[Special:MyLanguage/Ki Protection|Protección de Ki]] y la [[Special:MyLanguage/Ki Infusion|Infusión de Ki]] se activan en '''Acciones → Acciones de Ki''', y las armas de ki de la [[Special:MyLanguage/Ki Manipulation|Manipulación de Ki]] se crean desde '''Acciones → Armas de Ki'''.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Admins can set, add or remove skills with {{Command|/dmzskill}} (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "Los administradores pueden establecer, añadir o quitar habilidades con {{Command|/dmzskill}} (consulta [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ },
+ "20": {
+  "source": "=== Default TP costs ===",
+  "translation": "=== Costos en TP por defecto ===",
+  "outdated": false
+ },
+ "21": {
+  "source": "Skill",
+  "translation": "Habilidad",
+  "outdated": false
+ },
+ "22": {
+  "source": "TP cost of each level",
+  "translation": "Costo en TP de cada nivel",
+  "outdated": false
+ },
+ "23": {
+  "source": "Jump, Sprint, Meditation, Ki Sense",
+  "translation": "Salto, Sprint, Meditación, Sentir Ki",
+  "outdated": false
+ },
+ "24": {
+  "source": "— (level 11 is granted by Grand Elder Guru)",
+  "translation": "— (el nivel 11 lo otorga el Gran Anciano Gurú)",
+  "outdated": false
+ },
+ "25": {
+  "source": "Ki Boost",
+  "translation": "Impulso de Ki",
+  "outdated": false
+ },
+ "26": {
+  "source": "Ki Manipulation, Instant Transmission, Defense Penetration, Healing Reduction, Ki Infusion, Ki Protection",
+  "translation": "Manipulación de Ki, Teletransportación Instantánea, Penetración de Defensa, Reducción de Curación, Infusión de Ki, Protección de Ki",
+  "outdated": false
+ },
+ "27": {
+  "source": "Fusion",
+  "translation": "Fusión",
+  "outdated": false
+ },
+ "28": {
+  "source": "Kaioken (stack form)",
+  "translation": "Kaioken (forma acumulable)",
+  "outdated": false
+ },
+ "29": {
+  "source": "Ultimate (stack form)",
+  "translation": "Definitivo (forma acumulable)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Can't be bought (granted by Old Kai)",
+  "translation": "No se puede comprar (lo otorga el Kaioshin Anciano)",
+  "outdated": false
+ },
+ "31": {
+  "source": "These are the defaults; server owners can change every cost, which races may learn a skill and which master teaches it.",
+  "translation": "Estos son los valores por defecto; los dueños de servidores pueden cambiar cada costo, qué razas pueden aprender una habilidad y qué maestro la enseña.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Movement and utility skills ==",
+  "translation": "== Habilidades de movimiento y utilidad ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "Skill",
+  "translation": "Habilidad",
+  "outdated": false
+ },
+ "34": {
+  "source": "Levels",
+  "translation": "Niveles",
+  "outdated": false
+ },
+ "35": {
+  "source": "Taught by",
+  "translation": "Lo enseña",
+  "outdated": false
+ },
+ "36": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "37": {
+  "source": "Almost every master",
+  "translation": "Casi todos los maestros",
+  "outdated": false
+ },
+ "38": {
+  "source": "The foundation for channeling ki: required to fly and to charge and use ki, strike and evasion techniques.",
+  "translation": "La base para canalizar el ki: necesaria para volar y para cargar y usar técnicas de ki, de golpe y de evasión.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Jump",
+  "translation": "Salto",
+  "outdated": false
+ },
+ "40": {
+  "source": "Higher jumping (scales with level).",
+  "translation": "Saltos más altos (escala con el nivel).",
+  "outdated": false
+ },
+ "41": {
+  "source": "Sprint",
+  "translation": "Sprint",
+  "outdated": false
+ },
+ "42": {
+  "source": "Faster sprinting (scales with level).",
+  "translation": "Sprint más rápido (escala con el nivel).",
+  "outdated": false
+ },
+ "43": {
+  "source": "Ki flight, toggled with {{Key|F}}; levels increase your speed. Switch between Search Fly and Combat Fly with {{Key|Alt}} + {{Key|F}}.",
+  "translation": "Vuelo con ki, que se activa con {{Key|F}}; los niveles aumentan tu velocidad. Cambia entre Vuelo de búsqueda y Vuelo de combate con {{Key|Alt}} + {{Key|F}}.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Sense the ki of living beings around you ({{Key|F4}} cycles Combat mode, Search mode and off). Also sets your lock-on range for homing ki attacks.",
+  "translation": "Percibe el ki de los seres vivos a tu alrededor ({{Key|F4}} alterna entre el modo Combate, el modo Búsqueda y desactivado). También determina tu alcance para fijar objetivos con los ataques de ki teledirigidos.",
+  "outdated": false
+ },
+ "45": {
+  "source": "+5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.",
+  "translation": "+5% de regeneración de Ki y stamina por nivel, y una probabilidad de esquivar pasivamente los ataques cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "46": {
+  "source": "+5% maximum Power Release per level (from 50% up to 100% at level 10, 115% at level 13) and faster releasing.",
+  "translation": "+5% de Liberación de Poder máxima por nivel (del 50% hasta el 100% en el nivel 10, 115% en el nivel 13) y liberación más rápida.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Tap {{Key|H}} to teleport behind a target; from level 5, hold it to warp to masters, party members and other players.",
+  "translation": "Toca {{Key|H}} para teletransportarte detrás de un objetivo; desde el nivel 5, mantenla pulsada para viajar hasta maestros, miembros del grupo y otros jugadores.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Fusion",
+  "translation": "Fusión",
+  "outdated": false
+ },
+ "49": {
+  "source": "Learn the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] (Metamoru) to merge with a player of your race; its level sets how long the fusion lasts.",
+  "translation": "Aprende la [[Special:MyLanguage/Fusion Dance|Danza de la Fusión]] (Metamoru) para unirte con un jugador de tu raza; su nivel determina cuánto dura la fusión.",
+  "outdated": false
+ },
+ "50": {
+  "source": "== Passive combat abilities ==",
+  "translation": "== Habilidades pasivas de combate ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "These abilities quietly modify your combat. They are bought and levelled like any other skill.",
+  "translation": "Estas habilidades modifican tu combate en silencio. Se compran y se suben de nivel como cualquier otra habilidad.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Ability",
+  "translation": "Habilidad",
+  "outdated": false
+ },
+ "53": {
+  "source": "Levels",
+  "translation": "Niveles",
+  "outdated": false
+ },
+ "54": {
+  "source": "Taught by",
+  "translation": "Lo enseña",
+  "outdated": false
+ },
+ "55": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "56": {
+  "source": "Ki Boost",
+  "translation": "Impulso de Ki",
+  "outdated": false
+ },
+ "57": {
+  "source": "+25% Ki regeneration per level while you are actively charging Ki. It does not affect passive regeneration.",
+  "translation": "+25% de regeneración de Ki por nivel mientras cargas Ki activamente. No afecta a la regeneración pasiva.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Form ki weapons (Ki Blade, Ki Scythe, Ki Claw Lance) that deal your Ki Damage × the weapon's scaling × 10% per level, and raise basic ki-blast damage by 5% of your Ki Damage per level. Level 5 unlocks Shadow Dummy sparring.",
+  "translation": "Crea armas de ki (Espada de Ki, Guadaña de Ki, Lanza-Garra de Ki) que hacen tu Daño de ki × el escalado del arma × 10% por nivel, y aumenta el daño de las ráfagas de ki básicas en un 5% de tu Daño de ki por nivel. El nivel 5 desbloquea el entrenamiento con el Doble de Sombra.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Bonus melee damage equal to 2.5% of your max Ki per level (up to +25%), paid with 2.5%–7.5% of your max Ki per hit.",
+  "translation": "Daño cuerpo a cuerpo extra igual al 2.5% de tu Ki máximo por nivel (hasta +25%), pagado con un 2.5%–7.5% de tu Ki máximo por golpe.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Reduces incoming damage by 2.5% per level (up to 25%), at a Ki cost of 15% of the incoming damage.",
+  "translation": "Reduce el daño recibido un 2.5% por nivel (hasta un 25%), con un costo de Ki del 15% del daño recibido.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Defense Penetration",
+  "translation": "Penetración de Defensa",
+  "outdated": false
+ },
+ "62": {
+  "source": "Ignores 2.5% of the enemy's defense per level. Together with the [[Special:MyLanguage/Enchantments|enchantment]] of the same name and other sources it is capped at 50%.",
+  "translation": "Ignora un 2.5% de la defensa del enemigo por nivel. Junto con el [[Special:MyLanguage/Enchantments|encantamiento]] del mismo nombre y otras fuentes, tiene un tope del 50%.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Healing Reduction",
+  "translation": "Reducción de Curación",
+  "outdated": false
+ },
+ "64": {
+  "source": "Your hits reduce the target's healing (health regeneration and food healing) by 2% per level for 6 seconds. It stacks with the enchantment of the same name, capped at 40%.",
+  "translation": "Tus golpes reducen la curación del objetivo (regeneración de vida y curación por comida) un 2% por nivel durante 6 segundos. Se acumula con el encantamiento del mismo nombre, con un tope del 40%.",
+  "outdated": false
+ },
+ "65": {
+  "source": "The Ki Infusion and Ki Protection percentages are the defaults of the combat configuration.",
+  "translation": "Los porcentajes de la Infusión de Ki y la Protección de Ki son los valores por defecto de la configuración de combate.",
+  "outdated": false
+ },
+ "66": {
+  "source": "== Racial skills ==",
+  "translation": "== Habilidades raciales ==",
+  "outdated": false
+ },
+ "67": {
+  "source": "Every race has a racial skill made of several passives and, for most races, an active ability used from the Utility Menu ({{Key|X}}, then {{Key|G}}). Racial progress can be reset with a wish or with {{Command|/dmzracial reset}}.",
+  "translation": "Cada raza tiene una habilidad racial formada por varias pasivas y, en la mayoría de las razas, una habilidad activa que se usa desde el Menú de utilidades ({{Key|X}}, luego {{Key|G}}). El progreso racial se puede reiniciar con un deseo o con {{Command|/dmzracial reset}}.",
+  "outdated": false
+ },
+ "68": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "69": {
+  "source": "Racial skill highlights",
+  "translation": "Lo más destacado de la habilidad racial",
+  "outdated": false
+ },
+ "70": {
+  "source": "Blood-Fueled Ki (cheaper ki attacks paid partly with health), Fast Learner, Adrenaline.",
+  "translation": "Ki de Sangre (ataques de ki más baratos pagados en parte con vida), Aprendiz Veloz, Adrenalina.",
+  "outdated": false
+ },
+ "71": {
+  "source": "Android Core and the Absorption Barrier instead of Blood-Fueled Ki.",
+  "translation": "Núcleo Androide y la Barrera de Absorción en lugar de Ki de Sangre.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Zenkai (survive a lethal blow and come back stronger) and Limitless Power.",
+  "translation": "Zenkai (sobrevive a un golpe letal y vuelve más fuerte) y Poder Ilimitado.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Assimilation, Regeneration, Water Affinity.",
+  "translation": "Asimilación, Regeneración, Afinidad con el Agua.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Prodigious Strength (+25% TP), Evolutionary Mastery, Hardened Body, Power Reserve.",
+  "translation": "Fuerza Prodigiosa (+25% de TP), Maestría Evolutiva, Cuerpo Endurecido, Reserva de Poder.",
+  "outdated": false
+ },
+ "75": {
+  "source": "Bio-Evolution: Vital Drain, Self-Destruct or Summon Cell Jr. depending on your form.",
+  "translation": "Bio-Evolución: Drenaje Vital, Autodestrucción o Invocar Cell Jr. según tu forma.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Absorption, Sweet Tooth, Healing Magic.",
+  "translation": "Absorción, Goloso, Magia Curativa.",
+  "outdated": false
+ },
+ "77": {
+  "source": "All passive: Divine Ki (hidden from Ki Sense, Scouters and Instant Transmission), Celestial Body, Divine Punishment, Light and Darkness.",
+  "translation": "Todas pasivas: Ki Divino (oculto ante Sentir Ki, los escáneres y la Teletransportación Instantánea), Cuerpo Celestial, Castigo Divino, Luz y Oscuridad.",
+  "outdated": false
+ },
+ "78": {
+  "source": "== Transformation and stack form skills ==",
+  "translation": "== Habilidades de transformación y de formas acumulables ==",
+  "outdated": false
+ },
+ "79": {
+  "source": "Transformations are unlocked through form skills (Super Forms, God Forms, Legendary Forms and Android Forms), bought in the '''Forms''' tab and priced per race. By default, upgraded Androids can't learn Super Forms or Legendary Forms.",
+  "translation": "Las transformaciones se desbloquean mediante habilidades de forma (Súper Formas, Formas Divinas, Formas Legendarias y Formas Androide), que se compran en la pestaña '''Formas''' y tienen precio por raza. Por defecto, los Androides mejorados no pueden aprender Súper Formas ni Formas Legendarias.",
+  "outdated": false
+ },
+ "80": {
+  "source": "The stack forms are skills too: [[Special:MyLanguage/Kaioken|Kaioken]] is taught by [[Special:MyLanguage/King Kai|King Kai]] (5 levels), and [[Special:MyLanguage/Ultimate|Ultimate]] can't be bought: it is unlocked by clearing [[Special:MyLanguage/Old Kai|Old Kai]]'s Ultimate Challenge.",
+  "translation": "Las formas acumulables también son habilidades: el [[Special:MyLanguage/Kaioken|Kaioken]] lo enseña [[Special:MyLanguage/King Kai|Kaiosama]] (5 niveles), y el [[Special:MyLanguage/Ultimate|Definitivo]] no se puede comprar: se desbloquea superando el Desafío Definitivo del [[Special:MyLanguage/Old Kai|Kaioshin Anciano]].",
+  "outdated": false
+ },
+ "81": {
+  "source": "== Techniques ==",
+  "translation": "== Técnicas ==",
+  "outdated": false
+ },
+ "82": {
+  "source": "Ki attacks (Kamehameha, Galick Gun…), strike attacks (Dragon Fist, Meteor…) and evasion techniques ([[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]]…) are techniques: they are bought from masters with TP like skills, but they are equipped in slots, gain their own experience and are upgraded separately. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]] and [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] for the full lists and who teaches each one.",
+  "translation": "Los ataques de ki (Kamehame Ha, Cañón Galick…), los Super Golpes (Puño del Dragón, Meteoro…) y las técnicas de evasión ([[Special:MyLanguage/Solar Flare|Destello Solar]], [[Special:MyLanguage/Afterimage|Imagen residual]]…) son técnicas: se compran a los maestros con TP como las habilidades, pero se equipan en ranuras, ganan su propia experiencia y se mejoran por separado. Consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]], [[Special:MyLanguage/Strike Attacks|Super Golpes]] y [[Special:MyLanguage/Evasion Techniques|Técnicas de evasión]] para ver las listas completas y quién enseña cada una.",
+  "outdated": false
+ }
+}

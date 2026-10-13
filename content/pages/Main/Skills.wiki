@@ -1,160 +1,173 @@
 <translate>
+<!--T:1-->
 '''Skills''' are the abilities you learn from [[Special:MyLanguage/Masters|masters]] and level up with [[Special:MyLanguage/Training Points and Mastery|Training Points]] (TP). Some change how you move and sense the world, others quietly modify your combat. Your attacks are [[Special:MyLanguage/Techniques|techniques]], which are bought the same way but work differently, and every race also has its own [[Special:MyLanguage/Racial Skills|racial skill]].
 </translate>
 
-{{Note|type=tip|title=<translate>Learn Ki Control first</translate>|<translate>[[Special:MyLanguage/Ki Control|Ki Control]] is the most important skill. It is the foundation for channeling ki, so flight, ki attacks, strike attacks and other ki-based actions won't work until you have it. Almost every master teaches it.</translate>}}
+{{Note|type=tip|title=<translate><!--T:2--> Learn Ki Control first</translate>|<translate><!--T:3--> [[Special:MyLanguage/Ki Control|Ki Control]] is the most important skill. It is the foundation for channeling ki, so flight, ki attacks, strike attacks and other ki-based actions won't work until you have it. Almost every master teaches it.</translate>}}
 
 <div class="dmz-cards">
-{{Card|Ki Control|<translate>The foundation for channeling ki. Learn it first.</translate>}}
-{{Card|Fly|<translate>Ki flight, with a fast travel mode and a mode for fighting.</translate>}}
-{{Card|Ki Sense|<translate>Feel the ki of the beings around you and extend your lock-on range.</translate>}}
-{{Card|Instant Transmission|<translate>Teleport behind a target, or warp to masters and allies.</translate>}}
-{{Card|Potential Unlock|<translate>Raises your maximum Power Release.</translate>}}
-{{Card|Meditation|<translate>Faster Ki and stamina regeneration and a passive melee dodge.</translate>}}
-{{Card|Ki Manipulation|<translate>Shape your ki into blades, scythes and lances.</translate>}}
-{{Card|Ki Infusion|<translate>Pour Ki into your blows for bonus melee damage.</translate>}}
-{{Card|Ki Protection|<translate>Spend Ki to soften the hits you take.</translate>}}
-{{Card|Fusion Dance|<translate>The Fusion skill: merge with a player of your own race.</translate>}}
+{{Card|Ki Control|<translate><!--T:4--> The foundation for channeling ki. Learn it first.</translate>}}
+{{Card|Fly|<translate><!--T:5--> Ki flight, with a fast travel mode and a mode for fighting.</translate>}}
+{{Card|Ki Sense|<translate><!--T:6--> Feel the ki of the beings around you and extend your lock-on range.</translate>}}
+{{Card|Instant Transmission|<translate><!--T:7--> Teleport behind a target, or warp to masters and allies.</translate>}}
+{{Card|Potential Unlock|<translate><!--T:8--> Raises your maximum Power Release.</translate>}}
+{{Card|Meditation|<translate><!--T:9--> Faster Ki and stamina regeneration and a passive melee dodge.</translate>}}
+{{Card|Ki Manipulation|<translate><!--T:10--> Shape your ki into blades, scythes and lances.</translate>}}
+{{Card|Ki Infusion|<translate><!--T:11--> Pour Ki into your blows for bonus melee damage.</translate>}}
+{{Card|Ki Protection|<translate><!--T:12--> Spend Ki to soften the hits you take.</translate>}}
+{{Card|Fusion Dance|<translate><!--T:13--> The Fusion skill: merge with a player of your own race.</translate>}}
 </div>
 
 <translate>
-== Learning and levelling skills ==
+== Learning and levelling skills == <!--T:14-->
 </translate>
 {{Config|Skills Config|skills.json}}
 <translate>
+<!--T:15-->
 Masters teach skills. Talk to a master and choose '''Skills''' in the dialogue to open their skill shop; each master only teaches a specific set (see the tables below and each master's page). Purchases are checked by the server: you must be within 10 blocks of a master who offers the skill, your race must be allowed to learn it, and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you. Techniques are the exception to the race rule: any race can learn them, but a race-locked technique can only be equipped by its races (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]).
 
+<!--T:16-->
 Once you own a skill, you can level it up anywhere from the '''Skills''' tab of the Character Menu ({{Key|V}}), which has the tabs '''Skills''', [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]], '''Evasion Attacks''' and '''Forms'''. Double-click an entry to buy its next level with TP. Racial skills are listed there too, one entry per racial ability.
 
+<!--T:17-->
 Each level has its own TP cost. A few levels can't be bought at all and are granted another way: level 11 of [[Special:MyLanguage/Potential Unlock|Potential Unlock]] comes from [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], and the [[Special:MyLanguage/Ultimate|Ultimate]] stack form from Old Kai's Ultimate Challenge.
 
+<!--T:18-->
 Some skills only work while switched on. Fly, Jump and Sprint are toggled in the Utility Menu ({{Key|X}}) under '''Movement'''; [[Special:MyLanguage/Ki Protection|Ki Protection]] and [[Special:MyLanguage/Ki Infusion|Ki Infusion]] are toggled under '''Actions → Ki Actions''', and the ki weapons of [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] are formed from '''Actions → Ki Weapons'''.
 
+<!--T:19-->
 Admins can set, add or remove skills with {{Command|/dmzskill}} (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>
 
 <translate>
-=== Default TP costs ===
+=== Default TP costs === <!--T:20-->
 </translate>
 {| class="wikitable"
-! <translate>Skill</translate> !! <translate>TP cost of each level</translate>
+! <translate><!--T:21--> Skill</translate> !! <translate><!--T:22--> TP cost of each level</translate>
 |-
-| <translate>Jump, Sprint, Meditation, Ki Sense</translate> || 300, 600, 900, 1,200, 1,500, 1,800, 2,100, 2,400, 2,700, 3,000
+| <translate><!--T:23--> Jump, Sprint, Meditation, Ki Sense</translate> || 300, 600, 900, 1,200, 1,500, 1,800, 2,100, 2,400, 2,700, 3,000
 |-
 | {{L|Fly}} || 1,500, 600, 900, 1,200, 1,500, 1,800, 2,100, 2,400, 2,700, 3,000
 |-
 | {{L|Ki Control}} || 3,000
 |-
-| {{L|Potential Unlock}} || 600, 1,600, 2,400, 3,200, 4,000, 4,800, 5,600, 6,400, 7,200, 8,000, <translate>— (level 11 is granted by Grand Elder Guru)</translate>, 8,800, 9,600
+| {{L|Potential Unlock}} || 600, 1,600, 2,400, 3,200, 4,000, 4,800, 5,600, 6,400, 7,200, 8,000, <translate><!--T:24--> — (level 11 is granted by Grand Elder Guru)</translate>, 8,800, 9,600
 |-
-| <translate>Ki Boost</translate> || 2,000, 4,000, 6,000, 8,000
+| <translate><!--T:25--> Ki Boost</translate> || 2,000, 4,000, 6,000, 8,000
 |-
-| <translate>Ki Manipulation, Instant Transmission, Defense Penetration, Healing Reduction, Ki Infusion, Ki Protection</translate> || 600, 1,200, 1,800, 2,200, 2,600, 2,800, 3,000, 3,200, 3,600, 4,000
+| <translate><!--T:26--> Ki Manipulation, Instant Transmission, Defense Penetration, Healing Reduction, Ki Infusion, Ki Protection</translate> || 600, 1,200, 1,800, 2,200, 2,600, 2,800, 3,000, 3,200, 3,600, 4,000
 |-
-| <translate>Fusion</translate> || 25,000, 5,000, 10,000, 15,000, 20,000
+| <translate><!--T:27--> Fusion</translate> || 25,000, 5,000, 10,000, 15,000, 20,000
 |-
-| <translate>Kaioken (stack form)</translate> || 1,000, 1,500, 2,500, 4,000, 7,500
+| <translate><!--T:28--> Kaioken (stack form)</translate> || 1,000, 1,500, 2,500, 4,000, 7,500
 |-
-| <translate>Ultimate (stack form)</translate> || <translate>Can't be bought (granted by Old Kai)</translate>
+| <translate><!--T:29--> Ultimate (stack form)</translate> || <translate><!--T:30--> Can't be bought (granted by Old Kai)</translate>
 |}
 
 <translate>
+<!--T:31-->
 These are the defaults; server owners can change every cost, which races may learn a skill and which master teaches it.
 </translate>
 
 <translate>
-== Movement and utility skills ==
+== Movement and utility skills == <!--T:32-->
 </translate>
 {| class="wikitable"
-! <translate>Skill</translate> !! <translate>Levels</translate> !! <translate>Taught by</translate> !! <translate>What it does</translate>
+! <translate><!--T:33--> Skill</translate> !! <translate><!--T:34--> Levels</translate> !! <translate><!--T:35--> Taught by</translate> !! <translate><!--T:36--> What it does</translate>
 |-
-| {{L|Ki Control}} || 1 || <translate>Almost every master</translate> || <translate>The foundation for channeling ki: required to fly and to charge and use ki, strike and evasion techniques.</translate>
+| {{L|Ki Control}} || 1 || <translate><!--T:37--> Almost every master</translate> || <translate><!--T:38--> The foundation for channeling ki: required to fly and to charge and use ki, strike and evasion techniques.</translate>
 |-
-| '''<translate>Jump</translate>''' || 10 || {{L|Master Roshi}}, {{L|Frieza}} || <translate>Higher jumping (scales with level).</translate>
+| '''<translate><!--T:39--> Jump</translate>''' || 10 || {{L|Master Roshi}}, {{L|Frieza}} || <translate><!--T:40--> Higher jumping (scales with level).</translate>
 |-
-| '''<translate>Sprint</translate>''' || 10 || {{L|Krillin}}, {{L|Frieza}} || <translate>Faster sprinting (scales with level).</translate>
+| '''<translate><!--T:41--> Sprint</translate>''' || 10 || {{L|Krillin}}, {{L|Frieza}} || <translate><!--T:42--> Faster sprinting (scales with level).</translate>
 |-
-| {{L|Fly}} || 10 || {{L|Goku}}, {{L|Frieza}} || <translate>Ki flight, toggled with {{Key|F}}; levels increase your speed. Switch between Search Fly and Combat Fly with {{Key|Alt}} + {{Key|F}}.</translate>
+| {{L|Fly}} || 10 || {{L|Goku}}, {{L|Frieza}} || <translate><!--T:43--> Ki flight, toggled with {{Key|F}}; levels increase your speed. Switch between Search Fly and Combat Fly with {{Key|Alt}} + {{Key|F}}.</translate>
 |-
-| {{L|Ki Sense}} || 10 || {{L|Gohan}}, {{L|Krillin}}, {{L|Frieza}} || <translate>Sense the ki of living beings around you ({{Key|F4}} cycles Combat mode, Search mode and off). Also sets your lock-on range for homing ki attacks.</translate>
+| {{L|Ki Sense}} || 10 || {{L|Gohan}}, {{L|Krillin}}, {{L|Frieza}} || <translate><!--T:44--> Sense the ki of living beings around you ({{Key|F4}} cycles Combat mode, Search mode and off). Also sets your lock-on range for homing ki attacks.</translate>
 |-
-| {{L|Meditation}} || 10 || {{L|Master Roshi}}, {{L|Frieza}}, {{L|Fortuneteller Baba}} || <translate>+5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.</translate>
+| {{L|Meditation}} || 10 || {{L|Master Roshi}}, {{L|Frieza}}, {{L|Fortuneteller Baba}} || <translate><!--T:45--> +5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.</translate>
 |-
-| {{L|Potential Unlock}} || 13 || {{L|King Kai}}, {{L|Vegeta}}, {{L|Piccolo}}, {{L|Frieza}} || <translate>+5% maximum Power Release per level (from 50% up to 100% at level 10, 115% at level 13) and faster releasing.</translate>
+| {{L|Potential Unlock}} || 13 || {{L|King Kai}}, {{L|Vegeta}}, {{L|Piccolo}}, {{L|Frieza}} || <translate><!--T:46--> +5% maximum Power Release per level (from 50% up to 100% at level 10, 115% at level 13) and faster releasing.</translate>
 |-
-| {{L|Instant Transmission}} || 10 || {{L|Goku}}, {{L|Cell}} || <translate>Tap {{Key|H}} to teleport behind a target; from level 5, hold it to warp to masters, party members and other players.</translate>
+| {{L|Instant Transmission}} || 10 || {{L|Goku}}, {{L|Cell}} || <translate><!--T:47--> Tap {{Key|H}} to teleport behind a target; from level 5, hold it to warp to masters, party members and other players.</translate>
 |-
-| '''<translate>Fusion</translate>''' || 5 || {{L|Goku}} || <translate>Learn the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] (Metamoru) to merge with a player of your race; its level sets how long the fusion lasts.</translate>
+| '''<translate><!--T:48--> Fusion</translate>''' || 5 || {{L|Goku}} || <translate><!--T:49--> Learn the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] (Metamoru) to merge with a player of your race; its level sets how long the fusion lasts.</translate>
 |}
 
 <translate>
-== Passive combat abilities ==
+== Passive combat abilities == <!--T:50-->
 
+<!--T:51-->
 These abilities quietly modify your combat. They are bought and levelled like any other skill.
 </translate>
 {| class="wikitable"
-! <translate>Ability</translate> !! <translate>Levels</translate> !! <translate>Taught by</translate> !! <translate>Effect</translate>
+! <translate><!--T:52--> Ability</translate> !! <translate><!--T:53--> Levels</translate> !! <translate><!--T:54--> Taught by</translate> !! <translate><!--T:55--> Effect</translate>
 |-
-| '''<translate>Ki Boost</translate>''' || 4 || {{L|Gohan}}, {{L|Trunks}}, {{L|Cell}} || <translate>+25% Ki regeneration per level while you are actively charging Ki. It does not affect passive regeneration.</translate>
+| '''<translate><!--T:56--> Ki Boost</translate>''' || 4 || {{L|Gohan}}, {{L|Trunks}}, {{L|Cell}} || <translate><!--T:57--> +25% Ki regeneration per level while you are actively charging Ki. It does not affect passive regeneration.</translate>
 |-
-| {{L|Ki Manipulation}} || 10 || {{L|King Kai}}, {{L|Cell}} || <translate>Form ki weapons (Ki Blade, Ki Scythe, Ki Claw Lance) that deal your Ki Damage × the weapon's scaling × 10% per level, and raise basic ki-blast damage by 5% of your Ki Damage per level. Level 5 unlocks Shadow Dummy sparring.</translate>
+| {{L|Ki Manipulation}} || 10 || {{L|King Kai}}, {{L|Cell}} || <translate><!--T:58--> Form ki weapons (Ki Blade, Ki Scythe, Ki Claw Lance) that deal your Ki Damage × the weapon's scaling × 10% per level, and raise basic ki-blast damage by 5% of your Ki Damage per level. Level 5 unlocks Shadow Dummy sparring.</translate>
 |-
-| {{L|Ki Infusion}} || 10 || {{L|Old Kai}}, {{L|Yamcha}}, {{L|Cell}} || <translate>Bonus melee damage equal to 2.5% of your max Ki per level (up to +25%), paid with 2.5%–7.5% of your max Ki per hit.</translate>
+| {{L|Ki Infusion}} || 10 || {{L|Old Kai}}, {{L|Yamcha}}, {{L|Cell}} || <translate><!--T:59--> Bonus melee damage equal to 2.5% of your max Ki per level (up to +25%), paid with 2.5%–7.5% of your max Ki per hit.</translate>
 |-
-| {{L|Ki Protection}} || 10 || {{L|Gohan}}, {{L|Trunks}}, {{L|Cell}} || <translate>Reduces incoming damage by 2.5% per level (up to 25%), at a Ki cost of 15% of the incoming damage.</translate>
+| {{L|Ki Protection}} || 10 || {{L|Gohan}}, {{L|Trunks}}, {{L|Cell}} || <translate><!--T:60--> Reduces incoming damage by 2.5% per level (up to 25%), at a Ki cost of 15% of the incoming damage.</translate>
 |-
-| '''<translate>Defense Penetration</translate>''' || 10 || {{L|Vegeta}}, {{L|Cell}} || <translate>Ignores 2.5% of the enemy's defense per level. Together with the [[Special:MyLanguage/Enchantments|enchantment]] of the same name and other sources it is capped at 50%.</translate>
+| '''<translate><!--T:61--> Defense Penetration</translate>''' || 10 || {{L|Vegeta}}, {{L|Cell}} || <translate><!--T:62--> Ignores 2.5% of the enemy's defense per level. Together with the [[Special:MyLanguage/Enchantments|enchantment]] of the same name and other sources it is capped at 50%.</translate>
 |-
-| '''<translate>Healing Reduction</translate>''' || 10 || {{L|Old Kai}}, {{L|Cell}} || <translate>Your hits reduce the target's healing (health regeneration and food healing) by 2% per level for 6 seconds. It stacks with the enchantment of the same name, capped at 40%.</translate>
+| '''<translate><!--T:63--> Healing Reduction</translate>''' || 10 || {{L|Old Kai}}, {{L|Cell}} || <translate><!--T:64--> Your hits reduce the target's healing (health regeneration and food healing) by 2% per level for 6 seconds. It stacks with the enchantment of the same name, capped at 40%.</translate>
 |}
 
 <translate>
+<!--T:65-->
 The Ki Infusion and Ki Protection percentages are the defaults of the combat configuration.
 </translate>
 {{Config|Combat Config|kiInfusion* / kiProtection*}}
 
 <translate>
-== Racial skills ==
+== Racial skills == <!--T:66-->
 </translate>
 {{Main|Racial Skills}}
 <translate>
+<!--T:67-->
 Every race has a racial skill made of several passives and, for most races, an active ability used from the Utility Menu ({{Key|X}}, then {{Key|G}}). Racial progress can be reset with a wish or with {{Command|/dmzracial reset}}.
 </translate>
 {| class="wikitable"
-! <translate>Race</translate> !! <translate>Racial skill highlights</translate>
+! <translate><!--T:68--> Race</translate> !! <translate><!--T:69--> Racial skill highlights</translate>
 |-
-| {{L|Human}} || <translate>Blood-Fueled Ki (cheaper ki attacks paid partly with health), Fast Learner, Adrenaline.</translate>
+| {{L|Human}} || <translate><!--T:70--> Blood-Fueled Ki (cheaper ki attacks paid partly with health), Fast Learner, Adrenaline.</translate>
 |-
-| {{L|Android}} || <translate>Android Core and the Absorption Barrier instead of Blood-Fueled Ki.</translate>
+| {{L|Android}} || <translate><!--T:71--> Android Core and the Absorption Barrier instead of Blood-Fueled Ki.</translate>
 |-
-| {{L|Saiyan}} || <translate>Zenkai (survive a lethal blow and come back stronger) and Limitless Power.</translate>
+| {{L|Saiyan}} || <translate><!--T:72--> Zenkai (survive a lethal blow and come back stronger) and Limitless Power.</translate>
 |-
-| {{L|Namekian}} || <translate>Assimilation, Regeneration, Water Affinity.</translate>
+| {{L|Namekian}} || <translate><!--T:73--> Assimilation, Regeneration, Water Affinity.</translate>
 |-
-| {{L|Frost Demon}} || <translate>Prodigious Strength (+25% TP), Evolutionary Mastery, Hardened Body, Power Reserve.</translate>
+| {{L|Frost Demon}} || <translate><!--T:74--> Prodigious Strength (+25% TP), Evolutionary Mastery, Hardened Body, Power Reserve.</translate>
 |-
-| {{L|Bio-Android}} || <translate>Bio-Evolution: Vital Drain, Self-Destruct or Summon Cell Jr. depending on your form.</translate>
+| {{L|Bio-Android}} || <translate><!--T:75--> Bio-Evolution: Vital Drain, Self-Destruct or Summon Cell Jr. depending on your form.</translate>
 |-
-| {{L|Majin}} || <translate>Absorption, Sweet Tooth, Healing Magic.</translate>
+| {{L|Majin}} || <translate><!--T:76--> Absorption, Sweet Tooth, Healing Magic.</translate>
 |-
-| {{L|Glind}} || <translate>All passive: Divine Ki (hidden from Ki Sense, Scouters and Instant Transmission), Celestial Body, Divine Punishment, Light and Darkness.</translate>
+| {{L|Glind}} || <translate><!--T:77--> All passive: Divine Ki (hidden from Ki Sense, Scouters and Instant Transmission), Celestial Body, Divine Punishment, Light and Darkness.</translate>
 |}
 
 <translate>
-== Transformation and stack form skills ==
+== Transformation and stack form skills == <!--T:78-->
 </translate>
 {{Main|Transformations}}
 <translate>
+<!--T:79-->
 Transformations are unlocked through form skills (Super Forms, God Forms, Legendary Forms and Android Forms), bought in the '''Forms''' tab and priced per race. By default, upgraded Androids can't learn Super Forms or Legendary Forms.
 
+<!--T:80-->
 The stack forms are skills too: [[Special:MyLanguage/Kaioken|Kaioken]] is taught by [[Special:MyLanguage/King Kai|King Kai]] (5 levels), and [[Special:MyLanguage/Ultimate|Ultimate]] can't be bought: it is unlocked by clearing [[Special:MyLanguage/Old Kai|Old Kai]]'s Ultimate Challenge.
 </translate>
 
 <translate>
-== Techniques ==
+== Techniques == <!--T:81-->
 </translate>
 {{Main|Techniques}}
 <translate>
+<!--T:82-->
 Ki attacks (Kamehameha, Galick Gun…), strike attacks (Dragon Fist, Meteor…) and evasion techniques ([[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]]…) are techniques: they are bought from masters with TP like skills, but they are equipped in slots, gain their own experience and are upgraded separately. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]] and [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] for the full lists and who teaches each one.
 </translate>
 

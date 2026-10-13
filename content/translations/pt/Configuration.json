@@ -1,0 +1,207 @@
+{
+ "Page_display_title": {
+  "source": "Configuration",
+  "translation": "Configuração",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ is configured through JSON files that server owners, singleplayer hosts and add-on authors can edit. Most of them live in the <code>config/dragonminez</code> folder of the game or server instance and are generated the first time DMZ boots; story, wish and NPC data lives inside each world save instead. The server sends its config files to every player who joins, so on a server everyone plays with the server's values.",
+  "translation": "O DragonMineZ é configurado por arquivos JSON que donos de servidores, anfitriões de partidas de um jogador e autores de addons podem editar. A maioria fica na pasta <code>config/dragonminez</code> da instância do jogo ou do servidor e é gerada na primeira vez que o DMZ inicia; já os dados de história, desejos e NPCs ficam dentro do save de cada mundo. O servidor envia seus arquivos de configuração a cada jogador que entra, então, em um servidor, todos jogam com os valores do servidor.",
+  "outdated": false
+ },
+ "2": {
+  "source": "This section of the wiki documents every config file, the gamerules and permission nodes DMZ adds, and how to apply and keep your changes safely.",
+  "translation": "Esta seção da wiki documenta cada arquivo de configuração, as gamerules e os nós de permissão que o DMZ adiciona, e como aplicar e manter suas alterações com segurança.",
+  "outdated": false
+ },
+ "3": {
+  "source": "Progression, TP, world generation, the story, racial skills, world bosses and storage.",
+  "translation": "Progressão, TP, geração de mundo, a história, habilidades raciais, chefes de mundo e armazenamento.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Personal client settings: HUD behavior, cameras, auras and tutorials.",
+  "translation": "Ajustes pessoais do cliente: comportamento da HUD, câmeras, auras e tutoriais.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Blocking, parrying, mitigation, Speed, Ki Surge, combat flight and ki weapons.",
+  "translation": "Bloqueio, parry, mitigação, Velocidade, Surto de Ki, voo de combate e armas de ki.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Skill costs, which master teaches what, and technique tuning.",
+  "translation": "Custos de habilidades, qual mestre ensina o quê e ajuste de técnicas.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Base stats of DMZ creatures and saga enemy transformations.",
+  "translation": "Estatísticas base das criaturas do DMZ e transformações dos inimigos das sagas.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Dimension gravity, the Gravity Device and weight training zones.",
+  "translation": "Gravidade das dimensões, o Dispositivo de Gravidade e as zonas de treino com peso.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Practice-based stat growth and its anti-farming rules.",
+  "translation": "Crescimento de estatísticas pela prática e suas regras contra farm.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Ki-griefing and building protection for terrain and arenas.",
+  "translation": "Destruição com ki e proteção de construções para o terreno e as arenas.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Every command permission node and how checks resolve.",
+  "translation": "Cada nó de permissão dos comandos e como as verificações são resolvidas.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Backups, updates and multiplayer advice before you edit anything.",
+  "translation": "Backups, atualizações e dicas para multijogador antes de editar qualquer coisa.",
+  "outdated": false
+ },
+ "13": {
+  "source": "What /dmzreload covers and how DMZ updates upgrade your files.",
+  "translation": "O que o /dmzreload cobre e como as atualizações do DMZ atualizam seus arquivos.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Where config lives ==",
+  "translation": "== Onde fica a configuração ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "The <code>config/dragonminez/</code> folder belongs to the instance, not to a world: every world played on that instance uses the same files. Except for the client-only files marked below, the server sends every file in this folder to joining clients.",
+  "translation": "A pasta <code>config/dragonminez/</code> pertence à instância, não a um mundo: todos os mundos jogados nessa instância usam os mesmos arquivos. Exceto pelos arquivos só do cliente marcados abaixo, o servidor envia cada arquivo desta pasta aos clientes que entram.",
+  "outdated": false
+ },
+ "16": {
+  "source": "File",
+  "translation": "Arquivo",
+  "outdated": false
+ },
+ "17": {
+  "source": "What it holds",
+  "translation": "O que contém",
+  "outdated": false
+ },
+ "18": {
+  "source": "Documented on",
+  "translation": "Documentado em",
+  "outdated": false
+ },
+ "19": {
+  "source": "Server-wide gameplay settings: progression, TP, world generation, the story, racial skills, Dynamic Growth, gravity, world bosses, storage.",
+  "translation": "Ajustes de jogabilidade para todo o servidor: progressão, TP, geração de mundo, a história, habilidades raciais, Crescimento dinâmico, gravidade, chefes de mundo, armazenamento.",
+  "outdated": false
+ },
+ "20": {
+  "source": "'''Client-only.''' Personal client settings, never sent by the server.",
+  "translation": "'''Só cliente.''' Ajustes pessoais do cliente; o servidor nunca os envia.",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Client-only.''' HUD style and element layout, written by the HUD editor.",
+  "translation": "'''Só cliente.''' Estilo da HUD e disposição dos elementos, gravados pelo editor da HUD.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Client-side order of the entries in the radial menus, saved when you reorder them.",
+  "translation": "Ordem, no lado do cliente, das entradas dos menus radiais; é salva quando você as reordena.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Combat tuning values.",
+  "translation": "Valores de ajuste do combate.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Skill costs and eligibility, and which master offers which skill.",
+  "translation": "Custos e requisitos das habilidades, e qual mestre oferece cada habilidade.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Ki attack, strike and evasion technique tuning.",
+  "translation": "Ajuste das técnicas de ataque de ki, golpe e evasão.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Training minigame tuning.",
+  "translation": "Ajuste dos minijogos de treinamento.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Base stats per entity and saga transformation defaults.",
+  "translation": "Estatísticas base por entidade e valores padrão das transformações de saga.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Race identity and appearance defaults.",
+  "translation": "Identidade da raça e valores padrão de aparência.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Race base stats and scaling per class.",
+  "translation": "Estatísticas base da raça e seu escalonamento por classe.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Forms that belong only to that race.",
+  "translation": "Formas que pertencem só a essa raça.",
+  "outdated": false
+ },
+ "31": {
+  "source": "Shared stack forms layered on top of a race's own forms.",
+  "translation": "Formas acumuláveis compartilhadas que se somam às formas próprias de uma raça.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Raid definitions.",
+  "translation": "Definições de incursões.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Tournament definitions.",
+  "translation": "Definições de torneios.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Copies of config files DMZ upgraded or regenerated, in the same relative layout (for example <code>oldBackup/races/saiyan/stats.json</code>). DMZ never reads them back.",
+  "translation": "Cópias dos arquivos de configuração que o DMZ atualizou ou regenerou, com a mesma estrutura relativa (por exemplo <code>oldBackup/races/saiyan/stats.json</code>). O DMZ nunca volta a lê-las.",
+  "outdated": false
+ },
+ "35": {
+  "source": "The default races generated in <code>races/</code> are <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> and <code>glind</code>. Any other folder under <code>races/</code> is loaded as a custom race.",
+  "translation": "As raças padrão geradas em <code>races/</code> são <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> e <code>glind</code>. Qualquer outra pasta dentro de <code>races/</code> é carregada como raça personalizada.",
+  "outdated": false
+ },
+ "36": {
+  "source": "Gameplay rules that aren't JSON files are covered on [[Special:MyLanguage/Gamerules|Gamerules]] (ki-griefing and arena building) and [[Special:MyLanguage/Permissions|Permissions]] (who can run each command). The per-world folders (sagas, quests, side quests, wishes, dialogues, NPC placements and JSON player data) are listed on [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]].",
+  "translation": "As regras de jogo que não são arquivos JSON são explicadas em [[Special:MyLanguage/Gamerules|Gamerules]] (destruição com ki e construção em arenas) e [[Special:MyLanguage/Permissions|Permissões]] (quem pode usar cada comando). As pastas de cada mundo (sagas, missões, missões secundárias, desejos, diálogos, posicionamento de NPCs e dados de jogador em JSON) estão listadas em [[Special:MyLanguage/Locating Specific Folders|Encontrar pastas]].",
+  "outdated": false
+ },
+ "37": {
+  "source": "== How config reaches the clients ==",
+  "translation": "== Como a configuração chega aos clientes ==",
+  "outdated": false
+ },
+ "38": {
+  "source": "* When a player joins, the server sends them every file under <code>config/dragonminez</code> except <code>general-user.json</code> and <code>hud_layout.json</code>. While connected, the client uses the server's values for everything those files control.\n* The server sends the files as they are on disk. After editing a file, always run <code>/dmzreload config</code>; until you do, the server keeps running the old values while players who join afterwards already receive the edited file.\n* <code>/dmzreload config</code> and <code>/dmzconfig</code> resend the files to everyone online.\n* On disconnect, the client drops the server's copy and goes back to its own local files.",
+  "translation": "* Quando um jogador entra, o servidor envia a ele todos os arquivos de <code>config/dragonminez</code>, exceto <code>general-user.json</code> e <code>hud_layout.json</code>. Enquanto estiver conectado, o cliente usa os valores do servidor para tudo o que esses arquivos controlam.\n* O servidor envia os arquivos do jeito que estão no disco. Depois de editar um arquivo, sempre execute <code>/dmzreload config</code>; até fazer isso, o servidor continua rodando com os valores antigos, enquanto os jogadores que entrarem depois já recebem o arquivo editado.\n* <code>/dmzreload config</code> e <code>/dmzconfig</code> reenviam os arquivos para todos que estão online.\n* Ao se desconectar, o cliente descarta a cópia do servidor e volta a usar seus próprios arquivos locais.",
+  "outdated": false
+ },
+ "39": {
+  "source": "== Editing config safely ==",
+  "translation": "== Editar a configuração com segurança ==",
+  "outdated": false
+ },
+ "40": {
+  "source": "* Keep the files valid JSON. A file with a syntax error is never overwritten: DMZ runs on that file's defaults for the session and reports the file, line and column in the log (and in chat on login).\n* Don't edit <code>configVersion</code>. DMZ uses it to upgrade the file after a mod update: the old file is moved to <code>oldBackup/</code>, new defaults are written, and the values you changed are merged back in.\n* Comments and notes inside the files are removed whenever DMZ rewrites them, so keep your notes elsewhere.\n* Take your own backup before bulk edits on a live server.",
+  "translation": "* Mantenha os arquivos como JSON válido. Um arquivo com erro de sintaxe nunca é sobrescrito: o DMZ usa os valores padrão desse arquivo durante a sessão e informa o arquivo, a linha e a coluna no log (e no chat ao entrar).\n* Não edite <code>configVersion</code>. O DMZ o usa para atualizar o arquivo depois de uma atualização do mod: o arquivo antigo é movido para <code>oldBackup/</code>, os novos valores padrão são gravados e os valores que você alterou são mesclados de volta.\n* Comentários e anotações dentro dos arquivos são removidos sempre que o DMZ os reescreve, então guarde suas anotações em outro lugar.\n* Faça seu próprio backup antes de edições em massa em um servidor ativo.",
+  "outdated": false
+ }
+}

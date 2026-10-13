@@ -1,161 +1,179 @@
 <translate>
+<!--T:1-->
 '''Locating Specific Folders''' maps where DragonMineZ keeps its editable data. The files are split across a few different roots, depending on '''who owns the data''' and '''when it is read'''. Knowing which root you need saves a lot of confusion, especially since some folders only appear after you have run the server or the client at least once.
 </translate>
 
 <translate>
-== Mod config folder ==
+== Mod config folder == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 <code>config/dragonminez/</code> holds the mod config. It belongs to the game instance, not to a world, and it is generated the first time DragonMineZ starts. This is where you tune balance and stats, and add custom races, forms and entities. Except for the two client-only files marked below, the server sends every file in this folder to joining clients (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
 </translate>
 
 {| class="wikitable"
-! <translate>Path</translate> !! <translate>Purpose</translate>
+! <translate><!--T:4--> Path</translate> !! <translate><!--T:5--> Purpose</translate>
 |-
-| <code>config/dragonminez/general-server.json</code> || <translate>Server-wide gameplay toggles (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
+| <code>config/dragonminez/general-server.json</code> || <translate><!--T:6--> Server-wide gameplay toggles (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
 |-
-| <code>config/dragonminez/general-user.json</code> || <translate>'''Client only.''' Personal client settings, never sent by the server (see [[Special:MyLanguage/General User Config|General User Config]]).</translate>
+| <code>config/dragonminez/general-user.json</code> || <translate><!--T:7--> '''Client only.''' Personal client settings, never sent by the server (see [[Special:MyLanguage/General User Config|General User Config]]).</translate>
 |-
-| <code>config/dragonminez/hud_layout.json</code> || <translate>'''Client only.''' HUD style and element layout (see [[Special:MyLanguage/HUD|HUD]]).</translate>
+| <code>config/dragonminez/hud_layout.json</code> || <translate><!--T:8--> '''Client only.''' HUD style and element layout (see [[Special:MyLanguage/HUD|HUD]]).</translate>
 |-
-| <code>config/dragonminez/radial_layout.json</code> || <translate>Client-side order of the entries in the radial menus, saved when you reorder them.</translate>
+| <code>config/dragonminez/radial_layout.json</code> || <translate><!--T:9--> Client-side order of the entries in the radial menus, saved when you reorder them.</translate>
 |-
-| <code>config/dragonminez/combat.json</code> || <translate>Combat tuning values (see [[Special:MyLanguage/Combat Config|Combat Config]]).</translate>
+| <code>config/dragonminez/combat.json</code> || <translate><!--T:10--> Combat tuning values (see [[Special:MyLanguage/Combat Config|Combat Config]]).</translate>
 |-
-| <code>config/dragonminez/skills.json</code> || <translate>Skill costs, cooldowns and eligibility, and the skills each race and master offers; both live in this one file (see [[Special:MyLanguage/Skills Config|Skills Config]]).</translate>
+| <code>config/dragonminez/skills.json</code> || <translate><!--T:11--> Skill costs, cooldowns and eligibility, and the skills each race and master offers; both live in this one file (see [[Special:MyLanguage/Skills Config|Skills Config]]).</translate>
 |-
-| <code>config/dragonminez/training.json</code> || <translate>Tuning of the TP training minigames (see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]]).</translate>
+| <code>config/dragonminez/training.json</code> || <translate><!--T:12--> Tuning of the TP training minigames (see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]]).</translate>
 |-
-| <code>config/dragonminez/techniques.json</code> || <translate>Ki attack and strike attack tuning (see [[Special:MyLanguage/Skills Config|Skills Config]]).</translate>
+| <code>config/dragonminez/techniques.json</code> || <translate><!--T:13--> Ki attack and strike attack tuning (see [[Special:MyLanguage/Skills Config|Skills Config]]).</translate>
 |-
-| <code>config/dragonminez/entities.json</code> || <translate>Base stats of each entity and the saga transformation defaults (see [[Special:MyLanguage/Entities Config|Entities Config]]).</translate>
+| <code>config/dragonminez/entities.json</code> || <translate><!--T:14--> Base stats of each entity and the saga transformation defaults (see [[Special:MyLanguage/Entities Config|Entities Config]]).</translate>
 |-
-| <code>config/dragonminez/races/<race>/character.json</code> || <translate>Race identity and appearance defaults (see [[Special:MyLanguage/Custom Races|Custom Races]]).</translate>
+| <code>config/dragonminez/races/<race>/character.json</code> || <translate><!--T:15--> Race identity and appearance defaults (see [[Special:MyLanguage/Custom Races|Custom Races]]).</translate>
 |-
-| <code>config/dragonminez/races/<race>/stats.json</code> || <translate>Race base stats and scaling for each class.</translate>
+| <code>config/dragonminez/races/<race>/stats.json</code> || <translate><!--T:16--> Race base stats and scaling for each class.</translate>
 |-
-| <code>config/dragonminez/races/<race>/forms/*.json</code> || <translate>Forms that belong only to that race.</translate>
+| <code>config/dragonminez/races/<race>/forms/*.json</code> || <translate><!--T:17--> Forms that belong only to that race.</translate>
 |-
-| <code>config/dragonminez/forms/*.json</code> || <translate>Shared stack forms, layered on top of a race's own forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
+| <code>config/dragonminez/forms/*.json</code> || <translate><!--T:18--> Shared stack forms, layered on top of a race's own forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
 |-
-| <code>config/dragonminez/raids/*.json</code> || <translate>Raid definitions (see [[Special:MyLanguage/Raids|Raids]]).</translate>
+| <code>config/dragonminez/raids/*.json</code> || <translate><!--T:19--> Raid definitions (see [[Special:MyLanguage/Raids|Raids]]).</translate>
 |-
-| <code>config/dragonminez/tournaments/*.json</code> || <translate>Tournament definitions (see [[Special:MyLanguage/Tournaments|Tournaments]]).</translate>
+| <code>config/dragonminez/tournaments/*.json</code> || <translate><!--T:20--> Tournament definitions (see [[Special:MyLanguage/Tournaments|Tournaments]]).</translate>
 |-
-| <code>config/dragonminez/oldBackup/</code> || <translate>Copies of the config files DragonMineZ upgraded or regenerated, in the same relative layout (for example <code>oldBackup/races/saiyan/stats.json</code>). DragonMineZ never reads them back.</translate>
+| <code>config/dragonminez/oldBackup/</code> || <translate><!--T:21--> Copies of the config files DragonMineZ upgraded or regenerated, in the same relative layout (for example <code>oldBackup/races/saiyan/stats.json</code>). DragonMineZ never reads them back.</translate>
 |}
 
 <translate>
+<!--T:22-->
 The default races generated here are <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> and <code>glind</code>. Any other folder under <code>races/</code> is loaded as a custom race.
 </translate>
 
 <translate>
+<!--T:23-->
 Source: <code>ConfigManager.java</code> (<code>loadGeneralConfigs</code>, <code>loadAllRaces</code>, <code>createOrLoadStackForms</code>, <code>loadRaids</code>, <code>loadTournaments</code>).
 </translate>
 
 <translate>
-== World save folder ==
+== World save folder == <!--T:24-->
 </translate>
 <translate>
+<!--T:25-->
 <code><world save>/dragonminez/</code> lives inside the world save, so its content belongs to one world, not to the whole instance. This is why quest and saga changes don't show up until you edit the right save folder:
 </translate>
 <translate>
+<!--T:26-->
 * Singleplayer: <code>saves/<world>/dragonminez/</code>
 * Server: <code><server>/<level-name>/dragonminez/</code>
 * Development environment: <code>run/saves/<world>/dragonminez/</code>
 </translate>
 
 {| class="wikitable"
-! <translate>Path</translate> !! <translate>Purpose</translate>
+! <translate><!--T:27--> Path</translate> !! <translate><!--T:28--> Purpose</translate>
 |-
-| <code>dragonminez/sagas/</code> || <translate>Saga manifests (the <code>questFolder</code> pointer and the saga metadata).</translate>
+| <code>dragonminez/sagas/</code> || <translate><!--T:29--> Saga manifests (the <code>questFolder</code> pointer and the saga metadata).</translate>
 |-
-| <code>dragonminez/quests/<questFolder>/</code> || <translate>Quest files for one saga, loaded in alphabetical order (<code>01_...json</code>, <code>02_...json</code>, ...).</translate>
+| <code>dragonminez/quests/<questFolder>/</code> || <translate><!--T:30--> Quest files for one saga, loaded in alphabetical order (<code>01_...json</code>, <code>02_...json</code>, ...).</translate>
 |-
-| <code>dragonminez/sidequests/</code> || <translate>Standalone side quests, loaded when side quests are enabled.</translate>
+| <code>dragonminez/sidequests/</code> || <translate><!--T:31--> Standalone side quests, loaded when side quests are enabled.</translate>
 |-
-| <code>dragonminez/wishes/*.json</code> || <translate>Wish list of each dragon (<code>shenron.json</code>, <code>porunga.json</code>, ...; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).</translate>
+| <code>dragonminez/wishes/*.json</code> || <translate><!--T:32--> Wish list of each dragon (<code>shenron.json</code>, <code>porunga.json</code>, ...; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).</translate>
 |-
-| <code>dragonminez/dialogues/*.json</code> || <translate>NPC dialogue trees (see [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]]). An <code>_example.json</code> is written the first time; files whose NPC id starts with <code>_</code> are not loaded.</translate>
+| <code>dragonminez/dialogues/*.json</code> || <translate><!--T:33--> NPC dialogue trees (see [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]]). An <code>_example.json</code> is written the first time; files whose NPC id starts with <code>_</code> are not loaded.</translate>
 |-
-| <code>dragonminez/npcs/placements.json</code> || <translate>Spawn positions of master and trainer NPCs (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).</translate>
+| <code>dragonminez/npcs/placements.json</code> || <translate><!--T:34--> Spawn positions of master and trainer NPCs (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).</translate>
 |-
-| <code>dragonminez/npcs/alignment_rules.json</code> || <translate>Alignment and hostility thresholds of each NPC (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).</translate>
+| <code>dragonminez/npcs/alignment_rules.json</code> || <translate><!--T:35--> Alignment and hostility thresholds of each NPC (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).</translate>
 |-
-| <code>dragonminez/playerdata_json/<uuid>.json</code> || <translate>Player save data, only used when <code>storageType</code> is <code>JSON</code>.</translate>
+| <code>dragonminez/playerdata_json/<uuid>.json</code> || <translate><!--T:36--> Player save data, only used when <code>storageType</code> is <code>JSON</code>.</translate>
 |-
-| <code>dragonminez/oldBackup/</code> || <translate>Copies of default quest, saga and side quest files taken before DragonMineZ upgraded them, in the same relative layout.</translate>
+| <code>dragonminez/oldBackup/</code> || <translate><!--T:37--> Copies of default quest, saga and side quest files taken before DragonMineZ upgraded them, in the same relative layout.</translate>
 |-
-| <code>dragonminez/quest_update_report.txt</code> || <translate>Summary of the last upgrade of the quest defaults: values updated, and conflicts kept as your edits.</translate>
+| <code>dragonminez/quest_update_report.txt</code> || <translate><!--T:38--> Summary of the last upgrade of the quest defaults: values updated, and conflicts kept as your edits.</translate>
 |}
 
 <translate>
+<!--T:39-->
 Source: <code>QuestRegistry.loadAll(server)</code>, <code>WishManager.loadWishes(server)</code>, <code>DialogueRegistry.loadAll(server)</code>.
 </translate>
 
 <translate>
-=== Default story files ===
+=== Default story files === <!--T:40-->
 </translate>
 {{Config|General Server Config|gameplay}}
 <translate>
+<!--T:41-->
 DragonMineZ writes its default saga, quest and side quest files only when they are missing and the default-generation toggles are on in <code>general-server.json</code> (<code>storyModeEnabled</code> and <code>createDefaultSagas</code> for sagas and saga quests, <code>createDefaultSideQuests</code> for side quests). With <code>autoUpdateQuests</code> on (the default), the files DragonMineZ generated are upgraded in place when a new DragonMineZ version changes them: your edits are kept, and a copy goes to <code>dragonminez/oldBackup/</code> first. Files you created yourself are never touched. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].
 </translate>
 
 <translate>
-=== World data files ===
+=== World data files === <!--T:42-->
 </translate>
 <translate>
+<!--T:43-->
 Some DragonMineZ state is stored as vanilla "saved data": <code>.dat</code> files in the world's <code>data/</code> folder, or in a dimension's own <code>data/</code> folder. These files are binary and not meant to be edited by hand: <code>dragon_balls_data</code> (Dragon Ball positions), <code>dragonminez_mutants</code>, <code>dragonminez_parties</code>, <code>dragonminez_pothala_pairs</code>, <code>dragonminez_raids</code>, <code>dragonminez_raid_sites</code>, <code>dragonminez_structure_plan</code>, <code>dragonminez_worldbosses</code>, <code>dragonminez_npc_placements</code>, <code>dragonminez_tournaments</code> and <code>dragonminez_otherworld_tournament</code>.
 </translate>
 
 <translate>
-== Dragon Ball pack folder ==
+== Dragon Ball pack folder == <!--T:44-->
 </translate>
 <translate>
+<!--T:45-->
 <code><game dir>/dragonballs/</code> sits next to your worlds and instance (not inside the world save). It holds external, distributable Dragon Ball definitions: ball sets, radars, dragons and their wishes. Each add-on pack can be a plain folder or a <code>.zip</code> file. DragonMineZ also checks a <code>dragonballs</code> folder in the current working directory and in the parent of the game directory. The packs are loaded by <code>DragonBallPackManager</code>; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]].
 </translate>
 
 <translate>
-== Rhythm chart cache ==
+== Rhythm chart cache == <!--T:46-->
 </translate>
 <translate>
+<!--T:47-->
 <code><game dir>/dragonminez/rhythm_charts/</code> is created on the client by the Rhythm training minigame for the charts it generates from music. It is a cache, not configuration.
 </translate>
 
 <translate>
-== Datapacks ==
+== Datapacks == <!--T:48-->
 </translate>
 <translate>
+<!--T:49-->
 Some systems are plain Forge or vanilla reload listeners. They follow the normal datapack rules (<code>data/<namespace>/...</code>) instead of living in <code>config/</code> or in the world save:
 </translate>
 <translate>
+<!--T:50-->
 * <code>spacepod/*.json</code>: the [[Special:MyLanguage/Space Pod|Space Pod]] destination list (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]).
 * <code>weapon_attributes/*.json</code>: weapon attribute definitions (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]).
 * <code>structure_npcs/*.json</code>: NPCs placed inside DragonMineZ structures (see [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|NPC Placement and Alignment]]).
 * <code>rhythm_charts/*.json</code>: charts for the Rhythm training minigame.
 </translate>
 <translate>
+<!--T:51-->
 These are picked up by the vanilla <code>/reload</code>, not by <code>/dmzreload</code>. Dragon Ball and wish definitions are '''not''' read from datapacks: use an add-on pack in <code><game dir>/dragonballs/</code> or the world's <code>dragonminez/wishes/</code> folder instead. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for the full breakdown.
 </translate>
 
 <translate>
-== Resource pack assets ==
+== Resource pack assets == <!--T:52-->
 </translate>
 <translate>
+<!--T:53-->
 Models, textures and animations referenced by config (the <code>customModel</code> fields) live under the normal resource pack namespace, for example:
 </translate>
 <translate>
+<!--T:54-->
 * <code>assets/dragonminez/geo/entity/races/</code>
 * <code>assets/dragonminez/lang/en_us.json</code> (the source language file)
 </translate>
 <translate>
+<!--T:55-->
 These need a resource reload ({{Key|F3}} + {{Key|T}} on the client) or a restart. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] and [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]].
 </translate>
 
 <translate>
-== Quick decision guide ==
+== Quick decision guide == <!--T:56-->
 </translate>
 <translate>
+<!--T:57-->
 * Tuning stats, damage or costs, or adding a race, form, entity or raid: <code>config/dragonminez/</code>
 * Adding or editing story content, wishes, dialogue or NPC placement for '''this world''': <code><world save>/dragonminez/</code>
 * Shipping a distributable Dragon Ball pack: <code><game dir>/dragonballs/</code>

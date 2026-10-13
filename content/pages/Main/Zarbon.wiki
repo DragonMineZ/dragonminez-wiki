@@ -1,0 +1,63 @@
+{{Infobox Mob
+|forms=Zarbon; Transformed
+|Transformed_image=Zarbon (Transformed).png
+|Transformed_Health=10200
+|Transformed_Damage=97.5
+|Transformed_Ki damage=82.5
+|Type=<translate><!--T:1--> Hostile, raid boss</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], wave 4</translate>
+|Behavior=<translate><!--T:3--> Waits until his escort falls; transforms at half health; Smart AI</translate>
+|Health=6800
+|Damage=65
+|Ki damage=55
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, dodging; transformed: Oozaru Beam, Aerial Combo</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Zarbon''' is one of Frieza's henchmen. In [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], the raid of [[Special:MyLanguage/Namek|Planet Namek]], he leads the fourth wave alongside [[Special:MyLanguage/Dodoria|Dodoria]], and halfway through the fight he turns into his monstrous transformed form.
+</translate>
+
+<translate>
+== In raids == <!--T:7-->
+
+<!--T:8-->
+Zarbon is one of the two bosses of wave 4, with [[Special:MyLanguage/Dodoria|Dodoria]] and 15 [[Special:MyLanguage/Frieza Soldier|Frieza Soldiers]]. Both bosses stay dormant until the soldiers are dead, but attacking one wakes it up early. Like every raid boss, he glows red, and he keeps glowing red after he transforms.
+
+<!--T:9-->
+In the raid he has 6,800 health, 65 melee damage and 55 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Smart]] AI tier. His transformed form has 10,200 health. These are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+
+<translate>
+== Forms == <!--T:10-->
+
+<!--T:11-->
+'''Base form.''' Zarbon flies, fires yellow ki blasts ('''Ki Blast''') and can step back out of the way of your hits.
+
+<!--T:12-->
+'''Transformed.''' When his health drops to half, or when a blow would kill him first, Zarbon stops and powers up for 4 seconds. He can't be hurt while he transforms. He then comes back as '''Zarbon (Transformed)''', bulkier and stronger:
+* His maximum health becomes 10,200, but he returns with only half of it.
+* His melee and ki damage are 1.5 times those of his base form (97.5 and 82.5 with the raid defaults). The multiplier comes from the saga enemy transformation settings (see [[Special:MyLanguage/Entities Config#Saga enemy transformations|Entities Config]]).
+* He keeps flying, fights with the '''Oozaru Beam''', a yellow ki beam, and the '''Aerial Combo''', and no longer dodges.
+* He doesn't transform again: defeating this form defeats Zarbon.
+</translate>
+
+<translate>
+== Drops == <!--T:14-->
+
+<!--T:15-->
+Zarbon drops nothing. Clearing the raid rewards everyone still fighting (see [[Special:MyLanguage/Frieza's Invasion#Rewards|Frieza's Invasion]]).
+</translate>
+
+<translate>
+== In the story == <!--T:16-->
+
+<!--T:17-->
+In the [[Special:MyLanguage/Frieza Saga|Frieza Saga]], the quest '''Zarbon's True Form''' has you defeat him on Namek's Ajissa Plains, where he also transforms mid-fight.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:18--> Entity ids</translate>|<code>dragonminez:saga_zarbon</code>, <code>dragonminez:saga_zarbont1</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

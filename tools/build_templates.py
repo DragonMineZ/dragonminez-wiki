@@ -104,7 +104,7 @@ LABELS = {
     'Stack forms': ('Formas acumulables', 'Formas acumuláveis'), 'Strengths': ('Fortalezas', 'Pontos fortes'),
     'Playstyle': ('Estilo de juego', 'Estilo de jogo'), 'Fusion': ('Fusión', 'Fusão'),
     'Passive': ('Pasiva', 'Passiva'), 'Recommended races': ('Razas recomendadas', 'Raças recomendadas'),
-    'Strength': ('Fuerza', 'Força'), 'Strike Power': ('Poder de golpe', 'Poder de golpe'),
+    'Strength': ('Fuerza', 'Força'), 'Strike Power': ('Super Golpes', 'Poder de Golpe'),
     'Resistance': ('Resistencia', 'Resistência'), 'Vitality': ('Vitalidad', 'Vitalidade'),
     'Ki Power': ('Poder de ki', 'Poder de ki'), 'Energy': ('Energía', 'Energia'),
     'Race': ('Raza', 'Raça'), 'Group': ('Grupo', 'Grupo'), 'Form type': ('Tipo de forma', 'Tipo de forma'),
@@ -126,7 +126,7 @@ LABELS = {
     'Respawn': ('Reaparición', 'Reaparecimento'), 'Transforms into': ('Se transforma en', 'Transforma-se em'),
     'Transformed health': ('Vida transformado', 'Vida transformado'), 'Minions': ('Secuaces', 'Lacaios'),
     'Signature moves': ('Ataques característicos', 'Ataques característicos'), 'Techniques': ('Técnicas', 'Técnicas'),
-    'Raid id': ('ID de la raid', 'ID da raid'), 'Raid site': ('Lugar de la raid', 'Local da raid'),
+    'Raid id': ('ID de la incursión', 'ID da incursão'), 'Raid site': ('Lugar de la incursión', 'Local da incursão'),
     'Waves': ('Oleadas', 'Ondas'), 'Scout health': ('Vida del explorador', 'Vida do batedor'),
     'Scout melee': ('Daño cuerpo a cuerpo', 'Dano corpo a corpo'), 'Scout ki': ('Daño de ki', 'Dano de ki'),
     'Defeat penalty': ('Castigo por derrota', 'Penalidade por derrota'),
@@ -137,7 +137,7 @@ LABELS = {
     'Order': ('Orden', 'Ordem'), 'Quests': ('Misiones', 'Missões'), 'Villains': ('Villanos', 'Vilões'),
     'Unlocks': ('Desbloquea', 'Desbloqueia'), 'Previous': ('Anterior', 'Anterior'), 'Next': ('Siguiente', 'Próxima'),
     'Dragon Balls': ('Esferas del Dragón', 'Esferas do Dragão'), 'Radar': ('Radar', 'Radar'),
-    'Wishes': ('Deseos', 'Desejos'), 'Cooldown': ('Enfriamiento', 'Recarga'),
+    'Wishes': ('Deseos', 'Desejos'), 'Cooldown': ('Tiempo de recarga', 'Recarga'),
     'Duration': ('Duración', 'Duração'), 'Stack size': ('Tamaño de pila', 'Tamanho da pilha'),
     'Obtained': ('Se obtiene', 'Obtido'), 'Sold by': ('Lo vende', 'Vendido por'),
     'Moveset': ('Combo', 'Combo'), 'Reach': ('Alcance', 'Alcance'),
@@ -165,11 +165,11 @@ NAMES = {
     'Paladin': ('Paladín', 'Paladino'), 'Tank': ('Tanque', 'Tanque'), 'Cleric': ('Clérigo', 'Clérigo'),
     'Unversed': ('Unversed', 'Unversed'),
     'Masters': ('Maestros', 'Mestres'), 'Master Roshi': ('Maestro Roshi', 'Mestre Kame'),
-    'King Kai': ('Kaio del Norte', 'Senhor Kaioh'), 'Old Kai': ('Viejo Kaioshin', 'Velho Kaioshin'),
+    'King Kai': ('Kaio del Norte', 'Senhor Kaioh'), 'Old Kai': ('Kaioshin Anciano', 'Velho Kaioshin'),
     'Fortuneteller Baba': ('Uranai Baba', 'Vovó Uranai'), 'Korin': ('Karin', 'Karin'),
     'Dimensions': ('Dimensiones', 'Dimensões'), 'Earth': ('Tierra', 'Terra'), 'Namek': ('Namek', 'Namekusei'),
     'Sacred Kai Planet': ('Planeta Sagrado de los Kaioshin', 'Planeta Sagrado dos Kaioshins'),
-    'Hyperbolic Time Chamber': ('Habitación del Tiempo', 'Sala do Espírito e do Tempo'),
+    'Hyperbolic Time Chamber': ('Cámara Hiperbólica del Tiempo', 'Sala do Tempo'),
     'Otherworld': ('Otro Mundo', 'Outro Mundo'), 'Demon Realm': ('Reino Demoníaco', 'Reino Demoníaco'),
     'Structures': ('Estructuras', 'Estruturas'), 'Bestiary': ('Bestiario', 'Bestiário'),
     'Wildlife': ('Fauna', 'Fauna'), 'Hostile mobs': ('Enemigos', 'Inimigos'), 'NPCs': ('NPCs', 'NPCs'),
@@ -228,7 +228,7 @@ HUB_NAMES = {
     'Custom Races': ('Razas personalizadas', 'Raças personalizadas'), 'Custom Forms': ('Formas personalizadas', 'Formas personalizadas'),
     'Custom Quests': ('Misiones personalizadas', 'Missões personalizadas'),
     'Custom Wishes': ('Deseos personalizados', 'Desejos personalizados'),
-    'NPC Placement and Alignment': ('Ubicación y alineamiento de NPCs', 'Posicionamento e alinhamento de NPCs'),
+    'NPC Placement and Alignment': ('Ubicación y alineamiento de NPCs', 'Posicionamento e índole de NPCs'),
     'NPC Dialogue': ('Diálogos de NPCs', 'Diálogos de NPCs'),
     'Space Pod Destinations': ('Destinos de la nave espacial', 'Destinos da nave espacial'),
     'Weapon Attributes': ('Atributos de armas', 'Atributos de armas'),
@@ -239,7 +239,7 @@ HUB_NAMES = {
     'Creating a DMZ Addon': ('Crear un addon de DMZ', 'Criar um addon de DMZ'),
     'Contributing': ('Cómo contribuir', 'Como contribuir'), 'Security Policy': ('Política de seguridad', 'Política de segurança'),
     'Sidequests': ('Misiones secundarias', 'Missões secundárias'),
-    'Ki Attacks': ('Ataques de ki', 'Ataques de ki'), 'Strike Attacks': ('Golpes', 'Golpes'),
+    'Ki Attacks': ('Ataques de Ki', 'Ataques de Ki'), 'Strike Attacks': ('Super Golpes', 'Ataques de Golpe'),
     'Evasion Techniques': ('Técnicas de evasión', 'Técnicas de evasão'),
 }
 
@@ -254,12 +254,26 @@ def registry_labels() -> dict:
     return merged
 
 
+def official_names() -> dict:
+    names = {}
+    for name in ('official-names.tsv', 'name-overrides.tsv'):
+        path = ROOT / 'docs' / 'registry' / name
+        if not path.exists():
+            continue
+        for line in path.read_text(encoding='utf-8').splitlines():
+            parts = [part.strip() for part in line.split(chr(9))]
+            if len(parts) >= 3 and parts[0] and not parts[0].startswith('#'):
+                names[parts[0]] = (parts[1] or parts[0], parts[2] or parts[0])
+    return names
+
+
 def labels_lua() -> str:
     rows = []
     merged = registry_labels()
     merged.update(LABELS)
     merged.update(HUB_NAMES)
     merged.update(NAMES)
+    merged.update(official_names())
     for key in sorted(merged):
         es, pt = merged[key]
         rows.append(f"\t[ {lua_str(key)} ] = {{ en = {lua_str(key)}, es = {lua_str(es)}, pt = {lua_str(pt)} }},")

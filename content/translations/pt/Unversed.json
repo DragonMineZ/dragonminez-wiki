@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "Unversed",
+  "translation": "Unversed",
+  "outdated": false
+ },
+ "1": {
+  "source": "The all-rounder: no weak stat, no standout stat, rewarded for mixing ki attacks and melee.",
+  "translation": "O versátil: nenhum atributo fraco, nenhum de destaque, recompensado por misturar ataques de ki e corpo a corpo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Resonance",
+  "translation": "Ressonância",
+  "outdated": false
+ },
+ "3": {
+  "source": "Hybrid: alternates melee and ki attacks",
+  "translation": "Híbrido: alterna corpo a corpo e ataques de ki",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.22, STM 1.35",
+  "translation": "DEF 0.22, STM 1.35",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Unversed''' is the all-rounder among the [[Special:MyLanguage/Classes|classes]]. It has no weak stat and no standout stat, starts with points in every attribute, and its passive rewards switching between ki attacks and melee.",
+  "translation": "'''Unversed''' é o versátil entre as [[Special:MyLanguage/Classes|classes]]. Não tem nenhum atributo fraco nem nenhum de destaque, começa com pontos em todos os atributos e sua passiva recompensa alternar entre ataques de ki e corpo a corpo.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Resonance ==",
+  "translation": "== Passiva: Ressonância ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Alternating between ki and melee empowers the other style:",
+  "translation": "Alternar entre ki e corpo a corpo fortalece o outro estilo:",
+  "outdated": false
+ },
+ "8": {
+  "source": "* '''Firing a ki attack''' empowers your next '''3 melee hits''' (or your next '''Strike''') to deal '''+15%''' damage.\n* '''Landing 3 melee hits''' (within 5 seconds of each other) or '''a Strike''' empowers your next damaging '''ki attack''' to deal '''+15%''' damage. Healing ki attacks neither use nor waste it.\n* Each charge lasts '''8 seconds''' and can't be renewed while it is still active.",
+  "translation": "* '''Disparar um ataque de ki''' fortalece seus próximos '''3 golpes corpo a corpo''' (ou seu próximo '''Golpe''') para causar '''+15%''' de dano.\n* '''Acertar 3 golpes corpo a corpo''' (com no máximo 5 segundos entre eles) ou '''um Golpe''' fortalece seu próximo '''ataque de ki''' ofensivo para causar '''+15%''' de dano. Ataques de Ki de cura não a usam nem a desperdiçam.\n* Cada carga dura '''8 segundos''' e não pode ser renovada enquanto ainda estiver ativa.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Atributos iniciais e regeneração ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "* '''Starting stats:''' STR 4 · SKP 3 · RES 3 · VIT 4 · PWR 3 · ENE 3\n* '''Regeneration''' (per 5 seconds): health 1.4 (+0.048 per VIT) · Ki 5.0 (+0.10 per ENE) · stamina 10.0 (+0.0375 per VIT, +0.05 per RES)",
+  "translation": "* '''Atributos iniciais:''' STR 4 · SKP 3 · RES 3 · VIT 4 · PWR 3 · ENE 3\n* '''Regeneração''' (a cada 5 segundos): vida 1.4 (+0.048 por VIT) · Ki 5.0 (+0.10 por ENE) · estâmina 10.0 (+0.0375 por VIT, +0.05 por RES)",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalonamento de atributos ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every Unversed scaling sits in the middle of the range: STR 0.9, SKP 0.9, DEF 0.22, STM 1.35, VIT 1.9, PWR 0.85 and ENE 1.75. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "Todos os escalonamentos do Unversed ficam no meio da faixa: STR 0.9, SKP 0.9, DEF 0.22, STM 1.35, VIT 1.9, PWR 0.85 e ENE 1.75. Os valores de VIT e DEF crescem em curva conforme você investe mais, até 4 vezes a taxa inicial. Compare todas as classes na página [[Special:MyLanguage/Classes#Default stat scalings|Classes]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "The class id is <code>unversed</code>. Its passive values (<code>physicalBonus</code>, <code>physicalCharges</code>, <code>kiBonus</code>, <code>meleeHitsToPrime</code>, <code>comboResetTicks</code>, <code>chargeDurationTicks</code> and <code>strikeWindowTicks</code>) are set per race in <code>races/&lt;race&gt;/stats.json</code>, together with the starting stats, scalings and regeneration.",
+  "translation": "O id da classe é <code>unversed</code>. Os valores da passiva (<code>physicalBonus</code>, <code>physicalCharges</code>, <code>kiBonus</code>, <code>meleeHitsToPrime</code>, <code>comboResetTicks</code>, <code>chargeDurationTicks</code> e <code>strikeWindowTicks</code>) são definidos por raça em <code>races/&lt;race&gt;/stats.json</code>, junto com os atributos iniciais, os escalonamentos e a regeneração.",
+  "outdated": false
+ }
+}

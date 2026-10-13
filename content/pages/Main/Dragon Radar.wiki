@@ -1,31 +1,33 @@
 {{Infobox Item
-|quote=<translate>Let's go catch the Dragon Balls!</translate>
-|Type=<translate>Tool</translate>
-|Effect=<translate>Shows the Dragon Balls of its world on screen</translate>
+|quote=<translate><!--T:1--> Let's go catch the Dragon Balls!</translate>
+|Type=<translate><!--T:2--> Tool</translate>
+|Effect=<translate><!--T:3--> Shows the Dragon Balls of its world on screen</translate>
 |Stack size=1
-|Obtained=<translate>Crafting, Bulma's sidequests</translate>
-|Crafting=<translate>Radar's Chips, Radar's CPU, Radar's Pieces and Observers</translate>
+|Obtained=<translate><!--T:4--> Crafting, Bulma's sidequests</translate>
+|Crafting=<translate><!--T:5--> Radar's Chips, Radar's CPU, Radar's Pieces and Observers</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Dragon Radar''' locates the scattered Dragon Balls so you can gather all seven and summon a dragon (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]). Each world has its own radar: the Earth radar finds the Earth Dragon Balls for [[Special:MyLanguage/Shenron|Shenron]], the Namek radar finds the Namek Dragon Balls for [[Special:MyLanguage/Porunga|Porunga]], and the '''Bi-Dimensional Radar''' works in both worlds.
 </translate>
 
 <translate>
-== Radars ==
+== Radars == <!--T:7-->
 </translate>
 {| class="wikitable"
-! <translate>Radar</translate> !! <translate>Works in</translate> !! <translate>Finds</translate> !! <translate>How to get it</translate>
+! <translate><!--T:8--> Radar</translate> !! <translate><!--T:9--> Works in</translate> !! <translate><!--T:10--> Finds</translate> !! <translate><!--T:11--> How to get it</translate>
 |-
-| <translate>Dragon Radar (Earth)</translate> || {{L|Earth}} || <translate>Earth Dragon Balls</translate> || <translate>Crafted from Radar's Chips (Earth) and a Radar's CPU (Earth). Also the reward of Bulma's '''Radar Upgrade''' sidequest and of the [[Special:MyLanguage/GT Saga|GT Saga]] quest '''Parts for Bulma'''.</translate>
+| <translate><!--T:12--> Dragon Radar (Earth)</translate> || {{L|Earth}} || <translate><!--T:13--> Earth Dragon Balls</translate> || <translate><!--T:14--> Crafted from Radar's Chips (Earth) and a Radar's CPU (Earth). Also the reward of Bulma's '''Radar Upgrade''' sidequest and of the [[Special:MyLanguage/GT Saga|GT Saga]] quest '''Parts for Bulma'''.</translate>
 |-
-| <translate>Dragon Radar (Namek)</translate> || {{L|Namek}} || <translate>Namek Dragon Balls</translate> || <translate>Crafted from Radar's Chips (Namek) and a Radar's CPU (Namek). Also the reward of Bulma's '''Namekian Research''' sidequest.</translate>
+| <translate><!--T:15--> Dragon Radar (Namek)</translate> || {{L|Namek}} || <translate><!--T:16--> Namek Dragon Balls</translate> || <translate><!--T:17--> Crafted from Radar's Chips (Namek) and a Radar's CPU (Namek). Also the reward of Bulma's '''Namekian Research''' sidequest.</translate>
 |-
-| <translate>Bi-Dimensional Radar</translate> || <translate>Earth and Namek</translate> || <translate>Both sets</translate> || <translate>Not craftable. Bulma's '''Bi-Dimensional Radar''' sidequest fuses an Earth radar and a Namek radar into one.</translate>
+| <translate><!--T:18--> Bi-Dimensional Radar</translate> || <translate><!--T:19--> Earth and Namek</translate> || <translate><!--T:20--> Both sets</translate> || <translate><!--T:21--> Not craftable. Bulma's '''Bi-Dimensional Radar''' sidequest fuses an Earth radar and a Namek radar into one.</translate>
 |}
 
 <translate>
-== Using the radar ==
+== Using the radar == <!--T:22-->
 
+<!--T:23-->
 * Hold the radar in your main hand or off hand to see the radar display on screen.
 * '''Right-click''' to switch its range. The Earth and Namek radars switch between '''150''' and '''300''' blocks; the Bi-Dimensional Radar also has a '''600'''-block range. After switching, the radar needs 16 seconds before you can switch again.
 * Bulma's '''Signal Amplifier''' sidequest adds the 600-block range to your radars.
@@ -33,35 +35,42 @@ The '''Dragon Radar''' locates the scattered Dragon Balls so you can gather all 
 </translate>
 
 <translate>
-== Radar parts ==
+== Radar parts == <!--T:24-->
 
+<!--T:25-->
 The radars are built from four components. They are also used in many other DMZ recipes.
 </translate>
 {| class="wikitable"
-! <translate>Part</translate> !! <translate>Recipe (crafting table)</translate>
+! <translate><!--T:26--> Part</translate> !! <translate><!--T:27--> Recipe (crafting table)</translate>
 |-
-| <translate>Radar's Piece</translate> || <translate><code>S I S / I R I / S I S</code>: S is String, I is Iron Ingot, R is Redstone.</translate>
+| <translate><!--T:28--> Radar's Piece</translate> || {{Recipe|radar_piece}}
 |-
-| <translate>Radar's Chip (Earth)</translate> || <translate><code>R B R / G P G / R B R</code>: R is Redstone, B is Redstone Repeater, G is Green Concrete, P is Radar's Piece.</translate>
+| <translate><!--T:30--> Radar's Chip (Earth)</translate> || {{Recipe|t1_radar_chip}}
 |-
-| <translate>Radar's CPU (Earth)</translate> || <translate><code>R B R / C P C / R O R</code>: R is Redstone Comparator, B is Redstone Repeater, C is Radar's Chip (Earth), P is Radar's Piece, O is Observer.</translate>
+| <translate><!--T:32--> Radar's CPU (Earth)</translate> || {{Recipe|t1_radar_cpu}}
 |-
-| <translate>Radar's Chip (Namek)</translate> || <translate><code>R O R / B P B / T T T</code>: R is Redstone Torch, O is Observer, B is Blue Concrete, P is Radar's Piece, T is Radar's CPU (Earth).</translate>
+| <translate><!--T:34--> Radar's Chip (Namek)</translate> || {{Recipe|t2_radar_chip}}
 |-
-| <translate>Radar's CPU (Namek)</translate> || <translate><code>R C R / T T T / O C O</code>: R is Redstone Comparator, C is Radar's Chip (Namek), T is Radar's CPU (Earth), O is Observer.</translate>
+| <translate><!--T:36--> Radar's CPU (Namek)</translate> || {{Recipe|t2_radar_cpu}}
 |}
 <translate>
-The radars themselves use the pattern <code>O C O / P G P / C P C</code>: O is Observer, C is the Radar's Chip of that world, G is the Radar's CPU of that world and P is Radar's Piece.
-
+<!--T:38-->
+The radars themselves use the chip and CPU of their world:
+</translate>
+{{Recipe|dball_radar|namekdball_radar}}
+<translate>
+<!--T:39-->
 Other ways to get parts:
 
+<!--T:40-->
 * [[Special:MyLanguage/Namekian Trader|Namekian Traders]] sell Radar's Chips (Namek).
 * [[Special:MyLanguage/Shenron|Shenron]] can grant 4 Radar's CPUs (Namek) as a wish.
 </translate>
 
 <translate>
-=== Other recipes that use radar parts ===
+=== Other recipes that use radar parts === <!--T:41-->
 
+<!--T:42-->
 * [[Special:MyLanguage/Scouters|Scouters]]: Radar's Piece and Radar's CPU (Earth).
 * [[Special:MyLanguage/Space Pod|Space Pod]]: Radar's Chips (Namek) and Radar's CPU (Namek).
 * [[Special:MyLanguage/Gravity Device|Gravity Device]]: Radar's CPU (Earth).

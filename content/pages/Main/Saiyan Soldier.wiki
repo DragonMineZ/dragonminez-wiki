@@ -1,0 +1,75 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid enemy</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Saiyan Crater|Saiyan Craters]] (one scout each) and every wave of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]</translate>
+|Behavior=<translate><!--T:3--> Attacks on sight; Novice AI</translate>
+|Health=500
+|Damage=12
+|Ki damage=10
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, Melee Combo, Rapid Kicks, dodging</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Saiyan Soldiers''' are the rank-and-file invaders of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]], the raid of [[Special:MyLanguage/Earth|Earth]]. One of them stands by the crashed pod of every [[Special:MyLanguage/Saiyan Crater|Saiyan Crater]] as the raid's scout, and more of them land in every wave of the raid.
+</translate>
+
+<translate>
+== Appearance == <!--T:7-->
+
+<!--T:8-->
+Every Saiyan Soldier gets its own look when it spawns: a skin tone, black hair in a random style, one of four sets of Saiyan armor (Vegeta's, Raditz's, Turles's or Bardock's) and a green, red, blue or purple [[Special:MyLanguage/Scouters|scouter]]. [[Special:MyLanguage/Saiyan Elite|Saiyan Elites]] get their looks the same way.
+</translate>
+
+<translate>
+== The scout == <!--T:9-->
+
+<!--T:10-->
+Each [[Special:MyLanguage/Saiyan Crater|Saiyan Crater]] holds one Saiyan Soldier, shown with a supervillain aura. It stays close to its pod until it spots someone, and attacks players and villagers on sight. The scout has 500 health, 12 melee damage and 10 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Novice]] AI tier. Killing it starts the raid (see [[Special:MyLanguage/Saiyan Assault#Starting the raid|Saiyan Assault]]).
+</translate>
+
+<translate>
+== In raids == <!--T:11-->
+
+<!--T:12-->
+Saiyan Soldiers make up most of every wave of the Saiyan Assault. They drop in around the raid centre, fight on the Novice AI tier, attack only the raid's participants and glow purple. In the last wave they escort the three Saiyan Elite bosses, who wake up when every soldier is dead.
+
+<!--T:13-->
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+{| class="wikitable"
+! <translate><!--T:14--> Wave</translate> !! <translate><!--T:15--> Soldiers</translate> !! <translate><!--T:16--> Health / melee / ki</translate> !! <translate><!--T:17--> Alongside</translate>
+|-
+| 1 || 4 || 500 / 12 / 10 || —
+|-
+| 2 || 6 || 550 / 14 / 11 || —
+|-
+| 3 || 6 || 600 / 15 / 12 || <translate><!--T:18--> 2 [[Special:MyLanguage/Saiyan Elite|Saiyan Elites]]</translate>
+|-
+| 4 || 6 || 650 / 16 / 13 || <translate><!--T:19--> 4 [[Special:MyLanguage/Saiyan Elite|Saiyan Elites]]</translate>
+|-
+| 5 || 6 || 700 / 17 / 14 || <translate><!--T:20--> 3 [[Special:MyLanguage/Saiyan Elite|Saiyan Elites]] (bosses), who become Oozarus</translate>
+|}
+
+<translate>
+== Behavior and abilities == <!--T:21-->
+
+<!--T:22-->
+* '''Flight:''' Saiyan Soldiers fly and follow you into the air.
+* '''Ki Blast:''' yellow ki blasts with an orange rim.
+* '''Melee Combo:''' the soldier teleports around you, striking from the front and from behind, and ends with a heavy blow.
+* '''Rapid Kicks:''' the soldier teleports in front of you and kicks you in a rapid flurry.
+* '''Dodging:''' they can step back out of the way of your hits.
+</translate>
+
+<translate>
+== Drops == <!--T:23-->
+
+<!--T:24-->
+Saiyan Soldiers drop nothing: their armor and scouter are only part of their look. Clearing the raid rewards everyone still fighting, including a Green Scouter (see [[Special:MyLanguage/Saiyan Assault#Rewards|Saiyan Assault]]).
+</translate>
+
+{{Note|type=config|title=<translate><!--T:25--> Entity ids</translate>|<code>dragonminez:saga_saiyan_soldier</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

@@ -1,33 +1,36 @@
 {{Infobox Skill
-|quote=<translate>The first skill every fighter needs.</translate>
-|Type=<translate>Movement and utility</translate>
+|quote=<translate><!--T:1--> The first skill every fighter needs.</translate>
+|Type=<translate><!--T:2--> Movement and utility</translate>
 |Max level=1
-|Taught by=<translate>Almost every master</translate>
+|Taught by=<translate><!--T:3--> Almost every master</translate>
 |Cost=3,000 TP
-|Effect=<translate>Lets you channel ki: required to fly and to use ki, strike and evasion techniques.</translate>
+|Effect=<translate><!--T:4--> Lets you channel ki: required to fly and to use ki, strike and evasion techniques.</translate>
 }}
 <translate>
+<!--T:5-->
 '''Ki Control''' is the foundation for channeling ki. It is the single most important skill in DragonMineZ: until you learn it you can't fly, and you can't charge or use ki attacks, strike attacks or evasion techniques. It has a single level and almost every [[Special:MyLanguage/Masters|master]] teaches it, so it should be the first thing you buy.
 </translate>
 
 <translate>
-== Learning it ==
+== Learning it == <!--T:6-->
 
+<!--T:7-->
 Ki Control costs '''3,000 TP''' and has only one level. Almost every master offers it, and it is also part of the fallback list used by any master or quest NPC that has no skill list of its own (Ki Control and Jump).
 </translate>
 {| class="wikitable"
-! <translate>Master</translate> !! <translate>Alignment needed to train</translate>
+! <translate><!--T:8--> Master</translate> !! <translate><!--T:9--> Alignment needed to train</translate>
 |-
-| {{L|Master Roshi}}, {{L|Krillin}}, {{L|Goku}}, {{L|Gohan}}, {{L|King Kai}}, {{L|Old Kai}} || <translate>Good (61 or higher)</translate>
+| {{L|Master Roshi}}, {{L|Krillin}}, {{L|Goku}}, {{L|Gohan}}, {{L|King Kai}}, {{L|Old Kai}} || <translate><!--T:10--> Good (61 or higher)</translate>
 |-
-| {{L|Piccolo}}, {{L|Yamcha}}, {{L|Trunks}}, {{L|Vegeta}}, {{L|Fortuneteller Baba}} || <translate>None</translate>
+| {{L|Piccolo}}, {{L|Yamcha}}, {{L|Trunks}}, {{L|Vegeta}}, {{L|Fortuneteller Baba}} || <translate><!--T:11--> None</translate>
 |-
-| {{L|Cell}}, {{L|Frieza}} || <translate>Evil (40 or lower)</translate>
+| {{L|Cell}}, {{L|Frieza}} || <translate><!--T:12--> Evil (40 or lower)</translate>
 |}
 
 <translate>
-== What it unlocks ==
+== What it unlocks == <!--T:13-->
 
+<!--T:14-->
 * '''Ki and strike attacks.''' Both rely on channeling ki, so you can't charge or use them without Ki Control. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]] and [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
 * '''Evasion techniques.''' [[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]] and the rest also need Ki Control. See [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].
 * '''Flight.''' Taking off needs both the [[Special:MyLanguage/Fly|Fly]] skill and Ki Control (and at least 5% Power Release). Without it you get the message "You need the Ki Control skill to do that."
@@ -36,14 +39,16 @@ Ki Control costs '''3,000 TP''' and has only one level. Almost every master offe
 </translate>
 
 <translate>
-== Requirements for techniques ==
+== Requirements for techniques == <!--T:15-->
 
+<!--T:16-->
 Ki Control is only one of the conditions for using a technique. You also need at least '''5% Power Release''' and an '''empty main hand''' (the [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], which needs the Brave Sword in hand, is the exception). See [[Special:MyLanguage/Techniques|Techniques]].
 </translate>
 
 <translate>
-== Notes ==
+== Notes == <!--T:17-->
 
+<!--T:18-->
 * The '''Ki Control''' training minigame run by [[Special:MyLanguage/Krillin|Krillin]] is a different thing: it is a minigame that pays Training Points, not this skill. See [[Special:MyLanguage/Training Minigames|Training Minigames]].
 * Admins can grant skills with {{Command|/dmzskill}} (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>

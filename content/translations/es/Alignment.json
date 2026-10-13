@@ -1,0 +1,377 @@
+{
+ "Page_display_title": {
+  "source": "Alignment",
+  "translation": "Alineamiento",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Alignment''' measures how good or evil your character is, on a scale from 0 to 100. Every new character starts at '''100''' (fully Good). Your alignment moves with what you do (who you kill, the raids you lose, the tournaments you win, the quests and choices you make) and in turn decides which [[Special:MyLanguage/Masters|masters]] train you, how some NPCs treat you, which cloud you can ride and a few racial and combat perks.",
+  "translation": "El '''alineamiento''' mide qué tan bueno o malvado es tu personaje, en una escala de 0 a 100. Todo personaje nuevo empieza en '''100''' (completamente bueno). Tu alineamiento cambia según lo que haces (a quién matas, las incursiones que pierdes, los torneos que ganas, las misiones y decisiones que tomas) y, a su vez, decide qué [[Special:MyLanguage/Masters|maestros]] te entrenan, cómo te tratan algunos NPCs, qué nube puedes montar y algunas ventajas raciales y de combate.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Alignment bands ==",
+  "translation": "== Franjas de alineamiento ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Band",
+  "translation": "Franja",
+  "outdated": false
+ },
+ "4": {
+  "source": "Range",
+  "translation": "Rango",
+  "outdated": false
+ },
+ "5": {
+  "source": "In short",
+  "translation": "En resumen",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Good'''",
+  "translation": "'''Bueno'''",
+  "outdated": false
+ },
+ "7": {
+  "source": "Trains with Goku, Gohan, Master Roshi, Krillin, King Kai and Old Kai, and receives Kami's Blessing.",
+  "translation": "Entrena con Goku, Gohan, el Maestro Roshi, Krilin, Kaiosama y el Kaioshin Anciano, y recibe la Bendición de Kami.",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Neutral'''",
+  "translation": "'''Neutral'''",
+  "outdated": false
+ },
+ "9": {
+  "source": "Locked out of both the Good and the Evil masters.",
+  "translation": "Sin acceso a los maestros buenos ni a los malvados.",
+  "outdated": false
+ },
+ "10": {
+  "source": "'''Evil'''",
+  "translation": "'''Malvado'''",
+  "outdated": false
+ },
+ "11": {
+  "source": "Trains with Cell and Frieza, can receive the Majin Mark (below 39), and is attacked on sight by the ogres of Hell.",
+  "translation": "Entrena con Cell y Freezer, puede recibir el Sello Majin (por debajo de 39) y los ogros del Infierno lo atacan nada más verlo.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Your current alignment is shown in the '''Stats''' tab of the Character Menu ({{Key|V}}, see [[Special:MyLanguage/Menus|Menus]]). The value always stays between 0 and 100.",
+  "translation": "Tu alineamiento actual aparece en la pestaña '''Estadísticas''' del menú de personaje ({{Key|V}}; consulta [[Special:MyLanguage/Menus|Menús]]). El valor siempre se mantiene entre 0 y 100.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== What changes your alignment ==",
+  "translation": "== Qué cambia tu alineamiento ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "=== Fighting and killing ===",
+  "translation": "=== Pelear y matar ===",
+  "outdated": false
+ },
+ "15": {
+  "source": "Killing certain creatures and players changes the alignment of the player who lands the killing blow (melee or ki):",
+  "translation": "Matar a ciertas criaturas y jugadores cambia el alineamiento del jugador que da el golpe final (cuerpo a cuerpo o con ki):",
+  "outdated": false
+ },
+ "16": {
+  "source": "You kill",
+  "translation": "Matas a",
+  "outdated": false
+ },
+ "17": {
+  "source": "Alignment",
+  "translation": "Alineamiento",
+  "outdated": false
+ },
+ "18": {
+  "source": "A player with alignment 50 or more",
+  "translation": "Un jugador con alineamiento de 50 o más",
+  "outdated": false
+ },
+ "19": {
+  "source": "A player with alignment below 50 (or a player who hasn't created a character yet)",
+  "translation": "Un jugador con alineamiento menor que 50 (o un jugador que aún no ha creado su personaje)",
+  "outdated": false
+ },
+ "20": {
+  "source": "Villagers, [[Special:MyLanguage/Namekian Warrior|Namekian Warriors]], [[Special:MyLanguage/Namekian Trader|Namekian Traders]], [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] and the [[Special:MyLanguage/Time Patroller|Time Patroller]]",
+  "translation": "Aldeanos, [[Special:MyLanguage/Namekian Warrior|Guerreros Namekianos]], [[Special:MyLanguage/Namekian Trader|Comerciantes Namekianos]], [[Special:MyLanguage/Demon Realm Villager|Aldeanos del Reino Demoníaco]] y el [[Special:MyLanguage/Time Patroller|Patrullero del Tiempo]]",
+  "outdated": false
+ },
+ "21": {
+  "source": "The [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Frieza Soldier|Frieza Soldiers]] and [[Special:MyLanguage/Bandit|Bandits]]",
+  "translation": "El [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] (soldados y robots), los [[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]] y los [[Special:MyLanguage/Bandit|Bandidos]]",
+  "outdated": false
+ },
+ "22": {
+  "source": "=== Raids ===",
+  "translation": "=== Incursiones ===",
+  "outdated": false
+ },
+ "23": {
+  "source": "Losing a [[Special:MyLanguage/Raids|raid]] costs every participant alignment:",
+  "translation": "Perder una [[Special:MyLanguage/Raids|incursión]] le cuesta alineamiento a cada participante:",
+  "outdated": false
+ },
+ "24": {
+  "source": "Raid",
+  "translation": "Incursión",
+  "outdated": false
+ },
+ "25": {
+  "source": "Alignment on defeat",
+  "translation": "Alineamiento al perder",
+  "outdated": false
+ },
+ "26": {
+  "source": "=== Tournaments ===",
+  "translation": "=== Torneos ===",
+  "outdated": false
+ },
+ "27": {
+  "source": "Winning a [[Special:MyLanguage/Tournaments|tournament]] raises your alignment:",
+  "translation": "Ganar un [[Special:MyLanguage/Tournaments|torneo]] sube tu alineamiento:",
+  "outdated": false
+ },
+ "28": {
+  "source": "Tournament",
+  "translation": "Torneo",
+  "outdated": false
+ },
+ "29": {
+  "source": "Alignment for the winner",
+  "translation": "Alineamiento para el ganador",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== Quests and dialogue ===",
+  "translation": "=== Misiones y diálogos ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "Quests can reward (or take away) alignment, and that reward is scaled by your story difficulty like other quest rewards (Hard ×1.25, see [[Special:MyLanguage/Sagas|Sagas]]). Choices in an NPC's dialogue can also raise or lower it. Server owners and add-on authors set these up in their own quests and dialogue trees (see [[Special:MyLanguage/Custom Quests|Custom Quests]] and [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]]), and both can also require an alignment range before a quest or a choice becomes available.",
+  "translation": "Las misiones pueden darte (o quitarte) alineamiento, y esa recompensa se ajusta según la dificultad de tu historia, como las demás recompensas de misión (Difícil ×1.25; consulta [[Special:MyLanguage/Sagas|Sagas]]). Las opciones en el diálogo de un NPC también pueden subirlo o bajarlo. Los dueños de servidores y los autores de addons configuran esto en sus propias misiones y árboles de diálogo (consulta [[Special:MyLanguage/Custom Quests|Misiones personalizadas]] y [[Special:MyLanguage/NPC Dialogue|Diálogos de NPCs]]), y ambos pueden exigir además un rango de alineamiento antes de que una misión o una opción esté disponible.",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== The Demon Eye ===",
+  "translation": "=== El Ojo Demoníaco ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "While you wear the [[Special:MyLanguage/Demon Eye|Demon Eye]] (a drop of the [[Special:MyLanguage/Gomah|Gomah]] world boss), you lose '''1 alignment every 10 seconds''' by default. See [[Special:MyLanguage/Items|Items]].",
+  "translation": "Mientras llevas puesto el [[Special:MyLanguage/Demon Eye|Ojo Demoníaco]] (un botín del jefe de mundo [[Special:MyLanguage/Gomah|Gomah]]), pierdes '''1 de alineamiento cada 10 segundos''' por defecto. Consulta [[Special:MyLanguage/Items|Objetos]].",
+  "outdated": false
+ },
+ "34": {
+  "source": "=== The Majin Mark ===",
+  "translation": "=== El Sello Majin ===",
+  "outdated": false
+ },
+ "35": {
+  "source": "[[Special:MyLanguage/Babidi|Babidi]] only brands you with the [[Special:MyLanguage/Majin Mark|Majin Mark]] if your alignment is below 39. Once you carry the mark, your alignment is '''held at 0''' for as long as you have it. See [[Special:MyLanguage/Effects|Effects]].",
+  "translation": "[[Special:MyLanguage/Babidi|Babidi]] solo te marca con el [[Special:MyLanguage/Majin Mark|Sello Majin]] si tu alineamiento es menor que 39. Mientras lleves el sello, tu alineamiento se '''mantiene en 0'''. Consulta [[Special:MyLanguage/Effects|Efectos]].",
+  "outdated": false
+ },
+ "36": {
+  "source": "=== Commands ===",
+  "translation": "=== Comandos ===",
+  "outdated": false
+ },
+ "37": {
+  "source": "Admins can change alignment directly with <code>/dmzalignment set</code>, <code>add</code> and <code>remove</code> (see [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Permissions|Permissions]]).",
+  "translation": "Los administradores pueden cambiar el alineamiento directamente con <code>/dmzalignment set</code>, <code>add</code> y <code>remove</code> (consulta [[Special:MyLanguage/Commands|Comandos]] y [[Special:MyLanguage/Permissions|Permisos]]).",
+  "outdated": false
+ },
+ "38": {
+  "source": "== What alignment affects ==",
+  "translation": "== Qué afecta el alineamiento ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "=== Masters ===",
+  "translation": "=== Maestros ===",
+  "outdated": false
+ },
+ "40": {
+  "source": "Some masters only train you if your alignment fits their morality:",
+  "translation": "Algunos maestros solo te entrenan si tu alineamiento encaja con su moral:",
+  "outdated": false
+ },
+ "41": {
+  "source": "'''Good masters''' ([[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]]) need an alignment of '''61 or higher'''.",
+  "translation": "'''Maestros buenos''' ([[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|Kaiosama]], [[Special:MyLanguage/Old Kai|Kaioshin Anciano]], [[Special:MyLanguage/Master Roshi|Maestro Roshi]] y [[Special:MyLanguage/Krillin|Krilin]]) necesitan un alineamiento de '''61 o más'''.",
+  "outdated": false
+ },
+ "42": {
+  "source": "'''Evil masters''' ([[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]]) need an alignment of '''40 or lower'''.",
+  "translation": "'''Maestros malvados''' ([[Special:MyLanguage/Cell|Cell]] y [[Special:MyLanguage/Frieza|Freezer]]) necesitan un alineamiento de '''40 o menos'''.",
+  "outdated": false
+ },
+ "43": {
+  "source": "'''Every other master''' (Piccolo, Vegeta, Trunks, Yamcha, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] and the rest) has no alignment requirement by default.",
+  "translation": "'''Todos los demás maestros''' (Piccolo, Vegeta, Trunks, Yamcha, la [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] y el resto) no tienen requisito de alineamiento por defecto.",
+  "outdated": false
+ },
+ "44": {
+  "source": "A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new quests''' stay locked (\"Requires an alignment of 61 or higher\" or \"40 or lower\") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.",
+  "translation": "Un maestro cuyo requisito no cumples te sigue hablando, aunque con más frialdad, pero sus '''Habilidades''', '''Entrenar''' y las '''misiones nuevas''' quedan bloqueados (\"Requiere un alineamiento de 61 o más\" o \"40 o menos\") hasta que tu alineamiento encaje. Las misiones que ya empezaste se pueden entregar igual, y sus otros servicios y torneos (como los [[Special:MyLanguage/Cell Games|Juegos de Cell]] de Cell) siguen abiertos. Cada maestro tiene varias frases de saludo, además de frases frías para cuando no le gusta tu alineamiento.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Cell and Frieza cover a huge chunk of the technique roster on their own, but because they need Evil alignment, a Good character can't learn everything from a single master. Since every character starts at 100, the Good masters accept you right away; to train with Cell or Frieza you first have to drop to 40 or less.",
+  "translation": "Cell y Freezer cubren por sí solos una gran parte del repertorio de técnicas, pero como exigen alineamiento malvado, un personaje bueno no puede aprenderlo todo de un solo maestro. Como todo personaje empieza en 100, los maestros buenos te aceptan de inmediato; para entrenar con Cell o Freezer, primero tienes que bajar a 40 o menos.",
+  "outdated": false
+ },
+ "46": {
+  "source": "=== Master services ===",
+  "translation": "=== Servicios de los maestros ===",
+  "outdated": false
+ },
+ "47": {
+  "source": "Service",
+  "translation": "Servicio",
+  "outdated": false
+ },
+ "48": {
+  "source": "NPC",
+  "translation": "NPC",
+  "outdated": false
+ },
+ "49": {
+  "source": "Alignment needed",
+  "translation": "Alineamiento necesario",
+  "outdated": false
+ },
+ "50": {
+  "source": "'''Flying Nimbus'''",
+  "translation": "'''Nube Voladora'''",
+  "outdated": false
+ },
+ "51": {
+  "source": "[[Special:MyLanguage/Korin|Korin]], at Kami's Lookout",
+  "translation": "[[Special:MyLanguage/Korin|Korin]], en la Atalaya de Kami",
+  "outdated": false
+ },
+ "52": {
+  "source": "Above 50 for a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]]; otherwise he gives you a '''Black Nimbus'''.",
+  "translation": "Más de 50 para una [[Special:MyLanguage/Flying Nimbus|Nube Voladora]]; si no, te da una '''Nube Negra'''.",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''Kami's Blessing''' (×1.2 TP for 5 minutes)",
+  "translation": "'''Bendición de Kami''' (×1.2 TP durante 5 minutos)",
+  "outdated": false
+ },
+ "54": {
+  "source": "[[Special:MyLanguage/Dende|Dende]], at Kami's Lookout",
+  "translation": "[[Special:MyLanguage/Dende|Dendé]], en la Atalaya de Kami",
+  "outdated": false
+ },
+ "55": {
+  "source": "Good (61 or more).",
+  "translation": "Bueno (61 o más).",
+  "outdated": false
+ },
+ "56": {
+  "source": "'''Unlock Potential''' (Potential Unlock level 10 to 11)",
+  "translation": "'''Potencial liberado''' (la habilidad Potencial liberado pasa del nivel 10 al 11)",
+  "outdated": false
+ },
+ "57": {
+  "source": "[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], on [[Special:MyLanguage/Namek|Namek]]",
+  "translation": "[[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]], en [[Special:MyLanguage/Namek|Namek]]",
+  "outdated": false
+ },
+ "58": {
+  "source": "50 or more (below 50 he greets you coldly).",
+  "translation": "50 o más (por debajo de 50 te saluda con frialdad).",
+  "outdated": false
+ },
+ "59": {
+  "source": "'''Receive the Mark''' (the Majin Mark)",
+  "translation": "'''Recibir el Sello''' (el Sello Majin)",
+  "outdated": false
+ },
+ "60": {
+  "source": "[[Special:MyLanguage/Babidi|Babidi]], in Babidi's Ship",
+  "translation": "[[Special:MyLanguage/Babidi|Babidi]], en la Nave de Babidi",
+  "outdated": false
+ },
+ "61": {
+  "source": "Below 39.",
+  "translation": "Menos de 39.",
+  "outdated": false
+ },
+ "62": {
+  "source": "'''Unleash Power''' (the Ultimate Challenge)",
+  "translation": "'''Liberar Poder''' (el Desafío Definitivo)",
+  "outdated": false
+ },
+ "63": {
+  "source": "62 or more, plus Potential Unlock level 10. Clearing it unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] form (see [[Special:MyLanguage/Transformations|Transformations]]).",
+  "translation": "62 o más, además de Potencial liberado de nivel 10. Superarlo desbloquea la forma [[Special:MyLanguage/Ultimate|Definitivo]] (consulta [[Special:MyLanguage/Transformations|Transformaciones]]).",
+  "outdated": false
+ },
+ "64": {
+  "source": "=== Riding a cloud ===",
+  "translation": "=== Montar una nube ===",
+  "outdated": false
+ },
+ "65": {
+  "source": "Only the pure of heart can ride the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]]: it carries you only with an alignment of '''67 or more'''. The '''Black Nimbus''' is its darker counterpart and only carries riders with an alignment of '''66 or less'''.",
+  "translation": "Solo los puros de corazón pueden montar la [[Special:MyLanguage/Flying Nimbus|Nube Voladora]]: solo te lleva si tienes un alineamiento de '''67 o más'''. La '''Nube Negra''' es su contraparte oscura y solo lleva a quienes tienen un alineamiento de '''66 o menos'''.",
+  "outdated": false
+ },
+ "66": {
+  "source": "=== NPC hostility ===",
+  "translation": "=== Hostilidad de los NPCs ===",
+  "outdated": false
+ },
+ "67": {
+  "source": "Besides the master rule above, each NPC can turn hostile or refuse to talk depending on your alignment. By default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20), and some refuse to talk to you until your alignment is high enough. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
+  "translation": "Además de la regla de los maestros de arriba, cada NPC puede volverse hostil o negarse a hablar según tu alineamiento. Por defecto, muchos NPCs de la historia se vuelven '''hostiles por debajo de 25''' (Piccolo, por debajo de 20), y algunos se niegan a hablarte hasta que tu alineamiento sea lo bastante alto. Los dueños de servidores ajustan estos umbrales para cada NPC: consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]].",
+  "outdated": false
+ },
+ "68": {
+  "source": "=== The ogres of Hell ===",
+  "translation": "=== Los ogros del Infierno ===",
+  "outdated": false
+ },
+ "69": {
+  "source": "The Red and Blue Ogres that walk the floor of Hell, below the [[Special:MyLanguage/Otherworld|Otherworld]], attack '''Evil-aligned''' players (0–40) on sight. Anyone else is left alone unless they hit an ogre first, which brings the nearby ogres in too. See [[Special:MyLanguage/Bestiary|Bestiary]].",
+  "translation": "Los Ogros Rojos y Azules que recorren el suelo del Infierno, debajo del [[Special:MyLanguage/Otherworld|Otro Mundo]], atacan nada más verlos a los jugadores de '''alineamiento malvado''' (0–40). A los demás los dejan en paz, salvo que golpeen primero a un ogro, lo que también atrae a los ogros cercanos. Consulta [[Special:MyLanguage/Bestiary|Bestiario]].",
+  "outdated": false
+ },
+ "70": {
+  "source": "=== Glind: Light and Darkness ===",
+  "translation": "=== Glind: Luz y Oscuridad ===",
+  "outdated": false
+ },
+ "71": {
+  "source": "The [[Special:MyLanguage/Glind|Glind]] racial skill '''Light and Darkness''' deals '''10%''' more damage to players of the opposite alignment ('''15%''' against Frost Demons, '''5%''' against Majins): with '''25''' alignment or less you punish players at '''60''' or more, and with '''75''' or more you punish players at '''40''' or less. Against any non-player foe a Glind always deals '''7.5%''' more damage.",
+  "translation": "La habilidad racial de los [[Special:MyLanguage/Glind|Glind]], '''Luz y Oscuridad''', inflige un '''10%''' más de daño a los jugadores del alineamiento opuesto (un '''15%''' contra los Demonios del Frío y un '''5%''' contra los Majin): con '''25''' de alineamiento o menos castigas a los jugadores con '''60''' o más, y con '''75''' o más castigas a los jugadores con '''40''' o menos. Contra cualquier enemigo que no sea un jugador, un Glind siempre inflige un '''7.5%''' más de daño.",
+  "outdated": false
+ },
+ "72": {
+  "source": "=== Other effects ===",
+  "translation": "=== Otros efectos ===",
+  "outdated": false
+ },
+ "73": {
+  "source": "Old Kai's '''Soul Punisher''' ki attack hits players who aren't Evil (alignment 41 or more) for only a quarter of its damage. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].",
+  "translation": "El ataque de ki '''Rompedor de Polvo Estelar''' del Kaioshin Anciano solo hace un cuarto de su daño a los jugadores que no son malvados (alineamiento de 41 o más). Consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]].",
+  "outdated": false
+ },
+ "74": {
+  "source": "'''[[Special:MyLanguage/Akkuman|Akkuman]]''', one of the fighters of [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]], hits Evil-aligned players twice as hard.",
+  "translation": "'''[[Special:MyLanguage/Akkuman|Akkuman]]''', uno de los luchadores del [[Special:MyLanguage/Fortuneteller Baba's Tournament|Torneo de la Adivina Baba]], golpea el doble de fuerte a los jugadores de alineamiento malvado.",
+  "outdated": false
+ }
+}

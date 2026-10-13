@@ -1,24 +1,26 @@
 {{Infobox Form
-|quote=<translate>A powerful technique that multiplies your stats but strains your body.</translate>
-|Race=<translate>Every race</translate>
-|Group=<translate>Kaioken (x2, x3, x4, x10, x20)</translate>
-|Form type=<translate>Stack form</translate>
-|Requirements=<translate>Kaioken skill, taught by King Kai; 25% mastery on your current form to stack it</translate>
-|Multiplier=<translate>×1.1 (x2) to ×1.65 (x20) STR, SKP and PWR</translate>
-|Drain=<translate>Health (0.033 to 0.248 per tick)</translate>
-|Mastery=<translate>Each tier shares 25% of its mastery gains with the next tier</translate>
+|quote=<translate><!--T:1--> A powerful technique that multiplies your stats but strains your body.</translate>
+|Race=<translate><!--T:2--> Every race</translate>
+|Group=<translate><!--T:3--> Kaioken (x2, x3, x4, x10, x20)</translate>
+|Form type=<translate><!--T:4--> Stack form</translate>
+|Requirements=<translate><!--T:5--> Kaioken skill, taught by King Kai; 25% mastery on your current form to stack it</translate>
+|Multiplier=<translate><!--T:6--> ×1.1 (x2) to ×1.65 (x20) STR, SKP and PWR</translate>
+|Drain=<translate><!--T:7--> Health (0.033 to 0.248 per tick)</translate>
+|Mastery=<translate><!--T:8--> Each tier shares 25% of its mastery gains with the next tier</translate>
 }}
 <translate>
+<!--T:9-->
 '''Kaioken''' is a '''stack form''': it layers on top of your current transformation instead of replacing it, adding its own multiplier at the cost of your '''health'''. A Saiyan can be in base form or Super Saiyan and also be in Kaioken x2 at the same time. Every race can learn it from [[Special:MyLanguage/King Kai|King Kai]].
 </translate>
 
 <translate>
-== Learning Kaioken ==
+== Learning Kaioken == <!--T:10-->
 
+<!--T:11-->
 [[Special:MyLanguage/King Kai|King Kai]] teaches the '''Kaioken''' skill. Each level of the skill unlocks the next tier and is bought with Training Points:
 </translate>
 {| class="wikitable"
-! <translate>Tier</translate> !! <translate>Skill level</translate> !! <translate>TP cost</translate> !! <translate>STR / SKP / PWR</translate> !! <translate>DEF</translate> !! <translate>Speed</translate> !! <translate>Health drain</translate>
+! <translate><!--T:12--> Tier</translate> !! <translate><!--T:13--> Skill level</translate> !! <translate><!--T:14--> TP cost</translate> !! <translate><!--T:15--> STR / SKP / PWR</translate> !! <translate><!--T:16--> DEF</translate> !! <translate><!--T:17--> Speed</translate> !! <translate><!--T:18--> Health drain</translate>
 |-
 | x2 || 1 || 1,000 || 1.1 || 1.125 || 1.1 || 0.033
 |-
@@ -32,12 +34,14 @@
 |}
 
 <translate>
+<!--T:19-->
 Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The health drain is the base upkeep per tick; the real cost scales with your Power Release, your offense and your health pool, and mastery discounts it (see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]]).
 </translate>
 
 <translate>
-== Using Kaioken ==
+== Using Kaioken == <!--T:20-->
 
+<!--T:21-->
 * Pick a Kaioken tier in the '''Stack Skills''' slice of the '''X''' menu and charge it with '''G''', like a normal form. '''Alt + G''' removes the stack form first when you descend.
 * To stack Kaioken on a transformation, your current form needs at least '''25% mastery''' (the Kaioken tier itself needs none); otherwise Kaioken is dropped when you transform.
 * Stacking multiplies the drain of '''both''' your form and Kaioken (×2 with the default forms), so a stacked transformation burns Ki and health fast.
@@ -47,22 +51,25 @@ Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mast
 </translate>
 
 <translate>
-== Mastery ==
+== Mastery == <!--T:22-->
 
+<!--T:23-->
 Each Kaioken tier has its own mastery, and every tier passes '''25%''' of the mastery it gains to the next tier up, so training a lower tier also prepares the next one. Unlike race forms, a Kaioken tier needs no mastery of its own to be stacked: only the form under it needs 25%.
 </translate>
 
 <translate>
-== Related techniques and fusions ==
+== Related techniques and fusions == <!--T:24-->
 
+<!--T:25-->
 * King Kai also teaches the '''Kaioken Attack''' strike technique (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).
 * For the [[Special:MyLanguage/Fusion Dance|Fusion Dance]], both players must be in the same form '''and''' the same stack form, for example both Super Saiyan 2 with Kaioken.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:26-->
 </translate>
 <translate>
+<!--T:27-->
 The Kaioken tiers are defined in <code>config/dragonminez/forms/kaioken.json</code>, and the skill's TP costs in <code>skills.json</code>.
 </translate>
 {{See also|Custom Forms|Skills Config|Transformations}}

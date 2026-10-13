@@ -1,0 +1,86 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid enemy and boss</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]], waves 3 to 5</translate>
+|Behavior=<translate><!--T:3--> Throws a fake moon and becomes an Oozaru in the last wave; Smart AI</translate>
+|Health=700
+|Damage=17
+|Ki damage=14
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, Ki Wave, ki ball, Melee Combo, Aerial Combo, Rapid Kicks, dodging, fake moon</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Saiyan Elites''' are the officers of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]], the raid of [[Special:MyLanguage/Earth|Earth]]. They join the [[Special:MyLanguage/Saiyan Soldier|Saiyan Soldiers]] from the third wave on, and in the last wave they throw a fake moon and transform into giant '''Saiyan Oozarus'''.
+</translate>
+
+<translate>
+== Appearance == <!--T:7-->
+
+<!--T:8-->
+Like the soldiers, every Saiyan Elite gets its own look when it spawns: a skin tone, black hair in a random style, one of four sets of Saiyan armor (Vegeta's, Raditz's, Turles's or Bardock's) and a green, red, blue or purple [[Special:MyLanguage/Scouters|scouter]].
+</translate>
+
+<translate>
+== In raids == <!--T:9-->
+
+<!--T:10-->
+In waves 3 and 4 the Elites fight alongside the soldiers, glow purple like them and can't transform. In wave 5 they are the raid's bosses: they glow red and stay dormant until the six soldiers of the wave are dead, but attacking one wakes it up early. All of them fight on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Smart]] AI tier and attack only the raid's participants.
+
+<!--T:11-->
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+{| class="wikitable"
+! <translate><!--T:12--> Wave</translate> !! <translate><!--T:13--> Elites</translate> !! <translate><!--T:14--> Health / melee / ki</translate> !! <translate><!--T:15--> Transforms</translate>
+|-
+| 3 || 2 || 700 / 17 / 14 || <translate><!--T:16--> No</translate>
+|-
+| 4 || 4 || 750 / 18 / 15 || <translate><!--T:17--> No</translate>
+|-
+| 5 || 3 || 800 / 20 / 16 || <translate><!--T:18--> Yes; as Oozaru 1,500 / 55 / 45</translate>
+|}
+
+<translate>
+== The fake moon == <!--T:19-->
+
+<!--T:20-->
+In the last wave, once an Elite has been fighting for 3 seconds, it stops, looks up and spends 1.5 seconds winding up a '''fake moon''', which it throws into the sky. Players within 96 blocks see ''"Look up at the moon... and witness the true power of a Saiyan!"''. Only one Elite throws a moon at a time, and stunning it during the windup cancels the throw.
+
+<!--T:21-->
+The moon climbs about 30 blocks and glows there for 20 seconds. Every Elite that is fighting within 96 blocks of it transforms as soon as the moon stops rising: it powers up for 4 seconds, can't be hurt meanwhile, and becomes a '''Saiyan Oozaru''' with full health. If the moon fades before an Elite has seen it, the Elites throw another one.
+
+<!--T:22-->
+The moon works like the [[Special:MyLanguage/Fake Moon|Fake Moon]] technique for everyone: a player with a tail who looks at it can transform into an Oozaru too.
+</translate>
+
+<translate>
+== Forms == <!--T:23-->
+
+<!--T:24-->
+'''Saiyan Elite.''' Elites fly a little faster than the soldiers and dodge more often:
+* '''Ki Blast''' and '''Ki Wave:''' yellow ki attacks with an orange rim, plus a larger ki ball.
+* '''Melee Combo:''' the Elite teleports around you, striking from the front and from behind, and ends with a heavy blow.
+* '''Aerial Combo:''' it knocks you into the air, appears above you and slams you back down.
+* '''Rapid Kicks:''' it teleports in front of you and kicks you in a rapid flurry.
+* '''Dodging:''' it can step back out of the way of your hits.
+
+<!--T:25-->
+'''Saiyan Oozaru.''' A giant Great Ape that can't fly. In the raid it has 1,500 health, 55 melee damage and 45 ki damage, and keeps the Elite's Smart AI tier. It doesn't transform again: defeating it defeats that Elite.
+* '''Oozaru Beam:''' a purple ki beam, based on its ki damage.
+* '''Oozaru Roar:''' a long roar that keeps hurting and pushing back everyone around it.
+* '''Oozaru Fist:''' a huge punch.
+* '''Oozaru Slam:''' it slams the ground, sending out a shockwave and a weaker outer ring.
+* The roar, the fist and the slam are based on its melee damage.
+</translate>
+
+<translate>
+== Drops == <!--T:26-->
+
+<!--T:27-->
+Saiyan Elites and their Oozaru form drop nothing: their armor and scouter are only part of their look. Clearing the raid rewards everyone still fighting, including a Green Scouter (see [[Special:MyLanguage/Saiyan Assault#Rewards|Saiyan Assault]]).
+</translate>
+
+{{Note|type=config|title=<translate><!--T:28--> Entity ids</translate>|<code>dragonminez:saga_saiyan_elite</code>, <code>dragonminez:saga_saiyan_oozaru</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

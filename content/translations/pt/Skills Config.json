@@ -1,0 +1,482 @@
+{
+ "Page_display_title": {
+  "source": "Skills Config",
+  "translation": "Configuração de habilidades",
+  "outdated": false
+ },
+ "1": {
+  "source": "Skill costs, which races can learn each skill and which master teaches what all live in one file, <code>config/dragonminez/skills.json</code>. Technique tuning (experience, cooldowns, cast times, ki attack sizes and terrain destruction) lives next to it in <code>config/dragonminez/techniques.json</code>. Both files are documented on this page.",
+  "translation": "Os custos das habilidades, quais raças podem aprender cada habilidade e qual mestre ensina o quê ficam em um único arquivo, <code>config/dragonminez/skills.json</code>. O ajuste das técnicas (experiência, recargas, tempos de conjuração, tamanhos dos ataques de ki e destruição do terreno) fica ao lado dele, em <code>config/dragonminez/techniques.json</code>. Esta página documenta os dois arquivos.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Their schemas are defined in <code>SkillsConfig.java</code> and <code>TechniqueConfig.java</code>. For what each skill and technique does in game, see [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Techniques|Techniques]].",
+  "translation": "Os esquemas deles são definidos em <code>SkillsConfig.java</code> e <code>TechniqueConfig.java</code>. Para ver o que cada habilidade e técnica faz no jogo, veja [[Special:MyLanguage/Skills|Habilidades]] e [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Top-level structure of skills.json ==",
+  "translation": "== Estrutura principal do skills.json ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "5": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "6": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "7": {
+  "source": "A version string",
+  "translation": "Um texto de versão",
+  "outdated": false
+ },
+ "8": {
+  "source": "Internal schema version. Do not hand-edit it (see [[Special:MyLanguage/How to JSON|How to JSON]]).",
+  "translation": "Versão interna do esquema. Não a edite à mão (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).",
+  "outdated": false
+ },
+ "9": {
+  "source": "List of ids",
+  "translation": "Lista de ids",
+  "outdated": false
+ },
+ "10": {
+  "source": "Ki attack technique names (for example <code>kamehameha</code>, <code>final_flash</code>).",
+  "translation": "Nomes das técnicas de ataque de ki (por exemplo <code>kamehameha</code>, <code>final_flash</code>).",
+  "outdated": false
+ },
+ "11": {
+  "source": "List of ids",
+  "translation": "Lista de ids",
+  "outdated": false
+ },
+ "12": {
+  "source": "Strike attack technique names (for example <code>meteor</code>, <code>dragon_fist</code>).",
+  "translation": "Nomes das técnicas de ataque de golpe (por exemplo <code>meteor</code>, <code>dragon_fist</code>).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Evasion technique names.",
+  "translation": "Nomes das técnicas de evasão.",
+  "outdated": false
+ },
+ "14": {
+  "source": "The transformation-tier skill names.",
+  "translation": "Os nomes das habilidades de níveis de transformação.",
+  "outdated": false
+ },
+ "15": {
+  "source": "The stack-form skill names.",
+  "translation": "Os nomes das habilidades de formas acumuláveis.",
+  "outdated": false
+ },
+ "16": {
+  "source": "Form skill names Androids are barred from learning.",
+  "translation": "Nomes das habilidades de formas que os Androids não podem aprender.",
+  "outdated": false
+ },
+ "17": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "18": {
+  "source": "A map of skill name to <code>{ costs, allowedRaces }</code>.",
+  "translation": "Um mapa de nome de habilidade para <code>{ costs, allowedRaces }</code>.",
+  "outdated": false
+ },
+ "19": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "20": {
+  "source": "A map of master name to a list of skill names.",
+  "translation": "Um mapa de nome de mestre para uma lista de nomes de habilidades.",
+  "outdated": false
+ },
+ "21": {
+  "source": "There is no separate <code>skill-offerings.json</code>: <code>skillOfferings</code> lives inside <code>skills.json</code> alongside <code>skills</code>.",
+  "translation": "Não existe um <code>skill-offerings.json</code> separado: o <code>skillOfferings</code> fica dentro do <code>skills.json</code>, junto com <code>skills</code>.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Category lists are not kept on upgrade",
+  "translation": "As listas de categorias não são mantidas na atualização",
+  "outdated": false
+ },
+ "23": {
+  "source": "The category lists (<code>kiSkills</code>, <code>strikeSkills</code>, <code>evasionSkills</code>, <code>formSkills</code>, <code>stackSkills</code>, <code>androidBlacklistedForms</code>) describe what exists in code. They are '''refreshed from the mod's defaults whenever the config is upgraded to a new version''', so edits to them are not carried over. <code>skills</code> and <code>skillOfferings</code> keep your edits.",
+  "translation": "As listas de categorias (<code>kiSkills</code>, <code>strikeSkills</code>, <code>evasionSkills</code>, <code>formSkills</code>, <code>stackSkills</code>, <code>androidBlacklistedForms</code>) descrevem o que existe no código. '''Elas são renovadas com os padrões do mod sempre que a configuração é atualizada para uma versão nova''', então edições nelas não são mantidas. <code>skills</code> e <code>skillOfferings</code> mantêm suas edições.",
+  "outdated": false
+ },
+ "24": {
+  "source": "== Skill costs and eligibility ==",
+  "translation": "== Custos e requisitos das habilidades ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "The <code>skills</code> map sets the cost of every level of a skill and which races can learn it:",
+  "translation": "O mapa <code>skills</code> define o custo de cada nível de uma habilidade e quais raças podem aprendê-la:",
+  "outdated": false
+ },
+ "26": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "27": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "28": {
+  "source": "List of the Training Point cost to upgrade to each level. Index 0 is level 1's cost, and so on. The number of entries is the skill's max level. A <code>-1</code> entry marks that level as not purchasable: it must be granted another way (for example Potential Unlock level 11 from Grand Elder Guru, or Ultimate from Old Kai).",
+  "translation": "Lista do custo em pontos de treino para subir a cada nível. O índice 0 é o custo do nível 1, e assim por diante. O número de entradas é o nível máximo da habilidade. Uma entrada <code>-1</code> marca esse nível como não comprável: ele precisa ser concedido de outra forma (por exemplo, o nível 11 de Potencial Liberado pelo Grande Ancião Guru, ou Ultimate pelo Velho Kaioshin).",
+  "outdated": false
+ },
+ "29": {
+  "source": "List of the races allowed to learn this skill. An empty list (or <code>\"all\"</code>) means every race can learn it. For techniques (ki, strike and evasion), every race can still learn them from a master, but only the listed races can equip them in a technique slot. By default <code>gum_punch</code>, <code>mystic_ball</code> and <code>sleep_recovery</code> are set to <code>[\"majin\"]</code>.",
+  "translation": "Lista das raças que podem aprender esta habilidade. Uma lista vazia (ou <code>\"all\"</code>) significa que qualquer raça pode aprendê-la. Nas técnicas (de ki, de golpe e de evasão), qualquer raça ainda pode aprendê-las com um mestre, mas só as raças da lista podem equipá-las em um slot de técnica. Por padrão, <code>gum_punch</code>, <code>mystic_ball</code> e <code>sleep_recovery</code> estão definidas como <code>[\"majin\"]</code>.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Form skills (<code>superforms</code>, <code>godforms</code>, <code>legendaryforms</code>, <code>androidforms</code>) are priced per race in <code>races/&lt;race&gt;/character.json</code> instead (see [[Special:MyLanguage/Custom Races|Custom Races]]).",
+  "translation": "As habilidades de formas (<code>superforms</code>, <code>godforms</code>, <code>legendaryforms</code>, <code>androidforms</code>) têm preço por raça em <code>races/&lt;race&gt;/character.json</code> (veja [[Special:MyLanguage/Custom Races|Raças personalizadas]]).",
+  "outdated": false
+ },
+ "31": {
+  "source": "=== Default skill costs ===",
+  "translation": "=== Custos padrão das habilidades ===",
+  "outdated": false
+ },
+ "32": {
+  "source": "Skill",
+  "translation": "Habilidade",
+  "outdated": false
+ },
+ "33": {
+  "source": "Costs per level (TP)",
+  "translation": "Custos por nível (TP)",
+  "outdated": false
+ },
+ "34": {
+  "source": "(granted by Old Kai)",
+  "translation": "(concedido pelo Velho Kaioshin)",
+  "outdated": false
+ },
+ "35": {
+  "source": "Every predefined technique has a single cost (its unlock price); see the tables on [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]] and [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].",
+  "translation": "Cada técnica predefinida tem um único custo (o preço de desbloqueio); veja as tabelas de [[Special:MyLanguage/Ki Attacks|Ataques de Ki]], [[Special:MyLanguage/Strike Attacks|Ataques de Golpe]] e [[Special:MyLanguage/Evasion Techniques|Técnicas de evasão]].",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Who teaches which skills ==",
+  "translation": "== Quem ensina cada habilidade ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "The <code>skillOfferings</code> map lists the skills and techniques each master offers:",
+  "translation": "O mapa <code>skillOfferings</code> lista as habilidades e técnicas que cada mestre oferece:",
+  "outdated": false
+ },
+ "38": {
+  "source": "Keys are the '''master id''' (or the id of a quest NPC) offering the skill. <code>\"default\"</code> is the fallback list used by any master or NPC that has no entry of its own. Purchases are checked on the server: you must be within '''10 blocks''' of a master that offers the skill, your race must be allowed (except for techniques, which any race can learn; see <code>allowedRaces</code> above), and a master who refuses you because of your [[Special:MyLanguage/Alignment|alignment]] won't teach you.",
+  "translation": "As chaves são o '''id do mestre''' (ou o id de um NPC de missão) que oferece a habilidade. <code>\"default\"</code> é a lista de reserva usada por qualquer mestre ou NPC sem entrada própria. As compras são verificadas no servidor: você precisa estar a até '''10 blocos''' de um mestre que ofereça a habilidade, sua raça precisa ser permitida (exceto nas técnicas, que qualquer raça pode aprender; veja <code>allowedRaces</code> acima), e um mestre que te recuse por causa da sua [[Special:MyLanguage/Alignment|índole]] não vai te ensinar.",
+  "outdated": false
+ },
+ "39": {
+  "source": "=== Default offerings ===",
+  "translation": "=== Ofertas padrão ===",
+  "outdated": false
+ },
+ "40": {
+  "source": "Master id",
+  "translation": "Id do mestre",
+  "outdated": false
+ },
+ "41": {
+  "source": "Master",
+  "translation": "Mestre",
+  "outdated": false
+ },
+ "42": {
+  "source": "Skills offered",
+  "translation": "Habilidades oferecidas",
+  "outdated": false
+ },
+ "43": {
+  "source": "Any other master or NPC",
+  "translation": "Qualquer outro mestre ou NPC",
+  "outdated": false
+ },
+ "44": {
+  "source": "== What JSON can and can't change ==",
+  "translation": "== O que o JSON pode e não pode mudar ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "* '''Retune existing skills:''' yes. Change <code>costs</code>, tighten or loosen <code>allowedRaces</code>, and add or remove a skill or technique from a master's <code>skillOfferings</code> list (for example, to let Roshi teach Kienzan).\n* '''Add a brand-new skill or predefined technique:''' '''no''', not with JSON alone. New skills need actual Java code and registration before you can reference their name here. JSON only controls cost, eligibility and offering for skills that already exist in code. Players can still design their own ki attacks in the Technique Creator (see [[Special:MyLanguage/Techniques|Techniques]]).",
+  "translation": "* '''Reajustar habilidades existentes:''' sim. Altere <code>costs</code>, restrinja ou amplie <code>allowedRaces</code>, e adicione ou remova uma habilidade ou técnica da lista <code>skillOfferings</code> de um mestre (por exemplo, para o Mestre Kame ensinar o Disco Destruidor).\n* '''Adicionar uma habilidade ou técnica predefinida totalmente nova:''' '''não''', não só com JSON. Habilidades novas precisam de código Java de verdade e de registro antes que você possa citar o nome delas aqui. O JSON só controla custo, requisitos e oferta das habilidades que já existem no código. Os jogadores ainda podem criar seus próprios ataques de ki no Criador da técnica (veja [[Special:MyLanguage/Techniques|Técnicas]]).",
+  "outdated": false
+ },
+ "46": {
+  "source": "== techniques.json ==",
+  "translation": "== techniques.json ==",
+  "outdated": false
+ },
+ "47": {
+  "source": "<code>config/dragonminez/techniques.json</code> tunes techniques '''by kind''': one entry per ki attack '''type''', and one per predefined strike and evasion technique. It is synced to clients and reloaded with the rest of the config.",
+  "translation": "O <code>config/dragonminez/techniques.json</code> ajusta as técnicas '''por tipo''': uma entrada para cada '''tipo''' de ataque de ki, e uma para cada técnica predefinida de golpe e de evasão. Ele é sincronizado com os clientes e recarregado junto com o resto da configuração.",
+  "outdated": false
+ },
+ "48": {
+  "source": "=== Ki attacks ===",
+  "translation": "=== Ataques de Ki ===",
+  "outdated": false
+ },
+ "49": {
+  "source": "<code>KiAttacks</code> has one entry per ki attack type: <code>small_ball</code>, <code>medium_ball</code>, <code>giant_ball</code>, <code>wave</code>, <code>laser</code>, <code>beam</code>, <code>disk</code>, <code>explosion</code>, <code>shield</code>, <code>barrage</code> and <code>area</code>.",
+  "translation": "<code>KiAttacks</code> tem uma entrada por tipo de ataque de ki: <code>small_ball</code>, <code>medium_ball</code>, <code>giant_ball</code>, <code>wave</code>, <code>laser</code>, <code>beam</code>, <code>disk</code>, <code>explosion</code>, <code>shield</code>, <code>barrage</code> e <code>area</code>.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "51": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "52": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "53": {
+  "source": "Base XP cost of an upgrade (grows with the technique's strength and the upgrades already bought).",
+  "translation": "Custo base em XP de uma melhoria (cresce com a força da técnica e as melhorias já compradas).",
+  "outdated": false
+ },
+ "54": {
+  "source": "Upper limit for an upgrade's XP cost (<code>-1</code> means no limit).",
+  "translation": "Limite superior do custo em XP de uma melhoria (<code>-1</code> significa sem limite).",
+  "outdated": false
+ },
+ "55": {
+  "source": "Multiplier on upgrade XP costs; above 1 each extra upgrade gets pricier.",
+  "translation": "Multiplicador dos custos em XP das melhorias; acima de 1, cada melhoria extra fica mais cara.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Multiplier on XP gained.",
+  "translation": "Multiplicador do XP ganho.",
+  "outdated": false
+ },
+ "57": {
+  "source": "XP gained per hit / per kill.",
+  "translation": "XP ganho por acerto / por abate.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Multiplier on the ki cost of this type.",
+  "translation": "Multiplicador do custo de ki deste tipo.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Multiplier on the damage of this type.",
+  "translation": "Multiplicador do dano deste tipo.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Multiplier on the block-destruction radius of this type (<code>0</code> means no terrain damage).",
+  "translation": "Multiplicador do raio de destruição de blocos deste tipo (<code>0</code> significa sem dano ao terreno).",
+  "outdated": false
+ },
+ "61": {
+  "source": "Giant Ball and Explosion <code>32</code>; Wave, Beam and Area <code>12</code>; others <code>6</code>",
+  "translation": "Esfera gigante e Explosão <code>32</code>; Onda, Raio e Área <code>12</code>; os outros <code>6</code>",
+  "outdated": false
+ },
+ "62": {
+  "source": "Hard cap on the destruction radius (<code>0</code> or less means no cap).",
+  "translation": "Limite absoluto do raio de destruição (<code>0</code> ou menos significa sem limite).",
+  "outdated": false
+ },
+ "63": {
+  "source": "Small Ball and Laser <code>0</code>; Medium Ball and Disk <code>30</code>; Barrage, Shield and Area <code>40</code>; Wave and Beam <code>50</code>; Giant Ball and Explosion <code>60</code>",
+  "translation": "Esfera pequena e Laser <code>0</code>; Esfera média e Disco <code>30</code>; Rajada, Escudo e Área <code>40</code>; Onda e Raio <code>50</code>; Esfera gigante e Explosão <code>60</code>",
+  "outdated": false
+ },
+ "64": {
+  "source": "Time to charge to 100%. Small Ball and Laser are always instant.",
+  "translation": "Tempo para carregar até 100%. Esfera pequena e Laser são sempre instantâneos.",
+  "outdated": false
+ },
+ "65": {
+  "source": "Giant Ball <code>15</code>, Explosion <code>12</code>, Medium Ball <code>4.5</code>, Wave <code>2</code>, Beam and Disk <code>1.2</code>, Barrage <code>1.5</code>, others <code>0</code>",
+  "translation": "Esfera gigante <code>15</code>, Explosão <code>12</code>, Esfera média <code>4.5</code>, Onda <code>2</code>, Raio e Disco <code>1.2</code>, Rajada <code>1.5</code>, os outros <code>0</code>",
+  "outdated": false
+ },
+ "66": {
+  "source": "Largest size the attack grows to with Ki Power in base form (<code>0</code> keeps the technique's own size).",
+  "translation": "Tamanho máximo até o qual o ataque cresce com a Força do Ki na forma base (<code>0</code> mantém o tamanho próprio da técnica).",
+  "outdated": false
+ },
+ "67": {
+  "source": "Giant Ball and Explosion <code>25</code>, Medium Ball <code>7</code>, Wave <code>5</code>, Beam and Disk <code>2.3</code>, Barrage <code>2.5</code>, others <code>0</code>",
+  "translation": "Esfera gigante e Explosão <code>25</code>, Esfera média <code>7</code>, Onda <code>5</code>, Raio e Disco <code>2.3</code>, Rajada <code>2.5</code>, os outros <code>0</code>",
+  "outdated": false
+ },
+ "68": {
+  "source": "The same, while transformed or using a stack form such as Kaioken.",
+  "translation": "O mesmo, mas transformado ou usando uma forma acumulável como o Kaioken.",
+  "outdated": false
+ },
+ "69": {
+  "source": "Ki Power at which an attack is at its own size / reaches the cap (the growth in between is logarithmic).",
+  "translation": "Força do Ki em que um ataque está no próprio tamanho / atinge o limite (o crescimento entre os dois é logarítmico).",
+  "outdated": false
+ },
+ "70": {
+  "source": "Block destruction is also subject to the ki-griefing gamerules (see [[Special:MyLanguage/Gamerules|Gamerules]]).",
+  "translation": "A destruição de blocos também está sujeita às gamerules de destruição com ki (veja [[Special:MyLanguage/Gamerules|Gamerules]]).",
+  "outdated": false
+ },
+ "71": {
+  "source": "=== Strike attacks ===",
+  "translation": "=== Ataques de golpe ===",
+  "outdated": false
+ },
+ "72": {
+  "source": "<code>StrikeAttacks</code> has one entry per strike technique id.",
+  "translation": "<code>StrikeAttacks</code> tem uma entrada para cada id de técnica de golpe.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "74": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "75": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "76": {
+  "source": "Set per technique, for example <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> / <code>mystic_ball</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120",
+  "translation": "Definido por técnica, por exemplo <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> / <code>mystic_ball</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120",
+  "outdated": false
+ },
+ "77": {
+  "source": "Technique cooldown (before upgrades).",
+  "translation": "Recarga da técnica (antes das melhorias).",
+  "outdated": false
+ },
+ "78": {
+  "source": "Cast time shown in the technique details (strikes start as soon as you press the key).",
+  "translation": "Tempo de conjuração mostrado nos detalhes da técnica (os golpes começam assim que você aperta a tecla).",
+  "outdated": false
+ },
+ "79": {
+  "source": "Multiplier on the technique's damage.",
+  "translation": "Multiplicador do dano da técnica.",
+  "outdated": false
+ },
+ "80": {
+  "source": "Multiplier on the ki cost.",
+  "translation": "Multiplicador do custo de ki.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Upgrade XP costs, as for ki attacks.",
+  "translation": "Custos em XP das melhorias, como nos ataques de ki.",
+  "outdated": false
+ },
+ "82": {
+  "source": "XP gains, as for ki attacks.",
+  "translation": "Ganhos de XP, como nos ataques de ki.",
+  "outdated": false
+ },
+ "83": {
+  "source": "=== Evasion techniques ===",
+  "translation": "=== Técnicas de evasão ===",
+  "outdated": false
+ },
+ "84": {
+  "source": "<code>EvasionAttacks</code> has one entry per evasion technique id.",
+  "translation": "<code>EvasionAttacks</code> tem uma entrada para cada id de técnica de evasão.",
+  "outdated": false
+ },
+ "85": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "86": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "87": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "88": {
+  "source": "Set per technique, for example <code>sleep_recovery</code> 1200, <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
+  "translation": "Definido por técnica, por exemplo <code>sleep_recovery</code> 1200, <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
+  "outdated": false
+ },
+ "89": {
+  "source": "Technique cooldown (before upgrades).",
+  "translation": "Recarga da técnica (antes das melhorias).",
+  "outdated": false
+ },
+ "90": {
+  "source": "Multiplier on damage (Rage Scream).",
+  "translation": "Multiplicador do dano (Grito de fúria).",
+  "outdated": false
+ },
+ "91": {
+  "source": "Multiplier on the ki cost.",
+  "translation": "Multiplicador do custo de ki.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Upgrade XP costs.",
+  "translation": "Custos em XP das melhorias.",
+  "outdated": false
+ },
+ "93": {
+  "source": "XP gains (evasion techniques gain XP each time they're used).",
+  "translation": "Ganhos de XP (as técnicas de evasão ganham XP cada vez que são usadas).",
+  "outdated": false
+ },
+ "94": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "95": {
+  "source": "# Edit <code>config/dragonminez/skills.json</code>, <code>techniques.json</code> or both.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code> (or <code>/dmzreload</code>). Connected players get the new values resynced automatically.\n# Check the skill menu in-game for the master you changed.",
+  "translation": "# Edite <code>config/dragonminez/skills.json</code>, <code>techniques.json</code> ou os dois.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code> (ou <code>/dmzreload</code>). Os jogadores conectados recebem os novos valores ressincronizados automaticamente.\n# Confira no jogo o menu de habilidades do mestre que você alterou.",
+  "outdated": false
+ }
+}

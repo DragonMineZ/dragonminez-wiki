@@ -1,26 +1,30 @@
 {{Infobox Effect
-|quote=<translate>A permanent power boost for evil-aligned fighters.</translate>
-|Type=<translate>Character effect (buff)</translate>
-|Source=<translate>Babidi, for evil-aligned players</translate>
-|Duration=<translate>Permanent</translate>
-|Effect=<translate>Power ×1.3; the Majin "M" on your character</translate>
+|quote=<translate><!--T:1--> A permanent power boost for evil-aligned fighters.</translate>
+|Type=<translate><!--T:2--> Character effect (buff)</translate>
+|Source=<translate><!--T:3--> Babidi, for evil-aligned players</translate>
+|Duration=<translate><!--T:4--> Permanent</translate>
+|Effect=<translate><!--T:5--> Power ×1.3; the Majin "M" on your character</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Majin Mark''' is the brand of the wizard [[Special:MyLanguage/Babidi|Babidi]]. It gives you a '''permanent power boost''', ×1.3 by default, and puts the Majin "M" on your character. Only evil-aligned fighters can receive it.
 </translate>
 
 <translate>
-== Getting the mark ==
+== Getting the mark == <!--T:7-->
 
+<!--T:8-->
 Talk to Babidi in [[Special:MyLanguage/Babidi's Spaceship|Babidi's Ship]] (see [[Special:MyLanguage/Structures|Structures]]) and choose '''Receive the Mark'''.
 
+<!--T:9-->
 * You must be '''evil-aligned''': if your [[Special:MyLanguage/Alignment|alignment]] is 39 or higher, Babidi refuses. Below that, he brands you.
 * If you are already marked, he has nothing more to give you.
 </translate>
 
 <translate>
-== Effect ==
+== Effect == <!--T:10-->
 
+<!--T:11-->
 * Your power is multiplied by ×1.3 by default: your Strength, Strike Power and Ki Power get the full bonus, and your defense gets half of it.
 * The Majin "M" appears on your character.
 * Once marked, the mark stays with you permanently.
@@ -28,8 +32,9 @@ Talk to Babidi in [[Special:MyLanguage/Babidi's Spaceship|Babidi's Ship]] (see [
 {{Config|General Server Config|majinPower}}
 
 <translate>
-== Commands ==
+== Commands == <!--T:12-->
 
+<!--T:13-->
 Admins can give or remove the mark with <code>/dmzeffect give majin -1 [targets]</code> and <code>/dmzeffect remove majin [targets]</code> (see [[Special:MyLanguage/Effects#Commands|Effects]]).
 </translate>
 

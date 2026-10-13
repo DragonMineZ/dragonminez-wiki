@@ -1,0 +1,127 @@
+{
+ "Page_display_title": {
+  "source": "Hell Ogre",
+  "translation": "Ogro del Infierno",
+  "outdated": false
+ },
+ "1": {
+  "source": "Neutral; hostile to Evil players",
+  "translation": "Neutral; hostil con los jugadores malvados",
+  "outdated": false
+ },
+ "2": {
+  "source": "Hell's ground and stone blocks",
+  "translation": "Bloques de tierra y piedra del Infierno",
+  "outdated": false
+ },
+ "3": {
+  "source": "Attacks Evil-aligned players on sight, and anyone who hits an ogre",
+  "translation": "Ataca en cuanto ve a los jugadores de alineamiento Malvado, y a cualquiera que golpee a un ogro",
+  "outdated": false
+ },
+ "4": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Hell Ogres''' are the red and blue ogres that walk the floor of Hell, below the clouds of the [[Special:MyLanguage/Otherworld|Otherworld]]. They only hunt Evil-aligned players. Another ogre, the '''Hell Ogre''' standing next to [[Special:MyLanguage/King Yemma|King Yemma]], is a quest NPC who knows where [[Special:MyLanguage/Janemba|Janemba]] sleeps.",
+  "translation": "Los '''Ogros del Infierno''' son los ogros rojos y azules que recorren el suelo del Infierno, bajo las nubes del [[Special:MyLanguage/Otherworld|Otro Mundo]]. Solo persiguen a los jugadores de alineamiento Malvado. Otro ogro, el '''Ogro del Infierno''' que está junto al [[Special:MyLanguage/King Yemma|Rey Yemma]], es un NPC de misión que sabe dónde duerme [[Special:MyLanguage/Janemba|Janemba]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Red and Blue Ogres ==",
+  "translation": "== Ogros Rojos y Azules ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Two ogres share the same stats and behavior: the '''Red Ogre''' and the '''Blue Ogre'''.",
+  "translation": "Dos ogros comparten las mismas estadísticas y el mismo comportamiento: el '''Ogro Rojo''' y el '''Ogro Azul'''.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Ogre",
+  "translation": "Ogro",
+  "outdated": false
+ },
+ "9": {
+  "source": "Health",
+  "translation": "Vida",
+  "outdated": false
+ },
+ "10": {
+  "source": "Damage",
+  "translation": "Daño",
+  "outdated": false
+ },
+ "11": {
+  "source": "Spawn weight",
+  "translation": "Peso de aparición",
+  "outdated": false
+ },
+ "12": {
+  "source": "Group size",
+  "translation": "Tamaño del grupo",
+  "outdated": false
+ },
+ "13": {
+  "source": "Red Ogre",
+  "translation": "Ogro Rojo",
+  "outdated": false
+ },
+ "14": {
+  "source": "Blue Ogre",
+  "translation": "Ogro Azul",
+  "outdated": false
+ },
+ "24": {
+  "source": "Blue Ogre",
+  "translation": "Ogro Azul",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Spawning ==",
+  "translation": "== Aparición ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "The ogres spawn on Hell's ground and stone blocks, with at most 4 ogres within 48 blocks.",
+  "translation": "Los ogros aparecen sobre los bloques de tierra y piedra del Infierno, con un máximo de 4 ogros en un radio de 48 bloques.",
+  "outdated": false
+ },
+ "17": {
+  "source": "== Behavior ==",
+  "translation": "== Comportamiento ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "The ogres are '''only hostile to Evil-aligned players''' (alignment 0–40). Anyone else is left alone unless they hit an ogre first, which brings the nearby ogres in too. They fight on the '''Novice''' AI tier. See [[Special:MyLanguage/Alignment|Alignment]].",
+  "translation": "Los ogros '''solo son hostiles con los jugadores de alineamiento Malvado''' (alineamiento 0–40). A los demás los dejan en paz salvo que golpeen primero a un ogro, lo que atrae también a los ogros cercanos. Pelean en el nivel de IA '''Novato'''. Consulta [[Special:MyLanguage/Alignment|Alineamiento]].",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Drops ==",
+  "translation": "== Botín ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "The ogres drop nothing.",
+  "translation": "Los ogros no sueltan nada.",
+  "outdated": false
+ },
+ "21": {
+  "source": "== The Hell Ogre quest NPC ==",
+  "translation": "== El Ogro del Infierno de las misiones ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "In the cloud realm of the Otherworld, next to King Yemma, stands the '''Hell Ogre''', a quest NPC. He tells you about [[Special:MyLanguage/Janemba|Janemba]], whether it is awake and, once its lair is known, gives you its location at the bottom of Hell.",
+  "translation": "En el reino de las nubes del Otro Mundo, junto al Rey Yemma, está el '''Ogro del Infierno''', un NPC de misión. Te habla de [[Special:MyLanguage/Janemba|Janemba]], de si está despierto y, una vez conocida su guarida, te da su ubicación en el fondo del Infierno.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Entity ids",
+  "translation": "IDs de entidad",
+  "outdated": false
+ }
+}

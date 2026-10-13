@@ -28,9 +28,7 @@
 	"dmz-search-fulltext": "Last suggestion in the search overlay. $1 is the query.",
 	"dmz-search-empty": "Shown when no title matches. $1 is the query.",
 	"dmz-user-tools": "Accessible label of the user menu.",
-	"dmz-translation-available": "Notice when the page exists in the reader language. $1 is the language name.",
 	"dmz-translation-missing": "Notice when the page is not translated yet. $1 is the reader language, $2 the language the page is shown in.",
-	"dmz-translation-switch": "Link in the translation notice. $1 is the language name.",
 	"dmz-home-hero-title": "Main page hero title.",
 	"dmz-home-hero-subtitle": "Main page hero subtitle.",
 	"dmz-login": "Footer link to Special:UserLogin for editors.",
@@ -52,5 +50,9 @@
 	"dmz-rail-changelog": "Button to the changelog in the right column.",
 	"dmz-rail-popular-pages": "{{notranslate}}\nCurated fallback for the most visited card, one page title per line. Edit on MediaWiki:Dmz-rail-popular-pages.",
 	"dmz-sidebar-challenges": "Sidebar section heading, used from MediaWiki:Sidebar.",
-	"dmz-sidebar-gear": "Sidebar section heading, used from MediaWiki:Sidebar."
+	"dmz-sidebar-gear": "Sidebar section heading, used from MediaWiki:Sidebar.",
+	"dmz-finder-placeholder": "Placeholder of the Crafting Finder search box.",
+	"dmz-finder-empty": "Shown in the Crafting Finder suggestions when nothing matches.",
+	"dmz-finder-loading": "Shown while the crafting tree is being rendered.",
+	"dmz-finder-error": "Shown when the crafting tree request fails."
 }

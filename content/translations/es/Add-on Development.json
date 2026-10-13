@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "Add-on Development",
+  "translation": "Desarrollo de addons",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Add-on development''' means writing your own Forge mod that depends on DragonMineZ and reacts to it: granting bonus TP, listening for form changes, adding new quest objective and reward types, adding buttons to the utility menu and so on. These pages are for Java developers who can run a Forge 1.20.1 development environment.",
+  "translation": "El '''desarrollo de addons''' consiste en escribir tu propio mod de Forge que depende de DragonMineZ y reacciona a él: dar TP extra, escuchar cambios de forma, añadir nuevos tipos de objetivos y recompensas de misiones, agregar botones al menú de utilidades, etc. Estas páginas son para desarrolladores de Java que saben ejecutar un entorno de desarrollo de Forge 1.20.1.",
+  "outdated": false
+ },
+ "2": {
+  "source": "If you only want to tune numbers or add races, forms, quests or wishes, you don't need any of this: see [[Special:MyLanguage/Modding|Modding]] instead. DragonMineZ has no Java API to register new races, forms, skills or techniques; new races and forms are added through JSON config files.",
+  "translation": "Si solo quieres ajustar números o añadir razas, formas, misiones o deseos, no necesitas nada de esto: consulta [[Special:MyLanguage/Modding|Contenido propio]]. DragonMineZ no tiene una API de Java para registrar razas, formas, habilidades o técnicas nuevas; las razas y formas nuevas se añaden con archivos de configuración JSON.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Guides ==",
+  "translation": "== Guías ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Who these pages are for, the two ways to extend DMZ and the baseline setup.",
+  "translation": "A quién van dirigidas estas páginas, las dos formas de extender DMZ y la configuración básica.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Toolchain versions, incompatible mods and what an add-on can safely rely on.",
+  "translation": "Versiones de las herramientas, mods incompatibles y en qué puede confiar un addon sin riesgo.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Every DMZ event, reading player state, extension registries and networking.",
+  "translation": "Todos los eventos de DMZ, cómo leer el estado del jugador, registros de extensión y red.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Set up the Gradle project, declare the dependency and receive your first event.",
+  "translation": "Configura el proyecto de Gradle, declara la dependencia y recibe tu primer evento.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== The project ==",
+  "translation": "== El proyecto ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Report bugs, suggest features, build the mod and open pull requests.",
+  "translation": "Reporta errores, sugiere funciones, compila el mod y abre pull requests.",
+  "outdated": false
+ },
+ "10": {
+  "source": "How to report a vulnerability and how to keep a server safe.",
+  "translation": "Cómo reportar una vulnerabilidad y cómo mantener seguro un servidor.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Reading order ==",
+  "translation": "== Orden de lectura ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "# [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]]: match the toolchain and make sure your development environment builds against DMZ.\n# [[Special:MyLanguage/Implementation and Events|Implementation and Events]]: wire up the actual hooks.\n# [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]]: the full Gradle and <code>mods.toml</code> setup.",
+  "translation": "# [[Special:MyLanguage/Add-on Getting Started|Primeros pasos con addons]]: iguala las versiones de las herramientas y asegúrate de que tu entorno de desarrollo compile contra DMZ.\n# [[Special:MyLanguage/Implementation and Events|Implementación y eventos]]: conecta los hooks reales.\n# [[Special:MyLanguage/Creating a DMZ Addon|Crear un addon de DMZ]]: la configuración completa de Gradle y <code>mods.toml</code>.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Ground rules for add-ons ==",
+  "translation": "== Reglas básicas para addons ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "* Hook <code>com.dragonminez.common</code> almost exclusively: it is the shared, most stable layer. On the client, the only hooks meant for add-ons are <code>DMZClientEvent</code> and the utility menu slots.\n* Prefer reacting to DMZ events (changing their settable fields, or cancelling them) over changing DMZ data directly.\n* Register your own network channel; never add packets to DMZ's channel.\n* Never trust client input for stats, unlocks, quests, wishes or progression: validate it on the server.\n* Don't depend on <code>com.dragonminez.mixin</code> classes or on DMZ internals that the guides don't mention; they can change without notice between versions.\n* Don't bundle or depend on Legendary Tooltips, Epic Fight or Better Combat: DMZ refuses to start alongside them.",
+  "translation": "* Engánchate casi exclusivamente a <code>com.dragonminez.common</code>: es la capa compartida y la más estable. En el cliente, los únicos hooks pensados para addons son <code>DMZClientEvent</code> y las ranuras del menú de utilidades.\n* Es preferible reaccionar a los eventos de DMZ (cambiando sus campos modificables o cancelándolos) que cambiar directamente los datos de DMZ.\n* Registra tu propio canal de red; nunca añadas paquetes al canal de DMZ.\n* Nunca confíes en lo que envía el cliente para estadísticas, desbloqueos, misiones, deseos o progreso: valídalo en el servidor.\n* No dependas de las clases de <code>com.dragonminez.mixin</code> ni de partes internas de DMZ que las guías no mencionan; pueden cambiar sin aviso entre versiones.\n* No incluyas ni dependas de Legendary Tooltips, Epic Fight o Better Combat: DMZ se niega a iniciar junto a ellos.",
+  "outdated": false
+ }
+}

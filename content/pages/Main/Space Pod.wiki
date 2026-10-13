@@ -1,61 +1,76 @@
 {{Infobox Item
-|quote=<translate>This ship from the Saiyan race can take you to other planets.</translate>
-|Type=<translate>Vehicle</translate>
-|Effect=<translate>Travel between worlds</translate>
+|quote=<translate><!--T:1--> This ship from the Saiyan race can take you to other planets.</translate>
+|Type=<translate><!--T:2--> Vehicle</translate>
+|Effect=<translate><!--T:3--> Travel between worlds</translate>
 |Stack size=1
-|Obtained=<translate>Saiyan Saga quest 15, Shenron wish, crafting</translate>
-|Crafting=<translate>Radar's Chips (Namek), Radar's CPU (Namek), Blocks of Quartz, Redstone Repeater, Minecart and Red Wool</translate>
+|Obtained=<translate><!--T:4--> Saiyan Saga quest 15, Shenron wish, crafting</translate>
+|Crafting=<translate><!--T:5--> Radar's Chips (Namek), Radar's CPU (Namek), Blocks of Quartz, Redstone Repeater, Minecart and Red Wool</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Saiyan Space Pod''' is a one-person spacecraft and the main way to travel between worlds: [[Special:MyLanguage/Earth|Earth]], [[Special:MyLanguage/Namek|Namek]], the [[Special:MyLanguage/Otherworld|Otherworld]], the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]], the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] and the [[Special:MyLanguage/Demon Realm|Demon Realm]]. Each destination has its own unlock rule.
 </translate>
 
 <translate>
-== Getting a Space Pod ==
+== Getting a Space Pod == <!--T:7-->
 
+<!--T:8-->
 * '''Prepare for Namek''' ([[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 15) rewards a Saiyan Space Pod.
 * [[Special:MyLanguage/Shenron|Shenron]] can grant a Saiyan Space Pod as a wish.
-* '''Crafting table:''' <code>Q C Q / C T C / R M L</code>, where Q is a Block of Quartz, C is Radar's Chip (Namek), T is Radar's CPU (Namek), R is a Redstone Repeater, M is a Minecart and L is Red Wool. See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the parts.
+* '''Crafting table:''' recipe below. See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the parts.
 </translate>
+{{Recipe|saiyan_ship}}
 
 <translate>
-== Boarding and flying ==
+== Boarding and flying == <!--T:9-->
 
+<!--T:10-->
 # Right-click a block with the item to place the pod.
 # Right-click the pod to open its hatch, then right-click again to climb in.
 # Steer with the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend.
 
+<!--T:11-->
 Hit the pod to pick it back up as an item.
 </translate>
 
 <translate>
-== Travelling ==
+== Travelling == <!--T:12-->
 
+<!--T:13-->
 While you sit in the pod, press {{Key|H}} to open the '''Space Pod''' menu and pick a destination. You travel with the pod: it lands with you at the destination, ready to take you somewhere else. Locked destinations show up grayed out.
 </translate>
 {| class="wikitable"
-! <translate>Destination</translate> !! <translate>Where you land</translate> !! <translate>Unlocked by</translate>
+! <translate><!--T:14--> Destination</translate> !! <translate><!--T:15--> Where you land</translate> !! <translate><!--T:16--> Unlocked by</translate>
 |-
-| {{L|Earth}} || <translate>Same position as you left</translate> || <translate>Always available</translate>
+| {{L|Earth}} || <translate><!--T:17--> Same position as you left</translate> || <translate><!--T:18--> Always available</translate>
 |-
-| {{L|Namek}} || <translate>Same position as you left</translate> || <translate>Always available</translate>
+| {{L|Namek}} || <translate><!--T:19--> Same position as you left</translate> || <translate><!--T:20--> Always available</translate>
 |-
-| {{L|Otherworld}} || <translate>54, 210, 1082</translate> || <translate>Bulma's '''Otherworld Drive''' sidequest, while the Otherworld is enabled on the server</translate>
+| {{L|Otherworld}} || <translate><!--T:21--> 54, 210, 1082</translate> || <translate><!--T:22--> Bulma's '''Otherworld Drive''' sidequest, while the Otherworld is enabled on the server</translate>
 |-
-| {{L|Sacred Kai Planet}} || <translate>Same position as you left</translate> || <translate>[[Special:MyLanguage/Buu Saga|Buu Saga]] quest 23, ''Gotenks at Full Power''</translate>
+| {{L|Sacred Kai Planet}} || <translate><!--T:23--> Same position as you left</translate> || <translate><!--T:24--> [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 23, ''Gotenks at Full Power''</translate>
 |-
-| <translate>Time Chamber</translate> || <translate>The entry point of the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]</translate> || <translate>Bulma's '''Temporal Comm-Link''' sidequest</translate>
+| <translate><!--T:25--> Time Chamber</translate> || <translate><!--T:26--> The entry point of the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]</translate> || <translate><!--T:27--> Bulma's '''Temporal Comm-Link''' sidequest</translate>
 |-
-| {{L|Demon Realm}} || <translate>High above the Third Demon World</translate> || <translate>[[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3, ''To the Demon Realm''</translate>
+| {{L|Demon Realm}} || <translate><!--T:28--> High above the Third Demon World</translate> || <translate><!--T:29--> [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3, ''To the Demon Realm''</translate>
 |}
 <translate>
+<!--T:30-->
 The list also shows two locked entries, '''Cereal Planet''' and '''Beerus Planet''', reserved for add-on dimensions. Server owners and add-ons can add their own destinations (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]).
 </translate>
 
 <translate>
-== Other uses ==
+== Other uses == <!--T:31-->
 
+<!--T:32-->
 The [[Special:MyLanguage/GT Saga|GT Saga]] quest '''Parts for Bulma''' asks for a Saiyan Space Pod, along with other parts.
 </translate>
+
+<translate>
+== Gallery == <!--T:33-->
+</translate>
+<gallery>
+File:Space Pod (Open).png|<translate><!--T:34--> Hatch open</translate>
+</gallery>
 
 {{Navbox Items}}

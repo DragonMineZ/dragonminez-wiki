@@ -1,70 +1,80 @@
 {{Infobox Skill
-|quote=<translate>A calm mind recovers faster and reads every attack.</translate>
-|Type=<translate>Movement and utility</translate>
+|quote=<translate><!--T:1--> A calm mind recovers faster and reads every attack.</translate>
+|Type=<translate><!--T:2--> Movement and utility</translate>
 |Max level=10
 |Taught by={{L|Master Roshi}}, {{L|Frieza}}, {{L|Fortuneteller Baba}}
-|Cost=<translate>300 to 3,000 TP per level</translate>
-|Effect=<translate>+5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.</translate>
+|Cost=<translate><!--T:3--> 300 to 3,000 TP per level</translate>
+|Effect=<translate><!--T:4--> +5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.</translate>
 }}
 <translate>
+<!--T:5-->
 '''Meditation''' is a passive skill that speeds up your Ki and stamina regeneration and gives you a chance to automatically dodge melee attacks. Against players the dodge depends on how much faster you are than the attacker; against other enemies, on how much higher your Battle Power is.
 </translate>
 
 <translate>
-== Learning it ==
+== Learning it == <!--T:6-->
 
+<!--T:7-->
 [[Special:MyLanguage/Master Roshi|Master Roshi]] (Good alignment), [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] (no alignment requirement) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Meditation. Level 1 costs 300 TP and each level costs 300 TP more, up to 3,000 TP for level 10.
 </translate>
 
 <translate>
-== Regeneration ==
+== Regeneration == <!--T:8-->
 
+<!--T:9-->
 Each level gives '''+5% Ki and stamina regeneration''' (+50% at level 10). It works passively, all the time. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for how regeneration works.
 </translate>
 
 <translate>
-== Passive dodge ==
+== Passive dodge == <!--T:10-->
 
+<!--T:11-->
 With Meditation you can automatically dodge '''basic melee attacks''':
 
+<!--T:12-->
 * '''Against players''' you need to be faster than the attacker. Speed comes from your Resistance (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]).
 * '''Against other enemies''' you need a higher Battle Power than the attacker.
 
+<!--T:13-->
 Once you just meet the requirement you have a small chance to dodge, and the chance grows the bigger your advantage is, up to a maximum. Each level of Meditation lowers the advantage you need and raises the maximum chance.
 </translate>
 {| class="wikitable"
-! !! <translate>Against players</translate> !! <translate>Against other enemies</translate>
+! !! <translate><!--T:14--> Against players</translate> !! <translate><!--T:15--> Against other enemies</translate>
 |-
-! <translate>Advantage needed at level 1</translate>
-| <translate>2.5 times faster</translate> || <translate>2 times the Battle Power</translate>
+! <translate><!--T:16--> Advantage needed at level 1</translate>
+| <translate><!--T:17--> 2.5 times faster</translate> || <translate><!--T:18--> 2 times the Battle Power</translate>
 |-
-! <translate>Advantage needed at level 10</translate>
-| <translate>1.4 times faster</translate> || <translate>The same Battle Power</translate>
+! <translate><!--T:19--> Advantage needed at level 10</translate>
+| <translate><!--T:20--> 1.4 times faster</translate> || <translate><!--T:21--> The same Battle Power</translate>
 |-
-! <translate>Chance when you just meet the requirement</translate>
+! <translate><!--T:22--> Chance when you just meet the requirement</translate>
 | 10% || 10%
 |-
-! <translate>Maximum chance at level 1</translate>
+! <translate><!--T:23--> Maximum chance at level 1</translate>
 | 21% || 30%
 |-
-! <translate>Maximum chance at level 10</translate>
+! <translate><!--T:24--> Maximum chance at level 10</translate>
 | 35% || 50%
 |}
 
 <translate>
+<!--T:25-->
 Every dodge has a price and a limit:
 
+<!--T:26-->
 * A dodge costs '''3% of your max stamina'''.
 * Consecutive dodges get less likely: each one multiplies the chance of the next by 0.75. The streak resets after 3 seconds without dodging.
 * Two dodges are at least half a second apart.
 
+<!--T:27-->
 These values are the server defaults.
 </translate>
 {{Config|Combat Config|speedDodge*}}
 
 <translate>
-== Notes ==
+== Notes == <!--T:28-->
 
+<!--T:29-->
 * The [[Special:MyLanguage/Glind|Glind]] racial passive '''Celestial Body''' makes the Meditation dodge 50% more likely.
 * The Meditation dodge is separate from the '''perfect evasion''' you get by dashing at the right moment. See [[Special:MyLanguage/Combat|Combat]].
 </translate>

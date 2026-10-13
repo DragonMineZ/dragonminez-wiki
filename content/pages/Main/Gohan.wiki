@@ -1,59 +1,85 @@
 {{Infobox Master
-|Location={{L|Earth}}, <translate>plains</translate>
+|Location={{L|Earth}}, <translate><!--T:1--> plains</translate>
 |Structure={{L|Goku's House}}
-|Alignment=<translate>Good (61 or higher)</translate>
+|Alignment=<translate><!--T:2--> Good (61 or higher)</translate>
 |Locate=/dmzlocate goku_house
-|Teaches={{L|Ki Control}}, <translate>Ki Boost</translate>, {{L|Ki Protection}}, {{L|Ki Sense}}, <translate>Masenko, Special Beam Cannon, Kamehameha, Ki Barrage</translate>
-|Training=<translate>Shadow Boxing minigame</translate>
+|Teaches={{L|Ki Control}}, <translate><!--T:3--> Ki Boost</translate>, {{L|Ki Protection}}, {{L|Ki Sense}}, <translate><!--T:4--> Masenko, Special Beam Cannon, Kamehameha, Ki Barrage</translate>
+|Training=<translate><!--T:5--> Shadow Boxing minigame</translate>
 }}
 <translate>
+<!--T:6-->
 '''Gohan''' is a [[Special:MyLanguage/Masters|master]] who lives at [[Special:MyLanguage/Goku's House|Goku's House]] on [[Special:MyLanguage/Earth|Earth]], together with [[Special:MyLanguage/Goku|Goku]]. He teaches ki skills and four ki attacks, and runs the '''Shadow Boxing''' [[Special:MyLanguage/Training Minigames|training minigame]]. He only trains Good-aligned players.
 </translate>
 
 <translate>
-== Location ==
+== Location == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 Gohan lives at [[Special:MyLanguage/Goku's House|Goku's House]] with Goku, in a plains biome. Capsule Corp Assistants sell a map to it at trade tier 1 (see [[Special:MyLanguage/Goku's House#Finding it|Goku's House]]).
 </translate>
 
 <translate>
-== Alignment ==
+== Alignment == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 Gohan needs an [[Special:MyLanguage/Alignment|alignment]] of '''61 or higher''' (Good). Below that he still talks to you, but his '''Skills''', '''Train''' and new quests stay locked.
 </translate>
 
 <translate>
-== Skills and techniques ==
+== Skills and techniques == <!--T:11-->
 </translate>
 {{See also|Skills|Techniques}}
 <translate>
+<!--T:12-->
 * '''Skills:''' [[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]], [[Special:MyLanguage/Ki Sense|Ki Sense]]
 * '''Ki attacks:''' Masenko, Special Beam Cannon, Kamehameha, Ki Barrage
 </translate>
 
 <translate>
+<!--T:13-->
 Everything is paid for with Training Points, and your race has to allow each skill.
 </translate>
 
 <translate>
-== Training ==
+== Training == <!--T:14-->
 </translate>
 {{Main|Training Minigames}}
 <translate>
+<!--T:15-->
 Gohan's '''Train''' option offers a Shadow Clone to spar with and the '''Shadow Boxing''' minigame: type the combo of keys shown on screen before the timers run out. Play it from Gohan 3 times reaching level 5 to learn it; after that you can replay it from the Minigames tab of your menu, and starting it from Gohan pays a +25% mentor bonus.
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:16-->
 </translate>
 <translate>
+<!--T:17-->
 * [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 36, ''Flying Lessons'': reach Fly level 1 and talk to Gohan.
 </translate>
 
 <translate>
-== Side quests ==
+== As a tournament fighter == <!--T:19-->
+</translate>
+<translate>
+<!--T:20-->
+Gohan also fights in two [[Special:MyLanguage/Tournaments|tournaments]], as NPC fighters separate from the master:
+* '''Teen Gohan (Mid, Super Saiyan)''' is the semi-finalist of the [[Special:MyLanguage/Cell Games|Cell Games]]. Teen Gohan's base and Super Saiyan 2 forms are in the Cell Games contender pool too, but the semi-finalist takes his place first, so they are never drawn.
+* '''Gohan (End)''', in his base, Super Saiyan or Super Saiyan 2 form, and '''Ultimate Gohan (End)''' can be drawn as contenders in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. They count as one character, so a bracket has at most one of them.
+</translate>
+<gallery>
+File:Teen Gohan (Mid).png|<translate><!--T:21--> Teen, Mid</translate>
+File:Teen Gohan (Mid, Super Saiyan).png|<translate><!--T:22--> Teen, Mid, Super Saiyan (Cell Games semi-finalist)</translate>
+File:Teen Gohan (Mid, Super Saiyan 2).png|<translate><!--T:23--> Teen, Mid, Super Saiyan 2</translate>
+File:Gohan (End).png|<translate><!--T:24--> End (Otherworld Tournament)</translate>
+File:Gohan (End, Super Saiyan).png|<translate><!--T:25--> End, Super Saiyan (Otherworld Tournament)</translate>
+File:Gohan (End, Super Saiyan 2).png|<translate><!--T:26--> End, Super Saiyan 2 (Otherworld Tournament)</translate>
+File:Ultimate Gohan (End).png|<translate><!--T:27--> Ultimate, End (Otherworld Tournament)</translate>
+</gallery>
+
+<translate>
+== Side quests == <!--T:18-->
 </translate>
 {{Main|Sidequests}}
 {{#invoke:Sidequests|giver|gohan}}

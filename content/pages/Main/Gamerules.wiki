@@ -1,35 +1,39 @@
 <translate>
+<!--T:1-->
 DragonMineZ adds a few vanilla-style '''gamerules''', set with <code>/gamerule &lt;name&gt; &lt;value&gt;</code>. They control '''ki-griefing''' (whether ki attacks are allowed to damage and destroy the world) and '''building inside arena structures''', so server owners can protect terrain and builds.
 </translate>
 
 <translate>
-== Gamerule list ==
+== Gamerule list == <!--T:2-->
 </translate>
 {| class="wikitable"
-! <translate>Gamerule</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:3--> Gamerule</translate> !! <translate><!--T:4--> Default</translate> !! <translate><!--T:5--> What it does</translate>
 |-
-| <code>allowKiGriefingPlayers</code> || <code>true</code> || <translate>Whether ki attacks '''fired by players''' can break or damage blocks. Set it to <code>false</code> to stop players blowing up terrain.</translate>
+| <code>allowKiGriefingPlayers</code> || <code>true</code> || <translate><!--T:6--> Whether ki attacks '''fired by players''' can break or damage blocks. Set it to <code>false</code> to stop players blowing up terrain.</translate>
 |-
-| <code>allowKiGriefingMobs</code> || <code>true</code> || <translate>Whether ki attacks '''fired by mobs and NPCs''' (for example saga enemies) can break or damage blocks.</translate>
+| <code>allowKiGriefingMobs</code> || <code>true</code> || <translate><!--T:7--> Whether ki attacks '''fired by mobs and NPCs''' (for example saga enemies) can break or damage blocks.</translate>
 |-
-| <code>allowKiGriefingMasterStructures</code> || <code>false</code> || <translate>Whether ki-griefing is allowed '''inside master structures'''. It is off by default, so master homes (Goku's House and the rest) are protected even when the other two rules are on.</translate>
+| <code>allowKiGriefingMasterStructures</code> || <code>false</code> || <translate><!--T:8--> Whether ki-griefing is allowed '''inside master structures'''. It is off by default, so master homes (Goku's House and the rest) are protected even when the other two rules are on.</translate>
 |-
-| <code>allowBuildingInArenaStructures</code> || <code>false</code> || <translate>Whether players can '''place and break blocks inside arena structures''' (Fortuneteller Baba's Palace, the Cell Games Arena and the Otherworld tournament grounds). Off by default.</translate>
+| <code>allowBuildingInArenaStructures</code> || <code>false</code> || <translate><!--T:9--> Whether players can '''place and break blocks inside arena structures''' (Fortuneteller Baba's Palace, the Cell Games Arena and the Otherworld tournament grounds). Off by default.</translate>
 |}
 
 <translate>
-== Ki-griefing ==
+== Ki-griefing == <!--T:10-->
 </translate>
 {{See also|Techniques|Structures}}
 <translate>
+<!--T:11-->
 '''How the rules combine:''' a ki blast can break a block only if the matching player or mob rule is <code>true</code> '''and''', if the spot is inside a protected structure, <code>allowKiGriefingMasterStructures</code> is also <code>true</code>.
 </translate>
 
 <translate>
+<!--T:12-->
 The structures protected by <code>allowKiGriefingMasterStructures</code> are the ones in the structure tag <code>dragonminez:ki_griefing_protected</code>:
 </translate>
 
 <translate>
+<!--T:13-->
 * [[Special:MyLanguage/Goku's House|Goku's House]]
 * [[Special:MyLanguage/Kame House|Kame House]]
 * [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]]
@@ -48,31 +52,34 @@ The structures protected by <code>allowKiGriefingMasterStructures</code> are the
 </translate>
 
 <translate>
+<!--T:14-->
 The Otherworld tournament grounds and the [[Special:MyLanguage/Otherworld|Otherworld]] landmarks (King Yemma's palace, Snake Way and King Kai's Planet) count as protected structures too. Datapacks can add their own structures to the tag.
 </translate>
 
 <translate>
-== Building in arena structures ==
+== Building in arena structures == <!--T:15-->
 </translate>
 {{See also|Tournaments|Fortuneteller Baba's Tournament|Cell Games|Otherworld Tournament}}
 <translate>
+<!--T:16-->
 While <code>allowBuildingInArenaStructures</code> is <code>false</code>, players in Survival or Adventure mode can't place or break blocks inside the structures of the tag <code>dragonminez:build_protected</code> (Fortuneteller Baba's Palace and the Cell Games Arena) or inside the Otherworld tournament grounds. They get the message ''"This place is protected. You can't build here."''. Explosions don't destroy blocks there either, and mobs can't grief them. Creative and Spectator players are not affected.
 </translate>
 
 <translate>
-== WorldGuard ==
+== WorldGuard == <!--T:17-->
 </translate>
 {{See also|Gravity Config}}
 <translate>
+<!--T:18-->
 For finer, region-based control, DMZ also integrates with '''WorldGuard''' if it is installed. It registers two region flags:
 </translate>
 
 {| class="wikitable"
-! <translate>Flag</translate> !! <translate>Type</translate> !! <translate>Effect</translate>
+! <translate><!--T:19--> Flag</translate> !! <translate><!--T:20--> Type</translate> !! <translate><!--T:21--> Effect</translate>
 |-
-| <code>ki-griefing</code> || <translate>State (allow or deny, default allow)</translate> || <translate>Whether ki attacks can break blocks in that region. Checked after the gamerules above.</translate>
+| <code>ki-griefing</code> || <translate><!--T:22--> State (allow or deny, default allow)</translate> || <translate><!--T:23--> Whether ki attacks can break blocks in that region. Checked after the gamerules above.</translate>
 |-
-| <code>dmz-gravity</code> || <translate>Number</translate> || <translate>Base gravity inside that region (used when it is higher than the dimension's gravity); see [[Special:MyLanguage/Gravity Config|Gravity Config]].</translate>
+| <code>dmz-gravity</code> || <translate><!--T:24--> Number</translate> || <translate><!--T:25--> Base gravity inside that region (used when it is higher than the dimension's gravity); see [[Special:MyLanguage/Gravity Config|Gravity Config]].</translate>
 |}
 
 {{Navbox Configuration}}

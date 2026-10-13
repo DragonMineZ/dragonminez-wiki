@@ -1,31 +1,35 @@
 {{Infobox Structure
 |Dimension={{L|Earth}}
-|Biome=<translate>Deserts</translate>
-|Location=<translate>One per world</translate>
+|Biome=<translate><!--T:1--> Deserts</translate>
+|Location=<translate><!--T:2--> One per world</translate>
 |Locate=/dmzlocate yamcha_house
 |Inhabitants={{L|Yamcha}}
-|Purpose=<translate>Home of a master</translate>
-|Protection=<translate>Ki attacks can't damage it</translate>
+|Purpose=<translate><!--T:3--> Home of a master</translate>
+|Protection=<translate><!--T:4--> Ki attacks can't damage it</translate>
 }}
 <translate>
+<!--T:5-->
 '''Yamcha's House''' is [[Special:MyLanguage/Yamcha|Yamcha]]'s hideout in the deserts of [[Special:MyLanguage/Earth|Earth]]. Yamcha trains anyone regardless of alignment.
 </translate>
 
 <translate>
-== Who lives here ==
+== Who lives here == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 '''[[Special:MyLanguage/Yamcha|Yamcha]]''' teaches [[Special:MyLanguage/Ki Control|Ki Control]] and [[Special:MyLanguage/Ki Infusion|Ki Infusion]], the Spirit Ball, the Kamehameha, Ki Barrage and his Wolf Fang strike. He has no alignment requirement.
 </translate>
 
 <translate>
-== Finding it ==
+== Finding it == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 Yamcha's House generates once per world, in a desert. [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistants]] can sell a '''Yamcha's House Map''' at trade tier 2, for 1 Bone and an empty Map. Players with the locate permission can use {{Command|/dmzlocate yamcha_house}}. See [[Special:MyLanguage/Structures#Finding structures|Finding structures]].
 </translate>
 
 <translate>
+<!--T:10-->
 Like every master's home, the house can't be damaged by ki attacks (see [[Special:MyLanguage/Structures#Protection|Protection]]).
 </translate>
 

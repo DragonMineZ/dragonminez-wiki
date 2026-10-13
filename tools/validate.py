@@ -75,10 +75,32 @@ def api(base: str, **params):
         return json.loads(response.read().decode('utf-8'))
 
 
+LANGUAGES = ('es', 'pt')
+
+
+def render_problems(base: str, page: str) -> list:
+    data = api(base, action='parse', page=page, prop='text|templates', disablelimitreport='1')
+    if 'error' in data:
+        return [f"parse error: {data['error'].get('info')}"]
+    problems = []
+    parsed = data['parse']
+    html = parsed['text']
+    for error in re.findall(r'class="(?:error|scribunto-error)[^"]*"[^>]*>(.{0,160})', html):
+        problems.append('render error: ' + re.sub('<[^>]+>', '', error))
+    fuzzy = html.count('mw-translate-fuzzy')
+    if fuzzy:
+        problems.append(f'{fuzzy} outdated or untranslated unit(s)')
+    for template in parsed.get('templates', []):
+        if not template.get('exists'):
+            problems.append(f"missing template {template['title']}")
+    return problems
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description='Lint content files and check how they render on a wiki.')
     parser.add_argument('--api', default=os.environ.get('MW_API', 'http://127.0.0.1:8080/api.php'))
     parser.add_argument('--offline', action='store_true')
+    parser.add_argument('--translations', action='store_true', help='also render the /es and /pt translation pages')
     args = parser.parse_args()
 
     failures = 0
@@ -95,17 +117,11 @@ def main() -> int:
                     wanted[target] += 1
                     wanted_from[target].add(title)
         if not args.offline and path.suffix == '.wiki' and not title.startswith('MediaWiki:'):
-            data = api(args.api, action='parse', page=title, prop='text|templates', disablelimitreport='1')
-            if 'error' in data:
-                problems.append(f"parse error: {data['error'].get('info')}")
-            else:
-                parsed = data['parse']
-                html = parsed['text']
-                for error in re.findall(r'class="(?:error|scribunto-error)[^"]*"[^>]*>(.{0,160})', html):
-                    problems.append('render error: ' + re.sub('<[^>]+>', '', error))
-                for template in parsed.get('templates', []):
-                    if not template.get('exists'):
-                        problems.append(f"missing template {template['title']}")
+            pages = [(title, '')]
+            if args.translations and is_content and '<translate>' in path.read_text(encoding='utf-8'):
+                pages += [(f'{title}/{lang}', f'[{lang}] ') for lang in LANGUAGES]
+            for page, prefix in pages:
+                problems.extend(prefix + problem for problem in render_problems(args.api, page))
         if problems:
             failures += 1
             print(f'== {title}')

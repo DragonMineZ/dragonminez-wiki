@@ -1,122 +1,128 @@
 <translate>
+<!--T:1-->
 This page lists DragonMineZ's default key bindings and key combinations. Every key can be changed in Minecraft's '''Options → Controls''', under the '''DragonMine Z''' category (the Rhythm minigame lanes are in '''DragonMine Z Minigames''').
 </translate>
 
-{{Note|title=<translate>The Second Function key</translate>|<translate>{{Key|Left Alt}} is the '''Second Function''' key: the modifier used by most of the combinations below.</translate>}}
+{{Note|title=<translate><!--T:2--> The Second Function key</translate>|<translate><!--T:3--> {{Key|Left Alt}} is the '''Second Function''' key: the modifier used by most of the combinations below.</translate>}}
 
 <translate>
-== Menus ==
+== Menus == <!--T:4-->
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Action</translate>
+! <translate><!--T:5--> Key</translate> !! <translate><!--T:6--> Action</translate>
 |-
-| {{Key|V}} || <translate>Open the '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config; see [[Special:MyLanguage/Menus|Menus]]). Before you have created a character it opens character creation.</translate>
+| {{Key|V}} || <translate><!--T:7--> Open the '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config; see [[Special:MyLanguage/Menus|Menus]]). Before you have created a character it opens character creation.</translate>
 |-
-| <translate>{{Key|X}} (hold)</translate> || <translate>Open the '''Utility Menu''' (radial wheel: transform, stack forms, movement and actions). Releasing the key closes it.</translate>
+| <translate><!--T:8--> {{Key|X}} (hold)</translate> || <translate><!--T:9--> Open the '''Utility Menu''' (radial wheel: transform, stack forms, movement and actions). Releasing the key closes it.</translate>
 |-
-| {{Key|H}} || <translate>[[Special:MyLanguage/Instant Transmission|Instant Transmission]] (see below), or the '''Space Pod''' menu while riding a [[Special:MyLanguage/Space Pod|Space Pod]].</translate>
+| {{Key|H}} || <translate><!--T:10--> [[Special:MyLanguage/Instant Transmission|Instant Transmission]] (see below), or the '''Space Pod''' menu while riding a [[Special:MyLanguage/Space Pod|Space Pod]].</translate>
 |-
-| <translate>''Unbound''</translate> || <translate>'''Open Party / Skills / Quests / Minigames / Config Tab''': jump straight to that tab of the Character Menu. Bind them yourself if you want shortcuts; they also switch tabs while the menu is open.</translate>
+| <translate><!--T:11--> ''Unbound''</translate> || <translate><!--T:12--> '''Open Party / Skills / Quests / Minigames / Config Tab''': jump straight to that tab of the Character Menu. Bind them yourself if you want shortcuts; they also switch tabs while the menu is open.</translate>
 |}
 
 <translate>
-== Combat and actions ==
+== Combat and actions == <!--T:13-->
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Action</translate>
+! <translate><!--T:14--> Key</translate> !! <translate><!--T:15--> Action</translate>
 |-
-| <translate>{{Key|C}} (hold)</translate> || <translate>'''Charge Ki''': raises your Power Release (up to your release limit). '''Double-tap''' {{Key|C}} to jump straight to your maximum release, paying 1% of your max Ki per 5% of release gained.</translate>
+| <translate><!--T:16--> {{Key|C}} (hold)</translate> || <translate><!--T:17--> '''Charge Ki''': raises your Power Release (up to your release limit). '''Double-tap''' {{Key|C}} to jump straight to your maximum release, paying 1% of your max Ki per 5% of release gained.</translate>
 |-
-| <translate>''Keep holding'' {{Key|C}} ''at full Ki''</translate> || <translate>Fills the '''Ki Surge''' bar; when it is full you unleash a '''Ki Surge''' (see [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Combat]]). Letting go of {{Key|C}} empties the bar.</translate>
+| <translate><!--T:18--> ''Keep holding'' {{Key|C}} ''at full Ki''</translate> || <translate><!--T:19--> Fills the '''Ki Surge''' bar; when it is full you unleash a '''Ki Surge''' (see [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Combat]]). Letting go of {{Key|C}} empties the bar.</translate>
 |-
-| <translate>{{Key|Alt}} + {{Key|C}} (hold)</translate> || <translate>'''Lower Release''': lowers your Power Release.</translate>
+| <translate><!--T:20--> {{Key|Alt}} + {{Key|C}} (hold)</translate> || <translate><!--T:21--> '''Lower Release''': lowers your Power Release.</translate>
 |-
-| <translate>{{Key|G}} (hold)</translate> || <translate>'''Action''' key: charges the action selected in the Utility Menu (transform, stack form, racial skill, fusion…). '''Double-tap''' {{Key|G}} to transform instantly.</translate>
+| <translate><!--T:22--> {{Key|G}} (hold)</translate> || <translate><!--T:23--> '''Action''' key: charges the action selected in the Utility Menu (transform, stack form, racial skill, fusion…). '''Double-tap''' {{Key|G}} to transform instantly.</translate>
 |-
-| <translate>''Unbound''</translate> || <translate>'''Instant Transform''': transform instantly with one key press.</translate>
+| <translate><!--T:24--> ''Unbound''</translate> || <translate><!--T:25--> '''Instant Transform''': transform instantly with one key press.</translate>
 |-
-| {{Key|Alt}} + {{Key|G}} || <translate>'''Descend (Lower Form)''': drop one form or stack-form tier. With a racial skill selected it triggers the racial '''secondary action''' instead (for example dismissing a Cell Jr. or a Bio-Android's Self-Destruct).</translate>
+| {{Key|Alt}} + {{Key|G}} || <translate><!--T:26--> '''Descend (Lower Form)''': drop one form or stack-form tier. With a racial skill selected it triggers the racial '''secondary action''' instead (for example dismissing a Cell Jr. or a Bio-Android's Self-Destruct).</translate>
 |-
-| {{Key|Alt}} + {{Key|Right Mouse}} || <translate>Fire a basic '''ki blast'''.</translate>
+| {{Key|Alt}} + {{Key|Right Mouse}} || <translate><!--T:27--> Fire a basic '''ki blast'''.</translate>
 |-
-| <translate>{{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} (hold)</translate> || <translate>'''Ki Transfer''': give your Ki to the player you are looking at (within 8 blocks) for as long as you hold the keys. {{Key|Ctrl}} and {{Key|Alt}} are fixed here and don't follow the Second Function key. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].</translate>
+| <translate><!--T:28--> {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} (hold)</translate> || <translate><!--T:29--> '''Ki Transfer''': give your Ki to the player you are looking at (within 8 blocks) for as long as you hold the keys. {{Key|Ctrl}} and {{Key|Alt}} are fixed here and don't follow the Second Function key. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].</translate>
 |-
-| {{Key|R}} || <translate>'''Dash''' (and double dash).</translate>
+| {{Key|R}} || <translate><!--T:30--> '''Dash''' (and double dash).</translate>
 |-
-| {{Key|Z}} || <translate>'''Lock on''' to a target.</translate>
+| {{Key|Z}} || <translate><!--T:31--> '''Lock on''' to a target.</translate>
 |-
-| {{Key|Right Mouse}} || <translate>'''Block''' (with empty hands). Starting a block right before a hit lands is a '''parry''' (see [[Special:MyLanguage/Combat#Parrying|Combat]]).</translate>
+| {{Key|Right Mouse}} || <translate><!--T:32--> '''Block''' (with empty hands). Starting a block right before a hit lands is a '''parry''' (see [[Special:MyLanguage/Combat#Parrying|Combat]]).</translate>
 |}
 
 <translate>
-== Movement and sensing ==
+== Movement and sensing == <!--T:33-->
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Action</translate>
+! <translate><!--T:34--> Key</translate> !! <translate><!--T:35--> Action</translate>
 |-
-| {{Key|F}} || <translate>Toggle '''flight''' on or off. It needs the Fly and Ki Control skills, and at least 5% Power Release to take off.</translate>
+| {{Key|F}} || <translate><!--T:36--> Toggle '''flight''' on or off. It needs the Fly and Ki Control skills, and at least 5% Power Release to take off.</translate>
 |-
-| {{Key|Alt}} + {{Key|F}} || <translate>'''Switch flight mode''' between '''Combat Fly''' and '''Search Fly'''. The flight mode, the flight speed cap and the flight '''Mode Lock''' are also in the Utility Menu under '''Movement → Fly''' (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
+| {{Key|Alt}} + {{Key|F}} || <translate><!--T:37--> '''Switch flight mode''' between '''Combat Fly''' and '''Search Fly'''. The flight mode, the flight speed cap and the flight '''Mode Lock''' are also in the Utility Menu under '''Movement → Fly''' (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
 |-
-| {{Key|F4}} || <translate>[[Special:MyLanguage/Ki Sense|Ki Sense]]: cycle the Ki Sense display through Combat mode, Search mode and off (needs the Ki Sense skill). While you wear a [[Special:MyLanguage/Scouters|scouter]] it toggles the scouter readout instead.</translate>
+| {{Key|F4}} || <translate><!--T:38--> [[Special:MyLanguage/Ki Sense|Ki Sense]]: cycle the Ki Sense display through Combat mode, Search mode and off (needs the Ki Sense skill). While you wear a [[Special:MyLanguage/Scouters|scouter]] it toggles the scouter readout instead.</translate>
 |}
 
 <translate>
-== Instant Transmission ==
+== Instant Transmission == <!--T:39-->
 </translate>
 
 {| class="wikitable"
-! <translate>Use</translate> !! <translate>Action</translate>
+! <translate><!--T:40--> Use</translate> !! <translate><!--T:41--> Action</translate>
 |-
-| <translate>Tap {{Key|H}}</translate> || <translate>Teleport to your '''locked-on target'''.</translate>
+| <translate><!--T:42--> Tap {{Key|H}}</translate> || <translate><!--T:43--> Teleport to your '''locked-on target'''.</translate>
 |-
-| <translate>Hold {{Key|H}} (half a second)</translate> || <translate>Open the '''Instant Transmission menu''' to pick a destination (needs Instant Transmission level 5 or higher).</translate>
+| <translate><!--T:44--> Hold {{Key|H}} (half a second)</translate> || <translate><!--T:45--> Open the '''Instant Transmission menu''' to pick a destination (needs Instant Transmission level 5 or higher).</translate>
 |}
 
 <translate>
+<!--T:46-->
 See [[Special:MyLanguage/Skills|Skills]] for the Instant Transmission skill.
 
-== Techniques ==
+== Techniques == <!--T:47-->
 
+<!--T:48-->
 Save techniques to slots in the Skills tab and fire them with a modifier plus a number. While you hold a bar's modifier, its four slots appear on the [[Special:MyLanguage/HUD#Technique hotbar|technique hotbar]].
 </translate>
 
 {| class="wikitable"
-! <translate>Keys</translate> !! <translate>Action</translate>
+! <translate><!--T:49--> Keys</translate> !! <translate><!--T:50--> Action</translate>
 |-
-| {{Key|Alt}} + {{Key|1}} / {{Key|2}} / {{Key|3}} / {{Key|4}} || <translate>Fire technique slots '''1–4''' (Bar 1).</translate>
+| {{Key|Alt}} + {{Key|1}} / {{Key|2}} / {{Key|3}} / {{Key|4}} || <translate><!--T:51--> Fire technique slots '''1–4''' (Bar 1).</translate>
 |-
-| {{Key|Ctrl}} + {{Key|1}} / {{Key|2}} / {{Key|3}} / {{Key|4}} || <translate>Fire technique slots '''5–8''' (Bar 2).</translate>
+| {{Key|Ctrl}} + {{Key|1}} / {{Key|2}} / {{Key|3}} / {{Key|4}} || <translate><!--T:52--> Fire technique slots '''5–8''' (Bar 2).</translate>
 |}
 
 <translate>
+<!--T:53-->
 Ki attacks charge while you hold the slot key and fire when you release it; strike attacks and evasion techniques activate as soon as you press it. See [[Special:MyLanguage/Techniques|Techniques]].
 
-== Minigames ==
+== Minigames == <!--T:54-->
 </translate>
 
 {| class="wikitable"
-! <translate>Keys</translate> !! <translate>Action</translate>
+! <translate><!--T:55--> Keys</translate> !! <translate><!--T:56--> Action</translate>
 |-
-| {{Key|A}} / {{Key|S}} / {{Key|K}} / {{Key|L}} || <translate>'''Rhythm''' minigame lanes 1–4 (they only work inside the minigame, so they don't clash with movement). The arrow keys {{Key|←}} {{Key|↓}} {{Key|↑}} {{Key|→}} also play lanes 1–4. Each lane shows its key as printed on your keyboard layout. In the song list, {{Key|↑}} / {{Key|↓}} browse songs and {{Key|←}} / {{Key|→}} change the difficulty.</translate>
+| {{Key|A}} / {{Key|S}} / {{Key|K}} / {{Key|L}} || <translate><!--T:57--> '''Rhythm''' minigame lanes 1–4 (they only work inside the minigame, so they don't clash with movement). The arrow keys {{Key|←}} {{Key|↓}} {{Key|↑}} {{Key|→}} also play lanes 1–4. Each lane shows its key as printed on your keyboard layout. In the song list, {{Key|↑}} / {{Key|↓}} browse songs and {{Key|←}} / {{Key|→}} change the difficulty.</translate>
 |-
-| <translate>{{Key|A}}–{{Key|Z}}, {{Key|0}}–{{Key|9}}</translate> || <translate>'''Shadow Boxing''' minigame: type the combo shown on screen. Letters follow your keyboard layout (AZERTY, QWERTZ…): press the key that has that letter printed on it.</translate>
+| <translate><!--T:58--> {{Key|A}}–{{Key|Z}}, {{Key|0}}–{{Key|9}}</translate> || <translate><!--T:59--> '''Shadow Boxing''' minigame: type the combo shown on screen. Letters follow your keyboard layout (AZERTY, QWERTZ…): press the key that has that letter printed on it.</translate>
 |-
-| {{Key|Space}} || <translate>'''Precision''' minigame: click at the mouse position.</translate>
+| {{Key|Space}} || <translate><!--T:60--> '''Precision''' minigame: click at the mouse position.</translate>
 |-
-| {{Key|Enter}} / {{Key|Space}} || <translate>Start a minigame from its rules panel.</translate>
+| {{Key|Enter}} / {{Key|Space}} || <translate><!--T:61--> Start a minigame from its rules panel.</translate>
 |-
-| {{Key|Esc}} || <translate>Pause a running minigame ('''Resume''' or '''Finish''' from the pause panel).</translate>
+| {{Key|Esc}} || <translate><!--T:62--> Pause a running minigame ('''Resume''' or '''Finish''' from the pause panel).</translate>
 |}
 
 <translate>
+<!--T:63-->
 See [[Special:MyLanguage/Training Minigames|Training Minigames]] for the minigames themselves.
 
-== Controls in editors and dialogues ==
+== Controls in editors and dialogues == <!--T:64-->
 
+<!--T:65-->
 The hair editor, the skin pixel editor and the HUD Editor have their own mouse and keyboard controls: see [[Special:MyLanguage/Character Customization#Viewport controls|Character Customization]] and [[Special:MyLanguage/HUD#The HUD Editor|HUD]]. NPC dialogues can be driven with the arrow keys, {{Key|Enter}} and the number keys: see [[Special:MyLanguage/Menus#NPC dialogue|Menus]].
 </translate>
 

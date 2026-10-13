@@ -1,0 +1,197 @@
+{
+ "Page_display_title": {
+  "source": "Developer Scope and Prerequisites",
+  "translation": "Alcance y requisitos",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Developer Scope and Prerequisites''' explains who the modding and add-on pages are written for, the two ways to extend DragonMineZ, and the folders and tools you need before you start. Run DragonMineZ once first, so that its config files exist.",
+  "translation": "'''Alcance y requisitos''' explica para quién están escritas las páginas de contenido propio y de addons, las dos formas de ampliar DragonMineZ, y las carpetas y herramientas que necesitas antes de empezar. Ejecuta DragonMineZ una vez primero, para que se creen sus archivos de configuración.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Intended audience ==",
+  "translation": "== Público objetivo ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "The modding and add-on pages are written for:",
+  "translation": "Las páginas de contenido propio y de addons están escritas para:",
+  "outdated": false
+ },
+ "4": {
+  "source": "* People who can edit JSON and resource pack assets.\n* People who can run Minecraft Forge development environments.\n* People who want to contribute DMZ-compatible content.",
+  "translation": "* Personas que saben editar JSON y recursos de paquetes de recursos.\n* Personas que saben usar entornos de desarrollo de Minecraft Forge.\n* Personas que quieren aportar contenido compatible con DMZ.",
+  "outdated": false
+ },
+ "5": {
+  "source": "They don't cover general player walkthroughs, lore or survival progression. For those, start with the [[Special:MyLanguage/Beginner's Guide|Beginner's Guide]].",
+  "translation": "No cubren guías generales para jugadores, lore ni la progresión en supervivencia. Para eso, empieza por la [[Special:MyLanguage/Beginner's Guide|Guía para empezar]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Two ways to extend DMZ ==",
+  "translation": "== Dos formas de ampliar DMZ ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Approach",
+  "translation": "Enfoque",
+  "outdated": false
+ },
+ "8": {
+  "source": "What you need",
+  "translation": "Qué necesitas",
+  "outdated": false
+ },
+ "9": {
+  "source": "Where to start",
+  "translation": "Por dónde empezar",
+  "outdated": false
+ },
+ "10": {
+  "source": "'''Data add-ons''' (configs, races, forms, quests, wishes, Dragon Ball packs, resource packs)",
+  "translation": "'''Addons de datos''' (configuraciones, razas, formas, misiones, deseos, paquetes de Esferas del Dragón, paquetes de recursos)",
+  "outdated": false
+ },
+ "11": {
+  "source": "A text editor and a DMZ instance",
+  "translation": "Un editor de texto y una instancia de DMZ",
+  "outdated": false
+ },
+ "12": {
+  "source": "This page, then the JSON pages linked below and in [[Special:MyLanguage/Modding|Modding]]",
+  "translation": "Esta página, y luego las páginas de JSON enlazadas abajo y en [[Special:MyLanguage/Modding|Contenido propio]]",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Code add-ons''' (your own Forge mod that hooks DMZ events and APIs)",
+  "translation": "'''Addons de código''' (tu propio mod de Forge que se engancha a los eventos y las API de DMZ)",
+  "outdated": false
+ },
+ "14": {
+  "source": "A Forge 1.20.1 development environment",
+  "translation": "Un entorno de desarrollo de Forge 1.20.1",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Baseline setup ==",
+  "translation": "== Configuración base ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "# Run DMZ once so the config files are generated.\n# Use <code>config/dragonminez</code> as the config root of your local development instances.\n# Race configuration lives in <code>config/dragonminez/races/<race_name>/</code> (<code>character.json</code>, <code>stats.json</code> and a <code>forms/</code> folder). See [[Special:MyLanguage/Custom Races|Custom Races]].\n# Shared stack forms live in <code>config/dragonminez/forms/</code>. See [[Special:MyLanguage/Custom Forms|Custom Forms]].\n# Entity attributes are configured in <code>config/dragonminez/entities.json</code>.\n# General server settings are in <code>config/dragonminez/general-server.json</code>.\n# General user (client) settings are in <code>config/dragonminez/general-user.json</code>.\n# Combat, training, skills and ki techniques are configured in <code>config/dragonminez/combat.json</code>, <code>config/dragonminez/training.json</code>, <code>config/dragonminez/skills.json</code> and <code>config/dragonminez/techniques.json</code>.\n# Raid and tournament definitions live in <code>config/dragonminez/raids/</code> and <code>config/dragonminez/tournaments/</code>, one JSON file per raid or tournament; extra files you add are loaded too.\n# The client-only HUD layout, written by the in-game HUD editor, is <code>config/dragonminez/hud_layout.json</code>.",
+  "translation": "# Ejecuta DMZ una vez para que se generen los archivos de configuración.\n# Usa <code>config/dragonminez</code> como raíz de configuración de tus instancias de desarrollo locales.\n# La configuración de cada raza está en <code>config/dragonminez/races/<race_name>/</code> (<code>character.json</code>, <code>stats.json</code> y una carpeta <code>forms/</code>). Consulta [[Special:MyLanguage/Custom Races|Razas personalizadas]].\n# Las formas acumulables compartidas están en <code>config/dragonminez/forms/</code>. Consulta [[Special:MyLanguage/Custom Forms|Formas personalizadas]].\n# Los atributos de las entidades se configuran en <code>config/dragonminez/entities.json</code>.\n# Los ajustes generales del servidor están en <code>config/dragonminez/general-server.json</code>.\n# Los ajustes generales del usuario (cliente) están en <code>config/dragonminez/general-user.json</code>.\n# El combate, el entrenamiento, las habilidades y las técnicas de ki se configuran en <code>config/dragonminez/combat.json</code>, <code>config/dragonminez/training.json</code>, <code>config/dragonminez/skills.json</code> y <code>config/dragonminez/techniques.json</code>.\n# Las definiciones de incursiones y torneos están en <code>config/dragonminez/raids/</code> y <code>config/dragonminez/tournaments/</code>, un archivo JSON por incursión o torneo; los archivos extra que añadas también se cargan.\n# La disposición del HUD, solo del cliente y escrita por el editor de HUD del juego, es <code>config/dragonminez/hud_layout.json</code>.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Every config file except <code>general-user.json</code> and <code>hud_layout.json</code> is sent from the server to each client on login, so clients always use the server's values.",
+  "translation": "Todos los archivos de configuración excepto <code>general-user.json</code> y <code>hud_layout.json</code> se envían del servidor a cada cliente al conectarse, así que los clientes siempre usan los valores del servidor.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Outdated or broken config files are not silently thrown away: DMZ moves the old file into <code>config/dragonminez/oldBackup/</code> (same relative path) and merges your edits into the new defaults. See [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "Los archivos de configuración desactualizados o dañados no se descartan sin avisar: DMZ mueve el archivo viejo a <code>config/dragonminez/oldBackup/</code> (con la misma ruta relativa) y combina tus cambios con los nuevos valores por defecto. Consulta [[Special:MyLanguage/How to JSON|Cómo usar JSON]] y [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]].",
+  "outdated": false
+ },
+ "19": {
+  "source": "=== World save data ===",
+  "translation": "=== Datos del mundo guardado ===",
+  "outdated": false
+ },
+ "20": {
+  "source": "Some systems live inside the world folder instead of <code>config/</code>:",
+  "translation": "Algunos sistemas viven dentro de la carpeta del mundo en lugar de <code>config/</code>:",
+  "outdated": false
+ },
+ "21": {
+  "source": "Folder",
+  "translation": "Carpeta",
+  "outdated": false
+ },
+ "22": {
+  "source": "Contents",
+  "translation": "Contenido",
+  "outdated": false
+ },
+ "23": {
+  "source": "Page",
+  "translation": "Página",
+  "outdated": false
+ },
+ "24": {
+  "source": "Story sagas, saga quests and side quests",
+  "translation": "Sagas de la historia, misiones de saga y misiones secundarias",
+  "outdated": false
+ },
+ "25": {
+  "source": "Per-world wish overrides (one file per dragon)",
+  "translation": "Deseos personalizados de cada mundo (un archivo por dragón)",
+  "outdated": false
+ },
+ "26": {
+  "source": "NPC dialogue files",
+  "translation": "Archivos de diálogo de NPCs",
+  "outdated": false
+ },
+ "27": {
+  "source": "NPC placements (<code>placements.json</code>) and alignment rules (<code>alignment_rules.json</code>)",
+  "translation": "Ubicaciones de NPCs (<code>placements.json</code>) y reglas de alineamiento (<code>alignment_rules.json</code>)",
+  "outdated": false
+ },
+ "28": {
+  "source": "Player data when the <code>JSON</code> storage backend is selected",
+  "translation": "Datos de los jugadores cuando se elige el backend de almacenamiento <code>JSON</code>",
+  "outdated": false
+ },
+ "29": {
+  "source": "Dragon Ball add-on packs (folders or <code>.zip</code> files) go in the <code>dragonballs</code> folder of the game directory; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]. Not sure where a folder is on your machine? See [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]].",
+  "translation": "Los paquetes de addons de Esferas del Dragón (carpetas o archivos <code>.zip</code>) van en la carpeta <code>dragonballs</code> del directorio del juego; consulta [[Special:MyLanguage/Custom Wishes|Deseos personalizados]]. ¿No sabes dónde está una carpeta en tu equipo? Consulta [[Special:MyLanguage/Locating Specific Folders|Encontrar carpetas]].",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Reload workflow ==",
+  "translation": "== Flujo de recarga ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "After changing JSON config files, you can reload them in game with <code>/dmzreload [all|config|story|wishes]</code> (no argument means <code>all</code>). The command's source is <code>src/main/java/com/dragonminez/server/commands/ReloadCommand.java</code>. See [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for what each section reloads.",
+  "translation": "Después de cambiar archivos de configuración JSON, puedes recargarlos en el juego con <code>/dmzreload [all|config|story|wishes]</code> (sin argumento equivale a <code>all</code>). El código del comando está en <code>src/main/java/com/dragonminez/server/commands/ReloadCommand.java</code>. Consulta [[Special:MyLanguage/Commands|Comandos]] y [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]] para ver qué recarga cada sección.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Resource pack changes (models and textures) normally need a resource reload or a restart.",
+  "translation": "Los cambios en paquetes de recursos (modelos y texturas) normalmente requieren una recarga de recursos o un reinicio.",
+  "outdated": false
+ },
+ "33": {
+  "source": "=== Finding JSON mistakes ===",
+  "translation": "=== Encontrar errores en el JSON ===",
+  "outdated": false
+ },
+ "34": {
+  "source": "When a config, quest or wish file fails to load, DMZ records the file, the line and column, and the JSON path of the problem. The report is printed to the server log and shown in chat to players when they log in. Server owners can turn the chat message off with <code>developer.reportJsonProblemsInChat = false</code> in <code>general-server.json</code>.",
+  "translation": "Cuando un archivo de configuración, misión o deseo no se puede cargar, DMZ registra el archivo, la línea y la columna, y la ruta JSON del problema. El informe se imprime en el log del servidor y se muestra en el chat a los jugadores al conectarse. Los dueños de servidores pueden desactivar el mensaje del chat con <code>developer.reportJsonProblemsInChat = false</code> en <code>general-server.json</code>.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== Translations ==",
+  "translation": "== Traducciones ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "All in-game text uses translation keys. The English source file is <code>assets/dragonminez/lang/en_us.json</code>; community translations are managed on Crowdin (see [[Special:MyLanguage/Contributing|Contributing]]).",
+  "translation": "Todo el texto del juego usa claves de traducción. El archivo fuente en inglés es <code>assets/dragonminez/lang/en_us.json</code>; las traducciones de la comunidad se gestionan en Crowdin (consulta [[Special:MyLanguage/Contributing|Cómo contribuir]]).",
+  "outdated": false
+ },
+ "37": {
+  "source": "DragonMineZ automatically downloads the latest Crowdin translation for the game language you selected (every language except <code>en_us</code>), so translation fixes reach players without a mod update. To turn this off (for example, to test your own language file), start the game with the JVM argument <code>-Ddmz.crowdin.enabled=false</code>.",
+  "translation": "DragonMineZ descarga automáticamente la última traducción de Crowdin para el idioma del juego que elegiste (todos los idiomas excepto <code>en_us</code>), así que las correcciones de traducción llegan a los jugadores sin actualizar el mod. Para desactivarlo (por ejemplo, para probar tu propio archivo de idioma), inicia el juego con el argumento de JVM <code>-Ddmz.crowdin.enabled=false</code>.",
+  "outdated": false
+ },
+ "38": {
+  "source": "When a translation key is missing, some DMZ screens fall back to a readable version of the id (for example, quest texts and form names are turned into title-cased words). For proper names and other languages, ship your own keys in a resource pack under <code>assets/<namespace>/lang/<locale>.json</code> and use those keys in your JSON (for example, a form's name uses <code>race.dragonminez.<race>.form.<group>.<form></code>).",
+  "translation": "Cuando falta una clave de traducción, algunas pantallas de DMZ muestran una versión legible del id (por ejemplo, los textos de misiones y los nombres de formas se convierten en palabras con mayúscula inicial). Para nombres propios y otros idiomas, incluye tus propias claves en un paquete de recursos en <code>assets/<namespace>/lang/<locale>.json</code> y usa esas claves en tu JSON (por ejemplo, el nombre de una forma usa <code>race.dragonminez.<race>.form.<group>.<form></code>).",
+  "outdated": false
+ }
+}

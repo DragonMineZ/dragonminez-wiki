@@ -1,47 +1,54 @@
 {{Infobox Class
-|quote=<translate>The protector: high defense scaling, built to guard its party.</translate>
-|Passive=<translate>Guardian</translate>
-|Playstyle=<translate>Party defender</translate>
+|quote=<translate><!--T:1--> The protector: high defense scaling, built to guard its party.</translate>
+|Passive=<translate><!--T:2--> Guardian</translate>
+|Playstyle=<translate><!--T:3--> Party defender</translate>
 |Strength=0.8
 |Strike Power=1.2
-|Resistance=<translate>DEF 0.336, STM 1.2</translate>
+|Resistance=<translate><!--T:4--> DEF 0.336, STM 1.2</translate>
 |Vitality=2.0
 |Ki Power=0.6
 |Energy=1.2
 }}
 <translate>
+<!--T:5-->
 '''Paladin''' is the protector among the [[Special:MyLanguage/Classes|classes]]. It has a high Defense scaling, and its passive takes part of the damage its party members suffer while healing it from the damage they deal.
 </translate>
 
 <translate>
-== Passive: Guardian ==
+== Passive: Guardian == <!--T:6-->
 
+<!--T:7-->
 While you are in a party (<code>/dmzparty</code>, see [[Special:MyLanguage/Commands|Commands]]):
 
+<!--T:8-->
 * '''15%''' of the damage your party members take is redirected to you;
 * you heal for '''15%''' of the damage your party members deal.
 
+<!--T:9-->
 Only members in the same dimension and within '''50 blocks''' count, and hits smaller than 1% of the target's max health are ignored. The redirected share is reduced by '''your own defense''', never takes you below 1 health (whatever you can't take stays on your ally) and doesn't flash your screen. Your own hits never heal you or get redirected to you.
 </translate>
 
 <translate>
-== Starting stats and regeneration ==
+== Starting stats and regeneration == <!--T:10-->
 
+<!--T:11-->
 * '''Starting stats:''' SKP 5 · RES 10 · VIT 5
 * '''Regeneration''' (per 5 seconds): health 2.0 (+0.0675 per VIT) · Ki 4.0 (+0.08 per ENE) · stamina 8.0 (+0.03 per VIT, +0.04 per RES)
 </translate>
 
 <translate>
-== Stat scaling ==
+== Stat scaling == <!--T:12-->
 
+<!--T:13-->
 The Paladin's standout scaling is '''Defense''' (DEF 0.336), second only to the Tank. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:14-->
 </translate>
 {{Config|Custom Races|stats.json}}
 <translate>
+<!--T:15-->
 The class id is <code>paladin</code>. Its passive values are <code>redirectPct</code> (0.15) and <code>lifestealPct</code> (0.15), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings and regeneration.
 </translate>
 

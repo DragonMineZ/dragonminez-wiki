@@ -1,37 +1,50 @@
 {{Infobox Mob
-|Type=<translate>Passive animal</translate>
+|Type=<translate><!--T:1--> Passive animal</translate>
 |Dimension={{L|Earth}}
-|Spawns=<translate>Beaches, on sand no higher than 4 blocks above sea level</translate>
-|Behavior=<translate>Wanders and swims; panics when hurt</translate>
+|Spawns=<translate><!--T:2--> Beaches, on sand no higher than 4 blocks above sea level</translate>
+|Behavior=<translate><!--T:3--> Wanders and swims; panics when hurt</translate>
 |Health=40
-|Drops=<translate>1 Raw Giant Turtle, 1–2 Turtle Scales</translate>
+|Drops=<translate><!--T:4--> 1 Raw Giant Turtle, 1–2 Turtle Scales</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Giant Turtle''' is a harmless beach dweller of [[Special:MyLanguage/Earth|Earth]]. It never attacks, and it is the main source of '''Turtle Scales'''.
 </translate>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:6-->
 
+<!--T:7-->
 Giant Turtles spawn on beaches, on sand no higher than 4 blocks above sea level (spawn weight 8, groups of 1–2). They come in three shell variants.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:8-->
 
+<!--T:9-->
 The Giant Turtle is passive: it wanders and swims, and panics when hurt.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:10-->
 
+<!--T:11-->
 * 1 '''Raw Giant Turtle''' (cooks if on fire, +0–1 Looting)
 * 1–2 '''Turtle Scale''' (+0–1 Looting)
 
+<!--T:12-->
 Turtle Scales can also be crafted from a vanilla Scute. They are used for the '''Katchin Sprout''' and the yellow [[Special:MyLanguage/Capsules|capsule]] (see [[Special:MyLanguage/Items|Items]]).
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:giant_turtle</code>}}
+<translate>
+== Gallery == <!--T:14-->
+</translate>
+<gallery>
+File:Giant Turtle (Variant 1).png|<translate><!--T:15--> Variant 2</translate>
+File:Giant Turtle (Variant 2).png|<translate><!--T:16--> Variant 3</translate>
+</gallery>
+
+{{Note|type=config|title=<translate><!--T:13--> Entity id</translate>|<code>dragonminez:giant_turtle</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Wildlife{{#translation:}}]]

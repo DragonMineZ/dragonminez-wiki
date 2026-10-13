@@ -1,28 +1,33 @@
 {{Infobox Item
-|quote=<translate>This cloud is only for those with a pure heart.</translate>
-|Type=<translate>Mount</translate>
-|Effect=<translate>A fast rideable cloud</translate>
+|quote=<translate><!--T:1--> This cloud is only for those with a pure heart.</translate>
+|Type=<translate><!--T:2--> Mount</translate>
+|Effect=<translate><!--T:3--> A fast rideable cloud</translate>
 |Stack size=1
-|Obtained=<translate>Korin (one per character)</translate>
+|Obtained=<translate><!--T:4--> Korin (one per character)</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Flying Nimbus''' is a fast rideable cloud. '''Only the pure of heart can ride it''': if your [[Special:MyLanguage/Alignment|alignment]] isn't good enough, it won't carry you. Its darker counterpart, the '''Black Nimbus''', only carries riders with an '''evil heart'''.
 </translate>
 
 <translate>
-== Getting a cloud ==
+== Getting a cloud == <!--T:6-->
 
+<!--T:7-->
 Ask [[Special:MyLanguage/Korin|Korin]] at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] for his '''Flying Nimbus''' service:
 
+<!--T:8-->
 * if your alignment is above 50, he gives you a Flying Nimbus;
 * otherwise, he gives you a Black Nimbus.
 
+<!--T:9-->
 He only gives you a cloud if you don't already carry one, and once he has given you a cloud the service stays locked.
 </translate>
 
 <translate>
-== Riding ==
+== Riding == <!--T:10-->
 
+<!--T:11-->
 * Right-click a block with the cloud to place it, then right-click the cloud to get on.
 * The '''Flying Nimbus''' only lets you ride with an alignment of '''67 or more'''; otherwise the cloud rejects you. The '''Black Nimbus''' rejects riders with an alignment of 67 or more.
 * Steer with the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend.
@@ -31,5 +36,12 @@ He only gives you a cloud if you don't already carry one, and once he has given 
 * The cloud leaves a trail behind it as it flies.
 * Hit the cloud to pick it back up as an item.
 </translate>
+
+<translate>
+== Gallery == <!--T:12-->
+</translate>
+<gallery>
+File:Flying Nimbus (Black Nimbus).png|<translate><!--T:13--> Black Nimbus</translate>
+</gallery>
 
 {{Navbox Items}}

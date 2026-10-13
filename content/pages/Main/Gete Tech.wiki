@@ -1,40 +1,45 @@
 {{Infobox Item
-|Type=<translate>Material, tools</translate>
-|Obtained=<translate>Gete Debris on Namek, Metal Cooler Core, Bulma's Gete sidequests</translate>
-|Crafting=<translate>Gete Ingot: 4 Gete Scrap + 4 Netherite Scrap</translate>
+|Type=<translate><!--T:1--> Material, tools</translate>
+|Obtained=<translate><!--T:2--> Gete Debris on Namek, Metal Cooler Core, Bulma's Gete sidequests</translate>
+|Crafting=<translate><!--T:3--> Gete Ingot: 4 Gete Scrap + 4 Netherite Scrap</translate>
 }}
 <translate>
+<!--T:4-->
 '''Gete tech''' is the rare alien metal tied to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]] and the Metal Cooler machinery. Its materials go into the Gete tools, the [[Special:MyLanguage/Ki Battery|Ki Battery]] and the Gete [[Special:MyLanguage/Capsules|Capsules]], and Bulma builds several upgrades from them.
 </translate>
 
 <translate>
-== Materials ==
+== Materials == <!--T:5-->
 </translate>
 {| class="wikitable"
-! <translate>Material</translate> !! <translate>How to get it</translate>
+! <translate><!--T:6--> Material</translate> !! <translate><!--T:7--> How to get it</translate>
 |-
-| <translate>Gete Debris</translate> || <translate>A rare ore on [[Special:MyLanguage/Namek|Namek]], generated in small veins like Ancient Debris. The drained ground around the Big Gete Star also hides some.</translate>
+| <translate><!--T:8--> Gete Debris</translate> || <translate><!--T:9--> A rare ore on [[Special:MyLanguage/Namek|Namek]], generated in small veins like Ancient Debris. The drained ground around the Big Gete Star also hides some.</translate>
 |-
-| <translate>Gete Scrap</translate> || <translate>Smelt or blast Gete Debris.</translate>
+| <translate><!--T:10--> Gete Scrap</translate> || {{Recipe|gete_scrap|size=small}}
 |-
-| <translate>Gete Ingot</translate> || <translate>4 Gete Scrap + 4 Netherite Scrap (shapeless). The [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss also drops 4.</translate>
+| <translate><!--T:12--> Gete Ingot</translate> || {{Recipe|gete_ingot}} <translate><!--T:13--> The [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss also drops 4.</translate>
 |-
-| <translate>Gete Block</translate> || <translate>9 Gete Ingots.</translate>
+| <translate><!--T:14--> Gete Block</translate> || {{Recipe|gete_block}}
 |-
-| <translate>Gete Pattern</translate> || <translate>Not painted: Bulma hands it out through her Gete sidequests. You can duplicate it at a crafting table: the Gete Pattern in the center, surrounded by Gete Scrap and Iron Ingots, gives 2.</translate>
+| <translate><!--T:16--> Gete Pattern</translate> || <translate><!--T:17--> Not painted: Bulma hands it out through her Gete sidequests. You can duplicate it at a crafting table:</translate> {{Recipe|pattern_gete}}
 |}
 
 <translate>
-== Gete tools ==
+== Gete tools == <!--T:18-->
 
+<!--T:19-->
 The '''Gete Pickaxe''', '''Gete Axe''', '''Gete Shovel''' and '''Gete Hoe''' are made at '''Dr. Kikono's Station''' from the Gete Pattern, Gete Ingots and [[Special:MyLanguage/Kikono Materials|Kikono Sticks]], using the matching '''netherite''' tool as the template. Each costs 1,000 Star Energy (see [[Special:MyLanguage/Armor#Assembling the armor|Armor]]).
 
+<!--T:20-->
 They are more durable than netherite tools (3,250 uses), mine faster and are repaired with Gete Ingots.
 </translate>
+{{Recipe|gete_pickaxe|gete_axe|gete_shovel|gete_hoe}}
 
 <translate>
-== Bulma's Gete sidequests ==
+== Bulma's Gete sidequests == <!--T:21-->
 
+<!--T:22-->
 * '''Metal from the Big Star:''' bring her 3 Gete Scrap for 2 Gete Ingots.
 * '''Gete Forge:''' rewards the Gete Pattern.
 * '''Gete Enhancements:''' rewards an enchanted book with the Gete-tech enchantments '''Ki Conductivity''' and '''Gravity Forged''' (see [[Special:MyLanguage/Enchantments|Enchantments]]).
@@ -42,8 +47,9 @@ They are more durable than netherite tools (3,250 uses), mine faster and are rep
 </translate>
 
 <translate>
-== Other uses ==
+== Other uses == <!--T:23-->
 
+<!--T:24-->
 * [[Special:MyLanguage/Ki Battery|Ki Battery]]: one Gete Ingot each.
 * Gete Capsules: any capsule + a Gete Ingot (see [[Special:MyLanguage/Capsules|Capsules]]).
 </translate>

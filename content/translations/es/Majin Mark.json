@@ -1,0 +1,72 @@
+{
+ "Page_display_title": {
+  "source": "Majin Mark",
+  "translation": "Sello Majin",
+  "outdated": false
+ },
+ "1": {
+  "source": "A permanent power boost for evil-aligned fighters.",
+  "translation": "Un aumento de poder permanente para los luchadores de alineamiento malvado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Character effect (buff)",
+  "translation": "Efecto de personaje (mejora)",
+  "outdated": false
+ },
+ "3": {
+  "source": "Babidi, for evil-aligned players",
+  "translation": "Babidi, para jugadores de alineamiento malvado",
+  "outdated": false
+ },
+ "4": {
+  "source": "Permanent",
+  "translation": "Permanente",
+  "outdated": false
+ },
+ "5": {
+  "source": "Power ×1.3; the Majin \"M\" on your character",
+  "translation": "Poder ×1.3; la \"M\" Majin en tu personaje",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Majin Mark''' is the brand of the wizard [[Special:MyLanguage/Babidi|Babidi]]. It gives you a '''permanent power boost''', ×1.3 by default, and puts the Majin \"M\" on your character. Only evil-aligned fighters can receive it.",
+  "translation": "El '''Sello Majin''' es la marca del hechicero [[Special:MyLanguage/Babidi|Babidi]]. Te da un '''aumento de poder permanente''', ×1.3 por defecto, y pone la \"M\" Majin en tu personaje. Solo los luchadores de alineamiento malvado pueden recibirlo.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Getting the mark ==",
+  "translation": "== Conseguir el sello ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Talk to Babidi in [[Special:MyLanguage/Babidi's Spaceship|Babidi's Ship]] (see [[Special:MyLanguage/Structures|Structures]]) and choose '''Receive the Mark'''.",
+  "translation": "Habla con Babidi en la [[Special:MyLanguage/Babidi's Spaceship|Nave de Babidi]] (consulta [[Special:MyLanguage/Structures|Estructuras]]) y elige '''Recibir el Sello'''.",
+  "outdated": false
+ },
+ "9": {
+  "source": "* You must be '''evil-aligned''': if your [[Special:MyLanguage/Alignment|alignment]] is 39 or higher, Babidi refuses. Below that, he brands you.\n* If you are already marked, he has nothing more to give you.",
+  "translation": "* Debes tener '''alineamiento malvado''': si tu [[Special:MyLanguage/Alignment|alineamiento]] es 39 o más, Babidi se niega. Por debajo de eso, te marca.\n* Si ya tienes el sello, no tiene nada más que darte.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Effect ==",
+  "translation": "== Efecto ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "* Your power is multiplied by ×1.3 by default: your Strength, Strike Power and Ki Power get the full bonus, and your defense gets half of it.\n* The Majin \"M\" appears on your character.\n* Once marked, the mark stays with you permanently.",
+  "translation": "* Tu poder se multiplica por ×1.3 por defecto: tu Fuerza, tus Super Golpes y tu Poder de Ki reciben la bonificación completa, y tu defensa recibe la mitad.\n* La \"M\" Majin aparece en tu personaje.\n* Una vez marcado, el sello se queda contigo para siempre.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Admins can give or remove the mark with <code>/dmzeffect give majin -1 [targets]</code> and <code>/dmzeffect remove majin [targets]</code> (see [[Special:MyLanguage/Effects#Commands|Effects]]).",
+  "translation": "Los administradores pueden dar o quitar el sello con <code>/dmzeffect give majin -1 [targets]</code> y <code>/dmzeffect remove majin [targets]</code> (consulta [[Special:MyLanguage/Effects#Commands|Efectos]]).",
+  "outdated": false
+ }
+}

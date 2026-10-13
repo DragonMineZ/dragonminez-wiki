@@ -1,52 +1,63 @@
 {{Infobox Technique
-|quote=<translate>A long combo of strikes, a slam and ki blasts.</translate>
-|Type=<translate>Strike attack</translate>
-|Taught by=<translate>None by default (dropped by {{L|Turles}})</translate>
-|Races=<translate>All</translate>
-|Damage=<translate>×2.6, scales with Strike Damage and Ki Damage</translate>
-|Cooldown=<translate>30 seconds</translate>
-|Charge time=<translate>Instant</translate>
-|Range=<translate>6 blocks (12 while flying), then a 2-second rush</translate>
+|quote=<translate><!--T:1--> A long combo of strikes, a slam and ki blasts.</translate>
+|Type=<translate><!--T:2--> Strike attack</translate>
+|Taught by=<translate><!--T:3--> None by default (dropped by {{L|Turles}})</translate>
+|Races=<translate><!--T:4--> All</translate>
+|Damage=<translate><!--T:5--> ×2.6, scales with Strike Damage and Ki Damage</translate>
+|Cooldown=<translate><!--T:6--> 30 seconds</translate>
+|Charge time=<translate><!--T:7--> Instant</translate>
+|Range=<translate><!--T:8--> 6 blocks (12 while flying), then a 2-second rush</translate>
 }}
 <translate>
+<!--T:9-->
 '''Meteor Burst''' is a long strike combo that lasts about 10 seconds and mixes strikes, a slam and ki blasts. It is a rare reward of the [[Special:MyLanguage/Turles|Turles]] world boss, and unlike most strike attacks it scales with both your Strike Damage (SKP) and your Ki Damage (PWR).
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:10-->
 
+<!--T:11-->
 No master teaches Meteor Burst by default. It has a '''15%''' chance to drop from the [[Special:MyLanguage/Turles|Turles]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''24,000 TP''', and admins can grant it with {{Command|/dmztech add}}.
 
+<!--T:12-->
 You need [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and the technique must be equipped in a technique slot.
 </translate>
 
 <translate>
-== How it works ==
+== How it works == <!--T:13-->
 
+<!--T:14-->
 Press the technique's slot key. If an enemy is in reach in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying, the combo starts on it right away. Otherwise you rush forward for up to 2 seconds, or straight at your locked-on target, and the combo starts on the first enemy you reach. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
 
+<!--T:15-->
 The combo then plays out over about '''10 seconds''':
 
+<!--T:16-->
 # You dash in with a punch and launch the target into the air with an uppercut.
 # You rise above it and stomp it back down, vanish, reappear beneath it for a knee strike and hammer it into the ground.
 # You leap back, step up to the fallen target, charge a ball of ki in your hand, fire six ki blasts into it and finish with a ki explosion.
 
+<!--T:17-->
 The five blows share your Strike Damage × 2.6: 15% for the punch, 15% for the uppercut, 20% for the stomp, 15% for the knee and 35% for the hammer. The ki part deals damage based on 1.5 × your Ki Damage: 10% of it for each of the six blasts and 40% for the explosion.
 
+<!--T:18-->
 The target is carried through the whole combo; world bosses and giant multi-part enemies can't be carried, so they are pinned in place instead. Being stunned or knocked down cuts the combo short.
 
+<!--T:19-->
 Meteor Burst has the longest cooldown of any strike attack: '''30 seconds'''.
 </translate>
 
 <translate>
-== Enemies that use it ==
+== Enemies that use it == <!--T:20-->
 
+<!--T:21-->
 [[Special:MyLanguage/Turles|Turles]] uses Meteor Burst both as a world boss and as a story enemy in the [[Special:MyLanguage/Movies Saga|Movies Saga]]. In the story he rushes at you from up to 24 blocks away when he can see you; if your own strike rush meets his head-on, the two of you [[Special:MyLanguage/Strike Clash|clash]].
 </translate>
 
 <translate>
-== Upgrades ==
+== Upgrades == <!--T:22-->
 
+<!--T:23-->
 Like every strike attack, it gains experience when it hits, which you can spend on damage and cooldown (−2.5% per level, up to −50%). See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
 </translate>
 

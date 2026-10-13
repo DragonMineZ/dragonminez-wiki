@@ -1,0 +1,372 @@
+{
+ "Page_display_title": {
+  "source": "Sagas",
+  "translation": "Sagas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Sagas''' are DragonMineZ's story mode. They retell the Dragon Ball story as chains of quests: fights against story characters, sparring sessions, deliveries and trips across [[Special:MyLanguage/Earth|Earth]], [[Special:MyLanguage/Namek|Namek]], the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]], the [[Special:MyLanguage/Otherworld|Otherworld]] and the [[Special:MyLanguage/Demon Realm|Demon Realm]]. You follow your progress in the '''Quest Tree''', the Quests tab of the [[Special:MyLanguage/Menus|character menu]]. Every quest pays out '''Attributes''' (stat points plus [[Special:MyLanguage/Training Points and Mastery|Training Points]]), and some also give items or unlocks.",
+  "translation": "As '''sagas''' são o modo história de DragonMineZ. Elas recontam a história de Dragon Ball como cadeias de missões: lutas contra personagens da história, treinos de luta, entregas e viagens pela [[Special:MyLanguage/Earth|Terra]], por [[Special:MyLanguage/Namek|Namekusei]], pelo [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]], pelo [[Special:MyLanguage/Otherworld|Outro Mundo]] e pelo [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]. Você acompanha o seu progresso na '''Árvore de missões''', a aba Missões do [[Special:MyLanguage/Menus|menu do personagem]]. Toda missão dá '''Atributos''' (pontos de estatística mais [[Special:MyLanguage/Training Points and Mastery|pontos de treino]]), e algumas também dão itens ou desbloqueios.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Default sagas",
+  "translation": "Sagas padrão",
+  "outdated": false
+ },
+ "3": {
+  "source": "These pages describe the default sagas. They are generated as editable JSON in the world folder, so server owners can change, remove or add fights (see [[Special:MyLanguage/Custom Quests|Custom Quests]]). Story mode itself can be turned off with <code>storyModeEnabled</code>, and the generation of the default sagas with <code>createDefaultSagas</code>, both in the [[Special:MyLanguage/General Server Config|General Server Config]].",
+  "translation": "Estas páginas descrevem as sagas padrão. Elas são geradas como JSON editável na pasta do mundo, então os donos de servidores podem alterar, remover ou adicionar lutas (veja [[Special:MyLanguage/Custom Quests|Missões personalizadas]]). O modo história pode ser desativado com <code>storyModeEnabled</code>, e a geração das sagas padrão com <code>createDefaultSagas</code>, ambos na [[Special:MyLanguage/General Server Config|Configuração do servidor]].",
+  "outdated": false
+ },
+ "4": {
+  "source": "Kid Goku's adventures, from his first Dragon Ball hunt to Piccolo Jr.",
+  "translation": "As aventuras de Goku criança, da sua primeira busca pelas Esferas do Dragão até Piccolo Jr.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Raditz, Nappa and Vegeta, ending with the flight to Namek.",
+  "translation": "Raditz, Nappa e Vegeta, terminando com o voo para Namekusei.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Frieza's army, the Ginyu Force and Frieza's four forms on Namek.",
+  "translation": "O exército de Freeza, a Força Ginyu e as quatro formas de Freeza em Namekusei.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Dr. Gero's Androids, Cell and the Cell Games.",
+  "translation": "Os Androides do Dr. Gero, Cell e os Jogos de Cell.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Future Trunks' ruined timeline.",
+  "translation": "A linha do tempo em ruínas de Trunks do Futuro.",
+  "outdated": false
+ },
+ "9": {
+  "source": "The World Tournament, Babidi and Majin Buu in all his forms.",
+  "translation": "O Torneio Mundial, Babidi e Majin Boo em todas as suas formas.",
+  "outdated": false
+ },
+ "10": {
+  "source": "The DBZ movies, from Garlic Jr. to Hirudegarn, alongside the main story.",
+  "translation": "Os filmes de DBZ, de Garlic Jr. a Hirudegarn, em paralelo à história principal.",
+  "outdated": false
+ },
+ "11": {
+  "source": "The Black Star Dragon Balls, Baby, Super 17 and the Shadow Dragons.",
+  "translation": "As Esferas do Dragão de Estrelas Negras, Baby, Super 17 e os Dragões Malignos.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Gomah's wish and the three Demon Worlds.",
+  "translation": "O desejo de Gomah e os três Mundos Demoníacos.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Saga order ==",
+  "translation": "== Ordem das sagas ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "There are nine default sagas. A saga opens once you have completed '''every quest of the saga before it'''. Inside a saga, quests unlock one after another.",
+  "translation": "Existem nove sagas padrão. Uma saga abre quando você conclui '''todas as missões da saga anterior'''. Dentro de uma saga, as missões são desbloqueadas uma após a outra.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Order",
+  "translation": "Ordem",
+  "outdated": false
+ },
+ "16": {
+  "source": "Saga",
+  "translation": "Saga",
+  "outdated": false
+ },
+ "17": {
+  "source": "Opens after",
+  "translation": "Abre depois de",
+  "outdated": false
+ },
+ "18": {
+  "source": "Quests",
+  "translation": "Missões",
+  "outdated": false
+ },
+ "19": {
+  "source": "Takes you to",
+  "translation": "Leva você a",
+  "outdated": false
+ },
+ "20": {
+  "source": "Available from the start",
+  "translation": "Disponível desde o início",
+  "outdated": false
+ },
+ "21": {
+  "source": "* The Future and Buu sagas both branch from the Android Saga, and the GT and Daima sagas both branch from the Buu Saga: play them in any order.\n* The [[Special:MyLanguage/Movies Saga|Movies Saga]] runs alongside the main story. Its first quest opens after ''Defeat Raditz'' (Saiyan Saga #1), and each later movie only opens once you have reached the matching point of the main story.\n* When you start the first quest of a saga, a title card (''A New Saga Begins'' and the saga's name) fades in on screen for you and for every party member who starts it with you.\n* Most race transformations can only be bought after a given saga quest. Each saga page lists the forms it unlocks; see [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "* As sagas do Futuro e Boo saem ambas da Saga Androide, e as sagas GT e Daima saem ambas da Saga Boo: jogue-as em qualquer ordem.\n* A [[Special:MyLanguage/Movies Saga|Saga de Filmes]] corre em paralelo à história principal. A primeira missão abre depois de ''Derrote Raditz'' (Saga Saiyajin #1), e cada filme seguinte só abre quando você chega ao ponto correspondente da história principal.\n* Quando você inicia a primeira missão de uma saga, um letreiro (''Uma Nova Saga Começa'' e o nome da saga) aparece na tela para você e para cada membro do grupo que a iniciar com você.\n* A maioria das transformações de raça só pode ser comprada depois de uma certa missão de saga. Cada página de saga lista as formas que desbloqueia; veja [[Special:MyLanguage/Transformations|Transformações]].",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Difficulty ==",
+  "translation": "== Dificuldade ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "The first time you open the Quest Tree you pick a story difficulty: '''Easy''', '''Normal''' or '''Hard'''. '''The choice is permanent.''' The only way to change it later is the '''Change Difficulty''' wish of [[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]], which lets you choose again the next time you open the Quest Tree without resetting your saga progress.",
+  "translation": "Na primeira vez que você abre a Árvore de missões, escolhe uma dificuldade de história: '''Fácil''', '''Normal''' ou '''Difícil'''. '''A escolha é permanente.''' A única forma de mudá-la depois é o desejo '''Alterar dificuldade''' de [[Special:MyLanguage/Shenron|Shenlong]] ou [[Special:MyLanguage/Porunga|Porunga]], que permite escolher de novo na próxima vez que você abrir a Árvore de missões, sem redefinir o seu progresso nas sagas.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Difficulty only affects the enemies spawned for you and your party, never anyone else's, plus your own gains:",
+  "translation": "A dificuldade só afeta os inimigos gerados para você e o seu grupo, nunca os de outros jogadores, além dos seus próprios ganhos:",
+  "outdated": false
+ },
+ "25": {
+  "source": "Easy",
+  "translation": "Fácil",
+  "outdated": false
+ },
+ "26": {
+  "source": "Normal",
+  "translation": "Normal",
+  "outdated": false
+ },
+ "27": {
+  "source": "Hard",
+  "translation": "Difícil",
+  "outdated": false
+ },
+ "28": {
+  "source": "Enemy health",
+  "translation": "Vida dos inimigos",
+  "outdated": false
+ },
+ "29": {
+  "source": "Enemy damage",
+  "translation": "Dano dos inimigos",
+  "outdated": false
+ },
+ "30": {
+  "source": "Training Points (global multiplier)",
+  "translation": "Pontos de treino (multiplicador global)",
+  "outdated": false
+ },
+ "31": {
+  "source": "Quest rewards (Attributes, TP, items, alignment)",
+  "translation": "Recompensas de missão (Atributos, TP, itens, índole)",
+  "outdated": false
+ },
+ "32": {
+  "source": "Enemy AI",
+  "translation": "IA inimiga",
+  "outdated": false
+ },
+ "33": {
+  "source": "Novice",
+  "translation": "Novato",
+  "outdated": false
+ },
+ "34": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "35": {
+  "source": "Elite (Expert for final bosses)",
+  "translation": "Elite (Especialista para os chefes finais)",
+  "outdated": false
+ },
+ "36": {
+  "source": "Easy and Hard both raise your Training Point gains on purpose: on Easy the bonus helps you progress fast, and on Hard it rewards the extra effort (Hard also multiplies quest rewards). Skill, form and technique unlocks given as rewards are never multiplied.",
+  "translation": "Fácil e Difícil aumentam de propósito os seus ganhos de pontos de treino: no Fácil, o bônus ajuda você a progredir rápido, e no Difícil ele recompensa o esforço extra (o Difícil também multiplica as recompensas de missão). Os desbloqueios de habilidades, formas e técnicas dados como recompensa nunca são multiplicados.",
+  "outdated": false
+ },
+ "37": {
+  "source": "=== Parties ===",
+  "translation": "=== Grupos ===",
+  "outdated": false
+ },
+ "38": {
+  "source": "Party members play quests together, but '''everyone keeps their own quest progress'''. When you start a quest, every party member within 128 blocks of you (in the same dimension) who has reached that point of the story joins it with you; only you need to be in the quest's starting place. Members who can't take it yet are left out, and the chat tells you why.",
+  "translation": "Os membros de um grupo jogam as missões juntos, mas '''cada um mantém o seu próprio progresso de missões'''. Quando você inicia uma missão, todos os membros do grupo que estiverem a até 128 blocos de você (na mesma dimensão) e que tenham chegado a esse ponto da história entram nela com você; só você precisa estar no local de início da missão. Os membros que ainda não podem fazê-la ficam de fora, e o chat diz o motivo.",
+  "outdated": false
+ },
+ "39": {
+  "source": "While the quest runs, kills, deliveries and reaching a destination count for every member on that quest within 128 blocks. Items you have to collect must be in each player's own inventory, and a delivery has to be carried all at once by the player who hands it in: if the party only has enough between you, the NPC asks you to bring it all together. Everyone claims their own rewards.",
+  "translation": "Enquanto a missão está ativa, abates, entregas e a chegada a um destino contam para todos os membros nessa missão a até 128 blocos. Os itens que você precisa coletar devem estar no inventário de cada jogador, e uma entrega tem que ser levada de uma vez só pelo jogador que a entrega: se o grupo só tiver o suficiente somando o de todos, o NPC pede que você traga tudo junto. Cada um resgata as próprias recompensas.",
+  "outdated": false
+ },
+ "40": {
+  "source": "The party leader's difficulty applies to the whole party. You can only join a party playing on your difficulty or higher. Joining a higher-difficulty party asks for confirmation and '''permanently''' raises your own difficulty: it does not go back down when you leave.",
+  "translation": "A dificuldade do líder do grupo vale para o grupo inteiro. Você só pode entrar em um grupo que jogue na sua dificuldade ou em uma maior. Entrar em um grupo de dificuldade maior pede confirmação e aumenta a sua própria dificuldade de forma '''permanente''': ela não volta a baixar quando você sai.",
+  "outdated": false
+ },
+ "41": {
+  "source": "== How saga fights work ==",
+  "translation": "== Como funcionam as lutas de saga ==",
+  "outdated": false
+ },
+ "42": {
+  "source": "* When a combat quest starts, its enemies are '''spawned for you''' near you, and only those quest enemies count toward the objective. Their health and damage come from the quest, scaled by your difficulty and by the number of '''party members''' near you who are on that quest.\n* Many quests can only be '''started in a specific place''': a biome, a structure or a dimension (the ''Where'' column of the quest lists). Some also open only after a set amount of real time has passed since they became available (training periods).\n* '''Spar''' objectives are non-lethal: your sparring partner concedes instead of dying.\n* '''Survive waves''' objectives spawn successive waves of enemies around you. If you move more than 64 blocks from where a wave started, change dimension, or some of its enemies disappear without being killed, that wave starts over.\n* If everyone in your party who is on a fight quest is dead at once, the quest '''fails''' for all of them and its progress resets.\n* If an update changes the objectives of a quest you have in progress, its progress resets and the chat tells you.\n* Some enemies transform mid-fight (for example [[Special:MyLanguage/Zarbon|Zarbon]], Frieza's second form or Broly), switching to their next form with new stats.",
+  "translation": "* Quando uma missão de combate começa, os inimigos dela '''surgem para você''' perto de você, e só esses inimigos da missão contam para o objetivo. A vida e o dano deles vêm da missão, escalados pela sua dificuldade e pelo número de '''membros do grupo''' por perto que estejam nessa missão.\n* Muitas missões só podem ser '''iniciadas em um lugar específico''': um bioma, uma estrutura ou uma dimensão (a coluna ''Onde'' das listas de missões). Algumas também só abrem depois que passa um certo tempo real desde que ficaram disponíveis (períodos de treino).\n* Objetivos de '''treino de luta''' não são letais: o seu parceiro de treino se rende em vez de morrer.\n* Objetivos de '''sobreviver a ondas''' geram ondas sucessivas de inimigos ao seu redor. Se você se afastar mais de 64 blocos de onde a onda começou, mudar de dimensão ou se alguns dos inimigos sumirem sem serem mortos, essa onda recomeça.\n* Se todos do seu grupo que estão em uma missão de luta morrerem ao mesmo tempo, a missão '''falha''' para todos eles e o progresso é redefinido.\n* Se uma atualização mudar os objetivos de uma missão em andamento, o progresso dela é redefinido e o chat avisa você.\n* Alguns inimigos se transformam no meio da luta (por exemplo [[Special:MyLanguage/Zarbon|Zarbon]], a segunda forma de Freeza ou Broly), passando para a forma seguinte com novas estatísticas.",
+  "outdated": false
+ },
+ "43": {
+  "source": "=== Enemy AI tiers ===",
+  "translation": "=== Níveis de IA inimiga ===",
+  "outdated": false
+ },
+ "44": {
+  "source": "Story enemies decide what to do in real time. How smart they are depends on their '''AI tier''', which comes from your difficulty unless the quest sets a tier of its own (<code>AITier</code>).",
+  "translation": "Os inimigos da história decidem o que fazer em tempo real. O quanto eles são inteligentes depende do '''nível de IA''', que vem da sua dificuldade, a menos que a missão defina um nível próprio (<code>AITier</code>).",
+  "outdated": false
+ },
+ "45": {
+  "source": "Tier",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "46": {
+  "source": "Used for",
+  "translation": "Usado para",
+  "outdated": false
+ },
+ "47": {
+  "source": "Behavior",
+  "translation": "Comportamento",
+  "outdated": false
+ },
+ "48": {
+  "source": "1 · Novice",
+  "translation": "1 · Novato",
+  "outdated": false
+ },
+ "49": {
+  "source": "Easy difficulty, naturally spawned mobs",
+  "translation": "Dificuldade Fácil, mobs que surgem naturalmente",
+  "outdated": false
+ },
+ "50": {
+  "source": "Slow reactions. Melee, random combos and the occasional ki attack (one at a time). No dashing, no Zanzoken.",
+  "translation": "Reações lentas. Corpo a corpo, combos aleatórios e um ataque de ki de vez em quando (um por vez). Sem investidas nem Zanzoken.",
+  "outdated": false
+ },
+ "51": {
+  "source": "2 · Smart",
+  "translation": "2 · Inteligente",
+  "outdated": false
+ },
+ "52": {
+  "source": "Normal difficulty, tournament fighters",
+  "translation": "Dificuldade Normal, lutadores de torneio",
+  "outdated": false
+ },
+ "53": {
+  "source": "Faster reactions. Picks ki attacks that fit the situation, dashes in, strafes, uses Zanzoken and teleports, and reads your guard. Groups focus the player attacking them.",
+  "translation": "Reações mais rápidas. Escolhe ataques de ki adequados à situação, avança com investidas, anda de lado, usa Zanzoken e teletransportes e lê a sua guarda. Os grupos focam no jogador que os ataca.",
+  "outdated": false
+ },
+ "54": {
+  "source": "3 · Elite",
+  "translation": "3 · Elite",
+  "outdated": false
+ },
+ "55": {
+  "source": "Hard difficulty, Cell Jr.",
+  "translation": "Dificuldade Difícil, Cell Jr.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Everything Smart does, plus kiting and flanking. Remembers which of its attacks worked, leads its aim, raises a ki barrier against incoming attacks and '''punishes you while you charge or transform'''. Targets the weakest or most exposed party member.",
+  "translation": "Tudo o que o Inteligente faz, além de manter distância e flanquear. Lembra quais ataques funcionaram, antecipa a mira, levanta uma barreira de ki contra os ataques que recebe e '''pune você enquanto você carrega ou se transforma'''. Mira o membro do grupo mais fraco ou mais exposto.",
+  "outdated": false
+ },
+ "57": {
+  "source": "4 · Expert",
+  "translation": "4 · Especialista",
+  "outdated": false
+ },
+ "58": {
+  "source": "[[Special:MyLanguage/World Bosses|World Bosses]]; on Hard, the final bosses listed below",
+  "translation": "[[Special:MyLanguage/World Bosses|Chefes de mundo]]; no Difícil, os chefes finais listados abaixo",
+  "outdated": false
+ },
+ "59": {
+  "source": "Elite with the fastest reactions, near-perfect dodging and aim.",
+  "translation": "Elite com as reações mais rápidas e esquiva e mira quase perfeitas.",
+  "outdated": false
+ },
+ "60": {
+  "source": "'''Final bosses that use Expert AI on Hard:''' [[Special:MyLanguage/Kid Buu|Kid Buu]], Super [[Special:MyLanguage/Janemba|Janemba]], Hirudegarn (Final Form), Broly (Legendary Super Saiyan), Bojack (Full Power), [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]], Super Android 13, Bio-Broly (Giant), Cooler (Final Form), Lord Slug (Giant), Omega Shenron, Super 17, Golden Great Ape Baby, Super Baby Vegeta 2, Hyper Meta-Rilldo and Lord Luud.",
+  "translation": "'''Chefes finais que usam a IA Especialista no Difícil:''' [[Special:MyLanguage/Kid Buu|Kid Boo]], Super [[Special:MyLanguage/Janemba|Janemba]], Hirudegarn (Forma Final), Broly (Lendário Super Saiyajin), Bojack (Poder Total), [[Special:MyLanguage/Metal Cooler Core|Núcleo do Metal Cooler]], Super Androide 13, Bio-Broly (Gigante), Cooler (Forma Final), Lorde Slug (Gigante), Omega Shenlong, Super 17, Baby Grande Macaco Dourado, Super Baby Vegeta 2, Hyper Meta-Rilldo e Lord Luud.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Each character also has its own '''Zanzoken level''' (none, 2, 4 or 6 after-image hops) and its own set of ki attacks and combos. The AI tier only decides how well they are used.",
+  "translation": "Cada personagem também tem o seu próprio '''nível de Zanzoken''' (nenhum, 2, 4 ou 6 saltos de imagem residual) e o seu próprio conjunto de ataques de ki e combos. O nível de IA só decide o quão bem eles são usados.",
+  "outdated": false
+ },
+ "62": {
+  "source": "Some enemies use strike techniques the way players do. They '''rush''' at you from up to 24 blocks away when they can see you, and the technique starts when they reach you; if they don't reach you within 2 seconds, it's wasted. [[Special:MyLanguage/Turles|Turles]] uses [[Special:MyLanguage/Meteor Burst|Meteor Burst]] and [[Special:MyLanguage/Kid Buu|Kid Buu]] the '''Mystic Ball Attack'''. If your own strike rush meets theirs head-on, the two of you start a [[Special:MyLanguage/Strike Clash|strike clash]]. Kid Buu and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] can also take a 7-second '''Sleep Recovery''' nap that heals up to 60% of their max health.",
+  "translation": "Alguns inimigos usam técnicas de golpe como os jogadores. Eles '''avançam''' contra você de até 24 blocos de distância quando conseguem ver você, e a técnica começa quando chegam até você; se não chegarem em 2 segundos, ela é desperdiçada. [[Special:MyLanguage/Turles|Turles]] usa [[Special:MyLanguage/Meteor Burst|Explosão Meteoro]] e [[Special:MyLanguage/Kid Buu|Kid Boo]] o '''Ataque da Bola Mística'''. Se a sua própria investida de golpe encontrar a dele de frente, vocês dois começam um [[Special:MyLanguage/Strike Clash|choque de golpes]]. Kid Boo e [[Special:MyLanguage/Majin Kuu|Majin Kuu]] também podem tirar uma soneca de '''Regeneração do Sono''' de 7 segundos que cura até 60% da vida máxima.",
+  "outdated": false
+ },
+ "63": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "64": {
+  "source": "Every saga quest pays '''Attributes''' (shown as \"x40 Attributes\"). Some also give items ([[Special:MyLanguage/Senzu Bean|Senzu Beans]], a [[Special:MyLanguage/Space Pod|Saiyan Space Pod]], a [[Special:MyLanguage/Dragon Radar|Dragon Radar]], the [[Special:MyLanguage/Dimension Sword|Dimension Sword]]…) or unlocks (the levels of the '''Legendary Forms''' skill from the Broly, Bio-Broly and Hirudegarn movies). You claim rewards from the Quest Tree once the quest is complete.",
+  "translation": "Toda missão de saga dá '''Atributos''' (mostrados como \"x40 Atributos\"). Algumas também dão itens ([[Special:MyLanguage/Senzu Bean|Sementes dos Deuses]], uma [[Special:MyLanguage/Space Pod|Cápsula Espacial Saiyajin]], um [[Special:MyLanguage/Dragon Radar|Radar do Dragão]], a [[Special:MyLanguage/Dimension Sword|Espada Dimensional]]…) ou desbloqueios (os níveis da habilidade '''Formas Lendárias''' dos filmes de Broly, Bio-Broly e Hirudegarn). Você resgata as recompensas na Árvore de missões quando a missão é concluída.",
+  "outdated": false
+ },
+ "65": {
+  "source": "Attributes are split when you claim them: '''half''' arrive as '''Attribute Points''' you place in the stats menu, and the other half as the '''Training Points''' those stat points would cost you right now. Because the TP part follows your current stat cost, a reward is worth as much late in the game as early on. Hover a reward in the Quest Tree (or under it in an NPC's quest sheet) to see the split and roughly how much TP it is worth for you.",
+  "translation": "Os Atributos são divididos quando você os resgata: '''metade''' chega como '''Pontos de Atributo''' que você distribui no menu de estatísticas, e a outra metade como os '''pontos de treino''' que esses pontos de estatística custariam para você agora. Como a parte de TP acompanha o seu custo de estatísticas atual, uma recompensa vale tanto no fim do jogo quanto no começo. Passe o cursor sobre uma recompensa na Árvore de missões (ou abaixo dela na ficha de missão de um NPC) para ver a divisão e quantos TP ela vale para você, aproximadamente.",
+  "outdated": false
+ },
+ "66": {
+  "source": "The values on the saga pages are '''base''' values. Your difficulty's quest-reward multiplier applies on top (Hard ×1.25), and after a story reset the Attributes shrink the same way TP rewards do (<code>storyResetTPMultiplier</code>). The server's TP boosts do not apply to them.",
+  "translation": "Os valores das páginas de saga são valores '''base'''. Por cima se aplica o multiplicador de recompensas de missão da sua dificuldade (Difícil ×1.25), e depois de uma redefinição da história os Atributos diminuem da mesma forma que as recompensas de TP (<code>storyResetTPMultiplier</code>). Os bônus de TP do servidor não se aplicam a eles.",
+  "outdated": false
+ },
+ "67": {
+  "source": "A reward can also be limited to certain difficulties. The Quest Tree groups such rewards and greys out the ones your difficulty can't receive. None of the default saga rewards use this.",
+  "translation": "Uma recompensa também pode ser limitada a certas dificuldades. A Árvore de missões agrupa essas recompensas e deixa em cinza as que a sua dificuldade não pode receber. Nenhuma das recompensas das sagas padrão usa isso.",
+  "outdated": false
+ },
+ "68": {
+  "source": "== Dying during the story ==",
+  "translation": "== Morrer durante a história ==",
+  "outdated": false
+ },
+ "69": {
+  "source": "If the [[Special:MyLanguage/Otherworld|Otherworld]] is enabled, dying sends you there as a spirit. After a short cooldown, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] (in the Otherworld) can let you '''borrow time''': a '''temporary revive''' (1 hour by default) during which you walk the living world as a spirit with a halo. The timer pauses while you are in the Otherworld, and drains faster while you are transformed, in some dimensions, and each time you borrow time again.",
+  "translation": "Se o [[Special:MyLanguage/Otherworld|Outro Mundo]] estiver ativado, morrer manda você para lá como espírito. Depois de uma breve espera, a [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] (no Outro Mundo) pode deixar você '''pegar tempo emprestado''': uma '''ressurreição temporária''' (1 hora por padrão) durante a qual você anda pelo mundo dos vivos como um espírito com auréola. O cronômetro pausa enquanto você está no Outro Mundo, e se esgota mais rápido enquanto você está transformado, em algumas dimensões e a cada vez que você pega tempo emprestado de novo.",
+  "outdated": false
+ },
+ "70": {
+  "source": "A lethal hit while temporarily revived '''knocks you out''' instead of killing you, but it eats part of your remaining time and '''fails your active fight quest''', just like a death would. Server owners can switch Baba back to a permanent revive. The revive wishes of [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] bring dead players back to life for good. The full rules are on the [[Special:MyLanguage/Otherworld|Otherworld]] page.",
+  "translation": "Um golpe letal enquanto você está ressuscitado temporariamente '''nocauteia você''' em vez de matar, mas consome parte do seu tempo restante e '''faz a sua missão de luta ativa falhar''', como uma morte faria. Os donos de servidores podem voltar a fazer a Vovó Uranai dar uma ressurreição permanente. Os desejos de ressurreição de [[Special:MyLanguage/Shenron|Shenlong]] e [[Special:MyLanguage/Porunga|Porunga]] trazem jogadores mortos de volta à vida para sempre. As regras completas estão na página do [[Special:MyLanguage/Otherworld|Outro Mundo]].",
+  "outdated": false
+ },
+ "71": {
+  "source": "== Quest lists ==",
+  "translation": "== Listas de missões ==",
+  "outdated": false
+ },
+ "72": {
+  "source": "Each saga page lists its quests in play order, with these columns:\n* '''#''': the quest's number. Quests added to a saga later keep their own number, so on some sagas the numbers are not in play order; those pages also show the '''Step''' (the position in play order). Lock messages and references such as \"Saiyan Saga #11\" use the number.\n* '''Objective''': what to do. Several lines are done in order.\n* '''Where''': where the quest can be started.\n* '''Attributes''' and '''Other rewards''': base values.",
+  "translation": "Cada página de saga lista as suas missões em ordem de jogo, com estas colunas:\n* '''#''': o número da missão. As missões adicionadas a uma saga depois mantêm o próprio número, então em algumas sagas os números não seguem a ordem de jogo; essas páginas também mostram a '''Etapa''' (a posição na ordem de jogo). Mensagens de bloqueio e referências como \"Saga Saiyajin #11\" usam o número.\n* '''Objetivo''': o que fazer. Várias linhas são cumpridas em ordem.\n* '''Onde''': onde a missão pode ser iniciada.\n* '''Atributos''' e '''Outras recompensas''': valores base.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Janemba, [[Special:MyLanguage/Turles|Turles]], Metal Cooler Core and the three Tamagamis also roam the world as [[Special:MyLanguage/World Bosses|World Bosses]]. Fortuneteller Baba, Cell and the Otherworld Tournament host [[Special:MyLanguage/Tournaments|Tournaments]].",
+  "translation": "Janemba, [[Special:MyLanguage/Turles|Turles]], o Núcleo do Metal Cooler e os três Tamagami também vagam pelo mundo como [[Special:MyLanguage/World Bosses|chefes de mundo]]. A Vovó Uranai, Cell e o Torneio do Outro Mundo organizam [[Special:MyLanguage/Tournaments|torneios]].",
+  "outdated": false
+ }
+}

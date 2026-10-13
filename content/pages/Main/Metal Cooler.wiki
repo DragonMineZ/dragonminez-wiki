@@ -1,0 +1,100 @@
+{{Infobox Mob
+|quote=<translate><!--T:1--> The Big Gete Star releases its army of Metal Coolers!</translate>
+|Type=<translate><!--T:2--> Hostile, world boss minion</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate><!--T:3--> Built by the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] during its fight; scouts patrol around the [[Special:MyLanguage/Big Gete Star|Big Gete Star]]</translate>
+|Behavior=<translate><!--T:4--> Flies and attacks players; Elite AI (scouts: Smart)</translate>
+|Abilities=<translate><!--T:5--> Ki Laser, Zanzoken, self-repair; copies cling to you and drain your ki and stamina</translate>
+|Drops=<translate><!--T:6--> Scouts: 1–2 Gete Scrap; guardians and copies: none</translate>
+}}
+<translate>
+<!--T:7-->
+'''Metal Cooler''' is the metal army of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]] on [[Special:MyLanguage/Namek|Planet Namek]]. Three kinds of Metal Cooler share the same look: the '''guardians''' that the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] builds during its world boss fight, the '''copies''' it releases as a swarm in the last phase, and the '''scouts''' that patrol around the Big Gete Star.
+</translate>
+
+<translate>
+== In the boss fight == <!--T:8-->
+
+<!--T:9-->
+The guardians and the copies only exist during the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] fight, inside the chamber of the Big Gete Star. When the Core is defeated or goes back to sleep, every guardian and copy vanishes. Damage you deal to them counts toward your contribution (see [[Special:MyLanguage/World Bosses#Contribution|World Bosses]]). See [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] for the whole fight.
+</translate>
+
+<translate>
+=== Guardians === <!--T:10-->
+
+<!--T:11-->
+* While the Core fights in phases 1 and 2 (above 35% health), it starts building a guardian every 30 seconds (the first one 15 seconds after it wakes), at one of the capsules along the chamber wall. It stops while 3 guardians are alive or being built.
+* A guardian is built in a '''reassembly''': a sphere of glittering scrap (a '''Gete Scrap Pile''') that turns into a new Metal Cooler after 8 seconds. Step into the sphere before it finishes to '''scatter''' it: the reassembly stops and you get 1–2 Gete Scrap.
+* A guardian destroyed while the Core is awake leaves a new reassembly where it fell, so it comes back 8 seconds later unless you scatter it.
+</translate>
+
+<translate>
+=== The copy swarm === <!--T:12-->
+
+<!--T:13-->
+* When the Core drops to 35% health (phase 3), the Big Gete Star releases a swarm of '''8 copies''' from the capsules, and another '''6''' at 15% health.
+* A copy that reaches its target '''clings''' to them for up to 6 seconds, then lets go and can't cling again for 5 seconds. Up to 3 copies can cling to the same player, and they let go if that player is knocked down.
+* A clinging copy doesn't attack, but every second each one drains 2% of your max ki and 2% of your max stamina. With 2 or more on you, you are also heavily slowed.
+</translate>
+
+<translate>
+=== Healing the Core === <!--T:14-->
+
+<!--T:15-->
+While the Core charges its '''Supernova''', it can't be damaged, and every second each guardian still standing heals it by 0.3% of its max health and each copy by 0.1%. Clear them out before the Supernova.
+</translate>
+
+<translate>
+== Patrols == <!--T:16-->
+
+<!--T:17-->
+Around the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], up to 2 '''Metal Cooler scouts''' roam, each leading 2–3 [[Special:MyLanguage/Gete Robot|Gete Robots]]. Every 30 seconds, while a player is within 200 blocks of the star (but not inside it), there is a 50% chance that a new patrol appears 60 to 100 blocks from the star and at least 24 blocks from any player. Patrols don't appear in Peaceful or when mob spawning is off.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:18-->
+
+<!--T:19-->
+All Metal Coolers fly and fire a '''Ki Laser''', a quick purple beam.
+
+<!--T:20-->
+* '''Guardians''' fight on the '''Elite''' AI tier and can '''Zanzoken''' out of the way (2 after-image hops). They also '''repair themselves''': after 4 seconds without taking damage, they regain 1.5% of their health every second.
+* '''Copies''' are a little smaller and faster than the guardians, are easy to knock back and fight on the '''Elite''' AI tier. They don't Zanzoken or repair themselves, but they cling to you (see above).
+* '''Scouts''' are the same Metal Cooler as the guardians, met outside the fight: they Zanzoken and repair themselves too, but fight on the '''Smart''' AI tier and are weaker.
+
+<!--T:21-->
+See [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]. Their default stats:
+</translate>
+{| class="wikitable"
+! <translate><!--T:22--> Kind</translate> !! <translate><!--T:23--> Health / melee / ki</translate> !! <translate><!--T:24--> AI tier</translate>
+|-
+| <translate><!--T:25--> Guardian</translate> || 12,800 / 1,050 / 904 || <translate><!--T:26--> Elite</translate>
+|-
+| <translate><!--T:27--> Copy</translate> || 6,400 / 158 / 136 || <translate><!--T:28--> Elite</translate>
+|-
+| <translate><!--T:29--> Scout</translate> || 7,020 / 810 / 702 || <translate><!--T:30--> Smart</translate>
+|}
+
+<translate>
+<!--T:31-->
+Guardian and copy damage is rounded. Guardians have 2% and copies 1% of the Core's health for a single fighter, and their damage also follows the Core's. Unlike the Core, they don't get tougher with every extra fighter.
+</translate>
+
+<translate>
+== Drops == <!--T:32-->
+
+<!--T:33-->
+Guardians and copies drop nothing. A scout drops 1–2 '''Gete Scrap''' (each level of Looting can add one more). Scattering a guardian's reassembly also gives you 1–2 Gete Scrap. See [[Special:MyLanguage/Gete Tech|Gete Tech]].
+</translate>
+
+<translate>
+== In the story == <!--T:34-->
+
+<!--T:35-->
+The [[Special:MyLanguage/Movies Saga|Movies Saga]] quest '''Metal Cooler''' (quest 18), in the Ajissa Plains of Namek, has you defeat a story Metal Cooler. It is a separate entity from the world boss minions on this page.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:36--> Entity ids</translate>|<code>dragonminez:worldboss_metal_cooler</code>, <code>dragonminez:worldboss_metal_cooler_copy</code>}}
+
+{{Navbox Bestiary}}
+[[Category:World boss minions{{#translation:}}]]

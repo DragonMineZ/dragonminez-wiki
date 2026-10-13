@@ -1,32 +1,36 @@
 {{Infobox Structure
 |Dimension={{L|Namek}}
-|Location=<translate>Spread out, away from Ajissa villages</translate>
+|Location=<translate><!--T:1--> Spread out, away from Ajissa villages</translate>
 |Locate=/dmzlocate namek_ruins
 |Inhabitants={{L|Frieza Soldier}}
-|Purpose=<translate>Raid site of Frieza's Invasion</translate>
+|Purpose=<translate><!--T:2--> Raid site of Frieza's Invasion</translate>
 }}
 <translate>
+<!--T:3-->
 The '''Namekian Ruins''' are a Namekian settlement razed by Frieza's army on [[Special:MyLanguage/Namek|Namek]]. A Frieza soldier stands in the scorched plaza; killing it starts the [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] raid.
 </translate>
 
 <translate>
-== Starting the raid ==
+== Starting the raid == <!--T:4-->
 </translate>
 {{Main|Frieza's Invasion}}
 <translate>
+<!--T:5-->
 * When you come within 80 blocks of the ruins, you get a chat warning.
 * Each site has one scout, the Frieza soldier in the plaza, shown with a supervillain aura. Killing it starts [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]].
 * A site is spent once its scout dies or disappears.
 </translate>
 
 <translate>
+<!--T:6-->
 See [[Special:MyLanguage/Raids|Raids]] for how a raid plays out.
 </translate>
 
 <translate>
-== Finding one ==
+== Finding one == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 Namekian Ruins generate spread out across Namek, away from the Ajissa villages. Players with the locate permission can use {{Command|/dmzlocate namek_ruins}} on Namek to find the nearest one.
 </translate>
 

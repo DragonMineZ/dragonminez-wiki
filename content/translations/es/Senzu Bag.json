@@ -1,0 +1,57 @@
+{
+ "Page_display_title": {
+  "source": "Senzu Bag",
+  "translation": "Bolsa de Semillas del Ermitaño",
+  "outdated": false
+ },
+ "1": {
+  "source": "A bundle for your beans.",
+  "translation": "Un saco para tus semillas.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Container",
+  "translation": "Contenedor",
+  "outdated": false
+ },
+ "3": {
+  "source": "Holds up to 64 Senzu Beans of any color",
+  "translation": "Guarda hasta 64 Semillas del Ermitaño de cualquier color",
+  "outdated": false
+ },
+ "4": {
+  "source": "3 Leather and any seeds",
+  "translation": "3 de Cuero y cualquier semilla",
+  "outdated": false
+ },
+ "5": {
+  "source": "The '''Senzu Bag''' carries up to '''64 [[Special:MyLanguage/Senzu Bean|Senzu Beans]]''' of any color in a single inventory slot, like a bundle. Regular, Health, Ki and Stamina beans can be mixed in the same bag, and you can eat them straight from it.",
+  "translation": "La '''Bolsa de Semillas del Ermitaño''' lleva hasta '''64 [[Special:MyLanguage/Senzu Bean|Semillas del Ermitaño]]''' de cualquier color en una sola casilla del inventario, como un saco. Las semillas normales, de Vida, de Ki y de Stamina se pueden mezclar en la misma bolsa, y puedes comerlas directamente desde ella.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Crafting ==",
+  "translation": "== Fabricación ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Filling and emptying the bag ==",
+  "translation": "== Llenar y vaciar la bolsa ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* In your inventory, right-click beans onto the bag, or the bag onto beans, to put them in.\n* Right-click the bag onto an empty slot to take a stack back out.\n* The bag is a '''pile''': the beans you put in last come out first. Beans of the same color added one after another share one entry.\n* The tooltip lists what is inside.",
+  "translation": "* En tu inventario, haz clic derecho con las semillas sobre la bolsa, o con la bolsa sobre las semillas, para meterlas.\n* Haz clic derecho con la bolsa sobre una casilla vacía para sacar un grupo de semillas.\n* La bolsa funciona como una '''pila''': las semillas que metiste al final salen primero. Las semillas del mismo color que añades una tras otra comparten una entrada.\n* La descripción emergente muestra lo que hay dentro.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Using it in your hand ==",
+  "translation": "== Usarla en la mano ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "* '''Right-click''' with the bag in your hand to move the most recently added stack into your inventory. Whatever doesn't fit stays in the bag; nothing is dropped.\n* '''Shift + right-click''' eats one bean straight from the bag: the most recently added one you can eat right now. It has the usual effect and uses the shared Senzu cooldown (see [[Special:MyLanguage/Senzu Bean#Cooldown|Senzu Bean]]).",
+  "translation": "* Haz '''clic derecho''' con la bolsa en la mano para pasar a tu inventario el grupo añadido más recientemente. Lo que no cabe se queda en la bolsa; no se tira nada.\n* '''Shift + clic derecho''' come una semilla directamente de la bolsa: la añadida más recientemente que puedas comer en ese momento. Tiene el efecto de siempre y usa el tiempo de recarga compartido de las Semillas del Ermitaño (consulta [[Special:MyLanguage/Senzu Bean#Cooldown|Semilla del Ermitaño]]).",
+  "outdated": false
+ }
+}

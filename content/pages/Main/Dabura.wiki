@@ -1,0 +1,49 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Otherworld}}, {{L|Earth}}
+|Spawns={{L|Otherworld Tournament}}, {{L|Buu Saga}}
+|Behavior=<translate><!--T:2--> Flies; Smart or Elite AI in the tournament</translate>
+|Abilities=<translate><!--T:3--> Ki Wave, Ki Charge Strike, Zanzoken, teleport; carries the Brave Sword</translate>
+}}
+<translate>
+<!--T:4-->
+'''Dabura''', the King of Demons, is the last of [[Special:MyLanguage/Babidi|Babidi]]'s guards in the [[Special:MyLanguage/Buu Saga|Buu Saga]], fought at [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], and a possible contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. He carries the [[Special:MyLanguage/Brave Sword|Brave Sword]], attacks quickly and blinks around you with Zanzoken and teleports.
+</translate>
+
+<translate>
+== In the tournament == <!--T:5-->
+
+<!--T:6-->
+Dabura is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. Like every contender, he is drawn at random and revealed once everybody accepts the rules.
+
+<!--T:7-->
+His stats come from the [[Special:MyLanguage/Tournaments#Configuration|contender entry]] that drew him: by default between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, on the Smart AI tier for the four weakest entries and Elite for the other five. He gets 8% stronger for every round already played.
+
+<!--T:8-->
+Hover him on the tournament screen to see his stats; with Bulma's '''Threat Database''' scan data you also see his ki attacks and combos.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:9-->
+
+<!--T:10-->
+Dabura flies with a red aura and holds the [[Special:MyLanguage/Brave Sword|Brave Sword]] in his hand. His melee attacks come faster than most fighters', he uses the strongest [[Special:MyLanguage/Sagas#Enemy AI tiers|Zanzoken]] (6 after-image hops) and he can teleport next to you.
+
+<!--T:11-->
+* '''Ki Wave:''' a red ki wave, his only ki attack.
+* '''Melee Combo:''' he blinks around you for three hits; the last one knocks you away.
+* '''Aerial Combo:''' he knocks you into the air, appears above you and slams you back down.
+* '''Ki Charge Strike:''' he charges into you, then teleports behind you for a final blow.
+</translate>
+
+<translate>
+== In the story == <!--T:12-->
+
+<!--T:13-->
+[[Special:MyLanguage/Buu Saga|Buu Saga]] quest 13, '''Dabura, King of Demons''', has you defeat him at [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], after [[Special:MyLanguage/Pui Pui|Pui Pui]] and [[Special:MyLanguage/Yakon|Yakon]].
+</translate>
+
+{{Note|type=config|title=<translate><!--T:14--> Entity id</translate>|<code>dragonminez:saga_dabura</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

@@ -1,0 +1,197 @@
+{
+ "Page_display_title": {
+  "source": "Add-on Getting Started",
+  "translation": "Primeros pasos con addons",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Add-on Getting Started''' covers what you need in place ''before'' you wire up your own Forge mod against DragonMineZ: the toolchain versions, the mods to avoid, and the parts of DMZ an add-on can safely rely on. Read it before [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]].",
+  "translation": "'''Primeros pasos con addons''' explica lo que necesitas tener listo ''antes'' de conectar tu propio mod de Forge con DragonMineZ: las versiones de las herramientas, los mods que debes evitar y las partes de DMZ en las que un addon puede confiar sin riesgo. Léela antes de [[Special:MyLanguage/Creating a DMZ Addon|Crear un addon de DMZ]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Who this is for ==",
+  "translation": "== Para quién es ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "These pages are for Forge add-on developers who want their own mod jar to react to DMZ: granting bonus TP, listening for form changes, adding new quest objective and reward types, adding buttons to the utility menu and so on. If you just want to tune numbers or add races, forms, quests or wishes, you don't need any of this; see [[Special:MyLanguage/Developer Scope and Prerequisites|Developer Scope and Prerequisites]] instead.",
+  "translation": "Estas páginas son para desarrolladores de addons de Forge que quieren que el jar de su mod reaccione a DMZ: dar TP extra, escuchar cambios de forma, añadir nuevos tipos de objetivos y recompensas de misiones, agregar botones al menú de utilidades, etc. Si solo quieres ajustar números o añadir razas, formas, misiones o deseos, no necesitas nada de esto; consulta [[Special:MyLanguage/Developer Scope and Prerequisites|Alcance y requisitos]].",
+  "outdated": false
+ },
+ "4": {
+  "source": "DMZ has no Java API to register new races, forms, skills or techniques: new races and forms are added through JSON config files (see [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]]).",
+  "translation": "DMZ no tiene una API de Java para registrar razas, formas, habilidades o técnicas nuevas: las razas y formas nuevas se añaden con archivos de configuración JSON (consulta [[Special:MyLanguage/Custom Races|Razas personalizadas]] y [[Special:MyLanguage/Custom Forms|Formas personalizadas]]).",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Required toolchain ==",
+  "translation": "== Herramientas necesarias ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "Requirement",
+  "translation": "Requisito",
+  "outdated": false
+ },
+ "7": {
+  "source": "Version",
+  "translation": "Versión",
+  "outdated": false
+ },
+ "8": {
+  "source": "Where it is declared",
+  "translation": "Dónde se declara",
+  "outdated": false
+ },
+ "9": {
+  "source": "<code>47.4.10</code> (accepts <code>[47,)</code>)",
+  "translation": "<code>47.4.10</code> (acepta <code>[47,)</code>)",
+  "outdated": false
+ },
+ "10": {
+  "source": "<code>gradle.properties</code>, add-on <code>mods.toml</code>",
+  "translation": "<code>gradle.properties</code>, <code>mods.toml</code> del addon",
+  "outdated": false
+ },
+ "11": {
+  "source": "<code>build.gradle.kts</code> plugins",
+  "translation": "Plugins de <code>build.gradle.kts</code>",
+  "outdated": false
+ },
+ "12": {
+  "source": "<code>build.gradle.kts</code> toolchain",
+  "translation": "Toolchain de <code>build.gradle.kts</code>",
+  "outdated": false
+ },
+ "13": {
+  "source": "Mappings",
+  "translation": "Mappings",
+  "outdated": false
+ },
+ "14": {
+  "source": "Parchment <code>2023.09.03-1.20.1</code>",
+  "translation": "Parchment <code>2023.09.03-1.20.1</code>",
+  "outdated": false
+ },
+ "15": {
+  "source": "<code>gradle.properties</code>, add-on <code>mods.toml</code>",
+  "translation": "<code>gradle.properties</code>, <code>mods.toml</code> del addon",
+  "outdated": false
+ },
+ "16": {
+  "source": "<code>gradle.properties</code>, add-on <code>mods.toml</code>",
+  "translation": "<code>gradle.properties</code>, <code>mods.toml</code> del addon",
+  "outdated": false
+ },
+ "17": {
+  "source": "<code>5.14.1+1.20.1</code> or newer",
+  "translation": "<code>5.14.1+1.20.1</code> o posterior",
+  "outdated": false
+ },
+ "18": {
+  "source": "<code>gradle.properties</code>, add-on <code>mods.toml</code>",
+  "translation": "<code>gradle.properties</code>, <code>mods.toml</code> del addon",
+  "outdated": false
+ },
+ "19": {
+  "source": "Match these exactly (or with compatible version ranges) in your own add-on's <code>build.gradle</code> or <code>build.gradle.kts</code>, <code>gradle.properties</code> and <code>mods.toml</code>, or you will hit classloading and mixin mismatches at runtime. DMZ itself is currently on mod version <code>2.2-alpha</code> (<code>gradle.properties</code>).",
+  "translation": "Usa exactamente estas versiones (o rangos de versiones compatibles) en el <code>build.gradle</code> o <code>build.gradle.kts</code>, el <code>gradle.properties</code> y el <code>mods.toml</code> de tu addon; si no, tendrás errores de carga de clases y de mixins incompatibles en tiempo de ejecución. DMZ está actualmente en la versión <code>2.2-alpha</code> del mod (<code>gradle.properties</code>).",
+  "outdated": false
+ },
+ "20": {
+  "source": "GeckoLib, TerraBlender and Curios are '''mandatory''' dependencies of DMZ, so they must be on your development runtime classpath too.",
+  "translation": "GeckoLib, TerraBlender y Curios son dependencias '''obligatorias''' de DMZ, así que también deben estar en el classpath de ejecución de tu entorno de desarrollo.",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Incompatible mods ==",
+  "translation": "== Mods incompatibles ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "DMZ refuses to start (it throws an <code>IllegalStateException</code> while loading) when any of these mods is installed, and declares them <code>incompatible</code> in its <code>mods.toml</code>:",
+  "translation": "DMZ se niega a iniciar (lanza una <code>IllegalStateException</code> durante la carga) cuando alguno de estos mods está instalado, y los declara como <code>incompatible</code> en su <code>mods.toml</code>:",
+  "outdated": false
+ },
+ "23": {
+  "source": "* Legendary Tooltips (<code>legendarytooltips</code>)\n* Epic Fight (<code>epicfight</code>)\n* Better Combat (<code>bettercombat</code>)",
+  "translation": "* Legendary Tooltips (<code>legendarytooltips</code>)\n* Epic Fight (<code>epicfight</code>)\n* Better Combat (<code>bettercombat</code>)",
+  "outdated": false
+ },
+ "24": {
+  "source": "Don't depend on them, bundle them or add them to your development run configurations.",
+  "translation": "No dependas de ellos, no los incluyas ni los añadas a tus configuraciones de ejecución de desarrollo.",
+  "outdated": false
+ },
+ "25": {
+  "source": "== Pre-release builds ==",
+  "translation": "== Versiones preliminares ==",
+  "outdated": false
+ },
+ "26": {
+  "source": "<code>2.2-alpha</code> is a pre-release build. Alpha and beta builds of DMZ only let whitelisted usernames join a world or server. The default ForgeGradle development username <code>Dev</code> is on the whitelist, so <code>runClient</code> works out of the box: keep that username for local testing.",
+  "translation": "<code>2.2-alpha</code> es una versión preliminar. Las versiones alpha y beta de DMZ solo dejan entrar a un mundo o servidor a los nombres de usuario de la lista blanca. El nombre de usuario de desarrollo predeterminado de ForgeGradle, <code>Dev</code>, está en la lista blanca, así que <code>runClient</code> funciona sin configurar nada: conserva ese nombre de usuario para tus pruebas locales.",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Package layout ==",
+  "translation": "== Estructura de paquetes ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "Before writing any hook code, skim the source layout (<code>AI/Context.md</code> in the DMZ repository documents it in detail):",
+  "translation": "Antes de escribir código de hooks, échale un vistazo a la estructura del código fuente (<code>AI/Context.md</code> en el repositorio de DMZ la documenta en detalle):",
+  "outdated": false
+ },
+ "29": {
+  "source": "* <code>com.dragonminez.client</code>: rendering, GUI and animation; client only.\n* <code>com.dragonminez.common</code>: config, stats, networking, quests and wishes; the surface most add-ons touch.\n* <code>com.dragonminez.server</code>: commands, storage, world generation and server events.\n* <code>com.dragonminez.mixin</code>: mixins; avoid depending on these from an add-on.",
+  "translation": "* <code>com.dragonminez.client</code>: renderizado, GUI y animación; solo cliente.\n* <code>com.dragonminez.common</code>: configuración, estadísticas, red, misiones y deseos; la parte que más tocan los addons.\n* <code>com.dragonminez.server</code>: comandos, almacenamiento, generación de mundo y eventos de servidor.\n* <code>com.dragonminez.mixin</code>: mixins; evita depender de ellos desde un addon.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Add-ons should hook <code>com.dragonminez.common</code> almost exclusively: it is the shared, most stable layer. The only client-side hooks meant for add-ons are <code>DMZClientEvent</code> and the utility menu slots (see [[Special:MyLanguage/Implementation and Events|Implementation and Events]]).",
+  "translation": "Los addons deberían engancharse casi exclusivamente a <code>com.dragonminez.common</code>: es la capa compartida y la más estable. Los únicos hooks del lado del cliente pensados para addons son <code>DMZClientEvent</code> y las ranuras del menú de utilidades (consulta [[Special:MyLanguage/Implementation and Events|Implementación y eventos]]).",
+  "outdated": false
+ },
+ "31": {
+  "source": "== Two integration styles ==",
+  "translation": "== Dos formas de integración ==",
+  "outdated": false
+ },
+ "32": {
+  "source": "# '''Hard dependency:''' your add-on requires DMZ to be present (<code>mandatory=true</code> in <code>mods.toml</code>). This is the simplest option, but your add-on won't load without DMZ.\n# '''Soft (optional) dependency:''' your add-on works on its own and only turns on DMZ-specific behavior when DMZ is detected. DMZ uses this pattern itself for its optional integrations (<code>common/compat/WeaponLevelingCompat.java</code>, <code>common/compat/ApotheosisCompat.java</code>): check <code>ModList.get().isLoaded(\"dragonminez\")</code> once, and keep every class that imports DMZ code behind that check. This is recommended if your add-on has value without DMZ installed. See [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Optional dependency pattern]].",
+  "translation": "# '''Dependencia obligatoria:''' tu addon necesita que DMZ esté presente (<code>mandatory=true</code> en <code>mods.toml</code>). Es la opción más simple, pero tu addon no cargará sin DMZ.\n# '''Dependencia opcional:''' tu addon funciona por sí solo y únicamente activa el comportamiento específico de DMZ cuando detecta DMZ. DMZ usa este patrón para sus propias integraciones opcionales (<code>common/compat/WeaponLevelingCompat.java</code>, <code>common/compat/ApotheosisCompat.java</code>): comprueba <code>ModList.get().isLoaded(\"dragonminez\")</code> una sola vez y deja toda clase que importe código de DMZ detrás de esa comprobación. Se recomienda si tu addon aporta algo sin DMZ instalado. Consulta [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Patrón de dependencia opcional]].",
+  "outdated": false
+ },
+ "33": {
+  "source": "== What you can safely rely on ==",
+  "translation": "== En qué puedes confiar ==",
+  "outdated": false
+ },
+ "34": {
+  "source": "* '''Events:''' the nested classes of <code>com.dragonminez.common.events.DMZEvent</code> (server and common) and <code>com.dragonminez.client.events.DMZClientEvent</code> (client) are the intended public hook surface. See [[Special:MyLanguage/Implementation and Events|Implementation and Events]] for the full list.\n* '''Read-only player state:''' <code>StatsCapability</code>, <code>StatsProvider</code> and <code>StatsData</code>, for reading race, form, stats and resources.\n* '''Extension registries:''' <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code> (custom quest content types), <code>DMZTextPlaceholders</code> (custom <code>%placeholders%</code> in quest and dialogue text) and <code>UtilityMenuScreen.addMenuSlot</code> (buttons in the client utility menu).\n* '''Registries:''' <code>MainItems</code>, <code>MainBlocks</code>, <code>MainEntities</code>, <code>MainAttributes</code>, <code>MainEffects</code>, <code>MainEnchants</code> (and the other <code>Main*</code> classes) under <code>common/init/</code> expose <code>RegistryObject</code> and <code>DeferredRegister</code> references you can import directly.",
+  "translation": "* '''Eventos:''' las clases anidadas de <code>com.dragonminez.common.events.DMZEvent</code> (servidor y común) y <code>com.dragonminez.client.events.DMZClientEvent</code> (cliente) son la superficie pública de hooks prevista. Consulta [[Special:MyLanguage/Implementation and Events|Implementación y eventos]] para ver la lista completa.\n* '''Estado del jugador de solo lectura:''' <code>StatsCapability</code>, <code>StatsProvider</code> y <code>StatsData</code>, para leer la raza, la forma, las estadísticas y los recursos.\n* '''Registros de extensión:''' <code>QuestObjectiveRegistry</code> y <code>QuestRewardRegistry</code> (tipos de contenido de misión personalizados), <code>DMZTextPlaceholders</code> (<code>%placeholders%</code> personalizados en textos de misiones y diálogos) y <code>UtilityMenuScreen.addMenuSlot</code> (botones en el menú de utilidades del cliente).\n* '''Registros:''' <code>MainItems</code>, <code>MainBlocks</code>, <code>MainEntities</code>, <code>MainAttributes</code>, <code>MainEffects</code>, <code>MainEnchants</code> (y las demás clases <code>Main*</code>) en <code>common/init/</code> exponen referencias <code>RegistryObject</code> y <code>DeferredRegister</code> que puedes importar directamente.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== What to avoid relying on ==",
+  "translation": "== En qué no conviene confiar ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "* Values reported by the client for anything related to progression. DMZ never trusts them either; read from the server-side capability instead.\n* Changing <code>StatsData</code> fields directly outside of events or commands. Prefer reacting to or cancelling events over poking values, and prefer DMZ's existing commands when you need to change something DMZ owns.\n* Registering packets on DMZ's network channel. DMZ's packet ids depend on registration order; use your own channel.\n* Depending on <code>com.dragonminez.mixin</code> classes or DMZ internals not mentioned above. These can change without notice between versions.",
+  "translation": "* Los valores que envía el cliente para cualquier cosa relacionada con el progreso. DMZ tampoco confía en ellos; lee la capability del lado del servidor.\n* Cambiar campos de <code>StatsData</code> directamente fuera de eventos o comandos. Es preferible reaccionar a los eventos o cancelarlos antes que tocar valores, y usar los comandos existentes de DMZ cuando necesites cambiar algo que pertenece a DMZ.\n* Registrar paquetes en el canal de red de DMZ. Los ids de paquete de DMZ dependen del orden de registro; usa tu propio canal.\n* Depender de las clases de <code>com.dragonminez.mixin</code> o de partes internas de DMZ no mencionadas arriba. Pueden cambiar sin aviso entre versiones.",
+  "outdated": false
+ },
+ "37": {
+  "source": "== Next step ==",
+  "translation": "== Siguiente paso ==",
+  "outdated": false
+ },
+ "38": {
+  "source": "Once your development environment builds against DMZ and you can see it detected at runtime, move on to [[Special:MyLanguage/Implementation and Events|Implementation and Events]] to wire up actual hooks, then to [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]] for the full Gradle and <code>mods.toml</code> setup.",
+  "translation": "Cuando tu entorno de desarrollo compile contra DMZ y veas que lo detecta en tiempo de ejecución, pasa a [[Special:MyLanguage/Implementation and Events|Implementación y eventos]] para conectar los hooks reales y luego a [[Special:MyLanguage/Creating a DMZ Addon|Crear un addon de DMZ]] para la configuración completa de Gradle y <code>mods.toml</code>.",
+  "outdated": false
+ }
+}

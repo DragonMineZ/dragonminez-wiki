@@ -1,0 +1,262 @@
+{
+ "Page_display_title": {
+  "source": "Special Weapons",
+  "translation": "Armas especiais",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ ships its '''own melee combat system''', similar in spirit to ''Better Combat'': every weapon has a hand-crafted '''moveset''' instead of a single generic swing. This page explains that system and compares the signature weapons that use it.",
+  "translation": "O DragonMineZ traz seu '''próprio sistema de combate corpo a corpo''', com uma proposta parecida com a do ''Better Combat'': cada arma tem um '''combo''' feito à mão em vez de um único golpe genérico. Esta página explica esse sistema e compara as armas emblemáticas que o usam.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Quick, aggressive slashes. Crafted.",
+  "translation": "Cortes rápidos e agressivos. Fabricável.",
+  "outdated": false
+ },
+ "3": {
+  "source": "The all-rounder for the Shining Sword Attack. A Porunga wish.",
+  "translation": "A mais versátil, para o Ataque da Espada Brilhante. Desejo de Porunga.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Heavy, unbreakable blows. Old Kai's challenge reward.",
+  "translation": "Golpes pesados e inquebráveis. Recompensa do desafio do Velho Kaioshin.",
+  "outdated": false
+ },
+ "5": {
+  "source": "The longest reach and a 360° spin. A Shenron wish.",
+  "translation": "O maior alcance e um giro de 360°. Desejo de Shenlong.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Super Janemba's blade.",
+  "translation": "A lâmina de Super Janemba.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Dropped by Tamagami Number 1.",
+  "translation": "Dropada por Tamagami Número 1.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Dropped by Tamagami Number 2.",
+  "translation": "Dropado por Tamagami Número 2.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Dropped by Tamagami Number 3.",
+  "translation": "Dropado por Tamagami Número 3.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== The combat system ==",
+  "translation": "== O sistema de combate ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Each weapon is bound to a '''moveset''': a '''combo chain''' of attacks that you cycle through as you keep swinging, each with its own '''reach, sweep angle, timing (wind-up) and damage'''.",
+  "translation": "Cada arma está ligada a um '''combo''': uma '''cadeia de ataques''' que você percorre enquanto continua atacando, cada um com seu próprio '''alcance, ângulo de varredura, tempo de preparação e dano'''.",
+  "outdated": false
+ },
+ "12": {
+  "source": "* '''Combos:''' consecutive attacks step through the moveset (attack 1, 2, 3…) and loop. Different weapon classes swing, sweep and reach very differently.\n* '''Dual-wielding:''' hold a weapon in each hand and your combo alternates hands automatically.\n* '''Reach:''' each moveset has its own range (a staff out-reaches a sword), on top of your entity reach.\n* '''Stamina:''' swinging, blocking and dashing all cost Stamina (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]).\n* '''Blocking and parrying:''' you can block (up to about 65% damage reduction) and '''parry''' within a tight window (about 150 ms). A broken block leaves you stunned.\n* '''Dashing:''' dash and double-dash, with cooldowns, for mobility in a fight.",
+  "translation": "* '''Combos:''' ataques consecutivos avançam pelo combo (ataque 1, 2, 3…) e recomeçam. Cada classe de arma golpeia, varre e alcança de um jeito bem diferente.\n* '''Empunhadura dupla:''' segure uma arma em cada mão e seu combo alterna as mãos automaticamente.\n* '''Alcance:''' cada combo tem seu próprio alcance (um bastão vai mais longe que uma espada), somado ao seu alcance de entidade.\n* '''Estâmina:''' atacar, bloquear e usar a esquiva custam Estâmina (veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]]).\n* '''Bloqueio e aparo:''' você pode bloquear (até cerca de 65% de redução de dano) e '''aparar''' dentro de uma janela bem curta (cerca de 150 ms). Ter o bloqueio quebrado deixa você atordoado.\n* '''Esquiva:''' esquiva e esquiva dupla, com recarga, para se mover durante a luta.",
+  "outdated": false
+ },
+ "13": {
+  "source": "DMZ ships '''27 base movesets''': sword, katana, claymore, staff, battlestaff, spear, dagger, rapier, scythe, hammer, glaive, halberd, lance, mace, trident, twin blade, fist, claw and more. Weapons from other mods get a sensible moveset guessed from their name.",
+  "translation": "O DMZ traz '''27 combos base''': espada, katana, claymore, bastão, bastão de batalha, lança, adaga, rapieira, foice, martelo, glaive, alabarda, lança de justa, maça, tridente, lâmina dupla, punho, garra e mais. Armas de outros mods recebem um combo adequado, deduzido pelo nome.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Signature weapons ==",
+  "translation": "== Armas emblemáticas ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Each of these plays differently because it uses a different moveset and its own critical-hit stats.",
+  "translation": "Cada uma joga de um jeito diferente porque usa um combo diferente e tem suas próprias estatísticas de crítico.",
+  "outdated": false
+ },
+ "16": {
+  "source": "Weapon",
+  "translation": "Arma",
+  "outdated": false
+ },
+ "17": {
+  "source": "Moveset",
+  "translation": "Combo",
+  "outdated": false
+ },
+ "18": {
+  "source": "Feel",
+  "translation": "Estilo",
+  "outdated": false
+ },
+ "19": {
+  "source": "Critical chance",
+  "translation": "Chance de crítico",
+  "outdated": false
+ },
+ "20": {
+  "source": "Critical damage",
+  "translation": "Dano crítico",
+  "outdated": false
+ },
+ "21": {
+  "source": "How to get it",
+  "translation": "Como obter",
+  "outdated": false
+ },
+ "22": {
+  "source": "Katana (reach 2.75, fast 4-hit combo)",
+  "translation": "Katana (alcance 2.75, combo rápido de 4 golpes)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Quick, aggressive slashes",
+  "translation": "Cortes rápidos e agressivos",
+  "outdated": false
+ },
+ "24": {
+  "source": "Crafted",
+  "translation": "Fabricável",
+  "outdated": false
+ },
+ "25": {
+  "source": "Sword (reach 2.5, balanced)",
+  "translation": "Espada (alcance 2.5, equilibrada)",
+  "outdated": false
+ },
+ "26": {
+  "source": "All-rounder; required for the Shining Sword Attack",
+  "translation": "Versátil; necessária para o Ataque da Espada Brilhante",
+  "outdated": false
+ },
+ "27": {
+  "source": "Porunga wish",
+  "translation": "Desejo de Porunga",
+  "outdated": false
+ },
+ "28": {
+  "source": "Claymore (heavy, wide, slow swings)",
+  "translation": "Claymore (golpes pesados, amplos e lentos)",
+  "outdated": false
+ },
+ "29": {
+  "source": "Big, hard-hitting blows. Unbreakable.",
+  "translation": "Golpes grandes e fortes. Inquebrável.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Old Kai's Ultimate Challenge",
+  "translation": "Desafio Definitivo do Velho Kaioshin",
+  "outdated": false
+ },
+ "31": {
+  "source": "Its own staff combo (reach 3, the longest): two wide sweeps and a 360° spin",
+  "translation": "Seu próprio combo de bastão (alcance 3, o maior): duas varridas amplas e um giro de 360°",
+  "outdated": false
+ },
+ "32": {
+  "source": "Long-range sweeps that keep enemies at bay. Unbreakable.",
+  "translation": "Varridas de longo alcance que mantêm os inimigos à distância. Inquebrável.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Shenron wish",
+  "translation": "Desejo de Shenlong",
+  "outdated": false
+ },
+ "34": {
+  "source": "Sword",
+  "translation": "Espada",
+  "outdated": false
+ },
+ "35": {
+  "source": "Balanced sword strikes",
+  "translation": "Golpes de espada equilibrados",
+  "outdated": false
+ },
+ "36": {
+  "source": "Movies Saga quest, Janemba world boss (50%)",
+  "translation": "Missão da Saga de Filmes, chefe de mundo Janemba (50%)",
+  "outdated": false
+ },
+ "37": {
+  "source": "Sword",
+  "translation": "Espada",
+  "outdated": false
+ },
+ "38": {
+  "source": "Balanced sword strikes",
+  "translation": "Golpes de espada equilibrados",
+  "outdated": false
+ },
+ "39": {
+  "source": "Tamagami Number 1 (30%)",
+  "translation": "Tamagami Número 1 (30%)",
+  "outdated": false
+ },
+ "40": {
+  "source": "Spear",
+  "translation": "Lança",
+  "outdated": false
+ },
+ "41": {
+  "source": "Long thrusts",
+  "translation": "Estocadas longas",
+  "outdated": false
+ },
+ "42": {
+  "source": "Tamagami Number 2 (30%)",
+  "translation": "Tamagami Número 2 (30%)",
+  "outdated": false
+ },
+ "43": {
+  "source": "Mace",
+  "translation": "Maça",
+  "outdated": false
+ },
+ "44": {
+  "source": "Slow, heavy blows",
+  "translation": "Golpes lentos e pesados",
+  "outdated": false
+ },
+ "45": {
+  "source": "Tamagami Number 3 (30%)",
+  "translation": "Tamagami Número 3 (30%)",
+  "outdated": false
+ },
+ "46": {
+  "source": "The same fight plays out very differently depending on the blade: the '''Katana''' chains quick combos, the [[Special:MyLanguage/Z Sword|Z Sword]] trades speed for heavy crits, and the [[Special:MyLanguage/Power Pole|Power Pole]] wins the spacing game with reach and its spinning finisher.",
+  "translation": "A mesma luta muda bastante dependendo da lâmina: a '''Katana''' encadeia combos rápidos, a [[Special:MyLanguage/Z Sword|Espada Z]] troca velocidade por críticos pesados e o [[Special:MyLanguage/Power Pole|Bastão Mágico]] vence o jogo de distância com seu alcance e seu golpe final giratório.",
+  "outdated": false
+ },
+ "47": {
+  "source": "World boss drop chances are the server defaults (see [[Special:MyLanguage/World Bosses|World Bosses]]). The Tamagamis are the guardians of the [[Special:MyLanguage/Demon Realm|Demon Realm]].",
+  "translation": "As chances de drop dos chefes de mundo são os valores padrão do servidor (veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]). Os Tamagami são os guardiões do [[Special:MyLanguage/Demon Realm|Reino Demoníaco]].",
+  "outdated": false
+ },
+ "48": {
+  "source": "== Weapons on your back ==",
+  "translation": "== Armas nas costas ==",
+  "outdated": false
+ },
+ "49": {
+  "source": "While you carry the Z Sword, the Brave Sword or the Power Pole in your inventory, it is shown on your character's back.",
+  "translation": "Enquanto a Espada Z, a Espada Valente ou o Bastão Mágico estiver no seu inventário, a arma aparece nas costas do seu personagem.",
+  "outdated": false
+ },
+ "50": {
+  "source": "== Enchanting weapons ==",
+  "translation": "== Encantando armas ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "DMZ adds its own weapon enchantments, such as Defense Penetration, Healing Reduction, Critical Chance and Critical Damage. See [[Special:MyLanguage/Enchantments|Enchantments]].",
+  "translation": "O DMZ adiciona seus próprios encantamentos de armas, como Penetração de Defesa, Redução de Cura, Chance de crítico e Dano crítico. Veja [[Special:MyLanguage/Enchantments|Encantamentos]].",
+  "outdated": false
+ }
+}

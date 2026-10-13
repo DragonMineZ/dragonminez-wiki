@@ -1,94 +1,103 @@
 {{Infobox Dimension
 |Gravity=×1.0
-|Access=<translate>Dying (when the Otherworld is enabled); Space Pod after Bulma's Otherworld Drive sidequest</translate>
-|Biomes=<translate>Otherworld (tournament clouds, cloud realm and Hell)</translate>
-|Resources=<translate>None (no ores)</translate>
-|Inhabitants={{L|King Yemma}}, {{L|Fortuneteller Baba}}, {{L|Grand Kai}}, {{L|King Kai}}, <translate>Toribot</translate>, {{L|Hell Ogre}}, {{L|Mini Janemba}}
-|Structures=<translate>King Yemma's check-in area, Snake Way, King Kai's Planet, the Otherworld Tournament grounds</translate>
+|Access=<translate><!--T:1--> Dying (when the Otherworld is enabled); Space Pod after Bulma's Otherworld Drive sidequest</translate>
+|Biomes=<translate><!--T:2--> Otherworld (tournament clouds, cloud realm and Hell)</translate>
+|Resources=<translate><!--T:3--> None (no ores)</translate>
+|Inhabitants={{L|King Yemma}}, {{L|Fortuneteller Baba}}, {{L|Grand Kai}}, {{L|King Kai}}, <translate><!--T:4--> Toribot</translate>, {{L|Hell Ogre}}, {{L|Mini Janemba}}
+|Structures=<translate><!--T:5--> King Yemma's check-in area, Snake Way, King Kai's Planet, the Otherworld Tournament grounds</translate>
 |Bosses={{L|Janemba}}
 }}
 <translate>
+<!--T:6-->
 The '''Otherworld''' (dimension id <code>dragonminez:otherworld</code>) is the afterlife. When you die with the Otherworld system enabled, you don't simply respawn: your spirit travels here, marked with a '''halo''', until you're revived. It is also home to [[Special:MyLanguage/King Kai|King Kai]], the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and, deep in Hell, the world boss [[Special:MyLanguage/Janemba|Janemba]].
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:7-->
 </translate>
 {{Config|Gravity Config|gravityPerWorld}}
 <translate>
+<!--T:8-->
 The Otherworld has normal gravity (×1.0) by default.
 </translate>
 
 <translate>
-== Layout ==
+== Layout == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 The Otherworld is built in three layers, stacked from top to bottom. The sky changes as you move between them.
 </translate>
 
 {| class="wikitable"
-! <translate>Layer</translate> !! <translate>Height</translate> !! <translate>What's there</translate>
+! <translate><!--T:11--> Layer</translate> !! <translate><!--T:12--> Height</translate> !! <translate><!--T:13--> What's there</translate>
 |-
-| <translate>'''Tournament clouds'''</translate> || <translate>Upper cloud deck (around Y 271)</translate> || <translate>The '''Otherworld Tournament grounds''' (ring centre at 0, 355, −1200).</translate>
+| <translate><!--T:14--> '''Tournament clouds'''</translate> || <translate><!--T:15--> Upper cloud deck (around Y 271)</translate> || <translate><!--T:16--> The '''Otherworld Tournament grounds''' (ring centre at 0, 355, −1200).</translate>
 |-
-| <translate>'''Cloud realm'''</translate> || <translate>Main cloud deck (around Y 112)</translate> || <translate>Where spirits arrive (0.5, 150, −44.5): [[Special:MyLanguage/King Yemma|King Yemma]], [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], the [[Special:MyLanguage/Grand Kai|Grand Kai]] and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]]. '''Snake Way''' leads from here to '''King Kai's Planet''', home of [[Special:MyLanguage/King Kai|King Kai]] and Toribot.</translate>
+| <translate><!--T:17--> '''Cloud realm'''</translate> || <translate><!--T:18--> Main cloud deck (around Y 112)</translate> || <translate><!--T:19--> Where spirits arrive (0.5, 150, −44.5): [[Special:MyLanguage/King Yemma|King Yemma]], [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], the [[Special:MyLanguage/Grand Kai|Grand Kai]] and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]]. '''Snake Way''' leads from here to '''King Kai's Planet''', home of [[Special:MyLanguage/King Kai|King Kai]] and Toribot.</translate>
 |-
-| <translate>'''Hell'''</translate> || <translate>Below the clouds (up to Y 96)</translate> || <translate>A rugged underworld of '''Hell Ground''', '''Hell Stone''' and '''Hell Deepstone''', with amethyst peaks, calcite crests and glowing froglight slopes. It's decorated with amethyst crystal spikes, giant bone spines, blackstone thorn balls and colourful candy orbs floating between Hell and the clouds.</translate>
+| <translate><!--T:20--> '''Hell'''</translate> || <translate><!--T:21--> Below the clouds (up to Y 96)</translate> || <translate><!--T:22--> A rugged underworld of '''Hell Ground''', '''Hell Stone''' and '''Hell Deepstone''', with amethyst peaks, calcite crests and glowing froglight slopes. It's decorated with amethyst crystal spikes, giant bone spines, blackstone thorn balls and colourful candy orbs floating between Hell and the clouds.</translate>
 |}
 
 <translate>
+<!--T:23-->
 The cloud layers are made of '''Otherworld Cloud''' blocks. The Otherworld has no ores: it's a gameplay space, not a place to gather resources. King Yemma's area, Snake Way and King Kai's Planet come from pre-generated regions that DragonMineZ copies into the world when the Otherworld is enabled.
 
+<!--T:24-->
 King Yemma's palace, the whole of Snake Way and King Kai's Planet are protected from ki griefing like the master structures: ki attacks and other destructive moves can't break their blocks unless the <code>allowKiGriefingMasterStructures</code> gamerule is on (see [[Special:MyLanguage/Gamerules|Gamerules]]).
 </translate>
 
 <translate>
-== Hell ==
+== Hell == <!--T:25-->
 </translate>
 <translate>
+<!--T:26-->
 * '''[[Special:MyLanguage/Hell Ogre|Red and Blue Ogres]]''' spawn on Hell's ground. They attack Evil-aligned players on sight, and anyone who hits them.
 * '''Mini Janemba stampede''': spending a random 8 to 14 minutes in Hell (below Y 96, in survival or adventure, never on Peaceful) sends a stampede of 20 [[Special:MyLanguage/Mini Janemba|Mini Janembas]] charging at you. The timer is re-rolled after each stampede and whenever you leave Hell.
 * '''[[Special:MyLanguage/Janemba|Janemba]]''', a [[Special:MyLanguage/World Bosses|world boss]], sleeps in a ring of spikes at the very bottom of Hell, about 1,000 blocks from the centre of the Otherworld. The [[Special:MyLanguage/Hell Ogre|Hell Ogre]] next to King Yemma tells you where to find it.
 </translate>
 
 <translate>
-== Otherworld Tournament ==
+== Otherworld Tournament == <!--T:27-->
 </translate>
 {{Main|Otherworld Tournament}}
 <translate>
-Talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] and choose '''Tournament''' to be sent to the tournament grounds. The '''Otherworld Tournament Announcer''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] there and can send you back to the Grand Kai.
+<!--T:28-->
+Talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] and choose '''Tournament''' to be sent to the tournament grounds. The '''[[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] there and can send you back to the Grand Kai.
 </translate>
 
 <translate>
+<!--T:29-->
 The grounds are built automatically the first time the server runs with the Otherworld enabled. Until they are finished, the Grand Kai tells you how far along they are. The grounds are a protected arena: survival players can't build or break blocks there (see [[Special:MyLanguage/Structures#Protection|Structures]]). Inside the Otherworld, {{Command|/dmzlocate otherworld_tournament}} gives you the ring's coordinates.
 </translate>
 
 <translate>
-== Otherworld NPCs ==
+== Otherworld NPCs == <!--T:30-->
 </translate>
 {| class="wikitable"
-! <translate>NPC</translate> !! <translate>Where</translate> !! <translate>What they do</translate>
+! <translate><!--T:31--> NPC</translate> !! <translate><!--T:32--> Where</translate> !! <translate><!--T:33--> What they do</translate>
 |-
-| {{L|King Yemma}} || <translate>Cloud realm</translate> || <translate>Sends you back to the living world (your spawn point) when you're alive or on a temporary return.</translate>
+| {{L|King Yemma}} || <translate><!--T:34--> Cloud realm</translate> || <translate><!--T:35--> Sends you back to the living world (your spawn point) when you're alive or on a temporary return.</translate>
 |-
-| {{L|Fortuneteller Baba}} || <translate>Cloud realm</translate> || <translate>Grants a temporary return to the living world (see below).</translate>
+| {{L|Fortuneteller Baba}} || <translate><!--T:36--> Cloud realm</translate> || <translate><!--T:37--> Grants a temporary return to the living world (see below).</translate>
 |-
-| {{L|Grand Kai}} || <translate>Cloud realm</translate> || <translate>Story dialogue; sends you to the Otherworld Tournament grounds.</translate>
+| {{L|Grand Kai}} || <translate><!--T:38--> Cloud realm</translate> || <translate><!--T:39--> Story dialogue; sends you to the Otherworld Tournament grounds.</translate>
 |-
-| {{L|Hell Ogre}} || <translate>Cloud realm</translate> || <translate>Quest NPC about Janemba; tells you where its lair is and whether it's awake.</translate>
+| {{L|Hell Ogre}} || <translate><!--T:40--> Cloud realm</translate> || <translate><!--T:41--> Quest NPC about Janemba; tells you where its lair is and whether it's awake.</translate>
 |-
-| {{L|King Kai}} || <translate>King Kai's Planet</translate> || <translate>A master: teaches the Kaioken and the Spirit Bomb (Good alignment needed to train with him).</translate>
+| {{L|King Kai}} || <translate><!--T:42--> King Kai's Planet</translate> || <translate><!--T:43--> A master: teaches the Kaioken and the Spirit Bomb (Good alignment needed to train with him).</translate>
 |-
-| <translate>Toribot</translate> || <translate>King Kai's Planet</translate> || <translate>An easter-egg NPC with his own dialogue (see [[Special:MyLanguage/Masters#Other NPCs|Masters]]).</translate>
+| <translate><!--T:44--> Toribot</translate> || <translate><!--T:45--> King Kai's Planet</translate> || <translate><!--T:46--> An easter-egg NPC with his own dialogue (see [[Special:MyLanguage/Masters#Other NPCs|Masters]]).</translate>
 |-
-| <translate>Otherworld Tournament Announcer</translate> || <translate>Tournament grounds</translate> || <translate>Hosts the Otherworld Tournament.</translate>
+| {{L|Otherworld Tournament Announcer}} || <translate><!--T:48--> Tournament grounds</translate> || <translate><!--T:49--> Hosts the Otherworld Tournament.</translate>
 |}
 
 <translate>
-== Death and revival ==
+== Death and revival == <!--T:50-->
 </translate>
 {{Config|General Server Config|otherworldActive}}
 <translate>
+<!--T:51-->
 The Otherworld is the backbone of DragonMineZ's death system:
 * When you die, you arrive at the spirit arrival point as a haloed spirit instead of respawning normally. Dead players who end up anywhere else are moved there. Creative and spectator players are never moved.
 * While dead in the Otherworld you don't get hungry, and the Training Points you earn are multiplied by '''×2''' by default.
@@ -97,18 +106,21 @@ The Otherworld is the backbone of DragonMineZ's death system:
 </translate>
 
 <translate>
+<!--T:52-->
 Server owners can switch the whole system off. When it's off, deaths use vanilla respawn, the Otherworld regions aren't installed and the tournament grounds aren't built.
 </translate>
 
 <translate>
-=== Fortuneteller Baba's temporary return ===
+=== Fortuneteller Baba's temporary return === <!--T:53-->
 </translate>
 {{Config|General Server Config|babaTemporaryRevive}}
 <translate>
+<!--T:54-->
 [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can send a dead player back among the living. Her revive has a cooldown after each death (180 seconds by default).
 </translate>
 
 <translate>
+<!--T:55-->
 * If the server turns temporary returns off, Baba simply revives you and you are alive again.
 * By default, you stay dead (you keep your halo) but get one hour to walk the living world. Talk to [[Special:MyLanguage/King Yemma|King Yemma]] to actually travel there.
 * The timer is '''paused''' while you are in the Otherworld or knocked out. A small HUD panel shows the time left, with a <code>(xN)</code> tag when it runs faster, <code>Paused</code> in the Otherworld and <code>KO</code> while you are knocked out.
@@ -118,17 +130,19 @@ Server owners can switch the whole system off. When it's off, deaths use vanilla
 * An optional hardcore setting (off by default) makes Baba's cooldown grow with every death.
 </translate>
 
-{{Note|type=config|title=<translate>Server settings</translate>|<translate>These rules live in the <code>gameplay</code> section of the server config: <code>otherworldDeadTpMultiplier</code> (2), <code>reviveCooldownSeconds</code> (180), <code>babaTemporaryRevive</code> (on), <code>babaTempReturnSeconds</code> (3600), <code>babaTimeMultiplierPerWorld</code> and <code>defaultBabaTimeMultiplier</code> (for unlisted worlds), <code>babaHardcoreEnabled</code> (off) and <code>babaHardcoreCooldownGrowth</code> (0.5). The <code>otherworldActive</code> toggle in the <code>worldGen</code> section turns the whole Otherworld off.</translate>}}
+{{Note|type=config|title=<translate><!--T:56--> Server settings</translate>|<translate><!--T:57--> These rules live in the <code>gameplay</code> section of the server config: <code>otherworldDeadTpMultiplier</code> (2), <code>reviveCooldownSeconds</code> (180), <code>babaTemporaryRevive</code> (on), <code>babaTempReturnSeconds</code> (3600), <code>babaTimeMultiplierPerWorld</code> and <code>defaultBabaTimeMultiplier</code> (for unlisted worlds), <code>babaHardcoreEnabled</code> (off) and <code>babaHardcoreCooldownGrowth</code> (0.5). The <code>otherworldActive</code> toggle in the <code>worldGen</code> section turns the whole Otherworld off.</translate>}}
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:58-->
 </translate>
 <translate>
+<!--T:59-->
 * '''Dying''' while the Otherworld is enabled.
 * Travel by [[Special:MyLanguage/Space Pod|Space Pod]] once you complete Bulma's ''Otherworld Drive'' sidequest (the Otherworld must be enabled). The pod lands at 54, 210, 1082.
 </translate>
 
 <translate>
+<!--T:60-->
 In the story, the [[Special:MyLanguage/Movies Saga|Movies Saga]] brings you here for the Otherworld Tournament and Janemba, and the [[Special:MyLanguage/GT Saga|GT Saga]] also visits the Otherworld.
 </translate>
 

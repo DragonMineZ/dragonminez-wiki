@@ -1,12 +1,14 @@
 <translate>
+<!--T:1-->
 '''Strike attacks''' are close-range techniques: you rush to your target and unleash a powerful melee sequence such as the Dragon Fist or the Meteor. Their damage scales with your '''Strike Damage (SKP)''' and they activate the moment you press the slot key, with no charging.
 </translate>
 
 <translate>
-== How strike attacks work ==
+== How strike attacks work == <!--T:2-->
 </translate>
 {{Main|Techniques}}
 <translate>
+<!--T:3-->
 * You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand. The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] is the exception: it needs the Brave Sword in your hand.
 * When you use a strike attack, it looks for a target in front of you: your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair, within a '''6-block''' cone ('''12 blocks''' while flying). If it finds one, you appear right in front of it and the technique starts.
 * Otherwise you '''rush''': for up to '''2 seconds''' you fly forward at high speed with your aura on, or straight at your locked-on target if it is within '''64 blocks'''. The technique starts as soon as you reach an enemy, and a higher [[Special:MyLanguage/Fly|Fly]] level makes the rush faster.
@@ -20,62 +22,67 @@
 {{Config|Combat Config|strikeGlobalCooldownTicks}}
 
 <translate>
-== Strike attacks taught by masters ==
+== Strike attacks taught by masters == <!--T:4-->
 
+<!--T:5-->
 Cooldowns are before XP upgrades. The TP cost is paid once to unlock the technique.
 </translate>
 {| class="wikitable sortable"
-! <translate>Technique</translate> !! <translate>Taught by</translate> !! <translate>TP cost</translate> !! <translate>Damage multiplier</translate> !! <translate>Cooldown (seconds)</translate>
+! <translate><!--T:6--> Technique</translate> !! <translate><!--T:7--> Taught by</translate> !! <translate><!--T:8--> TP cost</translate> !! <translate><!--T:9--> Damage multiplier</translate> !! <translate><!--T:10--> Cooldown (seconds)</translate>
 |-
-| '''<translate>Meteor</translate>''' || {{L|Frieza}}, {{L|Trunks}}, {{L|Cell}} || 3,000 || ×1.25 || 8
+| '''<translate><!--T:11--> Meteor</translate>''' || {{L|Frieza}}, {{L|Trunks}}, {{L|Cell}} || 3,000 || ×1.25 || 8
 |-
-| '''<translate>Wolf Fang</translate>''' || {{L|Yamcha}} || 3,500 || ×1.25 || 7
+| '''<translate><!--T:12--> Wolf Fang</translate>''' || {{L|Yamcha}} || 3,500 || ×1.25 || 7
 |-
-| '''<translate>Kaioken Attack</translate>''' || {{L|King Kai}} || 5,000 || ×1.75 || 12
+| '''<translate><!--T:13--> Kaioken Attack</translate>''' || {{L|King Kai}} || 5,000 || ×1.75 || 12
 |-
-| '''<translate>Dragon Fist</translate>''' || {{L|Goku}} || 6,000 || ×2.5 || 16
+| '''<translate><!--T:14--> Dragon Fist</translate>''' || {{L|Goku}} || 6,000 || ×2.5 || 16
 |-
-| '''<translate>Deadly Dance</translate>''' || {{L|Krillin}}, {{L|Frieza}}, {{L|Cell}} || 8,000 || ×1.25 || 8
+| '''<translate><!--T:15--> Deadly Dance</translate>''' || {{L|Krillin}}, {{L|Frieza}}, {{L|Cell}} || 8,000 || ×1.25 || 8
 |-
 | {{L|Shining Sword Attack}} || {{L|Trunks}} || 9,000 || ×2.4 || 8
 |-
-| '''<translate>Super God Fist</translate>''' || {{L|Goku}} || 10,000 || ×2.0 || 12
+| '''<translate><!--T:16--> Super God Fist</translate>''' || {{L|Goku}} || 10,000 || ×2.0 || 12
 |-
-| '''<translate>Deadly Dance (Vegetto)</translate>''' || {{L|Vegeta}} || 12,000 || ×1.5 || 10
+| '''<translate><!--T:17--> Deadly Dance (Vegetto)</translate>''' || {{L|Vegeta}} || 12,000 || ×1.5 || 10
 |-
-| '''<translate>Spirit Breaking Cannon</translate>''' || {{L|Vegeta}} || 12,000 || ×2.2 || 12
+| '''<translate><!--T:18--> Spirit Breaking Cannon</translate>''' || {{L|Vegeta}} || 12,000 || ×2.2 || 12
 |-
-| '''<translate>Oozaru Fist</translate>''' || {{L|Goku}} || 15,000 || ×2.25 || 14
+| '''<translate><!--T:19--> Oozaru Fist</translate>''' || {{L|Goku}} || 15,000 || ×2.25 || 14
 |-
-| '''<translate>Gum Punch</translate>''' || {{L|Majin Buu}} || 4,000 || ×1.5 || 7
+| '''<translate><!--T:20--> Gum Punch</translate>''' || {{L|Majin Buu}} || 4,000 || ×1.5 || 7
 |-
-| '''<translate>Mystic Ball Attack</translate>''' || {{L|Majin Buu}} || 11,000 || ×2.4 || 14
+| '''<translate><!--T:21--> Mystic Ball Attack</translate>''' || {{L|Majin Buu}} || 11,000 || ×2.4 || 14
 |}
 
-{{Note|<translate>'''Gum Punch''' and the '''Mystic Ball Attack''' are Majin techniques: any race can learn them from Majin Buu, but only a [[Special:MyLanguage/Majin|Majin]] can equip them in a technique slot. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].</translate>}}
+{{Note|<translate><!--T:22--> '''Gum Punch''' and the '''Mystic Ball Attack''' are Majin techniques: any race can learn them from Majin Buu, but only a [[Special:MyLanguage/Majin|Majin]] can equip them in a technique slot. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].</translate>}}
 
-{{Note|<translate>The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].</translate>}}
+{{Note|<translate><!--T:23--> The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].</translate>}}
 
 <translate>
+<!--T:24-->
 The '''Dragon Fist''' sends you charging forward behind a golden dragon shaped like [[Special:MyLanguage/Shenron|Shenron]]: it bursts out in front of you with its jaws open, leaves a golden trail behind you, holds the enemies it catches and lunges at the end of the charge.
 
-The '''Mystic Ball Attack''' is a bouncing attack that Kid Buu also uses against you in the [[Special:MyLanguage/Buu Saga|Buu Saga]]. A kick launches the target into the air, then you curl up into a pink ball and slam into it six times from different directions, rise above it and dive down to stomp it into the ground. It lasts about 5 seconds: the kick deals 17% of its damage, each bounce 8% and the final stomp 35%. World bosses and giant multi-part enemies can't be carried, so they are pinned in place instead.
+<!--T:25-->
+The '''Mystic Ball Attack''' is a bouncing attack that [[Special:MyLanguage/Kid Buu|Kid Buu]] also uses against you in the [[Special:MyLanguage/Buu Saga|Buu Saga]]. A kick launches the target into the air, then you curl up into a pink ball and slam into it six times from different directions, rise above it and dive down to stomp it into the ground. It lasts about 5 seconds: the kick deals 17% of its damage, each bounce 8% and the final stomp 35%. World bosses and giant multi-part enemies can't be carried, so they are pinned in place instead.
 </translate>
 
 <translate>
-== Strike attacks not taught by default ==
+== Strike attacks not taught by default == <!--T:26-->
 
+<!--T:27-->
 No master offers these in the default lists. Server owners can add them to a master's list, and admins can grant them with {{Command|/dmztech add}}.
 </translate>
 {| class="wikitable"
-! <translate>Technique</translate> !! <translate>TP cost</translate> !! <translate>Damage multiplier</translate> !! <translate>Cooldown (seconds)</translate> !! <translate>How to get it</translate>
+! <translate><!--T:28--> Technique</translate> !! <translate><!--T:29--> TP cost</translate> !! <translate><!--T:30--> Damage multiplier</translate> !! <translate><!--T:31--> Cooldown (seconds)</translate> !! <translate><!--T:32--> How to get it</translate>
 |-
-| {{L|Meteor Burst}} || 24,000 || ×2.6 || 30 || <translate>15% drop from the {{L|Turles}} world boss. A 10-second combo that mixes strikes, a slam and ki blasts.</translate>
+| {{L|Meteor Burst}} || 24,000 || ×2.6 || 30 || <translate><!--T:33--> 15% drop from the {{L|Turles}} world boss. A 10-second combo that mixes strikes, a slam and ki blasts.</translate>
 |-
-| '''<translate>Oozaru Slam</translate>''' || 4,000 || ×1.5 || 6 || <translate>Granted while in Great Ape (Oozaru) form.</translate>
+| '''<translate><!--T:34--> Oozaru Slam</translate>''' || 4,000 || ×1.5 || 6 || <translate><!--T:35--> Granted while in Great Ape (Oozaru) form.</translate>
 |}
 
 <translate>
+<!--T:36-->
 The mod also includes these strike attacks: '''Blue Hurricane''', '''Grab Throw''', '''Meteor Combo''', '''Dimensional Fist''' and '''Dimensional Slash'''. The Grab Throw seizes the target, swings it around four times over about two and a half seconds and then throws it. The Dimensional Slash carves a crescent into the terrain it hits.
 </translate>
 

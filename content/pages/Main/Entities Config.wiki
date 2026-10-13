@@ -1,63 +1,68 @@
 <translate>
+<!--T:1-->
 <code>config/dragonminez/entities.json</code> sets the base stats of DMZ creatures and enemies, and the default stat jump when a saga enemy transforms into its next form. Like the other server configs, the server sends it to every client.
 </translate>
 
 <translate>
+<!--T:2-->
 For the creatures themselves, see the [[Special:MyLanguage/Bestiary|Bestiary]].
 </translate>
 
 <translate>
-== Keys ==
+== Keys == <!--T:3-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:4--> Key</translate> !! <translate><!--T:5--> Default</translate> !! <translate><!--T:6--> What it does</translate>
 |-
-| <code>configVersion</code> || <translate>A version string, for example <code>"2.2.0"</code></translate> || <translate>Version stamp used for config upgrades. Do not change it (see [[Special:MyLanguage/How to JSON|How to JSON]]).</translate>
+| <code>configVersion</code> || <translate><!--T:7--> A version string, for example <code>"2.2.0"</code></translate> || <translate><!--T:8--> Version stamp used for config upgrades. Do not change it (see [[Special:MyLanguage/How to JSON|How to JSON]]).</translate>
 |-
-| <code>defaultEntityStats</code> || <translate>See below</translate> || <translate>Base stats per entity id (an object).</translate>
+| <code>defaultEntityStats</code> || <translate><!--T:9--> See below</translate> || <translate><!--T:10--> Base stats per entity id (an object).</translate>
 |-
-| <code>transformDefaults</code> || <translate>See below</translate> || <translate>Default multipliers and trigger used when a saga enemy transforms (an object).</translate>
+| <code>transformDefaults</code> || <translate><!--T:11--> See below</translate> || <translate><!--T:12--> Default multipliers and trigger used when a saga enemy transforms (an object).</translate>
 |}
 
 <translate>
-== Entity base stats ==
+== Entity base stats == <!--T:13-->
 </translate>
 {{See also|Bestiary|Custom Quests}}
 <translate>
+<!--T:14-->
 <code>defaultEntityStats</code> maps an entity registry id (for example <code>"dragonminez:bandit"</code>) to a stat object:
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:15--> Key</translate> !! <translate><!--T:16--> Default</translate> !! <translate><!--T:17--> What it does</translate>
 |-
-| <code>health</code> || <code>20</code> || <translate>Max health. The default applies when the field is missing.</translate>
+| <code>health</code> || <code>20</code> || <translate><!--T:18--> Max health. The default applies when the field is missing.</translate>
 |-
-| <code>meleeDamage</code> || <code>1</code> || <translate>Melee attack damage. The default applies when the field is missing.</translate>
+| <code>meleeDamage</code> || <code>1</code> || <translate><!--T:19--> Melee attack damage. The default applies when the field is missing.</translate>
 |-
-| <code>kiDamage</code> || <code>1</code> || <translate>Ki blast damage (only for entities that have a ki blast damage attribute). The default applies when the field is missing.</translate>
+| <code>kiDamage</code> || <code>1</code> || <translate><!--T:20--> Ki blast damage (only for entities that have a ki blast damage attribute). The default applies when the field is missing.</translate>
 |}
 
 <translate>
+<!--T:21-->
 Values below <code>1</code> are raised to <code>1</code>.
 </translate>
 
 <translate>
+<!--T:22-->
 The stats are applied once, when the entity first spawns. Entities that were already in the world keep the stats they spawned with. Entities spawned for a quest use the stats written in the quest instead (see [[Special:MyLanguage/Custom Quests|Custom Quests]]), scaled by the difficulty multipliers in [[Special:MyLanguage/General Server Config|General Server Config]] (<code>easyMode*</code> / <code>hardMode*</code>); naturally spawned entities are not scaled by difficulty.
 </translate>
 
 <translate>
-=== Default entries ===
+=== Default entries === <!--T:23-->
 </translate>
 {| class="wikitable"
-! <translate>Entity id</translate> !! <translate>Name</translate> !! <code>health</code> !! <code>meleeDamage</code> !! <code>kiDamage</code>
+! <translate><!--T:24--> Entity id</translate> !! <translate><!--T:25--> Name</translate> !! <code>health</code> !! <code>meleeDamage</code> !! <code>kiDamage</code>
 |-
-| <code>dragonminez:dinokid</code> || {{L|Dinosaurs|<translate>Baby Dinosaur</translate>}} || 30.0 || 4.0 || 0.0
+| <code>dragonminez:dinokid</code> || {{L|Dinosaurs|<translate><!--T:26--> Baby Dinosaur</translate>}} || 30.0 || 4.0 || 0.0
 |-
-| <code>dragonminez:dino1</code> || {{L|Dinosaurs|<translate>Dinosaur</translate>}} || 100.0 || 8.0 || 0.0
+| <code>dragonminez:dino1</code> || {{L|Dinosaurs|<translate><!--T:27--> Dinosaur</translate>}} || 100.0 || 8.0 || 0.0
 |-
-| <code>dragonminez:dino2</code> || {{L|Dinosaurs|<translate>Large Dinosaur</translate>}} || 150.0 || 12.0 || 0.0
+| <code>dragonminez:dino2</code> || {{L|Dinosaurs|<translate><!--T:28--> Large Dinosaur</translate>}} || 150.0 || 12.0 || 0.0
 |-
-| <code>dragonminez:dino3</code> || {{L|Dinosaurs|<translate>Flying Dinosaur</translate>}} || 75.0 || 10.0 || 0.0
+| <code>dragonminez:dino3</code> || {{L|Dinosaurs|<translate><!--T:29--> Flying Dinosaur</translate>}} || 75.0 || 10.0 || 0.0
 |-
 | <code>dragonminez:sabertooth</code> || {{L|Sabertooth Tiger}} || 30.0 || 5.0 || 0.0
 |-
@@ -67,61 +72,65 @@ The stats are applied once, when the entity first spawns. Entities that were alr
 |-
 | <code>dragonminez:bandit</code> || {{L|Bandit}} || 75.0 || 10.0 || 0.0
 |-
-| <code>dragonminez:red_ribbon_soldier</code> || {{L|Red Ribbon Army|<translate>Red Ribbon's Soldier</translate>}} || 40.0 || 5.0 || 0.0
+| <code>dragonminez:red_ribbon_soldier</code> || {{L|Red Ribbon Army|<translate><!--T:30--> Red Ribbon's Soldier</translate>}} || 40.0 || 5.0 || 0.0
 |-
-| <code>dragonminez:robot1</code> || {{L|Red Ribbon Army|<translate>Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
+| <code>dragonminez:robot1</code> || {{L|Red Ribbon Army|<translate><!--T:31--> Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
 |-
-| <code>dragonminez:robot2</code> || {{L|Red Ribbon Army|<translate>Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
+| <code>dragonminez:robot2</code> || {{L|Red Ribbon Army|<translate><!--T:32--> Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
 |-
-| <code>dragonminez:robot3</code> || {{L|Red Ribbon Army|<translate>Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
+| <code>dragonminez:robot3</code> || {{L|Red Ribbon Army|<translate><!--T:33--> Red Ribbon Robot</translate>}} || 120.0 || 15.0 || 0.0
 |-
 | <code>dragonminez:mini_buu</code> || {{L|Mini Buu}} || 60.0 || 8.0 || 6.0
 |-
-| <code>dragonminez:saga_ogre_red</code> || {{L|Hell Ogre|<translate>Red Ogre</translate>}} || 200.0 || 20.0 || 0.0
+| <code>dragonminez:saga_ogre_red</code> || {{L|Hell Ogre|<translate><!--T:34--> Red Ogre</translate>}} || 200.0 || 20.0 || 0.0
 |-
-| <code>dragonminez:saga_ogre_blue</code> || {{L|Hell Ogre|<translate>Blue Ogre</translate>}} || 200.0 || 20.0 || 0.0
+| <code>dragonminez:saga_ogre_blue</code> || {{L|Hell Ogre|<translate><!--T:35--> Blue Ogre</translate>}} || 200.0 || 20.0 || 0.0
 |-
 | <code>dragonminez:mini_janemba_stampede</code> || {{L|Mini Janemba}} || 20.0 || 2.0 || 0.0
 |}
 
 <translate>
+<!--T:36-->
 You can add entries for other entity ids too: any living entity whose id is listed gets these stats when it spawns.
 </translate>
 
 <translate>
-== Spawn rates ==
+== Spawn rates == <!--T:37-->
 </translate>
 {{See also|Bestiary}}
 <translate>
+<!--T:38-->
 <code>entities.json</code> only sets stats. Where and how often creatures spawn naturally is defined by the Forge biome modifiers in <code>data/dragonminez/forge/biome_modifier/</code> (spawn weights and group sizes per biome), which a datapack can override.
 </translate>
 
 <translate>
+<!--T:39-->
 Bandits, the Red Ribbon Army, Sabertooth Tigers, Frieza's Soldiers and Mini Buus use their own spawn category, <code>dragonminez:wild_enemy</code>, with its own cap. Structures can define spawns for it in their <code>spawn_overrides</code>, as the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]] does. The spawn rules, weights and biomes of each creature are listed in the [[Special:MyLanguage/Bestiary|Bestiary]].
 </translate>
 
 <translate>
-== Saga enemy transformations ==
+== Saga enemy transformations == <!--T:40-->
 </translate>
 {{See also|Sagas}}
 <translate>
+<!--T:41-->
 Saga enemies that have a next form (for example Frieza) transform when their health drops low enough. The <code>transformDefaults</code> values are used unless the quest's kill objective sets its own.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:42--> Key</translate> !! <translate><!--T:43--> Default</translate> !! <translate><!--T:44--> What it does</translate>
 |-
-| <code>healthMultiplier</code> || <code>1.5</code> || <translate>The new form's max health is the previous form's max health × this value (minimum <code>0.1</code>).</translate>
+| <code>healthMultiplier</code> || <code>1.5</code> || <translate><!--T:45--> The new form's max health is the previous form's max health × this value (minimum <code>0.1</code>).</translate>
 |-
-| <code>meleeMultiplier</code> || <code>1.5</code> || <translate>Multiplier on the previous form's melee damage (minimum <code>0.1</code>).</translate>
+| <code>meleeMultiplier</code> || <code>1.5</code> || <translate><!--T:46--> Multiplier on the previous form's melee damage (minimum <code>0.1</code>).</translate>
 |-
-| <code>kiMultiplier</code> || <code>1.5</code> || <translate>Multiplier on the previous form's ki blast damage (minimum <code>0.1</code>).</translate>
+| <code>kiMultiplier</code> || <code>1.5</code> || <translate><!--T:47--> Multiplier on the previous form's ki blast damage (minimum <code>0.1</code>).</translate>
 |-
-| <code>triggerHealthPercent</code> || <code>0.5</code> || <translate>Fraction of max health (<code>0</code>–<code>1</code>) at which the enemy transforms.</translate>
+| <code>triggerHealthPercent</code> || <code>0.5</code> || <translate><!--T:48--> Fraction of max health (<code>0</code>–<code>1</code>) at which the enemy transforms.</translate>
 |}
 
 <translate>
-== Example ==
+== Example == <!--T:49-->
 </translate>
 <syntaxhighlight lang="json">
 {
@@ -143,17 +152,19 @@ Saga enemies that have a next form (for example Frieza) transform when their hea
 </syntaxhighlight>
 
 <translate>
-== Removed keys ==
+== Removed keys == <!--T:50-->
 </translate>
 <translate>
+<!--T:51-->
 <code>hardModeSettings</code> (<code>hpMultiplier</code>, <code>damageMultiplier</code>) no longer exists. Difficulty scaling is configured in [[Special:MyLanguage/General Server Config|General Server Config]] with <code>easyModeHPMultiplier</code>, <code>easyModeDamageMultiplier</code>, <code>hardModeHPMultiplier</code> and <code>hardModeDamageMultiplier</code>.
 </translate>
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:52-->
 </translate>
 {{See also|Reloading and Updating Changes|How to JSON}}
 <translate>
+<!--T:53-->
 # Edit <code>config/dragonminez/entities.json</code>.
 # Validate the JSON syntax.
 # Run <code>/dmzreload config</code>. New values apply to entities spawned afterwards.

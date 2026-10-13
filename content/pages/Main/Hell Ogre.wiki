@@ -1,54 +1,63 @@
 {{Infobox Mob
-|Type=<translate>Neutral; hostile to Evil players</translate>
+|Type=<translate><!--T:1--> Neutral; hostile to Evil players</translate>
 |Dimension={{L|Otherworld}}
-|Spawns=<translate>Hell's ground and stone blocks</translate>
-|Behavior=<translate>Attacks Evil-aligned players on sight, and anyone who hits an ogre</translate>
+|Spawns=<translate><!--T:2--> Hell's ground and stone blocks</translate>
+|Behavior=<translate><!--T:3--> Attacks Evil-aligned players on sight, and anyone who hits an ogre</translate>
 |Health=200
 |Damage=20
-|Drops=<translate>None</translate>
+|Drops=<translate><!--T:4--> None</translate>
 }}
 <translate>
+<!--T:5-->
 '''Hell Ogres''' are the red and blue ogres that walk the floor of Hell, below the clouds of the [[Special:MyLanguage/Otherworld|Otherworld]]. They only hunt Evil-aligned players. Another ogre, the '''Hell Ogre''' standing next to [[Special:MyLanguage/King Yemma|King Yemma]], is a quest NPC who knows where [[Special:MyLanguage/Janemba|Janemba]] sleeps.
 </translate>
 
 <translate>
-== Red and Blue Ogres ==
+== Red and Blue Ogres == <!--T:6-->
 
+<!--T:7-->
 Two ogres share the same stats and behavior: the '''Red Ogre''' and the '''Blue Ogre'''.
 </translate>
 {| class="wikitable"
-! <translate>Ogre</translate> !! <translate>Health</translate> !! <translate>Damage</translate> !! <translate>Spawn weight</translate> !! <translate>Group size</translate>
+! <translate><!--T:8--> Ogre</translate> !! <translate><!--T:9--> Health</translate> !! <translate><!--T:10--> Damage</translate> !! <translate><!--T:11--> Spawn weight</translate> !! <translate><!--T:12--> Group size</translate>
 |-
-| <translate>Red Ogre</translate> || 200 || 20 || 60 || 1–2
+| <translate><!--T:13--> Red Ogre</translate> || 200 || 20 || 60 || 1–2
 |-
-| <translate>Blue Ogre</translate> || 200 || 20 || 40 || 1–2
+| <translate><!--T:14--> Blue Ogre</translate> || 200 || 20 || 40 || 1–2
 |}
+<gallery>
+File:Hell Ogre (Blue).png|<translate><!--T:24--> Blue Ogre</translate>
+</gallery>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:15-->
 
+<!--T:16-->
 The ogres spawn on Hell's ground and stone blocks, with at most 4 ogres within 48 blocks.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:17-->
 
+<!--T:18-->
 The ogres are '''only hostile to Evil-aligned players''' (alignment 0–40). Anyone else is left alone unless they hit an ogre first, which brings the nearby ogres in too. They fight on the '''Novice''' AI tier. See [[Special:MyLanguage/Alignment|Alignment]].
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:19-->
 
+<!--T:20-->
 The ogres drop nothing.
 </translate>
 
 <translate>
-== The Hell Ogre quest NPC ==
+== The Hell Ogre quest NPC == <!--T:21-->
 
+<!--T:22-->
 In the cloud realm of the Otherworld, next to King Yemma, stands the '''Hell Ogre''', a quest NPC. He tells you about [[Special:MyLanguage/Janemba|Janemba]], whether it is awake and, once its lair is known, gives you its location at the bottom of Hell.
 </translate>
 
-{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:saga_ogre_red</code>, <code>dragonminez:saga_ogre_blue</code>}}
+{{Note|type=config|title=<translate><!--T:23--> Entity ids</translate>|<code>dragonminez:saga_ogre_red</code>, <code>dragonminez:saga_ogre_blue</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Hostile mobs{{#translation:}}]]

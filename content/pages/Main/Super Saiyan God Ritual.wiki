@@ -1,29 +1,31 @@
 {{Infobox Form
-|quote=<translate>Five pure hearts lend their power to a sixth, who rises as a Super Saiyan God.</translate>
-|Race=<translate>Saiyan</translate>
-|Group=<translate>God Ritual (1 form)</translate>
-|Form type=<translate>Ritual form: it can't be bought or selected</translate>
-|Requirements=<translate>SSJ Mastered and a pure heart (alignment 90 or more, or 10 or less); five pure-hearted Saiyans in SSJ or SSJ Mastered giving you their Ki</translate>
-|Multiplier=<translate>Your strongest unlocked form, with each stat bonus raised by 30% (45% for Mutants)</translate>
-|Drain=<translate>Ki (0.16 per tick); the form lasts 5 minutes</translate>
-|Mastery=<translate>None</translate>
+|quote=<translate><!--T:1--> Five pure hearts lend their power to a sixth, who rises as a Super Saiyan God.</translate>
+|Race=<translate><!--T:2--> Saiyan</translate>
+|Group=<translate><!--T:3--> God Ritual (1 form)</translate>
+|Form type=<translate><!--T:4--> Ritual form: it can't be bought or selected</translate>
+|Requirements=<translate><!--T:5--> SSJ Mastered and a pure heart (alignment 90 or more, or 10 or less); five pure-hearted Saiyans in SSJ or SSJ Mastered giving you their Ki</translate>
+|Multiplier=<translate><!--T:6--> Your strongest unlocked form, with each stat bonus raised by 30% (45% for Mutants)</translate>
+|Drain=<translate><!--T:7--> Ki (0.16 per tick); the form lasts 5 minutes</translate>
+|Mastery=<translate><!--T:8--> None</translate>
 }}
 <translate>
+<!--T:9-->
 The '''Super Saiyan God Ritual''' is the only way to become a '''Super Saiyan God'''. Five pure-hearted [[Special:MyLanguage/Saiyan|Saiyans]] join hands in a ring around a sixth and pour their Ki into them through [[Special:MyLanguage/Ki Transfer|Ki Transfer]]; after ten seconds of channelling, the receiver rises into the air and awakens the form. Super Saiyan God takes your strongest form and pushes it further, but it only lasts five minutes, and everyone who took part must rest before the next ritual.
 </translate>
 
 <translate>
-== Requirements ==
+== Requirements == <!--T:10-->
 </translate>
 {| class="wikitable"
-! <translate>Role</translate> !! <translate>Who</translate> !! <translate>Form</translate>
+! <translate><!--T:11--> Role</translate> !! <translate><!--T:12--> Who</translate> !! <translate><!--T:13--> Form</translate>
 |-
-| <translate>'''Receiver''' (1)</translate> || <translate>A pure-hearted Saiyan who is not fused</translate> || <translate>SSJ Mastered</translate>
+| <translate><!--T:14--> '''Receiver''' (1)</translate> || <translate><!--T:15--> A pure-hearted Saiyan who is not fused</translate> || <translate><!--T:16--> SSJ Mastered</translate>
 |-
-| <translate>'''Givers''' (5)</translate> || <translate>Pure-hearted Saiyans within 5 blocks of the receiver, and no more than 3 blocks above or below them</translate> || <translate>Super Saiyan (SSJ) or SSJ Mastered</translate>
+| <translate><!--T:17--> '''Givers''' (5)</translate> || <translate><!--T:18--> Pure-hearted Saiyans within 5 blocks of the receiver, and no more than 3 blocks above or below them</translate> || <translate><!--T:19--> Super Saiyan (SSJ) or SSJ Mastered</translate>
 |}
 
 <translate>
+<!--T:20-->
 * '''Pure heart.''' Every participant needs an [[Special:MyLanguage/Alignment|alignment]] of '''90 or more''' or '''10 or less'''. A pure good heart and a pure evil heart both count, and they can be mixed in the same ritual.
 * '''Forms.''' The receiver must be in SSJ Mastered and the givers in SSJ (the first SS Grades form) or SSJ Mastered, with no stack form such as [[Special:MyLanguage/Kaioken|Kaioken]] on top.
 * '''Rested.''' Nobody can be on the ritual cooldown (the '''God Ritual CD''' effect, see [[Special:MyLanguage/Super Saiyan God Ritual#Cooldowns|Cooldowns]]).
@@ -31,8 +33,9 @@ The '''Super Saiyan God Ritual''' is the only way to become a '''Super Saiyan Go
 </translate>
 
 <translate>
-== Performing the ritual ==
+== Performing the ritual == <!--T:21-->
 
+<!--T:22-->
 # The receiver transforms into SSJ Mastered and the five givers into SSJ or SSJ Mastered.
 # Each giver stands within 5 blocks of the receiver and gives them Ki with [[Special:MyLanguage/Ki Transfer|Ki Transfer]] ({{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}}).
 # Once five givers have each held their link for '''1 second''', the ritual begins on its own (''"Six pure hearts resonate as one..."''). The Ki Transfer links end: from here on nobody needs to hold any key.
@@ -41,15 +44,18 @@ The '''Super Saiyan God Ritual''' is the only way to become a '''Super Saiyan Go
 # '''Ascension (2 seconds).''' The receiver rises up to '''6 blocks''' into the air (less if something is in the way).
 # '''Awakening.''' A light-blue shell of light builds around the receiver for 1 second; then a flash like a fusion's marks the transformation into '''Super Saiyan God''', and the shell fades away.
 
+<!--T:23-->
 If five eligible givers are linked but something is wrong (an impure heart, someone still resting, a giver too far from the circle), the ritual doesn't start and every participant sees why.
 </translate>
 
 <translate>
-== Super Saiyan God ==
+== Super Saiyan God == <!--T:24-->
 </translate>
 <translate>
+<!--T:25-->
 Super Saiyan God is a hidden form of the Saiyan '''God Ritual''' group: it can't be bought, selected or charged.
 
+<!--T:26-->
 * '''Power.''' The form takes your strongest unlocked form, with its mastery (Legendary forms and SSJ 4 included, borrowed [[Special:MyLanguage/Mutant|Mutant]] forms excluded), and raises each of its stat bonuses by '''30%''' ('''45%''' for Mutants). For example, with SSJ 3 at 0% mastery as your best form (×3.3 STR), Super Saiyan God gives ×3.99 STR.
 * '''Look.''' Red hair and eyes, a slimmer build and a fiery God aura.
 * '''Duration.''' It lasts '''5 minutes''', then you return to base form (''"The divine Ki fades away..."''). It also ends early if you die or run out of Ki, like any other form.
@@ -60,42 +66,50 @@ Super Saiyan God is a hidden form of the Saiyan '''God Ritual''' group: it can't
 </translate>
 
 <translate>
-== Cancelling the ritual ==
+== Cancelling the ritual == <!--T:27-->
 
+<!--T:28-->
 The ritual is cancelled (''"The ritual was interrupted"'') if, before the transformation:
 
+<!--T:29-->
 * any participant takes damage adding up to more than '''25%''' of their max health;
 * any participant dies, logs out or changes dimension;
 * the receiver leaves SSJ Mastered, or a giver leaves SSJ or SSJ Mastered.
 
+<!--T:30-->
 Everyone involved, fusion partners included, then gets a '''30-second''' ritual cooldown. A receiver who was already in the air floats down with Slow Falling.
 </translate>
 
 <translate>
-== Cooldowns ==
+== Cooldowns == <!--T:31-->
 
+<!--T:32-->
 After a successful ritual, every participant must rest for '''30 minutes''' before taking part in another one, as giver or receiver. The cooldown of the givers (and of their fusion partners) starts when the receiver transforms; the receiver's starts when Super Saiyan God ends. The cooldown shows as the '''God Ritual CD''' effect, and admins can remove it with <code>/dmzeffect clear</code> (see [[Special:MyLanguage/Effects|Effects]]).
 </translate>
 
 <translate>
-== Fusions as givers ==
+== Fusions as givers == <!--T:33-->
 </translate>
 {{See also|Fusions}}
 <translate>
+<!--T:34-->
 A fused player can take part as a giver:
 
+<!--T:35-->
 * a fusion of '''two Saiyans''' counts as '''two''' givers, so fewer bodies can fill the ring (for example three players and one fusion);
 * a fusion with any other race doesn't count at all;
 * both members of the fusion need a pure heart and must not be on the ritual cooldown, and both get the cooldown afterwards.
 
+<!--T:36-->
 A fusion can never be the receiver.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:37-->
 </translate>
 {{Config|General Server Config|superSaiyanGodRitual}}
 <translate>
+<!--T:38-->
 All values on this page are defaults. Server owners can change the number of givers, the forms and alignment they need, the size of the circle, the timings, the power bonus, the duration and the cooldowns, or switch the ritual off. The look and the drain of the form are set in its form file, like any other Saiyan form.
 </translate>
 {{See also|Ki Transfer|Custom Forms}}

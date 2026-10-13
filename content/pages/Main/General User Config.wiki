@@ -1,17 +1,20 @@
 <translate>
+<!--T:1-->
 <code>general-user.json</code> stores the personal, client-side settings of DragonMineZ: HUD behavior, menu scale, the flight camera, the over-the-shoulder camera, aura style, tutorials and other visual options. It never affects server balance, and it is the only config file in <code>config/dragonminez</code> that the server does '''not''' send to clients: every player keeps their own copy.
 </translate>
 
 <translate>
+<!--T:2-->
 The file lives at <code>config/dragonminez/general-user.json</code> in the client's game folder. Almost every option can be changed in-game from the '''Configuration''' screen of the character menu (Interface, Gameplay, Visuals and Audio categories), which saves this file for you. Editing the file by hand is only needed for the few keys that have no button.
 </translate>
 
-{{Note|type=info|title=<translate>HUD layout</translate>|text=<translate>The HUD layout (style, position and scale of every HUD element) is not stored here. It lives in <code>config/dragonminez/hud_layout.json</code> and is edited with the HUD editor; see [[Special:MyLanguage/HUD|HUD]].</translate>}}
+{{Note|type=info|title=<translate><!--T:3--> HUD layout</translate>|text=<translate><!--T:4--> The HUD layout (style, position and scale of every HUD element) is not stored here. It lives in <code>config/dragonminez/hud_layout.json</code> and is edited with the HUD editor; see [[Special:MyLanguage/HUD|HUD]].</translate>}}
 
 <translate>
-== Full example ==
+== Full example == <!--T:5-->
 </translate>
 <translate>
+<!--T:6-->
 A freshly generated file with every default value:
 </translate>
 
@@ -52,131 +55,136 @@ A freshly generated file with every default value:
 </syntaxhighlight>
 
 <translate>
-== Config version ==
+== Config version == <!--T:7-->
 </translate>
 {{See also|How to JSON}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:8--> Key</translate> !! <translate><!--T:9--> Default</translate> !! <translate><!--T:10--> What it does</translate>
 |-
-| <code>configVersion</code> || <translate>A version string, for example <code>"2.2.0"</code></translate> || <translate>Do not change it. DMZ uses it to upgrade the file after a mod update, keeping the values you changed.</translate>
+| <code>configVersion</code> || <translate><!--T:11--> A version string, for example <code>"2.2.0"</code></translate> || <translate><!--T:12--> Do not change it. DMZ uses it to upgrade the file after a mod update, keeping the values you changed.</translate>
 |}
 
 <translate>
-== Interface ==
+== Interface == <!--T:13-->
 </translate>
 {{See also|HUD|Menus}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>In-game option</translate> !! <translate>What it does</translate>
+! <translate><!--T:14--> Key</translate> !! <translate><!--T:15--> Default</translate> !! <translate><!--T:16--> In-game option</translate> !! <translate><!--T:17--> What it does</translate>
 |-
-| <code>alwaysVisibleHudValues</code> || <code>false</code> || <translate>Always Visible HUD Values</translate> || <translate><code>false</code>: the numbers on the HUD bars fade out shortly after the value stops changing. <code>true</code>: they stay visible.</translate>
+| <code>alwaysVisibleHudValues</code> || <code>false</code> || <translate><!--T:18--> Always Visible HUD Values</translate> || <translate><!--T:19--> <code>false</code>: the numbers on the HUD bars fade out shortly after the value stops changing. <code>true</code>: they stay visible.</translate>
 |-
-| <code>hideHudNumbers</code> || <code>false</code> || <translate>Hide HUD Numbers</translate> || <translate>Hides the numbers on the HUD bars and the party HUD completely.</translate>
+| <code>hideHudNumbers</code> || <code>false</code> || <translate><!--T:20--> Hide HUD Numbers</translate> || <translate><!--T:21--> Hides the numbers on the HUD bars and the party HUD completely.</translate>
 |-
-| <code>partyMarkers</code> || <code>true</code> || <translate>Party Markers</translate> || <translate>Shows on-screen markers over your party members (within the server's <code>partyMarkerRange</code>, see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
+| <code>partyMarkers</code> || <code>true</code> || <translate><!--T:22--> Party Markers</translate> || <translate><!--T:23--> Shows on-screen markers over your party members (within the server's <code>partyMarkerRange</code>, see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
 |-
-| <code>showAccumulativeDamage</code> || <code>true</code> || <translate>Ki Sense - Accumulative Damage</translate> || <translate>Shows the accumulated damage dealt to a target in the Ki Sense display.</translate>
+| <code>showAccumulativeDamage</code> || <code>true</code> || <translate><!--T:24--> Ki Sense - Accumulative Damage</translate> || <translate><!--T:25--> Shows the accumulated damage dealt to a target in the Ki Sense display.</translate>
 |-
-| <code>advancedDescription</code> || <code>true</code> || <translate>Advanced Description</translate> || <translate>Shows the value of each HUD bar (health, ki, stamina) next to it.</translate>
+| <code>advancedDescription</code> || <code>true</code> || <translate><!--T:26--> Advanced Description</translate> || <translate><!--T:27--> Shows the value of each HUD bar (health, ki, stamina) next to it.</translate>
 |-
-| <code>advancedDescriptionPercentage</code> || <code>true</code> || <translate>Adv. Desc. (Percentage)</translate> || <translate><code>true</code>: those values are shown as a percentage (<code>75%</code>). <code>false</code>: as current / maximum (<code>150 / 200</code>).</translate>
+| <code>advancedDescriptionPercentage</code> || <code>true</code> || <translate><!--T:28--> Adv. Desc. (Percentage)</translate> || <translate><!--T:29--> <code>true</code>: those values are shown as a percentage (<code>75%</code>). <code>false</code>: as current / maximum (<code>150 / 200</code>).</translate>
 |-
-| <code>hexagonStatsDisplay</code> || <code>false</code> || <translate>Hexagon Stats Display</translate> || <translate>Shows the stats screen as a hexagon chart instead of the list view.</translate>
+| <code>hexagonStatsDisplay</code> || <code>false</code> || <translate><!--T:30--> Hexagon Stats Display</translate> || <translate><!--T:31--> Shows the stats screen as a hexagon chart instead of the list view.</translate>
 |-
-| <code>menuScaleMultiplier</code> || <code>0.75</code> || <translate>Menu Panel Scale</translate> || <translate>Scale of the DMZ menu panels. The in-game option ranges from <code>0.5</code> to <code>2.5</code>.</translate>
+| <code>menuScaleMultiplier</code> || <code>0.75</code> || <translate><!--T:32--> Menu Panel Scale</translate> || <translate><!--T:33--> Scale of the DMZ menu panels. The in-game option ranges from <code>0.5</code> to <code>2.5</code>.</translate>
 |-
-| <code>utilityMenuScaleMultiplier</code> || <code>1.0</code> || <translate>Utility Menu Scale</translate> || <translate>Scale of the utility menu (default key <code>X</code>). The in-game option ranges from <code>0.5</code> to <code>2.5</code>.</translate>
+| <code>utilityMenuScaleMultiplier</code> || <code>1.0</code> || <translate><!--T:34--> Utility Menu Scale</translate> || <translate><!--T:35--> Scale of the utility menu (default key <code>X</code>). The in-game option ranges from <code>0.5</code> to <code>2.5</code>.</translate>
 |-
-| <code>tutorialsEnabled</code> || <code>true</code> || <translate>Tutorials</translate> || <translate>Shows the interactive tutorials.</translate>
+| <code>tutorialsEnabled</code> || <code>true</code> || <translate><!--T:36--> Tutorials</translate> || <translate><!--T:37--> Shows the interactive tutorials.</translate>
 |-
-| <code>tutorialsSeen</code> || <code>[]</code> || <translate>Show Tutorials Again (button)</translate> || <translate>List of the ids of the tutorials you have already completed. The button clears this list.</translate>
+| <code>tutorialsSeen</code> || <code>[]</code> || <translate><!--T:38--> Show Tutorials Again (button)</translate> || <translate><!--T:39--> List of the ids of the tutorials you have already completed. The button clears this list.</translate>
 |}
 
 <translate>
+<!--T:40-->
 The '''HUD Layout''' button in the same category opens the HUD editor (see [[Special:MyLanguage/HUD|HUD]]).
 </translate>
 
 <translate>
-== Gameplay ==
+== Gameplay == <!--T:41-->
 </translate>
 {{See also|Controls|Training Minigames}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>In-game option</translate> !! <translate>What it does</translate>
+! <translate><!--T:42--> Key</translate> !! <translate><!--T:43--> Default</translate> !! <translate><!--T:44--> In-game option</translate> !! <translate><!--T:45--> What it does</translate>
 |-
-| <code>cameraMovementDuringFlight</code> || <code>true</code> || <translate>Camera Movement while Flying</translate> || <translate>Tilts (banks) the camera with the flight turns.</translate>
+| <code>cameraMovementDuringFlight</code> || <code>true</code> || <translate><!--T:46--> Camera Movement while Flying</translate> || <translate><!--T:47--> Tilts (banks) the camera with the flight turns.</translate>
 |-
-| <code>flightTurnSensitivity</code> || <code>0.75</code> || <translate>Flight Turn Sensitivity</translate> || <translate>Mouse turn sensitivity while flying, clamped to <code>0.2</code>–<code>2.0</code>.</translate>
+| <code>flightTurnSensitivity</code> || <code>0.75</code> || <translate><!--T:48--> Flight Turn Sensitivity</translate> || <translate><!--T:49--> Mouse turn sensitivity while flying, clamped to <code>0.2</code>–<code>2.0</code>.</translate>
 |-
-| <code>overShoulderMode</code> || <code>2</code> || <translate>Over Shoulder Camera → Mode</translate> || <translate>Over-the-shoulder third-person camera: <code>0</code> = Disabled, <code>1</code> = Lock-On Only, <code>2</code> = Always.</translate>
+| <code>overShoulderMode</code> || <code>2</code> || <translate><!--T:50--> Over Shoulder Camera → Mode</translate> || <translate><!--T:51--> Over-the-shoulder third-person camera: <code>0</code> = Disabled, <code>1</code> = Lock-On Only, <code>2</code> = Always.</translate>
 |-
-| <code>overShoulderLeft</code> || <code>false</code> || <translate>Over Shoulder Camera → Side</translate> || <translate><code>true</code> puts the camera over the left shoulder, <code>false</code> over the right one.</translate>
+| <code>overShoulderLeft</code> || <code>false</code> || <translate><!--T:52--> Over Shoulder Camera → Side</translate> || <translate><!--T:53--> <code>true</code> puts the camera over the left shoulder, <code>false</code> over the right one.</translate>
 |-
-| <code>overShoulderBack</code> || <code>3.0</code> || <translate>Over Shoulder Camera</translate> || <translate>Camera distance behind the player.</translate>
+| <code>overShoulderBack</code> || <code>3.0</code> || <translate><!--T:54--> Over Shoulder Camera</translate> || <translate><!--T:55--> Camera distance behind the player.</translate>
 |-
-| <code>overShoulderUp</code> || <code>0.35</code> || <translate>Over Shoulder Camera</translate> || <translate>Camera height offset.</translate>
+| <code>overShoulderUp</code> || <code>0.35</code> || <translate><!--T:56--> Over Shoulder Camera</translate> || <translate><!--T:57--> Camera height offset.</translate>
 |-
-| <code>overShoulderSide</code> || <code>1.45</code> || <translate>Over Shoulder Camera</translate> || <translate>Camera sideways offset.</translate>
+| <code>overShoulderSide</code> || <code>1.45</code> || <translate><!--T:58--> Over Shoulder Camera</translate> || <translate><!--T:59--> Camera sideways offset.</translate>
 |-
-| <code>overShoulderSmoothing</code> || <code>0.4</code> || <translate>Over Shoulder Camera</translate> || <translate>How quickly the camera follows (higher is snappier). Values of <code>0</code> or less reset to <code>0.4</code>; capped at <code>1.0</code>.</translate>
+| <code>overShoulderSmoothing</code> || <code>0.4</code> || <translate><!--T:60--> Over Shoulder Camera</translate> || <translate><!--T:61--> How quickly the camera follows (higher is snappier). Values of <code>0</code> or less reset to <code>0.4</code>; capped at <code>1.0</code>.</translate>
 |-
-| <code>rhythmAudioOffsetMs</code> || <code>60</code> || <translate>Rhythm minigame calibration</translate> || <translate>Audio delay compensation for the Rhythm training minigame, in milliseconds. Set by the calibration screen of that minigame.</translate>
+| <code>rhythmAudioOffsetMs</code> || <code>60</code> || <translate><!--T:62--> Rhythm minigame calibration</translate> || <translate><!--T:63--> Audio delay compensation for the Rhythm training minigame, in milliseconds. Set by the calibration screen of that minigame.</translate>
 |-
-| <code>reserveFirstHotbarSlot</code> || <code>false</code> || <translate>Reserve First Hotbar Slot</translate> || <translate>Keeps hotbar slot 1 free: items you pick up, quest rewards and <code>/give</code> never go into it. The choice is sent to the server and saved with your player data.</translate>
+| <code>reserveFirstHotbarSlot</code> || <code>false</code> || <translate><!--T:64--> Reserve First Hotbar Slot</translate> || <translate><!--T:65--> Keeps hotbar slot 1 free: items you pick up, quest rewards and <code>/give</code> never go into it. The choice is sent to the server and saved with your player data.</translate>
 |}
 
 <translate>
+<!--T:66-->
 When the server has [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] enabled, the Gameplay category also shows one '''Stat Growth''' toggle per stat. Those toggles are stored in your player data on the server, not in this file.
 </translate>
 
 <translate>
-== Visuals ==
+== Visuals == <!--T:67-->
 </translate>
 {{See also|Character Customization}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>In-game option</translate> !! <translate>What it does</translate>
+! <translate><!--T:68--> Key</translate> !! <translate><!--T:69--> Default</translate> !! <translate><!--T:70--> In-game option</translate> !! <translate><!--T:71--> What it does</translate>
 |-
-| <code>aura3DPersonal</code> || <code>false</code> || <translate>My Aura - 3D Style</translate> || <translate>Draws your aura with the 3D shader aura instead of the 2D sprite aura. Your choice is shared with the server, so other players also see your aura in the style you picked.</translate>
+| <code>aura3DPersonal</code> || <code>false</code> || <translate><!--T:72--> My Aura - 3D Style</translate> || <translate><!--T:73--> Draws your aura with the 3D shader aura instead of the 2D sprite aura. Your choice is shared with the server, so other players also see your aura in the style you picked.</translate>
 |-
-| <code>aura3DStyle</code> || <code>"smooth"</code> || <translate>My Aura - 3D Type</translate> || <translate>3D aura type for your aura: <code>smooth</code>, <code>sparking</code> or <code>god</code>. <code>god</code> only works for the [[Special:MyLanguage/Glind|Glind]] race (other races show <code>smooth</code>, and the setting comes back if you play a Glind again). Any other value falls back to <code>smooth</code>.</translate>
+| <code>aura3DStyle</code> || <code>"smooth"</code> || <translate><!--T:74--> My Aura - 3D Type</translate> || <translate><!--T:75--> 3D aura type for your aura: <code>smooth</code>, <code>sparking</code> or <code>god</code>. <code>god</code> only works for the [[Special:MyLanguage/Glind|Glind]] race (other races show <code>smooth</code>, and the setting comes back if you play a Glind again). Any other value falls back to <code>smooth</code>.</translate>
 |-
-| <code>aura3DEntities</code> || <code>false</code> || <translate>Enemy Auras - 3D Style</translate> || <translate>Draws the auras of NPCs and enemies with the 3D shader aura. (Other players use the style they picked themselves.)</translate>
+| <code>aura3DEntities</code> || <code>false</code> || <translate><!--T:76--> Enemy Auras - 3D Style</translate> || <translate><!--T:77--> Draws the auras of NPCs and enemies with the 3D shader aura. (Other players use the style they picked themselves.)</translate>
 |-
-| <code>transformationOutlines</code> || <code>true</code> || <translate>Transformation Outlines</translate> || <translate>Shows the outline effect while transforming.</translate>
+| <code>transformationOutlines</code> || <code>true</code> || <translate><!--T:78--> Transformation Outlines</translate> || <translate><!--T:79--> Shows the outline effect while transforming.</translate>
 |-
-| <code>impactFramesEnabled</code> || <code>false</code> || <translate>Enable Impact Frames</translate> || <translate>Enables the impact-frame screen flashes some hits and ki attacks trigger.</translate>
+| <code>impactFramesEnabled</code> || <code>false</code> || <translate><!--T:80--> Enable Impact Frames</translate> || <translate><!--T:81--> Enables the impact-frame screen flashes some hits and ki attacks trigger.</translate>
 |-
-| <code>firstPersonAnimated</code> || <code>true</code> || <translate>Use Animated First Person Model</translate> || <translate>Uses the animated DMZ model in first person.</translate>
+| <code>firstPersonAnimated</code> || <code>true</code> || <translate><!--T:82--> Use Animated First Person Model</translate> || <translate><!--T:83--> Uses the animated DMZ model in first person.</translate>
 |-
-| <code>taiyokenInvertPalette</code> || <code>false</code> || <translate>Solar Flare - Invert Palette</translate> || <translate>Inverts the colors of the Solar Flare (Taiyoken) blinding flash.</translate>
+| <code>taiyokenInvertPalette</code> || <code>false</code> || <translate><!--T:84--> Solar Flare - Invert Palette</translate> || <translate><!--T:85--> Inverts the colors of the Solar Flare (Taiyoken) blinding flash.</translate>
 |-
-| <code>hairPhysicsQuality</code> || <code>"HIGH"</code> || <translate>None (file only)</translate> || <translate>Hair physics quality: <code>HIGH</code>, <code>LOW</code> or <code>OFF</code>. <code>LOW</code> uses fewer simulation steps; far-away players always use reduced or no physics. Unknown values count as <code>HIGH</code>.</translate>
+| <code>hairPhysicsQuality</code> || <code>"HIGH"</code> || <translate><!--T:86--> None (file only)</translate> || <translate><!--T:87--> Hair physics quality: <code>HIGH</code>, <code>LOW</code> or <code>OFF</code>. <code>LOW</code> uses fewer simulation steps; far-away players always use reduced or no physics. Unknown values count as <code>HIGH</code>.</translate>
 |}
 
 <translate>
-== Audio ==
+== Audio == <!--T:88-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>In-game option</translate> !! <translate>What it does</translate>
+! <translate><!--T:89--> Key</translate> !! <translate><!--T:90--> Default</translate> !! <translate><!--T:91--> In-game option</translate> !! <translate><!--T:92--> What it does</translate>
 |-
-| <code>kiSoundVolume</code> || <code>100</code> || <translate>Ki Sound Volume (%)</translate> || <translate>Volume of DMZ's ki sounds (charging, ki blasts, beams and lasers), from <code>0</code> to <code>100</code>%, on top of Minecraft's own volume sliders.</translate>
+| <code>kiSoundVolume</code> || <code>100</code> || <translate><!--T:93--> Ki Sound Volume (%)</translate> || <translate><!--T:94--> Volume of DMZ's ki sounds (charging, ki blasts, beams and lasers), from <code>0</code> to <code>100</code>%, on top of Minecraft's own volume sliders.</translate>
 |}
 
 <translate>
-== Removed and moved keys ==
+== Removed and moved keys == <!--T:95-->
 </translate>
 <translate>
+<!--T:96-->
 Files from older versions are upgraded automatically on the first launch:
 </translate>
 
 <translate>
+<!--T:97-->
 * <code>alternativeHud</code>, <code>hudStyle</code> and <code>hudLayout</code> are moved into <code>hud_layout.json</code> (the HUD style becomes the layout's style).
 * <code>xenoverseHudPosX</code>, <code>xenoverseHudPosY</code>, <code>xenoverseHudScale</code>, <code>healthBarPosX</code>, <code>healthBarPosY</code>, <code>energyBarPosX</code>, <code>energyBarPosY</code>, <code>staminaBarPosX</code>, <code>staminaBarPosY</code>, <code>techniqueHotbarRightSide</code> and <code>liveCrowdinTranslations</code> are removed. HUD positions are now set in the HUD editor.
 </translate>
 
 <translate>
-== Reloading ==
+== Reloading == <!--T:98-->
 </translate>
 {{See also|Reloading and Updating Changes}}
 <translate>
+<!--T:99-->
 This file is read by the client. Changes made from the Configuration screen apply immediately. If you edit the file by hand, restart the game to apply them (in singleplayer, <code>/dmzreload config</code> also re-reads it). A dedicated server never reads or sends your copy.
 </translate>
 

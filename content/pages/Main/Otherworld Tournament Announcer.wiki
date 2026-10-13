@@ -1,0 +1,46 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> NPC, tournament host</translate>
+|Dimension={{L|Otherworld}}
+|Spawns=<translate><!--T:2--> Placed on the Otherworld Tournament grounds once they are built</translate>
+|Behavior=<translate><!--T:3--> Friendly; talks to every player; can't be hurt</translate>
+|Abilities=<translate><!--T:4--> Tournament screen; Return (teleport to the Grand Kai)</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+The '''Otherworld Tournament Announcer''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] on the tournament grounds of the [[Special:MyLanguage/Otherworld|Otherworld]]. Talk to him to enter the tournament, or to be sent back to the [[Special:MyLanguage/Grand Kai|Grand Kai]].
+</translate>
+
+<translate>
+== Finding him == <!--T:7-->
+
+<!--T:8-->
+The announcer stands on the Otherworld Tournament grounds, on the upper cloud deck of the Otherworld, at about −25, 352, −1165 (the ring centre is at 0, 355, −1200). To get there, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] in the cloud realm and press '''Tournament'''.
+
+<!--T:9-->
+The grounds are built automatically the first time the server runs with the Otherworld enabled, and the announcer is only placed once they are finished. Until then, the Grand Kai tells you how far along they are.
+</translate>
+
+<translate>
+== In the tournament == <!--T:10-->
+
+<!--T:11-->
+The announcer is the host of the Otherworld Tournament, a five-star bracket that ends with [[Special:MyLanguage/Pikkon|Pikkon]], [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gogeta|Gogeta]]. Press '''Tournament''' in his dialogue to open the tournament screen, then '''Enter''' while you are within 12 blocks of him. See [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] for the fighters and rewards, and [[Special:MyLanguage/Tournaments|Tournaments]] for how entering and bouts work.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:12-->
+
+<!--T:13-->
+Right-click the announcer to open his dialogue. He greets you with one of several welcome lines and offers two options:
+* '''Tournament''': opens the tournament screen (see above).
+* '''Return''': teleports you back to the Grand Kai in the cloud realm and closes the window.
+
+<!--T:14-->
+He teaches no skills and gives no quests. He talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]]. Like the [[Special:MyLanguage/Masters|masters]], he stays in place, can't be pushed and can't be hurt.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:15--> Entity id</translate>|<code>dragonminez:master_otherworld_announcer</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

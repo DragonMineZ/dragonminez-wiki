@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "Spiritualist",
+  "translation": "Espiritualista",
+  "outdated": false
+ },
+ "1": {
+  "source": "The ki caster: enormous energy scaling, weak body.",
+  "translation": "O conjurador de ki: escalonamento de energia enorme, corpo frágil.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Ki Mastery",
+  "translation": "Domínio de Ki",
+  "outdated": false
+ },
+ "3": {
+  "source": "Ki attacks from range",
+  "translation": "Ataques de Ki à distância",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.156, STM 0.7",
+  "translation": "DEF 0.156, STM 0.7",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Spiritualist''' is the ki caster among the [[Special:MyLanguage/Classes|classes]]. It has the highest Energy scaling in the game and a passive that shortens the cooldowns of its damaging ki attacks, at the cost of the weakest physical stats.",
+  "translation": "'''Espiritualista''' é o conjurador de ki entre as [[Special:MyLanguage/Classes|classes]]. Tem o maior escalonamento de Energia do jogo e uma passiva que encurta as recargas dos seus ataques de ki ofensivos, ao custo dos atributos físicos mais fracos.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Ki Mastery ==",
+  "translation": "== Passiva: Domínio de Ki ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* Damaging ki attacks get '''−20%''' cooldown.\n* Damaging ki attacks that also apply a '''debuff''' get '''−15%''' cooldown instead, but their debuff lasts '''+25%''' longer.",
+  "translation": "* Os ataques de ki que causam dano recebem '''−20%''' de recarga.\n* Os ataques de ki que causam dano e também aplicam um '''efeito negativo''' recebem '''−15%''' de recarga em vez disso, mas o efeito negativo dura '''+25%''' mais.",
+  "outdated": false
+ },
+ "8": {
+  "source": "See [[Special:MyLanguage/Ki Attacks|Ki Attacks]] for the techniques it applies to.",
+  "translation": "Veja [[Special:MyLanguage/Ki Attacks|Ataques de Ki]] para as técnicas às quais ela se aplica.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Atributos iniciais e regeneração ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "* '''Starting stats:''' PWR 10 · ENE 10\n* '''Regeneration''' (per 5 seconds): health 0.5 (+0.015 per VIT) · Ki 8.0 (+0.20 per ENE) · stamina 5.0 (+0.01875 per VIT, +0.025 per RES)",
+  "translation": "* '''Atributos iniciais:''' PWR 10 · ENE 10\n* '''Regeneração''' (a cada 5 segundos): vida 0.5 (+0.015 por VIT) · Ki 8.0 (+0.20 por ENE) · estâmina 5.0 (+0.01875 por VIT, +0.025 por RES)",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalonamento de atributos ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "The Spiritualist's standout scaling is '''Energy''' (3.7), with a good Ki Power scaling (1.9). Its Strength (0.3) and Strike Power (0.5) scalings are among the lowest of all classes. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "O escalonamento de destaque do Espiritualista é '''Energia''' (3.7), com um bom escalonamento de Força do Ki (1.9). Seus escalonamentos de Força (0.3) e Poder de Golpe (0.5) estão entre os mais baixos de todas as classes. Os valores de VIT e DEF crescem em curva conforme você investe mais, até 4 vezes a taxa inicial. Compare todas as classes na página [[Special:MyLanguage/Classes#Default stat scalings|Classes]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "The class id is <code>spiritualist</code>. Its passive values are <code>cdPrimary</code> (0.20), <code>cdSecondary</code> (0.15) and <code>durationBonus</code> (0.25), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings and regeneration.",
+  "translation": "O id da classe é <code>spiritualist</code>. Os valores da passiva são <code>cdPrimary</code> (0.20), <code>cdSecondary</code> (0.15) e <code>durationBonus</code> (0.25), definidos por raça em <code>races/&lt;race&gt;/stats.json</code> junto com os atributos iniciais, os escalonamentos e a regeneração.",
+  "outdated": false
+ }
+}

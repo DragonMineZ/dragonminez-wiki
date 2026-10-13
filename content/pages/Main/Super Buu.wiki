@@ -1,0 +1,92 @@
+{{Infobox Mob
+|forms=Super Buu; Absorbed Piccolo; Absorbed Gotenks; Absorbed Gohan
+|Absorbed Piccolo_image=Super Buu (Piccolo).png
+|Absorbed Gotenks_image=Super Buu (Gotenks).png
+|Absorbed Gohan_image=Super Buu (Gohan).png
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Otherworld}}, {{L|Earth}}, {{L|Hyperbolic Time Chamber}}
+|Spawns={{L|Otherworld Tournament}}, {{L|Buu Saga}}
+|Behavior=<translate><!--T:2--> Flies; Smart or Elite AI in the tournament</translate>
+|Abilities=<translate><!--T:3--> Gum Punch, Ki Wave, Zanzoken, teleport; extra attacks for each absorbed fighter</translate>
+|Drops=<translate><!--T:4--> None</translate>
+}}
+<translate>
+<!--T:5-->
+'''Super Buu''' is one of the forms of [[Special:MyLanguage/Majin Buu|Majin Buu]] that you fight in the [[Special:MyLanguage/Buu Saga|Buu Saga]], and a possible contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. He comes in four versions: Super Buu himself and the three he becomes after absorbing Piccolo, Gotenks or Gohan, each with its own extra ki attacks and combos.
+</translate>
+
+<translate>
+== In the tournament == <!--T:6-->
+
+<!--T:7-->
+Super Buu is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. Any of his four versions can be drawn, but only one per bracket: the tournament counts them as the same fighter. He counts as a different fighter from the other forms of Majin Buu, so he can share a bracket with them. Like every contender, he is drawn at random and revealed once everybody accepts the rules.
+
+<!--T:8-->
+He doesn't absorb anyone during a bout: each absorbed version is its own fighter.
+
+<!--T:9-->
+His stats come from the [[Special:MyLanguage/Tournaments#Configuration|contender entry]] that drew him: by default between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, on the Smart AI tier for the four weakest entries and Elite for the other five. He gets 8% stronger for every round already played.
+
+<!--T:10-->
+Hover him on the tournament screen to see his stats; with Bulma's '''Threat Database''' scan data you also see his ki attacks and combos.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:11-->
+
+<!--T:12-->
+Every version of Super Buu is a little bigger than a normal fighter. He flies, uses the strongest [[Special:MyLanguage/Sagas#Enemy AI tiers|Zanzoken]] (6 after-image hops), can teleport next to you and can hop back when you hit him. All four versions share these moves:
+
+<!--T:13-->
+* '''Ki Blast''' and '''Ki Wave:''' pink ki blasts and a pink ki wave.
+* '''Gum Punch:''' he appears in front of you and sends you flying with one heavy punch.
+* '''Gum Expand:''' a lighter blow that pushes you back.
+* '''Melee Combo:''' he blinks around you for three hits; the last one knocks you away.
+* '''Aerial Combo:''' he knocks you into the air, appears above you and slams you back down.
+
+<!--T:14-->
+Each version adds its own attacks on top, listed under Forms below.
+</translate>
+
+<translate>
+== Forms == <!--T:15-->
+
+<!--T:16-->
+The four versions share the moves above and add these:
+</translate>
+{| class="wikitable"
+! <translate><!--T:17--> Version</translate> !! <translate><!--T:18--> Extra ki attacks</translate> !! <translate><!--T:19--> Extra combos</translate> !! <translate><!--T:20--> Notes</translate>
+|-
+| <translate><!--T:21--> Super Buu</translate> || <translate><!--T:22--> Assault Rain</translate> || — || —
+|-
+| <translate><!--T:23--> Super Buu (Piccolo)</translate> || <translate><!--T:24--> Special Beam Cannon, Death Ball</translate> || — || —
+|-
+| <translate><!--T:25--> Super Buu (Gotenks)</translate> || <translate><!--T:26--> Kamehameha, Special Beam Cannon</translate> || <translate><!--T:27--> Meteor Combination, Rapid Kicks</translate> || —
+|-
+| <translate><!--T:28--> Super Buu (Gohan)</translate> || <translate><!--T:29--> Kamehameha, Masenko, Aerial Ki Volley</translate> || <translate><!--T:30--> Meteor Combination, Ki Charge Strike</translate> || <translate><!--T:31--> Own model; crackles with red lightning; uses his combos and Zanzoken more often</translate>
+|}
+<translate>
+<!--T:32-->
+* '''Assault Rain:''' a pink ki barrage. [[Special:MyLanguage/Majin Buu|Majin Buu]] teaches the same attack to players.
+* '''Meteor Combination:''' six hits, then a Kamehameha fired from above you.
+* '''Rapid Kicks:''' a quick flurry of kicks at close range.
+* '''Ki Charge Strike:''' he charges into you, then teleports behind you for a final blow.
+</translate>
+
+<translate>
+== In the story == <!--T:36-->
+
+<!--T:37-->
+* [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 22, '''Super Buu in the Time Chamber''': defeat Super Buu inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].
+* Buu Saga quest 25, '''Super Buu Returns''': defeat him again in Earth's Rocky biome.
+* Buu Saga quest 26, '''Super Buu Gotenks''': defeat Super Buu (Gotenks) in Earth's Rocky biome.
+* Buu Saga quest 27, '''Super Buu Gohan''': defeat Super Buu (Gohan) in Earth's Rocky biome.
+
+<!--T:38-->
+No default quest uses Super Buu (Piccolo): he only appears as an Otherworld Tournament contender.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:39--> Entity ids</translate>|<code>dragonminez:saga_superbuu</code>, <code>dragonminez:saga_superbuu_piccolo</code>, <code>dragonminez:saga_superbuu_gotenks</code>, <code>dragonminez:saga_superbuu_gohan</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

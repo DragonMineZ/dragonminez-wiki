@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "Cleric",
+  "translation": "Clérigo",
+  "outdated": false
+ },
+ "1": {
+  "source": "The support caster: a huge energy pool and healing uptime.",
+  "translation": "El lanzador de apoyo: una enorme reserva de energía y curación constante.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Blessing",
+  "translation": "Bendición",
+  "outdated": false
+ },
+ "3": {
+  "source": "Healer and support; the fastest class to train",
+  "translation": "Sanador y apoyo; la clase que entrena más rápido",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.168, STM 2.6",
+  "translation": "DEF 0.168, STM 2.6",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Cleric''' is the support caster among the [[Special:MyLanguage/Classes|classes]]. It has a huge Energy and Stamina scaling, a passive that shortens the cooldowns of its healing ki attacks, and it is the cheapest and fastest class to train.",
+  "translation": "'''Clérigo''' es el lanzador de apoyo entre las [[Special:MyLanguage/Classes|clases]]. Tiene un enorme escalado de Energía y de Stamina, una pasiva que acorta los tiempos de recarga de sus ataques de ki curativos, y es la clase más barata y rápida de entrenar.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Blessing ==",
+  "translation": "== Pasiva: Bendición ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* '''Healing''' ki attacks get '''−20%''' cooldown.\n* Healing ki attacks that also grant an ally a '''buff''' get '''−15%''' cooldown instead, but their buff lasts '''+25%''' longer.",
+  "translation": "* Los ataques de ki '''curativos''' obtienen '''−20%''' de tiempo de recarga.\n* Los ataques de ki curativos que además otorgan a un aliado un '''efecto positivo''' obtienen en su lugar '''−15%''' de tiempo de recarga, pero su efecto positivo dura un '''+25%''' más.",
+  "outdated": false
+ },
+ "8": {
+  "source": "See [[Special:MyLanguage/Ki Attacks|Ki Attacks]] for the healing techniques.",
+  "translation": "Consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]] para ver las técnicas curativas.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Estadísticas iniciales y regeneración ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "* '''Starting stats:''' RES 5 · ENE 15\n* '''Regeneration''' (per 5 seconds): health 0.5 (+0.015 per VIT) · Ki 12.0 (+0.24 per ENE) · stamina 16.0 (+0.045 per VIT, +0.06 per RES)\n* '''TP gain ×1.25''' and '''TP cost ×0.9''': the cheapest and fastest class to train.",
+  "translation": "* '''Estadísticas iniciales:''' RES 5 · ENE 15\n* '''Regeneración''' (cada 5 segundos): vida 0.5 (+0.015 por VIT) · Ki 12.0 (+0.24 por ENE) · stamina 16.0 (+0.045 por VIT, +0.06 por RES)\n* '''TP obtenidos ×1.25''' y '''costo de TP ×0.9''': la clase más barata y rápida de entrenar.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalado de estadísticas ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "The Cleric's standout scalings are '''Stamina''' (STM 2.6, the highest of all classes) and '''Energy''' (3.0). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "Los escalados destacados del Clérigo son '''Stamina''' (STM 2.6, el más alto de todas las clases) y '''Energía''' (3.0). Los valores de VIT y DEF crecen en curva a medida que inviertes más, hasta 4 veces la tasa inicial. Compara todas las clases en la página [[Special:MyLanguage/Classes#Default stat scalings|Clases]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "The class id is <code>cleric</code>. Its passive values are <code>cdPrimary</code> (0.20), <code>cdSecondary</code> (0.15) and <code>durationBonus</code> (0.25), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings, regeneration and the TP multipliers.",
+  "translation": "El id de la clase es <code>cleric</code>. Sus valores de pasiva son <code>cdPrimary</code> (0.20), <code>cdSecondary</code> (0.15) y <code>durationBonus</code> (0.25), y se definen por raza en <code>races/&lt;race&gt;/stats.json</code> junto con las estadísticas iniciales, los escalados, la regeneración y los multiplicadores de TP.",
+  "outdated": false
+ }
+}

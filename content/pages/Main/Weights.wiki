@@ -1,90 +1,104 @@
 {{Infobox Item
-|quote=<translate>Train heavy, but not too heavy.</translate>
-|Type=<translate>Curio (Weights slot)</translate>
-|Effect=<translate>Multiplies the Training Points you earn, up to ×2.5</translate>
+|quote=<translate><!--T:1--> Train heavy, but not too heavy.</translate>
+|Type=<translate><!--T:2--> Curio (Weights slot)</translate>
+|Effect=<translate><!--T:3--> Multiplies the Training Points you earn, up to ×2.5</translate>
 |Stack size=1
-|Obtained=<translate>Weight service of Master Roshi, King Kai and Piccolo</translate>
+|Obtained=<translate><!--T:4--> Weight service of Master Roshi, King Kai and Piccolo</translate>
 }}
 <translate>
+<!--T:5-->
 '''Weights''' are wearable training gear. Wearing them while you train '''multiplies the Training Points (TP) you earn''', but overloading yourself makes you weaker. Getting the balance right is the whole point.
 
+<!--T:6-->
 Weights work hand in hand with gravity: training under higher gravity makes the same weight count for much more (see [[Special:MyLanguage/Gravity|Gravity]]). All numbers on this page are server defaults.
 </translate>
 {{Config|Gravity Config}}
 
 <translate>
-== Weight items ==
+== Weight items == <!--T:7-->
 
+<!--T:8-->
 Weights are worn in the dedicated '''Weights''' Curios slot (one slot, with a cosmetic slot next to it). There are three, and each holds its own '''weight value''' in kg, shown in the tooltip:
 </translate>
 {| class="wikitable"
-! <translate>Item</translate> !! <translate>Given by</translate>
+! <translate><!--T:9--> Item</translate> !! <translate><!--T:10--> Given by</translate>
 |-
-| <translate>Turtle Shell</translate> || {{L|Master Roshi}}
+| <translate><!--T:11--> Turtle Shell</translate> || {{L|Master Roshi}}
 |-
-| <translate>Workout Weights</translate> || {{L|King Kai}}
+| <translate><!--T:12--> Workout Weights</translate> || {{L|King Kai}}
 |-
-| <translate>Weighted Cape</translate> || {{L|Piccolo}}
+| <translate><!--T:13--> Weighted Cape</translate> || {{L|Piccolo}}
 |}
 <translate>
+<!--T:14-->
 Ask one of these masters for their '''weight service''' and type how many kg you want: you receive a new weight item with that value. Requests are capped at '''100,000 kg'''. You can ask once per conversation; talk to the master again for more (see [[Special:MyLanguage/Masters|Masters]]).
 
+<!--T:15-->
 Admins can also hand them out with <code>/dmzweight &lt;type&gt; &lt;amount&gt;</code> (see [[Special:MyLanguage/Commands|Commands]]). A weight item is also an ingredient of the [[Special:MyLanguage/Gravity Device|Gravity Device]].
 </translate>
 
 <translate>
-== How training with weights works ==
+== How training with weights works == <!--T:16-->
 
+<!--T:17-->
 The bonus isn't just "more weight, more TP". The game compares how much weight you carry with how much your character ''should'' be able to handle:
 
+<!--T:18-->
 * '''Effective weight''' is your total worn weight multiplied by the gravity load factor. Under higher gravity the same weight counts for much more.
 * '''Ideal weight''' scales with your power level (roughly your relative level divided by 2).
 * '''Load ratio''' is effective weight divided by ideal weight. This ratio decides your TP multiplier and your training zone.
 
+<!--T:19-->
 You can check all of this in the '''Gravity''' row of the Stats menu ({{Key|V}}): your weight (raw and effective), your ideal weight, the zone you're in and the current ''Weight Training'' multiplier.
 </translate>
 
 <translate>
-=== Training zones ===
+=== Training zones === <!--T:20-->
 </translate>
 {| class="wikitable"
-! <translate>Load ratio</translate> !! <translate>Zone shown in game</translate> !! <translate>TP multiplier</translate> !! <translate>Stat penalty</translate>
+! <translate><!--T:21--> Load ratio</translate> !! <translate><!--T:22--> Zone shown in game</translate> !! <translate><!--T:23--> TP multiplier</translate> !! <translate><!--T:24--> Stat penalty</translate>
 |-
-| <translate>0 (no weights)</translate> || <translate>None</translate> || ×1.0 || <translate>none</translate>
+| <translate><!--T:25--> 0 (no weights)</translate> || <translate><!--T:26--> None</translate> || ×1.0 || <translate><!--T:27--> none</translate>
 |-
-| <translate>up to 0.5</translate> || <translate>Comfortable</translate> || <translate>×1.0 to ×1.5</translate> || <translate>none</translate>
+| <translate><!--T:28--> up to 0.5</translate> || <translate><!--T:29--> Comfortable</translate> || <translate><!--T:30--> ×1.0 to ×1.5</translate> || <translate><!--T:31--> none</translate>
 |-
-| <translate>0.5 to 0.75</translate> || <translate>Comfortable</translate> || <translate>×1.5 to ×2.0</translate> || <translate>none</translate>
+| <translate><!--T:32--> 0.5 to 0.75</translate> || <translate><!--T:33--> Comfortable</translate> || <translate><!--T:34--> ×1.5 to ×2.0</translate> || <translate><!--T:35--> none</translate>
 |-
-| <translate>'''0.75 to 1.25'''</translate> || <translate>'''Ideal'''</translate> || '''×2.0''' || <translate>'''none'''</translate>
+| <translate><!--T:36--> '''0.75 to 1.25'''</translate> || <translate><!--T:37--> '''Ideal'''</translate> || '''×2.0''' || <translate><!--T:38--> '''none'''</translate>
 |-
-| <translate>1.25 to 2.0</translate> || <translate>Pushing Hard</translate> || <translate>×2.0 to '''×2.5'''</translate> || <translate>rising</translate>
+| <translate><!--T:39--> 1.25 to 2.0</translate> || <translate><!--T:40--> Pushing Hard</translate> || <translate><!--T:41--> ×2.0 to '''×2.5'''</translate> || <translate><!--T:42--> rising</translate>
 |-
-| <translate>2.0 to 2.5</translate> || <translate>Pushing Hard</translate> || <translate>×2.5 to ×1.0</translate> || <translate>rising to the maximum</translate>
+| <translate><!--T:43--> 2.0 to 2.5</translate> || <translate><!--T:44--> Pushing Hard</translate> || <translate><!--T:45--> ×2.5 to ×1.0</translate> || <translate><!--T:46--> rising to the maximum</translate>
 |-
-| <translate>2.5 and above</translate> || <translate>Overloaded</translate> || ×1.0 || <translate>'''−60% stats'''</translate>
+| <translate><!--T:47--> 2.5 and above</translate> || <translate><!--T:48--> Overloaded</translate> || ×1.0 || <translate><!--T:49--> '''−60% stats'''</translate>
 |}
 <translate>
+<!--T:50-->
 What this means:
 
+<!--T:51-->
 * The '''Ideal zone''' (ratio 0.75 to 1.25) gives a safe '''×2.0 TP''' with '''no penalty'''. It is the recommended place to sit.
 * '''Pushing Hard''' can reach up to '''×2.5 TP''', but you start taking a '''stat penalty''' (up to −60% of your stats). The same penalty also slows your movement and attack speed, so you fight much weaker while overloaded.
 * Going '''too heavy''' (ratio 2.5 or more, Overloaded) is the worst of both: the TP bonus collapses back to ×1.0 '''and''' you keep the full penalty.
 * Heavier zones also raise your '''stamina cost per attack''' and the '''drain of active forms''': ×1.15 Comfortable, ×1.3 Ideal, ×1.5 Pushing Hard, ×2.0 Overloaded.
 
+<!--T:52-->
 Because your ideal weight grows with your level, weights that once overloaded you become ideal as you get stronger, so you keep asking for heavier weights over time.
 </translate>
 
 <translate>
-== Gravity synergy ==
+== Gravity synergy == <!--T:53-->
 
+<!--T:54-->
 Training under gravity stacks with weights:
 
+<!--T:55-->
 * Gravity '''amplifies effective weight''', so you can reach the Ideal and Pushing Hard zones with less physical weight.
 * Gravity also grants a '''flat TP bonus''' (+2.5% per point of net gravity) and a small '''mastery bonus''' (+0.25% per point of net gravity). Both stop once net gravity reaches 75.
 * In the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], the chamber's 10× gravity still amplifies your weights, but it doesn't add the flat gravity TP bonus: the chamber has its own TP multiplier instead.
 * Bulma's '''Gravity Room Mk.II''' and '''Mk.III''' sidequests reduce the weight stat penalty while you train inside an active Gravity Device (see [[Special:MyLanguage/Gravity Device#Gravity Room upgrades|Gravity Device]]).
 
+<!--T:56-->
 The strongest training setup is '''weights and a [[Special:MyLanguage/Gravity Device|Gravity Device]]''', kept in (or just above) the Ideal zone. See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]] for everything else that grants TP.
 </translate>
 

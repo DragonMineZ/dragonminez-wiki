@@ -1,0 +1,92 @@
+{
+ "Page_display_title": {
+  "source": "Turles",
+  "translation": "Turles",
+  "outdated": false
+ },
+ "1": {
+  "source": "The clearing under the Tree of Might",
+  "translation": "El claro bajo el Árbol del Poder",
+  "outdated": false
+ },
+ "2": {
+  "source": "The Tree of Might grows in a swamp at least 1,000 blocks from 0, 0; there is one per world",
+  "translation": "El Árbol del Poder crece en un pantano a al menos 1,000 bloques de 0, 0; hay uno por mundo",
+  "outdated": false
+ },
+ "3": {
+  "source": "Fruit of Might, Kill Driver, Meteor Burst, grab",
+  "translation": "Fruto del Poder, Kill Driver, Estallido Meteoro, agarre",
+  "outdated": false
+ },
+ "4": {
+  "source": "×50 Attributes",
+  "translation": "×50 Atributos",
+  "outdated": false
+ },
+ "5": {
+  "source": "Fruit of the Tree of Might (50%)",
+  "translation": "Fruto del Árbol del Poder (50%)",
+  "outdated": false
+ },
+ "6": {
+  "source": "Kill Driver (25%), Meteor Burst (15%)",
+  "translation": "Kill Driver (25%), Estallido Meteoro (15%)",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Turles''' is the world boss of [[Special:MyLanguage/Earth|Earth]]. The Saiyan waits in the clearing under the [[Special:MyLanguage/Tree of Might|Tree of Might]], eats its fruit for a damage boost in the middle of the fight, and can teach you two of his techniques. With 87,200 health he is the most approachable of the world bosses.",
+  "translation": "'''Turles''' es el jefe de mundo de la [[Special:MyLanguage/Earth|Tierra]]. El saiyajin espera en el claro bajo el [[Special:MyLanguage/Tree of Might|Árbol del Poder]], se come su fruto para aumentar su daño en mitad del combate y puede enseñarte dos de sus técnicas. Con 87,200 de vida, es el más accesible de los jefes de mundo.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== The Tree of Might ==",
+  "translation": "== El Árbol del Poder ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "The [[Special:MyLanguage/Tree of Might|Tree of Might]] is a giant tree whose canopy is about 340 blocks wide. It grows in a swamp at least 1,000 blocks from 0, 0, and there is only one per world. Its wood and roots are unbreakable, and its rare glowing fruit drops the [[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]]. The clearing under it is Turles's lair. See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "El [[Special:MyLanguage/Tree of Might|Árbol del Poder]] es un árbol gigante cuya copa mide unos 340 bloques de ancho. Crece en un pantano a al menos 1,000 bloques de 0, 0, y solo hay uno por mundo. Su madera y sus raíces son irrompibles, y su raro fruto brillante suelta el [[Special:MyLanguage/Fruit of the Tree of Might|Fruto del Árbol del Poder]]. El claro bajo él es la guarida de Turles. Consulta [[Special:MyLanguage/Structures|Estructuras]].",
+  "outdated": false
+ },
+ "10": {
+  "source": "The lair is only set up once the tree has been generated. In worlds created before the tree was added, it is still placed where DMZ planned it when a player loads that area; it is too big to place at once, so it is filled in gradually and visibly grows. When an operator resets the boss, the tree is restored too.",
+  "translation": "La guarida solo se prepara una vez que el árbol se ha generado. En los mundos creados antes de que se añadiera el árbol, igualmente se coloca donde DMZ lo tenía previsto cuando un jugador carga esa zona; es demasiado grande para colocarlo de una vez, así que se completa poco a poco y se le ve crecer. Cuando un operador reinicia al jefe, el árbol también se restaura.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== The fight ==",
+  "translation": "== El combate ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Turles fights up close and at range, and can Zanzoken out of the way of your hits.",
+  "translation": "Turles pelea cuerpo a cuerpo y a distancia, y puede usar Zanzoken para esquivar tus golpes.",
+  "outdated": false
+ },
+ "13": {
+  "source": "* '''Fruit of Might.''' Partway through the fight he eats a Fruit of Might: he glows red and, for 30 seconds, deals 50% more melee damage and strikes much faster. He can eat another one 90 seconds after the boost ends.\n* '''Kill Driver.''' He forms a ring of ki and throws it at a target he can see between 6 and 40 blocks away.\n* '''Meteor Burst.''' At close range he seizes a player and pounds them with a long combo of strikes, a slam and ki blasts.\n* '''Grab.''' He dashes at a nearby player (up to about 8 blocks away), grabs them, swings them around four times and throws them.",
+  "translation": "* '''Fruto del Poder.''' En mitad del combate se come un Fruto del Poder: brilla en rojo y, durante 30 segundos, hace un 50% más de daño cuerpo a cuerpo y golpea mucho más rápido. Puede comerse otro 90 segundos después de que termine el aumento.\n* '''Kill Driver.''' Forma un anillo de ki y lo lanza contra un objetivo que pueda ver a entre 6 y 40 bloques.\n* '''Estallido Meteoro.''' A corta distancia, atrapa a un jugador y lo machaca con un largo combo de golpes, un azote y ráfagas de ki.\n* '''Agarre.''' Se lanza contra un jugador cercano (hasta unos 8 bloques), lo agarra, lo hace girar cuatro veces y lo arroja.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Every contributor with at least 7.5% of the points rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):\n* '''×50 Attributes''' (guaranteed; the amount scales with your contribution): half as Attribute Points and half as Training Points, like quest rewards (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]).\n* [[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]] (50%): a powerful temporary power boost (see [[Special:MyLanguage/Items|Items]]).\n* The '''Kill Driver''' technique (25%): a ki disk attack (see [[Special:MyLanguage/Ki Attacks|Ki Attacks]]).\n* The [[Special:MyLanguage/Meteor Burst|Meteor Burst]] technique (15%): a long strike combo (about 10 seconds) that mixes strikes, a slam and ki blasts, and scales with both SKP and PWR (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).",
+  "translation": "Todo contribuyente con al menos el 7.5% de los puntos tira por estas recompensas predeterminadas (consulta [[Special:MyLanguage/World Bosses#Rewards|cómo funcionan las recompensas de los jefes de mundo]]):\n* '''×50 Atributos''' (garantizado; la cantidad escala con tu contribución): la mitad como Puntos de Atributo y la mitad como Puntos de Entrenamiento, igual que las recompensas de misión (consulta [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Estadísticas y atributos]]).\n* [[Special:MyLanguage/Fruit of the Tree of Might|Fruto del Árbol del Poder]] (50%): un potente aumento de poder temporal (consulta [[Special:MyLanguage/Items|Objetos]]).\n* La técnica '''Kill Driver''' (25%): un ataque de disco de ki (consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]]).\n* La técnica [[Special:MyLanguage/Meteor Burst|Estallido Meteoro]] (15%): un largo combo de golpes (unos 10 segundos) que mezcla golpes, un azote y ráfagas de ki, y escala tanto con SKP como con PWR (consulta [[Special:MyLanguage/Strike Attacks|Super Golpes]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "== In the story ==",
+  "translation": "== En la historia ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "The [[Special:MyLanguage/Movies Saga|Movies Saga]] has its own Tree of Might chapter in Earth's Rocky biome, after Saiyan Saga quest 12: '''Tree of Might Wasteland''', '''Turles' Goku''' and the fight against '''Turles''' himself.",
+  "translation": "La [[Special:MyLanguage/Movies Saga|Saga Películas]] tiene su propio capítulo del Árbol del Poder en el bioma Rocoso de la Tierra, después de la misión 12 de la Saga Saiyajin: '''El Páramo del Árbol del Poder''', '''El Goku de Turles''' y el combate contra el propio '''Turles'''.",
+  "outdated": false
+ }
+}

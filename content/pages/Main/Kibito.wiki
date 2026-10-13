@@ -1,0 +1,44 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament contender</translate>
+|Dimension={{L|Otherworld}}
+|Spawns=<translate><!--T:2--> Drawn at random as an Otherworld Tournament contender</translate>
+|Behavior=<translate><!--T:3--> Fights you in the ring; Smart or Elite AI</translate>
+|Damage=9,900–25,800
+|Ki damage=8,840–23,460
+|Abilities=<translate><!--T:4--> Flight, Ki Volley, Ki Blast</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Kibito''' is the Supreme Kai's attendant. He is one of the Buu Saga fighters of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and that is the only place you meet him: he isn't in any story quest.
+</translate>
+
+<translate>
+== In the tournament == <!--T:7-->
+
+<!--T:8-->
+Kibito can be drawn as a '''contender''' in the Otherworld Tournament. Each contender seat draws a random fighter from the Buu Saga cast. The draw is revealed once everybody accepts the rules, and you only face him if he reaches your bout: fights between two NPCs are decided automatically.
+
+<!--T:9-->
+His stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI), and contenders get 8% stronger for every round already played. Bouts end at knockout, so he isn't killed and drops nothing.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+Kibito has a single form and doesn't transform. He fights with the same kit as [[Special:MyLanguage/Shin|Shin]]:
+
+<!--T:12-->
+* '''Ki attacks:''' Ki Volley and Ki Blast, both yellow.
+* '''Combos:''' none; he fights with plain melee.
+* '''Mobility:''' he flies and backsteps away from your hits.
+
+<!--T:13-->
+How well he uses them depends on the AI tier of his draw (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+{{Note|type=config|title=<translate><!--T:14--> Entity id</translate>|<code>dragonminez:saga_kibito</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

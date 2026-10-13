@@ -1,34 +1,39 @@
 {{Infobox Armor
-|quote=<translate>Outfits and armor from the Dragon Ball Super era and beyond.</translate>
-|Pieces=<translate>Chestplate, leggings and boots</translate>
-|Defense=<translate>Chestplate 35, leggings 26, boots 16</translate>
-|Pattern=<translate>Painted on a Blank Pattern (Super)</translate>
-|Crafted at=<translate>Pattern Station, then Dr. Kikono's Station</translate>
-|Materials=<translate>Kikono Cloth, Kikono String, an iron armor piece of the same slot, 1,000 Star Energy per piece</translate>
+|quote=<translate><!--T:1--> Outfits and armor from the Dragon Ball Super era and beyond.</translate>
+|Pieces=<translate><!--T:2--> Chestplate, leggings and boots</translate>
+|Defense=<translate><!--T:3--> Chestplate 35, leggings 26, boots 16</translate>
+|Pattern=<translate><!--T:4--> Painted on a Blank Pattern (Super)</translate>
+|Crafted at=<translate><!--T:5--> Pattern Station, then Dr. Kikono's Station</translate>
+|Materials=<translate><!--T:6--> Kikono Cloth, Kikono String, an iron armor piece of the same slot, 1,000 Star Energy per piece</translate>
 }}
 <translate>
+<!--T:7-->
 The '''Super armor sets''' are the 31 character-themed sets whose pattern is painted on a '''Blank Pattern (Super)'''. They only differ in looks: every set uses the Kikono armor material and gives the same protection.
 </translate>
 
 <translate>
-== Crafting a set ==
+== Crafting a set == <!--T:8-->
 
+<!--T:9-->
 # Craft a Blank Pattern (Super): <code>C B C / P W P / C B C</code>, where C is Cyan Wool, B is a Blank Pattern (Z), P is Paper and W is White Wool.
 # Paint the set's pattern on it at the '''Pattern Station'''.
 # Assemble each piece at '''Dr. Kikono's Station''' with the pattern, Kikono Cloth, Kikono String and the matching iron armor piece. Each piece costs 1,000 Star Energy.
 
+<!--T:10-->
 See [[Special:MyLanguage/Armor|Armor]] for the full process, the recipes and how armor adds to your defense.
 </translate>
 
 <translate>
-== Sets ==
+== Sets == <!--T:11-->
 
+<!--T:12-->
 The patterns below are painted on a Blank Pattern (Super). With JEI installed, each design can be looked up in the ''Pattern Station'' recipe category.
 </translate>
 
 <translate>
-=== Goku and his friends ===
+=== Goku and his friends === <!--T:13-->
 
+<!--T:14-->
 * Turtle Hermit School GI (Goku, Super)
 * Whis Symbol GI (Goku)
 * Green Jacket Outfit (Goten, Super)
@@ -39,8 +44,9 @@ The patterns below are painted on a Blank Pattern (Super). With JEI installed, e
 </translate>
 
 <translate>
-=== Saiyans ===
+=== Saiyans === <!--T:15-->
 
+<!--T:16-->
 * Saiyan Armor (Vegeta, Super)
 * Whis Symbol GI (Vegeta)
 * Saiyan Armor (Bardock, DBSuper)
@@ -51,8 +57,9 @@ The patterns below are painted on a Blank Pattern (Super). With JEI installed, e
 </translate>
 
 <translate>
-=== Gods and angels ===
+=== Gods and angels === <!--T:17-->
 
+<!--T:18-->
 * God of Destruction (Beerus)
 * Angel (Whis)
 * Kaioshin (Zamasu)
@@ -61,8 +68,9 @@ The patterns below are painted on a Blank Pattern (Super). With JEI installed, e
 </translate>
 
 <translate>
-=== Other fighters ===
+=== Other fighters === <!--T:19-->
 
+<!--T:20-->
 * Heata Family (Gas)
 * Assassin (Hit)
 * Red Ribbon Army (Gamma 1)
@@ -73,13 +81,22 @@ The patterns below are painted on a Blank Pattern (Super). With JEI installed, e
 </translate>
 
 <translate>
-=== Online, crossover and Time Patrol ===
+=== Online, crossover and Time Patrol === <!--T:21-->
 
+<!--T:22-->
 * DBOnline Armor (Dragon)
 * DBOnline Armor (Warrior)
 * The Alpha and the Omega (Vergil)
 * Time Patrol (Goku Xeno)
 * Time Patrol (Goku Xeno Alternative)
 </translate>
+
+<translate>
+== Pattern designs == <!--T:23-->
+
+<!--T:24-->
+Every pattern on this page as it is painted at the Pattern Station. Hover over a cell to see which dye goes there.
+</translate>
+{{#invoke:Recipes|patterns|super}}
 
 {{Navbox Items}}

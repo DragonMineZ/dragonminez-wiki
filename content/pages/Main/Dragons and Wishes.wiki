@@ -1,33 +1,35 @@
 <translate>
+<!--T:1-->
 '''Dragons''' grant wishes. You summon one by gathering a complete set of its '''Dragon Balls''' in its world, then choosing from its list of wishes. DragonMineZ has two main dragons: [[Special:MyLanguage/Shenron|Shenron]] on [[Special:MyLanguage/Earth|Earth]] and [[Special:MyLanguage/Porunga|Porunga]] on [[Special:MyLanguage/Namek|Namek]]. A second Porunga can be summoned in the [[Special:MyLanguage/Demon Realm|Demon Realm]] with the balls the Tamagamis drop. After the wish, the balls scatter across the world again.
 </translate>
 
-{{Note|type=info|title=<translate>Default wishes</translate>|<translate>The wishes on these pages are the defaults. Dragons, Dragon Ball sets and wishes are data-driven, so a server can change a dragon's wishes or add new dragons (see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).</translate>}}
+{{Note|type=info|title=<translate><!--T:2--> Default wishes</translate>|<translate><!--T:3--> The wishes on these pages are the defaults. Dragons, Dragon Ball sets and wishes are data-driven, so a server can change a dragon's wishes or add new dragons (see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).</translate>}}
 
 <div class="dmz-cards">
-{{Card|Shenron|<translate>The Earth dragon: seven Earth Dragon Balls, one wish per summon.</translate>}}
-{{Card|Porunga|<translate>The Namek dragon: seven Namek Dragon Balls, three wishes per summon.</translate>}}
+{{Card|Shenron|<translate><!--T:4--> The Earth dragon: seven Earth Dragon Balls, one wish per summon.</translate>}}
+{{Card|Porunga|<translate><!--T:5--> The Namek dragon: seven Namek Dragon Balls, three wishes per summon.</translate>}}
 </div>
 
 <translate>
-== Comparison ==
+== Comparison == <!--T:6-->
 </translate>
 
 {| class="wikitable"
-! <translate>Dragon</translate> !! <translate>World</translate> !! <translate>Dragon Balls</translate> !! <translate>Radar</translate> !! <translate>Wishes per summon</translate> !! <translate>Revive wish</translate>
+! <translate><!--T:7--> Dragon</translate> !! <translate><!--T:8--> World</translate> !! <translate><!--T:9--> Dragon Balls</translate> !! <translate><!--T:10--> Radar</translate> !! <translate><!--T:11--> Wishes per summon</translate> !! <translate><!--T:12--> Revive wish</translate>
 |-
-| {{L|Shenron}} || {{L|Earth}} || <translate>7 Earth Dragon Balls</translate> || <translate>Dragon Radar (Earth)</translate> || 1 || <translate>Up to 3 dead players</translate>
+| {{L|Shenron}} || {{L|Earth}} || <translate><!--T:13--> 7 Earth Dragon Balls</translate> || <translate><!--T:14--> Dragon Radar (Earth)</translate> || 1 || <translate><!--T:15--> Up to 3 dead players</translate>
 |-
-| {{L|Porunga}} || {{L|Namek}} || <translate>7 Namek Dragon Balls</translate> || <translate>Dragon Radar (Namek)</translate> || 3 || <translate>1 dead player per wish</translate>
+| {{L|Porunga}} || {{L|Namek}} || <translate><!--T:16--> 7 Namek Dragon Balls</translate> || <translate><!--T:17--> Dragon Radar (Namek)</translate> || 3 || <translate><!--T:18--> 1 dead player per wish</translate>
 |-
-| <translate>[[Special:MyLanguage/Porunga|Porunga (Daima)]]</translate> || {{L|Demon Realm}} || <translate>3 Demon Realm Dragon Balls</translate> || — || 3 || <translate>1 dead player per wish</translate>
+| <translate><!--T:19--> [[Special:MyLanguage/Porunga|Porunga (Daima)]]</translate> || {{L|Demon Realm}} || <translate><!--T:20--> 3 Demon Realm Dragon Balls</translate> || — || 3 || <translate><!--T:21--> 1 dead player per wish</translate>
 |}
 
 <translate>
-== How summoning works ==
+== How summoning works == <!--T:22-->
 </translate>
 {{Config|General Server Config|worldGen}}
 <translate>
+<!--T:23-->
 # '''Collect all seven Dragon Balls''' of a set. They are scattered around the world spawn of the matching world: within 1,000 blocks by default, with one copy of each ball.
 # Use a '''[[Special:MyLanguage/Dragon Radar|Dragon Radar]]''' to locate them.
 # '''Place all seven balls''' within 5 blocks of each other. Once the whole set is together, the balls light up with a pulsing glow and chime. Then '''right-click one''' to summon the dragon.
@@ -36,60 +38,67 @@
 </translate>
 
 <translate>
+<!--T:24-->
 While a dragon is out, the '''sky of that world turns dark''': a starry night sky covers the whole dimension. It is only visual. The world's time doesn't change, so it doesn't bring night mobs, and the sky fades back once the dragon leaves. After the wish the weather clears and the dragon fades away in a white flash.
 </translate>
 
 <translate>
+<!--T:25-->
 If nobody makes a wish, the dragon leaves after '''10 minutes''' and the balls scatter again.
 </translate>
 
 <translate>
-== Dragon Balls ==
+== Dragon Balls == <!--T:26-->
 </translate>
 <translate>
+<!--T:27-->
 The game keeps track of every Earth and Namek Dragon Ball, wherever it is placed or picked up, and a lost ball respawns. Server operators can check where every ball is and top a set back up with <code>/dmzdragonballs</code> (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>
 
 <translate>
+<!--T:28-->
 The three '''Demon Realm Dragon Balls''' work differently: they are never scattered around the world and no radar finds them. Each Tamagami world boss drops one when defeated, and they don't scatter again after the wish. See [[Special:MyLanguage/Porunga|Porunga]].
 </translate>
 
 <translate>
-== Radars ==
+== Radars == <!--T:29-->
 </translate>
 {{Main|Dragon Radar}}
 
 {| class="wikitable"
-! <translate>Radar</translate> !! <translate>Works in</translate> !! <translate>Finds</translate> !! <translate>How to get it</translate>
+! <translate><!--T:30--> Radar</translate> !! <translate><!--T:31--> Works in</translate> !! <translate><!--T:32--> Finds</translate> !! <translate><!--T:33--> How to get it</translate>
 |-
-| <translate>Dragon Radar (Earth)</translate> || {{L|Earth}} || <translate>Earth Dragon Balls</translate> || <translate>Crafted from a Radar's Chip (Earth) and a Radar's CPU (Earth). Also the reward of the GT Saga quest ''Parts for Bulma''.</translate>
+| <translate><!--T:34--> Dragon Radar (Earth)</translate> || {{L|Earth}} || <translate><!--T:35--> Earth Dragon Balls</translate> || <translate><!--T:36--> Crafted from a Radar's Chip (Earth) and a Radar's CPU (Earth). Also the reward of the GT Saga quest ''Parts for Bulma''.</translate>
 |-
-| <translate>Dragon Radar (Namek)</translate> || {{L|Namek}} || <translate>Namek Dragon Balls</translate> || <translate>Crafted from a Radar's Chip (Namek) and a Radar's CPU (Namek).</translate>
+| <translate><!--T:37--> Dragon Radar (Namek)</translate> || {{L|Namek}} || <translate><!--T:38--> Namek Dragon Balls</translate> || <translate><!--T:39--> Crafted from a Radar's Chip (Namek) and a Radar's CPU (Namek).</translate>
 |-
-| <translate>Bi-Dimensional Radar</translate> || {{L|Earth}}, {{L|Namek}} || <translate>Both sets</translate> || <translate>A quest reward, fused from an Earth and a Namek radar. It can't be crafted.</translate>
+| <translate><!--T:40--> Bi-Dimensional Radar</translate> || {{L|Earth}}, {{L|Namek}} || <translate><!--T:41--> Both sets</translate> || <translate><!--T:42--> A quest reward, fused from an Earth and a Namek radar. It can't be crafted.</translate>
 |}
 
 <translate>
-== Revive wishes ==
+== Revive wishes == <!--T:43-->
 </translate>
 <translate>
+<!--T:44-->
 Shenron and Porunga can bring dead players back to life for good. The revive wishes only work on players who are dead in the [[Special:MyLanguage/Otherworld|Otherworld]]. When you open the wish screen it lists the dead players who are online, and a revive wish can't be picked while nobody is dead. After confirming, you choose who to revive: up to 3 players with Shenron, or 1 per pick with Porunga. Revived players lose their halo and are fully alive again.
 </translate>
 
 <translate>
-== Dragons in the story ==
+== Dragons in the story == <!--T:45-->
 </translate>
 <translate>
+<!--T:46-->
 * The [[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest ''Summon Porunga'' asks you to summon Porunga with the Namek Dragon Balls.
 * The [[Special:MyLanguage/GT Saga|GT Saga]] quest ''The Cracked Dragon Balls'' asks you to summon Shenron with the Earth Dragon Balls.
 * The '''Change Difficulty''' wish is the only way to change your story difficulty, and '''Reset Story Progress''' lets you play the [[Special:MyLanguage/Sagas|sagas]] again.
 </translate>
 
 <translate>
-== Custom dragons and wishes ==
+== Custom dragons and wishes == <!--T:47-->
 </translate>
 {{Main|Custom Wishes}}
 <translate>
+<!--T:48-->
 Server owners can replace a dragon's wish list on their world, and add-on packs can add new dragons with their own Dragon Ball sets and radars. On such servers you may notice that:
 * a Dragon Ball set doesn't have to have seven balls: it is complete when every star of the set is placed together;
 * some sets never scatter on their own, and their balls only come from quests, bosses or other rewards;

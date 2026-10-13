@@ -1,0 +1,377 @@
+{
+ "Page_display_title": {
+  "source": "NPC Dialogue",
+  "translation": "Diálogos de NPCs",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''NPC dialogue''' lets you give master NPCs branching conversations with JSON alone, with no Java. A dialogue tree is a set of '''nodes''': each node is one line the NPC says, plus the '''choices''' the player can answer with. Choices can lead to another node, be hidden behind '''conditions''', and run '''actions''' such as changing alignment, giving TP, running a command or starting a quest.",
+  "translation": "Los '''diálogos de NPCs''' te permiten darles a los NPCs maestros conversaciones ramificadas solo con JSON, sin Java. Un árbol de diálogo es un conjunto de '''nodos''': cada nodo es una línea que dice el NPC, más las '''opciones''' con las que el jugador puede responder. Las opciones pueden llevar a otro nodo, quedar ocultas tras '''condiciones''' y ejecutar '''acciones''' como cambiar el alineamiento, dar TP, ejecutar un comando o iniciar una misión.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Dialogue is per-world data, like quests and wishes.",
+  "translation": "Los diálogos son datos de cada mundo, como las misiones y los deseos.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Where files go ==",
+  "translation": "== Dónde van los archivos ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "The folder is created the first time the server starts, together with an <code>_example.json</code> you can copy. Every <code>.json</code> file in the folder (no subfolders) holds '''one tree for one NPC'''. Files are loaded in alphabetical order; if two files target the same NPC, the later one wins.",
+  "translation": "La carpeta se crea la primera vez que arranca el servidor, junto con un <code>_example.json</code> que puedes copiar. Cada archivo <code>.json</code> de la carpeta (sin subcarpetas) contiene '''un árbol para un NPC'''. Los archivos se cargan en orden alfabético; si dos archivos apuntan al mismo NPC, gana el último.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Dialogue loads at server start and reloads with <code>/dmzreload story</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "Los diálogos se cargan al iniciar el servidor y se recargan con <code>/dmzreload story</code> (o <code>/dmzreload all</code>); consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "Source: <code>src/main/java/com/dragonminez/common/dialogue/</code> (<code>DialogueRegistry</code>, <code>DialogueParser</code>, <code>DialogueService</code>, <code>DialogueAction</code>).",
+  "translation": "Código fuente: <code>src/main/java/com/dragonminez/common/dialogue/</code> (<code>DialogueRegistry</code>, <code>DialogueParser</code>, <code>DialogueService</code>, <code>DialogueAction</code>).",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Which NPCs can use it ==",
+  "translation": "== Qué NPCs pueden usarlos ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Dialogue trees work on '''master NPCs''': the trainers placed by [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]], such as Roshi or Goku. The <code>npc</code> field is the master's id. The masters DragonMineZ places by default use these ids:",
+  "translation": "Los árboles de diálogo funcionan con los '''NPCs maestros''': los entrenadores colocados por [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]], como Roshi o Goku. El campo <code>npc</code> es el id del maestro. Los maestros que DragonMineZ coloca por defecto usan estos ids:",
+  "outdated": false
+ },
+ "9": {
+  "source": "<code>roshi</code>, <code>goku</code>, <code>karin</code>, <code>dende</code>, <code>popo</code>, <code>gero</code>, <code>guru</code>, <code>kingkai</code> ([[Special:MyLanguage/King Kai|King Kai]]), <code>toribot</code>, <code>enma</code>, <code>baba</code>, <code>grandkai</code>, <code>otherworld_announcer</code>",
+  "translation": "<code>roshi</code>, <code>goku</code>, <code>karin</code>, <code>dende</code>, <code>popo</code>, <code>gero</code>, <code>guru</code>, <code>kingkai</code> ([[Special:MyLanguage/King Kai|Kaiosama]]), <code>toribot</code>, <code>enma</code>, <code>baba</code>, <code>grandkai</code>, <code>otherworld_announcer</code>",
+  "outdated": false
+ },
+ "10": {
+  "source": "When a master has a tree, right-clicking it shows the tree '''instead of''' the master's usual options (Quests, Skills, Train and services; see [[Special:MyLanguage/Masters|Masters]]). The tree uses the same dialogue window: the line appears in the middle of the bottom band and the choices are listed on the right. Give one of your choices the <code>OPEN_QUESTS</code> action so players can still reach the master's quests. The player must have created a character first. A master's alignment requirement does not stop the conversation; it only locks Skills, Train and new quests (see [[Special:MyLanguage/Masters|Masters]]).",
+  "translation": "Cuando un maestro tiene un árbol, al hacer clic derecho sobre él se muestra el árbol '''en lugar de''' las opciones habituales del maestro (Misiones, Habilidades, Entrenar y servicios; consulta [[Special:MyLanguage/Masters|Maestros]]). El árbol usa la misma ventana de diálogo: la línea aparece en el centro de la franja inferior y las opciones se listan a la derecha. Dale a una de tus opciones la acción <code>OPEN_QUESTS</code> para que los jugadores puedan seguir llegando a las misiones del maestro. El jugador tiene que haber creado un personaje antes. El requisito de alineamiento de un maestro no impide la conversación; solo bloquea Habilidades, Entrenar y las misiones nuevas (consulta [[Special:MyLanguage/Masters|Maestros]]).",
+  "outdated": false
+ },
+ "11": {
+  "source": "The default quest NPCs (<code>dragonminez:quest_npc</code>, for example Bulma) keep their quest list and do not use dialogue trees.",
+  "translation": "Los NPCs de misiones por defecto (<code>dragonminez:quest_npc</code>, por ejemplo Bulma) conservan su lista de misiones y no usan árboles de diálogo.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== File format ==",
+  "translation": "== Formato del archivo ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "=== Tree ===",
+  "translation": "=== Árbol ===",
+  "outdated": false
+ },
+ "14": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "15": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "16": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "17": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''Required.''' The id of the master the tree belongs to (case-insensitive). An id that starts with <code>_</code> keeps the file inactive; that is how <code>_example.json</code> stays off.",
+  "translation": "'''Obligatorio.''' El id del maestro al que pertenece el árbol (sin distinguir mayúsculas y minúsculas). Un id que empieza por <code>_</code> deja el archivo inactivo; así es como <code>_example.json</code> queda desactivado.",
+  "outdated": false
+ },
+ "19": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "20": {
+  "source": "Id of the first node. Default <code>\"start\"</code>.",
+  "translation": "Id del primer nodo. Por defecto <code>\"start\"</code>.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Required.''' Map of node id to node.",
+  "translation": "'''Obligatorio.''' Mapa de id de nodo a nodo.",
+  "outdated": false
+ },
+ "23": {
+  "source": "A tree is skipped (and the reason logged) when <code>npc</code> or <code>nodes</code> is missing, or when the <code>start</code> node does not exist.",
+  "translation": "Un árbol se omite (y se registra el motivo) cuando falta <code>npc</code> o <code>nodes</code>, o cuando el nodo <code>start</code> no existe.",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Node ===",
+  "translation": "=== Nodo ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "26": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "27": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "28": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Required.''' What the NPC says. A translation key or plain text; supports [[Special:MyLanguage/NPC Dialogue#Placeholders|placeholders]]. A node without <code>line</code> is skipped.",
+  "translation": "'''Obligatorio.''' Lo que dice el NPC. Una clave de traducción o texto simple; admite [[Special:MyLanguage/NPC Dialogue#Placeholders|marcadores]]. Un nodo sin <code>line</code> se omite.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Array",
+  "translation": "Array",
+  "outdated": false
+ },
+ "31": {
+  "source": "The player's answers, listed as options. A node without choices just shows its line; the player leaves with '''Close''' or {{Key|Esc}}.",
+  "translation": "Las respuestas del jugador, listadas como opciones. Un nodo sin opciones solo muestra su línea; el jugador sale con '''Cerrar''' o {{Key|Esc}}.",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== Choice ===",
+  "translation": "=== Opción ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "34": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "35": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "36": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "37": {
+  "source": "'''Required.''' Button text. A translation key or plain text; supports placeholders. A choice without <code>text</code> is skipped.",
+  "translation": "'''Obligatorio.''' Texto del botón. Una clave de traducción o texto simple; admite marcadores. Una opción sin <code>text</code> se omite.",
+  "outdated": false
+ },
+ "38": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "39": {
+  "source": "Node to show next. Leave it out (or point it at a node that doesn't exist) to end the conversation.",
+  "translation": "Nodo que se muestra a continuación. Omítelo (o apúntalo a un nodo que no existe) para terminar la conversación.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "41": {
+  "source": "Optional. The choice is only shown when the conditions are met. Same format as quest <code>prerequisites</code> (see below). If the block can't be read, the whole choice is dropped rather than shown to everyone.",
+  "translation": "Opcional. La opción solo se muestra cuando se cumplen las condiciones. Mismo formato que los <code>prerequisites</code> de las misiones (ver abajo). Si el bloque no se puede leer, se descarta toda la opción en lugar de mostrarse a todos.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Array",
+  "translation": "Array",
+  "outdated": false
+ },
+ "43": {
+  "source": "Optional. Actions run in order when the choice is picked (see below).",
+  "translation": "Opcional. Acciones que se ejecutan en orden al elegir la opción (ver abajo).",
+  "outdated": false
+ },
+ "44": {
+  "source": "=== Conditions ===",
+  "translation": "=== Condiciones ===",
+  "outdated": false
+ },
+ "45": {
+  "source": "<code>conditions</code> uses the quest condition-tree format: an <code>operator</code> (<code>AND</code> or <code>OR</code>) and a list of <code>conditions</code>, which can be nested. Every quest condition type works, for example:",
+  "translation": "<code>conditions</code> usa el formato de árbol de condiciones de las misiones: un <code>operator</code> (<code>AND</code> u <code>OR</code>) y una lista de <code>conditions</code>, que se pueden anidar. Sirve cualquier tipo de condición de misión, por ejemplo:",
+  "outdated": false
+ },
+ "46": {
+  "source": "The available types are <code>SAGA_QUEST</code>, <code>QUEST</code>, <code>LEVEL</code>, <code>STAT</code>, <code>RACE</code>, <code>CLASS</code>, <code>SKILL</code>, <code>BIOME</code>, <code>DIMENSION</code>, <code>STRUCTURE</code>, <code>ALIGNMENT</code> and <code>TIME</code>. Field names are the same as in quests (for example, <code>LEVEL</code> uses <code>minLevel</code>); see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Custom Quests]].",
+  "translation": "Los tipos disponibles son <code>SAGA_QUEST</code>, <code>QUEST</code>, <code>LEVEL</code>, <code>STAT</code>, <code>RACE</code>, <code>CLASS</code>, <code>SKILL</code>, <code>BIOME</code>, <code>DIMENSION</code>, <code>STRUCTURE</code>, <code>ALIGNMENT</code> y <code>TIME</code>. Los nombres de los campos son los mismos que en las misiones (por ejemplo, <code>LEVEL</code> usa <code>minLevel</code>); consulta [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Misiones personalizadas]].",
+  "outdated": false
+ },
+ "47": {
+  "source": "Conditions are checked again on the server when the player picks the choice, so a hidden choice can't be forced.",
+  "translation": "Las condiciones se vuelven a comprobar en el servidor cuando el jugador elige la opción, así que no se puede forzar una opción oculta.",
+  "outdated": false
+ },
+ "48": {
+  "source": "=== Actions ===",
+  "translation": "=== Acciones ===",
+  "outdated": false
+ },
+ "49": {
+  "source": "Fields",
+  "translation": "Campos",
+  "outdated": false
+ },
+ "50": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "51": {
+  "source": "Adds <code>amount</code> to the player's alignment (negative values lower it).",
+  "translation": "Suma <code>amount</code> al alineamiento del jugador (los valores negativos lo bajan).",
+  "outdated": false
+ },
+ "52": {
+  "source": "Gives <code>amount</code> training points (positive amounts only).",
+  "translation": "Da <code>amount</code> puntos de entrenamiento (solo cantidades positivas).",
+  "outdated": false
+ },
+ "53": {
+  "source": "Runs a command from the server with operator permissions. <code>%player%</code> is replaced with the player's name.",
+  "translation": "Ejecuta un comando desde el servidor con permisos de operador. <code>%player%</code> se reemplaza por el nombre del jugador.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Starts a quest with the same rules as starting it from the quest log (prerequisites, start requirements, party). Use the side quest id (for example <code>\"bulma_gero_blueprints\"</code>) or <code>sagaId:questId</code> for a saga quest (for example <code>\"saiyan_saga:3\"</code>). If the quest can't be started, nothing happens.",
+  "translation": "Inicia una misión con las mismas reglas que al iniciarla desde el registro de misiones (prerrequisitos, requisitos de inicio, grupo). Usa el id de la misión secundaria (por ejemplo <code>\"bulma_gero_blueprints\"</code>) o <code>sagaId:questId</code> para una misión de saga (por ejemplo <code>\"saiyan_saga:3\"</code>). Si la misión no se puede iniciar, no pasa nada.",
+  "outdated": false
+ },
+ "55": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "56": {
+  "source": "Switches the same window to the NPC's quest list (accept, turn in, see locked quests) and ends the tree (<code>goto</code> is ignored).",
+  "translation": "Cambia la misma ventana a la lista de misiones del NPC (aceptar, entregar, ver misiones bloqueadas) y termina el árbol (<code>goto</code> se ignora).",
+  "outdated": false
+ },
+ "57": {
+  "source": "<code>value</code> is accepted as a generic alias for <code>command</code> and <code>quest</code>. An action with an unknown <code>type</code> is skipped and logged.",
+  "translation": "<code>value</code> se acepta como alias genérico de <code>command</code> y <code>quest</code>. Una acción con un <code>type</code> desconocido se omite y se registra en el log.",
+  "outdated": false
+ },
+ "58": {
+  "source": "== Placeholders ==",
+  "translation": "== Marcadores ==",
+  "outdated": false
+ },
+ "59": {
+  "source": "Lines and choice texts can contain these placeholders; they are filled in for the player reading them:",
+  "translation": "Las líneas y los textos de las opciones pueden contener estos marcadores; se rellenan para el jugador que los lee:",
+  "outdated": false
+ },
+ "60": {
+  "source": "Placeholder",
+  "translation": "Marcador",
+  "outdated": false
+ },
+ "61": {
+  "source": "Value",
+  "translation": "Valor",
+  "outdated": false
+ },
+ "62": {
+  "source": "Player name",
+  "translation": "Nombre del jugador",
+  "outdated": false
+ },
+ "63": {
+  "source": "Race id",
+  "translation": "Id de la raza",
+  "outdated": false
+ },
+ "64": {
+  "source": "Class id",
+  "translation": "Id de la clase",
+  "outdated": false
+ },
+ "65": {
+  "source": "Player level",
+  "translation": "Nivel del jugador",
+  "outdated": false
+ },
+ "66": {
+  "source": "Alignment",
+  "translation": "Alineamiento",
+  "outdated": false
+ },
+ "67": {
+  "source": "Number of deaths",
+  "translation": "Número de muertes",
+  "outdated": false
+ },
+ "68": {
+  "source": "Active form (<code>base</code> when untransformed)",
+  "translation": "Forma activa (<code>base</code> sin transformarse)",
+  "outdated": false
+ },
+ "69": {
+  "source": "Dimension name (for example <code>overworld</code>)",
+  "translation": "Nombre de la dimensión (por ejemplo <code>overworld</code>)",
+  "outdated": false
+ },
+ "70": {
+  "source": "Placeholders also work inside your own translations. Java add-ons can add more with <code>DMZTextPlaceholders.register(...)</code>; see [[Special:MyLanguage/Implementation and Events#Custom text placeholders|Implementation and Events]].",
+  "translation": "Los marcadores también funcionan dentro de tus propias traducciones. Los addons en Java pueden añadir más con <code>DMZTextPlaceholders.register(...)</code>; consulta [[Special:MyLanguage/Implementation and Events#Custom text placeholders|Implementación y eventos]].",
+  "outdated": false
+ },
+ "71": {
+  "source": "== Translations ==",
+  "translation": "== Traducciones ==",
+  "outdated": false
+ },
+ "72": {
+  "source": "<code>line</code> and <code>text</code> are shown translated when they match a translation key in a language file, and as written otherwise. The name tab above the line shows the NPC's usual name (its entity name, for example <code>entity.dragonminez.master_roshi</code>). Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].",
+  "translation": "<code>line</code> y <code>text</code> se muestran traducidos cuando coinciden con una clave de traducción de un archivo de idioma, y tal cual están escritos en caso contrario. La pestaña de nombre sobre la línea muestra el nombre habitual del NPC (su nombre de entidad, por ejemplo <code>entity.dragonminez.master_roshi</code>). Las traducciones propias se combinan con las de Crowdin igual que en las [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|razas personalizadas]].",
+  "outdated": false
+ },
+ "73": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarga y validación ==",
+  "outdated": false
+ },
+ "74": {
+  "source": "# Save your file under <code><world save>/dragonminez/dialogues/</code>.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run <code>/dmzreload story</code>; see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].\n# Check the server console: it logs how many trees were loaded, and names any node, choice or action that was skipped.\n# Talk to the NPC and walk through every branch, including the choices gated by conditions.",
+  "translation": "# Guarda tu archivo en <code><world save>/dragonminez/dialogues/</code>.\n# Valida la sintaxis JSON (consulta [[Special:MyLanguage/How to JSON|Cómo usar JSON]]).\n# Ejecuta <code>/dmzreload story</code>; consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]].\n# Revisa la consola del servidor: registra cuántos árboles se cargaron e indica cualquier nodo, opción o acción que se haya omitido.\n# Habla con el NPC y recorre todas las ramas, incluidas las opciones que dependen de condiciones.",
+  "outdated": false
+ }
+}

@@ -1,23 +1,26 @@
 {{Infobox Race
-|quote=<translate>A Human rebuilt by Dr. Gero: a permanent choice that trades the Human forms for a new line of power.</translate>
-|Type=<translate>Sub-race</translate>
+|quote=<translate><!--T:1--> A Human rebuilt by Dr. Gero: a permanent choice that trades the Human forms for a new line of power.</translate>
+|Type=<translate><!--T:2--> Sub-race</translate>
 |Parent race={{L|Human}}
-|Racial skill=<translate>Android Core, Absorption Barrier, Fast Learner, Adrenaline</translate>
-|Forms=<translate>Android forms (Android Base, Super Android, Fused Android)</translate>
-|Strengths=<translate>Half-price ki attacks, double Ki regeneration, a barrier that turns ki blasts into Ki</translate>
-|Playstyle=<translate>Ki-efficient fighter with a defensive barrier</translate>
+|Racial skill=<translate><!--T:3--> Android Core, Absorption Barrier, Fast Learner, Adrenaline</translate>
+|Forms=<translate><!--T:4--> Android forms (Android Base, Super Android, Fused Android)</translate>
+|Strengths=<translate><!--T:5--> Half-price ki attacks, double Ki regeneration, a barrier that turns ki blasts into Ki</translate>
+|Playstyle=<translate><!--T:6--> Ki-efficient fighter with a defensive barrier</translate>
 |Fusion={{L|Potara Earrings}}, {{L|Medi-Bug Beetles}}
 }}
 <translate>
+<!--T:7-->
 '''Androids''' are a sub-race of the [[Special:MyLanguage/Human|Human]] race. A Human becomes one by accepting [[Special:MyLanguage/Dr. Gero|Dr. Gero]]'s android conversion in his laboratory. The upgrade is permanent: the Human Super and Legendary forms are gone for good, replaced by the three '''Android forms''', and the racial skill swaps Blood-Fueled Ki for '''Android Core''' and the '''Absorption Barrier'''.
 </translate>
 
 <translate>
-== Becoming an Android ==
+== Becoming an Android == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 Find [[Special:MyLanguage/Dr. Gero|Dr. Gero]] in [[Special:MyLanguage/Dr. Gero's Lab|Gero's Lab]] (see [[Special:MyLanguage/Structures|Structures]]), talk to him and accept his offer. He asks you to confirm, because the process can't be undone.
 
+<!--T:10-->
 * By default only '''Humans''' can be converted. Gero turns away other races.
 * You '''can't''' take the upgrade while you are fused (see [[Special:MyLanguage/Fusions|Fusions]]).
 * By default Dr. Gero only talks to players with an [[Special:MyLanguage/Alignment|alignment]] of '''60 or lower'''.
@@ -25,9 +28,10 @@ Find [[Special:MyLanguage/Dr. Gero|Dr. Gero]] in [[Special:MyLanguage/Dr. Gero's
 </translate>
 
 <translate>
-== What changes ==
+== What changes == <!--T:11-->
 </translate>
 <translate>
+<!--T:12-->
 * '''It is permanent.''' Once you are an Android you can't revert to a normal Human.
 * '''Different transformations.''' You lose access to the Human '''Super forms''' and '''Legendary forms''' and gain the '''Android forms''' line instead. A normal Human has the opposite: Super and Legendary forms, but no Android forms.
 * '''Different racial skill.''' Blood-Fueled Ki is replaced by Android Core and Absorption Barrier; Fast Learner and Adrenaline are kept.
@@ -35,47 +39,50 @@ Find [[Special:MyLanguage/Dr. Gero|Dr. Gero]] in [[Special:MyLanguage/Dr. Gero's
 </translate>
 
 <translate>
-== Racial skill ==
+== Racial skill == <!--T:13-->
 </translate>
 {{Config|General Server Config|racialSkills.human}}
 {| class="wikitable"
-! <translate>Part</translate> !! <translate>What it does</translate>
+! <translate><!--T:14--> Part</translate> !! <translate><!--T:15--> What it does</translate>
 |-
-| <translate>'''Android Core'''</translate> || <translate>Ki attacks cost '''50%''' less Ki with no health cost, and your Ki regeneration is multiplied by '''2''', but your ki attacks deal '''15%''' less damage.</translate>
+| <translate><!--T:16--> '''Android Core'''</translate> || <translate><!--T:17--> Ki attacks cost '''50%''' less Ki with no health cost, and your Ki regeneration is multiplied by '''2''', but your ki attacks deal '''15%''' less damage.</translate>
 |-
-| <translate>'''Absorption Barrier'''</translate> || <translate>Select the racial skill in the '''X''' menu and '''hold G''' to raise a barrier for up to '''10 seconds'''. Ki blasts that hit it deal no damage and restore '''50%''' of their power as Ki; other projectiles are blocked. If the absorbed Ki overflows your max Ki by '''50%''', you enter a '''Ki Surge'''; past '''75%''' the barrier shatters and the excess backfires on you as damage. Cooldown: '''30 seconds''' ('''180 seconds''' if the barrier shatters).</translate>
+| <translate><!--T:18--> '''Absorption Barrier'''</translate> || <translate><!--T:19--> Select the racial skill in the '''X''' menu and '''hold G''' to raise a barrier for up to '''10 seconds'''. Ki blasts that hit it deal no damage and restore '''50%''' of their power as Ki; other projectiles are blocked. If the absorbed Ki overflows your max Ki by '''50%''', you enter a '''Ki Surge'''; past '''75%''' the barrier shatters and the excess backfires on you as damage. Cooldown: '''30 seconds''' ('''180 seconds''' if the barrier shatters).</translate>
 |-
-| <translate>'''Fast Learner'''</translate> || <translate>Your techniques gain '''35%''' more experience.</translate>
+| <translate><!--T:20--> '''Fast Learner'''</translate> || <translate><!--T:21--> Your techniques gain '''35%''' more experience.</translate>
 |-
-| <translate>'''Adrenaline'''</translate> || <translate>Dropping to '''25%''' health or below fills you with adrenaline for '''15 seconds''': you take '''30%''' less damage and gain '''+25%''' attack speed and '''+25%''' movement speed. It can trigger again after '''180 seconds''', once your health has risen back above that threshold.</translate>
+| <translate><!--T:22--> '''Adrenaline'''</translate> || <translate><!--T:23--> Dropping to '''25%''' health or below fills you with adrenaline for '''15 seconds''': you take '''30%''' less damage and gain '''+25%''' attack speed and '''+25%''' movement speed. It can trigger again after '''180 seconds''', once your health has risen back above that threshold.</translate>
 |}
 
 <translate>
+<!--T:24-->
 The Ki Surge is explained on the [[Special:MyLanguage/Combat|Combat]] page.
 </translate>
 
 <translate>
-== Transformations ==
+== Transformations == <!--T:25-->
 </translate>
 {{Main|Transformations}}
 {| class="wikitable"
-! <translate>Group</translate> !! <translate>Form</translate> !! <translate>Level</translate> !! <translate>TP cost</translate> !! <translate>Story requisite</translate> !! <translate>STR / SKP / PWR</translate> !! <translate>DEF</translate> !! <translate>Ki drain</translate>
+! <translate><!--T:26--> Group</translate> !! <translate><!--T:27--> Form</translate> !! <translate><!--T:28--> Level</translate> !! <translate><!--T:29--> TP cost</translate> !! <translate><!--T:30--> Story requisite</translate> !! <translate><!--T:31--> STR / SKP / PWR</translate> !! <translate><!--T:32--> DEF</translate> !! <translate><!--T:33--> Ki drain</translate>
 |-
-| rowspan="3" | <translate>Android forms</translate> || <translate>Android Base</translate> || 0 || <translate>Given by Dr. Gero</translate> || — || 2.15 / 2.15 / 2.5 || 1.8625 || —
+| rowspan="3" | <translate><!--T:34--> Android forms</translate> || <translate><!--T:35--> Android Base</translate> || 0 || <translate><!--T:36--> Given by Dr. Gero</translate> || — || 2.15 / 2.15 / 2.5 || 1.8625 || —
 |-
-| <translate>Super Android</translate> || 1 || <translate>Included with the upgrade</translate> || {{L|Frieza Saga}} #10 || 3.2 / 3.2 / 3.65 || 2.575 || —
+| <translate><!--T:37--> Super Android</translate> || 1 || <translate><!--T:38--> Included with the upgrade</translate> || {{L|Frieza Saga}} #10 || 3.2 / 3.2 / 3.65 || 2.575 || —
 |-
-| <translate>Fused Android</translate> || 2 || 104,000 || {{L|Buu Saga}} #1 || 4.1 / 4.1 / 4.7 || 3.3 || <translate>— (attacks cost ×2.5 stamina)</translate>
+| <translate><!--T:39--> Fused Android</translate> || 2 || 104,000 || {{L|Buu Saga}} #1 || 4.1 / 4.1 / 4.7 || 3.3 || <translate><!--T:40--> — (attacks cost ×2.5 stamina)</translate>
 |}
 
 <translate>
+<!--T:41-->
 ''Level'' is the level of the Android Forms skill that unlocks the form. The default Android Forms price list is '''42,000 · 104,000''' TP, but Dr. Gero's upgrade already gives you level 1, so only level 2 (Fused Android) is bought. Each form after Android Base also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The Android forms have no Ki upkeep; Fused Android makes each attack cost 2.5 times as much stamina.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:42-->
 </translate>
 <translate>
+<!--T:43-->
 The Absorption Barrier (<code>androidBarrier…</code> keys, including its size) and the Android Core Ki regeneration multiplier (<code>androidKiRegenMultiplier</code>) are in the <code>human</code> section of <code>racialSkills</code> in <code>general-server.json</code>. Dr. Gero offers the upgrade to any race whose <code>character.json</code> has at least one Android Forms price, so server owners and add-ons can open it to other races.
 </translate>
 {{See also|General Server Config|Custom Races|Custom Forms}}

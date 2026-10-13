@@ -1,0 +1,58 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid boss</translate>
+|Dimension={{L|Demon Realm}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Gomah's Army|Gomah's Army]], wave 4</translate>
+|Behavior=<translate><!--T:3--> Waits until his escort falls; Elite AI</translate>
+|Health=450000
+|Damage=19,000
+|Ki damage=17,000
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, Ki Volley, Ki Wave, Dodon Ray, Melee Combo, Aerial Combo, Rapid Kicks, Zanzoken, dodging, teleporting</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Glorio''' is the warrior who tests you in the [[Special:MyLanguage/Daima Saga|Daima Saga]]. In [[Special:MyLanguage/Gomah's Army|Gomah's Army]], the raid of the [[Special:MyLanguage/Demon Realm|Demon Realm]], he fights on [[Special:MyLanguage/Gomah|Gomah]]'s side as the boss of the fourth wave. He has the widest set of moves of the raid's three bosses.
+</translate>
+
+<translate>
+== In raids == <!--T:7-->
+
+<!--T:8-->
+Glorio is the boss of wave 4, together with 10 [[Special:MyLanguage/Gomah Soldier|Gomah Soldiers]]. He stays dormant until the soldiers are dead, but attacking him wakes him up early. Like every raid boss, he glows red.
+
+<!--T:9-->
+In the raid he has 450,000 health, 19,000 melee damage and 17,000 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Elite]] AI tier. These are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+* '''Flight:''' Glorio flies and follows you into the air.
+* '''Ki attacks:''' lilac '''Ki Blast''', '''Ki Volley''' (a spray of small blasts), '''Ki Wave''' and '''Dodon Ray''' (a fast ki ray).
+* '''Melee Combo:''' he teleports around you, striking from the front and from behind, and ends with a heavy blow.
+* '''Aerial Combo:''' he knocks you into the air, appears above you and slams you back down.
+* '''Rapid Kicks:''' he teleports in front of you and kicks you in a rapid flurry.
+* '''Zanzoken:''' he can vanish out of the way of an attack, leaving an afterimage (2 hops).
+* '''Dodging:''' he can step back out of the way of your hits, with the shortest cooldown of any raid boss.
+* '''Teleporting:''' he teleports to you when you keep your distance or charge an attack from range.
+</translate>
+
+<translate>
+== Drops == <!--T:12-->
+
+<!--T:13-->
+Glorio drops nothing. Clearing the raid rewards everyone still fighting (see [[Special:MyLanguage/Gomah's Army#Rewards|Gomah's Army]]).
+</translate>
+
+<translate>
+== In the story == <!--T:14-->
+
+<!--T:15-->
+In the [[Special:MyLanguage/Daima Saga|Daima Saga]], the quest '''Glorio's Test''' has you spar with him on the Third Demon World.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity ids</translate>|<code>dragonminez:saga_glorio</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

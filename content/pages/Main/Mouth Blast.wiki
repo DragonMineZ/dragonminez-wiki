@@ -1,43 +1,51 @@
 {{Infobox Technique
-|quote=<translate>A Great Ape's energy wave, fired from the mouth.</translate>
-|Type=<translate>Ki attack</translate>
-|Attack type=<translate>Wave</translate>
-|Taught by=<translate>None (Great Ape form only)</translate>
-|Damage=<translate>×1.75 Ki Damage</translate>
-|Cooldown=<translate>12 seconds</translate>
-|Charge time=<translate>2.5 seconds</translate>
+|quote=<translate><!--T:1--> A Great Ape's energy wave, fired from the mouth.</translate>
+|Type=<translate><!--T:2--> Ki attack</translate>
+|Attack type=<translate><!--T:3--> Wave</translate>
+|Taught by=<translate><!--T:4--> None (Great Ape form only)</translate>
+|Damage=<translate><!--T:5--> ×1.75 Ki Damage</translate>
+|Cooldown=<translate><!--T:6--> 12 seconds</translate>
+|Charge time=<translate><!--T:7--> 2.5 seconds</translate>
 }}
 <translate>
+<!--T:8-->
 '''Mouth Blast''' is the energy wave a Great Ape fires from its mouth. It is one of the three techniques you get while you are in the '''Oozaru''' or '''Golden Oozaru''' form, and unlike other beams you can '''steer''' it while it fires by turning.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:9-->
 
+<!--T:10-->
 No master teaches Mouth Blast by default. While you are in the Oozaru or Golden Oozaru form, your first three technique slots are replaced with Mouth Blast, '''Oozaru Slam''' and [[Special:MyLanguage/Rage Scream|Rage Scream]]. They are added temporarily if you don't own them, and your normal slots come back when you leave the form.
 
+<!--T:11-->
 Its TP cost is '''4,500''', which applies if a server owner adds it to a master's list. Admins can also grant it with {{Command|/dmztech add}}.
 </translate>
 
 <translate>
-== How it works ==
+== How it works == <!--T:12-->
 
+<!--T:13-->
 Mouth Blast is a '''Wave''' ki attack: hold the slot key to charge it (2.5 seconds to reach 100%), keep holding to overcharge, and release to fire. Its damage is your Ki Damage × 1.75 × the charge.
 
+<!--T:14-->
 While it fires you can '''steer''' the beam by turning. The turn is smoothed and limited to 60° per second, so you can sweep it across a group of enemies but not snap it around.
 
+<!--T:15-->
 As a Wave attack, it can [[Special:MyLanguage/Beam Clash|clash]] with other beams.
 </translate>
 
 <translate>
-== Upgrades ==
+== Upgrades == <!--T:16-->
 
+<!--T:17-->
 Like every Wave attack, Mouth Blast gains experience when it hits and can upgrade its damage, speed, armor penetration and cooldown. See [[Special:MyLanguage/Techniques|Techniques]].
 </translate>
 
 <translate>
-== Notes ==
+== Notes == <!--T:18-->
 
+<!--T:19-->
 * The Oozaru forms need a tail; see [[Special:MyLanguage/Saiyan|Saiyan]]. [[Special:MyLanguage/Fake Moon|Fake Moon]] is one way to trigger them.
 </translate>
 

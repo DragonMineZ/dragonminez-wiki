@@ -1,0 +1,252 @@
+{
+ "Page_display_title": {
+  "source": "Enchantments",
+  "translation": "Encantamentos",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds its own enchantments for combat and survival: '''armor''' enchantments that speed up your regeneration, '''weapon''' enchantments that sharpen your attacks, and a pair of rare '''Gete-tech''' armor enchantments that you can only get from a quest.",
+  "translation": "O DragonMineZ adiciona seus próprios encantamentos para combate e sobrevivência: encantamentos de '''armadura''' que aceleram sua regeneração, encantamentos de '''arma''' que aprimoram seus ataques e um par de encantamentos de armadura raros de '''tecnologia Gete''' que você só consegue com uma missão.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Armor enchantments ==",
+  "translation": "== Encantamentos de armadura ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Each Recovery enchantment boosts one type of regeneration (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). Their levels '''add up across all your armor pieces''', with diminishing returns:",
+  "translation": "Cada encantamento de Recuperação aumenta um tipo de regeneração (veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]]). Os níveis deles '''se somam entre todas as suas peças de armadura''', com retornos decrescentes:",
+  "outdated": false
+ },
+ "4": {
+  "source": "* '''+6.25% per level''' for the first 4 levels in total;\n* then +3.125%, +1.5625% and +0.78125% per level for each further block of 4 levels;\n* up to +18.75% with 16 levels.",
+  "translation": "* '''+6.25% por nível''' nos primeiros 4 níveis no total;\n* depois +3.125%, +1.5625% e +0.78125% por nível a cada bloco seguinte de 4 níveis;\n* até +18.75% com 16 níveis.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Only one Recovery type can go on a single piece.'''",
+  "translation": "'''Só um tipo de Recuperação pode ir em cada peça.'''",
+  "outdated": false
+ },
+ "6": {
+  "source": "Enchantment",
+  "translation": "Encantamento",
+  "outdated": false
+ },
+ "7": {
+  "source": "Applies to",
+  "translation": "Aplica-se a",
+  "outdated": false
+ },
+ "8": {
+  "source": "Max level",
+  "translation": "Nível máximo",
+  "outdated": false
+ },
+ "9": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "10": {
+  "source": "Vitality Recovery",
+  "translation": "Recuperação de vitalidade",
+  "outdated": false
+ },
+ "11": {
+  "source": "Armor",
+  "translation": "Armadura",
+  "outdated": false
+ },
+ "12": {
+  "source": "Faster '''health''' regeneration.",
+  "translation": "Regeneração de '''vida''' mais rápida.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Resistance Recovery",
+  "translation": "Recuperação de Resistência",
+  "outdated": false
+ },
+ "14": {
+  "source": "Armor",
+  "translation": "Armadura",
+  "outdated": false
+ },
+ "15": {
+  "source": "Faster '''stamina''' regeneration.",
+  "translation": "Regeneração de '''estâmina''' mais rápida.",
+  "outdated": false
+ },
+ "16": {
+  "source": "Energy Recovery",
+  "translation": "Recuperação de energia",
+  "outdated": false
+ },
+ "17": {
+  "source": "Armor",
+  "translation": "Armadura",
+  "outdated": false
+ },
+ "18": {
+  "source": "Faster '''ki''' regeneration.",
+  "translation": "Regeneração de '''ki''' mais rápida.",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Weapon enchantments ==",
+  "translation": "== Encantamentos de arma ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "Enchantment",
+  "translation": "Encantamento",
+  "outdated": false
+ },
+ "21": {
+  "source": "Applies to",
+  "translation": "Aplica-se a",
+  "outdated": false
+ },
+ "22": {
+  "source": "Max level",
+  "translation": "Nível máximo",
+  "outdated": false
+ },
+ "23": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "24": {
+  "source": "Defense Penetration",
+  "translation": "Penetração de Defesa",
+  "outdated": false
+ },
+ "25": {
+  "source": "Swords, axes and DMZ weapons",
+  "translation": "Espadas, machados e armas do DMZ",
+  "outdated": false
+ },
+ "26": {
+  "source": "Your melee hits ignore '''2.5% of the enemy's defense per level''' (up to 12.5%). It stacks with the skill of the same name; total penetration is capped at 50%.",
+  "translation": "Seus golpes corpo a corpo ignoram '''2.5% da defesa do inimigo por nível''' (até 12.5%). Acumula com a habilidade de mesmo nome; a penetração total tem limite de 50%.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Healing Reduction",
+  "translation": "Redução de Cura",
+  "outdated": false
+ },
+ "28": {
+  "source": "Swords, axes and DMZ weapons",
+  "translation": "Espadas, machados e armas do DMZ",
+  "outdated": false
+ },
+ "29": {
+  "source": "Your hits '''cut the target's healing by 5% per level''' for 6 seconds. It stacks with the skill of the same name, capped at 40%.",
+  "translation": "Seus golpes '''reduzem a cura do alvo em 5% por nível''' por 6 segundos. Acumula com a habilidade de mesmo nome, com limite de 40%.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Critical Chance",
+  "translation": "Chance de crítico",
+  "outdated": false
+ },
+ "31": {
+  "source": "Swords, axes and DMZ weapons",
+  "translation": "Espadas, machados e armas do DMZ",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''+5% critical-hit chance''' per level (main hand).",
+  "translation": "'''+5% de chance de acerto crítico''' por nível (mão principal).",
+  "outdated": false
+ },
+ "33": {
+  "source": "Critical Damage",
+  "translation": "Dano crítico",
+  "outdated": false
+ },
+ "34": {
+  "source": "Swords, axes and DMZ weapons",
+  "translation": "Espadas, machados e armas do DMZ",
+  "outdated": false
+ },
+ "35": {
+  "source": "'''+5% critical-hit damage''' per level (main hand).",
+  "translation": "'''+5% de dano de acerto crítico''' por nível (mão principal).",
+  "outdated": false
+ },
+ "36": {
+  "source": "One crit path per weapon",
+  "translation": "Um caminho de crítico por arma",
+  "outdated": false
+ },
+ "37": {
+  "source": "Critical Chance and Critical Damage can't go on the same weapon: you pick one crit path per weapon. Every player starts with a 5% crit chance and ×1.5 crit damage.",
+  "translation": "Chance de crítico e Dano crítico não podem ir na mesma arma: você escolhe um caminho de crítico por arma. Todo jogador começa com 5% de chance de crítico e ×1.5 de dano crítico.",
+  "outdated": false
+ },
+ "38": {
+  "source": "== Gete-tech enchantments ==",
+  "translation": "== Encantamentos de tecnologia Gete ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "These two are '''not''' found in the enchanting table or in villager trades. Bulma's '''Gete Enhancements''' sidequest rewards them as an enchanted book with '''Ki Conductivity II''' and '''Gravity Forged II''' (see [[Special:MyLanguage/Gete Tech|Gete Tech]]). Like the Recovery enchantments, their levels add up across your armor pieces.",
+  "translation": "Estes dois '''não''' aparecem na mesa de encantamentos nem nas trocas com aldeões. A missão secundária '''Aprimoramentos Gete''' da Bulma os dá como recompensa em um livro encantado com '''Condutividade de Ki II''' e '''Gravidade Forjada II''' (veja [[Special:MyLanguage/Gete Tech|Tecnologia Gete]]). Assim como os encantamentos de Recuperação, os níveis deles se somam entre suas peças de armadura.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Enchantment",
+  "translation": "Encantamento",
+  "outdated": false
+ },
+ "41": {
+  "source": "Applies to",
+  "translation": "Aplica-se a",
+  "outdated": false
+ },
+ "42": {
+  "source": "Max level",
+  "translation": "Nível máximo",
+  "outdated": false
+ },
+ "43": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "44": {
+  "source": "Ki Conductivity",
+  "translation": "Condutividade de Ki",
+  "outdated": false
+ },
+ "45": {
+  "source": "Armor",
+  "translation": "Armadura",
+  "outdated": false
+ },
+ "46": {
+  "source": "Boosts your '''ki regeneration''' with the same curve as the Recovery enchantments, on top of Energy Recovery.",
+  "translation": "Aumenta sua '''regeneração de ki''' com a mesma curva dos encantamentos de Recuperação, somando-se à Recuperação de energia.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Gravity Forged",
+  "translation": "Gravidade Forjada",
+  "outdated": false
+ },
+ "48": {
+  "source": "Armor",
+  "translation": "Armadura",
+  "outdated": false
+ },
+ "49": {
+  "source": "'''Reduces incoming knockback by 15% per level''', down to a minimum of 40% of the normal knockback.",
+  "translation": "'''Reduz a repulsão recebida em 15% por nível''', até um mínimo de 40% da repulsão normal.",
+  "outdated": false
+ }
+}

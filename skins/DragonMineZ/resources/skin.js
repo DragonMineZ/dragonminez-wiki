@@ -4,6 +4,7 @@ const dropdowns = require( './dropdowns.js' );
 const search = require( './search.js' );
 const sidebar = require( './sidebar.js' );
 const floatingMenu = require( './floatingMenu.js' );
+const finder = require( './finder.js' );
 
 function wrapTables( root ) {
 	root.querySelectorAll( '.mw-parser-output table.wikitable' ).forEach( ( table ) => {
@@ -91,6 +92,7 @@ function init() {
 	search.init();
 	sidebar.init();
 	floatingMenu.init();
+	finder.init();
 	markActiveSidebar();
 	prefs.showPendingToast();
 	mw.hook( 'wikipage.content' ).add( ( $content ) => {

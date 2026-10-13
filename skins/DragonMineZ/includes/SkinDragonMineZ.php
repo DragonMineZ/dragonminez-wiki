@@ -311,34 +311,18 @@ class SkinDragonMineZ extends SkinMustache {
 	}
 
 	private function translationNotice( Title $title, string $readerLang, array $variants, string $pageLang ): ?string {
-		if ( $readerLang === $pageLang || !$title->isContentPage() || !$title->exists() ) {
+		if ( $readerLang === $pageLang || isset( $variants[$readerLang] ) || !$title->isContentPage() || !$title->exists() ) {
 			return null;
 		}
 		if ( $this->getContext()->getActionName() !== 'view' ) {
 			return null;
 		}
-		$readerLabel = ReaderLanguage::label( $readerLang );
-		$pageLabel = ReaderLanguage::label( $pageLang );
-		if ( isset( $variants[$readerLang] ) ) {
-			$text = $this->msg( 'dmz-translation-available', $readerLabel )->text();
-			$link = Html::rawElement(
-				'a',
-				[ 'href' => $variants[$readerLang]->getLocalURL(), 'class' => 'dmz-notice__action' ],
-				Html::element( 'span', [], $this->msg( 'dmz-translation-switch', $readerLabel )->text() )
-					. Html::element( 'span', [ 'class' => 'material-symbols-rounded', 'aria-hidden' => 'true' ], 'chevron_right' )
-			);
-			$icon = 'translate';
-		} else {
-			$text = $this->msg( 'dmz-translation-missing', $readerLabel, $pageLabel )->text();
-			$link = '';
-			$icon = 'info';
-		}
+		$text = $this->msg( 'dmz-translation-missing', ReaderLanguage::label( $readerLang ), ReaderLanguage::label( $pageLang ) )->text();
 		return Html::rawElement(
 			'div',
 			[ 'class' => 'dmz-translation-notice', 'lang' => $readerLang ],
-			Html::element( 'span', [ 'class' => 'material-symbols-rounded dmz-notice__icon', 'aria-hidden' => 'true' ], $icon )
+			Html::element( 'span', [ 'class' => 'material-symbols-rounded dmz-notice__icon', 'aria-hidden' => 'true' ], 'info' )
 				. Html::element( 'span', [ 'class' => 'dmz-notice__text' ], $text )
-				. $link
 		);
 	}
 

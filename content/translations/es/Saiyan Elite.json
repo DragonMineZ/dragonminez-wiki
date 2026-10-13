@@ -1,0 +1,147 @@
+{
+ "Page_display_title": {
+  "source": "Saiyan Elite",
+  "translation": "Élite Saiyajin",
+  "outdated": false
+ },
+ "1": {
+  "source": "Hostile, raid enemy and boss",
+  "translation": "Hostil, enemigo y jefe de incursión",
+  "outdated": false
+ },
+ "2": {
+  "source": "[[Special:MyLanguage/Saiyan Assault|Saiyan Assault]], waves 3 to 5",
+  "translation": "[[Special:MyLanguage/Saiyan Assault|Asalto Saiyajin]], oleadas 3 a 5",
+  "outdated": false
+ },
+ "3": {
+  "source": "Throws a fake moon and becomes an Oozaru in the last wave; Smart AI",
+  "translation": "Lanza una luna falsa y se convierte en Oozaru en la última oleada; IA Inteligente",
+  "outdated": false
+ },
+ "4": {
+  "source": "Flight, Ki Blast, Ki Wave, ki ball, Melee Combo, Aerial Combo, Rapid Kicks, dodging, fake moon",
+  "translation": "Vuelo, Ráfaga de Ki, Onda de Ki, bola de ki, Combo Cuerpo a Cuerpo, Combo Aéreo, Patadas Rápidas, esquiva, luna falsa",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Saiyan Elites''' are the officers of the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]], the raid of [[Special:MyLanguage/Earth|Earth]]. They join the [[Special:MyLanguage/Saiyan Soldier|Saiyan Soldiers]] from the third wave on, and in the last wave they throw a fake moon and transform into giant '''Saiyan Oozarus'''.",
+  "translation": "Las '''Élites Saiyajin''' son los oficiales del [[Special:MyLanguage/Saiyan Assault|Asalto Saiyajin]], la incursión de la [[Special:MyLanguage/Earth|Tierra]]. Se unen a los [[Special:MyLanguage/Saiyan Soldier|Soldados Saiyajin]] a partir de la tercera oleada, y en la última lanzan una luna falsa y se transforman en gigantescos '''Oozarus Saiyajin'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Appearance ==",
+  "translation": "== Apariencia ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Like the soldiers, every Saiyan Elite gets its own look when it spawns: a skin tone, black hair in a random style, one of four sets of Saiyan armor (Vegeta's, Raditz's, Turles's or Bardock's) and a green, red, blue or purple [[Special:MyLanguage/Scouters|scouter]].",
+  "translation": "Como los soldados, cada Élite Saiyajin recibe su propio aspecto al aparecer: un tono de piel, pelo negro con un peinado aleatorio, uno de cuatro conjuntos de armadura saiyajin (el de Vegeta, el de Raditz, el de Turles o el de Bardock) y un [[Special:MyLanguage/Scouters|escáner]] verde, rojo, azul o morado.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== In raids ==",
+  "translation": "== En las incursiones ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "In waves 3 and 4 the Elites fight alongside the soldiers, glow purple like them and can't transform. In wave 5 they are the raid's bosses: they glow red and stay dormant until the six soldiers of the wave are dead, but attacking one wakes it up early. All of them fight on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Smart]] AI tier and attack only the raid's participants.",
+  "translation": "En las oleadas 3 y 4, las Élites pelean junto a los soldados, brillan en morado como ellos y no pueden transformarse. En la oleada 5 son los jefes de la incursión: brillan en rojo y permanecen inactivas hasta que mueren los seis soldados de la oleada, pero atacar a una la despierta antes. Todas pelean en el nivel de IA [[Special:MyLanguage/Sagas#Enemy AI tiers|Inteligente]] y solo atacan a los participantes de la incursión.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Stats are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.",
+  "translation": "Las estadísticas son las predeterminadas, antes del multiplicador de dificultad de historia del jugador que inició la incursión (consulta [[Special:MyLanguage/Raids#Difficulty|Incursiones]]); la cantidad de participantes no las cambia.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Wave",
+  "translation": "Oleada",
+  "outdated": false
+ },
+ "13": {
+  "source": "Elites",
+  "translation": "Élites",
+  "outdated": false
+ },
+ "14": {
+  "source": "Health / melee / ki",
+  "translation": "Vida / cuerpo a cuerpo / ki",
+  "outdated": false
+ },
+ "15": {
+  "source": "Transforms",
+  "translation": "Se transforma",
+  "outdated": false
+ },
+ "16": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "17": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "18": {
+  "source": "Yes; as Oozaru 1,500 / 55 / 45",
+  "translation": "Sí; como Oozaru 1,500 / 55 / 45",
+  "outdated": false
+ },
+ "19": {
+  "source": "== The fake moon ==",
+  "translation": "== La luna falsa ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "In the last wave, once an Elite has been fighting for 3 seconds, it stops, looks up and spends 1.5 seconds winding up a '''fake moon''', which it throws into the sky. Players within 96 blocks see ''\"Look up at the moon... and witness the true power of a Saiyan!\"''. Only one Elite throws a moon at a time, and stunning it during the windup cancels the throw.",
+  "translation": "En la última oleada, cuando una Élite lleva 3 segundos peleando, se detiene, mira hacia arriba y pasa 1.5 segundos preparando una '''luna falsa''', que lanza al cielo. Los jugadores que estén a 96 bloques o menos ven ''\"Mira la luna... ¡y sé testigo del verdadero poder de un saiyajin!\"''. Solo una Élite lanza una luna a la vez, y aturdirla durante la preparación cancela el lanzamiento.",
+  "outdated": false
+ },
+ "21": {
+  "source": "The moon climbs about 30 blocks and glows there for 20 seconds. Every Elite that is fighting within 96 blocks of it transforms as soon as the moon stops rising: it powers up for 4 seconds, can't be hurt meanwhile, and becomes a '''Saiyan Oozaru''' with full health. If the moon fades before an Elite has seen it, the Elites throw another one.",
+  "translation": "La luna sube unos 30 bloques y brilla allí durante 20 segundos. Toda Élite que esté peleando a 96 bloques o menos de ella se transforma en cuanto la luna deja de subir: acumula poder durante 4 segundos, no puede recibir daño mientras tanto y se convierte en un '''Oozaru Saiyajin''' con la vida al máximo. Si la luna se desvanece antes de que una Élite la haya visto, las Élites lanzan otra.",
+  "outdated": false
+ },
+ "22": {
+  "source": "The moon works like the [[Special:MyLanguage/Fake Moon|Fake Moon]] technique for everyone: a player with a tail who looks at it can transform into an Oozaru too.",
+  "translation": "La luna funciona como la técnica [[Special:MyLanguage/Fake Moon|Luna Falsa]] para todos: un jugador con cola que la mire también puede transformarse en Oozaru.",
+  "outdated": false
+ },
+ "23": {
+  "source": "== Forms ==",
+  "translation": "== Formas ==",
+  "outdated": false
+ },
+ "24": {
+  "source": "'''Saiyan Elite.''' Elites fly a little faster than the soldiers and dodge more often:\n* '''Ki Blast''' and '''Ki Wave:''' yellow ki attacks with an orange rim, plus a larger ki ball.\n* '''Melee Combo:''' the Elite teleports around you, striking from the front and from behind, and ends with a heavy blow.\n* '''Aerial Combo:''' it knocks you into the air, appears above you and slams you back down.\n* '''Rapid Kicks:''' it teleports in front of you and kicks you in a rapid flurry.\n* '''Dodging:''' it can step back out of the way of your hits.",
+  "translation": "'''Élite Saiyajin.''' Las Élites vuelan un poco más rápido que los soldados y esquivan más a menudo:\n* '''Ráfaga de Ki''' y '''Onda de Ki:''' ataques de ki amarillos con borde naranja, además de una bola de ki más grande.\n* '''Combo Cuerpo a Cuerpo:''' la Élite se teletransporta a tu alrededor, te golpea de frente y por la espalda, y termina con un golpe potente.\n* '''Combo Aéreo:''' te lanza por los aires, aparece encima de ti y te estrella contra el suelo.\n* '''Patadas Rápidas:''' se teletransporta frente a ti y te lanza una lluvia de patadas rápidas.\n* '''Esquiva:''' puede retroceder para apartarse de tus golpes.",
+  "outdated": false
+ },
+ "25": {
+  "source": "'''Saiyan Oozaru.''' A giant Great Ape that can't fly. In the raid it has 1,500 health, 55 melee damage and 45 ki damage, and keeps the Elite's Smart AI tier. It doesn't transform again: defeating it defeats that Elite.\n* '''Oozaru Beam:''' a purple ki beam, based on its ki damage.\n* '''Oozaru Roar:''' a long roar that keeps hurting and pushing back everyone around it.\n* '''Oozaru Fist:''' a huge punch.\n* '''Oozaru Slam:''' it slams the ground, sending out a shockwave and a weaker outer ring.\n* The roar, the fist and the slam are based on its melee damage.",
+  "translation": "'''Oozaru Saiyajin.''' Un gigantesco Mono Gigante que no puede volar. En la incursión tiene 1,500 de vida, 55 de daño cuerpo a cuerpo y 45 de daño de ki, y conserva el nivel de IA Inteligente de la Élite. No vuelve a transformarse: derrotarlo derrota a esa Élite.\n* '''Rayo Oozaru:''' un rayo de ki morado, basado en su daño de ki.\n* '''Rugido Oozaru:''' un largo rugido que no deja de herir y de empujar a todos los que están a su alrededor.\n* '''Puño Oozaru:''' un puñetazo enorme.\n* '''Aplastamiento Oozaru:''' golpea el suelo y lanza una onda expansiva y un anillo exterior más débil.\n* El rugido, el puño y el aplastamiento se basan en su daño cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Drops ==",
+  "translation": "== Botín ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Saiyan Elites and their Oozaru form drop nothing: their armor and scouter are only part of their look. Clearing the raid rewards everyone still fighting, including a Green Scouter (see [[Special:MyLanguage/Saiyan Assault#Rewards|Saiyan Assault]]).",
+  "translation": "Las Élites Saiyajin y su forma Oozaru no sueltan nada: su armadura y su escáner son solo parte de su aspecto. Despejar la incursión recompensa a todos los que siguen peleando, incluido un Escáner (Verde) (consulta [[Special:MyLanguage/Saiyan Assault#Rewards|Asalto Saiyajin]]).",
+  "outdated": false
+ },
+ "28": {
+  "source": "Entity ids",
+  "translation": "IDs de entidad",
+  "outdated": false
+ }
+}

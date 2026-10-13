@@ -1,205 +1,228 @@
 <translate>
+<!--T:1-->
 Before you can train, fight or transform you need a character. DragonMineZ's creation flow has two screens, '''race selection''' and '''customization''', plus three detailed editors: the '''hair editor''', the '''skin pixel editor''' and the '''custom tattoo''' painter. This page walks through all of them. To learn what each race or class ''does'', see [[Special:MyLanguage/Races|Races]] and [[Special:MyLanguage/Classes|Classes]]; for the stats you start with, see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].
 </translate>
 
 <translate>
-== Opening the creator ==
+== Opening the creator == <!--T:2-->
 </translate>
 {{Config|General Server Config|gameplay}}
 
-* <translate>By default the creation screen '''opens by itself''' when you join a world without a character.</translate>
-* <translate>If the server turned that off, press the '''Stats Menu''' key ({{Key|V}} by default) to start. Until you do, the HUD shows the hint "Press [V] to begin your adventure!".</translate>
-* <translate>The first time through, a short interactive '''tutorial''' explains each step: press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn tutorials off on the welcome popup, and bring them back later from the '''Config''' tab ('''Interface''' → '''Show Tutorials Again''').</translate>
+* <translate><!--T:3--> By default the creation screen '''opens by itself''' when you join a world without a character.</translate>
+* <translate><!--T:4--> If the server turned that off, press the '''Stats Menu''' key ({{Key|V}} by default) to start. Until you do, the HUD shows the hint "Press [V] to begin your adventure!".</translate>
+* <translate><!--T:5--> The first time through, a short interactive '''tutorial''' explains each step: press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn tutorials off on the welcome popup, and bring them back later from the '''Config''' tab ('''Interface''' → '''Show Tutorials Again''').</translate>
 
 <translate>
-== Race selection ==
+== Race selection == <!--T:6-->
 
+<!--T:7-->
 A carousel shows every race loaded on the server: the seven default races ([[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]) plus any [[Special:MyLanguage/Custom Races|custom races]] added by the server or an add-on.
 </translate>
 
-* <translate>Use the '''arrows''' under the model to browse races; each race has its own panorama background.</translate>
-* <translate>The left side shows the '''race description'''; the right panel lists its '''racial skills''' with your server's live values (scroll if the list is long).</translate>
-* <translate>Press '''Select''' to move on to customization with that race. Switching race resets the appearance to that race's defaults.</translate>
+* <translate><!--T:8--> Use the '''arrows''' under the model to browse races; each race has its own panorama background.</translate>
+* <translate><!--T:9--> The left side shows the '''race description'''; the right panel lists its '''racial skills''' with your server's live values (scroll if the list is long).</translate>
+* <translate><!--T:10--> Press '''Select''' to move on to customization with that race. Switching race resets the appearance to that race's defaults.</translate>
 
-{{Note|type=warning|<translate>Choose your race carefully: the '''Re-Customize''' wish lets you change your looks and class later, but not your race. Picking another race means a full character reset (such as Dende's '''Reset Stats''' service), which wipes your progress. Humans can still become [[Special:MyLanguage/Android|Androids]] later through '''Dr. Gero'''.</translate>}}
+{{Note|type=warning|<translate><!--T:11--> Choose your race carefully: the '''Re-Customize''' wish lets you change your looks and class later, but not your race. Picking another race means a full character reset (such as Dende's '''Reset Stats''' service), which wipes your progress. Humans can still become [[Special:MyLanguage/Android|Androids]] later through '''Dr. Gero'''.</translate>}}
 
 <translate>
-== Customization ==
+== Customization == <!--T:12-->
 
+<!--T:13-->
 The customization screen is split into tabs; a progress bar in the bottom-right shows which step you are on. Use '''Back''' and '''Next''' to move between tabs, and '''Confirm''' on the last one to create your character. You can '''drag the model''' to rotate it at any time.
 
+<!--T:14-->
 Every color button opens a '''color picker''' with '''Hue''', '''Saturation''' and '''Value''' sliders and a '''hex''' field (for example <code>#FFD3C9</code>). Options are shown as a grid of small model previews: click one to pick it.
 
-=== Body ===
+=== Body === <!--T:15-->
 </translate>
 
-* <translate>'''Body type''': the grid shows every body type of your race. For races with gender (Human, Saiyan, Majin and Glind) the male and female body types share the same grid, so picking a body type also picks your gender. For Humans and Saiyans, body type '''0''' uses your own '''Minecraft skin'''.</translate>
-* <translate>'''Body colors''': three body color slots (Bio-Androids get a fourth one, the hair color, which tints part of their body).</translate>
-* <translate>'''Chest Size''': female characters get a slider from '''×0.75''' to '''×1.25'''.</translate>
+* <translate><!--T:16--> '''Body type''': the grid shows every body type of your race. For races with gender (Human, Saiyan, Majin and Glind) the male and female body types share the same grid, so picking a body type also picks your gender. For Humans and Saiyans, body type '''0''' uses your own '''Minecraft skin'''.</translate>
+* <translate><!--T:17--> '''Body colors''': three body color slots (Bio-Androids get a fourth one, the hair color, which tints part of their body).</translate>
+* <translate><!--T:18--> '''Chest Size''': female characters get a slider from '''×0.75''' to '''×1.25'''.</translate>
 
 <translate>
-=== Hair ===
+=== Hair === <!--T:19-->
 
+<!--T:20-->
 This tab only appears for races with hair or head parts.
 </translate>
 
-* <translate>'''Head parts and hairstyles''': the grid holds a "none" option, your race's head parts (Namekian antennae, Frost Demon horns, the Majin head tentacle, Glind ears) and, for races that can use hair (Human, Saiyan, Majin and Glind), the '''28 hairstyle presets''' (including Bald). Head parts of the same kind replace each other; a Majin can combine a tentacle '''and''' a hairstyle, and a Glind its ears '''and''' a hairstyle.</translate>
-* <translate>'''Hair color'''.</translate>
-* <translate>'''Edit''' opens the hair editor (see below).</translate>
-* <translate>'''Skin Pixels''' (a small icon, only when you use your Minecraft skin) opens the skin pixel editor in hair mode.</translate>
+* <translate><!--T:21--> '''Head parts and hairstyles''': the grid holds a "none" option, your race's head parts (Namekian antennae, Frost Demon horns, the Majin head tentacle, Glind ears) and, for races that can use hair (Human, Saiyan, Majin and Glind), the '''28 hairstyle presets''' (including Bald). Head parts of the same kind replace each other; a Majin can combine a tentacle '''and''' a hairstyle, and a Glind its ears '''and''' a hairstyle.</translate>
+* <translate><!--T:22--> '''Hair color'''.</translate>
+* <translate><!--T:23--> '''Edit''' opens the hair editor (see below).</translate>
+* <translate><!--T:24--> '''Skin Pixels''' (a small icon, only when you use your Minecraft skin) opens the skin pixel editor in hair mode.</translate>
 
 <translate>
-=== Eyes ===
+=== Eyes === <!--T:25-->
 </translate>
 
-* <translate>The '''eye type''' grid and the two '''eye colors''' (left and right). The small button between them copies the first color to the second.</translate>
-* <translate>'''Skin Pixels''' (only when you use your Minecraft skin) opens the skin pixel editor in eyes mode.</translate>
+* <translate><!--T:26--> The '''eye type''' grid and the two '''eye colors''' (left and right). The small button between them copies the first color to the second.</translate>
+* <translate><!--T:27--> '''Skin Pixels''' (only when you use your Minecraft skin) opens the skin pixel editor in eyes mode.</translate>
 
 <translate>
-=== Face ===
+=== Face === <!--T:28-->
 
+<!--T:29-->
 '''Nose''' and '''Mouth''' grids. Glinds use the human face parts; the other races can also pick the human face parts, listed after their own.
 
-=== Tattoo ===
+=== Tattoo === <!--T:30-->
 
+<!--T:31-->
 The '''Tattoo''' grid. The last card, '''Custom''', lets you paint your own tattoo: select it and press '''Edit''' to open the tattoo painter (see below). It isn't offered when the server has custom tattoos turned off.
 
-=== Class and aura ===
+=== Class and aura === <!--T:32-->
 </translate>
 
-* <translate>'''Class''': browse the classes with the arrows. The panel shows the class's '''base stats''', '''scalings''' and '''regeneration''', and the right side explains its '''passive'''. See [[Special:MyLanguage/Classes|Classes]].</translate>
-* <translate>'''Aura''': choose how your aura looks: '''2D Aura''', '''3D: Smooth''' or '''3D: Sparking''' (Glinds also get '''3D: God''', a constantly shifting flame). This is a personal visual preference; other players see your aura in the style you picked. Some forms override the 3D style; for example, Legendary forms always use the Sparking style. You can change it later from the '''Config''' tab (see [[Special:MyLanguage/Menus#Config|Menus]]).</translate>
-* <translate>'''Aura color'''.</translate>
+* <translate><!--T:33--> '''Class''': browse the classes with the arrows. The panel shows the class's '''base stats''', '''scalings''' and '''regeneration''', and the right side explains its '''passive'''. See [[Special:MyLanguage/Classes|Classes]].</translate>
+* <translate><!--T:34--> '''Aura''': choose how your aura looks: '''2D Aura''', '''3D: Smooth''' or '''3D: Sparking''' (Glinds also get '''3D: God''', a constantly shifting flame). This is a personal visual preference; other players see your aura in the style you picked. Some forms override the 3D style; for example, Legendary forms always use the Sparking style. You can change it later from the '''Config''' tab (see [[Special:MyLanguage/Menus#Config|Menus]]).</translate>
+* <translate><!--T:35--> '''Aura color'''.</translate>
 
 <translate>
-=== Transformation preview ===
+=== Transformation preview === <!--T:36-->
 
+<!--T:37-->
 On the Hair tab (or on the Body tab for races without hair options) a pair of arrows lets you cycle through your race's [[Special:MyLanguage/Transformations|transformations]], so you can see how your colors, hair and body look in every form before confirming. It is only a preview: nothing is unlocked.
 
+<!--T:38-->
 After you press '''Confirm''', your character is created and, if tutorials are on, a short '''HUD tour''' follows (see [[Special:MyLanguage/HUD|HUD]]).
 </translate>
 
 <translate>
-== Hair editor ==
+== Hair editor == <!--T:39-->
 
+<!--T:40-->
 The hair editor builds your hairstyle out of individual '''strands''', in the style of Blockbench. Open it from:
 </translate>
 
-* <translate>the '''Edit''' button on the Hair tab (when creating or re-customizing your character), or</translate>
-* <translate>the '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], at any time (outside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], and only for characters with hair).</translate>
+* <translate><!--T:41--> the '''Edit''' button on the Hair tab (when creating or re-customizing your character), or</translate>
+* <translate><!--T:42--> the '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], at any time (outside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], and only for characters with hair).</translate>
 
 <translate>
-=== Hairstyles and slots ===
+=== Hairstyles and slots === <!--T:43-->
 
+<!--T:44-->
 Your character has '''5 hairstyle slots''': '''Base''', '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4'''. You wear the Base style normally; a transformation switches to the slot it uses, so you can design how your hair changes when you transform. Pick the slot at the top of the editor.
 </translate>
 
-* <translate>'''Preset''': start from any of the 28 presets (or Bald).</translate>
-* <translate>'''Hair color''': the global color of all your hair.</translate>
-* <translate>'''Copy from''' another slot, or '''Clear style'''.</translate>
-* <translate>'''Auto-generate''': with no strand selected, the Inspector can build your '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4''' styles from your '''Base''' style, all at once or one slot at a time ('''Generate from Base'''). It is a single undo step and switches to the generated slot. Long straight hair keeps its roots and only curls the tips up, and SSJ3 uses a Super Saiyan 3 mane that keeps your hanging bangs. It needs a Base style.</translate>
-* <translate>The panel shows how many strands and segments the style uses against the server limit.</translate>
+* <translate><!--T:45--> '''Preset''': start from any of the 28 presets (or Bald).</translate>
+* <translate><!--T:46--> '''Hair color''': the global color of all your hair.</translate>
+* <translate><!--T:47--> '''Copy from''' another slot, or '''Clear style'''.</translate>
+* <translate><!--T:48--> '''Auto-generate''': with no strand selected, the Inspector can build your '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4''' styles from your '''Base''' style, all at once or one slot at a time ('''Generate from Base'''). It is a single undo step and switches to the generated slot. Long straight hair keeps its roots and only curls the tips up, and SSJ3 uses a Super Saiyan 3 mane that keeps your hanging bangs. It needs a Base style.</translate>
+* <translate><!--T:49--> The panel shows how many strands and segments the style uses against the server limit.</translate>
 
 <translate>
-=== Editing strands ===
+=== Editing strands === <!--T:50-->
 
+<!--T:51-->
 Strands grow from a grid on the five faces of the head ('''F'''ront, '''B'''ack, '''L'''eft, '''R'''ight and '''T'''op). Select an empty spot and press '''Add strand''', or click an existing strand. The '''Inspector''' lets you set:
 </translate>
 
-* <translate>'''Transform''': Offset X/Y/Z and Rotation X/Y/Z.</translate>
-* <translate>'''Shape''': Segments, Length, Falloff, Width, Depth, Taper and Taper curve; '''Joints''' as ''Blocks'' or ''Connected''.</translate>
-* <translate>'''Curve''': Bend X/Y/Z and Twist.</translate>
-* <translate>'''Color''': a per-strand color and '''tip color''' (''Auto'' uses your hair color).</translate>
-* <translate>'''Segments''': {{Key|Alt}} + click a segment to scale its Length, Width and Depth on its own ('''Reset segment''' undoes it).</translate>
-* <translate>'''Copy''' and '''Paste''' a strand, '''To all''' (copy it to every other slot) and '''Clear'''.</translate>
+* <translate><!--T:52--> '''Transform''': Offset X/Y/Z and Rotation X/Y/Z.</translate>
+* <translate><!--T:53--> '''Shape''': Segments, Length, Falloff, Width, Depth, Taper and Taper curve; '''Joints''' as ''Blocks'' or ''Connected''.</translate>
+* <translate><!--T:54--> '''Curve''': Bend X/Y/Z and Twist.</translate>
+* <translate><!--T:55--> '''Color''': a per-strand color and '''tip color''' (''Auto'' uses your hair color).</translate>
+* <translate><!--T:56--> '''Segments''': {{Key|Alt}} + click a segment to scale its Length, Width and Depth on its own ('''Reset segment''' undoes it).</translate>
+* <translate><!--T:57--> '''Copy''' and '''Paste''' a strand, '''To all''' (copy it to every other slot) and '''Clear'''.</translate>
 
 <translate>
+<!--T:58-->
 Right-click any value to reset it.
 
-=== Viewport controls ===
+=== Viewport controls === <!--T:59-->
 </translate>
 
 {| class="wikitable"
-! <translate>Action</translate> !! <translate>Control</translate>
+! <translate><!--T:60--> Action</translate> !! <translate><!--T:61--> Control</translate>
 |-
-| <translate>Select a strand / a segment</translate> || <translate>Click / {{Key|Alt}} + click</translate>
+| <translate><!--T:62--> Select a strand / a segment</translate> || <translate><!--T:63--> Click / {{Key|Alt}} + click</translate>
 |-
-| <translate>Grow or shrink</translate> || <translate>{{Key|Shift}} + drag</translate>
+| <translate><!--T:64--> Grow or shrink</translate> || <translate><!--T:65--> {{Key|Shift}} + drag</translate>
 |-
-| <translate>Rotate</translate> || <translate>{{Key|Alt}} + drag</translate>
+| <translate><!--T:66--> Rotate</translate> || <translate><!--T:67--> {{Key|Alt}} + drag</translate>
 |-
-| <translate>Curve</translate> || <translate>{{Key|Ctrl}} + drag</translate>
+| <translate><!--T:68--> Curve</translate> || <translate><!--T:69--> {{Key|Ctrl}} + drag</translate>
 |-
-| <translate>Add / remove a segment</translate> || <translate>Right-click a strand / {{Key|Shift}} + right-click</translate>
+| <translate><!--T:70--> Add / remove a segment</translate> || <translate><!--T:71--> Right-click a strand / {{Key|Shift}} + right-click</translate>
 |-
-| <translate>Orbit / pan the camera</translate> || <translate>Drag / right drag</translate>
+| <translate><!--T:72--> Orbit / pan the camera</translate> || <translate><!--T:73--> Drag / right drag</translate>
 |-
-| <translate>Show or hide the body</translate> || <translate>Right-click empty space</translate>
+| <translate><!--T:74--> Show or hide the body</translate> || <translate><!--T:75--> Right-click empty space</translate>
 |-
-| <translate>Copy / paste a strand</translate> || {{Key|Ctrl}} + {{Key|C}} / {{Key|Ctrl}} + {{Key|V}}
+| <translate><!--T:76--> Copy / paste a strand</translate> || {{Key|Ctrl}} + {{Key|C}} / {{Key|Ctrl}} + {{Key|V}}
 |-
-| <translate>Clear the selected strand</translate> || {{Key|Delete}}
+| <translate><!--T:77--> Clear the selected strand</translate> || {{Key|Delete}}
 |-
-| <translate>Undo / redo</translate> || <translate>{{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} (or {{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}})</translate>
+| <translate><!--T:78--> Undo / redo</translate> || <translate><!--T:79--> {{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} (or {{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}})</translate>
 |}
 
 <translate>
+<!--T:80-->
 The top bar also has '''Hairbase''' (show or hide the painted hair layer on the scalp), '''Physics''' (preview how the hair moves), '''Mirror''' (every edit is copied to the matching strand on the other side), '''Undo''' and '''Redo'''. View buttons snap the camera to '''Front''', '''Back''', '''Left''', '''Right''' or '''Reset'''.
 
-=== Sharing hairstyles ===
+=== Sharing hairstyles === <!--T:81-->
 </translate>
 
-* <translate>'''Style''': export the current slot to your clipboard as a code, or import one.</translate>
-* <translate>'''Full''': export or import '''all 5 slots''' at once.</translate>
-* <translate>Codes start with <code>DMZ22:</code> (style) or <code>DMZF22:</code> (full). Codes made in version 2.1 (<code>DMZ1:</code> and <code>DMZF1:</code>) can still be imported.</translate>
-* <translate>'''Hair Salon''' opens the DragonMineZ Hair Salon website (dragonminez.com/hairsalon) in your browser, after a confirmation.</translate>
+* <translate><!--T:82--> '''Style''': export the current slot to your clipboard as a code, or import one.</translate>
+* <translate><!--T:83--> '''Full''': export or import '''all 5 slots''' at once.</translate>
+* <translate><!--T:84--> Codes start with <code>DMZ22:</code> (style) or <code>DMZF22:</code> (full). Codes made in version 2.1 (<code>DMZ1:</code> and <code>DMZF1:</code>) can still be imported.</translate>
+* <translate><!--T:85--> '''Hair Salon''' opens the DragonMineZ Hair Salon website (dragonminez.com/hairsalon) in your browser, after a confirmation.</translate>
 
 <translate>
+<!--T:86-->
 Press '''Save''' to apply, or '''Cancel''' (you are asked before unsaved changes are discarded).
 
-=== Server limits ===
+=== Server limits === <!--T:87-->
 </translate>
 {{Config|General Server Config|hair}}
 <translate>
+<!--T:88-->
 The server limits every style: at most '''12''' segments per strand, '''600''' segments per style, a strand length of '''20''' per hair type, a strand width of '''8''' and a root offset of '''2'''. Styles over the limits are trimmed by the server.
 </translate>
 
 <translate>
-== Skin pixel editor ==
+== Skin pixel editor == <!--T:89-->
 
+<!--T:90-->
 If you play with your '''own Minecraft skin''' (body type 0 on a Human or Saiyan), DragonMineZ can't know which pixels of your skin are eyes or hair. The pixel editor lets you mark them by painting '''directly on the 3D model''', so your transformations can recolor them:
 </translate>
 
-* <translate>'''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (it takes the eye color of each form). Your base form keeps your skin's own eyes untouched.</translate>
-* <translate>'''Hair''' (2 steps): mark the hair pixels of the '''base layer''', then of the '''overlay layer''' (hat and jacket). Marked hair always follows your hair color, including form colors when you transform.</translate>
+* <translate><!--T:91--> '''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (it takes the eye color of each form). Your base form keeps your skin's own eyes untouched.</translate>
+* <translate><!--T:92--> '''Hair''' (2 steps): mark the hair pixels of the '''base layer''', then of the '''overlay layer''' (hat and jacket). Marked hair always follows your hair color, including form colors when you transform.</translate>
 
 <translate>
+<!--T:93-->
 '''Controls:''' drag on the model to paint, hold {{Key|Alt}} or use the '''Eraser''' button to erase, {{Key|Shift}} + drag for a straight axis line, and click then {{Key|Shift}} + click for a line from A to B. '''Double-click''' to fill that whole side of the body part under the cursor (or to clear it with {{Key|Alt}} or the Eraser). Drag outside the model, or hold {{Key|Ctrl}} and drag anywhere, to rotate it: the camera turns freely, even over the top of the model. Right drag to pan and use the mouse wheel to zoom. {{Key|Ctrl}} + {{Key|Z}} undoes, {{Key|Ctrl}} + {{Key|Y}} or {{Key|Ctrl}} + {{Key|X}} redoes.
 
+<!--T:94-->
 The buttons in the top-left corner of the view snap the camera to '''Front''', '''Back''', '''Left''', '''Right''', '''Top''' or '''Bottom'''; '''Reset''' also brings back the default zoom and center. The '''Parts''' figure in the top-right corner shows or hides the head, body, arms and legs: click a part to hide or show it, or {{Key|Shift}} + click to show only that part (do it again to show them all). Hidden parts can't be painted, so hiding one lets you reach the sides it covers, such as the inside of the arms.
 
+<!--T:95-->
 The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Save''' and '''Cancel'''. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.
 
-== Custom tattoo ==
+== Custom tattoo == <!--T:96-->
 
+<!--T:97-->
 Choosing the '''Custom''' tattoo on the Tattoo tab and pressing '''Edit''' opens the same editor in '''tattoo mode''': a free brush using the color picker (sliders and hex), painted on the model at a '''resolution''' of '''64''', '''128''' or '''256''' pixels. Overlay cubes are hidden while you paint.
 </translate>
 
-* <translate>'''128''' and '''256''' are a '''Patreon''' benefit (also available to Staff): for everyone else those buttons are locked ("Reserved for Patreons and Staff"), and the server scales any bigger tattoo down to 64.</translate>
-* <translate>Server owners can turn custom tattoos off. Then the '''Custom''' card and its '''Edit''' button are gone, custom tattoos already painted aren't shown, and the server ignores new ones.</translate>
+* <translate><!--T:98--> '''128''' and '''256''' are a '''Patreon''' benefit (also available to Staff): for everyone else those buttons are locked ("Reserved for Patreons and Staff"), and the server scales any bigger tattoo down to 64.</translate>
+* <translate><!--T:99--> Server owners can turn custom tattoos off. Then the '''Custom''' card and its '''Edit''' button are gone, custom tattoos already painted aren't shown, and the server ignores new ones.</translate>
 
 <translate>
+<!--T:100-->
 Pixel marks and custom tattoos are saved with your character and shown to every player.
 
-== Changing your look later ==
+== Changing your look later == <!--T:101-->
 </translate>
 
-* <translate>The '''Re-Customize''' wish ([[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]], see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]) reopens the customization screen (the last button reads '''Update'''). You can change your appearance and '''class''', but '''not your race'''; your stats and skills are kept.</translate>
-* <translate>The '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] reopens the hair editor at any time.</translate>
-* <translate>Your aura style can be changed at any time from the '''Config''' tab.</translate>
-* <translate>'''Admins:''' <code>/dmzhair reset [targets]</code> restores a player's default race hair and clears all custom styles; <code>/dmzhair resync [targets]</code> re-sends a player's appearance to nearby players; <code>/dmzclass</code> changes class. See [[Special:MyLanguage/Commands|Commands]].</translate>
+* <translate><!--T:102--> The '''Re-Customize''' wish ([[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]], see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]) reopens the customization screen (the last button reads '''Update'''). You can change your appearance and '''class''', but '''not your race'''; your stats and skills are kept.</translate>
+* <translate><!--T:103--> The '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] reopens the hair editor at any time.</translate>
+* <translate><!--T:104--> Your aura style can be changed at any time from the '''Config''' tab.</translate>
+* <translate><!--T:105--> '''Admins:''' <code>/dmzhair reset [targets]</code> restores a player's default race hair and clears all custom styles; <code>/dmzhair resync [targets]</code> re-sends a player's appearance to nearby players; <code>/dmzclass</code> changes class. See [[Special:MyLanguage/Commands|Commands]].</translate>
 
 <translate>
+<!--T:106-->
 Appearance changes are only accepted at character creation, with a Re-Customize wish or (for hair) at Mr. Popo, and every value is checked by the server.
 </translate>
 

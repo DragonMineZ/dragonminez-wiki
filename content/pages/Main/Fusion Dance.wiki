@@ -1,31 +1,34 @@
 {{Infobox Fusion
-|quote=<translate>Fu... sion... Ha!</translate>
-|Method=<translate>Dance (Metamoru), with the Fusion skill</translate>
-|Requirements=<translate>Fusion skill on both players, same race, same form, stats within 50% of each other</translate>
-|Duration=<translate>Scales with the Fusion skill level, up to the full server duration (15 minutes by default)</translate>
-|Item=<translate>None</translate>
-|Result=<translate>Bonus STR, SKP and PWR from the partner, ×1.25 to ×2.0</translate>
-|Ending=<translate>Both players get a Fusion cooldown (30 minutes by default)</translate>
+|quote=<translate><!--T:1--> Fu... sion... Ha!</translate>
+|Method=<translate><!--T:2--> Dance (Metamoru), with the Fusion skill</translate>
+|Requirements=<translate><!--T:3--> Fusion skill on both players, same race, same form, stats within 50% of each other</translate>
+|Duration=<translate><!--T:4--> Scales with the Fusion skill level, up to the full server duration (15 minutes by default)</translate>
+|Item=<translate><!--T:5--> None</translate>
+|Result=<translate><!--T:6--> Bonus STR, SKP and PWR from the partner, ×1.25 to ×2.0</translate>
+|Ending=<translate><!--T:7--> Both players get a Fusion cooldown (30 minutes by default)</translate>
 }}
 <translate>
+<!--T:8-->
 The '''Fusion Dance''' (Metamoru) is the classic dance fusion. It uses the '''Fusion''' skill and costs nothing but timing, but it has the strictest requirements of the three [[Special:MyLanguage/Fusions|fusion methods]]: both dancers must be the same race, in the same form, and close in power.
 </translate>
 
 <translate>
-== The Fusion skill ==
+== The Fusion skill == <!--T:9-->
 
+<!--T:10-->
 Both players need the '''Fusion''' skill, taught by [[Special:MyLanguage/Goku|Goku]] (Good alignment). It has 5 levels, and its level sets how long the fusion lasts.
 </translate>
 {| class="wikitable"
-! <translate>Level</translate> !! 1 !! 2 !! 3 !! 4 !! 5
+! <translate><!--T:11--> Level</translate> !! 1 !! 2 !! 3 !! 4 !! 5
 |-
-! <translate>TP cost</translate>
+! <translate><!--T:12--> TP cost</translate>
 | 25,000 || 5,000 || 10,000 || 15,000 || 20,000
 |}
 
 <translate>
-== Requirements ==
+== Requirements == <!--T:13-->
 
+<!--T:14-->
 * Both players must have the '''Fusion''' skill.
 * Both players must be the '''same race'''.
 * Both players must be in the '''same form''': both in base form, or both in the same transformation and the same stack form (for example, both Super Saiyan 2 with [[Special:MyLanguage/Kaioken|Kaioken]]). The fusion is born in that form.
@@ -36,8 +39,9 @@ Both players need the '''Fusion''' skill, taught by [[Special:MyLanguage/Goku|Go
 {{Config|General Server Config|metamoruFusionThreshold}}
 
 <translate>
-== Performing the dance ==
+== Performing the dance == <!--T:15-->
 
+<!--T:16-->
 # Both players open the Utility Menu ({{Key|X}}) and select the '''Fusion''' action.
 # Both players '''hold the Action key''' ({{Key|G}}) to charge the dance. While charging you are locked in place and your facing is frozen.
 # Two players charging the dance within '''8 blocks''' of each other pair up: both turn to face the same way, side by side, and glide into place so their fingertips meet at the end of the dance. If one of the spots is blocked or has no ground, they only turn. Both charges restart together, so the full dance always plays before the fusion. If the two can't fuse (different race or form, an Android, too big a stat gap), both get the reason right away and nobody moves.
@@ -45,35 +49,43 @@ Both players need the '''Fusion''' skill, taught by [[Special:MyLanguage/Goku|Go
 </translate>
 
 <translate>
-== Result ==
+== Result == <!--T:17-->
 
+<!--T:18-->
 * Bonus stats are added from the partner's STR, SKP and PWR, scaled from '''×1.25 to ×2.0''' depending on how evenly matched the two were: the closer their stats, the bigger the multiplier.
 * The duration scales with the '''average Fusion skill level''' of the two players. With both at the maximum level, the fusion lasts the full server duration.
 * When it ends, '''both''' players go on '''Fusion cooldown''' (30 minutes by default).
 
+<!--T:19-->
 What you can and can't do while fused is described on the [[Special:MyLanguage/Fusions|Fusions]] page.
 </translate>
 
 <translate>
-== Failure messages ==
+== Failure messages == <!--T:20-->
 </translate>
 {| class="wikitable"
-! <translate>Message</translate> !! <translate>Reason</translate>
+! <translate><!--T:21--> Message</translate> !! <translate><!--T:22--> Reason</translate>
 |-
-| <translate>"You can only fuse (Metamoru) with players of the same race."</translate> || <translate>Different races.</translate>
+| <translate><!--T:23--> "You can only fuse (Metamoru) with players of the same race."</translate> || <translate><!--T:24--> Different races.</translate>
 |-
-| <translate>"You can only fuse (Metamoru) while both of you are in the same form."</translate> || <translate>Different forms or stack forms.</translate>
+| <translate><!--T:25--> "You can only fuse (Metamoru) while both of you are in the same form."</translate> || <translate><!--T:26--> Different forms or stack forms.</translate>
 |-
-| <translate>"You can only fuse (Metamoru) with a player similar in level to you."</translate> || <translate>The stat gap is too large.</translate>
+| <translate><!--T:27--> "You can only fuse (Metamoru) with a player similar in level to you."</translate> || <translate><!--T:28--> The stat gap is too large.</translate>
 |-
-| <translate>"Androids cannot perform fusion."</translate> || <translate>One of the players is an upgraded Android.</translate>
+| <translate><!--T:29--> "Androids cannot perform fusion."</translate> || <translate><!--T:30--> One of the players is an upgraded Android.</translate>
 |}
 
 <translate>
-== Notes ==
+== Notes == <!--T:31-->
 
+<!--T:32-->
 * The Fusion cooldown only blocks the Fusion Dance. You can still fuse with [[Special:MyLanguage/Potara Earrings|Potara Earrings]] or [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]] while it runs.
 * To fuse with a player of another race, use the Potara Earrings or the Medi-Bug Beetles instead.
+</translate>
+
+<translate>
+<!--T:33-->
+Among the NPC fighters, [[Special:MyLanguage/Gotenks|Gotenks]] (Goten and Trunks) and [[Special:MyLanguage/Gogeta|Gogeta]] (Goku and Vegeta) are dance fusions. Gogeta is the champion of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and Gotenks can be drawn as one of its contenders.
 </translate>
 
 {{Navbox Abilities}}

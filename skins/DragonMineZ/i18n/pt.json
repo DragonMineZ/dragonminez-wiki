@@ -28,9 +28,7 @@
 	"dmz-search-fulltext": "Pesquisar \"$1\" em todas as páginas",
 	"dmz-search-empty": "Nenhuma página corresponde a \"$1\"",
 	"dmz-user-tools": "Conta",
-	"dmz-translation-available": "Esta página também está disponível em $1.",
 	"dmz-translation-missing": "Esta página ainda não tem versão em $1; ela é exibida em $2.",
-	"dmz-translation-switch": "Ler em $1",
 	"dmz-home-hero-title": "Tudo sobre DragonMineZ",
 	"dmz-home-hero-subtitle": "Raças, transformações, combate, sagas e cada sistema do mod, atualizados a cada versão.",
 	"dmz-login": "Entrar",
@@ -51,5 +49,9 @@
 	"dmz-rail-version": "Versão atual",
 	"dmz-rail-changelog": "Notas de versão",
 	"dmz-sidebar-challenges": "Desafios",
-	"dmz-sidebar-gear": "Equipamento"
+	"dmz-sidebar-gear": "Equipamento",
+	"dmz-finder-placeholder": "Digite o nome de um item…",
+	"dmz-finder-empty": "Nenhum item fabricável corresponde a esse nome.",
+	"dmz-finder-loading": "Carregando a árvore de fabricação…",
+	"dmz-finder-error": "Não foi possível carregar a árvore de fabricação. Tente de novo."
 }

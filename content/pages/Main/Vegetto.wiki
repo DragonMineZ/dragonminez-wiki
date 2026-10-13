@@ -1,0 +1,62 @@
+{{Infobox Mob
+|forms=Base; Super Saiyan
+|Super Saiyan_image=Vegetto (Super Saiyan).png
+|Type=<translate><!--T:1--> Tournament contender, story sparring partner</translate>
+|Dimension={{L|Otherworld}}, {{L|Earth}}
+|Spawns=<translate><!--T:2--> Drawn at random as an Otherworld Tournament contender; Buu Saga quest 41 (Super Saiyan)</translate>
+|Behavior=<translate><!--T:3--> Fights you in the ring; Smart or Elite AI in the tournament</translate>
+|Damage=9,900–25,800
+|Ki damage=8,840–23,460
+|Abilities=<translate><!--T:4--> Flight, Ki Volley, Big Bang Attack, Final Flash (Super Saiyan), Deadly Dance (Vegetto), Zanzoken (Super Saiyan)</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Vegetto''' is the fusion of [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Vegeta|Vegeta]] by the [[Special:MyLanguage/Potara Earrings|Potara Earrings]]. He is one of the Buu Saga fighters of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], in his base form or as a Super Saiyan, and a sparring partner in the [[Special:MyLanguage/Buu Saga|Buu Saga]].
+</translate>
+
+<translate>
+== In the tournament == <!--T:7-->
+
+<!--T:8-->
+Vegetto can be drawn as a '''contender''' in the Otherworld Tournament. Each contender seat draws a random fighter from the Buu Saga cast, and a tournament never has two forms of the same character, so it has at most one Vegetto: base or Super Saiyan. The draw is revealed once everybody accepts the rules, and you only face him if he reaches your bout: fights between two NPCs are decided automatically.
+
+<!--T:9-->
+His stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI), and contenders get 8% stronger for every round already played.
+
+<!--T:10-->
+Tournament fighters never transform: Vegetto keeps the form he was drawn in for the whole bout. Bouts end at knockout, so he isn't killed and drops nothing.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:11-->
+
+<!--T:12-->
+Vegetto flies and teleports behind you in both forms. His AI tier comes from the tournament draw or, in the story, from your difficulty (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]). Both forms use [[Special:MyLanguage/Strike Attacks|Deadly Dance (Vegetto)]]: he dashes in and pins you with a flurry of blows that ends in a heavy final hit.
+</translate>
+{| class="wikitable"
+! <translate><!--T:13--> Form</translate> !! <translate><!--T:14--> Ki attacks</translate> !! <translate><!--T:15--> Combos</translate> !! <translate><!--T:16--> Mobility</translate>
+|-
+| <translate><!--T:17--> Base</translate> || <translate><!--T:18--> Ki Volley, Big Bang Attack</translate> || <translate><!--T:19--> Aerial Combo, Deadly Dance (Vegetto)</translate> || <translate><!--T:20--> Backsteps; teleports behind you</translate>
+|-
+| <translate><!--T:21--> Super Saiyan</translate> || <translate><!--T:22--> Ki Volley, Big Bang Attack, Final Flash</translate> || <translate><!--T:23--> Aerial Combo, Ki Charge Strike, Deadly Dance (Vegetto)</translate> || <translate><!--T:24--> Teleports behind you; Zanzoken at the highest level (6 after-image hops)</translate>
+|}
+
+<translate>
+== Forms == <!--T:25-->
+
+<!--T:26-->
+Vegetto has two forms, each a separate entity: '''Vegetto''' (base) and '''Vegetto (Super Saiyan)'''. Neither of them transforms into the other.
+</translate>
+
+<translate>
+== In the story == <!--T:28-->
+
+<!--T:29-->
+[[Special:MyLanguage/Buu Saga|Buu Saga]] quest 41, ''Vegetto Unleashed'', is a spar with Vegetto (Super Saiyan) in the Rocky biome: he concedes instead of dying. It comes right after quest 28, ''Face Vegetto'', which is a fight against Goku and Vegeta. The base form appears only in the tournament.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:30--> Entity ids</translate>|<code>dragonminez:saga_vegetto_base</code>, <code>dragonminez:saga_vegetto_ssj</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

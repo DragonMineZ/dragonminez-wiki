@@ -1,0 +1,152 @@
+{
+ "Page_display_title": {
+  "source": "Ki Sense",
+  "translation": "Sentir Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "Feel the power of everyone around you.",
+  "translation": "Siente el poder de todos los que te rodean.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Movement and utility",
+  "translation": "Movimiento y utilidad",
+  "outdated": false
+ },
+ "3": {
+  "source": "300 to 3,000 TP per level",
+  "translation": "De 300 a 3,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "Senses the ki of living beings around you and sets your lock-on range for homing ki attacks.",
+  "translation": "Percibe el ki de los seres vivos a tu alrededor y determina tu alcance para fijar objetivos con los ataques de ki teledirigidos.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Ki Sense''' lets you sense the ki of the living beings around you. In '''Combat''' mode it shows a panel with the health and Battle Power of every being you can see; in '''Search''' mode it reveals everyone nearby through walls. It also decides how far your lock-on reaches for homing ki attacks.",
+  "translation": "'''Sentir Ki''' te permite percibir el ki de los seres vivos a tu alrededor. En el modo '''Combate''' muestra un panel con la vida y el Poder de Combate de cada ser que puedes ver; en el modo '''Búsqueda''' revela a todos los que están cerca a través de las paredes. También determina hasta dónde llega tu fijación de objetivo para los ataques de ki teledirigidos.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Krillin|Krillin]] (both Good alignment) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Ki Sense. Level 1 costs 300 TP and each level costs 300 TP more than the previous one, up to 3,000 TP for level 10.",
+  "translation": "[[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Krillin|Krilin]] (ambos con alineamiento Bueno) y [[Special:MyLanguage/Frieza|Freezer]] (alineamiento Maligno) enseñan Sentir Ki. El nivel 1 cuesta 300 TP y cada nivel cuesta 300 TP más que el anterior, hasta 3,000 TP por el nivel 10.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Modes ==",
+  "translation": "== Modos ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Press {{Key|F4}} to cycle through '''Combat''' mode, '''Search''' mode and off. While you wear a [[Special:MyLanguage/Scouters|scouter]], {{Key|F4}} toggles the scouter readout instead.",
+  "translation": "Pulsa {{Key|F4}} para alternar entre el modo '''Combate''', el modo '''Búsqueda''' y desactivado. Mientras llevas un [[Special:MyLanguage/Scouters|escáner]], {{Key|F4}} activa o desactiva en su lugar la lectura del escáner.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Mode",
+  "translation": "Modo",
+  "outdated": false
+ },
+ "11": {
+  "source": "Range",
+  "translation": "Alcance",
+  "outdated": false
+ },
+ "12": {
+  "source": "At level 10",
+  "translation": "En el nivel 10",
+  "outdated": false
+ },
+ "13": {
+  "source": "What you see",
+  "translation": "Qué ves",
+  "outdated": false
+ },
+ "14": {
+  "source": "Combat",
+  "translation": "Combate",
+  "outdated": false
+ },
+ "15": {
+  "source": "10 blocks + 3 per level",
+  "translation": "10 bloques + 3 por nivel",
+  "outdated": false
+ },
+ "16": {
+  "source": "40 blocks",
+  "translation": "40 bloques",
+  "outdated": false
+ },
+ "17": {
+  "source": "Every being you can see gets a panel above its head with its health (plus ki and stamina for players), its Battle Power and the damage it takes.",
+  "translation": "Cada ser que puedes ver recibe un panel sobre la cabeza con su vida (más ki y stamina en los jugadores), su Poder de Combate y el daño que recibe.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Search",
+  "translation": "Búsqueda",
+  "outdated": false
+ },
+ "19": {
+  "source": "30 blocks + 20 per level",
+  "translation": "30 bloques + 20 por nivel",
+  "outdated": false
+ },
+ "20": {
+  "source": "230 blocks",
+  "translation": "230 bloques",
+  "outdated": false
+ },
+ "21": {
+  "source": "The world turns grey and every being shows through walls as an aura: red or orange if it is stronger than you, yellow if it is about as strong, blue if it is weaker or passive. Stronger beings have bigger auras.",
+  "translation": "El mundo se vuelve gris y cada ser se ve a través de las paredes como un aura: roja o naranja si es más fuerte que tú, amarilla si es más o menos igual de fuerte, azul si es más débil o pasivo. Los seres más fuertes tienen auras más grandes.",
+  "outdated": false
+ },
+ "22": {
+  "source": "The Combat panels are described on the [[Special:MyLanguage/HUD|HUD]] page. With the '''Ki Sense - Accumulative Damage''' option on (Config tab of the Character Menu), the damage a target takes is summed up instead of shown as single popups.",
+  "translation": "Los paneles del modo Combate se describen en la página [[Special:MyLanguage/HUD|HUD]]. Con la opción '''Sentir Ki - Daño Acumulativo''' activada (pestaña Config del menú de personaje), el daño que recibe un objetivo se suma en lugar de mostrarse en mensajes emergentes individuales.",
+  "outdated": false
+ },
+ "23": {
+  "source": "A lock-on sound warns you when something stronger than you comes into range, or powers up, out of your sight.",
+  "translation": "Un sonido de fijación te avisa cuando algo más fuerte que tú entra en tu alcance, o aumenta su poder, fuera de tu vista.",
+  "outdated": false
+ },
+ "24": {
+  "source": "== Lock-on range ==",
+  "translation": "== Alcance para fijar objetivos ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "Ki Sense also sets your '''lock-on range''' ({{Key|Z}}) for homing ki attacks: '''15 blocks + 5 per level''', so 65 blocks at level 10. While you are locked on, homing attacks follow your target. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].",
+  "translation": "Sentir Ki también determina tu '''alcance para fijar objetivos''' ({{Key|Z}}) con los ataques de ki teledirigidos: '''15 bloques + 5 por nivel''', es decir, 65 bloques en el nivel 10. Mientras tienes un objetivo fijado, los ataques teledirigidos siguen a tu objetivo. Consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]].",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Androids ==",
+  "translation": "== Androides ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "[[Special:MyLanguage/Android|Androids]] sense 10 blocks further, don't need line of sight in Combat mode, and get +25 blocks of lock-on range.",
+  "translation": "Los [[Special:MyLanguage/Android|Androides]] perciben 10 bloques más lejos, no necesitan línea de visión en el modo Combate y obtienen +25 bloques de alcance para fijar objetivos.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Hiding from Ki Sense ==",
+  "translation": "== Cómo ocultarse de Sentir Ki ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "* At '''0% Power Release''' you are hidden from Ki Sense.\n* A [[Special:MyLanguage/Glind|Glind]]'s '''Divine Ki''' hides them from Ki Sense, Scouters and [[Special:MyLanguage/Instant Transmission|Instant Transmission]], unless the seeker is a Glind too, has unlocked a God Form, is in a God form or is under Kami's Blessing. Lock-on still works on them.\n* Players in a God form, such as the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]], are hidden from Ki Sense unless you have godly ki yourself: the God Form skill, a God form of your own or a Glind's Divine Ki.\n* The [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]], the reward of Bulma's Cloaking Device sidequest, hides your Battle Power: scouters and Ki Sense can't read you.",
+  "translation": "* Con un '''0% de Liberación de Poder''' quedas oculto ante Sentir Ki.\n* El '''Ki Divino''' de un [[Special:MyLanguage/Glind|Glind]] lo oculta de Sentir Ki, los escáneres y la [[Special:MyLanguage/Instant Transmission|Teletransportación Instantánea]], salvo que quien lo busca también sea Glind, haya desbloqueado una Forma Divina, esté en una forma divina o esté bajo la Bendición de Kami. Fijar objetivo sigue funcionando sobre ellos.\n* Los jugadores en una forma divina, como el [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyajin Dios]], quedan ocultos ante Sentir Ki salvo que tú mismo tengas ki divino: la habilidad Formas Divinas, una forma divina propia o el Ki Divino de un Glind.\n* El [[Special:MyLanguage/Anti-Ki Cloaking Device|Dispositivo de Camuflaje Anti-Ki]], la recompensa de la misión secundaria Dispositivo de Camuflaje de Bulma, oculta tu Poder de Combate: ni los escáneres ni Sentir Ki pueden leerte.",
+  "outdated": false
+ }
+}

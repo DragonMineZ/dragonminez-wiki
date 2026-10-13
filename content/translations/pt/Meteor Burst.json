@@ -1,0 +1,122 @@
+{
+ "Page_display_title": {
+  "source": "Meteor Burst",
+  "translation": "Explosão Meteoro",
+  "outdated": false
+ },
+ "1": {
+  "source": "A long combo of strikes, a slam and ki blasts.",
+  "translation": "Um longo combo de golpes, uma pancada e rajadas de ki.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Strike attack",
+  "translation": "Ataque de golpe",
+  "outdated": false
+ },
+ "3": {
+  "source": "None by default (dropped by {{L|Turles}})",
+  "translation": "Nenhum por padrão (dropado por {{L|Turles}})",
+  "outdated": false
+ },
+ "4": {
+  "source": "All",
+  "translation": "Todas",
+  "outdated": false
+ },
+ "5": {
+  "source": "×2.6, scales with Strike Damage and Ki Damage",
+  "translation": "×2.6, escala com o Dano de golpe e o Dano de ki",
+  "outdated": false
+ },
+ "6": {
+  "source": "30 seconds",
+  "translation": "30 segundos",
+  "outdated": false
+ },
+ "7": {
+  "source": "Instant",
+  "translation": "Instantâneo",
+  "outdated": false
+ },
+ "8": {
+  "source": "6 blocks (12 while flying), then a 2-second rush",
+  "translation": "6 blocos (12 voando), depois uma investida de 2 segundos",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Meteor Burst''' is a long strike combo that lasts about 10 seconds and mixes strikes, a slam and ki blasts. It is a rare reward of the [[Special:MyLanguage/Turles|Turles]] world boss, and unlike most strike attacks it scales with both your Strike Damage (SKP) and your Ki Damage (PWR).",
+  "translation": "A '''Explosão Meteoro''' é um longo combo de golpes que dura cerca de 10 segundos e mistura golpes, uma pancada e rajadas de ki. É uma recompensa rara do chefe de mundo [[Special:MyLanguage/Turles|Turles]] e, diferente da maioria dos ataques de golpe, escala tanto com o seu Dano de golpe (SKP) quanto com o seu Dano de ki (PWR).",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Getting it ==",
+  "translation": "== Como conseguir ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "No master teaches Meteor Burst by default. It has a '''15%''' chance to drop from the [[Special:MyLanguage/Turles|Turles]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''24,000 TP''', and admins can grant it with {{Command|/dmztech add}}.",
+  "translation": "Nenhum mestre ensina a Explosão Meteoro por padrão. Ela tem '''15%''' de chance de ser dropada pelo chefe de mundo [[Special:MyLanguage/Turles|Turles]] (o padrão do servidor; veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]). Donos de servidores também podem adicioná-la à lista de um mestre, onde custa '''24,000 TP''', e administradores podem concedê-la com {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "12": {
+  "source": "You need [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and the technique must be equipped in a technique slot.",
+  "translation": "Você precisa de [[Special:MyLanguage/Ki Control|Controle de Ki]], da mão principal vazia e de pelo menos 5% de Liberação de Poder, e a técnica precisa estar equipada em um slot de técnica.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== How it works ==",
+  "translation": "== Como funciona ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Press the technique's slot key. If an enemy is in reach in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying, the combo starts on it right away. Otherwise you rush forward for up to 2 seconds, or straight at your locked-on target, and the combo starts on the first enemy you reach. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].",
+  "translation": "Aperte a tecla do slot da técnica. Se houver um inimigo ao alcance à sua frente (primeiro o seu alvo travado, depois o último inimigo que você acertou e, se não houver, o mais próximo da sua mira) dentro de um cone de 6 blocos, ou de 12 blocos se você estiver voando, o combo começa nele na hora. Caso contrário, você avança por até 2 segundos, ou direto até o seu alvo travado, e o combo começa no primeiro inimigo que você alcançar. Veja [[Special:MyLanguage/Strike Attacks|Ataques de Golpe]].",
+  "outdated": false
+ },
+ "15": {
+  "source": "The combo then plays out over about '''10 seconds''':",
+  "translation": "Depois, o combo se desenrola por cerca de '''10 segundos''':",
+  "outdated": false
+ },
+ "16": {
+  "source": "# You dash in with a punch and launch the target into the air with an uppercut.\n# You rise above it and stomp it back down, vanish, reappear beneath it for a knee strike and hammer it into the ground.\n# You leap back, step up to the fallen target, charge a ball of ki in your hand, fire six ki blasts into it and finish with a ki explosion.",
+  "translation": "# Você avança com um soco e lança o alvo para o alto com um uppercut.\n# Você sobe acima dele e o pisoteia de volta para baixo, some, reaparece embaixo dele para uma joelhada e o martela contra o chão.\n# Você salta para trás, se aproxima do alvo caído, carrega uma esfera de ki na mão, dispara seis rajadas de ki nele e finaliza com uma explosão de ki.",
+  "outdated": false
+ },
+ "17": {
+  "source": "The five blows share your Strike Damage × 2.6: 15% for the punch, 15% for the uppercut, 20% for the stomp, 15% for the knee and 35% for the hammer. The ki part deals damage based on 1.5 × your Ki Damage: 10% of it for each of the six blasts and 40% for the explosion.",
+  "translation": "Os cinco golpes dividem o seu Dano de golpe × 2.6: 15% para o soco, 15% para o uppercut, 20% para o pisão, 15% para a joelhada e 35% para a martelada. A parte de ki causa dano com base em 1.5 × o seu Dano de ki: 10% para cada uma das seis rajadas e 40% para a explosão.",
+  "outdated": false
+ },
+ "18": {
+  "source": "The target is carried through the whole combo; world bosses and giant multi-part enemies can't be carried, so they are pinned in place instead. Being stunned or knocked down cuts the combo short.",
+  "translation": "O alvo é carregado durante todo o combo; chefes de mundo e inimigos gigantes de várias partes não podem ser carregados, então ficam presos no lugar. Ser atordoado ou nocauteado interrompe o combo.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Meteor Burst has the longest cooldown of any strike attack: '''30 seconds'''.",
+  "translation": "A Explosão Meteoro tem a recarga mais longa de todos os ataques de golpe: '''30 segundos'''.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Enemies that use it ==",
+  "translation": "== Inimigos que a usam ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "[[Special:MyLanguage/Turles|Turles]] uses Meteor Burst both as a world boss and as a story enemy in the [[Special:MyLanguage/Movies Saga|Movies Saga]]. In the story he rushes at you from up to 24 blocks away when he can see you; if your own strike rush meets his head-on, the two of you [[Special:MyLanguage/Strike Clash|clash]].",
+  "translation": "[[Special:MyLanguage/Turles|Turles]] usa a Explosão Meteoro tanto como chefe de mundo quanto como inimigo da história na [[Special:MyLanguage/Movies Saga|Saga de Filmes]]. Na história, ele avança contra você a até 24 blocos de distância quando consegue ver você; se a sua própria investida de golpe encontrar a dele de frente, vocês dois entram em [[Special:MyLanguage/Strike Clash|choque]].",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Upgrades ==",
+  "translation": "== Melhorias ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "Like every strike attack, it gains experience when it hits, which you can spend on damage and cooldown (−2.5% per level, up to −50%). See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].",
+  "translation": "Como todo ataque de golpe, ela ganha experiência ao acertar, que você pode gastar em dano e recarga (−2.5% por nível, até −50%). Veja [[Special:MyLanguage/Strike Attacks|Ataques de Golpe]].",
+  "outdated": false
+ }
+}

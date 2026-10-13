@@ -1,16 +1,19 @@
 <translate>
+<!--T:1-->
 The gravity system (dimension gravity, the Gravity Device block and weight-based training zones) is configured under the <code>gravity</code> key of <code>config/dragonminez/general-server.json</code>. It is one of the largest single sections of that file, with more than 60 fields, so it has its own page instead of being part of [[Special:MyLanguage/General Server Config|General Server Config]].
 </translate>
 
 <translate>
+<!--T:2-->
 The schema is the <code>GravityConfig</code> class nested in <code>GeneralServerConfig.java</code>; the logic is applied mostly in <code>GravityLogic.java</code> and <code>GravityDeviceBlockEntity.java</code>. For the player side, see [[Special:MyLanguage/Gravity|Gravity]], [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity Device|Gravity Device]].
 </translate>
 
 <translate>
-== How it works ==
+== How it works == <!--T:3-->
 </translate>
 {{Main|Gravity}}
 <translate>
+<!--T:4-->
 A player's '''raw gravity''' is built like this:
 </translate>
 
@@ -20,73 +23,77 @@ rawGravity = base + (Gravity Device gravity - 1)      // only while standing in 
 </syntaxhighlight>
 
 <translate>
+<!--T:5-->
 That raw gravity is then reduced by the player's stats to get the '''net gravity''' (if raw gravity is 1 or less, net gravity is 0). Higher net gravity means more TP and mastery gain, stat penalties, movement, attack, jump and fly penalties, and a higher stamina cost per attack.
 </translate>
 
 <translate>
+<!--T:6-->
 A separate '''weight-based training zone''' system is layered on top, based on how much weight the player is carrying relative to an ideal for their level. That is what produces the Comfortable, Ideal, Pushing Hard and Overloaded TP multiplier bands.
 </translate>
 
 <translate>
+<!--T:7-->
 The '''Gravity''' row of the Stats menu shows all of this live: environmental and net gravity, stat penalty, TP bonus, your weight (raw → effective), ideal weight, training zone and the weight-training multiplier.
 </translate>
 
 <translate>
-== Base gravity sources ==
+== Base gravity sources == <!--T:8-->
 </translate>
 {{See also|Dimensions|King Kai}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:9--> Key</translate> !! <translate><!--T:10--> Default</translate> !! <translate><!--T:11--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Master toggle for the whole system. When <code>false</code>, gravity is always 1.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:12--> Master toggle for the whole system. When <code>false</code>, gravity is always 1.</translate>
 |-
-| <code>gravityPerWorld</code> || <code>minecraft:overworld: 1.0</code>, <code>minecraft:the_nether: 8.0</code>, <code>minecraft:the_end: 20.0</code>, <code>dragonminez:time_chamber: 10.0</code>, <code>dragonminez:otherworld: 1.0</code>, <code>dragonminez:namek: 1.0</code> || <translate>A map of dimension id to number: the base gravity of each dimension.</translate>
+| <code>gravityPerWorld</code> || <code>minecraft:overworld: 1.0</code>, <code>minecraft:the_nether: 8.0</code>, <code>minecraft:the_end: 20.0</code>, <code>dragonminez:time_chamber: 10.0</code>, <code>dragonminez:otherworld: 1.0</code>, <code>dragonminez:namek: 1.0</code> || <translate><!--T:13--> A map of dimension id to number: the base gravity of each dimension.</translate>
 |-
-| <code>defaultWorldGravity</code> || <code>1.0</code> || <translate>Fallback for dimensions not listed in <code>gravityPerWorld</code>.</translate>
+| <code>defaultWorldGravity</code> || <code>1.0</code> || <translate><!--T:14--> Fallback for dimensions not listed in <code>gravityPerWorld</code>.</translate>
 |-
-| <code>npcGravityValue</code> || <code>10.0</code> || <translate>Gravity applied near a King Kai (Kaio) NPC.</translate>
+| <code>npcGravityValue</code> || <code>10.0</code> || <translate><!--T:15--> Gravity applied near a King Kai (Kaio) NPC.</translate>
 |-
-| <code>npcGravityRange</code> || <code>100.0</code> || <translate>Radius (in blocks) used to detect a nearby King Kai NPC.</translate>
+| <code>npcGravityRange</code> || <code>100.0</code> || <translate><!--T:16--> Radius (in blocks) used to detect a nearby King Kai NPC.</translate>
 |-
-| <code>machineGravityEnabled</code> || <code>true</code> || <translate>Whether Gravity Device blocks contribute to gravity at all.</translate>
+| <code>machineGravityEnabled</code> || <code>true</code> || <translate><!--T:17--> Whether Gravity Device blocks contribute to gravity at all.</translate>
 |}
 
 <translate>
+<!--T:18-->
 With '''WorldGuard''' installed, the region flag <code>dmz-gravity</code> (a number) also sets a base gravity for the region; it is used when it is higher than the dimension's gravity (see [[Special:MyLanguage/Gamerules|Gamerules]]).
 </translate>
 
 <translate>
-== Resistance negation ==
+== Resistance negation == <!--T:19-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:20--> Key</translate> !! <translate><!--T:21--> Default</translate> !! <translate><!--T:22--> What it does</translate>
 |-
-| <code>resistanceStatDivisorRatio</code> || <code>0.9</code> || <translate>Resistance divisor, as a ratio of <code>maxValue</code> (from the <code>gameplay</code> section of <code>general-server.json</code>). Higher values make your stats negate gravity less.</translate>
+| <code>resistanceStatDivisorRatio</code> || <code>0.9</code> || <translate><!--T:23--> Resistance divisor, as a ratio of <code>maxValue</code> (from the <code>gameplay</code> section of <code>general-server.json</code>). Higher values make your stats negate gravity less.</translate>
 |-
-| <code>resistanceScale</code> || <code>100.0</code> || <translate>Scales how much the negation term matters.</translate>
+| <code>resistanceScale</code> || <code>100.0</code> || <translate><!--T:24--> Scales how much the negation term matters.</translate>
 |}
 
 <syntaxhighlight lang="text">
 netGravity = rawGravity - [(avg of the 6 stats × their multipliers) / (maxValue × resistanceStatDivisorRatio)] × resistanceScale
 </syntaxhighlight>
 
-{{Note|type=info|text=<translate>In v2.2 the default <code>gameplay.maxValue</code> is '''1,000,000''', so this negation only becomes significant at very high stats.</translate>}}
+{{Note|type=info|text=<translate><!--T:25--> In v2.2 the default <code>gameplay.maxValue</code> is '''1,000,000''', so this negation only becomes significant at very high stats.</translate>}}
 
 <translate>
-== Stat reduction curve ==
+== Stat reduction curve == <!--T:26-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:27--> Key</translate> !! <translate><!--T:28--> Default</translate> !! <translate><!--T:29--> What it does</translate>
 |-
-| <code>statReductionEnabled</code> || <code>true</code> || <translate>Master toggle.</translate>
+| <code>statReductionEnabled</code> || <code>true</code> || <translate><!--T:30--> Master toggle.</translate>
 |-
-| <code>affectedStats</code> || <code>["STR", "SKP", "PWR", "DEF", "STM"]</code> || <translate>List of the stats that get penalized.</translate>
+| <code>affectedStats</code> || <code>["STR", "SKP", "PWR", "DEF", "STM"]</code> || <translate><!--T:31--> List of the stats that get penalized.</translate>
 |-
-| <code>statReductionPerGravity</code> || <code>0.01</code> || <translate>Reduction fraction per 1 point of net gravity.</translate>
+| <code>statReductionPerGravity</code> || <code>0.01</code> || <translate><!--T:32--> Reduction fraction per 1 point of net gravity.</translate>
 |-
-| <code>minStatReduction</code> || <code>0.0</code> || <translate>Floor.</translate>
+| <code>minStatReduction</code> || <code>0.0</code> || <translate><!--T:33--> Floor.</translate>
 |-
-| <code>maxStatReduction</code> || <code>0.9</code> || <translate>Ceiling (never more than a 90% reduction).</translate>
+| <code>maxStatReduction</code> || <code>0.9</code> || <translate><!--T:34--> Ceiling (never more than a 90% reduction).</translate>
 |}
 
 <syntaxhighlight lang="text">
@@ -94,123 +101,131 @@ statReduction = min(maxStatReduction, clamp(netGravity × statReductionPerGravit
 </syntaxhighlight>
 
 <translate>
+<!--T:35-->
 The weight penalty (see the weight training zones below) is added on top of the gravity reduction, and the total is still capped at <code>maxStatReduction</code>.
 </translate>
 
 <translate>
-== Movement, attack, jump and fly penalties ==
+== Movement, attack, jump and fly penalties == <!--T:36-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:37--> Key</translate> !! <translate><!--T:38--> Default</translate> !! <translate><!--T:39--> What it does</translate>
 |-
-| <code>hardStopThreshold</code> || <code>75.0</code> || <translate>Net gravity at or above which flight is fully disabled, jumping takes the maximum penalty, and the gravity TP and mastery bonus drops to nothing.</translate>
+| <code>hardStopThreshold</code> || <code>75.0</code> || <translate><!--T:40--> Net gravity at or above which flight is fully disabled, jumping takes the maximum penalty, and the gravity TP and mastery bonus drops to nothing.</translate>
 |-
-| <code>maxMovementPenalty</code> || <code>0.95</code> || <translate>Maximum movement-speed reduction.</translate>
+| <code>maxMovementPenalty</code> || <code>0.95</code> || <translate><!--T:41--> Maximum movement-speed reduction.</translate>
 |-
-| <code>maxAttackPenalty</code> || <code>0.9</code> || <translate>Maximum attack-speed reduction.</translate>
+| <code>maxAttackPenalty</code> || <code>0.9</code> || <translate><!--T:42--> Maximum attack-speed reduction.</translate>
 |-
-| <code>penaltyCurveFactor</code> || <code>1.6</code> || <translate>Curve steepness for the movement, jump and fly penalties: <code>penalty = sqrt(netGravity / 100) * penaltyCurveFactor</code>, clamped to the relevant maximum. The attack-speed penalty uses <code>sqrt(netGravity / 100)</code> without this factor.</translate>
+| <code>penaltyCurveFactor</code> || <code>1.6</code> || <translate><!--T:43--> Curve steepness for the movement, jump and fly penalties: <code>penalty = sqrt(netGravity / 100) * penaltyCurveFactor</code>, clamped to the relevant maximum. The attack-speed penalty uses <code>sqrt(netGravity / 100)</code> without this factor.</translate>
 |-
-| <code>physicalEnabled</code> || <code>true</code> || <translate>Master toggle for the jump, fall and fly penalties specifically.</translate>
+| <code>physicalEnabled</code> || <code>true</code> || <translate><!--T:44--> Master toggle for the jump, fall and fly penalties specifically.</translate>
 |-
-| <code>maxJumpPenalty</code> || <code>0.95</code> || <translate>Maximum jump-height reduction.</translate>
+| <code>maxJumpPenalty</code> || <code>0.95</code> || <translate><!--T:45--> Maximum jump-height reduction.</translate>
 |-
-| <code>extraFallPerGravity</code> || <code>0.02</code> || <translate>Extra fall-damage multiplier per point of net gravity.</translate>
+| <code>extraFallPerGravity</code> || <code>0.02</code> || <translate><!--T:46--> Extra fall-damage multiplier per point of net gravity.</translate>
 |-
-| <code>maxExtraFall</code> || <code>0.6</code> || <translate>Ceiling on extra fall damage.</translate>
+| <code>maxExtraFall</code> || <code>0.6</code> || <translate><!--T:47--> Ceiling on extra fall damage.</translate>
 |-
-| <code>maxFlyPenalty</code> || <code>0.95</code> || <translate>Maximum flight-speed reduction (before the hard stop kicks in entirely).</translate>
+| <code>maxFlyPenalty</code> || <code>0.95</code> || <translate><!--T:48--> Maximum flight-speed reduction (before the hard stop kicks in entirely).</translate>
 |}
 
 <translate>
+<!--T:49-->
 The weight stat penalty (see below) is also added to the movement and attack-speed penalties, still capped at <code>maxMovementPenalty</code> / <code>maxAttackPenalty</code>.
 </translate>
 
 <translate>
-== TP and mastery bonus from gravity ==
+== TP and mastery bonus from gravity == <!--T:50-->
 </translate>
 {{See also|Training Points and Mastery|Hyperbolic Time Chamber}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:51--> Key</translate> !! <translate><!--T:52--> Default</translate> !! <translate><!--T:53--> What it does</translate>
 |-
-| <code>tpEnabled</code> || <code>true</code> || <translate>Master toggle for the gravity TP bonus '''and''' the whole weight-training system below.</translate>
+| <code>tpEnabled</code> || <code>true</code> || <translate><!--T:54--> Master toggle for the gravity TP bonus '''and''' the whole weight-training system below.</translate>
 |-
-| <code>tpGravityBonusPerGravity</code> || <code>0.025</code> || <translate>TP multiplier gained per point of net gravity: <code>1 + netGravity × 0.025</code>.</translate>
+| <code>tpGravityBonusPerGravity</code> || <code>0.025</code> || <translate><!--T:55--> TP multiplier gained per point of net gravity: <code>1 + netGravity × 0.025</code>.</translate>
 |-
-| <code>masteryBonusPerGravity</code> || <code>0.0025</code> || <translate>Form mastery bonus per point of net gravity: <code>1 + netGravity × 0.0025</code>.</translate>
+| <code>masteryBonusPerGravity</code> || <code>0.0025</code> || <translate><!--T:56--> Form mastery bonus per point of net gravity: <code>1 + netGravity × 0.0025</code>.</translate>
 |-
-| <code>tpPeakMultiplier</code> || <code>2.0</code> || <translate>The weight-training multiplier inside the '''Ideal''' band (see below).</translate>
+| <code>tpPeakMultiplier</code> || <code>2.0</code> || <translate><!--T:57--> The weight-training multiplier inside the '''Ideal''' band (see below).</translate>
 |}
 
 <translate>
+<!--T:58-->
 Both bonuses drop to nothing once net gravity reaches <code>hardStopThreshold</code>. Inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], the chamber's own dimension gravity is '''not''' counted for the TP bonus (the chamber has its own TP multiplier); a Gravity Device placed inside still counts.
 </translate>
 
 <translate>
-== Weight training zones ==
+== Weight training zones == <!--T:59-->
 </translate>
 {{See also|Weights}}
 <translate>
+<!--T:60-->
 This is a separate multiplier layered on top of the gravity-derived TP bonus, based on the carried [[Special:MyLanguage/Weights|weight]] relative to an ideal for the player's level.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:61--> Key</translate> !! <translate><!--T:62--> Default</translate> !! <translate><!--T:63--> What it does</translate>
 |-
-| <code>tpIdealBaseDivisor</code> || <code>2.0</code> || <translate>Ideal weight = relative level / this.</translate>
+| <code>tpIdealBaseDivisor</code> || <code>2.0</code> || <translate><!--T:64--> Ideal weight = relative level / this.</translate>
 |-
-| <code>gravitySensitivity</code> || <code>1.0</code> || <translate>How much raw gravity inflates the effective weight: <code>loadFactor = 1.0 + (gravity - 1.0) * gravitySensitivity</code>.</translate>
+| <code>gravitySensitivity</code> || <code>1.0</code> || <translate><!--T:65--> How much raw gravity inflates the effective weight: <code>loadFactor = 1.0 + (gravity - 1.0) * gravitySensitivity</code>.</translate>
 |-
-| <code>tpComfortRatioLow</code> || <code>0.5</code> || <translate>Load ratio at which the multiplier reaches <code>tpComfortMultiplier</code>.</translate>
+| <code>tpComfortRatioLow</code> || <code>0.5</code> || <translate><!--T:66--> Load ratio at which the multiplier reaches <code>tpComfortMultiplier</code>.</translate>
 |-
-| <code>tpIdealRatioLow</code> || <code>0.75</code> || <translate>The Ideal band starts here.</translate>
+| <code>tpIdealRatioLow</code> || <code>0.75</code> || <translate><!--T:67--> The Ideal band starts here.</translate>
 |-
-| <code>tpIdealRatioHigh</code> || <code>1.25</code> || <translate>The Ideal band ends here; above it the stat penalty starts.</translate>
+| <code>tpIdealRatioHigh</code> || <code>1.25</code> || <translate><!--T:68--> The Ideal band ends here; above it the stat penalty starts.</translate>
 |-
-| <code>tpOverloadRatio</code> || <code>2.0</code> || <translate>The multiplier peaks at <code>tpHeavyMultiplier</code> here, then descends.</translate>
+| <code>tpOverloadRatio</code> || <code>2.0</code> || <translate><!--T:69--> The multiplier peaks at <code>tpHeavyMultiplier</code> here, then descends.</translate>
 |-
-| <code>tpOverloadHardRatio</code> || <code>2.5</code> || <translate>At or above this ratio, the multiplier bottoms out to <code>1.0</code> and the penalty is at its maximum.</translate>
+| <code>tpOverloadHardRatio</code> || <code>2.5</code> || <translate><!--T:70--> At or above this ratio, the multiplier bottoms out to <code>1.0</code> and the penalty is at its maximum.</translate>
 |-
-| <code>tpComfortMultiplier</code> || <code>1.5</code> || <translate>Multiplier at <code>tpComfortRatioLow</code>.</translate>
+| <code>tpComfortMultiplier</code> || <code>1.5</code> || <translate><!--T:71--> Multiplier at <code>tpComfortRatioLow</code>.</translate>
 |-
-| <code>tpHeavyMultiplier</code> || <code>2.5</code> || <translate>Multiplier at <code>tpOverloadRatio</code>.</translate>
+| <code>tpHeavyMultiplier</code> || <code>2.5</code> || <translate><!--T:72--> Multiplier at <code>tpOverloadRatio</code>.</translate>
 |-
-| <code>maxWeightPenalty</code> || <code>0.6</code> || <translate>Maximum stat penalty from being overloaded on weight.</translate>
+| <code>maxWeightPenalty</code> || <code>0.6</code> || <translate><!--T:73--> Maximum stat penalty from being overloaded on weight.</translate>
 |-
-| <code>maxWeightRequested</code> || <code>100000</code> || <translate>Highest weight (kg) a player can request from a master's weight service (Roshi, King Kai, Piccolo).</translate>
+| <code>maxWeightRequested</code> || <code>100000</code> || <translate><!--T:74--> Highest weight (kg) a player can request from a master's weight service (Roshi, King Kai, Piccolo).</translate>
 |}
 
 <translate>
+<!--T:75-->
 Load ratio = effective weight (total worn weight × <code>loadFactor</code>) / ideal weight. The multiplier interpolates smoothly between the ratio thresholds: <code>1.0</code> at ratio <code>0</code> → <code>tpComfortMultiplier</code> at <code>tpComfortRatioLow</code> → <code>tpPeakMultiplier</code> across the ideal band → <code>tpHeavyMultiplier</code> at <code>tpOverloadRatio</code> → back down to <code>1.0</code> at <code>tpOverloadHardRatio</code>.
 </translate>
 
 <translate>
+<!--T:76-->
 The weight '''stat penalty''' is <code>0</code> up to <code>tpIdealRatioHigh</code>, then grows linearly to <code>maxWeightPenalty</code> at <code>tpOverloadHardRatio</code>.
 </translate>
 
 <translate>
+<!--T:77-->
 Players see five training zones in-game:
 </translate>
 
 {| class="wikitable"
-! <translate>Zone</translate> !! <translate>Load ratio</translate>
+! <translate><!--T:78--> Zone</translate> !! <translate><!--T:79--> Load ratio</translate>
 |-
-| <translate>None</translate> || <translate>No weights worn.</translate>
+| <translate><!--T:80--> None</translate> || <translate><!--T:81--> No weights worn.</translate>
 |-
-| <translate>Comfortable</translate> || <translate>Below <code>tpIdealRatioLow</code>.</translate>
+| <translate><!--T:82--> Comfortable</translate> || <translate><!--T:83--> Below <code>tpIdealRatioLow</code>.</translate>
 |-
-| <translate>Ideal</translate> || <translate>From <code>tpIdealRatioLow</code> to <code>tpIdealRatioHigh</code>.</translate>
+| <translate><!--T:84--> Ideal</translate> || <translate><!--T:85--> From <code>tpIdealRatioLow</code> to <code>tpIdealRatioHigh</code>.</translate>
 |-
-| <translate>Pushing Hard</translate> || <translate>Above the ideal band, below <code>tpOverloadHardRatio</code>.</translate>
+| <translate><!--T:86--> Pushing Hard</translate> || <translate><!--T:87--> Above the ideal band, below <code>tpOverloadHardRatio</code>.</translate>
 |-
-| <translate>Overloaded</translate> || <translate><code>tpOverloadHardRatio</code> and above.</translate>
+| <translate><!--T:88--> Overloaded</translate> || <translate><!--T:89--> <code>tpOverloadHardRatio</code> and above.</translate>
 |}
 
 <translate>
-=== Gravity Room upgrades ===
+=== Gravity Room upgrades === <!--T:90-->
 </translate>
 {{See also|Gravity Device}}
 <translate>
+<!--T:91-->
 Bulma's side quests '''Gravity Room Mk.II''' and '''Gravity Room Mk.III''' unlock dampeners that reduce the '''weight stat penalty''' while you stand inside an '''active Gravity Device's''' room. The relief fades as you get stronger:
 </translate>
 
@@ -220,67 +235,70 @@ penalty = weightPenalty × (1 − relief)
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:92--> Key</translate> !! <translate><!--T:93--> Default</translate> !! <translate><!--T:94--> What it does</translate>
 |-
-| <code>gravityRoomMk2Relief</code> || <code>0.5</code> || <translate>Base relief after Mk. II.</translate>
+| <code>gravityRoomMk2Relief</code> || <code>0.5</code> || <translate><!--T:95--> Base relief after Mk. II.</translate>
 |-
-| <code>gravityRoomMk2Falloff</code> || <code>3.0</code> || <translate>How fast the Mk. II relief fades with power.</translate>
+| <code>gravityRoomMk2Falloff</code> || <code>3.0</code> || <translate><!--T:96--> How fast the Mk. II relief fades with power.</translate>
 |-
-| <code>gravityRoomMk3Relief</code> || <code>0.8</code> || <translate>Base relief after Mk. III (replaces Mk. II).</translate>
+| <code>gravityRoomMk3Relief</code> || <code>0.8</code> || <translate><!--T:97--> Base relief after Mk. III (replaces Mk. II).</translate>
 |-
-| <code>gravityRoomMk3Falloff</code> || <code>1.5</code> || <translate>How fast the Mk. III relief fades with power.</translate>
+| <code>gravityRoomMk3Falloff</code> || <code>1.5</code> || <translate><!--T:98--> How fast the Mk. III relief fades with power.</translate>
 |}
 
 <translate>
-== Drain from load and gravity ==
+== Drain from load and gravity == <!--T:99-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:100--> Key</translate> !! <translate><!--T:101--> Default</translate> !! <translate><!--T:102--> What it does</translate>
 |-
-| <code>loadDrainComfort</code> || <code>1.15</code> || <translate>Drain multiplier in the Comfortable zone.</translate>
+| <code>loadDrainComfort</code> || <code>1.15</code> || <translate><!--T:103--> Drain multiplier in the Comfortable zone.</translate>
 |-
-| <code>loadDrainIdeal</code> || <code>1.3</code> || <translate>Drain multiplier in the Ideal zone.</translate>
+| <code>loadDrainIdeal</code> || <code>1.3</code> || <translate><!--T:104--> Drain multiplier in the Ideal zone.</translate>
 |-
-| <code>loadDrainHeavy</code> || <code>1.5</code> || <translate>Drain multiplier in the Pushing Hard zone.</translate>
+| <code>loadDrainHeavy</code> || <code>1.5</code> || <translate><!--T:105--> Drain multiplier in the Pushing Hard zone.</translate>
 |-
-| <code>loadDrainOverload</code> || <code>2.0</code> || <translate>Drain multiplier in the Overloaded zone.</translate>
+| <code>loadDrainOverload</code> || <code>2.0</code> || <translate><!--T:106--> Drain multiplier in the Overloaded zone.</translate>
 |-
-| <code>consumptionPerGravity</code> || <code>0.04</code> || <translate>Extra stamina cost of attacks per point of net gravity: <code>consumptionMultiplier = 1.0 + netGravity * consumptionPerGravity</code>.</translate>
+| <code>consumptionPerGravity</code> || <code>0.04</code> || <translate><!--T:107--> Extra stamina cost of attacks per point of net gravity: <code>consumptionMultiplier = 1.0 + netGravity * consumptionPerGravity</code>.</translate>
 |}
 
 <translate>
+<!--T:108-->
 The load drain multiplier applies to the stamina cost of attacks and to the ki, health and stamina drain of active forms.
 </translate>
 
 <translate>
-== Gravity Device block ==
+== Gravity Device block == <!--T:109-->
 </translate>
 {{Main|Gravity Device}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:110--> Key</translate> !! <translate><!--T:111--> Default</translate> !! <translate><!--T:112--> What it does</translate>
 |-
-| <code>deviceMinRoomSize</code> || <code>5</code> || <translate>Minimum size (in blocks) of the enclosed room on each axis.</translate>
+| <code>deviceMinRoomSize</code> || <code>5</code> || <translate><!--T:113--> Minimum size (in blocks) of the enclosed room on each axis.</translate>
 |-
-| <code>deviceMaxRoomSize</code> || <code>25</code> || <translate>Maximum size of the enclosed room on each axis.</translate>
+| <code>deviceMaxRoomSize</code> || <code>25</code> || <translate><!--T:114--> Maximum size of the enclosed room on each axis.</translate>
 |-
-| <code>deviceMaxGravity</code> || <code>1000</code> || <translate>Gravity cap the device can be set to.</translate>
+| <code>deviceMaxGravity</code> || <code>1000</code> || <translate><!--T:115--> Gravity cap the device can be set to.</translate>
 |-
-| <code>deviceEnergyCapacity</code> || <code>20000</code> || <translate>Star Energy storage capacity.</translate>
+| <code>deviceEnergyCapacity</code> || <code>20000</code> || <translate><!--T:116--> Star Energy storage capacity.</translate>
 |-
-| <code>deviceEnergyPerGravityPerSecond</code> || <code>1.0</code> || <translate>Energy consumed per second per × of target gravity (100× gravity uses 100 energy per second by default).</translate>
+| <code>deviceEnergyPerGravityPerSecond</code> || <code>1.0</code> || <translate><!--T:117--> Energy consumed per second per × of target gravity (100× gravity uses 100 energy per second by default).</translate>
 |-
-| <code>deviceShaderGravityForMax</code> || <code>60.0</code> || <translate>Gravity value at which the client-side visual shader reaches full intensity.</translate>
+| <code>deviceShaderGravityForMax</code> || <code>60.0</code> || <translate><!--T:118--> Gravity value at which the client-side visual shader reaches full intensity.</translate>
 |}
 
 <translate>
+<!--T:119-->
 The device validates its room with a flood-fill of the empty space around it: the enclosed space must be fully sealed (no gaps to the outside), and the enclosed air must measure between <code>deviceMinRoomSize</code> and <code>deviceMaxRoomSize</code> on every axis. The room is re-checked every 5 seconds while the device is on.
 </translate>
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:120-->
 </translate>
 {{See also|Reloading and Updating Changes|How to JSON}}
 <translate>
+<!--T:121-->
 # Edit the <code>gravity</code> block in <code>config/dragonminez/general-server.json</code>.
 # Validate the JSON syntax.
 # Run <code>/dmzreload config</code>.

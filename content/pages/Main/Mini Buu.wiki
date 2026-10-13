@@ -1,43 +1,48 @@
 {{Infobox Mob
-|Type=<translate>Hostile, wild enemy</translate>
+|Type=<translate><!--T:1--> Hostile, wild enemy</translate>
 |Dimension={{L|Sacred Kai Planet}}
-|Spawns=<translate>Sacred Kai Plains, Hills and Rivers</translate>
-|Behavior=<translate>Flies and attacks on sight; Novice AI</translate>
+|Spawns=<translate><!--T:2--> Sacred Kai Plains, Hills and Rivers</translate>
+|Behavior=<translate><!--T:3--> Flies and attacks on sight; Novice AI</translate>
 |Health=60
 |Damage=8
 |Ki damage=6
-|Abilities=<translate>Pink ki blasts, flight</translate>
-|Drops=<translate>None</translate>
+|Abilities=<translate><!--T:4--> Pink ki blasts, flight</translate>
+|Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
+<!--T:6-->
 '''Mini Buu''' is a tiny, flying [[Special:MyLanguage/Majin Buu|Majin Buu]] that roams the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]] and fires pink ki blasts. Together with Endermen, it is the planet's only hostile mob.
 </translate>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:7-->
 
+<!--T:8-->
 Mini Buu spawns in the Sacred Kai Plains, Hills and Rivers biomes (spawn weight 4, alone). It is a '''wild enemy''': it spawns under open sky, day or night, away from torches and other light. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]].
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:9-->
 
+<!--T:10-->
 Mini Buu flies, fights on the '''Novice''' AI tier and fires pink ki blasts.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:11-->
 
+<!--T:12-->
 Mini Buu drops nothing.
 </translate>
 
 <translate>
-== Tournaments ==
+== Tournaments == <!--T:13-->
 
+<!--T:14-->
 Mini Buu is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]].
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:mini_buu</code>}}
+{{Note|type=config|title=<translate><!--T:15--> Entity id</translate>|<code>dragonminez:mini_buu</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Hostile mobs{{#translation:}}]]

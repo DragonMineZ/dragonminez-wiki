@@ -1,63 +1,75 @@
 {{Infobox Mob
-|Type=<translate>Predator</translate>
+|Type=<translate><!--T:1--> Predator</translate>
 |Dimension={{L|Earth}}
-|Spawns=<translate>Badlands, mountains, hills, the Rocky biome and biomes with savanna villages, in dim spots</translate>
-|Behavior=<translate>Attacks players, villagers and other animals on sight; flees when badly hurt</translate>
+|Spawns=<translate><!--T:2--> Badlands, mountains, hills, the Rocky biome and biomes with savanna villages, in dim spots</translate>
+|Behavior=<translate><!--T:3--> Attacks players, villagers and other animals on sight; flees when badly hurt</translate>
 |Damage=4–12
-|Abilities=<translate>The Flying Dinosaur chases its targets through the air</translate>
-|Drops=<translate>Raw Dino Meat, Raw Dino Tail, Raw Baby Dino Meat</translate>
+|Abilities=<translate><!--T:4--> The Flying Dinosaur chases its targets through the air</translate>
+|Drops=<translate><!--T:5--> Raw Dino Meat, Raw Dino Tail, Raw Baby Dino Meat</translate>
 }}
 <translate>
+<!--T:6-->
 '''Dinosaurs''' are the big predators of [[Special:MyLanguage/Earth|Earth]]. Two walking dinosaurs, a flying one and a baby share the same spawn table, and all of them attack players, villagers and other animals on sight. They are also one of the main sources of meat in the early game.
 </translate>
 
 <translate>
-== Species ==
+== Species == <!--T:7-->
 </translate>
 {| class="wikitable"
-! <translate>Species</translate> !! <translate>Health</translate> !! <translate>Damage</translate> !! <translate>Spawn weight</translate> !! <translate>Group size</translate> !! <translate>Notes</translate>
+! <translate><!--T:8--> Species</translate> !! <translate><!--T:9--> Health</translate> !! <translate><!--T:10--> Damage</translate> !! <translate><!--T:11--> Spawn weight</translate> !! <translate><!--T:12--> Group size</translate> !! <translate><!--T:13--> Notes</translate>
 |-
-| <translate>Dinosaur</translate> || 100 || 8 || 22 || 1–2 ||
+| <translate><!--T:14--> Dinosaur</translate> || 100 || 8 || 22 || 1–2 ||
 |-
-| <translate>Large Dinosaur</translate> || 150 || 12 || 18 || 1–2 ||
+| <translate><!--T:15--> Large Dinosaur</translate> || 150 || 12 || 18 || 1–2 ||
 |-
-| <translate>Flying Dinosaur</translate> || 75 || 10 || 14 || 1–2 || <translate>Flies, and chases targets through the air.</translate>
+| <translate><!--T:16--> Flying Dinosaur</translate> || 75 || 10 || 14 || 1–2 || <translate><!--T:17--> Flies, and chases targets through the air.</translate>
 |-
-| <translate>Baby Dinosaur</translate> || 30 || 4 || 10 || 1–3 ||
+| <translate><!--T:18--> Baby Dinosaur</translate> || 30 || 4 || 10 || 1–3 ||
 |}
+<gallery>
+File:Dinosaurs (Large Dinosaur).png|<translate><!--T:30--> Large Dinosaur</translate>
+File:Dinosaurs (Flying Dinosaur).png|<translate><!--T:31--> Flying Dinosaur</translate>
+File:Dinosaurs (Baby Dinosaur).png|<translate><!--T:32--> Baby Dinosaur</translate>
+</gallery>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:19-->
 
+<!--T:20-->
 Dinosaurs live in badlands, mountains, hills, the DMZ '''Rocky''' biome and biomes with savanna villages. They spawn like monsters: not in Peaceful, only in dim spots (block light 7 or less), and only about a third of spawn attempts succeed.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:21-->
 
+<!--T:22-->
 All four species are predators: they attack players, villagers and other animals on sight, and flee when badly hurt.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:23-->
 
+<!--T:24-->
 '''Dinosaur, Large Dinosaur and Flying Dinosaur:'''
 * 0–1 '''Raw Dino Tail''' (cooks if on fire, +0–1 Looting)
 * 1–2 '''Raw Dino Meat''' (cooks if on fire, +0–1 Looting)
 
+<!--T:25-->
 '''Baby Dinosaur:'''
 * 1–2 '''Raw Baby Dino Meat''' (cooks if on fire, +0–1 Looting)
 </translate>
 
 <translate>
-== Uses and story ==
+== Uses and story == <!--T:26-->
 
+<!--T:27-->
 Dino meat is a regular food: like other foods, eating it also restores a share of your health, ki and stamina. Raw Dino Meat is an ingredient of the '''Oozaru Root''' and of the red [[Special:MyLanguage/Capsules|capsule]], and the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] takes 10 Cooked Dino Meat for the map to Goku's House.
 
+<!--T:28-->
 In the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], the quest '''Wilderness Training''' asks you to defeat a Dinosaur (it rewards 8 Cooked Dino Meat), and '''Provisions for the Lookout''' asks you to bring 6 Cooked Dino Meat to [[Special:MyLanguage/Mr. Popo|Mr. Popo]].
 </translate>
 
-{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:dino1</code>, <code>dragonminez:dino2</code>, <code>dragonminez:dino3</code>, <code>dragonminez:dinokid</code>}}
+{{Note|type=config|title=<translate><!--T:29--> Entity ids</translate>|<code>dragonminez:dino1</code>, <code>dragonminez:dino2</code>, <code>dragonminez:dino3</code>, <code>dragonminez:dinokid</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Wildlife{{#translation:}}]]

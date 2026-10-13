@@ -1,64 +1,68 @@
 <translate>
+<!--T:1-->
 DragonMineZ adds five dimensions on top of the vanilla Overworld, which the mod treats as [[Special:MyLanguage/Earth|Earth]]. Each world has its own purpose: mining and Namekian villages on [[Special:MyLanguage/Namek|Namek]], extreme-gravity training in the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], death and revival in the [[Special:MyLanguage/Otherworld|Otherworld]], and the stacked worlds of Dragon Ball Daima in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. Most of them are reached with the [[Special:MyLanguage/Space Pod|Space Pod]].
 </translate>
 
 <div class="dmz-cards">
-{{Card|Earth|<translate>The Overworld: masters' homes, Kami's Lookout, Turles and the Earth Dragon Balls.</translate>}}
-{{Card|Namek|<translate>The Namekian home world: a full mining world, Frieza's army and the Big Gete Star.</translate>}}
-{{Card|Sacred Kai Planet|<translate>The lush world of the Kais and home of Old Kai.</translate>}}
-{{Card|Hyperbolic Time Chamber|<translate>An endless white void with ten times the normal gravity, built for training.</translate>}}
-{{Card|Otherworld|<translate>The afterlife: spirits, King Kai's Planet, Hell and the Otherworld Tournament.</translate>}}
-{{Card|Demon Realm|<translate>Three stacked Demon Worlds ruled by King Gomah.</translate>}}
+{{Card|Earth|<translate><!--T:2--> The Overworld: masters' homes, Kami's Lookout, Turles and the Earth Dragon Balls.</translate>}}
+{{Card|Namek|<translate><!--T:3--> The Namekian home world: a full mining world, Frieza's army and the Big Gete Star.</translate>}}
+{{Card|Sacred Kai Planet|<translate><!--T:4--> The lush world of the Kais and home of Old Kai.</translate>}}
+{{Card|Hyperbolic Time Chamber|<translate><!--T:5--> An endless white void with ten times the normal gravity, built for training.</translate>}}
+{{Card|Otherworld|<translate><!--T:6--> The afterlife: spirits, King Kai's Planet, Hell and the Otherworld Tournament.</translate>}}
+{{Card|Demon Realm|<translate><!--T:7--> Three stacked Demon Worlds ruled by King Gomah.</translate>}}
 </div>
 
 <translate>
-== The worlds ==
+== The worlds == <!--T:8-->
 </translate>
 {| class="wikitable"
-! <translate>Dimension</translate> !! <translate>Id</translate> !! <translate>Gravity</translate> !! <translate>What it's for</translate> !! <translate>How to get there</translate>
+! <translate><!--T:9--> Dimension</translate> !! <translate><!--T:10--> Id</translate> !! <translate><!--T:11--> Gravity</translate> !! <translate><!--T:12--> What it's for</translate> !! <translate><!--T:13--> How to get there</translate>
 |-
-| {{L|Earth}} || <code>minecraft:overworld</code> || ×1.0 || <translate>Your starting world: most masters, landmark structures, the Earth Dragon Balls, Turles and the Saiyan Assault raid.</translate> || <translate>You start here; Space Pod (always available).</translate>
+| {{L|Earth}} || <code>minecraft:overworld</code> || ×1.0 || <translate><!--T:14--> Your starting world: most masters, landmark structures, the Earth Dragon Balls, Turles and the Saiyan Assault raid.</translate> || <translate><!--T:15--> You start here; Space Pod (always available).</translate>
 |-
-| {{L|Namek}} || <code>dragonminez:namek</code> || ×1.0 || <translate>Namekian home world: mining, the Namek Dragon Balls, the Frieza's Invasion raid and the Big Gete Star.</translate> || <translate>Space Pod (always available).</translate>
+| {{L|Namek}} || <code>dragonminez:namek</code> || ×1.0 || <translate><!--T:16--> Namekian home world: mining, the Namek Dragon Balls, the Frieza's Invasion raid and the Big Gete Star.</translate> || <translate><!--T:17--> Space Pod (always available).</translate>
 |-
-| {{L|Sacred Kai Planet}} || <code>dragonminez:sacredkaiplanet</code> || ×1.0 || <translate>Home of the Kais and Old Kai.</translate> || <translate>Space Pod, after Buu Saga quest 23.</translate>
+| {{L|Sacred Kai Planet}} || <code>dragonminez:sacredkaiplanet</code> || ×1.0 || <translate><!--T:18--> Home of the Kais and Old Kai.</translate> || <translate><!--T:19--> Space Pod, after Buu Saga quest 23.</translate>
 |-
-| {{L|Hyperbolic Time Chamber}} || <code>dragonminez:time_chamber</code> || '''×10''' || <translate>Extreme-gravity training void.</translate> || <translate>Portal at Kami's Lookout, or Space Pod after Bulma's ''Temporal Comm-Link'' sidequest.</translate>
+| {{L|Hyperbolic Time Chamber}} || <code>dragonminez:time_chamber</code> || '''×10''' || <translate><!--T:20--> Extreme-gravity training void.</translate> || <translate><!--T:21--> Portal at Kami's Lookout, or Space Pod after Bulma's ''Temporal Comm-Link'' sidequest.</translate>
 |-
-| {{L|Otherworld}} || <code>dragonminez:otherworld</code> || ×1.0 || <translate>The afterlife: death and revival, King Kai, Hell and the Otherworld Tournament.</translate> || <translate>Dying (when the Otherworld is enabled), or Space Pod after Bulma's ''Otherworld Drive'' sidequest.</translate>
+| {{L|Otherworld}} || <code>dragonminez:otherworld</code> || ×1.0 || <translate><!--T:22--> The afterlife: death and revival, King Kai, Hell and the Otherworld Tournament.</translate> || <translate><!--T:23--> Dying (when the Otherworld is enabled), or Space Pod after Bulma's ''Otherworld Drive'' sidequest.</translate>
 |-
-| {{L|Demon Realm}} || <code>dragonminez:demon_realm</code> || ×1.0 || <translate>Dragon Ball Daima: three stacked Demon Worlds, demon villages, Gomah's army, the Tamagamis and Gomah himself.</translate> || <translate>Space Pod, after Daima Saga quest 3 (''To the Demon Realm'').</translate>
+| {{L|Demon Realm}} || <code>dragonminez:demon_realm</code> || ×1.0 || <translate><!--T:24--> Dragon Ball Daima: three stacked Demon Worlds, demon villages, Gomah's army, the Tamagamis and Gomah himself.</translate> || <translate><!--T:25--> Space Pod, after Daima Saga quest 3 (''To the Demon Realm'').</translate>
 |}
 
 <translate>
-== Travelling between worlds ==
+== Travelling between worlds == <!--T:26-->
 </translate>
 {{See also|Space Pod|Space Pod Destinations}}
 <translate>
+<!--T:27-->
 The [[Special:MyLanguage/Space Pod|Space Pod]] is the main way to travel between worlds. Its menu lists every destination; each one has its own unlock rule (a story quest, a sidequest or a server setting). Locked destinations stay in the list, greyed out, so you can see what is still ahead.
 </translate>
 
 {| class="wikitable"
-! <translate>Destination</translate> !! <translate>Unlocks when</translate> !! <translate>Where you land</translate>
+! <translate><!--T:28--> Destination</translate> !! <translate><!--T:29--> Unlocks when</translate> !! <translate><!--T:30--> Where you land</translate>
 |-
-| {{L|Earth}} || <translate>Always</translate> || <translate>Same X, Y and Z as you</translate>
+| {{L|Earth}} || <translate><!--T:31--> Always</translate> || <translate><!--T:32--> Same X, Y and Z as you</translate>
 |-
-| {{L|Namek}} || <translate>Always</translate> || <translate>Same X, Y and Z as you</translate>
+| {{L|Namek}} || <translate><!--T:33--> Always</translate> || <translate><!--T:34--> Same X, Y and Z as you</translate>
 |-
-| {{L|Otherworld}} || <translate>The Otherworld is enabled on the server and you completed Bulma's ''Otherworld Drive'' sidequest</translate> || 54, 210, 1082
+| {{L|Otherworld}} || <translate><!--T:35--> The Otherworld is enabled on the server and you completed Bulma's ''Otherworld Drive'' sidequest</translate> || 54, 210, 1082
 |-
-| {{L|Sacred Kai Planet}} || <translate>You completed Buu Saga quest 23, ''Gotenks at Full Power''</translate> || <translate>Same X, Y and Z as you</translate>
+| {{L|Sacred Kai Planet}} || <translate><!--T:36--> You completed Buu Saga quest 23, ''Gotenks at Full Power''</translate> || <translate><!--T:37--> Same X, Y and Z as you</translate>
 |-
-| <translate>Time Chamber</translate> || <translate>You completed Bulma's ''Temporal Comm-Link'' sidequest</translate> || 0.5, 130, 0.5
+| <translate><!--T:38--> Time Chamber</translate> || <translate><!--T:39--> You completed Bulma's ''Temporal Comm-Link'' sidequest</translate> || 0.5, 130, 0.5
 |-
-| {{L|Demon Realm}} || <translate>You completed Daima Saga quest 3, ''To the Demon Realm''</translate> || 160.5, 745, 0.5
+| {{L|Demon Realm}} || <translate><!--T:40--> You completed Daima Saga quest 3, ''To the Demon Realm''</translate> || 160.5, 745, 0.5
 |}
 
 <translate>
+<!--T:41-->
 The menu shows up to seven destinations at once. Two more entries, '''Cereal Planet''' and '''Beerus Planet''', appear greyed out but never unlock in DragonMineZ on its own: they are reserved for add-on dimensions. Server owners and add-ons can add their own destinations with a datapack (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]).
 </translate>
 
 <translate>
+<!--T:42-->
 Other ways to move around:
 * '''Death''': when the Otherworld is enabled, dying sends your spirit to the [[Special:MyLanguage/Otherworld|Otherworld]] instead of respawning you.
 * '''Portals''': the Time Chamber portal at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] takes you into the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] and back.
@@ -66,31 +70,33 @@ Other ways to move around:
 </translate>
 
 <translate>
-== What each world holds ==
+== What each world holds == <!--T:43-->
 </translate>
 {| class="wikitable"
-! <translate>World</translate> !! <translate>Structures</translate> !! <translate>World bosses</translate> !! <translate>Raids</translate>
+! <translate><!--T:44--> World</translate> !! <translate><!--T:45--> Structures</translate> !! <translate><!--T:46--> World bosses</translate> !! <translate><!--T:47--> Raids</translate>
 |-
-| {{L|Earth}} || <translate>Masters' homes, [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], the [[Special:MyLanguage/Tree of Might|Tree of Might]], [[Special:MyLanguage/Saiyan Crater|Saiyan Craters]]</translate> || {{L|Turles}} || {{L|Saiyan Assault}}
+| {{L|Earth}} || <translate><!--T:48--> Masters' homes, [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], the [[Special:MyLanguage/Tree of Might|Tree of Might]], [[Special:MyLanguage/Saiyan Crater|Saiyan Craters]]</translate> || {{L|Turles}} || {{L|Saiyan Assault}}
 |-
-| {{L|Namek}} || <translate>[[Special:MyLanguage/Frieza's Ship|Frieza's Ship]], the [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]], [[Special:MyLanguage/Namekian Village|Namekian villages]], the [[Special:MyLanguage/Namekian Ruins|Namekian Ruins]], the [[Special:MyLanguage/Big Gete Star|Big Gete Star]]</translate> || {{L|Metal Cooler Core}} || {{L|Frieza's Invasion}}
+| {{L|Namek}} || <translate><!--T:49--> [[Special:MyLanguage/Frieza's Ship|Frieza's Ship]], the [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]], [[Special:MyLanguage/Namekian Village|Namekian villages]], the [[Special:MyLanguage/Namekian Ruins|Namekian Ruins]], the [[Special:MyLanguage/Big Gete Star|Big Gete Star]]</translate> || {{L|Metal Cooler Core}} || {{L|Frieza's Invasion}}
 |-
 | {{L|Sacred Kai Planet}} || {{L|Old Kai's Pillar}} || — || —
 |-
-| {{L|Otherworld}} || <translate>King Yemma's check-in area, Snake Way and King Kai's Planet, the Otherworld Tournament grounds</translate> || <translate>[[Special:MyLanguage/Janemba|Janemba]] (in Hell)</translate> || —
+| {{L|Otherworld}} || <translate><!--T:50--> King Yemma's check-in area, Snake Way and King Kai's Planet, the Otherworld Tournament grounds</translate> || <translate><!--T:51--> [[Special:MyLanguage/Janemba|Janemba]] (in Hell)</translate> || —
 |-
-| {{L|Demon Realm}} || <translate>[[Special:MyLanguage/Demon Village|Demon villages]], [[Special:MyLanguage/Gomah Camp|Gomah camps]], [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]]</translate> || {{L|Tamagami Number 3}}, {{L|Tamagami Number 2}}, {{L|Tamagami Number 1}}, {{L|Gomah}} || {{L|Gomah's Army}}
+| {{L|Demon Realm}} || <translate><!--T:52--> [[Special:MyLanguage/Demon Village|Demon villages]], [[Special:MyLanguage/Gomah Camp|Gomah camps]], [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]]</translate> || {{L|Tamagami Number 3}}, {{L|Tamagami Number 2}}, {{L|Tamagami Number 1}}, {{L|Gomah}} || {{L|Gomah's Army}}
 |}
 
 <translate>
+<!--T:53-->
 See also [[Special:MyLanguage/World Bosses|World Bosses]], [[Special:MyLanguage/Raids|Raids]] and [[Special:MyLanguage/Tournaments|Tournaments]].
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:54-->
 </translate>
 {{Config|Gravity Config|gravityPerWorld}}
 <translate>
+<!--T:55-->
 Every world has a base [[Special:MyLanguage/Gravity|gravity]]. By default all DragonMineZ worlds use normal gravity (×1.0) except the Hyperbolic Time Chamber, which uses ×10. The [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]] and the Demon Realm aren't listed in the per-world gravity setting, so they use the fallback value, also ×1.0. Server owners can change all of these.
 </translate>
 

@@ -67,9 +67,7 @@
 						"dmz-search-fulltext",
 						"dmz-search-empty",
 						"dmz-user-tools",
-						"dmz-translation-available",
 						"dmz-translation-missing",
-						"dmz-translation-switch",
 						"dmz-home-hero-title",
 						"dmz-home-hero-subtitle",
 						"dmz-login",
@@ -178,7 +176,8 @@
 				"resources/search.js",
 				"resources/sidebar.js",
 				"resources/floatingMenu.js",
-				"resources/dropdowns.js"
+				"resources/dropdowns.js",
+				"resources/finder.js"
 			],
 			"messages": [
 				"dmz-search-empty",
@@ -188,10 +187,15 @@
 				"dmz-theme-dark",
 				"dmz-menu-options",
 				"dmz-menu-close",
-				"dmz-sidebar-toggle"
+				"dmz-sidebar-toggle",
+				"dmz-finder-placeholder",
+				"dmz-finder-empty",
+				"dmz-finder-loading",
+				"dmz-finder-error"
 			],
 			"dependencies": [
-				"mediawiki.util"
+				"mediawiki.util",
+				"mediawiki.api"
 			]
 		}
 	},

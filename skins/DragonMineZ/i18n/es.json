@@ -28,9 +28,7 @@
 	"dmz-search-fulltext": "Buscar \"$1\" en todas las páginas",
 	"dmz-search-empty": "Ninguna página coincide con \"$1\"",
 	"dmz-user-tools": "Cuenta",
-	"dmz-translation-available": "Esta página también está disponible en $1.",
 	"dmz-translation-missing": "Esta página todavía no tiene versión en $1; se muestra en $2.",
-	"dmz-translation-switch": "Leer en $1",
 	"dmz-home-hero-title": "Todo sobre DragonMineZ",
 	"dmz-home-hero-subtitle": "Razas, transformaciones, combate, sagas y cada sistema del mod, al día con cada versión.",
 	"dmz-login": "Iniciar Sesión",
@@ -51,5 +49,9 @@
 	"dmz-rail-version": "Versión actual",
 	"dmz-rail-changelog": "Cambios de versión",
 	"dmz-sidebar-challenges": "Desafíos",
-	"dmz-sidebar-gear": "Equipo"
+	"dmz-sidebar-gear": "Equipo",
+	"dmz-finder-placeholder": "Escribe el nombre de un ítem…",
+	"dmz-finder-empty": "Ningún ítem fabricable coincide con ese nombre.",
+	"dmz-finder-loading": "Cargando el árbol de crafteo…",
+	"dmz-finder-error": "No se pudo cargar el árbol de crafteo. Vuelve a intentarlo."
 }

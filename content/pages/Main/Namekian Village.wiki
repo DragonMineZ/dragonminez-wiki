@@ -1,34 +1,38 @@
 {{Infobox Structure
 |Dimension={{L|Namek}}
-|Biome=<translate>Ajissa Plains (Ajissa villages), Sacred Land (Sacred villages)</translate>
+|Biome=<translate><!--T:1--> Ajissa Plains (Ajissa villages), Sacred Land (Sacred villages)</translate>
 |Locate=/dmzlocate village_ajissa
 |Inhabitants={{L|Namekian Trader}}, {{L|Namekian Warrior}}, {{L|Capsule Corp Namekian}}
-|Purpose=<translate>Trading and treasure maps</translate>
+|Purpose=<translate><!--T:2--> Trading and treasure maps</translate>
 }}
 <translate>
+<!--T:3-->
 '''Namekian villages''' are the settlements of the [[Special:MyLanguage/Namekian|Namekians]] on [[Special:MyLanguage/Namek|Namek]]. They come in two styles: '''Ajissa villages''' in the Ajissa Plains and '''Sacred villages''' in the Sacred Land. Their traders sell the map to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], and their warriors hold off the Gete Robots that march on them.
 </translate>
 
 <translate>
-== Who lives here ==
+== Who lives here == <!--T:4-->
 </translate>
 <translate>
+<!--T:5-->
 * '''[[Special:MyLanguage/Namekian Trader|Namekian Traders]]''' sell general goods. Every trader also sells a '''Big Gete Star Map''' for 16 Emeralds (4 uses).
 * '''[[Special:MyLanguage/Namekian Warrior|Namekian Warriors]]''' don't trade: they guard the village, and a few more keep spawning inside its walls.
 * The '''[[Special:MyLanguage/Capsule Corp Namekian|Capsule Corp Namekian]]''' has its own house inside Ajissa villages and sells treasure maps to [[Special:MyLanguage/Frieza's Ship|Frieza's Ship]] and the [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]].
 </translate>
 
 <translate>
-== Gete Robot attacks ==
+== Gete Robot attacks == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 Robots from the [[Special:MyLanguage/Big Gete Star|Big Gete Star]] march on the Namekian villages. While you are near a village, small waves of 1–2 [[Special:MyLanguage/Gete Robot|Gete Robots]] can appear outside it every so often (up to 3 per village) and walk toward its centre, fighting the Namekian Warriors on the way.
 </translate>
 
 <translate>
-== Finding one ==
+== Finding one == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 Players with the locate permission can find the nearest village with {{Command|/dmzlocate village_ajissa}} or {{Command|/dmzlocate village_sacred}} on Namek.
 </translate>
 

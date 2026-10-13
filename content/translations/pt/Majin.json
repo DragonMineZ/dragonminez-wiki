@@ -1,0 +1,232 @@
+{
+ "Page_display_title": {
+  "source": "Majin",
+  "translation": "Majin",
+  "outdated": false
+ },
+ "1": {
+  "source": "A magical, unpredictable race that seems playful, but is extremely dangerous once it unleashes its true power.",
+  "translation": "Uma raça mágica e imprevisível que parece brincalhona, mas é extremamente perigosa quando libera seu verdadeiro poder.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Playable race",
+  "translation": "Raça jogável",
+  "outdated": false
+ },
+ "3": {
+  "source": "Absorption, Sweet Tooth, Healing Magic",
+  "translation": "Absorção, Paladar Doce, Magia de Cura",
+  "outdated": false
+ },
+ "4": {
+  "source": "Pure forms (Kid Majin, Evil Majin, Super Majin, Ultra Majin), Demon (legendary)",
+  "translation": "Formas Puras (Kid Majin, Majin Mau, Super Majin, Ultra Majin), Demônio (lendário)",
+  "outdated": false
+ },
+ "5": {
+  "source": "Absorbs enemies for permanent stats, better healing from food and healing techniques",
+  "translation": "Absorve inimigos para ganhar atributos permanentes, cura melhor com comida e técnicas de cura",
+  "outdated": false
+ },
+ "6": {
+  "source": "Predator that grows by absorbing its foes; strong healer",
+  "translation": "Predador que cresce absorvendo seus inimigos; grande curandeiro",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Majins''' are a magical and unpredictable race with enormous destructive potential and a unique ability to regenerate and change form. Though they may seem playful or childish, they are extremely dangerous when they unleash their true power. In DragonMineZ a Majin can '''absorb''' weaker players and mobs to take part of their power, heals more from food, and gets more out of healing techniques than any other race.",
+  "translation": "Os '''Majins''' são uma raça mágica e imprevisível, com enorme potencial destrutivo e uma capacidade única de se regenerar e mudar de forma. Embora pareçam brincalhões ou infantis, são extremamente perigosos quando liberam seu verdadeiro poder. Em DragonMineZ, um Majin pode '''absorver''' jogadores e criaturas mais fracos para tomar parte do seu poder, se cura mais com comida e aproveita as técnicas de cura mais do que qualquer outra raça.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Overview and strengths ==",
+  "translation": "== Visão geral e pontos fortes ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Absorption.''' Absorb a weaker player or mob to heal and permanently copy part of its STR, SKP and PWR, up to three times.\n* '''Sweet Tooth.''' Food heals you 25% more.\n* '''Healing Magic.''' Your healing techniques heal more, cost less and recharge faster, and you receive more healing from them.\n* '''Knockdowns.''' While Absorption is selected, your finishing blows knock enemies down instead of killing them.",
+  "translation": "* '''Absorção.''' Absorva um jogador ou criatura mais fraco para se curar e copiar permanentemente parte dos STR, SKP e PWR dele, até três vezes.\n* '''Paladar Doce.''' A comida cura você 25% mais.\n* '''Magia de Cura.''' Suas técnicas de cura curam mais, custam menos e recarregam mais rápido, e você recebe mais cura delas.\n* '''Nocautes.''' Enquanto Absorção estiver selecionada, seus golpes finais derrubam os inimigos em vez de matá-los.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Racial skill ==",
+  "translation": "== Habilidade racial ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Part",
+  "translation": "Parte",
+  "outdated": false
+ },
+ "12": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Absorption'''",
+  "translation": "'''Absorção'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "Select the racial skill in the '''X''' menu and '''hold G for 4 seconds''' while aiming at a weaker player or mob within '''8 blocks''', or at a knocked-down player. The target is absorbed: you heal '''30%''' of your max health and permanently gain '''4%''' of its '''STR, SKP and PWR''' (mobs use their max health). Up to '''3''' absorptions, with a '''600 seconds''' cooldown. You can eject an absorption from the '''X''' menu (click its slot twice), which locks that slot for '''300 seconds'''. You lose '''all''' absorptions when you die.",
+  "translation": "Selecione a habilidade racial no menu '''X''' e '''segure G por 4 segundos''' enquanto mira em um jogador ou criatura mais fraco a até '''8 blocos''', ou em um jogador nocauteado. O alvo é absorvido: você cura '''30%''' da sua vida máxima e ganha permanentemente '''4%''' dos '''STR, SKP e PWR''' dele (criaturas usam a vida máxima). Até '''3''' absorções, com recarga de '''600 segundos'''. Você pode expulsar uma absorção pelo menu '''X''' (clique duas vezes no espaço dela), o que bloqueia esse espaço por '''300 segundos'''. Você perde '''todas''' as absorções ao morrer.",
+  "outdated": false
+ },
+ "15": {
+  "source": "'''Sweet Tooth'''",
+  "translation": "'''Paladar Doce'''",
+  "outdated": false
+ },
+ "16": {
+  "source": "Food heals you '''25%''' more.",
+  "translation": "A comida cura você '''25%''' mais.",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Healing Magic'''",
+  "translation": "'''Magia de Cura'''",
+  "outdated": false
+ },
+ "18": {
+  "source": "Your healing Ki techniques heal '''25%''' more, and you receive '''25%''' more healing from them. Healing techniques also cost '''10%''' less Ki to fire and recharge '''10%''' faster.",
+  "translation": "Suas técnicas de Ki de cura curam '''25%''' mais, e você recebe '''25%''' mais cura delas. As técnicas de cura também custam '''10%''' menos Ki para disparar e recarregam '''10%''' mais rápido.",
+  "outdated": false
+ },
+ "19": {
+  "source": "While Absorption is the selected action, your finishing blows knock enemies down instead of killing them, so you can absorb them. Server owners can limit Absorption to players only. Your absorptions can be reset with the '''Reset Passive''' wish or <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills#Resetting racial progress|Racial Skills]]).",
+  "translation": "Enquanto Absorção for a ação selecionada, seus golpes finais derrubam os inimigos em vez de matá-los, para que você possa absorvê-los. Os donos de servidores podem limitar Absorção apenas a jogadores. Suas absorções podem ser resetadas com o desejo '''Resetar Passiva''' ou com <code>/dmzracial reset</code> (veja [[Special:MyLanguage/Racial Skills#Resetting racial progress|Habilidades raciais]]).",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Transformations ==",
+  "translation": "== Transformações ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Group",
+  "translation": "Grupo",
+  "outdated": false
+ },
+ "22": {
+  "source": "Form",
+  "translation": "Forma",
+  "outdated": false
+ },
+ "23": {
+  "source": "Level",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "24": {
+  "source": "TP cost",
+  "translation": "Custo de TP",
+  "outdated": false
+ },
+ "25": {
+  "source": "Story requisite",
+  "translation": "Requisito de história",
+  "outdated": false
+ },
+ "26": {
+  "source": "STR / SKP / PWR",
+  "translation": "STR / SKP / PWR",
+  "outdated": false
+ },
+ "27": {
+  "source": "DEF",
+  "translation": "DEF",
+  "outdated": false
+ },
+ "28": {
+  "source": "Ki drain",
+  "translation": "Consumo de ki",
+  "outdated": false
+ },
+ "29": {
+  "source": "Pure forms",
+  "translation": "Formas Puras",
+  "outdated": false
+ },
+ "30": {
+  "source": "Kid Majin",
+  "translation": "Kid Majin",
+  "outdated": false
+ },
+ "31": {
+  "source": "Evil Majin",
+  "translation": "Majin Mau",
+  "outdated": false
+ },
+ "32": {
+  "source": "Super Majin",
+  "translation": "Super Majin",
+  "outdated": false
+ },
+ "33": {
+  "source": "Ultra Majin",
+  "translation": "Ultra Majin",
+  "outdated": false
+ },
+ "34": {
+  "source": "Demon (legendary)",
+  "translation": "Demônio (lendário)",
+  "outdated": false
+ },
+ "35": {
+  "source": "Innocence Demon",
+  "translation": "Demônio Inocente",
+  "outdated": false
+ },
+ "36": {
+  "source": "Giant Innocence Demon",
+  "translation": "Gigante Demônio Inocente",
+  "outdated": false
+ },
+ "37": {
+  "source": "Super Demon",
+  "translation": "Super Demônio",
+  "outdated": false
+ },
+ "38": {
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick (\"—\" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick (\"—\" significa que não há consumo de Ki); veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "outdated": false
+ },
+ "39": {
+  "source": "* '''Ultra Majin''' is the Majin top tier: the strongest Majin form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. It also makes each attack cost 3.5 times as much stamina.\n* The '''Demon''' group is the Majin Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "* '''Ultra Majin''' é o nível máximo dos Majins: a forma Majin mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia. Ela também faz cada ataque custar 3.5 vezes mais estâmina.\n* O grupo '''Demônio''' é a linha Lendário dos Majins. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Appearance ==",
+  "translation": "== Aparência ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "* '''Head:''' Majins wear a '''head tentacle''' (head parts <code>majin1</code> to <code>majin3</code>) and can also wear a hairstyle at the same time.\n* '''Gender:''' yes. Male and female body types share the same grid, so picking a body type also picks your gender.\n* '''Body types:''' 3 for each gender, with body type 0 as the default.\n* '''Face:''' besides their own nose and mouth options, Majins can pick the human ones, listed after their own.",
+  "translation": "* '''Cabeça:''' os Majins usam um '''tentáculo na cabeça''' (partes da cabeça <code>majin1</code> a <code>majin3</code>) e também podem usar um penteado ao mesmo tempo.\n* '''Gênero:''' sim. Os tipos corporais masculinos e femininos compartilham a mesma grade, então escolher um tipo corporal também define seu gênero.\n* '''Tipos corporais:''' 3 para cada gênero, com o tipo corporal 0 como padrão.\n* '''Rosto:''' além das próprias opções de nariz e boca, os Majins podem escolher as humanas, listadas depois das suas.",
+  "outdated": false
+ },
+ "42": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "43": {
+  "source": "* A [[Special:MyLanguage/Glind|Glind]] of the opposite alignment deals only '''5%''' more damage to Majins, instead of the usual 10% (see Light and Darkness).\n* The Majin race is not the same as the '''Majin''' effect, the mark that [[Special:MyLanguage/Babidi|Babidi]] gives to players with low alignment (see [[Special:MyLanguage/Effects|Effects]]).\n* Only Majins can equip three of [[Special:MyLanguage/Majin Buu|Majin Buu]]'s techniques: Gum Punch, the Mystic Ball Attack and Sleep Recovery (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]).",
+  "translation": "* Um [[Special:MyLanguage/Glind|Glind]] de índole oposta causa só '''5%''' mais dano aos Majins, em vez dos 10% habituais (veja Luz e Escuridão).\n* A raça Majin não é o mesmo que o efeito '''Marca Majin''', a marca que [[Special:MyLanguage/Babidi|Babidi]] dá aos jogadores com índole baixa (veja [[Special:MyLanguage/Effects|Efeitos]]).\n* Só os Majins podem equipar três das técnicas de [[Special:MyLanguage/Majin Buu|Majin Boo]]: Soco de Goma, Ataque da Bola Mística e Regeneração do Sono (veja [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]).",
+  "outdated": false
+ },
+ "44": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "Absorption, Sweet Tooth and Healing Magic are tuned in the <code>majin</code> section of <code>racialSkills</code> in <code>general-server.json</code>, including whether mobs can be absorbed (<code>absorptionOnMobs</code>). The Super Forms TP ladder is in <code>races/majin/character.json</code>, and each form's values are in its form file.",
+  "translation": "Absorção, Paladar Doce e Magia de Cura são ajustadas na seção <code>majin</code> de <code>racialSkills</code> no <code>general-server.json</code>, incluindo se criaturas podem ser absorvidas (<code>absorptionOnMobs</code>). A escala de TP de Super Formas fica em <code>races/majin/character.json</code>, e os valores de cada forma ficam no arquivo da forma.",
+  "outdated": false
+ }
+}

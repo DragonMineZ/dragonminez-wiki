@@ -1,0 +1,72 @@
+{
+ "Page_display_title": {
+  "source": "Majin Mark",
+  "translation": "Marca Majin",
+  "outdated": false
+ },
+ "1": {
+  "source": "A permanent power boost for evil-aligned fighters.",
+  "translation": "Um aumento de poder permanente para lutadores de índole má.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Character effect (buff)",
+  "translation": "Efeito de personagem (bônus)",
+  "outdated": false
+ },
+ "3": {
+  "source": "Babidi, for evil-aligned players",
+  "translation": "Babidi, para jogadores de índole má",
+  "outdated": false
+ },
+ "4": {
+  "source": "Permanent",
+  "translation": "Permanente",
+  "outdated": false
+ },
+ "5": {
+  "source": "Power ×1.3; the Majin \"M\" on your character",
+  "translation": "Poder ×1.3; o \"M\" Majin no seu personagem",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Majin Mark''' is the brand of the wizard [[Special:MyLanguage/Babidi|Babidi]]. It gives you a '''permanent power boost''', ×1.3 by default, and puts the Majin \"M\" on your character. Only evil-aligned fighters can receive it.",
+  "translation": "A '''Marca Majin''' é a marca do feiticeiro [[Special:MyLanguage/Babidi|Babidi]]. Ela dá a você um '''aumento de poder permanente''', ×1.3 por padrão, e coloca o \"M\" Majin no seu personagem. Só lutadores de índole má podem recebê-la.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Getting the mark ==",
+  "translation": "== Obtendo a marca ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Talk to Babidi in [[Special:MyLanguage/Babidi's Spaceship|Babidi's Ship]] (see [[Special:MyLanguage/Structures|Structures]]) and choose '''Receive the Mark'''.",
+  "translation": "Fale com Babidi na [[Special:MyLanguage/Babidi's Spaceship|Nave de Babidi]] (veja [[Special:MyLanguage/Structures|Estruturas]]) e escolha '''Receba a marca'''.",
+  "outdated": false
+ },
+ "9": {
+  "source": "* You must be '''evil-aligned''': if your [[Special:MyLanguage/Alignment|alignment]] is 39 or higher, Babidi refuses. Below that, he brands you.\n* If you are already marked, he has nothing more to give you.",
+  "translation": "* Você precisa ter '''índole má''': se a sua [[Special:MyLanguage/Alignment|índole]] for 39 ou mais, Babidi recusa. Abaixo disso, ele marca você.\n* Se você já tem a marca, ele não tem mais nada para dar.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Effect ==",
+  "translation": "== Efeito ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "* Your power is multiplied by ×1.3 by default: your Strength, Strike Power and Ki Power get the full bonus, and your defense gets half of it.\n* The Majin \"M\" appears on your character.\n* Once marked, the mark stays with you permanently.",
+  "translation": "* Seu poder é multiplicado por ×1.3 por padrão: sua Força, seu Poder de Golpe e sua Força do Ki recebem o bônus completo, e sua defesa recebe metade.\n* O \"M\" Majin aparece no seu personagem.\n* Depois de marcado, a marca fica com você para sempre.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Admins can give or remove the mark with <code>/dmzeffect give majin -1 [targets]</code> and <code>/dmzeffect remove majin [targets]</code> (see [[Special:MyLanguage/Effects#Commands|Effects]]).",
+  "translation": "Administradores podem dar ou remover a marca com <code>/dmzeffect give majin -1 [targets]</code> e <code>/dmzeffect remove majin [targets]</code> (veja [[Special:MyLanguage/Effects#Commands|Efeitos]]).",
+  "outdated": false
+ }
+}

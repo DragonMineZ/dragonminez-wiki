@@ -1,0 +1,172 @@
+{
+ "Page_display_title": {
+  "source": "Capsules",
+  "translation": "Cápsulas",
+  "outdated": false
+ },
+ "1": {
+  "source": "The color decides the stat.",
+  "translation": "A cor decide a estatística.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Consumable",
+  "translation": "Consumível",
+  "outdated": false
+ },
+ "3": {
+  "source": "Permanently raises one attribute (+5, or +15 for Gete Capsules)",
+  "translation": "Aumenta um atributo permanentemente (+5, ou +15 com as Cápsulas Gete)",
+  "outdated": false
+ },
+ "4": {
+  "source": "Crafting, story quests, Bulma's sidequests, Metal Cooler Core",
+  "translation": "Fabricação, missões da história, missões secundárias da Bulma, Núcleo do Metal Cooler",
+  "outdated": false
+ },
+ "5": {
+  "source": "Curative Flask + an ingredient + Empty Capsule + 2 stat plants",
+  "translation": "Frasco Curativo + um ingrediente + Cápsula Vazia + 2 plantas de estatística",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Capsules''' are consumables that '''permanently raise one of your attributes''' when used. The '''color''' of the capsule decides which stat it raises (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The '''Mastery Capsule''' instead adds mastery to your active transformation.",
+  "translation": "As '''cápsulas''' são consumíveis que '''aumentam permanentemente um dos seus atributos''' quando usadas. A '''cor''' da cápsula decide qual estatística ela aumenta (veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]]). Já a '''Cápsula de Domínio''' adiciona domínio à sua transformação ativa.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== How capsules work ==",
+  "translation": "== Como as cápsulas funcionam ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "* A normal capsule grants '''+5''' to its stat. Server owners can change the amount and the stat of each capsule.\n* A stat that is already at its cap isn't raised, and the capsule isn't used up.\n* You need a created character to use any capsule.",
+  "translation": "* Uma cápsula normal dá '''+5''' na sua estatística. Donos de servidores podem mudar a quantidade e a estatística de cada cápsula.\n* Uma estatística que já está no limite não aumenta, e a cápsula não é gasta.\n* Você precisa ter um personagem criado para usar qualquer cápsula.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Stat capsules ==",
+  "translation": "== Cápsulas de estatística ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "All stat capsules are shapeless recipes made with a Curative Flask, an Empty Capsule and the matching plants from [[Special:MyLanguage/Farming|Farming]].",
+  "translation": "Todas as cápsulas de estatística são receitas sem forma feitas com um Frasco Curativo, uma Cápsula Vazia e as plantas correspondentes de [[Special:MyLanguage/Farming|Agricultura]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "Capsule",
+  "translation": "Cápsula",
+  "outdated": false
+ },
+ "12": {
+  "source": "Stat it raises",
+  "translation": "Estatística que aumenta",
+  "outdated": false
+ },
+ "13": {
+  "source": "Recipe (shapeless)",
+  "translation": "Receita (sem forma)",
+  "outdated": false
+ },
+ "14": {
+  "source": "Red",
+  "translation": "Vermelha",
+  "outdated": false
+ },
+ "15": {
+  "source": "Strength (STR)",
+  "translation": "Força (STR)",
+  "outdated": false
+ },
+ "17": {
+  "source": "Purple",
+  "translation": "Roxa",
+  "outdated": false
+ },
+ "18": {
+  "source": "Strike Power (SKP)",
+  "translation": "Poder de Golpe (SKP)",
+  "outdated": false
+ },
+ "20": {
+  "source": "Yellow",
+  "translation": "Amarela",
+  "outdated": false
+ },
+ "21": {
+  "source": "Resistance (RES)",
+  "translation": "Resistência (RES)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Green",
+  "translation": "Verde",
+  "outdated": false
+ },
+ "24": {
+  "source": "Vitality (VIT)",
+  "translation": "Vitalidade (VIT)",
+  "outdated": false
+ },
+ "26": {
+  "source": "Orange",
+  "translation": "Laranja",
+  "outdated": false
+ },
+ "27": {
+  "source": "Ki Power (PWR)",
+  "translation": "Força do Ki (PWR)",
+  "outdated": false
+ },
+ "29": {
+  "source": "Blue",
+  "translation": "Azul",
+  "outdated": false
+ },
+ "30": {
+  "source": "Energy (ENE)",
+  "translation": "Energia (ENE)",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Empty Capsule ==",
+  "translation": "== Cápsula Vazia ==",
+  "outdated": false
+ },
+ "34": {
+  "source": "== Gete Capsules ==",
+  "translation": "== Cápsulas Gete ==",
+  "outdated": false
+ },
+ "35": {
+  "source": "'''Gete Capsules''' are the rare Gete-tech versions of each color. They raise the same stat but grant '''×3''' the points ('''+15''').",
+  "translation": "As '''Cápsulas Gete''' são as versões raras com tecnologia Gete de cada cor. Elas aumentam a mesma estatística, mas dão '''×3''' os pontos ('''+15''').",
+  "outdated": false
+ },
+ "36": {
+  "source": "* Craft one from a capsule of that color and a Gete Ingot (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).\n* The [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] world boss drops each of the six Gete Capsules with a 12% chance.\n* Bulma's '''Capsule Tech''' sidequest rewards a Red and an Orange Gete Capsule.",
+  "translation": "* Fabrique uma com uma cápsula daquela cor e um Lingote de Gete (veja [[Special:MyLanguage/Gete Tech|Tecnologia Gete]]).\n* O chefe de mundo [[Special:MyLanguage/Metal Cooler Core|Núcleo do Metal Cooler]] dropa cada uma das seis Cápsulas Gete com 12% de chance.\n* A missão secundária '''Tecnologia de Cápsula''' da Bulma dá como recompensa uma Cápsula Gete Vermelha e uma Laranja.",
+  "outdated": false
+ },
+ "37": {
+  "source": "== Mastery Capsule ==",
+  "translation": "== Cápsula de Domínio ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "Use it while transformed to gain '''+5 mastery''' in your active form. It does nothing in base form or when the form's mastery is already maxed out. See [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "Use-a transformado para ganhar '''+5 de domínio''' na sua forma ativa. Ela não faz nada na forma base nem quando o domínio da forma já está no máximo. Veja [[Special:MyLanguage/Transformations|Transformações]].",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Other sources and uses ==",
+  "translation": "== Outras fontes e usos ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "* The quest '''The Sacred Water''' ([[Special:MyLanguage/Classic Saga|Classic Saga]] quest 19) rewards a Red, a Green and a Blue Capsule along with the [[Special:MyLanguage/Sacred Water|Sacred Water]].\n* A Green, Blue or Yellow Capsule crafted with a Namek Moss gives Senzu Bean Seeds (Health, Ki or Stamina). See [[Special:MyLanguage/Senzu Bean|Senzu Bean]].",
+  "translation": "* A missão '''A Água Sagrada''' (missão 19 da [[Special:MyLanguage/Classic Saga|Saga Clássica]]) dá como recompensa uma Cápsula Vermelha, uma Verde e uma Azul junto com a [[Special:MyLanguage/Sacred Water|Água Sagrada]].\n* Uma Cápsula Verde, Azul ou Amarela fabricada com um Musgo de Namek dá Sementes de Senzu (Vida, Ki ou Estâmina). Veja [[Special:MyLanguage/Senzu Bean|Semente dos Deuses]].",
+  "outdated": false
+ }
+}

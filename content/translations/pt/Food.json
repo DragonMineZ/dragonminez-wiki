@@ -1,0 +1,102 @@
+{
+ "Page_display_title": {
+  "source": "Food",
+  "translation": "Comida",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds its own meats and fish, hunted from the wildlife of [[Special:MyLanguage/Earth|Earth]] and [[Special:MyLanguage/Namek|Namek]]. More importantly, '''eating any food''', vanilla, DMZ or from another mod, also restores a share of your '''health, ki and stamina'''.",
+  "translation": "O DragonMineZ adiciona suas próprias carnes e peixes, caçados da fauna da [[Special:MyLanguage/Earth|Terra]] e de [[Special:MyLanguage/Namek|Namekusei]]. E o mais importante: '''comer qualquer comida''', vanilla, do DMZ ou de outro mod, também restaura parte da sua '''vida, ki e estâmina'''.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Food restores health, ki and stamina ==",
+  "translation": "== A comida restaura vida, ki e estâmina ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "When you eat, the hunger and saturation the food restores also give back a slice of your resources. With the default settings, each hunger point restores:",
+  "translation": "Quando você come, a fome e a saturação que a comida restaura também devolvem uma parte dos seus recursos. Com as configurações padrão, cada ponto de fome restaura:",
+  "outdated": false
+ },
+ "4": {
+  "source": "* '''1%''' of your max health;\n* '''1%''' of your max ki;\n* '''2%''' of your max stamina.",
+  "translation": "* '''1%''' da sua vida máxima;\n* '''1%''' do seu ki máximo;\n* '''2%''' da sua estâmina máxima.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Saturation adds a little more on top. Foods that restore fewer than 2 hunger points give no hunger-based recovery, and anything above 20 counts as 20. Server owners can exclude specific foods or whole mods.",
+  "translation": "A saturação soma um pouco mais. Comidas que restauram menos de 2 pontos de fome não dão recuperação baseada na fome, e qualquer valor acima de 20 conta como 20. Donos de servidores podem excluir comidas específicas ou mods inteiros.",
+  "outdated": false
+ },
+ "6": {
+  "source": "[[Special:MyLanguage/Majin|Majins]] heal 25% more from food thanks to their '''Sweet Tooth''' passive.",
+  "translation": "Os [[Special:MyLanguage/Majin|Majins]] se curam 25% mais com comida graças à passiva '''Paladar Doce'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== DMZ foods ==",
+  "translation": "== Comidas do DMZ ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Raw meat can be cooked in a furnace, a smoker or on a campfire. Animals that die while on fire drop it already cooked.",
+  "translation": "A carne crua pode ser assada em uma fornalha, um defumador ou uma fogueira. Animais que morrem pegando fogo a dropam já assada.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Food",
+  "translation": "Comida",
+  "outdated": false
+ },
+ "10": {
+  "source": "Hunger points (raw / cooked)",
+  "translation": "Pontos de fome (crua / cozida)",
+  "outdated": false
+ },
+ "11": {
+  "source": "Dropped by",
+  "translation": "Dropado por",
+  "outdated": false
+ },
+ "12": {
+  "source": "Dino Meat",
+  "translation": "Carne de Dinossauro",
+  "outdated": false
+ },
+ "13": {
+  "source": "Baby Dino Meat",
+  "translation": "Carne de Dinossauro Bebê",
+  "outdated": false
+ },
+ "14": {
+  "source": "Baby dinosaurs (see [[Special:MyLanguage/Dinosaurs|Dinosaurs]])",
+  "translation": "Dinossauros bebês (veja [[Special:MyLanguage/Dinosaurs|Dinossauros]])",
+  "outdated": false
+ },
+ "15": {
+  "source": "Dino Tail",
+  "translation": "Rabo de Dinossauro",
+  "outdated": false
+ },
+ "16": {
+  "source": "Frog Legs",
+  "translation": "Coxas de Sapo",
+  "outdated": false
+ },
+ "17": {
+  "source": "Giant Fish",
+  "translation": "Peixe gigante",
+  "outdated": false
+ },
+ "18": {
+  "source": "Giant Turtle",
+  "translation": "Tartaruga gigante",
+  "outdated": false
+ },
+ "19": {
+  "source": "Namekian Traders also sell Raw Frog Legs (see [[Special:MyLanguage/Namekian Trader|Namekian Trader]]).",
+  "translation": "Os Comerciantes Namekuseijins também vendem Coxas de Sapo Cruas (veja [[Special:MyLanguage/Namekian Trader|Comerciante Namekuseijin]]).",
+  "outdated": false
+ }
+}

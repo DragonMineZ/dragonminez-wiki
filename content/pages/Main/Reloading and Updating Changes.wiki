@@ -1,12 +1,14 @@
 <translate>
+<!--T:1-->
 Not every change needs a server restart, but not every change can be picked up live either. This page explains what <code>/dmzreload</code> does, how config values reach the clients, when you still need a restart or a resource reload, and what happens to your files when DragonMineZ itself is updated.
 </translate>
 
 <translate>
-== The /dmzreload command ==
+== The /dmzreload command == <!--T:2-->
 </translate>
 {{See also|Commands|Permissions}}
 <translate>
+<!--T:3-->
 <code>/dmzreload [target]</code> is defined in <code>ReloadCommand.java</code>. It requires the <code>dragonminez.dmz.reload</code> permission node, <code>dragonminez.admin</code>, or operator level 2 (see [[Special:MyLanguage/Permissions|Permissions]]). The console can always run it.
 </translate>
 
@@ -19,32 +21,35 @@ Not every change needs a server restart, but not every change can be picked up l
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Target</translate> !! <translate>What it reloads</translate>
+! <translate><!--T:4--> Target</translate> !! <translate><!--T:5--> What it reloads</translate>
 |-
-| <code>config</code> || <translate>Every file in <code>config/dragonminez</code> (general, combat, training, skills, techniques, entities, races, forms, stack forms, raids, tournaments), the raid types, the player storage backend (<code>StorageManager.reload()</code>), NPC alignment rules and NPC placements (respawning configured NPCs). Then every config file is resent to every online player, and their skill limits and progression are resynced.</translate>
+| <code>config</code> || <translate><!--T:6--> Every file in <code>config/dragonminez</code> (general, combat, training, skills, techniques, entities, races, forms, stack forms, raids, tournaments), the raid types, the player storage backend (<code>StorageManager.reload()</code>), NPC alignment rules and NPC placements (respawning configured NPCs). Then every config file is resent to every online player, and their skill limits and progression are resynced.</translate>
 |-
-| <code>story</code> || <translate><code>QuestRegistry.loadAll(server)</code>, which re-reads sagas, quests and side quests from the world save (running the quest auto-upgrade described below), and <code>DialogueRegistry.loadAll(server)</code> for NPC dialogues. Then the quest registry is resent to every online player.</translate>
+| <code>story</code> || <translate><!--T:7--> <code>QuestRegistry.loadAll(server)</code>, which re-reads sagas, quests and side quests from the world save (running the quest auto-upgrade described below), and <code>DialogueRegistry.loadAll(server)</code> for NPC dialogues. Then the quest registry is resent to every online player.</translate>
 |-
-| <code>wishes</code> || <translate><code>WishManager.loadWishes(server)</code>, then the wishes are resent to every online player.</translate>
+| <code>wishes</code> || <translate><!--T:8--> <code>WishManager.loadWishes(server)</code>, then the wishes are resent to every online player.</translate>
 |-
-| <code>all</code> || <translate>All of the above, in that order.</translate>
+| <code>all</code> || <translate><!--T:9--> All of the above, in that order.</translate>
 |}
 
 <translate>
+<!--T:10-->
 After a reload, connected players are resynced automatically; they don't need to relog. The console also prints the JSON load report (files that failed to load, files that were auto-upgraded).
 </translate>
 
 <translate>
-=== In-game config screen ===
+=== In-game config screen === <!--T:11-->
 </translate>
 <translate>
+<!--T:12-->
 The '''DragonMineZ''' entry of the Forge ''Mods'' screen has a config screen that lists every file in <code>config/dragonminez</code> and lets you edit them in-game; while you are in a world it also has a reload button that runs <code>/dmzreload</code>. It edits the files of '''your own''' game folder, so it is meant for singleplayer and LAN hosts. On a dedicated server, edit the server's files.
 </translate>
 
 <translate>
-== Changing one value live with /dmzconfig ==
+== Changing one value live with /dmzconfig == <!--T:13-->
 </translate>
 <translate>
+<!--T:14-->
 <code>/dmzconfig &lt;file&gt; &lt;key&gt; &lt;value&gt;</code> or <code>/dmzconfig &lt;file&gt; &lt;section&gt; &lt;key&gt; &lt;value&gt;</code> (permission: <code>dragonminez.admin</code> or operator level 2) changes a single value, saves the file and resends it to every online player. Examples:
 </translate>
 
@@ -54,14 +59,16 @@ The '''DragonMineZ''' entry of the Forge ''Mods'' screen has a config screen tha
 </syntaxhighlight>
 
 <translate>
+<!--T:15-->
 It only edits plain values (numbers, <code>true</code>/<code>false</code>, text) directly in the file or one section deep; lists and deeper objects must be edited in the file. It writes the file as it is, without the version upgrade described below.
 </translate>
 
 <translate>
-== How config reaches the clients ==
+== How config reaches the clients == <!--T:16-->
 </translate>
 {{See also|Configuration}}
 <translate>
+<!--T:17-->
 * When a player joins, the server sends them '''every''' file under <code>config/dragonminez</code> except the client-only <code>general-user.json</code> and <code>hud_layout.json</code>, one compressed packet per file. While connected, the client uses the server's values for everything those files control (stats, forms, skills, combat values shown in the menus and so on).
 * <code>/dmzreload config</code> and <code>/dmzconfig</code> send the files again to everyone online.
 * The server sends the files '''as they are on disk'''. If you edit a file and don't reload, the server keeps running the old values while players who join afterwards receive your edited file. Always run <code>/dmzreload config</code> after editing.
@@ -69,9 +76,10 @@ It only edits plain values (numbers, <code>true</code>/<code>false</code>, text)
 </translate>
 
 <translate>
-== What /dmzreload covers ==
+== What /dmzreload covers == <!--T:18-->
 </translate>
 <translate>
+<!--T:19-->
 * <code>config/dragonminez/general-server.json</code>, <code>combat.json</code>, <code>training.json</code>, <code>skills.json</code>, <code>techniques.json</code>, <code>entities.json</code>
 * <code>config/dragonminez/races/&lt;race&gt;/character.json</code>, <code>stats.json</code> and <code>forms/*.json</code>, and <code>config/dragonminez/forms/*.json</code> (stack forms)
 * <code>config/dragonminez/raids/*.json</code> and <code>config/dragonminez/tournaments/*.json</code>
@@ -81,9 +89,10 @@ It only edits plain values (numbers, <code>true</code>/<code>false</code>, text)
 </translate>
 
 <translate>
-== What /dmzreload does not cover ==
+== What /dmzreload does not cover == <!--T:20-->
 </translate>
 <translate>
+<!--T:21-->
 * '''<code>general-user.json</code> and <code>hud_layout.json</code>''': these are client files. Players change them from the in-game Configuration screen and the HUD editor; hand edits need a game restart.
 * '''Resource pack assets''' (models, textures, animations under <code>assets/dragonminez/...</code>). They need a client resource reload ({{Key|F3}} + {{Key|T}}), since they are loaded on the client, not from the server config.
 * '''Datapack reload listeners''': <code>spacepod/*.json</code> (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]), <code>weapon_attributes/*.json</code> (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]) and <code>rhythm_charts/*.json</code>. These follow vanilla datapack rules: use the vanilla <code>/reload</code> or restart the server.
@@ -93,29 +102,33 @@ It only edits plain values (numbers, <code>true</code>/<code>false</code>, text)
 </translate>
 
 <translate>
-== Updating DragonMineZ ==
+== Updating DragonMineZ == <!--T:22-->
 </translate>
 <translate>
+<!--T:23-->
 When you install a new DMZ version, your files are upgraded automatically on the next start.
 </translate>
 
 <translate>
-=== Config files ===
+=== Config files === <!--T:24-->
 </translate>
 {{See also|How to JSON}}
 <translate>
+<!--T:25-->
 Each config file carries a <code>configVersion</code> (for example <code>"2.2.0"</code>). When it is older than the mod's version, DMZ moves the old file to <code>config/dragonminez/oldBackup/&lt;same path&gt;</code>, writes the new defaults, and merges your values back in: values you never touched take the new default, values you changed are kept, and new keys are added. The details are on [[Special:MyLanguage/How to JSON|How to JSON]].
 </translate>
 
 <translate>
-=== Quests, sagas and side quests ===
+=== Quests, sagas and side quests === <!--T:26-->
 </translate>
 {{See also|Custom Quests|Sagas}}
 <translate>
+<!--T:27-->
 With <code>autoUpdateQuests</code> enabled in [[Special:MyLanguage/General Server Config|General Server Config]] (the default), the default quest, saga and side-quest files DMZ generated in your world are upgraded the same way when the server starts (and on <code>/dmzreload story</code>):
 </translate>
 
 <translate>
+<!--T:28-->
 * Each generated file carries a <code>"defaultsVersion"</code>. Files already at the current version are skipped.
 * A field you never edited takes the new default, so balance fixes reach your world.
 * A field you edited keeps your value. If the new version also changed that field, it is recorded as a '''conflict''', and your value still wins.
@@ -125,15 +138,17 @@ With <code>autoUpdateQuests</code> enabled in [[Special:MyLanguage/General Serve
 </translate>
 
 <translate>
+<!--T:29-->
 With <code>autoUpdateQuests</code> set to <code>false</code>, default files are only written when they are missing.
 </translate>
 
-{{Note|type=danger|title=<translate>Starting over from the defaults</translate>|text=<translate>To throw your world's story files away and start from the current defaults, use <code>/dmzrestoreupdate</code>. It '''deletes''' everything in <code>&lt;world&gt;/dragonminez/wishes</code>, <code>sagas</code> and <code>quests</code>, then runs <code>/dmzreload all</code> to regenerate them (side quests are not touched). It asks for confirmation first: click the button or run <code>/dmzrestoreupdate confirm</code> within 15 seconds.</translate>}}
+{{Note|type=danger|title=<translate><!--T:30--> Starting over from the defaults</translate>|text=<translate><!--T:31--> To throw your world's story files away and start from the current defaults, use <code>/dmzrestoreupdate</code>. It '''deletes''' everything in <code>&lt;world&gt;/dragonminez/wishes</code>, <code>sagas</code> and <code>quests</code>, then runs <code>/dmzreload all</code> to regenerate them (side quests are not touched). It asks for confirmation first: click the button or run <code>/dmzrestoreupdate confirm</code> within 15 seconds.</translate>}}
 
 <translate>
-== Practical workflow ==
+== Practical workflow == <!--T:32-->
 </translate>
 <translate>
+<!--T:33-->
 # Edit your JSON file or files.
 # Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
 # Run the narrowest <code>/dmzreload &lt;target&gt;</code> that covers your change: <code>config</code> for balance, race, form and raid edits, <code>story</code> for quest, saga and dialogue edits, <code>wishes</code> for wish edits.
@@ -142,6 +157,7 @@ With <code>autoUpdateQuests</code> set to <code>false</code>, default files are 
 </translate>
 
 <translate>
+<!--T:34-->
 If in doubt, <code>/dmzreload all</code> is safe to run at any time: it just re-runs every reload path and resyncs everyone.
 </translate>
 

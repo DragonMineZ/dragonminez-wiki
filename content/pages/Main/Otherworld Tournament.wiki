@@ -1,59 +1,72 @@
 {{Infobox Tournament
 |Tournament id=otherworld
-|Host=<translate>Otherworld Tournament Announcer</translate>
-|Arena=<translate>Otherworld Tournament grounds (ring centre at 0, 355, −1200)</translate>
-|Format=<translate>Bracket</translate>
-|Ring=<translate>Knockout</translate>
+|Host={{L|Otherworld Tournament Announcer}}
+|Arena=<translate><!--T:2--> Otherworld Tournament grounds (ring centre at 0, 355, −1200)</translate>
+|Format=<translate><!--T:3--> Bracket</translate>
+|Ring=<translate><!--T:4--> Knockout</translate>
 |Difficulty=★★★★★
-|Fighters=<translate>An 8-seat bracket of Buu Saga fighters</translate>
-|Final=<translate>Pikkon (semi-final), Goku (Super Saiyan, with his halo) (final), Gogeta (Super Saiyan) (title match)</translate>
-|Rewards=<translate>3,000,000 TP, +10 alignment</translate>
-|Re-entry cooldown=<translate>90 minutes</translate>
+|Fighters=<translate><!--T:5--> An 8-seat bracket of Buu Saga fighters</translate>
+|Final={{L|Pikkon}} <translate><!--T:6--> (semi-final)</translate>; {{L|Goku}} <translate><!--T:35--> (Super Saiyan, with his halo; final)</translate>; {{L|Gogeta}} <translate><!--T:36--> (Super Saiyan; title match)</translate>
+|Rewards=<translate><!--T:7--> 3,000,000 TP, +10 alignment</translate>
+|Re-entry cooldown=<translate><!--T:8--> 90 minutes</translate>
 }}
 <translate>
-'''The Otherworld Tournament''' is the hardest tournament, a five-star '''bracket''' held on the tournament clouds above the [[Special:MyLanguage/Otherworld|Otherworld]]. After a bracket of Buu Saga fighters you face '''Pikkon''' in the semi-final, [[Special:MyLanguage/Goku|Goku]] (Super Saiyan, with his halo) in the final and '''Gogeta''' (Super Saiyan) in the title match. Bouts end at knockout, so nobody dies.
+<!--T:9-->
+'''The Otherworld Tournament''' is the hardest tournament, a five-star '''bracket''' held on the tournament clouds above the [[Special:MyLanguage/Otherworld|Otherworld]]. After a bracket of Buu Saga fighters you face '''[[Special:MyLanguage/Pikkon|Pikkon]]''' in the semi-final, [[Special:MyLanguage/Goku|Goku]] (Super Saiyan, with his halo) in the final and '''[[Special:MyLanguage/Gogeta|Gogeta]]''' (Super Saiyan) in the title match. Bouts end at knockout, so nobody dies.
 </translate>
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:10-->
 
-The tournament grounds sit on the upper cloud deck of the Otherworld, around Y 271, with the ring centre at 0, 355, −1200. To get there, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] in the cloud realm and press '''Tournament'''. The '''Otherworld Tournament Announcer''' hosts the tournament on the grounds and can send you back to the Grand Kai. <code>/dmzlocate otherworld_tournament</code>, run inside the Otherworld, gives you the ring's coordinates.
+<!--T:11-->
+The tournament grounds sit on the upper cloud deck of the Otherworld, around Y 271, with the ring centre at 0, 355, −1200. To get there, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] in the cloud realm and press '''Tournament'''. The '''[[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]''' hosts the tournament on the grounds and can send you back to the Grand Kai. <code>/dmzlocate otherworld_tournament</code>, run inside the Otherworld, gives you the ring's coordinates.
 
+<!--T:12-->
 The grounds are built automatically the first time the server runs with the Otherworld enabled. Until they are finished, the Grand Kai tells you how far along they are. When the Otherworld system is switched off, the grounds aren't built. Like every tournament arena, the grounds can't be built in or broken by survival players (see [[Special:MyLanguage/Tournaments#Arena protection|arena protection]]).
 </translate>
 
 <translate>
-== Format ==
+== Format == <!--T:13-->
 
+<!--T:14-->
 This tournament is a '''bracket''' of 8 seats filled with random contenders. Winners climb the ladder, and fights between two NPCs are decided automatically. After the qualifier rounds, the survivor faces the semi-finalist, then the finalist and finally the champion. Only those three are known before you enter; the rest of the draw is revealed once everybody accepts the rules.
 
+<!--T:15-->
 With a party, each member has their own seat; if the draw puts two members against each other, they fight a PvP bout. Each bout lasts up to '''8 minutes'''; a bout that runs out of time is void and fought again. The general rules for entering and bouts are on [[Special:MyLanguage/Tournaments|Tournaments]].
 </translate>
 
 <translate>
-== Fighters ==
+== Fighters == <!--T:16-->
 
-The contenders are drawn from the Buu Saga cast: Goku, Vegeta (including Majin Vegeta), Gohan (including Ultimate Gohan), Goten, Trunks, Gotenks, Shin, Kibito, Videl, Bulma, Spopovich, Pui Pui, Yakon, Dabura, Babidi, every form of [[Special:MyLanguage/Majin Buu|Majin Buu]], [[Special:MyLanguage/Mini Buu|Mini Buu]] and Vegetto. By default they have between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, fight on the Smart or Elite AI tier, and get 8% stronger for every round already played.
+<!--T:17-->
+The contenders are drawn from the Buu Saga cast: [[Special:MyLanguage/Vegeta|Vegeta]] (including Majin Vegeta), [[Special:MyLanguage/Gohan|Gohan]] (including Ultimate Gohan), [[Special:MyLanguage/Goten|Goten]], [[Special:MyLanguage/Kid Trunks|Kid Trunks]], [[Special:MyLanguage/Gotenks|Gotenks]], [[Special:MyLanguage/Shin|Shin]], [[Special:MyLanguage/Kibito|Kibito]], [[Special:MyLanguage/Videl|Videl]], [[Special:MyLanguage/Bulma|Bulma]], [[Special:MyLanguage/Spopovich|Spopovich]], [[Special:MyLanguage/Pui Pui|Pui Pui]], [[Special:MyLanguage/Yakon|Yakon]], [[Special:MyLanguage/Dabura|Dabura]], [[Special:MyLanguage/Babidi|Babidi]], [[Special:MyLanguage/Majin Buu|Majin Buu]], [[Special:MyLanguage/Evil Buu|Evil Buu]], [[Special:MyLanguage/Super Buu|Super Buu]], [[Special:MyLanguage/Kid Buu|Kid Buu]], [[Special:MyLanguage/Mini Buu|Mini Buu]] and [[Special:MyLanguage/Vegetto|Vegetto]]. By default they have between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, fight on the Smart or Elite AI tier, and get 8% stronger for every round already played.
+</translate>
+
+<translate>
+<!--T:37-->
+Each contender seat draws a character who isn't in the tournament yet, and the semi-finalist, the finalist and the champion are drawn first. The forms of a character count as one, so a bracket never has two Gohans (Ultimate Gohan included) or two Super Buus. Majin Vegeta counts as a different character from Vegeta, and Majin Buu, Evil Buu, Super Buu, Kid Buu and Mini Buu are all different characters. Goku's Buu Saga forms are in the pool too, but the finalist (Goku as a Super Saiyan, with his halo) takes his place first, so Goku is never drawn as a contender.
 </translate>
 {| class="wikitable"
-! <translate>Stage</translate> !! <translate>Fighter</translate> !! <translate>Health / melee / ki</translate> !! <translate>AI tier</translate>
+! <translate><!--T:18--> Stage</translate> !! <translate><!--T:19--> Fighter</translate> !! <translate><!--T:20--> Health / melee / ki</translate> !! <translate><!--T:21--> AI tier</translate>
 |-
-| <translate>Semi-finalist</translate> || <translate>Pikkon</translate> || 805,000 / 33,600 / 30,600 || <translate>Elite</translate>
+| <translate><!--T:22--> Semi-finalist</translate> || {{L|Pikkon}} || 805,000 / 33,600 / 30,600 || <translate><!--T:24--> Elite</translate>
 |-
-| <translate>Finalist</translate> || <translate>Goku (Super Saiyan, with his halo)</translate> || 900,000 / 37,800 / 34,200 || <translate>Elite</translate>
+| <translate><!--T:25--> Finalist</translate> || {{L|Goku}} <translate><!--T:26--> (Super Saiyan, with his halo)</translate> || 900,000 / 37,800 / 34,200 || <translate><!--T:27--> Elite</translate>
 |-
-| <translate>Champion</translate> || <translate>Gogeta (Super Saiyan)</translate> || 1,330,000 / 55,800 / 50,700 || <translate>Expert</translate>
+| <translate><!--T:28--> Champion</translate> || {{L|Gogeta}} <translate><!--T:29--> (Super Saiyan)</translate> || 1,330,000 / 55,800 / 50,700 || <translate><!--T:30--> Expert</translate>
 |}
 
 <translate>
-== Rewards ==
+== Rewards == <!--T:31-->
 
+<!--T:32-->
 Beating Gogeta wins '''3,000,000 TP''' and '''+10 alignment''', with fireworks and the victory music. Losing a bout, withdrawing or being disqualified puts you on a '''90-minute''' cooldown before you can enter again; winning starts the same cooldown.
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:33-->
 
+<!--T:34-->
 The [[Special:MyLanguage/Movies Saga|Movies Saga]] has its own '''Otherworld Tournament''' quest after Buu Saga quest 34, where you defeat Pikkon.
 </translate>
 

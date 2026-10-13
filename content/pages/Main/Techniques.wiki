@@ -1,49 +1,56 @@
 <translate>
+<!--T:1-->
 '''Techniques''' are the combat moves you learn from [[Special:MyLanguage/Masters|masters]], earn from bosses or design yourself. There are three kinds: '''ki attacks''', ranged energy attacks whose damage scales with your Ki Damage (PWR); '''strike attacks''', close-range rush attacks whose damage scales with your Strike Damage (SKP); and '''evasion techniques''', utility moves that blind, reposition, heal or push enemies away. Techniques are equipped in slots, gain their own experience and can be upgraded.
 </translate>
 
 <div class="dmz-cards">
-{{Card|Ki Attacks|<translate>Ranged energy attacks, from the Kamehameha to the Spirit Bomb.</translate>}}
-{{Card|Strike Attacks|<translate>Rush in and land a powerful melee technique.</translate>}}
-{{Card|Evasion Techniques|<translate>Blind, reposition or push your enemies away.</translate>}}
-{{Card|Beam Clash|<translate>When two beams meet head-on, timing and power decide the winner.</translate>}}
-{{Card|Strike Clash|<translate>When two strike rushes meet, fists collide in a timing duel.</translate>}}
+{{Card|Ki Attacks|<translate><!--T:2--> Ranged energy attacks, from the Kamehameha to the Spirit Bomb.</translate>}}
+{{Card|Strike Attacks|<translate><!--T:3--> Rush in and land a powerful melee technique.</translate>}}
+{{Card|Evasion Techniques|<translate><!--T:4--> Blind, reposition or push your enemies away.</translate>}}
+{{Card|Beam Clash|<translate><!--T:5--> When two beams meet head-on, timing and power decide the winner.</translate>}}
+{{Card|Strike Clash|<translate><!--T:6--> When two strike rushes meet, fists collide in a timing duel.</translate>}}
 </div>
 
 <translate>
-== Requirements ==
+== Requirements == <!--T:7-->
 </translate>
-{{Note|type=warning|title=<translate>You need Ki Control</translate>|<translate>Ki and strike attacks rely on channeling ki, so the [[Special:MyLanguage/Ki Control|Ki Control]] skill is a prerequisite: without it you can't charge or use them. You also need at least 5% Power Release and an empty main hand.</translate>}}
+{{Note|type=warning|title=<translate><!--T:8--> You need Ki Control</translate>|<translate><!--T:9--> Ki and strike attacks rely on channeling ki, so the [[Special:MyLanguage/Ki Control|Ki Control]] skill is a prerequisite: without it you can't charge or use them. You also need at least 5% Power Release and an empty main hand.</translate>}}
 <translate>
+<!--T:10-->
 The same three conditions apply to evasion techniques. The only exception to the empty-hand rule is the [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], which can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].
 </translate>
 
 <translate>
-== Learning techniques ==
+== Learning techniques == <!--T:11-->
 </translate>
 {{Config|Skills Config|skills.json}}
 <translate>
+<!--T:12-->
 Each predefined technique is learned from a specific master and costs a single payment of Training Points (TP) to unlock. Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement won't teach you until your alignment fits. Up to 256 techniques can be unlocked.
 
+<!--T:13-->
 Some techniques belong to certain races. A master lists every technique they teach, and its details show a '''Race''' line, in red when your race can't use it. You can still learn such a technique, but you can only equip it in a slot if your race is allowed: in the Skills menu it shows '''Not usable by your race''' and has no '''Bind to Slot''' button. By default only three are restricted, all taught by [[Special:MyLanguage/Majin Buu|Majin Buu]] and usable only by [[Special:MyLanguage/Majin|Majins]]: Gum Punch, the Mystic Ball Attack and Sleep Recovery.
 
+<!--T:14-->
 Some techniques aren't taught by any master by default: a few drop from [[Special:MyLanguage/World Bosses|world bosses]], the Great Ape techniques are granted while you are in that form, and the rest can be added to a master's list by the server owner. Admins can grant any technique directly with {{Command|/dmztech add &lt;technique&gt; [targets]}} (see [[Special:MyLanguage/Commands|Commands]]).
 
+<!--T:15-->
 You can also design your own ki attacks with the Technique Creator (see below).
 </translate>
 {| class="wikitable"
-! <translate>Kind</translate> !! <translate>Damage scales with</translate> !! <translate>How it activates</translate> !! <translate>Full list</translate>
+! <translate><!--T:16--> Kind</translate> !! <translate><!--T:17--> Damage scales with</translate> !! <translate><!--T:18--> How it activates</translate> !! <translate><!--T:19--> Full list</translate>
 |-
-| <translate>Ki attacks</translate> || <translate>Ki Damage (PWR)</translate> || <translate>Hold the slot key to charge, release to fire (Small Ball and Laser fire instantly)</translate> || {{L|Ki Attacks}}
+| <translate><!--T:20--> Ki attacks</translate> || <translate><!--T:21--> Ki Damage (PWR)</translate> || <translate><!--T:22--> Hold the slot key to charge, release to fire (Small Ball and Laser fire instantly)</translate> || {{L|Ki Attacks}}
 |-
-| <translate>Strike attacks</translate> || <translate>Strike Damage (SKP)</translate> || <translate>Press the slot key: you rush the target</translate> || {{L|Strike Attacks}}
+| <translate><!--T:23--> Strike attacks</translate> || <translate><!--T:24--> Strike Damage (SKP)</translate> || <translate><!--T:25--> Press the slot key: you rush the target</translate> || {{L|Strike Attacks}}
 |-
-| <translate>Evasion techniques</translate> || — || <translate>Press the slot key</translate> || {{L|Evasion Techniques}}
+| <translate><!--T:26--> Evasion techniques</translate> || — || <translate><!--T:27--> Press the slot key</translate> || {{L|Evasion Techniques}}
 |}
 
 <translate>
-== Using techniques ==
+== Using techniques == <!--T:28-->
 
+<!--T:29-->
 * Unlocked techniques are equipped into '''8 technique slots''' from the Skills menu ('''Bind to Slot''').
 * Default slot keys: {{Key|Alt}} + {{Key|1}}–{{Key|4}} for slots 1–4 and {{Key|Ctrl}} + {{Key|1}}–{{Key|4}} for slots 5–8. While you hold a bar's modifier, its four slots appear on the technique hotbar (see [[Special:MyLanguage/Controls|Controls]] and [[Special:MyLanguage/HUD|HUD]]).
 * '''Ki attacks:''' hold the slot key to charge and release it to fire. If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.
@@ -52,8 +59,9 @@ You can also design your own ki attacks with the Technique Creator (see below).
 </translate>
 
 <translate>
-== Charging and overcharge ==
+== Charging and overcharge == <!--T:30-->
 
+<!--T:31-->
 * '''Small Ball''' and '''Laser''' attacks are instant. Every other ki attack type charges up to '''100%''' over its cast time (see the table below).
 * Keep holding past 100% to '''overcharge''' up to '''175%''' (+25% per extra cast time). '''Medium Ball''' and '''Giant Ball''' attacks fire on their own when they reach the cap; the others fire when you release the key. Releasing below 10% fizzles.
 * The charge percentage scales the attack's damage and cooldown. Overcharging costs more Ki: going from 100% to 175% doubles the cost.
@@ -64,119 +72,137 @@ You can also design your own ki attacks with the Technique Creator (see below).
 </translate>
 
 <translate>
-== Ki attack types ==
+== Ki attack types == <!--T:32-->
 </translate>
 {| class="wikitable"
-! <translate>Type</translate> !! <translate>Base cast time</translate> !! <translate>Upgrades available</translate> !! <translate>Notes</translate>
+! <translate><!--T:33--> Type</translate> !! <translate><!--T:34--> Base cast time</translate> !! <translate><!--T:35--> Upgrades available</translate> !! <translate><!--T:36--> Notes</translate>
 |-
-| <translate>Small Ball</translate> || <translate>Instant</translate> || <translate>Damage, Speed, Cooldown</translate> || <translate>Can be a heal.</translate>
+| <translate><!--T:37--> Small Ball</translate> || <translate><!--T:38--> Instant</translate> || <translate><!--T:39--> Damage, Speed, Cooldown</translate> || <translate><!--T:40--> Can be a heal.</translate>
 |-
-| <translate>Laser</translate> || <translate>Instant</translate> || <translate>Damage, Speed, Armor Pen., Cooldown</translate> ||
+| <translate><!--T:41--> Laser</translate> || <translate><!--T:42--> Instant</translate> || <translate><!--T:43--> Damage, Speed, Armor Pen., Cooldown</translate> ||
 |-
-| <translate>Medium Ball</translate> || <translate>1.5 seconds</translate> || <translate>Damage, Speed, Armor Pen., Cooldown</translate> || <translate>Fires automatically when fully charged.</translate>
+| <translate><!--T:44--> Medium Ball</translate> || <translate><!--T:45--> 1.5 seconds</translate> || <translate><!--T:46--> Damage, Speed, Armor Pen., Cooldown</translate> || <translate><!--T:47--> Fires automatically when fully charged.</translate>
 |-
-| <translate>Disk</translate> || <translate>1.5 seconds</translate> || <translate>Damage, Speed, Armor Pen., Cooldown</translate> || <translate>Slices a clean cut through terrain.</translate>
+| <translate><!--T:48--> Disk</translate> || <translate><!--T:49--> 1.5 seconds</translate> || <translate><!--T:50--> Damage, Speed, Armor Pen., Cooldown</translate> || <translate><!--T:51--> Slices a clean cut through terrain.</translate>
 |-
-| <translate>Barrage</translate> || <translate>2 seconds</translate> || <translate>Damage, Speed, Cooldown</translate> ||
+| <translate><!--T:52--> Barrage</translate> || <translate><!--T:53--> 2 seconds</translate> || <translate><!--T:54--> Damage, Speed, Cooldown</translate> ||
 |-
-| <translate>Shield</translate> || <translate>2 seconds</translate> || <translate>Damage, Cooldown</translate> || <translate>Can be a heal.</translate>
+| <translate><!--T:55--> Shield</translate> || <translate><!--T:56--> 2 seconds</translate> || <translate><!--T:57--> Damage, Cooldown</translate> || <translate><!--T:58--> Can be a heal.</translate>
 |-
-| <translate>Area</translate> || <translate>2 seconds</translate> || <translate>Damage, Cooldown</translate> || <translate>Can be a heal.</translate>
+| <translate><!--T:59--> Area</translate> || <translate><!--T:60--> 2 seconds</translate> || <translate><!--T:61--> Damage, Cooldown</translate> || <translate><!--T:62--> Can be a heal.</translate>
 |-
-| <translate>Wave</translate> || <translate>2.5 seconds</translate> || <translate>Damage, Speed, Armor Pen., Cooldown</translate> || <translate>Clashes with other beams.</translate>
+| <translate><!--T:63--> Wave</translate> || <translate><!--T:64--> 2.5 seconds</translate> || <translate><!--T:65--> Damage, Speed, Armor Pen., Cooldown</translate> || <translate><!--T:66--> Clashes with other beams.</translate>
 |-
-| <translate>Beam</translate> || <translate>2.5 seconds</translate> || <translate>Damage, Speed, Armor Pen., Cooldown</translate> || <translate>Clashes with other beams.</translate>
+| <translate><!--T:67--> Beam</translate> || <translate><!--T:68--> 2.5 seconds</translate> || <translate><!--T:69--> Damage, Speed, Armor Pen., Cooldown</translate> || <translate><!--T:70--> Clashes with other beams.</translate>
 |-
-| <translate>Giant Ball</translate> || <translate>3 seconds</translate> || <translate>Damage, Size, Armor Pen., Cooldown</translate> || <translate>Fires automatically when fully charged.</translate>
+| <translate><!--T:71--> Giant Ball</translate> || <translate><!--T:72--> 3 seconds</translate> || <translate><!--T:73--> Damage, Size, Armor Pen., Cooldown</translate> || <translate><!--T:74--> Fires automatically when fully charged.</translate>
 |-
-| <translate>Explosion</translate> || <translate>3 seconds</translate> || <translate>Damage, Armor Pen., Cooldown</translate> ||
+| <translate><!--T:75--> Explosion</translate> || <translate><!--T:76--> 3 seconds</translate> || <translate><!--T:77--> Damage, Armor Pen., Cooldown</translate> ||
 |}
 <translate>
+<!--T:78-->
 Cast times are the server defaults.
 </translate>
 {{Config|Skills Config|techniques.json}}
 
 <translate>
-== Great Ape loadout ==
+== Great Ape loadout == <!--T:79-->
 
+<!--T:80-->
 While you are in the '''Oozaru''' or '''Golden Oozaru''' form, your first three technique slots are replaced with [[Special:MyLanguage/Mouth Blast|Mouth Blast]], '''Oozaru Slam''' and [[Special:MyLanguage/Rage Scream|Rage Scream]]. They are added temporarily if you don't own them, and your normal slots come back when you leave the form. See [[Special:MyLanguage/Saiyan|Saiyan]] for the Oozaru forms and [[Special:MyLanguage/Fake Moon|Fake Moon]] for one way to trigger them.
 </translate>
 
 <translate>
-== Technique XP and upgrades ==
+== Technique XP and upgrades == <!--T:81-->
 
+<!--T:82-->
 Techniques gain '''experience (XP)''' when they hit, and more when they kill; evasion techniques gain XP each time you use them. Spend it in the Skills menu to upgrade the technique:
 
+<!--T:83-->
 * '''Ki attacks:''' damage (+0.05 multiplier), size (+0.1), speed (+0.05), armor penetration (+1%) and cooldown (−2.5% per level, up to −50%). Only the stats allowed for its type can be upgraded (see the type table above).
 * '''Strike attacks:''' damage and cooldown (−2.5% per level, up to −50%).
 * '''Evasion techniques:''' duration (+2.5% per level, up to +50%) and cooldown.
 
+<!--T:84-->
 Each upgrade costs more XP than the last. XP costs and gains are tuned per type by the server.
 </translate>
 
 <translate>
-== Creating your own ki attacks ==
+== Creating your own ki attacks == <!--T:85-->
 
+<!--T:86-->
 The '''Technique Creator''' (the '''Create Skill''' button of the Skills menu) lets you design your own ki attack in two steps. Creating it costs TP based on how strong it is; after that it works like any other ki attack (slots, XP, upgrades).
 </translate>
 
 <translate>
-=== Step 1: appearance ===
+=== Step 1: appearance === <!--T:87-->
 
+<!--T:88-->
 The camera moves around your character and a '''live preview''' plays the attack on a loop (charge, fire and impact) exactly as that type looks in combat, at the size it would have with your current stats.
 
+<!--T:89-->
 * Choose the '''type''' with the arrows (or {{Key|A}}/{{Key|D}}, {{Key|←}}/{{Key|→}}).
 * Pick the three colours: '''Core''', '''Border''' and '''Outline'''. Click a swatch, then set it with the hue, saturation and brightness sliders or type a hex code; the preview recolours instantly. The colours start from your aura colour.
 * Drag to rotate the camera and scroll to zoom.
 
+<!--T:90-->
 The panel also shows the type's cast time and the current TP cost. Press '''Continue''' (or {{Key|Enter}}) for the next step.
 </translate>
 
 <translate>
-=== Step 2: stats ===
+=== Step 2: stats === <!--T:91-->
 
+<!--T:92-->
 Name the technique (up to 24 characters), choose its '''utility''' where the type allows it, and set its '''damage''', '''size''', '''speed''' and '''armor penetration''' (only the stats the chosen type supports can be changed), plus an optional '''secondary effect'''. Hold an arrow to keep adjusting, and hold {{Key|Shift}} for bigger steps.
 
+<!--T:93-->
 The screen shows the resulting Ki cost, cooldown, cast time and TP cost next to your available TP, and hovering the damage line shows how much damage (or healing) the attack would deal with your current stats. '''Back''' returns to the appearance step without losing anything. '''Create Skill''' only works if you can afford the TP cost, and you can't reuse the name of a technique you already own.
 </translate>
 
 <translate>
-=== Utility and secondary effects ===
+=== Utility and secondary effects === <!--T:94-->
 
+<!--T:95-->
 * '''Damage or Heal.''' Small Ball, Shield and Area attacks can be set to '''heal''' instead of damage. Healing output is 40% of the damage value.
 * '''Secondary effects.''' A damage attack can carry a '''debuff''', and a heal attack a '''buff''', on one stat: STR, SKP, DEF, PWR, health regeneration, Ki regeneration or stamina regeneration. Intensity is 5–50% and duration 1–8 seconds, and a secondary effect makes the attack cost more Ki. Buffs only land on allies and debuffs on enemies, and a target can only hold one buff at a time.
 </translate>
 
 <translate>
-=== Sharing techniques ===
+=== Sharing techniques === <!--T:96-->
 
+<!--T:97-->
 Techniques can be exported as a code (<code>DMZK1:…</code>) and imported by other players. Importing a technique costs its TP.
 
+<!--T:98-->
 Created techniques pair well with the [[Special:MyLanguage/Spiritualist|Spiritualist]] and [[Special:MyLanguage/Cleric|Cleric]] classes, whose passives boost ki-technique cooldowns and durations. [[Special:MyLanguage/Majin|Majins]] also heal more with healing techniques.
 </translate>
 
 <translate>
-== Terrain destruction ==
+== Terrain destruction == <!--T:99-->
 
+<!--T:100-->
 Ki attacks tear up the ground they hit: blasts and explosions leave craters, and big beams and balls dig through terrain as they travel. The blocks are removed over a few ticks, with flying debris and dust, so even huge attacks don't freeze the server. Disk attacks (Kienzan and the like) slice a clean cut through the blocks they pass, and the Dimensional Slash strike carves a crescent into the terrain. Dragon Balls and highly blast-resistant blocks (obsidian, bedrock, unbreakable DMZ blocks…) are never destroyed.
 
+<!--T:101-->
 Whether ki attacks may break blocks at all, and which structures are protected, is set by the ki-griefing [[Special:MyLanguage/Gamerules|gamerules]]. Crater sizes per attack type are a server setting.
 </translate>
 {{Config|Skills Config|destructionMultiplier / maxDestructionRadius}}
 
 <translate>
-== Beam clashes ==
+== Beam clashes == <!--T:102-->
 </translate>
 {{Main|Beam Clash}}
 <translate>
+<!--T:103-->
 When two beams (Wave or Beam type: Kamehameha, Galick Gun, Final Flash, Special Beam Cannon…) meet head-on, a '''beam clash''' starts. Both fighters are invulnerable while it lasts and a timing meter appears: right-click when the marker is inside the window to push your beam forward. The side that pushes far enough wins and breaks through; the loser is stunned for 3.5 seconds. Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam are simply destroyed.
 </translate>
 
 <translate>
-== Strike clashes ==
+== Strike clashes == <!--T:104-->
 </translate>
 {{Main|Strike Clash}}
 <translate>
+<!--T:105-->
 When two fighters rush at each other with strike attacks, a '''strike clash''' starts: both are held in place, trading blows, and the same timing meter decides who pushes through. The winner deals a heavy blow and gets the technique back at once; the loser is knocked back and stunned for 3.5 seconds.
 </translate>
 

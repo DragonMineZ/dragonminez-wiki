@@ -1,24 +1,27 @@
 {{Infobox Item
-|quote=<translate>The Sacred Water awakens your hidden power.</translate>
-|Type=<translate>Relic</translate>
-|Effect=<translate>Permanently multiplies all your stats by ×1.1</translate>
-|Duration=<translate>Permanent</translate>
+|quote=<translate><!--T:1--> The Sacred Water awakens your hidden power.</translate>
+|Type=<translate><!--T:2--> Relic</translate>
+|Effect=<translate><!--T:3--> Permanently multiplies all your stats by ×1.1</translate>
+|Duration=<translate><!--T:4--> Permanent</translate>
 |Stack size=16
-|Obtained=<translate>Classic Saga quest 19, The Sacred Water</translate>
+|Obtained=<translate><!--T:5--> Classic Saga quest 19, The Sacred Water</translate>
 }}
 <translate>
+<!--T:6-->
 '''Sacred Water''' is a relic that '''permanently multiplies all your stats by ×1.1''' when you drink it. It works '''once per character'''.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:7-->
 
+<!--T:8-->
 It is the reward of Korin's quest '''The Sacred Water''' ([[Special:MyLanguage/Classic Saga|Classic Saga]] quest 19): climb to [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] and hand [[Special:MyLanguage/Korin|Korin]] a Water Bucket. The quest also rewards a Red, a Green and a Blue [[Special:MyLanguage/Capsules|Capsule]].
 </translate>
 
 <translate>
-== Effect ==
+== Effect == <!--T:9-->
 
+<!--T:10-->
 * Drinking it multiplies all your stats by ×1.1 by default.
 * It only works once per character: if you have already drunk it, nothing happens.
 * The bonus survives death. Only a character reset clears it.
