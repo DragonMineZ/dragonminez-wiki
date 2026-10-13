@@ -73,6 +73,10 @@ docker compose exec -u www-data wiki php maintenance/run.php runJobs --type Upda
 
 Entre `mark` e `import` la cola de trabajos tiene que haberse vaciado (el `jobrunner` lo hace solo en un par de minutos; con `showJobs` se ve si queda algo). Los trabajos que encola `mark` marcan como desactualizadas las traducciones de las unidades que cambiaron: si corren después del `import`, marcan también las traducciones nuevas. Si pasa, basta con repetir el `import` de esas páginas: guarda el mismo texto y quita la marca.
 
+El `import` solo quita esa marca a una unidad si su `source` en el JSON coincide con el inglés actual de la wiki y no tiene `outdated: true`. Así una traducción vieja nunca pasa por actualizada. Si la wiki no tenía traducción para esa unidad, la sube marcada como desactualizada (`!!FUZZY!!`).
+
+Las traducciones que alguien hace o corrige en la wiki (`Special:Translate`) vuelven solas a estos JSON con el sync de contenido (ver "Despliegue automático" en [SERVER.md](SERVER.md)), lo mismo que las páginas, imágenes y páginas nuevas.
+
 ## Plantillas y estilos disponibles
 
 - Infoboxes DRUID: `{{Infobox Race}}`, `Class`, `Form`, `Master`, `Dimension`, `Structure`, `Mob`, `World Boss`, `Raid`, `Tournament`, `Saga`, `Dragon`, `Item`, `Weapon`, `Armor`, `Skill`, `Technique`, `Fusion`, `Effect` (campos en `docs/IA.md` y en el `/doc` de cada una).

@@ -12,6 +12,9 @@ import sys
 import urllib.parse
 import urllib.request
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sync_base import at_ref, normalized  # noqa: E402
+
 USER_AGENT = 'DragonMineZWikiPush/1.0 (https://github.com/DragonMineZ)'
 KEEP_SUFFIX = {'.css', '.js', '.json'}
 STRIP_SUFFIX = {'.wiki', '.lua'}
@@ -129,6 +132,7 @@ def main() -> int:
     parser.add_argument('--summary', default='Sync from dragonminez-wiki repository')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--changed-list', help='write the titles of the pages created or updated to this file, one per line')
+    parser.add_argument('--base-ref', help='commit that matched the wiki at the last sync; pages and files edited on the wiki since then are not overwritten')
     args = parser.parse_args()
 
     user = os.environ.get('MW_BOT_USER')
@@ -145,6 +149,7 @@ def main() -> int:
 
     changed = 0
     edited = []
+    held = []
     for path in files:
         title = page_title(root, path)
         if args.only and not any(fnmatch.fnmatch(title, pattern) for pattern in args.only):
@@ -154,6 +159,14 @@ def main() -> int:
         current = wiki.current_text(title)
         if current is not None and current.rstrip('\n') == text.rstrip('\n'):
             continue
+        if args.base_ref and current is not None:
+            if normalized(current) == normalized(text):
+                continue
+            base = at_ref(args.base_ref, path)
+            if base is None or normalized(current) != normalized(base.decode('utf-8')):
+                held.append(title)
+                print(f'::warning title=Edited on the wiki::{title} changed on the wiki after the last sync; not overwritten')
+                continue
         changed += 1
         edited.append(title)
         action = 'create' if current is None else 'update'
@@ -170,15 +183,23 @@ def main() -> int:
             if args.only and not any(fnmatch.fnmatch(f'File:{path.name}', pattern) for pattern in args.only):
                 continue
             local = hashlib.sha1(path.read_bytes()).hexdigest()
-            if wiki.file_sha1(path.name) == local:
+            remote = wiki.file_sha1(path.name)
+            if remote == local:
                 continue
+            if args.base_ref and remote is not None:
+                base = at_ref(args.base_ref, path)
+                if base is None or hashlib.sha1(base).hexdigest() != remote:
+                    held.append(f'File:{path.name}')
+                    print(f'::warning title=Edited on the wiki::File:{path.name} changed on the wiki after the last sync; not overwritten')
+                    continue
             uploaded += 1
             if args.dry_run:
                 print(f'[dry-run] upload File:{path.name}')
                 continue
             result = wiki.upload(path, args.summary)
             print(f"upload File:{path.name}: {result.get('result')}")
-    print(f'{changed} page(s) and {uploaded} file(s) {"would change" if args.dry_run else "changed"}.')
+    print(f'{changed} page(s) and {uploaded} file(s) {"would change" if args.dry_run else "changed"}'
+          + (f'; {len(held)} left as they are on the wiki.' if held else '.'))
     return 0
 
 

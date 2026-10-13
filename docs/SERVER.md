@@ -126,12 +126,21 @@ Todo comando de mantenimiento corre como `www-data`: si corre como root, SQLite 
 
 ## Despliegue automático
 
-La base de datos de la VPS nunca se migra desde una PC: el repo es la fuente de todo y la wiki se actualiza por dos caminos.
+La base de datos de la VPS nunca se migra desde una PC. El código va solo del repo a la wiki; el contenido se sincroniza en los dos sentidos.
 
 | Qué cambió | Workflow | Qué hace |
 |---|---|---|
 | `skins/`, `extensions/`, `config/`, `docker/` | `.github/workflows/image.yml` | Construye la imagen en GHCR y avisa a Dokploy (`DOKPLOY_WEBHOOK_URL`) para redesplegar. |
-| `content/` (páginas, imágenes, traducciones) | `.github/workflows/content.yml` | `tools/sync_content.py`: publica por la API solo lo que cambió en el push, marca para traducción las páginas fuente cambiadas, espera a que se vacíe la cola, importa las traducciones y commitea al repo los marcadores `<!--T:n-->` nuevos que asignó la wiki. |
+| `content/` (páginas, imágenes, traducciones), y cada hora | `.github/workflows/content.yml` | 1) `tools/pull_wiki.py` trae al repo lo editado en la wiki desde el último sync y lo commitea ("chore: edits from the wiki", con los usuarios). 2) `tools/sync_content.py` publica lo que cambió en el repo, marca para traducción las páginas fuente cambiadas, espera a que se vacíe la cola, importa las traducciones y commitea los marcadores `<!--T:n-->` nuevos. 3) Mueve el tag `wiki-synced` al estado sincronizado. |
+
+**Cómo decide qué gana.** El tag `wiki-synced` apunta al contenido que coincidía con la wiki en el último sync que terminó bien (su mensaje es la hora de ese sync). Con eso cada página, imagen o unidad traducida tiene tres versiones: la del último sync, la del repo y la de la wiki.
+
+- Si solo cambió el repo, se publica.
+- Si solo cambió la wiki, se trae al repo.
+- Si cambiaron las dos, **gana la wiki**: su versión queda en el repo, la del repo sigue en el historial de git y el workflow lo avisa en Actions para unirlas a mano.
+- Lo borrado en la wiki se borra del repo, salvo que el repo lo haya cambiado; en ese caso se conserva y se vuelve a publicar.
+
+`pull_wiki.py` solo mira las ediciones del registro de cambios recientes hechas por personas (ignora a FuzzyBot y los resúmenes de los scripts de sync). Además, al publicar, `push_pages.py` y `translations.py import` reciben `--base-ref` y nunca pisan lo que cambió en la wiki después de ese punto. Esto cubre una edición hecha mientras el sync corre. Un sync cancelado o fallido no mueve el tag, así que el siguiente se pone al día solo.
 
 Para el workflow de contenido hacen falta dos *secrets* del repo (`Settings → Secrets and variables → Actions`): `MW_BOT_USER` y `MW_BOT_PASSWORD`, una BotPassword con los grants de la sección de instalación (con la forma `<usuario>@sync`). Cualquiera con permisos de administrador en la wiki puede crearla desde `Special:BotPasswords` sin entrar a la VPS. `Actions → Sync content → Run workflow` permite relanzarlo a mano, en modo *dry run* (solo lista) o *full*: compara todo el repo con la wiki y publica solo lo que falta o difiere (páginas, archivos y unidades traducidas), y marca para traducción solo las páginas que cambiaron o que la wiki no tiene marcadas. Sirve para ponerse al día si un sync no corrió o falló.
 
@@ -140,9 +149,10 @@ Para que el deploy sea automático, el secret `DOKPLOY_WEBHOOK_URL` lleva la *We
 Lo mismo a mano desde una PC, con las variables de entorno de la BotPassword:
 
 ```bash
-python tools/sync_content.py --base <commit anterior> --dry-run
-python tools/sync_content.py --base <commit anterior>
-python tools/sync_content.py --full
+git fetch --tags
+python tools/pull_wiki.py --base wiki-synced --since <hora del último sync>
+python tools/sync_content.py --base wiki-synced --base-ref wiki-synced --dry-run
+python tools/sync_content.py --base wiki-synced --base-ref wiki-synced
 ```
 
 Notas: borrar o renombrar un archivo del repo no borra la página en la wiki (se hace a mano). Si Cloudflare tiene *Bot Fight Mode*, puede bloquear las llamadas desde GitHub a `/api.php`: en ese caso, una regla WAF que haga *skip* para esa ruta. Una carga grande de traducciones (la primera, por ejemplo) se puede hacer con *full* y el jobrunner encendido; al terminar conviene reemplazar los renders repetidos que deja en la cola (ver [CONTENT.md](CONTENT.md#traducciones)).

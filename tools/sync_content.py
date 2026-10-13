@@ -87,6 +87,7 @@ def main() -> int:
     parser.add_argument('--job-limit', type=int, default=10, help='queue size considered drained before importing translations')
     parser.add_argument('--job-timeout', type=int, default=1200, help='seconds to wait for the queue')
     parser.add_argument('--dry-run', action='store_true', help='only print what would be published')
+    parser.add_argument('--base-ref', default='', help='commit that matched the wiki at the last sync; what was edited on the wiki since then is not overwritten')
     args = parser.parse_args()
 
     paths = None if args.full else changed_paths(args.base)
@@ -106,11 +107,12 @@ def main() -> int:
         print('import: ' + ', '.join(sorted({page_title(p) for p in pages if translatable(p)} | set(translated))))
         return 0
     api = ['--api', args.api]
+    guard = [f'--base-ref={args.base_ref}'] if args.base_ref else []
 
     if full:
         with tempfile.TemporaryDirectory() as tmp:
             report = pathlib.Path(tmp) / 'changed.txt'
-            run('push_pages.py', *api, f'--changed-list={report}', *(['--dry-run'] if args.dry_run else []))
+            run('push_pages.py', *api, *guard, f'--changed-list={report}', *(['--dry-run'] if args.dry_run else []))
             edited = set(report.read_text(encoding='utf-8').splitlines()) if report.exists() else set()
         marked = marked_pages(args.api)
         to_mark = sorted(title for title in (page_title(p) for p in PAGES.rglob('*.wiki') if translatable(p))
@@ -122,7 +124,7 @@ def main() -> int:
     else:
         only = [f'--only={page_title(p)}' for p in pages] + [f'--only=File:{p.name}' for p in files]
         for batch in chunks(only, 200):
-            run('push_pages.py', *api, *batch)
+            run('push_pages.py', *api, *guard, *batch)
         to_mark = sorted(page_title(p) for p in pages if translatable(p))
 
     for batch in chunks(to_mark):
@@ -130,10 +132,10 @@ def main() -> int:
 
     def import_translations(titles):
         if titles is None:
-            run('translations.py', 'import', '--every-page', *api)
+            run('translations.py', 'import', '--every-page', *api, *guard)
             return
         for batch in chunks(titles):
-            run('translations.py', 'import', *batch, *api)
+            run('translations.py', 'import', *batch, *api, *guard)
 
     to_import = None if full else sorted(set(to_mark) | set(translated))
     if full or to_import:
