@@ -16,11 +16,25 @@ class Services {
 		return MediaWikiServices::getInstance()->getMainConfig();
 	}
 
+	private const REQUIRED = [
+		'DMZClerkPublishableKey' => 'PUBLIC_CLERK_PUBLISHABLE_KEY',
+		'DMZClerkSecretKey' => 'CLERK_SECRET_KEY',
+		'DMZDiscordGuildId' => 'DISCORD_GUILD_ID',
+		'DMZDiscordBotToken' => 'DISCORD_TOKEN',
+	];
+
+	public static function missingSettings( Config $config ): array {
+		$missing = [];
+		foreach ( self::REQUIRED as $setting => $variable ) {
+			if ( trim( (string)$config->get( $setting ) ) === '' ) {
+				$missing[] = $variable;
+			}
+		}
+		return $missing;
+	}
+
 	public static function isConfigured( Config $config ): bool {
-		return $config->get( 'DMZClerkPublishableKey' ) !== ''
-			&& $config->get( 'DMZClerkSecretKey' ) !== ''
-			&& $config->get( 'DMZDiscordGuildId' ) !== ''
-			&& $config->get( 'DMZDiscordBotToken' ) !== '';
+		return !self::missingSettings( $config );
 	}
 
 	/**

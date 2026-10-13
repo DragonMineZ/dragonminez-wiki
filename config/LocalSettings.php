@@ -192,11 +192,12 @@ wfLoadExtensions( [
 	'DMZAuth',
 ] );
 
-$wgDMZClerkPublishableKey = $dmzEnv( 'DMZ_CLERK_PUBLISHABLE_KEY', '' );
-$wgDMZClerkFrontendApi = $dmzEnv( 'DMZ_CLERK_FRONTEND_API', 'https://clerk.dragonminez.com' );
-$wgDMZClerkSecretKey = ( $dmzClerkSecretKey ?? '' ) ?: $dmzEnv( 'DMZ_CLERK_SECRET_KEY', '' );
-$wgDMZDiscordGuildId = $dmzEnv( 'DMZ_DISCORD_GUILD_ID', '' );
-$wgDMZDiscordBotToken = ( $dmzDiscordBotToken ?? '' ) ?: $dmzEnv( 'DMZ_DISCORD_BOT_TOKEN', '' );
+$wgDMZClerkPublishableKey = trim( (string)$dmzEnv( 'PUBLIC_CLERK_PUBLISHABLE_KEY', '' ) );
+$dmzClerkHost = rtrim( (string)base64_decode( (string)preg_replace( '/^pk_(live|test)_/', '', $wgDMZClerkPublishableKey ), true ), '$' );
+$wgDMZClerkFrontendApi = preg_match( '/^[a-z0-9.-]+\.[a-z]{2,}$/i', $dmzClerkHost ) ? "https://$dmzClerkHost" : 'https://clerk.dragonminez.com';
+$wgDMZClerkSecretKey = trim( (string)( ( $dmzClerkSecretKey ?? '' ) ?: $dmzEnv( 'CLERK_SECRET_KEY', '' ) ) );
+$wgDMZDiscordGuildId = trim( (string)$dmzEnv( 'DISCORD_GUILD_ID', '1216429657273012415' ) );
+$wgDMZDiscordBotToken = trim( (string)( ( $dmzDiscordBotToken ?? '' ) ?: $dmzEnv( 'DISCORD_TOKEN', '' ) ) );
 $wgDMZAuthPasswordLogin = $dmzFlag( 'MW_PASSWORD_LOGIN' );
 
 $wgPFEnableStringFunctions = true;

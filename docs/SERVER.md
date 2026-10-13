@@ -92,11 +92,11 @@ Confirma memoria, disco, Docker, puertos ocupados y cómo está configurado el p
 
 ## Acceso con Discord (Clerk)
 
-1. Variables de entorno (en Dokploy, pestaña *Environment* de la app; sin Dokploy, en `.env`):
-   - `DMZ_CLERK_PUBLISHABLE_KEY`: la `pk_live_…` de la instancia de producción de dragonminez.com (Clerk → *API Keys*; es pública).
-   - `DMZ_DISCORD_GUILD_ID`: ID del servidor de Discord (modo desarrollador → clic derecho en el servidor → *Copiar ID del servidor*).
-   - `DMZ_CLERK_SECRET_KEY`: la `sk_live_…` de la misma pantalla de Clerk.
-   - `DMZ_DISCORD_BOT_TOKEN`: el token de un bot que ya esté en el servidor: solo lee miembros y roles por la API REST, no necesita intents privilegiados.
+1. Variables de entorno (en Dokploy, pestaña *Environment* de la app; sin Dokploy, en `.env`). Tienen los mismos nombres y valores que en dragonminez-web y dragonminez-ai:
+   - `PUBLIC_CLERK_PUBLISHABLE_KEY`: la `pk_live_…` de la instancia de producción de dragonminez.com (Clerk → *API Keys*; es pública). De ella sale también la dirección del Frontend API de Clerk.
+   - `CLERK_SECRET_KEY`: la `sk_live_…` de la misma pantalla de Clerk.
+   - `DISCORD_TOKEN`: el token del bot de dragonminez-ai, que ya está en el servidor: solo lee miembros y roles por la API REST, no necesita intents privilegiados.
+   - `DISCORD_GUILD_ID` (opcional): por defecto, el servidor oficial de DragonMineZ.
 
    Los dos secretos también pueden ir en `data/secrets/secrets.php` (`$dmzClerkSecretKey`, `$dmzDiscordBotToken`); si están en los dos lados, gana el archivo. Nunca en el repo.
 2. Redesplegar. El contenedor `jobrunner` corre `update --quick` al arrancar, que crea la tabla `dmz_discord_link` (sin Dokploy: `sudo bash scripts/update.sh`).
@@ -134,6 +134,8 @@ La base de datos de la VPS nunca se migra desde una PC: el repo es la fuente de 
 | `content/` (páginas, imágenes, traducciones) | `.github/workflows/content.yml` | `tools/sync_content.py`: publica por la API solo lo que cambió en el push, marca para traducción las páginas fuente cambiadas, espera a que se vacíe la cola, importa las traducciones y commitea al repo los marcadores `<!--T:n-->` nuevos que asignó la wiki. |
 
 Para el workflow de contenido hacen falta dos *secrets* del repo (`Settings → Secrets and variables → Actions`): `MW_BOT_USER` y `MW_BOT_PASSWORD`, una BotPassword con los grants de la sección de instalación (con la forma `<usuario>@sync`). Cualquiera con permisos de administrador en la wiki puede crearla desde `Special:BotPasswords` sin entrar a la VPS. `Actions → Sync content → Run workflow` permite relanzarlo a mano, en modo *dry run* (solo lista) o *full*: compara todo el repo con la wiki y publica solo lo que falta o difiere (páginas, archivos y unidades traducidas), y marca para traducción solo las páginas que cambiaron o que la wiki no tiene marcadas. Sirve para ponerse al día si un sync no corrió o falló.
+
+Para que el deploy sea automático, el secret `DOKPLOY_WEBHOOK_URL` lleva la *Webhook URL* de la app de la wiki en Dokploy (pestaña *Deployments*), con *Autodeploy* activado en la app. El workflow le reenvía el evento de push de GitHub (así Dokploy reconoce la rama `main`) recién cuando la imagen nueva ya está en GHCR, y falla en rojo si Dokploy no acepta el deploy.
 
 Lo mismo a mano desde una PC, con las variables de entorno de la BotPassword:
 

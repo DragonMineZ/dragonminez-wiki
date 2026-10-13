@@ -49,6 +49,7 @@ class Hooks implements
 		$out->addModules( 'ext.dmzAuth' );
 		$out->addJsConfigVars( 'wgDMZAuth', [
 			'configured' => Services::isConfigured( $this->config ),
+			'missing' => Services::missingSettings( $this->config ),
 			'publishableKey' => (string)$this->config->get( 'DMZClerkPublishableKey' ),
 			'frontendApi' => rtrim( (string)$this->config->get( 'DMZClerkFrontendApi' ), '/' ),
 			'passwordLogin' => (bool)$this->config->get( 'DMZAuthPasswordLogin' ),
