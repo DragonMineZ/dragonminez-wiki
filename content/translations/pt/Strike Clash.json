@@ -1,0 +1,92 @@
+{
+ "Page_display_title": {
+  "source": "Strike Clash",
+  "translation": "Choque de golpes",
+  "outdated": false
+ },
+ "1": {
+  "source": "A '''strike clash''' happens when two fighters rush at each other with [[Special:MyLanguage/Strike Attacks|strike attacks]]. Their fists meet, both are locked in place trading blows, and the same timing meter as a [[Special:MyLanguage/Beam Clash|beam clash]] decides who breaks through. The winner lands a heavy blow and gets the technique back at once; the loser is thrown back and left exhausted.",
+  "translation": "Um '''choque de golpes''' acontece quando dois lutadores avançam um contra o outro com [[Special:MyLanguage/Strike Attacks|ataques de golpe]]. Os punhos se encontram, os dois ficam presos no lugar trocando golpes, e o mesmo medidor de tempo de um [[Special:MyLanguage/Beam Clash|choque de energia]] decide quem passa. O vencedor acerta um golpe pesado e recupera a técnica na hora; o perdedor é arremessado para trás e fica exausto.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Starting a clash ==",
+  "translation": "== Iniciando um choque ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "A clash starts when two fighters are both '''rushing''' with a strike attack, are heading at each other and come within about '''4.5 blocks''' of each other. A strike attack rushes when no enemy is already in reach in front of you (see [[Special:MyLanguage/Strike Attacks#How strike attacks work|Strike Attacks]]).",
+  "translation": "Um choque começa quando dois lutadores estão '''avançando''' ao mesmo tempo com um ataque de golpe, indo um na direção do outro, e ficam a menos de cerca de '''4.5 blocos''' um do outro. Um ataque de golpe avança quando nenhum inimigo já está ao alcance à sua frente (veja [[Special:MyLanguage/Strike Attacks#How strike attacks work|Ataques de Golpe]]).",
+  "outdated": false
+ },
+ "4": {
+  "source": "If you use a strike attack on an enemy that is already rushing at you, you don't appear in front of it as usual: you rush back at it, so the two of you clash.",
+  "translation": "Se você usar um ataque de golpe contra um inimigo que já está avançando contra você, você não aparece na frente dele como de costume: você avança de volta contra ele, e os dois se chocam.",
+  "outdated": false
+ },
+ "5": {
+  "source": "* Only strike attacks that rush can clash. The Dragon Fist, Deadly Dance, Deadly Dance (Vegetto), Super God Fist, Wolf Fang, Gum Punch, Blue Hurricane, Oozaru Slam, Dimensional Fist and Dimensional Slash never do.\n* Allies never clash with each other: anyone your attacks treat as friendly, such as party members while party PvP is off (see [[Special:MyLanguage/Combat#Who you can hit|Combat]]).\n* A fighter at least twice as tall as the other doesn't clash: the smaller fighter's rush is simply stopped, as if it had missed.\n* Story enemies that rush with strike techniques can clash with you too (see [[Special:MyLanguage/Sagas#Enemy AI tiers|Sagas]]).",
+  "translation": "* Só os ataques de golpe que avançam podem se chocar. Punho do Dragão, Dança Mortal, Dança Mortal (Vegetto), Super Punho Divino, Presa de Lobo, Soco de Goma, Furacão Azul, Esmagamento Oozaru, Punho Dimensional e Corte Dimensional nunca se chocam.\n* Aliados nunca se chocam entre si: qualquer um que os seus ataques tratem como amigo, como membros do grupo enquanto o PvP de grupo está desligado (veja [[Special:MyLanguage/Combat#Who you can hit|Combate]]).\n* Um lutador com pelo menos o dobro da altura do outro não se choca: o avanço do lutador menor simplesmente para, como se tivesse errado.\n* Inimigos da história que avançam com técnicas de golpe também podem se chocar com você (veja [[Special:MyLanguage/Sagas#Enemy AI tiers|Sagas]]).",
+  "outdated": false
+ },
+ "6": {
+  "source": "While the clash lasts, both fighters are held in place facing each other and are '''invulnerable'''.",
+  "translation": "Enquanto o choque dura, os dois lutadores ficam parados, um de frente para o outro, e são '''invulneráveis'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== The timing meter ==",
+  "translation": "== O medidor de tempo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "A strike clash uses the same meter as a beam clash: a marker sweeps across it and you '''right-click''' when it is inside the window. A press near the centre is '''PERFECT''', anywhere else in the window is '''GOOD''', and a press outside it is a '''MISS'''. You can press even though you can't otherwise move or act during the clash. See [[Special:MyLanguage/Beam Clash#The timing meter|Beam Clash]] for the details.",
+  "translation": "Um choque de golpes usa o mesmo medidor de um choque de energia: um marcador percorre o medidor e você dá '''clique direito''' quando ele está dentro da janela. Um clique perto do centro é '''PERFECT''', qualquer outro dentro da janela é '''GOOD''', e um clique fora dela é um '''MISS'''. Você pode clicar mesmo sem poder se mover ou agir de outra forma durante o choque. Veja [[Special:MyLanguage/Beam Clash#The timing meter|Choque de energia]] para os detalhes.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Pushing through ==",
+  "translation": "== Empurrando o choque ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Every PERFECT or GOOD press builds momentum that pushes the clash towards your opponent, and momentum fades over time, so you have to keep hitting the window.",
+  "translation": "Cada clique PERFECT ou GOOD acumula impulso que empurra o choque na direção do oponente, e o impulso diminui com o tempo, então você precisa continuar acertando a janela.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Your power decides how hard each press pushes: your melee damage (from Strength) plus your Strike Damage (SKP). Enemies push with their melee damage, boosted by 50%. They press on their own, and the stronger they are, the more accurate their timing gets. A weaker fighter can still win with better timing.",
+  "translation": "O seu poder define a força com que cada clique empurra: o seu dano corpo a corpo (da Força) mais o seu Dano de golpes (SKP). Os inimigos empurram com o dano corpo a corpo deles, aumentado em 50%. Eles clicam sozinhos, e quanto mais fortes são, mais preciso é o tempo deles. Um lutador mais fraco ainda pode vencer com um tempo melhor.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Winning and losing ==",
+  "translation": "== Vencer e perder ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "The fighter who pushes far enough '''wins''':",
+  "translation": "O lutador que empurra o suficiente '''vence''':",
+  "outdated": false
+ },
+ "14": {
+  "source": "* The loser takes a heavy blow (for a player winner, half the damage of their strike technique), is knocked far back, takes extra impact damage if it slams into the ground or a wall, and is then '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).\n* The winner's technique and the shared strike cooldown are reset, so the winner can strike again right away. The loser's technique goes on its full cooldown.",
+  "translation": "* O perdedor leva um golpe pesado (se quem vence é um jogador, metade do dano da técnica de golpe dele), é arremessado para longe, leva dano de impacto extra se bater no chão ou em uma parede e depois fica '''exausto''': atordoado por 3.5 segundos (veja [[Special:MyLanguage/Effects|Efeitos]]).\n* A técnica do vencedor e a recarga compartilhada dos golpes são reiniciadas, então o vencedor pode golpear de novo na hora. A técnica do perdedor entra em recarga completa.",
+  "outdated": false
+ },
+ "15": {
+  "source": "A clash can also end in other ways:",
+  "translation": "Um choque também pode terminar de outras formas:",
+  "outdated": false
+ },
+ "16": {
+  "source": "* If neither fighter presses for 5 seconds, the clash ends in a '''draw''': both fighters are pushed apart and their techniques go on half cooldown.\n* After 12 seconds, whoever is ahead wins. If the clash is exactly even, it's a draw.\n* If either fighter dies or leaves, the clash ends with no winner and both techniques go on half cooldown.",
+  "translation": "* Se nenhum dos lutadores clicar por 5 segundos, o choque termina em '''empate''': os dois lutadores são separados e as técnicas entram em meia recarga.\n* Depois de 12 segundos, vence quem estiver na frente. Se o choque estiver exatamente empatado, é empate.\n* Se algum dos lutadores morrer ou sair, o choque termina sem vencedor e as duas técnicas entram em meia recarga.",
+  "outdated": false
+ },
+ "17": {
+  "source": "The Ki spent on the strike attack is not refunded, whatever the result.",
+  "translation": "O Ki gasto no ataque de golpe não é devolvido, seja qual for o resultado.",
+  "outdated": false
+ }
+}

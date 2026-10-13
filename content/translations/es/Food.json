@@ -1,0 +1,102 @@
+{
+ "Page_display_title": {
+  "source": "Food",
+  "translation": "Comida",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds its own meats and fish, hunted from the wildlife of [[Special:MyLanguage/Earth|Earth]] and [[Special:MyLanguage/Namek|Namek]]. More importantly, '''eating any food''', vanilla, DMZ or from another mod, also restores a share of your '''health, ki and stamina'''.",
+  "translation": "DragonMineZ añade sus propias carnes y pescados, que se cazan de la fauna de la [[Special:MyLanguage/Earth|Tierra]] y de [[Special:MyLanguage/Namek|Namek]]. Y lo más importante: '''comer cualquier comida''', ya sea vanilla, de DMZ o de otro mod, también restaura una parte de tu '''vida, ki y stamina'''.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Food restores health, ki and stamina ==",
+  "translation": "== La comida restaura vida, ki y stamina ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "When you eat, the hunger and saturation the food restores also give back a slice of your resources. With the default settings, each hunger point restores:",
+  "translation": "Cuando comes, el hambre y la saturación que restaura la comida también te devuelven una parte de tus recursos. Con la configuración por defecto, cada punto de hambre restaura:",
+  "outdated": false
+ },
+ "4": {
+  "source": "* '''1%''' of your max health;\n* '''1%''' of your max ki;\n* '''2%''' of your max stamina.",
+  "translation": "* el '''1%''' de tu vida máxima;\n* el '''1%''' de tu ki máximo;\n* el '''2%''' de tu stamina máxima.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Saturation adds a little more on top. Foods that restore fewer than 2 hunger points give no hunger-based recovery, and anything above 20 counts as 20. Server owners can exclude specific foods or whole mods.",
+  "translation": "La saturación suma un poco más. Las comidas que restauran menos de 2 puntos de hambre no dan recuperación basada en el hambre, y cualquier valor por encima de 20 cuenta como 20. Los dueños de servidores pueden excluir comidas concretas o mods enteros.",
+  "outdated": false
+ },
+ "6": {
+  "source": "[[Special:MyLanguage/Majin|Majins]] heal 25% more from food thanks to their '''Sweet Tooth''' passive.",
+  "translation": "Los [[Special:MyLanguage/Majin|Majin]] se curan un 25% más con la comida gracias a su pasiva '''Goloso'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== DMZ foods ==",
+  "translation": "== Comidas de DMZ ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Raw meat can be cooked in a furnace, a smoker or on a campfire. Animals that die while on fire drop it already cooked.",
+  "translation": "La carne cruda se puede cocinar en un horno, un ahumador o una fogata. Los animales que mueren mientras arden la sueltan ya cocinada.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Food",
+  "translation": "Comida",
+  "outdated": false
+ },
+ "10": {
+  "source": "Hunger points (raw / cooked)",
+  "translation": "Puntos de hambre (cruda / cocinada)",
+  "outdated": false
+ },
+ "11": {
+  "source": "Dropped by",
+  "translation": "La sueltan",
+  "outdated": false
+ },
+ "12": {
+  "source": "Dino Meat",
+  "translation": "Carne de Dinosaurio",
+  "outdated": false
+ },
+ "13": {
+  "source": "Baby Dino Meat",
+  "translation": "Carne de Dinosaurio Bebé",
+  "outdated": false
+ },
+ "14": {
+  "source": "Baby dinosaurs (see [[Special:MyLanguage/Dinosaurs|Dinosaurs]])",
+  "translation": "Dinosaurios bebé (consulta [[Special:MyLanguage/Dinosaurs|Dinosaurios]])",
+  "outdated": false
+ },
+ "15": {
+  "source": "Dino Tail",
+  "translation": "Cola de Dinosaurio",
+  "outdated": false
+ },
+ "16": {
+  "source": "Frog Legs",
+  "translation": "Ancas de Rana",
+  "outdated": false
+ },
+ "17": {
+  "source": "Giant Fish",
+  "translation": "Pez gigante",
+  "outdated": false
+ },
+ "18": {
+  "source": "Giant Turtle",
+  "translation": "Tortuga gigante",
+  "outdated": false
+ },
+ "19": {
+  "source": "Namekian Traders also sell Raw Frog Legs (see [[Special:MyLanguage/Namekian Trader|Namekian Trader]]).",
+  "translation": "Los Comerciantes Namekianos también venden Ancas de Rana Crudas (consulta [[Special:MyLanguage/Namekian Trader|Comerciante Namekiano]]).",
+  "outdated": false
+ }
+}

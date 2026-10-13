@@ -1,10 +1,12 @@
 <translate>
+<!--T:1-->
 Every race in DragonMineZ has '''transformations''', organized into '''form groups'''. A transformation multiplies your stats but usually drains a resource (Ki, stamina or health) while it is active, and you build '''mastery''' in a form by using it. You unlock forms one after another with Training Points, mastery and progress in the story, and every race can add a '''stack form''' such as [[Special:MyLanguage/Kaioken|Kaioken]] on top. This page explains the rules shared by every race; each race page lists its own forms.
 </translate>
 
 <translate>
-== How forms work ==
+== How forms work == <!--T:2-->
 
+<!--T:3-->
 * Every form belongs to a '''group''': a race's Super forms, its Legendary forms, the Saiyan SS Grades and so on.
 * Groups are unlocked by '''form skills''': '''Super Forms''' for the race's main lines, '''Legendary Forms''' for its Legendary line and '''Android Forms''' for Androids. You raise a form skill one level at a time with Training Points (TP) in the '''Skills''' menu, and each level unlocks the forms that need it.
 * To unlock the '''next''' form in a group you need '''all''' of:
@@ -15,13 +17,14 @@ Every race in DragonMineZ has '''transformations''', organized into '''form grou
 * Locked forms show what they are waiting for in the Skills menu, for example ''"Locked until: Frieza Saga - Quest 10"''.
 * By default the multipliers of your form, your stack form and your effects '''add up''' instead of multiplying each other.
 </translate>
-{{Note|type=tip|title=<translate>Earning TP and mastery</translate>|<translate>Every way to earn Training Points and mastery is listed on [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].</translate>}}
+{{Note|type=tip|title=<translate><!--T:4--> Earning TP and mastery</translate>|<translate><!--T:5--> Every way to earn Training Points and mastery is listed on [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].</translate>}}
 
 <translate>
-== Transforming ==
+== Transforming == <!--T:6-->
 </translate>
 {{See also|Controls|Menus}}
 <translate>
+<!--T:7-->
 * Hold '''X''' to open the utility menu. The '''Super Forms''' slice holds your Super, Legendary and Android form groups, and '''Extra Forms''' holds every other form group of your race. Click a form to select it as your next transformation.
 * Hold '''G''' (the action key) to charge the selected form.
 * '''Double-tap G''', double-click the form in the menu or press the '''Instant Transform''' key (unbound by default) to transform instantly. Instant transformation is a mastery perk: it unlocks at '''40%''' mastery and costs 4 times the form's drain in Ki.
@@ -29,44 +32,49 @@ Every race in DragonMineZ has '''transformations''', organized into '''form grou
 </translate>
 
 <translate>
-== Story requisites ==
+== Story requisites == <!--T:8-->
 </translate>
 {{See also|Sagas}}
 <translate>
+<!--T:9-->
 Most race transformations are tied to your progress in the story mode: you can't buy them until you have completed the listed quest.
 </translate>
 {| class="wikitable"
-! <translate>Complete this quest</translate> !! <translate>To unlock</translate>
+! <translate><!--T:10--> Complete this quest</translate> !! <translate><!--T:11--> To unlock</translate>
 |-
-| {{L|Classic Saga}}, <translate>quest 46 ''Training at the Lookout''</translate> || <translate>Human '''Buffed''' · Saiyan '''Super Saiyan''' · Namekian '''Giant''' · Frost Demon '''Second Form''' · Majin '''Kid Majin''' · Bio-Android '''Semi-Perfect''' · Glind '''Buffed'''</translate>
+| {{L|Classic Saga}}, <translate><!--T:12--> quest 46 ''Training at the Lookout''</translate> || <translate><!--T:13--> Human '''Buffed''' · Saiyan '''Super Saiyan''' · Namekian '''Giant''' · Frost Demon '''Second Form''' · Majin '''Kid Majin''' · Bio-Android '''Semi-Perfect''' · Glind '''Buffed'''</translate>
 |-
-| {{L|Saiyan Saga}}, <translate>quest 12 ''Defeat Oozaru Vegeta''</translate> || <translate>Human '''Full Power''' · Saiyan '''SSJ Grade 2''' · Frost Demon '''Third Form''' · Glind '''Out of Control'''</translate>
+| {{L|Saiyan Saga}}, <translate><!--T:14--> quest 12 ''Defeat Oozaru Vegeta''</translate> || <translate><!--T:15--> Human '''Full Power''' · Saiyan '''SSJ Grade 2''' · Frost Demon '''Third Form''' · Glind '''Out of Control'''</translate>
 |-
-| {{L|Frieza Saga}}, <translate>quest 5 ''Zarbon's True Form''</translate> || <translate>Saiyan '''SSJ Grade 3''' · Majin '''Evil Majin''' · Bio-Android '''Perfect'''</translate>
+| {{L|Frieza Saga}}, <translate><!--T:16--> quest 5 ''Zarbon's True Form''</translate> || <translate><!--T:17--> Saiyan '''SSJ Grade 3''' · Majin '''Evil Majin''' · Bio-Android '''Perfect'''</translate>
 |-
-| {{L|Frieza Saga}}, <translate>quest 10 ''Captain Ginyu''</translate> || <translate>Human '''Overdrive''' · Android '''Super Android''' · Namekian '''Full Power''' · Frost Demon '''Final Form''' · Glind '''Super'''</translate>
+| {{L|Frieza Saga}}, <translate><!--T:18--> quest 10 ''Captain Ginyu''</translate> || <translate><!--T:19--> Human '''Overdrive''' · Android '''Super Android''' · Namekian '''Full Power''' · Frost Demon '''Final Form''' · Glind '''Super'''</translate>
 |-
-| {{L|Android Saga}}, <translate>quest 4 ''Three Years of Preparation''</translate> || <translate>Saiyan '''SSJ Mastered'''</translate>
+| {{L|Android Saga}}, <translate><!--T:20--> quest 4 ''Three Years of Preparation''</translate> || <translate><!--T:21--> Saiyan '''SSJ Mastered'''</translate>
 |-
-| {{L|Android Saga}}, <translate>quest 15 ''Super Perfect Cell''</translate> || <translate>Saiyan '''SSJ 2'''</translate>
+| {{L|Android Saga}}, <translate><!--T:22--> quest 15 ''Super Perfect Cell''</translate> || <translate><!--T:23--> Saiyan '''SSJ 2'''</translate>
 |-
-| {{L|Buu Saga}}, <translate>quest 1 ''Train with Goten and Gohan''</translate> || <translate>Saiyan '''SSJ 3''' and '''Golden Oozaru''' · Android '''Fused Android''' · Frost Demon '''Full Power''' · Majin '''Super Majin''' · Bio-Android '''Super Perfect''' · Glind '''Absorption'''</translate>
+| {{L|Buu Saga}}, <translate><!--T:24--> quest 1 ''Train with Goten and Gohan''</translate> || <translate><!--T:25--> Saiyan '''SSJ 3''' and '''Golden Oozaru''' · Android '''Fused Android''' · Frost Demon '''Full Power''' · Majin '''Super Majin''' · Bio-Android '''Super Perfect''' · Glind '''Absorption'''</translate>
 |-
-| {{L|Buu Saga}}, <translate>quest 35 ''Return to Earth''</translate> || <translate>Human '''Solaris''' · Saiyan '''SSJ 4 [GT]''' and '''SSJ 4 [D]''' · Namekian '''Super Namekian''' · Frost Demon '''Fifth Form''' · Majin '''Ultra Majin''' · Bio-Android '''Ultra Perfect''' · Glind '''True Form'''</translate>
+| {{L|Buu Saga}}, <translate><!--T:26--> quest 35 ''Return to Earth''</translate> || <translate><!--T:27--> Human '''Solaris''' · Saiyan '''SSJ 4 [GT]''' and '''SSJ 4 [D]''' · Namekian '''Super Namekian''' · Frost Demon '''Fifth Form''' · Majin '''Ultra Majin''' · Bio-Android '''Ultra Perfect''' · Glind '''True Form'''</translate>
 |}
 
 <translate>
+<!--T:28-->
 The quest number is the one shown in the lock message; quests added later in a saga keep their own number. The last form of each race (the Buu Saga quest 35 row) is its '''top tier''': it is the strongest form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.
 
+<!--T:29-->
 Oozaru, the Legendary lines and the stack forms (Kaioken, Ultimate) have no story requisite.
 </translate>
 
 <translate>
-== Energy consumption while transformed ==
+== Energy consumption while transformed == <!--T:30-->
 </translate>
 <translate>
+<!--T:31-->
 The Ki drain values on the race pages are '''base''' values. What you actually pay each tick is scaled by several things, so the real cost is usually '''higher''' than the listed figure, and it grows with your own power:
 
+<!--T:32-->
 * '''Which resource.''' Most forms drain '''Ki''' (energy); a few drain '''stamina''' or '''health''' instead ([[Special:MyLanguage/Kaioken|Kaioken]] drains health). A '''negative''' value counts as zero: the form costs nothing to hold (the Frost Demon Metal forms).
 * '''Power Release.''' The drain scales directly with your current Power Release (the percentage you charge with '''C'''). Fighting at 100% release costs the most; powering down lowers the upkeep.
 * '''Your offensive power.''' Once your base STR, SKP and PWR (your stats, class scalings and Power Release, '''not''' the form's own multipliers) pass '''5 times your max Ki''', the form costs proportionally more to hold. Forms that drain stamina or health compare against 1.5 times that pool instead. A stronger form doesn't cost more just for being stronger: its own drain value sets the price. A percentage of your '''max Ki''' is also added on top, so bigger pools pay bigger upkeep.
@@ -74,88 +82,100 @@ The Ki drain values on the race pages are '''base''' values. What you actually p
 * '''Stacking.''' Layering a stack form multiplies the drain of '''both''' your form and the stack form (×2 with the default forms), which is why stacked transformations burn resources fast.
 * '''Server baseline.''' A global form drain setting and the load of equipped [[Special:MyLanguage/Weights|weights]] scale everything further.
 
-=== Running out ===
+=== Running out === <!--T:33-->
 
+<!--T:34-->
 Each tick the game checks that you can afford the drain. If you can't pay the Ki (or stamina or health), the form and any stack form are '''forcibly deactivated''' and you revert to base with a ''"drained"'' message. Frost Demons past their Final Form drop to Final Form instead. A form you can't sustain keeps collapsing until you raise its mastery, power down or grow your Ki pool.
 </translate>
-{{Note|type=tip|title=<translate>Staying transformed</translate>|<translate>Mastery and a large Ki pool (Energy) are what let you stay transformed. Grinding a form's mastery both raises its stat bonus and cuts its upkeep, and investing in Energy raises the pool the drain is measured against.</translate>}}
+{{Note|type=tip|title=<translate><!--T:35--> Staying transformed</translate>|<translate><!--T:36--> Mastery and a large Ki pool (Energy) are what let you stay transformed. Grinding a form's mastery both raises its stat bonus and cuts its upkeep, and investing in Energy raises the pool the drain is measured against.</translate>}}
 
 <translate>
-== Descending ==
+== Descending == <!--T:37-->
 
+<!--T:38-->
 The '''Descend''' key ('''Alt + G''') drops you '''one form''' down the group you are in; a stack form is removed first. With a racial skill selected, Alt + G triggers the racial skill's secondary action instead. Descending from the radial ('''X''') menu does the same, but ignores the Frost Demon evolution floor. With no form active, Descend releases your power back to 0%.
 
+<!--T:39-->
 You can't descend out of the Saiyan [[Special:MyLanguage/Saiyan#False Super Saiyan|False Super Saiyan]] and [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]] forms.
 </translate>
 
 <translate>
-== Mastery ==
+== Mastery == <!--T:40-->
 </translate>
 {{Main|Training Points and Mastery}}
 <translate>
+<!--T:41-->
 '''Mastery''' (0 to 100% per form) measures how well you control a transformation. As it climbs it unlocks these perks:
 </translate>
 {| class="wikitable"
-! <translate>Mastery</translate> !! <translate>Unlocks</translate>
+! <translate><!--T:42--> Mastery</translate> !! <translate><!--T:43--> Unlocks</translate>
 |-
-| 25% || <translate>Lets you unlock the '''next form''' in the group, and lets you '''stack''' a stack form (such as Kaioken) on this form.</translate>
+| 25% || <translate><!--T:44--> Lets you unlock the '''next form''' in the group, and lets you '''stack''' a stack form (such as Kaioken) on this form.</translate>
 |-
-| 40% || <translate>'''Instant transformation''': skip the charge-up by paying 4 times the form's drain in Ki.</translate>
+| 40% || <translate><!--T:45--> '''Instant transformation''': skip the charge-up by paying 4 times the form's drain in Ki.</translate>
 |-
-| 50% || <translate>'''Transform straight into it''' from base or from another group, without climbing the ladder. The first form of each group never needs this.</translate>
+| 50% || <translate><!--T:46--> '''Transform straight into it''' from base or from another group, without climbing the ladder. The first form of each group never needs this.</translate>
 |-
-| 100% || <translate>Full mastery: up to '''×1.5''' stats and drain reduced to '''×0.75'''.</translate>
+| 100% || <translate><!--T:47--> Full mastery: up to '''×1.5''' stats and drain reduced to '''×0.75'''.</translate>
 |}
 
 <translate>
+<!--T:48-->
 Mastery is earned per transformation, only while that form is active. By default each hit you land or take gives 0.025%, and you also gain 0.004% passively every 5 seconds. Hit mastery only counts at '''50% Power Release''' or more and grows with the size of the hit, up to 4 times for a hit of 80% of the target's max health or more. '''Mastery Capsules''' add 5% to your active form (see [[Special:MyLanguage/Items|Items]]), and the Frost Demon racial skill, the Mutant status and the Mastery Multiplier effect speed it up.
 
+<!--T:49-->
 Some forms '''share mastery''' with related forms: every Kaioken tier passes 25% of its gains to the next tier, and the two Glind Time Power forms share 50% with each other. Admins can check and set mastery with <code>/dmzmastery</code> (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>
 
 <translate>
-== Stack forms ==
+== Stack forms == <!--T:50-->
 </translate>
 <translate>
+<!--T:51-->
 Stack forms layer '''on top of''' your normal transformation for an extra multiplier at a heavier upkeep. They are skills, not race forms, so every race can learn them.
 </translate>
 {| class="wikitable"
-! <translate>Stack form</translate> !! <translate>Tiers</translate> !! <translate>Drain</translate> !! <translate>How to get it</translate>
+! <translate><!--T:52--> Stack form</translate> !! <translate><!--T:53--> Tiers</translate> !! <translate><!--T:54--> Drain</translate> !! <translate><!--T:55--> How to get it</translate>
 |-
-| {{L|Kaioken}} || x2 · x3 · x4 · x10 · x20 || <translate>Health</translate> || <translate>Taught by [[Special:MyLanguage/King Kai|King Kai]]</translate>
+| {{L|Kaioken}} || x2 · x3 · x4 · x10 · x20 || <translate><!--T:56--> Health</translate> || <translate><!--T:57--> Taught by [[Special:MyLanguage/King Kai|King Kai]]</translate>
 |-
-| {{L|Ultimate}} || 1 || <translate>None</translate> || <translate>Clear [[Special:MyLanguage/Old Kai|Old Kai]]'s Ultimate Challenge</translate>
+| {{L|Ultimate}} || 1 || <translate><!--T:58--> None</translate> || <translate><!--T:59--> Clear [[Special:MyLanguage/Old Kai|Old Kai]]'s Ultimate Challenge</translate>
 |}
 
 <translate>
+<!--T:60-->
 To stack, your current form needs at least '''25% mastery''', and so does the stack form if it asks for mastery of its own (the default [[Special:MyLanguage/Kaioken|Kaioken]] tiers don't); otherwise the stack form is dropped when you transform. Ultimate is the exception: it isn't used on top of another form, but copies your best unlocked form and adds its own bonus.
 </translate>
 
 <translate>
-== Legendary forms ==
+== Legendary forms == <!--T:61-->
 </translate>
 <translate>
+<!--T:62-->
 Every race has a '''Legendary form''' line with 3 levels (Glinds get two alternative forms on the third), but its default TP cost is <code>-1</code>: it '''can't be bought''' with Training Points. The [[Special:MyLanguage/Races#Legendary forms|Races]] page lists every race's Legendary forms. Androids lose this line when they are upgraded.
 
-=== Earning them in the story ===
+=== Earning them in the story === <!--T:63-->
 
+<!--T:64-->
 Three quests of the [[Special:MyLanguage/Movies Saga|Movies Saga]] grant the Legendary Forms skill one level at a time:
 </translate>
 {| class="wikitable"
-! <translate>Movies Saga quest</translate> !! <translate>Opens</translate> !! <translate>Reward</translate>
+! <translate><!--T:65--> Movies Saga quest</translate> !! <translate><!--T:66--> Opens</translate> !! <translate><!--T:67--> Reward</translate>
 |-
-| <translate>30 ''Broly's Second Coming''</translate> || <translate>After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 22</translate> || <translate>Legendary Forms level 1</translate>
+| <translate><!--T:68--> 30 ''Broly's Second Coming''</translate> || <translate><!--T:69--> After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 22</translate> || <translate><!--T:70--> Legendary Forms level 1</translate>
 |-
-| <translate>34 ''Giant Bio-Broly''</translate> || <translate>After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 35</translate> || <translate>Legendary Forms level 2</translate>
+| <translate><!--T:71--> 34 ''Giant Bio-Broly''</translate> || <translate><!--T:72--> After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 35</translate> || <translate><!--T:73--> Legendary Forms level 2</translate>
 |-
-| <translate>40 ''Super Hildegarn''</translate> || <translate>After [[Special:MyLanguage/GT Saga|GT Saga]] quest 30 or [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 11</translate> || <translate>Legendary Forms level 3</translate>
+| <translate><!--T:74--> 40 ''Super Hildegarn''</translate> || <translate><!--T:75--> After [[Special:MyLanguage/GT Saga|GT Saga]] quest 30 or [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 11</translate> || <translate><!--T:76--> Legendary Forms level 3</translate>
 |}
 
 <translate>
-=== Borrowing them as a Mutant ===
+=== Borrowing them as a Mutant === <!--T:77-->
 
+<!--T:78-->
 Every 30 minutes the server may pick a random player (20% chance, one Mutant at a time by default) to become a [[Special:MyLanguage/Mutant|Mutant]], a status that is lost on death by default. Admins can also grant it with <code>/dmzeffect give mutant -1 &lt;player&gt;</code>.
 
+<!--T:79-->
 * Mutants gain '''×1.25 TP''' and '''×1.5 mastery'''.
 * They fill a green '''rage meter''' by dealing and taking significant hits; mixing melee, strike and ki attacks fills it faster.
 * With a '''full''' meter, a Mutant can transform into Legendary forms they don't own yet. A borrowed form is worth your '''best unlocked non-legendary form''' (with its mastery) '''+0.5''' to each stat bonus, scaled per stat like the Legendary form, but never more than the Legendary form itself at full mastery.
@@ -165,49 +185,54 @@ Every 30 minutes the server may pick a random player (20% chance, one Mutant at 
 </translate>
 {{Config|General Server Config|mutant}}
 <translate>
+<!--T:80-->
 More about the Mutant status is on the [[Special:MyLanguage/Effects|Effects]] page.
 </translate>
 
 <translate>
-== Forms you can't buy ==
+== Forms you can't buy == <!--T:81-->
 </translate>
 <translate>
+<!--T:82-->
 A few forms are never bought or selected: the game grants them when something special happens. You can't descend out of them, transform into another form from them or stack a form on them.
 
+<!--T:83-->
 * [[Special:MyLanguage/Saiyan#False Super Saiyan|False Super Saiyan]] (Saiyan): triggered by rage when a Saiyan without any Super form is badly hurt, and it ends when the rage runs out.
 * [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]] (Saiyan): granted by a ritual in which five pure-hearted Saiyans give their Ki to a sixth. It is worth the receiver's strongest form with 30% more of its bonus, and it lasts 5 minutes.
 </translate>
 
 <translate>
-== Transformations by race ==
+== Transformations by race == <!--T:84-->
 </translate>
 {| class="wikitable"
-! <translate>Race</translate> !! <translate>Form groups (number of forms)</translate> !! <translate>Top tier</translate>
+! <translate><!--T:85--> Race</translate> !! <translate><!--T:86--> Form groups (number of forms)</translate> !! <translate><!--T:87--> Top tier</translate>
 |-
-| [[Special:MyLanguage/Human#Transformations|{{#invoke:Labels|name|Human}}]] || <translate>Super (4), Legendary (3)</translate> || <translate>Solaris</translate>
+| [[Special:MyLanguage/Human#Transformations|{{#invoke:Labels|name|Human}}]] || <translate><!--T:88--> Super (4), Legendary (3)</translate> || <translate><!--T:89--> Solaris</translate>
 |-
-| [[Special:MyLanguage/Android#Transformations|{{#invoke:Labels|name|Android}}]] || <translate>Android (3)</translate> || —
+| [[Special:MyLanguage/Android#Transformations|{{#invoke:Labels|name|Android}}]] || <translate><!--T:90--> Android (3)</translate> || —
 |-
-| [[Special:MyLanguage/Saiyan#Transformations|{{#invoke:Labels|name|Saiyan}}]] || <translate>Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1), God Ritual (1)</translate> || <translate>SSJ 4 [GT], SSJ 4 [D]</translate>
+| [[Special:MyLanguage/Saiyan#Transformations|{{#invoke:Labels|name|Saiyan}}]] || <translate><!--T:91--> Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1), God Ritual (1)</translate> || <translate><!--T:92--> SSJ 4 [GT], SSJ 4 [D]</translate>
 |-
-| [[Special:MyLanguage/Namekian#Transformations|{{#invoke:Labels|name|Namekian}}]] || <translate>Super (3), Legendary (3)</translate> || <translate>Super Namekian</translate>
+| [[Special:MyLanguage/Namekian#Transformations|{{#invoke:Labels|name|Namekian}}]] || <translate><!--T:93--> Super (3), Legendary (3)</translate> || <translate><!--T:94--> Super Namekian</translate>
 |-
-| [[Special:MyLanguage/Frost Demon#Transformations|{{#invoke:Labels|name|Frost Demon}}]] || <translate>Evolution (5), Artificial (3)</translate> || <translate>Fifth Form</translate>
+| [[Special:MyLanguage/Frost Demon#Transformations|{{#invoke:Labels|name|Frost Demon}}]] || <translate><!--T:95--> Evolution (5), Artificial (3)</translate> || <translate><!--T:96--> Fifth Form</translate>
 |-
-| [[Special:MyLanguage/Bio-Android#Transformations|{{#invoke:Labels|name|Bio-Android}}]] || <translate>Bio-Evolution (4), Bio-Corruption (3)</translate> || <translate>Ultra Perfect</translate>
+| [[Special:MyLanguage/Bio-Android#Transformations|{{#invoke:Labels|name|Bio-Android}}]] || <translate><!--T:97--> Bio-Evolution (4), Bio-Corruption (3)</translate> || <translate><!--T:98--> Ultra Perfect</translate>
 |-
-| [[Special:MyLanguage/Majin#Transformations|{{#invoke:Labels|name|Majin}}]] || <translate>Pure (4), Demon (3)</translate> || <translate>Ultra Majin</translate>
+| [[Special:MyLanguage/Majin#Transformations|{{#invoke:Labels|name|Majin}}]] || <translate><!--T:99--> Pure (4), Demon (3)</translate> || <translate><!--T:100--> Ultra Majin</translate>
 |-
-| [[Special:MyLanguage/Glind#Transformations|{{#invoke:Labels|name|Glind}}]] || <translate>Super (5), Legendary (4)</translate> || <translate>True Form</translate>
+| [[Special:MyLanguage/Glind#Transformations|{{#invoke:Labels|name|Glind}}]] || <translate><!--T:101--> Super (5), Legendary (4)</translate> || <translate><!--T:102--> True Form</translate>
 |}
 
 <translate>
-== Server settings ==
+== Server settings == <!--T:103-->
 </translate>
 {{Config|General Server Config|gameplay}}
 <translate>
+<!--T:104-->
 All values on this wiki are '''defaults'''. Form skill TP costs live in each race's <code>character.json</code>, and each form's multipliers, drain, mastery and requisites in its form file.
 
+<!--T:105-->
 * Each form has a <code>sagaRequisite</code> (<code>"&lt;saga id&gt;:&lt;quest number&gt;"</code>) and a <code>levelRequisite</code> (a character level; none is set by default). Story requisites only apply while story mode is on, and both checks can be switched off with <code>sagaFormRequisiteEnabled</code> and <code>levelFormRequisiteEnabled</code>.
 * <code>multiplicationInsteadOfAdditionForMultipliers</code> makes form, stack form and effect multipliers multiply each other instead of adding up.
 * <code>ultimateFormFixedValue</code> turns Ultimate into a fixed multiplier (see [[Special:MyLanguage/Ultimate|Ultimate]]).

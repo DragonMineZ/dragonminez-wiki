@@ -1,0 +1,487 @@
+{
+ "Page_display_title": {
+  "source": "Space Pod Destinations",
+  "translation": "Destinos de la Cápsula Espacial",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Space Pod destinations''' are the places a player can warp to from the [[Special:MyLanguage/Space Pod|Space Pod]] menu. They are a datapack system, not a <code>config/dragonminez</code> file, which makes them a good fit for datapacks and add-ons that want to add their own destinations (for example, a custom dimension mod adding its own entry).",
+  "translation": "Los '''destinos de la Cápsula Espacial''' son los lugares a los que un jugador puede viajar desde el menú de la [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. Son un sistema de datapacks, no un archivo de <code>config/dragonminez</code>, así que encajan bien con datapacks y addons que quieren añadir sus propios destinos (por ejemplo, un mod de dimensiones personalizadas que añade su propia entrada).",
+  "outdated": false
+ },
+ "2": {
+  "source": "Loader: <code>SpacePodDestinationRegistry</code> (<code>src/main/java/com/dragonminez/common/spacepod/SpacePodDestinationRegistry.java</code>), a vanilla <code>SimpleJsonResourceReloadListener</code> over the <code>spacepod</code> directory. It reloads with the vanilla <code>/reload</code> or a restart, '''not''' with <code>/dmzreload</code>, and it is synced to clients automatically when datapacks sync.",
+  "translation": "Cargador: <code>SpacePodDestinationRegistry</code> (<code>src/main/java/com/dragonminez/common/spacepod/SpacePodDestinationRegistry.java</code>), un <code>SimpleJsonResourceReloadListener</code> de vanilla sobre la carpeta <code>spacepod</code>. Se recarga con el <code>/reload</code> de vanilla o al reiniciar, '''no''' con <code>/dmzreload</code>, y se sincroniza automáticamente con los clientes cuando se sincronizan los datapacks.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== File location ==",
+  "translation": "== Ubicación del archivo ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Any namespace can contribute a <code>destinations.json</code> (or any other filename under that folder). They are all loaded together, sorted by resource location. DragonMineZ's own bundled file is <code>data/dragonminez/spacepod/destinations.json</code>.",
+  "translation": "Cualquier namespace puede aportar un <code>destinations.json</code> (o cualquier otro nombre de archivo dentro de esa carpeta). Todos se cargan juntos, ordenados por resource location. El archivo que incluye DragonMineZ es <code>data/dragonminez/spacepod/destinations.json</code>.",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Shipped destinations ==",
+  "translation": "== Destinos incluidos ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "DragonMineZ's bundled <code>data/dragonminez/spacepod/destinations.json</code> uses <code>\"replace\": true</code> and contains:",
+  "translation": "El <code>data/dragonminez/spacepod/destinations.json</code> incluido en DragonMineZ usa <code>\"replace\": true</code> y contiene:",
+  "outdated": false
+ },
+ "7": {
+  "source": "Menu name",
+  "translation": "Nombre en el menú",
+  "outdated": false
+ },
+ "8": {
+  "source": "Dimension",
+  "translation": "Dimensión",
+  "outdated": false
+ },
+ "9": {
+  "source": "Lands at",
+  "translation": "Llega a",
+  "outdated": false
+ },
+ "10": {
+  "source": "Unlock rule",
+  "translation": "Regla de desbloqueo",
+  "outdated": false
+ },
+ "11": {
+  "source": "[[Special:MyLanguage/Earth|Earth]]",
+  "translation": "[[Special:MyLanguage/Earth|Tierra]]",
+  "outdated": false
+ },
+ "12": {
+  "source": "Same X/Y/Z as the player",
+  "translation": "Mismas X/Y/Z que el jugador",
+  "outdated": false
+ },
+ "13": {
+  "source": "[[Special:MyLanguage/Namek|Namek]]",
+  "translation": "[[Special:MyLanguage/Namek|Namek]]",
+  "outdated": false
+ },
+ "14": {
+  "source": "Same X/Y/Z as the player",
+  "translation": "Mismas X/Y/Z que el jugador",
+  "outdated": false
+ },
+ "15": {
+  "source": "[[Special:MyLanguage/Otherworld|Otherworld]]",
+  "translation": "[[Special:MyLanguage/Otherworld|Otro Mundo]]",
+  "outdated": false
+ },
+ "16": {
+  "source": "<code>OTHERWORLD_ENABLED</code> '''and''' the side quest <code>bulma_otherworld_drive</code> (''Otherworld Drive'')",
+  "translation": "<code>OTHERWORLD_ENABLED</code> '''y''' la misión secundaria <code>bulma_otherworld_drive</code> (''Motor del Otro Mundo'')",
+  "outdated": false
+ },
+ "17": {
+  "source": "[[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]]",
+  "translation": "[[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshins]]",
+  "outdated": false
+ },
+ "18": {
+  "source": "Same X/Y/Z as the player",
+  "translation": "Mismas X/Y/Z que el jugador",
+  "outdated": false
+ },
+ "19": {
+  "source": "Saga quest <code>buu_saga:23</code> ([[Special:MyLanguage/Buu Saga|Buu Saga]])",
+  "translation": "Misión de saga <code>buu_saga:23</code> ([[Special:MyLanguage/Buu Saga|Saga Buu]])",
+  "outdated": false
+ },
+ "20": {
+  "source": "Cereal Planet",
+  "translation": "Planeta Cereal",
+  "outdated": false
+ },
+ "21": {
+  "source": "Same X/Y/Z as the player",
+  "translation": "Mismas X/Y/Z que el jugador",
+  "outdated": false
+ },
+ "22": {
+  "source": "<code>NEVER</code> (reserved for an add-on dimension)",
+  "translation": "<code>NEVER</code> (reservado para una dimensión de un addon)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Beerus Planet",
+  "translation": "Planeta de Beerus",
+  "outdated": false
+ },
+ "24": {
+  "source": "Same X/Y/Z as the player",
+  "translation": "Mismas X/Y/Z que el jugador",
+  "outdated": false
+ },
+ "25": {
+  "source": "<code>NEVER</code> (reserved for an add-on dimension)",
+  "translation": "<code>NEVER</code> (reservado para una dimensión de un addon)",
+  "outdated": false
+ },
+ "26": {
+  "source": "[[Special:MyLanguage/Hyperbolic Time Chamber|Time Chamber]]",
+  "translation": "[[Special:MyLanguage/Hyperbolic Time Chamber|Cámara del Tiempo]]",
+  "outdated": false
+ },
+ "27": {
+  "source": "Side quest <code>bulma_time_chamber_link</code> (''Temporal Comm-Link'')",
+  "translation": "Misión secundaria <code>bulma_time_chamber_link</code> (''Enlace Temporal'')",
+  "outdated": false
+ },
+ "28": {
+  "source": "[[Special:MyLanguage/Demon Realm|Demon Realm]]",
+  "translation": "[[Special:MyLanguage/Demon Realm|Reino Demoníaco]]",
+  "outdated": false
+ },
+ "29": {
+  "source": "160.5, 745, 0.5 (above the Third Demon World)",
+  "translation": "160.5, 745, 0.5 (sobre el Tercer Mundo Demoníaco)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Saga quest <code>daima_saga:3</code> (''To the Demon Realm'', [[Special:MyLanguage/Daima Saga|Daima Saga]])",
+  "translation": "Misión de saga <code>daima_saga:3</code> (''Al Reino Demoníaco'', [[Special:MyLanguage/Daima Saga|Saga Daima]])",
+  "outdated": false
+ },
+ "31": {
+  "source": "All shipped entries use <code>\"show_when_locked\": true</code>, so locked worlds show up grayed out. See [[Special:MyLanguage/Dimensions|Dimensions]] for what each world offers.",
+  "translation": "Todas las entradas incluidas usan <code>\"show_when_locked\": true</code>, así que los mundos bloqueados aparecen en gris. Consulta [[Special:MyLanguage/Dimensions|Dimensiones]] para ver qué ofrece cada mundo.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Load order matters",
+  "translation": "El orden de carga importa",
+  "outdated": false
+ },
+ "33": {
+  "source": "Files are applied in resource-location order, and DragonMineZ's bundled file uses <code>\"replace\": true</code>. A file in a namespace that sorts '''before''' <code>dragonminez</code> (for example <code>addon:</code>) is wiped by it: use a namespace that sorts after <code>dragonminez</code>, or put your own <code>data/dragonminez/spacepod/destinations.json</code> in a datapack to replace DragonMineZ's list. Entries are not merged by <code>id</code>: adding an entry with an id that already exists doesn't change the existing one.",
+  "translation": "Los archivos se aplican en orden de resource location, y el archivo incluido en DragonMineZ usa <code>\"replace\": true</code>. Un archivo en un namespace que queda '''antes''' de <code>dragonminez</code> en el orden (por ejemplo <code>addon:</code>) queda borrado por él: usa un namespace que quede después de <code>dragonminez</code>, o pon tu propio <code>data/dragonminez/spacepod/destinations.json</code> en un datapack para reemplazar la lista de DragonMineZ. Las entradas no se combinan por <code>id</code>: añadir una entrada con un id que ya existe no cambia la existente.",
+  "outdated": false
+ },
+ "34": {
+  "source": "== Top-level shape ==",
+  "translation": "== Estructura general ==",
+  "outdated": false
+ },
+ "35": {
+  "source": "<code>replace</code> is optional and defaults to <code>false</code>. If <code>true</code>, it clears every destination loaded before this file and then adds this file's own. Use it if you want your pack to be the only authority on the destination list instead of adding to the others.",
+  "translation": "<code>replace</code> es opcional y por defecto es <code>false</code>. Si es <code>true</code>, borra todos los destinos cargados antes de este archivo y luego añade los suyos. Úsalo si quieres que tu paquete sea la única fuente de la lista de destinos en lugar de sumarse a los demás.",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Destination fields ==",
+  "translation": "== Campos de un destino ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "38": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "39": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "40": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "41": {
+  "source": "Unique destination id.",
+  "translation": "Id único del destino.",
+  "outdated": false
+ },
+ "42": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "43": {
+  "source": "Translation key, or a literal string if <code>translate</code> is <code>false</code>.",
+  "translation": "Clave de traducción, o un texto literal si <code>translate</code> es <code>false</code>.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "45": {
+  "source": "Defaults to <code>true</code> (treat <code>name</code> as a translation key).",
+  "translation": "Por defecto es <code>true</code> (trata <code>name</code> como una clave de traducción).",
+  "outdated": false
+ },
+ "46": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "47": {
+  "source": "Id of the target dimension.",
+  "translation": "Id de la dimensión de destino.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Integer",
+  "translation": "Entero",
+  "outdated": false
+ },
+ "49": {
+  "source": "Index into the built-in Space Pod icon sheet. Exactly one of <code>icon_index</code> and <code>icon_texture</code> is required.",
+  "translation": "Índice en la hoja de íconos incluida de la Cápsula Espacial. Se requiere exactamente uno de <code>icon_index</code> e <code>icon_texture</code>.",
+  "outdated": false
+ },
+ "50": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "51": {
+  "source": "Resource location of a custom texture, as an alternative to <code>icon_index</code>.",
+  "translation": "Resource location de una textura personalizada, como alternativa a <code>icon_index</code>.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "53": {
+  "source": "Target coordinates. Either provide '''all three''', or '''only <code>y</code>''' (a special case that keeps the player's current X and Z and only changes their Y), or leave out all three. Providing just <code>x</code> or just <code>z</code> without the others is an error.",
+  "translation": "Coordenadas de destino. Indica '''las tres''', o '''solo <code>y</code>''' (un caso especial que mantiene la X y la Z actuales del jugador y solo cambia su Y), o no indiques ninguna. Indicar solo <code>x</code> o solo <code>z</code> sin las demás es un error.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "55": {
+  "source": "Defaults to <code>true</code>. If <code>true</code>, a locked destination still shows (grayed out); if <code>false</code>, it is hidden entirely until unlocked.",
+  "translation": "Por defecto es <code>true</code>. Si es <code>true</code>, un destino bloqueado se sigue mostrando (en gris); si es <code>false</code>, queda totalmente oculto hasta que se desbloquea.",
+  "outdated": false
+ },
+ "56": {
+  "source": "String or object",
+  "translation": "Texto u objeto",
+  "outdated": false
+ },
+ "57": {
+  "source": "The unlock condition (see [[Special:MyLanguage/Space Pod Destinations#Unlock rules|Unlock rules]]).",
+  "translation": "La condición de desbloqueo (consulta [[Special:MyLanguage/Space Pod Destinations#Unlock rules|Reglas de desbloqueo]]).",
+  "outdated": false
+ },
+ "58": {
+  "source": "== Unlock rules ==",
+  "translation": "== Reglas de desbloqueo ==",
+  "outdated": false
+ },
+ "59": {
+  "source": "=== Primitives ===",
+  "translation": "=== Primitivas ===",
+  "outdated": false
+ },
+ "60": {
+  "source": "Primitives are bare strings:",
+  "translation": "Las primitivas son textos simples:",
+  "outdated": false
+ },
+ "61": {
+  "source": "Rule",
+  "translation": "Regla",
+  "outdated": false
+ },
+ "62": {
+  "source": "Unlocked when",
+  "translation": "Se desbloquea cuando",
+  "outdated": false
+ },
+ "63": {
+  "source": "Always.",
+  "translation": "Siempre.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Never. This effectively disables the destination unless another pack overrides it.",
+  "translation": "Nunca. En la práctica desactiva el destino, salvo que otro paquete lo reemplace.",
+  "outdated": false
+ },
+ "65": {
+  "source": "The player has unlocked Kaio's planet.",
+  "translation": "El jugador desbloqueó el planeta de Kaiosama.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Otherworld generation is enabled in the server config.",
+  "translation": "La generación del Otro Mundo está activada en la configuración del servidor.",
+  "outdated": false
+ },
+ "67": {
+  "source": "=== Conditions ===",
+  "translation": "=== Condiciones ===",
+  "outdated": false
+ },
+ "68": {
+  "source": "Conditions are objects:",
+  "translation": "Las condiciones son objetos:",
+  "outdated": false
+ },
+ "69": {
+  "source": "Rule",
+  "translation": "Regla",
+  "outdated": false
+ },
+ "70": {
+  "source": "Shape",
+  "translation": "Forma",
+  "outdated": false
+ },
+ "71": {
+  "source": "Unlocked when",
+  "translation": "Se desbloquea cuando",
+  "outdated": false
+ },
+ "72": {
+  "source": "Quest",
+  "translation": "Misión",
+  "outdated": false
+ },
+ "73": {
+  "source": "The player has completed that quest. Side quest and saga quest ids both work (for example <code>\"buu_saga:23\"</code>).",
+  "translation": "El jugador completó esa misión. Sirven tanto ids de misiones secundarias como de misiones de saga (por ejemplo <code>\"buu_saga:23\"</code>).",
+  "outdated": false
+ },
+ "74": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "75": {
+  "source": "The player's level is at least <code>N</code>.",
+  "translation": "El nivel del jugador es al menos <code>N</code>.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "77": {
+  "source": "The player's race matches (case-insensitive).",
+  "translation": "La raza del jugador coincide (sin distinguir mayúsculas y minúsculas).",
+  "outdated": false
+ },
+ "78": {
+  "source": "Tag",
+  "translation": "Etiqueta",
+  "outdated": false
+ },
+ "79": {
+  "source": "The player has this Minecraft scoreboard tag.",
+  "translation": "El jugador tiene esta etiqueta (tag) del scoreboard de Minecraft.",
+  "outdated": false
+ },
+ "80": {
+  "source": "Visited dimension",
+  "translation": "Dimensión visitada",
+  "outdated": false
+ },
+ "81": {
+  "source": "The player has visited that dimension before.",
+  "translation": "El jugador ya visitó esa dimensión antes.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Stat",
+  "translation": "Estadística",
+  "outdated": false
+ },
+ "83": {
+  "source": "The player's stat (for example <code>STRENGTH</code>) is at least <code>N</code>.",
+  "translation": "La estadística del jugador (por ejemplo <code>STRENGTH</code>) es al menos <code>N</code>.",
+  "outdated": false
+ },
+ "84": {
+  "source": "=== Composite operators ===",
+  "translation": "=== Operadores compuestos ===",
+  "outdated": false
+ },
+ "85": {
+  "source": "Composite operators can be nested to any depth, freely mixing primitives, conditions and other composites:",
+  "translation": "Los operadores compuestos se pueden anidar a cualquier profundidad, mezclando libremente primitivas, condiciones y otros operadores compuestos:",
+  "outdated": false
+ },
+ "86": {
+  "source": "== Examples ==",
+  "translation": "== Ejemplos ==",
+  "outdated": false
+ },
+ "87": {
+  "source": "Always available:",
+  "translation": "Siempre disponible:",
+  "outdated": false
+ },
+ "88": {
+  "source": "Gated by an AND of a global toggle and a quest, with fixed coordinates:",
+  "translation": "Bloqueado por un AND entre una opción global y una misión, con coordenadas fijas:",
+  "outdated": false
+ },
+ "89": {
+  "source": "Gated by a single saga quest, with fixed coordinates (the shipped Demon Realm entry):",
+  "translation": "Bloqueado por una sola misión de saga, con coordenadas fijas (la entrada incluida del Reino Demoníaco):",
+  "outdated": false
+ },
+ "90": {
+  "source": "Gated by a side quest, with the \"keep X and Z, change only Y\" coordinate form (<code>my_pack:sky_island</code> is a made-up example):",
+  "translation": "Bloqueado por una misión secundaria, con la forma de coordenadas \"mantener X y Z, cambiar solo Y\" (<code>my_pack:sky_island</code> es un ejemplo inventado):",
+  "outdated": false
+ },
+ "91": {
+  "source": "A destination that can never be unlocked through this pack (useful if you want it hidden unless another pack overrides it):",
+  "translation": "Un destino que nunca se puede desbloquear con este paquete (útil si quieres que esté oculto salvo que otro paquete lo reemplace):",
+  "outdated": false
+ },
+ "92": {
+  "source": "A deeper nested example that combines level or race with a tag exclusion:",
+  "translation": "Un ejemplo con más anidamiento que combina nivel o raza con la exclusión de una etiqueta:",
+  "outdated": false
+ },
+ "93": {
+  "source": "== Client screen ==",
+  "translation": "== Pantalla del cliente ==",
+  "outdated": false
+ },
+ "94": {
+  "source": "Players browse destinations in <code>SpacePodScreen</code> (client side), which shows up to 7 entries at once and grays out or hides locked ones according to <code>show_when_locked</code>.",
+  "translation": "Los jugadores exploran los destinos en <code>SpacePodScreen</code> (lado del cliente), que muestra hasta 7 entradas a la vez y pone en gris u oculta las bloqueadas según <code>show_when_locked</code>.",
+  "outdated": false
+ },
+ "95": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarga y validación ==",
+  "outdated": false
+ },
+ "96": {
+  "source": "# Add or edit <code>data/<namespace>/spacepod/destinations.json</code>.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run the vanilla <code>/reload</code>, or restart. This isn't covered by <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).\n# Open the Space Pod menu in game and check that the destination appears and unlocks as expected.",
+  "translation": "# Añade o edita <code>data/<namespace>/spacepod/destinations.json</code>.\n# Valida la sintaxis JSON (consulta [[Special:MyLanguage/How to JSON|Cómo usar JSON]]).\n# Ejecuta el <code>/reload</code> de vanilla o reinicia. Esto no lo cubre <code>/dmzreload</code> (consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]]).\n# Abre el menú de la Cápsula Espacial en el juego y comprueba que el destino aparece y se desbloquea como esperas.",
+  "outdated": false
+ }
+}

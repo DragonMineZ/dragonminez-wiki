@@ -1,0 +1,182 @@
+{
+ "Page_display_title": {
+  "source": "Gravity Device",
+  "translation": "Dispositivo de Gravidade",
+  "outdated": false
+ },
+ "1": {
+  "source": "Your own personal training chamber.",
+  "translation": "Sua própria câmara de treino pessoal.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Block",
+  "translation": "Bloco",
+  "outdated": false
+ },
+ "3": {
+  "source": "Raises gravity inside a sealed room, from 1× to 1000×",
+  "translation": "Aumenta a gravidade dentro de uma sala fechada, de 1× a 1000×",
+  "outdated": false
+ },
+ "4": {
+  "source": "Redstone Repeaters, Blocks of Iron, an Anvil, a weight item and a Radar's CPU (Earth)",
+  "translation": "Repetidores de redstone, Blocos de ferro, uma Bigorna, um item de peso e uma CPU do Radar (Terra)",
+  "outdated": false
+ },
+ "5": {
+  "source": "The '''Gravity Device''' is a block that raises gravity inside a sealed room, turning it into a personal training chamber. Combined with [[Special:MyLanguage/Weights|Weights]], it is the fastest way to grind stats, Training Points and mastery outside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].",
+  "translation": "O '''Dispositivo de Gravidade''' é um bloco que aumenta a gravidade dentro de uma sala fechada, transformando-a em uma câmara de treino pessoal. Combinado com os [[Special:MyLanguage/Weights|Pesos]], é a forma mais rápida de farmar estatísticas, pontos de treino e domínio fora da [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "This page covers how to build and use the machine. For what gravity does to you, see [[Special:MyLanguage/Gravity|Gravity]].",
+  "translation": "Esta página explica como construir e usar a máquina. Para saber o que a gravidade faz com você, veja [[Special:MyLanguage/Gravity|Gravidade]].",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Crafting ==",
+  "translation": "== Fabricação ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "The top slot takes any weight item (Turtle Shell, Workout Weights or Weighted Cape). See [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]].",
+  "translation": "O espaço de cima aceita qualquer item de peso (Casco de Tartaruga, Pesos de Treino ou Capa Ponderada). Veja [[Special:MyLanguage/Weights|Pesos]] e [[Special:MyLanguage/Dragon Radar#Radar parts|Radar do Dragão]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Setting it up ==",
+  "translation": "== Montagem ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "# '''Build a sealed room.''' The device needs an enclosed room between '''5 and 25 blocks on each side''' by default. It scans the space and only works if the room is properly closed off (see the next section).\n# '''Place the Gravity Device''' inside the room.\n# '''Power it with Star Energy.''' Like Dr. Kikono's Station, the device runs on Star Energy: connect it to a '''Fuel Generator''' (which burns furnace fuel) with '''Energy Cables''' (see [[Special:MyLanguage/Armor#Star Energy|Armor]]). Its buffer holds up to '''20,000''' energy.\n# '''Set the target gravity''' in the device's menu: type a value and press '''Set''', anywhere from '''1× up to 1000×'''. Then press '''Turn On'''.\n# While it is on, powered and the room is valid, '''everyone inside the room feels that gravity''', added on top of the dimension's own gravity. A visual effect covers the screen, growing with the device's gravity up to full intensity at 60×.",
+  "translation": "# '''Construa uma sala fechada.''' O dispositivo precisa de uma sala fechada com entre '''5 e 25 blocos de cada lado''' por padrão. Ele escaneia o espaço e só funciona se a sala estiver bem fechada (veja a próxima seção).\n# '''Coloque o Dispositivo de Gravidade''' dentro da sala.\n# '''Alimente-o com Energia Estelar.''' Assim como a Estação do Dr. Kikono, o dispositivo funciona com Energia Estelar: conecte-o a um '''Gerador de Combustível''' (que queima combustível de fornalha) com '''Cabos de Energia''' (veja [[Special:MyLanguage/Armor#Star Energy|Armaduras]]). O estoque dele guarda até '''20,000''' de energia.\n# '''Defina a gravidade desejada''' no menu do dispositivo: digite um valor e pressione '''Definir''', de '''1× até 1000×'''. Depois pressione '''Ligar'''.\n# Enquanto ele estiver ligado, com energia e com a sala válida, '''todos dentro da sala sentem essa gravidade''', somada à gravidade da própria dimensão. Um efeito visual cobre a tela, crescendo com a gravidade do dispositivo até a intensidade máxima em 60×.",
+  "outdated": false
+ },
+ "11": {
+  "source": "The menu shows the stored energy and the device status:",
+  "translation": "O menu mostra a energia armazenada e o status do dispositivo:",
+  "outdated": false
+ },
+ "12": {
+  "source": "Status",
+  "translation": "Status",
+  "outdated": false
+ },
+ "13": {
+  "source": "Meaning",
+  "translation": "Significado",
+  "outdated": false
+ },
+ "14": {
+  "source": "'''Active: N× gravity'''",
+  "translation": "'''Ativo: gravidade N×'''",
+  "outdated": false
+ },
+ "15": {
+  "source": "Running normally.",
+  "translation": "Funcionando normalmente.",
+  "outdated": false
+ },
+ "16": {
+  "source": "'''Invalid room (5-25 blocks each side)'''",
+  "translation": "'''Sala Inválida (5-25 blocos de cada lado)'''",
+  "outdated": false
+ },
+ "17": {
+  "source": "The room isn't sealed or is the wrong size.",
+  "translation": "A sala não está fechada ou tem o tamanho errado.",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''Out of Star Energy'''",
+  "translation": "'''Sem Energia Estelar'''",
+  "outdated": false
+ },
+ "19": {
+  "source": "Refuel the generator.",
+  "translation": "Reabasteça o gerador.",
+  "outdated": false
+ },
+ "20": {
+  "source": "'''Idle'''",
+  "translation": "'''Inativo'''",
+  "outdated": false
+ },
+ "21": {
+  "source": "The device is turned off.",
+  "translation": "O dispositivo está desligado.",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Energy cost:''' the device burns '''1 energy per second for each × of gravity''', so 100× gravity costs 100 energy per second. Higher gravity drains the buffer faster, so keep fuel flowing. If several devices overlap, the strongest one applies.",
+  "translation": "'''Custo de energia:''' o dispositivo gasta '''1 de energia por segundo para cada × de gravidade''', então 100× de gravidade custa 100 de energia por segundo. Gravidade maior esvazia o estoque mais rápido, então mantenha o combustível chegando. Se vários dispositivos se sobrepuserem, vale o mais forte.",
+  "outdated": false
+ },
+ "23": {
+  "source": "== Building the room ==",
+  "translation": "== Construindo a sala ==",
+  "outdated": false
+ },
+ "24": {
+  "source": "The device checks the room by '''flood-filling outward''' from itself in every direction. A spot only counts as \"inside the room\" if it is '''completely empty''' (no collision at all). This means:",
+  "translation": "O dispositivo verifica a sala '''preenchendo o espaço para fora''' a partir de si mesmo em todas as direções. Um ponto só conta como \"dentro da sala\" se estiver '''completamente vazio''' (sem nenhuma colisão). Isso significa que:",
+  "outdated": false
+ },
+ "25": {
+  "source": "* '''Any full block seals the room.''' Stone, wood, glass and other full blocks all work as walls, floor and ceiling.\n* '''Partial blocks don't seal it.''' Slabs, stairs, fences, carpets and anything else with a partial hitbox count as open to the scan. Even a single slab gap makes the room invalid: the scan escapes past the maximum size and the check fails.\n* '''Doors and trapdoors always seal the room''', open or closed, so you can use them as an entrance.\n* The '''empty space inside''' must measure '''between 5 and 25 blocks on every axis''' by default. If it is smaller or bigger, or if any gap lets the scan escape, the menu shows '''Invalid room (5-25 blocks each side)''' and the device won't apply gravity.\n* The device doesn't need to be centered or on the floor: place it anywhere inside the sealed space.\n* The room is checked again every 5 seconds while the device is on, so breaking a wall switches the gravity off.",
+  "translation": "* '''Qualquer bloco inteiro fecha a sala.''' Pedra, madeira, vidro e outros blocos inteiros servem como paredes, chão e teto.\n* '''Blocos parciais não fecham a sala.''' Lajes, escadas, cercas, tapetes e qualquer coisa com hitbox parcial contam como abertos para o escaneamento. Até uma única brecha com uma laje invalida a sala: o escaneamento escapa além do tamanho máximo e a verificação falha.\n* '''Portas e alçapões sempre fecham a sala''', abertos ou fechados, então você pode usá-los como entrada.\n* O '''espaço vazio interno''' deve medir '''entre 5 e 25 blocos em cada eixo''' por padrão. Se for menor ou maior, ou se alguma brecha deixar o escaneamento escapar, o menu mostra '''Sala Inválida (5-25 blocos de cada lado)''' e o dispositivo não aplica gravidade.\n* O dispositivo não precisa estar centralizado nem no chão: coloque-o em qualquer lugar dentro do espaço fechado.\n* A sala é verificada de novo a cada 5 segundos enquanto o dispositivo está ligado, então quebrar uma parede desliga a gravidade.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Quick checklist",
+  "translation": "Checklist rápido",
+  "outdated": false
+ },
+ "27": {
+  "source": "Build a fully enclosed box using only full blocks, with doors or trapdoors for the entrance. Keep the inside between 5 and 25 blocks on all three axes. Place the device anywhere inside, power it, set a gravity and turn it on: the menu should show Active.",
+  "translation": "Construa uma caixa totalmente fechada usando só blocos inteiros, com portas ou alçapões na entrada. Mantenha o interior entre 5 e 25 blocos nos três eixos. Coloque o dispositivo em qualquer lugar dentro, alimente-o, defina uma gravidade e ligue-o: o menu deve mostrar Ativo.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Using it with weights ==",
+  "translation": "== Usando com pesos ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "Gravity and weights multiply each other, and this is the key combo:",
+  "translation": "A gravidade e os pesos se multiplicam, e essa é a combinação principal:",
+  "outdated": false
+ },
+ "30": {
+  "source": "* Your '''effective weight''' is your worn weight multiplied by gravity. Weights that barely register at normal gravity are pushed into the '''Ideal''' or '''Pushing Hard''' training zone under a gravity machine, giving the big '''×2 to ×2.5 TP''' multiplier.\n* Gravity also adds a '''flat bonus''': about '''+2.5% TP and +0.25% mastery per point of net gravity'''.",
+  "translation": "* Seu '''peso efetivo''' é o peso que você usa multiplicado pela gravidade. Pesos que mal contam na gravidade normal vão para a zona de treino '''Ideal''' ou '''No limite''' sob uma máquina de gravidade, dando o grande multiplicador de '''×2 a ×2.5 de TP'''.\n* A gravidade também adiciona um '''bônus fixo''': cerca de '''+2.5% de TP e +0.25% de domínio por ponto de gravidade líquida'''.",
+  "outdated": false
+ },
+ "31": {
+  "source": "The trade-off: high gravity also '''weakens and slows you'''. Movement, jumping and flight are penalized, and overloading yourself with too much weight cuts your stats. Find a gravity and weight combo that keeps your load in the '''Ideal''' zone for safe, fast training, or push into the heavy zone for maximum gains while you accept being weaker. See [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity|Gravity]].",
+  "translation": "O lado ruim: gravidade alta também '''enfraquece e deixa você mais lento'''. Movimento, pulo e voo são penalizados, e se sobrecarregar com peso demais corta suas estatísticas. Encontre uma combinação de gravidade e peso que mantenha sua carga na zona '''Ideal''' para um treino rápido e seguro, ou vá para a zona pesada para ganhar o máximo aceitando ficar mais fraco. Veja [[Special:MyLanguage/Weights|Pesos]] e [[Special:MyLanguage/Gravity|Gravidade]].",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Gravity Room upgrades ==",
+  "translation": "== Melhorias da Sala de Gravidade ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "Bulma can upgrade your device through two sidequests, '''Gravity Room Mk.II''' and '''Gravity Room Mk.III'''. Once completed, they cut the stat penalty from overloading on weights '''while you're inside an active device's room'''. Mk.III cuts more than Mk.II, and the help shrinks as you get stronger (see [[Special:MyLanguage/Gravity#Gravity Room upgrades|Gravity]]).",
+  "translation": "A Bulma pode melhorar seu dispositivo com duas missões secundárias, '''Sala de Gravidade Mk.II''' e '''Sala de Gravidade Mk.III'''. Depois de concluídas, elas cortam a penalidade de estatísticas por excesso de peso '''enquanto você está dentro da sala de um dispositivo ativo'''. A Mk.III corta mais que a Mk.II, e a ajuda diminui conforme você fica mais forte (veja [[Special:MyLanguage/Gravity#Gravity Room upgrades|Gravidade]]).",
+  "outdated": false
+ },
+ "34": {
+  "source": "== Recommended loop ==",
+  "translation": "== Rotina recomendada ==",
+  "outdated": false
+ },
+ "35": {
+  "source": "Build a sealed room, power the device, equip weights, set a gravity you can handle, then train (fight, spar or grind) inside. See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]] for everything that grants TP and mastery.",
+  "translation": "Construa uma sala fechada, alimente o dispositivo, equipe pesos, defina uma gravidade que você aguente e treine (lute, faça sparring ou farme) lá dentro. Veja [[Special:MyLanguage/Training Points and Mastery|pontos de treino e domínio]] para tudo o que dá TP e domínio.",
+  "outdated": false
+ }
+}

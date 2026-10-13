@@ -1,0 +1,387 @@
+{
+ "Page_display_title": {
+  "source": "Ki Attacks",
+  "translation": "Ataques de Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Ki attacks''' are ranged energy techniques: blasts, beams, disks, barrages and giant spheres. Their damage scales with your '''Ki Damage (PWR)''', and their size grows with your Ki Power. Most of them are charged by holding the slot key, can be overcharged for more power, and gain experience that you spend on upgrades.",
+  "translation": "Os '''ataques de ki''' são técnicas de energia à distância: rajadas, raios, discos, saraivadas e esferas gigantes. O dano deles escala com o seu '''Dano de ki (PWR)''' e o tamanho cresce com o seu poder de ki. A maioria é carregada segurando a tecla do slot, pode ser sobrecarregada para ter mais poder e ganha experiência que você gasta em melhorias.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How ki attacks work ==",
+  "translation": "== Como funcionam os ataques de ki ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand.\n* Hold the technique's slot key to charge it and release it to fire. Small Ball and Laser attacks are instant; the other types charge to 100% and can be overcharged to 175%. Medium Ball and Giant Ball attacks fire on their own at the cap.\n* If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.\n* Damage is your Ki Damage × the technique's damage multiplier (listed below) × the type's damage multiplier (1.0 by default) × the charge.\n* Every attack belongs to a '''type''' (Wave, Laser, Giant Ball…) that sets its cast time, how it behaves and which stats it can upgrade. See the [[Special:MyLanguage/Techniques|Techniques]] page for the type table, overcharge and upgrades.\n* Wave and Beam attacks can [[Special:MyLanguage/Beam Clash|clash]] with each other.",
+  "translation": "* Você precisa de [[Special:MyLanguage/Ki Control|Controle de Ki]], de pelo menos 5% de Liberação de Poder e da mão principal vazia.\n* Segure a tecla do slot da técnica para carregá-la e solte para disparar. Os ataques do tipo Esfera Pequena e Laser são instantâneos; os outros tipos carregam até 100% e podem ser sobrecarregados até 175%. Os ataques do tipo Esfera Média e Esfera Gigante disparam sozinhos ao chegar ao limite.\n* Se a sua mira estiver travada (o que exige o [[Special:MyLanguage/Ki Sense|Sentido de Ki]]), os ataques teleguiados seguem o seu alvo.\n* O dano é o seu Dano de ki × o multiplicador de dano da técnica (listado abaixo) × o multiplicador de dano do tipo (1.0 por padrão) × a carga.\n* Todo ataque pertence a um '''tipo''' (Onda, Laser, Esfera Gigante…) que define o tempo de preparo, como ele se comporta e quais atributos ele pode melhorar. Veja a página [[Special:MyLanguage/Techniques|Técnicas]] para a tabela de tipos, a sobrecarga e as melhorias.\n* Os ataques do tipo Onda e Raio podem entrar em [[Special:MyLanguage/Beam Clash|choque]] entre si.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Ki attacks taught by masters ==",
+  "translation": "== Ataques de Ki ensinados pelos mestres ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to unlock the technique.",
+  "translation": "As recargas são com 100% de carga, antes das melhorias com XP. O custo em TP é pago uma única vez para desbloquear a técnica.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "7": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "8": {
+  "source": "Taught by",
+  "translation": "Ensinado por",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "Damage multiplier",
+  "translation": "Multiplicador de dano",
+  "outdated": false
+ },
+ "11": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "12": {
+  "source": "Ki Barrage",
+  "translation": "Rajada de Ki",
+  "outdated": false
+ },
+ "13": {
+  "source": "Barrage",
+  "translation": "Rajada",
+  "outdated": false
+ },
+ "14": {
+  "source": "Masenko",
+  "translation": "Masenko",
+  "outdated": false
+ },
+ "15": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "16": {
+  "source": "Kamehameha",
+  "translation": "Kamehameha",
+  "outdated": false
+ },
+ "17": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "18": {
+  "source": "Galick Gun",
+  "translation": "Galick Ho",
+  "outdated": false
+ },
+ "19": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "20": {
+  "source": "Death Beam",
+  "translation": "Raio da Morte",
+  "outdated": false
+ },
+ "21": {
+  "source": "Laser",
+  "translation": "Laser",
+  "outdated": false
+ },
+ "22": {
+  "source": "Kienzan (Destructo Disc)",
+  "translation": "Disco Destruidor (Kienzan)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Disk",
+  "translation": "Disco",
+  "outdated": false
+ },
+ "24": {
+  "source": "Special Beam Cannon (Makankosappo)",
+  "translation": "Canhão Especial de Raio (Makankosappo)",
+  "outdated": false
+ },
+ "25": {
+  "source": "Beam",
+  "translation": "Raio",
+  "outdated": false
+ },
+ "26": {
+  "source": "Burning Attack",
+  "translation": "Ataque Ardente",
+  "outdated": false
+ },
+ "27": {
+  "source": "Medium Ball",
+  "translation": "Esfera Média",
+  "outdated": false
+ },
+ "28": {
+  "source": "Big Bang Attack",
+  "translation": "Ataque Big Bang",
+  "outdated": false
+ },
+ "29": {
+  "source": "Medium Ball",
+  "translation": "Esfera Média",
+  "outdated": false
+ },
+ "30": {
+  "source": "Spirit Ball (Sokidan)",
+  "translation": "Esfera Espiritual (Sokidan)",
+  "outdated": false
+ },
+ "31": {
+  "source": "Medium Ball",
+  "translation": "Esfera Média",
+  "outdated": false
+ },
+ "32": {
+  "source": "Double Kienzan",
+  "translation": "Disco Destruidor Duplo",
+  "outdated": false
+ },
+ "33": {
+  "source": "Disk",
+  "translation": "Disco",
+  "outdated": false
+ },
+ "34": {
+  "source": "Laser",
+  "translation": "Laser",
+  "outdated": false
+ },
+ "35": {
+  "source": "Final Flash",
+  "translation": "Flash Final",
+  "outdated": false
+ },
+ "36": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "37": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "38": {
+  "source": "Barrage",
+  "translation": "Rajada",
+  "outdated": false
+ },
+ "39": {
+  "source": "Spirit Bomb",
+  "translation": "Genki-Dama",
+  "outdated": false
+ },
+ "40": {
+  "source": "Giant Ball",
+  "translation": "Esfera Gigante",
+  "outdated": false
+ },
+ "41": {
+  "source": "Supernova",
+  "translation": "Supernova",
+  "outdated": false
+ },
+ "42": {
+  "source": "Giant Ball",
+  "translation": "Esfera Gigante",
+  "outdated": false
+ },
+ "43": {
+  "source": "Final Explosion",
+  "translation": "Explosão Final",
+  "outdated": false
+ },
+ "44": {
+  "source": "Explosion",
+  "translation": "Explosão",
+  "outdated": false
+ },
+ "45": {
+  "source": "Soul Punisher",
+  "translation": "Castigador de Almas",
+  "outdated": false
+ },
+ "46": {
+  "source": "Medium Ball",
+  "translation": "Esfera Média",
+  "outdated": false
+ },
+ "47": {
+  "source": "Assault Rain",
+  "translation": "Chuva de Ataques",
+  "outdated": false
+ },
+ "48": {
+  "source": "Barrage",
+  "translation": "Rajada",
+  "outdated": false
+ },
+ "49": {
+  "source": "Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.",
+  "translation": "Os mestres com requisito de [[Special:MyLanguage/Alignment|índole]] (Boa para o [[Special:MyLanguage/Master Roshi|Mestre Kame]], Kuririn, Goku, Gohan, o [[Special:MyLanguage/King Kai|Rei Kai]] e o [[Special:MyLanguage/Old Kai|Velho Kaioshin]]; Má para Cell e Freeza) só ensinam você quando a sua índole combina. Cell e Freeza cobrem sozinhos boa parte do repertório, mas só para personagens Maus.",
+  "outdated": false
+ },
+ "50": {
+  "source": "=== Special behaviour ===",
+  "translation": "=== Comportamento especial ===",
+  "outdated": false
+ },
+ "51": {
+  "source": "* [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]] fires a rapid chain of 10 death beams; the follow-up shots deal 20% of the first one's damage.\n* [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]] launches the closest enemy in front of you (within 8 blocks) into the air before the beam hits.\n* [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]] needs a target (lock on or aim at one): the ki blasts surround it and then close in.\n* '''Spirit Bomb''' calls for help while you charge it: other players within 64 blocks can give it their energy with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]. Their Ki makes the bomb grow and hit harder (up to ×3 damage), and while they give it keeps growing for as long as you hold the key instead of firing at full charge. See [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Ki Transfer]].",
+  "translation": "* O [[Special:MyLanguage/Emperor's Death Beam|Raio Mortal do Imperador]] dispara uma sequência rápida de 10 raios da morte; os disparos seguintes causam 20% do dano do primeiro.\n* O [[Special:MyLanguage/Heat Dome Attack|Ataque Cúpula de Calor]] lança para o alto o inimigo mais próximo à sua frente (a até 8 blocos) antes que o raio acerte.\n* A [[Special:MyLanguage/Hellzone Grenade|Granada Infernal]] precisa de um alvo (trave a mira ou mire em um): as rajadas de ki o cercam e depois se fecham sobre ele.\n* A '''Genki-Dama''' pede ajuda enquanto você a carrega: outros jogadores a até 64 blocos podem doar energia a ela com a [[Special:MyLanguage/Ki Transfer|Transferência de ki]]. O Ki deles faz a bomba crescer e acertar mais forte (até ×3 de dano), e enquanto eles doam ela continua crescendo pelo tempo que você segurar a tecla, em vez de disparar com a carga completa. Veja [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Transferência de ki]].",
+  "outdated": false
+ },
+ "52": {
+  "source": "== Ki attacks not taught by default ==",
+  "translation": "== Ataques de Ki não ensinados por padrão ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "No master offers these in the default lists. Some come from other sources; server owners can add any of them to a master's list, and admins can grant them with {{Command|/dmztech add}}.",
+  "translation": "Nenhum mestre os oferece nas listas padrão. Alguns vêm de outras fontes; donos de servidores podem adicionar qualquer um deles à lista de um mestre, e administradores podem concedê-los com {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "55": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "56": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "57": {
+  "source": "Damage multiplier",
+  "translation": "Multiplicador de dano",
+  "outdated": false
+ },
+ "58": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "59": {
+  "source": "How to get it",
+  "translation": "Como conseguir",
+  "outdated": false
+ },
+ "60": {
+  "source": "Supernova (Cooler)",
+  "translation": "Supernova (Cooler)",
+  "outdated": false
+ },
+ "61": {
+  "source": "Giant Ball",
+  "translation": "Esfera Gigante",
+  "outdated": false
+ },
+ "62": {
+  "source": "20% drop from the {{L|Metal Cooler Core}} world boss.",
+  "translation": "20% de chance de drop do chefe de mundo {{L|Metal Cooler Core}}.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Kill Driver",
+  "translation": "Kill Driver",
+  "outdated": false
+ },
+ "64": {
+  "source": "Disk",
+  "translation": "Disco",
+  "outdated": false
+ },
+ "65": {
+  "source": "25% drop from the {{L|Turles}} world boss.",
+  "translation": "25% de chance de drop do chefe de mundo {{L|Turles}}.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "67": {
+  "source": "Granted while in Great Ape (Oozaru) form. You can steer the beam while it fires.",
+  "translation": "Concedida enquanto você está na forma de Grande Macaco (Oozaru). Você pode direcionar o raio enquanto ele é disparado.",
+  "outdated": false
+ },
+ "68": {
+  "source": "World boss drop chances are the server defaults; see [[Special:MyLanguage/World Bosses|World Bosses]].",
+  "translation": "As chances de drop dos chefes de mundo são os padrões do servidor; veja [[Special:MyLanguage/World Bosses|Chefes de mundo]].",
+  "outdated": false
+ },
+ "69": {
+  "source": "The mod also includes these ki attacks: '''Dodon Ray''', '''Tri-Beam''', '''Neo Tri-Beam''' and '''Blaster Meteor'''.",
+  "translation": "O mod também inclui estes ataques de ki: '''Raio Dodon''', '''Kikoho''', '''Neo Kikoho''' e '''Blaster Meteor'''.",
+  "outdated": false
+ },
+ "70": {
+  "source": "== Fake Moon ==",
+  "translation": "== Lua Falsa ==",
+  "outdated": false
+ },
+ "71": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "72": {
+  "source": "Taught by",
+  "translation": "Ensinado por",
+  "outdated": false
+ },
+ "73": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "74": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "75": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "76": {
+  "source": "Creates an artificial moon that triggers the Great Ape (Oozaru) transformation for characters with a tail. Deals no damage.",
+  "translation": "Cria uma lua artificial que ativa a transformação em Grande Macaco (Oozaru) em personagens com cauda. Não causa dano.",
+  "outdated": false
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "Page_display_title": {
+  "source": "Tree of Might",
+  "translation": "Árbol del Poder",
+  "outdated": false
+ },
+ "1": {
+  "source": "Swamps",
+  "translation": "Pantanos",
+  "outdated": false
+ },
+ "2": {
+  "source": "At least 1,000 blocks from 0, 0; one per world",
+  "translation": "A al menos 1,000 bloques de 0, 0; uno por mundo",
+  "outdated": false
+ },
+ "3": {
+  "source": "World boss lair",
+  "translation": "Guarida de jefe de mundo",
+  "outdated": false
+ },
+ "4": {
+  "source": "Unbreakable wood and roots",
+  "translation": "Madera y raíces irrompibles",
+  "outdated": false
+ },
+ "5": {
+  "source": "The '''Tree of Might''' is a giant tree that grows in a swamp on [[Special:MyLanguage/Earth|Earth]], with a canopy about 340 blocks wide. The clearing under it is the lair of the [[Special:MyLanguage/World Bosses|world boss]] [[Special:MyLanguage/Turles|Turles]].",
+  "translation": "El '''Árbol del Poder''' es un árbol gigante que crece en un pantano de la [[Special:MyLanguage/Earth|Tierra]], con una copa de unos 340 bloques de ancho. El claro que hay debajo es la guarida del [[Special:MyLanguage/World Bosses|jefe de mundo]] [[Special:MyLanguage/Turles|Turles]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "== The tree ==",
+  "translation": "== El árbol ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* The tree's wood and roots are '''unbreakable'''.\n* Its rare glowing fruit drops the '''[[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]]'''.\n* In worlds created before the tree was added, it still appears: because it's too big to place at once, it's filled in gradually and visibly grows (see [[Special:MyLanguage/Structures#Existing worlds|Existing worlds]]).",
+  "translation": "* La madera y las raíces del árbol son '''irrompibles'''.\n* Su raro fruto brillante suelta el '''[[Special:MyLanguage/Fruit of the Tree of Might|Fruto del Árbol del Poder]]'''.\n* En los mundos creados antes de que se añadiera el árbol, este también aparece: como es demasiado grande para colocarlo de una vez, se va completando poco a poco y se ve crecer (consulta [[Special:MyLanguage/Structures#Existing worlds|Mundos existentes]]).",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Turles ==",
+  "translation": "== Turles ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "[[Special:MyLanguage/Turles|Turles]] sleeps in the clearing under the tree. His lair is only set up once the Tree of Might has been generated, and he wakes when a survival or adventure player comes within 32 blocks. See [[Special:MyLanguage/World Bosses|World Bosses]] for how lairs, waking and respawning work.",
+  "translation": "[[Special:MyLanguage/Turles|Turles]] duerme en el claro bajo el árbol. Su guarida solo se prepara una vez que se ha generado el Árbol del Poder, y despierta cuando un jugador en supervivencia o aventura se acerca a 32 bloques o menos. Consulta [[Special:MyLanguage/World Bosses|Jefes de mundo]] para saber cómo funcionan las guaridas, el despertar y la reaparición.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Finding it ==",
+  "translation": "== Cómo encontrarlo ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The Tree of Might generates once per world, in a swamp at least 1,000 blocks from the world origin. Operators can see where Turles' lair is with {{Command|/dmzworldboss locate}}, and players with the locate permission can use {{Command|/dmzlocate tree_of_might}}.",
+  "translation": "El Árbol del Poder se genera una vez por mundo, en un pantano a al menos 1,000 bloques del origen del mundo. Los operadores pueden ver dónde está la guarida de Turles con {{Command|/dmzworldboss locate}}, y los jugadores con el permiso de localización pueden usar {{Command|/dmzlocate tree_of_might}}.",
+  "outdated": false
+ }
+}

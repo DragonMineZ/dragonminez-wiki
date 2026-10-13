@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "Berserker",
+  "translation": "Berserker",
+  "outdated": false
+ },
+ "1": {
+  "source": "The glass cannon: the closer to death, the stronger.",
+  "translation": "O canhão de vidro: quanto mais perto da morte, mais forte.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Bloodlust",
+  "translation": "Sede de Sangue",
+  "outdated": false
+ },
+ "3": {
+  "source": "High-risk melee at low health",
+  "translation": "Corpo a corpo de alto risco com pouca vida",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.18, STM 1.1",
+  "translation": "DEF 0.18, STM 1.1",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Berserker''' is the glass cannon among the [[Special:MyLanguage/Classes|classes]]. It has the best Strength and Vitality scalings, and its passive makes it regenerate faster and land more critical hits the more health it has lost.",
+  "translation": "'''Berserker''' é o canhão de vidro entre as [[Special:MyLanguage/Classes|classes]]. Tem os melhores escalonamentos de Força e Vitalidade, e sua passiva faz com que ele se regenere mais rápido e acerte mais golpes críticos quanto mais vida tiver perdido.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Bloodlust ==",
+  "translation": "== Passiva: Sede de Sangue ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Bloodlust scales with '''your''' missing health:",
+  "translation": "Sede de Sangue escala com a vida que falta '''a você''':",
+  "outdated": false
+ },
+ "8": {
+  "source": "* below '''66%''' health: '''+25%''' health regeneration and '''+10%''' critical hit chance;\n* below '''33%''' health: '''+75%''' health regeneration and '''+25%''' critical hit chance.",
+  "translation": "* abaixo de '''66%''' de vida: '''+25%''' de regeneração de vida e '''+10%''' de chance de crítico;\n* abaixo de '''33%''' de vida: '''+75%''' de regeneração de vida e '''+25%''' de chance de crítico.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Atributos iniciais e regeneração ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "* '''Starting stats:''' STR 10 · VIT 10\n* '''Regeneration''' (per 5 seconds): health 1.0 (+0.0375 per VIT) · Ki 2.0 (+0.04 per ENE) · stamina 14.0 (+0.04875 per VIT, +0.065 per RES)",
+  "translation": "* '''Atributos iniciais:''' STR 10 · VIT 10\n* '''Regeneração''' (a cada 5 segundos): vida 1.0 (+0.0375 por VIT) · Ki 2.0 (+0.04 por ENE) · estâmina 14.0 (+0.04875 por VIT, +0.065 por RES)",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalonamento de atributos ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "The Berserker's standout scalings are '''Strength''' (1.7) and '''Vitality''' (3.0), the highest of all classes. Its Ki Power scaling (0.4) is the lowest. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "Os escalonamentos de destaque do Berserker são '''Força''' (1.7) e '''Vitalidade''' (3.0), os mais altos de todas as classes. Seu escalonamento de Força do Ki (0.4) é o mais baixo. Os valores de VIT e DEF crescem em curva conforme você investe mais, até 4 vezes a taxa inicial. Compare todas as classes na página [[Special:MyLanguage/Classes#Default stat scalings|Classes]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "The class id is <code>berserker</code>. Its passive values (<code>hpThreshHigh</code>, <code>hpThreshLow</code>, <code>hpRegenHigh</code>, <code>critHigh</code>, <code>hpRegenLow</code> and <code>critLow</code>) are set per race in <code>races/&lt;race&gt;/stats.json</code>, together with the starting stats, scalings and regeneration.",
+  "translation": "O id da classe é <code>berserker</code>. Os valores da passiva (<code>hpThreshHigh</code>, <code>hpThreshLow</code>, <code>hpRegenHigh</code>, <code>critHigh</code>, <code>hpRegenLow</code> e <code>critLow</code>) são definidos por raça em <code>races/&lt;race&gt;/stats.json</code>, junto com os atributos iniciais, os escalonamentos e a regeneração.",
+  "outdated": false
+ }
+}

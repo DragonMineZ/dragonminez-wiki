@@ -1,0 +1,57 @@
+{
+ "Page_display_title": {
+  "source": "Fruit of the Tree of Might",
+  "translation": "Fruto da Árvore do Poder",
+  "outdated": false
+ },
+ "1": {
+  "source": "A powerful temporary power boost.",
+  "translation": "Um poderoso aumento de poder temporário.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Consumable",
+  "translation": "Consumível",
+  "outdated": false
+ },
+ "3": {
+  "source": "Might Fruit effect: ×1.2 power",
+  "translation": "Efeito Fruta do Poder: ×1.2 de poder",
+  "outdated": false
+ },
+ "4": {
+  "source": "1 minute",
+  "translation": "1 minuto",
+  "outdated": false
+ },
+ "5": {
+  "source": "Tree of Might, Turles, Shenron wish",
+  "translation": "Árvore do Poder, Turles, desejo de Shenlong",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Fruit of the Tree of Might''' gives you a powerful temporary boost: eating it applies the '''Might Fruit''' effect, which multiplies your power by ×1.2 by default for 1 minute. You can eat it even when you are not hungry.",
+  "translation": "O '''Fruto da Árvore do Poder''' dá a você um poderoso aumento temporário: comê-lo aplica o efeito '''Fruta do Poder''', que multiplica seu poder por ×1.2 por padrão durante 1 minuto. Você pode comê-lo mesmo sem estar com fome.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Getting it ==",
+  "translation": "== Como obter ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "* The rare glowing fruit of the [[Special:MyLanguage/Tree of Might|Tree of Might]], a giant tree in the swamps of [[Special:MyLanguage/Earth|Earth]], drops it (see [[Special:MyLanguage/Structures|Structures]]).\n* The [[Special:MyLanguage/Turles|Turles]] world boss, who lives under the tree, drops it 50% of the time. Turles also eats it during the fight for a damage boost.\n* [[Special:MyLanguage/Shenron|Shenron]] can grant 16 of them as a wish.",
+  "translation": "* O raro fruto brilhante da [[Special:MyLanguage/Tree of Might|Árvore do Poder]], uma árvore gigante nos pântanos da [[Special:MyLanguage/Earth|Terra]], o dropa (veja [[Special:MyLanguage/Structures|Estruturas]]).\n* O chefe de mundo [[Special:MyLanguage/Turles|Turles]], que vive sob a árvore, o dropa em 50% das vezes. Turles também o come durante a luta para aumentar o dano.\n* [[Special:MyLanguage/Shenron|Shenlong]] pode conceder 16 deles como desejo.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== The Might Fruit effect ==",
+  "translation": "== O efeito Fruta do Poder ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "The effect multiplies your Strength, Strike Power and Ki Power by ×1.2 and adds half of that bonus to your defense. Admins can give it with <code>/dmzeffect give mightfruit &lt;seconds&gt; [targets]</code> (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "O efeito multiplica sua Força, seu Poder de Golpe e sua Força do Ki por ×1.2 e adiciona metade desse bônus à sua defesa. Administradores podem dá-lo com <code>/dmzeffect give mightfruit &lt;seconds&gt; [targets]</code> (veja [[Special:MyLanguage/Effects|Efeitos]]).",
+  "outdated": false
+ }
+}

@@ -1,0 +1,517 @@
+{
+ "Page_display_title": {
+  "source": "Races",
+  "translation": "Razas",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ has '''seven playable races''': [[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]. Each race has its own racial skill, appearance options and transformation lines. Humans can later become [[Special:MyLanguage/Android|Androids]], a sub-race with its own forms and racial skill. You pick your race when you create your character, and it shapes how you fight for the rest of the game.",
+  "translation": "DragonMineZ tiene '''siete razas jugables''': [[Special:MyLanguage/Human|Humano]], [[Special:MyLanguage/Saiyan|Saiyajin]], [[Special:MyLanguage/Namekian|Namekiano]], [[Special:MyLanguage/Frost Demon|Demonio del Frío]], [[Special:MyLanguage/Bio-Android|Bio-Androide]], [[Special:MyLanguage/Majin|Majin]] y [[Special:MyLanguage/Glind|Glind]]. Cada raza tiene su propia habilidad racial, opciones de apariencia y líneas de transformación. Más adelante, los Humanos pueden convertirse en [[Special:MyLanguage/Android|Androides]], una subraza con formas y habilidad racial propias. Eliges tu raza al crear tu personaje, y define cómo peleas durante el resto del juego.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Versatile fighters who learn fast and pay for cheaper ki with their own health.",
+  "translation": "Luchadores versátiles que aprenden rápido y pagan un ki más barato con su propia vida.",
+  "outdated": false
+ },
+ "3": {
+  "source": "A warrior race that survives lethal blows and grows stronger after every battle.",
+  "translation": "Una raza guerrera que sobrevive a golpes letales y se vuelve más fuerte tras cada batalla.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Regenerators who assimilate other Namekians to grow stronger.",
+  "translation": "Regeneradores que asimilan a otros Namekianos para volverse más fuertes.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Conquerors who earn more TP, master their forms faster and evolve through them.",
+  "translation": "Conquistadores que ganan más TP, dominan sus formas más rápido y evolucionan a través de ellas.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Artificial beings whose racial skill changes as they evolve toward perfection.",
+  "translation": "Seres artificiales cuya habilidad racial cambia a medida que evolucionan hacia la perfección.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Magical beings who absorb their foes and get more out of every heal.",
+  "translation": "Seres mágicos que absorben a sus enemigos y aprovechan más cada curación.",
+  "outdated": false
+ },
+ "8": {
+  "source": "An ancient race whose divine ki hides them from scouters and cuts their foes' healing.",
+  "translation": "Una raza ancestral cuyo ki divino la oculta de los escáneres y reduce la curación de sus enemigos.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Humans rebuilt by Dr. Gero, with cheaper ki, a ki-absorbing barrier and their own forms.",
+  "translation": "Humanos reconstruidos por el Dr. Gero, con ki más barato, una barrera que absorbe ki y formas propias.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Choosing a race ==",
+  "translation": "== Elegir una raza ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The first screen of character creation is a carousel with every race loaded on the server: the seven default races plus any custom race added by the server or an add-on. Use the arrows under the model to browse them; each race has its own panorama background.",
+  "translation": "La primera pantalla de la creación de personaje es un carrusel con todas las razas cargadas en el servidor: las siete razas por defecto más cualquier raza personalizada que agregue el servidor o un addon. Usa las flechas debajo del modelo para recorrerlas; cada raza tiene su propio fondo panorámico.",
+  "outdated": false
+ },
+ "12": {
+  "source": "* The left side shows the race description.\n* The right panel lists its racial skills with your server's live values.\n* Press '''Select''' to move on to customization with that race. Switching race resets your appearance to that race's defaults.",
+  "translation": "* El lado izquierdo muestra la descripción de la raza.\n* El panel derecho lista sus habilidades raciales con los valores reales de tu servidor.\n* Pulsa '''Seleccionar''' para pasar a la personalización con esa raza. Cambiar de raza restablece tu apariencia a los valores por defecto de esa raza.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Your race is permanent. The '''Re-Customize Character''' wish of [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] lets you change your appearance and class, but not your race. The only change of race in the game is a Human's upgrade into an Android (see [[Special:MyLanguage/Races#The Android upgrade|below]]).",
+  "translation": "Tu raza es permanente. El deseo '''Personalizar Personaje de Nuevo''' de [[Special:MyLanguage/Shenron|Shenron]] y [[Special:MyLanguage/Porunga|Porunga]] te permite cambiar tu apariencia y tu clase, pero no tu raza. El único cambio de raza del juego es la conversión de un Humano en Androide (ver [[Special:MyLanguage/Races#The Android upgrade|más abajo]]).",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Comparison ==",
+  "translation": "== Comparación ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "16": {
+  "source": "Racial skill",
+  "translation": "Habilidad racial",
+  "outdated": false
+ },
+ "17": {
+  "source": "Form groups",
+  "translation": "Grupos de formas",
+  "outdated": false
+ },
+ "18": {
+  "source": "Hair and head parts",
+  "translation": "Pelo y partes de la cabeza",
+  "outdated": false
+ },
+ "19": {
+  "source": "Gender",
+  "translation": "Género",
+  "outdated": false
+ },
+ "20": {
+  "source": "Blood-Fueled Ki, Fast Learner, Adrenaline",
+  "translation": "Ki de Sangre, Aprendiz Veloz, Adrenalina",
+  "outdated": false
+ },
+ "21": {
+  "source": "Super (4 forms), Legendary (3)",
+  "translation": "Super (4 formas), Legendario (3)",
+  "outdated": false
+ },
+ "22": {
+  "source": "Hairstyles",
+  "translation": "Peinados",
+  "outdated": false
+ },
+ "23": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "24": {
+  "source": "Android Core, Absorption Barrier, Fast Learner, Adrenaline",
+  "translation": "Núcleo Androide, Barrera de Absorción, Aprendiz Veloz, Adrenalina",
+  "outdated": false
+ },
+ "25": {
+  "source": "Android (3)",
+  "translation": "Androide (3)",
+  "outdated": false
+ },
+ "26": {
+  "source": "Hairstyles",
+  "translation": "Peinados",
+  "outdated": false
+ },
+ "27": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "28": {
+  "source": "Zenkai, Limitless Power",
+  "translation": "Zenkai, Poder Ilimitado",
+  "outdated": false
+ },
+ "29": {
+  "source": "Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1)",
+  "translation": "Oozaru (3), Grados SS (3), Super Saiyajin (4), Mutante (3), Forma Falsa (1)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Hairstyles and a tail",
+  "translation": "Peinados y una cola",
+  "outdated": false
+ },
+ "31": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "32": {
+  "source": "Assimilation, Regeneration, Water Affinity",
+  "translation": "Asimilación, Regeneración, Afinidad con el Agua",
+  "outdated": false
+ },
+ "33": {
+  "source": "Super (3), Legendary (3)",
+  "translation": "Super (3), Legendario (3)",
+  "outdated": false
+ },
+ "34": {
+  "source": "Antennae",
+  "translation": "Antenas",
+  "outdated": false
+ },
+ "35": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "36": {
+  "source": "Prodigious Strength, Evolutionary Mastery, Hardened Body, Power Reserve",
+  "translation": "Fuerza Prodigiosa, Maestría Evolutiva, Cuerpo Endurecido, Reserva de Poder",
+  "outdated": false
+ },
+ "37": {
+  "source": "Evolution (5), Artificial (3)",
+  "translation": "Evolución (5), Artificial (3)",
+  "outdated": false
+ },
+ "38": {
+  "source": "Horns",
+  "translation": "Cuernos",
+  "outdated": false
+ },
+ "39": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "40": {
+  "source": "Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.",
+  "translation": "Bio-Evolución: Drenaje Vital, Autodestrucción, Cell Jr.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Bio-Evolution (4), Bio-Corruption (3)",
+  "translation": "Bio-Evolución (4), Bio-Corrupción (3)",
+  "outdated": false
+ },
+ "42": {
+  "source": "None",
+  "translation": "Ninguna",
+  "outdated": false
+ },
+ "43": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "44": {
+  "source": "Absorption, Sweet Tooth, Healing Magic",
+  "translation": "Absorción, Goloso, Magia Curativa",
+  "outdated": false
+ },
+ "45": {
+  "source": "Pure (4), Demon (3)",
+  "translation": "Puro (4), Demonio (3)",
+  "outdated": false
+ },
+ "46": {
+  "source": "Head tentacle and hairstyles",
+  "translation": "Tentáculo en la cabeza y peinados",
+  "outdated": false
+ },
+ "47": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "48": {
+  "source": "Divine Ki, Celestial Body, Divine Punishment, Light and Darkness",
+  "translation": "Ki Divino, Cuerpo Celestial, Castigo Divino, Luz y Oscuridad",
+  "outdated": false
+ },
+ "49": {
+  "source": "Super (5), Legendary (4)",
+  "translation": "Super (5), Legendario (4)",
+  "outdated": false
+ },
+ "50": {
+  "source": "Ears and hairstyles",
+  "translation": "Orejas y peinados",
+  "outdated": false
+ },
+ "51": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "52": {
+  "source": "Group names are the ones shown in game. Every class is available to every race (see [[Special:MyLanguage/Classes|Classes]]).",
+  "translation": "Los nombres de los grupos son los que se muestran en el juego. Todas las clases están disponibles para todas las razas (ver [[Special:MyLanguage/Classes|Clases]]).",
+  "outdated": false
+ },
+ "53": {
+  "source": "== Racial skills ==",
+  "translation": "== Habilidades raciales ==",
+  "outdated": false
+ },
+ "54": {
+  "source": "Every race has a '''racial skill''': a set of signature passives and, for some races, an ability you use with the action key. The race-selection screen and the '''Skills''' menu list each part of it with your server's live values; the numbers on this wiki are the defaults.",
+  "translation": "Cada raza tiene una '''habilidad racial''': un conjunto de pasivas características y, en algunas razas, una habilidad que usas con la tecla de acción. La pantalla de selección de raza y el menú '''Habilidades''' muestran cada parte con los valores reales de tu servidor; los números de esta wiki son los valores por defecto.",
+  "outdated": false
+ },
+ "55": {
+  "source": "Racial skills that need input are used by selecting the racial skill in the '''X''' (utility) menu and pressing or holding the '''action key''' ('''G'''). The permanent racial bonuses (Zenkai, Assimilation, Absorption) can be reset with the '''Reset Passive''' wish or with <code>/dmzracial reset [targets]</code>.",
+  "translation": "Las habilidades raciales que requieren una acción se usan seleccionando la habilidad racial en el menú '''X''' (utilidades) y pulsando o manteniendo la '''tecla de acción''' ('''G'''). Las bonificaciones raciales permanentes (Zenkai, Asimilación, Absorción) se pueden reiniciar con el deseo '''Reiniciar Pasiva Racial''' o con <code>/dmzracial reset [targets]</code>.",
+  "outdated": false
+ },
+ "56": {
+  "source": "== Transformations ==",
+  "translation": "== Transformaciones ==",
+  "outdated": false
+ },
+ "57": {
+  "source": "Each race has its own transformations, organized into form groups. You unlock them one after another with Training Points, mastery and progress in the [[Special:MyLanguage/Sagas|story]]. Every race page lists its complete set of forms with their costs, story requisites, multipliers and upkeep. On top of race forms, every race can learn the stack forms [[Special:MyLanguage/Kaioken|Kaioken]] and [[Special:MyLanguage/Ultimate|Ultimate]].",
+  "translation": "Cada raza tiene sus propias transformaciones, organizadas en grupos de formas. Las desbloqueas una tras otra con Puntos de Entrenamiento, maestría y progreso en la [[Special:MyLanguage/Sagas|historia]]. Cada página de raza lista su conjunto completo de formas con sus costos, requisitos de historia, multiplicadores y consumo. Además de las formas de su raza, todas las razas pueden aprender las formas acumulables [[Special:MyLanguage/Kaioken|Kaioken]] y [[Special:MyLanguage/Ultimate|Definitivo]].",
+  "outdated": false
+ },
+ "58": {
+  "source": "== The Android upgrade ==",
+  "translation": "== La conversión en Androide ==",
+  "outdated": false
+ },
+ "59": {
+  "source": "Humans, and by default only Humans, can be converted into '''Androids''' by [[Special:MyLanguage/Dr. Gero|Dr. Gero]] in his laboratory. Androids are a sub-race of the Human race:",
+  "translation": "Los Humanos, y por defecto solo los Humanos, pueden ser convertidos en '''Androides''' por el [[Special:MyLanguage/Dr. Gero|Dr. Gero]] en su laboratorio. Los Androides son una subraza de la raza Humana:",
+  "outdated": false
+ },
+ "60": {
+  "source": "* The change is '''permanent''': an Android can never go back to being a normal Human.\n* Androids lose the Human Super and Legendary forms and get the '''Android forms''' line instead (Android Base, Super Android, Fused Android).\n* Blood-Fueled Ki is replaced by '''Android Core''' and '''Absorption Barrier'''; Fast Learner and Adrenaline are kept.\n* Androids can't use the [[Special:MyLanguage/Fusion Dance|Fusion Dance]], and the upgrade isn't possible while you are fused.",
+  "translation": "* El cambio es '''permanente''': un Androide nunca puede volver a ser un Humano normal.\n* Los Androides pierden las formas Super y Legendario de los Humanos y reciben en su lugar la línea de '''Formas Androide''' (Base Androide, Super Androide, Androide Fusionado).\n* Ki de Sangre se reemplaza por '''Núcleo Androide''' y '''Barrera de Absorción'''; Aprendiz Veloz y Adrenalina se conservan.\n* Los Androides no pueden usar la [[Special:MyLanguage/Fusion Dance|Danza de la Fusión]], y la conversión no es posible mientras estás fusionado.",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Legendary forms ==",
+  "translation": "== Formas legendarias ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "'''Every race has a Legendary form line with 3 levels''' (Glinds get two alternative forms on the third level). Several races show this group under their own name in game:",
+  "translation": "'''Todas las razas tienen una línea de formas Legendario con 3 niveles''' (los Glind obtienen dos formas alternativas en el tercer nivel). Varias razas muestran este grupo con su propio nombre en el juego:",
+  "outdated": false
+ },
+ "63": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "64": {
+  "source": "Group in game",
+  "translation": "Grupo en el juego",
+  "outdated": false
+ },
+ "65": {
+  "source": "Level 1",
+  "translation": "Nivel 1",
+  "outdated": false
+ },
+ "66": {
+  "source": "Level 2",
+  "translation": "Nivel 2",
+  "outdated": false
+ },
+ "67": {
+  "source": "Level 3",
+  "translation": "Nivel 3",
+  "outdated": false
+ },
+ "68": {
+  "source": "Legendary",
+  "translation": "Legendario",
+  "outdated": false
+ },
+ "69": {
+  "source": "Shiyoken",
+  "translation": "Shiyoken",
+  "outdated": false
+ },
+ "70": {
+  "source": "Shin Shiyoken",
+  "translation": "Shin Shiyoken",
+  "outdated": false
+ },
+ "71": {
+  "source": "Chou Shiyoken",
+  "translation": "Chou Shiyoken",
+  "outdated": false
+ },
+ "72": {
+  "source": "Mutant (the Legendary Super Saiyan line)",
+  "translation": "Mutante (la línea del Super Saiyajin Legendario)",
+  "outdated": false
+ },
+ "73": {
+  "source": "Ikari",
+  "translation": "Ikari",
+  "outdated": false
+ },
+ "74": {
+  "source": "SSJ Hybrid",
+  "translation": "SSJ Híbrido",
+  "outdated": false
+ },
+ "75": {
+  "source": "SSJ Full Power",
+  "translation": "SSJ Full Power",
+  "outdated": false
+ },
+ "76": {
+  "source": "Legendary",
+  "translation": "Legendario",
+  "outdated": false
+ },
+ "77": {
+  "source": "Evil Namek",
+  "translation": "Namekiano Maligno",
+  "outdated": false
+ },
+ "78": {
+  "source": "Evil Giant Namek",
+  "translation": "Namekiano Gigante Maligno",
+  "outdated": false
+ },
+ "79": {
+  "source": "Buffed Namek",
+  "translation": "Namekiano Potenciado",
+  "outdated": false
+ },
+ "80": {
+  "source": "Artificial",
+  "translation": "Artificial",
+  "outdated": false
+ },
+ "81": {
+  "source": "Mecha",
+  "translation": "Mecha",
+  "outdated": false
+ },
+ "82": {
+  "source": "Metal",
+  "translation": "Metal",
+  "outdated": false
+ },
+ "83": {
+  "source": "Metal-Core",
+  "translation": "Núcleo Metálico",
+  "outdated": false
+ },
+ "84": {
+  "source": "Bio-Corruption",
+  "translation": "Bio-Corrupción",
+  "outdated": false
+ },
+ "85": {
+  "source": "Xeno",
+  "translation": "Xeno",
+  "outdated": false
+ },
+ "86": {
+  "source": "Xeno Full Power",
+  "translation": "Xeno Poder Total",
+  "outdated": false
+ },
+ "87": {
+  "source": "Xeno Max",
+  "translation": "Xeno Máximo",
+  "outdated": false
+ },
+ "88": {
+  "source": "Demon",
+  "translation": "Demonio",
+  "outdated": false
+ },
+ "89": {
+  "source": "Innocence Demon",
+  "translation": "Demonio Inocente",
+  "outdated": false
+ },
+ "90": {
+  "source": "Giant Innocence Demon",
+  "translation": "Demonio Inocente Gigante",
+  "outdated": false
+ },
+ "91": {
+  "source": "Super Demon",
+  "translation": "Super Demonio",
+  "outdated": false
+ },
+ "92": {
+  "source": "Legendary",
+  "translation": "Legendario",
+  "outdated": false
+ },
+ "93": {
+  "source": "Transcended",
+  "translation": "Trascendido",
+  "outdated": false
+ },
+ "94": {
+  "source": "Dark King",
+  "translation": "Rey Oscuro",
+  "outdated": false
+ },
+ "95": {
+  "source": "Time Power: Dark King, Time Power: Realm of Light",
+  "translation": "Poder del Tiempo: Rey Oscuro, Poder del Tiempo: Reino de la Luz",
+  "outdated": false
+ },
+ "96": {
+  "source": "By default every level of this line costs <code>-1</code> TP, which means it '''can't be bought''' with Training Points. There are two ways to use these forms:",
+  "translation": "Por defecto, cada nivel de esta línea cuesta <code>-1</code> TP, lo que significa que '''no se puede comprar''' con Puntos de Entrenamiento. Hay dos maneras de usar estas formas:",
+  "outdated": false
+ },
+ "97": {
+  "source": "* '''Earn them in the story.''' Three quests of the [[Special:MyLanguage/Movies Saga|Movies Saga]] grant the Legendary Forms skill one level at a time.\n* '''Borrow them as a Mutant.''' A random player can become a [[Special:MyLanguage/Mutant|Mutant]] through the server's Mutant lottery. Mutants fill a rage meter in combat; while it is full or active they can use Legendary forms they don't own yet, at reduced power.",
+  "translation": "* '''Gánalas en la historia.''' Tres misiones de la [[Special:MyLanguage/Movies Saga|Saga Películas]] otorgan la habilidad Formas Legendarias un nivel a la vez.\n* '''Tómalas prestadas como Mutante.''' Un jugador al azar puede convertirse en [[Special:MyLanguage/Mutant|Mutante]] mediante la lotería Mutante del servidor. Los Mutantes llenan un medidor de furia en combate; mientras está lleno o activo, pueden usar formas Legendarias que todavía no tienen, con poder reducido.",
+  "outdated": false
+ },
+ "98": {
+  "source": "Androids lose their Legendary line along with the Super forms. Both methods are explained in [[Special:MyLanguage/Transformations#Legendary forms|Transformations]]. Server owners can also give the three levels real TP costs in the race's <code>character.json</code>.",
+  "translation": "Los Androides pierden su línea Legendario junto con las formas Super. Ambos métodos se explican en [[Special:MyLanguage/Transformations#Legendary forms|Transformaciones]]. Los dueños de servidores también pueden darles costos de TP reales a los tres niveles en el <code>character.json</code> de la raza.",
+  "outdated": false
+ },
+ "99": {
+  "source": "== Customizing races (server owners) ==",
+  "translation": "== Personalizar razas (dueños de servidores) ==",
+  "outdated": false
+ },
+ "100": {
+  "source": "Each race has its own folder, <code>config/dragonminez/races/&lt;race&gt;/</code>. In its <code>character.json</code> you can edit:",
+  "translation": "Cada raza tiene su propia carpeta, <code>config/dragonminez/races/&lt;race&gt;/</code>. En su <code>character.json</code> puedes editar:",
+  "outdated": false
+ },
+ "101": {
+  "source": "* '''Gender''' (<code>hasGender</code>). By default only Human, Saiyan, Majin and Glind use gender.\n* '''Model''': the vanilla player skin (<code>useVanillaSkin</code>), a custom model, layering, model scaling, head bones and which body types use slim arms (<code>slimBodyTypes</code>).\n* '''Default appearance''': body type, hair type, eyes, nose, mouth and tattoo, all colors (three body colors, hair, both eyes, aura) and the aura type (2D <code>auraType</code>, 3D <code>auraType3D</code> and its <code>aura3DStyle</code>).\n* '''Racial skill''' assignment and the '''form skill TP costs''' (Super, God, Legendary and Android forms).",
+  "translation": "* '''Género''' (<code>hasGender</code>). Por defecto, solo Humano, Saiyajin, Majin y Glind usan género.\n* '''Modelo''': la skin de jugador vanilla (<code>useVanillaSkin</code>), un modelo personalizado, capas, escala del modelo, huesos de la cabeza y qué tipos de cuerpo usan brazos delgados (<code>slimBodyTypes</code>).\n* '''Apariencia por defecto''': tipo de cuerpo, tipo de pelo, ojos, nariz, boca y tatuaje, todos los colores (tres colores de cuerpo, pelo, ambos ojos, aura) y el tipo de aura (2D <code>auraType</code>, 3D <code>auraType3D</code> y su <code>aura3DStyle</code>).\n* La asignación de la '''habilidad racial''' y los '''costos de TP de las habilidades de formas''' (formas Super, Divinas, Legendarias y Androide).",
+  "outdated": false
+ },
+ "102": {
+  "source": "Players pick from the appearance options in the character-creation screen; how many body types, eyes and other options a race offers depends on how many textures exist for it. Class stat scalings live separately in the race's <code>stats.json</code>. The racial skills themselves are tuned in the <code>racialSkills</code> section of <code>general-server.json</code> (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
+  "translation": "Los jugadores eligen entre las opciones de apariencia en la pantalla de creación de personaje; cuántos tipos de cuerpo, ojos y demás opciones ofrece una raza depende de cuántas texturas existan para ella. Los escalados de estadísticas por clase están aparte, en el <code>stats.json</code> de la raza. Las habilidades raciales en sí se ajustan en la sección <code>racialSkills</code> de <code>general-server.json</code> (ver [[Special:MyLanguage/Racial Skills|Habilidades raciales]]).",
+  "outdated": false
+ }
+}

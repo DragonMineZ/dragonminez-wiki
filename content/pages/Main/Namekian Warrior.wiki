@@ -1,32 +1,45 @@
 {{Infobox Mob
-|Type=<translate>Village defender</translate>
+|Type=<translate><!--T:1--> Village defender</translate>
 |Dimension={{L|Namek}}
-|Spawns=<translate>Namekian villages</translate>
-|Behavior=<translate>Guards its village and attacks hostile mobs; does not trade</translate>
+|Spawns=<translate><!--T:2--> Namekian villages</translate>
+|Behavior=<translate><!--T:3--> Guards its village and attacks hostile mobs; does not trade</translate>
 |Health=200
-|Damage=<translate>About 15</translate>
-|Abilities=<translate>Flight</translate>
-|Drops=<translate>None</translate>
+|Damage=<translate><!--T:4--> About 15</translate>
+|Abilities=<translate><!--T:5--> Flight</translate>
+|Drops=<translate><!--T:6--> None</translate>
 }}
 <translate>
+<!--T:7-->
 '''Namekian Warriors''' are the defenders of the Namekian villages on [[Special:MyLanguage/Namek|Planet Namek]]. They don't trade: they guard their village, fly, and fight the hostile mobs that come near.
 </translate>
 
 <translate>
-== Where to find them ==
+== Where to find them == <!--T:8-->
 
+<!--T:9-->
 Namekian Warriors are placed in the Namekian villages, Ajissa-style in the Ajissa Plains and Sacred-style in the Sacred Land, and the villages keep spawning a few more inside their walls.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:10-->
 
+<!--T:11-->
 Warriors use the village alert and defend behavior: they attack hostile mobs with about 15 melee damage and have 200 health. They can fly, and they return to their village when they wander off.
 
+<!--T:12-->
 They are the main target of the [[Special:MyLanguage/Gete Robot|Gete Robots]] that march on the villages.
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:namek_warrior</code>}}
+<translate>
+== Gallery == <!--T:14-->
+</translate>
+<gallery>
+File:Namekian Warrior (Variant 1).png|<translate><!--T:15--> Variant 2</translate>
+File:Namekian Warrior (Variant 2).png|<translate><!--T:16--> Variant 3</translate>
+File:Namekian Warrior (Variant 3).png|<translate><!--T:17--> Variant 4</translate>
+</gallery>
+
+{{Note|type=config|title=<translate><!--T:13--> Entity id</translate>|<code>dragonminez:namek_warrior</code>}}
 
 {{Navbox Bestiary}}
 [[Category:NPCs{{#translation:}}]]

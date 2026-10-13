@@ -1,0 +1,54 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> Only in the [[Special:MyLanguage/Cell Games|Cell Games]] and an Android Saga quest</translate>
+|Behavior=<translate><!--T:3--> Flies; Novice to Elite AI in the Cell Games, depending on his seat</translate>
+|Abilities=<translate><!--T:4--> Flight, Ki Wave, Ki Volley, Melee Combo, dodging, teleporting</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Android 16''' is one of the androids of the [[Special:MyLanguage/Android Saga|Android Saga]], a little bigger than a player. He is one of the fighters who can be drawn as a contender in the [[Special:MyLanguage/Cell Games|Cell Games]], and your sparring partner in the Android Saga quest '''The Gentle Giant'''.
+</translate>
+
+<translate>
+== In the tournament == <!--T:7-->
+
+<!--T:8-->
+Android 16 is one of the Cell Saga fighters that fill the contender seats of the [[Special:MyLanguage/Cell Games|Cell Games]] bracket, hosted by [[Special:MyLanguage/Cell|Cell]]. Each run draws its contenders at random, each character at most once, so he isn't in every bracket; the draw is only revealed once everybody accepts the rules. His fellow contenders can include [[Special:MyLanguage/Tien Shinhan|Tien Shinhan]].
+
+<!--T:9-->
+His stats come from the seat he is drawn into: by default a contender has between 66,500 and 210,000 health, 2,700 to 8,700 melee damage and 2,420 to 7,820 ki damage, fights on the Novice, Smart or Elite AI tier, and gets 8% stronger for every round already played.
+
+<!--T:10-->
+The Cell Games are '''lethal''': losing a bout kills you. See [[Special:MyLanguage/Tournaments|Tournaments]] for how bouts work.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:11-->
+
+<!--T:12-->
+Android 16 flies.
+
+<!--T:13-->
+* '''Ki Wave:''' a large yellow ki wave.
+* '''Ki Volley:''' a burst of fast ki blasts.
+* '''Melee Combo:''' he teleports around you and lands three hits.
+* '''Dodging:''' every so often he steps out of the way of an attack.
+* '''Teleporting:''' on the Smart AI tier and above he can also teleport next to his target.
+
+<!--T:14-->
+How well he uses them depends on his AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+<translate>
+== In the story == <!--T:15-->
+
+<!--T:16-->
+In the [[Special:MyLanguage/Android Saga|Android Saga]] quest '''The Gentle Giant''' you spar with Android 16 in Earth's mountains. Spars are non-lethal: he concedes instead of dying.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:17--> Entity id</translate>|<code>dragonminez:saga_a16</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

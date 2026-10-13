@@ -28,9 +28,7 @@
 	"dmz-search-fulltext": "Search all pages for \"$1\"",
 	"dmz-search-empty": "No pages match \"$1\"",
 	"dmz-user-tools": "Account",
-	"dmz-translation-available": "This page is also available in $1.",
 	"dmz-translation-missing": "This page has no $1 version yet, so it is shown in $2.",
-	"dmz-translation-switch": "Read in $1",
 	"dmz-home-hero-title": "Everything about DragonMineZ",
 	"dmz-home-hero-subtitle": "Races, transformations, combat, sagas and every system of the mod, kept up to date with each release.",
 	"dmz-login": "Log in",
@@ -52,5 +50,9 @@
 	"dmz-rail-changelog": "Changelog",
 	"dmz-rail-popular-pages": "Races\nTransformations\nBeginner's Guide\nTechniques\nSagas\nWorld Bosses\nCommands\nFAQ",
 	"dmz-sidebar-challenges": "Challenges",
-	"dmz-sidebar-gear": "Gear"
+	"dmz-sidebar-gear": "Gear",
+	"dmz-finder-placeholder": "Type an item name…",
+	"dmz-finder-empty": "No craftable item matches that name.",
+	"dmz-finder-loading": "Loading the crafting tree…",
+	"dmz-finder-error": "The crafting tree couldn't be loaded. Try again."
 }

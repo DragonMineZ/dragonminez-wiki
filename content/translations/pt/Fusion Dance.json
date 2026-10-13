@@ -1,0 +1,172 @@
+{
+ "Page_display_title": {
+  "source": "Fusion Dance",
+  "translation": "Dança da Fusão",
+  "outdated": false
+ },
+ "1": {
+  "source": "Fu... sion... Ha!",
+  "translation": "Fu... são... Ha!",
+  "outdated": false
+ },
+ "2": {
+  "source": "Dance (Metamoru), with the Fusion skill",
+  "translation": "Dança (Metamoru), com a habilidade Fusão",
+  "outdated": false
+ },
+ "3": {
+  "source": "Fusion skill on both players, same race, same form, stats within 50% of each other",
+  "translation": "Habilidade Fusão nos dois jogadores, mesma raça, mesma forma e atributos com diferença de até 50%",
+  "outdated": false
+ },
+ "4": {
+  "source": "Scales with the Fusion skill level, up to the full server duration (15 minutes by default)",
+  "translation": "Escala com o nível da habilidade Fusão, até a duração completa do servidor (15 minutos por padrão)",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Nenhum",
+  "outdated": false
+ },
+ "6": {
+  "source": "Bonus STR, SKP and PWR from the partner, ×1.25 to ×2.0",
+  "translation": "STR, SKP e PWR extras do parceiro, de ×1.25 a ×2.0",
+  "outdated": false
+ },
+ "7": {
+  "source": "Both players get a Fusion cooldown (30 minutes by default)",
+  "translation": "Os dois jogadores recebem uma recarga de Fusão (30 minutos por padrão)",
+  "outdated": false
+ },
+ "8": {
+  "source": "The '''Fusion Dance''' (Metamoru) is the classic dance fusion. It uses the '''Fusion''' skill and costs nothing but timing, but it has the strictest requirements of the three [[Special:MyLanguage/Fusions|fusion methods]]: both dancers must be the same race, in the same form, and close in power.",
+  "translation": "A '''Dança da Fusão''' (Metamoru) é a clássica fusão por dança. Ela usa a habilidade '''Fusão''' e não custa nada além de sincronia, mas tem os requisitos mais rígidos dos três [[Special:MyLanguage/Fusions|métodos de fusão]]: os dois dançarinos precisam ser da mesma raça, estar na mesma forma e ter poder parecido.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== The Fusion skill ==",
+  "translation": "== A habilidade Fusão ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Both players need the '''Fusion''' skill, taught by [[Special:MyLanguage/Goku|Goku]] (Good alignment). It has 5 levels, and its level sets how long the fusion lasts.",
+  "translation": "Os dois jogadores precisam da habilidade '''Fusão''', ensinada por [[Special:MyLanguage/Goku|Goku]] (índole Boa). Ela tem 5 níveis, e o nível define quanto tempo a fusão dura.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Level",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "12": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Requirements ==",
+  "translation": "== Requisitos ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "* Both players must have the '''Fusion''' skill.\n* Both players must be the '''same race'''.\n* Both players must be in the '''same form''': both in base form, or both in the same transformation and the same stack form (for example, both Super Saiyan 2 with [[Special:MyLanguage/Kaioken|Kaioken]]). The fusion is born in that form.\n* Neither player may be an upgraded [[Special:MyLanguage/Android|Android]]: Androids can't dance.\n* The two players' total stats must be close enough. If the gap is larger than 50% (the server default), the dance fails with a \"level gap\" message.\n* Neither player may already be fused, be '''in combat''', or be on '''Fusion cooldown'''.",
+  "translation": "* Os dois jogadores precisam ter a habilidade '''Fusão'''.\n* Os dois jogadores precisam ser da '''mesma raça'''.\n* Os dois jogadores precisam estar na '''mesma forma''': ambos na forma base, ou ambos na mesma transformação e na mesma forma acumulável (por exemplo, ambos em Super Saiyajin 2 com [[Special:MyLanguage/Kaioken|Kaioken]]). A fusão nasce nessa forma.\n* Nenhum dos jogadores pode ser um [[Special:MyLanguage/Android|Android]] aprimorado: Androids não podem dançar.\n* Os atributos totais dos dois jogadores precisam ser parecidos o bastante. Se a diferença passar de 50% (o padrão do servidor), a dança falha com uma mensagem de \"diferença de nível\".\n* Nenhum dos jogadores pode já estar fundido, estar '''em combate''' ou estar com a '''recarga de Fusão''' ativa.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Performing the dance ==",
+  "translation": "== Fazendo a dança ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "# Both players open the Utility Menu ({{Key|X}}) and select the '''Fusion''' action.\n# Both players '''hold the Action key''' ({{Key|G}}) to charge the dance. While charging you are locked in place and your facing is frozen.\n# Two players charging the dance within '''8 blocks''' of each other pair up: both turn to face the same way, side by side, and glide into place so their fingertips meet at the end of the dance. If one of the spots is blocked or has no ground, they only turn. Both charges restart together, so the full dance always plays before the fusion. If the two can't fuse (different race or form, an Android, too big a stat gap), both get the reason right away and nobody moves.\n# When one player reaches a '''full charge''' while the partner, within about 5 blocks, is at least '''half-charged and still charging''', the fusion triggers. '''The player whose charge fills first becomes the leader''' and controls the fused body; the partner rides along as a passenger.",
+  "translation": "# Os dois jogadores abrem o Menu de Utilidades ({{Key|X}}) e selecionam a ação '''Fusão'''.\n# Os dois jogadores '''seguram a tecla de Ação''' ({{Key|G}}) para carregar a dança. Enquanto carrega, você fica preso no lugar e a sua direção fica congelada.\n# Dois jogadores carregando a dança a até '''8 blocos''' um do outro formam um par: os dois se viram para o mesmo lado, lado a lado, e deslizam até a posição para que as pontas dos dedos se toquem no fim da dança. Se um dos pontos estiver bloqueado ou sem chão, eles só se viram. As duas cargas reiniciam juntas, então a dança completa sempre acontece antes da fusão. Se os dois não puderem se fundir (raça ou forma diferente, um Android, diferença de atributos grande demais), os dois recebem o motivo na hora e ninguém se move.\n# Quando um jogador chega à '''carga completa''' enquanto o parceiro, a cerca de 5 blocos ou menos, está com pelo menos '''metade da carga e ainda carregando''', a fusão é ativada. '''O jogador cuja carga enche primeiro se torna o líder''' e controla o corpo fundido; o parceiro vai junto como passageiro.",
+  "outdated": false
+ },
+ "17": {
+  "source": "== Result ==",
+  "translation": "== Resultado ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "* Bonus stats are added from the partner's STR, SKP and PWR, scaled from '''×1.25 to ×2.0''' depending on how evenly matched the two were: the closer their stats, the bigger the multiplier.\n* The duration scales with the '''average Fusion skill level''' of the two players. With both at the maximum level, the fusion lasts the full server duration.\n* When it ends, '''both''' players go on '''Fusion cooldown''' (30 minutes by default).",
+  "translation": "* Atributos extras são somados a partir de STR, SKP e PWR do parceiro, escalados de '''×1.25 a ×2.0''' conforme o equilíbrio entre os dois: quanto mais parecidos os atributos, maior o multiplicador.\n* A duração escala com o '''nível médio da habilidade Fusão''' dos dois jogadores. Com os dois no nível máximo, a fusão dura a duração completa do servidor.\n* Quando ela termina, '''os dois''' jogadores entram em '''recarga de Fusão''' (30 minutos por padrão).",
+  "outdated": false
+ },
+ "19": {
+  "source": "What you can and can't do while fused is described on the [[Special:MyLanguage/Fusions|Fusions]] page.",
+  "translation": "O que você pode e não pode fazer enquanto está fundido é descrito na página [[Special:MyLanguage/Fusions|Fusões]].",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Failure messages ==",
+  "translation": "== Mensagens de falha ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Message",
+  "translation": "Mensagem",
+  "outdated": false
+ },
+ "22": {
+  "source": "Reason",
+  "translation": "Motivo",
+  "outdated": false
+ },
+ "23": {
+  "source": "\"You can only fuse (Metamoru) with players of the same race.\"",
+  "translation": "\"Você só pode fundir (Metamoru) com jogadores da mesma raça.\"",
+  "outdated": false
+ },
+ "24": {
+  "source": "Different races.",
+  "translation": "Raças diferentes.",
+  "outdated": false
+ },
+ "25": {
+  "source": "\"You can only fuse (Metamoru) while both of you are in the same form.\"",
+  "translation": "\"Você só pode fundir (Metamoru) enquanto os dois estiverem na mesma forma.\"",
+  "outdated": false
+ },
+ "26": {
+  "source": "Different forms or stack forms.",
+  "translation": "Formas ou formas acumuláveis diferentes.",
+  "outdated": false
+ },
+ "27": {
+  "source": "\"You can only fuse (Metamoru) with a player similar in level to you.\"",
+  "translation": "\"Você só pode fundir (Metamoru) com um jogador do mesmo nível que você.\"",
+  "outdated": false
+ },
+ "28": {
+  "source": "The stat gap is too large.",
+  "translation": "A diferença de atributos é grande demais.",
+  "outdated": false
+ },
+ "29": {
+  "source": "\"Androids cannot perform fusion.\"",
+  "translation": "\"Androids não podem fazer fusão.\"",
+  "outdated": false
+ },
+ "30": {
+  "source": "One of the players is an upgraded Android.",
+  "translation": "Um dos jogadores é um Android aprimorado.",
+  "outdated": false
+ },
+ "31": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "32": {
+  "source": "* The Fusion cooldown only blocks the Fusion Dance. You can still fuse with [[Special:MyLanguage/Potara Earrings|Potara Earrings]] or [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]] while it runs.\n* To fuse with a player of another race, use the Potara Earrings or the Medi-Bug Beetles instead.",
+  "translation": "* A recarga de Fusão só bloqueia a Dança da Fusão. Enquanto ela está ativa, você ainda pode se fundir com os [[Special:MyLanguage/Potara Earrings|Brincos Potara]] ou os [[Special:MyLanguage/Medi-Bug Beetles|Besouros Medi-Bug]].\n* Para se fundir com um jogador de outra raça, use os Brincos Potara ou os Besouros Medi-Bug.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Among the NPC fighters, [[Special:MyLanguage/Gotenks|Gotenks]] (Goten and Trunks) and [[Special:MyLanguage/Gogeta|Gogeta]] (Goku and Vegeta) are dance fusions. Gogeta is the champion of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and Gotenks can be drawn as one of its contenders.",
+  "translation": "Entre os lutadores NPC, [[Special:MyLanguage/Gotenks|Gotenks]] (Goten e Trunks) e [[Special:MyLanguage/Gogeta|Gogeta]] (Goku e Vegeta) são fusões por dança. Gogeta é o campeão do [[Special:MyLanguage/Otherworld Tournament|Torneio do Outro Mundo]], e Gotenks pode ser sorteado como um dos competidores dele.",
+  "outdated": false
+ }
+}

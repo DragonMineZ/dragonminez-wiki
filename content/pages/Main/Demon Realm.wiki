@@ -1,166 +1,180 @@
 {{Infobox Dimension
 |Gravity=×1.0
-|Access=<translate>Space Pod, after Daima Saga quest 3 (To the Demon Realm)</translate>
-|Biomes=<translate>Third Demon World, Second Demon World, First Demon World</translate>
-|Resources=<translate>Makai blocks, Majilite Ore, Demon Rock blocks, Medi-Bugs, the three Demon Realm Dragon Balls (from the Tamagamis)</translate>
+|Access=<translate><!--T:1--> Space Pod, after Daima Saga quest 3 (To the Demon Realm)</translate>
+|Biomes=<translate><!--T:2--> Third Demon World, Second Demon World, First Demon World</translate>
+|Resources=<translate><!--T:3--> Makai blocks, Majilite Ore, Demon Rock blocks, Medi-Bugs, the three Demon Realm Dragon Balls (from the Tamagamis)</translate>
 |Inhabitants={{L|Demon Realm Villager}}, {{L|Time Patroller}}, {{L|Gomah Soldier}}
 |Structures={{L|Demon Village}}, {{L|Gomah Camp}}, {{L|Gomah's Horn Cradle}}
 |Bosses={{L|Tamagami Number 3}}, {{L|Tamagami Number 2}}, {{L|Tamagami Number 1}}, {{L|Gomah}}
 }}
 <translate>
+<!--T:4-->
 The '''Demon Realm''' (dimension id <code>dragonminez:demon_realm</code>) is the realm from Dragon Ball Daima: three Demon Worlds stacked on top of each other, ruled by King Gomah. You explore it from the top down: you arrive on the '''Third Demon World''', then travel down through giant tunnels to the '''Second''' and finally the '''First Demon World'''. The [[Special:MyLanguage/Daima Saga|Daima Saga]] takes you through all three floors.
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:5-->
 </translate>
 {{Config|Gravity Config|defaultWorldGravity}}
 <translate>
+<!--T:6-->
 Gravity is normal (×1.0) by default. The Demon Realm isn't listed in the per-world gravity setting, so it uses the fallback world gravity.
 </translate>
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 Travel by [[Special:MyLanguage/Space Pod|Space Pod]]. The '''Demon Realm''' destination unlocks once you complete [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3, ''To the Demon Realm'': bring Bulma 16 ender pearls, 8 crying obsidian, 8 redstone blocks and 16 amethyst shards so she can tune your pod's warp drive. The pod drops you high above the Third Demon World (160.5, 745, 0.5).
 </translate>
 
 <translate>
-== Layout ==
+== Layout == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 The dimension spans Y −64 to 767. Each floor is separated from the next by a thick rock '''crust''' with an unbreakable '''Demon Realm Crust''' core, so the only way down is through the '''tunnels''':
 * Giant round tunnels (about 90 blocks in radius) cross each crust, repeating every 2,048 blocks. The way from the Third to the Second Demon World starts at '''0, 0'''; the way from the Second to the First starts at '''700, 450''', inside a raised crater island.
 * Each tunnel is sealed by a glowing orange '''Shield of Light''' membrane at the crust's core. You can pass straight through it.
 </translate>
 
 {| class="wikitable"
-! <translate>Floor</translate> !! <translate>Height</translate> !! <translate>Sky</translate> !! <translate>What it looks like</translate>
+! <translate><!--T:11--> Floor</translate> !! <translate><!--T:12--> Height</translate> !! <translate><!--T:13--> Sky</translate> !! <translate><!--T:14--> What it looks like</translate>
 |-
-| <translate>'''Third Demon World''' (top)</translate> || <translate>Around Y 540–748</translate> || <translate>Pink</translate> || <translate>Yellow '''Makai Sand''' and '''Makai Grass''', mesas of '''Makai Stone''' and '''Makai Strata Stone''', '''Lilac Sand''' patches, teal '''Makai Agave''' and '''Makai Bush''' vegetation, '''Gas Vents''' and floating rocks. Its chasms are the '''Sea of Darkness'''.</translate>
+| <translate><!--T:15--> '''Third Demon World''' (top)</translate> || <translate><!--T:16--> Around Y 540–748</translate> || <translate><!--T:17--> Pink</translate> || <translate><!--T:18--> Yellow '''Makai Sand''' and '''Makai Grass''', mesas of '''Makai Stone''' and '''Makai Strata Stone''', '''Lilac Sand''' patches, teal '''Makai Agave''' and '''Makai Bush''' vegetation, '''Gas Vents''' and floating rocks. Its chasms are the '''Sea of Darkness'''.</translate>
 |-
-| <translate>'''Second Demon World''' (middle)</translate> || <translate>Around Y 300–480</translate> || <translate>Lime green</translate> || <translate>Islands of Namek grass and '''Turquoise Rock''' in a sea (water level Y 318), Ajissa trees, Namek grass and flowers, and '''Majilite Ore''' in the rock. Moons and planets hang in the sky.</translate>
+| <translate><!--T:19--> '''Second Demon World''' (middle)</translate> || <translate><!--T:20--> Around Y 300–480</translate> || <translate><!--T:21--> Lime green</translate> || <translate><!--T:22--> Islands of Namek grass and '''Turquoise Rock''' in a sea (water level Y 318), Ajissa trees, Namek grass and flowers, and '''Majilite Ore''' in the rock. Moons and planets hang in the sky.</translate>
 |-
-| <translate>'''First Demon World''' (bottom)</translate> || <translate>Around Y 64–250</translate> || <translate>Red</translate> || <translate>Reddish '''Demon Rock''', '''Red Ash''' and '''Demon Magma Rock''' patches, fields of rock spires and rare '''Crimson Crystal''' spires, under a red sun.</translate>
+| <translate><!--T:23--> '''First Demon World''' (bottom)</translate> || <translate><!--T:24--> Around Y 64–250</translate> || <translate><!--T:25--> Red</translate> || <translate><!--T:26--> Reddish '''Demon Rock''', '''Red Ash''' and '''Demon Magma Rock''' patches, fields of rock spires and rare '''Crimson Crystal''' spires, under a red sun.</translate>
 |}
 
 <translate>
+<!--T:27-->
 Each floor is its own biome (Third Demon World, Second Demon World and First Demon World). It never rains in the Demon Realm, and nothing spawns naturally: every inhabitant comes from villages, camps, patrols and lairs.
 </translate>
 
 <translate>
-=== The Sea of Darkness ===
+=== The Sea of Darkness === <!--T:28-->
 </translate>
 <translate>
+<!--T:29-->
 The chasms of the Third Demon World are filled with '''Sea of Darkness Cloud'''. It has no collision, and every moment you spend inside it '''blinds''' you and deals '''25% of your max health''' as magic damage (at least 4). Don't fall in.
 </translate>
 
 <translate>
-=== Light and farming ===
+=== Light and farming === <!--T:30-->
 </translate>
 <translate>
+<!--T:31-->
 The natural Makai blocks of the Third Demon World let sky light through, so the floor below still gets daylight; the same blocks placed by players are normal, opaque blocks. '''Makai Grass Block''' and '''Makai Dirt''' can be tilled with a hoe into farmland, so you can grow crops on the Third Demon World.
 </translate>
 
 <translate>
-== Blocks and resources ==
+== Blocks and resources == <!--T:32-->
 </translate>
 {| class="wikitable"
-! <translate>Block or item</translate> !! <translate>Where</translate> !! <translate>Notes</translate>
+! <translate><!--T:33--> Block or item</translate> !! <translate><!--T:34--> Where</translate> !! <translate><!--T:35--> Notes</translate>
 |-
-| <translate>'''Makai Stone''' (and its slab, stairs and wall), '''Makai Strata Stone''', '''Makai Sand''', '''Lilac Sand''', '''Makai Grass Block''', '''Makai Dirt'''</translate> || <translate>Third Demon World</translate> || <translate>Building blocks.</translate>
+| <translate><!--T:36--> '''Makai Stone''' (and its slab, stairs and wall), '''Makai Strata Stone''', '''Makai Sand''', '''Lilac Sand''', '''Makai Grass Block''', '''Makai Dirt'''</translate> || <translate><!--T:37--> Third Demon World</translate> || <translate><!--T:38--> Building blocks.</translate>
 |-
-| <translate>'''Makai Agave''', '''Makai Bush'''</translate> || <translate>Third Demon World</translate> || <translate>Plants.</translate>
+| <translate><!--T:39--> '''Makai Agave''', '''Makai Bush'''</translate> || <translate><!--T:40--> Third Demon World</translate> || <translate><!--T:41--> Plants.</translate>
 |-
-| <translate>'''Gas Vent'''</translate> || <translate>Third Demon World</translate> || <translate>Decorative vent that puffs smoke and purple gas.</translate>
+| <translate><!--T:42--> '''Gas Vent'''</translate> || <translate><!--T:43--> Third Demon World</translate> || <translate><!--T:44--> Decorative vent that puffs smoke and purple gas.</translate>
 |-
-| <translate>'''Adobe''' (and its slab, stairs and wall), '''Adobe Bricks'''</translate> || <translate>Demon villages</translate> || <translate>Building blocks of the demon houses.</translate>
+| <translate><!--T:45--> '''Adobe''' (and its slab, stairs and wall), '''Adobe Bricks'''</translate> || <translate><!--T:46--> Demon villages</translate> || <translate><!--T:47--> Building blocks of the demon houses.</translate>
 |-
-| <translate>'''Turquoise Rock'''</translate> || <translate>Second Demon World</translate> || <translate>Building block.</translate>
+| <translate><!--T:48--> '''Turquoise Rock'''</translate> || <translate><!--T:49--> Second Demon World</translate> || <translate><!--T:50--> Building block.</translate>
 |-
-| <translate>'''Majilite Ore''' → '''Majilite'''</translate> || <translate>Second Demon World</translate> || <translate>Mined with an iron pickaxe or better (drops experience like diamond ore). Bulma's ''Majilite Samples'' sidequest asks for 16.</translate>
+| <translate><!--T:51--> '''Majilite Ore''' → '''Majilite'''</translate> || <translate><!--T:52--> Second Demon World</translate> || <translate><!--T:53--> Mined with an iron pickaxe or better (drops experience like diamond ore). Bulma's ''Majilite Samples'' sidequest asks for 16.</translate>
 |-
-| <translate>'''Demon Rock''', '''Demon Bricks''' (and their slab, stairs and wall), '''Demon Magma Rock''', '''Red Ash''', '''Crimson Crystal'''</translate> || <translate>First Demon World</translate> || <translate>Building blocks.</translate>
+| <translate><!--T:54--> '''Demon Rock''', '''Demon Bricks''' (and their slab, stairs and wall), '''Demon Magma Rock''', '''Red Ash''', '''Crimson Crystal'''</translate> || <translate><!--T:55--> First Demon World</translate> || <translate><!--T:56--> Building blocks.</translate>
 |-
-| <translate>'''Demon Realm Crust''', '''Shield of Light''', '''Sea of Darkness Cloud'''</translate> || <translate>Crusts, tunnels and chasms</translate> || <translate>Unbreakable world features.</translate>
+| <translate><!--T:57--> '''Demon Realm Crust''', '''Shield of Light''', '''Sea of Darkness Cloud'''</translate> || <translate><!--T:58--> Crusts, tunnels and chasms</translate> || <translate><!--T:59--> Unbreakable world features.</translate>
 |}
 
 <translate>
-== Inhabitants ==
+== Inhabitants == <!--T:60-->
 </translate>
 <translate>
-=== Demon villages ===
+=== Demon villages === <!--T:61-->
 </translate>
 {{Main|Demon Village}}
 <translate>
+<!--T:62-->
 [[Special:MyLanguage/Demon Village|Demon villages]] generate on the Third Demon World. They're home to [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] (some of them sell Medi-Bugs) and a [[Special:MyLanguage/Time Patroller|Time Patroller]] who sells maps to the world boss lairs. Killing a Demon Realm Villager or the Time Patroller lowers your [[Special:MyLanguage/Alignment|alignment]].
 </translate>
 
 <translate>
-=== Gomah's soldiers ===
+=== Gomah's soldiers === <!--T:63-->
 </translate>
 <translate>
+<!--T:64-->
 * '''Patrols''': while players are within 6 chunks of a demon village, [[Special:MyLanguage/Gomah Soldier|Gomah Soldiers]] show up on its outskirts in waves of 1–3 (a 30% chance every 20 seconds, up to 4 soldiers per village). Some are bigger or smaller than usual (scale 0.85–1.35), with stats scaled to match (600 health, 16 melee and 12 ki damage at scale 1). They attack players, not the villagers.
 * '''[[Special:MyLanguage/Gomah Camp|Gomah Camps]]''': palisade camps with tents on any of the three floors, away from villages. Killing the soldier in the camp starts the [[Special:MyLanguage/Gomah's Army|Gomah's Army]] raid.
 </translate>
 
 <translate>
-=== The Tamagamis ===
+=== The Tamagamis === <!--T:65-->
 </translate>
 <translate>
+<!--T:66-->
 Each floor is guarded by one Tamagami, a [[Special:MyLanguage/World Bosses|world boss]] sleeping on a stone platform: [[Special:MyLanguage/Tamagami Number 3|Tamagami Number 3]] on the Third Demon World, [[Special:MyLanguage/Tamagami Number 2|Number 2]] on the Second and [[Special:MyLanguage/Tamagami Number 1|Number 1]] on the First. When defeated, a Tamagami drops its matching '''Demon Realm Dragon Ball''' (Tamagami 3 drops the 3-star ball, 2 the 2-star and 1 the 1-star) and stays dormant for an hour before it can be fought again. Buy a map from the Time Patroller to find them; operators can also use {{Command|/dmzworldboss locate}}.
 </translate>
 
 <translate>
-=== Demon Realm Dragon Balls ===
+=== Demon Realm Dragon Balls === <!--T:67-->
 </translate>
 {{See also|Porunga|Dragons and Wishes}}
 <translate>
+<!--T:68-->
 The Demon Realm has its own set of only three Dragon Balls, one from each Tamagami. Bring the three together in the Demon Realm to summon [[Special:MyLanguage/Porunga|Porunga]], who grants three wishes from his usual wish list. These balls never scatter on their own and no radar finds them. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].
 </translate>
 
 <translate>
-=== Gomah ===
+=== Gomah === <!--T:69-->
 </translate>
 <translate>
+<!--T:70-->
 King [[Special:MyLanguage/Gomah|Gomah]] himself is the Demon Realm's strongest world boss. He sits on his throne on [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]], a floating island caged by giant horns, high in the sky of the First Demon World (around X −1112, Z −1144). His '''Demon Eye''' makes him stronger and bigger the longer the fight lasts: hit him from behind to knock it loose. Defeating him can drop the '''[[Special:MyLanguage/Demon Eye|Demon Eye]]''' relic.
 </translate>
 
 <translate>
-== Medi-Bugs ==
+== Medi-Bugs == <!--T:71-->
 </translate>
 {{Main|Medi-Bugs}}
 <translate>
+<!--T:72-->
 Medi-Bugs are the Demon Realm's consumables. Bug traders in the demon villages sell them, and Bulma's repeatable ''Medi-Bug Market'' sidequest sells a batch of Medi-Bugs (a Beetle pair included) for emeralds and gold ingots, once an hour.
 </translate>
 
 {| class="wikitable"
-! <translate>Medi-Bug</translate> !! <translate>Effect when eaten</translate>
+! <translate><!--T:73--> Medi-Bug</translate> !! <translate><!--T:74--> Effect when eaten</translate>
 |-
-| <translate>'''Medi-Bug (Ant)'''</translate> || <translate>Restores '''85%''' of your health, ki and stamina. It has its own cooldown (the same length as the [[Special:MyLanguage/Senzu Bean|Senzu Bean]]'s).</translate>
+| <translate><!--T:75--> '''Medi-Bug (Ant)'''</translate> || <translate><!--T:76--> Restores '''85%''' of your health, ki and stamina. It has its own cooldown (the same length as the [[Special:MyLanguage/Senzu Bean|Senzu Bean]]'s).</translate>
 |-
-| <translate>'''Medi-Bug (Rhino)'''</translate> || <translate>'''Medi-Bug Shell''' for 45 seconds: you take 30% less damage.</translate>
+| <translate><!--T:77--> '''Medi-Bug (Rhino)'''</translate> || <translate><!--T:78--> '''Medi-Bug Shell''' for 45 seconds: you take 30% less damage.</translate>
 |-
-| <translate>'''Medi-Bug (Worm)'''</translate> || <translate>'''Mastery Gain II''' for 5 minutes: 50% more form mastery.</translate>
+| <translate><!--T:79--> '''Medi-Bug (Worm)'''</translate> || <translate><!--T:80--> '''Mastery Gain II''' for 5 minutes: 50% more form mastery.</translate>
 |-
-| <translate>'''Pair of Medi-Bugs (Beetle)'''</translate> || <translate>Right-click to split it into two identical '''Medi-Bug (Beetle)'''. Two players who eat beetles with the same ID within 30 seconds '''fuse''' (see [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]]).</translate>
+| <translate><!--T:81--> '''Pair of Medi-Bugs (Beetle)'''</translate> || <translate><!--T:82--> Right-click to split it into two identical '''Medi-Bug (Beetle)'''. Two players who eat beetles with the same ID within 30 seconds '''fuse''' (see [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]]).</translate>
 |}
 
 <translate>
-== Structures ==
+== Structures == <!--T:83-->
 </translate>
 {| class="wikitable"
-! <translate>Structure</translate> !! <translate>Id</translate> !! <translate>Where</translate> !! <translate>What it is</translate>
+! <translate><!--T:84--> Structure</translate> !! <translate><!--T:85--> Id</translate> !! <translate><!--T:86--> Where</translate> !! <translate><!--T:87--> What it is</translate>
 |-
-| {{L|Demon Village}} || <code>demon_village</code> || <translate>Third Demon World</translate> || <translate>Villagers, bug traders and a Time Patroller.</translate>
+| {{L|Demon Village}} || <code>demon_village</code> || <translate><!--T:88--> Third Demon World</translate> || <translate><!--T:89--> Villagers, bug traders and a Time Patroller.</translate>
 |-
-| {{L|Gomah Camp}} || <code>gomah_camp</code> || <translate>Any floor</translate> || <translate>Raid site of Gomah's Army.</translate>
+| {{L|Gomah Camp}} || <code>gomah_camp</code> || <translate><!--T:90--> Any floor</translate> || <translate><!--T:91--> Raid site of Gomah's Army.</translate>
 |-
-| {{L|Gomah's Horn Cradle}} || <code>gomah_cradle</code> || <translate>Above the First Demon World</translate> || <translate>Gomah's lair.</translate>
+| {{L|Gomah's Horn Cradle}} || <code>gomah_cradle</code> || <translate><!--T:92--> Above the First Demon World</translate> || <translate><!--T:93--> Gomah's lair.</translate>
 |}
 
 <translate>
+<!--T:94-->
 See [[Special:MyLanguage/Structures#Finding structures|Structures]] for {{Command|/dmzlocate}}.
 </translate>
 

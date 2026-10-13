@@ -1,292 +1,299 @@
 <translate>
+<!--T:1-->
 <code>combat.json</code> controls stamina, blocking and parrying, damage mitigation, knockback, Speed and the passive dodge, ki charging and the Ki Surge, combat flight, ki weapons and the compatibility layer for weapons from other mods. It is a file of its own: none of these values are part of <code>general-server.json</code>.
 </translate>
 
 <translate>
+<!--T:2-->
 The file lives at <code>config/dragonminez/combat.json</code>; its schema is defined in <code>CombatConfig.java</code>. For how combat plays out in game, see [[Special:MyLanguage/Combat|Combat]]; for how defense and mitigation are applied step by step, see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]. Technique-specific tuning (cooldowns, cast times, sizes, destruction) lives in <code>techniques.json</code>, documented on [[Special:MyLanguage/Skills Config|Skills Config]].
 </translate>
 
 <translate>
-== Core combat and status ==
+== Core combat and status == <!--T:3-->
 </translate>
 {{See also|Combat|Strike Attacks}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:4--> Key</translate> !! <translate><!--T:5--> Default</translate> !! <translate><!--T:6--> What it does</translate>
 |-
-| <code>staminaConsumptionRatio</code> || <code>0.083</code> || <translate>Stamina cost of a melee attack relative to its damage.</translate>
+| <code>staminaConsumptionRatio</code> || <code>0.083</code> || <translate><!--T:7--> Stamina cost of a melee attack relative to its damage.</translate>
 |-
-| <code>blockStaminaCost</code> || <code>0.25</code> || <translate>Stamina cost of a blocked hit, relative to the damage blocked.</translate>
+| <code>blockStaminaCost</code> || <code>0.25</code> || <translate><!--T:8--> Stamina cost of a blocked hit, relative to the damage blocked.</translate>
 |-
-| <code>knockdownDurationSeconds</code> || <code>30</code> || <translate>How long a player stays '''knocked down''' when a hit would have killed them but the fight doesn't allow kills (party PvP, Friendly Fist, Shadow Dummy sparring, or a Namekian or Majin preparing an absorption).</translate>
+| <code>knockdownDurationSeconds</code> || <code>30</code> || <translate><!--T:9--> How long a player stays '''knocked down''' when a hit would have killed them but the fight doesn't allow kills (party PvP, Friendly Fist, Shadow Dummy sparring, or a Namekian or Majin preparing an absorption).</translate>
 |-
-| <code>baselineFormDrain</code> || <code>80</code> || <translate>Baseline value forms scale their energy drain against (see the per-form <code>energyDrain</code> on [[Special:MyLanguage/Custom Forms|Custom Forms]]). Also used to size the ki cost of ki weapons.</translate>
+| <code>baselineFormDrain</code> || <code>80</code> || <translate><!--T:10--> Baseline value forms scale their energy drain against (see the per-form <code>energyDrain</code> on [[Special:MyLanguage/Custom Forms|Custom Forms]]). Also used to size the ki cost of ki weapons.</translate>
 |-
-| <code>killPlayersOnCombatLogout</code> || <code>true</code> || <translate>If a player logs out mid-combat, they die on their next login.</translate>
+| <code>killPlayersOnCombatLogout</code> || <code>true</code> || <translate><!--T:11--> If a player logs out mid-combat, they die on their next login.</translate>
 |-
-| <code>strikeGlobalCooldownTicks</code> || <code>60</code> || <translate>Shared cooldown after any strike attack, so owning several strikes doesn't let you chain them (halved when a strike misses).</translate>
+| <code>strikeGlobalCooldownTicks</code> || <code>60</code> || <translate><!--T:12--> Shared cooldown after any strike attack, so owning several strikes doesn't let you chain them (halved when a strike misses).</translate>
 |-
-| <code>accurateMobBattlePower</code> || <code>true</code> || <translate>Calculates the Battle Power of non-DMZ mobs from their health, attack, armor, ranged attack and speed. When <code>false</code>, it is simply <code>max health + attack damage × 5</code>.</translate>
+| <code>accurateMobBattlePower</code> || <code>true</code> || <translate><!--T:13--> Calculates the Battle Power of non-DMZ mobs from their health, attack, armor, ranged attack and speed. When <code>false</code>, it is simply <code>max health + attack damage × 5</code>.</translate>
 |}
 
 <translate>
-== Blocking, parrying and poise ==
+== Blocking, parrying and poise == <!--T:14-->
 </translate>
 {{See also|Combat}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:15--> Key</translate> !! <translate><!--T:16--> Default</translate> !! <translate><!--T:17--> What it does</translate>
 |-
-| <code>enableBlocking</code> || <code>true</code> || <translate>Master toggle for blocking.</translate>
+| <code>enableBlocking</code> || <code>true</code> || <translate><!--T:18--> Master toggle for blocking.</translate>
 |-
-| <code>enableParrying</code> || <code>true</code> || <translate>Master toggle for parrying (requires blocking to be enabled).</translate>
+| <code>enableParrying</code> || <code>true</code> || <translate><!--T:19--> Master toggle for parrying (requires blocking to be enabled).</translate>
 |-
-| <code>parryWindowMs</code> || <code>150</code> || <translate>Starting a block this close to the hit (in milliseconds) turns it into a '''parry''': no damage, the attacker is knocked back and staggered, non-player attackers are stunned, ki blasts are deflected and strike attacks are countered.</translate>
+| <code>parryWindowMs</code> || <code>150</code> || <translate><!--T:20--> Starting a block this close to the hit (in milliseconds) turns it into a '''parry''': no damage, the attacker is knocked back and staggered, non-player attackers are stunned, ki blasts are deflected and strike attacks are countered.</translate>
 |-
-| <code>parryStaminaCostPenalty</code> || <code>2.0</code> || <translate>A parried attacker's melee attacks cost this much more stamina for 4 seconds.</translate>
+| <code>parryStaminaCostPenalty</code> || <code>2.0</code> || <translate><!--T:21--> A parried attacker's melee attacks cost this much more stamina for 4 seconds.</translate>
 |-
-| <code>blockBreakStunDurationTicks</code> || <code>60</code> || <translate>Stun duration after a guard break.</translate>
+| <code>blockBreakStunDurationTicks</code> || <code>60</code> || <translate><!--T:22--> Stun duration after a guard break.</translate>
 |-
-| <code>poiseDamageMultiplier</code> || <code>0.25</code> || <translate>Fraction of incoming damage converted to poise damage while blocking (×1.5 against non-player attackers). When poise or stamina runs out, your guard breaks.</translate>
+| <code>poiseDamageMultiplier</code> || <code>0.25</code> || <translate><!--T:23--> Fraction of incoming damage converted to poise damage while blocking (×1.5 against non-player attackers). When poise or stamina runs out, your guard breaks.</translate>
 |-
-| <code>poiseRegenCooldown</code> || <code>100</code> || <translate>Ticks before poise starts regenerating again after taking poise damage.</translate>
+| <code>poiseRegenCooldown</code> || <code>100</code> || <translate><!--T:24--> Ticks before poise starts regenerating again after taking poise damage.</translate>
 |-
-| <code>blockDamageReductionCap</code> || <code>0.65</code> || <translate>Maximum damage reduction while blocking.</translate>
+| <code>blockDamageReductionCap</code> || <code>0.65</code> || <translate><!--T:25--> Maximum damage reduction while blocking.</translate>
 |-
-| <code>blockDamageReductionMin</code> || <code>0.05</code> || <translate>Minimum damage reduction while blocking.</translate>
+| <code>blockDamageReductionMin</code> || <code>0.05</code> || <translate><!--T:26--> Minimum damage reduction while blocking.</translate>
 |}
 
 <translate>
-== Damage mitigation ==
+== Damage mitigation == <!--T:27-->
 </translate>
 {{See also|Stats and Attributes}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:28--> Key</translate> !! <translate><!--T:29--> Default</translate> !! <translate><!--T:30--> What it does</translate>
 |-
-| <code>baseDamageReductionCap</code> || <code>0.88</code> || <translate>Hard cap on the percentage reduction from defense.</translate>
+| <code>baseDamageReductionCap</code> || <code>0.88</code> || <translate><!--T:31--> Hard cap on the percentage reduction from defense.</translate>
 |-
-| <code>enchantmentDamageReductionCap</code> || <code>0.93</code> || <translate>Hard cap on defense and Protection enchantments combined.</translate>
+| <code>enchantmentDamageReductionCap</code> || <code>0.93</code> || <translate><!--T:32--> Hard cap on defense and Protection enchantments combined.</translate>
 |-
-| <code>defenseDecayOnGuardBreak</code> || <code>0.66</code> || <translate>Fraction of your defense '''lost''' for hits taken while guard-broken.</translate>
+| <code>defenseDecayOnGuardBreak</code> || <code>0.66</code> || <translate><!--T:33--> Fraction of your defense '''lost''' for hits taken while guard-broken.</translate>
 |-
-| <code>flatMitigationMaxAbsorbFraction</code> || <code>0.82</code> || <translate>Maximum fraction of a hit that flat defense can absorb (clamped to <code>0.0</code>–<code>1.0</code>).</translate>
+| <code>flatMitigationMaxAbsorbFraction</code> || <code>0.82</code> || <translate><!--T:34--> Maximum fraction of a hit that flat defense can absorb (clamped to <code>0.0</code>–<code>1.0</code>).</translate>
 |-
-| <code>defenseReductionScale</code> || <code>0.11</code> || <translate>Scale of the percentage-reduction curve, relative to the expected maximum defense (clamped to at least <code>0.01</code>). Lower values make defense reach high reductions sooner.</translate>
+| <code>defenseReductionScale</code> || <code>0.11</code> || <translate><!--T:35--> Scale of the percentage-reduction curve, relative to the expected maximum defense (clamped to at least <code>0.01</code>). Lower values make defense reach high reductions sooner.</translate>
 |-
-| <code>cancelDamageEventIfMitigationTooHigh</code> || <code>true</code> || <translate>Fully negates hits that are tiny compared to your flat defense.</translate>
+| <code>cancelDamageEventIfMitigationTooHigh</code> || <code>true</code> || <translate><!--T:36--> Fully negates hits that are tiny compared to your flat defense.</translate>
 |-
-| <code>cancelDamageMitigationThreshold</code> || <code>2.5</code> || <translate>A hit is negated when your flat defense is at least this many times the incoming damage (minimum <code>1.0</code>).</translate>
+| <code>cancelDamageMitigationThreshold</code> || <code>2.5</code> || <translate><!--T:37--> A hit is negated when your flat defense is at least this many times the incoming damage (minimum <code>1.0</code>).</translate>
 |-
-| <code>enableAdaptativeDefenseMitigation</code> || <code>true</code> || <translate>Extra reduction for hits that are small compared to your flat defense.</translate>
+| <code>enableAdaptativeDefenseMitigation</code> || <code>true</code> || <translate><!--T:38--> Extra reduction for hits that are small compared to your flat defense.</translate>
 |-
-| <code>adaptativeMitigationParityRatio</code> || <code>1.0</code> || <translate>Hit-to-flat-defense ratio at which the adaptive reduction equals <code>adaptativeMitigationParityValue</code>.</translate>
+| <code>adaptativeMitigationParityRatio</code> || <code>1.0</code> || <translate><!--T:39--> Hit-to-flat-defense ratio at which the adaptive reduction equals <code>adaptativeMitigationParityValue</code>.</translate>
 |-
-| <code>adaptativeMitigationParityValue</code> || <code>0.35</code> || <translate>Adaptive reduction at the parity ratio (smaller hits get more, bigger hits less).</translate>
+| <code>adaptativeMitigationParityValue</code> || <code>0.35</code> || <translate><!--T:40--> Adaptive reduction at the parity ratio (smaller hits get more, bigger hits less).</translate>
 |-
-| <code>adaptativeMitigationZeroRatio</code> || <code>14.0</code> || <translate>Hit-to-flat-defense ratio at which the adaptive reduction reaches 0.</translate>
+| <code>adaptativeMitigationZeroRatio</code> || <code>14.0</code> || <translate><!--T:41--> Hit-to-flat-defense ratio at which the adaptive reduction reaches 0.</translate>
 |-
-| <code>adaptativeDefenseMitigationCap</code> || <code>0.65</code> || <translate>Maximum adaptive reduction.</translate>
+| <code>adaptativeDefenseMitigationCap</code> || <code>0.65</code> || <translate><!--T:42--> Maximum adaptive reduction.</translate>
 |}
 
 <translate>
-== Knockback ==
+== Knockback == <!--T:43-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:44--> Key</translate> !! <translate><!--T:45--> Default</translate> !! <translate><!--T:46--> What it does</translate>
 |-
-| <code>enableDamageScaledKnockback</code> || <code>true</code> || <translate>Scales knockback by how much of a hit got through your defense and how big it was.</translate>
+| <code>enableDamageScaledKnockback</code> || <code>true</code> || <translate><!--T:47--> Scales knockback by how much of a hit got through your defense and how big it was.</translate>
 |-
-| <code>knockbackMinMultiplier</code> || <code>0.15</code> || <translate>Knockback multiplier for a hit your defense almost fully absorbed.</translate>
+| <code>knockbackMinMultiplier</code> || <code>0.15</code> || <translate><!--T:48--> Knockback multiplier for a hit your defense almost fully absorbed.</translate>
 |-
-| <code>knockbackHeavyHitHealthFraction</code> || <code>0.15</code> || <translate>Hits dealing at least this fraction of your max health count as '''heavy''' and knock you back harder.</translate>
+| <code>knockbackHeavyHitHealthFraction</code> || <code>0.15</code> || <translate><!--T:49--> Hits dealing at least this fraction of your max health count as '''heavy''' and knock you back harder.</translate>
 |-
-| <code>knockbackHeavyHitGain</code> || <code>3.0</code> || <translate>Extra knockback per health fraction above the heavy-hit threshold (multiplier <code>1 + (fraction − threshold) × gain</code>).</translate>
+| <code>knockbackHeavyHitGain</code> || <code>3.0</code> || <translate><!--T:50--> Extra knockback per health fraction above the heavy-hit threshold (multiplier <code>1 + (fraction − threshold) × gain</code>).</translate>
 |-
-| <code>knockbackMaxMultiplier</code> || <code>2.5</code> || <translate>Maximum knockback multiplier.</translate>
+| <code>knockbackMaxMultiplier</code> || <code>2.5</code> || <translate><!--T:51--> Maximum knockback multiplier.</translate>
 |}
 
 <translate>
-== Ki Protection and Ki Infusion ==
+== Ki Protection and Ki Infusion == <!--T:52-->
 </translate>
 {{See also|Skills}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:53--> Key</translate> !! <translate><!--T:54--> Default</translate> !! <translate><!--T:55--> What it does</translate>
 |-
-| <code>kiProtectionMitigationPerLevel</code> || <code>0.025</code> || <translate>Damage reduction per level of the Ki Protection skill.</translate>
+| <code>kiProtectionMitigationPerLevel</code> || <code>0.025</code> || <translate><!--T:56--> Damage reduction per level of the Ki Protection skill.</translate>
 |-
-| <code>kiProtectionCostRatio</code> || <code>0.15</code> || <translate>Ki spent per point of incoming damage while Ki Protection is active.</translate>
+| <code>kiProtectionCostRatio</code> || <code>0.15</code> || <translate><!--T:57--> Ki spent per point of incoming damage while Ki Protection is active.</translate>
 |-
-| <code>kiInfusionDamagePerLevel</code> || <code>0.025</code> || <translate>Bonus melee damage per level of Ki Infusion, as a fraction of your max ki.</translate>
+| <code>kiInfusionDamagePerLevel</code> || <code>0.025</code> || <translate><!--T:58--> Bonus melee damage per level of Ki Infusion, as a fraction of your max ki.</translate>
 |-
-| <code>kiInfusionBaseCostPct</code> || <code>2.5</code> || <translate>Ki cost per hit (% of max ki) at Ki Infusion level 1.</translate>
+| <code>kiInfusionBaseCostPct</code> || <code>2.5</code> || <translate><!--T:59--> Ki cost per hit (% of max ki) at Ki Infusion level 1.</translate>
 |-
-| <code>kiInfusionMaxCostPct</code> || <code>7.5</code> || <translate>Ki cost per hit (% of max ki) at Ki Infusion level 10.</translate>
+| <code>kiInfusionMaxCostPct</code> || <code>7.5</code> || <translate><!--T:60--> Ki cost per hit (% of max ki) at Ki Infusion level 10.</translate>
 |}
 
 <translate>
-== Speed and passive dodge ==
+== Speed and passive dodge == <!--T:61-->
 </translate>
 {{See also|Stats and Attributes|Skills}}
 <translate>
+<!--T:62-->
 Speed comes from Resistance. Players with the [[Special:MyLanguage/Meditation|Meditation]] skill can automatically dodge basic melee attacks: against players you need to be faster than the attacker, against other enemies you need a higher Battle Power. A dodge costs stamina, and consecutive dodges get less likely.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:63--> Key</translate> !! <translate><!--T:64--> Default</translate> !! <translate><!--T:65--> What it does</translate>
 |-
-| <code>enableSpeedSystem</code> || <code>true</code> || <translate>Master toggle for Speed (movement bonus, step assist and passive dodge).</translate>
+| <code>enableSpeedSystem</code> || <code>true</code> || <translate><!--T:66--> Master toggle for Speed (movement bonus, step assist and passive dodge).</translate>
 |-
-| <code>speedReferenceStat</code> || <code>10000.0</code> || <translate>Effective Resistance that adds +1.0 Speed at full Power Release.</translate>
+| <code>speedReferenceStat</code> || <code>10000.0</code> || <translate><!--T:67--> Effective Resistance that adds +1.0 Speed at full Power Release.</translate>
 |-
-| <code>transformedSpeedCap</code> || <code>2.0</code> || <translate>Extra Speed multiplier while transformed or using a stack form.</translate>
+| <code>transformedSpeedCap</code> || <code>2.0</code> || <translate><!--T:68--> Extra Speed multiplier while transformed or using a stack form.</translate>
 |-
-| <code>speedMovementCap</code> || <code>3.0</code> || <translate>Maximum movement-speed multiplier from Speed.</translate>
+| <code>speedMovementCap</code> || <code>3.0</code> || <translate><!--T:69--> Maximum movement-speed multiplier from Speed.</translate>
 |-
-| <code>speedStepAssistThreshold</code> || <code>2.0</code> || <translate>Speed from which you step up blocks without jumping.</translate>
+| <code>speedStepAssistThreshold</code> || <code>2.0</code> || <translate><!--T:70--> Speed from which you step up blocks without jumping.</translate>
 |-
-| <code>speedStepAssistBonus</code> || <code>0.5</code> || <translate>Extra step height given by step assist.</translate>
+| <code>speedStepAssistBonus</code> || <code>0.5</code> || <translate><!--T:71--> Extra step height given by step assist.</translate>
 |-
-| <code>enableSpeedDodge</code> || <code>true</code> || <translate>Toggle for the passive dodge.</translate>
+| <code>enableSpeedDodge</code> || <code>true</code> || <translate><!--T:72--> Toggle for the passive dodge.</translate>
 |-
-| <code>speedDodgeRatioAtLevel1</code> / <code>speedDodgeRatioAtMaxLevel</code> || <code>2.5</code> / <code>1.4</code> || <translate>How many times faster than an attacking player you must be to dodge, at Meditation level 1 / 10.</translate>
+| <code>speedDodgeRatioAtLevel1</code> / <code>speedDodgeRatioAtMaxLevel</code> || <code>2.5</code> / <code>1.4</code> || <translate><!--T:73--> How many times faster than an attacking player you must be to dodge, at Meditation level 1 / 10.</translate>
 |-
-| <code>speedDodgeFullChanceSpeedRatio</code> || <code>2.0</code> || <translate>How far beyond the required speed ratio (as a multiple) you reach the maximum chance.</translate>
+| <code>speedDodgeFullChanceSpeedRatio</code> || <code>2.0</code> || <translate><!--T:74--> How far beyond the required speed ratio (as a multiple) you reach the maximum chance.</translate>
 |-
-| <code>speedDodgeBpRatioAtLevel1</code> / <code>speedDodgeBpRatioAtMaxLevel</code> || <code>2.0</code> / <code>1.0</code> || <translate>How many times higher your Battle Power must be than a non-player attacker's, at Meditation level 1 / 10.</translate>
+| <code>speedDodgeBpRatioAtLevel1</code> / <code>speedDodgeBpRatioAtMaxLevel</code> || <code>2.0</code> / <code>1.0</code> || <translate><!--T:75--> How many times higher your Battle Power must be than a non-player attacker's, at Meditation level 1 / 10.</translate>
 |-
-| <code>speedDodgeFullChanceBpRatio</code> || <code>10.0</code> || <translate>How far beyond the required Battle Power ratio you reach the maximum chance.</translate>
+| <code>speedDodgeFullChanceBpRatio</code> || <code>10.0</code> || <translate><!--T:76--> How far beyond the required Battle Power ratio you reach the maximum chance.</translate>
 |-
-| <code>nonPlayerAttackerSpeed</code> || <code>1.0</code> || <translate>Speed assumed for a non-player attacker that has no Battle Power.</translate>
+| <code>nonPlayerAttackerSpeed</code> || <code>1.0</code> || <translate><!--T:77--> Speed assumed for a non-player attacker that has no Battle Power.</translate>
 |-
-| <code>speedDodgeBaseChance</code> || <code>0.10</code> || <translate>Dodge chance once you just meet the requirement.</translate>
+| <code>speedDodgeBaseChance</code> || <code>0.10</code> || <translate><!--T:78--> Dodge chance once you just meet the requirement.</translate>
 |-
-| <code>speedDodgeMaxChancePvp</code> / <code>speedDodgeMaxChancePve</code> || <code>0.35</code> / <code>0.50</code> || <translate>Maximum dodge chance against players / other enemies at Meditation level 10.</translate>
+| <code>speedDodgeMaxChancePvp</code> / <code>speedDodgeMaxChancePve</code> || <code>0.35</code> / <code>0.50</code> || <translate><!--T:79--> Maximum dodge chance against players / other enemies at Meditation level 10.</translate>
 |-
-| <code>speedDodgeMeditationChanceFloor</code> || <code>0.60</code> || <translate>At Meditation level 1 the maximum chance is this fraction of the values above.</translate>
+| <code>speedDodgeMeditationChanceFloor</code> || <code>0.60</code> || <translate><!--T:80--> At Meditation level 1 the maximum chance is this fraction of the values above.</translate>
 |-
-| <code>speedDodgeStreakMultiplier</code> || <code>0.75</code> || <translate>Each consecutive dodge multiplies the next chance by this.</translate>
+| <code>speedDodgeStreakMultiplier</code> || <code>0.75</code> || <translate><!--T:81--> Each consecutive dodge multiplies the next chance by this.</translate>
 |-
-| <code>speedDodgeStreakResetTicks</code> || <code>60</code> || <translate>Ticks without dodging that reset the streak.</translate>
+| <code>speedDodgeStreakResetTicks</code> || <code>60</code> || <translate><!--T:82--> Ticks without dodging that reset the streak.</translate>
 |-
-| <code>speedDodgeCooldownTicks</code> || <code>10</code> || <translate>Minimum ticks between two dodges.</translate>
+| <code>speedDodgeCooldownTicks</code> || <code>10</code> || <translate><!--T:83--> Minimum ticks between two dodges.</translate>
 |-
-| <code>speedDodgeStaminaCostPct</code> || <code>0.03</code> || <translate>Stamina spent per dodge (fraction of max stamina).</translate>
+| <code>speedDodgeStaminaCostPct</code> || <code>0.03</code> || <translate><!--T:84--> Stamina spent per dodge (fraction of max stamina).</translate>
 |}
 
 <translate>
-== Mobility ==
+== Mobility == <!--T:85-->
 </translate>
 {{See also|Evasion Techniques|Skills}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:86--> Key</translate> !! <translate><!--T:87--> Default</translate> !! <translate><!--T:88--> What it does</translate>
 |-
-| <code>enablePerfectEvasion</code> || <code>true</code> || <translate>Master toggle for the perfect-evasion timing mechanic.</translate>
+| <code>enablePerfectEvasion</code> || <code>true</code> || <translate><!--T:89--> Master toggle for the perfect-evasion timing mechanic.</translate>
 |-
-| <code>perfectEvasionWindowMs</code> || <code>200</code> || <translate>Timing window (in milliseconds) for a perfect evasion. After a perfect evasion, the next one can't trigger for 1.5 seconds (a dash during that time is a normal dash).</translate>
+| <code>perfectEvasionWindowMs</code> || <code>200</code> || <translate><!--T:90--> Timing window (in milliseconds) for a perfect evasion. After a perfect evasion, the next one can't trigger for 1.5 seconds (a dash during that time is a normal dash).</translate>
 |-
-| <code>dashCooldownSeconds</code> || <code>4</code> || <translate>Cooldown for a single dash (also used by the Instant Transmission tap).</translate>
+| <code>dashCooldownSeconds</code> || <code>4</code> || <translate><!--T:91--> Cooldown for a single dash (also used by the Instant Transmission tap).</translate>
 |-
-| <code>doubleDashCooldownSeconds</code> || <code>12</code> || <translate>Cooldown for a double dash.</translate>
+| <code>doubleDashCooldownSeconds</code> || <code>12</code> || <translate><!--T:92--> Cooldown for a double dash.</translate>
 |-
-| <code>teleportCooldownSeconds</code> || <code>30</code> || <translate>Cooldown after an Instant Transmission warp to a master or a player.</translate>
+| <code>teleportCooldownSeconds</code> || <code>30</code> || <translate><!--T:93--> Cooldown after an Instant Transmission warp to a master or a player.</translate>
 |}
 
 <translate>
-== Ki charging and Ki Surge ==
+== Ki charging and Ki Surge == <!--T:94-->
 </translate>
 {{See also|Combat}}
 <translate>
+<!--T:95-->
 Charging ki (default {{Key|C}}) to full and '''keeping on charging''' fills the '''Ki Surge''' bar. When you first reach full ki you release a '''Ki Burst''' that pushes back weaker enemies around you. Once the bar is full you enter a '''Ki Surge''': a bigger burst damages and blows back everyone nearby (it can't kill), then for a while your ki attacks hit harder and fly faster, you charge, move, fly and attack faster, and your aura grows; but spending ki costs more and drains the bar. Being stunned ends the surge.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:96--> Key</translate> !! <translate><!--T:97--> Default</translate> !! <translate><!--T:98--> What it does</translate>
 |-
-| <code>kiChargeInterruptOnHit</code> || <code>true</code> || <translate>Taking a hit while charging ki stops the charge (and any surge progress, which starts the surge cooldown).</translate>
+| <code>kiChargeInterruptOnHit</code> || <code>true</code> || <translate><!--T:99--> Taking a hit while charging ki stops the charge (and any surge progress, which starts the surge cooldown).</translate>
 |-
-| <code>kiChargeDeflectsProjectiles</code> || <code>true</code> || <translate>While charging ki, non-ki projectiles (arrows and the like) are deflected.</translate>
+| <code>kiChargeDeflectsProjectiles</code> || <code>true</code> || <translate><!--T:100--> While charging ki, non-ki projectiles (arrows and the like) are deflected.</translate>
 |-
-| <code>kiChargeInterruptLockTicks</code> || <code>10</code> || <translate>Ticks you can't restart charging after being interrupted.</translate>
+| <code>kiChargeInterruptLockTicks</code> || <code>10</code> || <translate><!--T:101--> Ticks you can't restart charging after being interrupted.</translate>
 |-
-| <code>enableKiSurge</code> || <code>true</code> || <translate>Master toggle for the Ki Burst and the Ki Surge.</translate>
+| <code>enableKiSurge</code> || <code>true</code> || <translate><!--T:102--> Master toggle for the Ki Burst and the Ki Surge.</translate>
 |-
-| <code>kiBurstRadius</code> / <code>kiBurstKnockback</code> || <code>8.0</code> / <code>1.4</code> || <translate>Radius and push of the Ki Burst on reaching full ki (only enemies with lower Battle Power are pushed).</translate>
+| <code>kiBurstRadius</code> / <code>kiBurstKnockback</code> || <code>8.0</code> / <code>1.4</code> || <translate><!--T:103--> Radius and push of the Ki Burst on reaching full ki (only enemies with lower Battle Power are pushed).</translate>
 |-
-| <code>surgeFillSeconds</code> || <code>4.0</code> || <translate>Seconds of charging at full ki needed to fill the surge bar.</translate>
+| <code>surgeFillSeconds</code> || <code>4.0</code> || <translate><!--T:104--> Seconds of charging at full ki needed to fill the surge bar.</translate>
 |-
-| <code>surgeDurationSeconds</code> || <code>12.0</code> || <translate>How long a Ki Surge lasts.</translate>
+| <code>surgeDurationSeconds</code> || <code>12.0</code> || <translate><!--T:105--> How long a Ki Surge lasts.</translate>
 |-
-| <code>surgeCooldownSeconds</code> || <code>15</code> || <translate>Cooldown after a surge ends or is lost.</translate>
+| <code>surgeCooldownSeconds</code> || <code>15</code> || <translate><!--T:106--> Cooldown after a surge ends or is lost.</translate>
 |-
-| <code>surgeDrainPerKiFraction</code> || <code>1.5</code> || <translate>Spending ki during a surge also drains the bar (spending X% of max ki removes 1.5 × X% of the bar).</translate>
+| <code>surgeDrainPerKiFraction</code> || <code>1.5</code> || <translate><!--T:107--> Spending ki during a surge also drains the bar (spending X% of max ki removes 1.5 × X% of the bar).</translate>
 |-
-| <code>surgeBurstDamageRatio</code> || <code>0.25</code> || <translate>Surge burst damage as a fraction of your max ki (less with distance; never lethal).</translate>
+| <code>surgeBurstDamageRatio</code> || <code>0.25</code> || <translate><!--T:108--> Surge burst damage as a fraction of your max ki (less with distance; never lethal).</translate>
 |-
-| <code>surgeBurstRadius</code> / <code>surgeBurstKnockback</code> || <code>10.0</code> / <code>2.2</code> || <translate>Radius and push of the surge burst.</translate>
+| <code>surgeBurstRadius</code> / <code>surgeBurstKnockback</code> || <code>10.0</code> / <code>2.2</code> || <translate><!--T:109--> Radius and push of the surge burst.</translate>
 |-
-| <code>surgeKiCostMultiplier</code> || <code>1.25</code> || <translate>Ki cost multiplier during a surge.</translate>
+| <code>surgeKiCostMultiplier</code> || <code>1.25</code> || <translate><!--T:110--> Ki cost multiplier during a surge.</translate>
 |-
-| <code>surgeKiDamageMultiplier</code> || <code>1.15</code> || <translate>Ki attack damage multiplier during a surge.</translate>
+| <code>surgeKiDamageMultiplier</code> || <code>1.15</code> || <translate><!--T:111--> Ki attack damage multiplier during a surge.</translate>
 |-
-| <code>surgeKiSpeedMultiplier</code> || <code>1.25</code> || <translate>Ki attack projectile speed multiplier during a surge.</translate>
+| <code>surgeKiSpeedMultiplier</code> || <code>1.25</code> || <translate><!--T:112--> Ki attack projectile speed multiplier during a surge.</translate>
 |-
-| <code>surgeKiChargeSpeedMultiplier</code> || <code>1.20</code> || <translate>Technique charging speed multiplier during a surge.</translate>
+| <code>surgeKiChargeSpeedMultiplier</code> || <code>1.20</code> || <translate><!--T:113--> Technique charging speed multiplier during a surge.</translate>
 |-
-| <code>surgeMoveSpeedMultiplier</code> / <code>surgeFlySpeedMultiplier</code> || <code>1.25</code> / <code>1.25</code> || <translate>Movement / flight speed multiplier during a surge.</translate>
+| <code>surgeMoveSpeedMultiplier</code> / <code>surgeFlySpeedMultiplier</code> || <code>1.25</code> / <code>1.25</code> || <translate><!--T:114--> Movement / flight speed multiplier during a surge.</translate>
 |-
-| <code>surgeAttackSpeedMultiplier</code> || <code>1.40</code> || <translate>Attack speed multiplier during a surge.</translate>
+| <code>surgeAttackSpeedMultiplier</code> || <code>1.40</code> || <translate><!--T:115--> Attack speed multiplier during a surge.</translate>
 |-
-| <code>surgeAuraScaleMultiplier</code> / <code>surgeAuraSpeedMultiplier</code> || <code>1.25</code> / <code>1.50</code> || <translate>Aura size / animation speed during a surge (visual only).</translate>
+| <code>surgeAuraScaleMultiplier</code> / <code>surgeAuraSpeedMultiplier</code> || <code>1.25</code> / <code>1.50</code> || <translate><!--T:116--> Aura size / animation speed during a surge (visual only).</translate>
 |}
 
 <translate>
+<!--T:117-->
 An [[Special:MyLanguage/Android|Android's]] Absorption Barrier can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
 </translate>
 
 <translate>
-== Combat flight ==
+== Combat flight == <!--T:118-->
 </translate>
 {{See also|Combat|Skills}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:119--> Key</translate> !! <translate><!--T:120--> Default</translate> !! <translate><!--T:121--> What it does</translate>
 |-
-| <code>combatFlyAutoSwitchOnDamage</code> || <code>true</code> || <translate>When you take or deal damage while flying in Search Fly, you're switched to Combat Fly.</translate>
+| <code>combatFlyAutoSwitchOnDamage</code> || <code>true</code> || <translate><!--T:122--> When you take or deal damage while flying in Search Fly, you're switched to Combat Fly.</translate>
 |-
-| <code>combatFlyLockSeconds</code> || <code>8</code> || <translate>How long you stay locked in Combat Fly after an auto-switch. With '''Mode Lock''' on (radial menu), you go back to the flight mode you locked once this ends.</translate>
+| <code>combatFlyLockSeconds</code> || <code>8</code> || <translate><!--T:123--> How long you stay locked in Combat Fly after an auto-switch. With '''Mode Lock''' on (radial menu), you go back to the flight mode you locked once this ends.</translate>
 |-
-| <code>combatFlyBaseSpeed</code> || <code>0.30</code> || <translate>Base combat-flight speed.</translate>
+| <code>combatFlyBaseSpeed</code> || <code>0.30</code> || <translate><!--T:124--> Base combat-flight speed.</translate>
 |-
-| <code>combatFlySprintSpeed</code> || <code>0.50</code> || <translate>Combat-flight speed while sprinting.</translate>
+| <code>combatFlySprintSpeed</code> || <code>0.50</code> || <translate><!--T:125--> Combat-flight speed while sprinting.</translate>
 |-
-| <code>combatFlyHoldSpeedMultiplier</code> || <code>1.6</code> || <translate>Speed multiplier while holding the movement key.</translate>
+| <code>combatFlyHoldSpeedMultiplier</code> || <code>1.6</code> || <translate><!--T:126--> Speed multiplier while holding the movement key.</translate>
 |-
-| <code>combatFlyDrainMultiplier</code> || <code>0.5</code> || <translate>Ki drain rate multiplier while combat-flying.</translate>
+| <code>combatFlyDrainMultiplier</code> || <code>0.5</code> || <translate><!--T:127--> Ki drain rate multiplier while combat-flying.</translate>
 |-
-| <code>combatFlyImpulseKiCostPct</code> || <code>0.05</code> || <translate>Ki cost (%) of a flight impulse or boost.</translate>
+| <code>combatFlyImpulseKiCostPct</code> || <code>0.05</code> || <translate><!--T:128--> Ki cost (%) of a flight impulse or boost.</translate>
 |-
-| <code>combatFlyImpulseCooldownTicks</code> || <code>25</code> || <translate>Cooldown (in ticks) between flight impulses.</translate>
+| <code>combatFlyImpulseCooldownTicks</code> || <code>25</code> || <translate><!--T:129--> Cooldown (in ticks) between flight impulses.</translate>
 |}
 
 <translate>
-== Attack pacing ==
+== Attack pacing == <!--T:130-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:131--> Key</translate> !! <translate><!--T:132--> Default</translate> !! <translate><!--T:133--> What it does</translate>
 |-
-| <code>upswingMultiplier</code> || <code>0.5</code> || <translate>Scales the short attack cooldown applied when you stop breaking a block, relative to your normal attack cooldown (clamped to <code>0.2</code>–<code>1.0</code>).</translate>
+| <code>upswingMultiplier</code> || <code>0.5</code> || <translate><!--T:134--> Scales the short attack cooldown applied when you stop breaking a block, relative to your normal attack cooldown (clamped to <code>0.2</code>–<code>1.0</code>).</translate>
 |-
-| <code>allowAttackingMount</code> || <code>false</code> || <translate>Whether players can attack while mounted.</translate>
+| <code>allowAttackingMount</code> || <code>false</code> || <translate><!--T:135--> Whether players can attack while mounted.</translate>
 |-
-| <code>attackIntervalCap</code> || <code>2</code> || <translate>Minimum ticks between attacks, however high your attack speed is.</translate>
+| <code>attackIntervalCap</code> || <code>2</code> || <translate><!--T:136--> Minimum ticks between attacks, however high your attack speed is.</translate>
 |}
 
 <translate>
+<!--T:137-->
 '''Melee windup.''' A melee swing lands a moment after you press attack: the windup is the swing animation's length × the attack's <code>upswing</code> value from its [[Special:MyLanguage/Weapon Attributes|weapon attributes]] × 0.95, between '''3 and 7 ticks'''. The server times the windup (with some tolerance for lag) and checks every target against the real attack hitbox and line of sight before the hit counts. You can't deal melee damage while blocking, and starting to block cancels a swing in progress.
 </translate>
 
 <translate>
-== Ki weapons ==
+== Ki weapons == <!--T:138-->
 </translate>
 {{See also|Skills}}
 <translate>
+<!--T:139-->
 <code>kiWeaponsConfig</code> is a map keyed by weapon type (<code>blade</code>, <code>scythe</code>, <code>clawlance</code>): the Ki Blade, Ki Scythe and Ki Claw Lance unlocked by the [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] skill. Default value:
 </translate>
 
@@ -307,79 +314,82 @@ An [[Special:MyLanguage/Android|Android's]] Absorption Barrier can also force a 
 </syntaxhighlight>
 
 <translate>
+<!--T:140-->
 Each entry has these fields:
 </translate>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>What it does</translate>
+! <translate><!--T:141--> Field</translate> !! <translate><!--T:142--> What it does</translate>
 |-
-| <code>baseDamage</code> || <translate>Flat bonus damage per hit.</translate>
+| <code>baseDamage</code> || <translate><!--T:143--> Flat bonus damage per hit.</translate>
 |-
-| <code>kiScalingDamage</code> || <translate>Bonus damage = Ki Damage × this × (Ki Manipulation level × 0.1).</translate>
+| <code>kiScalingDamage</code> || <translate><!--T:144--> Bonus damage = Ki Damage × this × (Ki Manipulation level × 0.1).</translate>
 |-
-| <code>baseKiCost</code> || <translate>Flat ki cost per attack.</translate>
+| <code>baseKiCost</code> || <translate><!--T:145--> Flat ki cost per attack.</translate>
 |-
-| <code>kiScalingCost</code> || <translate>Extra ki cost per attack = <code>baselineFormDrain</code> × this.</translate>
+| <code>kiScalingCost</code> || <translate><!--T:146--> Extra ki cost per attack = <code>baselineFormDrain</code> × this.</translate>
 |-
-| <code>attackSpeed</code> || <translate>Vanilla-style attack-speed attribute modifier (negative is slower).</translate>
+| <code>attackSpeed</code> || <translate><!--T:147--> Vanilla-style attack-speed attribute modifier (negative is slower).</translate>
 |-
-| <code>forcedColor</code> || <translate>Hex color string used to render the weapon's ki effect.</translate>
+| <code>forcedColor</code> || <translate><!--T:148--> Hex color string used to render the weapon's ki effect.</translate>
 |-
-| <code>weaponCombo</code> || <translate>Moveset the weapon uses (a [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] id).</translate>
+| <code>weaponCombo</code> || <translate><!--T:149--> Moveset the weapon uses (a [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] id).</translate>
 |}
 
 <translate>
-== Weapon registry ==
+== Weapon registry == <!--T:150-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:151--> Key</translate> !! <translate><!--T:152--> Default</translate> !! <translate><!--T:153--> What it does</translate>
 |-
-| <code>weaponRegistryLogging</code> || <code>false</code> || <translate>Logs weapon-registry resolution for debugging.</translate>
+| <code>weaponRegistryLogging</code> || <code>false</code> || <translate><!--T:154--> Logs weapon-registry resolution for debugging.</translate>
 |-
-| <code>weaponRegistryCompression</code> || <code>true</code> || <translate>Compresses the synced weapon registry payload sent to clients.</translate>
+| <code>weaponRegistryCompression</code> || <code>true</code> || <translate><!--T:155--> Compresses the synced weapon registry payload sent to clients.</translate>
 |}
 
 <translate>
-== Player combat relations ==
+== Player combat relations == <!--T:156-->
 </translate>
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:157--> Key</translate> !! <translate><!--T:158--> Default</translate> !! <translate><!--T:159--> What it does</translate>
 |-
-| <code>playerRelations</code> || <code>minecraft:player: HOSTILE</code>, <code>minecraft:villager: NEUTRAL</code>, <code>minecraft:iron_golem: NEUTRAL</code>, <code>guardvillagers:guard: NEUTRAL</code> || <translate>A map of entity id to <code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>: a per-entity override for how combat targeting treats that entity. Party members (unless party PvP is on) are always friendly, and tournament rivals always hostile.</translate>
+| <code>playerRelations</code> || <code>minecraft:player: HOSTILE</code>, <code>minecraft:villager: NEUTRAL</code>, <code>minecraft:iron_golem: NEUTRAL</code>, <code>guardvillagers:guard: NEUTRAL</code> || <translate><!--T:160--> A map of entity id to <code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>: a per-entity override for how combat targeting treats that entity. Party members (unless party PvP is on) are always friendly, and tournament rivals always hostile.</translate>
 |-
-| <code>masteryBlacklistEntities</code> || <code>minecraft:silverfish</code>, <code>dummmmmmy:target_dummy</code> || <translate>List of entity ids excluded from mastery and combat-progress gains (for example training dummies).</translate>
+| <code>masteryBlacklistEntities</code> || <code>minecraft:silverfish</code>, <code>dummmmmmy:target_dummy</code> || <translate><!--T:161--> List of entity ids excluded from mastery and combat-progress gains (for example training dummies).</translate>
 |-
-| <code>playerRelationToPassives</code> || <code>HOSTILE</code> || <translate>Default relation (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>) toward passive mobs not otherwise listed.</translate>
+| <code>playerRelationToPassives</code> || <code>HOSTILE</code> || <translate><!--T:162--> Default relation (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>) toward passive mobs not otherwise listed.</translate>
 |-
-| <code>playerRelationToHostiles</code> || <code>HOSTILE</code> || <translate>Default relation toward hostile mobs not otherwise listed.</translate>
+| <code>playerRelationToHostiles</code> || <code>HOSTILE</code> || <translate><!--T:163--> Default relation toward hostile mobs not otherwise listed.</translate>
 |-
-| <code>playerRelationToOther</code> || <code>HOSTILE</code> || <translate>Default relation toward anything else.</translate>
+| <code>playerRelationToOther</code> || <code>HOSTILE</code> || <translate><!--T:164--> Default relation toward anything else.</translate>
 |}
 
 <translate>
-== Fallback compatibility for third-party weapons ==
+== Fallback compatibility for third-party weapons == <!--T:165-->
 </translate>
 {{See also|Weapon Attributes|Special Weapons}}
 <translate>
+<!--T:166-->
 When a weapon has no dedicated [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] entry, DMZ matches its item id against a list of regular expressions to infer a sensible weapon category. Only items with an attack-damage modifier are considered.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:167--> Key</translate> !! <translate><!--T:168--> Default</translate> !! <translate><!--T:169--> What it does</translate>
 |-
-| <code>fallbackCompatibilityEnabled</code> || <code>true</code> || <translate>Master toggle for this system.</translate>
+| <code>fallbackCompatibilityEnabled</code> || <code>true</code> || <translate><!--T:170--> Master toggle for this system.</translate>
 |-
-| <code>blacklistItemIdRegex</code> || <code>"pickaxe"</code> || <translate>Item ids matching this regular expression are never treated as a DMZ-style weapon.</translate>
+| <code>blacklistItemIdRegex</code> || <code>"pickaxe"</code> || <translate><!--T:171--> Item ids matching this regular expression are never treated as a DMZ-style weapon.</translate>
 |-
-| <code>fallbackCompatibility</code> || <translate>20 default entries (below)</translate> || <translate>Ordered list of <code>{ item_id_regex, weapon_attributes }</code> mappings from regular expression to category; the first match wins.</translate>
+| <code>fallbackCompatibility</code> || <translate><!--T:172--> 20 default entries (below)</translate> || <translate><!--T:173--> Ordered list of <code>{ item_id_regex, weapon_attributes }</code> mappings from regular expression to category; the first match wins.</translate>
 |}
 
 <translate>
+<!--T:174-->
 Default mappings (<code>item_id_regex</code> → <code>weapon_attributes</code> category):
 </translate>
 
 {| class="wikitable"
-! <translate>Regular expression</translate> !! <translate>Category</translate>
+! <translate><!--T:175--> Regular expression</translate> !! <translate><!--T:176--> Category</translate>
 |-
 | <code>claymore&#124;great_sword&#124;greatsword</code> || <code>dragonminez:claymore</code>
 |-
@@ -419,16 +429,17 @@ Default mappings (<code>item_id_regex</code> → <code>weapon_attributes</code> 
 |-
 | <code>cutlass&#124;scimitar&#124;machete</code> || <code>dragonminez:cutlass</code>
 |-
-| <code>sword&#124;blade</code> || <code>dragonminez:sword</code> <translate>(catch-all)</translate>
+| <code>sword&#124;blade</code> || <code>dragonminez:sword</code> <translate><!--T:177--> (catch-all)</translate>
 |}
 
-{{Note|type=tip|title=<translate>Precise control</translate>|text=<translate>If you are adding a weapon mod's item and want precise control instead of relying on regular-expression inference, give it a real [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] entry. The datapack entry always wins over the fallback guess.</translate>}}
+{{Note|type=tip|title=<translate><!--T:178--> Precise control</translate>|text=<translate><!--T:179--> If you are adding a weapon mod's item and want precise control instead of relying on regular-expression inference, give it a real [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]] entry. The datapack entry always wins over the fallback guess.</translate>}}
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:180-->
 </translate>
 {{See also|Reloading and Updating Changes|How to JSON}}
 <translate>
+<!--T:181-->
 # Edit <code>config/dragonminez/combat.json</code>.
 # Validate the JSON syntax.
 # Run <code>/dmzreload config</code> (or <code>/dmzreload</code>).

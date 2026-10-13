@@ -1,41 +1,55 @@
 {{Infobox Mob
-|Type=<translate>Predator</translate>
+|Type=<translate><!--T:1--> Predator</translate>
 |Dimension={{L|Earth}}, {{L|Namek}}
-|Spawns=<translate>Oceans, deep oceans and beaches on Earth; Namekian Rivers on Namek</translate>
-|Behavior=<translate>Hunts swimmers: speeds up and lunges to bite players and villagers in the water</translate>
+|Spawns=<translate><!--T:2--> Oceans, deep oceans and beaches on Earth; Namekian Rivers on Namek</translate>
+|Behavior=<translate><!--T:3--> Hunts swimmers: speeds up and lunges to bite players and villagers in the water</translate>
 |Health=80
 |Damage=8
-|Drops=<translate>1 Raw Giant Fish</translate>
+|Drops=<translate><!--T:4--> 1 Raw Giant Fish</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Giant Fish''' is a huge predatory fish found in the seas of [[Special:MyLanguage/Earth|Earth]] and the rivers of [[Special:MyLanguage/Namek|Namek]]. It hunts anyone who swims in its waters.
 </translate>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:6-->
 
+<!--T:7-->
 Giant Fish spawn in oceans, deep oceans and beaches on Earth, and in the Namekian Rivers biome on Namek (spawn weight 10, groups of 1–2). They always spawn at least 2 blocks below sea level, in open water.
 </translate>
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:8-->
 
+<!--T:9-->
 The Giant Fish hunts swimmers: it speeds up and lunges to bite players and villagers in the water. It comes in several color variants, including a rare (3%) special one.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:10-->
 
+<!--T:11-->
 * 1 '''Raw Giant Fish''' (cooks if on fire, +0–1 Looting)
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:12-->
 
+<!--T:13-->
 The very first quest of the [[Special:MyLanguage/Classic Saga|Classic Saga]], '''A Fishy Welcome''', asks you to defeat a Giant Fish in a river, beach or ocean on Earth. It rewards 2 Cooked Giant Fish.
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:giant_fish</code>}}
+<translate>
+== Gallery == <!--T:15-->
+</translate>
+<gallery>
+File:Giant Fish (Variant 1).png|<translate><!--T:16--> Variant 2</translate>
+File:Giant Fish (Variant 2).png|<translate><!--T:17--> Variant 3</translate>
+File:Giant Fish (Variant 3).png|<translate><!--T:18--> Rare special variant</translate>
+</gallery>
+
+{{Note|type=config|title=<translate><!--T:14--> Entity id</translate>|<code>dragonminez:giant_fish</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Wildlife{{#translation:}}]]

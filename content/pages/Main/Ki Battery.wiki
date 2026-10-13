@@ -1,20 +1,23 @@
 {{Infobox Item
-|Type=<translate>Consumable</translate>
-|Effect=<translate>Restores 50% of your max ki</translate>
-|Duration=<translate>Instant (3-second cooldown)</translate>
+|Type=<translate><!--T:1--> Consumable</translate>
+|Effect=<translate><!--T:2--> Restores 50% of your max ki</translate>
+|Duration=<translate><!--T:3--> Instant (3-second cooldown)</translate>
 |Stack size=16
-|Obtained=<translate>Bulma's Ki Accumulator sidequest</translate>
-|Crafting=<translate>Redstone, Lapis Lazuli and a Gete Ingot</translate>
+|Obtained=<translate><!--T:4--> Bulma's Ki Accumulator sidequest</translate>
+|Crafting=<translate><!--T:5--> Redstone, Lapis Lazuli and a Gete Ingot</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Ki Battery''' restores '''50%''' of your max ki at once. After using one you must wait 3 seconds before using another.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:7-->
 
-* '''Crafting table:''' <code>R L R / L G L / R L R</code>, where R is Redstone, L is Lapis Lazuli and G is a Gete Ingot (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).
+<!--T:8-->
+* '''Crafting table:''' recipe below. The Gete Ingot comes from [[Special:MyLanguage/Gete Tech|Gete Tech]].
 * Bulma's '''Ki Accumulator''' sidequest rewards 3 Ki Batteries.
 </translate>
+{{Recipe|ki_battery}}
 
 {{Navbox Items}}

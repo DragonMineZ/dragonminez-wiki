@@ -1,62 +1,77 @@
 <translate>
+<!--T:1-->
 A '''beam clash''' happens when two beams meet head-on. Both fighters are locked in place and a timing meter appears: every well-timed press pushes your beam forward, and the side that pushes far enough breaks through while the loser is left exhausted. Your stats matter, but timing can turn a fight around.
 </translate>
 
 <translate>
-== Starting a clash ==
+== Starting a clash == <!--T:2-->
 
+<!--T:3-->
 A clash starts when two '''beams''' fired by different fighters meet head-on. Only the Wave and Beam types clash: the Kamehameha, Galick Gun, Final Flash, Special Beam Cannon, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and the like, Wave attacks you create yourself included. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].
 
+<!--T:4-->
 Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam don't clash: they are simply destroyed.
 
+<!--T:5-->
 Allies never clash with each other: party members (while party PvP is off), players on the same team and players fighting the same world boss (see [[Special:MyLanguage/World Bosses#Truce|world boss truce]]) can fire their beams side by side, and a beam doesn't destroy an ally's smaller attacks.
 
+<!--T:6-->
 While the clash lasts, both fighters are held in place and '''invulnerable'''.
 </translate>
 
 <translate>
-== The timing meter ==
+== The timing meter == <!--T:7-->
 
+<!--T:8-->
 Each fighter gets their own meter. A marker sweeps across it, changing direction on every sweep, and each sweep has a '''window''' in a different place. A sweep takes about 2 to 3 seconds.
 
+<!--T:9-->
 * '''Right-click''' when the marker is inside the window.
 * A press near the centre of the window is '''PERFECT'''; anywhere else inside it is '''GOOD'''.
 * A press outside the window is a '''MISS''' and wastes that sweep. Only one press counts per sweep.
 
+<!--T:10-->
 Presses are checked by the server, so the timing can't be faked.
 </translate>
 
 <translate>
-== Pushing your beam ==
+== Pushing your beam == <!--T:11-->
 
+<!--T:12-->
 Every PERFECT or GOOD press builds '''momentum''' that pushes your beam forward: a PERFECT press gives the full amount, a GOOD press between half and the full amount depending on how close to the centre you were. Momentum fades over time, so you have to keep hitting the window.
 
+<!--T:13-->
 Your stats decide how hard each press pushes: the beam with more power behind it turns the same momentum into a bigger push. A weaker fighter can still win with better timing.
 </translate>
 
 <translate>
-== Winning and losing ==
+== Winning and losing == <!--T:14-->
 
+<!--T:15-->
 The side that pushes the clash far enough '''wins''': its beam breaks through and keeps going for a moment. The losing beam is destroyed and the loser is '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).
 
+<!--T:16-->
 A clash can also end in other ways:
 
+<!--T:17-->
 * If either fighter stops firing, the clash dissolves with no winner.
 * If neither fighter presses for 7 seconds, the clash dissolves.
 * After 30 seconds, whoever is ahead wins. If the beams are exactly even, the clash dissolves.
 </translate>
 
 <translate>
-== Clashing with enemies ==
+== Clashing with enemies == <!--T:18-->
 
+<!--T:19-->
 Enemies that fire beams can clash with you too. They press on their own, and the more powerful their beam is, the more accurate their timing gets.
 </translate>
 
 <translate>
-== Strike clashes ==
+== Strike clashes == <!--T:20-->
 </translate>
 {{Main|Strike Clash}}
 <translate>
+<!--T:21-->
 Melee techniques can clash too: when two fighters rush at each other with strike attacks, their fists meet and the same timing meter decides who breaks through.
 </translate>
 

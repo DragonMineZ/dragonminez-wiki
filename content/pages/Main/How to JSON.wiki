@@ -1,11 +1,13 @@
 <translate>
+<!--T:1-->
 '''How to JSON''' explains the rules every DragonMineZ data file follows. You don't need to know Java to configure DragonMineZ, but your files have to be valid JSON, and DragonMineZ upgrades its files between versions in ways you should know about before you start editing.
 </translate>
 
 <translate>
-== Ground rules ==
+== Ground rules == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 * '''Standard JSON.''' No trailing commas; keys and strings go in double quotes. The config parser tolerates <code>//</code> comments and skips keys that start with <code>_</code>, <code>$</code> or <code>//</code> without a warning, but DragonMineZ drops them whenever it rewrites a file (a version upgrade, <code>/dmzconfig</code> or the in-game config editor). Keep long notes outside the file.
 * '''UTF-8 encoding.''' Config is read and written as UTF-8 (<code>ConfigLoader.java</code>). Don't save files as UTF-16, or with a byte order mark (BOM) that your editor might add silently.
 * '''Use a real editor.''' VS Code, Notepad++ or IntelliJ catch bracket and quote mismatches before they reach the server. Notepad works, but it won't warn you about syntax errors.
@@ -13,42 +15,50 @@
 </translate>
 
 <translate>
-== When DragonMineZ can't read your file ==
+== When DragonMineZ can't read your file == <!--T:4-->
 </translate>
 <translate>
+<!--T:5-->
 DragonMineZ never overwrites a file it can't read. If a config file has a syntax error:
 </translate>
 <translate>
+<!--T:6-->
 * DragonMineZ logs <code><file> has malformed JSON; using defaults this session and leaving your file untouched</code>, with the line, column and path of the error.
 * For that session the game runs on the built-in default values of that file. Your file stays exactly as you left it.
 * Fix the syntax and run <code>/dmzreload</code> (or restart) to apply your values.
 </translate>
 <translate>
+<!--T:7-->
 The same applies to the other JSON files DragonMineZ loads: a malformed custom form, raid, tournament, quest, saga, side quest or wish file is '''skipped''' (not regenerated) and reported.
 </translate>
 
 <translate>
-=== The JSON load report ===
+=== The JSON load report === <!--T:8-->
 </translate>
 {{Config|General Server Config|developer.reportJsonProblemsInChat}}
 <translate>
+<!--T:9-->
 All these problems are collected in one report. With <code>developer.reportJsonProblemsInChat</code> enabled in <code>general-server.json</code> (the default), every player sees a short summary in chat on login: the files that failed (<code>[!]</code>) and the default files that were upgraded automatically (<code>[~]</code>). The report also flags '''unknown keys''', usually a typo such as <code>"tpGainMultipler"</code>: the key is ignored and the rest of the file still loads. The server log has the full details.
 </translate>
 
 <translate>
-== Config versions and automatic upgrades ==
+== Config versions and automatic upgrades == <!--T:10-->
 </translate>
 <translate>
+<!--T:11-->
 Every config file (<code>general-server.json</code>, <code>combat.json</code>, a race's <code>character.json</code> and <code>stats.json</code>, forms, <code>entities.json</code>, raids, tournaments and so on) carries a <code>configVersion</code> string in <code>X.Y.Z</code> form, for example <code>"2.2.0"</code>. '''Do not edit it by hand.''' DragonMineZ compares it with the mod's own config version every time it loads the file:
 </translate>
 <translate>
+<!--T:12-->
 * '''Current version:''' the file is loaded as it is.
 * '''Older or missing version:''' DragonMineZ upgrades the file. Any value that isn't in <code>X.Y.Z</code> form, such as the old numeric <code>21.0</code>, counts as outdated.
 </translate>
 <translate>
+<!--T:13-->
 An upgrade goes through these steps:
 </translate>
 <translate>
+<!--T:14-->
 # The old file is '''moved''' to <code>config/dragonminez/oldBackup/<same relative path></code> (for example <code>oldBackup/races/saiyan/forms/superforms.json</code>).
 # A fresh file is generated from the new defaults.
 # Your old values are merged back in with a '''three-way merge''' against the defaults of the previous release, which ship inside the mod jar (<code>data/dragonminez/previousConfigs/</code>):
@@ -59,15 +69,17 @@ An upgrade goes through these steps:
 # The log shows <code>Regenerating <file>. Reason: Outdated version (...)</code> and how many of your values were preserved.
 </translate>
 <translate>
+<!--T:15-->
 Values the merge can't carry over (for example a value of the wrong type, such as a string where a number is expected) fall back to the default. After an update, compare the new file with its copy in <code>oldBackup/</code> if something looks off.
 </translate>
 
-{{Note|type=warning|title=<translate>Leave configVersion alone</translate>|text=<translate>Changing <code>configVersion</code> by hand either forces an unwanted upgrade or makes DragonMineZ treat an outdated file as current, so new keys and balance fixes are not merged in.</translate>}}
+{{Note|type=warning|title=<translate><!--T:16--> Leave configVersion alone</translate>|text=<translate><!--T:17--> Changing <code>configVersion</code> by hand either forces an unwanted upgrade or makes DragonMineZ treat an outdated file as current, so new keys and balance fixes are not merged in.</translate>}}
 
 <translate>
-== Custom and user-defined files ==
+== Custom and user-defined files == <!--T:18-->
 </translate>
 <translate>
+<!--T:19-->
 * '''Custom races''' (any folder under <code>config/dragonminez/races/</code> that isn't a default race) go through the same version check: their <code>character.json</code> and <code>stats.json</code> are upgraded with the merge above, keeping every value you set. DragonMineZ never generates default forms for them.
 * '''Custom form files''' (form groups that aren't DragonMineZ defaults, in <code>races/<race>/forms/</code> or <code>forms/</code>) keep their content: when their version is outdated, a copy is moved to <code>oldBackup/</code> and the file is saved again with the current version.
 * '''Extra raid and tournament files''' you add are loaded as they are.
@@ -76,20 +88,23 @@ Values the merge can't carry over (for example a value of the wrong type, such a
 </translate>
 
 <translate>
-== Quest files and defaultsVersion ==
+== Quest files and defaultsVersion == <!--T:20-->
 </translate>
 {{Config|General Server Config|gameplay.autoUpdateQuests}}
 <translate>
+<!--T:21-->
 Default quest, saga and side quest files in <code><world>/dragonminez/</code> carry a <code>"defaultsVersion"</code> field instead of <code>configVersion</code>. When a new DragonMineZ version ships changed defaults and <code>autoUpdateQuests</code> is on, DragonMineZ runs a similar three-way merge on them (against <code>data/dragonminez/previousQuests/</code> in the jar). If both you and the new version changed the same field, '''your value is kept''' and the conflict is listed in <code><world>/dragonminez/quest_update_report.txt</code>. Before changing a file, DragonMineZ copies it to <code><world>/dragonminez/oldBackup/</code>.
 </translate>
 <translate>
+<!--T:22-->
 See [[Special:MyLanguage/Custom Quests#Default file upgrades|Custom Quests]] for how the merge treats each field, and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for how upgrades are reported.
 </translate>
 
 <translate>
-== Common mistakes ==
+== Common mistakes == <!--T:23-->
 </translate>
 <translate>
+<!--T:24-->
 * Not renaming <code>raceName</code>, <code>groupName</code> or other id-like fields consistently between the folder name and the JSON content. DragonMineZ keys many lookups off both.
 * Copying a form or race file and forgetting to change its internal identifiers, so one entry silently overrides another.
 * Editing a file while the server is running and expecting it to apply live. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for what needs a reload and what needs a restart.
@@ -98,9 +113,10 @@ See [[Special:MyLanguage/Custom Quests#Default file upgrades|Custom Quests]] for
 </translate>
 
 <translate>
-== Checking a field against the code ==
+== Checking a field against the code == <!--T:25-->
 </translate>
 <translate>
+<!--T:26-->
 The modding pages of this wiki name the Java class behind each file (for example <code>RaceCharacterConfig.java</code>, <code>FormConfig.java</code> or <code>GeneralServerConfig.java</code> in <code>com.dragonminez.common.config</code>). When in doubt about a field name or type, that class is the ground truth: the wiki describes it, but the code defines it. The easiest reference is a freshly generated file: start a test instance, then copy the file DragonMineZ writes.
 </translate>
 

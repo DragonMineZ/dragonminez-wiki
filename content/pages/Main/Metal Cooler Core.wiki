@@ -1,68 +1,78 @@
 {{Infobox World Boss
-|quote=<translate>The Big Gete Star awakens! Watch the red marks on the floor.</translate>
+|quote=<translate><!--T:1--> The Big Gete Star awakens! Watch the red marks on the floor.</translate>
 |World={{L|Namek}}
-|Lair=<translate>The inner chamber of the Big Gete Star</translate>
-|How to find=<translate>The Big Gete Star lies in the Ajissa Plains or the Sacred Land, at least 1,000 blocks from 0, 0; Namekian Traders sell a map to it</translate>
+|Lair=<translate><!--T:2--> The inner chamber of the Big Gete Star</translate>
+|How to find=<translate><!--T:3--> The Big Gete Star lies in the Ajissa Plains or the Sacred Land, at least 1,000 blocks from 0, 0; Namekian Traders sell a map to it</translate>
 |Boss key=metal_cooler_core
 |Health=640000
-|Minions=<translate>Metal Cooler guardians, Metal Cooler copies</translate>
-|Signature moves=<translate>Floor lasers, binding cables, Supernova</translate>
-|Reward=<translate>×105 Attributes</translate>
-|Drops=<translate>4 Gete Ingots, each of the six Gete capsules (12% each)</translate>
-|Techniques=<translate>Supernova (Cooler) (20%)</translate>
+|Minions={{L|Metal Cooler}} <translate><!--T:4--> (guardians and copies)</translate>
+|Signature moves=<translate><!--T:5--> Floor lasers, binding cables, Supernova</translate>
+|Reward=<translate><!--T:6--> ×105 Attributes</translate>
+|Drops=<translate><!--T:7--> 4 Gete Ingots, each of the six Gete capsules (12% each)</translate>
+|Techniques=<translate><!--T:8--> Supernova (Cooler) (20%)</translate>
 }}
 <translate>
-The '''Metal Cooler Core''' is the world boss of [[Special:MyLanguage/Namek|Planet Namek]]: the heart of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], fought inside its inner chamber. It never leaves its chamber, but floods it with lasers, binding cables, Metal Cooler guardians and a swarm of copies, and ends with a '''Supernova''' that only a power clash can stop.
+<!--T:9-->
+The '''Metal Cooler Core''' is the world boss of [[Special:MyLanguage/Namek|Planet Namek]]: the heart of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], fought inside its inner chamber. It never leaves its chamber, but floods it with lasers, binding cables, [[Special:MyLanguage/Metal Cooler|Metal Cooler]] guardians and a swarm of copies, and ends with a '''Supernova''' that only a power clash can stop.
 </translate>
 
 <translate>
-== The Big Gete Star ==
+== The Big Gete Star == <!--T:10-->
 
+<!--T:11-->
 The [[Special:MyLanguage/Big Gete Star|Big Gete Star]] is a huge, half-buried mechanical sphere in the Ajissa Plains or the Sacred Land of Namek, at least 1,000 blocks from 0, 0; there is only one per world. Its hull is unbreakable, and the drained ground around it hides some '''Gete Debris'''. Every [[Special:MyLanguage/Namekian Trader|Namekian Trader]] sells a '''Big Gete Star Map''' for 16 Emeralds. See [[Special:MyLanguage/Structures|Structures]].
 
-Around the sphere, up to 2 patrols roam near players: each one is a Metal Cooler scout leading 2–3 [[Special:MyLanguage/Gete Robot|Gete Robots]].
+<!--T:12-->
+Around the sphere, up to 2 patrols roam near players: each one is a [[Special:MyLanguage/Metal Cooler|Metal Cooler]] scout leading 2–3 [[Special:MyLanguage/Gete Robot|Gete Robots]].
 
+<!--T:13-->
 In worlds created before the Big Gete Star was added, it is still placed where DMZ planned it when a player loads that area; it is too big to place at once, so it is filled in gradually. When an operator resets the boss, the sphere is restored too.
 </translate>
 
 <translate>
-== Waking the Core ==
+== Waking the Core == <!--T:14-->
 
+<!--T:15-->
 Unlike the other world bosses, the Metal Cooler Core only wakes for players '''inside its chamber'''. When it wakes, everyone is warned to watch the red marks on the floor.
 </translate>
 
 <translate>
-== The fight ==
+== The fight == <!--T:16-->
 
+<!--T:17-->
 The fight has three phases, which start as the Core loses health.
 </translate>
 {| class="wikitable"
-! <translate>Phase</translate> !! <translate>Starts at</translate> !! <translate>What happens</translate>
+! <translate><!--T:18--> Phase</translate> !! <translate><!--T:19--> Starts at</translate> !! <translate><!--T:20--> What happens</translate>
 |-
-| 1 || <translate>Full health</translate> || <translate>'''Floor lasers''' strike the spots marked by red circles on the floor, in several waves. The Core also builds '''Metal Cooler guardians''' (up to 3 at a time) every so often.</translate>
+| 1 || <translate><!--T:21--> Full health</translate> || <translate><!--T:22--> '''Floor lasers''' strike the spots marked by red circles on the floor, in several waves. The Core also builds '''[[Special:MyLanguage/Metal Cooler|Metal Cooler guardians]]''' (up to 3 at a time) every so often.</translate>
 |-
-| 2 || <translate>70% health</translate> || <translate>The Core starts draining energy. '''Cables''' burst from the floor under purple circles and bind the players caught there: press the sneak key to break free. The '''Core Overload''' bar appears.</translate>
+| 2 || <translate><!--T:23--> 70% health</translate> || <translate><!--T:24--> The Core starts draining energy. '''Cables''' burst from the floor under purple circles and bind the players caught there: press the sneak key to break free. The '''Core Overload''' bar appears.</translate>
 |-
-| 3 || <translate>35% health</translate> || <translate>The Big Gete Star releases its army: a '''swarm of Metal Cooler copies''' (another swarm follows at 15% health). The Core now charges the '''Supernova''' and stops building guardians.</translate>
+| 3 || <translate><!--T:25--> 35% health</translate> || <translate><!--T:26--> The Big Gete Star releases its army: a '''swarm of [[Special:MyLanguage/Metal Cooler|Metal Cooler]] copies''' (another swarm follows at 15% health). The Core now charges the '''Supernova''' and stops building guardians.</translate>
 |}
 
 <translate>
-=== Overload ===
+=== Overload === <!--T:27-->
 
+<!--T:28-->
 From phase 2 on, filling the '''Core Overload''' bar triggers an '''overload''': the Core is exposed and takes 50% more damage for 12 seconds, and any players bound by its cables are released.
 </translate>
 
 <translate>
-=== Supernova ===
+=== Supernova === <!--T:29-->
 
-In phase 3 the Core charges a '''Supernova'''. While it charges, the Core '''can't be damaged''', and every Metal Cooler guardian and copy still standing heals it each second, so clear them out first.
+<!--T:30-->
+In phase 3 the Core charges a '''Supernova'''. While it charges, the Core '''can't be damaged''', and every [[Special:MyLanguage/Metal Cooler|Metal Cooler]] guardian and copy still standing heals it each second, so clear them out first.
 
+<!--T:31-->
 When the Supernova comes down, fire beams at it to join the '''power clash''' and press on the marks to push it back. Win the clash and the Supernova is pushed back into the Core; it is the only way to stop it.
 </translate>
 
 <translate>
-== Rewards ==
+== Rewards == <!--T:32-->
 
+<!--T:33-->
 Every contributor with at least 7.5% of the points rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):
 * '''×105 Attributes''' (guaranteed; the amount scales with your contribution): half as Attribute Points and half as Training Points, like quest rewards (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]).
 * '''4 Gete Ingots''' (guaranteed).
@@ -71,8 +81,9 @@ Every contributor with at least 7.5% of the points rolls these default rewards (
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:34-->
 
+<!--T:35-->
 The [[Special:MyLanguage/Movies Saga|Movies Saga]] has its own Big Gete Star chapter in the Ajissa Plains of Namek, after Frieza Saga quest 16: [[Special:MyLanguage/Big Gete Star|Big Gete Star]] (10 Gete Robots), '''Metal Cooler''' and '''Metal Cooler Core'''. On Hard difficulty the story Metal Cooler Core fights on the Expert AI tier.
 </translate>
 

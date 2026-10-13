@@ -1,0 +1,827 @@
+{
+ "Page_display_title": {
+  "source": "Implementation and Events",
+  "translation": "Implementación y eventos",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Implementation and Events''' describes the hook surface DragonMineZ offers to add-ons: its events, how to read player state, the extension registries, and where to plug in your own networking and registries. Read it once your add-on builds against DMZ (see [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]]).",
+  "translation": "'''Implementación y eventos''' describe la superficie de hooks que DragonMineZ ofrece a los addons: sus eventos, cómo leer el estado del jugador, los registros de extensión y dónde conectar tu propia red y tus propios registros. Léela cuando tu addon ya compile contra DMZ (consulta [[Special:MyLanguage/Add-on Getting Started|Primeros pasos con addons]]).",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Listening to a DMZ event ==",
+  "translation": "== Escuchar un evento de DMZ ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "All server and common events are nested static classes of <code>com.dragonminez.common.events.DMZEvent</code>, posted to the standard Forge event bus (<code>MinecraftForge.EVENT_BUS</code>). Each nested class extends Forge's <code>Event</code> directly (<code>DMZEvent</code> itself is only the container), so subscribe to the specific nested class:",
+  "translation": "Todos los eventos de servidor y comunes son clases estáticas anidadas de <code>com.dragonminez.common.events.DMZEvent</code>, publicadas en el bus de eventos estándar de Forge (<code>MinecraftForge.EVENT_BUS</code>). Cada clase anidada extiende directamente el <code>Event</code> de Forge (<code>DMZEvent</code> en sí solo es el contenedor), así que suscríbete a la clase anidada concreta:",
+  "outdated": false
+ },
+ "4": {
+  "source": "Events marked '''cancelable''' below carry Forge's <code>@Cancelable</code> annotation: <code>event.setCanceled(true)</code> blocks the underlying action. Fields marked ''settable'' have a setter (<code>setTpGain</code>, <code>setAmount</code>, ...), and DMZ uses the value after all listeners ran. All getters follow the field names (<code>getPlayer()</code>, <code>getOldValue()</code>, ...); boolean fields use <code>is...</code> (<code>isParry()</code>, <code>isBlocked()</code>).",
+  "translation": "Los eventos marcados abajo como '''cancelables''' llevan la anotación <code>@Cancelable</code> de Forge: <code>event.setCanceled(true)</code> bloquea la acción subyacente. Los campos marcados como ''modificables'' tienen un setter (<code>setTpGain</code>, <code>setAmount</code>, ...), y DMZ usa el valor resultante después de que se ejecuten todos los listeners. Todos los getters siguen los nombres de los campos (<code>getPlayer()</code>, <code>getOldValue()</code>, ...); los campos booleanos usan <code>is...</code> (<code>isParry()</code>, <code>isBlocked()</code>).",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Event list ==",
+  "translation": "== Lista de eventos ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "Source: <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code>.",
+  "translation": "Origen: <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code>.",
+  "outdated": false
+ },
+ "7": {
+  "source": "=== Stats, resources and progression ===",
+  "translation": "=== Estadísticas, recursos y progreso ===",
+  "outdated": false
+ },
+ "8": {
+  "source": "Event",
+  "translation": "Evento",
+  "outdated": false
+ },
+ "9": {
+  "source": "Cancelable",
+  "translation": "Cancelable",
+  "outdated": false
+ },
+ "10": {
+  "source": "Fires when",
+  "translation": "Se dispara cuando",
+  "outdated": false
+ },
+ "11": {
+  "source": "Key fields",
+  "translation": "Campos clave",
+  "outdated": false
+ },
+ "12": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "13": {
+  "source": "A stat (STR, SKP, RES, VIT, PWR or ENE) changes through a <code>Stats.set*()</code> call: commands, items, menus, and also when stats are loaded or copied (on both server and client).",
+  "translation": "Una estadística (STR, SKP, RES, VIT, PWR o ENE) cambia mediante una llamada a <code>Stats.set*()</code>: comandos, objetos, menús, y también cuando se cargan o copian las estadísticas (tanto en el servidor como en el cliente).",
+  "outdated": false
+ },
+ "14": {
+  "source": "<code>player</code>, <code>stat</code> (<code>STRENGTH</code>, <code>STRIKE_POWER</code>, <code>RESISTANCE</code>, <code>VITALITY</code>, <code>KI_POWER</code> or <code>ENERGY</code>), <code>oldValue</code>, <code>newValue</code>",
+  "translation": "<code>player</code>, <code>stat</code> (<code>STRENGTH</code>, <code>STRIKE_POWER</code>, <code>RESISTANCE</code>, <code>VITALITY</code>, <code>KI_POWER</code> o <code>ENERGY</code>), <code>oldValue</code>, <code>newValue</code>",
+  "outdated": false
+ },
+ "15": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "16": {
+  "source": "Before a positive amount of training points is added (<code>Resources.addTrainingPoints</code>).",
+  "translation": "Antes de que se añada una cantidad positiva de puntos de entrenamiento (<code>Resources.addTrainingPoints</code>).",
+  "outdated": false
+ },
+ "17": {
+  "source": "<code>player</code>, <code>oldValue</code>, <code>tpGain</code> (settable), <code>shareWithParty</code> (settable); helper <code>getNewTpsValue()</code>",
+  "translation": "<code>player</code>, <code>oldValue</code>, <code>tpGain</code> (modificable), <code>shareWithParty</code> (modificable); auxiliar <code>getNewTpsValue()</code>",
+  "outdated": false
+ },
+ "18": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "19": {
+  "source": "Once per second while the player is actively charging ki. Cancel it to stop that second's ki gain.",
+  "translation": "Una vez por segundo mientras el jugador está cargando ki activamente. Cancélalo para detener la ganancia de ki de ese segundo.",
+  "outdated": false
+ },
+ "20": {
+  "source": "<code>player</code>, <code>currentEnergy</code>, <code>maxEnergy</code>; helper <code>isEnergyFull()</code>",
+  "translation": "<code>player</code>, <code>currentEnergy</code>, <code>maxEnergy</code>; auxiliar <code>isEnergyFull()</code>",
+  "outdated": false
+ },
+ "21": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "22": {
+  "source": "Before the per-second regeneration of health, ki or stamina is applied. They share the <code>ResourceRegenEvent</code> base.",
+  "translation": "Antes de aplicar la regeneración por segundo de vida, ki o stamina. Comparten la base <code>ResourceRegenEvent</code>.",
+  "outdated": false
+ },
+ "23": {
+  "source": "<code>player</code>, <code>statsData</code>, <code>amount</code> (settable)",
+  "translation": "<code>player</code>, <code>statsData</code>, <code>amount</code> (modificable)",
+  "outdated": false
+ },
+ "24": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "25": {
+  "source": "After the player's race form or stack form changes (server side).",
+  "translation": "Después de que cambie la forma de raza o la forma acumulable del jugador (lado del servidor).",
+  "outdated": false
+ },
+ "26": {
+  "source": "<code>player</code>, <code>oldGroup</code>, <code>oldForm</code>, <code>newGroup</code>, <code>newForm</code>; helpers <code>isTransform()</code> and <code>isUntransform()</code>",
+  "translation": "<code>player</code>, <code>oldGroup</code>, <code>oldForm</code>, <code>newGroup</code>, <code>newForm</code>; auxiliares <code>isTransform()</code> y <code>isUntransform()</code>",
+  "outdated": false
+ },
+ "27": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "28": {
+  "source": "Player data is about to be written to the <code>JSON</code> or <code>DATABASE</code> storage backend. You may add your own keys to <code>data</code>.",
+  "translation": "Los datos del jugador están a punto de escribirse en el backend de almacenamiento <code>JSON</code> o <code>DATABASE</code>. Puedes añadir tus propias claves a <code>data</code>.",
+  "outdated": false
+ },
+ "29": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "30": {
+  "source": "Player data was read from the <code>JSON</code> or <code>DATABASE</code> backend, right before it is applied to the player.",
+  "translation": "Los datos del jugador se leyeron del backend <code>JSON</code> o <code>DATABASE</code>, justo antes de aplicarse al jugador.",
+  "outdated": false
+ },
+ "31": {
+  "source": "StatChangeEvent and loading",
+  "translation": "StatChangeEvent y la carga de datos",
+  "outdated": false
+ },
+ "32": {
+  "source": "<code>StatChangeEvent</code> also fires while DMZ loads saved data and applies client syncs. If you cancel it, check <code>event.getPlayer().level().isClientSide()</code> and your own conditions first, or you can block a player's saved stats from loading.",
+  "translation": "<code>StatChangeEvent</code> también se dispara mientras DMZ carga los datos guardados y aplica las sincronizaciones del cliente. Si lo cancelas, comprueba antes <code>event.getPlayer().level().isClientSide()</code> y tus propias condiciones, o podrías impedir que se carguen las estadísticas guardadas de un jugador.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Storage backends",
+  "translation": "Backends de almacenamiento",
+  "outdated": false
+ },
+ "34": {
+  "source": "<code>PlayerDataSaveEvent</code> and <code>PlayerDataLoadEvent</code> do not fire with the default <code>NBT</code> backend, where DMZ data is saved by vanilla with the player file. See [[Special:MyLanguage/General Server Config|General Server Config]] for the <code>storage</code> settings.",
+  "translation": "<code>PlayerDataSaveEvent</code> y <code>PlayerDataLoadEvent</code> no se disparan con el backend <code>NBT</code> por defecto, en el que vanilla guarda los datos de DMZ junto con el archivo del jugador. Consulta [[Special:MyLanguage/General Server Config|Configuración del servidor]] para ver los ajustes de <code>storage</code>.",
+  "outdated": false
+ },
+ "35": {
+  "source": "=== Combat ===",
+  "translation": "=== Combate ===",
+  "outdated": false
+ },
+ "36": {
+  "source": "Event",
+  "translation": "Evento",
+  "outdated": false
+ },
+ "37": {
+  "source": "Cancelable",
+  "translation": "Cancelable",
+  "outdated": false
+ },
+ "38": {
+  "source": "Fires when",
+  "translation": "Se dispara cuando",
+  "outdated": false
+ },
+ "39": {
+  "source": "Key fields",
+  "translation": "Campos clave",
+  "outdated": false
+ },
+ "40": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "41": {
+  "source": "Damage calculation before mitigation, for a hit dealt by a player (melee hits and strike attacks). Cancel it to deal no DMZ damage.",
+  "translation": "Cálculo del daño antes de la mitigación, para un golpe de un jugador (golpes cuerpo a cuerpo y Super Golpes). Cancélalo para no hacer daño de DMZ.",
+  "outdated": false
+ },
+ "42": {
+  "source": "<code>attacker</code>, <code>victim</code>, <code>amount</code> (settable), <code>defensePenetration</code> (settable), <code>sourceType</code> (<code>MELEE</code> or <code>STRIKE</code>)",
+  "translation": "<code>attacker</code>, <code>victim</code>, <code>amount</code> (modificable), <code>defensePenetration</code> (modificable), <code>sourceType</code> (<code>MELEE</code> o <code>STRIKE</code>)",
+  "outdated": false
+ },
+ "43": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "44": {
+  "source": "After blocking is resolved for a player's melee hit (amount before mitigation).",
+  "translation": "Después de resolver el bloqueo de un golpe cuerpo a cuerpo de un jugador (cantidad antes de la mitigación).",
+  "outdated": false
+ },
+ "45": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "46": {
+  "source": "After DMZ has finished mitigating a hit taken by a player. Read-only: do not change damage here.",
+  "translation": "Después de que DMZ termine de mitigar un golpe recibido por un jugador. Solo lectura: no cambies el daño aquí.",
+  "outdated": false
+ },
+ "47": {
+  "source": "<code>victim</code>, <code>source</code> (<code>DamageSource</code>), <code>rawDamage</code>, <code>defenseMitigated</code>, <code>blockMitigated</code>, <code>finalDamage</code>",
+  "translation": "<code>victim</code>, <code>source</code> (<code>DamageSource</code>), <code>rawDamage</code>, <code>defenseMitigated</code>, <code>blockMitigated</code>, <code>finalDamage</code>",
+  "outdated": false
+ },
+ "48": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "49": {
+  "source": "The player successfully blocks or parries an attack. Cancel it and the player takes the full hit.",
+  "translation": "El jugador bloquea o hace parry a un ataque con éxito. Cancélalo y el jugador recibe el golpe completo.",
+  "outdated": false
+ },
+ "50": {
+  "source": "<code>victim</code>, <code>attacker</code>, <code>originalDamage</code>, <code>finalDamage</code> (settable), <code>isParry</code> (settable), <code>poiseDamage</code> (settable)",
+  "translation": "<code>victim</code>, <code>attacker</code>, <code>originalDamage</code>, <code>finalDamage</code> (modificable), <code>isParry</code> (modificable), <code>poiseDamage</code> (modificable)",
+  "outdated": false
+ },
+ "51": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "52": {
+  "source": "A ki barrier (the barrier technique or the Android barrier) absorbs a hit before it reaches the protected entity.",
+  "translation": "Una barrera de ki (la técnica de barrera o la barrera de los Androides) absorbe un golpe antes de que llegue a la entidad protegida.",
+  "outdated": false
+ },
+ "53": {
+  "source": "<code>owner</code> (the barrier's creator), <code>protectedEntity</code>, <code>attacker</code>, <code>amount</code>",
+  "translation": "<code>owner</code> (quien creó la barrera), <code>protectedEntity</code>, <code>attacker</code>, <code>amount</code>",
+  "outdated": false
+ },
+ "54": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "55": {
+  "source": "Before a dash executes.",
+  "translation": "Antes de que se ejecute un dash.",
+  "outdated": false
+ },
+ "56": {
+  "source": "<code>player</code>, <code>dashType</code> (<code>NORMAL</code> or <code>DOUBLE</code>), <code>distance</code> (settable), <code>kiCost</code> (settable)",
+  "translation": "<code>player</code>, <code>dashType</code> (<code>NORMAL</code> o <code>DOUBLE</code>), <code>distance</code> (modificable), <code>kiCost</code> (modificable)",
+  "outdated": false
+ },
+ "57": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "58": {
+  "source": "Before an evasion triggers.",
+  "translation": "Antes de que se active una evasión.",
+  "outdated": false
+ },
+ "59": {
+  "source": "<code>player</code>, <code>attacker</code>, <code>originalDamage</code>, <code>kiCost</code> (settable)",
+  "translation": "<code>player</code>, <code>attacker</code>, <code>originalDamage</code>, <code>kiCost</code> (modificable)",
+  "outdated": false
+ },
+ "60": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "61": {
+  "source": "While a player's critical chance is being resolved.",
+  "translation": "Mientras se calcula la probabilidad crítica de un jugador.",
+  "outdated": false
+ },
+ "62": {
+  "source": "<code>player</code>, <code>chance</code> (settable, 0 to 1)",
+  "translation": "<code>player</code>, <code>chance</code> (modificable, de 0 a 1)",
+  "outdated": false
+ },
+ "63": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "64": {
+  "source": "A player starts charging (casts) a ki attack.",
+  "translation": "Un jugador empieza a cargar (lanza) un ataque de ki.",
+  "outdated": false
+ },
+ "65": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "66": {
+  "source": "A charged ki attack is released.",
+  "translation": "Se suelta un ataque de ki cargado.",
+  "outdated": false
+ },
+ "67": {
+  "source": "<code>player</code>, <code>statsData</code>, <code>kiAttack</code>, <code>chargeMultiplier</code>, <code>cooldownTicks</code> (settable, minimum 1)",
+  "translation": "<code>player</code>, <code>statsData</code>, <code>kiAttack</code>, <code>chargeMultiplier</code>, <code>cooldownTicks</code> (modificable, mínimo 1)",
+  "outdated": false
+ },
+ "68": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "69": {
+  "source": "A player starts a strike attack.",
+  "translation": "Un jugador inicia un Super Golpe.",
+  "outdated": false
+ },
+ "70": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "71": {
+  "source": "A strike attack connects and starts on a target.",
+  "translation": "Un Super Golpe conecta y empieza sobre un objetivo.",
+  "outdated": false
+ },
+ "72": {
+  "source": "<code>DamageSourceType</code> also contains a <code>KI</code> value; in v2.2, ki attacks do not post <code>DamageModifyEvent</code> or <code>DamageDealtEvent</code>.",
+  "translation": "<code>DamageSourceType</code> también contiene un valor <code>KI</code>; en la v2.2, los ataques de ki no publican <code>DamageModifyEvent</code> ni <code>DamageDealtEvent</code>.",
+  "outdated": false
+ },
+ "73": {
+  "source": "=== Fusions and dragons ===",
+  "translation": "=== Fusiones y dragones ===",
+  "outdated": false
+ },
+ "74": {
+  "source": "Event",
+  "translation": "Evento",
+  "outdated": false
+ },
+ "75": {
+  "source": "Cancelable",
+  "translation": "Cancelable",
+  "outdated": false
+ },
+ "76": {
+  "source": "Fires when",
+  "translation": "Se dispara cuando",
+  "outdated": false
+ },
+ "77": {
+  "source": "Key fields",
+  "translation": "Campos clave",
+  "outdated": false
+ },
+ "78": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "79": {
+  "source": "Before a fusion attempt. DMZ posts it for <code>METAMORU</code>, <code>POTHALA</code> and <code>BEETLE</code> (Medi-Bug Beetle) fusions; the enum also contains <code>ABSORPTION</code> and <code>ASSIMILATION</code>.",
+  "translation": "Antes de un intento de fusión. DMZ lo publica para las fusiones <code>METAMORU</code>, <code>POTHALA</code> y <code>BEETLE</code> (Escarabajo Medi-Bug); el enum también contiene <code>ABSORPTION</code> y <code>ASSIMILATION</code>.",
+  "outdated": false
+ },
+ "80": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "81": {
+  "source": "After a dragon is summoned from a completed ball set.",
+  "translation": "Después de invocar un dragón con un conjunto de esferas completo.",
+  "outdated": false
+ },
+ "82": {
+  "source": "<code>player</code>, <code>level</code>, <code>position</code>, <code>dragonDefinition</code>, <code>ballSetDefinition</code>, <code>consumedPositions</code>; helpers <code>getDragonId()</code> and <code>getBallSetId()</code>",
+  "translation": "<code>player</code>, <code>level</code>, <code>position</code>, <code>dragonDefinition</code>, <code>ballSetDefinition</code>, <code>consumedPositions</code>; auxiliares <code>getDragonId()</code> y <code>getBallSetId()</code>",
+  "outdated": false
+ },
+ "83": {
+  "source": "See [[Special:MyLanguage/Fusions|Fusions]] and [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]] for the gameplay side.",
+  "translation": "Consulta [[Special:MyLanguage/Fusions|Fusiones]] y [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]] para ver la parte de jugabilidad.",
+  "outdated": false
+ },
+ "84": {
+  "source": "=== Quests ===",
+  "translation": "=== Misiones ===",
+  "outdated": false
+ },
+ "85": {
+  "source": "All quest events extend <code>QuestLifecycleEvent</code> and share its fields: <code>player</code>, <code>questKey</code> (<code>sagaId:questId</code> for saga quests, the string id for side quests), <code>saga</code> (null for side quests), <code>quest</code> and <code>partyMembers</code>.",
+  "translation": "Todos los eventos de misiones extienden <code>QuestLifecycleEvent</code> y comparten sus campos: <code>player</code>, <code>questKey</code> (<code>sagaId:questId</code> para las misiones de saga, el id de texto para las misiones secundarias), <code>saga</code> (null para las misiones secundarias), <code>quest</code> y <code>partyMembers</code>.",
+  "outdated": false
+ },
+ "86": {
+  "source": "Event",
+  "translation": "Evento",
+  "outdated": false
+ },
+ "87": {
+  "source": "Cancelable",
+  "translation": "Cancelable",
+  "outdated": false
+ },
+ "88": {
+  "source": "Fires when",
+  "translation": "Se dispara cuando",
+  "outdated": false
+ },
+ "89": {
+  "source": "Extra fields",
+  "translation": "Campos extra",
+  "outdated": false
+ },
+ "90": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "91": {
+  "source": "Before a quest is accepted.",
+  "translation": "Antes de aceptar una misión.",
+  "outdated": false
+ },
+ "92": {
+  "source": "<code>difficulty</code> (settable)",
+  "translation": "<code>difficulty</code> (modificable)",
+  "outdated": false
+ },
+ "93": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "94": {
+  "source": "Before objective progress is stored.",
+  "translation": "Antes de guardar el progreso de un objetivo.",
+  "outdated": false
+ },
+ "95": {
+  "source": "<code>objectiveIndex</code>, <code>oldProgress</code>, <code>newProgress</code> (settable), <code>objectiveRequired</code>",
+  "translation": "<code>objectiveIndex</code>, <code>oldProgress</code>, <code>newProgress</code> (modificable), <code>objectiveRequired</code>",
+  "outdated": false
+ },
+ "96": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "97": {
+  "source": "Before a quest is marked as failed.",
+  "translation": "Antes de marcar una misión como fallida.",
+  "outdated": false
+ },
+ "98": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "99": {
+  "source": "Before a quest turn-in is applied.",
+  "translation": "Antes de aplicar la entrega de una misión.",
+  "outdated": false
+ },
+ "100": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "101": {
+  "source": "Before an individual reward is claimed.",
+  "translation": "Antes de reclamar una recompensa individual.",
+  "outdated": false
+ },
+ "102": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "103": {
+  "source": "When a quest completes.",
+  "translation": "Cuando se completa una misión.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Shared fields only",
+  "translation": "Solo los campos compartidos",
+  "outdated": false
+ },
+ "105": {
+  "source": "=== Client events ===",
+  "translation": "=== Eventos de cliente ===",
+  "outdated": false
+ },
+ "106": {
+  "source": "Client-only events live on <code>com.dragonminez.client.events.DMZClientEvent</code> and are posted on the Forge bus of the physical client. Register these listeners with <code>value = Dist.CLIENT</code>. None of them is cancelable, and they are informational: the server still decides what actually happens.",
+  "translation": "Los eventos solo de cliente están en <code>com.dragonminez.client.events.DMZClientEvent</code> y se publican en el bus de Forge del cliente físico. Registra estos listeners con <code>value = Dist.CLIENT</code>. Ninguno es cancelable y son solo informativos: el servidor sigue decidiendo lo que realmente ocurre.",
+  "outdated": false
+ },
+ "107": {
+  "source": "Event",
+  "translation": "Evento",
+  "outdated": false
+ },
+ "108": {
+  "source": "Fires when",
+  "translation": "Se dispara cuando",
+  "outdated": false
+ },
+ "109": {
+  "source": "Key fields",
+  "translation": "Campos clave",
+  "outdated": false
+ },
+ "110": {
+  "source": "The local player starts the attack windup.",
+  "translation": "El jugador local empieza la preparación del ataque.",
+  "outdated": false
+ },
+ "111": {
+  "source": "The local player's attack resolves its targets (zero or more).",
+  "translation": "El ataque del jugador local resuelve sus objetivos (cero o más).",
+  "outdated": false
+ },
+ "112": {
+  "source": "<code>player</code>, <code>attackHand</code>, <code>targets</code>, <code>cursorTarget</code> (nullable)",
+  "translation": "<code>player</code>, <code>attackHand</code>, <code>targets</code>, <code>cursorTarget</code> (puede ser null)",
+  "outdated": false
+ },
+ "113": {
+  "source": "The local player starts charging the ki attack in a slot.",
+  "translation": "El jugador local empieza a cargar el ataque de ki de una ranura.",
+  "outdated": false
+ },
+ "114": {
+  "source": "The local player releases a charged ki attack.",
+  "translation": "El jugador local suelta un ataque de ki cargado.",
+  "outdated": false
+ },
+ "115": {
+  "source": "The local player starts a strike attack.",
+  "translation": "El jugador local inicia un Super Golpe.",
+  "outdated": false
+ },
+ "116": {
+  "source": "== Reading player state ==",
+  "translation": "== Leer el estado del jugador ==",
+  "outdated": false
+ },
+ "117": {
+  "source": "Get the capability from any <code>Player</code> (a server player, or the local player on the client; DMZ keeps the client copy in sync):",
+  "translation": "Obtén la capability de cualquier <code>Player</code> (un jugador del servidor, o el jugador local en el cliente; DMZ mantiene sincronizada la copia del cliente):",
+  "outdated": false
+ },
+ "118": {
+  "source": "<code>StatsProvider.get(cap, entity)</code> is a shortcut for <code>player.getCapability(StatsCapability.INSTANCE)</code>; both return a <code>LazyOptional<StatsData></code>. DMZ's getters are generated by Lombok at compile time, so you don't need Lombok in your add-on to call them.",
+  "translation": "<code>StatsProvider.get(cap, entity)</code> es un atajo de <code>player.getCapability(StatsCapability.INSTANCE)</code>; ambos devuelven un <code>LazyOptional<StatsData></code>. Lombok genera los getters de DMZ en tiempo de compilación, así que no necesitas Lombok en tu addon para llamarlos.",
+  "outdated": false
+ },
+ "119": {
+  "source": "Useful reads on <code>StatsData</code>:",
+  "translation": "Lecturas útiles de <code>StatsData</code>:",
+  "outdated": false
+ },
+ "120": {
+  "source": "Getter",
+  "translation": "Getter",
+  "outdated": false
+ },
+ "121": {
+  "source": "Returns",
+  "translation": "Devuelve",
+  "outdated": false
+ },
+ "122": {
+  "source": "Race, class and gender",
+  "translation": "Raza, clase y género",
+  "outdated": false
+ },
+ "123": {
+  "source": "Current race form (an empty string in base form)",
+  "translation": "Forma de raza actual (un texto vacío en la forma base)",
+  "outdated": false
+ },
+ "124": {
+  "source": "Current stack form (for example the Kaioken tier)",
+  "translation": "Forma acumulable actual (por ejemplo, el nivel de Kaioken)",
+  "outdated": false
+ },
+ "125": {
+  "source": "Base stat values",
+  "translation": "Valores base de las estadísticas",
+  "outdated": false
+ },
+ "126": {
+  "source": "Current resource pools and alignment",
+  "translation": "Reservas de recursos actuales y alineamiento",
+  "outdated": false
+ },
+ "127": {
+  "source": "Calculated resource caps",
+  "translation": "Topes de recursos calculados",
+  "outdated": false
+ },
+ "128": {
+  "source": "Calculated combat stats",
+  "translation": "Estadísticas de combate calculadas",
+  "outdated": false
+ },
+ "129": {
+  "source": "Computed player level",
+  "translation": "Nivel de jugador calculado",
+  "outdated": false
+ },
+ "130": {
+  "source": "Quest progress (<code>getQuestStatus(questKey)</code>, <code>isQuestAccepted(questKey)</code>, <code>isQuestCompleted(questKey)</code>, <code>isSagaLocked(sagaId)</code>, <code>getTrackedQuestId()</code>, <code>getDifficulty()</code>)",
+  "translation": "Progreso de misiones (<code>getQuestStatus(questKey)</code>, <code>isQuestAccepted(questKey)</code>, <code>isQuestCompleted(questKey)</code>, <code>isSagaLocked(sagaId)</code>, <code>getTrackedQuestId()</code>, <code>getDifficulty()</code>)",
+  "outdated": false
+ },
+ "131": {
+  "source": "Skill levels (<code>hasSkill(name)</code>, <code>getSkillLevel(name)</code>)",
+  "translation": "Niveles de habilidades (<code>hasSkill(name)</code>, <code>getSkillLevel(name)</code>)",
+  "outdated": false
+ },
+ "132": {
+  "source": "Status flags, active effects, ki and strike techniques, bonus stat modifiers",
+  "translation": "Indicadores de estado, efectos activos, técnicas de ki y de golpe, modificadores de estadísticas extra",
+  "outdated": false
+ },
+ "133": {
+  "source": "Race, form and stat math reads the live config every time, so values always reflect the current server config (including after <code>/dmzreload</code>).",
+  "translation": "Los cálculos de raza, forma y estadísticas leen la configuración en vivo cada vez, así que los valores siempre reflejan la configuración actual del servidor (también después de <code>/dmzreload</code>).",
+  "outdated": false
+ },
+ "134": {
+  "source": "== Changing state safely ==",
+  "translation": "== Cambiar el estado de forma segura ==",
+  "outdated": false
+ },
+ "135": {
+  "source": "DMZ's own stat setters (for example <code>Stats.setStrength()</code>) post a cancelable event first and only apply the change if it isn't cancelled:",
+  "translation": "Los setters de estadísticas propios de DMZ (por ejemplo <code>Stats.setStrength()</code>) publican primero un evento cancelable y solo aplican el cambio si no se canceló:",
+  "outdated": false
+ },
+ "136": {
+  "source": "In your add-on, prefer '''reacting to''' events (changing their settable fields, or cancelling them) over calling DMZ setters directly. Not every setter validates or posts an event (most <code>Resources</code> setters, for example, just clamp and apply with no event), so going through the event path is the one integration point guaranteed to stay stable.",
+  "translation": "En tu addon, es preferible '''reaccionar a''' los eventos (cambiando sus campos modificables o cancelándolos) que llamar directamente a los setters de DMZ. No todos los setters validan o publican un evento (la mayoría de los setters de <code>Resources</code>, por ejemplo, solo limitan el valor y lo aplican sin evento), así que pasar por los eventos es el único punto de integración garantizado que se mantendrá estable.",
+  "outdated": false
+ },
+ "137": {
+  "source": "If you do change DMZ data from the server, do it on the server thread and send the client a fresh copy afterwards, the same way DMZ does:",
+  "translation": "Si cambias datos de DMZ desde el servidor, hazlo en el hilo del servidor y después envía al cliente una copia actualizada, igual que hace DMZ:",
+  "outdated": false
+ },
+ "138": {
+  "source": "<code>StatsSyncS2C</code> sends the full player data; DMZ also uses <code>ProgressionSyncS2C</code> (stats, bonus stats, skills, techniques, quest data) and <code>ResourceSyncS2C</code> (resources and status) for smaller updates.",
+  "translation": "<code>StatsSyncS2C</code> envía todos los datos del jugador; DMZ también usa <code>ProgressionSyncS2C</code> (estadísticas, estadísticas extra, habilidades, técnicas, datos de misiones) y <code>ResourceSyncS2C</code> (recursos y estado) para actualizaciones más pequeñas.",
+  "outdated": false
+ },
+ "139": {
+  "source": "== Custom quest objectives and rewards ==",
+  "translation": "== Objetivos y recompensas de misión personalizados ==",
+  "outdated": false
+ },
+ "140": {
+  "source": "Add-ons can add new quest objective and reward '''types''' that quest JSON files can then use, without touching DMZ's parser. Register them during mod setup (for example in <code>FMLCommonSetupEvent</code>) on '''both''' sides: the client rebuilds quests from the synced registry with the same factories.",
+  "translation": "Los addons pueden añadir nuevos '''tipos''' de objetivos y recompensas de misiones que luego pueden usar los archivos JSON de misiones, sin tocar el parser de DMZ. Regístralos durante la configuración del mod (por ejemplo, en <code>FMLCommonSetupEvent</code>) en '''ambos''' lados: el cliente reconstruye las misiones a partir del registro sincronizado con las mismas fábricas.",
+  "outdated": false
+ },
+ "141": {
+  "source": "The contract:",
+  "translation": "El contrato:",
+  "outdated": false
+ },
+ "142": {
+  "source": "* Objective classes extend <code>QuestObjective</code> and call the <code>QuestObjective(String customType, int required)</code> constructor; reward classes extend <code>QuestReward</code>, call <code>QuestReward(String customType)</code> and implement <code>giveReward(ServerPlayer)</code> and <code>getDescription()</code>. Objectives must also implement <code>checkProgress(Object... params)</code>.\n* In quest JSON, use your key as the <code>\"type\"</code> (for example <code>{\"type\": \"MEDITATE\", \"seconds\": 60}</code>). Type keys are case-insensitive (stored in upper case). Treat them like registry names: don't rename them once quests use them.\n* The sync writer must write every field your factory reads, because the client parses the synced JSON again with your factory.\n* Unknown types are reported in the JSON load report (see [[Special:MyLanguage/Developer Scope and Prerequisites#Finding JSON mistakes|Finding JSON mistakes]]) and the objective or reward is skipped.\n* Progress is server-authoritative and event-driven: listen to your own game events on the server and store progress with <code>PlayerQuestData.setObjectiveProgress(questKey, objectiveIndex, progress)</code>, then sync with <code>ProgressionSyncS2C</code>. Use <code>DMZEvent.QuestObjectiveProgressEvent</code> and <code>QuestCompletedEvent</code> to react to built-in quests.",
+  "translation": "* Las clases de objetivos extienden <code>QuestObjective</code> y llaman al constructor <code>QuestObjective(String customType, int required)</code>; las clases de recompensas extienden <code>QuestReward</code>, llaman a <code>QuestReward(String customType)</code> e implementan <code>giveReward(ServerPlayer)</code> y <code>getDescription()</code>. Los objetivos también deben implementar <code>checkProgress(Object... params)</code>.\n* En el JSON de las misiones, usa tu clave como <code>\"type\"</code> (por ejemplo <code>{\"type\": \"MEDITATE\", \"seconds\": 60}</code>). Las claves de tipo no distinguen mayúsculas de minúsculas (se guardan en mayúsculas). Trátalas como nombres de registro: no las renombres una vez que las misiones las usen.\n* El escritor de sincronización debe escribir todos los campos que lee tu fábrica, porque el cliente vuelve a analizar el JSON sincronizado con tu fábrica.\n* Los tipos desconocidos se informan en el reporte de carga de JSON (consulta [[Special:MyLanguage/Developer Scope and Prerequisites#Finding JSON mistakes|Encontrar errores de JSON]]) y el objetivo o la recompensa se omite.\n* El progreso lo controla el servidor y se basa en eventos: escucha tus propios eventos de juego en el servidor y guarda el progreso con <code>PlayerQuestData.setObjectiveProgress(questKey, objectiveIndex, progress)</code>, y luego sincroniza con <code>ProgressionSyncS2C</code>. Usa <code>DMZEvent.QuestObjectiveProgressEvent</code> y <code>QuestCompletedEvent</code> para reaccionar a las misiones incluidas.",
+  "outdated": false
+ },
+ "143": {
+  "source": "See [[Special:MyLanguage/Custom Quests|Custom Quests]] for the quest JSON format.",
+  "translation": "Consulta [[Special:MyLanguage/Custom Quests|Misiones personalizadas]] para ver el formato JSON de las misiones.",
+  "outdated": false
+ },
+ "144": {
+  "source": "== Custom text placeholders ==",
+  "translation": "== Placeholders de texto personalizados ==",
+  "outdated": false
+ },
+ "145": {
+  "source": "Quest, dialogue and NPC text supports <code>%placeholders%</code> such as <code>%player%</code>, <code>%race%</code>, <code>%class%</code>, <code>%level%</code>, <code>%alignment%</code>, <code>%deaths%</code>, <code>%form%</code> and <code>%dimension%</code>. Add your own during mod setup:",
+  "translation": "Los textos de misiones, diálogos y NPCs admiten <code>%placeholders%</code> como <code>%player%</code>, <code>%race%</code>, <code>%class%</code>, <code>%level%</code>, <code>%alignment%</code>, <code>%deaths%</code>, <code>%form%</code> y <code>%dimension%</code>. Añade los tuyos durante la configuración del mod:",
+  "outdated": false
+ },
+ "146": {
+  "source": "Keys are case-insensitive. The resolver runs on whichever side renders the text (usually the client), and it must handle a <code>null</code> <code>StatsData</code>.",
+  "translation": "Las claves no distinguen mayúsculas de minúsculas. El resolvedor se ejecuta en el lado que renderiza el texto (normalmente el cliente) y debe manejar un <code>StatsData</code> <code>null</code>.",
+  "outdated": false
+ },
+ "147": {
+  "source": "== Utility menu buttons ==",
+  "translation": "== Botones del menú de utilidades ==",
+  "outdated": false
+ },
+ "148": {
+  "source": "The utility (radial) menu on the client has two free slots, on the left and right of the wheel, reserved for add-ons. Add a button from client setup:",
+  "translation": "El menú de utilidades (radial) del cliente tiene dos ranuras libres, a la izquierda y a la derecha de la rueda, reservadas para addons. Añade un botón desde la configuración del cliente:",
+  "outdated": false
+ },
+ "149": {
+  "source": "Slots are filled in registration order; registrations beyond the two free slots are not shown. Override <code>hasRightClickAction</code> to return <code>true</code> if your button also reacts to right-click. <code>IUtilityMenuSlot</code> and <code>ButtonInfo</code> live in <code>com.dragonminez.client.gui.utilitymenu</code>.",
+  "translation": "Las ranuras se llenan en orden de registro; los registros que superen las dos ranuras libres no se muestran. Sobrescribe <code>hasRightClickAction</code> para que devuelva <code>true</code> si tu botón también reacciona al clic derecho. <code>IUtilityMenuSlot</code> y <code>ButtonInfo</code> están en <code>com.dragonminez.client.gui.utilitymenu</code>.",
+  "outdated": false
+ },
+ "150": {
+  "source": "== Armor and render layers ==",
+  "translation": "== Armaduras y capas de renderizado ==",
+  "outdated": false
+ },
+ "151": {
+  "source": "* '''Armor from your add-on:''' DMZ's armor item class <code>DbzArmorItem</code> (<code>common/init/armor</code>) has a constructor <code>DbzArmorItem(material, type, properties, modId, itemId)</code>. Pass your own <code>modId</code> and the textures are read from your own namespace: <code>assets/<modId>/textures/armor/<itemId>_layer1.png</code> (<code>_layer2</code> for leggings), plus the optional <code><itemId>_damaged_layer1.png</code> and <code>_damaged_layer2.png</code>, used once the item has lost more than half of its durability.\n* '''Other armor:''' regular <code>ArmorItem</code>s from other mods are drawn on DMZ's player model with their normal armor texture.\n* '''Third-party render layers:''' render layers that other mods add to the vanilla player renderer are forwarded onto DMZ's player model. Vanilla layers and cosmetic armor layers are skipped, and nothing is forwarded while the player is an Oozaru.",
+  "translation": "* '''Armaduras de tu addon:''' la clase de objeto de armadura de DMZ, <code>DbzArmorItem</code> (<code>common/init/armor</code>), tiene un constructor <code>DbzArmorItem(material, type, properties, modId, itemId)</code>. Pasa tu propio <code>modId</code> y las texturas se leen de tu propio namespace: <code>assets/<modId>/textures/armor/<itemId>_layer1.png</code> (<code>_layer2</code> para las grebas), más las opcionales <code><itemId>_damaged_layer1.png</code> y <code>_damaged_layer2.png</code>, que se usan cuando el objeto ha perdido más de la mitad de su durabilidad.\n* '''Otras armaduras:''' los <code>ArmorItem</code> normales de otros mods se dibujan sobre el modelo de jugador de DMZ con su textura de armadura habitual.\n* '''Capas de renderizado de terceros:''' las capas de renderizado que otros mods añaden al renderizador de jugador vanilla se trasladan al modelo de jugador de DMZ. Se omiten las capas vanilla y las capas de armaduras cosméticas, y no se traslada nada mientras el jugador es un Oozaru.",
+  "outdated": false
+ },
+ "152": {
+  "source": "== Networking ==",
+  "translation": "== Red ==",
+  "outdated": false
+ },
+ "153": {
+  "source": "DMZ's channel is <code>NetworkHandler.INSTANCE</code> (a Forge <code>SimpleChannel</code> at <code>dragonminez:network</code>). Don't register your own packets on it: DMZ assigns packet ids by registration order, so anything you add would shift or collide with DMZ's ids. Register your own <code>SimpleChannel</code> in your add-on instead, and use DMZ's as a reference for the pattern (<code>messageBuilder</code>, encoder, decoder and handler, with an explicit direction).",
+  "translation": "El canal de DMZ es <code>NetworkHandler.INSTANCE</code> (un <code>SimpleChannel</code> de Forge en <code>dragonminez:network</code>). No registres tus propios paquetes en él: DMZ asigna los ids de paquete por orden de registro, así que cualquier cosa que añadas desplazaría los ids de DMZ o chocaría con ellos. En su lugar, registra tu propio <code>SimpleChannel</code> en tu addon y usa el de DMZ como referencia del patrón (<code>messageBuilder</code>, codificador, decodificador y manejador, con una dirección explícita).",
+  "outdated": false
+ },
+ "154": {
+  "source": "You can use DMZ's send helpers (<code>sendToPlayer</code>, <code>sendToTrackingEntityAndSelf</code>, ...) to send DMZ's own sync packets, as shown above.",
+  "translation": "Puedes usar los helpers de envío de DMZ (<code>sendToPlayer</code>, <code>sendToTrackingEntityAndSelf</code>, ...) para enviar los paquetes de sincronización propios de DMZ, como se muestra arriba.",
+  "outdated": false
+ },
+ "155": {
+  "source": "Never trust the client in your own packets either: validate on the server anything that affects stats, unlocks, quests, wishes or progression.",
+  "translation": "Tampoco confíes nunca en el cliente en tus propios paquetes: valida en el servidor todo lo que afecte a estadísticas, desbloqueos, misiones, deseos o progreso.",
+  "outdated": false
+ },
+ "156": {
+  "source": "There is no client-side \"data synced\" event. On the client, read the capability when you need it (for example while rendering) instead of trying to intercept DMZ packets.",
+  "translation": "No existe un evento de \"datos sincronizados\" en el lado del cliente. En el cliente, lee la capability cuando la necesites (por ejemplo, al renderizar) en lugar de intentar interceptar los paquetes de DMZ.",
+  "outdated": false
+ },
+ "157": {
+  "source": "== Using DMZ's registries ==",
+  "translation": "== Usar los registros de DMZ ==",
+  "outdated": false
+ },
+ "158": {
+  "source": "Import the <code>Main*</code> registry holders directly instead of hardcoding resource locations:",
+  "translation": "Importa directamente los contenedores de registro <code>Main*</code> en lugar de escribir a mano las resource locations:",
+  "outdated": false
+ },
+ "159": {
+  "source": "Available under <code>common/init/</code>: <code>MainItems</code>, <code>MainBlocks</code>, <code>MainBlockEntities</code>, <code>MainEntities</code>, <code>MainAttributes</code>, <code>MainEffects</code>, <code>MainEnchants</code>, <code>MainPotions</code>, <code>MainSounds</code>, <code>MainParticles</code>, <code>MainFluids</code>, <code>MainMenus</code>, <code>MainRecipes</code>, <code>MainTabs</code>, <code>MainTags</code>, <code>MainVillagers</code>, <code>MainDamageTypes</code>, <code>MainGameRules</code>, <code>MainLootModifiers</code>.",
+  "translation": "Disponibles en <code>common/init/</code>: <code>MainItems</code>, <code>MainBlocks</code>, <code>MainBlockEntities</code>, <code>MainEntities</code>, <code>MainAttributes</code>, <code>MainEffects</code>, <code>MainEnchants</code>, <code>MainPotions</code>, <code>MainSounds</code>, <code>MainParticles</code>, <code>MainFluids</code>, <code>MainMenus</code>, <code>MainRecipes</code>, <code>MainTabs</code>, <code>MainTags</code>, <code>MainVillagers</code>, <code>MainDamageTypes</code>, <code>MainGameRules</code>, <code>MainLootModifiers</code>.",
+  "outdated": false
+ },
+ "160": {
+  "source": "== Optional dependency pattern ==",
+  "translation": "== Patrón de dependencia opcional ==",
+  "outdated": false
+ },
+ "161": {
+  "source": "If your add-on should work with or without DMZ installed, follow DMZ's own pattern for optional integrations (<code>common/compat/WeaponLevelingCompat.java</code>):",
+  "translation": "Si tu addon debe funcionar con o sin DMZ instalado, sigue el patrón que usa DMZ para sus propias integraciones opcionales (<code>common/compat/WeaponLevelingCompat.java</code>):",
+  "outdated": false
+ },
+ "162": {
+  "source": "# Check <code>ModList.get().isLoaded(\"dragonminez\")</code> once and cache the result.\n# Keep every DMZ import inside classes that are only touched after that check (event listeners for DMZ events included: register them manually, and only when DMZ is loaded).\n# Guard every call that touches DMZ behind that flag, with a safe fallback or default when it is <code>false</code>.\n# Log a clear info or warning message either way, so server owners can tell at a glance whether the integration is active.",
+  "translation": "# Comprueba <code>ModList.get().isLoaded(\"dragonminez\")</code> una sola vez y guarda el resultado en caché.\n# Mantén todos los imports de DMZ dentro de clases que solo se tocan después de esa comprobación (incluidos los listeners de eventos de DMZ: regístralos a mano y solo cuando DMZ esté cargado).\n# Protege con ese indicador toda llamada que toque DMZ, con un comportamiento alternativo seguro o un valor por defecto cuando sea <code>false</code>.\n# Registra en el log un mensaje claro de información o de advertencia en ambos casos, para que los dueños de servidores vean de un vistazo si la integración está activa.",
+  "outdated": false
+ },
+ "163": {
+  "source": "== Next step ==",
+  "translation": "== Siguiente paso ==",
+  "outdated": false
+ },
+ "164": {
+  "source": "See [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]] for the full Gradle project setup and the <code>mods.toml</code> dependency declaration.",
+  "translation": "Consulta [[Special:MyLanguage/Creating a DMZ Addon|Crear un addon de DMZ]] para la configuración completa del proyecto de Gradle y la declaración de la dependencia en <code>mods.toml</code>.",
+  "outdated": false
+ }
+}

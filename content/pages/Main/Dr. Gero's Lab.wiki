@@ -1,38 +1,43 @@
 {{Infobox Structure
 |Dimension={{L|Earth}}
-|Biome=<translate>Rocky biome or mountains</translate>
-|Location=<translate>One per world; reaches underground</translate>
+|Biome=<translate><!--T:1--> Rocky biome or mountains</translate>
+|Location=<translate><!--T:2--> One per world; reaches underground</translate>
 |Locate=/dmzlocate gero_lab
 |Inhabitants={{L|Dr. Gero}}
-|Purpose=<translate>Android conversion</translate>
-|Protection=<translate>Ki attacks can't damage it</translate>
+|Purpose=<translate><!--T:3--> Android conversion</translate>
+|Protection=<translate><!--T:4--> Ki attacks can't damage it</translate>
 }}
 <translate>
+<!--T:5-->
 '''Dr. Gero's Lab''' (Gero's Lab) is [[Special:MyLanguage/Dr. Gero|Dr. Gero]]'s laboratory on [[Special:MyLanguage/Earth|Earth]], reaching from the surface down underground. It's where a [[Special:MyLanguage/Human|Human]] can become an [[Special:MyLanguage/Android|Android]].
 </translate>
 
 <translate>
-== Who lives here ==
+== Who lives here == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 '''[[Special:MyLanguage/Dr. Gero|Dr. Gero]]''' converts a Human into an Android: a permanent change that switches you to the Android form line. It isn't possible while fused. He has no alignment requirement.
 </translate>
 
 <translate>
-== Finding it ==
+== Finding it == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 The lab generates once per world, in the Rocky biome or in mountains. Because it reaches underground, it keeps its own placement instead of being fitted to the terrain like other houses. [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistants]] can sell a '''Dr. Gero's Lab Map''' at trade tier 4, for 16 Iron Ingots and an empty Map. Players with the locate permission can use {{Command|/dmzlocate gero_lab}}. See [[Special:MyLanguage/Structures#Finding structures|Finding structures]].
 </translate>
 
 <translate>
+<!--T:10-->
 Like every master's home, the lab can't be damaged by ki attacks (see [[Special:MyLanguage/Structures#Protection|Protection]]).
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:11-->
 </translate>
 <translate>
+<!--T:12-->
 * [[Special:MyLanguage/Android Saga|Android Saga]] quest 18, ''Gero's Blueprints'': find Gero's Lab, obtain 16 Paper and talk to Bulma.
 </translate>
 

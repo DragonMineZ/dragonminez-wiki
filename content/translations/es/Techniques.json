@@ -1,0 +1,532 @@
+{
+ "Page_display_title": {
+  "source": "Techniques",
+  "translation": "Técnicas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Techniques''' are the combat moves you learn from [[Special:MyLanguage/Masters|masters]], earn from bosses or design yourself. There are three kinds: '''ki attacks''', ranged energy attacks whose damage scales with your Ki Damage (PWR); '''strike attacks''', close-range rush attacks whose damage scales with your Strike Damage (SKP); and '''evasion techniques''', utility moves that blind, reposition, heal or push enemies away. Techniques are equipped in slots, gain their own experience and can be upgraded.",
+  "translation": "Las '''técnicas''' son los movimientos de combate que aprendes de los [[Special:MyLanguage/Masters|maestros]], obtienes de los jefes o diseñas tú mismo. Hay tres tipos: los '''ataques de ki''', ataques de energía a distancia cuyo daño escala con tu Daño de ki (PWR); los '''Super Golpes''', ataques de embestida a corta distancia cuyo daño escala con tu Daño de golpe (SKP); y las '''técnicas de evasión''', movimientos de utilidad que ciegan, reposicionan, curan o alejan a los enemigos. Las técnicas se equipan en ranuras, ganan su propia experiencia y se pueden mejorar.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Ranged energy attacks, from the Kamehameha to the Spirit Bomb.",
+  "translation": "Ataques de energía a distancia, del Kamehame Ha a la Genkidama.",
+  "outdated": false
+ },
+ "3": {
+  "source": "Rush in and land a powerful melee technique.",
+  "translation": "Lánzate al ataque y asesta una poderosa técnica cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Blind, reposition or push your enemies away.",
+  "translation": "Ciega, reposiciónate o aleja a tus enemigos.",
+  "outdated": false
+ },
+ "5": {
+  "source": "When two beams meet head-on, timing and power decide the winner.",
+  "translation": "Cuando dos rayos chocan de frente, la sincronización y el poder deciden al ganador.",
+  "outdated": false
+ },
+ "6": {
+  "source": "When two strike rushes meet, fists collide in a timing duel.",
+  "translation": "Cuando dos embestidas de golpe se encuentran, los puños chocan en un duelo de sincronización.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Requirements ==",
+  "translation": "== Requisitos ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "You need Ki Control",
+  "translation": "Necesitas Control de Ki",
+  "outdated": false
+ },
+ "9": {
+  "source": "Ki and strike attacks rely on channeling ki, so the [[Special:MyLanguage/Ki Control|Ki Control]] skill is a prerequisite: without it you can't charge or use them. You also need at least 5% Power Release and an empty main hand.",
+  "translation": "Los ataques de ki y los Super Golpes dependen de canalizar el ki, así que la habilidad [[Special:MyLanguage/Ki Control|Control de Ki]] es un requisito previo: sin ella no puedes cargarlos ni usarlos. También necesitas al menos un 5% de Liberación de Poder y la mano principal vacía.",
+  "outdated": false
+ },
+ "10": {
+  "source": "The same three conditions apply to evasion techniques. The only exception to the empty-hand rule is the [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], which can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].",
+  "translation": "Las mismas tres condiciones se aplican a las técnicas de evasión. La única excepción a la regla de la mano vacía es el [[Special:MyLanguage/Shining Sword Attack|Ataque de la Espada Brillante]], que solo se puede usar mientras empuñas la [[Special:MyLanguage/Brave Sword|Espada Valiente]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Learning techniques ==",
+  "translation": "== Cómo aprender técnicas ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Each predefined technique is learned from a specific master and costs a single payment of Training Points (TP) to unlock. Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement won't teach you until your alignment fits. Up to 256 techniques can be unlocked.",
+  "translation": "Cada técnica predefinida se aprende de un maestro concreto y cuesta un único pago de Puntos de entrenamiento (TP) para desbloquearla. Los maestros con requisito de [[Special:MyLanguage/Alignment|alineamiento]] no te enseñarán hasta que tu alineamiento encaje. Se pueden desbloquear hasta 256 técnicas.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Some techniques belong to certain races. A master lists every technique they teach, and its details show a '''Race''' line, in red when your race can't use it. You can still learn such a technique, but you can only equip it in a slot if your race is allowed: in the Skills menu it shows '''Not usable by your race''' and has no '''Bind to Slot''' button. By default only three are restricted, all taught by [[Special:MyLanguage/Majin Buu|Majin Buu]] and usable only by [[Special:MyLanguage/Majin|Majins]]: Gum Punch, the Mystic Ball Attack and Sleep Recovery.",
+  "translation": "Algunas técnicas pertenecen a ciertas razas. Un maestro muestra todas las técnicas que enseña, y sus detalles incluyen una línea de '''Raza''', en rojo cuando tu raza no puede usarla. Aun así puedes aprender esa técnica, pero solo puedes equiparla en una ranura si tu raza está permitida: en el menú de Habilidades aparece '''No utilizable por tu raza''' y no tiene el botón '''Asignar a Ranura'''. Por defecto solo hay tres restringidas, todas enseñadas por [[Special:MyLanguage/Majin Buu|Majin Buu]] y utilizables solo por los [[Special:MyLanguage/Majin|Majin]]: el Puñetazo de Goma, el Ataque de Bola Mística y el Sueño Regenerador.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Some techniques aren't taught by any master by default: a few drop from [[Special:MyLanguage/World Bosses|world bosses]], the Great Ape techniques are granted while you are in that form, and the rest can be added to a master's list by the server owner. Admins can grant any technique directly with {{Command|/dmztech add &lt;technique&gt; [targets]}} (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "Algunas técnicas no las enseña ningún maestro por defecto: unas pocas caen de los [[Special:MyLanguage/World Bosses|jefes de mundo]], las técnicas del Mono Gigante se otorgan mientras estás en esa forma, y el resto las puede añadir el dueño del servidor a la lista de un maestro. Los administradores pueden otorgar cualquier técnica directamente con {{Command|/dmztech add &lt;technique&gt; [targets]}} (consulta [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ },
+ "15": {
+  "source": "You can also design your own ki attacks with the Technique Creator (see below).",
+  "translation": "También puedes diseñar tus propios ataques de ki con el Creador de Técnicas (ver más abajo).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Kind",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "17": {
+  "source": "Damage scales with",
+  "translation": "El daño escala con",
+  "outdated": false
+ },
+ "18": {
+  "source": "How it activates",
+  "translation": "Cómo se activa",
+  "outdated": false
+ },
+ "19": {
+  "source": "Full list",
+  "translation": "Lista completa",
+  "outdated": false
+ },
+ "20": {
+  "source": "Ki attacks",
+  "translation": "Ataques de Ki",
+  "outdated": false
+ },
+ "21": {
+  "source": "Ki Damage (PWR)",
+  "translation": "Daño de ki (PWR)",
+  "outdated": false
+ },
+ "22": {
+  "source": "Hold the slot key to charge, release to fire (Small Ball and Laser fire instantly)",
+  "translation": "Mantén pulsada la tecla de la ranura para cargar y suéltala para disparar (Bola Pequeña y Láser se disparan al instante)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Strike attacks",
+  "translation": "Super Golpes",
+  "outdated": false
+ },
+ "24": {
+  "source": "Strike Damage (SKP)",
+  "translation": "Daño de golpe (SKP)",
+  "outdated": false
+ },
+ "25": {
+  "source": "Press the slot key: you rush the target",
+  "translation": "Pulsa la tecla de la ranura: te lanzas hacia el objetivo",
+  "outdated": false
+ },
+ "26": {
+  "source": "Evasion techniques",
+  "translation": "Técnicas de evasión",
+  "outdated": false
+ },
+ "27": {
+  "source": "Press the slot key",
+  "translation": "Pulsa la tecla de la ranura",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Using techniques ==",
+  "translation": "== Cómo usar las técnicas ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "* Unlocked techniques are equipped into '''8 technique slots''' from the Skills menu ('''Bind to Slot''').\n* Default slot keys: {{Key|Alt}} + {{Key|1}}–{{Key|4}} for slots 1–4 and {{Key|Ctrl}} + {{Key|1}}–{{Key|4}} for slots 5–8. While you hold a bar's modifier, its four slots appear on the technique hotbar (see [[Special:MyLanguage/Controls|Controls]] and [[Special:MyLanguage/HUD|HUD]]).\n* '''Ki attacks:''' hold the slot key to charge and release it to fire. If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.\n* '''Strike attacks and evasion techniques''' activate as soon as you press the slot key. A strike attack with no enemy in reach '''rushes''' forward to find one (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).\n* Every technique has its own cooldown. Riding an entity blocks the beam-type attacks that root you while charging.",
+  "translation": "* Las técnicas desbloqueadas se equipan en '''8 ranuras de técnica''' desde el menú de Habilidades ('''Asignar a Ranura''').\n* Teclas de ranura por defecto: {{Key|Alt}} + {{Key|1}}–{{Key|4}} para las ranuras 1–4 y {{Key|Ctrl}} + {{Key|1}}–{{Key|4}} para las ranuras 5–8. Mientras mantienes pulsado el modificador de una barra, sus cuatro ranuras aparecen en la barra de técnicas (consulta [[Special:MyLanguage/Controls|Controles]] y [[Special:MyLanguage/HUD|HUD]]).\n* '''Ataques de Ki:''' mantén pulsada la tecla de la ranura para cargar y suéltala para disparar. Si tienes un objetivo fijado (para lo que necesitas [[Special:MyLanguage/Ki Sense|Sentir Ki]]), los ataques teledirigidos siguen a tu objetivo.\n* '''Los Super Golpes y las técnicas de evasión''' se activan en cuanto pulsas la tecla de la ranura. Un Super Golpe sin ningún enemigo al alcance '''se lanza''' hacia adelante para buscar uno (consulta [[Special:MyLanguage/Strike Attacks|Super Golpes]]).\n* Cada técnica tiene su propio tiempo de recarga. Ir montado en una entidad bloquea los ataques de tipo rayo que te inmovilizan mientras cargas.",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Charging and overcharge ==",
+  "translation": "== Carga y sobrecarga ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "* '''Small Ball''' and '''Laser''' attacks are instant. Every other ki attack type charges up to '''100%''' over its cast time (see the table below).\n* Keep holding past 100% to '''overcharge''' up to '''175%''' (+25% per extra cast time). '''Medium Ball''' and '''Giant Ball''' attacks fire on their own when they reach the cap; the others fire when you release the key. Releasing below 10% fizzles.\n* The charge percentage scales the attack's damage and cooldown. Overcharging costs more Ki: going from 100% to 175% doubles the cost.\n* Ki is spent gradually while charging and the rest when the attack fires; sustained beams also drain Ki while they are out.\n* During a '''Ki Surge''' you charge 20% faster (see [[Special:MyLanguage/Combat|Combat]]).\n* A ki attack's '''size''' grows with your Ki Power, with bigger caps while you are transformed, so the same technique looks and hits bigger as you get stronger.\n* Ki attack damage is your Ki Damage × the technique's damage multiplier × the type's damage multiplier (server setting, 1.0 by default) × the charge.",
+  "translation": "* Los ataques de tipo '''Bola Pequeña''' y '''Láser''' son instantáneos. Todos los demás tipos de ataque de ki se cargan hasta el '''100%''' durante su tiempo de lanzamiento (consulta la tabla de abajo).\n* Sigue manteniendo la tecla pasado el 100% para '''sobrecargar''' hasta el '''175%''' (+25% por cada tiempo de lanzamiento extra). Los ataques de tipo '''Bola Media''' y '''Bola Gigante''' se disparan solos al llegar al tope; los demás se disparan cuando sueltas la tecla. Soltar por debajo del 10% hace que se disipe.\n* El porcentaje de carga escala el daño y el tiempo de recarga del ataque. Sobrecargar cuesta más Ki: pasar del 100% al 175% duplica el costo.\n* El Ki se gasta poco a poco mientras cargas y el resto al disparar; los rayos sostenidos también consumen Ki mientras están activos.\n* Durante una '''Oleada de Ki''' cargas un 20% más rápido (consulta [[Special:MyLanguage/Combat|Combate]]).\n* El '''tamaño''' de un ataque de ki crece con tu poder de ki, con topes mayores mientras estás transformado, así que la misma técnica se ve y golpea más grande a medida que te haces más fuerte.\n* El daño de un ataque de ki es tu Daño de ki × el multiplicador de daño de la técnica × el multiplicador de daño del tipo (ajuste del servidor, 1.0 por defecto) × la carga.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Ki attack types ==",
+  "translation": "== Tipos de ataque de ki ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "34": {
+  "source": "Base cast time",
+  "translation": "Tiempo de lanzamiento base",
+  "outdated": false
+ },
+ "35": {
+  "source": "Upgrades available",
+  "translation": "Mejoras disponibles",
+  "outdated": false
+ },
+ "36": {
+  "source": "Notes",
+  "translation": "Notas",
+  "outdated": false
+ },
+ "37": {
+  "source": "Small Ball",
+  "translation": "Bola Pequeña",
+  "outdated": false
+ },
+ "38": {
+  "source": "Instant",
+  "translation": "Instantáneo",
+  "outdated": false
+ },
+ "39": {
+  "source": "Damage, Speed, Cooldown",
+  "translation": "Daño, Velocidad, Tiempo de recarga",
+  "outdated": false
+ },
+ "40": {
+  "source": "Can be a heal.",
+  "translation": "Puede curar.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Laser",
+  "translation": "Láser",
+  "outdated": false
+ },
+ "42": {
+  "source": "Instant",
+  "translation": "Instantáneo",
+  "outdated": false
+ },
+ "43": {
+  "source": "Damage, Speed, Armor Pen., Cooldown",
+  "translation": "Daño, Velocidad, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "44": {
+  "source": "Medium Ball",
+  "translation": "Bola Media",
+  "outdated": false
+ },
+ "45": {
+  "source": "1.5 seconds",
+  "translation": "1.5 segundos",
+  "outdated": false
+ },
+ "46": {
+  "source": "Damage, Speed, Armor Pen., Cooldown",
+  "translation": "Daño, Velocidad, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "47": {
+  "source": "Fires automatically when fully charged.",
+  "translation": "Se dispara sola al cargarse por completo.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Disk",
+  "translation": "Disco",
+  "outdated": false
+ },
+ "49": {
+  "source": "1.5 seconds",
+  "translation": "1.5 segundos",
+  "outdated": false
+ },
+ "50": {
+  "source": "Damage, Speed, Armor Pen., Cooldown",
+  "translation": "Daño, Velocidad, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "51": {
+  "source": "Slices a clean cut through terrain.",
+  "translation": "Hace un corte limpio en el terreno.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Barrage",
+  "translation": "Descarga",
+  "outdated": false
+ },
+ "53": {
+  "source": "2 seconds",
+  "translation": "2 segundos",
+  "outdated": false
+ },
+ "54": {
+  "source": "Damage, Speed, Cooldown",
+  "translation": "Daño, Velocidad, Tiempo de recarga",
+  "outdated": false
+ },
+ "55": {
+  "source": "Shield",
+  "translation": "Escudo",
+  "outdated": false
+ },
+ "56": {
+  "source": "2 seconds",
+  "translation": "2 segundos",
+  "outdated": false
+ },
+ "57": {
+  "source": "Damage, Cooldown",
+  "translation": "Daño, Tiempo de recarga",
+  "outdated": false
+ },
+ "58": {
+  "source": "Can be a heal.",
+  "translation": "Puede curar.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Area",
+  "translation": "Área",
+  "outdated": false
+ },
+ "60": {
+  "source": "2 seconds",
+  "translation": "2 segundos",
+  "outdated": false
+ },
+ "61": {
+  "source": "Damage, Cooldown",
+  "translation": "Daño, Tiempo de recarga",
+  "outdated": false
+ },
+ "62": {
+  "source": "Can be a heal.",
+  "translation": "Puede curar.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "64": {
+  "source": "2.5 seconds",
+  "translation": "2.5 segundos",
+  "outdated": false
+ },
+ "65": {
+  "source": "Damage, Speed, Armor Pen., Cooldown",
+  "translation": "Daño, Velocidad, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "66": {
+  "source": "Clashes with other beams.",
+  "translation": "Choca con otros rayos.",
+  "outdated": false
+ },
+ "67": {
+  "source": "Beam",
+  "translation": "Rayo",
+  "outdated": false
+ },
+ "68": {
+  "source": "2.5 seconds",
+  "translation": "2.5 segundos",
+  "outdated": false
+ },
+ "69": {
+  "source": "Damage, Speed, Armor Pen., Cooldown",
+  "translation": "Daño, Velocidad, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "70": {
+  "source": "Clashes with other beams.",
+  "translation": "Choca con otros rayos.",
+  "outdated": false
+ },
+ "71": {
+  "source": "Giant Ball",
+  "translation": "Bola Gigante",
+  "outdated": false
+ },
+ "72": {
+  "source": "3 seconds",
+  "translation": "3 segundos",
+  "outdated": false
+ },
+ "73": {
+  "source": "Damage, Size, Armor Pen., Cooldown",
+  "translation": "Daño, Tamaño, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "74": {
+  "source": "Fires automatically when fully charged.",
+  "translation": "Se dispara sola al cargarse por completo.",
+  "outdated": false
+ },
+ "75": {
+  "source": "Explosion",
+  "translation": "Explosión",
+  "outdated": false
+ },
+ "76": {
+  "source": "3 seconds",
+  "translation": "3 segundos",
+  "outdated": false
+ },
+ "77": {
+  "source": "Damage, Armor Pen., Cooldown",
+  "translation": "Daño, Pen. Armadura, Tiempo de recarga",
+  "outdated": false
+ },
+ "78": {
+  "source": "Cast times are the server defaults.",
+  "translation": "Los tiempos de lanzamiento son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "79": {
+  "source": "== Great Ape loadout ==",
+  "translation": "== Técnicas del Mono Gigante ==",
+  "outdated": false
+ },
+ "80": {
+  "source": "While you are in the '''Oozaru''' or '''Golden Oozaru''' form, your first three technique slots are replaced with [[Special:MyLanguage/Mouth Blast|Mouth Blast]], '''Oozaru Slam''' and [[Special:MyLanguage/Rage Scream|Rage Scream]]. They are added temporarily if you don't own them, and your normal slots come back when you leave the form. See [[Special:MyLanguage/Saiyan|Saiyan]] for the Oozaru forms and [[Special:MyLanguage/Fake Moon|Fake Moon]] for one way to trigger them.",
+  "translation": "Mientras estás en la forma '''Oozaru''' u '''Oozaru Dorado''', tus tres primeras ranuras de técnica se sustituyen por la [[Special:MyLanguage/Mouth Blast|Ráfaga bucal]], el '''Aplastamiento Oozaru''' y el [[Special:MyLanguage/Rage Scream|Grito de furia]]. Se añaden temporalmente si no las tienes, y tus ranuras normales vuelven cuando sales de la forma. Consulta [[Special:MyLanguage/Saiyan|Saiyajin]] para las formas Oozaru y [[Special:MyLanguage/Fake Moon|Luna Falsa]] para una forma de activarlas.",
+  "outdated": false
+ },
+ "81": {
+  "source": "== Technique XP and upgrades ==",
+  "translation": "== XP y mejoras de las técnicas ==",
+  "outdated": false
+ },
+ "82": {
+  "source": "Techniques gain '''experience (XP)''' when they hit, and more when they kill; evasion techniques gain XP each time you use them. Spend it in the Skills menu to upgrade the technique:",
+  "translation": "Las técnicas ganan '''experiencia (XP)''' cuando impactan, y más cuando matan; las técnicas de evasión ganan XP cada vez que las usas. Gástala en el menú de Habilidades para mejorar la técnica:",
+  "outdated": false
+ },
+ "83": {
+  "source": "* '''Ki attacks:''' damage (+0.05 multiplier), size (+0.1), speed (+0.05), armor penetration (+1%) and cooldown (−2.5% per level, up to −50%). Only the stats allowed for its type can be upgraded (see the type table above).\n* '''Strike attacks:''' damage and cooldown (−2.5% per level, up to −50%).\n* '''Evasion techniques:''' duration (+2.5% per level, up to +50%) and cooldown.",
+  "translation": "* '''Ataques de Ki:''' daño (+0.05 de multiplicador), tamaño (+0.1), velocidad (+0.05), penetración de armadura (+1%) y tiempo de recarga (−2.5% por nivel, hasta −50%). Solo se pueden mejorar las estadísticas permitidas para su tipo (consulta la tabla de tipos de arriba).\n* '''Super Golpes:''' daño y tiempo de recarga (−2.5% por nivel, hasta −50%).\n* '''Técnicas de evasión:''' duración (+2.5% por nivel, hasta +50%) y tiempo de recarga.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Each upgrade costs more XP than the last. XP costs and gains are tuned per type by the server.",
+  "translation": "Cada mejora cuesta más XP que la anterior. Los costos y ganancias de XP los ajusta el servidor para cada tipo.",
+  "outdated": false
+ },
+ "85": {
+  "source": "== Creating your own ki attacks ==",
+  "translation": "== Cómo crear tus propios ataques de ki ==",
+  "outdated": false
+ },
+ "86": {
+  "source": "The '''Technique Creator''' (the '''Create Skill''' button of the Skills menu) lets you design your own ki attack in two steps. Creating it costs TP based on how strong it is; after that it works like any other ki attack (slots, XP, upgrades).",
+  "translation": "El '''Creador de Técnicas''' (el botón '''Crear Habilidad''' del menú de Habilidades) te permite diseñar tu propio ataque de ki en dos pasos. Crearlo cuesta TP según lo fuerte que sea; después funciona como cualquier otro ataque de ki (ranuras, XP, mejoras).",
+  "outdated": false
+ },
+ "87": {
+  "source": "=== Step 1: appearance ===",
+  "translation": "=== Paso 1: apariencia ===",
+  "outdated": false
+ },
+ "88": {
+  "source": "The camera moves around your character and a '''live preview''' plays the attack on a loop (charge, fire and impact) exactly as that type looks in combat, at the size it would have with your current stats.",
+  "translation": "La cámara se mueve alrededor de tu personaje y una '''vista previa en vivo''' reproduce el ataque en bucle (carga, disparo e impacto) exactamente como se ve ese tipo en combate, con el tamaño que tendría con tus estadísticas actuales.",
+  "outdated": false
+ },
+ "89": {
+  "source": "* Choose the '''type''' with the arrows (or {{Key|A}}/{{Key|D}}, {{Key|←}}/{{Key|→}}).\n* Pick the three colours: '''Core''', '''Border''' and '''Outline'''. Click a swatch, then set it with the hue, saturation and brightness sliders or type a hex code; the preview recolours instantly. The colours start from your aura colour.\n* Drag to rotate the camera and scroll to zoom.",
+  "translation": "* Elige el '''tipo''' con las flechas (o {{Key|A}}/{{Key|D}}, {{Key|←}}/{{Key|→}}).\n* Elige los tres colores: '''Interior''', '''Borde''' y '''Contorno'''. Haz clic en una muestra y ajústala con los deslizadores de tono, saturación y brillo, o escribe un código hexadecimal; la vista previa cambia de color al instante. Los colores parten del color de tu aura.\n* Arrastra para girar la cámara y usa la rueda para hacer zoom.",
+  "outdated": false
+ },
+ "90": {
+  "source": "The panel also shows the type's cast time and the current TP cost. Press '''Continue''' (or {{Key|Enter}}) for the next step.",
+  "translation": "El panel también muestra el tiempo de lanzamiento del tipo y el costo actual en TP. Pulsa '''Continuar''' (o {{Key|Enter}}) para pasar al siguiente paso.",
+  "outdated": false
+ },
+ "91": {
+  "source": "=== Step 2: stats ===",
+  "translation": "=== Paso 2: estadísticas ===",
+  "outdated": false
+ },
+ "92": {
+  "source": "Name the technique (up to 24 characters), choose its '''utility''' where the type allows it, and set its '''damage''', '''size''', '''speed''' and '''armor penetration''' (only the stats the chosen type supports can be changed), plus an optional '''secondary effect'''. Hold an arrow to keep adjusting, and hold {{Key|Shift}} for bigger steps.",
+  "translation": "Ponle nombre a la técnica (hasta 24 caracteres), elige su '''utilidad''' cuando el tipo lo permita y ajusta su '''daño''', '''tamaño''', '''velocidad''' y '''penetración de armadura''' (solo se pueden cambiar las estadísticas que admite el tipo elegido), además de un '''efecto secundario''' opcional. Mantén pulsada una flecha para seguir ajustando y mantén pulsada {{Key|Shift}} para pasos más grandes.",
+  "outdated": false
+ },
+ "93": {
+  "source": "The screen shows the resulting Ki cost, cooldown, cast time and TP cost next to your available TP, and hovering the damage line shows how much damage (or healing) the attack would deal with your current stats. '''Back''' returns to the appearance step without losing anything. '''Create Skill''' only works if you can afford the TP cost, and you can't reuse the name of a technique you already own.",
+  "translation": "La pantalla muestra el costo de Ki, el tiempo de recarga, el tiempo de lanzamiento y el costo en TP resultantes junto a tus TP disponibles, y al pasar el cursor por la línea de daño se ve cuánto daño (o curación) haría el ataque con tus estadísticas actuales. '''Atrás''' vuelve al paso de apariencia sin perder nada. '''Crear Habilidad''' solo funciona si puedes pagar el costo en TP, y no puedes reutilizar el nombre de una técnica que ya tengas.",
+  "outdated": false
+ },
+ "94": {
+  "source": "=== Utility and secondary effects ===",
+  "translation": "=== Utilidad y efectos secundarios ===",
+  "outdated": false
+ },
+ "95": {
+  "source": "* '''Damage or Heal.''' Small Ball, Shield and Area attacks can be set to '''heal''' instead of damage. Healing output is 40% of the damage value.\n* '''Secondary effects.''' A damage attack can carry a '''debuff''', and a heal attack a '''buff''', on one stat: STR, SKP, DEF, PWR, health regeneration, Ki regeneration or stamina regeneration. Intensity is 5–50% and duration 1–8 seconds, and a secondary effect makes the attack cost more Ki. Buffs only land on allies and debuffs on enemies, and a target can only hold one buff at a time.",
+  "translation": "* '''Daño o Curación.''' Los ataques de tipo Bola Pequeña, Escudo y Área se pueden configurar para '''curar''' en lugar de hacer daño. La curación es el 40% del valor de daño.\n* '''Efectos secundarios.''' Un ataque de daño puede llevar un '''debilitador''', y un ataque de curación un '''potenciador''', sobre una estadística: STR, SKP, DEF, PWR, regeneración de vida, regeneración de Ki o regeneración de stamina. La intensidad es del 5–50% y la duración de 1–8 segundos, y un efecto secundario hace que el ataque cueste más Ki. Los potenciadores solo afectan a los aliados y los debilitadores a los enemigos, y un objetivo solo puede tener un potenciador a la vez.",
+  "outdated": false
+ },
+ "96": {
+  "source": "=== Sharing techniques ===",
+  "translation": "=== Compartir técnicas ===",
+  "outdated": false
+ },
+ "97": {
+  "source": "Techniques can be exported as a code (<code>DMZK1:…</code>) and imported by other players. Importing a technique costs its TP.",
+  "translation": "Las técnicas se pueden exportar como un código (<code>DMZK1:…</code>) que otros jugadores pueden importar. Importar una técnica cuesta sus TP.",
+  "outdated": false
+ },
+ "98": {
+  "source": "Created techniques pair well with the [[Special:MyLanguage/Spiritualist|Spiritualist]] and [[Special:MyLanguage/Cleric|Cleric]] classes, whose passives boost ki-technique cooldowns and durations. [[Special:MyLanguage/Majin|Majins]] also heal more with healing techniques.",
+  "translation": "Las técnicas creadas combinan bien con las clases [[Special:MyLanguage/Spiritualist|Espiritualista]] y [[Special:MyLanguage/Cleric|Clérigo]], cuyas pasivas mejoran los tiempos de recarga y las duraciones de las técnicas de ki. Los [[Special:MyLanguage/Majin|Majin]] también curan más con las técnicas de curación.",
+  "outdated": false
+ },
+ "99": {
+  "source": "== Terrain destruction ==",
+  "translation": "== Destrucción del terreno ==",
+  "outdated": false
+ },
+ "100": {
+  "source": "Ki attacks tear up the ground they hit: blasts and explosions leave craters, and big beams and balls dig through terrain as they travel. The blocks are removed over a few ticks, with flying debris and dust, so even huge attacks don't freeze the server. Disk attacks (Kienzan and the like) slice a clean cut through the blocks they pass, and the Dimensional Slash strike carves a crescent into the terrain. Dragon Balls and highly blast-resistant blocks (obsidian, bedrock, unbreakable DMZ blocks…) are never destroyed.",
+  "translation": "Los ataques de ki destrozan el suelo que golpean: las ráfagas y explosiones dejan cráteres, y los grandes rayos y esferas excavan el terreno a su paso. Los bloques se eliminan a lo largo de unos pocos ticks, con escombros y polvo volando, así que ni los ataques enormes congelan el servidor. Los ataques de tipo Disco (Kienzan y similares) hacen un corte limpio en los bloques que atraviesan, y el golpe Corte Dimensional abre una media luna en el terreno. Las Esferas del Dragón y los bloques muy resistentes a las explosiones (obsidiana, roca madre, bloques indestructibles de DMZ…) nunca se destruyen.",
+  "outdated": false
+ },
+ "101": {
+  "source": "Whether ki attacks may break blocks at all, and which structures are protected, is set by the ki-griefing [[Special:MyLanguage/Gamerules|gamerules]]. Crater sizes per attack type are a server setting.",
+  "translation": "Si los ataques de ki pueden romper bloques, y qué estructuras están protegidas, lo determinan las [[Special:MyLanguage/Gamerules|gamerules]] de griefing de ki. El tamaño de los cráteres por tipo de ataque es un ajuste del servidor.",
+  "outdated": false
+ },
+ "102": {
+  "source": "== Beam clashes ==",
+  "translation": "== Choques de ondas ==",
+  "outdated": false
+ },
+ "103": {
+  "source": "When two beams (Wave or Beam type: Kamehameha, Galick Gun, Final Flash, Special Beam Cannon…) meet head-on, a '''beam clash''' starts. Both fighters are invulnerable while it lasts and a timing meter appears: right-click when the marker is inside the window to push your beam forward. The side that pushes far enough wins and breaks through; the loser is stunned for 3.5 seconds. Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam are simply destroyed.",
+  "translation": "Cuando dos rayos (de tipo Onda o Rayo: Kamehame Ha, Cañón Galick, Destello Final, Cañón de Haz Especial…) chocan de frente, empieza un '''choque de ondas'''. Ambos luchadores son invulnerables mientras dura y aparece un medidor de sincronización: haz clic derecho cuando el marcador esté dentro de la ventana para empujar tu rayo hacia adelante. El bando que empuja lo suficiente gana y se abre paso; el perdedor queda aturdido durante 3.5 segundos. Los ataques más pequeños (Bolas Pequeñas, Láseres, Discos) que chocan contra un rayo en curso simplemente se destruyen.",
+  "outdated": false
+ },
+ "104": {
+  "source": "== Strike clashes ==",
+  "translation": "== Choques de golpes ==",
+  "outdated": false
+ },
+ "105": {
+  "source": "When two fighters rush at each other with strike attacks, a '''strike clash''' starts: both are held in place, trading blows, and the same timing meter decides who pushes through. The winner deals a heavy blow and gets the technique back at once; the loser is knocked back and stunned for 3.5 seconds.",
+  "translation": "Cuando dos luchadores se lanzan el uno contra el otro con Super Golpes, empieza un '''choque de golpes''': ambos quedan inmovilizados intercambiando golpes, y el mismo medidor de sincronización decide quién se abre paso. El ganador asesta un golpe contundente y recupera la técnica al instante; el perdedor sale despedido y queda aturdido durante 3.5 segundos.",
+  "outdated": false
+ }
+}

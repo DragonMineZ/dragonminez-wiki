@@ -1,84 +1,96 @@
 <translate>
+<!--T:1-->
 Read this page before you start editing anything in <code>config/dragonminez</code> or in a world's <code>dragonminez/</code> save folder on a live server. It covers what DragonMineZ backs up for you and what it doesn't, how updates treat your files, and what to keep in mind on a multiplayer server.
 </translate>
 
 <translate>
-== Back up before you touch anything ==
+== Back up before you touch anything == <!--T:2-->
 </translate>
 {{See also|How to JSON|Locating Specific Folders}}
 <translate>
+<!--T:3-->
 DMZ keeps a copy of the files it changes on its own:
 </translate>
 
 <translate>
+<!--T:4-->
 * Config files it upgrades after a DMZ update are moved to <code>config/dragonminez/oldBackup/&lt;same path&gt;</code> before the new file is written (see [[Special:MyLanguage/How to JSON|How to JSON]]).
 * Default quest, saga and side-quest files it upgrades are copied to <code>&lt;world&gt;/dragonminez/oldBackup/&lt;same path&gt;</code> first (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).
 * Files it can't parse are never overwritten: DMZ runs on defaults for that session and leaves your file alone.
 </translate>
 
 <translate>
+<!--T:5-->
 That safety net does '''not''' cover:
 </translate>
 
 <translate>
+<!--T:6-->
 * Your own edits between two DMZ versions. <code>oldBackup/</code> only holds the version from right before an upgrade.
 * <code>/dmzrestoreupdate</code>, which '''deletes''' the world's <code>wishes</code>, <code>sagas</code> and <code>quests</code> folders (including your custom files) and regenerates the defaults.
 * Player data: <code>playerdata_json/&lt;uuid&gt;.json</code> when using <code>JSON</code> storage, your database when using <code>DATABASE</code> storage, and the vanilla player <code>.dat</code> files.
 * World saved data in <code>&lt;world&gt;/data/</code> (Dragon Ball positions, parties, raids, world bosses and more).
 </translate>
 
-{{Note|type=danger|title=<translate>Take your own backup</translate>|text=<translate>Take your own filesystem or database backup before bulk-editing any of these, especially on a server with real player data.</translate>}}
+{{Note|type=danger|title=<translate><!--T:7--> Take your own backup</translate>|text=<translate><!--T:8--> Take your own filesystem or database backup before bulk-editing any of these, especially on a server with real player data.</translate>}}
 
 <translate>
-== Who these pages are for ==
+== Who these pages are for == <!--T:9-->
 </translate>
 {{See also|Developer Scope and Prerequisites|Modding}}
 <translate>
+<!--T:10-->
 The configuration and modding pages of this wiki are written for people who are comfortable editing JSON, running a development environment or building a Forge add-on. They intentionally don't cover lore or story explanations, or server hosting and administration outside of DMZ itself (ports, proxies and so on). For playing the mod, start from the [[Special:MyLanguage/Beginner's Guide|Beginner's Guide]].
 </translate>
 
 <translate>
-== Never trust client input for progression ==
+== Never trust client input for progression == <!--T:11-->
 </translate>
 {{See also|Add-on Development}}
 <translate>
+<!--T:12-->
 If you are writing an add-on or a mixin against DMZ: stats, unlocks, permissions, quests and wishes are validated server-side by design. Don't build add-on features that trust a value reported by the client for anything related to progression; read the state from the server-side <code>StatsCapability</code> / <code>StatsProvider</code> instead of a client cache.
 </translate>
 
 <translate>
-== Config files are upgraded on DMZ updates ==
+== Config files are upgraded on DMZ updates == <!--T:13-->
 </translate>
 {{See also|How to JSON|Reloading and Updating Changes}}
 <translate>
+<!--T:14-->
 Every config file carries a <code>configVersion</code>. When you install a newer DMZ, outdated files are regenerated with the new defaults and your changed values are merged back in (values you never touched take the new defaults). This is expected behavior, not a bug: see [[Special:MyLanguage/How to JSON|How to JSON]] for exactly how the merge works, and compare with the copy in <code>oldBackup/</code> if a value looks wrong after an update.
 </translate>
 
 <translate>
+<!--T:15-->
 A file with a syntax error is '''not''' regenerated: DMZ uses the defaults for that file until you fix it and run <code>/dmzreload</code>. Every player sees a short report of broken files in chat on login (you can turn that off with <code>developer.reportJsonProblemsInChat</code> in [[Special:MyLanguage/General Server Config|General Server Config]]).
 </translate>
 
 <translate>
-== Custom and community content survives updates ==
+== Custom and community content survives updates == <!--T:16-->
 </translate>
 <translate>
+<!--T:17-->
 * Custom races keep all their values across updates; custom form files keep their content; extra raid and tournament files and the custom quests and sagas you author are loaded as they are.
 * DMZ's own default config and story files are upgraded when DMZ changes them, but the values you edited are kept. If you want a change to be completely independent from DMZ's defaults, fork it into your own custom race, form or saga instead of editing DMZ's files (see [[Special:MyLanguage/Custom Races|Custom Races]], [[Special:MyLanguage/Custom Forms|Custom Forms]] and [[Special:MyLanguage/Custom Quests|Custom Quests]]).
 * Set <code>autoUpdateQuests</code> to <code>false</code> in [[Special:MyLanguage/General Server Config|General Server Config]] if you never want DMZ to touch the default quest files of a world once they exist.
 </translate>
 
 <translate>
-== Multiplayer and server-scale considerations ==
+== Multiplayer and server-scale considerations == <!--T:18-->
 </translate>
 <translate>
+<!--T:19-->
 * The server sends its config files to every player on join. After editing a config file, always run <code>/dmzreload config</code>: until you do, the server keeps the old values while newly joining players receive the edited file. The reload resends every file to every connected player, so expect a brief hitch on larger servers.
 * Quest, saga and dialogue edits only take effect for a world after <code>/dmzreload story</code> (or a restart).
 * Don't switch storage backends (<code>NBT</code>, <code>JSON</code>, <code>DATABASE</code>) with players online: do it with the server empty and take a backup first. The vanilla <code>.dat</code> player save is always written as well, so it remains a fallback if the database is unreachable.
 </translate>
 
 <translate>
-== Getting help ==
+== Getting help == <!--T:20-->
 </translate>
 <translate>
+<!--T:21-->
 * Ask on the [https://discord.com/servers/dragonmine-z-1216429657273012415 DragonMineZ Discord].
 * File engine-level bugs or feature requests on the GitHub [https://github.com/orgs/DragonMineZ/projects/4 Progress Board].
 </translate>

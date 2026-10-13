@@ -1,0 +1,952 @@
+{
+ "Page_display_title": {
+  "source": "Custom Quests",
+  "translation": "Misiones personalizadas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Custom quests''' are sagas, saga quests and side quests you write yourself with JSON alone, with no Java code or add-on jar. Story content is per-world data (unlike races and forms, which live in <code>config/dragonminez</code>), so these files live inside the world save.",
+  "translation": "Las '''misiones personalizadas''' son sagas, misiones de saga y misiones secundarias que escribes tú mismo solo con JSON, sin código Java ni un jar de addon. El contenido de la historia son datos de cada mundo (a diferencia de las razas y las formas, que están en <code>config/dragonminez</code>), así que estos archivos viven dentro del mundo guardado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Where files go ==",
+  "translation": "== Dónde van los archivos ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Source: <code>QuestRegistry.loadAll(server)</code> (<code>src/main/java/com/dragonminez/common/quest/QuestRegistry.java</code>). See [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]] for the full folder map.",
+  "translation": "Código fuente: <code>QuestRegistry.loadAll(server)</code> (<code>src/main/java/com/dragonminez/common/quest/QuestRegistry.java</code>). Consulta [[Special:MyLanguage/Locating Specific Folders|Encontrar carpetas]] para ver el mapa completo de carpetas.",
+  "outdated": false
+ },
+ "4": {
+  "source": "=== Story toggles ===",
+  "translation": "=== Opciones de la historia ===",
+  "outdated": false
+ },
+ "5": {
+  "source": "These toggles live in <code>general-server.json</code> → <code>gameplay</code>, and all of them default to <code>true</code>:",
+  "translation": "Estas opciones están en <code>general-server.json</code> → <code>gameplay</code>, y todas son <code>true</code> por defecto:",
+  "outdated": false
+ },
+ "6": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "7": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "8": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "9": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "10": {
+  "source": "Master switch for the saga and quest system.",
+  "translation": "Interruptor general del sistema de sagas y misiones.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "12": {
+  "source": "Generates DragonMineZ's default saga and saga quest files (needs <code>storyModeEnabled</code> too).",
+  "translation": "Genera los archivos por defecto de sagas y misiones de saga de DragonMineZ (también necesita <code>storyModeEnabled</code>).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "14": {
+  "source": "Master switch for the side quest system.",
+  "translation": "Interruptor general del sistema de misiones secundarias.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "16": {
+  "source": "Generates DragonMineZ's default side quest files.",
+  "translation": "Genera los archivos por defecto de misiones secundarias de DragonMineZ.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "18": {
+  "source": "Upgrades DragonMineZ's default files in place when a new DragonMineZ version changes them (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).",
+  "translation": "Actualiza en su lugar los archivos por defecto de DragonMineZ cuando una nueva versión de DragonMineZ los cambia (consulta [[Special:MyLanguage/Custom Quests#Default file upgrades|Actualización de los archivos por defecto]]).",
+  "outdated": false
+ },
+ "19": {
+  "source": "Default files are generated one by one, by filename, whenever they are missing, so a default file you delete comes back on the next load while its <code>createDefault...</code> toggle is on. Your own files (any other filename) are never touched.",
+  "translation": "Los archivos por defecto se generan uno a uno, por nombre de archivo, cada vez que faltan, así que un archivo por defecto que borres vuelve en la siguiente carga mientras su opción <code>createDefault...</code> esté activada. Tus propios archivos (cualquier otro nombre de archivo) nunca se tocan.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Step 1: Create a saga manifest ==",
+  "translation": "== Paso 1: crea un manifiesto de saga ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Create one file per saga in <code>dragonminez/sagas/</code>, for example <code>my_saga.json</code>:",
+  "translation": "Crea un archivo por saga en <code>dragonminez/sagas/</code>, por ejemplo <code>my_saga.json</code>:",
+  "outdated": false
+ },
+ "22": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "23": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "24": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "25": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "26": {
+  "source": "Unique saga id.",
+  "translation": "Id único de la saga.",
+  "outdated": false
+ },
+ "27": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "28": {
+  "source": "Translation key for the saga's display name.",
+  "translation": "Clave de traducción del nombre visible de la saga.",
+  "outdated": false
+ },
+ "29": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "30": {
+  "source": "Id of the saga that must be completed first, or <code>\"\"</code> for none.",
+  "translation": "Id de la saga que se debe completar antes, o <code>\"\"</code> si no hay ninguna.",
+  "outdated": false
+ },
+ "31": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "32": {
+  "source": "Name of the subfolder under <code>dragonminez/quests/</code> that holds this saga's quest files.",
+  "translation": "Nombre de la subcarpeta dentro de <code>dragonminez/quests/</code> que contiene los archivos de misiones de esta saga.",
+  "outdated": false
+ },
+ "33": {
+  "source": "The default saga ids are <code>classic_saga</code>, <code>saiyan_saga</code>, <code>frieza_saga</code>, <code>android_saga</code>, <code>future_saga</code>, <code>buu_saga</code>, <code>movies_saga</code>, <code>gt_saga</code> and <code>daima_saga</code> (see [[Special:MyLanguage/Sagas|Sagas]]).",
+  "translation": "Los ids de saga por defecto son <code>classic_saga</code>, <code>saiyan_saga</code>, <code>frieza_saga</code>, <code>android_saga</code>, <code>future_saga</code>, <code>buu_saga</code>, <code>movies_saga</code>, <code>gt_saga</code> y <code>daima_saga</code> (consulta [[Special:MyLanguage/Sagas|Sagas]]).",
+  "outdated": false
+ },
+ "34": {
+  "source": "Source: <code>SagaDefaults.java</code>, <code>Saga.java</code>.",
+  "translation": "Código fuente: <code>SagaDefaults.java</code>, <code>Saga.java</code>.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== Step 2: Add quest files ==",
+  "translation": "== Paso 2: añade archivos de misiones ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "Inside <code>dragonminez/quests/saga_my_saga/</code>, add one file per quest, named so the files sort in play order (<code>01_...json</code>, <code>02_...json</code>, ...). Filename order '''is''' the quest order within the saga.",
+  "translation": "Dentro de <code>dragonminez/quests/saga_my_saga/</code>, añade un archivo por misión, con nombres que ordenen los archivos según el orden de juego (<code>01_...json</code>, <code>02_...json</code>, ...). El orden de los nombres de archivo '''es''' el orden de las misiones dentro de la saga.",
+  "outdated": false
+ },
+ "37": {
+  "source": "A saga quest is identified as <code><sagaId>:<id></code> (for example <code>my_saga:1</code>), using the numeric <code>id</code>, not the filename. Two files with the same <code>id</code> in one folder overwrite each other.",
+  "translation": "Una misión de saga se identifica como <code><sagaId>:<id></code> (por ejemplo <code>my_saga:1</code>), usando el <code>id</code> numérico, no el nombre del archivo. Dos archivos con el mismo <code>id</code> en una carpeta se sobrescriben entre sí.",
+  "outdated": false
+ },
+ "38": {
+  "source": "To '''insert''' a quest between two existing ones, give it a new, unused <code>id</code> and a filename that sorts between them. DragonMineZ's own sagas do this: Frieza Saga quest 17 is <code>01b_scout_the_ruined_village.json</code>, between <code>01_...</code> and <code>02_...</code>. Renumbering the existing quests instead would break saved progress and every <code>SAGA_QUEST</code> condition or form requisite that points at them.",
+  "translation": "Para '''insertar''' una misión entre dos existentes, dale un <code>id</code> nuevo que no se use y un nombre de archivo que quede entre ellas al ordenar. Las sagas de DragonMineZ lo hacen así: la misión 17 de la Saga Freezer es <code>01b_scout_the_ruined_village.json</code>, entre <code>01_...</code> y <code>02_...</code>. Renumerar las misiones existentes rompería el progreso guardado y todas las condiciones <code>SAGA_QUEST</code> o requisitos de forma que apunten a ellas.",
+  "outdated": false
+ },
+ "39": {
+  "source": "== Quest fields ==",
+  "translation": "== Campos de una misión ==",
+  "outdated": false
+ },
+ "40": {
+  "source": "Saga quests and side quests share exactly the same schema, so these fields apply to both.",
+  "translation": "Las misiones de saga y las misiones secundarias comparten exactamente el mismo esquema, así que estos campos sirven para ambas.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "42": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "43": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "44": {
+  "source": "Number or string",
+  "translation": "Número o texto",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Numeric''' for saga quests. Side quests use a '''string''' id instead.",
+  "translation": "'''Numérico''' para las misiones de saga. Las misiones secundarias usan un id de '''texto'''.",
+  "outdated": false
+ },
+ "46": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "47": {
+  "source": "Translation keys (plain text also works).",
+  "translation": "Claves de traducción (también sirve texto simple).",
+  "outdated": false
+ },
+ "48": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "49": {
+  "source": "<code>SAGA</code>, <code>SIDEQUEST</code>, <code>DAILY</code> or <code>EVENT</code>. A <code>DAILY</code> quest can be repeated once per real-world day (server time zone).",
+  "translation": "<code>SAGA</code>, <code>SIDEQUEST</code>, <code>DAILY</code> o <code>EVENT</code>. Una misión <code>DAILY</code> se puede repetir una vez por día real (zona horaria del servidor).",
+  "outdated": false
+ },
+ "50": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "51": {
+  "source": "Free-form grouping label. Defaults to <code>\"general\"</code>.",
+  "translation": "Etiqueta de agrupación libre. Por defecto <code>\"general\"</code>.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "53": {
+  "source": "If <code>true</code>, all objectives progress at the same time instead of one after another.",
+  "translation": "Si es <code>true</code>, todos los objetivos avanzan a la vez en lugar de uno tras otro.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "55": {
+  "source": "If <code>true</code>, item and kill counts scale up for each extra party member (<code>defaultQuestPartyMultiplier</code> in <code>general-server.json</code>, default <code>1.45</code>), and quest enemies get more health and damage for each extra member (<code>enemyHealthPerPartyPlayer</code> <code>1.25</code>, <code>enemyDamagePerPartyPlayer</code> <code>1.1</code>).",
+  "translation": "Si es <code>true</code>, las cantidades de objetos y de muertes aumentan por cada miembro extra del grupo (<code>defaultQuestPartyMultiplier</code> en <code>general-server.json</code>, por defecto <code>1.45</code>), y los enemigos de la misión ganan más vida y daño por cada miembro extra (<code>enemyHealthPerPartyPlayer</code> <code>1.25</code>, <code>enemyDamagePerPartyPlayer</code> <code>1.1</code>).",
+  "outdated": false
+ },
+ "56": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "57": {
+  "source": "Hides the quest from the quest log until it is started or available.",
+  "translation": "Oculta la misión del registro de misiones hasta que se inicia o queda disponible.",
+  "outdated": false
+ },
+ "58": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "59": {
+  "source": "<code>TREE_OR_NPC</code> (claim from the quest screen or from an NPC) or <code>NPC_ONLY</code> (the player must talk to the turn-in NPC).",
+  "translation": "<code>TREE_OR_NPC</code> (se reclama desde la pantalla de misiones o desde un NPC) o <code>NPC_ONLY</code> (el jugador tiene que hablar con el NPC de entrega).",
+  "outdated": false
+ },
+ "60": {
+  "source": "String or <code>null</code>",
+  "translation": "Texto o <code>null</code>",
+  "outdated": false
+ },
+ "61": {
+  "source": "Id of the NPC that offers the quest (see [[Special:MyLanguage/Custom Quests#Quest giver and turn-in NPCs|Quest giver and turn-in NPCs]]).",
+  "translation": "Id del NPC que ofrece la misión (consulta [[Special:MyLanguage/Custom Quests#Quest giver and turn-in NPCs|NPCs que dan y reciben misiones]]).",
+  "outdated": false
+ },
+ "62": {
+  "source": "String or <code>null</code>",
+  "translation": "Texto o <code>null</code>",
+  "outdated": false
+ },
+ "63": {
+  "source": "Id of the NPC that accepts the completed quest.",
+  "translation": "Id del NPC que recibe la misión completada.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "65": {
+  "source": "Decides whether the quest can be '''unlocked''' at all. Same schema as <code>requirements</code> (see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerequisites and requirements]]).",
+  "translation": "Decide si la misión se puede '''desbloquear''' en absoluto. Mismo esquema que <code>requirements</code> (consulta [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerrequisitos y requisitos]]).",
+  "outdated": false
+ },
+ "66": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "67": {
+  "source": "Decides whether the quest can be '''started''' right now (for example the current dimension, biome or level).",
+  "translation": "Decide si la misión se puede '''iniciar''' en este momento (por ejemplo, la dimensión, el bioma o el nivel actuales).",
+  "outdated": false
+ },
+ "68": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "69": {
+  "source": "If <code>true</code>, the quest can be started again after it is completed. Default <code>false</code>.",
+  "translation": "Si es <code>true</code>, la misión se puede volver a iniciar después de completarla. Por defecto <code>false</code>.",
+  "outdated": false
+ },
+ "70": {
+  "source": "Integer",
+  "translation": "Entero",
+  "outdated": false
+ },
+ "71": {
+  "source": "Real-time seconds before a repeatable quest can be started again. <code>0</code> (the default) means right away.",
+  "translation": "Segundos reales antes de que una misión repetible se pueda volver a iniciar. <code>0</code> (por defecto) significa de inmediato.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Integer",
+  "translation": "Entero",
+  "outdated": false
+ },
+ "73": {
+  "source": "Time limit after accepting the quest, in in-game seconds. When it runs out, the quest fails. <code>0</code> (the default) means no limit.",
+  "translation": "Tiempo límite después de aceptar la misión, en segundos del juego. Cuando se agota, la misión falla. <code>0</code> (por defecto) significa sin límite.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Array",
+  "translation": "Array",
+  "outdated": false
+ },
+ "75": {
+  "source": "See [[Special:MyLanguage/Custom Quests#Objective types|Objective types]].",
+  "translation": "Consulta [[Special:MyLanguage/Custom Quests#Objective types|Tipos de objetivos]].",
+  "outdated": false
+ },
+ "76": {
+  "source": "Array",
+  "translation": "Array",
+  "outdated": false
+ },
+ "77": {
+  "source": "See [[Special:MyLanguage/Custom Quests#Reward types|Reward types]].",
+  "translation": "Consulta [[Special:MyLanguage/Custom Quests#Reward types|Tipos de recompensas]].",
+  "outdated": false
+ },
+ "78": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "79": {
+  "source": "Only used on DragonMineZ's own default files (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).",
+  "translation": "Solo se usa en los archivos por defecto de DragonMineZ (consulta [[Special:MyLanguage/Custom Quests#Default file upgrades|Actualización de los archivos por defecto]]).",
+  "outdated": false
+ },
+ "80": {
+  "source": "When a repeatable or daily quest is started again, its objective progress and reward claims are reset, so the rewards can be claimed again.",
+  "translation": "Cuando una misión repetible o diaria se vuelve a iniciar, su progreso de objetivos y las recompensas reclamadas se reinician, así que las recompensas se pueden reclamar de nuevo.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Source: <code>QuestParser.parseQuest</code>, <code>Quest.java</code>.",
+  "translation": "Código fuente: <code>QuestParser.parseQuest</code>, <code>Quest.java</code>.",
+  "outdated": false
+ },
+ "82": {
+  "source": "== Objective types ==",
+  "translation": "== Tipos de objetivos ==",
+  "outdated": false
+ },
+ "83": {
+  "source": "Each entry in <code>objectives</code> needs a <code>type</code> plus that type's fields. Fields marked with <code>*</code> are optional, and sensible defaults apply.",
+  "translation": "Cada entrada de <code>objectives</code> necesita un <code>type</code> más los campos de ese tipo. Los campos marcados con <code>*</code> son opcionales y tienen valores por defecto razonables.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Fields",
+  "translation": "Campos",
+  "outdated": false
+ },
+ "85": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "86": {
+  "source": "Have this many of an item in your inventory. The items are not taken; use <code>DELIVER</code> for that.",
+  "translation": "Tener esta cantidad de un objeto en tu inventario. Los objetos no se quitan; para eso usa <code>DELIVER</code>.",
+  "outdated": false
+ },
+ "87": {
+  "source": "<code>entity</code> can be a registry id or an entity tag (<code>#minecraft:zombies</code>; quest spawns pick a random member). <code>health</code>, <code>meleeDamage</code> and <code>kiDamage</code> default to <code>20</code>, <code>1</code> and <code>1</code>. <code>spawn</code>: <code>QUEST</code> (default, spawned when the quest starts) or <code>NATURAL</code>. <code>count_mode</code>: <code>QUEST_SPAWNED_ONLY</code> (default) or <code>ANY_MATCHING</code>. See [[Special:MyLanguage/Custom Quests#Kill objective: AI tier and transformations|Kill objective: AI tier and transformations]].",
+  "translation": "<code>entity</code> puede ser un id de registro o un tag de entidad (<code>#minecraft:zombies</code>; las apariciones de la misión eligen un miembro al azar). <code>health</code>, <code>meleeDamage</code> y <code>kiDamage</code> valen por defecto <code>20</code>, <code>1</code> y <code>1</code>. <code>spawn</code>: <code>QUEST</code> (por defecto, aparecen cuando empieza la misión) o <code>NATURAL</code>. <code>count_mode</code>: <code>QUEST_SPAWNED_ONLY</code> (por defecto) o <code>ANY_MATCHING</code>. Consulta [[Special:MyLanguage/Custom Quests#Kill objective: AI tier and transformations|Objetivo de eliminar: nivel de IA y transformaciones]].",
+  "outdated": false
+ },
+ "88": {
+  "source": "Same as <code>KILL</code>, without the <code>Transform*</code> fields",
+  "translation": "Igual que <code>KILL</code>, sin los campos <code>Transform*</code>",
+  "outdated": false
+ },
+ "89": {
+  "source": "A non-lethal fight: when a quest-spawned partner would drop below 15% health, the fight ends, it counts as a win for the whole party and the partner leaves.",
+  "translation": "Una pelea no letal: cuando un compañero generado por la misión iba a bajar del 15% de vida, la pelea termina, cuenta como victoria para todo el grupo y el compañero se va.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Right-click interact with a matching entity.",
+  "translation": "Interactuar con clic derecho con una entidad que coincida.",
+  "outdated": false
+ },
+ "91": {
+  "source": "The player must talk to a specific NPC or master.",
+  "translation": "El jugador tiene que hablar con un NPC o maestro concreto.",
+  "outdated": false
+ },
+ "92": {
+  "source": "<code>item</code>, <code>count</code>* (default <code>1</code>), <code>npcId</code> (aliases <code>npc_id</code> and <code>npc</code>)",
+  "translation": "<code>item</code>, <code>count</code>* (por defecto <code>1</code>), <code>npcId</code> (alias <code>npc_id</code> y <code>npc</code>)",
+  "outdated": false
+ },
+ "93": {
+  "source": "Right-click the NPC to hand over the items. They are taken from the inventory, and partial deliveries count.",
+  "translation": "Haz clic derecho en el NPC para entregarle los objetos. Se quitan del inventario, y las entregas parciales cuentan.",
+  "outdated": false
+ },
+ "94": {
+  "source": "The player must enter a generated structure.",
+  "translation": "El jugador tiene que entrar en una estructura generada.",
+  "outdated": false
+ },
+ "95": {
+  "source": "The player must be standing in this biome (or biome tag).",
+  "translation": "El jugador tiene que estar en este bioma (o tag de bioma).",
+  "outdated": false
+ },
+ "96": {
+  "source": "The player must be in this dimension.",
+  "translation": "El jugador tiene que estar en esta dimensión.",
+  "outdated": false
+ },
+ "97": {
+  "source": "The player must be within <code>radius</code> blocks (default <code>10</code>) of a point.",
+  "translation": "El jugador tiene que estar a menos de <code>radius</code> bloques (por defecto <code>10</code>) de un punto.",
+  "outdated": false
+ },
+ "98": {
+  "source": "<code>checkpoints</code> (list of <code>{ \"x\", \"y\", \"z\" }</code>), <code>radius</code>* (default <code>8</code>)",
+  "translation": "<code>checkpoints</code> (lista de <code>{ \"x\", \"y\", \"z\" }</code>), <code>radius</code>* (por defecto <code>8</code>)",
+  "outdated": false
+ },
+ "99": {
+  "source": "Reach every checkpoint in order.",
+  "translation": "Llegar a cada punto de control en orden.",
+  "outdated": false
+ },
+ "100": {
+  "source": "<code>entity</code>, <code>waves</code>* (default <code>3</code>), <code>mobs_per_wave</code>* (default <code>3</code>), <code>wave_delay_seconds</code>* (default <code>10</code>), <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>CanTransform</code>*",
+  "translation": "<code>entity</code>, <code>waves</code>* (por defecto <code>3</code>), <code>mobs_per_wave</code>* (por defecto <code>3</code>), <code>wave_delay_seconds</code>* (por defecto <code>10</code>), <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>CanTransform</code>*",
+  "outdated": false
+ },
+ "101": {
+  "source": "Waves of enemies spawn around the player; the next one comes after a short pause once a wave is cleared. Each cleared wave counts as one step of progress.",
+  "translation": "Aparecen oleadas de enemigos alrededor del jugador; la siguiente llega tras una breve pausa cuando se termina con una oleada. Cada oleada superada cuenta como un paso de progreso.",
+  "outdated": false
+ },
+ "102": {
+  "source": "<code>entity</code>, <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* (default <code>6</code>), <code>health</code>*",
+  "translation": "<code>entity</code>, <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* (por defecto <code>6</code>), <code>health</code>*",
+  "outdated": false
+ },
+ "103": {
+  "source": "An escort spawns next to the player and follows them; bring it within <code>radius</code> of the target. If it dies, the quest fails. <code>health</code> overrides its maximum health.",
+  "translation": "Aparece un escoltado junto al jugador y lo sigue; llévalo a menos de <code>radius</code> del objetivo. Si muere, la misión falla. <code>health</code> reemplaza su vida máxima.",
+  "outdated": false
+ },
+ "104": {
+  "source": "The player must summon a specific dragon and/or ball set (aliases: <code>dragon_id</code> and <code>dragonId</code>; <code>ballSet</code>, <code>ball_set_id</code>, <code>ballSetId</code> and <code>set</code>).",
+  "translation": "El jugador tiene que invocar un dragón y/o un juego de esferas concreto (alias: <code>dragon_id</code> y <code>dragonId</code>; <code>ballSet</code>, <code>ball_set_id</code>, <code>ballSetId</code> y <code>set</code>).",
+  "outdated": false
+ },
+ "105": {
+  "source": "The player must reach a skill level (aliases: <code>skillId</code> and <code>id</code>; <code>minLevel</code> and <code>required</code>; default level <code>1</code>).",
+  "translation": "El jugador tiene que alcanzar un nivel de habilidad (alias: <code>skillId</code> y <code>id</code>; <code>minLevel</code> y <code>required</code>; nivel por defecto <code>1</code>).",
+  "outdated": false
+ },
+ "106": {
+  "source": "Source: <code>QuestParser.parseObjective</code> and the classes under <code>common/quest/objectives/</code>.",
+  "translation": "Código fuente: <code>QuestParser.parseObjective</code> y las clases de <code>common/quest/objectives/</code>.",
+  "outdated": false
+ },
+ "107": {
+  "source": "While a <code>COORDS</code>, <code>ESCORT</code> or <code>CHECKPOINT_RACE</code> objective is tracked, the quest HUD shows the distance and direction to the target (or to the next checkpoint).",
+  "translation": "Mientras se sigue un objetivo <code>COORDS</code>, <code>ESCORT</code> o <code>CHECKPOINT_RACE</code>, el HUD de misiones muestra la distancia y la dirección al objetivo (o al siguiente punto de control).",
+  "outdated": false
+ },
+ "108": {
+  "source": "In a quest with <code>parallel_objectives: false</code>, kill objectives that follow each other directly are unlocked together, so a \"kill A, kill B\" pair can be fought in any order. Objectives of the other types still go one at a time.",
+  "translation": "En una misión con <code>parallel_objectives: false</code>, los objetivos de eliminar que van seguidos se desbloquean juntos, así que un par \"eliminar A, eliminar B\" se puede pelear en cualquier orden. Los objetivos de los demás tipos siguen yendo de uno en uno.",
+  "outdated": false
+ },
+ "109": {
+  "source": "=== Kill objective: AI tier and transformations ===",
+  "translation": "=== Objetivo de eliminar: nivel de IA y transformaciones ===",
+  "outdated": false
+ },
+ "110": {
+  "source": "* <code>AITier</code> is optional: <code>1</code> Novice, <code>2</code> Smart, <code>3</code> Elite, <code>4</code> Expert. If it is left out (or set to <code>0</code> or a negative value), the tier comes from the difficulty the quest was started on: <code>EASY</code> gives 1, <code>NORMAL</code> gives 2, <code>HARD</code> gives 3, and <code>HARD</code> against a saga's final boss gives 4. Set <code>AITier</code> explicitly to force a specific tier regardless of difficulty.\n* <code>TextureVariant</code> picks one of the textures of entities that have several.\n* <code>canTransform</code> (boolean, default <code>true</code>) controls whether the enemy may transform mid-fight at all. Set it to <code>false</code> to lock the enemy out of transforming entirely; this is enforced on the server, not just cosmetic. <code>SURVIVE_WAVES</code> reads it as <code>CanTransform</code>.\n* When <code>canTransform</code> is <code>true</code>, the seven <code>Transform*</code> fields tune the enemy's '''transformed''' stats without touching the global config defaults. All of them are optional (<code>null</code> falls back to the global transformation defaults in <code>entities.json</code>):\n** <code>TransformHealth</code>, <code>TransformMeleeDamage</code>, <code>TransformKiDamage</code>: absolute stat values for the transformed form.\n** <code>TransformHealthMultiplier</code>, <code>TransformMeleeDamageMultiplier</code>, <code>TransformKiMultiplier</code>: multipliers applied to the base (pre-transform) stats instead of absolute values.\n** Absolute values take precedence over multipliers when both are set for the same stat.\n** <code>TransformTriggerPercent</code>: fraction of maximum health (<code>0.0</code>–<code>1.0</code>) at which the enemy triggers its transformation.",
+  "translation": "* <code>AITier</code> es opcional: <code>1</code> Novato, <code>2</code> Inteligente, <code>3</code> Élite, <code>4</code> Experto. Si se omite (o se pone en <code>0</code> o en un valor negativo), el nivel sale de la dificultad con la que se inició la misión: <code>EASY</code> da 1, <code>NORMAL</code> da 2, <code>HARD</code> da 3, y <code>HARD</code> contra el jefe final de una saga da 4. Define <code>AITier</code> de forma explícita para forzar un nivel concreto sin importar la dificultad.\n* <code>TextureVariant</code> elige una de las texturas de las entidades que tienen varias.\n* <code>canTransform</code> (booleano, por defecto <code>true</code>) controla si el enemigo puede transformarse durante la pelea. Ponlo en <code>false</code> para impedir por completo que el enemigo se transforme; esto se aplica en el servidor, no es solo estético. <code>SURVIVE_WAVES</code> lo lee como <code>CanTransform</code>.\n* Cuando <code>canTransform</code> es <code>true</code>, los siete campos <code>Transform*</code> ajustan las estadísticas del enemigo '''transformado''' sin tocar los valores por defecto de la configuración global. Todos son opcionales (<code>null</code> usa los valores por defecto globales de transformación de <code>entities.json</code>):\n** <code>TransformHealth</code>, <code>TransformMeleeDamage</code>, <code>TransformKiDamage</code>: valores absolutos de las estadísticas de la forma transformada.\n** <code>TransformHealthMultiplier</code>, <code>TransformMeleeDamageMultiplier</code>, <code>TransformKiMultiplier</code>: multiplicadores que se aplican a las estadísticas base (antes de transformarse) en lugar de valores absolutos.\n** Los valores absolutos tienen prioridad sobre los multiplicadores cuando ambos se definen para la misma estadística.\n** <code>TransformTriggerPercent</code>: fracción de la vida máxima (<code>0.0</code>–<code>1.0</code>) a la que el enemigo activa su transformación.",
+  "outdated": false
+ },
+ "111": {
+  "source": "=== How a quest can fail ===",
+  "translation": "=== Cómo puede fallar una misión ===",
+  "outdated": false
+ },
+ "112": {
+  "source": "A failed quest loses its objective progress, and its quest-spawned enemies and escorts are removed. It can be started again from the quest log or from its NPC (the start requirements are checked again).",
+  "translation": "Una misión fallida pierde el progreso de sus objetivos, y se eliminan sus enemigos y escoltados generados por la misión. Se puede volver a iniciar desde el registro de misiones o desde su NPC (los requisitos de inicio se vuelven a comprobar).",
+  "outdated": false
+ },
+ "113": {
+  "source": "* '''Party wiped out:''' when the player (or every member of their party) dies, accepted quests with a <code>KILL</code>, <code>SPAR</code>, <code>SURVIVE_WAVES</code> or <code>ESCORT</code> objective fail.\n* '''Escort died:''' the <code>ESCORT</code> target was killed.\n* '''Time ran out:''' <code>time_limit_seconds</code> passed since the quest was accepted.",
+  "translation": "* '''Grupo derrotado:''' cuando el jugador (o todos los miembros de su grupo) muere, fallan las misiones aceptadas que tengan un objetivo <code>KILL</code>, <code>SPAR</code>, <code>SURVIVE_WAVES</code> o <code>ESCORT</code>.\n* '''Murió el escoltado:''' el objetivo de <code>ESCORT</code> murió.\n* '''Se acabó el tiempo:''' pasó <code>time_limit_seconds</code> desde que se aceptó la misión.",
+  "outdated": false
+ },
+ "114": {
+  "source": "== Reward types ==",
+  "translation": "== Tipos de recompensas ==",
+  "outdated": false
+ },
+ "115": {
+  "source": "Each entry in <code>rewards</code> needs a <code>type</code> plus its fields. Every reward type also accepts an optional <code>difficulty</code> field that restricts the difficulties it is granted on (see below).",
+  "translation": "Cada entrada de <code>rewards</code> necesita un <code>type</code> más sus campos. Todos los tipos de recompensa aceptan además un campo opcional <code>difficulty</code> que limita las dificultades en las que se otorga (ver abajo).",
+  "outdated": false
+ },
+ "116": {
+  "source": "Fields",
+  "translation": "Campos",
+  "outdated": false
+ },
+ "117": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "118": {
+  "source": "<code>item</code>, <code>count</code>* (default <code>1</code>)",
+  "translation": "<code>item</code>, <code>count</code>* (por defecto <code>1</code>)",
+  "outdated": false
+ },
+ "119": {
+  "source": "Grants an item stack.",
+  "translation": "Otorga una pila de objetos.",
+  "outdated": false
+ },
+ "120": {
+  "source": "<code>itemReward</code> (an item object)",
+  "translation": "<code>itemReward</code> (un objeto de ítem)",
+  "outdated": false
+ },
+ "121": {
+  "source": "Grants an item with enchantments, potion data or an armor trim. See [[Special:MyLanguage/Custom Quests#Item objects|Item objects]].",
+  "translation": "Otorga un objeto con encantamientos, datos de poción o un adorno de armadura. Consulta [[Special:MyLanguage/Custom Quests#Item objects|Objetos de ítem]].",
+  "outdated": false
+ },
+ "122": {
+  "source": "Grants Attributes, the reward every default quest uses: <code>amount × attributeRewardPointRatio</code> (by default half, rounded down) as Attribute Points, and the rest as the TP those stat points would cost the player when claiming. That TP is not boosted again and not shared with the party. The tooltip shows the split. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].",
+  "translation": "Otorga Atributos, la recompensa que usan todas las misiones por defecto: <code>amount × attributeRewardPointRatio</code> (por defecto la mitad, redondeando hacia abajo) como Puntos de Atributo, y el resto como el TP que esos puntos de estadística le costarían al jugador al reclamarla. Ese TP no se vuelve a potenciar ni se comparte con el grupo. El tooltip muestra el reparto. Consulta [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]].",
+  "outdated": false
+ },
+ "123": {
+  "source": "Grants Attribute Points only (placed by the player in the stats menu).",
+  "translation": "Otorga solo Puntos de Atributo (que el jugador reparte en el menú de estadísticas).",
+  "outdated": false
+ },
+ "124": {
+  "source": "Grants a fixed amount of training points (goes through the server's <code>STORY</code> TP boosts).",
+  "translation": "Otorga una cantidad fija de puntos de entrenamiento (pasa por los aumentos de TP <code>STORY</code> del servidor).",
+  "outdated": false
+ },
+ "125": {
+  "source": "Adjusts the player's alignment (can be negative). See [[Special:MyLanguage/Alignment|Alignment]].",
+  "translation": "Ajusta el alineamiento del jugador (puede ser negativo). Consulta [[Special:MyLanguage/Alignment|Alineamiento]].",
+  "outdated": false
+ },
+ "126": {
+  "source": "Raises a skill to at least this level.",
+  "translation": "Sube una habilidad hasta al menos este nivel.",
+  "outdated": false
+ },
+ "127": {
+  "source": "<code>formGroup</code>, <code>formName</code>, <code>mastery</code>* (default <code>100.0</code>), <code>stack</code>* (default <code>false</code>)",
+  "translation": "<code>formGroup</code>, <code>formName</code>, <code>mastery</code>* (por defecto <code>100.0</code>), <code>stack</code>* (por defecto <code>false</code>)",
+  "outdated": false
+ },
+ "128": {
+  "source": "Unlocks a form of the player's race (or a stack form if <code>stack</code> is <code>true</code>): levels the group's form skill up to that form and grants at least that much mastery. Forms listed in the form's <code>formRequisite</code> are raised to the mastery they require too. Aliases: <code>form_group</code> and <code>group</code>; <code>form_name</code> and <code>form</code>.",
+  "translation": "Desbloquea una forma de la raza del jugador (o una forma acumulable si <code>stack</code> es <code>true</code>): sube la habilidad de forma del grupo hasta esa forma y otorga al menos esa maestría. Las formas indicadas en el <code>formRequisite</code> de la forma también suben a la maestría que requieren. Alias: <code>form_group</code> y <code>group</code>; <code>form_name</code> y <code>form</code>.",
+  "outdated": false
+ },
+ "129": {
+  "source": "Grants a ki technique from an exported technique code (aliases: <code>techniqueCode</code> and <code>technique_code</code>). See [[Special:MyLanguage/Techniques|Techniques]].",
+  "translation": "Otorga una técnica de ki a partir de un código de técnica exportado (alias: <code>techniqueCode</code> y <code>technique_code</code>). Consulta [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ },
+ "130": {
+  "source": "Runs a command on the server (operator level), with <code>%player%</code> replaced by the player's name. <code>translationKey</code> is the text shown in the reward list instead of the command.",
+  "translation": "Ejecuta un comando en el servidor (nivel de operador), reemplazando <code>%player%</code> por el nombre del jugador. <code>translationKey</code> es el texto que se muestra en la lista de recompensas en lugar del comando.",
+  "outdated": false
+ },
+ "131": {
+  "source": "<code>TRANSFORMATION</code> and <code>SKILL</code> rewards act on the player's own race groups and skills. To give race- or class-specific rewards, put them in quests gated with a <code>RACE</code> or <code>CLASS</code> condition (see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerequisites and requirements]]).",
+  "translation": "Las recompensas <code>TRANSFORMATION</code> y <code>SKILL</code> actúan sobre los grupos de raza y las habilidades del propio jugador. Para dar recompensas específicas de una raza o clase, ponlas en misiones bloqueadas con una condición <code>RACE</code> o <code>CLASS</code> (consulta [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerrequisitos y requisitos]]).",
+  "outdated": false
+ },
+ "132": {
+  "source": "Source: <code>QuestParser.parseReward</code>, the classes under <code>common/quest/rewards/</code>, <code>Difficulty.java</code>.",
+  "translation": "Código fuente: <code>QuestParser.parseReward</code>, las clases de <code>common/quest/rewards/</code>, <code>Difficulty.java</code>.",
+  "outdated": false
+ },
+ "133": {
+  "source": "=== Restricting a reward by difficulty ===",
+  "translation": "=== Limitar una recompensa por dificultad ===",
+  "outdated": false
+ },
+ "134": {
+  "source": "The optional <code>difficulty</code> field of a reward is an '''allow-set''' of the difficulties this reward is granted on (aliases: <code>difficulties</code>, <code>difficultyType</code> and <code>minDifficulty</code>). It accepts a JSON array (<code>[\"NORMAL\",\"HARD\"]</code>), a string separated by commas or spaces (<code>\"NORMAL, HARD\"</code>) or a single value (<code>\"HARD\"</code>). Valid values are <code>EASY</code>, <code>NORMAL</code> and <code>HARD</code>. When it is left out or empty, the reward is granted on all difficulties.",
+  "translation": "El campo opcional <code>difficulty</code> de una recompensa es un '''conjunto permitido''' de las dificultades en las que se otorga esa recompensa (alias: <code>difficulties</code>, <code>difficultyType</code> y <code>minDifficulty</code>). Acepta un array JSON (<code>[\"NORMAL\",\"HARD\"]</code>), un texto separado por comas o espacios (<code>\"NORMAL, HARD\"</code>) o un solo valor (<code>\"HARD\"</code>). Los valores válidos son <code>EASY</code>, <code>NORMAL</code> y <code>HARD</code>. Si se omite o está vacío, la recompensa se otorga en todas las dificultades.",
+  "outdated": false
+ },
+ "135": {
+  "source": "This is a set membership check, '''not''' a minimum threshold: <code>\"EASY\"</code> alone means Easy only, and <code>[\"EASY\",\"HARD\"]</code> (skipping Normal) is valid. Unknown values are dropped.",
+  "translation": "Es una comprobación de pertenencia al conjunto, '''no''' un umbral mínimo: <code>\"EASY\"</code> por sí solo significa únicamente Fácil, y <code>[\"EASY\",\"HARD\"]</code> (saltándose Normal) es válido. Los valores desconocidos se descartan.",
+  "outdated": false
+ },
+ "136": {
+  "source": "Old files",
+  "translation": "Archivos antiguos",
+  "outdated": false
+ },
+ "137": {
+  "source": "Older quest files wrote the difficulty as a prefix on the type (<code>\"hard:ITEM\"</code>, <code>\"normal:ITEM\"</code>). Those files still load: <code>hard:</code> means Hard only and <code>normal:</code> means Easy and Normal, unless the reward also has a <code>difficulty</code> field. New files should use the <code>difficulty</code> field.",
+  "translation": "Los archivos de misiones antiguos escribían la dificultad como prefijo del tipo (<code>\"hard:ITEM\"</code>, <code>\"normal:ITEM\"</code>). Esos archivos se siguen cargando: <code>hard:</code> significa solo Difícil y <code>normal:</code> significa Fácil y Normal, salvo que la recompensa también tenga un campo <code>difficulty</code>. Los archivos nuevos deberían usar el campo <code>difficulty</code>.",
+  "outdated": false
+ },
+ "138": {
+  "source": "=== Reward scaling ===",
+  "translation": "=== Escalado de recompensas ===",
+  "outdated": false
+ },
+ "139": {
+  "source": "<code>ITEM</code>, <code>GENERIC_ITEM</code>, <code>TPS</code>, <code>ATTRIBUTES</code>, <code>ATTRIBUTE_POINTS</code> and <code>ALIGNMENT</code> amounts are scaled by the quest reward multiplier of the difficulty the quest was started on (<code>easyModeQuestRewardMultiplier</code> and <code>hardModeQuestRewardMultiplier</code> in <code>general-server.json</code>). <code>TPS</code>, <code>ATTRIBUTES</code> and <code>ATTRIBUTE_POINTS</code> rewards are also multiplied by <code>storyResetTPMultiplier</code> (default <code>0.5</code>) once per story reset. <code>SKILL</code>, <code>TRANSFORMATION</code>, <code>KI_TECHNIQUE</code> and <code>COMMAND</code> are unlock-type rewards and are never scaled.",
+  "translation": "Las cantidades de <code>ITEM</code>, <code>GENERIC_ITEM</code>, <code>TPS</code>, <code>ATTRIBUTES</code>, <code>ATTRIBUTE_POINTS</code> y <code>ALIGNMENT</code> se escalan con el multiplicador de recompensas de misiones de la dificultad con la que se inició la misión (<code>easyModeQuestRewardMultiplier</code> y <code>hardModeQuestRewardMultiplier</code> en <code>general-server.json</code>). Las recompensas <code>TPS</code>, <code>ATTRIBUTES</code> y <code>ATTRIBUTE_POINTS</code> también se multiplican por <code>storyResetTPMultiplier</code> (por defecto <code>0.5</code>) una vez por cada reinicio de la historia. <code>SKILL</code>, <code>TRANSFORMATION</code>, <code>KI_TECHNIQUE</code> y <code>COMMAND</code> son recompensas de desbloqueo y nunca se escalan.",
+  "outdated": false
+ },
+ "140": {
+  "source": "'''Rewards are per player.''' Every party member claims their own rewards when the quest is done (from the quest log, or from the turn-in NPC with <code>claim_mode: NPC_ONLY</code>).",
+  "translation": "'''Las recompensas son por jugador.''' Cada miembro del grupo reclama sus propias recompensas cuando se completa la misión (desde el registro de misiones, o desde el NPC de entrega con <code>claim_mode: NPC_ONLY</code>).",
+  "outdated": false
+ },
+ "141": {
+  "source": "=== Item objects ===",
+  "translation": "=== Objetos de ítem ===",
+  "outdated": false
+ },
+ "142": {
+  "source": "<code>GENERIC_ITEM</code> rewards (and <code>item_list_wish</code> wishes, see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]) describe items with a typed object. <code>itemType</code> picks the kind of item; <code>itemId</code> and <code>count</code> are always available.",
+  "translation": "Las recompensas <code>GENERIC_ITEM</code> (y los deseos <code>item_list_wish</code>, consulta [[Special:MyLanguage/Custom Wishes|Deseos personalizados]]) describen los objetos con un objeto tipado. <code>itemType</code> elige el tipo de objeto; <code>itemId</code> y <code>count</code> siempre están disponibles.",
+  "outdated": false
+ },
+ "143": {
+  "source": "Extra fields",
+  "translation": "Campos extra",
+  "outdated": false
+ },
+ "144": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "145": {
+  "source": "<code>generic_item</code> (default)",
+  "translation": "<code>generic_item</code> (por defecto)",
+  "outdated": false
+ },
+ "146": {
+  "source": "Any item.",
+  "translation": "Cualquier objeto.",
+  "outdated": false
+ },
+ "147": {
+  "source": "<code>enchantments</code> is a map of enchantment id to level, for example <code>{ \"minecraft:sharpness\": 3 }</code>.",
+  "translation": "<code>enchantments</code> es un mapa de id de encantamiento a nivel, por ejemplo <code>{ \"minecraft:sharpness\": 3 }</code>.",
+  "outdated": false
+ },
+ "148": {
+  "source": "Stored enchantments on an enchanted book (<code>itemId</code> <code>minecraft:enchanted_book</code>).",
+  "translation": "Encantamientos guardados en un libro encantado (<code>itemId</code> <code>minecraft:enchanted_book</code>).",
+  "outdated": false
+ },
+ "149": {
+  "source": "<code>potion</code> is a potion id (for example <code>minecraft:strong_healing</code>). <code>mobEffects</code> is a list of <code>{ \"effect\", \"duration\", \"amplifier\", \"ambient\", \"visible\", \"showIcon\" }</code> (duration in ticks, at least <code>1</code>). Set <code>itemId</code> to the matching vanilla item (<code>minecraft:potion</code>, <code>minecraft:splash_potion</code>, <code>minecraft:lingering_potion</code> or <code>minecraft:tipped_arrow</code>).",
+  "translation": "<code>potion</code> es un id de poción (por ejemplo <code>minecraft:strong_healing</code>). <code>mobEffects</code> es una lista de <code>{ \"effect\", \"duration\", \"amplifier\", \"ambient\", \"visible\", \"showIcon\" }</code> (duración en ticks, al menos <code>1</code>). Pon en <code>itemId</code> el objeto vanilla correspondiente (<code>minecraft:potion</code>, <code>minecraft:splash_potion</code>, <code>minecraft:lingering_potion</code> o <code>minecraft:tipped_arrow</code>).",
+  "outdated": false
+ },
+ "150": {
+  "source": "Armor with a trim, for example <code>\"material\": \"minecraft:gold\"</code> and <code>\"pattern\": \"minecraft:coast\"</code>.",
+  "translation": "Armadura con adorno, por ejemplo <code>\"material\": \"minecraft:gold\"</code> y <code>\"pattern\": \"minecraft:coast\"</code>.",
+  "outdated": false
+ },
+ "151": {
+  "source": "<code>itemId</code> is required and <code>count</code> must be at least <code>1</code>. An invalid item object (a missing <code>itemId</code>, an unknown <code>itemType</code>, a bad level or duration) makes the whole quest file fail to load, and the file is named in the JSON load report. Unknown enchantment, potion or effect ids only skip that entry, with a warning in the log.",
+  "translation": "<code>itemId</code> es obligatorio y <code>count</code> tiene que ser al menos <code>1</code>. Un objeto de ítem no válido (falta <code>itemId</code>, un <code>itemType</code> desconocido, un nivel o una duración incorrectos) hace que todo el archivo de la misión no se cargue, y el archivo aparece en el informe de carga del JSON. Los ids de encantamiento, poción o efecto desconocidos solo omiten esa entrada, con una advertencia en el log.",
+  "outdated": false
+ },
+ "152": {
+  "source": "Source: <code>src/main/java/com/dragonminez/common/util/types/items/</code>, <code>GenericItemTypeAdapterFactory.java</code>.",
+  "translation": "Código fuente: <code>src/main/java/com/dragonminez/common/util/types/items/</code>, <code>GenericItemTypeAdapterFactory.java</code>.",
+  "outdated": false
+ },
+ "153": {
+  "source": "== Prerequisites and requirements ==",
+  "translation": "== Prerrequisitos y requisitos ==",
+  "outdated": false
+ },
+ "154": {
+  "source": "Both <code>prerequisites</code> (can this quest ever be unlocked) and <code>requirements</code> (can it be started right now) use the same condition-tree schema:",
+  "translation": "Tanto <code>prerequisites</code> (si la misión se puede desbloquear alguna vez) como <code>requirements</code> (si se puede iniciar ahora mismo) usan el mismo esquema de árbol de condiciones:",
+  "outdated": false
+ },
+ "155": {
+  "source": "<code>operator</code> is <code>AND</code> or <code>OR</code>. <code>conditions</code> can nest another <code>{ \"operator\": ..., \"conditions\": [...] }</code> block.",
+  "translation": "<code>operator</code> es <code>AND</code> u <code>OR</code>. <code>conditions</code> puede anidar otro bloque <code>{ \"operator\": ..., \"conditions\": [...] }</code>.",
+  "outdated": false
+ },
+ "156": {
+  "source": "Fields",
+  "translation": "Campos",
+  "outdated": false
+ },
+ "157": {
+  "source": "<code>sagaId</code>, <code>questId</code> (int): a specific saga quest must be completed.",
+  "translation": "<code>sagaId</code>, <code>questId</code> (int): hay que completar una misión de saga concreta.",
+  "outdated": false
+ },
+ "158": {
+  "source": "<code>questId</code> (string): a specific side quest must be completed.",
+  "translation": "<code>questId</code> (string): hay que completar una misión secundaria concreta.",
+  "outdated": false
+ },
+ "159": {
+  "source": "<code>stat</code> (<code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code> or <code>ENE</code>), <code>minValue</code>",
+  "translation": "<code>stat</code> (<code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code> o <code>ENE</code>), <code>minValue</code>",
+  "outdated": false
+ },
+ "160": {
+  "source": "<code>race</code> (aliases: <code>raceName</code> and <code>race_name</code>): the player's race id, case-insensitive. Built-in ids: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>. '''Watch out:''' it is <code>frostdemon</code> (not <code>frieza</code> or <code>colddemon</code>) and <code>bioandroid</code> (not <code>android</code> or <code>cell</code>). Custom races use their folder name in <code>config/dragonminez/races/</code>.",
+  "translation": "<code>race</code> (alias: <code>raceName</code> y <code>race_name</code>): el id de la raza del jugador, sin distinguir mayúsculas y minúsculas. Ids incluidos: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>. '''Ojo:''' es <code>frostdemon</code> (no <code>frieza</code> ni <code>colddemon</code>) y <code>bioandroid</code> (no <code>android</code> ni <code>cell</code>). Las razas personalizadas usan el nombre de su carpeta en <code>config/dragonminez/races/</code>.",
+  "outdated": false
+ },
+ "161": {
+  "source": "<code>class</code> (aliases: <code>className</code>, <code>class_name</code> and <code>characterClass</code>): the player's class id, case-insensitive.",
+  "translation": "<code>class</code> (alias: <code>className</code>, <code>class_name</code> y <code>characterClass</code>): el id de la clase del jugador, sin distinguir mayúsculas y minúsculas.",
+  "outdated": false
+ },
+ "162": {
+  "source": "<code>skill</code>, <code>minLevel</code>* (aliases: <code>skillId</code> and <code>id</code>; <code>level</code> and <code>required</code>)",
+  "translation": "<code>skill</code>, <code>minLevel</code>* (alias: <code>skillId</code> y <code>id</code>; <code>level</code> y <code>required</code>)",
+  "outdated": false
+ },
+ "163": {
+  "source": "<code>structure</code>, <code>hint</code>* (<code>{ \"dimension\", \"x\", \"y\", \"z\" }</code>, all optional; it helps point the player towards the structure)",
+  "translation": "<code>structure</code>, <code>hint</code>* (<code>{ \"dimension\", \"x\", \"y\", \"z\" }</code>, todos opcionales; ayuda a guiar al jugador hacia la estructura)",
+  "outdated": false
+ },
+ "164": {
+  "source": "<code>mode</code> (<code>GAME_TIME</code> with <code>ticks</code>, or <code>REAL_TIME</code> with <code>milliseconds</code>): time elapsed since the quest became eligible.",
+  "translation": "<code>mode</code> (<code>GAME_TIME</code> con <code>ticks</code>, o <code>REAL_TIME</code> con <code>milliseconds</code>): tiempo transcurrido desde que la misión pasó a estar disponible.",
+  "outdated": false
+ },
+ "165": {
+  "source": "Source: <code>QuestParser.parseCondition</code>, <code>QuestPrerequisites.java</code>. The same condition blocks gate choices in [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]].",
+  "translation": "Código fuente: <code>QuestParser.parseCondition</code>, <code>QuestPrerequisites.java</code>. Los mismos bloques de condiciones controlan las opciones de los [[Special:MyLanguage/NPC Dialogue|Diálogos de NPCs]].",
+  "outdated": false
+ },
+ "166": {
+  "source": "== Side quests ==",
+  "translation": "== Misiones secundarias ==",
+  "outdated": false
+ },
+ "167": {
+  "source": "Side quests live anywhere under <code>dragonminez/sidequests/</code> (subfolders are scanned too) and use the '''same quest schema''' as saga quests, with a few practical differences:",
+  "translation": "Las misiones secundarias pueden estar en cualquier lugar dentro de <code>dragonminez/sidequests/</code> (también se revisan las subcarpetas) y usan el '''mismo esquema de misión''' que las misiones de saga, con algunas diferencias prácticas:",
+  "outdated": false
+ },
+ "168": {
+  "source": "* <code>\"id\"</code> is a '''string''' instead of a number (for example <code>\"bulma_gero_blueprints\"</code>).\n* <code>\"type\"</code> is <code>\"SIDEQUEST\"</code> (or <code>\"DAILY\"</code> or <code>\"EVENT\"</code>) instead of <code>\"SAGA\"</code>.\n* There is no enclosing saga folder or manifest: each file stands alone.\n* <code>quest_giver</code> and <code>turn_in</code> are used more heavily, since side quests are usually driven by NPCs.\n* <code>prerequisites</code> commonly reference <code>SAGA_QUEST</code> or <code>QUEST</code> conditions to gate a side quest behind story progress.",
+  "translation": "* <code>\"id\"</code> es un '''texto''' en lugar de un número (por ejemplo <code>\"bulma_gero_blueprints\"</code>).\n* <code>\"type\"</code> es <code>\"SIDEQUEST\"</code> (o <code>\"DAILY\"</code> o <code>\"EVENT\"</code>) en lugar de <code>\"SAGA\"</code>.\n* No hay carpeta de saga ni manifiesto que las agrupe: cada archivo es independiente.\n* <code>quest_giver</code> y <code>turn_in</code> se usan mucho más, ya que las misiones secundarias suelen depender de NPCs.\n* <code>prerequisites</code> suele usar condiciones <code>SAGA_QUEST</code> o <code>QUEST</code> para bloquear una misión secundaria hasta cierto progreso de la historia.",
+  "outdated": false
+ },
+ "169": {
+  "source": "Example (<code>dragonminez/sidequests/collection/bulma_gero_blueprints.json</code>):",
+  "translation": "Ejemplo (<code>dragonminez/sidequests/collection/bulma_gero_blueprints.json</code>):",
+  "outdated": false
+ },
+ "170": {
+  "source": "A repeatable errand, delivered to an NPC:",
+  "translation": "Un encargo repetible, que se entrega a un NPC:",
+  "outdated": false
+ },
+ "171": {
+  "source": "== Quest giver and turn-in NPCs ==",
+  "translation": "== NPCs que dan y reciben misiones ==",
+  "outdated": false
+ },
+ "172": {
+  "source": "<code>quest_giver</code> and <code>turn_in</code> reference an NPC by id: the same id used by quest NPC entities and by master and trainer NPCs (<code>TALK_TO</code> and <code>DELIVER</code> objectives use the same ids). DragonMineZ indexes quests by both fields, so an NPC can show \"available quest\" markers and accept turn-ins without any extra wiring on your end. Both fields are optional: leave them out or set them to <code>null</code> if the quest isn't tied to an NPC (for example a saga quest that is only about exploring or killing).",
+  "translation": "<code>quest_giver</code> y <code>turn_in</code> hacen referencia a un NPC por id: el mismo id que usan las entidades de NPCs de misiones y los NPCs maestros y entrenadores (los objetivos <code>TALK_TO</code> y <code>DELIVER</code> usan los mismos ids). DragonMineZ indexa las misiones por ambos campos, así que un NPC puede mostrar marcadores de \"misión disponible\" y aceptar entregas sin que tengas que conectar nada más. Ambos campos son opcionales: omítelos o ponlos en <code>null</code> si la misión no está ligada a un NPC (por ejemplo, una misión de saga que solo consiste en explorar o eliminar enemigos).",
+  "outdated": false
+ },
+ "173": {
+  "source": "Talking to the giver opens its dialogue, where the '''Quests''' option lists the quests it offers, the ones in progress and the ones ready to turn in, plus its '''locked''' quests: hovering one shows what is missing (for example the saga quest or side quest to complete first), and a completed <code>repeatable</code> quest shows a countdown until it can be taken again. Locked <code>secret</code> quests are not listed. The list is sorted by when each quest opens up in the story (saga order, then quest order, then level requirement), so an NPC's early quests come first.",
+  "translation": "Hablar con quien da la misión abre su diálogo, donde la opción '''Misiones''' lista las misiones que ofrece, las que están en curso y las que están listas para entregar, además de sus misiones '''bloqueadas''': al pasar el cursor sobre una se ve qué falta (por ejemplo, la misión de saga o la misión secundaria que hay que completar antes), y una misión <code>repeatable</code> completada muestra una cuenta atrás hasta que se pueda volver a tomar. Las misiones <code>secret</code> bloqueadas no aparecen. La lista se ordena según cuándo se abre cada misión en la historia (orden de saga, luego orden de misión, luego requisito de nivel), así que las primeras misiones de un NPC salen primero.",
+  "outdated": false
+ },
+ "174": {
+  "source": "If the giver is a master with an alignment requirement, its quests can only be started while the player's alignment fits, from any screen; quests already in progress can still be turned in. [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] need an alignment of '''61 or more''', and [[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]] '''40 or less'''. See [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Si quien da la misión es un maestro con requisito de alineamiento, sus misiones solo se pueden iniciar mientras el alineamiento del jugador cumpla, desde cualquier pantalla; las misiones ya en curso se pueden seguir entregando. [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|Kaiosama]], [[Special:MyLanguage/Old Kai|Kaioshin Anciano]], [[Special:MyLanguage/Master Roshi|Roshi]] y [[Special:MyLanguage/Krillin|Krilin]] necesitan un alineamiento de '''61 o más''', y [[Special:MyLanguage/Cell|Cell]] y [[Special:MyLanguage/Frieza|Freezer]] de '''40 o menos'''. Consulta [[Special:MyLanguage/Masters|Maestros]].",
+  "outdated": false
+ },
+ "175": {
+  "source": "== Unknown and misspelled keys ==",
+  "translation": "== Claves desconocidas o mal escritas ==",
+  "outdated": false
+ },
+ "176": {
+  "source": "Every quest, saga, objective, reward, prerequisite or requirement condition and structure hint is checked against an explicit allow-list of fields (<code>QuestParser.validate</code> and <code>validateSaga</code>). Any key that isn't recognized (a typo, the wrong casing, a leftover field from an old schema) is '''not''' silently dropped: it is logged and shown to players in the in-game JSON load report on login (controlled by <code>developer.reportJsonProblemsInChat</code>, on by default), as well as in the server console. The entry still loads with the rest of its valid fields; only the unrecognized key is flagged. Use this to catch typos (for example <code>CanTransfrom</code> instead of <code>canTransform</code>) instead of having a field silently do nothing. A file with broken JSON syntax is skipped and reported in the same way.",
+  "translation": "Cada misión, saga, objetivo, recompensa, condición de prerrequisito o requisito y pista de estructura se compara con una lista explícita de campos permitidos (<code>QuestParser.validate</code> y <code>validateSaga</code>). Cualquier clave que no se reconozca (una errata, mayúsculas incorrectas, un campo sobrante de un esquema antiguo) '''no''' se descarta sin avisar: se registra en el log y se muestra a los jugadores en el informe de carga del JSON del juego al conectarse (controlado por <code>developer.reportJsonProblemsInChat</code>, activado por defecto), además de en la consola del servidor. La entrada se sigue cargando con el resto de sus campos válidos; solo se señala la clave no reconocida. Úsalo para detectar erratas (por ejemplo <code>CanTransfrom</code> en lugar de <code>canTransform</code>) en lugar de tener un campo que no hace nada sin que te enteres. Un archivo con sintaxis JSON rota se omite y se reporta de la misma forma.",
+  "outdated": false
+ },
+ "177": {
+  "source": "Keys that start with <code>_</code>, <code>$</code> or <code>//</code> are treated as comments and never flagged, so you can leave notes for yourself directly in the JSON.",
+  "translation": "Las claves que empiezan por <code>_</code>, <code>$</code> o <code>//</code> se tratan como comentarios y nunca se señalan, así que puedes dejarte notas directamente en el JSON.",
+  "outdated": false
+ },
+ "178": {
+  "source": "== Custom objective and reward types ==",
+  "translation": "== Tipos de objetivos y recompensas personalizados ==",
+  "outdated": false
+ },
+ "179": {
+  "source": "Java add-ons can register their own objective and reward <code>type</code>s through <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code>. Once registered, they are written in quest JSON just like the built-in types. See [[Special:MyLanguage/Implementation and Events#Custom quest objectives and rewards|Implementation and Events]] and [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]].",
+  "translation": "Los addons en Java pueden registrar sus propios <code>type</code> de objetivos y recompensas mediante <code>QuestObjectiveRegistry</code> y <code>QuestRewardRegistry</code>. Una vez registrados, se escriben en el JSON de las misiones igual que los tipos incluidos. Consulta [[Special:MyLanguage/Implementation and Events#Custom quest objectives and rewards|Implementación y eventos]] y [[Special:MyLanguage/Creating a DMZ Addon|Crear un addon de DMZ]].",
+  "outdated": false
+ },
+ "180": {
+  "source": "== Default file upgrades ==",
+  "translation": "== Actualización de los archivos por defecto ==",
+  "outdated": false
+ },
+ "181": {
+  "source": "Every generated quest, saga and side quest file is stamped with a <code>defaultsVersion</code> field (a semver string, currently <code>\"2.2.0\"</code>). <code>QuestUpgrader</code> manages it automatically and uses it to run a three-way merge of your edits against DragonMineZ's shipped defaults whenever the built-in content changes:",
+  "translation": "Cada archivo de misión, saga y misión secundaria generado lleva un campo <code>defaultsVersion</code> (un texto semver, actualmente <code>\"2.2.0\"</code>). <code>QuestUpgrader</code> lo gestiona automáticamente y lo usa para hacer una combinación a tres bandas de tus cambios con los valores por defecto incluidos en DragonMineZ cada vez que cambia el contenido incluido:",
+  "outdated": false
+ },
+ "182": {
+  "source": "* A field you never changed takes the new default.\n* A field you changed keeps your value. If DragonMineZ also changed it, that is recorded as a conflict, and your value still wins.\n* Keys you added are kept.\n* When the merge changes something, the previous file is copied to <code><world>/dragonminez/oldBackup/</code> first.",
+  "translation": "* Un campo que nunca cambiaste toma el nuevo valor por defecto.\n* Un campo que cambiaste conserva tu valor. Si DragonMineZ también lo cambió, se registra como conflicto, y tu valor sigue ganando.\n* Las claves que añadiste se conservan.\n* Cuando la combinación cambia algo, antes se copia el archivo anterior a <code><world>/dragonminez/oldBackup/</code>.",
+  "outdated": false
+ },
+ "183": {
+  "source": "A summary is written to <code><world>/dragonminez/quest_update_report.txt</code> and shown in the JSON load report. Turn the whole system off with <code>autoUpdateQuests: false</code>. You don't need to set <code>defaultsVersion</code> on your own custom content. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for how upgrades are reported.",
+  "translation": "Se escribe un resumen en <code><world>/dragonminez/quest_update_report.txt</code> y se muestra en el informe de carga del JSON. Desactiva todo el sistema con <code>autoUpdateQuests: false</code>. No necesitas poner <code>defaultsVersion</code> en tu propio contenido personalizado. Consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]] para ver cómo se reportan las actualizaciones.",
+  "outdated": false
+ },
+ "184": {
+  "source": "== Translation keys ==",
+  "translation": "== Claves de traducción ==",
+  "outdated": false
+ },
+ "185": {
+  "source": "Follow the existing naming convention so your content matches the rest of the story:",
+  "translation": "Sigue la convención de nombres existente para que tu contenido encaje con el resto de la historia:",
+  "outdated": false
+ },
+ "186": {
+  "source": "* Saga name: <code>dmz.saga.<saga_id></code>\n* Saga quest title and description: <code>dmz.quest.<key>.name</code> / <code>dmz.quest.<key>.desc</code>\n* Side quest title and description: <code>dmz.sidequest.<key>.name</code> / <code>dmz.sidequest.<key>.desc</code>",
+  "translation": "* Nombre de la saga: <code>dmz.saga.<saga_id></code>\n* Título y descripción de una misión de saga: <code>dmz.quest.<key>.name</code> / <code>dmz.quest.<key>.desc</code>\n* Título y descripción de una misión secundaria: <code>dmz.sidequest.<key>.name</code> / <code>dmz.sidequest.<key>.desc</code>",
+  "outdated": false
+ },
+ "187": {
+  "source": "Add these keys to your <code>en_us.json</code> or to your own language file. Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].",
+  "translation": "Añade estas claves a tu <code>en_us.json</code> o a tu propio archivo de idioma. Las traducciones propias se combinan con las de Crowdin igual que en las [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|razas personalizadas]].",
+  "outdated": false
+ },
+ "188": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarga y validación ==",
+  "outdated": false
+ },
+ "189": {
+  "source": "# Save your saga, quest or side quest JSON in the world's <code>dragonminez/</code> folder.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run <code>/dmzreload story</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].\n# Open the quest log in game and check that your saga, quest or side quest appears with the right requirements, objectives and rewards.",
+  "translation": "# Guarda el JSON de tu saga, misión o misión secundaria en la carpeta <code>dragonminez/</code> del mundo.\n# Valida la sintaxis JSON (consulta [[Special:MyLanguage/How to JSON|Cómo usar JSON]]).\n# Ejecuta <code>/dmzreload story</code> (o <code>/dmzreload all</code>); consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]].\n# Abre el registro de misiones en el juego y comprueba que tu saga, misión o misión secundaria aparece con los requisitos, objetivos y recompensas correctos.",
+  "outdated": false
+ }
+}

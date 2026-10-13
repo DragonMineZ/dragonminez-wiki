@@ -1,0 +1,72 @@
+{
+ "Page_display_title": {
+  "source": "Tank",
+  "translation": "Tanque",
+  "outdated": false
+ },
+ "1": {
+  "source": "The wall: the best defense and vitality scaling, sustained through stamina.",
+  "translation": "A muralha: o melhor escalonamento de defesa e vitalidade, sustentado pela estâmina.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Fortress",
+  "translation": "Fortaleza",
+  "outdated": false
+ },
+ "3": {
+  "source": "Frontline defender; trains faster than average",
+  "translation": "Defensor da linha de frente; treina mais rápido que a média",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.384, STM 1.5",
+  "translation": "DEF 0.384, STM 1.5",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Tank''' is the wall among the [[Special:MyLanguage/Classes|classes]]. It has the best Defense scaling and a high Vitality scaling, its passive turns stamina regeneration into extra health regeneration, and it gains Training Points '''25%''' faster than average.",
+  "translation": "'''Tanque''' é a muralha entre as [[Special:MyLanguage/Classes|classes]]. Tem o melhor escalonamento de Defesa e um alto escalonamento de Vitalidade, sua passiva transforma a regeneração de estâmina em regeneração de vida extra, e ele ganha pontos de treino '''25%''' mais rápido que a média.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Fortress ==",
+  "translation": "== Passiva: Fortaleza ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* '''50%''' of your stamina regeneration is granted as bonus '''health regeneration''' (it is a bonus, not a conversion).\n* Healing you receive from passives or ally skills (not from eating) is '''+25%''' more effective.\n* Below '''30%''' health, both bonuses are '''doubled'''.",
+  "translation": "* '''50%''' da sua regeneração de estâmina é concedida como '''regeneração de vida''' bônus (é um bônus, não uma conversão).\n* A cura que você recebe de passivas ou de habilidades de aliados (não ao comer) é '''+25%''' mais eficaz.\n* Abaixo de '''30%''' de vida, os dois bônus são '''dobrados'''.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Atributos iniciais e regeneração ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Starting stats:''' RES 10 · VIT 10\n* '''Regeneration''' (per 5 seconds): health 2.25 (+0.075 per VIT) · Ki 5.0 (+0.10 per ENE) · stamina 9.0 (+0.03375 per VIT, +0.045 per RES)\n* '''TP gain ×1.25''': the Tank trains faster than average.",
+  "translation": "* '''Atributos iniciais:''' RES 10 · VIT 10\n* '''Regeneração''' (a cada 5 segundos): vida 2.25 (+0.075 por VIT) · Ki 5.0 (+0.10 por ENE) · estâmina 9.0 (+0.03375 por VIT, +0.045 por RES)\n* '''Ganho de TP ×1.25''': o Tanque treina mais rápido que a média.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalonamento de atributos ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The Tank's standout scalings are '''Defense''' (DEF 0.384, the highest of all classes) and '''Vitality''' (2.5). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "Os escalonamentos de destaque do Tanque são '''Defesa''' (DEF 0.384, o mais alto de todas as classes) e '''Vitalidade''' (2.5). Os valores de VIT e DEF crescem em curva conforme você investe mais, até 4 vezes a taxa inicial. Compare todas as classes na página [[Special:MyLanguage/Classes#Default stat scalings|Classes]].",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "The class id is <code>tank</code>. Its passive values are <code>stmToHpRegenRatio</code> (0.5), <code>healingBonus</code> (0.25), <code>lowHpThreshold</code> (0.30) and <code>lowHpMultiplier</code> (2.0), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings, regeneration and the TP gain multiplier.",
+  "translation": "O id da classe é <code>tank</code>. Os valores da passiva são <code>stmToHpRegenRatio</code> (0.5), <code>healingBonus</code> (0.25), <code>lowHpThreshold</code> (0.30) e <code>lowHpMultiplier</code> (2.0), definidos por raça em <code>races/&lt;race&gt;/stats.json</code> junto com os atributos iniciais, os escalonamentos, a regeneração e o multiplicador de ganho de TP.",
+  "outdated": false
+ }
+}

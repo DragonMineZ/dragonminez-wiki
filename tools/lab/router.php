@@ -21,6 +21,16 @@ if ( $uri !== '/' && is_file( $root . $uri ) ) {
 	return false;
 }
 
+$decoded = rawurldecode( $uri );
+if ( $decoded !== $uri && strpos( $decoded, '..' ) === false && is_file( $root . $decoded ) ) {
+	$types = [ 'png' => 'image/png', 'jpg' => 'image/jpeg', 'jpeg' => 'image/jpeg', 'gif' => 'image/gif', 'webp' => 'image/webp', 'svg' => 'image/svg+xml' ];
+	$ext = strtolower( pathinfo( $decoded, PATHINFO_EXTENSION ) );
+	header( 'Content-Type: ' . ( $types[$ext] ?? 'application/octet-stream' ) );
+	header( 'Content-Length: ' . filesize( $root . $decoded ) );
+	readfile( $root . $decoded );
+	return true;
+}
+
 $_SERVER['SCRIPT_NAME'] = '/index.php';
 $_SERVER['SCRIPT_FILENAME'] = "$root/index.php";
 $_SERVER['PHP_SELF'] = '/index.php';

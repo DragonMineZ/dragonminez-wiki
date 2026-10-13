@@ -1,0 +1,117 @@
+{
+ "Page_display_title": {
+  "source": "Security Policy",
+  "translation": "Política de seguridad",
+  "outdated": false
+ },
+ "1": {
+  "source": "The '''Security Policy''' explains how to report a security vulnerability in DragonMineZ and how the team handles it. The DragonMineZ team values the community's effort in disclosing vulnerabilities responsibly, takes security issues seriously and is committed to resolving them promptly to protect its users.",
+  "translation": "La '''Política de seguridad''' explica cómo reportar una vulnerabilidad de seguridad en DragonMineZ y cómo la gestiona el equipo. El equipo de DragonMineZ valora el esfuerzo de la comunidad por divulgar vulnerabilidades de forma responsable, se toma en serio los problemas de seguridad y se compromete a resolverlos cuanto antes para proteger a sus usuarios.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Reporting a vulnerability ==",
+  "translation": "== Reportar una vulnerabilidad ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "# '''Do not disclose it publicly.''' Sharing the details of a vulnerability before it is resolved could put users at risk.\n# '''Submit a report''' through the [https://github.com/DragonMineZ/DragonMineZ/security/advisories/new Report a Vulnerability] tab on GitHub. Alternatively, you can contact the team on Discord.\n# '''Include these details''' in your report:\n#* steps to reproduce the issue;\n#* affected versions;\n#* potential impact;\n#* any suggested fixes or mitigations, if available.",
+  "translation": "# '''No la divulgues públicamente.''' Compartir los detalles de una vulnerabilidad antes de que se resuelva podría poner en riesgo a los usuarios.\n# '''Envía un reporte''' desde la pestaña [https://github.com/DragonMineZ/DragonMineZ/security/advisories/new Report a Vulnerability] de GitHub. También puedes contactar al equipo en Discord.\n# '''Incluye estos datos''' en tu reporte:\n#* pasos para reproducir el problema;\n#* versiones afectadas;\n#* impacto potencial;\n#* cualquier corrección o mitigación que sugieras, si la tienes.",
+  "outdated": false
+ },
+ "4": {
+  "source": "=== What to expect ===",
+  "translation": "=== Qué esperar ===",
+  "outdated": false
+ },
+ "5": {
+  "source": "* The team acknowledges your report within '''48 to 72 hours'''.\n* The team investigates and gives you a plan of action within '''10 days''' or less.\n* You are kept updated throughout the process and credited for your discovery, unless you wish to remain anonymous.",
+  "translation": "* El equipo confirma la recepción de tu reporte en un plazo de '''48 a 72 horas'''.\n* El equipo investiga y te da un plan de acción en '''10 días''' o menos.\n* Se te mantiene al tanto durante todo el proceso y se te reconoce el hallazgo, a menos que prefieras quedar en el anonimato.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Fixes and notifications ==",
+  "translation": "== Correcciones y avisos ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "After verifying and fixing a security vulnerability, the team will:",
+  "translation": "Después de verificar y corregir una vulnerabilidad de seguridad, el equipo:",
+  "outdated": false
+ },
+ "8": {
+  "source": "* release a patch for the affected versions listed in the [[Special:MyLanguage/Security Policy#Supported versions|supported versions]] table;\n* publish a security advisory that summarizes the issue, its impact and how it was resolved;\n* notify the relevant parties as necessary.",
+  "translation": "* publica un parche para las versiones afectadas que aparecen en la tabla de [[Special:MyLanguage/Security Policy#Supported versions|versiones compatibles]];\n* publica un aviso de seguridad que resume el problema, su impacto y cómo se resolvió;\n* notifica a las partes involucradas cuando sea necesario.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Supported versions ==",
+  "translation": "== Versiones compatibles ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "These versions are actively supported with security updates:",
+  "translation": "Estas versiones reciben actualizaciones de seguridad de forma activa:",
+  "outdated": false
+ },
+ "11": {
+  "source": "Version",
+  "translation": "Versión",
+  "outdated": false
+ },
+ "12": {
+  "source": "Supported",
+  "translation": "Compatible",
+  "outdated": false
+ },
+ "13": {
+  "source": "2.x (latest)",
+  "translation": "2.x (última)",
+  "outdated": false
+ },
+ "14": {
+  "source": "Yes",
+  "translation": "Sí",
+  "outdated": false
+ },
+ "15": {
+  "source": "Older versions",
+  "translation": "Versiones anteriores",
+  "outdated": false
+ },
+ "16": {
+  "source": "No",
+  "translation": "No",
+  "outdated": false
+ },
+ "17": {
+  "source": "== Securing your server ==",
+  "translation": "== Proteger tu servidor ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "A few settings matter for keeping a DragonMineZ server safe:",
+  "translation": "Algunos ajustes son importantes para mantener seguro un servidor de DragonMineZ:",
+  "outdated": false
+ },
+ "19": {
+  "source": "* '''Database credentials:''' if you use the <code>DATABASE</code> storage backend, replace the default <code>username</code> and <code>password</code> (<code>root</code> / <code>password</code>) in the <code>storage</code> section of <code>general-server.json</code>, and give DragonMineZ its own database user with access to its own database only. See [[Special:MyLanguage/General Server Config|General Server Config]].\n* '''Permissions:''' DragonMineZ commands are protected by permission nodes. Only give admin-level nodes (stat editing, config reloads, quest management and so on) to trusted staff. See [[Special:MyLanguage/Permissions|Permissions]].\n* '''Backups:''' back up the world folder (and your database, if you use one) before switching storage backends or updating the mod. See [[Special:MyLanguage/Notice to Server Owners|Notice to Server Owners]].\n* '''Official downloads only:''' install DragonMineZ only from its official Modrinth and CurseForge pages.",
+  "translation": "* '''Credenciales de la base de datos:''' si usas el backend de almacenamiento <code>DATABASE</code>, cambia los valores por defecto de <code>username</code> y <code>password</code> (<code>root</code> / <code>password</code>) en la sección <code>storage</code> de <code>general-server.json</code>, y dale a DragonMineZ su propio usuario de base de datos con acceso solo a su propia base de datos. Consulta [[Special:MyLanguage/General Server Config|Configuración del servidor]].\n* '''Permisos:''' los comandos de DragonMineZ están protegidos por nodos de permisos. Da los nodos de nivel administrador (edición de estadísticas, recarga de configuración, gestión de misiones, etc.) solo al staff de confianza. Consulta [[Special:MyLanguage/Permissions|Permisos]].\n* '''Copias de seguridad:''' respalda la carpeta del mundo (y tu base de datos, si usas una) antes de cambiar de backend de almacenamiento o de actualizar el mod. Consulta [[Special:MyLanguage/Notice to Server Owners|Aviso para dueños de servidores]].\n* '''Solo descargas oficiales:''' instala DragonMineZ únicamente desde sus páginas oficiales de Modrinth y CurseForge.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== For add-on developers ==",
+  "translation": "== Para desarrolladores de addons ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Never trust values sent by the client in your own packets. Validate on the server anything that changes stats, unlocks, quests, wishes or progression (see [[Special:MyLanguage/Implementation and Events#Networking|Implementation and Events]]).",
+  "translation": "Nunca confíes en los valores que envía el cliente en tus propios paquetes de red. Valida en el servidor todo lo que cambie estadísticas, desbloqueos, misiones, deseos o progreso (consulta [[Special:MyLanguage/Implementation and Events#Networking|Implementación y eventos]]).",
+  "outdated": false
+ },
+ "22": {
+  "source": "Thank you for helping keep DragonMineZ secure.",
+  "translation": "Gracias por ayudar a mantener seguro DragonMineZ.",
+  "outdated": false
+ }
+}

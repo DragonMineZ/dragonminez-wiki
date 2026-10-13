@@ -1,47 +1,56 @@
 <translate>
+<!--T:1-->
 '''Ki Transfer''' lets you give your Ki to another player. Hold the keys while you look at them and a stream of Ki flows from your hands into their chest: their Ki bar refills and, after a moment, every giver also makes them stronger. Giving has a price: you slow down, you can't fight while you give, and you stay weaker for a while afterwards. Players can also pour their energy into a charging Spirit Bomb, and five Saiyans giving their Ki to a sixth can start the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]].
 </translate>
 
 <translate>
-== Giving Ki ==
+== Giving Ki == <!--T:2-->
 </translate>
 {{See also|Controls}}
 <translate>
+<!--T:3-->
 # Look at another player within '''8 blocks''', with nothing in the way.
 # Hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}}. The link starts and both of you get a message.
 # Keep holding the keys for as long as you want to give. Letting go of any of them ends the link.
 
+<!--T:4-->
 {{Key|Ctrl}} and {{Key|Alt}} are fixed and don't follow the Second Function key; {{Key|Right Mouse}} is Minecraft's '''Use''' key, so it follows your Use binding. After a link ends you wait '''2 seconds''' before you can start a new one.
 
+<!--T:5-->
 Several players can give to the same receiver at once, but you can only give to one player at a time. You can't give Ki while someone is giving Ki to you, you can't give to a player who is giving their own Ki away, and you can't start a link while you are stunned, knocked down or out of Ki.
 </translate>
 
 <translate>
-== What the giver pays ==
+== What the giver pays == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 * '''Ki.''' You send '''2.5%''' of your max Ki every second, and the receiver gets exactly what you send.
 * '''Focus.''' While you give, you walk and fly at '''40%''' speed and can't sprint. You can't attack, block, charge Ki, transform, use techniques or items, or use or break blocks, and your Ki doesn't regenerate.
 * '''Ki Exhaustion.''' Every '''3 seconds''' of giving lowers your STR, SKP, DEF and PWR by '''5%''', up to '''25%'''. The penalty stays while you keep giving, and after the link ends it lasts '''5 seconds''' for every 3 seconds you gave. The '''Ki Exhaustion''' effect shows it; its level is the size of the penalty (level I is 5%, level V is 25%).
 </translate>
 
 <translate>
-== What the receiver gets ==
+== What the receiver gets == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 * '''Ki.''' The Ki fills your bar. Anything beyond your max Ki is lost, unless you are charging a ki attack (see [[Special:MyLanguage/Ki Transfer#Feeding a charging attack|below]]).
 * '''Shared power.''' Once a giver has held the link for '''1 second''', your STR, SKP, DEF and PWR rise by '''5%''' for that giver, up to '''5''' givers ('''+25%'''). The '''Shared Ki''' effect shows it; its level is the number of givers boosting you.
 * '''Lingering bonus.''' When a giver stops, you keep their bonus for '''5 seconds''' for every 3 seconds they gave you.
 
+<!--T:10-->
 You can move and fight normally while you receive Ki.
 </translate>
 
 <translate>
-== When the link breaks ==
+== When the link breaks == <!--T:11-->
 </translate>
 <translate>
+<!--T:12-->
 The link ends, with a message to the giver, when:
 
+<!--T:13-->
 * the giver lets go of the keys or runs out of Ki;
 * the giver takes damage adding up to '''10%''' of their max health since the link started, or is stunned or knocked down;
 * the two players are more than '''32 blocks''' apart or in different dimensions;
@@ -49,20 +58,23 @@ The link ends, with a message to the giver, when:
 </translate>
 
 <translate>
-== Feeding a charging attack ==
+== Feeding a charging attack == <!--T:14-->
 </translate>
 {{See also|Techniques}}
 <translate>
+<!--T:15-->
 If the receiver is charging a ki attack, the Ki that doesn't fit in their bar is stored for that attack instead of being lost, up to one full Ki bar of the receiver. The attack spends the stored Ki before the receiver's own, so a team can keep a big attack charging and overcharging. Whatever is left is lost when the receiver stops charging.
 </translate>
 
 <translate>
-== Giving energy to a Spirit Bomb ==
+== Giving energy to a Spirit Bomb == <!--T:16-->
 </translate>
 {{See also|Ki Attacks}}
 <translate>
+<!--T:17-->
 When a player charges a '''Spirit Bomb''', everyone within '''64 blocks''' is asked for help: every 2.5 seconds a message and a chime tell nearby players who aren't already giving Ki or charging an attack of their own that the Spirit Bomb needs their strength.
 
+<!--T:18-->
 * To answer, hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} as usual. You don't have to look at the caster or even see them: if you aren't looking at another player, you link to the nearest player charging a Spirit Bomb within 64 blocks. You raise your hands and your energy flies up into the bomb.
 * While the receiver charges a Spirit Bomb, each giver sends '''10%''' of their max Ki every second instead of 2.5%.
 * The Ki makes the bomb '''grow''' instead of filling the caster's bar, up to 2.5 times the biggest size a ki attack can normally reach. Once it is that big, extra Ki fills the caster's bar as usual.
@@ -70,22 +82,25 @@ When a player charges a '''Spirit Bomb''', everyone within '''64 blocks''' is as
 * While someone is giving, the Spirit Bomb doesn't fire on its own when it reaches full charge: it keeps growing for as long as the caster holds the key.
 * A link made this way stretches to 64 blocks before it breaks (instead of 32), and ends when the bomb is thrown or the caster stops charging it.
 
+<!--T:19-->
 Everything else works as in a normal transfer: givers pay the same price (slowdown and Ki Exhaustion) and the caster gets the Shared Ki bonus.
 </translate>
 
 <translate>
-== The Super Saiyan God Ritual ==
+== The Super Saiyan God Ritual == <!--T:20-->
 </translate>
 {{Main|Super Saiyan God Ritual}}
 <translate>
+<!--T:21-->
 When five pure-hearted [[Special:MyLanguage/Saiyan|Saiyans]] in Super Saiyan give their Ki to a sixth Saiyan in SSJ Mastered, the transfer turns into a ritual that grants the '''Super Saiyan God''' form.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:22-->
 </translate>
 {{Config|General Server Config|kiTransfer}}
 <translate>
+<!--T:23-->
 All values on this page are defaults. Server owners can change the transfer rate, the bonus and the penalty, the ranges and the timings, or switch Ki Transfer off.
 </translate>
 

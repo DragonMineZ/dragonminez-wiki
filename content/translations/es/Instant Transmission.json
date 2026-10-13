@@ -1,0 +1,122 @@
+{
+ "Page_display_title": {
+  "source": "Instant Transmission",
+  "translation": "Teletransportación Instantánea",
+  "outdated": false
+ },
+ "1": {
+  "source": "Lock onto someone's ki and appear right next to them.",
+  "translation": "Fija el ki de alguien y aparece justo a su lado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Movement and utility",
+  "translation": "Movimiento y utilidad",
+  "outdated": false
+ },
+ "3": {
+  "source": "600 to 4,000 TP per level",
+  "translation": "De 600 a 4,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "Teleport behind a target. From level 5, warp to masters, party members and other players.",
+  "translation": "Teletranspórtate detrás de un objetivo. Desde el nivel 5, viaja hasta maestros, miembros del grupo y otros jugadores.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Instant Transmission''' lets you teleport by locking onto ki. A quick tap of the key puts you right behind the target you are looking at, which makes it a combat tool as much as a travel one. From level 5 you can also hold the key to warp to masters, party members and other players far away.",
+  "translation": "La '''Teletransportación Instantánea''' te permite teletransportarte fijando un ki. Un toque rápido de la tecla te coloca justo detrás del objetivo al que miras, lo que la convierte tanto en una herramienta de combate como de viaje. Desde el nivel 5 también puedes mantener pulsada la tecla para viajar hasta maestros, miembros del grupo y otros jugadores que estén lejos.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Goku|Goku]] (Good alignment) and [[Special:MyLanguage/Cell|Cell]] (Evil alignment) teach Instant Transmission.",
+  "translation": "[[Special:MyLanguage/Goku|Goku]] (alineamiento Bueno) y [[Special:MyLanguage/Cell|Cell]] (alineamiento Maligno) enseñan la Teletransportación Instantánea.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "Tap range (blocks)",
+  "translation": "Alcance al tocar (bloques)",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Tap: teleport behind a target ==",
+  "translation": "== Toque: teletransporte detrás de un objetivo ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "'''Tap''' {{Key|H}} to teleport behind the target you are looking at, within '''25 blocks + 10 per level'''. The target has to be in your line of sight and close to your crosshair; your locked-on target is used when you have one. If several beings are near your crosshair, the one you hit in the last few seconds is chosen first, otherwise the strongest one.",
+  "translation": "'''Toca''' {{Key|H}} para teletransportarte detrás del objetivo al que miras, a una distancia de hasta '''25 bloques + 10 por nivel'''. El objetivo tiene que estar en tu línea de visión y cerca de tu mira; si tienes un objetivo fijado, se usa ese. Si hay varios seres cerca de tu mira, se elige primero al que golpeaste en los últimos segundos y, si no, al más fuerte.",
+  "outdated": false
+ },
+ "13": {
+  "source": "The jump costs Ki (more the farther you go) and shares the '''dash cooldown''' (4 seconds by default), so you can't dash right after it.",
+  "translation": "El salto cuesta Ki (más cuanto más lejos vayas) y comparte el '''tiempo de recarga del dash''' (4 segundos por defecto), así que no puedes hacer un dash justo después.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Hold: the Instant Transmission menu ==",
+  "translation": "== Mantener: el menú de Teletransportación Instantánea ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "From '''level 5''', '''hold''' {{Key|H}} for half a second to open the Instant Transmission menu and pick a destination:",
+  "translation": "Desde el '''nivel 5''', '''mantén pulsada''' {{Key|H}} medio segundo para abrir el menú de Teletransportación Instantánea y elegir un destino:",
+  "outdated": false
+ },
+ "16": {
+  "source": "* any [[Special:MyLanguage/Masters|master]] whose Ki you have learned, by talking to them at least once;\n* your '''party members''';\n* other players within '''200 blocks per level''' whose Battle Power is close to yours (between 90% and 125% of it).",
+  "translation": "* cualquier [[Special:MyLanguage/Masters|maestro]] cuyo Ki hayas aprendido hablando con él al menos una vez;\n* los '''miembros de tu grupo''';\n* otros jugadores a '''200 bloques por nivel''' o menos cuyo Poder de Combate sea parecido al tuyo (entre el 90% y el 125% del tuyo).",
+  "outdated": false
+ },
+ "17": {
+  "source": "From '''level 10''', masters and party members in other dimensions can be reached too. After a warp to a master or a player, Instant Transmission has a 30-second cooldown by default.",
+  "translation": "Desde el '''nivel 10''' también puedes llegar a maestros y miembros del grupo que estén en otras dimensiones. Tras viajar hasta un maestro o un jugador, la Teletransportación Instantánea tiene un tiempo de recarga de 30 segundos por defecto.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Who can't be reached ==",
+  "translation": "== A quién no se puede alcanzar ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* Upgraded [[Special:MyLanguage/Android|Androids]].\n* A [[Special:MyLanguage/Glind|Glind]], whose Divine Ki hides them, unless you are a Glind too, have unlocked a God Form or are under Kami's Blessing.\n* A player in a God Form, unless you have godly ki yourself (an unlocked God Form, an active God Form or Divine Ki).\n* A player wearing the [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]] (reward of Bulma's Cloaking Device sidequest).",
+  "translation": "* Los [[Special:MyLanguage/Android|Androides]] mejorados.\n* Un [[Special:MyLanguage/Glind|Glind]], al que su Ki Divino oculta, salvo que tú también seas Glind, hayas desbloqueado una Forma Divina o estés bajo la Bendición de Kami.\n* Un jugador en una Forma Divina, salvo que tú mismo tengas ki divino (una Forma Divina desbloqueada, una Forma Divina activa o Ki Divino).\n* Un jugador que lleve el [[Special:MyLanguage/Anti-Ki Cloaking Device|Dispositivo de Camuflaje Anti-Ki]] (recompensa de la misión secundaria Dispositivo de Camuflaje de Bulma).",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Party TP sharing ==",
+  "translation": "== TP compartidos en grupo ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Party members only receive their share of the Training Points you earn if you know Instant Transmission: they must be in the same dimension and within its range, '''200 blocks per skill level'''. See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "Los miembros del grupo solo reciben su parte de los Puntos de entrenamiento que ganas si conoces la Teletransportación Instantánea: deben estar en la misma dimensión y dentro de su alcance, '''200 bloques por nivel de la habilidad'''. Consulta [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento y maestría]].",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "* While you ride a [[Special:MyLanguage/Space Pod|Space Pod]], {{Key|H}} opens the Space Pod menu instead.\n* Before v2.2, [[Special:MyLanguage/Frieza|Frieza]] taught Instant Transmission; it moved to Cell.",
+  "translation": "* Mientras viajas en una [[Special:MyLanguage/Space Pod|Cápsula Espacial]], {{Key|H}} abre en su lugar el Menú de Cápsula Espacial.\n* Antes de la v2.2, [[Special:MyLanguage/Frieza|Freezer]] enseñaba la Teletransportación Instantánea; ahora la enseña Cell.",
+  "outdated": false
+ }
+}

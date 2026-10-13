@@ -1,39 +1,44 @@
 <translate>
+<!--T:1-->
 '''Developer Scope and Prerequisites''' explains who the modding and add-on pages are written for, the two ways to extend DragonMineZ, and the folders and tools you need before you start. Run DragonMineZ once first, so that its config files exist.
 </translate>
 
 <translate>
-== Intended audience ==
+== Intended audience == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 The modding and add-on pages are written for:
 </translate>
 <translate>
+<!--T:4-->
 * People who can edit JSON and resource pack assets.
 * People who can run Minecraft Forge development environments.
 * People who want to contribute DMZ-compatible content.
 </translate>
 <translate>
+<!--T:5-->
 They don't cover general player walkthroughs, lore or survival progression. For those, start with the [[Special:MyLanguage/Beginner's Guide|Beginner's Guide]].
 </translate>
 
 <translate>
-== Two ways to extend DMZ ==
+== Two ways to extend DMZ == <!--T:6-->
 </translate>
 
 {| class="wikitable"
-! <translate>Approach</translate> !! <translate>What you need</translate> !! <translate>Where to start</translate>
+! <translate><!--T:7--> Approach</translate> !! <translate><!--T:8--> What you need</translate> !! <translate><!--T:9--> Where to start</translate>
 |-
-| <translate>'''Data add-ons''' (configs, races, forms, quests, wishes, Dragon Ball packs, resource packs)</translate> || <translate>A text editor and a DMZ instance</translate> || <translate>This page, then the JSON pages linked below and in [[Special:MyLanguage/Modding|Modding]]</translate>
+| <translate><!--T:10--> '''Data add-ons''' (configs, races, forms, quests, wishes, Dragon Ball packs, resource packs)</translate> || <translate><!--T:11--> A text editor and a DMZ instance</translate> || <translate><!--T:12--> This page, then the JSON pages linked below and in [[Special:MyLanguage/Modding|Modding]]</translate>
 |-
-| <translate>'''Code add-ons''' (your own Forge mod that hooks DMZ events and APIs)</translate> || <translate>A Forge 1.20.1 development environment</translate> || {{L|Add-on Getting Started}}
+| <translate><!--T:13--> '''Code add-ons''' (your own Forge mod that hooks DMZ events and APIs)</translate> || <translate><!--T:14--> A Forge 1.20.1 development environment</translate> || {{L|Add-on Getting Started}}
 |}
 
 <translate>
-== Baseline setup ==
+== Baseline setup == <!--T:15-->
 </translate>
 {{See also|Configuration|General Server Config|General User Config|Entities Config}}
 <translate>
+<!--T:16-->
 # Run DMZ once so the config files are generated.
 # Use <code>config/dragonminez</code> as the config root of your local development instances.
 # Race configuration lives in <code>config/dragonminez/races/<race_name>/</code> (<code>character.json</code>, <code>stats.json</code> and a <code>forms/</code> folder). See [[Special:MyLanguage/Custom Races|Custom Races]].
@@ -47,69 +52,79 @@ They don't cover general player walkthroughs, lore or survival progression. For 
 </translate>
 
 <translate>
+<!--T:17-->
 Every config file except <code>general-user.json</code> and <code>hud_layout.json</code> is sent from the server to each client on login, so clients always use the server's values.
 </translate>
 
 <translate>
+<!--T:18-->
 Outdated or broken config files are not silently thrown away: DMZ moves the old file into <code>config/dragonminez/oldBackup/</code> (same relative path) and merges your edits into the new defaults. See [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].
 </translate>
 
 <translate>
-=== World save data ===
+=== World save data === <!--T:19-->
 </translate>
 <translate>
+<!--T:20-->
 Some systems live inside the world folder instead of <code>config/</code>:
 </translate>
 
 {| class="wikitable"
-! <translate>Folder</translate> !! <translate>Contents</translate> !! <translate>Page</translate>
+! <translate><!--T:21--> Folder</translate> !! <translate><!--T:22--> Contents</translate> !! <translate><!--T:23--> Page</translate>
 |-
-| <code><world>/dragonminez/sagas/</code>, <code>quests/</code>, <code>sidequests/</code> || <translate>Story sagas, saga quests and side quests</translate> || {{L|Custom Quests}}
+| <code><world>/dragonminez/sagas/</code>, <code>quests/</code>, <code>sidequests/</code> || <translate><!--T:24--> Story sagas, saga quests and side quests</translate> || {{L|Custom Quests}}
 |-
-| <code><world>/dragonminez/wishes/</code> || <translate>Per-world wish overrides (one file per dragon)</translate> || {{L|Custom Wishes}}
+| <code><world>/dragonminez/wishes/</code> || <translate><!--T:25--> Per-world wish overrides (one file per dragon)</translate> || {{L|Custom Wishes}}
 |-
-| <code><world>/dragonminez/dialogues/</code> || <translate>NPC dialogue files</translate> || {{L|NPC Dialogue}}
+| <code><world>/dragonminez/dialogues/</code> || <translate><!--T:26--> NPC dialogue files</translate> || {{L|NPC Dialogue}}
 |-
-| <code><world>/dragonminez/npcs/</code> || <translate>NPC placements (<code>placements.json</code>) and alignment rules (<code>alignment_rules.json</code>)</translate> || {{L|NPC Placement and Alignment}}
+| <code><world>/dragonminez/npcs/</code> || <translate><!--T:27--> NPC placements (<code>placements.json</code>) and alignment rules (<code>alignment_rules.json</code>)</translate> || {{L|NPC Placement and Alignment}}
 |-
-| <code><world>/dragonminez/playerdata_json/</code> || <translate>Player data when the <code>JSON</code> storage backend is selected</translate> || {{L|General Server Config}}
+| <code><world>/dragonminez/playerdata_json/</code> || <translate><!--T:28--> Player data when the <code>JSON</code> storage backend is selected</translate> || {{L|General Server Config}}
 |}
 
 <translate>
+<!--T:29-->
 Dragon Ball add-on packs (folders or <code>.zip</code> files) go in the <code>dragonballs</code> folder of the game directory; see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]. Not sure where a folder is on your machine? See [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]].
 </translate>
 
 <translate>
-== Reload workflow ==
+== Reload workflow == <!--T:30-->
 </translate>
 <translate>
+<!--T:31-->
 After changing JSON config files, you can reload them in game with <code>/dmzreload [all|config|story|wishes]</code> (no argument means <code>all</code>). The command's source is <code>src/main/java/com/dragonminez/server/commands/ReloadCommand.java</code>. See [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for what each section reloads.
 </translate>
 
 <translate>
+<!--T:32-->
 Resource pack changes (models and textures) normally need a resource reload or a restart.
 </translate>
 
 <translate>
-=== Finding JSON mistakes ===
+=== Finding JSON mistakes === <!--T:33-->
 </translate>
 {{Config|General Server Config|developer.reportJsonProblemsInChat}}
 <translate>
+<!--T:34-->
 When a config, quest or wish file fails to load, DMZ records the file, the line and column, and the JSON path of the problem. The report is printed to the server log and shown in chat to players when they log in. Server owners can turn the chat message off with <code>developer.reportJsonProblemsInChat = false</code> in <code>general-server.json</code>.
 </translate>
 
 <translate>
-== Translations ==
+== Translations == <!--T:35-->
 </translate>
 <translate>
+<!--T:36-->
 All in-game text uses translation keys. The English source file is <code>assets/dragonminez/lang/en_us.json</code>; community translations are managed on Crowdin (see [[Special:MyLanguage/Contributing|Contributing]]).
 </translate>
 
 <translate>
+<!--T:37-->
 DragonMineZ automatically downloads the latest Crowdin translation for the game language you selected (every language except <code>en_us</code>), so translation fixes reach players without a mod update. To turn this off (for example, to test your own language file), start the game with the JVM argument <code>-Ddmz.crowdin.enabled=false</code>.
 </translate>
 
 <translate>
+<!--T:38-->
 When a translation key is missing, some DMZ screens fall back to a readable version of the id (for example, quest texts and form names are turned into title-cased words). For proper names and other languages, ship your own keys in a resource pack under <code>assets/<namespace>/lang/<locale>.json</code> and use those keys in your JSON (for example, a form's name uses <code>race.dragonminez.<race>.form.<group>.<form></code>).
 </translate>
 

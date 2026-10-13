@@ -1,0 +1,507 @@
+{
+ "Page_display_title": {
+  "source": "Beginner's Guide",
+  "translation": "Guía para empezar",
+  "outdated": false
+ },
+ "1": {
+  "source": "New to DragonMineZ? This guide walks you from your first login to your first transformation, one step at a time: create your character, learn the HUD and the controls, meet your first master, start the story, earn Training Points, learn to fight and fly, and finally transform. Each step links to the page that covers it in full, so you can dig deeper whenever you want.",
+  "translation": "¿Eres nuevo en DragonMineZ? Esta guía te lleva desde tu primera conexión hasta tu primera transformación, paso a paso: crea tu personaje, aprende el HUD y los controles, conoce a tu primer maestro, empieza la historia, gana Puntos de Entrenamiento, aprende a pelear y a volar y, por último, transfórmate. Cada paso enlaza a la página que lo explica a fondo, para que profundices cuando quieras.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Step 1: create your character ==",
+  "translation": "== Paso 1: crea tu personaje ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "When you join a world without a character, the creation screen opens by itself. If it doesn't, press {{Key|V}}: until you create one, the HUD reminds you with \"Press [V] to begin your adventure!\". A short interactive tutorial explains every screen the first time you see it.",
+  "translation": "Cuando entras a un mundo sin personaje, la pantalla de creación se abre sola. Si no se abre, presiona {{Key|V}}: hasta que crees uno, el HUD te lo recuerda con \"¡Presiona [V] para comenzar tu aventura!\". Un breve tutorial interactivo explica cada pantalla la primera vez que la ves.",
+  "outdated": false
+ },
+ "4": {
+  "source": "'''Pick a race.''' A carousel shows the seven races: [[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]. The right panel lists each race's [[Special:MyLanguage/Racial Skills|racial skills]], and every race has its own line of [[Special:MyLanguage/Transformations|transformations]].",
+  "translation": "'''Elige una raza.''' Un carrusel muestra las siete razas: [[Special:MyLanguage/Human|Humano]], [[Special:MyLanguage/Saiyan|Saiyajin]], [[Special:MyLanguage/Namekian|Namekiano]], [[Special:MyLanguage/Frost Demon|Demonio del Frío]], [[Special:MyLanguage/Bio-Android|Bio-Androide]], [[Special:MyLanguage/Majin|Majin]] y [[Special:MyLanguage/Glind|Glind]]. El panel derecho muestra las [[Special:MyLanguage/Racial Skills|habilidades raciales]] de cada raza, y cada raza tiene su propia línea de [[Special:MyLanguage/Transformations|transformaciones]].",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Design your look.''' The tabs cover your body, hair, eyes, face and tattoo. A pair of arrows lets you preview how you will look in each of your race's transformations.",
+  "translation": "'''Diseña tu apariencia.''' Las pestañas abarcan tu cuerpo, pelo, ojos, cara y tatuaje. Un par de flechas te permite ver cómo te verás en cada una de las transformaciones de tu raza.",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Pick a class.''' The [[Special:MyLanguage/Classes|class]] decides your starting stats, how efficiently each stat grows and a unique passive. All eight classes are available to every race, and the panel shows each class's stats and passive before you choose.",
+  "translation": "'''Elige una clase.''' La [[Special:MyLanguage/Classes|clase]] decide tus estadísticas iniciales, qué tan eficientemente crece cada estadística y una pasiva única. Las ocho clases están disponibles para todas las razas, y el panel muestra las estadísticas y la pasiva de cada clase antes de que elijas.",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Choose your aura''' (2D, 3D Smooth or 3D Sparking; Glinds also get 3D God) and its color, then press '''Confirm'''.",
+  "translation": "'''Elige tu aura''' (2D, 3D Smooth o 3D Sparking; los Glind también tienen 3D God) y su color, y luego presiona '''Confirmar'''.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Choose your race carefully. The '''Re-Customize''' wish lets you change your looks and your class later, but not your race: picking another race means a full character reset (such as Dende's '''Reset Stats''' service), which wipes your progress. The one exception is a Human, who can become an [[Special:MyLanguage/Android|Android]] through Dr. Gero.",
+  "translation": "Elige tu raza con cuidado. El deseo '''Personalizar Personaje de Nuevo''' te permite cambiar tu apariencia y tu clase más adelante, pero no tu raza: elegir otra raza implica reiniciar el personaje por completo (como con el servicio '''Reiniciar Stats''' de Dendé), lo que borra tu progreso. La única excepción es el Humano, que puede convertirse en [[Special:MyLanguage/Android|Androide]] gracias al Dr. Gero.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Step 2: learn your screen and controls ==",
+  "translation": "== Paso 2: conoce tu pantalla y tus controles ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Right after you confirm, a short HUD tour shows you your bars: '''Health''', '''Ki''' (the energy you spend on ki attacks and transformations), '''Stamina''' (spent on sprinting, blocking, flying and melee) and '''Power Release'''. Quest notices and your tracked quest appear in the notifications stack in the top-right corner. You can move, resize or restyle every part of the HUD from the Character Menu → '''Config''' → '''Interface''' → '''HUD Layout'''.",
+  "translation": "Justo después de confirmar, un breve recorrido por el HUD te muestra tus barras: '''Vida''', '''Ki''' (la energía que gastas en ataques de ki y transformaciones), '''Stamina''' (se gasta al correr, bloquear, volar y pelear cuerpo a cuerpo) y '''Liberación de Poder'''. Los avisos de misiones y tu misión rastreada aparecen en la pila de notificaciones de la esquina superior derecha. Puedes mover, redimensionar o cambiar el estilo de cada parte del HUD desde el Menú de personaje → '''Configuración''' → '''Interfaz''' → '''Diseño del HUD'''.",
+  "outdated": false
+ },
+ "11": {
+  "source": "These are the keys you will use all the time:",
+  "translation": "Estas son las teclas que usarás todo el tiempo:",
+  "outdated": false
+ },
+ "12": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "13": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "14": {
+  "source": "Character Menu: stats, party, skills, quests, minigames and settings.",
+  "translation": "Menú de personaje: estadísticas, grupo, habilidades, misiones, minijuegos y ajustes.",
+  "outdated": false
+ },
+ "15": {
+  "source": "{{Key|X}} (hold)",
+  "translation": "{{Key|X}} (mantener)",
+  "outdated": false
+ },
+ "16": {
+  "source": "Utility Menu: pick a transformation, a stack form or a racial skill.",
+  "translation": "Menú de utilidades: elige una transformación, una forma acumulable o una habilidad racial.",
+  "outdated": false
+ },
+ "17": {
+  "source": "{{Key|C}} (hold)",
+  "translation": "{{Key|C}} (mantener)",
+  "outdated": false
+ },
+ "18": {
+  "source": "Charge ki to raise your Power Release.",
+  "translation": "Carga ki para subir tu Liberación de Poder.",
+  "outdated": false
+ },
+ "19": {
+  "source": "{{Key|G}} (hold)",
+  "translation": "{{Key|G}} (mantener)",
+  "outdated": false
+ },
+ "20": {
+  "source": "Use the action selected in the Utility Menu, for example to transform.",
+  "translation": "Usa la acción seleccionada en el Menú de utilidades, por ejemplo para transformarte.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Block (with empty hands).",
+  "translation": "Bloquear (con las manos vacías).",
+  "outdated": false
+ },
+ "22": {
+  "source": "Dash.",
+  "translation": "Dash.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Lock on to a target.",
+  "translation": "Fijar un objetivo.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Fire the techniques in slots 1–4 ({{Key|Ctrl}} + 1–4 for slots 5–8).",
+  "translation": "Lanza las técnicas de las ranuras 1–4 ({{Key|Ctrl}} + 1–4 para las ranuras 5–8).",
+  "outdated": false
+ },
+ "25": {
+  "source": "Fly (once you know the Fly skill).",
+  "translation": "Volar (cuando ya conoces la habilidad Vuelo).",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Step 3: understand your stats ==",
+  "translation": "== Paso 3: entiende tus estadísticas ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Your character has six attributes. Open the '''Stats''' tab of the Character Menu and click an attribute to spend [[Special:MyLanguage/Training Points and Mastery|Training Points (TP)]] on it; the '''TPC''' box shows what the next point costs.",
+  "translation": "Tu personaje tiene seis atributos. Abre la pestaña '''Estadísticas''' del Menú de personaje y haz clic en un atributo para gastar [[Special:MyLanguage/Training Points and Mastery|Puntos de Entrenamiento (TP)]] en él; el recuadro '''TPs''' muestra cuánto cuesta el siguiente punto.",
+  "outdated": false
+ },
+ "28": {
+  "source": "'''Strength (STR)''': melee damage.",
+  "translation": "'''Fuerza (STR)''': daño cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Strike Power (SKP)''': strike attack damage.",
+  "translation": "'''Super Golpes (SKP)''': daño de los Super Golpes.",
+  "outdated": false
+ },
+ "30": {
+  "source": "'''Ki Power (PWR)''': ki blast and energy-wave damage.",
+  "translation": "'''Poder de Ki (PWR)''': daño de las ráfagas de ki y las ondas de energía.",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Resistance (RES)''': defense, stamina, poise and speed.",
+  "translation": "'''Resistencia (RES)''': defensa, stamina, estabilidad y velocidad.",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''Vitality (VIT)''': max health and health regeneration.",
+  "translation": "'''Vitalidad (VIT)''': vida máxima y regeneración de vida.",
+  "outdated": false
+ },
+ "33": {
+  "source": "'''Energy (ENE)''': your Ki pool and Ki regeneration.",
+  "translation": "'''Energía (ENE)''': tu reserva de Ki y la regeneración de Ki.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Your '''Power Release''' multiplies your damage, your defense, your speed and your Battle Power, so hold {{Key|C}} to charge before and during a fight. Your maximum release starts at 50%; the [[Special:MyLanguage/Potential Unlock|Potential Unlock]] skill raises it by 5% per level.",
+  "translation": "Tu '''Liberación de Poder''' multiplica tu daño, tu defensa, tu velocidad y tu Poder de Combate, así que mantén {{Key|C}} para cargar antes y durante una pelea. Tu liberación máxima empieza en 50%; la habilidad [[Special:MyLanguage/Potential Unlock|Potencial liberado]] la sube un 5% por nivel.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== Step 4: find your first master ==",
+  "translation": "== Paso 4: encuentra a tu primer maestro ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "[[Special:MyLanguage/Masters|Masters]] are the NPCs who teach you [[Special:MyLanguage/Skills|skills]] and [[Special:MyLanguage/Techniques|techniques]] in exchange for TP. The first thing to learn is [[Special:MyLanguage/Ki Control|Ki Control]]: every master teaches it, and without it you can't charge or use ki and strike techniques.",
+  "translation": "Los [[Special:MyLanguage/Masters|maestros]] son los NPCs que te enseñan [[Special:MyLanguage/Skills|habilidades]] y [[Special:MyLanguage/Techniques|técnicas]] a cambio de TP. Lo primero que debes aprender es [[Special:MyLanguage/Ki Control|Control de Ki]]: todos los maestros lo enseñan, y sin él no puedes cargar ni usar técnicas de ki ni de golpe.",
+  "outdated": false
+ },
+ "37": {
+  "source": "Most masters live in landmark [[Special:MyLanguage/Structures|structures]] on [[Special:MyLanguage/Earth|Earth]]:",
+  "translation": "La mayoría de los maestros vive en [[Special:MyLanguage/Structures|estructuras]] emblemáticas de la [[Special:MyLanguage/Earth|Tierra]]:",
+  "outdated": false
+ },
+ "38": {
+  "source": "[[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the world spawn: [[Special:MyLanguage/Mr. Popo|Mr. Popo]], Dende and Korin, plus the portal to the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].",
+  "translation": "[[Special:MyLanguage/Kami's Lookout|Atalaya de Kami]], cerca del punto de aparición del mundo: el [[Special:MyLanguage/Mr. Popo|Sr. Popo]], Dendé y Korin, además del portal a la [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]].",
+  "outdated": false
+ },
+ "39": {
+  "source": "[[Special:MyLanguage/Kame House|Roshi's House]] on an ocean coast: [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]].",
+  "translation": "[[Special:MyLanguage/Kame House|Kame House]], en la costa de un océano: el [[Special:MyLanguage/Master Roshi|Maestro Roshi]] y [[Special:MyLanguage/Krillin|Krilin]].",
+  "outdated": false
+ },
+ "40": {
+  "source": "[[Special:MyLanguage/Goku's House|Goku's House]] in the plains: [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gohan|Gohan]].",
+  "translation": "[[Special:MyLanguage/Goku's House|Casa de Goku]], en las llanuras: [[Special:MyLanguage/Goku|Goku]] y [[Special:MyLanguage/Gohan|Gohan]].",
+  "outdated": false
+ },
+ "41": {
+  "source": "[[Special:MyLanguage/Piccolo's House|Piccolo's House]] (plains), [[Special:MyLanguage/Yamcha's House|Yamcha's House]] (desert), '''Vegeta's Pod''' (rocky biomes), [[Special:MyLanguage/Trunks' Ship|Trunks' Ship]] (land biomes), [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]] (oceans) and '''Buu's House''' (plains).",
+  "translation": "[[Special:MyLanguage/Piccolo's House|Casa de Piccolo]] (llanuras), [[Special:MyLanguage/Yamcha's House|Casa de Yamcha]] (desierto), '''Nave saiyajin de Vegeta''' (biomas rocosos), [[Special:MyLanguage/Trunks' Ship|Nave de Trunks]] (biomas terrestres), [[Special:MyLanguage/Fortuneteller Baba's Palace|Palacio de la Adivina Baba]] (océanos) y '''Casa de Buu''' (llanuras).",
+  "outdated": false
+ },
+ "42": {
+  "source": "The '''Capsule Corp Assistant''' in Earth villages sells treasure maps that point straight to these buildings (see [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), and players with the permission can use <code>/dmzlocate</code>.",
+  "translation": "El '''Asistente de la Corporación Cápsula''' de las aldeas de la Tierra vende mapas del tesoro que llevan directo a estos edificios (consulta [[Special:MyLanguage/Capsule Corp Assistant|Asistente de la Corporación Cápsula]]), y los jugadores con el permiso pueden usar <code>/dmzlocate</code>.",
+  "outdated": false
+ },
+ "43": {
+  "source": "'''Right-click''' a master to open the dialogue. '''Skills''' opens their shop (you must stay within 10 blocks of the master to buy), '''Train''' lets you spar with a '''Shadow Clone''' of yourself or play their training minigame, and some masters offer services. Every new character starts with an [[Special:MyLanguage/Alignment|alignment]] of 100 (Good), so the Good masters such as Roshi and Goku teach you right away; Cell and Frieza only train Evil characters.",
+  "translation": "'''Haz clic derecho''' en un maestro para abrir el diálogo. '''Habilidades''' abre su tienda (para comprar debes quedarte a menos de 10 bloques del maestro), '''Entrenar''' te permite pelear contra un '''Clon de Sombra''' de ti mismo o jugar su minijuego de entrenamiento, y algunos maestros ofrecen servicios. Todo personaje nuevo empieza con un [[Special:MyLanguage/Alignment|alineamiento]] de 100 (Bueno), así que los maestros buenos como Roshi y Goku te enseñan de inmediato; Cell y Freezer solo entrenan a personajes malvados.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Useful services early on",
+  "translation": "Servicios útiles al principio",
+  "outdated": false
+ },
+ "45": {
+  "source": "At Kami's Lookout, Korin gives you 5 [[Special:MyLanguage/Senzu Bean|Senzu Beans]] every 15 minutes and a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]], and Dende heals you and gives Good characters '''Kami's Blessing''' (×1.2 TP for 5 minutes). Piccolo also heals you, and Master Roshi, King Kai and Piccolo hand out training [[Special:MyLanguage/Weights|weights]].",
+  "translation": "En la Atalaya de Kami, Korin te da 5 [[Special:MyLanguage/Senzu Bean|Semillas del Ermitaño]] cada 15 minutos y una [[Special:MyLanguage/Flying Nimbus|Nube Voladora]], y Dendé te cura y les da a los personajes buenos la '''Bendición de Kami''' (×1.2 TP durante 5 minutos). Piccolo también te cura, y el Maestro Roshi, Kaiosama y Piccolo reparten [[Special:MyLanguage/Weights|pesas]] de entrenamiento.",
+  "outdated": false
+ },
+ "46": {
+  "source": "== Step 5: start the story ==",
+  "translation": "== Paso 5: empieza la historia ==",
+  "outdated": false
+ },
+ "47": {
+  "source": "The story mode retells Dragon Ball as a chain of quests, starting with the [[Special:MyLanguage/Classic Saga|Classic Saga]] and Kid Goku's adventures. Open the '''Quests''' tab of the Character Menu to see the '''Quest Tree'''.",
+  "translation": "El modo historia vuelve a contar Dragon Ball como una cadena de misiones, empezando por la [[Special:MyLanguage/Classic Saga|Saga Clásica]] y las aventuras de Goku de niño. Abre la pestaña '''Misiones''' del Menú de personaje para ver el '''Árbol de Misiones'''.",
+  "outdated": false
+ },
+ "48": {
+  "source": "The first time you open it, you choose a story difficulty. '''This choice is permanent''' (only the '''Change Difficulty''' wish can change it later):",
+  "translation": "La primera vez que lo abres, eliges la dificultad de la historia. '''Esta elección es permanente''' (solo el deseo '''Cambiar dificultad''' puede cambiarla después):",
+  "outdated": false
+ },
+ "49": {
+  "source": "Easy",
+  "translation": "Fácil",
+  "outdated": false
+ },
+ "50": {
+  "source": "Normal",
+  "translation": "Normal",
+  "outdated": false
+ },
+ "51": {
+  "source": "Hard",
+  "translation": "Difícil",
+  "outdated": false
+ },
+ "52": {
+  "source": "Enemy health",
+  "translation": "Vida de los enemigos",
+  "outdated": false
+ },
+ "53": {
+  "source": "Enemy damage",
+  "translation": "Daño de los enemigos",
+  "outdated": false
+ },
+ "54": {
+  "source": "Training Points",
+  "translation": "Puntos de Entrenamiento",
+  "outdated": false
+ },
+ "55": {
+  "source": "Quest rewards",
+  "translation": "Recompensas de misión",
+  "outdated": false
+ },
+ "56": {
+  "source": "Then select the first quest, '''A Fishy Welcome''' (defeat a Giant Fish at a river, beach or ocean on Earth), and press '''Start Quest'''. Press '''Track''' to follow the current objective in your notifications, with a direction arrow for location objectives.",
+  "translation": "Luego selecciona la primera misión, '''A Fishy Welcome''' (derrota a un Pez gigante en un río, una playa o un océano de la Tierra), y presiona '''Iniciar Misión'''. Presiona '''Rastrear''' para seguir el objetivo actual en tus notificaciones, con una flecha de dirección para los objetivos de ubicación.",
+  "outdated": false
+ },
+ "57": {
+  "source": "Combat quests spawn their enemies '''for you''' (and your party), near you. Only those enemies count toward the objective.",
+  "translation": "Las misiones de combate generan a sus enemigos '''para ti''' (y tu grupo), cerca de ti. Solo esos enemigos cuentan para el objetivo.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Many quests can only be started in a specific place: a biome, a structure or a dimension.",
+  "translation": "Muchas misiones solo se pueden empezar en un lugar específico: un bioma, una estructura o una dimensión.",
+  "outdated": false
+ },
+ "59": {
+  "source": "When a quest is complete, press '''Claim Rewards'''. Quests pay '''Attributes''': half arrive as Attribute Points you place in the Stats tab, and half as the TP those points would cost you right now.",
+  "translation": "Cuando completes una misión, presiona '''Obtener recomp.'''. Las misiones dan '''Atributos''': la mitad llega como Puntos de Atributo que colocas en la pestaña Estadísticas, y la otra mitad como los TP que esos puntos te costarían ahora mismo.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Inside a saga, quests unlock one after another, and each saga opens once you finish the one before it.",
+  "translation": "Dentro de una saga, las misiones se desbloquean una tras otra, y cada saga se abre cuando terminas la anterior.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Playing with friends? Create a party in the '''Party''' tab: members share quest progress and play on the party leader's difficulty.",
+  "translation": "¿Juegas con amigos? Crea un grupo en la pestaña '''Grupo''': los miembros comparten el progreso de las misiones y juegan en la dificultad del líder del grupo.",
+  "outdated": false
+ },
+ "62": {
+  "source": "Quest 19 of the Classic Saga, '''The Sacred Water''', asks you to climb to Kami's Lookout and hand Korin a Water Bucket. Drinking the Sacred Water you get permanently multiplies all your stats by ×1.1.",
+  "translation": "La misión 19 de la Saga Clásica, '''El Agua Sagrada''', te pide subir a la Atalaya de Kami y entregarle a Korin un cubo de agua. Beber el Agua Sagrada que recibes multiplica para siempre todas tus estadísticas por ×1.1.",
+  "outdated": false
+ },
+ "63": {
+  "source": "== Step 6: train and earn TP ==",
+  "translation": "== Paso 6: entrena y gana TP ==",
+  "outdated": false
+ },
+ "64": {
+  "source": "Almost everything you do earns TP: every hit you land (2 TP), every kill (plus a quarter of the target's max health), just playing (1 TP every 5 seconds), traveling, mining, crafting and, above all, quests. To grow faster:",
+  "translation": "Casi todo lo que haces da TP: cada golpe que aciertas (2 TP), cada muerte que logras (más un cuarto de la vida máxima del objetivo), simplemente jugar (1 TP cada 5 segundos), viajar, minar, fabricar y, sobre todo, las misiones. Para crecer más rápido:",
+  "outdated": false
+ },
+ "65": {
+  "source": "'''Play the training minigames.''' Krillin teaches [[Special:MyLanguage/Ki Control|Ki Control]], Gohan '''Shadow Boxing''', Trunks '''Precision''', Vegeta '''Gravity''' and Mr. Popo '''Rhythm''' (inside the Time Chamber). Reach level 5 in three runs with the master to learn a game; after that you can play it from the '''Minigames''' tab, and replaying it at its master pays 25% more. See [[Special:MyLanguage/Training Minigames|Training Minigames]].",
+  "translation": "'''Juega los minijuegos de entrenamiento.''' Krilin enseña [[Special:MyLanguage/Ki Control|Control de Ki]], Gohan '''Boxeo Sombra''', Trunks '''Precisión''', Vegeta '''Gravedad''' y el Sr. Popo '''Ritmo''' (dentro de la Cámara del Tiempo). Llega al nivel 5 en tres partidas con el maestro para aprender un juego; después puedes jugarlo desde la pestaña '''Minijuegos''', y volver a jugarlo con su maestro da un 25% más. Consulta [[Special:MyLanguage/Training Minigames|Minijuegos de entrenamiento]].",
+  "outdated": false
+ },
+ "66": {
+  "source": "'''Wear weights.''' Ask Master Roshi for a '''Turtle Shell''' and type the weight you want. The right load multiplies your TP, but overloading makes you weaker; the '''Gravity''' row of the Stats tab tells you how you are doing. See [[Special:MyLanguage/Weights|Weights]].",
+  "translation": "'''Usa pesas.''' Pídele al Maestro Roshi un '''Caparazón de Tortuga''' y escribe el peso que quieres. La carga adecuada multiplica tus TP, pero sobrecargarte te debilita; la fila '''Gravedad''' de la pestaña Estadísticas te dice cómo vas. Consulta [[Special:MyLanguage/Weights|Pesas]].",
+  "outdated": false
+ },
+ "67": {
+  "source": "'''Train under gravity.''' The [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (portal at Kami's Lookout) has ×10 gravity and multiplies your TP by ×1.75; later you can build a [[Special:MyLanguage/Gravity Device|Gravity Device]].",
+  "translation": "'''Entrena bajo gravedad.''' La [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]] (portal en la Atalaya de Kami) tiene gravedad ×10 y multiplica tus TP por ×1.75; más adelante puedes construir un [[Special:MyLanguage/Gravity Device|Dispositivo de Gravedad]].",
+  "outdated": false
+ },
+ "68": {
+  "source": "'''Fight tough targets.''' Long fights pay TP on every hit, and the Shadow Clone from a master's '''Train''' option makes a good sparring partner.",
+  "translation": "'''Pelea contra objetivos duros.''' Las peleas largas dan TP con cada golpe, y el Clon de Sombra de la opción '''Entrenar''' de un maestro es un buen compañero de práctica.",
+  "outdated": false
+ },
+ "69": {
+  "source": "== Step 7: learn to fight ==",
+  "translation": "== Paso 7: aprende a pelear ==",
+  "outdated": false
+ },
+ "70": {
+  "source": "'''Charge first.''' Your damage and your defense both scale with your Power Release.",
+  "translation": "'''Carga primero.''' Tu daño y tu defensa escalan con tu Liberación de Poder.",
+  "outdated": false
+ },
+ "71": {
+  "source": "'''Block''' with {{Key|Right Mouse}} (empty hands). Starting a block right as a hit lands is a '''parry''': you take no damage and the attacker is staggered. Blocking drains your stamina and poise; if either runs out, your guard breaks and you are stunned.",
+  "translation": "'''Bloquea''' con {{Key|Clic derecho}} (con las manos vacías). Empezar a bloquear justo cuando llega un golpe es un '''parry''': no recibes daño y el atacante queda tambaleante. Bloquear consume tu stamina y tu estabilidad; si se agota cualquiera de las dos, tu guardia se rompe y quedas aturdido.",
+  "outdated": false
+ },
+ "72": {
+  "source": "'''Dash''' with {{Key|R}} and '''lock on''' with {{Key|Z}}.",
+  "translation": "Haz '''dash''' con {{Key|R}} y '''fija un objetivo''' con {{Key|Z}}.",
+  "outdated": false
+ },
+ "73": {
+  "source": "'''Use techniques.''' Buy them from masters in the '''Skills''' tab, bind them to a slot ('''Bind to Slot''') and fire them with {{Key|Alt}} + 1–4. Ki attacks charge while you hold the key. Techniques need an empty main hand and at least 5% Power Release.",
+  "translation": "'''Usa técnicas.''' Cómpralas a los maestros en la pestaña '''Habilidades''', asígnalas a una ranura ('''Asignar a Ranura''') y lánzalas con {{Key|Alt}} + 1–4. Los ataques de ki se cargan mientras mantienes la tecla. Las técnicas necesitan la mano principal vacía y al menos un 5% de Liberación de Poder.",
+  "outdated": false
+ },
+ "74": {
+  "source": "'''Watch your stamina.''' Swinging, blocking, dashing and sprinting all use it.",
+  "translation": "'''Vigila tu stamina.''' Atacar, bloquear, hacer dash y correr la consumen.",
+  "outdated": false
+ },
+ "75": {
+  "source": "== Step 8: take to the skies ==",
+  "translation": "== Paso 8: surca los cielos ==",
+  "outdated": false
+ },
+ "76": {
+  "source": "Learn the [[Special:MyLanguage/Fly|Fly]] skill (Goku and Frieza teach it) on top of Ki Control, charge at least 5% Power Release and press {{Key|F}}. {{Key|Alt}} + {{Key|F}} switches between '''Search Fly''' (fast travel) and '''Combat Fly''' (a hover tuned for fighting). Until then, Korin's [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] carries the pure of heart. See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Combat#Combat flight|Combat]].",
+  "translation": "Aprende la habilidad [[Special:MyLanguage/Fly|Vuelo]] (la enseñan Goku y Freezer) además de Control de Ki, carga al menos un 5% de Liberación de Poder y presiona {{Key|F}}. {{Key|Alt}} + {{Key|F}} alterna entre '''Vuelo de búsqueda''' (viaje rápido) y '''Vuelo de combate''' (un vuelo estacionario pensado para pelear). Hasta entonces, la [[Special:MyLanguage/Flying Nimbus|Nube Voladora]] de Korin lleva a los puros de corazón. Consulta [[Special:MyLanguage/Skills|Habilidades]] y [[Special:MyLanguage/Combat#Combat flight|Combate]].",
+  "outdated": false
+ },
+ "77": {
+  "source": "== Step 9: your first transformation ==",
+  "translation": "== Paso 9: tu primera transformación ==",
+  "outdated": false
+ },
+ "78": {
+  "source": "Transformations multiply your stats but drain a resource (usually Ki) while they are active. You buy them with TP in the '''Forms''' section of the Skills tab. To unlock a form you need its TP cost, 25% mastery on the previous form of its group, and often a story requisite. The first form of each race unlocks after Classic Saga quest 46, '''Training at the Lookout''':",
+  "translation": "Las transformaciones multiplican tus estadísticas, pero consumen un recurso (normalmente Ki) mientras están activas. Se compran con TP en la sección '''Formas''' de la pestaña Habilidades. Para desbloquear una forma necesitas su costo en TP, un 25% de maestría en la forma anterior de su grupo y, a menudo, un requisito de la historia. La primera forma de cada raza se desbloquea tras la misión 46 de la Saga Clásica, '''Training at the Lookout''':",
+  "outdated": false
+ },
+ "79": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "80": {
+  "source": "First form",
+  "translation": "Primera forma",
+  "outdated": false
+ },
+ "81": {
+  "source": "Buffed",
+  "translation": "Potenciado",
+  "outdated": false
+ },
+ "82": {
+  "source": "Super Saiyan",
+  "translation": "Super Saiyajin",
+  "outdated": false
+ },
+ "83": {
+  "source": "Giant",
+  "translation": "Gigante",
+  "outdated": false
+ },
+ "84": {
+  "source": "Second Form",
+  "translation": "Segunda Forma",
+  "outdated": false
+ },
+ "85": {
+  "source": "Kid Majin",
+  "translation": "Majin Niño",
+  "outdated": false
+ },
+ "86": {
+  "source": "Semi-Perfect",
+  "translation": "Semi-Perfecto",
+  "outdated": false
+ },
+ "87": {
+  "source": "Buffed",
+  "translation": "Potenciado",
+  "outdated": false
+ },
+ "88": {
+  "source": "Hold {{Key|X}}, open '''Super Forms''' and click the form to select it.",
+  "translation": "Mantén {{Key|X}}, abre '''Súper Formas''' y haz clic en la forma para seleccionarla.",
+  "outdated": false
+ },
+ "89": {
+  "source": "Hold {{Key|G}} to charge the transformation. Your colors and size blend into the new form as the charge fills.",
+  "translation": "Mantén {{Key|G}} para cargar la transformación. Tus colores y tu tamaño se funden con la nueva forma a medida que se llena la carga.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Fight while transformed to raise its '''mastery''': hits you deal and take count when you are at 50% Power Release or more. Mastery makes the form stronger, lowers its drain and, at 25%, unlocks the next form of the group. From 40% you can transform instantly (double-tap {{Key|G}}), paying extra Ki.",
+  "translation": "Pelea transformado para subir su '''maestría''': cuentan los golpes que das y recibes cuando estás al 50% de Liberación de Poder o más. La maestría hace la forma más fuerte, reduce su consumo y, al 25%, desbloquea la siguiente forma del grupo. Desde el 40% puedes transformarte al instante (toca {{Key|G}} dos veces), pagando Ki extra.",
+  "outdated": false
+ },
+ "91": {
+  "source": "If you can't pay the drain, you drop back to base. Press {{Key|Alt}} + {{Key|G}} to power down one form yourself.",
+  "translation": "Si no puedes pagar el consumo, vuelves a tu forma base. Presiona {{Key|Alt}} + {{Key|G}} para bajar una forma por tu cuenta.",
+  "outdated": false
+ },
+ "92": {
+  "source": "== Step 10: if you die ==",
+  "translation": "== Paso 10: si mueres ==",
+  "outdated": false
+ },
+ "93": {
+  "source": "When the Otherworld is enabled, dying sends your spirit to the [[Special:MyLanguage/Otherworld|Otherworld]] with a halo instead of a normal respawn. You keep your abilities, you don't get hungry and you earn double TP there. [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can let you \"borrow time\" and walk the living world again as a spirit for a while, and the dragons' revive wishes bring you fully back to life. If your whole party is wiped out, any active fight quest fails and has to be started again.",
+  "translation": "Cuando el Otro Mundo está activado, morir envía tu espíritu al [[Special:MyLanguage/Otherworld|Otro Mundo]] con un halo en lugar de reaparecer normalmente. Conservas tus habilidades, no te da hambre y allí ganas el doble de TP. La [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]] puede dejarte \"tomar tiempo prestado\" y volver a caminar por el mundo de los vivos como espíritu durante un rato, y los deseos de revivir de los dragones te devuelven la vida por completo. Si todo tu grupo cae, cualquier misión de pelea activa falla y hay que empezarla de nuevo.",
+  "outdated": false
+ },
+ "94": {
+  "source": "== Where to go next ==",
+  "translation": "== A dónde ir después ==",
+  "outdated": false
+ },
+ "95": {
+  "source": "'''Gather the Dragon Balls.''' Craft a [[Special:MyLanguage/Dragon Radar|Dragon Radar]], find the seven balls and summon [[Special:MyLanguage/Shenron|Shenron]] for a wish. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].",
+  "translation": "'''Reúne las Esferas del Dragón.''' Fabrica un [[Special:MyLanguage/Dragon Radar|Radar del Dragón]], encuentra las siete esferas e invoca a [[Special:MyLanguage/Shenron|Shenron]] para pedir un deseo. Consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]].",
+  "outdated": false
+ },
+ "96": {
+  "source": "'''Travel to other worlds''' by [[Special:MyLanguage/Space Pod|Space Pod]]: [[Special:MyLanguage/Namek|Namek]] is always open, and more [[Special:MyLanguage/Dimensions|dimensions]] open as you progress.",
+  "translation": "'''Viaja a otros mundos''' en [[Special:MyLanguage/Space Pod|Cápsula Espacial]]: [[Special:MyLanguage/Namek|Namek]] siempre está abierto, y se abren más [[Special:MyLanguage/Dimensions|dimensiones]] a medida que avanzas.",
+  "outdated": false
+ },
+ "97": {
+  "source": "'''Take on group challenges''': [[Special:MyLanguage/World Bosses|world bosses]], [[Special:MyLanguage/Raids|raids]] and [[Special:MyLanguage/Tournaments|tournaments]].",
+  "translation": "'''Enfrenta desafíos en grupo''': [[Special:MyLanguage/World Bosses|jefes de mundo]], [[Special:MyLanguage/Raids|incursiones]] y [[Special:MyLanguage/Tournaments|torneos]].",
+  "outdated": false
+ },
+ "98": {
+  "source": "'''Fuse with a friend''' with the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] or other [[Special:MyLanguage/Fusions|fusions]].",
+  "translation": "'''Fusiónate con un amigo''' con la [[Special:MyLanguage/Fusion Dance|Danza de la Fusión]] u otras [[Special:MyLanguage/Fusions|fusiones]].",
+  "outdated": false
+ },
+ "99": {
+  "source": "'''Gear up''' with [[Special:MyLanguage/Armor|armor]], [[Special:MyLanguage/Special Weapons|special weapons]] and [[Special:MyLanguage/Items|items]].",
+  "translation": "'''Equípate''' con [[Special:MyLanguage/Armor|armaduras]], [[Special:MyLanguage/Special Weapons|armas especiales]] y [[Special:MyLanguage/Items|objetos]].",
+  "outdated": false
+ },
+ "100": {
+  "source": "Stuck? Check the [[Special:MyLanguage/FAQ|FAQ]].",
+  "translation": "¿Atascado? Revisa las [[Special:MyLanguage/FAQ|Preguntas frecuentes]].",
+  "outdated": false
+ }
+}

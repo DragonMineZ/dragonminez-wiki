@@ -1,0 +1,82 @@
+{
+ "Page_display_title": {
+  "source": "Otherworld Tournament Announcer",
+  "translation": "Presentador del Torneo del Otro Mundo",
+  "outdated": false
+ },
+ "1": {
+  "source": "NPC, tournament host",
+  "translation": "NPC, anfitrión del torneo",
+  "outdated": false
+ },
+ "2": {
+  "source": "Placed on the Otherworld Tournament grounds once they are built",
+  "translation": "Se coloca en el recinto del Torneo del Otro Mundo una vez construido",
+  "outdated": false
+ },
+ "3": {
+  "source": "Friendly; talks to every player; can't be hurt",
+  "translation": "Amistoso; habla con todos los jugadores; no puede recibir daño",
+  "outdated": false
+ },
+ "4": {
+  "source": "Tournament screen; Return (teleport to the Grand Kai)",
+  "translation": "Pantalla del torneo; Volver (teletransporte con el Gran Kaio)",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Otherworld Tournament Announcer''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] on the tournament grounds of the [[Special:MyLanguage/Otherworld|Otherworld]]. Talk to him to enter the tournament, or to be sent back to the [[Special:MyLanguage/Grand Kai|Grand Kai]].",
+  "translation": "El '''Presentador del Torneo del Otro Mundo''' organiza el [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]] en el recinto del torneo del [[Special:MyLanguage/Otherworld|Otro Mundo]]. Habla con él para entrar al torneo o para que te envíe de vuelta con el [[Special:MyLanguage/Grand Kai|Gran Kaio]].",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding him ==",
+  "translation": "== Cómo encontrarlo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "The announcer stands on the Otherworld Tournament grounds, on the upper cloud deck of the Otherworld, at about −25, 352, −1165 (the ring centre is at 0, 355, −1200). To get there, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] in the cloud realm and press '''Tournament'''.",
+  "translation": "El presentador está en el recinto del Torneo del Otro Mundo, en la capa superior de nubes del Otro Mundo, en torno a −25, 352, −1165 (el centro del ring está en 0, 355, −1200). Para llegar, habla con el [[Special:MyLanguage/Grand Kai|Gran Kaio]] que está junto al [[Special:MyLanguage/King Yemma|Rey Yemma]] en el reino de las nubes y presiona '''Torneo'''.",
+  "outdated": false
+ },
+ "9": {
+  "source": "The grounds are built automatically the first time the server runs with the Otherworld enabled, and the announcer is only placed once they are finished. Until then, the Grand Kai tells you how far along they are.",
+  "translation": "El recinto se construye automáticamente la primera vez que el servidor arranca con el Otro Mundo activado, y el presentador solo se coloca cuando está terminado. Hasta entonces, el Gran Kaio te dice cuánto le falta.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== In the tournament ==",
+  "translation": "== En el torneo ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The announcer is the host of the Otherworld Tournament, a five-star bracket that ends with [[Special:MyLanguage/Pikkon|Pikkon]], [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gogeta|Gogeta]]. Press '''Tournament''' in his dialogue to open the tournament screen, then '''Enter''' while you are within 12 blocks of him. See [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] for the fighters and rewards, and [[Special:MyLanguage/Tournaments|Tournaments]] for how entering and bouts work.",
+  "translation": "El presentador es el anfitrión del Torneo del Otro Mundo, unas llaves de cinco estrellas que terminan con [[Special:MyLanguage/Pikkon|Pikkon]], [[Special:MyLanguage/Goku|Goku]] y [[Special:MyLanguage/Gogeta|Gogeta]]. Presiona '''Torneo''' en su diálogo para abrir la pantalla del torneo y luego '''Entrar''' mientras estés a 12 bloques o menos de él. Consulta [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]] para ver los luchadores y las recompensas, y [[Special:MyLanguage/Tournaments|Torneos]] para saber cómo funcionan la inscripción y los combates.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Behavior and abilities ==",
+  "translation": "== Comportamiento y habilidades ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Right-click the announcer to open his dialogue. He greets you with one of several welcome lines and offers two options:\n* '''Tournament''': opens the tournament screen (see above).\n* '''Return''': teleports you back to the Grand Kai in the cloud realm and closes the window.",
+  "translation": "Haz clic derecho sobre el presentador para abrir su diálogo. Te saluda con una de varias frases de bienvenida y te ofrece dos opciones:\n* '''Torneo''': abre la pantalla del torneo (consulta más arriba).\n* '''Volver''': te teletransporta de vuelta con el Gran Kaio en el reino de las nubes y cierra la ventana.",
+  "outdated": false
+ },
+ "14": {
+  "source": "He teaches no skills and gives no quests. He talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]]. Like the [[Special:MyLanguage/Masters|masters]], he stays in place, can't be pushed and can't be hurt.",
+  "translation": "No enseña habilidades ni da misiones. Habla con todos los jugadores, sea cual sea su [[Special:MyLanguage/Alignment|alineamiento]]. Como los [[Special:MyLanguage/Masters|maestros]], se queda en su sitio, no se le puede empujar y no puede recibir daño.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Entity id",
+  "translation": "ID de entidad",
+  "outdated": false
+ }
+}

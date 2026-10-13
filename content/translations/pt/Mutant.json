@@ -1,0 +1,92 @@
+{
+ "Page_display_title": {
+  "source": "Mutant",
+  "translation": "Mutante",
+  "outdated": false
+ },
+ "1": {
+  "source": "One lucky fighter on the server carries the legendary rage.",
+  "translation": "Um lutador sortudo do servidor carrega a fúria lendária.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Character effect (buff)",
+  "translation": "Efeito de personagem (bônus)",
+  "outdated": false
+ },
+ "3": {
+  "source": "The Mutant lottery, or an admin command",
+  "translation": "O sorteio de Mutante ou um comando de administrador",
+  "outdated": false
+ },
+ "4": {
+  "source": "Until death (by default)",
+  "translation": "Até a morte (por padrão)",
+  "outdated": false
+ },
+ "5": {
+  "source": "+25% TP gain, +50% form mastery gain, rage meter for the Legendary forms",
+  "translation": "+25% de ganho de TP, +50% de ganho de domínio de forma, medidor de fúria para as formas Lendárias",
+  "outdated": false
+ },
+ "6": {
+  "source": "A '''Mutant''' is one of the server's rare chosen fighters. The '''Mutant''' effect speeds up your Training Point and form mastery gain and gives you a '''rage meter''' that lets you tap into your race's '''Legendary''' transformation line, even forms you haven't unlocked yet. Mutants are picked at random by a server lottery.",
+  "translation": "Um '''Mutante''' é um dos raros lutadores escolhidos do servidor. O efeito '''Mutante''' acelera seu ganho de pontos de treino e de domínio de forma e dá a você um '''medidor de fúria''' que permite acessar a linha de transformações '''Lendárias''' da sua raça, mesmo formas que você ainda não desbloqueou. Os Mutantes são escolhidos ao acaso por um sorteio do servidor.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Benefits ==",
+  "translation": "== Benefícios ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "With the default settings, a Mutant gets:",
+  "translation": "Com as configurações padrão, um Mutante recebe:",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''+25% Training Point gain''' (×1.25);\n* '''+50% form mastery gain''' (×1.5);\n* a '''rage meter''' (see below).",
+  "translation": "* '''+25% de ganho de pontos de treino''' (×1.25);\n* '''+50% de ganho de domínio de forma''' (×1.5);\n* um '''medidor de fúria''' (veja abaixo).",
+  "outdated": false
+ },
+ "10": {
+  "source": "See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "Veja [[Special:MyLanguage/Training Points and Mastery|pontos de treino e domínio]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "== The rage meter ==",
+  "translation": "== O medidor de fúria ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "* The meter fills while you fight worthy opponents: dealing or taking significant hits. Mixing melee, strike and ki attacks fills it faster.\n* It drains when you stay out of combat. Death resets it.\n* With a '''full''' meter, you can transform into Legendary forms you don't own yet. A borrowed form is worth your best unlocked non-legendary form, with its mastery, '''+0.5''' to each stat bonus, but never more than the Legendary form itself at full mastery.\n* A full meter inside a Legendary form turns into '''active rage''' for '''10 seconds'''. While it lasts, the Legendary forms you '''do''' own get '''33%''' more bonus power.\n* When the rage ends, borrowed forms revert down to your highest owned form, or to base.",
+  "translation": "* O medidor enche enquanto você luta contra oponentes à altura: dando ou recebendo golpes significativos. Misturar ataques corpo a corpo, ataques de golpe e ataques de ki enche mais rápido.\n* Ele esvazia quando você fica fora de combate. Morrer zera o medidor.\n* Com o medidor '''cheio''', você pode se transformar em formas Lendárias que ainda não tem. Uma forma emprestada vale o mesmo que sua melhor forma não lendária desbloqueada, com o domínio dela, '''+0.5''' em cada bônus de estatística, mas nunca mais do que a própria forma Lendária com domínio máximo.\n* Um medidor cheio dentro de uma forma Lendária vira '''fúria ativa''' por '''10 segundos'''. Enquanto ela dura, as formas Lendárias que você '''tem''' ganham '''33%''' a mais de poder bônus.\n* Quando a fúria acaba, as formas emprestadas voltam para a sua forma mais alta desbloqueada, ou para a base.",
+  "outdated": false
+ },
+ "13": {
+  "source": "The meter has its own element on the HUD (see [[Special:MyLanguage/HUD|HUD]]). See [[Special:MyLanguage/Transformations|Transformations]] for the Legendary forms.",
+  "translation": "O medidor tem seu próprio elemento no HUD (veja [[Special:MyLanguage/HUD|HUD]]). Veja [[Special:MyLanguage/Transformations|Transformações]] para as formas Lendárias.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== The Mutant lottery ==",
+  "translation": "== O sorteio de Mutante ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "* By default the server runs a '''lottery every 30 minutes'''. Each roll picks an online player with a '''20% chance''', with up to '''1 Mutant on the server at a time'''. Becoming a Mutant is a rare, random event.\n* The Mutant status is '''lost on death''' by default. Dying frees the slot, so the lottery can pick a new holder.",
+  "translation": "* Por padrão, o servidor faz um '''sorteio a cada 30 minutos'''. Cada rodada escolhe um jogador online com '''20% de chance''', com no máximo '''1 Mutante no servidor por vez'''. Virar Mutante é um evento raro e aleatório.\n* O status de Mutante '''é perdido ao morrer''' por padrão. Morrer libera a vaga, então o sorteio pode escolher um novo portador.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "Admins can grant or revoke it directly with <code>/dmzeffect give mutant -1 &lt;player&gt;</code> and <code>/dmzeffect remove mutant &lt;player&gt;</code> (see [[Special:MyLanguage/Effects#Commands|Effects]] and [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "Administradores podem dar ou remover diretamente com <code>/dmzeffect give mutant -1 &lt;player&gt;</code> e <code>/dmzeffect remove mutant &lt;player&gt;</code> (veja [[Special:MyLanguage/Effects#Commands|Efeitos]] e [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ }
+}

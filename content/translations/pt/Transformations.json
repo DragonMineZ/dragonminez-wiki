@@ -1,0 +1,532 @@
+{
+ "Page_display_title": {
+  "source": "Transformations",
+  "translation": "Transformações",
+  "outdated": false
+ },
+ "1": {
+  "source": "Every race in DragonMineZ has '''transformations''', organized into '''form groups'''. A transformation multiplies your stats but usually drains a resource (Ki, stamina or health) while it is active, and you build '''mastery''' in a form by using it. You unlock forms one after another with Training Points, mastery and progress in the story, and every race can add a '''stack form''' such as [[Special:MyLanguage/Kaioken|Kaioken]] on top. This page explains the rules shared by every race; each race page lists its own forms.",
+  "translation": "Todas as raças de DragonMineZ têm '''transformações''', organizadas em '''grupos de formas'''. Uma transformação multiplica seus atributos, mas normalmente consome um recurso (Ki, estâmina ou vida) enquanto está ativa, e você ganha '''domínio''' em uma forma ao usá-la. Você desbloqueia as formas uma após a outra com pontos de treino, domínio e progresso na história, e todas as raças podem adicionar por cima uma '''forma acumulável''' como [[Special:MyLanguage/Kaioken|Kaioken]]. Esta página explica as regras comuns a todas as raças; cada página de raça lista suas próprias formas.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How forms work ==",
+  "translation": "== Como as formas funcionam ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* Every form belongs to a '''group''': a race's Super forms, its Legendary forms, the Saiyan SS Grades and so on.\n* Groups are unlocked by '''form skills''': '''Super Forms''' for the race's main lines, '''Legendary Forms''' for its Legendary line and '''Android Forms''' for Androids. You raise a form skill one level at a time with Training Points (TP) in the '''Skills''' menu, and each level unlocks the forms that need it.\n* To unlock the '''next''' form in a group you need '''all''' of:\n*# its '''TP cost''' (the price of the form skill level it needs);\n*# '''25% mastery''' on the '''previous''' form in that group;\n*# its '''story requisite''', if it has one: the form stays locked until you complete a specific saga quest (see [[Special:MyLanguage/Transformations#Story requisites|below]]).\n* While transformed you pay an upkeep drain. '''Mastery lowers this cost''' (see [[Special:MyLanguage/Transformations#Mastery|Mastery]]).\n* Locked forms show what they are waiting for in the Skills menu, for example ''\"Locked until: Frieza Saga - Quest 10\"''.\n* By default the multipliers of your form, your stack form and your effects '''add up''' instead of multiplying each other.",
+  "translation": "* Cada forma pertence a um '''grupo''': as formas Super de uma raça, suas formas Lendárias, os SS Graus dos Saiyajins e assim por diante.\n* Os grupos são desbloqueados por '''habilidades de forma''': '''Super Formas''' para as linhas principais da raça, '''Formas Lendárias''' para a linha Lendário e '''Formas Androide''' para os Androids. Você sobe uma habilidade de forma um nível por vez com pontos de treino (TP) no menu '''Habilidades''', e cada nível desbloqueia as formas que precisam dele.\n* Para desbloquear a '''próxima''' forma de um grupo, você precisa de '''tudo''' isto:\n*# seu '''custo de TP''' (o preço do nível da habilidade de forma que ela exige);\n*# '''25% de domínio''' na forma '''anterior''' desse grupo;\n*# seu '''requisito de história''', se houver: a forma fica bloqueada até você completar uma missão específica de uma saga (veja [[Special:MyLanguage/Transformations#Story requisites|abaixo]]).\n* Enquanto transformado, você paga um consumo de manutenção. '''O domínio reduz esse custo''' (veja [[Special:MyLanguage/Transformations#Mastery|Domínio]]).\n* As formas bloqueadas mostram o que falta no menu Habilidades, por exemplo ''\"Bloqueado até: Saga Freeza - Missão 10\"''.\n* Por padrão, os multiplicadores da sua forma, da sua forma acumulável e dos seus efeitos '''se somam''' em vez de se multiplicarem entre si.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Earning TP and mastery",
+  "translation": "Ganhar TP e domínio",
+  "outdated": false
+ },
+ "5": {
+  "source": "Every way to earn Training Points and mastery is listed on [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "Todas as formas de ganhar pontos de treino e domínio estão listadas em [[Special:MyLanguage/Training Points and Mastery|pontos de treino e domínio]].",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Transforming ==",
+  "translation": "== Transformar-se ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* Hold '''X''' to open the utility menu. The '''Super Forms''' slice holds your Super, Legendary and Android form groups, and '''Extra Forms''' holds every other form group of your race. Click a form to select it as your next transformation.\n* Hold '''G''' (the action key) to charge the selected form.\n* '''Double-tap G''', double-click the form in the menu or press the '''Instant Transform''' key (unbound by default) to transform instantly. Instant transformation is a mastery perk: it unlocks at '''40%''' mastery and costs 4 times the form's drain in Ki.\n* '''Transitions are gradual:''' while you charge a form, your colors and model size (hitbox included) blend toward the target form, and a form with a different body (such as a buffed or giant model) morphs into shape as the charge fills. Reverting shrinks, fades and morphs you back over about a second.",
+  "translation": "* Segure '''X''' para abrir o Menu de Utilidades. A seção '''Super Formas''' contém seus grupos de formas Super, Lendárias e Android, e '''Formas extras''' contém todos os outros grupos de formas da sua raça. Clique em uma forma para selecioná-la como sua próxima transformação.\n* Segure '''G''' (a tecla de ação) para carregar a forma selecionada.\n* '''Toque G duas vezes rápido''', clique duas vezes na forma no menu ou pressione a tecla '''Transformação instantânea''' (sem atribuição por padrão) para se transformar na hora. A transformação instantânea é um benefício do domínio: é desbloqueada com '''40%''' de domínio e custa 4 vezes o consumo da forma em Ki.\n* '''As transições são graduais:''' enquanto você carrega uma forma, suas cores e o tamanho do seu modelo (hitbox incluída) se misturam em direção à forma alvo, e uma forma com corpo diferente (como um modelo musculoso ou gigante) vai tomando forma conforme a carga enche. Ao reverter, você encolhe, desbota e volta ao normal em cerca de um segundo.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Story requisites ==",
+  "translation": "== Requisitos de história ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Most race transformations are tied to your progress in the story mode: you can't buy them until you have completed the listed quest.",
+  "translation": "A maioria das transformações de raça está ligada ao seu progresso no modo história: você não pode comprá-las até completar a missão indicada.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Complete this quest",
+  "translation": "Complete esta missão",
+  "outdated": false
+ },
+ "11": {
+  "source": "To unlock",
+  "translation": "Para desbloquear",
+  "outdated": false
+ },
+ "12": {
+  "source": "quest 46 ''Training at the Lookout''",
+  "translation": "missão 46 ''Treinamento no Mirante''",
+  "outdated": false
+ },
+ "13": {
+  "source": "Human '''Buffed''' · Saiyan '''Super Saiyan''' · Namekian '''Giant''' · Frost Demon '''Second Form''' · Majin '''Kid Majin''' · Bio-Android '''Semi-Perfect''' · Glind '''Buffed'''",
+  "translation": "Humano '''Melhorado''' · Saiyajin '''Super Saiyajin''' · Namekuseijin '''Gigante''' · Clã Freeza '''Segunda forma''' · Majin '''Kid Majin''' · Bio-Androide '''Semi-Perfeito''' · Glind '''Melhorado'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "quest 12 ''Defeat Oozaru Vegeta''",
+  "translation": "missão 12 ''Derrote Vegeta Macaco Gigante''",
+  "outdated": false
+ },
+ "15": {
+  "source": "Human '''Full Power''' · Saiyan '''SSJ Grade 2''' · Frost Demon '''Third Form''' · Glind '''Out of Control'''",
+  "translation": "Humano '''Poder Máximo''' · Saiyajin '''SSJ Grau 2''' · Clã Freeza '''Terceira forma''' · Glind '''Fora de Controle'''",
+  "outdated": false
+ },
+ "16": {
+  "source": "quest 5 ''Zarbon's True Form''",
+  "translation": "missão 5 ''Forma Verdadeira de Zarbon''",
+  "outdated": false
+ },
+ "17": {
+  "source": "Saiyan '''SSJ Grade 3''' · Majin '''Evil Majin''' · Bio-Android '''Perfect'''",
+  "translation": "Saiyajin '''SSJ Grau 3''' · Majin '''Majin Mau''' · Bio-Androide '''Perfeito'''",
+  "outdated": false
+ },
+ "18": {
+  "source": "quest 10 ''Captain Ginyu''",
+  "translation": "missão 10 ''Capitão Ginyu''",
+  "outdated": false
+ },
+ "19": {
+  "source": "Human '''Overdrive''' · Android '''Super Android''' · Namekian '''Full Power''' · Frost Demon '''Final Form''' · Glind '''Super'''",
+  "translation": "Humano '''Overdrive''' · Android '''Super Android''' · Namekuseijin '''Poder Total''' · Clã Freeza '''Forma final''' · Glind '''Super'''",
+  "outdated": false
+ },
+ "20": {
+  "source": "quest 4 ''Three Years of Preparation''",
+  "translation": "missão 4 ''Três Anos de Preparação''",
+  "outdated": false
+ },
+ "21": {
+  "source": "Saiyan '''SSJ Mastered'''",
+  "translation": "Saiyajin '''SSJ Dominado'''",
+  "outdated": false
+ },
+ "22": {
+  "source": "quest 15 ''Super Perfect Cell''",
+  "translation": "missão 15 ''Cell Super Perfeito''",
+  "outdated": false
+ },
+ "23": {
+  "source": "Saiyan '''SSJ 2'''",
+  "translation": "Saiyajin '''SSJ 2'''",
+  "outdated": false
+ },
+ "24": {
+  "source": "quest 1 ''Train with Goten and Gohan''",
+  "translation": "missão 1 ''Treine com Goten e Gohan''",
+  "outdated": false
+ },
+ "25": {
+  "source": "Saiyan '''SSJ 3''' and '''Golden Oozaru''' · Android '''Fused Android''' · Frost Demon '''Full Power''' · Majin '''Super Majin''' · Bio-Android '''Super Perfect''' · Glind '''Absorption'''",
+  "translation": "Saiyajin '''SSJ 3''' e '''Grande Macaco Dourado''' · Android '''Androide Fundido''' · Clã Freeza '''Poder Total''' · Majin '''Super Majin''' · Bio-Androide '''Super Perfeito''' · Glind '''Absorção'''",
+  "outdated": false
+ },
+ "26": {
+  "source": "quest 35 ''Return to Earth''",
+  "translation": "missão 35 ''Retorne à Terra''",
+  "outdated": false
+ },
+ "27": {
+  "source": "Human '''Solaris''' · Saiyan '''SSJ 4 [GT]''' and '''SSJ 4 [D]''' · Namekian '''Super Namekian''' · Frost Demon '''Fifth Form''' · Majin '''Ultra Majin''' · Bio-Android '''Ultra Perfect''' · Glind '''True Form'''",
+  "translation": "Humano '''Solaris''' · Saiyajin '''SSJ 4 [GT]''' e '''SSJ 4 [D]''' · Namekuseijin '''Super Namekuseijin''' · Clã Freeza '''Quinta Forma''' · Majin '''Ultra Majin''' · Bio-Androide '''Ultra Perfeito''' · Glind '''Forma Verdadeira'''",
+  "outdated": false
+ },
+ "28": {
+  "source": "The quest number is the one shown in the lock message; quests added later in a saga keep their own number. The last form of each race (the Buu Saga quest 35 row) is its '''top tier''': it is the strongest form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O número da missão é o que aparece na mensagem de bloqueio; missões adicionadas depois a uma saga mantêm seu próprio número. A última forma de cada raça (a linha da missão 35 da Saga Boo) é seu '''nível máximo''': é a forma mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Oozaru, the Legendary lines and the stack forms (Kaioken, Ultimate) have no story requisite.",
+  "translation": "Grande Macaco, as linhas Lendárias e as formas acumuláveis (Kaioken, Ultimate) não têm requisito de história.",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Energy consumption while transformed ==",
+  "translation": "== Consumo de energia enquanto transformado ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "The Ki drain values on the race pages are '''base''' values. What you actually pay each tick is scaled by several things, so the real cost is usually '''higher''' than the listed figure, and it grows with your own power:",
+  "translation": "Os valores de consumo de Ki nas páginas de raça são valores '''base'''. O que você realmente paga a cada tick é escalado por vários fatores, então o custo real costuma ser '''maior''' que o valor listado, e cresce com o seu próprio poder:",
+  "outdated": false
+ },
+ "32": {
+  "source": "* '''Which resource.''' Most forms drain '''Ki''' (energy); a few drain '''stamina''' or '''health''' instead ([[Special:MyLanguage/Kaioken|Kaioken]] drains health). A '''negative''' value counts as zero: the form costs nothing to hold (the Frost Demon Metal forms).\n* '''Power Release.''' The drain scales directly with your current Power Release (the percentage you charge with '''C'''). Fighting at 100% release costs the most; powering down lowers the upkeep.\n* '''Your offensive power.''' Once your base STR, SKP and PWR (your stats, class scalings and Power Release, '''not''' the form's own multipliers) pass '''5 times your max Ki''', the form costs proportionally more to hold. Forms that drain stamina or health compare against 1.5 times that pool instead. A stronger form doesn't cost more just for being stronger: its own drain value sets the price. A percentage of your '''max Ki''' is also added on top, so bigger pools pay bigger upkeep.\n* '''Mastery.''' This is the discount. As a form's mastery climbs, its cost multiplier drops toward '''×0.75''' at 100% mastery, and it discounts the whole upkeep, including the percentage of your max Ki (or stamina or health). With a stack form on top, each form's own mastery discounts its share of the drain.\n* '''Stacking.''' Layering a stack form multiplies the drain of '''both''' your form and the stack form (×2 with the default forms), which is why stacked transformations burn resources fast.\n* '''Server baseline.''' A global form drain setting and the load of equipped [[Special:MyLanguage/Weights|weights]] scale everything further.",
+  "translation": "* '''Qual recurso.''' A maioria das formas consome '''Ki''' (energia); algumas consomem '''estâmina''' ou '''vida''' no lugar ([[Special:MyLanguage/Kaioken|Kaioken]] consome vida). Um valor '''negativo''' conta como zero: manter a forma não custa nada (as formas Metal do Clã Freeza).\n* '''Liberação de Poder.''' O consumo escala diretamente com sua Liberação de Poder atual (a porcentagem que você carrega com '''C'''). Lutar com 100% de liberação é o mais caro; reduzir o poder diminui a manutenção.\n* '''Seu poder ofensivo.''' Quando seus STR, SKP e PWR base (seus atributos, os escalonamentos de classe e a Liberação de Poder, '''não''' os multiplicadores da própria forma) passam de '''5 vezes o seu Ki máximo''', manter a forma custa proporcionalmente mais. Formas que consomem estâmina ou vida comparam com 1.5 vez essa reserva. Uma forma mais forte não custa mais só por ser mais forte: o próprio valor de consumo dela define o preço. Uma porcentagem do seu '''Ki máximo''' também é somada, então reservas maiores pagam uma manutenção maior.\n* '''Domínio.''' Este é o desconto. À medida que o domínio de uma forma sobe, seu multiplicador de custo cai até '''×0.75''' com 100% de domínio, e o desconto vale para toda a manutenção, incluindo a porcentagem do seu Ki máximo (ou estâmina, ou vida). Com uma forma acumulável por cima, o domínio de cada forma desconta a sua parte do consumo.\n* '''Acúmulo.''' Adicionar uma forma acumulável multiplica o consumo de '''ambas''', a sua forma e a forma acumulável (×2 com as formas padrão), e é por isso que transformações acumuladas queimam recursos tão rápido.\n* '''Base do servidor.''' Um ajuste global de consumo de formas e a carga dos [[Special:MyLanguage/Weights|pesos]] equipados escalam tudo ainda mais.",
+  "outdated": false
+ },
+ "33": {
+  "source": "=== Running out ===",
+  "translation": "=== Quando os recursos acabam ===",
+  "outdated": false
+ },
+ "34": {
+  "source": "Each tick the game checks that you can afford the drain. If you can't pay the Ki (or stamina or health), the form and any stack form are '''forcibly deactivated''' and you revert to base with a ''\"drained\"'' message. Frost Demons past their Final Form drop to Final Form instead. A form you can't sustain keeps collapsing until you raise its mastery, power down or grow your Ki pool.",
+  "translation": "A cada tick, o jogo verifica se você consegue pagar o consumo. Se você não conseguir pagar o Ki (ou a estâmina, ou a vida), a forma e qualquer forma acumulável são '''desativadas à força''' e você volta à base com uma mensagem de ''\"esgotado\"''. Membros do Clã Freeza além da Forma final caem para a Forma final. Uma forma que você não consegue sustentar continua caindo até você aumentar o domínio dela, reduzir o poder ou aumentar sua reserva de Ki.",
+  "outdated": false
+ },
+ "35": {
+  "source": "Staying transformed",
+  "translation": "Permanecer transformado",
+  "outdated": false
+ },
+ "36": {
+  "source": "Mastery and a large Ki pool (Energy) are what let you stay transformed. Grinding a form's mastery both raises its stat bonus and cuts its upkeep, and investing in Energy raises the pool the drain is measured against.",
+  "translation": "O domínio e uma grande reserva de Ki (Energia) são o que permite permanecer transformado. Treinar o domínio de uma forma aumenta o bônus de atributos e também reduz a manutenção, e investir em Energia aumenta a reserva usada como referência para o consumo.",
+  "outdated": false
+ },
+ "37": {
+  "source": "== Descending ==",
+  "translation": "== Descender ==",
+  "outdated": false
+ },
+ "38": {
+  "source": "The '''Descend''' key ('''Alt + G''') drops you '''one form''' down the group you are in; a stack form is removed first. With a racial skill selected, Alt + G triggers the racial skill's secondary action instead. Descending from the radial ('''X''') menu does the same, but ignores the Frost Demon evolution floor. With no form active, Descend releases your power back to 0%.",
+  "translation": "A tecla '''Descender''' ('''Alt + G''') baixa você '''uma forma''' dentro do grupo em que está; uma forma acumulável é removida primeiro. Com uma habilidade racial selecionada, Alt + G ativa a ação secundária da habilidade racial. Descender pelo menu radial ('''X''') faz o mesmo, mas ignora o piso evolutivo do Clã Freeza. Sem nenhuma forma ativa, Descender reduz seu poder de volta a 0%.",
+  "outdated": false
+ },
+ "39": {
+  "source": "You can't descend out of the Saiyan [[Special:MyLanguage/Saiyan#False Super Saiyan|False Super Saiyan]] and [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]] forms.",
+  "translation": "Você não pode descender das formas Saiyajin [[Special:MyLanguage/Saiyan#False Super Saiyan|Falso Super Saiyajin]] e [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyajin Deus]].",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Mastery ==",
+  "translation": "== Domínio ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "'''Mastery''' (0 to 100% per form) measures how well you control a transformation. As it climbs it unlocks these perks:",
+  "translation": "O '''domínio''' (de 0 a 100% por forma) mede o quanto você controla uma transformação. À medida que sobe, ele desbloqueia estes benefícios:",
+  "outdated": false
+ },
+ "42": {
+  "source": "Mastery",
+  "translation": "Domínio",
+  "outdated": false
+ },
+ "43": {
+  "source": "Unlocks",
+  "translation": "Desbloqueia",
+  "outdated": false
+ },
+ "44": {
+  "source": "Lets you unlock the '''next form''' in the group, and lets you '''stack''' a stack form (such as Kaioken) on this form.",
+  "translation": "Permite desbloquear a '''próxima forma''' do grupo e '''acumular''' uma forma acumulável (como Kaioken) sobre esta forma.",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Instant transformation''': skip the charge-up by paying 4 times the form's drain in Ki.",
+  "translation": "'''Transformação instantânea''': pule a carga pagando 4 vezes o consumo da forma em Ki.",
+  "outdated": false
+ },
+ "46": {
+  "source": "'''Transform straight into it''' from base or from another group, without climbing the ladder. The first form of each group never needs this.",
+  "translation": "'''Transformar-se diretamente nela''' a partir da base ou de outro grupo, sem subir a escada. A primeira forma de cada grupo nunca precisa disso.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Full mastery: up to '''×1.5''' stats and drain reduced to '''×0.75'''.",
+  "translation": "Domínio completo: até '''×1.5''' nos atributos e consumo reduzido a '''×0.75'''.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Mastery is earned per transformation, only while that form is active. By default each hit you land or take gives 0.025%, and you also gain 0.004% passively every 5 seconds. Hit mastery only counts at '''50% Power Release''' or more and grows with the size of the hit, up to 4 times for a hit of 80% of the target's max health or more. '''Mastery Capsules''' add 5% to your active form (see [[Special:MyLanguage/Items|Items]]), and the Frost Demon racial skill, the Mutant status and the Mastery Multiplier effect speed it up.",
+  "translation": "O domínio é ganho por transformação, apenas enquanto essa forma está ativa. Por padrão, cada golpe que você acerta ou recebe dá 0.025%, e você também ganha 0.004% passivamente a cada 5 segundos. O domínio por golpes só conta com '''50% de Liberação de Poder''' ou mais e cresce com o tamanho do golpe, até 4 vezes para um golpe de 80% ou mais da vida máxima do alvo. As '''Cápsulas de Domínio''' adicionam 5% à sua forma ativa (veja [[Special:MyLanguage/Items|Itens]]), e a habilidade racial do Clã Freeza, o status Mutante e o efeito Multiplicador de Domínio aceleram o ganho.",
+  "outdated": false
+ },
+ "49": {
+  "source": "Some forms '''share mastery''' with related forms: every Kaioken tier passes 25% of its gains to the next tier, and the two Glind Time Power forms share 50% with each other. Admins can check and set mastery with <code>/dmzmastery</code> (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "Algumas formas '''compartilham domínio''' com formas relacionadas: cada nível de Kaioken passa 25% dos seus ganhos ao nível seguinte, e as duas formas Poder do Tempo dos Glinds compartilham 50% entre si. Os administradores podem consultar e definir o domínio com <code>/dmzmastery</code> (veja [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ },
+ "50": {
+  "source": "== Stack forms ==",
+  "translation": "== Formas acumuláveis ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "Stack forms layer '''on top of''' your normal transformation for an extra multiplier at a heavier upkeep. They are skills, not race forms, so every race can learn them.",
+  "translation": "As formas acumuláveis ficam '''por cima''' da sua transformação normal e dão um multiplicador extra em troca de uma manutenção mais pesada. São habilidades, não formas de raça, então todas as raças podem aprendê-las.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Stack form",
+  "translation": "Forma acumulável",
+  "outdated": false
+ },
+ "53": {
+  "source": "Tiers",
+  "translation": "Níveis",
+  "outdated": false
+ },
+ "54": {
+  "source": "Drain",
+  "translation": "Consumo",
+  "outdated": false
+ },
+ "55": {
+  "source": "How to get it",
+  "translation": "Como obter",
+  "outdated": false
+ },
+ "56": {
+  "source": "Health",
+  "translation": "Vida",
+  "outdated": false
+ },
+ "57": {
+  "source": "Taught by [[Special:MyLanguage/King Kai|King Kai]]",
+  "translation": "Ensinada pelo [[Special:MyLanguage/King Kai|Rei Kai]]",
+  "outdated": false
+ },
+ "58": {
+  "source": "None",
+  "translation": "Nenhum",
+  "outdated": false
+ },
+ "59": {
+  "source": "Clear [[Special:MyLanguage/Old Kai|Old Kai]]'s Ultimate Challenge",
+  "translation": "Supere o Desafio Ultimate do [[Special:MyLanguage/Old Kai|Velho Kaioshin]]",
+  "outdated": false
+ },
+ "60": {
+  "source": "To stack, your current form needs at least '''25% mastery''', and so does the stack form if it asks for mastery of its own (the default [[Special:MyLanguage/Kaioken|Kaioken]] tiers don't); otherwise the stack form is dropped when you transform. Ultimate is the exception: it isn't used on top of another form, but copies your best unlocked form and adds its own bonus.",
+  "translation": "Para acumular, sua forma atual precisa de pelo menos '''25% de domínio''', e a forma acumulável também, se ela exigir domínio próprio (os níveis padrão de [[Special:MyLanguage/Kaioken|Kaioken]] não exigem); caso contrário, a forma acumulável é removida quando você se transforma. O Ultimate é a exceção: ele não é usado por cima de outra forma, mas copia sua melhor forma desbloqueada e adiciona o próprio bônus.",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Legendary forms ==",
+  "translation": "== Formas lendárias ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "Every race has a '''Legendary form''' line with 3 levels (Glinds get two alternative forms on the third), but its default TP cost is <code>-1</code>: it '''can't be bought''' with Training Points. The [[Special:MyLanguage/Races#Legendary forms|Races]] page lists every race's Legendary forms. Androids lose this line when they are upgraded.",
+  "translation": "Todas as raças têm uma linha de '''formas Lendárias''' com 3 níveis (os Glinds recebem duas formas alternativas no terceiro), mas o custo de TP padrão dela é <code>-1</code>: ela '''não pode ser comprada''' com pontos de treino. A página [[Special:MyLanguage/Races#Legendary forms|Raças]] lista as formas Lendárias de todas as raças. Os Androids perdem essa linha ao serem convertidos.",
+  "outdated": false
+ },
+ "63": {
+  "source": "=== Earning them in the story ===",
+  "translation": "=== Conquistá-las na história ===",
+  "outdated": false
+ },
+ "64": {
+  "source": "Three quests of the [[Special:MyLanguage/Movies Saga|Movies Saga]] grant the Legendary Forms skill one level at a time:",
+  "translation": "Três missões da [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concedem a habilidade Formas Lendárias um nível por vez:",
+  "outdated": false
+ },
+ "65": {
+  "source": "Movies Saga quest",
+  "translation": "Missão da Saga de Filmes",
+  "outdated": false
+ },
+ "66": {
+  "source": "Opens",
+  "translation": "Abre",
+  "outdated": false
+ },
+ "67": {
+  "source": "Reward",
+  "translation": "Recompensa",
+  "outdated": false
+ },
+ "68": {
+  "source": "30 ''Broly's Second Coming''",
+  "translation": "30 ''O Segundo Retorno de Broly''",
+  "outdated": false
+ },
+ "69": {
+  "source": "After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 22",
+  "translation": "Após a missão 22 da [[Special:MyLanguage/Buu Saga|Saga Boo]]",
+  "outdated": false
+ },
+ "70": {
+  "source": "Legendary Forms level 1",
+  "translation": "Formas Lendárias nível 1",
+  "outdated": false
+ },
+ "71": {
+  "source": "34 ''Giant Bio-Broly''",
+  "translation": "34 ''Bio-Broly Gigante''",
+  "outdated": false
+ },
+ "72": {
+  "source": "After [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 35",
+  "translation": "Após a missão 35 da [[Special:MyLanguage/Buu Saga|Saga Boo]]",
+  "outdated": false
+ },
+ "73": {
+  "source": "Legendary Forms level 2",
+  "translation": "Formas Lendárias nível 2",
+  "outdated": false
+ },
+ "74": {
+  "source": "40 ''Super Hildegarn''",
+  "translation": "40 ''Super Hirudegarn''",
+  "outdated": false
+ },
+ "75": {
+  "source": "After [[Special:MyLanguage/GT Saga|GT Saga]] quest 30 or [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 11",
+  "translation": "Após a missão 30 da [[Special:MyLanguage/GT Saga|Saga GT]] ou a missão 11 da [[Special:MyLanguage/Daima Saga|Saga Daima]]",
+  "outdated": false
+ },
+ "76": {
+  "source": "Legendary Forms level 3",
+  "translation": "Formas Lendárias nível 3",
+  "outdated": false
+ },
+ "77": {
+  "source": "=== Borrowing them as a Mutant ===",
+  "translation": "=== Pegá-las emprestadas como Mutante ===",
+  "outdated": false
+ },
+ "78": {
+  "source": "Every 30 minutes the server may pick a random player (20% chance, one Mutant at a time by default) to become a [[Special:MyLanguage/Mutant|Mutant]], a status that is lost on death by default. Admins can also grant it with <code>/dmzeffect give mutant -1 &lt;player&gt;</code>.",
+  "translation": "A cada 30 minutos, o servidor pode escolher um jogador aleatório (20% de chance, um Mutante por vez por padrão) para se tornar [[Special:MyLanguage/Mutant|Mutante]], um status que por padrão é perdido ao morrer. Os administradores também podem concedê-lo com <code>/dmzeffect give mutant -1 &lt;player&gt;</code>.",
+  "outdated": false
+ },
+ "79": {
+  "source": "* Mutants gain '''×1.25 TP''' and '''×1.5 mastery'''.\n* They fill a green '''rage meter''' by dealing and taking significant hits; mixing melee, strike and ki attacks fills it faster.\n* With a '''full''' meter, a Mutant can transform into Legendary forms they don't own yet. A borrowed form is worth your '''best unlocked non-legendary form''' (with its mastery) '''+0.5''' to each stat bonus, scaled per stat like the Legendary form, but never more than the Legendary form itself at full mastery.\n* A full meter inside a Legendary form turns into '''active rage''' for 10 seconds, during which the Legendary forms you '''do''' own get '''+33%''' bonus power.\n* When the rage ends, borrowed forms revert down to your highest owned form (or base). The meter drains when you stay out of combat, and dying resets it.\n* Mutants never get the Saiyan False Super Saiyan form.",
+  "translation": "* Os Mutantes ganham '''×1.25 de TP''' e '''×1.5 de domínio'''.\n* Eles enchem um '''medidor de fúria''' verde ao causar e receber golpes significativos; misturar ataques corpo a corpo, golpes e ataques de ki enche mais rápido.\n* Com o medidor '''cheio''', um Mutante pode se transformar em formas Lendárias que ainda não possui. Uma forma emprestada vale sua '''melhor forma não lendária desbloqueada''' (com o domínio dela) '''+0.5''' em cada bônus de atributo, escalado por atributo como a forma Lendária, mas nunca mais que a própria forma Lendária com domínio completo.\n* Um medidor cheio dentro de uma forma Lendária vira '''fúria ativa''' por 10 segundos, durante os quais as formas Lendárias que você '''possui''' ganham '''+33%''' de poder bônus.\n* Quando a fúria termina, as formas emprestadas voltam para sua forma possuída mais alta (ou para a base). O medidor esvazia quando você fica fora de combate, e morrer o zera.\n* Os Mutantes nunca recebem a forma Saiyajin Falso Super Saiyajin.",
+  "outdated": false
+ },
+ "80": {
+  "source": "More about the Mutant status is on the [[Special:MyLanguage/Effects|Effects]] page.",
+  "translation": "Há mais sobre o status Mutante na página [[Special:MyLanguage/Effects|Efeitos]].",
+  "outdated": false
+ },
+ "81": {
+  "source": "== Forms you can't buy ==",
+  "translation": "== Formas que você não pode comprar ==",
+  "outdated": false
+ },
+ "82": {
+  "source": "A few forms are never bought or selected: the game grants them when something special happens. You can't descend out of them, transform into another form from them or stack a form on them.",
+  "translation": "Algumas formas nunca são compradas nem selecionadas: o jogo as concede quando algo especial acontece. Você não pode descender delas, se transformar em outra forma a partir delas nem acumular uma forma sobre elas.",
+  "outdated": false
+ },
+ "83": {
+  "source": "* [[Special:MyLanguage/Saiyan#False Super Saiyan|False Super Saiyan]] (Saiyan): triggered by rage when a Saiyan without any Super form is badly hurt, and it ends when the rage runs out.\n* [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]] (Saiyan): granted by a ritual in which five pure-hearted Saiyans give their Ki to a sixth. It is worth the receiver's strongest form with 30% more of its bonus, and it lasts 5 minutes.",
+  "translation": "* [[Special:MyLanguage/Saiyan#False Super Saiyan|Falso Super Saiyajin]] (Saiyajin): ativado pela fúria quando um Saiyajin sem nenhuma forma Super está gravemente ferido, e termina quando a fúria acaba.\n* [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyajin Deus]] (Saiyajin): concedido por um ritual em que cinco Saiyajins de coração puro dão seu Ki a um sexto. Vale a forma mais forte do receptor com 30% a mais do bônus dela, e dura 5 minutos.",
+  "outdated": false
+ },
+ "84": {
+  "source": "== Transformations by race ==",
+  "translation": "== Transformações por raça ==",
+  "outdated": false
+ },
+ "85": {
+  "source": "Race",
+  "translation": "Raça",
+  "outdated": false
+ },
+ "86": {
+  "source": "Form groups (number of forms)",
+  "translation": "Grupos de formas (número de formas)",
+  "outdated": false
+ },
+ "87": {
+  "source": "Top tier",
+  "translation": "Nível máximo",
+  "outdated": false
+ },
+ "88": {
+  "source": "Super (4), Legendary (3)",
+  "translation": "Super (4), Lendário (3)",
+  "outdated": false
+ },
+ "89": {
+  "source": "Solaris",
+  "translation": "Solaris",
+  "outdated": false
+ },
+ "90": {
+  "source": "Android (3)",
+  "translation": "Android (3)",
+  "outdated": false
+ },
+ "91": {
+  "source": "Oozaru (3), SS Grades (3), Super Saiyan (4), Mutant (3), False Form (1), God Ritual (1)",
+  "translation": "Grande Macaco (3), SS Graus (3), Super Saiyajin (4), Mutante (3), Forma Falsa (1), Ritual Divino (1)",
+  "outdated": false
+ },
+ "92": {
+  "source": "SSJ 4 [GT], SSJ 4 [D]",
+  "translation": "SSJ 4 [GT], SSJ 4 [D]",
+  "outdated": false
+ },
+ "93": {
+  "source": "Super (3), Legendary (3)",
+  "translation": "Super (3), Lendário (3)",
+  "outdated": false
+ },
+ "94": {
+  "source": "Super Namekian",
+  "translation": "Super Namekuseijin",
+  "outdated": false
+ },
+ "95": {
+  "source": "Evolution (5), Artificial (3)",
+  "translation": "Evolução (5), Artificial (3)",
+  "outdated": false
+ },
+ "96": {
+  "source": "Fifth Form",
+  "translation": "Quinta Forma",
+  "outdated": false
+ },
+ "97": {
+  "source": "Bio-Evolution (4), Bio-Corruption (3)",
+  "translation": "Bio-Evolução (4), Bio-Corrupção (3)",
+  "outdated": false
+ },
+ "98": {
+  "source": "Ultra Perfect",
+  "translation": "Ultra Perfeito",
+  "outdated": false
+ },
+ "99": {
+  "source": "Pure (4), Demon (3)",
+  "translation": "Puro (4), Demônio (3)",
+  "outdated": false
+ },
+ "100": {
+  "source": "Ultra Majin",
+  "translation": "Ultra Majin",
+  "outdated": false
+ },
+ "101": {
+  "source": "Super (5), Legendary (4)",
+  "translation": "Super (5), Lendário (4)",
+  "outdated": false
+ },
+ "102": {
+  "source": "True Form",
+  "translation": "Forma Verdadeira",
+  "outdated": false
+ },
+ "103": {
+  "source": "== Server settings ==",
+  "translation": "== Configurações do servidor ==",
+  "outdated": false
+ },
+ "104": {
+  "source": "All values on this wiki are '''defaults'''. Form skill TP costs live in each race's <code>character.json</code>, and each form's multipliers, drain, mastery and requisites in its form file.",
+  "translation": "Todos os valores desta wiki são '''padrões'''. Os custos de TP das habilidades de forma ficam no <code>character.json</code> de cada raça, e os multiplicadores, o consumo, o domínio e os requisitos de cada forma, no arquivo da forma.",
+  "outdated": false
+ },
+ "105": {
+  "source": "* Each form has a <code>sagaRequisite</code> (<code>\"&lt;saga id&gt;:&lt;quest number&gt;\"</code>) and a <code>levelRequisite</code> (a character level; none is set by default). Story requisites only apply while story mode is on, and both checks can be switched off with <code>sagaFormRequisiteEnabled</code> and <code>levelFormRequisiteEnabled</code>.\n* <code>multiplicationInsteadOfAdditionForMultipliers</code> makes form, stack form and effect multipliers multiply each other instead of adding up.\n* <code>ultimateFormFixedValue</code> turns Ultimate into a fixed multiplier (see [[Special:MyLanguage/Ultimate|Ultimate]]).\n* The global form drain (<code>baselineFormDrain</code>) is in the combat config.",
+  "translation": "* Cada forma tem um <code>sagaRequisite</code> (<code>\"&lt;saga id&gt;:&lt;quest number&gt;\"</code>) e um <code>levelRequisite</code> (um nível de personagem; nenhum é definido por padrão). Os requisitos de história só se aplicam enquanto o modo história está ativo, e as duas verificações podem ser desativadas com <code>sagaFormRequisiteEnabled</code> e <code>levelFormRequisiteEnabled</code>.\n* <code>multiplicationInsteadOfAdditionForMultipliers</code> faz os multiplicadores de forma, de forma acumulável e de efeitos se multiplicarem entre si em vez de se somarem.\n* <code>ultimateFormFixedValue</code> transforma o Ultimate em um multiplicador fixo (veja [[Special:MyLanguage/Ultimate|Ultimate]]).\n* O consumo global de formas (<code>baselineFormDrain</code>) fica na configuração de combate.",
+  "outdated": false
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "Page_display_title": {
+  "source": "Sidequests",
+  "translation": "Missões secundárias",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Side quests''' are optional quests that run alongside the [[Special:MyLanguage/Sagas|sagas]]. DragonMineZ ships 125 of them: errands for the [[Special:MyLanguage/Masters|masters]], training challenges, trips to other worlds, fights against movie villains and the Capsule Corp gadgets [[Special:MyLanguage/Bulma|Bulma]] builds for you. Most of them unlock as the story moves forward, and they reward '''Attributes''' and items.",
+  "translation": "As '''missões secundárias''' são missões opcionais que correm em paralelo às [[Special:MyLanguage/Sagas|sagas]]. DragonMineZ traz 125 delas: tarefas para os [[Special:MyLanguage/Masters|mestres]], desafios de treino, viagens a outros mundos, lutas contra vilões dos filmes e os aparelhos da Corporação Cápsula que [[Special:MyLanguage/Bulma|Bulma]] constrói para você. A maioria é desbloqueada conforme a história avança, e elas dão como recompensa '''Atributos''' e itens.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How side quests work ==",
+  "translation": "== Como funcionam as missões secundárias ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Open the '''Story''' menu and switch to the '''Side''' tab of the quest tree. Side quests are sorted into categories (General, Story, Training, Exploration, Combat, Collection and Capsule Corp), and each one shows whether it is '''Locked''', '''Available''' or '''In Progress'''.",
+  "translation": "Abra o menu '''História''' e mude para a aba '''Secundárias''' da árvore de missões. As missões secundárias são organizadas em categorias (Geral, História, Treinamento, Exploração, Combate, Coleta e Corporação Cápsula), e cada uma mostra se está '''Bloqueada''', '''Disponível''' ou '''Em progresso'''.",
+  "outdated": false
+ },
+ "4": {
+  "source": "* '''Starting and claiming:''' you can accept a side quest and claim its rewards from the quest tree or by talking to its NPC. The tables below show who gives each quest; quests without a giver only live in the quest tree.\n* '''Unlocking:''' most side quests open after a given saga quest, after another side quest or at a minimum level. Some can only be '''started''' while you meet an extra condition, such as an [[Special:MyLanguage/Alignment|alignment]] range or standing in a certain dimension, biome or structure. The '''Requirements''' column lists both.\n* '''Objectives:''' a numbered list must be done in order; a bulleted list marked ''In any order'' can be done in any order.\n* '''Enemies spawned by the quest''' only count when they come from that quest. Their health is listed next to the objective.\n* '''Rewards:''' '''Attributes''' are split between Attribute Points and TP that keep their value however expensive your stats get (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]).",
+  "translation": "* '''Iniciar e resgatar:''' você pode aceitar uma missão secundária e resgatar as recompensas pela árvore de missões ou falando com o NPC dela. As tabelas abaixo mostram quem dá cada missão; missões sem um NPC que as dê só existem na árvore de missões.\n* '''Desbloqueio:''' a maioria das missões secundárias abre depois de uma certa missão de saga, depois de outra missão secundária ou a partir de um nível mínimo. Algumas só podem ser '''iniciadas''' enquanto você cumpre uma condição extra, como uma faixa de [[Special:MyLanguage/Alignment|índole]] ou estar em uma certa dimensão, bioma ou estrutura. A coluna '''Requisitos''' lista as duas coisas.\n* '''Objetivos:''' uma lista numerada é cumprida em ordem; uma lista com marcadores marcada como ''Em qualquer ordem'' pode ser cumprida em qualquer ordem.\n* '''Os inimigos gerados pela missão''' só contam quando vêm dessa missão. A vida deles aparece ao lado do objetivo.\n* '''Recompensas:''' os '''Atributos''' são divididos entre Pontos de Atributo e TP, que mantêm o valor por mais caras que as suas estatísticas fiquem (veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]]).",
+  "outdated": false
+ },
+ "5": {
+  "source": "=== Playing in a party ===",
+  "translation": "=== Jogando em grupo ===",
+  "outdated": false
+ },
+ "6": {
+  "source": "Every default side quest scales with your [[Special:MyLanguage/Menus#Party|party]]: item and kill counts go up for each extra member who takes the quest with you, and quest enemies get more health and damage. Starting a side quest brings in the party members near you who can take it, everyone keeps their own progress and every party member claims their own rewards (see [[Special:MyLanguage/Sagas#Parties|Sagas]]). The multipliers are server settings (see [[Special:MyLanguage/Custom Quests|Custom Quests]]).",
+  "translation": "Todas as missões secundárias padrão escalam com o seu [[Special:MyLanguage/Menus#Party|grupo]]: a quantidade de itens e de abates aumenta para cada membro extra que aceita a missão com você, e os inimigos da missão ganham mais vida e dano. Iniciar uma missão secundária traz junto os membros do grupo por perto que possam fazê-la, cada um mantém o seu próprio progresso e cada membro do grupo resgata as próprias recompensas (veja [[Special:MyLanguage/Sagas#Parties|Sagas]]). Os multiplicadores são configurações do servidor (veja [[Special:MyLanguage/Custom Quests|Missões personalizadas]]).",
+  "outdated": false
+ },
+ "7": {
+  "source": "=== Repeatable side quests ===",
+  "translation": "=== Missões secundárias repetíveis ===",
+  "outdated": false
+ },
+ "8": {
+  "source": "''Medi-Bug Market'', from Bulma, can be repeated once an hour (real time). Every other default side quest can only be done once per character.",
+  "translation": "''Mercado de Medi-Bugs'', da Bulma, pode ser repetida uma vez por hora (tempo real). Todas as outras missões secundárias padrão só podem ser feitas uma vez por personagem.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Servers can turn side quests off, stop the default files from being generated or add their own side quests: see [[Special:MyLanguage/Custom Quests|Custom Quests]].",
+  "translation": "Os servidores podem desativar as missões secundárias, impedir que os arquivos padrão sejam gerados ou adicionar as suas próprias missões secundárias: veja [[Special:MyLanguage/Custom Quests|Missões personalizadas]].",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Overview ==",
+  "translation": "== Visão geral ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Story ==",
+  "translation": "== História ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Side stories that continue where the saga quests leave off.",
+  "translation": "Histórias paralelas que continuam de onde as missões de saga param.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Training ==",
+  "translation": "== Treinamento ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Training challenges set by the masters: sparring, meditation, gravity and skill goals.",
+  "translation": "Desafios de treino passados pelos mestres: treinos de luta, meditação, gravidade e metas de habilidades.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Exploration ==",
+  "translation": "== Exploração ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "Trips to landmarks, biomes and the other worlds.",
+  "translation": "Viagens a pontos de referência, biomas e aos outros mundos.",
+  "outdated": false
+ },
+ "17": {
+  "source": "== Combat ==",
+  "translation": "== Combate ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "Hunts and fights, from village night watches to rematches with villains from the movies, GT and Daima.",
+  "translation": "Caçadas e lutas, de vigílias noturnas em vilas a revanches com vilões dos filmes, de GT e de Daima.",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Collection ==",
+  "translation": "== Coleta ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "Gathering and delivery quests: food, materials and favours for the people you meet.",
+  "translation": "Missões de coleta e entrega: comida, materiais e favores para as pessoas que você conhece.",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Capsule Corp ==",
+  "translation": "== Corporação Cápsula ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "Bulma's gadget line. These quests unlock and upgrade [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations.",
+  "translation": "A linha de aparelhos da Bulma. Estas missões desbloqueiam e melhoram [[Special:MyLanguage/Dragon Radar|Radares do Dragão]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|tecnologia Gete]] e novos destinos para a [[Special:MyLanguage/Space Pod|Cápsula Espacial]].",
+  "outdated": false
+ }
+}

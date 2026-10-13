@@ -1,0 +1,477 @@
+{
+ "Page_display_title": {
+  "source": "Demon Realm",
+  "translation": "Reino Demoníaco",
+  "outdated": false
+ },
+ "1": {
+  "source": "Space Pod, after Daima Saga quest 3 (To the Demon Realm)",
+  "translation": "Cápsula Espacial, tras la misión 3 de la Saga Daima (Hacia el Reino Demoníaco)",
+  "outdated": false
+ },
+ "2": {
+  "source": "Third Demon World, Second Demon World, First Demon World",
+  "translation": "Tercer Mundo Demoníaco, Segundo Mundo Demoníaco, Primer Mundo Demoníaco",
+  "outdated": false
+ },
+ "3": {
+  "source": "Makai blocks, Majilite Ore, Demon Rock blocks, Medi-Bugs, the three Demon Realm Dragon Balls (from the Tamagamis)",
+  "translation": "Bloques Makai, Mena de Majilita, bloques de Roca Demoníaca, Medi-Bugs, las tres Esferas del Dragón del Reino Demoníaco (de los Tamagami)",
+  "outdated": false
+ },
+ "4": {
+  "source": "The '''Demon Realm''' (dimension id <code>dragonminez:demon_realm</code>) is the realm from Dragon Ball Daima: three Demon Worlds stacked on top of each other, ruled by King Gomah. You explore it from the top down: you arrive on the '''Third Demon World''', then travel down through giant tunnels to the '''Second''' and finally the '''First Demon World'''. The [[Special:MyLanguage/Daima Saga|Daima Saga]] takes you through all three floors.",
+  "translation": "El '''Reino Demoníaco''' (id de dimensión <code>dragonminez:demon_realm</code>) es el reino de Dragon Ball Daima: tres Mundos Demoníacos apilados uno sobre otro, gobernados por el Rey Gomah. Lo exploras de arriba hacia abajo: llegas al '''Tercer Mundo Demoníaco''' y luego bajas por túneles gigantes al '''Segundo''' y, por último, al '''Primer Mundo Demoníaco'''. La [[Special:MyLanguage/Daima Saga|Saga Daima]] te lleva por los tres niveles.",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Gravity ==",
+  "translation": "== Gravedad ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "Gravity is normal (×1.0) by default. The Demon Realm isn't listed in the per-world gravity setting, so it uses the fallback world gravity.",
+  "translation": "La gravedad es normal (×1.0) por defecto. El Reino Demoníaco no aparece en el ajuste de gravedad por mundo, así que usa la gravedad de mundo de respaldo.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Getting there ==",
+  "translation": "== Cómo llegar ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Travel by [[Special:MyLanguage/Space Pod|Space Pod]]. The '''Demon Realm''' destination unlocks once you complete [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3, ''To the Demon Realm'': bring Bulma 16 ender pearls, 8 crying obsidian, 8 redstone blocks and 16 amethyst shards so she can tune your pod's warp drive. The pod drops you high above the Third Demon World (160.5, 745, 0.5).",
+  "translation": "Viaja en [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. El destino '''Reino Demoníaco''' se desbloquea cuando completas la misión 3 de la [[Special:MyLanguage/Daima Saga|Saga Daima]], ''Hacia el Reino Demoníaco'': llévale a Bulma 16 perlas de ender, 8 obsidianas llorosas, 8 bloques de redstone y 16 fragmentos de amatista para que ajuste el motor de salto de tu cápsula. La cápsula te deja muy por encima del Tercer Mundo Demoníaco (160.5, 745, 0.5).",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Layout ==",
+  "translation": "== Estructura ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "The dimension spans Y −64 to 767. Each floor is separated from the next by a thick rock '''crust''' with an unbreakable '''Demon Realm Crust''' core, so the only way down is through the '''tunnels''':\n* Giant round tunnels (about 90 blocks in radius) cross each crust, repeating every 2,048 blocks. The way from the Third to the Second Demon World starts at '''0, 0'''; the way from the Second to the First starts at '''700, 450''', inside a raised crater island.\n* Each tunnel is sealed by a glowing orange '''Shield of Light''' membrane at the crust's core. You can pass straight through it.",
+  "translation": "La dimensión va de Y −64 a 767. Cada nivel está separado del siguiente por una gruesa '''corteza''' de roca con un núcleo indestructible de '''Corteza del Reino Demoníaco''', así que la única forma de bajar es por los '''túneles''':\n* Túneles redondos gigantes (de unos 90 bloques de radio) atraviesan cada corteza y se repiten cada 2,048 bloques. El paso del Tercer al Segundo Mundo Demoníaco empieza en '''0, 0'''; el paso del Segundo al Primero empieza en '''700, 450''', dentro de una isla de cráter elevada.\n* Cada túnel está sellado por una membrana naranja brillante de '''Escudo de Luz''' en el núcleo de la corteza. Puedes atravesarla sin problema.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Floor",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "12": {
+  "source": "Height",
+  "translation": "Altura",
+  "outdated": false
+ },
+ "13": {
+  "source": "Sky",
+  "translation": "Cielo",
+  "outdated": false
+ },
+ "14": {
+  "source": "What it looks like",
+  "translation": "Cómo es",
+  "outdated": false
+ },
+ "15": {
+  "source": "'''Third Demon World''' (top)",
+  "translation": "'''Tercer Mundo Demoníaco''' (arriba)",
+  "outdated": false
+ },
+ "16": {
+  "source": "Around Y 540–748",
+  "translation": "Alrededor de Y 540–748",
+  "outdated": false
+ },
+ "17": {
+  "source": "Pink",
+  "translation": "Rosa",
+  "outdated": false
+ },
+ "18": {
+  "source": "Yellow '''Makai Sand''' and '''Makai Grass''', mesas of '''Makai Stone''' and '''Makai Strata Stone''', '''Lilac Sand''' patches, teal '''Makai Agave''' and '''Makai Bush''' vegetation, '''Gas Vents''' and floating rocks. Its chasms are the '''Sea of Darkness'''.",
+  "translation": "'''Arena Makai''' y '''Hierba Makai''' amarillas, mesetas de '''Piedra Makai''' y '''Piedra Estratificada Makai''', manchas de '''Arena Lila''', vegetación turquesa de '''Agave Makai''' y '''Arbusto Makai''', '''Respiraderos de Gas''' y rocas flotantes. Sus abismos forman el '''Mar de la Oscuridad'''.",
+  "outdated": false
+ },
+ "19": {
+  "source": "'''Second Demon World''' (middle)",
+  "translation": "'''Segundo Mundo Demoníaco''' (en medio)",
+  "outdated": false
+ },
+ "20": {
+  "source": "Around Y 300–480",
+  "translation": "Alrededor de Y 300–480",
+  "outdated": false
+ },
+ "21": {
+  "source": "Lime green",
+  "translation": "Verde lima",
+  "outdated": false
+ },
+ "22": {
+  "source": "Islands of Namek grass and '''Turquoise Rock''' in a sea (water level Y 318), Ajissa trees, Namek grass and flowers, and '''Majilite Ore''' in the rock. Moons and planets hang in the sky.",
+  "translation": "Islas de hierba de Namek y '''Roca Turquesa''' en un mar (nivel del agua Y 318), árboles de Ajissa, hierba y flores de Namek, y '''Mena de Majilita''' en la roca. En el cielo cuelgan lunas y planetas.",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''First Demon World''' (bottom)",
+  "translation": "'''Primer Mundo Demoníaco''' (abajo)",
+  "outdated": false
+ },
+ "24": {
+  "source": "Around Y 64–250",
+  "translation": "Alrededor de Y 64–250",
+  "outdated": false
+ },
+ "25": {
+  "source": "Red",
+  "translation": "Rojo",
+  "outdated": false
+ },
+ "26": {
+  "source": "Reddish '''Demon Rock''', '''Red Ash''' and '''Demon Magma Rock''' patches, fields of rock spires and rare '''Crimson Crystal''' spires, under a red sun.",
+  "translation": "'''Roca Demoníaca''' rojiza, manchas de '''Ceniza Roja''' y '''Roca de Magma Demoníaca''', campos de agujas de roca y raras agujas de '''Cristal Carmesí''', bajo un sol rojo.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Each floor is its own biome (Third Demon World, Second Demon World and First Demon World). It never rains in the Demon Realm, and nothing spawns naturally: every inhabitant comes from villages, camps, patrols and lairs.",
+  "translation": "Cada nivel es su propio bioma (Tercer Mundo Demoníaco, Segundo Mundo Demoníaco y Primer Mundo Demoníaco). Nunca llueve en el Reino Demoníaco y nada aparece de forma natural: cada habitante proviene de aldeas, campamentos, patrullas y guaridas.",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== The Sea of Darkness ===",
+  "translation": "=== El Mar de la Oscuridad ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "The chasms of the Third Demon World are filled with '''Sea of Darkness Cloud'''. It has no collision, and every moment you spend inside it '''blinds''' you and deals '''25% of your max health''' as magic damage (at least 4). Don't fall in.",
+  "translation": "Los abismos del Tercer Mundo Demoníaco están llenos de '''Nube del Mar de la Oscuridad'''. No tiene colisión, y cada momento que pasas dentro te '''ciega''' y te inflige el '''25% de tu vida máxima''' como daño mágico (al menos 4). No te caigas.",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== Light and farming ===",
+  "translation": "=== Luz y cultivos ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "The natural Makai blocks of the Third Demon World let sky light through, so the floor below still gets daylight; the same blocks placed by players are normal, opaque blocks. '''Makai Grass Block''' and '''Makai Dirt''' can be tilled with a hoe into farmland, so you can grow crops on the Third Demon World.",
+  "translation": "Los bloques Makai naturales del Tercer Mundo Demoníaco dejan pasar la luz del cielo, así que el nivel de abajo sigue recibiendo luz de día; esos mismos bloques colocados por jugadores son bloques normales y opacos. El '''Bloque de Hierba Makai''' y la '''Tierra Makai''' se pueden arar con una azada para convertirlos en tierra de cultivo, así que puedes cultivar en el Tercer Mundo Demoníaco.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Blocks and resources ==",
+  "translation": "== Bloques y recursos ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "Block or item",
+  "translation": "Bloque u objeto",
+  "outdated": false
+ },
+ "34": {
+  "source": "Where",
+  "translation": "Dónde",
+  "outdated": false
+ },
+ "35": {
+  "source": "Notes",
+  "translation": "Notas",
+  "outdated": false
+ },
+ "36": {
+  "source": "'''Makai Stone''' (and its slab, stairs and wall), '''Makai Strata Stone''', '''Makai Sand''', '''Lilac Sand''', '''Makai Grass Block''', '''Makai Dirt'''",
+  "translation": "'''Piedra Makai''' (y su losa, escaleras y muro), '''Piedra Estratificada Makai''', '''Arena Makai''', '''Arena Lila''', '''Bloque de Hierba Makai''', '''Tierra Makai'''",
+  "outdated": false
+ },
+ "37": {
+  "source": "Third Demon World",
+  "translation": "Tercer Mundo Demoníaco",
+  "outdated": false
+ },
+ "38": {
+  "source": "Building blocks.",
+  "translation": "Bloques de construcción.",
+  "outdated": false
+ },
+ "39": {
+  "source": "'''Makai Agave''', '''Makai Bush'''",
+  "translation": "'''Agave Makai''', '''Arbusto Makai'''",
+  "outdated": false
+ },
+ "40": {
+  "source": "Third Demon World",
+  "translation": "Tercer Mundo Demoníaco",
+  "outdated": false
+ },
+ "41": {
+  "source": "Plants.",
+  "translation": "Plantas.",
+  "outdated": false
+ },
+ "42": {
+  "source": "'''Gas Vent'''",
+  "translation": "'''Respiradero de Gas'''",
+  "outdated": false
+ },
+ "43": {
+  "source": "Third Demon World",
+  "translation": "Tercer Mundo Demoníaco",
+  "outdated": false
+ },
+ "44": {
+  "source": "Decorative vent that puffs smoke and purple gas.",
+  "translation": "Respiradero decorativo que suelta humo y gas morado.",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Adobe''' (and its slab, stairs and wall), '''Adobe Bricks'''",
+  "translation": "'''Adobe''' (y su losa, escaleras y muro), '''Ladrillos de Adobe'''",
+  "outdated": false
+ },
+ "46": {
+  "source": "Demon villages",
+  "translation": "Aldeas demoníacas",
+  "outdated": false
+ },
+ "47": {
+  "source": "Building blocks of the demon houses.",
+  "translation": "Bloques de construcción de las casas demoníacas.",
+  "outdated": false
+ },
+ "48": {
+  "source": "'''Turquoise Rock'''",
+  "translation": "'''Roca Turquesa'''",
+  "outdated": false
+ },
+ "49": {
+  "source": "Second Demon World",
+  "translation": "Segundo Mundo Demoníaco",
+  "outdated": false
+ },
+ "50": {
+  "source": "Building block.",
+  "translation": "Bloque de construcción.",
+  "outdated": false
+ },
+ "51": {
+  "source": "'''Majilite Ore''' → '''Majilite'''",
+  "translation": "'''Mena de Majilita''' → '''Majilita'''",
+  "outdated": false
+ },
+ "52": {
+  "source": "Second Demon World",
+  "translation": "Segundo Mundo Demoníaco",
+  "outdated": false
+ },
+ "53": {
+  "source": "Mined with an iron pickaxe or better (drops experience like diamond ore). Bulma's ''Majilite Samples'' sidequest asks for 16.",
+  "translation": "Se mina con un pico de hierro o mejor (suelta experiencia como la mena de diamante). La misión secundaria ''Muestras de Majilita'' de Bulma pide 16.",
+  "outdated": false
+ },
+ "54": {
+  "source": "'''Demon Rock''', '''Demon Bricks''' (and their slab, stairs and wall), '''Demon Magma Rock''', '''Red Ash''', '''Crimson Crystal'''",
+  "translation": "'''Roca Demoníaca''', '''Ladrillos Demoníacos''' (y su losa, escaleras y muro), '''Roca de Magma Demoníaca''', '''Ceniza Roja''', '''Cristal Carmesí'''",
+  "outdated": false
+ },
+ "55": {
+  "source": "First Demon World",
+  "translation": "Primer Mundo Demoníaco",
+  "outdated": false
+ },
+ "56": {
+  "source": "Building blocks.",
+  "translation": "Bloques de construcción.",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''Demon Realm Crust''', '''Shield of Light''', '''Sea of Darkness Cloud'''",
+  "translation": "'''Corteza del Reino Demoníaco''', '''Escudo de Luz''', '''Nube del Mar de la Oscuridad'''",
+  "outdated": false
+ },
+ "58": {
+  "source": "Crusts, tunnels and chasms",
+  "translation": "Cortezas, túneles y abismos",
+  "outdated": false
+ },
+ "59": {
+  "source": "Unbreakable world features.",
+  "translation": "Elementos indestructibles del mundo.",
+  "outdated": false
+ },
+ "60": {
+  "source": "== Inhabitants ==",
+  "translation": "== Habitantes ==",
+  "outdated": false
+ },
+ "61": {
+  "source": "=== Demon villages ===",
+  "translation": "=== Aldeas demoníacas ===",
+  "outdated": false
+ },
+ "62": {
+  "source": "[[Special:MyLanguage/Demon Village|Demon villages]] generate on the Third Demon World. They're home to [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] (some of them sell Medi-Bugs) and a [[Special:MyLanguage/Time Patroller|Time Patroller]] who sells maps to the world boss lairs. Killing a Demon Realm Villager or the Time Patroller lowers your [[Special:MyLanguage/Alignment|alignment]].",
+  "translation": "Las [[Special:MyLanguage/Demon Village|aldeas demoníacas]] se generan en el Tercer Mundo Demoníaco. Son el hogar de los [[Special:MyLanguage/Demon Realm Villager|Aldeanos del Reino Demoníaco]] (algunos venden Medi-Bugs) y de un [[Special:MyLanguage/Time Patroller|Patrullero del Tiempo]] que vende mapas a las guaridas de los jefes de mundo. Matar a un Aldeano del Reino Demoníaco o al Patrullero del Tiempo baja tu [[Special:MyLanguage/Alignment|alineamiento]].",
+  "outdated": false
+ },
+ "63": {
+  "source": "=== Gomah's soldiers ===",
+  "translation": "=== Los soldados de Gomah ===",
+  "outdated": false
+ },
+ "64": {
+  "source": "* '''Patrols''': while players are within 6 chunks of a demon village, [[Special:MyLanguage/Gomah Soldier|Gomah Soldiers]] show up on its outskirts in waves of 1–3 (a 30% chance every 20 seconds, up to 4 soldiers per village). Some are bigger or smaller than usual (scale 0.85–1.35), with stats scaled to match (600 health, 16 melee and 12 ki damage at scale 1). They attack players, not the villagers.\n* '''[[Special:MyLanguage/Gomah Camp|Gomah Camps]]''': palisade camps with tents on any of the three floors, away from villages. Killing the soldier in the camp starts the [[Special:MyLanguage/Gomah's Army|Gomah's Army]] raid.",
+  "translation": "* '''Patrullas''': mientras haya jugadores a menos de 6 chunks de una aldea demoníaca, aparecen [[Special:MyLanguage/Gomah Soldier|Soldados de Gomah]] en sus alrededores en oleadas de 1–3 (un 30% de probabilidad cada 20 segundos, hasta 4 soldados por aldea). Algunos son más grandes o más pequeños de lo normal (escala 0.85–1.35), con estadísticas escaladas en proporción (600 de vida, 16 de daño cuerpo a cuerpo y 12 de daño de ki a escala 1). Atacan a los jugadores, no a los aldeanos.\n* '''[[Special:MyLanguage/Gomah Camp|Campamentos de Gomah]]''': campamentos amurallados con tiendas en cualquiera de los tres niveles, lejos de las aldeas. Matar al soldado del campamento inicia la incursión [[Special:MyLanguage/Gomah's Army|Ejército de Gomah]].",
+  "outdated": false
+ },
+ "65": {
+  "source": "=== The Tamagamis ===",
+  "translation": "=== Los Tamagami ===",
+  "outdated": false
+ },
+ "66": {
+  "source": "Each floor is guarded by one Tamagami, a [[Special:MyLanguage/World Bosses|world boss]] sleeping on a stone platform: [[Special:MyLanguage/Tamagami Number 3|Tamagami Number 3]] on the Third Demon World, [[Special:MyLanguage/Tamagami Number 2|Number 2]] on the Second and [[Special:MyLanguage/Tamagami Number 1|Number 1]] on the First. When defeated, a Tamagami drops its matching '''Demon Realm Dragon Ball''' (Tamagami 3 drops the 3-star ball, 2 the 2-star and 1 the 1-star) and stays dormant for an hour before it can be fought again. Buy a map from the Time Patroller to find them; operators can also use {{Command|/dmzworldboss locate}}.",
+  "translation": "Cada nivel está custodiado por un Tamagami, un [[Special:MyLanguage/World Bosses|jefe de mundo]] que duerme sobre una plataforma de piedra: [[Special:MyLanguage/Tamagami Number 3|Tamagami Número 3]] en el Tercer Mundo Demoníaco, [[Special:MyLanguage/Tamagami Number 2|Número 2]] en el Segundo y [[Special:MyLanguage/Tamagami Number 1|Número 1]] en el Primero. Al ser derrotado, un Tamagami suelta su '''Esfera del Dragón del Reino Demoníaco''' correspondiente (el Tamagami 3 suelta la esfera de 3 estrellas, el 2 la de 2 estrellas y el 1 la de 1 estrella) y queda inactivo durante una hora antes de que se le pueda volver a enfrentar. Compra un mapa al Patrullero del Tiempo para encontrarlos; los operadores también pueden usar {{Command|/dmzworldboss locate}}.",
+  "outdated": false
+ },
+ "67": {
+  "source": "=== Demon Realm Dragon Balls ===",
+  "translation": "=== Esferas del Dragón del Reino Demoníaco ===",
+  "outdated": false
+ },
+ "68": {
+  "source": "The Demon Realm has its own set of only three Dragon Balls, one from each Tamagami. Bring the three together in the Demon Realm to summon [[Special:MyLanguage/Porunga|Porunga]], who grants three wishes from his usual wish list. These balls never scatter on their own and no radar finds them. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].",
+  "translation": "El Reino Demoníaco tiene su propio juego de solo tres Esferas del Dragón, una por cada Tamagami. Reúne las tres en el Reino Demoníaco para invocar a [[Special:MyLanguage/Porunga|Porunga]], que concede tres deseos de su lista habitual. Estas esferas nunca se dispersan por sí solas y ningún radar las encuentra. Consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]].",
+  "outdated": false
+ },
+ "69": {
+  "source": "=== Gomah ===",
+  "translation": "=== Gomah ===",
+  "outdated": false
+ },
+ "70": {
+  "source": "King [[Special:MyLanguage/Gomah|Gomah]] himself is the Demon Realm's strongest world boss. He sits on his throne on [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]], a floating island caged by giant horns, high in the sky of the First Demon World (around X −1112, Z −1144). His '''Demon Eye''' makes him stronger and bigger the longer the fight lasts: hit him from behind to knock it loose. Defeating him can drop the '''[[Special:MyLanguage/Demon Eye|Demon Eye]]''' relic.",
+  "translation": "El propio Rey [[Special:MyLanguage/Gomah|Gomah]] es el jefe de mundo más fuerte del Reino Demoníaco. Se sienta en su trono en la [[Special:MyLanguage/Gomah's Horn Cradle|Cuna de Cuernos de Gomah]], una isla flotante enjaulada por cuernos gigantes, en lo alto del cielo del Primer Mundo Demoníaco (alrededor de X −1112, Z −1144). Su '''Ojo Demoníaco''' lo hace más fuerte y más grande cuanto más dura el combate: golpéalo por la espalda para hacérselo soltar. Derrotarlo puede soltar la reliquia '''[[Special:MyLanguage/Demon Eye|Ojo Demoníaco]]'''.",
+  "outdated": false
+ },
+ "71": {
+  "source": "== Medi-Bugs ==",
+  "translation": "== Medi-Bugs ==",
+  "outdated": false
+ },
+ "72": {
+  "source": "Medi-Bugs are the Demon Realm's consumables. Bug traders in the demon villages sell them, and Bulma's repeatable ''Medi-Bug Market'' sidequest sells a batch of Medi-Bugs (a Beetle pair included) for emeralds and gold ingots, once an hour.",
+  "translation": "Los Medi-Bugs son los consumibles del Reino Demoníaco. Los venden los comerciantes de bichos de las aldeas demoníacas, y la misión secundaria repetible ''Mercado de Medi-Bugs'' de Bulma vende un lote de Medi-Bugs (incluido un par de Escarabajos) por esmeraldas y lingotes de oro, una vez por hora.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Medi-Bug",
+  "translation": "Medi-Bug",
+  "outdated": false
+ },
+ "74": {
+  "source": "Effect when eaten",
+  "translation": "Efecto al comerlo",
+  "outdated": false
+ },
+ "75": {
+  "source": "'''Medi-Bug (Ant)'''",
+  "translation": "'''Medi-Bug (Hormiga)'''",
+  "outdated": false
+ },
+ "76": {
+  "source": "Restores '''85%''' of your health, ki and stamina. It has its own cooldown (the same length as the [[Special:MyLanguage/Senzu Bean|Senzu Bean]]'s).",
+  "translation": "Restaura el '''85%''' de tu vida, ki y stamina. Tiene su propio tiempo de recarga (de la misma duración que el de la [[Special:MyLanguage/Senzu Bean|Semilla del Ermitaño]]).",
+  "outdated": false
+ },
+ "77": {
+  "source": "'''Medi-Bug (Rhino)'''",
+  "translation": "'''Medi-Bug (Rinoceronte)'''",
+  "outdated": false
+ },
+ "78": {
+  "source": "'''Medi-Bug Shell''' for 45 seconds: you take 30% less damage.",
+  "translation": "'''Caparazón Medi-Bug''' durante 45 segundos: recibes un 30% menos de daño.",
+  "outdated": false
+ },
+ "79": {
+  "source": "'''Medi-Bug (Worm)'''",
+  "translation": "'''Medi-Bug (Gusano)'''",
+  "outdated": false
+ },
+ "80": {
+  "source": "'''Mastery Gain II''' for 5 minutes: 50% more form mastery.",
+  "translation": "'''Multiplicador de Maestría II''' durante 5 minutos: 50% más de maestría de formas.",
+  "outdated": false
+ },
+ "81": {
+  "source": "'''Pair of Medi-Bugs (Beetle)'''",
+  "translation": "'''Par de Medi-Bugs (Escarabajo)'''",
+  "outdated": false
+ },
+ "82": {
+  "source": "Right-click to split it into two identical '''Medi-Bug (Beetle)'''. Two players who eat beetles with the same ID within 30 seconds '''fuse''' (see [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]]).",
+  "translation": "Haz clic derecho para dividirlo en dos '''Medi-Bug (Escarabajo)''' idénticos. Dos jugadores que comen escarabajos con el mismo ID en menos de 30 segundos se '''fusionan''' (consulta [[Special:MyLanguage/Medi-Bug Beetles|Escarabajos Medi-Bug]]).",
+  "outdated": false
+ },
+ "83": {
+  "source": "== Structures ==",
+  "translation": "== Estructuras ==",
+  "outdated": false
+ },
+ "84": {
+  "source": "Structure",
+  "translation": "Estructura",
+  "outdated": false
+ },
+ "85": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "86": {
+  "source": "Where",
+  "translation": "Dónde",
+  "outdated": false
+ },
+ "87": {
+  "source": "What it is",
+  "translation": "Qué es",
+  "outdated": false
+ },
+ "88": {
+  "source": "Third Demon World",
+  "translation": "Tercer Mundo Demoníaco",
+  "outdated": false
+ },
+ "89": {
+  "source": "Villagers, bug traders and a Time Patroller.",
+  "translation": "Aldeanos, comerciantes de bichos y un Patrullero del Tiempo.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Any floor",
+  "translation": "Cualquier nivel",
+  "outdated": false
+ },
+ "91": {
+  "source": "Raid site of Gomah's Army.",
+  "translation": "Lugar de incursión del Ejército de Gomah.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Above the First Demon World",
+  "translation": "Sobre el Primer Mundo Demoníaco",
+  "outdated": false
+ },
+ "93": {
+  "source": "Gomah's lair.",
+  "translation": "La guarida de Gomah.",
+  "outdated": false
+ },
+ "94": {
+  "source": "See [[Special:MyLanguage/Structures#Finding structures|Structures]] for {{Command|/dmzlocate}}.",
+  "translation": "Consulta [[Special:MyLanguage/Structures#Finding structures|Estructuras]] para ver {{Command|/dmzlocate}}.",
+  "outdated": false
+ }
+}

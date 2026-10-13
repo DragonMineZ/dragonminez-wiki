@@ -1,0 +1,152 @@
+{
+ "Page_display_title": {
+  "source": "Ki Manipulation",
+  "translation": "Manipulación de Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "Give your ki a shape and an edge.",
+  "translation": "Dale a tu ki una forma y un filo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Passive combat ability",
+  "translation": "Habilidad pasiva de combate",
+  "outdated": false
+ },
+ "3": {
+  "source": "600 to 4,000 TP per level",
+  "translation": "De 600 a 4,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "Form ki weapons, raise basic ki-blast damage, and unlock Shadow Dummy sparring at level 5.",
+  "translation": "Crea armas de ki, aumenta el daño de las ráfagas de ki básicas y desbloquea el entrenamiento con el Doble de Sombra en el nivel 5.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Ki Manipulation''' lets you shape your ki into melee weapons: the '''Ki Blade''', the '''Ki Scythe''' and the '''Ki Claw Lance'''. Their damage scales with your Ki Damage and the skill's level, so ki-focused characters can fight up close without carrying a weapon. The skill also makes your basic ki blasts stronger and, from level 5, lets you spar with a Shadow Dummy.",
+  "translation": "La '''Manipulación de Ki''' te permite dar forma a tu ki como armas cuerpo a cuerpo: la '''Espada de Ki''', la '''Guadaña de Ki''' y la '''Lanza-Garra de Ki'''. Su daño escala con tu Daño de ki y el nivel de la habilidad, así que los personajes centrados en el ki pueden pelear de cerca sin llevar un arma. La habilidad también hace más fuertes tus ráfagas de ki básicas y, desde el nivel 5, te permite entrenar contra un Doble de Sombra.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/King Kai|King Kai]] (Good alignment) and [[Special:MyLanguage/Cell|Cell]] (Evil alignment) teach Ki Manipulation.",
+  "translation": "[[Special:MyLanguage/King Kai|Kaiosama]] (alineamiento Bueno) y [[Special:MyLanguage/Cell|Cell]] (alineamiento Maligno) enseñan la Manipulación de Ki.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Ki weapons ==",
+  "translation": "== Armas de ki ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "With your main hand empty, open the Utility Menu ({{Key|X}}) and pick a weapon from '''Actions → Ki Weapons'''. Each hit deals bonus damage equal to your '''Ki Damage × the weapon's scaling × 10% per skill level''', and each swing costs some Ki.",
+  "translation": "Con la mano principal vacía, abre el Menú de utilidades ({{Key|X}}) y elige un arma en '''Acciones → Armas de Ki'''. Cada golpe hace daño extra igual a tu '''Daño de ki × el escalado del arma × 10% por nivel de la habilidad''', y cada golpe con el arma cuesta algo de Ki.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Weapon",
+  "translation": "Arma",
+  "outdated": false
+ },
+ "13": {
+  "source": "Damage scaling",
+  "translation": "Escalado de daño",
+  "outdated": false
+ },
+ "14": {
+  "source": "Bonus damage at level 10",
+  "translation": "Daño extra en el nivel 10",
+  "outdated": false
+ },
+ "15": {
+  "source": "Moveset",
+  "translation": "Combo",
+  "outdated": false
+ },
+ "16": {
+  "source": "Ki Blade",
+  "translation": "Espada de Ki",
+  "outdated": false
+ },
+ "17": {
+  "source": "25% of your Ki Damage",
+  "translation": "25% de tu Daño de ki",
+  "outdated": false
+ },
+ "18": {
+  "source": "Sword",
+  "translation": "Espada",
+  "outdated": false
+ },
+ "19": {
+  "source": "Ki Scythe",
+  "translation": "Guadaña de Ki",
+  "outdated": false
+ },
+ "20": {
+  "source": "45% of your Ki Damage",
+  "translation": "45% de tu Daño de ki",
+  "outdated": false
+ },
+ "21": {
+  "source": "Scythe",
+  "translation": "Guadaña",
+  "outdated": false
+ },
+ "22": {
+  "source": "Ki Claw Lance",
+  "translation": "Lanza-Garra de Ki",
+  "outdated": false
+ },
+ "23": {
+  "source": "65% of your Ki Damage",
+  "translation": "65% de tu Daño de ki",
+  "outdated": false
+ },
+ "24": {
+  "source": "Trident",
+  "translation": "Tridente",
+  "outdated": false
+ },
+ "25": {
+  "source": "The stronger the weapon, the more Ki each swing costs: the Ki Claw Lance is the most expensive and the Ki Blade the cheapest. The Ki Blade is also the fastest weapon and the Ki Scythe the slowest. These are the default values.",
+  "translation": "Cuanto más fuerte es el arma, más Ki cuesta cada golpe: la Lanza-Garra de Ki es la más cara y la Espada de Ki la más barata. La Espada de Ki también es el arma más rápida y la Guadaña de Ki la más lenta. Estos son los valores por defecto.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Basic ki blasts ==",
+  "translation": "== Ráfagas de ki básicas ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Each level also raises the damage of your basic ki blast ({{Key|Alt}} + right mouse button) by '''5% of your Ki Damage'''.",
+  "translation": "Cada nivel también aumenta el daño de tu ráfaga de ki básica ({{Key|Alt}} + botón derecho del ratón) en un '''5% de tu Daño de ki'''.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Shadow Dummy ==",
+  "translation": "== Doble de Sombra ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "At '''level 5''' and above, Ki Manipulation unlocks Shadow Dummy sparring. Once you have [[Special:MyLanguage/Ki Control|Ki Control]], Ki Manipulation level 5 and have killed a Shadow Dummy at least once, you can manifest a Shadow Dummy made of your own ki from the '''Minigames''' tab of the Character Menu. See [[Special:MyLanguage/Training Minigames|Training Minigames]].",
+  "translation": "Desde el '''nivel 5''', la Manipulación de Ki desbloquea el entrenamiento con el Doble de Sombra. Cuando tengas [[Special:MyLanguage/Ki Control|Control de Ki]], Manipulación de Ki nivel 5 y hayas matado al menos un Doble de Sombra, puedes manifestar un Doble de Sombra hecho de tu propio ki desde la pestaña '''Minijuegos''' del menú de personaje. Consulta [[Special:MyLanguage/Training Minigames|Minijuegos de entrenamiento]].",
+  "outdated": false
+ }
+}

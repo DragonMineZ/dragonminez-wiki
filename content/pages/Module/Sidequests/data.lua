@@ -78,13 +78,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'A Gift for 18',
-				es = 'A Gift for 18',
-				pt = 'A Gift for 18',
+				es = 'Un Regalo para 18',
+				pt = 'Um Presente para a 18',
 			},
 			desc = {
 				en = 'Krillin wants to thank Android 18 but doesn\'t know what to bring. Help him with some diamonds and flowers.',
-				es = 'Krillin wants to thank Android 18 but doesn\'t know what to bring. Help him with some diamonds and flowers.',
-				pt = 'Krillin wants to thank Android 18 but doesn\'t know what to bring. Help him with some diamonds and flowers.',
+				es = 'Krilin quiere darle las gracias a la Androide 18, pero no sabe qué llevarle. Ayúdalo con unos diamantes y flores.',
+				pt = 'Kuririn quer agradecer à Androide 18, mas não sabe o que levar. Ajude-o com alguns diamantes e flores.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Krillin|Krillin]]',
@@ -96,10 +96,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 15: \'\'Super Perfect Cell\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 15: \'\'Cell Super Perfeito\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 15: \'\'Cell Super Perfeito\'\'',
 				},
 			},
 			objectives = {
@@ -150,7 +150,7 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Dende|Dende]]',
-				es = '[[Special:MyLanguage/Dende|Dende]]',
+				es = '[[Special:MyLanguage/Dende|Dendé]]',
 				pt = '[[Special:MyLanguage/Dende|Dende]]',
 			},
 			unlock = {
@@ -159,12 +159,12 @@ return {
 					'Be at [[Special:MyLanguage/Kami\'s Lookout|Kami\'s Lookout]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 1: \'\'Aviso en la Atalaya de Kami\'\'',
-					'Estar en [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 1: \'\'Aviso en la Atalaya de Kami\'\'',
+					'Estar en [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 1: \'\'Aviso do Mirante de Kami\'\'',
-					'Estar em [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 1: \'\'Aviso do Mirante de Kami\'\'',
+					'Estar em [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 				},
 			},
 			objectives = {
@@ -173,11 +173,11 @@ return {
 					'Talk to [[Special:MyLanguage/Dende|Dende]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
-					'Habla con [[Special:MyLanguage/Dende|Dende]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
+					'Habla con [[Special:MyLanguage/Dende|Dendé]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 					'Fale com [[Special:MyLanguage/Dende|Dende]]',
 				},
 			},
@@ -202,17 +202,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Dende\'s Gratitude',
-				es = 'Dende\'s Gratitude',
-				pt = 'Dende\'s Gratitude',
+				es = 'La Gratitud de Dendé',
+				pt = 'A Gratidão de Dende',
 			},
 			desc = {
 				en = 'Dende never forgot who helped the Namekians. Visit him at the Lookout and bring him golden apples.',
-				es = 'Dende never forgot who helped the Namekians. Visit him at the Lookout and bring him golden apples.',
-				pt = 'Dende never forgot who helped the Namekians. Visit him at the Lookout and bring him golden apples.',
+				es = 'Dendé nunca olvidó quién ayudó a los namekianos. Visítalo en la Atalaya y llévale manzanas doradas.',
+				pt = 'Dende nunca esqueceu quem ajudou os namekuseijins. Visite-o no Mirante e leve maçãs douradas para ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Dende|Dende]]',
-				es = '[[Special:MyLanguage/Dende|Dende]]',
+				es = '[[Special:MyLanguage/Dende|Dendé]]',
 				pt = '[[Special:MyLanguage/Dende|Dende]]',
 			},
 			unlock = {
@@ -221,12 +221,12 @@ return {
 					'Alignment 40 or higher',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 22: \'\'Summon Porunga\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 22: \'\'Invoca a Porunga\'\'',
 					'Alineamiento de 40 o más',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 22: \'\'Summon Porunga\'\'',
-					'Alinhamento 40 ou mais',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 22: \'\'Invoque Porunga\'\'',
+					'Índole de 40 ou mais',
 				},
 			},
 			objectives = {
@@ -236,12 +236,12 @@ return {
 					'Talk to [[Special:MyLanguage/Dende|Dende]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
-					'Entrega 4 × Manzana dorada a [[Special:MyLanguage/Dende|Dende]]',
-					'Habla con [[Special:MyLanguage/Dende|Dende]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
+					'Entrega 4 × Manzana dorada a [[Special:MyLanguage/Dende|Dendé]]',
+					'Habla con [[Special:MyLanguage/Dende|Dendé]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 					'Entregue 4 × Maçã Dourada para [[Special:MyLanguage/Dende|Dende]]',
 					'Fale com [[Special:MyLanguage/Dende|Dende]]',
 				},
@@ -347,10 +347,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 15: \'\'Super Perfect Cell\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 15: \'\'Cell Super Perfeito\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 15: \'\'Cell Super Perfeito\'\'',
 				},
 			},
 			objectives = {
@@ -359,11 +359,11 @@ return {
 					'Talk to [[Special:MyLanguage/Goku|Goku]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
 					'Habla con [[Special:MyLanguage/Goku|Goku]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 					'Fale com [[Special:MyLanguage/Goku|Goku]]',
 				},
 			},
@@ -407,12 +407,12 @@ return {
 					'Be at [[Special:MyLanguage/Grand Elder\'s House|Grand Elder\'s House]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 11: \'\'El Caos del Cambio de Cuerpo\'\'',
-					'Estar en [[Special:MyLanguage/Grand Elder\'s House|Casa del Gran Patriarca]]',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 11: \'\'El Caos del Cambio de Cuerpo\'\'',
+					'Estar en [[Special:MyLanguage/Grand Elder\'s House|Casa del Gran Anciano]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 11: \'\'Caos da Troca de Corpos\'\'',
-					'Estar em [[Special:MyLanguage/Grand Elder\'s House|Casa do Grande Patriarca]]',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 11: \'\'Caos da Troca de Corpos\'\'',
+					'Estar em [[Special:MyLanguage/Grand Elder\'s House|Casa do Grande Ancião]]',
 				},
 			},
 			objectives = {
@@ -450,13 +450,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Farewell, Goku',
-				es = 'Farewell, Goku',
-				pt = 'Farewell, Goku',
+				es = 'Adiós, Goku',
+				pt = 'Adeus, Goku',
 			},
 			desc = {
 				en = 'Goku is leaving on Shenron\'s back. Visit his house one last time and say goodbye.',
-				es = 'Goku is leaving on Shenron\'s back. Visit his house one last time and say goodbye.',
-				pt = 'Goku is leaving on Shenron\'s back. Visit his house one last time and say goodbye.',
+				es = 'Goku se va a lomos de Shenron. Visita su casa una última vez y despídete.',
+				pt = 'Goku está indo embora nas costas de Shenlong. Visite a casa dele uma última vez e se despeça.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Goku|Goku]]',
@@ -468,10 +468,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 46: \'\'Omega Shenron\'s End\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 46: \'\'Omega Shenron\'s End\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 46: \'\'El Fin de Omega Shenron\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 46: \'\'Omega Shenron\'s End\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 46: \'\'O Fim de Omega Shenlong\'\'',
 				},
 			},
 			objectives = {
@@ -530,10 +530,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 8: \'\'Recoome\'s Rampage\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 8: \'\'El Arrebato de Recoome\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 8: \'\'El Arrebato de Recoome\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 8: \'\'Fúria de Recoome\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 8: \'\'Fúria de Recoome\'\'',
 				},
 			},
 			objectives = {
@@ -571,13 +571,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Holding the Line',
-				es = 'Holding the Line',
-				pt = 'Holding the Line',
+				es = 'Resistir a Toda Costa',
+				pt = 'Segurando a Linha',
 			},
 			desc = {
 				en = 'Piccolo wants to know if you could hold Cell back the way Tien did. Spar with Tien, then report to Piccolo.',
-				es = 'Piccolo wants to know if you could hold Cell back the way Tien did. Spar with Tien, then report to Piccolo.',
-				pt = 'Piccolo wants to know if you could hold Cell back the way Tien did. Spar with Tien, then report to Piccolo.',
+				es = 'Piccolo quiere saber si podrías contener a Cell como lo hizo Ten Shin Han. Entrena con Ten Shin Han y luego infórmale a Piccolo.',
+				pt = 'Piccolo quer saber se você conseguiria segurar Cell como Tenshinhan fez. Treine com Tenshinhan e depois fale com Piccolo.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Piccolo|Piccolo]]',
@@ -589,10 +589,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 10: \'\'Cell Emerges\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 10: \'\'Aparece Cell\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 10: \'\'Aparece Cell\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 10: \'\'Cell Surge\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 10: \'\'Cell Surge\'\'',
 				},
 			},
 			objectives = {
@@ -601,11 +601,11 @@ return {
 					'Talk to [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 				es = {
-					'Entrena con Tien Shinhan y gana sin matarlo (aparece con la misión, 100 000 de vida)',
+					'Entrena con Ten Shin Han y gana sin matarlo (aparece con la misión, 100 000 de vida)',
 					'Habla con [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 				pt = {
-					'Treine com Tien Shinhan e vença sem matá-lo (surge com a missão, 100 000 de vida)',
+					'Treine com Tenshinhan e vença sem matá-lo (surge com a missão, 100 000 de vida)',
 					'Fale com [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 			},
@@ -630,28 +630,28 @@ return {
 			repeatable = false,
 			name = {
 				en = 'A Day in the Chamber',
-				es = 'A Day in the Chamber',
-				pt = 'A Day in the Chamber',
+				es = 'Un Día en la Habitación',
+				pt = 'Um Dia na Sala',
 			},
 			desc = {
 				en = 'Mr. Popo says the Hyperbolic Time Chamber is about more than fighting. Enter it, reach Meditation level 3 and talk to him.',
-				es = 'Mr. Popo says the Hyperbolic Time Chamber is about more than fighting. Enter it, reach Meditation level 3 and talk to him.',
-				pt = 'Mr. Popo says the Hyperbolic Time Chamber is about more than fighting. Enter it, reach Meditation level 3 and talk to him.',
+				es = 'El Sr. Popo dice que la Cámara Hiperbólica del Tiempo no es solo para pelear. Entra, sube Meditación al nivel 3 y habla con él.',
+				pt = 'O Sr Popo diz que a Sala do Tempo não serve só para lutar. Entre nela, alcance o nível 3 de Meditação e fale com ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				es = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				pt = '[[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+				es = '[[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
+				pt = '[[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 			},
 			unlock = {
 				en = {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 12: \'\'Beyond Super Saiyan\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 12: \'\'Más allá del Super Saiyajin\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 12: \'\'Más allá del Super Saiyajin\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 12: \'\'Além do Super Saiyajin\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 12: \'\'Além do Super Saiyajin\'\'',
 				},
 			},
 			objectives = {
@@ -661,14 +661,14 @@ return {
 					'Talk to [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
 				},
 				es = {
-					'Ve a [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]',
+					'Ve a [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 					'Sube [[Special:MyLanguage/Meditation|Meditación]] al nivel 3',
-					'Habla con [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
+					'Habla con [[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
 				},
 				pt = {
-					'Vá para [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]',
+					'Vá para [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 					'Alcance o nível 3 de [[Special:MyLanguage/Meditation|Meditação]]',
-					'Fale com [[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+					'Fale com [[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 				},
 			},
 			rewards = {
@@ -692,17 +692,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Old Kai\'s Lesson',
-				es = 'Old Kai\'s Lesson',
-				pt = 'Old Kai\'s Lesson',
+				es = 'La Lección del Kaioshin Anciano',
+				pt = 'A Lição do Velho Kaioshin',
 			},
 			desc = {
 				en = 'The Old Kai believes a true warrior must feel ki, not just see it. Learn Ki Sense on the Sacred World of the Kais and show him.',
-				es = 'The Old Kai believes a true warrior must feel ki, not just see it. Learn Ki Sense on the Sacred World of the Kais and show him.',
-				pt = 'The Old Kai believes a true warrior must feel ki, not just see it. Learn Ki Sense on the Sacred World of the Kais and show him.',
+				es = 'El Kaioshin Anciano cree que un verdadero guerrero debe sentir el ki, no solo verlo. Aprende Sentir Ki en el Planeta Sagrado de los Kaioshins y demuéstraselo.',
+				pt = 'O Velho Kaioshin acredita que um verdadeiro guerreiro deve sentir o ki, não só vê-lo. Aprenda Sentido de Ki no Mundo Sagrado dos Kai e mostre a ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Old Kai|Old Kai]]',
-				es = '[[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
+				es = '[[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
 				pt = '[[Special:MyLanguage/Old Kai|Velho Kaioshin]]',
 			},
 			unlock = {
@@ -712,13 +712,13 @@ return {
 					'Level 400',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 29: \'\'Regresa al Mundo Sagrado\'\'',
-					'Estar en [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshin]]',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 29: \'\'Regresa al Mundo Sagrado\'\'',
+					'Estar en [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshins]]',
 					'Nivel 400',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 29: \'\'Retorno ao Mundo Sagrado\'\'',
-					'Estar em [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado dos Kaioshins]]',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 29: \'\'Retorno ao Mundo Sagrado\'\'',
+					'Estar em [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]]',
 					'Nível 400',
 				},
 			},
@@ -729,7 +729,7 @@ return {
 				},
 				es = {
 					'Sube [[Special:MyLanguage/Ki Sense|Sentir Ki]] al nivel 1',
-					'Habla con [[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
+					'Habla con [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
 				},
 				pt = {
 					'Alcance o nível 1 de [[Special:MyLanguage/Ki Sense|Sentido de Ki]]',
@@ -757,13 +757,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Jackie Chun\'s Rematch',
-				es = 'Jackie Chun\'s Rematch',
-				pt = 'Jackie Chun\'s Rematch',
+				es = 'La Revancha de Jackie Chun',
+				pt = 'A Revanche de Jackie Chun',
 			},
 			desc = {
 				en = 'A certain mysterious old man wants a rematch at full power. Defeat Jackie Chun and report back to Roshi.',
-				es = 'A certain mysterious old man wants a rematch at full power. Defeat Jackie Chun and report back to Roshi.',
-				pt = 'A certain mysterious old man wants a rematch at full power. Defeat Jackie Chun and report back to Roshi.',
+				es = 'Cierto anciano misterioso quiere una revancha con todo su poder. Derrota a Jackie Chun y vuelve con Roshi para contárselo.',
+				pt = 'Um certo velho misterioso quer uma revanche com poder total. Derrote Jackie Chun e volte para falar com o Mestre Kame.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Master Roshi|Master Roshi]]',
@@ -775,10 +775,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 29: \'\'Baba\'s Fighters: Kid Goku\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 29: \'\'Baba\'s Fighters: Kid Goku\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 29: \'\'Luchadores de Baba: Goku Niño\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 29: \'\'Baba\'s Fighters: Kid Goku\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 29: \'\'Lutadores da Vovó Uranai: Goku Criança\'\'',
 				},
 			},
 			objectives = {
@@ -787,11 +787,11 @@ return {
 					'Talk to [[Special:MyLanguage/Master Roshi|Master Roshi]]',
 				},
 				es = {
-					'Derrota a Jackie Chun (Full Power) (aparece con la misión, 1 000 de vida)',
+					'Derrota a Jackie Chun (Poder Total) (aparece con la misión, 1 000 de vida)',
 					'Habla con [[Special:MyLanguage/Master Roshi|Maestro Roshi]]',
 				},
 				pt = {
-					'Derrote Jackie Chun (Full Power) (surge com a missão, 1 000 de vida)',
+					'Derrote Jackie Chun (Poder Total) (surge com a missão, 1 000 de vida)',
 					'Fale com [[Special:MyLanguage/Master Roshi|Mestre Kame]]',
 				},
 			},
@@ -816,13 +816,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Pint-Sized Goku',
-				es = 'Pint-Sized Goku',
-				pt = 'Pint-Sized Goku',
+				es = 'Goku de Bolsillo',
+				pt = 'Goku de Bolso',
 			},
 			desc = {
 				en = 'Goku is still getting used to his small body and wants a sparring partner. Spar with Mini Goku in his base form.',
-				es = 'Goku is still getting used to his small body and wants a sparring partner. Spar with Mini Goku in his base form.',
-				pt = 'Goku is still getting used to his small body and wants a sparring partner. Spar with Mini Goku in his base form.',
+				es = 'Goku todavía se está acostumbrando a su cuerpo pequeño y quiere un compañero de entrenamiento. Entrena con Mini Goku en su forma base.',
+				pt = 'Goku ainda está se acostumando com o corpo pequeno e quer um parceiro de treino. Treine com o Mini Goku na forma base.',
 			},
 			giverText = nil,
 			unlock = {
@@ -831,11 +831,11 @@ return {
 					'Be in [[Special:MyLanguage/Demon Realm|Demon Realm]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 6: \'\'Glorio\'s Test\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 6: \'\'La Prueba de Glorio\'\'',
 					'Estar en [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 6: \'\'Glorio\'s Test\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 6: \'\'O Teste de Glorio\'\'',
 					'Estar em [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]',
 				},
 			},
@@ -871,13 +871,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Piccolo\'s Training',
-				es = 'Piccolo\'s Training',
-				pt = 'Piccolo\'s Training',
+				es = 'El Entrenamiento de Piccolo',
+				pt = 'O Treino de Piccolo',
 			},
 			desc = {
 				en = 'Before you leave Earth, Piccolo wants to see how strong you really are. Spar with him, then talk to him.',
-				es = 'Before you leave Earth, Piccolo wants to see how strong you really are. Spar with him, then talk to him.',
-				pt = 'Before you leave Earth, Piccolo wants to see how strong you really are. Spar with him, then talk to him.',
+				es = 'Antes de que te vayas de la Tierra, Piccolo quiere ver qué tan fuerte eres en realidad. Entrena con él y luego habla con él.',
+				pt = 'Antes de você sair da Terra, Piccolo quer ver o quanto você é forte de verdade. Treine com ele e depois fale com ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Piccolo|Piccolo]]',
@@ -890,11 +890,11 @@ return {
 					'Be in [[Special:MyLanguage/Earth|Earth]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 2: \'\'Gomah\'s Wish\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 2: \'\'El Deseo de Gomah\'\'',
 					'Estar en [[Special:MyLanguage/Earth|Tierra]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 2: \'\'Gomah\'s Wish\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 2: \'\'O Desejo de Gomah\'\'',
 					'Estar em [[Special:MyLanguage/Earth|Terra]]',
 				},
 			},
@@ -1076,12 +1076,12 @@ return {
 					'Be at [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
-					'Estar en [[Special:MyLanguage/Hyperbolic Time Chamber|Habitación del Tiempo]]',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
+					'Estar en [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 11: \'\'Cell Semi-Perfeito\'\'',
-					'Estar em [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Espírito e do Tempo]]',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 11: \'\'Cell Semi-Perfeito\'\'',
+					'Estar em [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 				},
 			},
 			objectives = {
@@ -1190,13 +1190,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Pan Wants to Train',
-				es = 'Pan Wants to Train',
-				pt = 'Pan Wants to Train',
+				es = 'Pan Quiere Entrenar',
+				pt = 'Pan Quer Treinar',
 			},
 			desc = {
 				en = 'Pan refuses to be left behind again. Spar with her, then report back to Gohan.',
-				es = 'Pan refuses to be left behind again. Spar with her, then report back to Gohan.',
-				pt = 'Pan refuses to be left behind again. Spar with her, then report back to Gohan.',
+				es = 'Pan se niega a quedarse atrás otra vez. Entrena con ella y luego infórmale a Gohan.',
+				pt = 'Pan se recusa a ficar para trás de novo. Treine com ela e depois volte para falar com Gohan.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Gohan|Gohan]]',
@@ -1208,10 +1208,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 30: \'\'Super 17 Returns\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 30: \'\'Super 17 Returns\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 30: \'\'El Regreso de Super 17\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 30: \'\'Super 17 Returns\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 30: \'\'Super 17 Retorna\'\'',
 				},
 			},
 			objectives = {
@@ -1259,18 +1259,18 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/King Kai|King Kai]]',
-				es = '[[Special:MyLanguage/King Kai|Kaio del Norte]]',
-				pt = '[[Special:MyLanguage/King Kai|Senhor Kaioh]]',
+				es = '[[Special:MyLanguage/King Kai|Kaiosama]]',
+				pt = '[[Special:MyLanguage/King Kai|Rei Kai]]',
 			},
 			unlock = {
 				en = {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 1: \'\'Train with Goten and Gohan\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
 				},
 			},
 			objectives = {
@@ -1278,10 +1278,10 @@ return {
 					'Talk to [[Special:MyLanguage/King Kai|King Kai]]',
 				},
 				es = {
-					'Habla con [[Special:MyLanguage/King Kai|Kaio del Norte]]',
+					'Habla con [[Special:MyLanguage/King Kai|Kaiosama]]',
 				},
 				pt = {
-					'Fale com [[Special:MyLanguage/King Kai|Senhor Kaioh]]',
+					'Fale com [[Special:MyLanguage/King Kai|Rei Kai]]',
 				},
 			},
 			rewards = {
@@ -1377,8 +1377,8 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/King Kai|King Kai]]',
-				es = '[[Special:MyLanguage/King Kai|Kaio del Norte]]',
-				pt = '[[Special:MyLanguage/King Kai|Senhor Kaioh]]',
+				es = '[[Special:MyLanguage/King Kai|Kaiosama]]',
+				pt = '[[Special:MyLanguage/King Kai|Rei Kai]]',
 			},
 			unlock = {
 				en = {
@@ -1387,13 +1387,13 @@ return {
 					'[[Special:MyLanguage/Ultimate|Ultimate]] level 1 or higher',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 23: \'\'Gotenks a Plena Potencia\'\'',
-					'Estar en un bioma de Sacred Kai Plains',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 23: \'\'Gotenks a Plena Potencia\'\'',
+					'Estar en un bioma de Llanuras Sagradas de los Kaioshins',
 					'[[Special:MyLanguage/Ultimate|Definitivo]] al nivel 1 o más',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 23: \'\'Gotenks no Poder Total\'\'',
-					'Estar em um bioma de Sacred Kai Plains',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 23: \'\'Gotenks no Poder Total\'\'',
+					'Estar em um bioma de Planícies Sagradas dos Kai',
 					'[[Special:MyLanguage/Ultimate|Ultimate]] no nível 1 ou mais',
 				},
 			},
@@ -1404,7 +1404,7 @@ return {
 				},
 				es = {
 					'Consigue 1 × [[Special:MyLanguage/Z Sword|Espada-Z]]',
-					'Habla con [[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
+					'Habla con [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
 				},
 				pt = {
 					'Obtenha 1 × [[Special:MyLanguage/Z Sword|Z-Espada]]',
@@ -1451,11 +1451,11 @@ return {
 					'Be in a Forest biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Aguanta contra Nappa\'\'',
 					'Estar en un bioma de Bosque',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Resista Contra Nappa\'\'',
 					'Estar em um bioma de Floresta',
 				},
 			},
@@ -1640,11 +1640,11 @@ return {
 					'Be in any mountain biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Aguanta contra Nappa\'\'',
 					'Estar en cualquier bioma de montaña',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Resista Contra Nappa\'\'',
 					'Estar em qualquer bioma de montanha',
 				},
 			},
@@ -1702,12 +1702,12 @@ return {
 					'Be at [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 12: \'\'Más allá del Super Saiyajin\'\'',
-					'Estar en [[Special:MyLanguage/Hyperbolic Time Chamber|Habitación del Tiempo]]',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 12: \'\'Más allá del Super Saiyajin\'\'',
+					'Estar en [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 12: \'\'Além do Super Saiyajin\'\'',
-					'Estar em [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Espírito e do Tempo]]',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 12: \'\'Além do Super Saiyajin\'\'',
+					'Estar em [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 				},
 			},
 			objectives = {
@@ -1834,10 +1834,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 10: \'\'Cell Emerges\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 10: \'\'Aparece Cell\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 10: \'\'Aparece Cell\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 10: \'\'Cell Surge\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 10: \'\'Cell Surge\'\'',
 				},
 			},
 			objectives = {
@@ -1848,13 +1848,13 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Habitación del Tiempo]]',
+					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 					'Consigue 20 × Polvo de redstone',
 					'Consigue 8 × Diamante',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Espírito e do Tempo]]',
+					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 					'Obtenha 20 × Pó de Redstone',
 					'Obtenha 8 × Diamante',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
@@ -1881,13 +1881,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Hide and Seek',
-				es = 'Hide and Seek',
-				pt = 'Hide and Seek',
+				es = 'Las Escondidas',
+				pt = 'Esconde-Esconde',
 			},
 			desc = {
 				en = 'Goten and Trunks have run off to play. Search a dark forest, a jungle and the badlands, then tell Gohan you found them.',
-				es = 'Goten and Trunks have run off to play. Search a dark forest, a jungle and the badlands, then tell Gohan you found them.',
-				pt = 'Goten and Trunks have run off to play. Search a dark forest, a jungle and the badlands, then tell Gohan you found them.',
+				es = 'Goten y Trunks se escaparon a jugar. Busca en un bosque oscuro, una jungla y unas tierras baldías, y luego dile a Gohan que los encontraste.',
+				pt = 'Goten e Trunks fugiram para brincar. Procure em uma floresta escura, em uma selva e nas terras áridas, e depois avise Gohan que você os encontrou.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Gohan|Gohan]]',
@@ -1899,10 +1899,10 @@ return {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 6: \'\'Tournament: Trunks\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 6: \'\'Torneo: Trunks\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 6: \'\'Torneo: Trunks\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 6: \'\'Torneio: Trunks\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 6: \'\'Torneio: Trunks\'\'',
 				},
 			},
 			objectives = {
@@ -1975,12 +1975,12 @@ return {
 				es = {
 					'Encuentra [[Special:MyLanguage/Kame House|Kame House]]',
 					'Encuentra [[Special:MyLanguage/Goku\'s House|Casa de Goku]]',
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
 				},
 				pt = {
 					'Encontre [[Special:MyLanguage/Kame House|Casa do Kame]]',
 					'Encontre [[Special:MyLanguage/Goku\'s House|Casa do Goku]]',
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 				},
 			},
 			rewards = {
@@ -2004,13 +2004,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Survey of Namek',
-				es = 'Survey of Namek',
-				pt = 'Survey of Namek',
+				es = 'Estudio de Namek',
+				pt = 'Levantamento de Namekusei',
 			},
 			desc = {
 				en = 'Learn the lay of the land on Namek: visit the Namekian rivers, the Ajissa Plains and the ruins of a village.',
-				es = 'Learn the lay of the land on Namek: visit the Namekian rivers, the Ajissa Plains and the ruins of a village.',
-				pt = 'Learn the lay of the land on Namek: visit the Namekian rivers, the Ajissa Plains and the ruins of a village.',
+				es = 'Conoce el terreno de Namek: visita los ríos namekianos, las Llanuras de Ajissa y las ruinas de una aldea.',
+				pt = 'Conheça o terreno de Namekusei: visite os rios namekuseijins, as Planícies de Ajissa e as ruínas de uma vila.',
 			},
 			giverText = nil,
 			unlock = {
@@ -2019,11 +2019,11 @@ return {
 					'Be in [[Special:MyLanguage/Namek|Namek]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 17: \'\'The Ruined Village\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 17: \'\'La Aldea en Ruinas\'\'',
 					'Estar en [[Special:MyLanguage/Namek|Namek]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 17: \'\'The Ruined Village\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 17: \'\'A Vila em Ruínas\'\'',
 					'Estar em [[Special:MyLanguage/Namek|Namekusei]]',
 				},
 			},
@@ -2034,13 +2034,13 @@ return {
 					'Find [[Special:MyLanguage/Namekian Ruins|Namekian Ruins]]',
 				},
 				es = {
-					'Ve a un bioma de Namekian Rivers',
-					'Ve a un bioma de Ajissa Plains',
+					'Ve a un bioma de Ríos namekianos',
+					'Ve a un bioma de Llanuras de Ajissa',
 					'Encuentra [[Special:MyLanguage/Namekian Ruins|Ruinas namekianas]]',
 				},
 				pt = {
-					'Vá para um bioma de Namekian Rivers',
-					'Vá para um bioma de Ajissa Plains',
+					'Vá para um bioma de Rios namekuseijins',
+					'Vá para um bioma de Planícies de Ajissa',
 					'Encontre [[Special:MyLanguage/Namekian Ruins|Ruínas namekuseijins]]',
 				},
 			},
@@ -2065,13 +2065,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Haze\'s Smog',
-				es = 'Haze\'s Smog',
-				pt = 'Haze\'s Smog',
+				es = 'El Smog de Haze',
+				pt = 'A Fumaça de Haze',
 			},
 			desc = {
 				en = 'Liang Xing Long\'s poison lingers in the swamps. Clear out the slimes breeding in the smog and bring back lily pads to prove the water is clean.',
-				es = 'Liang Xing Long\'s poison lingers in the swamps. Clear out the slimes breeding in the smog and bring back lily pads to prove the water is clean.',
-				pt = 'Liang Xing Long\'s poison lingers in the swamps. Clear out the slimes breeding in the smog and bring back lily pads to prove the water is clean.',
+				es = 'El veneno de Liang Xing Long sigue en los pantanos. Acaba con los slimes que se reproducen en el smog y trae nenúfares para demostrar que el agua está limpia.',
+				pt = 'O veneno de Liang Xing Long continua nos pântanos. Acabe com os slimes que se multiplicam na fumaça tóxica e traga vitórias-régias para provar que a água está limpa.',
 			},
 			giverText = nil,
 			unlock = {
@@ -2079,10 +2079,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 32: \'\'The Two-Star Dragon\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 32: \'\'The Two-Star Dragon\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 32: \'\'El Dragón de Dos Estrellas\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 32: \'\'The Two-Star Dragon\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 32: \'\'O Dragão de Duas Estrelas\'\'',
 				},
 			},
 			objectives = {
@@ -2141,10 +2141,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 2: \'\'Cui\'s Pursuit\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
 				},
 			},
 			objectives = {
@@ -2196,10 +2196,10 @@ return {
 					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 16: \'\'Head to Namek\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 16: \'\'Head to Namek\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 16: \'\'Rumbo a Namek\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 16: \'\'Head to Namek\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 16: \'\'Siga para Namek\'\'',
 				},
 			},
 			objectives = {
@@ -2208,11 +2208,11 @@ return {
 					'Find [[Special:MyLanguage/Namekian Village|Namekian Village]]',
 				},
 				es = {
-					'Ve a un bioma de Ajissa Plains',
+					'Ve a un bioma de Llanuras de Ajissa',
 					'Encuentra [[Special:MyLanguage/Namekian Village|Aldea namekiana]]',
 				},
 				pt = {
-					'Vá para um bioma de Ajissa Plains',
+					'Vá para um bioma de Planícies de Ajissa',
 					'Encontre [[Special:MyLanguage/Namekian Village|Vila namekuseijin]]',
 				},
 			},
@@ -2247,18 +2247,18 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
-				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 			},
 			unlock = {
 				en = {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 15: \'\'100% Full Power\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 15: \'\'100% de Poder Total\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 15: \'\'100% de Poder Total\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 15: \'\'100% Poder Total\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 15: \'\'100% Poder Total\'\'',
 				},
 			},
 			objectives = {
@@ -2267,12 +2267,12 @@ return {
 					'Talk to [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshin]]',
-					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
+					'Encuentra [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshins]]',
+					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado dos Kaioshins]]',
-					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+					'Encontre [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]]',
+					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 				},
 			},
 			rewards = {
@@ -2314,10 +2314,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 10: \'\'Cell Emerges\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 10: \'\'Aparece Cell\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 10: \'\'Aparece Cell\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 10: \'\'Cell Surge\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 10: \'\'Cell Surge\'\'',
 				},
 			},
 			objectives = {
@@ -2326,11 +2326,11 @@ return {
 					'Talk to [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
 					'Habla con [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 					'Fale com [[Special:MyLanguage/Piccolo|Piccolo]]',
 				},
 			},
@@ -2380,10 +2380,10 @@ return {
 					'Find [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshin]]',
+					'Encuentra [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshins]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado dos Kaioshins]]',
+					'Encontre [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]]',
 				},
 			},
 			rewards = {
@@ -2425,10 +2425,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 3: \'\'Warning from the Future\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 3: \'\'Advertencia del Futuro\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 3: \'\'Advertencia del Futuro\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 3: \'\'Aviso do Futuro\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 3: \'\'Aviso do Futuro\'\'',
 				},
 			},
 			objectives = {
@@ -2518,13 +2518,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Red Ribbon Remnants',
-				es = 'Red Ribbon Remnants',
-				pt = 'Red Ribbon Remnants',
+				es = 'Restos de la Patrulla Roja',
+				pt = 'Remanescentes da Red Ribbon',
 			},
 			desc = {
 				en = 'Gero\'s lab still has old Red Ribbon combat robots on standby. Destroy them before they wake up.',
-				es = 'Gero\'s lab still has old Red Ribbon combat robots on standby. Destroy them before they wake up.',
-				pt = 'Gero\'s lab still has old Red Ribbon combat robots on standby. Destroy them before they wake up.',
+				es = 'El laboratorio de Gero todavía tiene viejos robots de combate de la Patrulla Roja en espera. Destrúyelos antes de que despierten.',
+				pt = 'O laboratório de Gero ainda tem velhos robôs de combate da Red Ribbon em espera. Destrua-os antes que acordem.',
 			},
 			giverText = nil,
 			unlock = {
@@ -2533,11 +2533,11 @@ return {
 					'Be at [[Special:MyLanguage/Dr. Gero\'s Lab|Dr. Gero\'s Lab]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 5: \'\'Androide 19\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 5: \'\'Androide 19\'\'',
 					'Estar en [[Special:MyLanguage/Dr. Gero\'s Lab|Laboratorio del Dr. Gero]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 5: \'\'Androide 19\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 5: \'\'Androide 19\'\'',
 					'Estar em [[Special:MyLanguage/Dr. Gero\'s Lab|Laboratório do Dr. Gero]]',
 				},
 			},
@@ -2546,10 +2546,10 @@ return {
 					'Defeat 4 × General Black\'s Robot (spawned by the quest, 40,000 health)',
 				},
 				es = {
-					'Derrota a 4 × General Black\'s Robot (aparece con la misión, 40 000 de vida)',
+					'Derrota a 4 × Robot del General Black (aparece con la misión, 40 000 de vida)',
 				},
 				pt = {
-					'Derrote 4 × General Black\'s Robot (surge com a missão, 40 000 de vida)',
+					'Derrote 4 × Robô do General Black (surge com a missão, 40 000 de vida)',
 				},
 			},
 			rewards = {
@@ -2591,10 +2591,10 @@ return {
 					'[[Special:MyLanguage/Movies Saga|Movies Saga]], quest 29: \'\'Full Power Bojack\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 29: \'\'Bojack a Plena Potencia\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 29: \'\'Bojack a Plena Potencia\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 29: \'\'Bojack Poder Total\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 29: \'\'Bojack Poder Total\'\'',
 				},
 			},
 			objectives = {
@@ -2659,10 +2659,10 @@ return {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 5: \'\'Tournament: Goten\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 5: \'\'Torneo: Goten\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 5: \'\'Torneo: Goten\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 5: \'\'Torneio: Goten\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 5: \'\'Torneio: Goten\'\'',
 				},
 			},
 			objectives = {
@@ -2721,10 +2721,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 3: \'\'Defend the Namekians\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 3: \'\'Defiende a los Namekianos\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 3: \'\'Defiende a los Namekianos\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 3: \'\'Defenda os Namekuseijins\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 3: \'\'Defenda os Namekuseijins\'\'',
 				},
 			},
 			objectives = {
@@ -2783,10 +2783,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 4: \'\'The Cruel Dodoria\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
 				},
 			},
 			objectives = {
@@ -2845,10 +2845,10 @@ return {
 					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 12: \'\'Defeat Oozaru Vegeta\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 12: \'\'Defeat Oozaru Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 12: \'\'Derrota al Oozaru Vegeta\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 12: \'\'Defeat Oozaru Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 12: \'\'Derrote Vegeta Macaco Gigante\'\'',
 				},
 			},
 			objectives = {
@@ -2889,13 +2889,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Babidi\'s Ship',
-				es = 'Babidi\'s Ship',
-				pt = 'Babidi\'s Ship',
+				es = 'La Nave de Babidi',
+				pt = 'A Nave de Babidi',
 			},
 			desc = {
 				en = 'Babidi\'s ship is still guarded by Pui Pui. Find the ship and defeat him.',
-				es = 'Babidi\'s ship is still guarded by Pui Pui. Find the ship and defeat him.',
-				pt = 'Babidi\'s ship is still guarded by Pui Pui. Find the ship and defeat him.',
+				es = 'Pui Pui todavía vigila la nave de Babidi. Encuentra la nave y derrótalo.',
+				pt = 'A nave de Babidi ainda é vigiada por Pui Pui. Encontre a nave e derrote-o.',
 			},
 			giverText = nil,
 			unlock = {
@@ -2904,11 +2904,11 @@ return {
 					'Be at [[Special:MyLanguage/Babidi\'s Spaceship|Babidi\'s Spaceship]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 17: \'\'Detén a Babidi\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 17: \'\'Detén a Babidi\'\'',
 					'Estar en [[Special:MyLanguage/Babidi\'s Spaceship|Nave de Babidi]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 17: \'\'Pare Babidi\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 17: \'\'Pare Babidi\'\'',
 					'Estar em [[Special:MyLanguage/Babidi\'s Spaceship|Nave de Babidi]]',
 				},
 			},
@@ -2944,13 +2944,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'The Great Saiyaman',
-				es = 'The Great Saiyaman',
-				pt = 'The Great Saiyaman',
+				es = 'El Gran Saiyaman',
+				pt = 'O Grande Saiyaman',
 			},
 			desc = {
 				en = 'Gohan needs a partner to keep the peace. Defeat pillagers and vindicators, then report to him.',
-				es = 'Gohan needs a partner to keep the peace. Defeat pillagers and vindicators, then report to him.',
-				pt = 'Gohan needs a partner to keep the peace. Defeat pillagers and vindicators, then report to him.',
+				es = 'Gohan necesita un compañero para mantener la paz. Derrota a saqueadores y vindicadores, y luego infórmale.',
+				pt = 'Gohan precisa de um parceiro para manter a paz. Derrote saqueadores e vingadores, e depois fale com ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Gohan|Gohan]]',
@@ -2963,12 +2963,12 @@ return {
 					'Alignment 50 or higher',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 36: \'\'Flying Lessons\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 36: \'\'Lecciones de Vuelo\'\'',
 					'Alineamiento de 50 o más',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 36: \'\'Flying Lessons\'\'',
-					'Alinhamento 50 ou mais',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 36: \'\'Aulas de Voo\'\'',
+					'Índole de 50 ou mais',
 				},
 			},
 			objectives = {
@@ -3009,13 +3009,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Red Ribbon Patrol',
-				es = 'Red Ribbon Patrol',
-				pt = 'Red Ribbon Patrol',
+				es = 'Redada contra la Patrulla Roja',
+				pt = 'Patrulha contra a Red Ribbon',
 			},
 			desc = {
 				en = 'Red Ribbon soldiers still guard their base. Find the Red Ribbon Army base and take out their troops.',
-				es = 'Red Ribbon soldiers still guard their base. Find the Red Ribbon Army base and take out their troops.',
-				pt = 'Red Ribbon soldiers still guard their base. Find the Red Ribbon Army base and take out their troops.',
+				es = 'Los soldados de la Patrulla Roja todavía vigilan su base. Encuentra la base del Ejército de la Patrulla Roja y acaba con sus tropas.',
+				pt = 'Os soldados da Red Ribbon ainda vigiam a base deles. Encontre a base do Exército Red Ribbon e acabe com as tropas.',
 			},
 			giverText = nil,
 			unlock = {
@@ -3023,10 +3023,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 13: \'\'The Red Ribbon Army\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 13: \'\'The Red Ribbon Army\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 13: \'\'El Ejército de la Patrulla Roja\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 13: \'\'The Red Ribbon Army\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 13: \'\'O Exército Red Ribbon\'\'',
 				},
 			},
 			objectives = {
@@ -3064,13 +3064,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Village Night Watch',
-				es = 'Village Night Watch',
-				pt = 'Village Night Watch',
+				es = 'Guardia Nocturna en la Aldea',
+				pt = 'Vigília Noturna na Vila',
 			},
 			desc = {
 				en = 'With Oolong gone, the villagers still fear the night. Clear out the zombies and skeletons that roam nearby.',
-				es = 'With Oolong gone, the villagers still fear the night. Clear out the zombies and skeletons that roam nearby.',
-				pt = 'With Oolong gone, the villagers still fear the night. Clear out the zombies and skeletons that roam nearby.',
+				es = 'Aunque Oolong ya se fue, los aldeanos todavía temen la noche. Acaba con los zombis y esqueletos que rondan cerca.',
+				pt = 'Mesmo sem o Oolong, os aldeões ainda têm medo da noite. Acabe com os zumbis e esqueletos que rondam por perto.',
 			},
 			giverText = nil,
 			unlock = {
@@ -3078,10 +3078,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 3: \'\'Oolong Unmasked\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 3: \'\'Oolong Unmasked\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 3: \'\'Oolong Desenmascarado\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 3: \'\'Oolong Unmasked\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 3: \'\'Oolong Desmascarado\'\'',
 				},
 			},
 			objectives = {
@@ -3137,10 +3137,10 @@ return {
 					'[[Special:MyLanguage/Movies Saga|Movies Saga]], quest 16: \'\'Cooler\'s Fifth Form\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 16: \'\'La Quinta Forma de Cooler\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 16: \'\'La Quinta Forma de Cooler\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 16: \'\'Quinta Forma de Cooler\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 16: \'\'Quinta Forma de Cooler\'\'',
 				},
 			},
 			objectives = {
@@ -3184,13 +3184,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Goku at Full Power',
-				es = 'Goku at Full Power',
-				pt = 'Goku at Full Power',
+				es = 'Goku a Plena Potencia',
+				pt = 'Goku no Poder Total',
 			},
 			desc = {
 				en = 'With Gomah gone, Goku wants a real fight. Meet him on the plains: he climbs from his base form through Super Saiyan and Super Saiyan 2 up to Super Saiyan 3. Talk to him afterwards.',
-				es = 'With Gomah gone, Goku wants a real fight. Meet him on the plains: he climbs from his base form through Super Saiyan and Super Saiyan 2 up to Super Saiyan 3. Talk to him afterwards.',
-				pt = 'With Gomah gone, Goku wants a real fight. Meet him on the plains: he climbs from his base form through Super Saiyan and Super Saiyan 2 up to Super Saiyan 3. Talk to him afterwards.',
+				es = 'Sin Gomah, Goku quiere una pelea de verdad. Encuéntralo en las llanuras: pasa de su forma base por Super Saiyajin y Super Saiyajin 2 hasta llegar a Super Saiyajin 3. Habla con él después.',
+				pt = 'Sem Gomah, Goku quer uma luta de verdade. Encontre-o nas planícies: ele sobe da forma base, passando por Super Saiyajin e Super Saiyajin 2, até o Super Saiyajin 3. Fale com ele depois.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Goku|Goku]]',
@@ -3204,12 +3204,12 @@ return {
 					'Be in any plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 17: \'\'The Demon Eye\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 17: \'\'El Ojo Demoníaco\'\'',
 					'Estar en [[Special:MyLanguage/Earth|Tierra]]',
 					'Estar en cualquier bioma de llanuras',
 				},
 				pt = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 17: \'\'The Demon Eye\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 17: \'\'O Olho Demoníaco\'\'',
 					'Estar em [[Special:MyLanguage/Earth|Terra]]',
 					'Estar em qualquer bioma de planícies',
 				},
@@ -3252,13 +3252,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Ginyu Force Stragglers',
-				es = 'Ginyu Force Stragglers',
-				pt = 'Ginyu Force Stragglers',
+				es = 'Rezagados de las Fuerzas Especiales Ginyu',
+				pt = 'Remanescentes da Força Ginyu',
 			},
 			desc = {
 				en = 'Guldo and Recoome are back on their feet and looking for revenge. Defeat them both on Namek.',
-				es = 'Guldo and Recoome are back on their feet and looking for revenge. Defeat them both on Namek.',
-				pt = 'Guldo and Recoome are back on their feet and looking for revenge. Defeat them both on Namek.',
+				es = 'Guldo y Recoome volvieron a ponerse de pie y buscan venganza. Derrótalos a ambos en Namek.',
+				pt = 'Guldo e Rikum estão de pé de novo e querem vingança. Derrote os dois em Namekusei.',
 			},
 			giverText = nil,
 			unlock = {
@@ -3267,11 +3267,11 @@ return {
 					'Be in [[Special:MyLanguage/Namek|Namek]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 10: \'\'Capitán Ginyu\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 10: \'\'Capitán Ginyu\'\'',
 					'Estar en [[Special:MyLanguage/Namek|Namek]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 10: \'\'Capitão Ginyu\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 10: \'\'Capitão Ginyu\'\'',
 					'Estar em [[Special:MyLanguage/Namek|Namekusei]]',
 				},
 			},
@@ -3323,8 +3323,8 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				es = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				pt = '[[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+				es = '[[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
+				pt = '[[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 			},
 			unlock = {
 				en = {
@@ -3332,12 +3332,12 @@ return {
 					'Be in a Rocky biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 3: \'\'Garlic Jr. Transformado\'\'',
-					'Estar en un bioma de Rocky',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 3: \'\'Garlic Jr. Transformado\'\'',
+					'Estar en un bioma de Rocoso',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 3: \'\'Garlic Jr. Transformado\'\'',
-					'Estar em um bioma de Rocky',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 3: \'\'Garlic Jr. Transformado\'\'',
+					'Estar em um bioma de Rochoso',
 				},
 			},
 			objectives = {
@@ -3347,11 +3347,11 @@ return {
 				},
 				es = {
 					'Derrota a 3 × Garlic Jr.',
-					'Habla con [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
+					'Habla con [[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
 				},
 				pt = {
 					'Derrote 3 × Garlic Jr.',
-					'Fale com [[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+					'Fale com [[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 				},
 			},
 			rewards = {
@@ -3394,12 +3394,12 @@ return {
 					'Be in a Ajissa Plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 6: \'\'El Príncipe Saiyajin\'\'',
-					'Estar en un bioma de Ajissa Plains',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 6: \'\'El Príncipe Saiyajin\'\'',
+					'Estar en un bioma de Llanuras de Ajissa',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 6: \'\'O Príncipe Saiyajin\'\'',
-					'Estar em um bioma de Ajissa Plains',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 6: \'\'O Príncipe Saiyajin\'\'',
+					'Estar em um bioma de Planícies de Ajissa',
 				},
 			},
 			objectives = {
@@ -3437,13 +3437,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Hell Breakout',
-				es = 'Hell Breakout',
-				pt = 'Hell Breakout',
+				es = 'Fuga del Infierno',
+				pt = 'Fuga do Inferno',
 			},
 			desc = {
 				en = 'With the gate between worlds broken, the undead are roaming the Earth. Put down the zombies, skeletons and wither skeletons that slipped out.',
-				es = 'With the gate between worlds broken, the undead are roaming the Earth. Put down the zombies, skeletons and wither skeletons that slipped out.',
-				pt = 'With the gate between worlds broken, the undead are roaming the Earth. Put down the zombies, skeletons and wither skeletons that slipped out.',
+				es = 'Con la puerta entre los mundos rota, los no muertos recorren la Tierra. Acaba con los zombis, esqueletos y esqueletos del Wither que se escaparon.',
+				pt = 'Com o portão entre os mundos quebrado, os mortos-vivos vagam pela Terra. Acabe com os zumbis, esqueletos e esqueletos Wither que escaparam.',
 			},
 			giverText = nil,
 			unlock = {
@@ -3451,10 +3451,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 25: \'\'Hell\'s Escapees\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 25: \'\'Hell\'s Escapees\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 25: \'\'Los Fugitivos del Infierno\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 25: \'\'Hell\'s Escapees\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 25: \'\'Os Fugitivos do Inferno\'\'',
 				},
 			},
 			objectives = {
@@ -3514,12 +3514,12 @@ return {
 					'Be in a Rocky biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 5: \'\'Androide 19\'\'',
-					'Estar en un bioma de Rocky',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 5: \'\'Androide 19\'\'',
+					'Estar en un bioma de Rocoso',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 5: \'\'Androide 19\'\'',
-					'Estar em um bioma de Rocky',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 5: \'\'Androide 19\'\'',
+					'Estar em um bioma de Rochoso',
 				},
 			},
 			objectives = {
@@ -3686,8 +3686,8 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/King Kai|King Kai]]',
-				es = '[[Special:MyLanguage/King Kai|Kaio del Norte]]',
-				pt = '[[Special:MyLanguage/King Kai|Senhor Kaioh]]',
+				es = '[[Special:MyLanguage/King Kai|Kaiosama]]',
+				pt = '[[Special:MyLanguage/King Kai|Rei Kai]]',
 			},
 			unlock = {
 				en = {
@@ -3695,11 +3695,11 @@ return {
 					'Be in [[Special:MyLanguage/Otherworld|Otherworld]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 37: \'\'Súper Janemba\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 37: \'\'Súper Janemba\'\'',
 					'Estar en [[Special:MyLanguage/Otherworld|Otro Mundo]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 37: \'\'Super Janemba\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 37: \'\'Super Janemba\'\'',
 					'Estar em [[Special:MyLanguage/Otherworld|Outro Mundo]]',
 				},
 			},
@@ -3710,11 +3710,11 @@ return {
 				},
 				es = {
 					'Derrota a Pikkon',
-					'Habla con [[Special:MyLanguage/King Kai|Kaio del Norte]]',
+					'Habla con [[Special:MyLanguage/King Kai|Kaiosama]]',
 				},
 				pt = {
 					'Derrote Pikkon',
-					'Fale com [[Special:MyLanguage/King Kai|Senhor Kaioh]]',
+					'Fale com [[Special:MyLanguage/King Kai|Rei Kai]]',
 				},
 			},
 			rewards = {
@@ -3755,10 +3755,10 @@ return {
 					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 9: \'\'Hold Against Nappa\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Aguanta contra Nappa\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Resista Contra Nappa\'\'',
 				},
 			},
 			objectives = {
@@ -3806,8 +3806,8 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
-				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 			},
 			unlock = {
 				en = {
@@ -3815,11 +3815,11 @@ return {
 					'Be in any plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 13: \'\'Lord Slug Gigante\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 13: \'\'Lord Slug Gigante\'\'',
 					'Estar en cualquier bioma de llanuras',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 13: \'\'Lord Slug Gigante\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 13: \'\'Lord Slug Gigante\'\'',
 					'Estar em qualquer bioma de planícies',
 				},
 			},
@@ -3830,11 +3830,11 @@ return {
 				},
 				es = {
 					'Derrota a 20 × Soldado de Slug (aparece con la misión, 1 040 de vida)',
-					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
+					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
 				},
 				pt = {
 					'Derrote 20 × Soldado de Slug (surge com a missão, 1 040 de vida)',
-					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 				},
 			},
 			rewards = {
@@ -3877,11 +3877,11 @@ return {
 					'Be in any plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 10: \'\'Aparece Cell\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 10: \'\'Aparece Cell\'\'',
 					'Estar en cualquier bioma de llanuras',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 10: \'\'Cell Surge\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 10: \'\'Cell Surge\'\'',
 					'Estar em qualquer bioma de planícies',
 				},
 			},
@@ -3941,10 +3941,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 14: \'\'Cell Juniors\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 14: \'\'Los Cell Jr.\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 14: \'\'Los Cell Jr.\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 14: \'\'Cell Jr.\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 14: \'\'Cell Jr.\'\'',
 				},
 			},
 			objectives = {
@@ -4063,11 +4063,11 @@ return {
 					'Be in a Snowy Plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 22: \'\'Super Androide 13\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 22: \'\'Super Androide 13\'\'',
 					'Estar en un bioma de Llanura nevada',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 22: \'\'Super Androide 13\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 22: \'\'Super Androide 13\'\'',
 					'Estar em um bioma de Planícies nevadas',
 				},
 			},
@@ -4115,13 +4115,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'The Shutdown Remote',
-				es = 'The Shutdown Remote',
-				pt = 'The Shutdown Remote',
+				es = 'El Control de Apagado',
+				pt = 'O Controle de Desligamento',
 			},
 			desc = {
 				en = 'With Gero\'s blueprints, Bulma can build a remote to shut down the androids. Bring her copper, redstone and gold.',
-				es = 'With Gero\'s blueprints, Bulma can build a remote to shut down the androids. Bring her copper, redstone and gold.',
-				pt = 'With Gero\'s blueprints, Bulma can build a remote to shut down the androids. Bring her copper, redstone and gold.',
+				es = 'Con los planos de Gero, Bulma puede construir un control remoto para apagar a los androides. Llévale cobre, redstone y oro.',
+				pt = 'Com as plantas de Gero, Bulma pode construir um controle remoto para desligar os androides. Leve cobre, redstone e ouro para ela.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Bulma|Bulma]]',
@@ -4133,10 +4133,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 18: \'\'Gero\'s Blueprints\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 18: \'\'Gero\'s Blueprints\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 18: \'\'Los Planos de Gero\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 18: \'\'Gero\'s Blueprints\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 18: \'\'Plantas de Gero\'\'',
 				},
 			},
 			objectives = {
@@ -4198,10 +4198,10 @@ return {
 					'[[Special:MyLanguage/Movies Saga|Movies Saga]], quest 19: \'\'Metal Cooler Core\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 19: \'\'Núcleo de Metal Cooler\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 19: \'\'Núcleo de Metal Cooler\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 19: \'\'Núcleo de Metal Cooler\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 19: \'\'Núcleo de Metal Cooler\'\'',
 				},
 			},
 			objectives = {
@@ -4263,10 +4263,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 3: \'\'Warning from the Future\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 3: \'\'Advertencia del Futuro\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 3: \'\'Advertencia del Futuro\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 3: \'\'Aviso do Futuro\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 3: \'\'Aviso do Futuro\'\'',
 				},
 			},
 			objectives = {
@@ -4328,10 +4328,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 5: \'\'Android 19\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 5: \'\'Androide 19\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 5: \'\'Androide 19\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 5: \'\'Androide 19\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 5: \'\'Androide 19\'\'',
 				},
 			},
 			objectives = {
@@ -4452,10 +4452,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 1: \'\'Landing on Namek\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 1: \'\'Aterrizaje en Namek\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 1: \'\'Aterrizaje en Namek\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 1: \'\'Aterrissagem em Namek\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 1: \'\'Aterrissagem em Namek\'\'',
 				},
 			},
 			objectives = {
@@ -4517,10 +4517,10 @@ return {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 8: \'\'Tournament: Shin\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 8: \'\'Torneo: Shin\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 8: \'\'Torneo: Shin\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 8: \'\'Torneio: Tenshinhan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 8: \'\'Torneio: Tenshinhan\'\'',
 				},
 			},
 			objectives = {
@@ -4647,10 +4647,10 @@ return {
 					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 9: \'\'Hold Against Nappa\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 9: \'\'Aguanta contra Nappa\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Hold Against Nappa\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 9: \'\'Resista Contra Nappa\'\'',
 				},
 			},
 			objectives = {
@@ -4712,10 +4712,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 6: \'\'Dr. Gero\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 6: \'\'Dr. Gero\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 6: \'\'Dr. Gero\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 6: \'\'Dr. Gero\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 6: \'\'Dr. Gero\'\'',
 				},
 			},
 			objectives = {
@@ -4777,10 +4777,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 6: \'\'Dr. Gero\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 6: \'\'Dr. Gero\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 6: \'\'Dr. Gero\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 6: \'\'Dr. Gero\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 6: \'\'Dr. Gero\'\'',
 				},
 			},
 			objectives = {
@@ -4907,10 +4907,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 2: \'\'Cui\'s Pursuit\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
 				},
 			},
 			objectives = {
@@ -4972,10 +4972,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 5: \'\'Zarbon\'s True Form\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 5: \'\'La Verdadera Forma de Zarbon\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 5: \'\'La Verdadera Forma de Zarbon\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 5: \'\'Forma Verdadeira de Zarbon\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 5: \'\'Forma Verdadeira de Zarbon\'\'',
 				},
 			},
 			objectives = {
@@ -5102,10 +5102,10 @@ return {
 					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 4: \'\'Three Years of Preparation\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 4: \'\'Tres Años de Preparación\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 4: \'\'Tres Años de Preparación\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 4: \'\'Três Anos de Preparação\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 4: \'\'Três Anos de Preparação\'\'',
 				},
 			},
 			objectives = {
@@ -5297,10 +5297,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 8: \'\'Recoome\'s Rampage\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 8: \'\'El Arrebato de Recoome\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 8: \'\'El Arrebato de Recoome\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 8: \'\'Fúria de Recoome\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 8: \'\'Fúria de Recoome\'\'',
 				},
 			},
 			objectives = {
@@ -5409,13 +5409,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Candy Cravings',
-				es = 'Candy Cravings',
-				pt = 'Candy Cravings',
+				es = 'Antojo de Dulces',
+				pt = 'Desejo de Doces',
 			},
 			desc = {
 				en = 'Majin Buu gets grumpy without sweets. Visit Buu\'s house and gather cookies, cakes and pumpkin pies.',
-				es = 'Majin Buu gets grumpy without sweets. Visit Buu\'s house and gather cookies, cakes and pumpkin pies.',
-				pt = 'Majin Buu gets grumpy without sweets. Visit Buu\'s house and gather cookies, cakes and pumpkin pies.',
+				es = 'Majin Buu se pone de mal humor sin dulces. Visita la casa de Buu y reúne galletas, pasteles y tartas de calabaza.',
+				pt = 'Majin Boo fica mal-humorado sem doces. Visite a casa do Boo e junte biscoitos, bolos e tortas de abóbora.',
 			},
 			giverText = nil,
 			unlock = {
@@ -5423,10 +5423,10 @@ return {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 20: \'\'Evil Buu\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 20: \'\'Buu Maligno\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 20: \'\'Buu Maligno\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 20: \'\'Boo Maligno\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 20: \'\'Boo Maligno\'\'',
 				},
 			},
 			objectives = {
@@ -5488,10 +5488,10 @@ return {
 					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 18: \'\'Super Saiyan 3\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 18: \'\'Super Saiyajin 3\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 18: \'\'Super Saiyajin 3\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 18: \'\'Super Saiyajin 3\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 18: \'\'Super Saiyajin 3\'\'',
 				},
 			},
 			objectives = {
@@ -5500,7 +5500,7 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Invoca a [[Special:MyLanguage/Shenron|Shenlong]] con las Esferas del Dragón de la Tierra',
+					'Invoca a [[Special:MyLanguage/Shenron|Shenron]] con las Esferas del Dragón de la Tierra',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
@@ -5550,10 +5550,10 @@ return {
 					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 11: \'\'Face Vegeta\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Enfréntate a Vegeta\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Enfrente Vegeta\'\'',
 				},
 			},
 			objectives = {
@@ -5600,17 +5600,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'A New Crystal Ball',
-				es = 'A New Crystal Ball',
-				pt = 'A New Crystal Ball',
+				es = 'Una Nueva Bola de Cristal',
+				pt = 'Uma Nova Bola de Cristal',
 			},
 			desc = {
 				en = 'Fortuneteller Baba\'s crystal ball is cracked. Bring her glass and amethyst to make a new one.',
-				es = 'Fortuneteller Baba\'s crystal ball is cracked. Bring her glass and amethyst to make a new one.',
-				pt = 'Fortuneteller Baba\'s crystal ball is cracked. Bring her glass and amethyst to make a new one.',
+				es = 'La bola de cristal de la Adivina Baba está agrietada. Llévale cristal y amatista para hacer una nueva.',
+				pt = 'A bola de cristal da Vovó Uranai está rachada. Leve vidro e ametista para ela fazer uma nova.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]',
-				es = '[[Special:MyLanguage/Fortuneteller Baba|Uranai Baba]]',
+				es = '[[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]]',
 				pt = '[[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]]',
 			},
 			unlock = {
@@ -5618,10 +5618,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 23: \'\'Fortuneteller Baba\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 23: \'\'Fortuneteller Baba\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 23: \'\'La Adivina Baba\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 23: \'\'Fortuneteller Baba\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 23: \'\'Vovó Uranai\'\'',
 				},
 			},
 			objectives = {
@@ -5631,9 +5631,9 @@ return {
 					'Talk to [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]',
 				},
 				es = {
-					'Entrega 8 × Cristal a [[Special:MyLanguage/Fortuneteller Baba|Uranai Baba]]',
-					'Entrega 4 × Fragmento de amatista a [[Special:MyLanguage/Fortuneteller Baba|Uranai Baba]]',
-					'Habla con [[Special:MyLanguage/Fortuneteller Baba|Uranai Baba]]',
+					'Entrega 8 × Cristal a [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]]',
+					'Entrega 4 × Fragmento de amatista a [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]]',
+					'Habla con [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]]',
 				},
 				pt = {
 					'Entregue 8 × Vidro para [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]]',
@@ -5662,13 +5662,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Giant Fish Dinner',
-				es = 'Giant Fish Dinner',
-				pt = 'Giant Fish Dinner',
+				es = 'Cena de Pez Gigante',
+				pt = 'Jantar de Peixe Gigante',
 			},
 			desc = {
 				en = 'Goku is starving as usual. Catch two giant fish, cook them and bring the meal to his house.',
-				es = 'Goku is starving as usual. Catch two giant fish, cook them and bring the meal to his house.',
-				pt = 'Goku is starving as usual. Catch two giant fish, cook them and bring the meal to his house.',
+				es = 'Goku se muere de hambre, como siempre. Atrapa dos peces gigantes, cocínalos y lleva la comida a su casa.',
+				pt = 'Goku está morrendo de fome, como sempre. Pegue dois peixes gigantes, cozinhe-os e leve a refeição para a casa dele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Goku|Goku]]',
@@ -5680,10 +5680,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 1: \'\'A Fishy Welcome\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 1: \'\'A Fishy Welcome\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 1: \'\'Una Bienvenida Escamosa\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 1: \'\'A Fishy Welcome\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 1: \'\'Boas-Vindas Escamosas\'\'',
 				},
 			},
 			objectives = {
@@ -5693,13 +5693,13 @@ return {
 					'Talk to [[Special:MyLanguage/Goku|Goku]]',
 				},
 				es = {
-					'Derrota a 2 × [[Special:MyLanguage/Giant Fish|Giant Fish]]',
-					'Entrega 2 × [[Special:MyLanguage/Food|Cooked Giant Fish]] a [[Special:MyLanguage/Goku|Goku]]',
+					'Derrota a 2 × [[Special:MyLanguage/Giant Fish|Pez gigante]]',
+					'Entrega 2 × [[Special:MyLanguage/Food|Pez gigante cocinado]] a [[Special:MyLanguage/Goku|Goku]]',
 					'Habla con [[Special:MyLanguage/Goku|Goku]]',
 				},
 				pt = {
-					'Derrote 2 × [[Special:MyLanguage/Giant Fish|Giant Fish]]',
-					'Entregue 2 × [[Special:MyLanguage/Food|Cooked Giant Fish]] para [[Special:MyLanguage/Goku|Goku]]',
+					'Derrote 2 × [[Special:MyLanguage/Giant Fish|Peixe gigante]]',
+					'Entregue 2 × [[Special:MyLanguage/Food|Peixe gigante cozido]] para [[Special:MyLanguage/Goku|Goku]]',
 					'Fale com [[Special:MyLanguage/Goku|Goku]]',
 				},
 			},
@@ -5724,13 +5724,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Kame House Groceries',
-				es = 'Kame House Groceries',
-				pt = 'Kame House Groceries',
+				es = 'Compras para Kame House',
+				pt = 'Compras para a Casa do Kame',
 			},
 			desc = {
 				en = 'Master Roshi\'s fridge is empty again. Bring him cod and bread so training can continue.',
-				es = 'Master Roshi\'s fridge is empty again. Bring him cod and bread so training can continue.',
-				pt = 'Master Roshi\'s fridge is empty again. Bring him cod and bread so training can continue.',
+				es = 'El refrigerador del Maestro Roshi está vacío otra vez. Llévale bacalao y pan para que el entrenamiento pueda continuar.',
+				pt = 'A geladeira do Mestre Kame está vazia de novo. Leve bacalhau e pão para ele para que o treino possa continuar.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Master Roshi|Master Roshi]]',
@@ -5742,10 +5742,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 6: \'\'The Turtle Hermit\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 6: \'\'The Turtle Hermit\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 6: \'\'El Ermitaño Tortuga\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 6: \'\'The Turtle Hermit\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 6: \'\'O Eremita Tartaruga\'\'',
 				},
 			},
 			objectives = {
@@ -5786,17 +5786,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Senzu Harvest',
-				es = 'Senzu Harvest',
-				pt = 'Senzu Harvest',
+				es = 'Cosecha de Semillas del Ermitaño',
+				pt = 'Colheita de Sementes dos Deuses',
 			},
 			desc = {
 				en = 'Master Korin needs seeds to grow a new batch of Senzu Beans. Bring him the seeds and he\'ll share a few.',
-				es = 'Master Korin needs seeds to grow a new batch of Senzu Beans. Bring him the seeds and he\'ll share a few.',
-				pt = 'Master Korin needs seeds to grow a new batch of Senzu Beans. Bring him the seeds and he\'ll share a few.',
+				es = 'El Maestro Korin necesita semillas para cultivar una nueva tanda de Semillas del Ermitaño. Llévale las semillas y te dará algunas.',
+				pt = 'O Mestre Karin precisa de sementes para cultivar um novo lote de Sementes dos Deuses. Leve as sementes para ele e ele vai dividir algumas com você.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Korin|Korin]]',
-				es = '[[Special:MyLanguage/Korin|Karin]]',
+				es = '[[Special:MyLanguage/Korin|Korin]]',
 				pt = '[[Special:MyLanguage/Korin|Karin]]',
 			},
 			unlock = {
@@ -5804,10 +5804,10 @@ return {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 19: \'\'The Sacred Water\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 19: \'\'The Sacred Water\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 19: \'\'El Agua Sagrada\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 19: \'\'The Sacred Water\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 19: \'\'A Água Sagrada\'\'',
 				},
 			},
 			objectives = {
@@ -5816,8 +5816,8 @@ return {
 					'Talk to [[Special:MyLanguage/Korin|Korin]]',
 				},
 				es = {
-					'Entrega 32 × Semillas de trigo a [[Special:MyLanguage/Korin|Karin]]',
-					'Habla con [[Special:MyLanguage/Korin|Karin]]',
+					'Entrega 32 × Semillas de trigo a [[Special:MyLanguage/Korin|Korin]]',
+					'Habla con [[Special:MyLanguage/Korin|Korin]]',
 				},
 				pt = {
 					'Entregue 32 × Sementes de Trigo para [[Special:MyLanguage/Korin|Karin]]',
@@ -5848,28 +5848,28 @@ return {
 			repeatable = false,
 			name = {
 				en = 'The Lookout Garden',
-				es = 'The Lookout Garden',
-				pt = 'The Lookout Garden',
+				es = 'El Jardín de la Atalaya',
+				pt = 'O Jardim do Mirante',
 			},
 			desc = {
 				en = 'Mr. Popo takes care of the garden at Kami\'s Lookout. Bring him flowers to replant it.',
-				es = 'Mr. Popo takes care of the garden at Kami\'s Lookout. Bring him flowers to replant it.',
-				pt = 'Mr. Popo takes care of the garden at Kami\'s Lookout. Bring him flowers to replant it.',
+				es = 'El Sr. Popo cuida el jardín de la Atalaya de Kami. Llévale flores para replantarlo.',
+				pt = 'O Sr Popo cuida do jardim do Mirante de Kami. Leve flores para ele replantá-lo.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				es = '[[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-				pt = '[[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+				es = '[[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
+				pt = '[[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 			},
 			unlock = {
 				en = {
 					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 46: \'\'Training at the Lookout\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 46: \'\'Training at the Lookout\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 46: \'\'Entrenamiento en la Atalaya\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 46: \'\'Training at the Lookout\'\'',
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 46: \'\'Treino no Mirante\'\'',
 				},
 			},
 			objectives = {
@@ -5879,14 +5879,14 @@ return {
 					'Talk to [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
 				},
 				es = {
-					'Entrega 12 × Amapola a [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-					'Entrega 12 × Diente de león a [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
-					'Habla con [[Special:MyLanguage/Mr. Popo|Mr. Popo]]',
+					'Entrega 12 × Amapola a [[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
+					'Entrega 12 × Diente de león a [[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
+					'Habla con [[Special:MyLanguage/Mr. Popo|Sr. Popo]]',
 				},
 				pt = {
-					'Entregue 12 × Papoula para [[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
-					'Entregue 12 × Dente-de-Leão para [[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
-					'Fale com [[Special:MyLanguage/Mr. Popo|Senhor Popo]]',
+					'Entregue 12 × Papoula para [[Special:MyLanguage/Mr. Popo|Sr Popo]]',
+					'Entregue 12 × Dente-de-Leão para [[Special:MyLanguage/Mr. Popo|Sr Popo]]',
+					'Fale com [[Special:MyLanguage/Mr. Popo|Sr Popo]]',
 				},
 			},
 			rewards = {
@@ -5929,11 +5929,11 @@ return {
 					'Complete [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Radar Upgrade]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Enfréntate a Vegeta\'\'',
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Mejora del Radar]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Enfrente Vegeta\'\'',
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Upgrade do Radar]]',
 				},
 			},
@@ -5943,7 +5943,7 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Invoca a [[Special:MyLanguage/Shenron|Shenlong]] con las Esferas del Dragón de la Tierra',
+					'Invoca a [[Special:MyLanguage/Shenron|Shenron]] con las Esferas del Dragón de la Tierra',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
@@ -5972,13 +5972,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Majilite Samples',
-				es = 'Majilite Samples',
-				pt = 'Majilite Samples',
+				es = 'Muestras de Majilita',
+				pt = 'Amostras de Majilita',
 			},
 			desc = {
 				en = 'Bulma wants to study majilite, an ore hidden in the rocks of the Second Demon World. Mine 16 pieces and bring them to her.',
-				es = 'Bulma wants to study majilite, an ore hidden in the rocks of the Second Demon World. Mine 16 pieces and bring them to her.',
-				pt = 'Bulma wants to study majilite, an ore hidden in the rocks of the Second Demon World. Mine 16 pieces and bring them to her.',
+				es = 'Bulma quiere estudiar la majilita, un mineral escondido en las rocas del Segundo Mundo Demoníaco. Extrae 16 piezas y llévaselas.',
+				pt = 'Bulma quer estudar a majilita, um minério escondido nas rochas do Segundo Mundo Demoníaco. Minere 16 pedaços e leve para ela.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Bulma|Bulma]]',
@@ -5990,10 +5990,10 @@ return {
 					'[[Special:MyLanguage/Daima Saga|Daima Saga]], quest 9: \'\'The Second Demon World\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 9: \'\'The Second Demon World\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 9: \'\'El Segundo Mundo Demoníaco\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 9: \'\'The Second Demon World\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 9: \'\'O Segundo Mundo Demoníaco\'\'',
 				},
 			},
 			objectives = {
@@ -6002,11 +6002,11 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Entrega 16 × Majilite a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 16 × Majilita a [[Special:MyLanguage/Bulma|Bulma]]',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Entregue 16 × Majilite para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 16 × Majilita para [[Special:MyLanguage/Bulma|Bulma]]',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 			},
@@ -6034,13 +6034,13 @@ return {
 			repeatable = true,
 			name = {
 				en = 'Medi-Bug Market',
-				es = 'Medi-Bug Market',
-				pt = 'Medi-Bug Market',
+				es = 'Mercado de Medi-Bugs',
+				pt = 'Mercado de Medi-Bugs',
 			},
 			desc = {
 				en = 'Bulma found a Demon Realm merchant who sells Medi-Bugs. Bring her emeralds and gold ingots and she will order a batch, a Beetle pair included. You can buy again once an hour.',
-				es = 'Bulma found a Demon Realm merchant who sells Medi-Bugs. Bring her emeralds and gold ingots and she will order a batch, a Beetle pair included. You can buy again once an hour.',
-				pt = 'Bulma found a Demon Realm merchant who sells Medi-Bugs. Bring her emeralds and gold ingots and she will order a batch, a Beetle pair included. You can buy again once an hour.',
+				es = 'Bulma encontró a un comerciante del Reino Demoníaco que vende Medi-Bugs. Llévale esmeraldas y lingotes de oro y pedirá un lote, con una pareja de Escarabajos incluida. Puedes volver a comprar una vez por hora.',
+				pt = 'Bulma encontrou um mercador do Reino Demoníaco que vende Medi-Bugs. Leve esmeraldas e lingotes de ouro para ela e ela vai encomendar um lote, com um par de Besouros incluído. Você pode comprar de novo uma vez por hora.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Bulma|Bulma]]',
@@ -6052,10 +6052,10 @@ return {
 					'[[Special:MyLanguage/Daima Saga|Daima Saga]], quest 4: \'\'The Third Demon World\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 4: \'\'The Third Demon World\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], misión 4: \'\'El Tercer Mundo Demoníaco\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 4: \'\'The Third Demon World\'\'',
+					'[[Special:MyLanguage/Daima Saga|Saga Daima]], missão 4: \'\'O Terceiro Mundo Demoníaco\'\'',
 				},
 			},
 			objectives = {
@@ -6083,16 +6083,16 @@ return {
 					'1 × [[Special:MyLanguage/Medi-Bugs|Pair of Medi-Bugs (Beetle)]]',
 				},
 				es = {
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Ant)]]',
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Rhino)]]',
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Worm)]]',
-					'1 × [[Special:MyLanguage/Medi-Bugs|Pair of Medi-Bugs (Beetle)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Hormiga)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Rinoceronte)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Gusano)]]',
+					'1 × [[Special:MyLanguage/Medi-Bugs|Pareja de Medi-Bugs (Escarabajo)]]',
 				},
 				pt = {
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Ant)]]',
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Rhino)]]',
-					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Worm)]]',
-					'1 × [[Special:MyLanguage/Medi-Bugs|Pair of Medi-Bugs (Beetle)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Formiga)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Rinoceronte)]]',
+					'4 × [[Special:MyLanguage/Medi-Bugs|Medi-Bug (Minhoca)]]',
+					'1 × [[Special:MyLanguage/Medi-Bugs|Par de Medi-Bugs (Besouro)]]',
 				},
 			},
 		},
@@ -6105,18 +6105,18 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Ajissa Seedlings',
-				es = 'Ajissa Seedlings',
-				pt = 'Ajissa Seedlings',
+				es = 'Plantones de Ajissa',
+				pt = 'Mudas de Ajissa',
 			},
 			desc = {
 				en = 'The Grand Elder wants to replant the trees burned by Frieza\'s army. Bring him water, saplings and bone meal.',
-				es = 'The Grand Elder wants to replant the trees burned by Frieza\'s army. Bring him water, saplings and bone meal.',
-				pt = 'The Grand Elder wants to replant the trees burned by Frieza\'s army. Bring him water, saplings and bone meal.',
+				es = 'El Gran Anciano quiere replantar los árboles que quemó el ejército de Freezer. Llévale agua, brotes y polvo de hueso.',
+				pt = 'O Grande Ancião quer replantar as árvores queimadas pelo exército de Freeza. Leve água, mudas e farinha de osso para ele.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
-				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 			},
 			unlock = {
 				en = {
@@ -6124,11 +6124,11 @@ return {
 					'Be in [[Special:MyLanguage/Namek|Namek]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 18: \'\'Journey to the Grand Elder\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 18: \'\'Viaje hacia el Gran Anciano\'\'',
 					'Estar en [[Special:MyLanguage/Namek|Namek]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 18: \'\'Journey to the Grand Elder\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 18: \'\'Jornada até o Grande Ancião\'\'',
 					'Estar em [[Special:MyLanguage/Namek|Namekusei]]',
 				},
 			},
@@ -6140,16 +6140,16 @@ return {
 					'Talk to [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
 				},
 				es = {
-					'Entrega 6 × Cubo con agua a [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-					'Entrega 16 × Brote de roble a [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-					'Entrega 32 × Polvo de hueso a [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
+					'Entrega 6 × Cubo con agua a [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+					'Entrega 16 × Brote de roble a [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+					'Entrega 32 × Polvo de hueso a [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
 				},
 				pt = {
-					'Entregue 6 × Balde de Água para [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
-					'Entregue 16 × Muda de Carvalho para [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
-					'Entregue 32 × Farinha de Osso para [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
-					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+					'Entregue 6 × Balde de Água para [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
+					'Entregue 16 × Muda de Carvalho para [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
+					'Entregue 32 × Farinha de Osso para [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
+					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 				},
 			},
 			rewards = {
@@ -6173,13 +6173,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Scouter Salvage',
-				es = 'Scouter Salvage',
-				pt = 'Scouter Salvage',
+				es = 'Recuperación de Escáneres',
+				pt = 'Recuperação de Scouters',
 			},
 			desc = {
 				en = 'Frieza\'s soldiers carry useful scouter parts. Defeat 12 of them and gather redstone and glass panes to rebuild one.',
-				es = 'Frieza\'s soldiers carry useful scouter parts. Defeat 12 of them and gather redstone and glass panes to rebuild one.',
-				pt = 'Frieza\'s soldiers carry useful scouter parts. Defeat 12 of them and gather redstone and glass panes to rebuild one.',
+				es = 'Los soldados de Freezer llevan piezas de escáner útiles. Derrota a 12 de ellos y reúne redstone y paneles de cristal para reconstruir uno.',
+				pt = 'Os soldados de Freeza carregam peças úteis de scouter. Derrote 12 deles e junte redstone e vidraças para reconstruir um.',
 			},
 			giverText = nil,
 			unlock = {
@@ -6187,10 +6187,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 4: \'\'The Cruel Dodoria\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
 				},
 			},
 			objectives = {
@@ -6241,8 +6241,8 @@ return {
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]]',
-				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
-				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+				es = '[[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
+				pt = '[[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 			},
 			unlock = {
 				en = {
@@ -6250,11 +6250,11 @@ return {
 					'Complete [[Special:MyLanguage/Sidequests#sq-bulma_namek_research|Namekian Research]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 3: \'\'Defiende a los Namekianos\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 3: \'\'Defiende a los Namekianos\'\'',
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_namek_research|Investigación Namekiana]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 3: \'\'Defenda os Namekuseijins\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 3: \'\'Defenda os Namekuseijins\'\'',
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_namek_research|Pesquisa Namekuseijin]]',
 				},
 			},
@@ -6265,11 +6265,11 @@ return {
 				},
 				es = {
 					'Invoca a [[Special:MyLanguage/Porunga|Porunga]] con las Esferas del Dragón de Namek',
-					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Patriarca Guru]]',
+					'Habla con [[Special:MyLanguage/Grand Elder Guru|Gran Anciano Gurú]]',
 				},
 				pt = {
 					'Invoque [[Special:MyLanguage/Porunga|Porunga]] com as Esferas do Dragão de Namekusei',
-					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Patriarca Guru]]',
+					'Fale com [[Special:MyLanguage/Grand Elder Guru|Grande Ancião Guru]]',
 				},
 			},
 			rewards = {
@@ -6293,13 +6293,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Luud\'s Scrap',
-				es = 'Luud\'s Scrap',
-				pt = 'Luud\'s Scrap',
+				es = 'La Chatarra de Luud',
+				pt = 'A Sucata de Luud',
 			},
 			desc = {
 				en = 'Luud\'s wreck is full of salvageable metal. Collect iron, copper and gold ingots to patch up the ship\'s hull.',
-				es = 'Luud\'s wreck is full of salvageable metal. Collect iron, copper and gold ingots to patch up the ship\'s hull.',
-				pt = 'Luud\'s wreck is full of salvageable metal. Collect iron, copper and gold ingots to patch up the ship\'s hull.',
+				es = 'Los restos de Luud están llenos de metal aprovechable. Reúne lingotes de hierro, cobre y oro para reparar el casco de la nave.',
+				pt = 'Os destroços de Luud estão cheios de metal reaproveitável. Junte lingotes de ferro, cobre e ouro para remendar o casco da nave.',
 			},
 			giverText = nil,
 			unlock = {
@@ -6351,17 +6351,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'The Elder Kai\'s Reading',
-				es = 'The Elder Kai\'s Reading',
-				pt = 'The Elder Kai\'s Reading',
+				es = 'Las Lecturas del Kaioshin Anciano',
+				pt = 'A Leitura do Velho Kaioshin',
 			},
 			desc = {
 				en = 'The Elder Kai gets bored between rituals. Bring him some books and a cake for his trouble.',
-				es = 'The Elder Kai gets bored between rituals. Bring him some books and a cake for his trouble.',
-				pt = 'The Elder Kai gets bored between rituals. Bring him some books and a cake for his trouble.',
+				es = 'El Kaioshin Anciano se aburre entre rituales. Llévale unos libros y un pastel por las molestias.',
+				pt = 'O Velho Kaioshin fica entediado entre rituais. Leve alguns livros e um bolo para ele pelo incômodo.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Old Kai|Old Kai]]',
-				es = '[[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
+				es = '[[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
 				pt = '[[Special:MyLanguage/Old Kai|Velho Kaioshin]]',
 			},
 			unlock = {
@@ -6370,12 +6370,12 @@ return {
 					'Be in [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]]',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 18: \'\'The Elder Kai\'s Advice\'\'',
-					'Estar en [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshin]]',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 18: \'\'El Consejo del Kaioshin Anciano\'\'',
+					'Estar en [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado de los Kaioshins]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 18: \'\'The Elder Kai\'s Advice\'\'',
-					'Estar em [[Special:MyLanguage/Sacred Kai Planet|Planeta Sagrado dos Kaioshins]]',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 18: \'\'O Conselho do Velho Kaioshin\'\'',
+					'Estar em [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]]',
 				},
 			},
 			objectives = {
@@ -6385,9 +6385,9 @@ return {
 					'Talk to [[Special:MyLanguage/Old Kai|Old Kai]]',
 				},
 				es = {
-					'Entrega 8 × Libro a [[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
-					'Entrega 1 × Tarta a [[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
-					'Habla con [[Special:MyLanguage/Old Kai|Viejo Kaioshin]]',
+					'Entrega 8 × Libro a [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
+					'Entrega 1 × Tarta a [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
+					'Habla con [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]',
 				},
 				pt = {
 					'Entregue 8 × Livro para [[Special:MyLanguage/Old Kai|Velho Kaioshin]]',
@@ -6416,13 +6416,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Rations for the Trip',
-				es = 'Rations for the Trip',
-				pt = 'Rations for the Trip',
+				es = 'Raciones para el Viaje',
+				pt = 'Rações para a Viagem',
 			},
 			desc = {
 				en = 'The search for the Black Star Dragon Balls could take a whole year. Stock Bulma\'s ship with food before it leaves.',
-				es = 'The search for the Black Star Dragon Balls could take a whole year. Stock Bulma\'s ship with food before it leaves.',
-				pt = 'The search for the Black Star Dragon Balls could take a whole year. Stock Bulma\'s ship with food before it leaves.',
+				es = 'La búsqueda de las Esferas del Dragón de Estrella Negra podría llevar un año entero. Llena de comida la nave de Bulma antes de que despegue.',
+				pt = 'A busca pelas Esferas do Dragão de Estrelas Negras pode levar um ano inteiro. Abasteça a nave de Bulma com comida antes que ela parta.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Bulma|Bulma]]',
@@ -6434,10 +6434,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 2: \'\'Parts for Bulma\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 2: \'\'Parts for Bulma\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 2: \'\'Piezas para Bulma\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 2: \'\'Parts for Bulma\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 2: \'\'Peças para Bulma\'\'',
 				},
 			},
 			objectives = {
@@ -6484,17 +6484,17 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Sacred Water',
-				es = 'Sacred Water',
-				pt = 'Sacred Water',
+				es = 'Agua Sagrada',
+				pt = 'Água Sagrada',
 			},
 			desc = {
 				en = 'Baby\'s eggs are still hiding inside Earth\'s people. Bring water and bottles to Dende at Kami\'s Lookout so he can prepare the Sacred Water that cures them.',
-				es = 'Baby\'s eggs are still hiding inside Earth\'s people. Bring water and bottles to Dende at Kami\'s Lookout so he can prepare the Sacred Water that cures them.',
-				pt = 'Baby\'s eggs are still hiding inside Earth\'s people. Bring water and bottles to Dende at Kami\'s Lookout so he can prepare the Sacred Water that cures them.',
+				es = 'Los huevos de Baby todavía se esconden dentro de la gente de la Tierra. Llévale agua y frascos a Dendé en la Atalaya de Kami para que prepare el Agua Sagrada que los cura.',
+				pt = 'Os ovos de Baby ainda estão escondidos dentro das pessoas da Terra. Leve água e frascos para Dende no Mirante de Kami para que ele prepare a Água Sagrada que as cura.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Dende|Dende]]',
-				es = '[[Special:MyLanguage/Dende|Dende]]',
+				es = '[[Special:MyLanguage/Dende|Dendé]]',
 				pt = '[[Special:MyLanguage/Dende|Dende]]',
 			},
 			unlock = {
@@ -6502,10 +6502,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 21: \'\'The Last Tuffle\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 21: \'\'The Last Tuffle\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 21: \'\'El Último Tsufur\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 21: \'\'The Last Tuffle\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 21: \'\'O Último Tsufuru\'\'',
 				},
 			},
 			objectives = {
@@ -6516,13 +6516,13 @@ return {
 					'Talk to [[Special:MyLanguage/Dende|Dende]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Templo de Kami-sama]]',
-					'Entrega 4 × Cubo con agua a [[Special:MyLanguage/Dende|Dende]]',
-					'Entrega 16 × Frasco de cristal a [[Special:MyLanguage/Dende|Dende]]',
-					'Habla con [[Special:MyLanguage/Dende|Dende]]',
+					'Encuentra [[Special:MyLanguage/Kami\'s Lookout|Atalaya de Kami]]',
+					'Entrega 4 × Cubo con agua a [[Special:MyLanguage/Dende|Dendé]]',
+					'Entrega 16 × Frasco de cristal a [[Special:MyLanguage/Dende|Dendé]]',
+					'Habla con [[Special:MyLanguage/Dende|Dendé]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Palácio de Kami-Sama]]',
+					'Encontre [[Special:MyLanguage/Kami\'s Lookout|Mirante de Kami]]',
 					'Entregue 4 × Balde de Água para [[Special:MyLanguage/Dende|Dende]]',
 					'Entregue 16 × Frasco de Vidro para [[Special:MyLanguage/Dende|Dende]]',
 					'Fale com [[Special:MyLanguage/Dende|Dende]]',
@@ -6549,13 +6549,13 @@ return {
 			repeatable = false,
 			name = {
 				en = 'Supplies for Uub\'s Village',
-				es = 'Supplies for Uub\'s Village',
-				pt = 'Supplies for Uub\'s Village',
+				es = 'Suministros para la Aldea de Uub',
+				pt = 'Suprimentos para a Vila de Uub',
 			},
 			desc = {
 				en = 'Uub\'s village barely has enough to eat. Bring Goku bread, cooked beef and seeds to send home with Uub.',
-				es = 'Uub\'s village barely has enough to eat. Bring Goku bread, cooked beef and seeds to send home with Uub.',
-				pt = 'Uub\'s village barely has enough to eat. Bring Goku bread, cooked beef and seeds to send home with Uub.',
+				es = 'La aldea de Uub apenas tiene para comer. Llévale a Goku pan, filete asado y semillas para que Uub los lleve a casa.',
+				pt = 'A vila de Uub mal tem o que comer. Leve pão, filé e sementes para Goku mandar para casa com Uub.',
 			},
 			giverText = {
 				en = '[[Special:MyLanguage/Goku|Goku]]',
@@ -6567,10 +6567,10 @@ return {
 					'[[Special:MyLanguage/GT Saga|GT Saga]], quest 1: \'\'A New Pupil\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 1: \'\'A New Pupil\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], misión 1: \'\'Un Nuevo Alumno\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 1: \'\'A New Pupil\'\'',
+					'[[Special:MyLanguage/GT Saga|Saga GT]], missão 1: \'\'Um Novo Aluno\'\'',
 				},
 			},
 			objectives = {
@@ -6632,10 +6632,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 4: \'\'The Cruel Dodoria\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 4: \'\'El Cruel Dodoria\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 4: \'\'O Cruel Dodoria\'\'',
 				},
 			},
 			objectives = {
@@ -6697,10 +6697,10 @@ return {
 					'[[Special:MyLanguage/Movies Saga|Movies Saga]], quest 10: \'\'Turles\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 10: \'\'Turles\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 10: \'\'Turles\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 10: \'\'Turles\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 10: \'\'Turles\'\'',
 				},
 			},
 			objectives = {
@@ -6763,11 +6763,11 @@ return {
 					'Be in a Snowy Plains biome',
 				},
 				es = {
-					'[[Special:MyLanguage/Movies Saga|Saga de las Películas]], misión 6: \'\'Dr. Wheelo\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga Películas]], misión 6: \'\'Dr. Wheelo\'\'',
 					'Estar en un bioma de Llanura nevada',
 				},
 				pt = {
-					'[[Special:MyLanguage/Movies Saga|Saga dos Filmes]], missão 6: \'\'Dr. Wheelo\'\'',
+					'[[Special:MyLanguage/Movies Saga|Saga de Filmes]], missão 6: \'\'Dr. Wheelo\'\'',
 					'Estar em um bioma de Planícies nevadas',
 				},
 			},
@@ -6829,11 +6829,11 @@ return {
 				},
 				es = {
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_scouter_threat_db|Base de Datos de Amenazas]]',
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 14: \'\'Los Cell Jr.\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 14: \'\'Los Cell Jr.\'\'',
 				},
 				pt = {
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_scouter_threat_db|Banco de Dados de Ameaças]]',
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 14: \'\'Cell Jr.\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 14: \'\'Cell Jr.\'\'',
 				},
 			},
 			objectives = {
@@ -7225,11 +7225,11 @@ return {
 				},
 				es = {
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_gete_discovery|Metal de la Gran Estrella]]',
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
 				},
 				pt = {
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_gete_discovery|Metal da Grande Estrela]]',
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 11: \'\'Cell Semi-Perfeito\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 11: \'\'Cell Semi-Perfeito\'\'',
 				},
 			},
 			objectives = {
@@ -7241,14 +7241,14 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Habitación del Tiempo]]',
+					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 					'Consigue 4 × [[Special:MyLanguage/Gete Tech|Lingote Gete]]',
 					'Consigue 8 × Pistón',
 					'Consigue 4 × Placa de presión para peso elevado',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Espírito e do Tempo]]',
+					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 					'Obtenha 4 × [[Special:MyLanguage/Gete Tech|Lingote de Gete]]',
 					'Obtenha 8 × Pistão',
 					'Obtenha 4 × Placa de Pressão de Pesagem Pesada',
@@ -7296,11 +7296,11 @@ return {
 				},
 				es = {
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_gravity_mk2|Sala de Gravedad Mk. II]]',
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
 				},
 				pt = {
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_gravity_mk2|Sala de Gravidade Mk.II]]',
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
 				},
 			},
 			objectives = {
@@ -7361,11 +7361,11 @@ return {
 				},
 				es = {
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_gete_enhancements|Mejoras Gete]]',
-					'[[Special:MyLanguage/Buu Saga|Saga de Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 1: \'\'Entrena con Goten y Gohan\'\'',
 				},
 				pt = {
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_gete_enhancements|Aprimoramentos Gete]]',
-					'[[Special:MyLanguage/Buu Saga|Saga de Majin Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 1: \'\'Treine com Goten e Gohan\'\'',
 				},
 			},
 			objectives = {
@@ -7431,11 +7431,11 @@ return {
 					'Complete [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Radar Upgrade]]',
 				},
 				es = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 11: \'\'Enfréntate a Vegeta\'\'',
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Mejora del Radar]]',
 				},
 				pt = {
-					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Face Vegeta\'\'',
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 11: \'\'Enfrente Vegeta\'\'',
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_radar_parts|Upgrade do Radar]]',
 				},
 			},
@@ -7761,10 +7761,10 @@ return {
 					'[[Special:MyLanguage/Frieza Saga|Frieza Saga]], quest 2: \'\'Cui\'s Pursuit\'\'',
 				},
 				es = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freezer]], misión 2: \'\'La Persecución de Cui\'\'',
 				},
 				pt = {
-					'[[Special:MyLanguage/Frieza Saga|Saga de Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
+					'[[Special:MyLanguage/Frieza Saga|Saga Freeza]], missão 2: \'\'Perseguição de Cui\'\'',
 				},
 			},
 			objectives = {
@@ -7890,11 +7890,11 @@ return {
 				},
 				es = {
 					'Completa [[Special:MyLanguage/Sidequests#sq-bulma_otherworld_drive|Motor del Otro Mundo]]',
-					'[[Special:MyLanguage/Android Saga|Saga de los Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 11: \'\'Cell Semi-Perfecto\'\'',
 				},
 				pt = {
 					'Conclua [[Special:MyLanguage/Sidequests#sq-bulma_otherworld_drive|Propulsor do Outro Mundo]]',
-					'[[Special:MyLanguage/Android Saga|Saga dos Androides]], missão 11: \'\'Cell Semi-Perfeito\'\'',
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 11: \'\'Cell Semi-Perfeito\'\'',
 				},
 			},
 			objectives = {
@@ -7906,14 +7906,14 @@ return {
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Habitación del Tiempo]]',
+					'Encuentra [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]]',
 					'Consigue 3 × [[Special:MyLanguage/Gete Tech|Lingote Gete]]',
 					'Consigue 4 × Reloj',
 					'Consigue 1 × Cofre de ender',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Espírito e do Tempo]]',
+					'Encontre [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]]',
 					'Obtenha 3 × [[Special:MyLanguage/Gete Tech|Lingote de Gete]]',
 					'Obtenha 4 × Relógio',
 					'Obtenha 1 × Baú de Ender',

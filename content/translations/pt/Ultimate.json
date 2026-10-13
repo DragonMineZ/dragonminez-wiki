@@ -1,0 +1,92 @@
+{
+ "Page_display_title": {
+  "source": "Ultimate",
+  "translation": "Ultimate",
+  "outdated": false
+ },
+ "1": {
+  "source": "Unleash your power to the limit: Ultimate takes the multipliers of your strongest form and adds a bonus.",
+  "translation": "Libere seu poder ao limite: o Ultimate pega os multiplicadores da sua forma mais forte e adiciona um bônus.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Every race",
+  "translation": "Todas as raças",
+  "outdated": false
+ },
+ "3": {
+  "source": "Ultimate (1 tier)",
+  "translation": "Ultimate (1 nível)",
+  "outdated": false
+ },
+ "4": {
+  "source": "Stack form",
+  "translation": "Forma acumulável",
+  "outdated": false
+ },
+ "5": {
+  "source": "Clear Old Kai's Ultimate Challenge (alignment above 61, Potential Unlock level 10)",
+  "translation": "Supere o Desafio Ultimate do Velho Kaioshin (índole acima de 61, Potencial Liberado nível 10)",
+  "outdated": false
+ },
+ "6": {
+  "source": "Your best unlocked form +1.0 STR, SKP and PWR",
+  "translation": "Sua melhor forma desbloqueada +1.0 de STR, SKP e PWR",
+  "outdated": false
+ },
+ "7": {
+  "source": "None",
+  "translation": "Nenhum",
+  "outdated": false
+ },
+ "8": {
+  "source": "None of its own; uses the mastery of the form it copies",
+  "translation": "Não tem domínio próprio; usa o domínio da forma que copia",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Ultimate''' is a stack form unlocked by [[Special:MyLanguage/Old Kai|Old Kai]]. Unlike [[Special:MyLanguage/Kaioken|Kaioken]], it isn't used on top of another form: it takes the multipliers of your '''best unlocked form''' (with its mastery) and adds '''+1.0''' to its STR, SKP and PWR multipliers, with '''no drain'''. It can't be bought with Training Points.",
+  "translation": "O '''Ultimate''' é uma forma acumulável desbloqueada pelo [[Special:MyLanguage/Old Kai|Velho Kaioshin]]. Ao contrário do [[Special:MyLanguage/Kaioken|Kaioken]], ele não é usado por cima de outra forma: pega os multiplicadores da sua '''melhor forma desbloqueada''' (com o domínio dela) e adiciona '''+1.0''' aos multiplicadores de STR, SKP e PWR, '''sem consumo'''. Não pode ser comprado com pontos de treino.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Unlocking Ultimate ==",
+  "translation": "== Desbloquear o Ultimate ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "With an '''alignment above 61''' and '''Potential Unlock level 10''', talk to Old Kai at his pillar on the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]] and choose '''Unleash Power''' to start the '''Ultimate Challenge''': five training minigames back to back ([[Special:MyLanguage/Ki Control|Ki Control]], Gravity, Shadow Boxing, Precision and Rhythm), each until you clear its target level (10 levels, 6 for Rhythm). Clearing all five:",
+  "translation": "Com '''índole acima de 61''' e '''Potencial Liberado nível 10''', fale com o Velho Kaioshin no pilar dele no [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]] e escolha '''Despertar poder''' para começar o '''Desafio Ultimate''': cinco minigames de treinamento seguidos ([[Special:MyLanguage/Ki Control|Controle de Ki]], Gravidade, Boxe Sombrio, Precisão e Ritmo), cada um até você superar o nível alvo (10 níveis, 6 no Ritmo). Superar os cinco:",
+  "outdated": false
+ },
+ "12": {
+  "source": "* unlocks the '''Ultimate''' skill;\n* gives you the [[Special:MyLanguage/Z Sword|Z Sword]], only the first time you complete it.",
+  "translation": "* desbloqueia a habilidade '''Ultimate''';\n* dá a você a [[Special:MyLanguage/Z Sword|Espada Z]], apenas na primeira vez que você o completa.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Both are needed for the [[Special:MyLanguage/Buu Saga|Buu Saga]] quest ''The Z Sword and Ultimate Power'', which asks you to reach Ultimate level 1.",
+  "translation": "Os dois são necessários para a missão ''A Espada Z e o Poder Ultimate'' da [[Special:MyLanguage/Buu Saga|Saga Boo]], que pede que você alcance o nível 1 do Ultimate.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== How it works ==",
+  "translation": "== Como funciona ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "* Ultimate copies the multipliers of your '''best unlocked form''', with that form's mastery, and adds '''+1.0''' to its STR, SKP and PWR multipliers. It has '''no drain'''.\n* Each race's '''top tier''' is never copied: SSJ 4, Solaris, Super Namekian, Fifth Form, Ultra Majin, Ultra Perfect and True Form. Ultimate uses your best form below it.\n* Ultimate has no mastery of its own: it charges, and transforms instantly, as fast as the form it copies.",
+  "translation": "* O Ultimate copia os multiplicadores da sua '''melhor forma desbloqueada''', com o domínio dessa forma, e adiciona '''+1.0''' aos multiplicadores de STR, SKP e PWR. Ele '''não tem consumo'''.\n* O '''nível máximo''' de cada raça nunca é copiado: SSJ 4, Solaris, Super Namekuseijin, Quinta Forma, Ultra Majin, Ultra Perfeito e Forma Verdadeira. O Ultimate usa sua melhor forma abaixo desse nível.\n* O Ultimate não tem domínio próprio: ele carrega, e transforma instantaneamente, tão rápido quanto a forma que copia.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "With <code>ultimateFormFixedValue</code> set to <code>true</code>, Ultimate stops copying your best form and only uses the multipliers written in its own form file (×2.0 STR, SKP and PWR and ×1.1875 DEF by default). The Ultimate form is defined in <code>config/dragonminez/forms/ultimate.json</code>.",
+  "translation": "Com <code>ultimateFormFixedValue</code> em <code>true</code>, o Ultimate deixa de copiar sua melhor forma e usa apenas os multiplicadores escritos no próprio arquivo de forma (×2.0 de STR, SKP e PWR e ×1.1875 de DEF por padrão). A forma Ultimate é definida em <code>config/dragonminez/forms/ultimate.json</code>.",
+  "outdated": false
+ }
+}

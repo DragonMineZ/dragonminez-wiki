@@ -89,8 +89,8 @@ PHRASES = {
     'unlock_saga': ('{saga}, quest {quest}: {name}', '{saga}, misión {quest}: {name}', '{saga}, missão {quest}: {name}'),
     'unlock_quest': ('Complete {name}', 'Completa {name}', 'Conclua {name}'),
     'level': ('Level {level}', 'Nivel {level}', 'Nível {level}'),
-    'align_min': ('Alignment {value} or higher', 'Alineamiento de {value} o más', 'Alinhamento {value} ou mais'),
-    'align_max': ('Alignment {value} or lower', 'Alineamiento de {value} o menos', 'Alinhamento {value} ou menos'),
+    'align_min': ('Alignment {value} or higher', 'Alineamiento de {value} o más', 'Índole de {value} ou mais'),
+    'align_max': ('Alignment {value} or lower', 'Alineamiento de {value} o menos', 'Índole de {value} ou menos'),
     'in_dimension': ('Be in {place}', 'Estar en {place}', 'Estar em {place}'),
     'in_biome': ('Be in {place}', 'Estar en {place}', 'Estar em {place}'),
     'at_structure': ('Be at {place}', 'Estar en {place}', 'Estar em {place}'),
@@ -134,6 +134,7 @@ class Names:
         merged.update(bt.LABELS)
         merged.update(bt.HUB_NAMES)
         merged.update(bt.NAMES)
+        merged.update(bt.official_names())
         return merged
 
     @staticmethod

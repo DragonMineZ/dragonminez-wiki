@@ -1,20 +1,22 @@
 {{Infobox Race
-|quote=<translate>A warrior race born for combat, which grows stronger after every battle.</translate>
-|Type=<translate>Playable race</translate>
-|Racial skill=<translate>Zenkai, Limitless Power</translate>
-|Forms=<translate>Oozaru, SS Grades, Super Saiyan, Mutant (legendary), False Super Saiyan, Super Saiyan God (ritual)</translate>
+|quote=<translate><!--T:1--> A warrior race born for combat, which grows stronger after every battle.</translate>
+|Type=<translate><!--T:2--> Playable race</translate>
+|Racial skill=<translate><!--T:3--> Zenkai, Limitless Power</translate>
+|Forms=<translate><!--T:4--> Oozaru, SS Grades, Super Saiyan, Mutant (legendary), False Super Saiyan, Super Saiyan God (ritual)</translate>
 |Stack forms={{L|Kaioken}}, {{L|Ultimate}}
-|Strengths=<translate>Survives lethal blows and grows permanently stronger; the largest transformation ladder; a tail for the Oozaru forms</translate>
-|Playstyle=<translate>Comeback fighter with many forms to climb</translate>
+|Strengths=<translate><!--T:5--> Survives lethal blows and grows permanently stronger; the largest transformation ladder; a tail for the Oozaru forms</translate>
+|Playstyle=<translate><!--T:6--> Comeback fighter with many forms to climb</translate>
 |Fusion={{L|Fusion Dance}}, {{L|Potara Earrings}}, {{L|Medi-Bug Beetles}}
 }}
 <translate>
+<!--T:7-->
 '''Saiyans''' are a warrior race born for combat. Their innate ability to grow stronger after each battle makes them formidable opponents, and they can transform into Super Saiyans and beyond. In DragonMineZ a Saiyan who survives a lethal blow gets a '''Zenkai''' boost, uses its tail to become an '''Oozaru''', and climbs the longest form ladder of any race: three groups unlocked by the Super Forms skill (Oozaru, SS Grades and Super Saiyan), the legendary [[Special:MyLanguage/Mutant|Mutant]] line, the hidden '''False Super Saiyan''' and '''Super Saiyan God''', which only a [[Special:MyLanguage/Super Saiyan God Ritual|ritual]] can grant.
 </translate>
 
 <translate>
-== Overview and strengths ==
+== Overview and strengths == <!--T:8-->
 
+<!--T:9-->
 * '''Zenkai.''' From level 100, a lethal blow from an enemy leaves you at 1 health instead, and you come back stronger, permanently up to three times.
 * '''Limitless Power.''' Every full-strength Zenkai also raises your Power Release limit.
 * '''Tail.''' Saiyans have a tail, which they need for the Oozaru and Golden Oozaru forms.
@@ -23,62 +25,65 @@
 </translate>
 
 <translate>
-== Racial skill ==
+== Racial skill == <!--T:10-->
 </translate>
 {{Config|General Server Config|racialSkills.saiyan}}
 {| class="wikitable"
-! <translate>Part</translate> !! <translate>What it does</translate>
+! <translate><!--T:11--> Part</translate> !! <translate><!--T:12--> What it does</translate>
 |-
-| <translate>'''Zenkai'''</translate> || <translate>From '''level 100''', a lethal blow from an enemy leaves you at 1 health instead, unless it dealt more than '''100%''' of your max health. You stay down for '''10 seconds''', invulnerable, recovering '''40%''' health, '''80%''' Ki and '''80%''' stamina. Your '''STR, SKP and PWR''' rise by '''1% to 10%''', depending on the hardest hit you took in the last '''10 seconds'''. Hits of at least '''25%''' of your max health grant the full boost, which is '''permanent''' (up to '''3''' times); any other boost is temporary and lasts '''120 to 240 seconds'''. Cooldown: '''900 seconds'''.</translate>
+| <translate><!--T:13--> '''Zenkai'''</translate> || <translate><!--T:14--> From '''level 100''', a lethal blow from an enemy leaves you at 1 health instead, unless it dealt more than '''100%''' of your max health. You stay down for '''10 seconds''', invulnerable, recovering '''40%''' health, '''80%''' Ki and '''80%''' stamina. Your '''STR, SKP and PWR''' rise by '''1% to 10%''', depending on the hardest hit you took in the last '''10 seconds'''. Hits of at least '''25%''' of your max health grant the full boost, which is '''permanent''' (up to '''3''' times); any other boost is temporary and lasts '''120 to 240 seconds'''. Cooldown: '''900 seconds'''.</translate>
 |-
-| <translate>'''Limitless Power'''</translate> || <translate>Each full-strength (permanent) Zenkai raises your '''Power Release''' limit by '''5%''', up to '''+15%''' in total.</translate>
+| <translate><!--T:15--> '''Limitless Power'''</translate> || <translate><!--T:16--> Each full-strength (permanent) Zenkai raises your '''Power Release''' limit by '''5%''', up to '''+15%''' in total.</translate>
 |}
 
 <translate>
+<!--T:17-->
 Both parts work on their own; there is nothing to activate. The permanent Zenkai boosts and the Power Release bonus can be reset with the '''Reset Passive''' wish or <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills#Resetting racial progress|Racial Skills]]), after which you can earn them again from zero.
 </translate>
 
 <translate>
-== Transformations ==
+== Transformations == <!--T:18-->
 </translate>
 {{Main|Transformations}}
 {| class="wikitable"
-! <translate>Group</translate> !! <translate>Form</translate> !! <translate>Level</translate> !! <translate>TP cost</translate> !! <translate>Story requisite</translate> !! <translate>STR / SKP / PWR</translate> !! <translate>DEF</translate> !! <translate>Ki drain</translate>
+! <translate><!--T:19--> Group</translate> !! <translate><!--T:20--> Form</translate> !! <translate><!--T:21--> Level</translate> !! <translate><!--T:22--> TP cost</translate> !! <translate><!--T:23--> Story requisite</translate> !! <translate><!--T:24--> STR / SKP / PWR</translate> !! <translate><!--T:25--> DEF</translate> !! <translate><!--T:26--> Ki drain</translate>
 |-
-| rowspan="3" | <translate>Oozaru</translate> || <translate>Oozaru</translate> || 0 || <translate>Free</translate> || — || 1.25 || 1.15 || 0.056
+| rowspan="3" | <translate><!--T:27--> Oozaru</translate> || <translate><!--T:28--> Oozaru</translate> || 0 || <translate><!--T:29--> Free</translate> || — || 1.25 || 1.15 || 0.056
 |-
-| <translate>Golden Oozaru</translate> || 7 || 78,000 || {{L|Buu Saga}} #1 || 2.15 || 2.3 || 0.352
+| <translate><!--T:30--> Golden Oozaru</translate> || 7 || 78,000 || {{L|Buu Saga}} #1 || 2.15 || 2.3 || 0.352
 |-
-| <translate>SSJ 4 [GT]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
+| <translate><!--T:31--> SSJ 4 [GT]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
 |-
-| rowspan="3" | <translate>SS Grades</translate> || <translate>Super Saiyan (SSJ)</translate> || 1 || 13,000 || {{L|Classic Saga}} #46 || 1.6 || 1.375 || 0.101
+| rowspan="3" | <translate><!--T:32--> SS Grades</translate> || <translate><!--T:33--> Super Saiyan (SSJ)</translate> || 1 || 13,000 || {{L|Classic Saga}} #46 || 1.6 || 1.375 || 0.101
 |-
-| <translate>SSJ Grade 2</translate> || 2 || 21,000 || {{L|Saiyan Saga}} #12 || 1.85 || 1.575 || 0.163
+| <translate><!--T:34--> SSJ Grade 2</translate> || 2 || 21,000 || {{L|Saiyan Saga}} #12 || 1.85 || 1.575 || 0.163
 |-
-| <translate>SSJ Grade 3</translate> || 3 || 31,000 || {{L|Frieza Saga}} #5 || 3.0 || 2.15 || 0.831
+| <translate><!--T:35--> SSJ Grade 3</translate> || 3 || 31,000 || {{L|Frieza Saga}} #5 || 3.0 || 2.15 || 0.831
 |-
-| rowspan="4" | <translate>Super Saiyan</translate> || <translate>SSJ Mastered</translate> || 4 || 42,000 || {{L|Android Saga}} #4 || 1.85 || 1.5 || 0.041
+| rowspan="4" | <translate><!--T:36--> Super Saiyan</translate> || <translate><!--T:37--> SSJ Mastered</translate> || 4 || 42,000 || {{L|Android Saga}} #4 || 1.85 || 1.5 || 0.041
 |-
-| <translate>SSJ 2</translate> || 5 || 52,000 || {{L|Android Saga}} #15 || 2.45 || 1.9375 || 0.25
+| <translate><!--T:38--> SSJ 2</translate> || 5 || 52,000 || {{L|Android Saga}} #15 || 2.45 || 1.9375 || 0.25
 |-
-| <translate>SSJ 3</translate> || 6 || 65,000 || {{L|Buu Saga}} #1 || 3.3 || 2.65 || 0.618
+| <translate><!--T:39--> SSJ 3</translate> || 6 || 65,000 || {{L|Buu Saga}} #1 || 3.3 || 2.65 || 0.618
 |-
-| <translate>SSJ 4 [D]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
+| <translate><!--T:40--> SSJ 4 [D]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
 |-
-| rowspan="3" | <translate>Mutant (legendary)</translate> || <translate>Ikari</translate> || 1 || — || — || 3.75 || 2.8625 || 0.194
+| rowspan="3" | <translate><!--T:41--> Mutant (legendary)</translate> || <translate><!--T:42--> Ikari</translate> || 1 || — || — || 3.75 || 2.8625 || 0.194
 |-
-| <translate>SSJ Hybrid</translate> || 2 || — || — || 4.8 || 3.5875 || 0.351
+| <translate><!--T:43--> SSJ Hybrid</translate> || 2 || — || — || 4.8 || 3.5875 || 0.351
 |-
-| <translate>SSJ Full Power</translate> || 3 || — || — || 5.6 || 4.0125 || 0.615
+| <translate><!--T:44--> SSJ Full Power</translate> || 3 || — || — || 5.6 || 4.0125 || 0.615
 |-
-| <translate>False Form</translate> || <translate>False Super Saiyan</translate> || — || — || — || 1.45 || 1.2875 || —
+| <translate><!--T:45--> False Form</translate> || <translate><!--T:46--> False Super Saiyan</translate> || — || — || — || 1.45 || 1.2875 || —
 |-
-| <translate>God Ritual</translate> || <translate>[[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]]</translate> || — || — || — || <translate>Best form, +30% bonus</translate> || <translate>Best form, +30% bonus</translate> || 0.16
+| <translate><!--T:47--> God Ritual</translate> || <translate><!--T:48--> [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]]</translate> || — || — || — || <translate><!--T:49--> Best form, +30% bonus</translate> || <translate><!--T:50--> Best form, +30% bonus</translate> || 0.16
 |}
 
 <translate>
+<!--T:51-->
 All three Super Saiyan groups share the '''Super Forms''' skill, whose eight levels cost '''13,000 · 21,000 · 31,000 · 42,000 · 52,000 · 65,000 · 78,000 · 104,000''' TP. ''Level'' is the level that unlocks each form; level 8 unlocks both SSJ 4 forms. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
 
+<!--T:52-->
 * The two '''SSJ 4''' forms are the Saiyan top tier: the strongest Saiyan forms, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies them.
 * The bulkier forms slow you down and make each attack cost more stamina: Oozaru (×0.8 speed, ×1.2 stamina), Golden Oozaru (×0.85 speed, ×1.3 stamina), SSJ Grade 2 (×0.9 speed, ×1.3 stamina) and SSJ Grade 3 (×0.7 speed, ×3.5 stamina).
 * The [[Special:MyLanguage/Mutant|Mutant]] group is the Saiyan Legendary line (the Legendary Super Saiyan forms). It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
@@ -87,38 +92,46 @@ All three Super Saiyan groups share the '''Super Forms''' skill, whose eight lev
 </translate>
 
 <translate>
-== Tail and Oozaru ==
+== Tail and Oozaru == <!--T:53-->
 </translate>
 <translate>
+<!--T:54-->
 Saiyans are born with a '''tail'''. You need it for the '''Oozaru''' and '''Golden Oozaru''' forms, which turn you into a giant Great Ape. Oozaru is the first form of its group and costs no TP.
 
-=== Becoming an Oozaru ===
+=== Becoming an Oozaru === <!--T:55-->
 
+<!--T:56-->
 Select Oozaru as your next form in the '''X''' menu while you are in base form. Then either:
 
+<!--T:57-->
 * at night during a '''full moon''', stand under the open sky and look straight up at the moon, or
 * look at a [[Special:MyLanguage/Fake Moon|Fake Moon]], the artificial moon created by the technique of the same name (taught by [[Special:MyLanguage/Vegeta|Vegeta]]; it triggers the Great Ape transformation for anyone with a tail).
 
+<!--T:58-->
 The transformation then starts charging by itself.
 
-=== Great Ape loadout ===
+=== Great Ape loadout === <!--T:59-->
 
+<!--T:60-->
 While you are in the Oozaru or Golden Oozaru form, your first three technique slots are replaced with [[Special:MyLanguage/Mouth Blast|Mouth Blast]], '''Oozaru Slam''' and [[Special:MyLanguage/Rage Scream|Rage Scream]] (they are added temporarily if you don't own them). Your normal slots come back when you leave the form. See [[Special:MyLanguage/Techniques|Techniques]].
 
-=== Managing your tail ===
+=== Managing your tail === <!--T:61-->
 
+<!--T:62-->
 * The '''Racial Skill''' entry of the '''X''' menu lets Saiyans hide or show their tail.
 * [[Special:MyLanguage/Dende|Dende]] at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] offers '''Grow/Remove Tail''' to races with a Saiyan tail.
 * <code>/dmztail grow</code> and <code>/dmztail cut</code> grow or cut your own tail; every player may use them on themselves by default (see [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Permissions|Permissions]]).
 </translate>
 
 <translate>
-== False Super Saiyan ==
+== False Super Saiyan == <!--T:63-->
 </translate>
 {{Config|General Server Config|falseSuperSaiyan}}
 <translate>
+<!--T:64-->
 A hidden Saiyan form that you '''can't buy or select''': it is triggered by rage.
 
+<!--T:65-->
 * '''Who:''' Saiyans from '''level 100 to 199''' who are '''not''' a Mutant and have '''not unlocked any Super form''' yet.
 * '''How:''' while you are in base form at '''25% health or less''', a red rage meter fills on its own (in about 10 seconds; landing and taking hits speeds it up). When it is full you transform automatically, at no Ki cost.
 * '''Power:''' STR, SKP and PWR '''×1.45''', DEF '''×1.2875''', no Ki upkeep. You can't stack [[Special:MyLanguage/Kaioken|Kaioken]] on it, and you can't descend out of it.
@@ -126,22 +139,25 @@ A hidden Saiyan form that you '''can't buy or select''': it is triggered by rage
 </translate>
 
 <translate>
-== Super Saiyan God ==
+== Super Saiyan God == <!--T:66-->
 </translate>
 {{Main|Super Saiyan God Ritual}}
 <translate>
+<!--T:67-->
 A Saiyan form that only a ritual can grant. Five pure-hearted Saiyans (alignment 90 or more, or 10 or less) in SSJ or SSJ Mastered give their Ki to a sixth in SSJ Mastered with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]; after ten seconds of channelling, the receiver becomes a '''Super Saiyan God''' for '''5 minutes'''.
 
+<!--T:68-->
 * '''Power:''' your strongest unlocked form, with each stat bonus raised by '''30%''' ('''45%''' for Mutants).
 * '''Rules:''' it drains Ki and has no mastery, you can't descend out of it or stack a form on it, and players without god ki can't sense you.
 * '''Cooldown:''' everyone who took part waits '''30 minutes''' before the next ritual.
 </translate>
 
 <translate>
-== Appearance ==
+== Appearance == <!--T:69-->
 </translate>
 {{Main|Character Customization}}
 <translate>
+<!--T:70-->
 * '''Hair:''' yes. Saiyans can pick any hairstyle preset and design their own styles in the hair editor. The editor keeps five slots (Base, SSJ, SSJ2, SSJ3 and SSJ4): each form switches to the slot it uses, and the editor can generate the SSJ slots from your Base style.
 * '''Tail:''' shaded like the hair; you can hide or show it from the '''X''' menu.
 * '''Gender:''' yes. Male and female body types share the same grid, so picking a body type also picks your gender.
@@ -149,9 +165,10 @@ A Saiyan form that only a ritual can grant. Five pure-hearted Saiyans (alignment
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:71-->
 </translate>
 <translate>
+<!--T:72-->
 Zenkai and Limitless Power are tuned in the <code>saiyan</code> section of <code>racialSkills</code> in <code>general-server.json</code> (level gate, cooldown, knockout, boost sizes, permanent boosts and the Power Release bonus). False Super Saiyan has its own <code>falseSuperSaiyan</code> section, where it can also be limited to Saiyans whose Zenkai is spent. The Super Saiyan God Ritual is tuned in <code>superSaiyanGodRitual</code>. The Super Forms TP ladder is in <code>races/saiyan/character.json</code>, and each form's values are in its form file.
 </translate>
 {{See also|General Server Config|Custom Races|Custom Forms}}

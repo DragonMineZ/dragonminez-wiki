@@ -1,0 +1,487 @@
+{
+ "Page_display_title": {
+  "source": "Combat",
+  "translation": "Combate",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ replaces vanilla fighting with its own '''combat system''': weapon movesets with real windups, stamina, blocking and parrying, poise and guard breaks, a layered defense, damage-scaled knockback, dashes and passive dodges, ki charging with the '''Ki Surge''', a dedicated combat flight mode and weapons made of ki. This page explains what you experience in a fight; the numbers are the server defaults.",
+  "translation": "DragonMineZ reemplaza las peleas vanilla con su propio '''sistema de combate''': combos de armas con preparación real, stamina, bloqueo y parry, estabilidad y rotura de guardia, una defensa por capas, retroceso que escala con el daño, dashes y esquivas pasivas, carga de ki con la '''Oleada de Ki''', un modo de vuelo de combate propio y armas hechas de ki. Esta página explica lo que vives en una pelea; los números son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Melee attacks ==",
+  "translation": "== Ataques cuerpo a cuerpo ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Every weapon is bound to a '''moveset''': a combo chain of attacks you cycle through as you keep swinging, each with its own reach, sweep angle, windup and damage. Bare fists have a moveset too. See [[Special:MyLanguage/Special Weapons|Special Weapons]] for the movesets and the signature weapons that use them.",
+  "translation": "Cada arma está ligada a un '''combo''': una cadena de ataques que recorres mientras sigues atacando, cada uno con su propio alcance, ángulo de barrido, preparación y daño. Los puños desnudos también tienen un combo. Consulta [[Special:MyLanguage/Special Weapons|Armas especiales]] para ver los combos y las armas características que los usan.",
+  "outdated": false
+ },
+ "4": {
+  "source": "'''Combos''': consecutive attacks step through the moveset (attack 1, 2, 3…) and loop. Different weapon classes swing, sweep and reach very differently.",
+  "translation": "'''Combos''': los ataques consecutivos avanzan por el combo (ataque 1, 2, 3…) y vuelven a empezar. Las distintas clases de armas golpean, barren y alcanzan de formas muy diferentes.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Dual-wielding''': hold a weapon in each hand and your combo alternates hands automatically.",
+  "translation": "'''Doble empuñadura''': lleva un arma en cada mano y tu combo alternará de mano automáticamente.",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Reach''': each moveset has its own range (a staff out-reaches a sword), on top of your normal reach.",
+  "translation": "'''Alcance''': cada combo tiene su propio rango (un bastón llega más lejos que una espada), además de tu alcance normal.",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Windup''': a melee swing lands a moment after you press attack, between '''3 and 7 ticks''' depending on the swing animation and the weapon. Other players see your swing as it starts. The server times the windup and checks every target against the real attack hitbox and line of sight before the hit counts.",
+  "translation": "'''Preparación''': un golpe cuerpo a cuerpo impacta un momento después de que presionas atacar, entre '''3 y 7 ticks''' según la animación del golpe y el arma. Los demás jugadores ven tu golpe en cuanto empieza. El servidor mide la preparación y comprueba cada objetivo contra la hitbox real del ataque y la línea de visión antes de que el golpe cuente.",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Blocking cancels swings''': you can't deal melee damage while blocking, and starting to block cancels a swing in progress.",
+  "translation": "'''Bloquear cancela los golpes''': no puedes hacer daño cuerpo a cuerpo mientras bloqueas, y empezar a bloquear cancela un golpe en curso.",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Attack speed''': however high your attack speed is, there are always at least 2 ticks between attacks. You can't attack while riding a mount by default.",
+  "translation": "'''Velocidad de ataque''': por alta que sea tu velocidad de ataque, siempre hay al menos 2 ticks entre ataques. Por defecto, no puedes atacar mientras vas montado.",
+  "outdated": false
+ },
+ "10": {
+  "source": "'''Giant enemies''': hitting a giant enemy (Hirudegarn, Slug, [[Special:MyLanguage/Janemba|Janemba]]…) counts once per swing, no matter how many of its body parts you touch.",
+  "translation": "'''Enemigos gigantes''': golpear a un enemigo gigante (Hildegarn, Slug, [[Special:MyLanguage/Janemba|Janemba]]…) cuenta una sola vez por golpe, sin importar cuántas partes de su cuerpo toques.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Melee damage comes from '''Strength''' (and strike damage from '''Strike Power'''); critical hits are explained on [[Special:MyLanguage/Stats and Attributes#Critical hits|Stats and Attributes]]. Weapons from other mods get a DMZ moveset too: see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]].",
+  "translation": "El daño cuerpo a cuerpo viene de la '''Fuerza''' (y el de los Super Golpes, de la estadística '''Super Golpes'''); los golpes críticos se explican en [[Special:MyLanguage/Stats and Attributes#Critical hits|Estadísticas y atributos]]. Las armas de otros mods también reciben un combo de DMZ: consulta [[Special:MyLanguage/Weapon Attributes|Atributos de armas]].",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Stamina ==",
+  "translation": "== Stamina ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Swinging, blocking, dashing, sprinting and combat flight all cost '''Stamina'''. A melee attack costs stamina in proportion to its damage, and extra gravity makes each attack cost more. Your stamina pool and its regeneration come from Resistance and Vitality (see [[Special:MyLanguage/Stats and Attributes#Derived resources|Stats and Attributes]]).",
+  "translation": "Golpear, bloquear, hacer dash, correr y el vuelo de combate cuestan '''Stamina'''. Un ataque cuerpo a cuerpo cuesta stamina en proporción a su daño, y la gravedad extra hace que cada ataque cueste más. Tu reserva de stamina y su regeneración vienen de la Resistencia y la Vitalidad (consulta [[Special:MyLanguage/Stats and Attributes#Derived resources|Estadísticas y atributos]]).",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Blocking ==",
+  "translation": "== Bloqueo ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "Hold {{Key|Right Mouse}} with empty hands to '''block'''. A block reduces the damage of incoming hits by '''5% to 65%''', scaled by your defense, but every blocked hit costs stamina (a quarter of the damage you blocked).",
+  "translation": "Mantén {{Key|Clic derecho}} con las manos vacías para '''bloquear'''. Un bloqueo reduce el daño de los golpes recibidos entre un '''5% y un 65%''', según tu defensa, pero cada golpe bloqueado cuesta stamina (un cuarto del daño que bloqueaste).",
+  "outdated": false
+ },
+ "16": {
+  "source": "=== Poise and guard breaks ===",
+  "translation": "=== Estabilidad y rotura de guardia ===",
+  "outdated": false
+ },
+ "17": {
+  "source": "While you block, part of the incoming damage (a quarter of it, or 1.5 times that share against non-player attackers) is dealt to your '''Poise''' as well. When your poise or your stamina runs out, your '''guard breaks''':",
+  "translation": "Mientras bloqueas, parte del daño recibido (un cuarto, o 1.5 veces esa parte contra atacantes que no son jugadores) también se aplica a tu '''Estabilidad'''. Cuando tu estabilidad o tu stamina se agotan, tu '''guardia se rompe''':",
+  "outdated": false
+ },
+ "18": {
+  "source": "you are '''stunned''' for '''3 seconds''' (you can't move or act);",
+  "translation": "quedas '''aturdido''' durante '''3 segundos''' (no puedes moverte ni actuar);",
+  "outdated": false
+ },
+ "19": {
+  "source": "hits you take while guard-broken ignore '''66%''' of your defense.",
+  "translation": "los golpes que recibes con la guardia rota ignoran el '''66%''' de tu defensa.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Poise starts regenerating again '''5 seconds''' after it last took damage. Your max poise is 25 plus a value derived from your defense.",
+  "translation": "La estabilidad vuelve a regenerarse '''5 segundos''' después de recibir daño por última vez. Tu estabilidad máxima es 25 más un valor derivado de tu defensa.",
+  "outdated": false
+ },
+ "21": {
+  "source": "=== Parrying ===",
+  "translation": "=== Parry ===",
+  "outdated": false
+ },
+ "22": {
+  "source": "Start a block '''within 150 ms''' of a hit and it becomes a '''parry''':",
+  "translation": "Empieza un bloqueo '''dentro de los 150 ms''' de un golpe y se convierte en un '''parry''':",
+  "outdated": false
+ },
+ "23": {
+  "source": "you take '''no damage''';",
+  "translation": "no recibes '''ningún daño''';",
+  "outdated": false
+ },
+ "24": {
+  "source": "the attacker is knocked back and '''staggered''' for 3 seconds (−25% movement and attack speed), and a non-player attacker is also '''stunned''';",
+  "translation": "el atacante sale despedido y queda '''tambaleante''' durante 3 segundos (−25% de velocidad de movimiento y de ataque), y un atacante que no es jugador además queda '''aturdido''';",
+  "outdated": false
+ },
+ "25": {
+  "source": "ki blasts are '''deflected''' and strike attacks are '''countered''';",
+  "translation": "las ráfagas de ki se '''desvían''' y los Super Golpes reciben un '''contraataque''';",
+  "outdated": false
+ },
+ "26": {
+  "source": "a parried attacker's melee attacks cost '''twice''' as much stamina for 4 seconds.",
+  "translation": "durante 4 segundos, los ataques cuerpo a cuerpo de un atacante que recibió un parry cuestan el '''doble''' de stamina.",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Taking damage ==",
+  "translation": "== Recibir daño ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "Every hit you take goes through your defense: penetration, negation of tiny hits, flat absorption, percentage reduction (capped at '''88%''', or '''93%''' with Protection enchantments) and adaptive mitigation, then blocking and Ki Protection. The full step-by-step is on [[Special:MyLanguage/Stats and Attributes#How defense works|Stats and Attributes]]. Because defense is multiplied by your '''Power Release''', fighting uncharged leaves you far more exposed.",
+  "translation": "Cada golpe que recibes pasa por tu defensa: penetración, anulación de golpes minúsculos, absorción plana, reducción porcentual (con un tope de '''88%''', o '''93%''' con encantamientos de Protección) y mitigación adaptativa, y luego el bloqueo y la Protección de Ki. El paso a paso completo está en [[Special:MyLanguage/Stats and Attributes#How defense works|Estadísticas y atributos]]. Como la defensa se multiplica por tu '''Liberación de Poder''', pelear sin cargar te deja mucho más expuesto.",
+  "outdated": false
+ },
+ "29": {
+  "source": "=== Knockback ===",
+  "translation": "=== Retroceso ===",
+  "outdated": false
+ },
+ "30": {
+  "source": "Knockback scales with how much of a hit got through your defense and how big it was:",
+  "translation": "El retroceso escala según cuánto de un golpe atravesó tu defensa y qué tan grande era:",
+  "outdated": false
+ },
+ "31": {
+  "source": "a hit your defense almost fully absorbed only pushes you '''15%''' as far;",
+  "translation": "un golpe que tu defensa absorbió casi por completo solo te empuja un '''15%''' de la distancia;",
+  "outdated": false
+ },
+ "32": {
+  "source": "a hit that deals at least '''15%''' of your max health counts as '''heavy''' and pushes you harder the bigger it is, up to '''2.5×''' the normal knockback.",
+  "translation": "un golpe que inflige al menos un '''15%''' de tu vida máxima cuenta como '''pesado''' y te empuja más cuanto mayor sea, hasta '''2.5×''' el retroceso normal.",
+  "outdated": false
+ },
+ "33": {
+  "source": "=== Knockdowns ===",
+  "translation": "=== Derribos ===",
+  "outdated": false
+ },
+ "34": {
+  "source": "In fights that don't allow kills, a hit that would have killed a player '''knocks them down''' for '''30 seconds''' instead. This happens in party PvP, with '''Friendly Fist''' switched on (a Ki Action in the Utility Menu), when sparring a Shadow Dummy, and while a [[Special:MyLanguage/Namekian|Namekian]] or [[Special:MyLanguage/Majin|Majin]] is preparing an absorption. [[Special:MyLanguage/World Bosses|World boss]] fights have their own knockout rules.",
+  "translation": "En las peleas que no permiten matar, un golpe que habría matado a un jugador lo '''derriba''' durante '''30 segundos''' en su lugar. Esto pasa en el PvP de grupo, con '''Puño Amigo''' activado (una Acción de Ki del Menú de utilidades), al entrenar contra un Doble de Sombra y mientras un [[Special:MyLanguage/Namekian|Namekiano]] o un [[Special:MyLanguage/Majin|Majin]] prepara una absorción. Las peleas contra [[Special:MyLanguage/World Bosses|jefes de mundo]] tienen sus propias reglas de K.O.",
+  "outdated": false
+ },
+ "35": {
+  "source": "While you are down, the '''K.O.''' effect shows how long until you get back up (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "Mientras estás derribado, el efecto '''K.O.''' muestra cuánto falta para que te levantes (consulta [[Special:MyLanguage/Effects|Efectos]]).",
+  "outdated": false
+ },
+ "36": {
+  "source": "=== Logging out in combat ===",
+  "translation": "=== Desconectarte en combate ===",
+  "outdated": false
+ },
+ "37": {
+  "source": "If you log out in the middle of a fight, you die the next time you log in.",
+  "translation": "Si te desconectas en mitad de una pelea, mueres la próxima vez que te conectes.",
+  "outdated": false
+ },
+ "38": {
+  "source": "== Mobility ==",
+  "translation": "== Movilidad ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "=== Dash and perfect evasion ===",
+  "translation": "=== Dash y esquiva perfecta ===",
+  "outdated": false
+ },
+ "40": {
+  "source": "Press {{Key|R}} to '''dash''', or dash twice for a '''double dash'''. A single dash has a '''4-second''' cooldown and a double dash '''12 seconds'''. Dashing at the right moment, within '''200 ms''' of an attack, is a '''perfect evasion'''; after one, the next perfect evasion can't trigger for 1.5 seconds (a dash during that time is a normal dash).",
+  "translation": "Presiona {{Key|R}} para hacer '''dash''', o dos veces para un '''doble dash'''. Un dash simple tiene un tiempo de recarga de '''4 segundos''' y un doble dash, de '''12 segundos'''. Hacer dash en el momento justo, dentro de los '''200 ms''' de un ataque, es una '''esquiva perfecta'''; después de una, la siguiente esquiva perfecta no puede activarse durante 1.5 segundos (un dash en ese tiempo es un dash normal).",
+  "outdated": false
+ },
+ "41": {
+  "source": "A tap of the [[Special:MyLanguage/Instant Transmission|Instant Transmission]] key shares the dash cooldown, and warping to a master or player through the Instant Transmission menu has a '''30-second''' cooldown (see [[Special:MyLanguage/Skills|Skills]]). For evasion techniques such as [[Special:MyLanguage/Afterimage|Afterimage]] and [[Special:MyLanguage/Solar Flare|Solar Flare]], see [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]].",
+  "translation": "Un toque de la tecla de [[Special:MyLanguage/Instant Transmission|Teletransportación Instantánea]] comparte el tiempo de recarga del dash, y teletransportarte hasta un maestro o un jugador desde el menú de Teletransportación Instantánea tiene un tiempo de recarga de '''30 segundos''' (consulta [[Special:MyLanguage/Skills|Habilidades]]). Para técnicas de evasión como [[Special:MyLanguage/Afterimage|Imagen residual]] y [[Special:MyLanguage/Solar Flare|Destello Solar]], consulta [[Special:MyLanguage/Evasion Techniques|Técnicas de evasión]].",
+  "outdated": false
+ },
+ "42": {
+  "source": "=== Lock-on ===",
+  "translation": "=== Fijar objetivo ===",
+  "outdated": false
+ },
+ "43": {
+  "source": "Press {{Key|Z}} to '''lock on''' to a target. Homing ki attacks follow your locked-on target (your lock-on range comes from the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill), a tap of Instant Transmission takes you to it, and strike attacks rush straight at it from up to 64 blocks away. In third person, the crosshair glides to where your attacks will land and softly locks onto hostile targets in reach.",
+  "translation": "Presiona {{Key|Z}} para '''fijar''' un objetivo. Los ataques de ki teledirigidos siguen a tu objetivo fijado (el alcance de fijado viene de la habilidad [[Special:MyLanguage/Ki Sense|Sentir Ki]]), un toque de Teletransportación Instantánea te lleva hasta él y los Super Golpes se lanzan directo contra él desde hasta 64 bloques de distancia. En tercera persona, la mira se desliza hacia donde caerán tus ataques y se fija suavemente en los objetivos hostiles a tu alcance.",
+  "outdated": false
+ },
+ "44": {
+  "source": "== Speed and passive dodge ==",
+  "translation": "== Velocidad y esquiva pasiva ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Resistance''' raises your '''Speed''' (see [[Special:MyLanguage/Stats and Attributes#Speed|Stats and Attributes]]). If you know the [[Special:MyLanguage/Meditation|Meditation]] skill, Speed also lets you '''automatically dodge''' basic melee attacks:",
+  "translation": "La '''Resistencia''' aumenta tu '''Velocidad''' (consulta [[Special:MyLanguage/Stats and Attributes#Speed|Estadísticas y atributos]]). Si conoces la habilidad [[Special:MyLanguage/Meditation|Meditación]], la Velocidad también te permite '''esquivar automáticamente''' los ataques cuerpo a cuerpo básicos:",
+  "outdated": false
+ },
+ "46": {
+  "source": "against '''players''', you need to be faster than the attacker: '''2.5×''' their Speed at Meditation level 1, down to '''1.4×''' at level 10;",
+  "translation": "contra '''jugadores''', necesitas ser más rápido que el atacante: '''2.5×''' su Velocidad con Meditación de nivel 1, bajando hasta '''1.4×''' en el nivel 10;",
+  "outdated": false
+ },
+ "47": {
+  "source": "against '''other enemies''', you need a higher Battle Power: '''2×''' theirs at Meditation level 1, down to '''1×''' at level 10.",
+  "translation": "contra '''otros enemigos''', necesitas más Poder de Combate: '''2×''' el suyo con Meditación de nivel 1, bajando hasta '''1×''' en el nivel 10.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Once you just meet the requirement your dodge chance is '''10%''', and it grows the further you exceed it, up to '''35%''' against players and '''50%''' against other enemies at Meditation level 10 (at level 1 the maximum is 60% of those values). Each dodge costs '''3%''' of your max stamina, there are at least 0.5 seconds between two dodges, and every consecutive dodge makes the next one less likely (×0.75) until you go 3 seconds without dodging. [[Special:MyLanguage/Glind|Glinds]] get a higher dodge chance from their '''Celestial Body''' racial skill.",
+  "translation": "Cuando apenas cumples el requisito, tu probabilidad de esquivar es del '''10%''', y crece cuanto más lo superas, hasta un '''35%''' contra jugadores y un '''50%''' contra otros enemigos con Meditación de nivel 10 (en el nivel 1, el máximo es el 60% de esos valores). Cada esquiva cuesta el '''3%''' de tu stamina máxima, hay al menos 0.5 segundos entre dos esquivas, y cada esquiva consecutiva hace menos probable la siguiente (×0.75) hasta que pasas 3 segundos sin esquivar. Los [[Special:MyLanguage/Glind|Glind]] tienen una probabilidad de esquivar mayor gracias a su habilidad racial '''Cuerpo Celestial'''.",
+  "outdated": false
+ },
+ "49": {
+  "source": "== Ki charging and Ki Surge ==",
+  "translation": "== Carga de ki y Oleada de Ki ==",
+  "outdated": false
+ },
+ "50": {
+  "source": "Hold {{Key|C}} to '''charge ki''' and raise your '''Power Release''' up to your limit; double-tap it to jump straight to your maximum. Power Release multiplies your damage, defense, speed and Battle Power (see [[Special:MyLanguage/Stats and Attributes#Power Release|Stats and Attributes]]).",
+  "translation": "Mantén {{Key|C}} para '''cargar ki''' y subir tu '''Liberación de Poder''' hasta tu límite; tócala dos veces para saltar directo a tu máximo. La Liberación de Poder multiplica tu daño, defensa, velocidad y Poder de Combate (consulta [[Special:MyLanguage/Stats and Attributes#Power Release|Estadísticas y atributos]]).",
+  "outdated": false
+ },
+ "51": {
+  "source": "'''Taking a hit while charging stops the charge''' (and any surge progress), and you can't start charging again for half a second.",
+  "translation": "'''Recibir un golpe mientras cargas detiene la carga''' (y cualquier progreso de la oleada), y no puedes volver a cargar durante medio segundo.",
+  "outdated": false
+ },
+ "52": {
+  "source": "While you charge, arrows and other non-ki projectiles are '''deflected'''.",
+  "translation": "Mientras cargas, las flechas y otros proyectiles que no son de ki se '''desvían'''.",
+  "outdated": false
+ },
+ "53": {
+  "source": "Hold {{Key|Alt}} + {{Key|C}} to lower your release, or cap it with '''Limit Release''' in the Utility Menu (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).",
+  "translation": "Mantén {{Key|Alt}} + {{Key|C}} para bajar tu liberación, o ponle un tope con '''Límite de liberación''' en el Menú de utilidades (consulta [[Special:MyLanguage/Menus#Utility Menu|Menús]]).",
+  "outdated": false
+ },
+ "54": {
+  "source": "=== Ki Burst ===",
+  "translation": "=== Estallido de Ki ===",
+  "outdated": false
+ },
+ "55": {
+  "source": "The moment you reach full Ki while charging, you release a '''Ki Burst''' that pushes back enemies within 8 blocks whose Battle Power is lower than yours.",
+  "translation": "En el momento en que llegas al Ki máximo mientras cargas, liberas un '''Estallido de Ki''' que empuja a los enemigos a menos de 8 bloques cuyo Poder de Combate es menor que el tuyo.",
+  "outdated": false
+ },
+ "56": {
+  "source": "=== Ki Surge ===",
+  "translation": "=== Oleada de Ki ===",
+  "outdated": false
+ },
+ "57": {
+  "source": "Keep charging at full Ki and the '''Ki Surge''' bar fills (4 seconds by default; letting go of {{Key|C}} empties it). When the bar is full you enter a '''Ki Surge''':",
+  "translation": "Sigue cargando con el Ki al máximo y se llena la barra de '''Oleada de Ki''' (4 segundos por defecto; soltar {{Key|C}} la vacía). Cuando la barra se llena, entras en una '''Oleada de Ki''':",
+  "outdated": false
+ },
+ "58": {
+  "source": "a big burst damages and blows back everyone within 10 blocks, for up to a quarter of your max Ki (less with distance). It can never kill;",
+  "translation": "una gran explosión daña y repele a todos a menos de 10 bloques, hasta un cuarto de tu Ki máximo (menos con la distancia). Nunca puede matar;",
+  "outdated": false
+ },
+ "59": {
+  "source": "for '''12 seconds''' your ki attacks deal '''15%''' more damage and fly '''25%''' faster, you charge techniques '''20%''' faster, move and fly '''25%''' faster and attack '''40%''' faster, and your aura grows;",
+  "translation": "durante '''12 segundos''' tus ataques de ki infligen un '''15%''' más de daño y vuelan un '''25%''' más rápido, cargas técnicas un '''20%''' más rápido, te mueves y vuelas un '''25%''' más rápido y atacas un '''40%''' más rápido, y tu aura crece;",
+  "outdated": false
+ },
+ "60": {
+  "source": "but spending Ki costs '''25%''' more and drains the bar (spending X% of your max Ki removes 1.5 × X% of the bar);",
+  "translation": "pero gastar Ki cuesta un '''25%''' más y vacía la barra (gastar un X% de tu Ki máximo quita 1.5 × X% de la barra);",
+  "outdated": false
+ },
+ "61": {
+  "source": "being '''stunned''' ends the surge. After a surge ends or is lost, you wait '''15 seconds''' before the next one.",
+  "translation": "quedar '''aturdido''' termina la oleada. Cuando una oleada termina o se pierde, esperas '''15 segundos''' antes de la siguiente.",
+  "outdated": false
+ },
+ "62": {
+  "source": "An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''' can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
+  "translation": "La '''Barrera de Absorción''' de un [[Special:MyLanguage/Android|Androide]] también puede forzar una Oleada de Ki cuando se desborda (consulta [[Special:MyLanguage/Racial Skills|Habilidades raciales]]).",
+  "outdated": false
+ },
+ "63": {
+  "source": "=== Ki Transfer ===",
+  "translation": "=== Transferencia de ki ===",
+  "outdated": false
+ },
+ "64": {
+  "source": "Hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} while looking at another player to give them your Ki. Every giver also raises the receiver's STR, SKP, DEF and PWR by 5%, while the giver slows down, can't fight and is left weaker for a while afterwards. Ki that doesn't fit in the receiver's bar goes into the ki attack they are charging. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].",
+  "translation": "Mantén {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Clic derecho}} mientras miras a otro jugador para darle tu Ki. Cada donante también sube un 5% la STR, SKP, DEF y PWR del receptor, mientras que el donante se ralentiza, no puede pelear y queda más débil durante un rato. El Ki que no cabe en la barra del receptor va al ataque de ki que esté cargando. Consulta [[Special:MyLanguage/Ki Transfer|Transferencia de ki]].",
+  "outdated": false
+ },
+ "65": {
+  "source": "== Ki Protection and Ki Infusion ==",
+  "translation": "== Protección de Ki e Infusión de Ki ==",
+  "outdated": false
+ },
+ "66": {
+  "source": "These two skills, bought from [[Special:MyLanguage/Masters|masters]], only work while switched on (in the Skills menu, or under '''Ki Actions''' in the Utility Menu):",
+  "translation": "Estas dos habilidades, que se compran a los [[Special:MyLanguage/Masters|maestros]], solo funcionan mientras están activadas (en el menú Habilidades, o en '''Acciones de Ki''' del Menú de utilidades):",
+  "outdated": false
+ },
+ "67": {
+  "source": "[[Special:MyLanguage/Ki Protection|Ki Protection]] reduces incoming damage by '''2.5% per level''' (up to 25%), spending Ki equal to '''15%''' of the incoming damage. With too little Ki, the reduction is scaled down to what you can pay.",
+  "translation": "[[Special:MyLanguage/Ki Protection|Protección de Ki]] reduce el daño recibido un '''2.5% por nivel''' (hasta 25%), gastando Ki igual al '''15%''' del daño recibido. Si tienes poco Ki, la reducción se ajusta a lo que puedas pagar.",
+  "outdated": false
+ },
+ "68": {
+  "source": "[[Special:MyLanguage/Ki Infusion|Ki Infusion]] adds bonus melee damage equal to '''2.5% of your max Ki per level''' (up to +25%), spending '''2.5%''' (level 1) to '''7.5%''' (level 10) of your max Ki per hit. It only triggers if you have enough Ki.",
+  "translation": "[[Special:MyLanguage/Ki Infusion|Infusión de Ki]] añade daño cuerpo a cuerpo extra igual al '''2.5% de tu Ki máximo por nivel''' (hasta +25%), gastando del '''2.5%''' (nivel 1) al '''7.5%''' (nivel 10) de tu Ki máximo por golpe. Solo se activa si tienes suficiente Ki.",
+  "outdated": false
+ },
+ "69": {
+  "source": "See [[Special:MyLanguage/Skills|Skills]] for the masters who teach them.",
+  "translation": "Consulta [[Special:MyLanguage/Skills|Habilidades]] para ver qué maestros las enseñan.",
+  "outdated": false
+ },
+ "70": {
+  "source": "== Ki weapons ==",
+  "translation": "== Armas de ki ==",
+  "outdated": false
+ },
+ "71": {
+  "source": "The [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] skill lets you form weapons out of ki from the '''Ki Weapons''' entry of the Utility Menu while your main hand is empty. Each one uses a weapon moveset, deals bonus damage from your Ki Damage (×10% per Ki Manipulation level) and costs Ki on every attack:",
+  "translation": "La habilidad [[Special:MyLanguage/Ki Manipulation|Manipulación de Ki]] te permite formar armas de ki desde la entrada '''Armas de Ki''' del Menú de utilidades mientras tienes la mano principal vacía. Cada una usa un combo de arma, inflige daño extra a partir de tu Daño de Ki (×10% por nivel de Manipulación de Ki) y cuesta Ki en cada ataque:",
+  "outdated": false
+ },
+ "72": {
+  "source": "Ki weapon",
+  "translation": "Arma de ki",
+  "outdated": false
+ },
+ "73": {
+  "source": "Moveset",
+  "translation": "Combo",
+  "outdated": false
+ },
+ "74": {
+  "source": "Bonus damage",
+  "translation": "Daño extra",
+  "outdated": false
+ },
+ "75": {
+  "source": "Ki per attack",
+  "translation": "Ki por ataque",
+  "outdated": false
+ },
+ "76": {
+  "source": "'''Ki Blade'''",
+  "translation": "'''Espada de Ki'''",
+  "outdated": false
+ },
+ "77": {
+  "source": "Sword",
+  "translation": "Espada",
+  "outdated": false
+ },
+ "78": {
+  "source": "Ki Damage × 0.25 × (level × 10%)",
+  "translation": "Daño de Ki × 0.25 × (nivel × 10%)",
+  "outdated": false
+ },
+ "79": {
+  "source": "'''Ki Scythe'''",
+  "translation": "'''Guadaña de Ki'''",
+  "outdated": false
+ },
+ "80": {
+  "source": "Scythe",
+  "translation": "Guadaña",
+  "outdated": false
+ },
+ "81": {
+  "source": "Ki Damage × 0.45 × (level × 10%)",
+  "translation": "Daño de Ki × 0.45 × (nivel × 10%)",
+  "outdated": false
+ },
+ "82": {
+  "source": "'''Ki Claw Lance'''",
+  "translation": "'''Lanza-Garra de Ki'''",
+  "outdated": false
+ },
+ "83": {
+  "source": "Trident",
+  "translation": "Tridente",
+  "outdated": false
+ },
+ "84": {
+  "source": "Ki Damage × 0.65 × (level × 10%)",
+  "translation": "Daño de Ki × 0.65 × (nivel × 10%)",
+  "outdated": false
+ },
+ "85": {
+  "source": "Ki Manipulation also raises the damage of basic ki blasts ({{Key|Alt}} + {{Key|Right Mouse}}) by 5% of your Ki Damage per level.",
+  "translation": "La Manipulación de Ki también aumenta el daño de las ráfagas de ki básicas ({{Key|Alt}} + {{Key|Clic derecho}}) en un 5% de tu Daño de Ki por nivel.",
+  "outdated": false
+ },
+ "86": {
+  "source": "== Combat flight ==",
+  "translation": "== Vuelo de combate ==",
+  "outdated": false
+ },
+ "87": {
+  "source": "The [[Special:MyLanguage/Fly|Fly]] skill has two modes, switched with {{Key|Alt}} + {{Key|F}}: '''Search Fly''', a fast, free-steering 360° flight for travel, and '''Combat Fly''', a momentum-based hover tuned for fighting.",
+  "translation": "La habilidad [[Special:MyLanguage/Fly|Vuelo]] tiene dos modos, que se alternan con {{Key|Alt}} + {{Key|F}}: '''Vuelo de búsqueda''', un vuelo rápido de 360° con dirección libre para viajar, y '''Vuelo de combate''', un vuelo estacionario basado en la inercia y pensado para pelear.",
+  "outdated": false
+ },
+ "88": {
+  "source": "Taking or dealing damage while in Search Fly switches you to '''Combat Fly''', and you stay locked in it for '''8 seconds'''.",
+  "translation": "Recibir o infligir daño durante el Vuelo de búsqueda te cambia a '''Vuelo de combate''', y quedas bloqueado en él durante '''8 segundos'''.",
+  "outdated": false
+ },
+ "89": {
+  "source": "With '''Mode Lock''' on (Utility Menu, '''Movement → Fly'''), you go back to the flight mode you chose once that lock ends.",
+  "translation": "Con '''Bloqueo de modo''' activado (Menú de utilidades, '''Movimiento → Vuelo'''), vuelves al modo de vuelo que elegiste cuando termina ese bloqueo.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Combat Fly is faster while you sprint or hold the movement key, drains Ki at '''half''' the normal flight rate, and lets you boost with a flight impulse that costs a little Ki and has a short cooldown.",
+  "translation": "El Vuelo de combate es más rápido mientras corres o mantienes la tecla de movimiento, consume Ki a la '''mitad''' del ritmo normal de vuelo y te permite impulsarte con un impulso de vuelo que cuesta un poco de Ki y tiene un tiempo de recarga corto.",
+  "outdated": false
+ },
+ "91": {
+  "source": "The '''Flight Speed''' option in the same menu caps your flight speed between 5% and 100%.",
+  "translation": "La opción '''Velocidad de vuelo''' del mismo menú limita tu velocidad de vuelo entre el 5% y el 100%.",
+  "outdated": false
+ },
+ "92": {
+  "source": "See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Controls|Controls]].",
+  "translation": "Consulta [[Special:MyLanguage/Skills|Habilidades]] y [[Special:MyLanguage/Controls|Controles]].",
+  "outdated": false
+ },
+ "93": {
+  "source": "== Techniques in combat ==",
+  "translation": "== Técnicas en combate ==",
+  "outdated": false
+ },
+ "94": {
+  "source": "Ki attacks, strike attacks and evasion techniques are fired from your technique slots ({{Key|Alt}} + 1–4 and {{Key|Ctrl}} + 1–4); they need the [[Special:MyLanguage/Ki Control|Ki Control]] skill, at least '''5%''' Power Release and an empty main hand. Every strike attack starts a short '''shared cooldown''' (3 seconds, halved when it misses), so owning several strikes doesn't let you chain them. With no enemy in reach, a strike attack '''rushes''' forward for up to 2 seconds, and missing completely refunds part of its Ki. Two beams that meet head-on start a [[Special:MyLanguage/Beam Clash|beam clash]], and two fighters rushing at each other with strike attacks start a [[Special:MyLanguage/Strike Clash|strike clash]]. Everything about techniques is on [[Special:MyLanguage/Techniques|Techniques]].",
+  "translation": "Los ataques de ki, los Super Golpes y las técnicas de evasión se lanzan desde tus ranuras de técnica ({{Key|Alt}} + 1–4 y {{Key|Ctrl}} + 1–4); necesitan la habilidad [[Special:MyLanguage/Ki Control|Control de Ki]], al menos un '''5%''' de Liberación de Poder y la mano principal vacía. Cada Super Golpe inicia un breve '''tiempo de recarga compartido''' (3 segundos, la mitad si falla), así que tener varios golpes no te deja encadenarlos. Sin ningún enemigo a tu alcance, un Super Golpe '''se lanza''' hacia adelante durante hasta 2 segundos, y fallar por completo te devuelve parte de su Ki. Dos ondas que chocan de frente inician un [[Special:MyLanguage/Beam Clash|choque de ondas]], y dos luchadores que se lanzan uno contra otro con Super Golpes inician un [[Special:MyLanguage/Strike Clash|choque de golpes]]. Todo sobre las técnicas está en [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ },
+ "95": {
+  "source": "== Who you can hit ==",
+  "translation": "== A quién puedes golpear ==",
+  "outdated": false
+ },
+ "96": {
+  "source": "Party members are always friendly unless your party has PvP switched on, players fighting the same world boss with you are friendly even then (see [[Special:MyLanguage/World Bosses#Truce|World Bosses]]), and [[Special:MyLanguage/Tournaments|tournament]] rivals are always hostile. By default DMZ's combat targeting treats other players and every mob as hostile, except villagers, iron golems and the guards of the Guard Villagers mod, which are neutral.",
+  "translation": "Los miembros del grupo siempre son aliados, salvo que tu grupo tenga el PvP activado; los jugadores que pelean contigo contra el mismo jefe de mundo son aliados incluso entonces (consulta [[Special:MyLanguage/World Bosses#Truce|Jefes de mundo]]), y los rivales de un [[Special:MyLanguage/Tournaments|torneo]] siempre son hostiles. Por defecto, el sistema de objetivos de combate de DMZ trata a los demás jugadores y a todas las criaturas como hostiles, excepto a los aldeanos, los gólems de hierro y los guardias del mod Guard Villagers, que son neutrales.",
+  "outdated": false
+ }
+}

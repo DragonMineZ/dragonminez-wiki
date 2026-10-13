@@ -1,0 +1,202 @@
+{
+ "Page_display_title": {
+  "source": "Training Minigames",
+  "translation": "Minijuegos de entrenamiento",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Training minigames''' are skill challenges taught by five [[Special:MyLanguage/Masters|masters]]. Each one has levels that get harder up to a cap, and pays [[Special:MyLanguage/Training Points and Mastery|Training Points]] for the time you keep playing, scaled by the level you reach, your grade and your current TP cost. They are the biggest deliberate source of TP in the game. [[Special:MyLanguage/Old Kai|Old Kai]] chains all five into the Ultimate Challenge.",
+  "translation": "Los '''minijuegos de entrenamiento''' son desafíos de habilidad que enseñan cinco [[Special:MyLanguage/Masters|maestros]]. Cada uno tiene niveles que se vuelven más difíciles hasta un tope, y paga [[Special:MyLanguage/Training Points and Mastery|Puntos de Entrenamiento]] por el tiempo que sigues jugando, escalados según el nivel que alcanzas, tu calificación y tu costo de TP actual. Son la mayor fuente intencional de TP del juego. El [[Special:MyLanguage/Old Kai|Kaioshin Anciano]] encadena los cinco en el Desafío Definitivo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Minigame",
+  "translation": "Minijuego",
+  "outdated": false
+ },
+ "3": {
+  "source": "Master",
+  "translation": "Maestro",
+  "outdated": false
+ },
+ "4": {
+  "source": "What you do",
+  "translation": "Qué haces",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Rhythm'''",
+  "translation": "'''Ritmo'''",
+  "outdated": false
+ },
+ "6": {
+  "source": "Hit notes on a four-lane rhythm highway.",
+  "translation": "Acierta notas en una autopista de ritmo de cuatro carriles.",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Ki Control|Ki Control]]",
+  "translation": "[[Special:MyLanguage/Ki Control|Control de Ki]]",
+  "outdated": false
+ },
+ "8": {
+  "source": "Keep a drifting ki orb inside your ki bar.",
+  "translation": "Mantén un orbe de ki a la deriva dentro de tu barra de ki.",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Shadow Boxing'''",
+  "translation": "'''Boxeo Sombra'''",
+  "outdated": false
+ },
+ "10": {
+  "source": "Type key combos before the timers run out.",
+  "translation": "Escribe combos de teclas antes de que se acaben los temporizadores.",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''Precision'''",
+  "translation": "'''Precisión'''",
+  "outdated": false
+ },
+ "12": {
+  "source": "Click circles when their shrinking rings meet them.",
+  "translation": "Haz clic en los círculos cuando sus anillos, que se encogen, los alcanzan.",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Gravity'''",
+  "translation": "'''Gravedad'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "Pilot a Saiyan pod through a canyon of rock pillars.",
+  "translation": "Pilotea una nave saiyajin por un cañón de pilares de roca.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Learning a minigame ==",
+  "translation": "== Cómo aprender un minijuego ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "* Play the game from its master's '''Train''' option and reach '''level 5''' in '''3''' runs. Mr. Popo only offers Rhythm inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].\n* Once learned, you can replay it any time from the '''Minigames''' tab of the Character Menu ({{Key|V}}).\n* '''Mentor bonus''': a game you already know, started from its master's menu, pays '''+25%'''.",
+  "translation": "* Juega el minijuego desde la opción '''Entrenar''' de su maestro y llega al '''nivel 5''' en '''3''' partidas. El Sr. Popo solo ofrece Ritmo dentro de la [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]].\n* Una vez aprendido, puedes repetirlo cuando quieras desde la pestaña '''Minijuegos''' del menú de personaje ({{Key|V}}).\n* '''Bonus de mentor''': un juego que ya conoces, iniciado desde el menú de su maestro, paga un '''+25%'''.",
+  "outdated": false
+ },
+ "17": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "* Rewards depend on how long you train, the level you reach and your grade (performance), and they scale with your current '''TP cost per stat point''', so they stay worthwhile as you grow.\n* The server checks every run, so rewards can't be faked.\n* There is no per-game TP cap by default.\n* The Progression TP boost doesn't apply to minigames, since they already scale with your stat cost. Your other TP boosts do; see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "* Las recompensas dependen de cuánto tiempo entrenas, del nivel que alcanzas y de tu calificación (desempeño), y escalan con tu '''costo de TP por punto de estadística''' actual, así que siguen valiendo la pena a medida que creces.\n* El servidor verifica cada partida, así que las recompensas no se pueden falsificar.\n* Por defecto no hay un tope de TP por juego.\n* El aumento de TP por Progresión no se aplica a los minijuegos, ya que estos ya escalan con el costo de tus estadísticas. Tus otros aumentos de TP sí se aplican; consulta [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento y maestría]].",
+  "outdated": false
+ },
+ "19": {
+  "source": "Server settings",
+  "translation": "Ajustes del servidor",
+  "outdated": false
+ },
+ "20": {
+  "source": "All minigame tuning lives in <code>config/dragonminez/training.json</code>, including the master of each game, the mentor bonus (<code>mentorBonus</code>) and the per-game TP cap (<code>tpsLimitPerGame</code>).",
+  "translation": "Todos los ajustes de los minijuegos están en <code>config/dragonminez/training.json</code>, incluido el maestro de cada juego, el bonus de mentor (<code>mentorBonus</code>) y el tope de TP por juego (<code>tpsLimitPerGame</code>).",
+  "outdated": false
+ },
+ "21": {
+  "source": "== The minigames ==",
+  "translation": "== Los minijuegos ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "=== Rhythm ===",
+  "translation": "=== Ritmo ===",
+  "outdated": false
+ },
+ "23": {
+  "source": "Taught by [[Special:MyLanguage/Mr. Popo|Mr. Popo]], inside the Hyperbolic Time Chamber. A four-lane rhythm highway: press {{Key|A}} {{Key|S}} {{Key|K}} {{Key|L}} (or the arrow keys) as each note crosses the hit line, and hold long notes. Misses drain your health.\n* Play '''Free Training''' or any '''music disc''' you carry, at '''Easy''', '''Normal''', '''Hard''' or '''Expert''', each with its own TP multiplier.\n* Finishing a disc's song with at least '''75%''' accuracy \"learns\" it, so you can replay it without the disc.",
+  "translation": "Lo enseña el [[Special:MyLanguage/Mr. Popo|Sr. Popo]], dentro de la Cámara Hiperbólica del Tiempo. Una autopista de ritmo de cuatro carriles: pulsa {{Key|A}} {{Key|S}} {{Key|K}} {{Key|L}} (o las flechas) cuando cada nota cruza la línea de golpe y mantén las notas largas. Los fallos te quitan vida.\n* Juega '''Entrenamiento libre''' o cualquier '''disco de música''' que lleves, en '''Fácil''', '''Normal''', '''Difícil''' o '''Experto''', cada uno con su propio multiplicador de TP.\n* Terminar la canción de un disco con al menos '''75%''' de precisión la \"aprende\", así que puedes volver a tocarla sin el disco.",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Ki Control ===",
+  "translation": "=== Control de Ki ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Taught by [[Special:MyLanguage/Krillin|Krillin]]. Hold {{Key|Space}}, {{Key|W}}, {{Key|↑}} or the left mouse button to push your ki bar up, and release to let it fall, keeping the drifting ki orb inside the bar. The bar shrinks and the orb speeds up each level; the run ends when the meter empties.",
+  "translation": "Lo enseña [[Special:MyLanguage/Krillin|Krilin]]. Mantén {{Key|Espacio}}, {{Key|W}}, {{Key|↑}} o el botón izquierdo del mouse para subir tu barra de ki, y suelta para dejarla caer, manteniendo el orbe de ki a la deriva dentro de la barra. La barra se encoge y el orbe se acelera en cada nivel; la partida termina cuando el medidor se vacía.",
+  "outdated": false
+ },
+ "26": {
+  "source": "=== Shadow Boxing ===",
+  "translation": "=== Boxeo Sombra ===",
+  "outdated": false
+ },
+ "27": {
+  "source": "Taught by [[Special:MyLanguage/Gohan|Gohan]]. Type the combo of keys (letters A–Z and digits 0–9) shown on screen, in order, before the timers run out. Letters follow your keyboard layout, so AZERTY and other layouts work. Combos grow up to 8 keys, and you have 3 lives.",
+  "translation": "Lo enseña [[Special:MyLanguage/Gohan|Gohan]]. Escribe en orden el combo de teclas (letras A–Z y dígitos 0–9) que aparece en pantalla antes de que se acaben los temporizadores. Las letras siguen la distribución de tu teclado, así que AZERTY y otras distribuciones funcionan. Los combos crecen hasta 8 teclas y tienes 3 vidas.",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== Precision ===",
+  "translation": "=== Precisión ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "Taught by [[Special:MyLanguage/Trunks|Trunks]]. Click each circle the moment its shrinking ring meets it ('''Perfect''' or '''Good'''); mistimed or ignored circles cost points.",
+  "translation": "Lo enseña [[Special:MyLanguage/Trunks|Trunks]]. Haz clic en cada círculo justo cuando su anillo, que se va encogiendo, lo alcanza ('''Perfecto''' o '''Bien'''); los círculos a destiempo o ignorados te restan puntos.",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== Gravity ===",
+  "translation": "=== Gravedad ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "Taught by [[Special:MyLanguage/Vegeta|Vegeta]]. Pilot a Saiyan pod through a canyon of rock pillars by tapping the thruster ({{Key|Space}}, {{Key|W}}, {{Key|↑}} or left click). Hitting a rock or the ground costs one of your 3 lives.",
+  "translation": "Lo enseña [[Special:MyLanguage/Vegeta|Vegeta]]. Pilotea una nave saiyajin por un cañón de pilares de roca tocando el propulsor ({{Key|Espacio}}, {{Key|W}}, {{Key|↑}} o clic izquierdo). Chocar con una roca o con el suelo te cuesta una de tus 3 vidas.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Old Kai's Ultimate Challenge ==",
+  "translation": "== El Desafío Definitivo del Kaioshin Anciano ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "With an [[Special:MyLanguage/Alignment|alignment]] of '''62 or higher''' and [[Special:MyLanguage/Potential Unlock|Potential Unlock]] '''level 10''', [[Special:MyLanguage/Old Kai|Old Kai]]'s '''Unleash Power''' option starts the Ultimate Challenge: the five minigames back to back, in this order: [[Special:MyLanguage/Ki Control|Ki Control]], '''Gravity''', '''Shadow Boxing''', '''Precision''' and '''Rhythm'''. Each one runs until you clear its target level (level 10, or level 6 for Rhythm). Clearing all five:\n* unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] skill;\n* gives you the [[Special:MyLanguage/Z Sword|Z Sword]], only the first time you complete it.",
+  "translation": "Con un [[Special:MyLanguage/Alignment|alineamiento]] de '''62 o más''' y [[Special:MyLanguage/Potential Unlock|Potencial liberado]] de '''nivel 10''', la opción '''Liberar Poder''' del [[Special:MyLanguage/Old Kai|Kaioshin Anciano]] inicia el Desafío Definitivo: los cinco minijuegos seguidos, en este orden: [[Special:MyLanguage/Ki Control|Control de Ki]], '''Gravedad''', '''Boxeo Sombra''', '''Precisión''' y '''Ritmo'''. Cada uno dura hasta que superas su nivel objetivo (nivel 10, o nivel 6 en Ritmo). Superar los cinco:\n* desbloquea la habilidad [[Special:MyLanguage/Ultimate|Definitivo]];\n* te da la [[Special:MyLanguage/Z Sword|Espada Z]], solo la primera vez que lo completas.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Both are needed for the [[Special:MyLanguage/Buu Saga|Buu Saga]] quest ''The Z Sword and Ultimate Power''.",
+  "translation": "Ambas son necesarias para la misión de la [[Special:MyLanguage/Buu Saga|Saga Buu]] ''La Espada Z y el Poder Definitivo''.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== Shadow Clone and Shadow Dummy ==",
+  "translation": "== Clon de Sombra y Doble de Sombra ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "Every master who teaches also offers a '''Shadow Clone''' in their '''Train''' option: it spawns a Shadow Dummy copy of you to spar with.",
+  "translation": "Todo maestro que enseña también ofrece un '''Clon de Sombra''' en su opción '''Entrenar''': invoca un Doble de Sombra con tu aspecto para combatir.",
+  "outdated": false
+ },
+ "37": {
+  "source": "The '''Shadow Dummy''' isn't a master minigame, but it lives in the same Minigames tab. Once you know the [[Special:MyLanguage/Ki Control|Ki Control]] skill, have reached [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] level 5 and have killed a Shadow Dummy at least once, you can manifest a Shadow Dummy made of your own ki, with 25–75% of your stats:\n* It fights on its own, but '''you lose that same percentage of your stats while it lives'''.\n* Kills and hits on it give '''+25% to +75%''' extra TP, matching the stat share you gave it.\n* It doubles as a sparring partner for form mastery, since mastery grows from both dealing and taking hits while transformed.",
+  "translation": "El '''Doble de Sombra''' no es un minijuego de maestro, pero está en la misma pestaña Minijuegos. Una vez que conoces la habilidad [[Special:MyLanguage/Ki Control|Control de Ki]], llegaste al nivel 5 de [[Special:MyLanguage/Ki Manipulation|Manipulación de Ki]] y mataste a un Doble de Sombra al menos una vez, puedes manifestar un Doble de Sombra hecho de tu propio ki, con el 25–75% de tus estadísticas:\n* Pelea por su cuenta, pero '''pierdes ese mismo porcentaje de tus estadísticas mientras vive'''.\n* Matarlo y golpearlo da entre '''+25% y +75%''' de TP extra, según la parte de tus estadísticas que le diste.\n* También sirve como compañero de combate para la maestría de formas, ya que la maestría crece tanto al dar como al recibir golpes mientras estás transformado.",
+  "outdated": false
+ },
+ "38": {
+  "source": "Tip",
+  "translation": "Consejo",
+  "outdated": false
+ },
+ "39": {
+  "source": "Learn all five games and rotate through them, starting each one from its master for the mentor bonus. Wear [[Special:MyLanguage/Weights|weights]], keep a TP boost such as Kami's Blessing running, and spar a Shadow Dummy between runs to bank form mastery at the same time.",
+  "translation": "Aprende los cinco juegos y altérnalos, empezando cada uno con su maestro para obtener el bonus de mentor. Usa [[Special:MyLanguage/Weights|pesas]], mantén activo un aumento de TP como la Bendición de Kami y combate contra un Doble de Sombra entre partidas para acumular maestría de formas al mismo tiempo.",
+  "outdated": false
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "Page_display_title": {
+  "source": "Scouters",
+  "translation": "Escáneres",
+  "outdated": false
+ },
+ "1": {
+  "source": "Read a fighter's Battle Power at a glance.",
+  "translation": "Lee el Poder de Combate de un luchador con solo mirarlo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Curio (Head Tech slot)",
+  "translation": "Curio (ranura Head Tech)",
+  "outdated": false
+ },
+ "3": {
+  "source": "Reads the Battle Power of the entity you look at",
+  "translation": "Lee el Poder de Combate de la entidad que miras",
+  "outdated": false
+ },
+ "4": {
+  "source": "Crafting, Saiyan Assault raid (Green)",
+  "translation": "Fabricación, incursión Asalto Saiyajin (Verde)",
+  "outdated": false
+ },
+ "5": {
+  "source": "Radar's Piece, Radar's CPU (Earth), 2 stained glass panes and a Stone Button",
+  "translation": "Pieza del Radar, CPU del Radar (Tierra), 2 paneles de vidrio tintado y un Botón de piedra",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Scouters''' are head-worn devices that read the '''Battle Power''' of the entity you look at and point towards the strongest entity nearby. There are four colors, '''Red''', '''Blue''', '''Green''' and '''Purple''', which work the same way.",
+  "translation": "Los '''escáneres''' son dispositivos que se llevan en la cabeza, leen el '''Poder de Combate''' de la entidad que miras y señalan hacia la entidad más fuerte cercana. Hay cuatro colores, '''Rojo''', '''Azul''', '''Verde''' y '''Morado''', que funcionan igual.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Using a scouter ==",
+  "translation": "== Usar un escáner ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "* Wear the scouter in the '''Head Tech''' Curios slot. It also works in the cosmetic slot.\n* It reads the Battle Power of the entity you look at within '''20 blocks''' and points towards the strongest entity nearby.\n* Press the [[Special:MyLanguage/Ki Sense|Ki Sense]] key ({{Key|F4}} by default) to toggle the readout (see [[Special:MyLanguage/Controls|Controls]]).\n* The readout is a HUD element you can move and mirror in the HUD editor. It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).",
+  "translation": "* Lleva el escáner en la ranura '''Head Tech''' de Curios. También funciona en la ranura cosmética.\n* Lee el Poder de Combate de la entidad que miras a menos de '''20 bloques''' y señala hacia la entidad más fuerte cercana.\n* Presiona la tecla [[Special:MyLanguage/Ki Sense|Sentir Ki]] ({{Key|F4}} por defecto) para activar o desactivar la lectura (consulta [[Special:MyLanguage/Controls|Controles]]).\n* La lectura es un elemento del HUD que puedes mover y reflejar en el Editor de HUD. No está disponible en el estilo de HUD Compacto (consulta [[Special:MyLanguage/HUD|HUD]]).",
+  "outdated": false
+ },
+ "9": {
+  "source": "=== Bulma's upgrades ===",
+  "translation": "=== Mejoras de Bulma ===",
+  "outdated": false
+ },
+ "10": {
+  "source": "* The numbers only show once you complete Bulma's '''Scouter Calibration''' sidequest.\n* Her '''Bio-Scan Module''' sidequest adds extra information about the target.",
+  "translation": "* Los números solo aparecen cuando completas la misión secundaria '''Calibración del Escáner''' de Bulma.\n* Su misión secundaria '''Módulo de Bio-Escáner''' añade información extra sobre el objetivo.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Overloading ==",
+  "translation": "== Sobrecarga ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Reading a Battle Power above '''150,000,000''' damages the scouter. After '''15''' overloads it breaks.",
+  "translation": "Leer un Poder de Combate superior a '''150,000,000''' daña el escáner. Tras '''15''' sobrecargas, se rompe.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Who a scouter can't read ==",
+  "translation": "== A quién no puede leer un escáner ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "* Players wearing the [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]].\n* [[Special:MyLanguage/Glind|Glind]] players, whose '''Divine Ki''' hides them unless the seeker is a Glind too, has unlocked a God Form, is in a God form or is under '''Kami's Blessing''' (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "* Los jugadores que llevan el [[Special:MyLanguage/Anti-Ki Cloaking Device|Dispositivo de Camuflaje Anti-Ki]].\n* Los jugadores [[Special:MyLanguage/Glind|Glind]], cuyo '''Ki Divino''' los oculta salvo que quien los busca también sea Glind, haya desbloqueado una Forma Divina, esté en una Forma Divina o esté bajo la '''Bendición de Kami''' (consulta [[Special:MyLanguage/Effects|Efectos]]).",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Getting a scouter ==",
+  "translation": "== Conseguir un escáner ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "* '''Crafting table:''' each color uses stained glass panes of that color (recipes below). See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the parts.\n* The [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] raid rewards a Green Scouter.",
+  "translation": "* '''Mesa de trabajo:''' cada color usa paneles de vidrio tintado de ese color (recetas más abajo). Consulta [[Special:MyLanguage/Dragon Radar#Radar parts|Radar del Dragón]] para ver las piezas.\n* La incursión [[Special:MyLanguage/Saiyan Assault|Asalto Saiyajin]] da como recompensa un Escáner (Verde).",
+  "outdated": false
+ },
+ "17": {
+  "source": "The [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] asks for a Red Scouter in exchange for its map to Vegeta's Pod.",
+  "translation": "El [[Special:MyLanguage/Capsule Corp Assistant|Asistente de la Corporación Cápsula]] pide un Escáner (Rojo) a cambio de su mapa a la Nave saiyajin de Vegeta.",
+  "outdated": false
+ }
+}

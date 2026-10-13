@@ -1,0 +1,152 @@
+{
+ "Page_display_title": {
+  "source": "Meditation",
+  "translation": "Meditación",
+  "outdated": false
+ },
+ "1": {
+  "source": "A calm mind recovers faster and reads every attack.",
+  "translation": "Una mente en calma se recupera más rápido y lee cada ataque.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Movement and utility",
+  "translation": "Movimiento y utilidad",
+  "outdated": false
+ },
+ "3": {
+  "source": "300 to 3,000 TP per level",
+  "translation": "De 300 a 3,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "+5% Ki and stamina regeneration per level, and a chance to passively dodge melee attacks.",
+  "translation": "+5% de regeneración de Ki y stamina por nivel, y una probabilidad de esquivar pasivamente los ataques cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Meditation''' is a passive skill that speeds up your Ki and stamina regeneration and gives you a chance to automatically dodge melee attacks. Against players the dodge depends on how much faster you are than the attacker; against other enemies, on how much higher your Battle Power is.",
+  "translation": "La '''Meditación''' es una habilidad pasiva que acelera tu regeneración de Ki y stamina y te da una probabilidad de esquivar automáticamente los ataques cuerpo a cuerpo. Contra jugadores, la esquiva depende de cuánto más rápido seas que el atacante; contra otros enemigos, de cuánto mayor sea tu Poder de Combate.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Master Roshi|Master Roshi]] (Good alignment), [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] (no alignment requirement) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Meditation. Level 1 costs 300 TP and each level costs 300 TP more, up to 3,000 TP for level 10.",
+  "translation": "El [[Special:MyLanguage/Master Roshi|Maestro Roshi]] (alineamiento Bueno), la [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]] (sin requisito de alineamiento) y [[Special:MyLanguage/Frieza|Freezer]] (alineamiento Maligno) enseñan Meditación. El nivel 1 cuesta 300 TP y cada nivel cuesta 300 TP más, hasta 3,000 TP por el nivel 10.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Regeneration ==",
+  "translation": "== Regeneración ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Each level gives '''+5% Ki and stamina regeneration''' (+50% at level 10). It works passively, all the time. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for how regeneration works.",
+  "translation": "Cada nivel da un '''+5% de regeneración de Ki y stamina''' (+50% en el nivel 10). Funciona de forma pasiva, todo el tiempo. Consulta [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]] para ver cómo funciona la regeneración.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Passive dodge ==",
+  "translation": "== Esquiva pasiva ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "With Meditation you can automatically dodge '''basic melee attacks''':",
+  "translation": "Con Meditación puedes esquivar automáticamente los '''ataques cuerpo a cuerpo básicos''':",
+  "outdated": false
+ },
+ "12": {
+  "source": "* '''Against players''' you need to be faster than the attacker. Speed comes from your Resistance (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]).\n* '''Against other enemies''' you need a higher Battle Power than the attacker.",
+  "translation": "* '''Contra jugadores''' tienes que ser más rápido que el atacante. La velocidad viene de tu Resistencia (consulta [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]]).\n* '''Contra otros enemigos''' necesitas un Poder de Combate mayor que el del atacante.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Once you just meet the requirement you have a small chance to dodge, and the chance grows the bigger your advantage is, up to a maximum. Each level of Meditation lowers the advantage you need and raises the maximum chance.",
+  "translation": "En cuanto cumples justo el requisito tienes una pequeña probabilidad de esquivar, y la probabilidad crece cuanto mayor es tu ventaja, hasta un máximo. Cada nivel de Meditación reduce la ventaja que necesitas y aumenta la probabilidad máxima.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Against players",
+  "translation": "Contra jugadores",
+  "outdated": false
+ },
+ "15": {
+  "source": "Against other enemies",
+  "translation": "Contra otros enemigos",
+  "outdated": false
+ },
+ "16": {
+  "source": "Advantage needed at level 1",
+  "translation": "Ventaja necesaria en el nivel 1",
+  "outdated": false
+ },
+ "17": {
+  "source": "2.5 times faster",
+  "translation": "2.5 veces más rápido",
+  "outdated": false
+ },
+ "18": {
+  "source": "2 times the Battle Power",
+  "translation": "2 veces el Poder de Combate",
+  "outdated": false
+ },
+ "19": {
+  "source": "Advantage needed at level 10",
+  "translation": "Ventaja necesaria en el nivel 10",
+  "outdated": false
+ },
+ "20": {
+  "source": "1.4 times faster",
+  "translation": "1.4 veces más rápido",
+  "outdated": false
+ },
+ "21": {
+  "source": "The same Battle Power",
+  "translation": "El mismo Poder de Combate",
+  "outdated": false
+ },
+ "22": {
+  "source": "Chance when you just meet the requirement",
+  "translation": "Probabilidad al cumplir justo el requisito",
+  "outdated": false
+ },
+ "23": {
+  "source": "Maximum chance at level 1",
+  "translation": "Probabilidad máxima en el nivel 1",
+  "outdated": false
+ },
+ "24": {
+  "source": "Maximum chance at level 10",
+  "translation": "Probabilidad máxima en el nivel 10",
+  "outdated": false
+ },
+ "25": {
+  "source": "Every dodge has a price and a limit:",
+  "translation": "Cada esquiva tiene un precio y un límite:",
+  "outdated": false
+ },
+ "26": {
+  "source": "* A dodge costs '''3% of your max stamina'''.\n* Consecutive dodges get less likely: each one multiplies the chance of the next by 0.75. The streak resets after 3 seconds without dodging.\n* Two dodges are at least half a second apart.",
+  "translation": "* Una esquiva cuesta el '''3% de tu stamina máximo'''.\n* Las esquivas consecutivas son menos probables: cada una multiplica la probabilidad de la siguiente por 0.75. La racha se reinicia tras 3 segundos sin esquivar.\n* Entre dos esquivas pasa al menos medio segundo.",
+  "outdated": false
+ },
+ "27": {
+  "source": "These values are the server defaults.",
+  "translation": "Estos valores son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "* The [[Special:MyLanguage/Glind|Glind]] racial passive '''Celestial Body''' makes the Meditation dodge 50% more likely.\n* The Meditation dodge is separate from the '''perfect evasion''' you get by dashing at the right moment. See [[Special:MyLanguage/Combat|Combat]].",
+  "translation": "* La pasiva racial '''Cuerpo Celestial''' de los [[Special:MyLanguage/Glind|Glind]] hace que la esquiva de Meditación sea un 50% más probable.\n* La esquiva de Meditación es distinta de la '''evasión perfecta''' que consigues al hacer un dash en el momento justo. Consulta [[Special:MyLanguage/Combat|Combate]].",
+  "outdated": false
+ }
+}

@@ -1,47 +1,54 @@
 {{Infobox Class
-|quote=<translate>The technical striker: hits harder the more hurt the enemy is.</translate>
-|Passive=<translate>Executioner Strikes</translate>
-|Playstyle=<translate>Strike attacks and finishing weakened foes</translate>
+|quote=<translate><!--T:1--> The technical striker: hits harder the more hurt the enemy is.</translate>
+|Passive=<translate><!--T:2--> Executioner Strikes</translate>
+|Playstyle=<translate><!--T:3--> Strike attacks and finishing weakened foes</translate>
 |Strength=0.8
 |Strike Power=1.8
-|Resistance=<translate>DEF 0.18, STM 1.3</translate>
+|Resistance=<translate><!--T:4--> DEF 0.18, STM 1.3</translate>
 |Vitality=2.2
 |Ki Power=0.6
 |Energy=1.6
 }}
 <translate>
+<!--T:5-->
 '''Martial Artist''' is the technical striker among the [[Special:MyLanguage/Classes|classes]]. It has the best Strike Power scaling, a sturdy Vitality scaling, and a passive that makes its strike attacks hit harder as the target's health drops.
 </translate>
 
 <translate>
-== Passive: Executioner Strikes ==
+== Passive: Executioner Strikes == <!--T:6-->
 
+<!--T:7-->
 '''Strike''' attacks deal up to '''+25%''' damage based on the '''target's''' missing health:
 
+<!--T:8-->
 * no bonus while the target is above '''75%''' health;
 * the bonus rises as its health drops, up to the full '''+25%''' at '''25%''' health or below.
 
+<!--T:9-->
 It is great for finishing weakened foes. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]] for the techniques it applies to.
 </translate>
 
 <translate>
-== Starting stats and regeneration ==
+== Starting stats and regeneration == <!--T:10-->
 
+<!--T:11-->
 * '''Starting stats:''' SKP 10 · VIT 10
 * '''Regeneration''' (per 5 seconds): health 1.5 (+0.0525 per VIT) · Ki 4.0 (+0.08 per ENE) · stamina 9.0 (+0.03375 per VIT, +0.045 per RES)
 </translate>
 
 <translate>
-== Stat scaling ==
+== Stat scaling == <!--T:12-->
 
+<!--T:13-->
 The Martial Artist's standout scalings are '''Strike Power''' (1.8) and '''Vitality''' (2.2). The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:14-->
 </translate>
 {{Config|Custom Races|stats.json}}
 <translate>
+<!--T:15-->
 The class id is <code>martialartist</code>. Its passive values are <code>maxBonus</code> (0.25), <code>hpHigh</code> (0.75) and <code>hpLow</code> (0.25), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings and regeneration.
 </translate>
 

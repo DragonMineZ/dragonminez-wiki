@@ -82,25 +82,26 @@ def units(wiki: Wiki, title: str, lang: str):
         params.update(cont)
 
 
-def cmd_export(wiki: Wiki, titles, langs, only_missing):
+def cmd_export(wiki: Wiki, titles, langs):
     for title in titles:
         for lang in langs:
-            out = {}
-            for unit in units(wiki, title, lang):
-                outdated = 'fuzzy' in unit.get('tags', [])
-                missing = unit.get('translation') in (None, '')
-                if only_missing and not (missing or outdated):
-                    continue
-                key = unit['key'].split('/')[-1]
-                out[key] = {
-                    'source': unit['definition'],
-                    'translation': '' if missing else unit['translation'].replace('!!FUZZY!!', ''),
-                    'outdated': outdated,
-                }
             path = TRANSLATIONS / lang / f'{title.replace(":", "~")}.json'
+            previous = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+            out = {}
+            pending = 0
+            for unit in units(wiki, title, lang):
+                key = unit['key'].split('/')[-1]
+                before = previous.get(key, {})
+                from_wiki = (unit.get('translation') or '').replace('!!FUZZY!!', '')
+                translation = before.get('translation') or from_wiki
+                changed = bool(before) and before.get('source') != unit['definition']
+                outdated = bool(translation) and ('fuzzy' in unit.get('tags', []) or changed or before.get('outdated', False))
+                out[key] = {'source': unit['definition'], 'translation': translation, 'outdated': outdated}
+                if not translation or outdated:
+                    pending += 1
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
-            print(f'{title} [{lang}]: {len(out)} unit(s) -> {path.relative_to(ROOT)}')
+            print(f'{title} [{lang}]: {len(out)} unit(s), {pending} to translate or review -> {path.relative_to(ROOT)}')
 
 
 def cmd_import(wiki: Wiki, titles, langs, summary):
@@ -121,8 +122,10 @@ def cmd_import(wiki: Wiki, titles, langs, summary):
                 if not text:
                     continue
                 current, fuzzy = existing.get(key, (None, False))
-                if current is not None and current.strip('\n') == text and not fuzzy:
-                    continue
+                if current is not None and current.strip('\n') == text:
+                    if not fuzzy:
+                        continue
+                    wiki.edit(f'Translations:{title}/{key}/{lang}', text + '​', 'wikitext', summary)
                 wiki.edit(f'Translations:{title}/{key}/{lang}', text, 'wikitext', summary)
                 done += 1
             print(f'{title} [{lang}]: {done} unit(s) saved')
@@ -135,7 +138,6 @@ def main() -> int:
     parser.add_argument('--every-page', action='store_true', help='every content page that contains <translate>')
     parser.add_argument('--api', default=os.environ.get('MW_API', 'https://wiki.dragonminez.com/api.php'))
     parser.add_argument('--lang', action='append', choices=TARGETS)
-    parser.add_argument('--all', action='store_true', help='export every unit, not only missing or outdated ones')
     parser.add_argument('--summary', default='Translation sync from dragonminez-wiki repository')
     args = parser.parse_args()
     titles = list(args.titles)
@@ -150,7 +152,7 @@ def main() -> int:
     if args.command == 'mark':
         cmd_mark(wiki, titles)
     elif args.command == 'export':
-        cmd_export(wiki, titles, langs, not args.all)
+        cmd_export(wiki, titles, langs)
     else:
         cmd_import(wiki, titles, langs, args.summary)
     return 0

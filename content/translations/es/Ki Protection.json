@@ -1,0 +1,87 @@
+{
+ "Page_display_title": {
+  "source": "Ki Protection",
+  "translation": "Protección de Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "Wrap yourself in ki and let it take the hit.",
+  "translation": "Envuélvete en ki y deja que reciba el golpe.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Passive combat ability",
+  "translation": "Habilidad pasiva de combate",
+  "outdated": false
+ },
+ "3": {
+  "source": "600 to 4,000 TP per level",
+  "translation": "De 600 a 4,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "Reduces incoming damage by 2.5% per level, paid with Ki.",
+  "translation": "Reduce el daño recibido un 2.5% por nivel, pagado con Ki.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Ki Protection''' blocks part of the damage you take at the cost of your Ki. While it is switched on, every hit is reduced by a percentage that grows with the skill's level, and your Ki pays for the damage it absorbs.",
+  "translation": "La '''Protección de Ki''' bloquea parte del daño que recibes a costa de tu Ki. Mientras está activada, cada golpe se reduce en un porcentaje que crece con el nivel de la habilidad, y tu Ki paga el daño que absorbe.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Gohan|Gohan]] (Good alignment), [[Special:MyLanguage/Trunks|Trunks]] (no alignment requirement) and [[Special:MyLanguage/Cell|Cell]] (Evil alignment) teach Ki Protection.",
+  "translation": "[[Special:MyLanguage/Gohan|Gohan]] (alineamiento Bueno), [[Special:MyLanguage/Trunks|Trunks]] (sin requisito de alineamiento) y [[Special:MyLanguage/Cell|Cell]] (alineamiento Maligno) enseñan la Protección de Ki.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "Damage reduction",
+  "translation": "Reducción de daño",
+  "outdated": false
+ },
+ "11": {
+  "source": "== How it works ==",
+  "translation": "== Cómo funciona ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Switch Ki Protection on in the Utility Menu ({{Key|X}}) under '''Actions → Ki Actions'''. While it is on:",
+  "translation": "Activa la Protección de Ki en el Menú de utilidades ({{Key|X}}) en '''Acciones → Acciones de Ki'''. Mientras está activa:",
+  "outdated": false
+ },
+ "13": {
+  "source": "* incoming damage is reduced by '''2.5% per level''' (up to 25% at level 10);\n* the protection costs Ki equal to '''15% of the incoming damage''';\n* with too little Ki, the reduction is scaled down to what you can pay.",
+  "translation": "* el daño recibido se reduce un '''2.5% por nivel''' (hasta un 25% en el nivel 10);\n* la protección cuesta un Ki igual al '''15% del daño recibido''';\n* si tienes poco Ki, la reducción se ajusta a lo que puedas pagar.",
+  "outdated": false
+ },
+ "14": {
+  "source": "These percentages are the server defaults.",
+  "translation": "Estos porcentajes son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "* For the other ways to reduce damage (defense, blocking, parrying), see [[Special:MyLanguage/Combat|Combat]] and [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].\n* Its offensive counterpart is [[Special:MyLanguage/Ki Infusion|Ki Infusion]], toggled from the same menu.",
+  "translation": "* Para las demás formas de reducir el daño (defensa, bloqueo, parada), consulta [[Special:MyLanguage/Combat|Combate]] y [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]].\n* Su contraparte ofensiva es la [[Special:MyLanguage/Ki Infusion|Infusión de Ki]], que se activa desde el mismo menú.",
+  "outdated": false
+ }
+}

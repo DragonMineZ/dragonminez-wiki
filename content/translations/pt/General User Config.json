@@ -1,0 +1,502 @@
+{
+ "Page_display_title": {
+  "source": "General User Config",
+  "translation": "Configuração do cliente",
+  "outdated": false
+ },
+ "1": {
+  "source": "<code>general-user.json</code> stores the personal, client-side settings of DragonMineZ: HUD behavior, menu scale, the flight camera, the over-the-shoulder camera, aura style, tutorials and other visual options. It never affects server balance, and it is the only config file in <code>config/dragonminez</code> that the server does '''not''' send to clients: every player keeps their own copy.",
+  "translation": "O <code>general-user.json</code> guarda os ajustes pessoais do DragonMineZ no lado do cliente: comportamento da HUD, escala dos menus, a câmera de voo, a câmera sobre o ombro, o estilo da aura, os tutoriais e outras opções visuais. Ele nunca afeta o balanceamento do servidor e é o único arquivo de configuração em <code>config/dragonminez</code> que o servidor '''não''' envia aos clientes: cada jogador mantém sua própria cópia.",
+  "outdated": false
+ },
+ "2": {
+  "source": "The file lives at <code>config/dragonminez/general-user.json</code> in the client's game folder. Almost every option can be changed in-game from the '''Configuration''' screen of the character menu (Interface, Gameplay, Visuals and Audio categories), which saves this file for you. Editing the file by hand is only needed for the few keys that have no button.",
+  "translation": "O arquivo fica em <code>config/dragonminez/general-user.json</code>, na pasta do jogo do cliente. Quase todas as opções podem ser alteradas no jogo pela tela de '''Configuração''' do menu do personagem (categorias Interface, Jogabilidade, Visuais e Áudio), que salva este arquivo para você. Só é preciso editar o arquivo à mão para as poucas chaves que não têm botão.",
+  "outdated": false
+ },
+ "3": {
+  "source": "HUD layout",
+  "translation": "Layout da HUD",
+  "outdated": false
+ },
+ "4": {
+  "source": "The HUD layout (style, position and scale of every HUD element) is not stored here. It lives in <code>config/dragonminez/hud_layout.json</code> and is edited with the HUD editor; see [[Special:MyLanguage/HUD|HUD]].",
+  "translation": "O layout da HUD (estilo, posição e escala de cada elemento da HUD) não fica salvo aqui. Ele fica em <code>config/dragonminez/hud_layout.json</code> e é editado com o editor da HUD; veja [[Special:MyLanguage/HUD|HUD]].",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Full example ==",
+  "translation": "== Exemplo completo ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "A freshly generated file with every default value:",
+  "translation": "Um arquivo recém-gerado com todos os valores padrão:",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Config version ==",
+  "translation": "== Versão da configuração ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "9": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "10": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "11": {
+  "source": "A version string, for example <code>\"2.2.0\"</code>",
+  "translation": "Um texto de versão, por exemplo <code>\"2.2.0\"</code>",
+  "outdated": false
+ },
+ "12": {
+  "source": "Do not change it. DMZ uses it to upgrade the file after a mod update, keeping the values you changed.",
+  "translation": "Não altere. O DMZ o usa para atualizar o arquivo depois de uma atualização do mod, mantendo os valores que você alterou.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Interface ==",
+  "translation": "== Interface ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "15": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "16": {
+  "source": "In-game option",
+  "translation": "Opção no jogo",
+  "outdated": false
+ },
+ "17": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "18": {
+  "source": "Always Visible HUD Values",
+  "translation": "Valores da HUD sempre visíveis",
+  "outdated": false
+ },
+ "19": {
+  "source": "<code>false</code>: the numbers on the HUD bars fade out shortly after the value stops changing. <code>true</code>: they stay visible.",
+  "translation": "<code>false</code>: os números nas barras da HUD somem pouco depois que o valor para de mudar. <code>true</code>: eles continuam visíveis.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Hide HUD Numbers",
+  "translation": "Ocultar números da HUD",
+  "outdated": false
+ },
+ "21": {
+  "source": "Hides the numbers on the HUD bars and the party HUD completely.",
+  "translation": "Oculta totalmente os números nas barras da HUD e na HUD do grupo.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Party Markers",
+  "translation": "Marcadores de grupo",
+  "outdated": false
+ },
+ "23": {
+  "source": "Shows on-screen markers over your party members (within the server's <code>partyMarkerRange</code>, see [[Special:MyLanguage/General Server Config|General Server Config]]).",
+  "translation": "Mostra marcadores na tela sobre os membros do seu grupo (dentro do <code>partyMarkerRange</code> do servidor; veja [[Special:MyLanguage/General Server Config|Configuração do servidor]]).",
+  "outdated": false
+ },
+ "24": {
+  "source": "Ki Sense - Accumulative Damage",
+  "translation": "Ki Sense (Dano)",
+  "outdated": false
+ },
+ "25": {
+  "source": "Shows the accumulated damage dealt to a target in the Ki Sense display.",
+  "translation": "Mostra o dano acumulado causado a um alvo na exibição do Sentido de Ki.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Advanced Description",
+  "translation": "Descrição avançada",
+  "outdated": false
+ },
+ "27": {
+  "source": "Shows the value of each HUD bar (health, ki, stamina) next to it.",
+  "translation": "Mostra o valor de cada barra da HUD (vida, ki, estâmina) ao lado dela.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Adv. Desc. (Percentage)",
+  "translation": "Desc. Av. (Porcentagem)",
+  "outdated": false
+ },
+ "29": {
+  "source": "<code>true</code>: those values are shown as a percentage (<code>75%</code>). <code>false</code>: as current / maximum (<code>150 / 200</code>).",
+  "translation": "<code>true</code>: esses valores aparecem como porcentagem (<code>75%</code>). <code>false</code>: como atual / máximo (<code>150 / 200</code>).",
+  "outdated": false
+ },
+ "30": {
+  "source": "Hexagon Stats Display",
+  "translation": "Exibição de status em Hexágono",
+  "outdated": false
+ },
+ "31": {
+  "source": "Shows the stats screen as a hexagon chart instead of the list view.",
+  "translation": "Mostra a tela de estatísticas como um gráfico hexagonal em vez da visualização em lista.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Menu Panel Scale",
+  "translation": "Escala do painel de menu",
+  "outdated": false
+ },
+ "33": {
+  "source": "Scale of the DMZ menu panels. The in-game option ranges from <code>0.5</code> to <code>2.5</code>.",
+  "translation": "Escala dos painéis dos menus do DMZ. A opção no jogo vai de <code>0.5</code> a <code>2.5</code>.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Utility Menu Scale",
+  "translation": "Escala do menu de utilidades",
+  "outdated": false
+ },
+ "35": {
+  "source": "Scale of the utility menu (default key <code>X</code>). The in-game option ranges from <code>0.5</code> to <code>2.5</code>.",
+  "translation": "Escala do Menu de Utilidades (tecla padrão <code>X</code>). A opção no jogo vai de <code>0.5</code> a <code>2.5</code>.",
+  "outdated": false
+ },
+ "36": {
+  "source": "Tutorials",
+  "translation": "Tutoriais",
+  "outdated": false
+ },
+ "37": {
+  "source": "Shows the interactive tutorials.",
+  "translation": "Mostra os tutoriais interativos.",
+  "outdated": false
+ },
+ "38": {
+  "source": "Show Tutorials Again (button)",
+  "translation": "Mostrar tutoriais novamente (botão)",
+  "outdated": false
+ },
+ "39": {
+  "source": "List of the ids of the tutorials you have already completed. The button clears this list.",
+  "translation": "Lista dos ids dos tutoriais que você já concluiu. O botão limpa esta lista.",
+  "outdated": false
+ },
+ "40": {
+  "source": "The '''HUD Layout''' button in the same category opens the HUD editor (see [[Special:MyLanguage/HUD|HUD]]).",
+  "translation": "O botão '''Layout da HUD''' da mesma categoria abre o editor da HUD (veja [[Special:MyLanguage/HUD|HUD]]).",
+  "outdated": false
+ },
+ "41": {
+  "source": "== Gameplay ==",
+  "translation": "== Jogabilidade ==",
+  "outdated": false
+ },
+ "42": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "43": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "44": {
+  "source": "In-game option",
+  "translation": "Opção no jogo",
+  "outdated": false
+ },
+ "45": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "46": {
+  "source": "Camera Movement while Flying",
+  "translation": "Movimento na câmera durante voo",
+  "outdated": false
+ },
+ "47": {
+  "source": "Tilts (banks) the camera with the flight turns.",
+  "translation": "Inclina a câmera nas curvas do voo.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Flight Turn Sensitivity",
+  "translation": "Sensibilidade de giro no voo",
+  "outdated": false
+ },
+ "49": {
+  "source": "Mouse turn sensitivity while flying, clamped to <code>0.2</code>–<code>2.0</code>.",
+  "translation": "Sensibilidade de giro do mouse enquanto você voa, limitada a <code>0.2</code>–<code>2.0</code>.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Over Shoulder Camera → Mode",
+  "translation": "Câmera sob o ombro → Modo",
+  "outdated": false
+ },
+ "51": {
+  "source": "Over-the-shoulder third-person camera: <code>0</code> = Disabled, <code>1</code> = Lock-On Only, <code>2</code> = Always.",
+  "translation": "Câmera em terceira pessoa sobre o ombro: <code>0</code> = Desativado, <code>1</code> = Mira travada apenas, <code>2</code> = Sempre.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Over Shoulder Camera → Side",
+  "translation": "Câmera sob o ombro → Lado",
+  "outdated": false
+ },
+ "53": {
+  "source": "<code>true</code> puts the camera over the left shoulder, <code>false</code> over the right one.",
+  "translation": "<code>true</code> coloca a câmera sobre o ombro esquerdo, <code>false</code> sobre o direito.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Over Shoulder Camera",
+  "translation": "Câmera sob o ombro",
+  "outdated": false
+ },
+ "55": {
+  "source": "Camera distance behind the player.",
+  "translation": "Distância da câmera atrás do jogador.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Over Shoulder Camera",
+  "translation": "Câmera sob o ombro",
+  "outdated": false
+ },
+ "57": {
+  "source": "Camera height offset.",
+  "translation": "Deslocamento vertical da câmera.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Over Shoulder Camera",
+  "translation": "Câmera sob o ombro",
+  "outdated": false
+ },
+ "59": {
+  "source": "Camera sideways offset.",
+  "translation": "Deslocamento lateral da câmera.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Over Shoulder Camera",
+  "translation": "Câmera sob o ombro",
+  "outdated": false
+ },
+ "61": {
+  "source": "How quickly the camera follows (higher is snappier). Values of <code>0</code> or less reset to <code>0.4</code>; capped at <code>1.0</code>.",
+  "translation": "A rapidez com que a câmera acompanha (quanto maior, mais brusca). Valores de <code>0</code> ou menos voltam para <code>0.4</code>; o máximo é <code>1.0</code>.",
+  "outdated": false
+ },
+ "62": {
+  "source": "Rhythm minigame calibration",
+  "translation": "Calibração do minijogo de Ritmo",
+  "outdated": false
+ },
+ "63": {
+  "source": "Audio delay compensation for the Rhythm training minigame, in milliseconds. Set by the calibration screen of that minigame.",
+  "translation": "Compensação do atraso de áudio no minijogo de treinamento de Ritmo, em milissegundos. É definida pela tela de calibração desse minijogo.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Reserve First Hotbar Slot",
+  "translation": "Reservar primeiro slot da barra de atalhos",
+  "outdated": false
+ },
+ "65": {
+  "source": "Keeps hotbar slot 1 free: items you pick up, quest rewards and <code>/give</code> never go into it. The choice is sent to the server and saved with your player data.",
+  "translation": "Mantém livre o slot 1 da barra de atalhos: itens que você pega, recompensas de missões e <code>/give</code> nunca vão para ele. A escolha é enviada ao servidor e salva com seus dados de jogador.",
+  "outdated": false
+ },
+ "66": {
+  "source": "When the server has [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] enabled, the Gameplay category also shows one '''Stat Growth''' toggle per stat. Those toggles are stored in your player data on the server, not in this file.",
+  "translation": "Quando o servidor tem o [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]] ativado, a categoria Jogabilidade também mostra um interruptor de '''Crescimento de Status''' para cada estatística. Esses interruptores ficam salvos nos seus dados de jogador no servidor, não neste arquivo.",
+  "outdated": false
+ },
+ "67": {
+  "source": "== Visuals ==",
+  "translation": "== Visuais ==",
+  "outdated": false
+ },
+ "68": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "69": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "70": {
+  "source": "In-game option",
+  "translation": "Opção no jogo",
+  "outdated": false
+ },
+ "71": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "72": {
+  "source": "My Aura - 3D Style",
+  "translation": "Minha aura - Estilo 3D",
+  "outdated": false
+ },
+ "73": {
+  "source": "Draws your aura with the 3D shader aura instead of the 2D sprite aura. Your choice is shared with the server, so other players also see your aura in the style you picked.",
+  "translation": "Desenha sua aura com a aura 3D de shader em vez da aura 2D de sprites. Sua escolha é compartilhada com o servidor, então os outros jogadores também veem sua aura no estilo que você escolheu.",
+  "outdated": false
+ },
+ "74": {
+  "source": "My Aura - 3D Type",
+  "translation": "Minha aura - Tipo 3D",
+  "outdated": false
+ },
+ "75": {
+  "source": "3D aura type for your aura: <code>smooth</code>, <code>sparking</code> or <code>god</code>. <code>god</code> only works for the [[Special:MyLanguage/Glind|Glind]] race (other races show <code>smooth</code>, and the setting comes back if you play a Glind again). Any other value falls back to <code>smooth</code>.",
+  "translation": "Tipo de aura 3D para a sua aura: <code>smooth</code>, <code>sparking</code> ou <code>god</code>. <code>god</code> só funciona com a raça [[Special:MyLanguage/Glind|Glind]] (as outras raças mostram <code>smooth</code>, e o ajuste volta se você jogar com um Glind de novo). Qualquer outro valor volta para <code>smooth</code>.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Enemy Auras - 3D Style",
+  "translation": "Auras inimigas - Estilo 3D",
+  "outdated": false
+ },
+ "77": {
+  "source": "Draws the auras of NPCs and enemies with the 3D shader aura. (Other players use the style they picked themselves.)",
+  "translation": "Desenha as auras de NPCs e inimigos com a aura 3D de shader. (Os outros jogadores usam o estilo que eles mesmos escolheram.)",
+  "outdated": false
+ },
+ "78": {
+  "source": "Transformation Outlines",
+  "translation": "Contorno em Transformações",
+  "outdated": false
+ },
+ "79": {
+  "source": "Shows the outline effect while transforming.",
+  "translation": "Mostra o efeito de contorno ao se transformar.",
+  "outdated": false
+ },
+ "80": {
+  "source": "Enable Impact Frames",
+  "translation": "Ativar frames de impacto",
+  "outdated": false
+ },
+ "81": {
+  "source": "Enables the impact-frame screen flashes some hits and ki attacks trigger.",
+  "translation": "Ativa os flashes de tela de frame de impacto que alguns golpes e ataques de ki provocam.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Use Animated First Person Model",
+  "translation": "Usar modelo em 1ª pessoa",
+  "outdated": false
+ },
+ "83": {
+  "source": "Uses the animated DMZ model in first person.",
+  "translation": "Usa o modelo animado do DMZ em primeira pessoa.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Solar Flare - Invert Palette",
+  "translation": "Cores Invertidas",
+  "outdated": false
+ },
+ "85": {
+  "source": "Inverts the colors of the Solar Flare (Taiyoken) blinding flash.",
+  "translation": "Inverte as cores do clarão ofuscante da Explosão Solar (Taiyoken).",
+  "outdated": false
+ },
+ "86": {
+  "source": "None (file only)",
+  "translation": "Nenhuma (só no arquivo)",
+  "outdated": false
+ },
+ "87": {
+  "source": "Hair physics quality: <code>HIGH</code>, <code>LOW</code> or <code>OFF</code>. <code>LOW</code> uses fewer simulation steps; far-away players always use reduced or no physics. Unknown values count as <code>HIGH</code>.",
+  "translation": "Qualidade da física do cabelo: <code>HIGH</code>, <code>LOW</code> ou <code>OFF</code>. <code>LOW</code> usa menos passos de simulação; jogadores distantes sempre usam física reduzida ou nenhuma. Valores desconhecidos contam como <code>HIGH</code>.",
+  "outdated": false
+ },
+ "88": {
+  "source": "== Audio ==",
+  "translation": "== Áudio ==",
+  "outdated": false
+ },
+ "89": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "90": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "91": {
+  "source": "In-game option",
+  "translation": "Opção no jogo",
+  "outdated": false
+ },
+ "92": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "93": {
+  "source": "Ki Sound Volume (%)",
+  "translation": "Volume dos sons de ki (%)",
+  "outdated": false
+ },
+ "94": {
+  "source": "Volume of DMZ's ki sounds (charging, ki blasts, beams and lasers), from <code>0</code> to <code>100</code>%, on top of Minecraft's own volume sliders.",
+  "translation": "Volume dos sons de ki do DMZ (carga, rajadas de ki, raios e lasers), de <code>0</code> a <code>100</code>%, além dos próprios controles de volume do Minecraft.",
+  "outdated": false
+ },
+ "95": {
+  "source": "== Removed and moved keys ==",
+  "translation": "== Chaves removidas e movidas ==",
+  "outdated": false
+ },
+ "96": {
+  "source": "Files from older versions are upgraded automatically on the first launch:",
+  "translation": "Arquivos de versões anteriores são atualizados automaticamente na primeira inicialização:",
+  "outdated": false
+ },
+ "97": {
+  "source": "* <code>alternativeHud</code>, <code>hudStyle</code> and <code>hudLayout</code> are moved into <code>hud_layout.json</code> (the HUD style becomes the layout's style).\n* <code>xenoverseHudPosX</code>, <code>xenoverseHudPosY</code>, <code>xenoverseHudScale</code>, <code>healthBarPosX</code>, <code>healthBarPosY</code>, <code>energyBarPosX</code>, <code>energyBarPosY</code>, <code>staminaBarPosX</code>, <code>staminaBarPosY</code>, <code>techniqueHotbarRightSide</code> and <code>liveCrowdinTranslations</code> are removed. HUD positions are now set in the HUD editor.",
+  "translation": "* <code>alternativeHud</code>, <code>hudStyle</code> e <code>hudLayout</code> são movidas para <code>hud_layout.json</code> (o estilo da HUD passa a ser o estilo do layout).\n* <code>xenoverseHudPosX</code>, <code>xenoverseHudPosY</code>, <code>xenoverseHudScale</code>, <code>healthBarPosX</code>, <code>healthBarPosY</code>, <code>energyBarPosX</code>, <code>energyBarPosY</code>, <code>staminaBarPosX</code>, <code>staminaBarPosY</code>, <code>techniqueHotbarRightSide</code> e <code>liveCrowdinTranslations</code> são removidas. As posições da HUD agora são definidas no editor da HUD.",
+  "outdated": false
+ },
+ "98": {
+  "source": "== Reloading ==",
+  "translation": "== Recarregamento ==",
+  "outdated": false
+ },
+ "99": {
+  "source": "This file is read by the client. Changes made from the Configuration screen apply immediately. If you edit the file by hand, restart the game to apply them (in singleplayer, <code>/dmzreload config</code> also re-reads it). A dedicated server never reads or sends your copy.",
+  "translation": "Este arquivo é lido pelo cliente. As mudanças feitas pela tela de Configuração valem na hora. Se você editar o arquivo à mão, reinicie o jogo para aplicá-las (no modo um jogador, <code>/dmzreload config</code> também o relê). Um servidor dedicado nunca lê nem envia a sua cópia.",
+  "outdated": false
+ }
+}

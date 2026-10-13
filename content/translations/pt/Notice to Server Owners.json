@@ -1,0 +1,112 @@
+{
+ "Page_display_title": {
+  "source": "Notice to Server Owners",
+  "translation": "Aviso para donos de servidores",
+  "outdated": false
+ },
+ "1": {
+  "source": "Read this page before you start editing anything in <code>config/dragonminez</code> or in a world's <code>dragonminez/</code> save folder on a live server. It covers what DragonMineZ backs up for you and what it doesn't, how updates treat your files, and what to keep in mind on a multiplayer server.",
+  "translation": "Leia esta página antes de começar a editar qualquer coisa em <code>config/dragonminez</code> ou na pasta de save <code>dragonminez/</code> de um mundo em um servidor ativo. Ela explica do que o DragonMineZ faz backup por você e do que não faz, como as atualizações tratam seus arquivos e o que ter em mente em um servidor multijogador.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Back up before you touch anything ==",
+  "translation": "== Faça backup antes de mexer em qualquer coisa ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "DMZ keeps a copy of the files it changes on its own:",
+  "translation": "O DMZ guarda por conta própria uma cópia dos arquivos que altera:",
+  "outdated": false
+ },
+ "4": {
+  "source": "* Config files it upgrades after a DMZ update are moved to <code>config/dragonminez/oldBackup/&lt;same path&gt;</code> before the new file is written (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n* Default quest, saga and side-quest files it upgrades are copied to <code>&lt;world&gt;/dragonminez/oldBackup/&lt;same path&gt;</code> first (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).\n* Files it can't parse are never overwritten: DMZ runs on defaults for that session and leaves your file alone.",
+  "translation": "* Os arquivos de configuração que ele atualiza depois de uma atualização do DMZ são movidos para <code>config/dragonminez/oldBackup/&lt;same path&gt;</code> antes de o arquivo novo ser gravado (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).\n* Os arquivos padrão de missões, sagas e missões secundárias que ele atualiza são copiados antes para <code>&lt;world&gt;/dragonminez/oldBackup/&lt;same path&gt;</code> (veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]).\n* Arquivos que ele não consegue ler nunca são sobrescritos: o DMZ usa os valores padrão nessa sessão e deixa seu arquivo intacto.",
+  "outdated": false
+ },
+ "5": {
+  "source": "That safety net does '''not''' cover:",
+  "translation": "Essa rede de segurança '''não''' cobre:",
+  "outdated": false
+ },
+ "6": {
+  "source": "* Your own edits between two DMZ versions. <code>oldBackup/</code> only holds the version from right before an upgrade.\n* <code>/dmzrestoreupdate</code>, which '''deletes''' the world's <code>wishes</code>, <code>sagas</code> and <code>quests</code> folders (including your custom files) and regenerates the defaults.\n* Player data: <code>playerdata_json/&lt;uuid&gt;.json</code> when using <code>JSON</code> storage, your database when using <code>DATABASE</code> storage, and the vanilla player <code>.dat</code> files.\n* World saved data in <code>&lt;world&gt;/data/</code> (Dragon Ball positions, parties, raids, world bosses and more).",
+  "translation": "* Suas próprias edições entre duas versões do DMZ. A <code>oldBackup/</code> só guarda a versão de logo antes de uma atualização.\n* <code>/dmzrestoreupdate</code>, que '''apaga''' as pastas <code>wishes</code>, <code>sagas</code> e <code>quests</code> do mundo (incluindo seus arquivos personalizados) e regenera os padrões.\n* Os dados dos jogadores: <code>playerdata_json/&lt;uuid&gt;.json</code> ao usar o armazenamento <code>JSON</code>, seu banco de dados ao usar o armazenamento <code>DATABASE</code>, e os arquivos <code>.dat</code> vanilla dos jogadores.\n* Os dados salvos do mundo em <code>&lt;world&gt;/data/</code> (posições das Esferas do Dragão, grupos, incursões, chefes de mundo e mais).",
+  "outdated": false
+ },
+ "7": {
+  "source": "Take your own backup",
+  "translation": "Faça seu próprio backup",
+  "outdated": false
+ },
+ "8": {
+  "source": "Take your own filesystem or database backup before bulk-editing any of these, especially on a server with real player data.",
+  "translation": "Faça seu próprio backup dos arquivos ou do banco de dados antes de editar em massa qualquer um destes, principalmente em um servidor com dados de jogadores reais.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Who these pages are for ==",
+  "translation": "== Para quem são estas páginas ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "The configuration and modding pages of this wiki are written for people who are comfortable editing JSON, running a development environment or building a Forge add-on. They intentionally don't cover lore or story explanations, or server hosting and administration outside of DMZ itself (ports, proxies and so on). For playing the mod, start from the [[Special:MyLanguage/Beginner's Guide|Beginner's Guide]].",
+  "translation": "As páginas de configuração e de conteúdo próprio desta wiki são escritas para quem se sente à vontade editando JSON, usando um ambiente de desenvolvimento ou criando um addon de Forge. De propósito, elas não explicam lore nem história, nem hospedagem e administração de servidores fora do próprio DMZ (portas, proxies etc.). Para jogar o mod, comece pelo [[Special:MyLanguage/Beginner's Guide|Guia para iniciantes]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Never trust client input for progression ==",
+  "translation": "== Nunca confie em dados do cliente para a progressão ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "If you are writing an add-on or a mixin against DMZ: stats, unlocks, permissions, quests and wishes are validated server-side by design. Don't build add-on features that trust a value reported by the client for anything related to progression; read the state from the server-side <code>StatsCapability</code> / <code>StatsProvider</code> instead of a client cache.",
+  "translation": "Se você está escrevendo um addon ou um mixin para o DMZ: estatísticas, desbloqueios, permissões, missões e desejos são validados no servidor por design. Não crie recursos de addon que confiem em um valor informado pelo cliente para nada relacionado à progressão; leia o estado pelo <code>StatsCapability</code> / <code>StatsProvider</code> no servidor em vez de um cache do cliente.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Config files are upgraded on DMZ updates ==",
+  "translation": "== Os arquivos de configuração são atualizados nas atualizações do DMZ ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Every config file carries a <code>configVersion</code>. When you install a newer DMZ, outdated files are regenerated with the new defaults and your changed values are merged back in (values you never touched take the new defaults). This is expected behavior, not a bug: see [[Special:MyLanguage/How to JSON|How to JSON]] for exactly how the merge works, and compare with the copy in <code>oldBackup/</code> if a value looks wrong after an update.",
+  "translation": "Cada arquivo de configuração carrega um <code>configVersion</code>. Quando você instala uma versão mais nova do DMZ, os arquivos desatualizados são regenerados com os novos padrões e os valores que você alterou são mesclados de volta (valores que você nunca mexeu adotam os novos padrões). Esse é o comportamento esperado, não um bug: veja [[Special:MyLanguage/How to JSON|Como usar JSON]] para saber exatamente como a mesclagem funciona, e compare com a cópia em <code>oldBackup/</code> se um valor parecer errado depois de uma atualização.",
+  "outdated": false
+ },
+ "15": {
+  "source": "A file with a syntax error is '''not''' regenerated: DMZ uses the defaults for that file until you fix it and run <code>/dmzreload</code>. Every player sees a short report of broken files in chat on login (you can turn that off with <code>developer.reportJsonProblemsInChat</code> in [[Special:MyLanguage/General Server Config|General Server Config]]).",
+  "translation": "Um arquivo com erro de sintaxe '''não''' é regenerado: o DMZ usa os padrões desse arquivo até você corrigi-lo e executar <code>/dmzreload</code>. Todo jogador vê no chat, ao entrar, um breve relatório dos arquivos quebrados (você pode desligar isso com <code>developer.reportJsonProblemsInChat</code> em [[Special:MyLanguage/General Server Config|Configuração do servidor]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Custom and community content survives updates ==",
+  "translation": "== Conteúdo personalizado e da comunidade sobrevive às atualizações ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "* Custom races keep all their values across updates; custom form files keep their content; extra raid and tournament files and the custom quests and sagas you author are loaded as they are.\n* DMZ's own default config and story files are upgraded when DMZ changes them, but the values you edited are kept. If you want a change to be completely independent from DMZ's defaults, fork it into your own custom race, form or saga instead of editing DMZ's files (see [[Special:MyLanguage/Custom Races|Custom Races]], [[Special:MyLanguage/Custom Forms|Custom Forms]] and [[Special:MyLanguage/Custom Quests|Custom Quests]]).\n* Set <code>autoUpdateQuests</code> to <code>false</code> in [[Special:MyLanguage/General Server Config|General Server Config]] if you never want DMZ to touch the default quest files of a world once they exist.",
+  "translation": "* Raças personalizadas mantêm todos os seus valores entre atualizações; arquivos de formas personalizadas mantêm seu conteúdo; arquivos extras de incursões e torneios, e as missões e sagas personalizadas que você criar, são carregados como estão.\n* Os arquivos padrão de configuração e de história do DMZ são atualizados quando o DMZ os altera, mas os valores que você editou são mantidos. Se você quer que uma mudança seja totalmente independente dos padrões do DMZ, copie-a para sua própria raça, forma ou saga personalizada em vez de editar os arquivos do DMZ (veja [[Special:MyLanguage/Custom Races|Raças personalizadas]], [[Special:MyLanguage/Custom Forms|Formas personalizadas]] e [[Special:MyLanguage/Custom Quests|Missões personalizadas]]).\n* Defina <code>autoUpdateQuests</code> como <code>false</code> em [[Special:MyLanguage/General Server Config|Configuração do servidor]] se você nunca quiser que o DMZ mexa nos arquivos de missões padrão de um mundo depois que eles existirem.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Multiplayer and server-scale considerations ==",
+  "translation": "== Considerações para multijogador e servidores grandes ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* The server sends its config files to every player on join. After editing a config file, always run <code>/dmzreload config</code>: until you do, the server keeps the old values while newly joining players receive the edited file. The reload resends every file to every connected player, so expect a brief hitch on larger servers.\n* Quest, saga and dialogue edits only take effect for a world after <code>/dmzreload story</code> (or a restart).\n* Don't switch storage backends (<code>NBT</code>, <code>JSON</code>, <code>DATABASE</code>) with players online: do it with the server empty and take a backup first. The vanilla <code>.dat</code> player save is always written as well, so it remains a fallback if the database is unreachable.",
+  "translation": "* O servidor envia seus arquivos de configuração a cada jogador ao entrar. Depois de editar um arquivo de configuração, sempre execute <code>/dmzreload config</code>: até fazer isso, o servidor mantém os valores antigos enquanto os jogadores que entram recebem o arquivo editado. O recarregamento reenvia todos os arquivos a cada jogador conectado, então espere um breve travamento em servidores maiores.\n* Edições de missões, sagas e diálogos só têm efeito em um mundo depois de <code>/dmzreload story</code> (ou de reiniciar).\n* Não troque de backend de armazenamento (<code>NBT</code>, <code>JSON</code>, <code>DATABASE</code>) com jogadores online: faça isso com o servidor vazio e faça um backup antes. O save vanilla <code>.dat</code> do jogador também é sempre gravado, então ele continua sendo uma reserva se o banco de dados estiver inacessível.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Getting help ==",
+  "translation": "== Como obter ajuda ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "* Ask on the [https://discord.com/servers/dragonmine-z-1216429657273012415 DragonMineZ Discord].\n* File engine-level bugs or feature requests on the GitHub [https://github.com/orgs/DragonMineZ/projects/4 Progress Board].",
+  "translation": "* Pergunte no [https://discord.com/servers/dragonmine-z-1216429657273012415 Discord do DragonMineZ].\n* Relate bugs no nível do motor ou peça recursos no [https://github.com/orgs/DragonMineZ/projects/4 quadro de progresso] do GitHub.",
+  "outdated": false
+ }
+}

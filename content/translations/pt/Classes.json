@@ -1,0 +1,182 @@
+{
+ "Page_display_title": {
+  "source": "Classes",
+  "translation": "Classes",
+  "outdated": false
+ },
+ "1": {
+  "source": "When you create a character you pick a '''class'''. A class decides how your first stat points are distributed, how efficiently each attribute grows as you train and which unique passive you get. DragonMineZ has '''eight classes''', and every class is available to every race: [[Special:MyLanguage/Warrior|Warrior]], [[Special:MyLanguage/Martial Artist|Martial Artist]], [[Special:MyLanguage/Spiritualist|Spiritualist]], [[Special:MyLanguage/Berserker|Berserker]], [[Special:MyLanguage/Paladin|Paladin]], [[Special:MyLanguage/Tank|Tank]], [[Special:MyLanguage/Cleric|Cleric]] and [[Special:MyLanguage/Unversed|Unversed]].",
+  "translation": "Ao criar um personagem, você escolhe uma '''classe'''. A classe decide como seus primeiros pontos de atributo são distribuídos, com que eficiência cada atributo cresce conforme você treina e qual passiva única você recebe. DragonMineZ tem '''oito classes''', e todas estão disponíveis para todas as raças: [[Special:MyLanguage/Warrior|Guerreiro]], [[Special:MyLanguage/Martial Artist|Artista Marcial]], [[Special:MyLanguage/Spiritualist|Espiritualista]], [[Special:MyLanguage/Berserker|Berserker]], [[Special:MyLanguage/Paladin|Paladino]], [[Special:MyLanguage/Tank|Tanque]], [[Special:MyLanguage/Cleric|Clérigo]] e [[Special:MyLanguage/Unversed|Unversed]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "The melee bruiser, with balanced physical stats and stacks of Fury.",
+  "translation": "O lutador corpo a corpo, com atributos físicos equilibrados e acúmulos de Fúria.",
+  "outdated": false
+ },
+ "3": {
+  "source": "The technical striker who hits harder the more hurt the enemy is.",
+  "translation": "O lutador técnico que bate mais forte quanto mais ferido o inimigo está.",
+  "outdated": false
+ },
+ "4": {
+  "source": "The ki caster: enormous energy scaling, weak body.",
+  "translation": "O conjurador de ki: escalonamento de energia enorme, corpo frágil.",
+  "outdated": false
+ },
+ "5": {
+  "source": "The glass cannon: the closer to death, the stronger.",
+  "translation": "O canhão de vidro: quanto mais perto da morte, mais forte.",
+  "outdated": false
+ },
+ "6": {
+  "source": "The protector who takes hits for its party and heals from their damage.",
+  "translation": "O protetor que recebe golpes pelo grupo e se cura com o dano que os aliados causam.",
+  "outdated": false
+ },
+ "7": {
+  "source": "The wall, with the best defense and vitality scaling.",
+  "translation": "A muralha, com o melhor escalonamento de defesa e vitalidade.",
+  "outdated": false
+ },
+ "8": {
+  "source": "The support caster, with a huge energy pool and faster healing techniques.",
+  "translation": "O conjurador de suporte, com uma enorme reserva de energia e técnicas de cura mais rápidas.",
+  "outdated": false
+ },
+ "9": {
+  "source": "The all-rounder, rewarded for mixing ki attacks and melee.",
+  "translation": "O versátil, recompensado por misturar ataques de ki e corpo a corpo.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== What a class does ==",
+  "translation": "== O que uma classe faz ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "# '''Starting attributes''': how your first stat points are distributed.\n# '''Stat scalings''': how efficiently each attribute contributes as you train. This is what defines the class's playstyle.\n# '''A class passive''': a unique combat or utility effect.",
+  "translation": "# '''Atributos iniciais''': como seus primeiros pontos de atributo são distribuídos.\n# '''Escalonamentos de atributos''': com que eficiência cada atributo contribui conforme você treina. É isso que define o estilo de jogo da classe.\n# '''Uma passiva de classe''': um efeito único de combate ou de utilidade.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Choosing and changing your class ==",
+  "translation": "== Escolher e mudar sua classe ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "You pick your class on the last tab ('''Class & Aura''') of the character customization screen. Browse the classes with the arrows: the panel shows each class's starting stats, scalings and regeneration, and the right side explains its passive.",
+  "translation": "Você escolhe sua classe na última aba ('''Classe e Aura''') da tela de personalização do personagem. Navegue pelas classes com as setas: o painel mostra os atributos iniciais, os escalonamentos e a regeneração de cada classe, e o lado direito explica a passiva.",
+  "outdated": false
+ },
+ "14": {
+  "source": "* The '''Re-Customize Character''' wish of [[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]] reopens the customization screen and lets you pick another class '''without''' resetting your stats or skills.\n* Admins can use <code>/dmzclass &lt;class&gt; [targets]</code>. The class must be one your race offers, and stat multipliers are re-applied on change (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "* O desejo '''Repersonalizar Personagem''' de [[Special:MyLanguage/Shenron|Shenlong]] ou [[Special:MyLanguage/Porunga|Porunga]] reabre a tela de personalização e permite escolher outra classe '''sem''' resetar seus atributos nem suas habilidades.\n* Os administradores podem usar <code>/dmzclass &lt;class&gt; [targets]</code>. A classe precisa ser uma que sua raça oferece, e os multiplicadores de atributos são reaplicados na troca (veja [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Stat keys and regeneration ==",
+  "translation": "== Siglas de atributos e regeneração ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "* '''Stat keys:''' STR = Strength · SKP = Strike Power · RES = Resistance · VIT = Vitality · PWR = Ki Power · ENE = Energy. Scalings also include DEF (Defense) and STM (Stamina), which come from Resistance.\n* '''Regeneration''' values are amounts '''per 5 seconds'''. For example, health regeneration is the class's base value plus VIT times its health scaling, and stamina regeneration grows with both VIT and RES.",
+  "translation": "* '''Siglas:''' STR = Força · SKP = Poder de Golpe · RES = Resistência · VIT = Vitalidade · PWR = Força do Ki · ENE = Energia. Os escalonamentos também incluem DEF (Defesa) e STM (Estâmina), que vêm da Resistência.\n* Os valores de '''regeneração''' são quantidades '''a cada 5 segundos'''. Por exemplo, a regeneração de vida é o valor base da classe mais a VIT vezes o escalonamento de vida, e a regeneração de estâmina cresce tanto com VIT quanto com RES.",
+  "outdated": false
+ },
+ "17": {
+  "source": "See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for what each stat does.",
+  "translation": "Veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]] para saber o que cada atributo faz.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Default stat scalings ==",
+  "translation": "== Escalonamentos de atributos padrão ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "Higher numbers mean that attribute contributes more for the class. Bold marks each class's standout stats.",
+  "translation": "Números mais altos significam que o atributo contribui mais para a classe. O negrito marca os atributos de destaque de cada classe.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Class",
+  "translation": "Classe",
+  "outdated": false
+ },
+ "21": {
+  "source": "The '''VIT''' and '''DEF''' values are the ''starting'' per-point rates: both grow on a curve as you invest more Vitality and Resistance, up to <code>VIT_scaling_max</code> and <code>DEF_scaling_max</code>, which are '''4 times''' the values in this table by default.",
+  "translation": "Os valores de '''VIT''' e '''DEF''' são as taxas ''iniciais'' por ponto: ambas crescem em curva conforme você investe mais em Vitalidade e Resistência, até <code>VIT_scaling_max</code> e <code>DEF_scaling_max</code>, que por padrão são '''4 vezes''' os valores desta tabela.",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Starting stats ==",
+  "translation": "== Atributos iniciais ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "Class",
+  "translation": "Classe",
+  "outdated": false
+ },
+ "24": {
+  "source": "== Regeneration ==",
+  "translation": "== Regeneração ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "Base amounts per 5 seconds, plus the extra amount per point of the listed stat.",
+  "translation": "Quantidades base a cada 5 segundos, mais a quantidade extra por ponto do atributo indicado.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Class",
+  "translation": "Classe",
+  "outdated": false
+ },
+ "27": {
+  "source": "Health",
+  "translation": "Vida",
+  "outdated": false
+ },
+ "28": {
+  "source": "Ki",
+  "translation": "Ki",
+  "outdated": false
+ },
+ "29": {
+  "source": "Stamina",
+  "translation": "Estâmina",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Training speed ==",
+  "translation": "== Velocidade de treinamento ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "Two classes train faster than average:",
+  "translation": "Duas classes treinam mais rápido que a média:",
+  "outdated": false
+ },
+ "32": {
+  "source": "* [[Special:MyLanguage/Tank|Tank]]: '''×1.25''' TP gain.\n* [[Special:MyLanguage/Cleric|Cleric]]: '''×1.25''' TP gain and '''×0.9''' TP cost, the cheapest and fastest class to train.",
+  "translation": "* [[Special:MyLanguage/Tank|Tanque]]: '''×1.25''' de ganho de TP.\n* [[Special:MyLanguage/Cleric|Clérigo]]: '''×1.25''' de ganho de TP e '''×0.9''' de custo de TP, a classe mais barata e rápida de treinar.",
+  "outdated": false
+ },
+ "33": {
+  "source": "The class TP multiplier is one of the TP boosts described on [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].",
+  "translation": "O multiplicador de TP da classe é um dos bônus de TP descritos em [[Special:MyLanguage/Training Points and Mastery|pontos de treino e domínio]].",
+  "outdated": false
+ },
+ "34": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "35": {
+  "source": "All these values are defaults. Starting stats, scalings, regeneration, TP multipliers and the passive values live '''per race''' in the race stats file (<code>config/dragonminez/races/&lt;race&gt;/stats.json</code>), so server owners and add-ons can change them for each race. The class ids used in config are <code>warrior</code>, <code>martialartist</code>, <code>spiritualist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> and <code>unversed</code>.",
+  "translation": "Todos esses valores são padrões. Os atributos iniciais, os escalonamentos, a regeneração, os multiplicadores de TP e os valores das passivas ficam '''por raça''' no arquivo de atributos da raça (<code>config/dragonminez/races/&lt;race&gt;/stats.json</code>), então donos de servidores e addons podem alterá-los para cada raça. Os ids de classe usados na configuração são <code>warrior</code>, <code>martialartist</code>, <code>spiritualist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> e <code>unversed</code>.",
+  "outdated": false
+ }
+}

@@ -1,9 +1,10 @@
 <translate>
+<!--T:1-->
 '''Custom quests''' are sagas, saga quests and side quests you write yourself with JSON alone, with no Java code or add-on jar. Story content is per-world data (unlike races and forms, which live in <code>config/dragonminez</code>), so these files live inside the world save.
 </translate>
 
 <translate>
-== Where files go ==
+== Where files go == <!--T:2-->
 </translate>
 
 <syntaxhighlight lang="text">
@@ -14,39 +15,43 @@
 </syntaxhighlight>
 
 <translate>
+<!--T:3-->
 Source: <code>QuestRegistry.loadAll(server)</code> (<code>src/main/java/com/dragonminez/common/quest/QuestRegistry.java</code>). See [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]] for the full folder map.
 </translate>
 
 <translate>
-=== Story toggles ===
+=== Story toggles === <!--T:4-->
 </translate>
 {{Config|General Server Config|gameplay}}
 <translate>
+<!--T:5-->
 These toggles live in <code>general-server.json</code> → <code>gameplay</code>, and all of them default to <code>true</code>:
 </translate>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+! <translate><!--T:6--> Field</translate> !! <translate><!--T:7--> Type</translate> !! <translate><!--T:8--> What it does</translate>
 |-
-| <code>storyModeEnabled</code> || <translate>Boolean</translate> || <translate>Master switch for the saga and quest system.</translate>
+| <code>storyModeEnabled</code> || <translate><!--T:9--> Boolean</translate> || <translate><!--T:10--> Master switch for the saga and quest system.</translate>
 |-
-| <code>createDefaultSagas</code> || <translate>Boolean</translate> || <translate>Generates DragonMineZ's default saga and saga quest files (needs <code>storyModeEnabled</code> too).</translate>
+| <code>createDefaultSagas</code> || <translate><!--T:11--> Boolean</translate> || <translate><!--T:12--> Generates DragonMineZ's default saga and saga quest files (needs <code>storyModeEnabled</code> too).</translate>
 |-
-| <code>sideQuestsEnabled</code> || <translate>Boolean</translate> || <translate>Master switch for the side quest system.</translate>
+| <code>sideQuestsEnabled</code> || <translate><!--T:13--> Boolean</translate> || <translate><!--T:14--> Master switch for the side quest system.</translate>
 |-
-| <code>createDefaultSideQuests</code> || <translate>Boolean</translate> || <translate>Generates DragonMineZ's default side quest files.</translate>
+| <code>createDefaultSideQuests</code> || <translate><!--T:15--> Boolean</translate> || <translate><!--T:16--> Generates DragonMineZ's default side quest files.</translate>
 |-
-| <code>autoUpdateQuests</code> || <translate>Boolean</translate> || <translate>Upgrades DragonMineZ's default files in place when a new DragonMineZ version changes them (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).</translate>
+| <code>autoUpdateQuests</code> || <translate><!--T:17--> Boolean</translate> || <translate><!--T:18--> Upgrades DragonMineZ's default files in place when a new DragonMineZ version changes them (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).</translate>
 |}
 
 <translate>
+<!--T:19-->
 Default files are generated one by one, by filename, whenever they are missing, so a default file you delete comes back on the next load while its <code>createDefault...</code> toggle is on. Your own files (any other filename) are never touched.
 </translate>
 
 <translate>
-== Step 1: Create a saga manifest ==
+== Step 1: Create a saga manifest == <!--T:20-->
 </translate>
 <translate>
+<!--T:21-->
 Create one file per saga in <code>dragonminez/sagas/</code>, for example <code>my_saga.json</code>:
 </translate>
 
@@ -62,29 +67,32 @@ Create one file per saga in <code>dragonminez/sagas/</code>, for example <code>m
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+! <translate><!--T:22--> Field</translate> !! <translate><!--T:23--> Type</translate> !! <translate><!--T:24--> What it does</translate>
 |-
-| <code>id</code> || <translate>String</translate> || <translate>Unique saga id.</translate>
+| <code>id</code> || <translate><!--T:25--> String</translate> || <translate><!--T:26--> Unique saga id.</translate>
 |-
-| <code>name</code> || <translate>String</translate> || <translate>Translation key for the saga's display name.</translate>
+| <code>name</code> || <translate><!--T:27--> String</translate> || <translate><!--T:28--> Translation key for the saga's display name.</translate>
 |-
-| <code>requirements.previousSaga</code> || <translate>String</translate> || <translate>Id of the saga that must be completed first, or <code>""</code> for none.</translate>
+| <code>requirements.previousSaga</code> || <translate><!--T:29--> String</translate> || <translate><!--T:30--> Id of the saga that must be completed first, or <code>""</code> for none.</translate>
 |-
-| <code>questFolder</code> || <translate>String</translate> || <translate>Name of the subfolder under <code>dragonminez/quests/</code> that holds this saga's quest files.</translate>
+| <code>questFolder</code> || <translate><!--T:31--> String</translate> || <translate><!--T:32--> Name of the subfolder under <code>dragonminez/quests/</code> that holds this saga's quest files.</translate>
 |}
 
 <translate>
+<!--T:33-->
 The default saga ids are <code>classic_saga</code>, <code>saiyan_saga</code>, <code>frieza_saga</code>, <code>android_saga</code>, <code>future_saga</code>, <code>buu_saga</code>, <code>movies_saga</code>, <code>gt_saga</code> and <code>daima_saga</code> (see [[Special:MyLanguage/Sagas|Sagas]]).
 </translate>
 
 <translate>
+<!--T:34-->
 Source: <code>SagaDefaults.java</code>, <code>Saga.java</code>.
 </translate>
 
 <translate>
-== Step 2: Add quest files ==
+== Step 2: Add quest files == <!--T:35-->
 </translate>
 <translate>
+<!--T:36-->
 Inside <code>dragonminez/quests/saga_my_saga/</code>, add one file per quest, named so the files sort in play order (<code>01_...json</code>, <code>02_...json</code>, ...). Filename order '''is''' the quest order within the saga.
 </translate>
 
@@ -117,125 +125,135 @@ Inside <code>dragonminez/quests/saga_my_saga/</code>, add one file per quest, na
 </syntaxhighlight>
 
 <translate>
+<!--T:37-->
 A saga quest is identified as <code><sagaId>:<id></code> (for example <code>my_saga:1</code>), using the numeric <code>id</code>, not the filename. Two files with the same <code>id</code> in one folder overwrite each other.
 </translate>
 
 <translate>
+<!--T:38-->
 To '''insert''' a quest between two existing ones, give it a new, unused <code>id</code> and a filename that sorts between them. DragonMineZ's own sagas do this: Frieza Saga quest 17 is <code>01b_scout_the_ruined_village.json</code>, between <code>01_...</code> and <code>02_...</code>. Renumbering the existing quests instead would break saved progress and every <code>SAGA_QUEST</code> condition or form requisite that points at them.
 </translate>
 
 <translate>
-== Quest fields ==
+== Quest fields == <!--T:39-->
 </translate>
 <translate>
+<!--T:40-->
 Saga quests and side quests share exactly the same schema, so these fields apply to both.
 </translate>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+! <translate><!--T:41--> Field</translate> !! <translate><!--T:42--> Type</translate> !! <translate><!--T:43--> What it does</translate>
 |-
-| <code>id</code> || <translate>Number or string</translate> || <translate>'''Numeric''' for saga quests. Side quests use a '''string''' id instead.</translate>
+| <code>id</code> || <translate><!--T:44--> Number or string</translate> || <translate><!--T:45--> '''Numeric''' for saga quests. Side quests use a '''string''' id instead.</translate>
 |-
-| <code>title</code> / <code>description</code> || <translate>String</translate> || <translate>Translation keys (plain text also works).</translate>
+| <code>title</code> / <code>description</code> || <translate><!--T:46--> String</translate> || <translate><!--T:47--> Translation keys (plain text also works).</translate>
 |-
-| <code>type</code> || <translate>String</translate> || <translate><code>SAGA</code>, <code>SIDEQUEST</code>, <code>DAILY</code> or <code>EVENT</code>. A <code>DAILY</code> quest can be repeated once per real-world day (server time zone).</translate>
+| <code>type</code> || <translate><!--T:48--> String</translate> || <translate><!--T:49--> <code>SAGA</code>, <code>SIDEQUEST</code>, <code>DAILY</code> or <code>EVENT</code>. A <code>DAILY</code> quest can be repeated once per real-world day (server time zone).</translate>
 |-
-| <code>category</code> || <translate>String</translate> || <translate>Free-form grouping label. Defaults to <code>"general"</code>.</translate>
+| <code>category</code> || <translate><!--T:50--> String</translate> || <translate><!--T:51--> Free-form grouping label. Defaults to <code>"general"</code>.</translate>
 |-
-| <code>parallel_objectives</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, all objectives progress at the same time instead of one after another.</translate>
+| <code>parallel_objectives</code> || <translate><!--T:52--> Boolean</translate> || <translate><!--T:53--> If <code>true</code>, all objectives progress at the same time instead of one after another.</translate>
 |-
-| <code>party_scaling</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, item and kill counts scale up for each extra party member (<code>defaultQuestPartyMultiplier</code> in <code>general-server.json</code>, default <code>1.45</code>), and quest enemies get more health and damage for each extra member (<code>enemyHealthPerPartyPlayer</code> <code>1.25</code>, <code>enemyDamagePerPartyPlayer</code> <code>1.1</code>).</translate>
+| <code>party_scaling</code> || <translate><!--T:54--> Boolean</translate> || <translate><!--T:55--> If <code>true</code>, item and kill counts scale up for each extra party member (<code>defaultQuestPartyMultiplier</code> in <code>general-server.json</code>, default <code>1.45</code>), and quest enemies get more health and damage for each extra member (<code>enemyHealthPerPartyPlayer</code> <code>1.25</code>, <code>enemyDamagePerPartyPlayer</code> <code>1.1</code>).</translate>
 |-
-| <code>secret</code> || <translate>Boolean</translate> || <translate>Hides the quest from the quest log until it is started or available.</translate>
+| <code>secret</code> || <translate><!--T:56--> Boolean</translate> || <translate><!--T:57--> Hides the quest from the quest log until it is started or available.</translate>
 |-
-| <code>claim_mode</code> || <translate>String</translate> || <translate><code>TREE_OR_NPC</code> (claim from the quest screen or from an NPC) or <code>NPC_ONLY</code> (the player must talk to the turn-in NPC).</translate>
+| <code>claim_mode</code> || <translate><!--T:58--> String</translate> || <translate><!--T:59--> <code>TREE_OR_NPC</code> (claim from the quest screen or from an NPC) or <code>NPC_ONLY</code> (the player must talk to the turn-in NPC).</translate>
 |-
-| <code>quest_giver</code> || <translate>String or <code>null</code></translate> || <translate>Id of the NPC that offers the quest (see [[Special:MyLanguage/Custom Quests#Quest giver and turn-in NPCs|Quest giver and turn-in NPCs]]).</translate>
+| <code>quest_giver</code> || <translate><!--T:60--> String or <code>null</code></translate> || <translate><!--T:61--> Id of the NPC that offers the quest (see [[Special:MyLanguage/Custom Quests#Quest giver and turn-in NPCs|Quest giver and turn-in NPCs]]).</translate>
 |-
-| <code>turn_in</code> || <translate>String or <code>null</code></translate> || <translate>Id of the NPC that accepts the completed quest.</translate>
+| <code>turn_in</code> || <translate><!--T:62--> String or <code>null</code></translate> || <translate><!--T:63--> Id of the NPC that accepts the completed quest.</translate>
 |-
-| <code>prerequisites</code> || <translate>Object</translate> || <translate>Decides whether the quest can be '''unlocked''' at all. Same schema as <code>requirements</code> (see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerequisites and requirements]]).</translate>
+| <code>prerequisites</code> || <translate><!--T:64--> Object</translate> || <translate><!--T:65--> Decides whether the quest can be '''unlocked''' at all. Same schema as <code>requirements</code> (see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerequisites and requirements]]).</translate>
 |-
-| <code>requirements</code> || <translate>Object</translate> || <translate>Decides whether the quest can be '''started''' right now (for example the current dimension, biome or level).</translate>
+| <code>requirements</code> || <translate><!--T:66--> Object</translate> || <translate><!--T:67--> Decides whether the quest can be '''started''' right now (for example the current dimension, biome or level).</translate>
 |-
-| <code>repeatable</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, the quest can be started again after it is completed. Default <code>false</code>.</translate>
+| <code>repeatable</code> || <translate><!--T:68--> Boolean</translate> || <translate><!--T:69--> If <code>true</code>, the quest can be started again after it is completed. Default <code>false</code>.</translate>
 |-
-| <code>repeat_cooldown_seconds</code> || <translate>Integer</translate> || <translate>Real-time seconds before a repeatable quest can be started again. <code>0</code> (the default) means right away.</translate>
+| <code>repeat_cooldown_seconds</code> || <translate><!--T:70--> Integer</translate> || <translate><!--T:71--> Real-time seconds before a repeatable quest can be started again. <code>0</code> (the default) means right away.</translate>
 |-
-| <code>time_limit_seconds</code> || <translate>Integer</translate> || <translate>Time limit after accepting the quest, in in-game seconds. When it runs out, the quest fails. <code>0</code> (the default) means no limit.</translate>
+| <code>time_limit_seconds</code> || <translate><!--T:72--> Integer</translate> || <translate><!--T:73--> Time limit after accepting the quest, in in-game seconds. When it runs out, the quest fails. <code>0</code> (the default) means no limit.</translate>
 |-
-| <code>objectives</code> || <translate>Array</translate> || <translate>See [[Special:MyLanguage/Custom Quests#Objective types|Objective types]].</translate>
+| <code>objectives</code> || <translate><!--T:74--> Array</translate> || <translate><!--T:75--> See [[Special:MyLanguage/Custom Quests#Objective types|Objective types]].</translate>
 |-
-| <code>rewards</code> || <translate>Array</translate> || <translate>See [[Special:MyLanguage/Custom Quests#Reward types|Reward types]].</translate>
+| <code>rewards</code> || <translate><!--T:76--> Array</translate> || <translate><!--T:77--> See [[Special:MyLanguage/Custom Quests#Reward types|Reward types]].</translate>
 |-
-| <code>defaultsVersion</code> || <translate>String</translate> || <translate>Only used on DragonMineZ's own default files (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).</translate>
+| <code>defaultsVersion</code> || <translate><!--T:78--> String</translate> || <translate><!--T:79--> Only used on DragonMineZ's own default files (see [[Special:MyLanguage/Custom Quests#Default file upgrades|Default file upgrades]]).</translate>
 |}
 
 <translate>
+<!--T:80-->
 When a repeatable or daily quest is started again, its objective progress and reward claims are reset, so the rewards can be claimed again.
 </translate>
 
 <translate>
+<!--T:81-->
 Source: <code>QuestParser.parseQuest</code>, <code>Quest.java</code>.
 </translate>
 
 <translate>
-== Objective types ==
+== Objective types == <!--T:82-->
 </translate>
 <translate>
+<!--T:83-->
 Each entry in <code>objectives</code> needs a <code>type</code> plus that type's fields. Fields marked with <code>*</code> are optional, and sensible defaults apply.
 </translate>
 
 {| class="wikitable"
-! <code>type</code> !! <translate>Fields</translate> !! <translate>What it does</translate>
+! <code>type</code> !! <translate><!--T:84--> Fields</translate> !! <translate><!--T:85--> What it does</translate>
 |-
-| <code>ITEM</code> || <code>item</code>, <code>count</code> || <translate>Have this many of an item in your inventory. The items are not taken; use <code>DELIVER</code> for that.</translate>
+| <code>ITEM</code> || <code>item</code>, <code>count</code> || <translate><!--T:86--> Have this many of an item in your inventory. The items are not taken; use <code>DELIVER</code> for that.</translate>
 |-
-| <code>KILL</code> || <code>entity</code>, <code>count</code>, <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>spawn</code>*, <code>count_mode</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>canTransform</code>*, <code>TransformHealth</code>*, <code>TransformMeleeDamage</code>*, <code>TransformKiDamage</code>*, <code>TransformHealthMultiplier</code>*, <code>TransformMeleeDamageMultiplier</code>*, <code>TransformKiMultiplier</code>*, <code>TransformTriggerPercent</code>* || <translate><code>entity</code> can be a registry id or an entity tag (<code>#minecraft:zombies</code>; quest spawns pick a random member). <code>health</code>, <code>meleeDamage</code> and <code>kiDamage</code> default to <code>20</code>, <code>1</code> and <code>1</code>. <code>spawn</code>: <code>QUEST</code> (default, spawned when the quest starts) or <code>NATURAL</code>. <code>count_mode</code>: <code>QUEST_SPAWNED_ONLY</code> (default) or <code>ANY_MATCHING</code>. See [[Special:MyLanguage/Custom Quests#Kill objective: AI tier and transformations|Kill objective: AI tier and transformations]].</translate>
+| <code>KILL</code> || <code>entity</code>, <code>count</code>, <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>spawn</code>*, <code>count_mode</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>canTransform</code>*, <code>TransformHealth</code>*, <code>TransformMeleeDamage</code>*, <code>TransformKiDamage</code>*, <code>TransformHealthMultiplier</code>*, <code>TransformMeleeDamageMultiplier</code>*, <code>TransformKiMultiplier</code>*, <code>TransformTriggerPercent</code>* || <translate><!--T:87--> <code>entity</code> can be a registry id or an entity tag (<code>#minecraft:zombies</code>; quest spawns pick a random member). <code>health</code>, <code>meleeDamage</code> and <code>kiDamage</code> default to <code>20</code>, <code>1</code> and <code>1</code>. <code>spawn</code>: <code>QUEST</code> (default, spawned when the quest starts) or <code>NATURAL</code>. <code>count_mode</code>: <code>QUEST_SPAWNED_ONLY</code> (default) or <code>ANY_MATCHING</code>. See [[Special:MyLanguage/Custom Quests#Kill objective: AI tier and transformations|Kill objective: AI tier and transformations]].</translate>
 |-
-| <code>SPAR</code> || <translate>Same as <code>KILL</code>, without the <code>Transform*</code> fields</translate> || <translate>A non-lethal fight: when a quest-spawned partner would drop below 15% health, the fight ends, it counts as a win for the whole party and the partner leaves.</translate>
+| <code>SPAR</code> || <translate><!--T:88--> Same as <code>KILL</code>, without the <code>Transform*</code> fields</translate> || <translate><!--T:89--> A non-lethal fight: when a quest-spawned partner would drop below 15% health, the fight ends, it counts as a win for the whole party and the partner leaves.</translate>
 |-
-| <code>INTERACT</code> || <code>entity</code>*, <code>entityName</code>* || <translate>Right-click interact with a matching entity.</translate>
+| <code>INTERACT</code> || <code>entity</code>*, <code>entityName</code>* || <translate><!--T:90--> Right-click interact with a matching entity.</translate>
 |-
-| <code>TALK_TO</code> || <code>npcId</code> || <translate>The player must talk to a specific NPC or master.</translate>
+| <code>TALK_TO</code> || <code>npcId</code> || <translate><!--T:91--> The player must talk to a specific NPC or master.</translate>
 |-
-| <code>DELIVER</code> || <translate><code>item</code>, <code>count</code>* (default <code>1</code>), <code>npcId</code> (aliases <code>npc_id</code> and <code>npc</code>)</translate> || <translate>Right-click the NPC to hand over the items. They are taken from the inventory, and partial deliveries count.</translate>
+| <code>DELIVER</code> || <translate><!--T:92--> <code>item</code>, <code>count</code>* (default <code>1</code>), <code>npcId</code> (aliases <code>npc_id</code> and <code>npc</code>)</translate> || <translate><!--T:93--> Right-click the NPC to hand over the items. They are taken from the inventory, and partial deliveries count.</translate>
 |-
-| <code>STRUCTURE</code> || <code>structure</code> || <translate>The player must enter a generated structure.</translate>
+| <code>STRUCTURE</code> || <code>structure</code> || <translate><!--T:94--> The player must enter a generated structure.</translate>
 |-
-| <code>BIOME</code> || <code>biome</code> || <translate>The player must be standing in this biome (or biome tag).</translate>
+| <code>BIOME</code> || <code>biome</code> || <translate><!--T:95--> The player must be standing in this biome (or biome tag).</translate>
 |-
-| <code>DIMENSION</code> || <code>dimension</code> || <translate>The player must be in this dimension.</translate>
+| <code>DIMENSION</code> || <code>dimension</code> || <translate><!--T:96--> The player must be in this dimension.</translate>
 |-
-| <code>COORDS</code> || <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* || <translate>The player must be within <code>radius</code> blocks (default <code>10</code>) of a point.</translate>
+| <code>COORDS</code> || <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* || <translate><!--T:97--> The player must be within <code>radius</code> blocks (default <code>10</code>) of a point.</translate>
 |-
-| <code>CHECKPOINT_RACE</code> || <translate><code>checkpoints</code> (list of <code>{ "x", "y", "z" }</code>), <code>radius</code>* (default <code>8</code>)</translate> || <translate>Reach every checkpoint in order.</translate>
+| <code>CHECKPOINT_RACE</code> || <translate><!--T:98--> <code>checkpoints</code> (list of <code>{ "x", "y", "z" }</code>), <code>radius</code>* (default <code>8</code>)</translate> || <translate><!--T:99--> Reach every checkpoint in order.</translate>
 |-
-| <code>SURVIVE_WAVES</code> || <translate><code>entity</code>, <code>waves</code>* (default <code>3</code>), <code>mobs_per_wave</code>* (default <code>3</code>), <code>wave_delay_seconds</code>* (default <code>10</code>), <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>CanTransform</code>*</translate> || <translate>Waves of enemies spawn around the player; the next one comes after a short pause once a wave is cleared. Each cleared wave counts as one step of progress.</translate>
+| <code>SURVIVE_WAVES</code> || <translate><!--T:100--> <code>entity</code>, <code>waves</code>* (default <code>3</code>), <code>mobs_per_wave</code>* (default <code>3</code>), <code>wave_delay_seconds</code>* (default <code>10</code>), <code>health</code>*, <code>meleeDamage</code>*, <code>kiDamage</code>*, <code>AITier</code>*, <code>TextureVariant</code>*, <code>CanTransform</code>*</translate> || <translate><!--T:101--> Waves of enemies spawn around the player; the next one comes after a short pause once a wave is cleared. Each cleared wave counts as one step of progress.</translate>
 |-
-| <code>ESCORT</code> || <translate><code>entity</code>, <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* (default <code>6</code>), <code>health</code>*</translate> || <translate>An escort spawns next to the player and follows them; bring it within <code>radius</code> of the target. If it dies, the quest fails. <code>health</code> overrides its maximum health.</translate>
+| <code>ESCORT</code> || <translate><!--T:102--> <code>entity</code>, <code>x</code>, <code>y</code>, <code>z</code>, <code>radius</code>* (default <code>6</code>), <code>health</code>*</translate> || <translate><!--T:103--> An escort spawns next to the player and follows them; bring it within <code>radius</code> of the target. If it dies, the quest fails. <code>health</code> overrides its maximum health.</translate>
 |-
-| <code>DRAGON_SUMMON</code> || <code>dragon</code>*, <code>ball_set</code>* || <translate>The player must summon a specific dragon and/or ball set (aliases: <code>dragon_id</code> and <code>dragonId</code>; <code>ballSet</code>, <code>ball_set_id</code>, <code>ballSetId</code> and <code>set</code>).</translate>
+| <code>DRAGON_SUMMON</code> || <code>dragon</code>*, <code>ball_set</code>* || <translate><!--T:104--> The player must summon a specific dragon and/or ball set (aliases: <code>dragon_id</code> and <code>dragonId</code>; <code>ballSet</code>, <code>ball_set_id</code>, <code>ballSetId</code> and <code>set</code>).</translate>
 |-
-| <code>SKILL</code> || <code>skill</code>, <code>level</code>* || <translate>The player must reach a skill level (aliases: <code>skillId</code> and <code>id</code>; <code>minLevel</code> and <code>required</code>; default level <code>1</code>).</translate>
+| <code>SKILL</code> || <code>skill</code>, <code>level</code>* || <translate><!--T:105--> The player must reach a skill level (aliases: <code>skillId</code> and <code>id</code>; <code>minLevel</code> and <code>required</code>; default level <code>1</code>).</translate>
 |}
 
 <translate>
+<!--T:106-->
 Source: <code>QuestParser.parseObjective</code> and the classes under <code>common/quest/objectives/</code>.
 </translate>
 
 <translate>
+<!--T:107-->
 While a <code>COORDS</code>, <code>ESCORT</code> or <code>CHECKPOINT_RACE</code> objective is tracked, the quest HUD shows the distance and direction to the target (or to the next checkpoint).
 </translate>
 
 <translate>
+<!--T:108-->
 In a quest with <code>parallel_objectives: false</code>, kill objectives that follow each other directly are unlocked together, so a "kill A, kill B" pair can be fought in any order. Objectives of the other types still go one at a time.
 </translate>
 
 <translate>
-=== Kill objective: AI tier and transformations ===
+=== Kill objective: AI tier and transformations === <!--T:109-->
 </translate>
 <translate>
+<!--T:110-->
 * <code>AITier</code> is optional: <code>1</code> Novice, <code>2</code> Smart, <code>3</code> Elite, <code>4</code> Expert. If it is left out (or set to <code>0</code> or a negative value), the tier comes from the difficulty the quest was started on: <code>EASY</code> gives 1, <code>NORMAL</code> gives 2, <code>HARD</code> gives 3, and <code>HARD</code> against a saga's final boss gives 4. Set <code>AITier</code> explicitly to force a specific tier regardless of difficulty.
 * <code>TextureVariant</code> picks one of the textures of entities that have several.
 * <code>canTransform</code> (boolean, default <code>true</code>) controls whether the enemy may transform mid-fight at all. Set it to <code>false</code> to lock the enemy out of transforming entirely; this is enforced on the server, not just cosmetic. <code>SURVIVE_WAVES</code> reads it as <code>CanTransform</code>.
@@ -252,63 +270,70 @@ In a quest with <code>parallel_objectives: false</code>, kill objectives that fo
 </syntaxhighlight>
 
 <translate>
-=== How a quest can fail ===
+=== How a quest can fail === <!--T:111-->
 </translate>
 <translate>
+<!--T:112-->
 A failed quest loses its objective progress, and its quest-spawned enemies and escorts are removed. It can be started again from the quest log or from its NPC (the start requirements are checked again).
 </translate>
 <translate>
+<!--T:113-->
 * '''Party wiped out:''' when the player (or every member of their party) dies, accepted quests with a <code>KILL</code>, <code>SPAR</code>, <code>SURVIVE_WAVES</code> or <code>ESCORT</code> objective fail.
 * '''Escort died:''' the <code>ESCORT</code> target was killed.
 * '''Time ran out:''' <code>time_limit_seconds</code> passed since the quest was accepted.
 </translate>
 
 <translate>
-== Reward types ==
+== Reward types == <!--T:114-->
 </translate>
 <translate>
+<!--T:115-->
 Each entry in <code>rewards</code> needs a <code>type</code> plus its fields. Every reward type also accepts an optional <code>difficulty</code> field that restricts the difficulties it is granted on (see below).
 </translate>
 
 {| class="wikitable"
-! <code>type</code> !! <translate>Fields</translate> !! <translate>What it does</translate>
+! <code>type</code> !! <translate><!--T:116--> Fields</translate> !! <translate><!--T:117--> What it does</translate>
 |-
-| <code>ITEM</code> || <translate><code>item</code>, <code>count</code>* (default <code>1</code>)</translate> || <translate>Grants an item stack.</translate>
+| <code>ITEM</code> || <translate><!--T:118--> <code>item</code>, <code>count</code>* (default <code>1</code>)</translate> || <translate><!--T:119--> Grants an item stack.</translate>
 |-
-| <code>GENERIC_ITEM</code> || <translate><code>itemReward</code> (an item object)</translate> || <translate>Grants an item with enchantments, potion data or an armor trim. See [[Special:MyLanguage/Custom Quests#Item objects|Item objects]].</translate>
+| <code>GENERIC_ITEM</code> || <translate><!--T:120--> <code>itemReward</code> (an item object)</translate> || <translate><!--T:121--> Grants an item with enchantments, potion data or an armor trim. See [[Special:MyLanguage/Custom Quests#Item objects|Item objects]].</translate>
 |-
-| <code>ATTRIBUTES</code> || <code>amount</code> || <translate>Grants Attributes, the reward every default quest uses: <code>amount × attributeRewardPointRatio</code> (by default half, rounded down) as Attribute Points, and the rest as the TP those stat points would cost the player when claiming. That TP is not boosted again and not shared with the party. The tooltip shows the split. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
+| <code>ATTRIBUTES</code> || <code>amount</code> || <translate><!--T:122--> Grants Attributes, the reward every default quest uses: <code>amount × attributeRewardPointRatio</code> (by default half, rounded down) as Attribute Points, and the rest as the TP those stat points would cost the player when claiming. That TP is not boosted again and not shared with the party. The tooltip shows the split. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
 |-
-| <code>ATTRIBUTE_POINTS</code> || <code>amount</code> || <translate>Grants Attribute Points only (placed by the player in the stats menu).</translate>
+| <code>ATTRIBUTE_POINTS</code> || <code>amount</code> || <translate><!--T:123--> Grants Attribute Points only (placed by the player in the stats menu).</translate>
 |-
-| <code>TPS</code> || <code>amount</code> || <translate>Grants a fixed amount of training points (goes through the server's <code>STORY</code> TP boosts).</translate>
+| <code>TPS</code> || <code>amount</code> || <translate><!--T:124--> Grants a fixed amount of training points (goes through the server's <code>STORY</code> TP boosts).</translate>
 |-
-| <code>ALIGNMENT</code> || <code>amount</code> || <translate>Adjusts the player's alignment (can be negative). See [[Special:MyLanguage/Alignment|Alignment]].</translate>
+| <code>ALIGNMENT</code> || <code>amount</code> || <translate><!--T:125--> Adjusts the player's alignment (can be negative). See [[Special:MyLanguage/Alignment|Alignment]].</translate>
 |-
-| <code>SKILL</code> || <code>skill</code>, <code>level</code> || <translate>Raises a skill to at least this level.</translate>
+| <code>SKILL</code> || <code>skill</code>, <code>level</code> || <translate><!--T:126--> Raises a skill to at least this level.</translate>
 |-
-| <code>TRANSFORMATION</code> || <translate><code>formGroup</code>, <code>formName</code>, <code>mastery</code>* (default <code>100.0</code>), <code>stack</code>* (default <code>false</code>)</translate> || <translate>Unlocks a form of the player's race (or a stack form if <code>stack</code> is <code>true</code>): levels the group's form skill up to that form and grants at least that much mastery. Forms listed in the form's <code>formRequisite</code> are raised to the mastery they require too. Aliases: <code>form_group</code> and <code>group</code>; <code>form_name</code> and <code>form</code>.</translate>
+| <code>TRANSFORMATION</code> || <translate><!--T:127--> <code>formGroup</code>, <code>formName</code>, <code>mastery</code>* (default <code>100.0</code>), <code>stack</code>* (default <code>false</code>)</translate> || <translate><!--T:128--> Unlocks a form of the player's race (or a stack form if <code>stack</code> is <code>true</code>): levels the group's form skill up to that form and grants at least that much mastery. Forms listed in the form's <code>formRequisite</code> are raised to the mastery they require too. Aliases: <code>form_group</code> and <code>group</code>; <code>form_name</code> and <code>form</code>.</translate>
 |-
-| <code>KI_TECHNIQUE</code> || <code>code</code> || <translate>Grants a ki technique from an exported technique code (aliases: <code>techniqueCode</code> and <code>technique_code</code>). See [[Special:MyLanguage/Techniques|Techniques]].</translate>
+| <code>KI_TECHNIQUE</code> || <code>code</code> || <translate><!--T:129--> Grants a ki technique from an exported technique code (aliases: <code>techniqueCode</code> and <code>technique_code</code>). See [[Special:MyLanguage/Techniques|Techniques]].</translate>
 |-
-| <code>COMMAND</code> || <code>command</code>, <code>translationKey</code>* || <translate>Runs a command on the server (operator level), with <code>%player%</code> replaced by the player's name. <code>translationKey</code> is the text shown in the reward list instead of the command.</translate>
+| <code>COMMAND</code> || <code>command</code>, <code>translationKey</code>* || <translate><!--T:130--> Runs a command on the server (operator level), with <code>%player%</code> replaced by the player's name. <code>translationKey</code> is the text shown in the reward list instead of the command.</translate>
 |}
 
 <translate>
+<!--T:131-->
 <code>TRANSFORMATION</code> and <code>SKILL</code> rewards act on the player's own race groups and skills. To give race- or class-specific rewards, put them in quests gated with a <code>RACE</code> or <code>CLASS</code> condition (see [[Special:MyLanguage/Custom Quests#Prerequisites and requirements|Prerequisites and requirements]]).
 </translate>
 
 <translate>
+<!--T:132-->
 Source: <code>QuestParser.parseReward</code>, the classes under <code>common/quest/rewards/</code>, <code>Difficulty.java</code>.
 </translate>
 
 <translate>
-=== Restricting a reward by difficulty ===
+=== Restricting a reward by difficulty === <!--T:133-->
 </translate>
 <translate>
+<!--T:134-->
 The optional <code>difficulty</code> field of a reward is an '''allow-set''' of the difficulties this reward is granted on (aliases: <code>difficulties</code>, <code>difficultyType</code> and <code>minDifficulty</code>). It accepts a JSON array (<code>["NORMAL","HARD"]</code>), a string separated by commas or spaces (<code>"NORMAL, HARD"</code>) or a single value (<code>"HARD"</code>). Valid values are <code>EASY</code>, <code>NORMAL</code> and <code>HARD</code>. When it is left out or empty, the reward is granted on all difficulties.
 </translate>
 <translate>
+<!--T:135-->
 This is a set membership check, '''not''' a minimum threshold: <code>"EASY"</code> alone means Easy only, and <code>["EASY","HARD"]</code> (skipping Normal) is valid. Unknown values are dropped.
 </translate>
 
@@ -316,40 +341,44 @@ This is a set membership check, '''not''' a minimum threshold: <code>"EASY"</cod
 { "type": "ITEM", "item": "dragonminez:senzu_bean", "count": 1, "difficulty": ["NORMAL", "HARD"] }
 </syntaxhighlight>
 
-{{Note|title=<translate>Old files</translate>|text=<translate>Older quest files wrote the difficulty as a prefix on the type (<code>"hard:ITEM"</code>, <code>"normal:ITEM"</code>). Those files still load: <code>hard:</code> means Hard only and <code>normal:</code> means Easy and Normal, unless the reward also has a <code>difficulty</code> field. New files should use the <code>difficulty</code> field.</translate>}}
+{{Note|title=<translate><!--T:136--> Old files</translate>|text=<translate><!--T:137--> Older quest files wrote the difficulty as a prefix on the type (<code>"hard:ITEM"</code>, <code>"normal:ITEM"</code>). Those files still load: <code>hard:</code> means Hard only and <code>normal:</code> means Easy and Normal, unless the reward also has a <code>difficulty</code> field. New files should use the <code>difficulty</code> field.</translate>}}
 
 <translate>
-=== Reward scaling ===
+=== Reward scaling === <!--T:138-->
 </translate>
 <translate>
+<!--T:139-->
 <code>ITEM</code>, <code>GENERIC_ITEM</code>, <code>TPS</code>, <code>ATTRIBUTES</code>, <code>ATTRIBUTE_POINTS</code> and <code>ALIGNMENT</code> amounts are scaled by the quest reward multiplier of the difficulty the quest was started on (<code>easyModeQuestRewardMultiplier</code> and <code>hardModeQuestRewardMultiplier</code> in <code>general-server.json</code>). <code>TPS</code>, <code>ATTRIBUTES</code> and <code>ATTRIBUTE_POINTS</code> rewards are also multiplied by <code>storyResetTPMultiplier</code> (default <code>0.5</code>) once per story reset. <code>SKILL</code>, <code>TRANSFORMATION</code>, <code>KI_TECHNIQUE</code> and <code>COMMAND</code> are unlock-type rewards and are never scaled.
 </translate>
 <translate>
+<!--T:140-->
 '''Rewards are per player.''' Every party member claims their own rewards when the quest is done (from the quest log, or from the turn-in NPC with <code>claim_mode: NPC_ONLY</code>).
 </translate>
 
 <translate>
-=== Item objects ===
+=== Item objects === <!--T:141-->
 </translate>
 <translate>
+<!--T:142-->
 <code>GENERIC_ITEM</code> rewards (and <code>item_list_wish</code> wishes, see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]) describe items with a typed object. <code>itemType</code> picks the kind of item; <code>itemId</code> and <code>count</code> are always available.
 </translate>
 
 {| class="wikitable"
-! <code>itemType</code> !! <translate>Extra fields</translate> !! <translate>What it does</translate>
+! <code>itemType</code> !! <translate><!--T:143--> Extra fields</translate> !! <translate><!--T:144--> What it does</translate>
 |-
-| <translate><code>generic_item</code> (default)</translate> || — || <translate>Any item.</translate>
+| <translate><!--T:145--> <code>generic_item</code> (default)</translate> || — || <translate><!--T:146--> Any item.</translate>
 |-
-| <code>enchanted_item</code> || <code>enchantments</code> || <translate><code>enchantments</code> is a map of enchantment id to level, for example <code>{ "minecraft:sharpness": 3 }</code>.</translate>
+| <code>enchanted_item</code> || <code>enchantments</code> || <translate><!--T:147--> <code>enchantments</code> is a map of enchantment id to level, for example <code>{ "minecraft:sharpness": 3 }</code>.</translate>
 |-
-| <code>enchanted_book</code> || <code>enchantments</code> || <translate>Stored enchantments on an enchanted book (<code>itemId</code> <code>minecraft:enchanted_book</code>).</translate>
+| <code>enchanted_book</code> || <code>enchantments</code> || <translate><!--T:148--> Stored enchantments on an enchanted book (<code>itemId</code> <code>minecraft:enchanted_book</code>).</translate>
 |-
-| <code>potion</code>, <code>splash_potion</code>, <code>lingering_potion</code>, <code>tipped_arrow</code> || <code>potion</code>*, <code>mobEffects</code>* || <translate><code>potion</code> is a potion id (for example <code>minecraft:strong_healing</code>). <code>mobEffects</code> is a list of <code>{ "effect", "duration", "amplifier", "ambient", "visible", "showIcon" }</code> (duration in ticks, at least <code>1</code>). Set <code>itemId</code> to the matching vanilla item (<code>minecraft:potion</code>, <code>minecraft:splash_potion</code>, <code>minecraft:lingering_potion</code> or <code>minecraft:tipped_arrow</code>).</translate>
+| <code>potion</code>, <code>splash_potion</code>, <code>lingering_potion</code>, <code>tipped_arrow</code> || <code>potion</code>*, <code>mobEffects</code>* || <translate><!--T:149--> <code>potion</code> is a potion id (for example <code>minecraft:strong_healing</code>). <code>mobEffects</code> is a list of <code>{ "effect", "duration", "amplifier", "ambient", "visible", "showIcon" }</code> (duration in ticks, at least <code>1</code>). Set <code>itemId</code> to the matching vanilla item (<code>minecraft:potion</code>, <code>minecraft:splash_potion</code>, <code>minecraft:lingering_potion</code> or <code>minecraft:tipped_arrow</code>).</translate>
 |-
-| <code>trimmed_armor</code> || <code>material</code>, <code>pattern</code>, <code>enchantments</code>* || <translate>Armor with a trim, for example <code>"material": "minecraft:gold"</code> and <code>"pattern": "minecraft:coast"</code>.</translate>
+| <code>trimmed_armor</code> || <code>material</code>, <code>pattern</code>, <code>enchantments</code>* || <translate><!--T:150--> Armor with a trim, for example <code>"material": "minecraft:gold"</code> and <code>"pattern": "minecraft:coast"</code>.</translate>
 |}
 
 <translate>
+<!--T:151-->
 <code>itemId</code> is required and <code>count</code> must be at least <code>1</code>. An invalid item object (a missing <code>itemId</code>, an unknown <code>itemType</code>, a bad level or duration) makes the whole quest file fail to load, and the file is named in the JSON load report. Unknown enchantment, potion or effect ids only skip that entry, with a warning in the log.
 </translate>
 
@@ -360,13 +389,15 @@ This is a set membership check, '''not''' a minimum threshold: <code>"EASY"</cod
 </syntaxhighlight>
 
 <translate>
+<!--T:152-->
 Source: <code>src/main/java/com/dragonminez/common/util/types/items/</code>, <code>GenericItemTypeAdapterFactory.java</code>.
 </translate>
 
 <translate>
-== Prerequisites and requirements ==
+== Prerequisites and requirements == <!--T:153-->
 </translate>
 <translate>
+<!--T:154-->
 Both <code>prerequisites</code> (can this quest ever be unlocked) and <code>requirements</code> (can it be started right now) use the same condition-tree schema:
 </translate>
 
@@ -382,48 +413,52 @@ Both <code>prerequisites</code> (can this quest ever be unlocked) and <code>requ
 </syntaxhighlight>
 
 <translate>
+<!--T:155-->
 <code>operator</code> is <code>AND</code> or <code>OR</code>. <code>conditions</code> can nest another <code>{ "operator": ..., "conditions": [...] }</code> block.
 </translate>
 
 {| class="wikitable"
-! <code>type</code> !! <translate>Fields</translate>
+! <code>type</code> !! <translate><!--T:156--> Fields</translate>
 |-
-| <code>SAGA_QUEST</code> || <translate><code>sagaId</code>, <code>questId</code> (int): a specific saga quest must be completed.</translate>
+| <code>SAGA_QUEST</code> || <translate><!--T:157--> <code>sagaId</code>, <code>questId</code> (int): a specific saga quest must be completed.</translate>
 |-
-| <code>QUEST</code> || <translate><code>questId</code> (string): a specific side quest must be completed.</translate>
+| <code>QUEST</code> || <translate><!--T:158--> <code>questId</code> (string): a specific side quest must be completed.</translate>
 |-
 | <code>LEVEL</code> || <code>minLevel</code>
 |-
-| <code>STAT</code> || <translate><code>stat</code> (<code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code> or <code>ENE</code>), <code>minValue</code></translate>
+| <code>STAT</code> || <translate><!--T:159--> <code>stat</code> (<code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code> or <code>ENE</code>), <code>minValue</code></translate>
 |-
-| <code>RACE</code> || <translate><code>race</code> (aliases: <code>raceName</code> and <code>race_name</code>): the player's race id, case-insensitive. Built-in ids: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>. '''Watch out:''' it is <code>frostdemon</code> (not <code>frieza</code> or <code>colddemon</code>) and <code>bioandroid</code> (not <code>android</code> or <code>cell</code>). Custom races use their folder name in <code>config/dragonminez/races/</code>.</translate>
+| <code>RACE</code> || <translate><!--T:160--> <code>race</code> (aliases: <code>raceName</code> and <code>race_name</code>): the player's race id, case-insensitive. Built-in ids: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>. '''Watch out:''' it is <code>frostdemon</code> (not <code>frieza</code> or <code>colddemon</code>) and <code>bioandroid</code> (not <code>android</code> or <code>cell</code>). Custom races use their folder name in <code>config/dragonminez/races/</code>.</translate>
 |-
-| <code>CLASS</code> || <translate><code>class</code> (aliases: <code>className</code>, <code>class_name</code> and <code>characterClass</code>): the player's class id, case-insensitive.</translate>
+| <code>CLASS</code> || <translate><!--T:161--> <code>class</code> (aliases: <code>className</code>, <code>class_name</code> and <code>characterClass</code>): the player's class id, case-insensitive.</translate>
 |-
-| <code>SKILL</code> || <translate><code>skill</code>, <code>minLevel</code>* (aliases: <code>skillId</code> and <code>id</code>; <code>level</code> and <code>required</code>)</translate>
+| <code>SKILL</code> || <translate><!--T:162--> <code>skill</code>, <code>minLevel</code>* (aliases: <code>skillId</code> and <code>id</code>; <code>level</code> and <code>required</code>)</translate>
 |-
 | <code>BIOME</code> || <code>biome</code>
 |-
 | <code>DIMENSION</code> || <code>dimension</code>
 |-
-| <code>STRUCTURE</code> || <translate><code>structure</code>, <code>hint</code>* (<code>{ "dimension", "x", "y", "z" }</code>, all optional; it helps point the player towards the structure)</translate>
+| <code>STRUCTURE</code> || <translate><!--T:163--> <code>structure</code>, <code>hint</code>* (<code>{ "dimension", "x", "y", "z" }</code>, all optional; it helps point the player towards the structure)</translate>
 |-
 | <code>ALIGNMENT</code> || <code>min</code>*, <code>max</code>*
 |-
-| <code>TIME</code> || <translate><code>mode</code> (<code>GAME_TIME</code> with <code>ticks</code>, or <code>REAL_TIME</code> with <code>milliseconds</code>): time elapsed since the quest became eligible.</translate>
+| <code>TIME</code> || <translate><!--T:164--> <code>mode</code> (<code>GAME_TIME</code> with <code>ticks</code>, or <code>REAL_TIME</code> with <code>milliseconds</code>): time elapsed since the quest became eligible.</translate>
 |}
 
 <translate>
+<!--T:165-->
 Source: <code>QuestParser.parseCondition</code>, <code>QuestPrerequisites.java</code>. The same condition blocks gate choices in [[Special:MyLanguage/NPC Dialogue|NPC Dialogue]].
 </translate>
 
 <translate>
-== Side quests ==
+== Side quests == <!--T:166-->
 </translate>
 <translate>
+<!--T:167-->
 Side quests live anywhere under <code>dragonminez/sidequests/</code> (subfolders are scanned too) and use the '''same quest schema''' as saga quests, with a few practical differences:
 </translate>
 <translate>
+<!--T:168-->
 * <code>"id"</code> is a '''string''' instead of a number (for example <code>"bulma_gero_blueprints"</code>).
 * <code>"type"</code> is <code>"SIDEQUEST"</code> (or <code>"DAILY"</code> or <code>"EVENT"</code>) instead of <code>"SAGA"</code>.
 * There is no enclosing saga folder or manifest: each file stands alone.
@@ -432,6 +467,7 @@ Side quests live anywhere under <code>dragonminez/sidequests/</code> (subfolders
 </translate>
 
 <translate>
+<!--T:169-->
 Example (<code>dragonminez/sidequests/collection/bulma_gero_blueprints.json</code>):
 </translate>
 
@@ -467,6 +503,7 @@ Example (<code>dragonminez/sidequests/collection/bulma_gero_blueprints.json</cod
 </syntaxhighlight>
 
 <translate>
+<!--T:170-->
 A repeatable errand, delivered to an NPC:
 </translate>
 
@@ -492,74 +529,87 @@ A repeatable errand, delivered to an NPC:
 </syntaxhighlight>
 
 <translate>
-== Quest giver and turn-in NPCs ==
+== Quest giver and turn-in NPCs == <!--T:171-->
 </translate>
 <translate>
+<!--T:172-->
 <code>quest_giver</code> and <code>turn_in</code> reference an NPC by id: the same id used by quest NPC entities and by master and trainer NPCs (<code>TALK_TO</code> and <code>DELIVER</code> objectives use the same ids). DragonMineZ indexes quests by both fields, so an NPC can show "available quest" markers and accept turn-ins without any extra wiring on your end. Both fields are optional: leave them out or set them to <code>null</code> if the quest isn't tied to an NPC (for example a saga quest that is only about exploring or killing).
 </translate>
 
 <translate>
+<!--T:173-->
 Talking to the giver opens its dialogue, where the '''Quests''' option lists the quests it offers, the ones in progress and the ones ready to turn in, plus its '''locked''' quests: hovering one shows what is missing (for example the saga quest or side quest to complete first), and a completed <code>repeatable</code> quest shows a countdown until it can be taken again. Locked <code>secret</code> quests are not listed. The list is sorted by when each quest opens up in the story (saga order, then quest order, then level requirement), so an NPC's early quests come first.
 </translate>
 
 <translate>
+<!--T:174-->
 If the giver is a master with an alignment requirement, its quests can only be started while the player's alignment fits, from any screen; quests already in progress can still be turned in. [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] need an alignment of '''61 or more''', and [[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]] '''40 or less'''. See [[Special:MyLanguage/Masters|Masters]].
 </translate>
 
 <translate>
-== Unknown and misspelled keys ==
+== Unknown and misspelled keys == <!--T:175-->
 </translate>
 <translate>
+<!--T:176-->
 Every quest, saga, objective, reward, prerequisite or requirement condition and structure hint is checked against an explicit allow-list of fields (<code>QuestParser.validate</code> and <code>validateSaga</code>). Any key that isn't recognized (a typo, the wrong casing, a leftover field from an old schema) is '''not''' silently dropped: it is logged and shown to players in the in-game JSON load report on login (controlled by <code>developer.reportJsonProblemsInChat</code>, on by default), as well as in the server console. The entry still loads with the rest of its valid fields; only the unrecognized key is flagged. Use this to catch typos (for example <code>CanTransfrom</code> instead of <code>canTransform</code>) instead of having a field silently do nothing. A file with broken JSON syntax is skipped and reported in the same way.
 </translate>
 
 <translate>
+<!--T:177-->
 Keys that start with <code>_</code>, <code>$</code> or <code>//</code> are treated as comments and never flagged, so you can leave notes for yourself directly in the JSON.
 </translate>
 
 <translate>
-== Custom objective and reward types ==
+== Custom objective and reward types == <!--T:178-->
 </translate>
 <translate>
+<!--T:179-->
 Java add-ons can register their own objective and reward <code>type</code>s through <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code>. Once registered, they are written in quest JSON just like the built-in types. See [[Special:MyLanguage/Implementation and Events#Custom quest objectives and rewards|Implementation and Events]] and [[Special:MyLanguage/Creating a DMZ Addon|Creating a DMZ Addon]].
 </translate>
 
 <translate>
-== Default file upgrades ==
+== Default file upgrades == <!--T:180-->
 </translate>
 {{Config|General Server Config|gameplay.autoUpdateQuests}}
 <translate>
+<!--T:181-->
 Every generated quest, saga and side quest file is stamped with a <code>defaultsVersion</code> field (a semver string, currently <code>"2.2.0"</code>). <code>QuestUpgrader</code> manages it automatically and uses it to run a three-way merge of your edits against DragonMineZ's shipped defaults whenever the built-in content changes:
 </translate>
 <translate>
+<!--T:182-->
 * A field you never changed takes the new default.
 * A field you changed keeps your value. If DragonMineZ also changed it, that is recorded as a conflict, and your value still wins.
 * Keys you added are kept.
 * When the merge changes something, the previous file is copied to <code><world>/dragonminez/oldBackup/</code> first.
 </translate>
 <translate>
+<!--T:183-->
 A summary is written to <code><world>/dragonminez/quest_update_report.txt</code> and shown in the JSON load report. Turn the whole system off with <code>autoUpdateQuests: false</code>. You don't need to set <code>defaultsVersion</code> on your own custom content. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for how upgrades are reported.
 </translate>
 
 <translate>
-== Translation keys ==
+== Translation keys == <!--T:184-->
 </translate>
 <translate>
+<!--T:185-->
 Follow the existing naming convention so your content matches the rest of the story:
 </translate>
 <translate>
+<!--T:186-->
 * Saga name: <code>dmz.saga.<saga_id></code>
 * Saga quest title and description: <code>dmz.quest.<key>.name</code> / <code>dmz.quest.<key>.desc</code>
 * Side quest title and description: <code>dmz.sidequest.<key>.name</code> / <code>dmz.sidequest.<key>.desc</code>
 </translate>
 <translate>
+<!--T:187-->
 Add these keys to your <code>en_us.json</code> or to your own language file. Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].
 </translate>
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:188-->
 </translate>
 <translate>
+<!--T:189-->
 # Save your saga, quest or side quest JSON in the world's <code>dragonminez/</code> folder.
 # Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
 # Run <code>/dmzreload story</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].

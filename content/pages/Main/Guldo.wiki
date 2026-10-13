@@ -1,0 +1,53 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid boss</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], wave 5</translate>
+|Behavior=<translate><!--T:3--> Waits until his escort falls; Smart AI</translate>
+|Health=6000
+|Damage=55
+|Ki damage=60
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, dodging</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Guldo''' is a member of the '''Ginyu Force''', Frieza's elite squad. In [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], the raid of [[Special:MyLanguage/Namek|Planet Namek]], he arrives in the final wave with the rest of the squad. He has the least health of the five.
+</translate>
+
+<translate>
+== In raids == <!--T:7-->
+
+<!--T:8-->
+The whole Ginyu Force is the boss group of wave 5: Guldo, [[Special:MyLanguage/Recoome|Recoome]], [[Special:MyLanguage/Burter|Burter]], [[Special:MyLanguage/Jeice|Jeice]] and [[Special:MyLanguage/Ginyu|Ginyu]], escorted by 15 [[Special:MyLanguage/Frieza Soldier|Frieza Soldiers]]. The five stay dormant until the soldiers are dead, but attacking one wakes it up early. Like every raid boss, they glow red.
+
+<!--T:9-->
+In the raid Guldo has 6,000 health, 55 melee damage and 60 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Smart]] AI tier, like Recoome; the other three are Elite. These are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+* '''Flight:''' Guldo flies and follows you into the air.
+* '''Ki Blast:''' green ki blasts.
+* '''Dodging:''' he can step back out of the way of your hits.
+</translate>
+
+<translate>
+== Drops == <!--T:12-->
+
+<!--T:13-->
+Guldo drops nothing. Clearing the raid rewards everyone still fighting (see [[Special:MyLanguage/Frieza's Invasion#Rewards|Frieza's Invasion]]).
+</translate>
+
+<translate>
+== In the story == <!--T:14-->
+
+<!--T:15-->
+In the [[Special:MyLanguage/Frieza Saga|Frieza Saga]], the quest '''Ginyu Force: Guldo''' has you defeat him on Namek's Ajissa Plains. After the saga quest '''Captain Ginyu''', the side quest '''Ginyu Force Stragglers''' sends him and [[Special:MyLanguage/Recoome|Recoome]] after you again on Namek (see [[Special:MyLanguage/Sidequests|Sidequests]]).
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity ids</translate>|<code>dragonminez:saga_guldo</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

@@ -1,11 +1,13 @@
 <translate>
+<!--T:1-->
 The '''Security Policy''' explains how to report a security vulnerability in DragonMineZ and how the team handles it. The DragonMineZ team values the community's effort in disclosing vulnerabilities responsibly, takes security issues seriously and is committed to resolving them promptly to protect its users.
 </translate>
 
 <translate>
-== Reporting a vulnerability ==
+== Reporting a vulnerability == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 # '''Do not disclose it publicly.''' Sharing the details of a vulnerability before it is resolved could put users at risk.
 # '''Submit a report''' through the [https://github.com/DragonMineZ/DragonMineZ/security/advisories/new Report a Vulnerability] tab on GitHub. Alternatively, you can contact the team on Discord.
 # '''Include these details''' in your report:
@@ -16,48 +18,54 @@ The '''Security Policy''' explains how to report a security vulnerability in Dra
 </translate>
 
 <translate>
-=== What to expect ===
+=== What to expect === <!--T:4-->
 </translate>
 <translate>
+<!--T:5-->
 * The team acknowledges your report within '''48 to 72 hours'''.
 * The team investigates and gives you a plan of action within '''10 days''' or less.
 * You are kept updated throughout the process and credited for your discovery, unless you wish to remain anonymous.
 </translate>
 
 <translate>
-== Fixes and notifications ==
+== Fixes and notifications == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 After verifying and fixing a security vulnerability, the team will:
 </translate>
 <translate>
+<!--T:8-->
 * release a patch for the affected versions listed in the [[Special:MyLanguage/Security Policy#Supported versions|supported versions]] table;
 * publish a security advisory that summarizes the issue, its impact and how it was resolved;
 * notify the relevant parties as necessary.
 </translate>
 
 <translate>
-== Supported versions ==
+== Supported versions == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 These versions are actively supported with security updates:
 </translate>
 
 {| class="wikitable"
-! <translate>Version</translate> !! <translate>Supported</translate>
+! <translate><!--T:11--> Version</translate> !! <translate><!--T:12--> Supported</translate>
 |-
-| <translate>2.x (latest)</translate> || <translate>Yes</translate>
+| <translate><!--T:13--> 2.x (latest)</translate> || <translate><!--T:14--> Yes</translate>
 |-
-| <translate>Older versions</translate> || <translate>No</translate>
+| <translate><!--T:15--> Older versions</translate> || <translate><!--T:16--> No</translate>
 |}
 
 <translate>
-== Securing your server ==
+== Securing your server == <!--T:17-->
 </translate>
 <translate>
+<!--T:18-->
 A few settings matter for keeping a DragonMineZ server safe:
 </translate>
 <translate>
+<!--T:19-->
 * '''Database credentials:''' if you use the <code>DATABASE</code> storage backend, replace the default <code>username</code> and <code>password</code> (<code>root</code> / <code>password</code>) in the <code>storage</code> section of <code>general-server.json</code>, and give DragonMineZ its own database user with access to its own database only. See [[Special:MyLanguage/General Server Config|General Server Config]].
 * '''Permissions:''' DragonMineZ commands are protected by permission nodes. Only give admin-level nodes (stat editing, config reloads, quest management and so on) to trusted staff. See [[Special:MyLanguage/Permissions|Permissions]].
 * '''Backups:''' back up the world folder (and your database, if you use one) before switching storage backends or updating the mod. See [[Special:MyLanguage/Notice to Server Owners|Notice to Server Owners]].
@@ -65,13 +73,15 @@ A few settings matter for keeping a DragonMineZ server safe:
 </translate>
 
 <translate>
-== For add-on developers ==
+== For add-on developers == <!--T:20-->
 </translate>
 <translate>
+<!--T:21-->
 Never trust values sent by the client in your own packets. Validate on the server anything that changes stats, unlocks, quests, wishes or progression (see [[Special:MyLanguage/Implementation and Events#Networking|Implementation and Events]]).
 </translate>
 
 <translate>
+<!--T:22-->
 Thank you for helping keep DragonMineZ secure.
 </translate>
 

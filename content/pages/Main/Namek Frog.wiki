@@ -1,43 +1,57 @@
 {{Infobox Mob
-|Type=<translate>Passive animal</translate>
+|Type=<translate><!--T:1--> Passive animal</translate>
 |Dimension={{L|Namek}}
-|Spawns=<translate>Ajissa Plains, Sacred Land and Namekian Rivers</translate>
-|Behavior=<translate>Harmless; hops away when hurt</translate>
-|Drops=<translate>1–2 Raw Frog Legs</translate>
+|Spawns=<translate><!--T:2--> Ajissa Plains, Sacred Land and Namekian Rivers</translate>
+|Behavior=<translate><!--T:3--> Harmless; hops away when hurt</translate>
+|Drops=<translate><!--T:4--> 1–2 Raw Frog Legs</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Namekian Frog''' is the native amphibian of [[Special:MyLanguage/Namek|Planet Namek]]. There is also a rare '''Ginyu variant''', shown as ''Frog (Ginyu)'': a cosmetic nod to Captain Ginyu that behaves and drops exactly like a normal frog.
 </translate>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:6-->
 
+<!--T:7-->
 Both frogs spawn in the Ajissa Plains, Sacred Land and Namekian Rivers biomes.
 </translate>
 {| class="wikitable"
-! <translate>Frog</translate> !! <translate>Spawn weight</translate> !! <translate>Group size</translate>
+! <translate><!--T:8--> Frog</translate> !! <translate><!--T:9--> Spawn weight</translate> !! <translate><!--T:10--> Group size</translate>
 |-
-| <translate>Namekian Frog</translate> || 2 || 1–3
+| <translate><!--T:11--> Namekian Frog</translate> || 2 || 1–3
 |-
-| <translate>Frog (Ginyu)</translate> || 5 || 1
+| <translate><!--T:12--> Frog (Ginyu)</translate> || 5 || 1
 |}
 
 <translate>
-== Behavior ==
+== Behavior == <!--T:13-->
 
+<!--T:14-->
 Both frogs are harmless and hop away when hurt.
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:15-->
 
+<!--T:16-->
 Both variants drop:
 * 1–2 '''Raw Frog Legs''' (cooks if on fire, +0–1 Looting)
 
+<!--T:17-->
 [[Special:MyLanguage/Namekian Trader|Namekian Traders]] also trade Raw Frog Legs.
 </translate>
 
-{{Note|type=config|title=<translate>Entity ids</translate>|<code>dragonminez:namek_frog</code>, <code>dragonminez:namek_frog_ginyu</code>}}
+<translate>
+== Gallery == <!--T:19-->
+</translate>
+<gallery>
+File:Namek Frog (Variant 1).png|<translate><!--T:20--> Variant 2</translate>
+File:Namek Frog (Variant 2).png|<translate><!--T:21--> Variant 3</translate>
+File:Namek Frog (Ginyu).png|<translate><!--T:22--> Frog (Ginyu)</translate>
+</gallery>
+
+{{Note|type=config|title=<translate><!--T:18--> Entity ids</translate>|<code>dragonminez:namek_frog</code>, <code>dragonminez:namek_frog_ginyu</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Wildlife{{#translation:}}]]

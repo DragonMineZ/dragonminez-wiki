@@ -1,0 +1,367 @@
+{
+ "Page_display_title": {
+  "source": "Commands",
+  "translation": "Comandos",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds a set of chat commands for checking and editing characters, running parties and quests, managing raids, world bosses, tournaments and Dragon Balls, and administering the server. Most of them are meant for operators; this page lists every command, its syntax and an example.",
+  "translation": "DragonMineZ añade un conjunto de comandos de chat para consultar y editar personajes, gestionar grupos y misiones, administrar incursiones, jefes de mundo, torneos y Esferas del Dragón, y administrar el servidor. La mayoría están pensados para operadores; esta página enumera cada comando con su sintaxis y un ejemplo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Reading the syntax",
+  "translation": "Cómo leer la sintaxis",
+  "outdated": false
+ },
+ "3": {
+  "source": "In the examples, <code>@s</code> is yourself and <code>@p</code> the nearest player; you can also use a player's name or any selector. Unless noted, <code>[targets]</code> is '''optional''', '''defaults to yourself''' and always comes '''last'''. Values in angle brackets are required, values in square brackets are optional, and a vertical bar separates alternatives. Type any command with no arguments in-game to see its full argument list and subcommands.",
+  "translation": "En los ejemplos, <code>@s</code> eres tú y <code>@p</code> el jugador más cercano; también puedes usar el nombre de un jugador o cualquier selector. Salvo que se indique lo contrario, <code>[targets]</code> es '''opcional''', '''por defecto eres tú''' y siempre va '''al final'''. Los valores entre corchetes angulares son obligatorios, los valores entre corchetes son opcionales y una barra vertical separa las alternativas. Escribe cualquier comando sin argumentos en el juego para ver su lista completa de argumentos y subcomandos.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Who can use them ==",
+  "translation": "== Quién puede usarlos ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Most commands need operator rights (OP level 2), the <code>dragonminez:admin</code> permission or the matching permission node. A few parts are open to every player by default:",
+  "translation": "La mayoría de los comandos requieren permisos de operador (OP nivel 2), el permiso <code>dragonminez:admin</code> o el nodo de permiso correspondiente. Algunas partes están abiertas a todos los jugadores por defecto:",
+  "outdated": false
+ },
+ "6": {
+  "source": "listing your own quest progress, viewing quest information and tracking your own quest (<code>/dmzquest list</code>, <code>info</code> and <code>track</code>);",
+  "translation": "consultar tu propio progreso de misiones, ver información de misiones y rastrear tu propia misión (<code>/dmzquest list</code>, <code>info</code> y <code>track</code>);",
+  "outdated": false
+ },
+ "7": {
+  "source": "party commands (<code>/dmzparty</code>);",
+  "translation": "comandos de grupo (<code>/dmzparty</code>);",
+  "outdated": false
+ },
+ "8": {
+  "source": "growing or cutting your own tail (<code>/dmztail</code>) and resyncing or resetting your own hair (<code>/dmzhair</code>);",
+  "translation": "hacer crecer o cortar tu propia cola (<code>/dmztail</code>) y resincronizar o restablecer tu propio pelo (<code>/dmzhair</code>);",
+  "outdated": false
+ },
+ "9": {
+  "source": "answering a Namekian assimilation request (<code>/dmzracial reply</code>, which needs no permission at all);",
+  "translation": "responder a una solicitud de asimilación namekiana (<code>/dmzracial reply</code>, que no requiere ningún permiso);",
+  "outdated": false
+ },
+ "10": {
+  "source": "reopening the summary of your last world boss fight (<code>/dmzworldboss results</code>);",
+  "translation": "volver a abrir el resumen de tu último combate contra un jefe de mundo (<code>/dmzworldboss results</code>);",
+  "outdated": false
+ },
+ "11": {
+  "source": "viewing your own stats, points, skills, techniques, forms and effects.",
+  "translation": "ver tus propias estadísticas, puntos, habilidades, técnicas, formas y efectos.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Server owners running a permissions mod can grant the rest one node at a time: see [[Special:MyLanguage/Permissions|Permissions]].",
+  "translation": "Los dueños de servidores que usen un mod de permisos pueden conceder el resto nodo por nodo: consulta [[Special:MyLanguage/Permissions|Permisos]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Character and progression ==",
+  "translation": "== Personaje y progresión ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "15": {
+  "source": "Syntax",
+  "translation": "Sintaxis",
+  "outdated": false
+ },
+ "16": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "17": {
+  "source": "Example",
+  "translation": "Ejemplo",
+  "outdated": false
+ },
+ "18": {
+  "source": "Sets, adds or removes stat points; <code>min</code> is 0 and <code>max</code> is the server's stat cap. <code>relocate</code> is a stat respec and <code>reset</code> a progress reset: see [[Special:MyLanguage/Commands#Resetting a character without losing stats|below]].",
+  "translation": "Establece, añade o quita puntos de estadística; <code>min</code> es 0 y <code>max</code> es el límite de estadísticas del servidor. <code>relocate</code> redistribuye las estadísticas y <code>reset</code> reinicia el progreso: consulta [[Special:MyLanguage/Commands#Resetting a character without losing stats|más abajo]].",
+  "outdated": false
+ },
+ "19": {
+  "source": "Edits '''Training Points''' only. Attribute Points come from Attributes rewards and <code>/dmzstats relocate</code>.",
+  "translation": "Edita solo los '''Puntos de Entrenamiento'''. Los Puntos de Atributo vienen de las recompensas de Atributos y de <code>/dmzstats relocate</code>.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Adds, removes or clears named bonus stats. The bonus stat keys are '''DEF''' and '''STM''', not RES, so they don't exactly match the keys of <code>/dmzstats</code>.",
+  "translation": "Añade, quita o borra bonificaciones de estadística con nombre. Las claves de bonificación son '''DEF''' y '''STM''', no RES, así que no coinciden exactamente con las claves de <code>/dmzstats</code>.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Sets, grants (at level 1) or removes a form. <code>set all</code> sets '''every''' form and stack-form skill to that level. See [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "Establece, concede (en nivel 1) o quita una forma. <code>set all</code> pone '''todas''' las habilidades de forma y de forma acumulable en ese nivel. Consulta [[Special:MyLanguage/Transformations|Transformaciones]].",
+  "outdated": false
+ },
+ "22": {
+  "source": "Sets a player's [[Special:MyLanguage/Classes|class]] (fully positional, with no <code>set</code> word). The class must be one your race offers (it tab-completes to the classes of all loaded races); stat multipliers are re-applied on change.",
+  "translation": "Establece la [[Special:MyLanguage/Classes|clase]] de un jugador (totalmente posicional, sin la palabra <code>set</code>). La clase debe ser una que ofrezca tu raza (el autocompletado muestra las clases de todas las razas cargadas); los multiplicadores de estadísticas se vuelven a aplicar al cambiarla.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Sets or adds form mastery. Like most commands, the targets are optional, default to yourself and come last. The group tab-completes your race's form groups (every loaded race's groups when run from the console) plus every stack-form group. <code>current</code> uses each target's active form or stack form and skips, with a message, anyone who isn't transformed. <code>ALL</code> covers every form of the target's race, every stack form, or both. See [[Special:MyLanguage/Training Points and Mastery#Mastery|Mastery]].",
+  "translation": "Establece o añade maestría de forma. Como en la mayoría de los comandos, los objetivos son opcionales, por defecto eres tú y van al final. El grupo autocompleta los grupos de formas de tu raza (los de todas las razas cargadas si se ejecuta desde la consola) más todos los grupos de formas acumulables. <code>current</code> usa la forma o forma acumulable activa de cada objetivo y omite, con un mensaje, a quien no esté transformado. <code>ALL</code> abarca todas las formas de la raza del objetivo, todas las formas acumulables o ambas. Consulta [[Special:MyLanguage/Training Points and Mastery#Mastery|Maestría]].",
+  "outdated": false
+ },
+ "24": {
+  "source": "Edits \"plain\" [[Special:MyLanguage/Skills|skills]] only (not ki, strike or evasion techniques, forms or stack forms). <code>add</code> sets level 1; <code>all</code> applies to every plain skill at once.",
+  "translation": "Edita solo las [[Special:MyLanguage/Skills|habilidades]] \"simples\" (no las técnicas de ki, de golpe ni de evasión, ni las formas o formas acumulables). <code>add</code> pone el nivel 1; <code>all</code> se aplica a todas las habilidades simples a la vez.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Grants or removes ki, strike and evasion [[Special:MyLanguage/Techniques|techniques]], or edits their experience. <code>all</code> adds or removes every predefined technique; techniques you already own are left untouched by <code>add all</code>.",
+  "translation": "Concede o quita [[Special:MyLanguage/Techniques|técnicas]] de ki, de golpe y de evasión, o edita su experiencia. <code>all</code> añade o quita todas las técnicas predefinidas; <code>add all</code> no toca las técnicas que ya tienes.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Sets the remaining cooldown of the ki or strike technique equipped in that technique slot, in '''ticks''' (20 ticks = 1 second); <code>0</code> clears it so the technique can fire immediately. Fails if the slot is empty.",
+  "translation": "Establece el tiempo de recarga restante de la técnica de ki o de golpe equipada en esa ranura de técnica, en '''ticks''' (20 ticks = 1 segundo); <code>0</code> lo elimina para que la técnica pueda lanzarse de inmediato. Falla si la ranura está vacía.",
+  "outdated": false
+ },
+ "27": {
+  "source": "<code>reset</code> wipes a player's racial-skill progress: racial stat bonuses, Namekian assimilations, Majin absorptions, Cell Jr. (despawned), Zenkai uses and racial cooldowns. <code>reply</code> answers a pending Namekian '''Assimilation''' request sent to you (anyone can use it). See [[Special:MyLanguage/Racial Skills|Racial Skills]].",
+  "translation": "<code>reset</code> borra el progreso de habilidades raciales de un jugador: bonificaciones raciales de estadísticas, asimilaciones namekianas, absorciones Majin, Cell Jr. (desaparecen), usos de Zenkai y tiempos de recarga raciales. <code>reply</code> responde a una solicitud pendiente de '''Asimilación''' namekiana que te hayan enviado (cualquiera puede usarlo). Consulta [[Special:MyLanguage/Racial Skills|Habilidades raciales]].",
+  "outdated": false
+ },
+ "28": {
+  "source": "Sets, raises or lowers a player's [[Special:MyLanguage/Alignment|alignment]].",
+  "translation": "Establece, sube o baja el [[Special:MyLanguage/Alignment|alineamiento]] de un jugador.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Grows or cuts a Saiyan tail.",
+  "translation": "Hace crecer o corta una cola saiyajin.",
+  "outdated": false
+ },
+ "30": {
+  "source": "<code>resync</code> re-sends a player's appearance to nearby players (it fixes desynced or invisible hair). <code>reset</code> restores the race's default hair type and color and clears every custom hair style. See [[Special:MyLanguage/Character Customization|Character Customization]].",
+  "translation": "<code>resync</code> reenvía la apariencia de un jugador a los jugadores cercanos (arregla el pelo desincronizado o invisible). <code>reset</code> restaura el tipo y el color de pelo predeterminados de la raza y borra todos los peinados personalizados. Consulta [[Special:MyLanguage/Character Customization|Personalización]].",
+  "outdated": false
+ },
+ "31": {
+  "source": "Gives you a [[Special:MyLanguage/Weights|weight]] item of that weight (yourself only, no targets). A bare weight gives Workout Weights.",
+  "translation": "Te da un objeto de [[Special:MyLanguage/Weights|pesas]] con ese peso (solo a ti, sin objetivos). Un peso sin tipo te da Pesas de Entrenamiento.",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== Resetting a character without losing stats ===",
+  "translation": "=== Reiniciar un personaje sin perder estadísticas ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "<code>/dmzstats</code> has two different reset tools; pick the right one depending on what you want to keep:",
+  "translation": "<code>/dmzstats</code> tiene dos herramientas de reinicio distintas; elige la adecuada según lo que quieras conservar:",
+  "outdated": false
+ },
+ "34": {
+  "source": "<code>/dmzstats relocate [targets]</code> is a pure '''stat respec'''. It sets STR, SKP, RES, VIT, PWR and ENE back down to the race's base starting values and refunds every point invested above that as '''pending Attribute Points''', so you lose nothing: you just redistribute them from scratch. Nothing else (forms, skills, quests, techniques, master relationships) is touched.",
+  "translation": "<code>/dmzstats relocate [targets]</code> es una '''redistribución de estadísticas''' pura. Devuelve STR, SKP, RES, VIT, PWR y ENE a los valores iniciales base de la raza y reembolsa cada punto invertido por encima de eso como '''Puntos de Atributo pendientes''', así que no pierdes nada: solo los vuelves a repartir desde cero. No toca nada más (formas, habilidades, misiones, técnicas, relación con los maestros).",
+  "outdated": false
+ },
+ "35": {
+  "source": "<code>/dmzstats reset [targets] [keepPercentage] [keepSkills]</code> is a '''progress reset'''. With no <code>keepPercentage</code> it wipes stats, Training Points, forms, skills, quests, techniques, cooldowns, bonus stats, master interactions and dynamic growth back to zero. To reset progress '''without losing your stats''', pass <code>keepPercentage</code> 100 (it keeps 100% of your current STR, SKP, RES, VIT, PWR, ENE and Training Points) and <code>keepSkills</code> true (it also keeps your learned skills, techniques and effects); everything else (forms, quests, cooldowns, bonus stats, master interactions, dynamic growth) is still cleared.",
+  "translation": "<code>/dmzstats reset [targets] [keepPercentage] [keepSkills]</code> es un '''reinicio de progreso'''. Sin <code>keepPercentage</code> deja en cero las estadísticas, los Puntos de Entrenamiento, las formas, las habilidades, las misiones, las técnicas, los tiempos de recarga, las bonificaciones de estadísticas, las interacciones con maestros y el crecimiento dinámico. Para reiniciar el progreso '''sin perder tus estadísticas''', pasa <code>keepPercentage</code> 100 (conserva el 100% de tus STR, SKP, RES, VIT, PWR, ENE y Puntos de Entrenamiento actuales) y <code>keepSkills</code> true (también conserva las habilidades, técnicas y efectos aprendidos); todo lo demás (formas, misiones, tiempos de recarga, bonificaciones de estadísticas, interacciones con maestros, crecimiento dinámico) se borra igualmente.",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Effects, halo and revive ==",
+  "translation": "== Efectos, halo y resurrección ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "38": {
+  "source": "Syntax",
+  "translation": "Sintaxis",
+  "outdated": false
+ },
+ "39": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "40": {
+  "source": "Example",
+  "translation": "Ejemplo",
+  "outdated": false
+ },
+ "41": {
+  "source": "Handles DragonMineZ's long-term character [[Special:MyLanguage/Effects|effects]]: <code>mightfruit</code>, <code>majin</code> and <code>mutant</code>. A duration of <code>-1</code> is permanent. <code>remove knockout</code> gets a knocked-down player up (the '''K.O.''' effect). Other effects use vanilla <code>/effect</code>. <code>clear</code> also ends a knockdown and a fusion and clears the fusion cooldown, the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]] cooldown ('''God Ritual CD''') and the [[Special:MyLanguage/Ki Transfer|Ki Transfer]] effects ('''Shared Ki''' and '''Ki Exhaustion''').",
+  "translation": "Gestiona los [[Special:MyLanguage/Effects|efectos]] de personaje de larga duración de DragonMineZ: <code>mightfruit</code>, <code>majin</code> y <code>mutant</code>. Una duración de <code>-1</code> es permanente. <code>remove knockout</code> levanta a un jugador derribado (el efecto '''K.O.'''). Los demás efectos usan el <code>/effect</code> vanilla. <code>clear</code> también termina un derribo y una fusión, y elimina el tiempo de recarga de fusión, el tiempo de recarga del [[Special:MyLanguage/Super Saiyan God Ritual|Ritual del Super Saiyajin Dios]] ('''Recarga Ritual Divino''') y los efectos de la [[Special:MyLanguage/Ki Transfer|Transferencia de ki]] ('''Ki Compartido''' y '''Agotamiento de Ki''').",
+  "outdated": false
+ },
+ "42": {
+  "source": "Turns a player's halo on or off.",
+  "translation": "Activa o desactiva el halo de un jugador.",
+  "outdated": false
+ },
+ "43": {
+  "source": "Fully revives a dead player (with no arguments, yourself). See [[Special:MyLanguage/Otherworld|Otherworld]].",
+  "translation": "Revive por completo a un jugador muerto (sin argumentos, a ti). Consulta [[Special:MyLanguage/Otherworld|Otro Mundo]].",
+  "outdated": false
+ },
+ "44": {
+  "source": "== Parties, quests and raids ==",
+  "translation": "== Grupos, misiones e incursiones ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "46": {
+  "source": "Syntax",
+  "translation": "Sintaxis",
+  "outdated": false
+ },
+ "47": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "48": {
+  "source": "Example",
+  "translation": "Ejemplo",
+  "outdated": false
+ },
+ "49": {
+  "source": "Manages your party, like the Party tab of the Character Menu. With no arguments it lists your party: ⭐ marks the leader and ☆ the player who created it, when someone else is leading. <code>invite</code> also works on a player who is already in another party (accepting moves them to yours); if the invitation can't be sent, it tells you why: the level gap is too large, your party is full, the player is already in your party or plays on a higher story difficulty than your party. A member who isn't the leader sends the leader a suggestion instead. <code>accept</code> and <code>reject</code> answer your latest invitation, or the party whose ID you give (the clickable chat buttons fill it in); <code>confirm</code> accepts an invitation from a party on a higher difficulty, which permanently raises yours. <code>kick</code> (leader only) also works on offline members, but never on the player who created the party. <code>disband</code> is only for the creator; when the creator uses <code>leave</code>, the party is disbanded too. Nobody can join, be invited to or be kicked from a party while its [[Special:MyLanguage/Tournaments|tournament]] is underway.",
+  "translation": "Gestiona tu grupo, como la pestaña Grupo del Menú de personaje. Sin argumentos muestra tu grupo: ⭐ marca al líder y ☆ al jugador que lo creó, cuando otro lo lidera. <code>invite</code> también funciona con un jugador que ya está en otro grupo (si acepta, pasa al tuyo); si la invitación no se puede enviar, te dice por qué: la diferencia de nivel es demasiado grande, tu grupo está lleno, el jugador ya está en tu grupo o juega en una dificultad de historia mayor que la de tu grupo. Un miembro que no es el líder le envía una sugerencia al líder. <code>accept</code> y <code>reject</code> responden a tu última invitación, o a la del grupo cuyo ID indiques (los botones del chat lo rellenan); <code>confirm</code> acepta la invitación de un grupo con una dificultad mayor, lo que sube la tuya de forma permanente. <code>kick</code> (solo el líder) también funciona con miembros desconectados, pero nunca con el jugador que creó el grupo. <code>disband</code> es solo para el creador; cuando el creador usa <code>leave</code>, el grupo también se disuelve. Nadie puede unirse, ser invitado ni ser expulsado de un grupo mientras su [[Special:MyLanguage/Tournaments|torneo]] está en curso.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Lists, inspects, tracks and force-starts, finishes, fails or resets quests and whole [[Special:MyLanguage/Sagas|sagas]], and spawns quest NPCs (<code>questnpc</code> needs OP level 2). Quest and saga IDs use <code>.</code> where the quest files use <code>:</code> (for example <code>saiyan_saga.1</code>). <code>start</code>, <code>finish</code>, <code>fail</code>, <code>reset</code>, <code>track</code> and the saga subcommands only change the player you name (or you), never the rest of their party. <code>difficulty</code> with no value shows your story difficulty; with a value it sets it, and players get a chat notice. For a player in a party it changes the party leader's difficulty, so the whole party switches.",
+  "translation": "Enumera, inspecciona, rastrea y fuerza el inicio, la finalización, el fracaso o el reinicio de misiones y [[Special:MyLanguage/Sagas|sagas]] completas, y hace aparecer NPCs de misión (<code>questnpc</code> requiere OP nivel 2). Los ID de misiones y sagas usan <code>.</code> donde los archivos de misiones usan <code>:</code> (por ejemplo <code>saiyan_saga.1</code>). <code>start</code>, <code>finish</code>, <code>fail</code>, <code>reset</code>, <code>track</code> y los subcomandos de saga solo cambian al jugador que nombras (o a ti), nunca al resto de su grupo. <code>difficulty</code> sin valor muestra tu dificultad de la historia; con un valor la establece, y los jugadores reciben un aviso en el chat. Para un jugador en un grupo cambia la dificultad del líder del grupo, así que todo el grupo cambia.",
+  "outdated": false
+ },
+ "51": {
+  "source": "<code>start</code> begins a raid at your position (<code>saiyan_assault</code> by default); <code>stop</code> cancels the nearest raid within 128 blocks; <code>info</code> shows the state of the nearest raid. Needs OP level 2. See [[Special:MyLanguage/Raids|Raids]].",
+  "translation": "<code>start</code> inicia una incursión en tu posición (<code>saiyan_assault</code> por defecto); <code>stop</code> cancela la incursión más cercana en un radio de 128 bloques; <code>info</code> muestra el estado de la incursión más cercana. Requiere OP nivel 2. Consulta [[Special:MyLanguage/Raids|Incursiones]].",
+  "outdated": false
+ },
+ "52": {
+  "source": "== World bosses, tournaments, Dragon Balls and minigames ==",
+  "translation": "== Jefes de mundo, torneos, Esferas del Dragón y minijuegos ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "54": {
+  "source": "Syntax",
+  "translation": "Sintaxis",
+  "outdated": false
+ },
+ "55": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "56": {
+  "source": "Example",
+  "translation": "Ejemplo",
+  "outdated": false
+ },
+ "57": {
+  "source": "<code>results</code> (anyone) reopens the summary of your most recent world boss fight. <code>locate</code> finds a lair (no boss means every lair), <code>tp</code> teleports you there, <code>reset</code> despawns the boss and forgets its lair so a new one is chosen and built (it also restores the Tree of Might, the Big Gete Star or Gomah's Horn Cradle in the loaded chunks), and <code>ready</code> clears the respawn cooldown. Bosses: <code>janemba</code>, <code>turles</code>, <code>metal_cooler_core</code>, <code>tamagami_1</code>, <code>tamagami_2</code>, <code>tamagami_3</code>, <code>gomah</code>; without one, <code>tp</code>, <code>reset</code> and <code>ready</code> use the nearest lair in your current dimension (<code>janemba</code> if there is none). Everything except <code>results</code> needs OP level 2. See [[Special:MyLanguage/World Bosses|World Bosses]].",
+  "translation": "<code>results</code> (cualquiera) vuelve a abrir el resumen de tu combate más reciente contra un jefe de mundo. <code>locate</code> encuentra una guarida (sin jefe, todas las guaridas), <code>tp</code> te teletransporta allí, <code>reset</code> hace desaparecer al jefe y olvida su guarida para que se elija y construya una nueva (también restaura el Árbol del Poder, la Gran Estrella Gete o la Cuna de Cuernos de Gomah en los chunks cargados), y <code>ready</code> elimina el tiempo de recarga de reaparición. Jefes: <code>janemba</code>, <code>turles</code>, <code>metal_cooler_core</code>, <code>tamagami_1</code>, <code>tamagami_2</code>, <code>tamagami_3</code>, <code>gomah</code>; si no indicas ninguno, <code>tp</code>, <code>reset</code> y <code>ready</code> usan la guarida más cercana de tu dimensión actual (<code>janemba</code> si no hay ninguna). Todo excepto <code>results</code> requiere OP nivel 2. Consulta [[Special:MyLanguage/World Bosses|Jefes de mundo]].",
+  "outdated": false
+ },
+ "58": {
+  "source": "<code>ring</code>, run while standing inside a tournament arena structure, saves your spot as that tournament's ring point. <code>cooldown clear</code> clears tournament cooldowns (of every tournament if none is given). Needs OP level 2. See [[Special:MyLanguage/Tournaments|Tournaments]].",
+  "translation": "<code>ring</code>, ejecutado estando dentro de una estructura de arena de torneo, guarda tu posición como el punto del ring de ese torneo. <code>cooldown clear</code> elimina los tiempos de recarga de torneo (de todos los torneos si no se indica ninguno). Requiere OP nivel 2. Consulta [[Special:MyLanguage/Tournaments|Torneos]].",
+  "outdated": false
+ },
+ "59": {
+  "source": "<code>status</code> shows, per set, the balls placed, the balls pending (generated once their chunk loads) and the dragons waiting for a wish; with a set, it lists every ball's coordinates (click to teleport). <code>regenerate</code> tops a set back up to its configured number of copies (balls held by players aren't counted). Sets: <code>earth</code>, <code>namek</code> and any add-on set. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].",
+  "translation": "<code>status</code> muestra, por conjunto, las esferas colocadas, las pendientes (se generan cuando se carga su chunk) y los dragones que esperan un deseo; con un conjunto, enumera las coordenadas de cada esfera (haz clic para teletransportarte). <code>regenerate</code> repone un conjunto hasta su número configurado de copias (no cuentan las esferas que tienen los jugadores). Conjuntos: <code>earth</code>, <code>namek</code> y cualquier conjunto de un addon. Consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]].",
+  "outdated": false
+ },
+ "60": {
+  "source": "<code>play</code> opens a training minigame for the players (they need a created character; <code>masterBonus</code> true applies the master's mentor bonus). <code>learn</code> marks the minigames as learned. Minigames: <code>rhythm</code>, <code>control</code>, <code>memory</code>, <code>precision</code>, <code>gravity</code>. See [[Special:MyLanguage/Training Minigames|Training Minigames]].",
+  "translation": "<code>play</code> abre un minijuego de entrenamiento para los jugadores (necesitan un personaje creado; <code>masterBonus</code> true aplica la bonificación de mentor del maestro). <code>learn</code> marca los minijuegos como aprendidos. Minijuegos: <code>rhythm</code>, <code>control</code>, <code>memory</code>, <code>precision</code>, <code>gravity</code>. Consulta [[Special:MyLanguage/Training Minigames|Minijuegos de entrenamiento]].",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Server and admin utility ==",
+  "translation": "== Utilidades del servidor y de administración ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "63": {
+  "source": "Syntax",
+  "translation": "Sintaxis",
+  "outdated": false
+ },
+ "64": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "65": {
+  "source": "Example",
+  "translation": "Ejemplo",
+  "outdated": false
+ },
+ "66": {
+  "source": "Finds the nearest DragonMineZ structure with that id in your dimension (a bare id or <code>namespace:path</code>). It also accepts <code>otherworld_tournament</code>, the Otherworld Tournament ring, which only works while you are in the [[Special:MyLanguage/Otherworld|Otherworld]]. See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "Encuentra la estructura de DragonMineZ más cercana con ese id en tu dimensión (un id simple o <code>namespace:path</code>). También acepta <code>otherworld_tournament</code>, el ring del Torneo del Otro Mundo, que solo funciona mientras estás en el [[Special:MyLanguage/Otherworld|Otro Mundo]]. Consulta [[Special:MyLanguage/Structures|Estructuras]].",
+  "outdated": false
+ },
+ "67": {
+  "source": "<code>here</code> prints the structure you are standing in, its template and your position and facing relative to it, with a '''Copy NPC JSON''' button. <code>npcs</code> lists that structure's NPCs, where they are (click for a teleport command) and whether they have spawned yet. Needs <code>dragonminez.dmzstructure</code> or OP level 2. See [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
+  "translation": "<code>here</code> muestra la estructura en la que estás, su plantilla y tu posición y orientación relativas a ella, con un botón '''Copiar JSON del NPC'''. <code>npcs</code> enumera los NPCs de esa estructura, dónde están (haz clic para obtener un comando de teletransporte) y si ya aparecieron. Requiere <code>dragonminez.dmzstructure</code> u OP nivel 2. Consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]].",
+  "outdated": false
+ },
+ "68": {
+  "source": "Changes a config value in game. It is fully positional; the last argument takes the rest of the line, so nested keys and values are typed as they are. Needs <code>dragonminez:admin</code> or OP level 2. See [[Special:MyLanguage/Configuration|Configuration]].",
+  "translation": "Cambia un valor de configuración dentro del juego. Es totalmente posicional; el último argumento toma el resto de la línea, así que las claves anidadas y los valores se escriben tal cual. Requiere <code>dragonminez:admin</code> u OP nivel 2. Consulta [[Special:MyLanguage/Configuration|Configuración]].",
+  "outdated": false
+ },
+ "69": {
+  "source": "Reloads DragonMineZ's config, story or wish files (no argument means <code>all</code>). <code>story</code> also reloads NPC dialogue. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "Recarga los archivos de configuración, historia o deseos de DragonMineZ (sin argumento equivale a <code>all</code>). <code>story</code> también recarga los diálogos de NPCs. Consulta [[Special:MyLanguage/Reloading and Updating Changes|Recargar y actualizar cambios]].",
+  "outdated": false
+ },
+ "70": {
+  "source": "Deletes the world's <code>wishes</code>, <code>sagas</code> and <code>quests</code> folders and regenerates them from the defaults. With no argument it prints a warning with a clickable confirm button that expires after 15 seconds. Needs <code>dragonminez:admin</code> or OP level 2. See [[Special:MyLanguage/FAQ|FAQ]].",
+  "translation": "Borra las carpetas <code>wishes</code>, <code>sagas</code> y <code>quests</code> del mundo y las regenera con los valores predeterminados. Sin argumento muestra una advertencia con un botón de confirmación que caduca a los 15 segundos. Requiere <code>dragonminez:admin</code> u OP nivel 2. Consulta [[Special:MyLanguage/FAQ|Preguntas frecuentes]].",
+  "outdated": false
+ },
+ "71": {
+  "source": "Prints debug data. When both are given, '''the target (a player) comes before the scope'''; a scope alone uses yourself. Scopes: <code>ALL</code>, <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
+  "translation": "Muestra datos de depuración. Cuando se indican ambos, '''el objetivo (un jugador) va antes del ámbito'''; un ámbito solo se aplica a ti. Ámbitos: <code>ALL</code>, <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
+  "outdated": false
+ },
+ "72": {
+  "source": "DragonMineZ also adds game rules for ki griefing and arena building: see [[Special:MyLanguage/Gamerules|Gamerules]].",
+  "translation": "DragonMineZ también añade reglas de juego para el griefing con ki y la construcción en arenas: consulta [[Special:MyLanguage/Gamerules|Gamerules]].",
+  "outdated": false
+ }
+}

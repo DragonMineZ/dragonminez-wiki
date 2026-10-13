@@ -1,0 +1,112 @@
+{
+ "Page_display_title": {
+  "source": "Beam Clash",
+  "translation": "Choque de energia",
+  "outdated": false
+ },
+ "1": {
+  "source": "A '''beam clash''' happens when two beams meet head-on. Both fighters are locked in place and a timing meter appears: every well-timed press pushes your beam forward, and the side that pushes far enough breaks through while the loser is left exhausted. Your stats matter, but timing can turn a fight around.",
+  "translation": "Um '''choque de energia''' acontece quando dois raios se encontram de frente. Os dois lutadores ficam presos no lugar e aparece um medidor de tempo: cada clique no momento certo empurra o seu raio para a frente, e o lado que empurra o suficiente rompe a defesa enquanto o perdedor fica exausto. Seus atributos importam, mas o tempo certo pode virar uma luta.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Starting a clash ==",
+  "translation": "== Como começa um choque ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "A clash starts when two '''beams''' fired by different fighters meet head-on. Only the Wave and Beam types clash: the Kamehameha, Galick Gun, Final Flash, Special Beam Cannon, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and the like, Wave attacks you create yourself included. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].",
+  "translation": "Um choque começa quando dois '''raios''' disparados por lutadores diferentes se encontram de frente. Só os tipos Onda e Raio entram em choque: o Kamehameha, o Galick Ho, o Flash Final, o Canhão Especial de Raio, o [[Special:MyLanguage/Heat Dome Attack|Ataque Cúpula de Calor]], a [[Special:MyLanguage/Mouth Blast|Rajada bucal]] e similares, incluindo os ataques do tipo Onda que você mesmo cria. Veja [[Special:MyLanguage/Ki Attacks|Ataques de Ki]].",
+  "outdated": false
+ },
+ "4": {
+  "source": "Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam don't clash: they are simply destroyed.",
+  "translation": "Ataques menores (Esferas Pequenas, Lasers, Discos) que atingem um raio em disparo não entram em choque: são simplesmente destruídos.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Allies never clash with each other: party members (while party PvP is off), players on the same team and players fighting the same world boss (see [[Special:MyLanguage/World Bosses#Truce|world boss truce]]) can fire their beams side by side, and a beam doesn't destroy an ally's smaller attacks.",
+  "translation": "Aliados nunca entram em choque entre si: membros do grupo (enquanto o PvP do grupo estiver desativado), jogadores do mesmo time e jogadores que enfrentam o mesmo chefe de mundo (veja a [[Special:MyLanguage/World Bosses#Truce|trégua dos chefes de mundo]]) podem disparar seus raios lado a lado, e um raio não destrói os ataques menores de um aliado.",
+  "outdated": false
+ },
+ "6": {
+  "source": "While the clash lasts, both fighters are held in place and '''invulnerable'''.",
+  "translation": "Enquanto o choque dura, os dois lutadores ficam presos no lugar e '''invulneráveis'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== The timing meter ==",
+  "translation": "== O medidor de tempo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Each fighter gets their own meter. A marker sweeps across it, changing direction on every sweep, and each sweep has a '''window''' in a different place. A sweep takes about 2 to 3 seconds.",
+  "translation": "Cada lutador tem o próprio medidor. Um marcador o percorre, mudando de direção a cada passada, e cada passada tem uma '''janela''' em um lugar diferente. Uma passada leva cerca de 2 a 3 segundos.",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Right-click''' when the marker is inside the window.\n* A press near the centre of the window is '''PERFECT'''; anywhere else inside it is '''GOOD'''.\n* A press outside the window is a '''MISS''' and wastes that sweep. Only one press counts per sweep.",
+  "translation": "* Use o '''clique direito''' quando o marcador estiver dentro da janela.\n* Um clique perto do centro da janela é '''PERFECT'''; em qualquer outro ponto dentro dela é '''GOOD'''.\n* Um clique fora da janela é um '''MISS''' e desperdiça aquela passada. Só um clique conta por passada.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Presses are checked by the server, so the timing can't be faked.",
+  "translation": "Os cliques são verificados pelo servidor, então o tempo não pode ser falsificado.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Pushing your beam ==",
+  "translation": "== Empurrando o seu raio ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every PERFECT or GOOD press builds '''momentum''' that pushes your beam forward: a PERFECT press gives the full amount, a GOOD press between half and the full amount depending on how close to the centre you were. Momentum fades over time, so you have to keep hitting the window.",
+  "translation": "Cada clique PERFECT ou GOOD acumula '''impulso''', que empurra o seu raio para a frente: um clique PERFECT dá o valor total, e um GOOD entre metade e o valor total, dependendo de quão perto do centro você estava. O impulso diminui com o tempo, então você precisa continuar acertando a janela.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Your stats decide how hard each press pushes: the beam with more power behind it turns the same momentum into a bigger push. A weaker fighter can still win with better timing.",
+  "translation": "Seus atributos decidem a força de cada clique: o raio com mais poder por trás transforma o mesmo impulso em um empurrão maior. Um lutador mais fraco ainda pode vencer com um tempo melhor.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Winning and losing ==",
+  "translation": "== Vitória e derrota ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "The side that pushes the clash far enough '''wins''': its beam breaks through and keeps going for a moment. The losing beam is destroyed and the loser is '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "O lado que empurra o choque o suficiente '''vence''': o raio dele rompe a defesa e continua avançando por um momento. O raio perdedor é destruído e o perdedor fica '''exausto''': atordoado por 3.5 segundos (veja [[Special:MyLanguage/Effects|Efeitos]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "A clash can also end in other ways:",
+  "translation": "Um choque também pode terminar de outras formas:",
+  "outdated": false
+ },
+ "17": {
+  "source": "* If either fighter stops firing, the clash dissolves with no winner.\n* If neither fighter presses for 7 seconds, the clash dissolves.\n* After 30 seconds, whoever is ahead wins. If the beams are exactly even, the clash dissolves.",
+  "translation": "* Se qualquer um dos lutadores parar de disparar, o choque se desfaz sem vencedor.\n* Se nenhum dos lutadores clicar por 7 segundos, o choque se desfaz.\n* Depois de 30 segundos, vence quem estiver na frente. Se os raios estiverem exatamente empatados, o choque se desfaz.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Clashing with enemies ==",
+  "translation": "== Choques com inimigos ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "Enemies that fire beams can clash with you too. They press on their own, and the more powerful their beam is, the more accurate their timing gets.",
+  "translation": "Inimigos que disparam raios também podem entrar em choque com você. Eles clicam sozinhos, e quanto mais poderoso o raio deles, mais preciso o tempo deles fica.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Strike clashes ==",
+  "translation": "== Choques de golpes ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Melee techniques can clash too: when two fighters rush at each other with strike attacks, their fists meet and the same timing meter decides who breaks through.",
+  "translation": "As técnicas corpo a corpo também podem entrar em choque: quando dois lutadores avançam um contra o outro com ataques de golpe, os punhos se encontram e o mesmo medidor de tempo decide quem rompe a defesa.",
+  "outdated": false
+ }
+}

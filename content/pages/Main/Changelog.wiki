@@ -1,324 +1,325 @@
 <translate>
+<!--T:1-->
 The changelog lists every change made to DragonMineZ, newest version first. Version 2.2 is a major update: it adds the Demon Realm, world bosses, raids and tournaments, three new sagas, the Glind race, the Unversed class, a reworked combat system, a new HUD and much more. The list below covers everything that changed from version 2.1.3 to version 2.2.
 </translate>
 
 <translate>
-== Version 2.2 ==
+== Version 2.2 == <!--T:2-->
 
-=== World and exploration ===
+=== World and exploration === <!--T:3-->
 </translate>
 
-* <translate>Added the [[Special:MyLanguage/Demon Realm|Demon Realm]] (Daima): a new dimension with three stacked Demon Worlds (Third, Second and First) linked by giant tunnels with Shields of Light, reached by [[Special:MyLanguage/Space Pod|Space Pod]] after [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3.</translate>
-* <translate>Demon Realm: added the Sea of Darkness (it blinds you and deals 25% of your max health per hit), Makai, Adobe, Demon Rock and Turquoise Rock building blocks, Gas Vents, Makai Agave and Bush, Majilite Ore, and Makai soil that can be tilled for farming.</translate>
-* <translate>Added Demon villages with [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] (Medi-Bug traders) and a [[Special:MyLanguage/Time Patroller|Time Patroller]] who sells maps to the Tamagami lairs.</translate>
-* <translate>Added [[Special:MyLanguage/Gomah Soldier|Gomah Soldier]] patrols around Demon villages and Gomah Camps on every Demon World.</translate>
-* <translate>Reworked the [[Special:MyLanguage/Otherworld|Otherworld]]: new terrain with a cloud realm, an upper tournament deck and Hell below, a new sky, and new spots for [[Special:MyLanguage/King Kai|King Kai]], Yemma and Baba.</translate>
-* <translate>Added [[Special:MyLanguage/Grand Kai|Grand Kai]], who sends you to the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] grounds.</translate>
-* <translate>Added Hell: Hell Ground, Stone and Deepstone terrain with crystal spikes, bone spines, thorn balls and floating candy orbs, Red and Blue Ogres, a [[Special:MyLanguage/Hell Ogre|Hell Ogre]] quest NPC, and [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampedes if you stay too long.</translate>
-* <translate>New [[Special:MyLanguage/Structures|structures]]: [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Tree of Might|Tree of Might]], the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], Saiyan Craters, Namekian Ruins, Demon villages and Gomah Camps.</translate>
-* <translate>Added [[Special:MyLanguage/Gete Robot|Gete Robot]] attacks on Namekian villages and Metal Cooler patrols around the Big Gete Star.</translate>
-* <translate>New treasure maps: Baba's Palace and Buu's House (sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), the Big Gete Star ([[Special:MyLanguage/Namekian Trader|Namekian Traders]]), the three Tamagami lairs and Gomah's Horn Cradle (Time Patroller). Maps to structures that don't exist yet now show as out of stock instead of disappearing.</translate>
-* <translate>New [[Special:MyLanguage/Space Pod Destinations|Space Pod destination]]: the Demon Realm.</translate>
-* <translate>Huge structures (the Tree of Might and the Big Gete Star) are added to existing worlds gradually and never overwrite chunks players have lived in for over an hour.</translate>
-* <translate>Tournament arenas are protected from building, explosions and mob griefing, and Baba's Palace from ki griefing.</translate>
-* <translate>Piccolo's House now spawns in plains, and Gero's Lab in rocky biomes or mountains.</translate>
-* <translate>Story structures (the houses of Goku, Roshi, Buu, Piccolo and Yamcha, Baba's Palace, [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], Vegeta's Pod, Trunks' and Frieza's ships, the Grand Elder's House, [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] and the Time Chamber) now fit the terrain they spawn on: no more square cuts into hills or walls of filler blocks, Frieza's Ship stands on its legs and the Time Chamber no longer sits a block too high.</translate>
-* <translate>Structures pick better spots: DragonMineZ checks the biome, water and slope over the whole footprint before placing them, and <code>/dmzlocate</code> now points at the structure itself.</translate>
-* <translate>Chi-Chi now lives in Goku's House, also in houses that were already generated.</translate>
-* <translate>Added Buu's House, home of [[Special:MyLanguage/Majin Buu|Majin Buu]], in plains biomes, and Gomah's Horn Cradle, a floating island caged by giant horns above the First Demon World.</translate>
-* <translate>Reworked wild enemy spawning: [[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]], [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Mini Buu|Mini Buus]] have their own mob cap, separate from vanilla monsters, and spawn on the surface under open sky, day or night, away from light. No more spawns in caves, while the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]] keeps its indoor garrison.</translate>
-* <translate>Smaller wild enemy groups: Red Ribbon soldiers 1–3, robots alone, Sabertooth Tigers and Bandits 1–2.</translate>
-* <translate>Added translations for dimension and biome names.</translate>
+* <translate><!--T:4--> Added the [[Special:MyLanguage/Demon Realm|Demon Realm]] (Daima): a new dimension with three stacked Demon Worlds (Third, Second and First) linked by giant tunnels with Shields of Light, reached by [[Special:MyLanguage/Space Pod|Space Pod]] after [[Special:MyLanguage/Daima Saga|Daima Saga]] quest 3.</translate>
+* <translate><!--T:5--> Demon Realm: added the Sea of Darkness (it blinds you and deals 25% of your max health per hit), Makai, Adobe, Demon Rock and Turquoise Rock building blocks, Gas Vents, Makai Agave and Bush, Majilite Ore, and Makai soil that can be tilled for farming.</translate>
+* <translate><!--T:6--> Added Demon villages with [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]] (Medi-Bug traders) and a [[Special:MyLanguage/Time Patroller|Time Patroller]] who sells maps to the Tamagami lairs.</translate>
+* <translate><!--T:7--> Added [[Special:MyLanguage/Gomah Soldier|Gomah Soldier]] patrols around Demon villages and Gomah Camps on every Demon World.</translate>
+* <translate><!--T:8--> Reworked the [[Special:MyLanguage/Otherworld|Otherworld]]: new terrain with a cloud realm, an upper tournament deck and Hell below, a new sky, and new spots for [[Special:MyLanguage/King Kai|King Kai]], Yemma and Baba.</translate>
+* <translate><!--T:9--> Added [[Special:MyLanguage/Grand Kai|Grand Kai]], who sends you to the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] grounds.</translate>
+* <translate><!--T:10--> Added Hell: Hell Ground, Stone and Deepstone terrain with crystal spikes, bone spines, thorn balls and floating candy orbs, Red and Blue Ogres, a [[Special:MyLanguage/Hell Ogre|Hell Ogre]] quest NPC, and [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampedes if you stay too long.</translate>
+* <translate><!--T:11--> New [[Special:MyLanguage/Structures|structures]]: [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Tree of Might|Tree of Might]], the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], Saiyan Craters, Namekian Ruins, Demon villages and Gomah Camps.</translate>
+* <translate><!--T:12--> Added [[Special:MyLanguage/Gete Robot|Gete Robot]] attacks on Namekian villages and Metal Cooler patrols around the Big Gete Star.</translate>
+* <translate><!--T:13--> New treasure maps: Baba's Palace and Buu's House (sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), the Big Gete Star ([[Special:MyLanguage/Namekian Trader|Namekian Traders]]), the three Tamagami lairs and Gomah's Horn Cradle (Time Patroller). Maps to structures that don't exist yet now show as out of stock instead of disappearing.</translate>
+* <translate><!--T:14--> New [[Special:MyLanguage/Space Pod Destinations|Space Pod destination]]: the Demon Realm.</translate>
+* <translate><!--T:15--> Huge structures (the Tree of Might and the Big Gete Star) are added to existing worlds gradually and never overwrite chunks players have lived in for over an hour.</translate>
+* <translate><!--T:16--> Tournament arenas are protected from building, explosions and mob griefing, and Baba's Palace from ki griefing.</translate>
+* <translate><!--T:17--> Piccolo's House now spawns in plains, and Gero's Lab in rocky biomes or mountains.</translate>
+* <translate><!--T:18--> Story structures (the houses of Goku, Roshi, Buu, Piccolo and Yamcha, Baba's Palace, [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], Vegeta's Pod, Trunks' and Frieza's ships, the Grand Elder's House, [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] and the Time Chamber) now fit the terrain they spawn on: no more square cuts into hills or walls of filler blocks, Frieza's Ship stands on its legs and the Time Chamber no longer sits a block too high.</translate>
+* <translate><!--T:19--> Structures pick better spots: DragonMineZ checks the biome, water and slope over the whole footprint before placing them, and <code>/dmzlocate</code> now points at the structure itself.</translate>
+* <translate><!--T:20--> Chi-Chi now lives in Goku's House, also in houses that were already generated.</translate>
+* <translate><!--T:21--> Added Buu's House, home of [[Special:MyLanguage/Majin Buu|Majin Buu]], in plains biomes, and Gomah's Horn Cradle, a floating island caged by giant horns above the First Demon World.</translate>
+* <translate><!--T:22--> Reworked wild enemy spawning: [[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]], [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Mini Buu|Mini Buus]] have their own mob cap, separate from vanilla monsters, and spawn on the surface under open sky, day or night, away from light. No more spawns in caves, while the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]] keeps its indoor garrison.</translate>
+* <translate><!--T:23--> Smaller wild enemy groups: Red Ribbon soldiers 1–3, robots alone, Sabertooth Tigers and Bandits 1–2.</translate>
+* <translate><!--T:24--> Added translations for dimension and biome names.</translate>
 
 <translate>
-=== World bosses, raids and tournaments ===
+=== World bosses, raids and tournaments === <!--T:25-->
 </translate>
 
-* <translate>Added [[Special:MyLanguage/World Bosses|World Bosses]]: [[Special:MyLanguage/Janemba|Janemba]] (Hell), [[Special:MyLanguage/Turles|Turles]] (Tree of Might), [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] (Big Gete Star), [[Special:MyLanguage/Tamagami Number 3|Tamagami Number 3]], [[Special:MyLanguage/Tamagami Number 2|2]] and [[Special:MyLanguage/Tamagami Number 1|1]] and [[Special:MyLanguage/Gomah|Gomah]] (Demon Realm). They respawn after an hour, and the Tamagamis drop Dragon Balls.</translate>
-* <translate>Gomah's [[Special:MyLanguage/Demon Eye|Demon Eye]] grows up to 5 stacks (bigger, stronger, new moves) and turns him into the Demon King with a Demon Eye Eruption; 3 hits from behind knock it loose, and he can drop the Demon Eye.</translate>
-* <translate>Every Tamagami has its own moveset (meteors, pillars, cyclones, gales, counter stances, flash cuts…), and missing a move leaves them exposed to 25% more damage.</translate>
-* <translate>Metal Cooler Core can't be damaged while charging the Supernova, and its guardians and copies heal it meanwhile.</translate>
-* <translate>World Bosses can Zanzoken on any hit, and their fights have their own music.</translate>
-* <translate>New lairs for every World Boss, plus <code>/dmzworldboss locate</code> (it tells you where to explore if a lair hasn't generated yet).</translate>
-* <translate>World Boss fights: a shared contribution ranking (damage, mitigation, damage taken and healing) with a HUD panel, ranked rewards and a results screen. You get knocked out instead of dying, with 3 lives and an ally Revive technique.</translate>
-* <translate>World Bosses can teach techniques: Supernova (Metal Cooler Core), Kill Driver and [[Special:MyLanguage/Meteor Burst|Meteor Burst]] (Turles), [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] (Janemba).</translate>
-* <translate>Added the [[Special:MyLanguage/Tamagami Sword|Tamagami Sword]], [[Special:MyLanguage/Tamagami Trident|Tamagami Trident]] and [[Special:MyLanguage/Tamagami Hammer|Tamagami Hammer]] (Tamagami drops).</translate>
-* <translate>Reworked [[Special:MyLanguage/Raids|raids]]: [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] (Earth, with Oozaru transformations), a reworked [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] (Namek, from Cui to the Ginyu Force) and the new [[Special:MyLanguage/Gomah's Army|Gomah's Army]] (Demon Realm). Start them by killing the scout at a raid site, with an omen, a boss bar, dormant bosses, party participants, a leash countdown, rewards and an alignment penalty on defeat.</translate>
-* <translate>Added [[Special:MyLanguage/Tournaments|Tournaments]]: [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] (Gauntlet), [[Special:MyLanguage/Cell Games|The Cell Games]] (lethal Bracket) and [[Special:MyLanguage/Otherworld Tournament|The Otherworld Tournament]] (Bracket), solo or as a party, with PvP bouts, a rules screen, Ready checks, a bracket screen, TP and alignment rewards, and cooldowns.</translate>
-* <translate>World bosses now reward '''Attributes''' instead of TP (Janemba ×500, Turles ×50, Metal Cooler Core ×105, Tamagami Number 3, 2 and 1 ×90, ×300 and ×360, Gomah ×435), split like quest rewards, and you need at least 7.5% of the contribution points to get any reward. See [[Special:MyLanguage/World Bosses|World Bosses]].</translate>
-* <translate>World bosses scale with the number of fighters: every extra participant adds 50% health and 25% melee and ki damage. Their base health and damage now follow the Hard story difficulty.</translate>
+* <translate><!--T:26--> Added [[Special:MyLanguage/World Bosses|World Bosses]]: [[Special:MyLanguage/Janemba|Janemba]] (Hell), [[Special:MyLanguage/Turles|Turles]] (Tree of Might), [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] (Big Gete Star), [[Special:MyLanguage/Tamagami Number 3|Tamagami Number 3]], [[Special:MyLanguage/Tamagami Number 2|2]] and [[Special:MyLanguage/Tamagami Number 1|1]] and [[Special:MyLanguage/Gomah|Gomah]] (Demon Realm). They respawn after an hour, and the Tamagamis drop Dragon Balls.</translate>
+* <translate><!--T:27--> Gomah's [[Special:MyLanguage/Demon Eye|Demon Eye]] grows up to 5 stacks (bigger, stronger, new moves) and turns him into the Demon King with a Demon Eye Eruption; 3 hits from behind knock it loose, and he can drop the Demon Eye.</translate>
+* <translate><!--T:28--> Every Tamagami has its own moveset (meteors, pillars, cyclones, gales, counter stances, flash cuts…), and missing a move leaves them exposed to 25% more damage.</translate>
+* <translate><!--T:29--> Metal Cooler Core can't be damaged while charging the Supernova, and its guardians and copies heal it meanwhile.</translate>
+* <translate><!--T:30--> World Bosses can Zanzoken on any hit, and their fights have their own music.</translate>
+* <translate><!--T:31--> New lairs for every World Boss, plus <code>/dmzworldboss locate</code> (it tells you where to explore if a lair hasn't generated yet).</translate>
+* <translate><!--T:32--> World Boss fights: a shared contribution ranking (damage, mitigation, damage taken and healing) with a HUD panel, ranked rewards and a results screen. You get knocked out instead of dying, with 3 lives and an ally Revive technique.</translate>
+* <translate><!--T:33--> World Bosses can teach techniques: Supernova (Metal Cooler Core), Kill Driver and [[Special:MyLanguage/Meteor Burst|Meteor Burst]] (Turles), [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] (Janemba).</translate>
+* <translate><!--T:34--> Added the [[Special:MyLanguage/Tamagami Sword|Tamagami Sword]], [[Special:MyLanguage/Tamagami Trident|Tamagami Trident]] and [[Special:MyLanguage/Tamagami Hammer|Tamagami Hammer]] (Tamagami drops).</translate>
+* <translate><!--T:35--> Reworked [[Special:MyLanguage/Raids|raids]]: [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] (Earth, with Oozaru transformations), a reworked [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] (Namek, from Cui to the Ginyu Force) and the new [[Special:MyLanguage/Gomah's Army|Gomah's Army]] (Demon Realm). Start them by killing the scout at a raid site, with an omen, a boss bar, dormant bosses, party participants, a leash countdown, rewards and an alignment penalty on defeat.</translate>
+* <translate><!--T:36--> Added [[Special:MyLanguage/Tournaments|Tournaments]]: [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] (Gauntlet), [[Special:MyLanguage/Cell Games|The Cell Games]] (lethal Bracket) and [[Special:MyLanguage/Otherworld Tournament|The Otherworld Tournament]] (Bracket), solo or as a party, with PvP bouts, a rules screen, Ready checks, a bracket screen, TP and alignment rewards, and cooldowns.</translate>
+* <translate><!--T:37--> World bosses now reward '''Attributes''' instead of TP (Janemba ×500, Turles ×50, Metal Cooler Core ×105, Tamagami Number 3, 2 and 1 ×90, ×300 and ×360, Gomah ×435), split like quest rewards, and you need at least 7.5% of the contribution points to get any reward. See [[Special:MyLanguage/World Bosses|World Bosses]].</translate>
+* <translate><!--T:38--> World bosses scale with the number of fighters: every extra participant adds 50% health and 25% melee and ki damage. Their base health and damage now follow the Hard story difficulty.</translate>
 
 <translate>
-=== Story and quests ===
+=== Story and quests === <!--T:39-->
 </translate>
 
-* <translate>Added the [[Special:MyLanguage/Classic Saga|Classic Saga]] (52 quests): Kid Goku's adventures, from the Pilaf gang and the Red Ribbon Army to Fortuneteller Baba's fighters, King Piccolo and three World Martial Arts Tournaments. It is now the first saga.</translate>
-* <translate>Added the [[Special:MyLanguage/GT Saga|GT Saga]] (46 quests): the Black Star Dragon Ball hunt, Baby, Super 17 and the Shadow Dragons up to Omega Shenron and Super Saiyan 4 Gogeta.</translate>
-* <translate>Added the [[Special:MyLanguage/Daima Saga|Daima Saga]] (17 quests): Gomah's wish, the three Demon Worlds, Glorio, the Tamagamis, Majin Kuu and Duu, and King Gomah.</translate>
-* <translate>Expanded the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] from 8 to 16 quests, and added 20 new quests to the [[Special:MyLanguage/Frieza Saga|Frieza]], [[Special:MyLanguage/Android Saga|Android]] and [[Special:MyLanguage/Buu Saga|Buu]] sagas (the Grand Elder, Nail, Porunga, the heart virus, Android 16, the Cell Games, Videl, Gotenks, Ultimate Gohan, Vegetto, the Spirit Bomb plan and more).</translate>
-* <translate>Added 37 new side quests.</translate>
-* <translate>Added saga title cards: "A New Saga Begins" appears for you and the party members who start the saga with you.</translate>
-* <translate>New quest objectives: Spar (non-lethal duel), Deliver (hand items to an NPC), Survive Waves, Escort and Checkpoint Race.</translate>
-* <translate>Added repeatable quests (with a cooldown), daily quests and timed quests. Quests can now fail (time out, escort killed, party wiped) and be restarted.</translate>
-* <translate>Added a waypoint compass for location, escort and checkpoint objectives.</translate>
-* <translate>Saga fights can now set the stats of an enemy's next form, or stop an enemy from transforming.</translate>
-* <translate>Story enemy AI now follows your difficulty (Easy → Novice, Normal → Smart, Hard → Elite, Expert for final bosses on Hard). See [[Special:MyLanguage/Sagas|Sagas]].</translate>
-* <translate>Added [[Special:MyLanguage/NPC Dialogue|NPC dialogue]]: branching conversations with masters, editable as world JSON, with conditions, alignment, TP and command actions, and quest hand-off.</translate>
-* <translate>Added %placeholders% in quest and dialogue text (%player%, %race%, %class%, %level%, %alignment%, %deaths%, %form%, %dimension%).</translate>
-* <translate>Added [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]'s temporary revive: dead players can "borrow time" and walk the living world as a spirit. A lethal hit knocks you out instead, and the timer drains faster while transformed, in harsher dimensions and with every reuse (optional hardcore mode).</translate>
-* <translate>Dead players in the [[Special:MyLanguage/Otherworld|Otherworld]] don't get hungry and earn double TP.</translate>
-* <translate>Reworked the Quest and Notifications [[Special:MyLanguage/HUD|HUD]].</translate>
-* <translate>Reworked quest rewards: saga and side quests now give Attributes, half as Attribute Points and half as the TP those points cost you right now, so rewards keep their value as your stats get pricier. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
-* <translate>Legendary forms are now unlocked by Broly's Second Coming, Giant Bio-Broly and Super Hildegarn in the [[Special:MyLanguage/Movies Saga|Movies Saga]] (after the GT or Daima saga).</translate>
-* <translate>Rebalanced every saga, the movies and side quests to fit the new form curve.</translate>
-* <translate>NPC quest lists are sorted in story order, and completed quests stay visible.</translate>
-* <translate>Reworked party quests: everyone keeps their own quest progress. Starting a quest brings in the party members within 128 blocks who have reached that point of the story, and kills, deliveries and destinations count for everyone on the quest nearby. See [[Special:MyLanguage/Sagas#Parties|Sagas]].</translate>
-* <translate>Parties remember who created them: the creator gets the lead back when they return, only the creator can disband, and the leader can kick offline members (but never the creator).</translate>
+* <translate><!--T:40--> Added the [[Special:MyLanguage/Classic Saga|Classic Saga]] (52 quests): Kid Goku's adventures, from the Pilaf gang and the Red Ribbon Army to Fortuneteller Baba's fighters, King Piccolo and three World Martial Arts Tournaments. It is now the first saga.</translate>
+* <translate><!--T:41--> Added the [[Special:MyLanguage/GT Saga|GT Saga]] (46 quests): the Black Star Dragon Ball hunt, Baby, Super 17 and the Shadow Dragons up to Omega Shenron and Super Saiyan 4 Gogeta.</translate>
+* <translate><!--T:42--> Added the [[Special:MyLanguage/Daima Saga|Daima Saga]] (17 quests): Gomah's wish, the three Demon Worlds, Glorio, the Tamagamis, Majin Kuu and Duu, and King Gomah.</translate>
+* <translate><!--T:43--> Expanded the [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] from 8 to 16 quests, and added 20 new quests to the [[Special:MyLanguage/Frieza Saga|Frieza]], [[Special:MyLanguage/Android Saga|Android]] and [[Special:MyLanguage/Buu Saga|Buu]] sagas (the Grand Elder, Nail, Porunga, the heart virus, Android 16, the Cell Games, Videl, Gotenks, Ultimate Gohan, Vegetto, the Spirit Bomb plan and more).</translate>
+* <translate><!--T:44--> Added 37 new side quests.</translate>
+* <translate><!--T:45--> Added saga title cards: "A New Saga Begins" appears for you and the party members who start the saga with you.</translate>
+* <translate><!--T:46--> New quest objectives: Spar (non-lethal duel), Deliver (hand items to an NPC), Survive Waves, Escort and Checkpoint Race.</translate>
+* <translate><!--T:47--> Added repeatable quests (with a cooldown), daily quests and timed quests. Quests can now fail (time out, escort killed, party wiped) and be restarted.</translate>
+* <translate><!--T:48--> Added a waypoint compass for location, escort and checkpoint objectives.</translate>
+* <translate><!--T:49--> Saga fights can now set the stats of an enemy's next form, or stop an enemy from transforming.</translate>
+* <translate><!--T:50--> Story enemy AI now follows your difficulty (Easy → Novice, Normal → Smart, Hard → Elite, Expert for final bosses on Hard). See [[Special:MyLanguage/Sagas|Sagas]].</translate>
+* <translate><!--T:51--> Added [[Special:MyLanguage/NPC Dialogue|NPC dialogue]]: branching conversations with masters, editable as world JSON, with conditions, alignment, TP and command actions, and quest hand-off.</translate>
+* <translate><!--T:52--> Added %placeholders% in quest and dialogue text (%player%, %race%, %class%, %level%, %alignment%, %deaths%, %form%, %dimension%).</translate>
+* <translate><!--T:53--> Added [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]'s temporary revive: dead players can "borrow time" and walk the living world as a spirit. A lethal hit knocks you out instead, and the timer drains faster while transformed, in harsher dimensions and with every reuse (optional hardcore mode).</translate>
+* <translate><!--T:54--> Dead players in the [[Special:MyLanguage/Otherworld|Otherworld]] don't get hungry and earn double TP.</translate>
+* <translate><!--T:55--> Reworked the Quest and Notifications [[Special:MyLanguage/HUD|HUD]].</translate>
+* <translate><!--T:56--> Reworked quest rewards: saga and side quests now give Attributes, half as Attribute Points and half as the TP those points cost you right now, so rewards keep their value as your stats get pricier. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
+* <translate><!--T:57--> Legendary forms are now unlocked by Broly's Second Coming, Giant Bio-Broly and Super Hildegarn in the [[Special:MyLanguage/Movies Saga|Movies Saga]] (after the GT or Daima saga).</translate>
+* <translate><!--T:58--> Rebalanced every saga, the movies and side quests to fit the new form curve.</translate>
+* <translate><!--T:59--> NPC quest lists are sorted in story order, and completed quests stay visible.</translate>
+* <translate><!--T:60--> Reworked party quests: everyone keeps their own quest progress. Starting a quest brings in the party members within 128 blocks who have reached that point of the story, and kills, deliveries and destinations count for everyone on the quest nearby. See [[Special:MyLanguage/Sagas#Parties|Sagas]].</translate>
+* <translate><!--T:61--> Parties remember who created them: the creator gets the lead back when they return, only the creator can disband, and the leader can kick offline members (but never the creator).</translate>
 
 <translate>
-=== Races, forms and character ===
+=== Races, forms and character === <!--T:62-->
 </translate>
 
-* <translate>Added the [[Special:MyLanguage/Glind|Glind]] race: an ancient lilac-skinned race with male and female models, hair and ears, Super forms (Buffed, Out of Control, Super, Absorption, True Form), Legendary forms (Transcended, Dark King, Time Power: Dark King, Time Power: Realm of Light) and a fully passive racial skill (Divine Ki, Celestial Body, Divine Punishment, Light and Darkness).</translate>
-* <translate>Added the [[Special:MyLanguage/Unversed|Unversed]] class: balanced stats and the Resonance passive (ki attacks empower your next melee hits or Strike, and melee hits empower your next ki attack).</translate>
-* <translate>Reworked every [[Special:MyLanguage/Racial Skills|racial skill]] into several parts:</translate>
-** <translate>[[Special:MyLanguage/Human|Human]]: Blood-Fueled Ki, Fast Learner and Adrenaline; [[Special:MyLanguage/Android|Androids]] get Android Core and the new Absorption Barrier.</translate>
-** <translate>[[Special:MyLanguage/Saiyan|Saiyan]]: a new Zenkai on lethal blows, and Limitless Power.</translate>
-** <translate>[[Special:MyLanguage/Namekian|Namekian]]: Assimilation (with accept and reject requests), Regeneration and Water Affinity.</translate>
-** <translate>[[Special:MyLanguage/Frost Demon|Frost Demon]]: Prodigious Strength, Evolutionary Mastery, Hardened Body and Power Reserve.</translate>
-** <translate>[[Special:MyLanguage/Bio-Android|Bio-Android]]: Vital Drain, Self-Destruct and Summon Cell Jr., depending on your form.</translate>
-** <translate>[[Special:MyLanguage/Majin|Majin]]: Absorption with ejectable slots, Sweet Tooth and Healing Magic.</translate>
-* <translate>Removed the Majin self-revive.</translate>
-* <translate>Race selection now shows every racial skill.</translate>
-* <translate>Added False Super Saiyan: a hidden rage form for Saiyans that triggers at low health and lasts while its rage meter holds.</translate>
-* <translate>Forms can now require a saga quest to be bought, following the story (level requisites are also available, off by default); sagas no longer require a level.</translate>
-* <translate>Rebalanced [[Special:MyLanguage/Transformations|transformations]]: every race form is about 15% stronger, each race's top tier (SSJ 4, Super Namekian, Fifth Form, Ultra Majin, Ultra Perfect, Solaris, True Form) gets an extra +1.0, and form upkeep was reworked: higher base drains for every form and [[Special:MyLanguage/Kaioken|Kaioken]] tier, mastery now discounts the whole upkeep, and your base offense (not the form's multipliers) only raises it once it passes 5× your max Ki.</translate>
-* <translate>Rebalanced [[Special:MyLanguage/Training Points and Mastery#Mastery|mastery]]: 0.025% per hit and 0.004% passive every 5 seconds; Ultimate charges with the mastery of the form it copies and never copies a top-tier form.</translate>
-* <translate>Frost Demons no longer drop below Final Form when descending or running out of energy.</translate>
-* <translate>Smoother form transitions: while charging a transformation your character gradually takes on the new form's colors, size (hitbox included) and body model, and smoothly morphs back when powering down.</translate>
-* <translate>Reworked Mutants: instead of permanent Legendary access, they fill a rage meter in combat and borrow a Legendary form while it's full, at the power of their best form +0.5 (capped at the Legendary form). See [[Special:MyLanguage/Effects|Effects]].</translate>
-* <translate>Legendary groups now show their own names (Mutant, Artificial, Bio-Corruption, Demon); updated looks for several forms (Super Saiyan 4, Super Saiyan Grade 3, Bio-Android and Frost Demon forms, and more).</translate>
-* <translate>Added [[Special:MyLanguage/Medi-Bug Beetles|Beetle (Medi-Bug) fusion]]: eat a matching pair within 30 seconds to fuse with any race.</translate>
-* <translate>[[Special:MyLanguage/Fusion Dance|Fusion Dance]]: dancers within 8 blocks line up automatically so the full dance always plays; both must be in the same form, and the fusion keeps it.</translate>
-* <translate>Reworked [[Special:MyLanguage/Fusions|fusions]]: fused players share skills, techniques and masteries, cross-race fusions can use the partner's forms, and fusions now inherit the look of both players (two-tone hair, tails, horns, antennae, wings…).</translate>
-* <translate>Reworked Vitality and Defense: health and flat defense per point now grow on a curve, up to 4× the class scaling. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
-* <translate>Rebalanced damage mitigation: the reduction cap went from 75% to 88% (93% with enchantments), with stronger adaptive mitigation against small hits.</translate>
-* <translate>Added the Speed system: Resistance raises your Speed (up to 3× movement speed and step assist).</translate>
-* <translate>Max stat value raised to 1,000,000; Training Points are now stored with full precision.</translate>
-* <translate>New [[Special:MyLanguage/Training Points and Mastery#TP boosts|TP boosts]]: ×2 while dead in the Otherworld, Kami's Blessing from Dende (×1.2 for 5 minutes), Hero of the World after a raid victory (+25% for 10 minutes), and TP from training minigames.</translate>
-* <translate>Party TP sharing now requires the earner to know [[Special:MyLanguage/Instant Transmission|Instant Transmission]].</translate>
-* <translate>The progression TP bonus now goes up to +75% (was +50%) and is reached at the stat cost of level 10,000.</translate>
-* <translate>Stamina regeneration now grows with both VIT and RES.</translate>
-* <translate>Improved the [[Special:MyLanguage/Paladin|Paladin]] passive: redirected damage is reduced by the Paladin's defense, never takes them below 1 HP, and no longer heals them.</translate>
-* <translate>Improved [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]: practising a stat also gives 50% of the XP to its linked stat (STR/SKP, RES/VIT, PWR/ENE), and stat points earned through practice no longer raise the TP cost of buying stats.</translate>
-* <translate>Reworked the [[Special:MyLanguage/Character Customization#Hair editor|Hair Editor]]: a strand-based, Blockbench-style editor with inspector, outliner, per-segment edits, mirroring, physics preview, undo and redo, and a new Super Saiyan 4 hair slot.</translate>
-* <translate>New Hair Editor features: presets, global hair color, better import and export, hide or drag the body, and segment edits that carry over to the next segments. Old hair codes still import, and the Hair Salon website has its own button.</translate>
-* <translate>Added Auto-generate to the Hair Editor: it builds your Super Saiyan, SSJ 2, SSJ 3 and SSJ 4 hair from your Base style (all of them or one slot at a time).</translate>
-* <translate>Updated the hair presets: ten of them were redrawn (a new Raditz style among them), and several come with their own Super Saiyan 4 hair.</translate>
-* <translate>Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit), with view buttons, a body-part picker to hide or isolate parts and double-click to fill a whole side.</translate>
-* <translate>Reworked [[Special:MyLanguage/Character Customization|character customization]]: tabbed preview grids for body, hair, eyes, face and tattoos, a transformation preview, a class stats and passives panel, and interactive tutorials.</translate>
-* <translate>Every race can now use the Human and Saiyan eyes, noses and mouths.</translate>
-* <translate>Male Majins can now have hair, and Bio-Androids have 6 body types (up from 3).</translate>
-* <translate>Added the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: five pure-hearted Saiyans in SSJ or SSJ Mastered give their Ki to a sixth in SSJ Mastered, join hands in a ring and channel for 10 seconds, and the receiver becomes a '''Super Saiyan God''' for 5 minutes, worth their strongest form plus 30% of its bonus.</translate>
-* <translate>The Super Saiyan God Ritual is cancelled if a participant takes more than 25% of their max health in damage (30-second cooldown); after a success every participant waits 30 minutes (the new '''God Ritual CD''' effect). A fusion of two Saiyans counts as two givers.</translate>
-* <translate>[[Special:MyLanguage/Glind|Glinds]] can now sense, lock on to and Instant Transmission to players in a God form, and players in a God form can sense Glinds.</translate>
+* <translate><!--T:63--> Added the [[Special:MyLanguage/Glind|Glind]] race: an ancient lilac-skinned race with male and female models, hair and ears, Super forms (Buffed, Out of Control, Super, Absorption, True Form), Legendary forms (Transcended, Dark King, Time Power: Dark King, Time Power: Realm of Light) and a fully passive racial skill (Divine Ki, Celestial Body, Divine Punishment, Light and Darkness).</translate>
+* <translate><!--T:64--> Added the [[Special:MyLanguage/Unversed|Unversed]] class: balanced stats and the Resonance passive (ki attacks empower your next melee hits or Strike, and melee hits empower your next ki attack).</translate>
+* <translate><!--T:65--> Reworked every [[Special:MyLanguage/Racial Skills|racial skill]] into several parts:</translate>
+** <translate><!--T:66--> [[Special:MyLanguage/Human|Human]]: Blood-Fueled Ki, Fast Learner and Adrenaline; [[Special:MyLanguage/Android|Androids]] get Android Core and the new Absorption Barrier.</translate>
+** <translate><!--T:67--> [[Special:MyLanguage/Saiyan|Saiyan]]: a new Zenkai on lethal blows, and Limitless Power.</translate>
+** <translate><!--T:68--> [[Special:MyLanguage/Namekian|Namekian]]: Assimilation (with accept and reject requests), Regeneration and Water Affinity.</translate>
+** <translate><!--T:69--> [[Special:MyLanguage/Frost Demon|Frost Demon]]: Prodigious Strength, Evolutionary Mastery, Hardened Body and Power Reserve.</translate>
+** <translate><!--T:70--> [[Special:MyLanguage/Bio-Android|Bio-Android]]: Vital Drain, Self-Destruct and Summon Cell Jr., depending on your form.</translate>
+** <translate><!--T:71--> [[Special:MyLanguage/Majin|Majin]]: Absorption with ejectable slots, Sweet Tooth and Healing Magic.</translate>
+* <translate><!--T:72--> Removed the Majin self-revive.</translate>
+* <translate><!--T:73--> Race selection now shows every racial skill.</translate>
+* <translate><!--T:74--> Added False Super Saiyan: a hidden rage form for Saiyans that triggers at low health and lasts while its rage meter holds.</translate>
+* <translate><!--T:75--> Forms can now require a saga quest to be bought, following the story (level requisites are also available, off by default); sagas no longer require a level.</translate>
+* <translate><!--T:76--> Rebalanced [[Special:MyLanguage/Transformations|transformations]]: every race form is about 15% stronger, each race's top tier (SSJ 4, Super Namekian, Fifth Form, Ultra Majin, Ultra Perfect, Solaris, True Form) gets an extra +1.0, and form upkeep was reworked: higher base drains for every form and [[Special:MyLanguage/Kaioken|Kaioken]] tier, mastery now discounts the whole upkeep, and your base offense (not the form's multipliers) only raises it once it passes 5× your max Ki.</translate>
+* <translate><!--T:77--> Rebalanced [[Special:MyLanguage/Training Points and Mastery#Mastery|mastery]]: 0.025% per hit and 0.004% passive every 5 seconds; Ultimate charges with the mastery of the form it copies and never copies a top-tier form.</translate>
+* <translate><!--T:78--> Frost Demons no longer drop below Final Form when descending or running out of energy.</translate>
+* <translate><!--T:79--> Smoother form transitions: while charging a transformation your character gradually takes on the new form's colors, size (hitbox included) and body model, and smoothly morphs back when powering down.</translate>
+* <translate><!--T:80--> Reworked Mutants: instead of permanent Legendary access, they fill a rage meter in combat and borrow a Legendary form while it's full, at the power of their best form +0.5 (capped at the Legendary form). See [[Special:MyLanguage/Effects|Effects]].</translate>
+* <translate><!--T:81--> Legendary groups now show their own names (Mutant, Artificial, Bio-Corruption, Demon); updated looks for several forms (Super Saiyan 4, Super Saiyan Grade 3, Bio-Android and Frost Demon forms, and more).</translate>
+* <translate><!--T:82--> Added [[Special:MyLanguage/Medi-Bug Beetles|Beetle (Medi-Bug) fusion]]: eat a matching pair within 30 seconds to fuse with any race.</translate>
+* <translate><!--T:83--> [[Special:MyLanguage/Fusion Dance|Fusion Dance]]: dancers within 8 blocks line up automatically so the full dance always plays; both must be in the same form, and the fusion keeps it.</translate>
+* <translate><!--T:84--> Reworked [[Special:MyLanguage/Fusions|fusions]]: fused players share skills, techniques and masteries, cross-race fusions can use the partner's forms, and fusions now inherit the look of both players (two-tone hair, tails, horns, antennae, wings…).</translate>
+* <translate><!--T:85--> Reworked Vitality and Defense: health and flat defense per point now grow on a curve, up to 4× the class scaling. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].</translate>
+* <translate><!--T:86--> Rebalanced damage mitigation: the reduction cap went from 75% to 88% (93% with enchantments), with stronger adaptive mitigation against small hits.</translate>
+* <translate><!--T:87--> Added the Speed system: Resistance raises your Speed (up to 3× movement speed and step assist).</translate>
+* <translate><!--T:88--> Max stat value raised to 1,000,000; Training Points are now stored with full precision.</translate>
+* <translate><!--T:89--> New [[Special:MyLanguage/Training Points and Mastery#TP boosts|TP boosts]]: ×2 while dead in the Otherworld, Kami's Blessing from Dende (×1.2 for 5 minutes), Hero of the World after a raid victory (+25% for 10 minutes), and TP from training minigames.</translate>
+* <translate><!--T:90--> Party TP sharing now requires the earner to know [[Special:MyLanguage/Instant Transmission|Instant Transmission]].</translate>
+* <translate><!--T:91--> The progression TP bonus now goes up to +75% (was +50%) and is reached at the stat cost of level 10,000.</translate>
+* <translate><!--T:92--> Stamina regeneration now grows with both VIT and RES.</translate>
+* <translate><!--T:93--> Improved the [[Special:MyLanguage/Paladin|Paladin]] passive: redirected damage is reduced by the Paladin's defense, never takes them below 1 HP, and no longer heals them.</translate>
+* <translate><!--T:94--> Improved [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]: practising a stat also gives 50% of the XP to its linked stat (STR/SKP, RES/VIT, PWR/ENE), and stat points earned through practice no longer raise the TP cost of buying stats.</translate>
+* <translate><!--T:95--> Reworked the [[Special:MyLanguage/Character Customization#Hair editor|Hair Editor]]: a strand-based, Blockbench-style editor with inspector, outliner, per-segment edits, mirroring, physics preview, undo and redo, and a new Super Saiyan 4 hair slot.</translate>
+* <translate><!--T:96--> New Hair Editor features: presets, global hair color, better import and export, hide or drag the body, and segment edits that carry over to the next segments. Old hair codes still import, and the Hair Salon website has its own button.</translate>
+* <translate><!--T:97--> Added Auto-generate to the Hair Editor: it builds your Super Saiyan, SSJ 2, SSJ 3 and SSJ 4 hair from your Base style (all of them or one slot at a time).</translate>
+* <translate><!--T:98--> Updated the hair presets: ten of them were redrawn (a new Raditz style among them), and several come with their own Super Saiyan 4 hair.</translate>
+* <translate><!--T:99--> Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit), with view buttons, a body-part picker to hide or isolate parts and double-click to fill a whole side.</translate>
+* <translate><!--T:100--> Reworked [[Special:MyLanguage/Character Customization|character customization]]: tabbed preview grids for body, hair, eyes, face and tattoos, a transformation preview, a class stats and passives panel, and interactive tutorials.</translate>
+* <translate><!--T:101--> Every race can now use the Human and Saiyan eyes, noses and mouths.</translate>
+* <translate><!--T:102--> Male Majins can now have hair, and Bio-Androids have 6 body types (up from 3).</translate>
+* <translate><!--T:103--> Added the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: five pure-hearted Saiyans in SSJ or SSJ Mastered give their Ki to a sixth in SSJ Mastered, join hands in a ring and channel for 10 seconds, and the receiver becomes a '''Super Saiyan God''' for 5 minutes, worth their strongest form plus 30% of its bonus.</translate>
+* <translate><!--T:104--> The Super Saiyan God Ritual is cancelled if a participant takes more than 25% of their max health in damage (30-second cooldown); after a success every participant waits 30 minutes (the new '''God Ritual CD''' effect). A fusion of two Saiyans counts as two givers.</translate>
+* <translate><!--T:105--> [[Special:MyLanguage/Glind|Glinds]] can now sense, lock on to and Instant Transmission to players in a God form, and players in a God form can sense Glinds.</translate>
 
 <translate>
-=== Skills, techniques and combat ===
+=== Skills, techniques and combat === <!--T:106-->
 </translate>
 
-* <translate>New [[Special:MyLanguage/Ki Attacks|ki techniques]]: [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]], Dodon Ray, Tri-Beam, Neo Tri-Beam, Assault Rain, Blaster Meteor, [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and Kill Driver.</translate>
-* <translate>New [[Special:MyLanguage/Strike Attacks|strike techniques]]: Spirit Breaking Cannon, [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] (needs the [[Special:MyLanguage/Brave Sword|Brave Sword]]), Oozaru Slam, Gum Punch, Blue Hurricane, Grab Throw, Meteor Combo, Meteor Burst, the Mystic Ball Attack (Majin only, taught by [[Special:MyLanguage/Majin Buu|Majin Buu]]), Dimensional Fist and Dimensional Slash.</translate>
-* <translate>New [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] category: [[Special:MyLanguage/Afterimage|Afterimage]], [[Special:MyLanguage/Solar Flare|Solar Flare]] (moved here), [[Special:MyLanguage/Rage Scream|Rage Scream]], Sleep Recovery and Dimensional Warp.</translate>
-* <translate>Reworked Soul Punisher, now also used by NPCs.</translate>
-* <translate>Oozaru loadout: as Oozaru or Golden Oozaru, your first three slots become Mouth Blast, Oozaru Slam and Rage Scream.</translate>
-* <translate>Added [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Ki Surge]]: charging at full Ki releases a Ki Burst that pushes back weaker enemies; keep charging to enter a Ki Surge with a damaging burst and boosted ki damage, ki speed, movement, flight and attack speed.</translate>
-* <translate>Ki charging is now interrupted by hits and deflects arrows and other non-ki projectiles.</translate>
-* <translate>Ki attacks (except Small, Medium and Giant Ball) can now be released before reaching full charge.</translate>
-* <translate>Ki attack sizes now grow with Ki Power, with bigger caps while transformed.</translate>
-* <translate>Reworked beam clashes: a timing meter (PERFECT / GOOD / MISS), stat-based push, and the loser is left exhausted; firing beams destroy smaller ki attacks.</translate>
-* <translate>Reworked the Technique Creator: a two-step screen with a live in-world preview of your attack for every ki type, an orbit and zoom camera, and a full color picker (hue, saturation, brightness or hex) for the core, border and outline. See [[Special:MyLanguage/Techniques|Techniques]].</translate>
-* <translate>Added a passive melee dodge for players with Meditation; perfect evasion now has a 1.5-second cooldown. See [[Special:MyLanguage/Combat|Combat]].</translate>
-* <translate>Reworked melee timing: every attack has a short windup synced with its animation, checked by the server against the real hitbox and line of sight; other players see your swing as it starts, and blocking cancels it.</translate>
-* <translate>Beam steering is now smooth and capped at 60° per second.</translate>
-* <translate>Reworked terrain destruction from ki attacks: smoother on performance and with debris; Disk attacks and Dimensional Slash cut through terrain.</translate>
-* <translate>Added damage-scaled knockback: heavily mitigated hits push less, heavy hits push much harder.</translate>
-* <translate>Added a global strike attack cooldown, so strike attacks can't be chained.</translate>
-* <translate>Parrying a strike attack now counters it; missing a strike refunds part of its Ki and halves its cooldown.</translate>
-* <translate>0% Power Release hides you from [[Special:MyLanguage/Ki Sense|Ki Sense]].</translate>
-* <translate>Reworked the [[Special:MyLanguage/Power Pole|Power Pole]]: its own 3-hit combo with a 360° spin, faster swings, and the pole extends with each swing.</translate>
-* <translate>Reworked enemy AI: enemies decide in real time, read your guard, dodge and sidestep ki, flank and focus as a group, punish you while you charge or transform, and use ki barriers; four AI tiers (Novice, Smart, Elite, Expert) and per-character Zanzoken levels.</translate>
-* <translate>Hitting a giant enemy (Hirudegarn, Slug, Janemba…) counts once per swing, no matter how many of its body parts you touch.</translate>
-* <translate>[[Special:MyLanguage/Dinosaurs|Dinosaurs]], Sabertooth Tigers, the Red Ribbon Army, Bandits, Flying Dinosaurs and [[Special:MyLanguage/Namekian Warrior|Namekian Warriors]] use the new combat AI and alert their pack; animals flee when badly hurt.</translate>
-* <translate>New status [[Special:MyLanguage/Effects|effects]]: Adrenaline, Self-Destruct cooldown, Kami's Blessing, Medi-Bug Shell, Emperor's Wrath, Hero of the World, and the plant buffs.</translate>
-* <translate>Added [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} on another player to give them 2.5% of your max Ki per second. Every giver raises the receiver's STR, SKP, DEF and PWR by 5% (up to +25%), and Ki that overflows while the receiver charges a ki attack goes into that attack.</translate>
-* <translate>Ki Transfer has a cost: givers move at 40% speed, can't fight or regenerate Ki, and lose 5% STR, SKP, DEF and PWR for every 3 seconds of giving (up to 25%, the new '''Ki Exhaustion''' effect); receivers keep their bonus for a while after the link ends (the new '''Shared Ki''' effect).</translate>
-* <translate>Strike attacks now '''rush''': with no enemy in reach you fly forward for up to 2 seconds (straight at your lock-on target from up to 64 blocks away) and strike the first enemy you reach, instead of a short dash.</translate>
-* <translate>Added [[Special:MyLanguage/Strike Clash|strike clashes]]: two fighters rushing at each other with strike attacks lock fists in a timing duel on the beam clash meter. The winner lands a heavy blow and gets the technique back at once; the loser is knocked back and stunned.</translate>
-* <translate>The Spirit Bomb accepts [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: players within 64 blocks are called to help and can give 10% of their max Ki per second without looking at the caster. Their energy makes the bomb grow and hit up to 3 times harder.</translate>
-* <translate>Techniques can be limited to certain races: masters show a '''Race''' line, and a race-locked technique can be learned by anyone but only equipped by its races. Gum Punch, the Mystic Ball Attack and Sleep Recovery are Majin only.</translate>
-* <translate>New '''K.O.''' effect shows how long you stay knocked down.</translate>
+* <translate><!--T:107--> New [[Special:MyLanguage/Ki Attacks|ki techniques]]: [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]], Dodon Ray, Tri-Beam, Neo Tri-Beam, Assault Rain, Blaster Meteor, [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and Kill Driver.</translate>
+* <translate><!--T:108--> New [[Special:MyLanguage/Strike Attacks|strike techniques]]: Spirit Breaking Cannon, [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] (needs the [[Special:MyLanguage/Brave Sword|Brave Sword]]), Oozaru Slam, Gum Punch, Blue Hurricane, Grab Throw, Meteor Combo, Meteor Burst, the Mystic Ball Attack (Majin only, taught by [[Special:MyLanguage/Majin Buu|Majin Buu]]), Dimensional Fist and Dimensional Slash.</translate>
+* <translate><!--T:109--> New [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] category: [[Special:MyLanguage/Afterimage|Afterimage]], [[Special:MyLanguage/Solar Flare|Solar Flare]] (moved here), [[Special:MyLanguage/Rage Scream|Rage Scream]], Sleep Recovery and Dimensional Warp.</translate>
+* <translate><!--T:110--> Reworked Soul Punisher, now also used by NPCs.</translate>
+* <translate><!--T:111--> Oozaru loadout: as Oozaru or Golden Oozaru, your first three slots become Mouth Blast, Oozaru Slam and Rage Scream.</translate>
+* <translate><!--T:112--> Added [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Ki Surge]]: charging at full Ki releases a Ki Burst that pushes back weaker enemies; keep charging to enter a Ki Surge with a damaging burst and boosted ki damage, ki speed, movement, flight and attack speed.</translate>
+* <translate><!--T:113--> Ki charging is now interrupted by hits and deflects arrows and other non-ki projectiles.</translate>
+* <translate><!--T:114--> Ki attacks (except Small, Medium and Giant Ball) can now be released before reaching full charge.</translate>
+* <translate><!--T:115--> Ki attack sizes now grow with Ki Power, with bigger caps while transformed.</translate>
+* <translate><!--T:116--> Reworked beam clashes: a timing meter (PERFECT / GOOD / MISS), stat-based push, and the loser is left exhausted; firing beams destroy smaller ki attacks.</translate>
+* <translate><!--T:117--> Reworked the Technique Creator: a two-step screen with a live in-world preview of your attack for every ki type, an orbit and zoom camera, and a full color picker (hue, saturation, brightness or hex) for the core, border and outline. See [[Special:MyLanguage/Techniques|Techniques]].</translate>
+* <translate><!--T:118--> Added a passive melee dodge for players with Meditation; perfect evasion now has a 1.5-second cooldown. See [[Special:MyLanguage/Combat|Combat]].</translate>
+* <translate><!--T:119--> Reworked melee timing: every attack has a short windup synced with its animation, checked by the server against the real hitbox and line of sight; other players see your swing as it starts, and blocking cancels it.</translate>
+* <translate><!--T:120--> Beam steering is now smooth and capped at 60° per second.</translate>
+* <translate><!--T:121--> Reworked terrain destruction from ki attacks: smoother on performance and with debris; Disk attacks and Dimensional Slash cut through terrain.</translate>
+* <translate><!--T:122--> Added damage-scaled knockback: heavily mitigated hits push less, heavy hits push much harder.</translate>
+* <translate><!--T:123--> Added a global strike attack cooldown, so strike attacks can't be chained.</translate>
+* <translate><!--T:124--> Parrying a strike attack now counters it; missing a strike refunds part of its Ki and halves its cooldown.</translate>
+* <translate><!--T:125--> 0% Power Release hides you from [[Special:MyLanguage/Ki Sense|Ki Sense]].</translate>
+* <translate><!--T:126--> Reworked the [[Special:MyLanguage/Power Pole|Power Pole]]: its own 3-hit combo with a 360° spin, faster swings, and the pole extends with each swing.</translate>
+* <translate><!--T:127--> Reworked enemy AI: enemies decide in real time, read your guard, dodge and sidestep ki, flank and focus as a group, punish you while you charge or transform, and use ki barriers; four AI tiers (Novice, Smart, Elite, Expert) and per-character Zanzoken levels.</translate>
+* <translate><!--T:128--> Hitting a giant enemy (Hirudegarn, Slug, Janemba…) counts once per swing, no matter how many of its body parts you touch.</translate>
+* <translate><!--T:129--> [[Special:MyLanguage/Dinosaurs|Dinosaurs]], Sabertooth Tigers, the Red Ribbon Army, Bandits, Flying Dinosaurs and [[Special:MyLanguage/Namekian Warrior|Namekian Warriors]] use the new combat AI and alert their pack; animals flee when badly hurt.</translate>
+* <translate><!--T:130--> New status [[Special:MyLanguage/Effects|effects]]: Adrenaline, Self-Destruct cooldown, Kami's Blessing, Medi-Bug Shell, Emperor's Wrath, Hero of the World, and the plant buffs.</translate>
+* <translate><!--T:131--> Added [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} on another player to give them 2.5% of your max Ki per second. Every giver raises the receiver's STR, SKP, DEF and PWR by 5% (up to +25%), and Ki that overflows while the receiver charges a ki attack goes into that attack.</translate>
+* <translate><!--T:132--> Ki Transfer has a cost: givers move at 40% speed, can't fight or regenerate Ki, and lose 5% STR, SKP, DEF and PWR for every 3 seconds of giving (up to 25%, the new '''Ki Exhaustion''' effect); receivers keep their bonus for a while after the link ends (the new '''Shared Ki''' effect).</translate>
+* <translate><!--T:133--> Strike attacks now '''rush''': with no enemy in reach you fly forward for up to 2 seconds (straight at your lock-on target from up to 64 blocks away) and strike the first enemy you reach, instead of a short dash.</translate>
+* <translate><!--T:134--> Added [[Special:MyLanguage/Strike Clash|strike clashes]]: two fighters rushing at each other with strike attacks lock fists in a timing duel on the beam clash meter. The winner lands a heavy blow and gets the technique back at once; the loser is knocked back and stunned.</translate>
+* <translate><!--T:135--> The Spirit Bomb accepts [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: players within 64 blocks are called to help and can give 10% of their max Ki per second without looking at the caster. Their energy makes the bomb grow and hit up to 3 times harder.</translate>
+* <translate><!--T:136--> Techniques can be limited to certain races: masters show a '''Race''' line, and a race-locked technique can be learned by anyone but only equipped by its races. Gum Punch, the Mystic Ball Attack and Sleep Recovery are Majin only.</translate>
+* <translate><!--T:137--> New '''K.O.''' effect shows how long you stay knocked down.</translate>
 
 <translate>
-=== Masters, minigames and NPCs ===
+=== Masters, minigames and NPCs === <!--T:138-->
 </translate>
 
-* <translate>New [[Special:MyLanguage/Masters|masters]]: [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] at her palace on Earth (she teaches [[Special:MyLanguage/Ki Control|Ki Control]] and Meditation, and hosts a tournament) and Majin Buu at Buu's House.</translate>
-* <translate>Reworked the [[Special:MyLanguage/Menus#NPC dialogue|NPC dialogue]]: masters and quest NPCs now open one menu with all their options (Quests, Skills, Train, services, Tournament) with a live portrait of the NPC, typewriter text and keyboard controls.</translate>
-* <translate>NPC services no longer close the screen: locked options show the reason in a tooltip, and cooldowns (Senzu Beans, Kami's Blessing, Baba's revive, repeatable quests) show a live countdown.</translate>
-* <translate>Quest givers now also list their locked quests (with what's missing) and repeatable quests on cooldown; quests can be accepted and turned in without leaving the dialogue.</translate>
-* <translate>Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement now always talk to you, but lock Skills, Train and their new quests until your alignment fits.</translate>
-* <translate>Every master now has several greeting lines, plus cold lines when they dislike your alignment; Toribot got new easter egg lines.</translate>
-* <translate>Masters teach new techniques: Afterimage ([[Special:MyLanguage/Master Roshi|Roshi]], [[Special:MyLanguage/Krillin|Krillin]], [[Special:MyLanguage/Cell|Cell]]), Hellzone Grenade ([[Special:MyLanguage/Piccolo|Piccolo]]), Heat Dome Attack and Shining Sword Attack ([[Special:MyLanguage/Trunks|Trunks]]), Spirit Breaking Cannon ([[Special:MyLanguage/Vegeta|Vegeta]]). Most masters now teach Ki Control, and Instant Transmission moved from [[Special:MyLanguage/Frieza|Frieza]] to Cell.</translate>
-* <translate>Dende now offers Kami's Blessing to good-aligned players.</translate>
-* <translate>Reworked every [[Special:MyLanguage/Training Minigames|minigame]], now verified by the server: Control is a ki-orb balancing game, Shadow Boxing a typing combo game, and Gravity a pod flight through rock pillars.</translate>
-* <translate>The Rhythm minigame is now a four-lane highway with 4 difficulties, latency calibration, and auto-mapping for any music disc.</translate>
-* <translate>Minigames are learned by playing them 3 times with their master, and replaying one at its master gives a +25% mentor bonus.</translate>
-* <translate>New creatures: the [[Special:MyLanguage/Giant Fish|Giant Fish]] (hunts swimmers) and the [[Special:MyLanguage/Giant Turtle|Giant Turtle]] (drops Turtle Scales).</translate>
-* <translate>New hostile mobs: Red and Blue Ogres, the [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampede, [[Special:MyLanguage/Gete Robot|Gete Robots]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]].</translate>
-* <translate>New NPCs: [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]], [[Special:MyLanguage/Time Patroller|Time Patrollers]], the [[Special:MyLanguage/Hell Ogre|Hell Ogre]], Grand Kai and the Otherworld Tournament Announcer.</translate>
-* <translate>New saga characters with their own models and textures, including the whole Classic Saga cast (Kid Goku, Bandit Yamcha, Jackie Chun, the Red Ribbon Army, Tao Pai Pai, King Piccolo and more), the GT cast (Pan, Uub, Baby, Super 17, the Shadow Dragons, Omega Shenron and more) and the Daima cast (Glorio, Majin Kuu and Duu, the Tamagamis, Gomah).</translate>
-* <translate>New Gogeta (Super Saiyan) and Gogeta (Super Saiyan 4) models.</translate>
-* <translate>Updated models and textures for many existing characters: Goku, Gohan (kid, teen, adult and future), Vegeta, Trunks, Future Trunks, Goten, Piccolo, Videl, Chi-Chi, Androids 17 and 18, Janemba, Turles and more, plus the Goku, Piccolo, Trunks, King Kai and [[Special:MyLanguage/Old Kai|Old Kai]] masters.</translate>
-* <translate>Reworked the models and textures of Raditz, Nappa, Zarbon, Dodoria, Cui and the Ginyu Force.</translate>
-* <translate>Story enemies now rush at you with their strike techniques and can start strike clashes: Turles uses [[Special:MyLanguage/Meteor Burst|Meteor Burst]] and Kid Buu the Mystic Ball Attack.</translate>
+* <translate><!--T:139--> New [[Special:MyLanguage/Masters|masters]]: [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] at her palace on Earth (she teaches [[Special:MyLanguage/Ki Control|Ki Control]] and Meditation, and hosts a tournament) and Majin Buu at Buu's House.</translate>
+* <translate><!--T:140--> Reworked the [[Special:MyLanguage/Menus#NPC dialogue|NPC dialogue]]: masters and quest NPCs now open one menu with all their options (Quests, Skills, Train, services, Tournament) with a live portrait of the NPC, typewriter text and keyboard controls.</translate>
+* <translate><!--T:141--> NPC services no longer close the screen: locked options show the reason in a tooltip, and cooldowns (Senzu Beans, Kami's Blessing, Baba's revive, repeatable quests) show a live countdown.</translate>
+* <translate><!--T:142--> Quest givers now also list their locked quests (with what's missing) and repeatable quests on cooldown; quests can be accepted and turned in without leaving the dialogue.</translate>
+* <translate><!--T:143--> Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement now always talk to you, but lock Skills, Train and their new quests until your alignment fits.</translate>
+* <translate><!--T:144--> Every master now has several greeting lines, plus cold lines when they dislike your alignment; Toribot got new easter egg lines.</translate>
+* <translate><!--T:145--> Masters teach new techniques: Afterimage ([[Special:MyLanguage/Master Roshi|Roshi]], [[Special:MyLanguage/Krillin|Krillin]], [[Special:MyLanguage/Cell|Cell]]), Hellzone Grenade ([[Special:MyLanguage/Piccolo|Piccolo]]), Heat Dome Attack and Shining Sword Attack ([[Special:MyLanguage/Trunks|Trunks]]), Spirit Breaking Cannon ([[Special:MyLanguage/Vegeta|Vegeta]]). Most masters now teach Ki Control, and Instant Transmission moved from [[Special:MyLanguage/Frieza|Frieza]] to Cell.</translate>
+* <translate><!--T:146--> Dende now offers Kami's Blessing to good-aligned players.</translate>
+* <translate><!--T:147--> Reworked every [[Special:MyLanguage/Training Minigames|minigame]], now verified by the server: Control is a ki-orb balancing game, Shadow Boxing a typing combo game, and Gravity a pod flight through rock pillars.</translate>
+* <translate><!--T:148--> The Rhythm minigame is now a four-lane highway with 4 difficulties, latency calibration, and auto-mapping for any music disc.</translate>
+* <translate><!--T:149--> Minigames are learned by playing them 3 times with their master, and replaying one at its master gives a +25% mentor bonus.</translate>
+* <translate><!--T:150--> New creatures: the [[Special:MyLanguage/Giant Fish|Giant Fish]] (hunts swimmers) and the [[Special:MyLanguage/Giant Turtle|Giant Turtle]] (drops Turtle Scales).</translate>
+* <translate><!--T:151--> New hostile mobs: Red and Blue Ogres, the [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampede, [[Special:MyLanguage/Gete Robot|Gete Robots]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]].</translate>
+* <translate><!--T:152--> New NPCs: [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]], [[Special:MyLanguage/Time Patroller|Time Patrollers]], the [[Special:MyLanguage/Hell Ogre|Hell Ogre]], Grand Kai and the Otherworld Tournament Announcer.</translate>
+* <translate><!--T:153--> New saga characters with their own models and textures, including the whole Classic Saga cast (Kid Goku, Bandit Yamcha, Jackie Chun, the Red Ribbon Army, Tao Pai Pai, King Piccolo and more), the GT cast (Pan, Uub, Baby, Super 17, the Shadow Dragons, Omega Shenron and more) and the Daima cast (Glorio, Majin Kuu and Duu, the Tamagamis, Gomah).</translate>
+* <translate><!--T:154--> New Gogeta (Super Saiyan) and Gogeta (Super Saiyan 4) models.</translate>
+* <translate><!--T:155--> Updated models and textures for many existing characters: Goku, Gohan (kid, teen, adult and future), Vegeta, Trunks, Future Trunks, Goten, Piccolo, Videl, Chi-Chi, Androids 17 and 18, Janemba, Turles and more, plus the Goku, Piccolo, Trunks, King Kai and [[Special:MyLanguage/Old Kai|Old Kai]] masters.</translate>
+* <translate><!--T:156--> Reworked the models and textures of Raditz, Nappa, Zarbon, Dodoria, Cui and the Ginyu Force.</translate>
+* <translate><!--T:157--> Story enemies now rush at you with their strike techniques and can start strike clashes: Turles uses [[Special:MyLanguage/Meteor Burst|Meteor Burst]] and Kid Buu the Mystic Ball Attack.</translate>
 
 <translate>
-=== Items and gear ===
+=== Items and gear === <!--T:158-->
 </translate>
 
-* <translate>Added farming: Namek Moss and six stat crops (Oozaru Root, Katchin Sprout, Meteor Flower, Aura Lily, Hermit's Fern and Kaioshin Fruit) that give short stat buffs, plus the Zenkai Lotus, which clears negative effects and combat cooldowns. See [[Special:MyLanguage/Items|Items]].</translate>
-* <translate>Added [[Special:MyLanguage/Senzu Bean|Senzu Bean]] crops: Health, Ki and Stamina Senzu Beans with their own seeds; one of each plus Namek Moss makes 3 regular Senzu Beans.</translate>
-* <translate>Added the Curative Flask (brew a Water Bottle with Namek Moss).</translate>
-* <translate>[[Special:MyLanguage/Capsules|Stat capsules]] are now craftable from crops, a Curative Flask and the new Empty Capsule.</translate>
-* <translate>Added the Mastery Capsule: +5 mastery to your active transformation.</translate>
-* <translate>Added the Medi-Bugs: Ant (restores 85% of health, ki and stamina), Rhino (30% less damage for 45 seconds), Worm (more form mastery for 5 minutes) and the Beetle pair (fusion).</translate>
-* <translate>Added Turtle Scale, Majilite, and Giant Fish and Giant Turtle meat.</translate>
-* <translate>Added a brewing recipe for [[Special:MyLanguage/Heart Medicine|Heart Medicine]]: a Senzu Bean on any Potion of Regeneration.</translate>
-* <translate>Added the Demon Eye (a Gomah drop) and the [[Special:MyLanguage/Sacred Water|Sacred Water]] (×1.1 to all stats, the reward of Korin's quest The Sacred Water).</translate>
-* <translate>Added the [[Special:MyLanguage/Senzu Bag|Senzu Bag]]: it carries up to 64 Senzu Beans of any color in one slot; {{Key|Shift}} + right-click eats a bean straight from it.</translate>
-* <translate>Added the Pattern Station: a new crafting table for armor patterns, with JEI support. See [[Special:MyLanguage/Armor|Armor]].</translate>
-* <translate>New armors: Taiyou Gi, Brightly's Regular Wear and Time Patrol (Trunks Xeno).</translate>
-* <translate>Removed the Gete Smithing Template.</translate>
+* <translate><!--T:159--> Added farming: Namek Moss and six stat crops (Oozaru Root, Katchin Sprout, Meteor Flower, Aura Lily, Hermit's Fern and Kaioshin Fruit) that give short stat buffs, plus the Zenkai Lotus, which clears negative effects and combat cooldowns. See [[Special:MyLanguage/Items|Items]].</translate>
+* <translate><!--T:160--> Added [[Special:MyLanguage/Senzu Bean|Senzu Bean]] crops: Health, Ki and Stamina Senzu Beans with their own seeds; one of each plus Namek Moss makes 3 regular Senzu Beans.</translate>
+* <translate><!--T:161--> Added the Curative Flask (brew a Water Bottle with Namek Moss).</translate>
+* <translate><!--T:162--> [[Special:MyLanguage/Capsules|Stat capsules]] are now craftable from crops, a Curative Flask and the new Empty Capsule.</translate>
+* <translate><!--T:163--> Added the Mastery Capsule: +5 mastery to your active transformation.</translate>
+* <translate><!--T:164--> Added the Medi-Bugs: Ant (restores 85% of health, ki and stamina), Rhino (30% less damage for 45 seconds), Worm (more form mastery for 5 minutes) and the Beetle pair (fusion).</translate>
+* <translate><!--T:165--> Added Turtle Scale, Majilite, and Giant Fish and Giant Turtle meat.</translate>
+* <translate><!--T:166--> Added a brewing recipe for [[Special:MyLanguage/Heart Medicine|Heart Medicine]]: a Senzu Bean on any Potion of Regeneration.</translate>
+* <translate><!--T:167--> Added the Demon Eye (a Gomah drop) and the [[Special:MyLanguage/Sacred Water|Sacred Water]] (×1.1 to all stats, the reward of Korin's quest The Sacred Water).</translate>
+* <translate><!--T:168--> Added the [[Special:MyLanguage/Senzu Bag|Senzu Bag]]: it carries up to 64 Senzu Beans of any color in one slot; {{Key|Shift}} + right-click eats a bean straight from it.</translate>
+* <translate><!--T:169--> Added the Pattern Station: a new crafting table for armor patterns, with JEI support. See [[Special:MyLanguage/Armor|Armor]].</translate>
+* <translate><!--T:170--> New armors: Taiyou Gi, Brightly's Regular Wear and Time Patrol (Trunks Xeno).</translate>
+* <translate><!--T:171--> Removed the Gete Smithing Template.</translate>
 
 <translate>
-=== Visuals and animations ===
+=== Visuals and animations === <!--T:172-->
 </translate>
 
-* <translate>Added 3D auras (Smooth, Sparking and, for the Glind race only, God) with a flying trail, selectable in [[Special:MyLanguage/Character Customization|character creation]].</translate>
-* <translate>Reworked 2D auras: they now face the camera, scale with your Power Release and leave a trail while flying.</translate>
-* <translate>Added an "aura border" flame effect for supervillains and players.</translate>
-* <translate>Reworked outlines: now smoother and with a blooming effect, and NPCs can have outlines too.</translate>
-* <translate>Added a bloom effect to auras and ki attacks.</translate>
-* <translate>Dead NPCs now wear a halo.</translate>
-* <translate>Reworked lightning effects: new lightning for forms and techniques, new Frost Demon lightning colors and hidden-power sparks.</translate>
-* <translate>Reworked ki waves and ki balls, a better Kamehameha cast, and new strike attack effects.</translate>
-* <translate>Added trails for the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and small ki balls.</translate>
-* <translate>New animations: ki attacks, predefined techniques, stun, Porunga and dinosaurs; saga characters now use the player's strike and evasion animations.</translate>
-* <translate>Reworked body textures with colored shadows, also on noses, mouths and race parts.</translate>
-* <translate>Saiyan tails now have shading like the hair.</translate>
-* <translate>New body models: Bio-Android forms, Frost Demon forms, buffed bodies, and the Oozaru model with new Oozaru hair.</translate>
-* <translate>New Bio-Android passive and self-destruct effects.</translate>
-* <translate>Improved hair colors: shading now shifts hue based on the hair's shape and length.</translate>
-* <translate>Reworked hair physics and hair collisions.</translate>
-* <translate>Improved how Search Fly and the Over Shoulder camera feel; high flight levels now descend and slow down more smoothly.</translate>
-* <translate>Improved the third-person crosshair: it glides smoothly to where your attacks will land and softly locks onto hostile targets in reach.</translate>
-* <translate>Reworked the Dragon Fist: a golden dragon shaped like Shenron bursts out in front of you, trails you through the charge and lunges at the end.</translate>
-* <translate>New looks for the [[Special:MyLanguage/Glind|Glind]] forms: Dark King (bulkier body, crimson hair, red eyes on black sclera, red outline and aura), a new model for Time Power: Dark King, outlines for Absorption and both Time Power forms, and an exclusive Glind eye style.</translate>
-* <translate>With the 3D: Sparking aura style, dark legendary auras (Shiyoken, Evil Namek, Xeno, Transcended and others) have a black outer edge.</translate>
-* <translate>[[Special:MyLanguage/Bio-Android|Bio-Android]] bodies have colored shading: shaded areas take a deeper tone of each body color.</translate>
-* <translate>Each race has its own ki charging animation.</translate>
+* <translate><!--T:173--> Added 3D auras (Smooth, Sparking and, for the Glind race only, God) with a flying trail, selectable in [[Special:MyLanguage/Character Customization|character creation]].</translate>
+* <translate><!--T:174--> Reworked 2D auras: they now face the camera, scale with your Power Release and leave a trail while flying.</translate>
+* <translate><!--T:175--> Added an "aura border" flame effect for supervillains and players.</translate>
+* <translate><!--T:176--> Reworked outlines: now smoother and with a blooming effect, and NPCs can have outlines too.</translate>
+* <translate><!--T:177--> Added a bloom effect to auras and ki attacks.</translate>
+* <translate><!--T:178--> Dead NPCs now wear a halo.</translate>
+* <translate><!--T:179--> Reworked lightning effects: new lightning for forms and techniques, new Frost Demon lightning colors and hidden-power sparks.</translate>
+* <translate><!--T:180--> Reworked ki waves and ki balls, a better Kamehameha cast, and new strike attack effects.</translate>
+* <translate><!--T:181--> Added trails for the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and small ki balls.</translate>
+* <translate><!--T:182--> New animations: ki attacks, predefined techniques, stun, Porunga and dinosaurs; saga characters now use the player's strike and evasion animations.</translate>
+* <translate><!--T:183--> Reworked body textures with colored shadows, also on noses, mouths and race parts.</translate>
+* <translate><!--T:184--> Saiyan tails now have shading like the hair.</translate>
+* <translate><!--T:185--> New body models: Bio-Android forms, Frost Demon forms, buffed bodies, and the Oozaru model with new Oozaru hair.</translate>
+* <translate><!--T:186--> New Bio-Android passive and self-destruct effects.</translate>
+* <translate><!--T:187--> Improved hair colors: shading now shifts hue based on the hair's shape and length.</translate>
+* <translate><!--T:188--> Reworked hair physics and hair collisions.</translate>
+* <translate><!--T:189--> Improved how Search Fly and the Over Shoulder camera feel; high flight levels now descend and slow down more smoothly.</translate>
+* <translate><!--T:190--> Improved the third-person crosshair: it glides smoothly to where your attacks will land and softly locks onto hostile targets in reach.</translate>
+* <translate><!--T:191--> Reworked the Dragon Fist: a golden dragon shaped like Shenron bursts out in front of you, trails you through the charge and lunges at the end.</translate>
+* <translate><!--T:192--> New looks for the [[Special:MyLanguage/Glind|Glind]] forms: Dark King (bulkier body, crimson hair, red eyes on black sclera, red outline and aura), a new model for Time Power: Dark King, outlines for Absorption and both Time Power forms, and an exclusive Glind eye style.</translate>
+* <translate><!--T:193--> With the 3D: Sparking aura style, dark legendary auras (Shiyoken, Evil Namek, Xeno, Transcended and others) have a black outer edge.</translate>
+* <translate><!--T:194--> [[Special:MyLanguage/Bio-Android|Bio-Android]] bodies have colored shading: shaded areas take a deeper tone of each body color.</translate>
+* <translate><!--T:195--> Each race has its own ki charging animation.</translate>
 
 <translate>
-=== HUD and interface ===
+=== HUD and interface === <!--T:196-->
 </translate>
 
-* <translate>Reworked the [[Special:MyLanguage/HUD|HUD]]: a new HUD Editor to move, resize, mirror and hide every element, four HUD styles (Xenoverse, Modern, Compact and Vanilla), animated bars, and a shareable <code>hud_layout.json</code>.</translate>
-* <translate>New HUD animations: a shine across the bars, a ki ripple that speeds up while charging, a heartbeat below 25% health, smooth health colors and ki bars in your ki color; the Modern style got a metallic look with segmented bars.</translate>
-* <translate>Reworked the Ki Sense display: sensed beings get a panel above their head with health (plus ki and stamina for players), Battle Power and damage taken.</translate>
-* <translate>New HUD elements: a notifications stack (quest notices, party invites, update alerts and the tracked quest), Power Reserve and Rage meters, a party panel, technique hotbar rows, and Baba timer and World Boss contribution panels; the scouter readout can now be placed too.</translate>
-* <translate>Added party markers: a pin with each ally's face over their head; point at one to see their name and distance.</translate>
-* <translate>Reworked every screen, with tutorials for almost every one. See [[Special:MyLanguage/Menus|Menus]].</translate>
-* <translate>Reworked the Wishes screen: left-click to pick, right-click to remove, numbered slots, and an in-screen target picker for revive wishes.</translate>
-* <translate>New flight options in the Utility Menu: switch Search and Combat Fly, cap your flight speed (5% to 100%) and a Mode Lock that returns you to your chosen mode; Flight Speed and Limit Release also work with the mouse wheel.</translate>
-* <translate>New icons for every Utility Menu entry.</translate>
-* <translate>Menu panels keep their pixel-art frame at any size.</translate>
-* <translate>The Stats screen now shows the real costs charged by the server (stat costs, stamina regeneration and per-hit cost, form drains).</translate>
-* <translate>Numbers across the UI now use a compact, easier-to-read format.</translate>
-* <translate>[[Special:MyLanguage/Scouters|Scouters]], Pothala Earrings and [[Special:MyLanguage/Weights|Weights]] now work in the cosmetic Curios slots.</translate>
-* <translate>New client options: Party Markers, Tutorials, Flight Turn Sensitivity, Rhythm audio offset, 3D aura style and type, enemy 3D aura style, hair physics quality, Reserve First Hotbar Slot and Ki Sound Volume.</translate>
-* <translate>Shadow Boxing follows your keyboard layout (AZERTY, QWERTZ…), and the Rhythm lanes show your keyboard's keys. See [[Special:MyLanguage/Controls|Controls]].</translate>
-* <translate>Lots of quality-of-life changes on texts, scrolls and displays.</translate>
-* <translate>The "update available" notice now shows in the notifications HUD.</translate>
+* <translate><!--T:197--> Reworked the [[Special:MyLanguage/HUD|HUD]]: a new HUD Editor to move, resize, mirror and hide every element, four HUD styles (Xenoverse, Modern, Compact and Vanilla), animated bars, and a shareable <code>hud_layout.json</code>.</translate>
+* <translate><!--T:198--> New HUD animations: a shine across the bars, a ki ripple that speeds up while charging, a heartbeat below 25% health, smooth health colors and ki bars in your ki color; the Modern style got a metallic look with segmented bars.</translate>
+* <translate><!--T:199--> Reworked the Ki Sense display: sensed beings get a panel above their head with health (plus ki and stamina for players), Battle Power and damage taken.</translate>
+* <translate><!--T:200--> New HUD elements: a notifications stack (quest notices, party invites, update alerts and the tracked quest), Power Reserve and Rage meters, a party panel, technique hotbar rows, and Baba timer and World Boss contribution panels; the scouter readout can now be placed too.</translate>
+* <translate><!--T:201--> Added party markers: a pin with each ally's face over their head; point at one to see their name and distance.</translate>
+* <translate><!--T:202--> Reworked every screen, with tutorials for almost every one. See [[Special:MyLanguage/Menus|Menus]].</translate>
+* <translate><!--T:203--> Reworked the Wishes screen: left-click to pick, right-click to remove, numbered slots, and an in-screen target picker for revive wishes.</translate>
+* <translate><!--T:204--> New flight options in the Utility Menu: switch Search and Combat Fly, cap your flight speed (5% to 100%) and a Mode Lock that returns you to your chosen mode; Flight Speed and Limit Release also work with the mouse wheel.</translate>
+* <translate><!--T:205--> New icons for every Utility Menu entry.</translate>
+* <translate><!--T:206--> Menu panels keep their pixel-art frame at any size.</translate>
+* <translate><!--T:207--> The Stats screen now shows the real costs charged by the server (stat costs, stamina regeneration and per-hit cost, form drains).</translate>
+* <translate><!--T:208--> Numbers across the UI now use a compact, easier-to-read format.</translate>
+* <translate><!--T:209--> [[Special:MyLanguage/Scouters|Scouters]], Pothala Earrings and [[Special:MyLanguage/Weights|Weights]] now work in the cosmetic Curios slots.</translate>
+* <translate><!--T:210--> New client options: Party Markers, Tutorials, Flight Turn Sensitivity, Rhythm audio offset, 3D aura style and type, enemy 3D aura style, hair physics quality, Reserve First Hotbar Slot and Ki Sound Volume.</translate>
+* <translate><!--T:211--> Shadow Boxing follows your keyboard layout (AZERTY, QWERTZ…), and the Rhythm lanes show your keyboard's keys. See [[Special:MyLanguage/Controls|Controls]].</translate>
+* <translate><!--T:212--> Lots of quality-of-life changes on texts, scrolls and displays.</translate>
+* <translate><!--T:213--> The "update available" notice now shows in the notifications HUD.</translate>
 
 <translate>
-=== Dragon Balls and wishes ===
+=== Dragon Balls and wishes === <!--T:214-->
 </translate>
 
-* <translate>Dragon summons turn the sky into a starry night (visual only), gathered Dragon Balls glow and chime, and dragons fade out in a white flash. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].</translate>
-* <translate>New [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] models.</translate>
-* <translate>The Training Points wishes are now Power Boost wishes (×100 Attributes from Shenron, ×75 from Porunga).</translate>
-* <translate>Added revival wishes: Shenron revives up to 3 dead players, Porunga 1 per wish.</translate>
-* <translate>Added a "repeatable" option for wishes, to stop the same wish being picked twice in one summon. See [[Special:MyLanguage/Custom Wishes|Custom Wishes]].</translate>
-* <translate>Improved Dragon Ball generation, tracking and syncing: balls are tracked through any placement or removal, lost balls respawn, extra copies are topped up when the copies setting grows, and an unused dragon leaves after 10 minutes and rescatters its balls.</translate>
-* <translate>Add-on Dragon Ball sets can use any number of stars and the new <code>natural_spawn</code> key.</translate>
-* <translate>Porunga's Pothala wishes now grant a full pair of [[Special:MyLanguage/Potara Earrings|earrings]] with a world-unique ID.</translate>
+* <translate><!--T:215--> Dragon summons turn the sky into a starry night (visual only), gathered Dragon Balls glow and chime, and dragons fade out in a white flash. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].</translate>
+* <translate><!--T:216--> New [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]] models.</translate>
+* <translate><!--T:217--> The Training Points wishes are now Power Boost wishes (×100 Attributes from Shenron, ×75 from Porunga).</translate>
+* <translate><!--T:218--> Added revival wishes: Shenron revives up to 3 dead players, Porunga 1 per wish.</translate>
+* <translate><!--T:219--> Added a "repeatable" option for wishes, to stop the same wish being picked twice in one summon. See [[Special:MyLanguage/Custom Wishes|Custom Wishes]].</translate>
+* <translate><!--T:220--> Improved Dragon Ball generation, tracking and syncing: balls are tracked through any placement or removal, lost balls respawn, extra copies are topped up when the copies setting grows, and an unused dragon leaves after 10 minutes and rescatters its balls.</translate>
+* <translate><!--T:221--> Add-on Dragon Ball sets can use any number of stars and the new <code>natural_spawn</code> key.</translate>
+* <translate><!--T:222--> Porunga's Pothala wishes now grant a full pair of [[Special:MyLanguage/Potara Earrings|earrings]] with a world-unique ID.</translate>
 
 <translate>
-=== Configs and commands ===
+=== Configs and commands === <!--T:223-->
 </translate>
 
-* <translate>Raids and tournaments are now editable JSON files in <code>config/dragonminez/raids/</code> and <code>config/dragonminez/tournaments/</code> (custom raids supported).</translate>
-* <translate>New world-save folder <code>&lt;world&gt;/dragonminez/dialogues/</code> for NPC dialogue trees.</translate>
-* <translate>The HUD layout moved from <code>general-user.json</code> to its own <code>hud_layout.json</code> (old HUD keys are migrated automatically).</translate>
-* <translate>[[Special:MyLanguage/General Server Config|general-server.json]]: <code>racialSkills</code> is now split into one section per race, including the new Glind (old flat keys are migrated automatically).</translate>
-* <translate><code>general-server.json</code>: new <code>worldBoss</code>, <code>falseSuperSaiyan</code>, <code>mutant.rage</code> and <code>hair</code> sections; new keys for Baba's temporary revive, the Otherworld TP boost, Kami's Blessing, Sacred Water and Demon Eye, form requisites, party markers and the Vitality and Defense curve knees.</translate>
-* <translate><code>general-server.json</code>: new <code>TRAINING</code> source and <code>OTHERWORLD</code> boost in <code>tpGainBoosts</code>; new <code>progressionReferenceLevel</code>, <code>attributeRewardPointRatio</code>, <code>mutant.rageBorrowedFormBonus</code> and <code>pixelTattooPaintingEnabled</code> (turns custom tattoos off) keys; the default structure max distance from spawn is now 10,000.</translate>
-* <translate>[[Special:MyLanguage/Combat Config|combat.json]]: new keys for the Speed system, passive dodge, knockback, ki charging, Ki Surge and the global strike cooldown.</translate>
-* <translate>[[Special:MyLanguage/Dynamic Growth|dynamicGrowth]]: new <code>linkedStatXpShare</code> and <code>growthStatsCountForTpCost</code> keys.</translate>
-* <translate>[[Special:MyLanguage/Skills Config|skills.json]]: new <code>evasionSkills</code> list; <code>techniques.json</code> gained an <code>EvasionAttacks</code> section and ki attack size caps.</translate>
-* <translate>Race and form configs: new 3D aura options (<code>auraType3D</code>, <code>aura3DStyle</code>), <code>slimBodyTypes</code>, <code>hideTail</code>, <code>furUsesHairColor</code>, Otherworld timer drains, <code>levelRequisite</code> and <code>sagaRequisite</code>, and <code>VIT_scaling_max</code> / <code>DEF_scaling_max</code> in <code>stats.json</code>. See [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]].</translate>
-* <translate>The max weight each master can give you is now configurable.</translate>
-* <translate>Improved JSON and database player storage: logins wait for the pending logout save, slow loads are never discarded, failed loads are retried, and progression is locked until your data has loaded.</translate>
-* <translate>New [[Special:MyLanguage/Commands|commands]]: <code>/dmzworldboss</code>, <code>/dmztournament</code>, <code>/dmzraid</code>, <code>/dmzminigame</code>, <code>/dmzdragonballs</code> and <code>/dmzracial reply</code>.</translate>
-* <translate>New command options: <code>/dmztech add&#124;remove all</code>, <code>/dmzskill set&#124;add&#124;remove all</code>, <code>/dmzstats</code> with <code>max</code>, <code>/dmzform set all</code>; <code>/dmzlocate</code> now also finds the Otherworld Tournament.</translate>
-* <translate><code>/dmzreload story</code> now also reloads NPC dialogue.</translate>
-* <translate>New quest reward types <code>ATTRIBUTES</code> and <code>ATTRIBUTE_POINTS</code>, and wish types <code>attributes</code> and <code>attributepoints</code>. See [[Special:MyLanguage/Custom Quests|Custom Quests]].</translate>
-* <translate><code>/dmzworldboss tp</code>, <code>reset</code> and <code>ready</code> default to the nearest lair, and <code>reset</code> also restores the Tree of Might, the Big Gete Star and the Horn Cradle.</translate>
-* <translate>New [[Special:MyLanguage/Gamerules|gamerule]]: <code>allowBuildingInArenaStructures</code>.</translate>
-* <translate>New <code>/dmzstructure here&#124;npcs</code> command (permission <code>dragonminez.dmzstructure</code>) to read structure-local coordinates and check structure NPCs.</translate>
-* <translate>New datapack folder <code>data/&lt;namespace&gt;/structure_npcs/</code> to place NPCs inside DragonMineZ structures without editing their <code>.nbt</code> files. See [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].</translate>
-* <translate><code>general-server.json</code>: <code>structureMinDistanceFromSpawn</code> and <code>structureMinDistanceBetween</code> now default to 500 (were 0 and 250).</translate>
-* <translate><code>general-server.json</code>: new <code>kiTransfer</code> and <code>superSaiyanGodRitual</code> sections, and new <code>worldBoss</code> keys <code>reviveInterruptDamageRatio</code>, <code>reviveDecayMultiplier</code>, <code>truceGraceSeconds</code>, <code>healthPerExtraMember</code> and <code>damagePerExtraMember</code> (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
-* <translate>[[Special:MyLanguage/Custom Forms|Custom forms]]: new <code>secondBorderColor</code> key in <code>aura3DStyle</code> for an outer fringe on Sparking auras.</translate>
-* <translate>New <code>/dmzquest difficulty [easy&#124;normal&#124;hard] [targets]</code> to see or set a player's story difficulty (in a party it changes the leader's, so the whole party switches), with the new permission nodes <code>dmzquest.difficulty.self</code> and <code>dmzquest.difficulty.others</code>.</translate>
-* <translate><code>/dmzmastery</code> now takes its targets last and optional, like the other commands: <code>/dmzmastery set&#124;add &lt;group&gt; &lt;form&gt; &lt;value&gt; [targets]</code>.</translate>
-* <translate><code>/dmzeffect clear</code> also clears the God Ritual cooldown and the Ki Transfer effects.</translate>
-* <translate><code>/dmzquest start&#124;finish&#124;fail&#124;reset&#124;track</code> and the saga subcommands now only change the player you name, not their whole party; <code>/dmzparty kick</code> works on offline members, and <code>/dmzparty</code> and <code>/dmzparty list</code> no longer need <code>dmzparty.use</code>.</translate>
-* <translate><code>/dmzeffect remove knockout</code> ends a knockdown, and <code>/dmzeffect clear</code> now ends knockdowns too.</translate>
+* <translate><!--T:224--> Raids and tournaments are now editable JSON files in <code>config/dragonminez/raids/</code> and <code>config/dragonminez/tournaments/</code> (custom raids supported).</translate>
+* <translate><!--T:225--> New world-save folder <code>&lt;world&gt;/dragonminez/dialogues/</code> for NPC dialogue trees.</translate>
+* <translate><!--T:226--> The HUD layout moved from <code>general-user.json</code> to its own <code>hud_layout.json</code> (old HUD keys are migrated automatically).</translate>
+* <translate><!--T:227--> [[Special:MyLanguage/General Server Config|general-server.json]]: <code>racialSkills</code> is now split into one section per race, including the new Glind (old flat keys are migrated automatically).</translate>
+* <translate><!--T:228--> <code>general-server.json</code>: new <code>worldBoss</code>, <code>falseSuperSaiyan</code>, <code>mutant.rage</code> and <code>hair</code> sections; new keys for Baba's temporary revive, the Otherworld TP boost, Kami's Blessing, Sacred Water and Demon Eye, form requisites, party markers and the Vitality and Defense curve knees.</translate>
+* <translate><!--T:229--> <code>general-server.json</code>: new <code>TRAINING</code> source and <code>OTHERWORLD</code> boost in <code>tpGainBoosts</code>; new <code>progressionReferenceLevel</code>, <code>attributeRewardPointRatio</code>, <code>mutant.rageBorrowedFormBonus</code> and <code>pixelTattooPaintingEnabled</code> (turns custom tattoos off) keys; the default structure max distance from spawn is now 10,000.</translate>
+* <translate><!--T:230--> [[Special:MyLanguage/Combat Config|combat.json]]: new keys for the Speed system, passive dodge, knockback, ki charging, Ki Surge and the global strike cooldown.</translate>
+* <translate><!--T:231--> [[Special:MyLanguage/Dynamic Growth|dynamicGrowth]]: new <code>linkedStatXpShare</code> and <code>growthStatsCountForTpCost</code> keys.</translate>
+* <translate><!--T:232--> [[Special:MyLanguage/Skills Config|skills.json]]: new <code>evasionSkills</code> list; <code>techniques.json</code> gained an <code>EvasionAttacks</code> section and ki attack size caps.</translate>
+* <translate><!--T:233--> Race and form configs: new 3D aura options (<code>auraType3D</code>, <code>aura3DStyle</code>), <code>slimBodyTypes</code>, <code>hideTail</code>, <code>furUsesHairColor</code>, Otherworld timer drains, <code>levelRequisite</code> and <code>sagaRequisite</code>, and <code>VIT_scaling_max</code> / <code>DEF_scaling_max</code> in <code>stats.json</code>. See [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]].</translate>
+* <translate><!--T:234--> The max weight each master can give you is now configurable.</translate>
+* <translate><!--T:235--> Improved JSON and database player storage: logins wait for the pending logout save, slow loads are never discarded, failed loads are retried, and progression is locked until your data has loaded.</translate>
+* <translate><!--T:236--> New [[Special:MyLanguage/Commands|commands]]: <code>/dmzworldboss</code>, <code>/dmztournament</code>, <code>/dmzraid</code>, <code>/dmzminigame</code>, <code>/dmzdragonballs</code> and <code>/dmzracial reply</code>.</translate>
+* <translate><!--T:237--> New command options: <code>/dmztech add&#124;remove all</code>, <code>/dmzskill set&#124;add&#124;remove all</code>, <code>/dmzstats</code> with <code>max</code>, <code>/dmzform set all</code>; <code>/dmzlocate</code> now also finds the Otherworld Tournament.</translate>
+* <translate><!--T:238--> <code>/dmzreload story</code> now also reloads NPC dialogue.</translate>
+* <translate><!--T:239--> New quest reward types <code>ATTRIBUTES</code> and <code>ATTRIBUTE_POINTS</code>, and wish types <code>attributes</code> and <code>attributepoints</code>. See [[Special:MyLanguage/Custom Quests|Custom Quests]].</translate>
+* <translate><!--T:240--> <code>/dmzworldboss tp</code>, <code>reset</code> and <code>ready</code> default to the nearest lair, and <code>reset</code> also restores the Tree of Might, the Big Gete Star and the Horn Cradle.</translate>
+* <translate><!--T:241--> New [[Special:MyLanguage/Gamerules|gamerule]]: <code>allowBuildingInArenaStructures</code>.</translate>
+* <translate><!--T:242--> New <code>/dmzstructure here&#124;npcs</code> command (permission <code>dragonminez.dmzstructure</code>) to read structure-local coordinates and check structure NPCs.</translate>
+* <translate><!--T:243--> New datapack folder <code>data/&lt;namespace&gt;/structure_npcs/</code> to place NPCs inside DragonMineZ structures without editing their <code>.nbt</code> files. See [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].</translate>
+* <translate><!--T:244--> <code>general-server.json</code>: <code>structureMinDistanceFromSpawn</code> and <code>structureMinDistanceBetween</code> now default to 500 (were 0 and 250).</translate>
+* <translate><!--T:245--> <code>general-server.json</code>: new <code>kiTransfer</code> and <code>superSaiyanGodRitual</code> sections, and new <code>worldBoss</code> keys <code>reviveInterruptDamageRatio</code>, <code>reviveDecayMultiplier</code>, <code>truceGraceSeconds</code>, <code>healthPerExtraMember</code> and <code>damagePerExtraMember</code> (see [[Special:MyLanguage/General Server Config|General Server Config]]).</translate>
+* <translate><!--T:246--> [[Special:MyLanguage/Custom Forms|Custom forms]]: new <code>secondBorderColor</code> key in <code>aura3DStyle</code> for an outer fringe on Sparking auras.</translate>
+* <translate><!--T:247--> New <code>/dmzquest difficulty [easy&#124;normal&#124;hard] [targets]</code> to see or set a player's story difficulty (in a party it changes the leader's, so the whole party switches), with the new permission nodes <code>dmzquest.difficulty.self</code> and <code>dmzquest.difficulty.others</code>.</translate>
+* <translate><!--T:248--> <code>/dmzmastery</code> now takes its targets last and optional, like the other commands: <code>/dmzmastery set&#124;add &lt;group&gt; &lt;form&gt; &lt;value&gt; [targets]</code>.</translate>
+* <translate><!--T:249--> <code>/dmzeffect clear</code> also clears the God Ritual cooldown and the Ki Transfer effects.</translate>
+* <translate><!--T:250--> <code>/dmzquest start&#124;finish&#124;fail&#124;reset&#124;track</code> and the saga subcommands now only change the player you name, not their whole party; <code>/dmzparty kick</code> works on offline members, and <code>/dmzparty</code> and <code>/dmzparty list</code> no longer need <code>dmzparty.use</code>.</translate>
+* <translate><!--T:251--> <code>/dmzeffect remove knockout</code> ends a knockdown, and <code>/dmzeffect clear</code> now ends knockdowns too.</translate>
 
 <translate>
-=== Add-on API and compatibility ===
+=== Add-on API and compatibility === <!--T:252-->
 </translate>
 
-* <translate>Added <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code> so add-ons can add their own quest objective and reward types. See [[Special:MyLanguage/Implementation and Events|Implementation and Events]].</translate>
-* <translate>Added <code>DMZTextPlaceholders</code> so add-ons can add their own %placeholders%.</translate>
-* <translate>New events: <code>PlayerDamageMitigatedEvent</code> and <code>BarrierAbsorbEvent</code>; <code>FusionEvent</code> now covers Beetle fusion, and <code>QuestFailEvent</code> has the new <code>TIME_EXPIRED</code> and <code>ESCORT_FAILED</code> reasons.</translate>
-* <translate>Added Apotheosis compatibility: the Kikono Station keeps an item's rarity, affixes and sockets.</translate>
-* <translate>Added Lukas' Weapon Leveling compatibility: the Kikono Station keeps a weapon's level and progress.</translate>
-* <translate>Live Crowdin translations are now always on (turn them off with <code>-Ddmz.crowdin.enabled=false</code>).</translate>
-* <translate>Added more than 1,600 new translation strings.</translate>
+* <translate><!--T:253--> Added <code>QuestObjectiveRegistry</code> and <code>QuestRewardRegistry</code> so add-ons can add their own quest objective and reward types. See [[Special:MyLanguage/Implementation and Events|Implementation and Events]].</translate>
+* <translate><!--T:254--> Added <code>DMZTextPlaceholders</code> so add-ons can add their own %placeholders%.</translate>
+* <translate><!--T:255--> New events: <code>PlayerDamageMitigatedEvent</code> and <code>BarrierAbsorbEvent</code>; <code>FusionEvent</code> now covers Beetle fusion, and <code>QuestFailEvent</code> has the new <code>TIME_EXPIRED</code> and <code>ESCORT_FAILED</code> reasons.</translate>
+* <translate><!--T:256--> Added Apotheosis compatibility: the Kikono Station keeps an item's rarity, affixes and sockets.</translate>
+* <translate><!--T:257--> Added Lukas' Weapon Leveling compatibility: the Kikono Station keeps a weapon's level and progress.</translate>
+* <translate><!--T:258--> Live Crowdin translations are now always on (turn them off with <code>-Ddmz.crowdin.enabled=false</code>).</translate>
+* <translate><!--T:259--> Added more than 1,600 new translation strings.</translate>
 
 <translate>
-=== Fixes ===
+=== Fixes === <!--T:260-->
 </translate>
 
-* <translate>Fixed a lot of exploits, dupes and client/server desyncs (packets, rewards, wishes and dialogue are now validated by the server).</translate>
-* <translate>Fixed gravity rooms not working on dedicated servers.</translate>
-* <translate>Fixed modified clients being able to change their appearance at any time: appearance changes are only accepted at character creation, with a Re-Customize wish or (hair) at [[Special:MyLanguage/Mr. Popo|Mr. Popo]], and every value is checked by the server.</translate>
-* <translate>Fixed every player cooldown and duration (dash, techniques, knockdowns, Senzu gift, racial abilities…) lasting only half of its configured value.</translate>
-* <translate>Fixed skills being purchasable from anywhere: buying now requires being near a master that offers the skill.</translate>
-* <translate>Fixed %player% in command wishes with unusual player names.</translate>
-* <translate>Fixed dragons not rescattering their balls when killed, and Dragon Balls staying tracked after being removed.</translate>
+* <translate><!--T:261--> Fixed a lot of exploits, dupes and client/server desyncs (packets, rewards, wishes and dialogue are now validated by the server).</translate>
+* <translate><!--T:262--> Fixed gravity rooms not working on dedicated servers.</translate>
+* <translate><!--T:263--> Fixed modified clients being able to change their appearance at any time: appearance changes are only accepted at character creation, with a Re-Customize wish or (hair) at [[Special:MyLanguage/Mr. Popo|Mr. Popo]], and every value is checked by the server.</translate>
+* <translate><!--T:264--> Fixed every player cooldown and duration (dash, techniques, knockdowns, Senzu gift, racial abilities…) lasting only half of its configured value.</translate>
+* <translate><!--T:265--> Fixed skills being purchasable from anywhere: buying now requires being near a master that offers the skill.</translate>
+* <translate><!--T:266--> Fixed %player% in command wishes with unusual player names.</translate>
+* <translate><!--T:267--> Fixed dragons not rescattering their balls when killed, and Dragon Balls staying tracked after being removed.</translate>
 
 {{Navbox Mechanics}}

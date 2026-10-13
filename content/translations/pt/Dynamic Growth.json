@@ -1,0 +1,447 @@
+{
+ "Page_display_title": {
+  "source": "Dynamic Growth",
+  "translation": "Crescimento dinâmico",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Dynamic Growth''' is a progression system that runs alongside buying stats with Training Points: instead of (or as well as) spending TP on stat points, you earn practice XP toward each stat just by using it, by dealing damage, taking hits, spending stamina and ki, and training on the right kind of target. When a stat's practice XP bar is full, that stat goes up by 1 point and you get a message and a sound.",
+  "translation": "O '''Crescimento dinâmico''' é um sistema de progressão que funciona junto com a compra de estatísticas com pontos de treino: em vez de gastar TP em pontos de estatística (ou além disso), você ganha XP de prática para cada estatística só de usá-la: causando dano, sofrendo golpes, gastando estâmina e ki, e treinando no tipo certo de alvo. Quando a barra de XP de prática de uma estatística enche, essa estatística sobe 1 ponto e você recebe uma mensagem e um som.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Practicing one stat also trains its '''linked''' stat at half speed, and stat points earned through practice '''don't make TP purchases more expensive''' (see the TP section below). Server owners configure the system under the <code>dynamicGrowth</code> key of <code>config/dragonminez/general-server.json</code>; it has its own page because it has more than 20 fields and its own anti-farming logic.",
+  "translation": "Praticar uma estatística também treina a estatística '''vinculada''' a ela com metade da velocidade, e os pontos de estatística ganhos com prática '''não deixam as compras com TP mais caras''' (veja a seção de TP abaixo). Donos de servidores configuram o sistema na chave <code>dynamicGrowth</code> de <code>config/dragonminez/general-server.json</code>; ele tem página própria porque tem mais de 20 campos e sua própria lógica contra farm.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== How each stat grows ==",
+  "translation": "== Como cada estatística cresce ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Stat",
+  "translation": "Estatística",
+  "outdated": false
+ },
+ "5": {
+  "source": "Practice XP comes from",
+  "translation": "O XP de prática vem de",
+  "outdated": false
+ },
+ "6": {
+  "source": "Melee damage dealt (also when Ki Infusion is active, see <code>kiWeaponMeleePwrShare</code>).",
+  "translation": "Dano corpo a corpo causado (também com a Infusão de Ki ativa; veja <code>kiWeaponMeleePwrShare</code>).",
+  "outdated": false
+ },
+ "7": {
+  "source": "Damage dealt with strike techniques.",
+  "translation": "Dano causado com técnicas de golpe.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Stamina spent (<code>staminaSpentXpRatio</code>).",
+  "translation": "Estâmina gasta (<code>staminaSpentXpRatio</code>).",
+  "outdated": false
+ },
+ "9": {
+  "source": "Damage taken from an attacker.",
+  "translation": "Dano sofrido de um atacante.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Damage dealt with ki attacks and with ki weapons.",
+  "translation": "Dano causado com ataques de ki e com armas de ki.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Ki spent (<code>energySpentXpRatio</code>).",
+  "translation": "Ki gasto (<code>energySpentXpRatio</code>).",
+  "outdated": false
+ },
+ "12": {
+  "source": "Damage-based XP uses the damage of the hit, capped at 20% of the target's max health (at least 1), multiplied by the practice-source multipliers below. Creative and spectator players don't gain practice XP, and stats that are already at their cap don't grow.",
+  "translation": "O XP baseado em dano usa o dano do golpe, limitado a 20% da vida máxima do alvo (no mínimo 1), multiplicado pelos multiplicadores de fonte de prática abaixo. Jogadores no modo criativo e espectador não ganham XP de prática, e estatísticas que já estão no limite não crescem.",
+  "outdated": false
+ },
+ "13": {
+  "source": "=== Linked stats ===",
+  "translation": "=== Estatísticas vinculadas ===",
+  "outdated": false
+ },
+ "14": {
+  "source": "Every bit of practice XP also gives a share of it (<code>linkedStatXpShare</code>, '''50%''' by default) to the stat paired with it:",
+  "translation": "Cada porção de XP de prática também dá uma parte (<code>linkedStatXpShare</code>, '''50%''' por padrão) à estatística com que está emparelhada:",
+  "outdated": false
+ },
+ "15": {
+  "source": "Stat",
+  "translation": "Estatística",
+  "outdated": false
+ },
+ "16": {
+  "source": "Linked stat",
+  "translation": "Estatística vinculada",
+  "outdated": false
+ },
+ "17": {
+  "source": "SKP (and the other way round)",
+  "translation": "SKP (e vice-versa)",
+  "outdated": false
+ },
+ "18": {
+  "source": "VIT (and the other way round)",
+  "translation": "VIT (e vice-versa)",
+  "outdated": false
+ },
+ "19": {
+  "source": "ENE (and the other way round)",
+  "translation": "ENE (e vice-versa)",
+  "outdated": false
+ },
+ "20": {
+  "source": "So punching mobs grows STR at full speed and SKP at half speed, spending ki grows ENE and some PWR, and so on. The linked share is applied before the linked stat's own per-stat multiplier and limits, so it gets ''up to'' half as much. Each half respects its own per-player toggle: the linked stat still gains XP when the main stat's growth is switched off, and vice versa.",
+  "translation": "Assim, bater em mobs aumenta STR na velocidade total e SKP na metade, gastar ki aumenta ENE e um pouco de PWR, e assim por diante. A parte vinculada é aplicada antes do multiplicador e dos limites próprios da estatística vinculada, então ela recebe ''até'' a metade. Cada metade respeita seu próprio interruptor por jogador: a estatística vinculada continua ganhando XP quando o crescimento da estatística principal está desligado, e vice-versa.",
+  "outdated": false
+ },
+ "21": {
+  "source": "=== XP needed per point ===",
+  "translation": "=== XP necessário por ponto ===",
+  "outdated": false
+ },
+ "22": {
+  "source": "With <code>practiceCurveEnabled</code>, raising a stat that currently has the value <code>S</code> needs:",
+  "translation": "Com <code>practiceCurveEnabled</code>, aumentar uma estatística que está com o valor <code>S</code> exige:",
+  "outdated": false
+ },
+ "23": {
+  "source": "With the curve disabled, every point needs a flat <code>100</code> XP. A single gain can never be bigger than 10% of the XP needed for the next point.",
+  "translation": "Com a curva desativada, cada ponto exige um valor fixo de <code>100</code> XP. Um único ganho nunca pode passar de 10% do XP necessário para o próximo ponto.",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Per-player toggles ===",
+  "translation": "=== Interruptores por jogador ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "When Dynamic Growth is enabled, each player can switch practice growth on or off for every stat from the '''Configuration''' screen of the character menu (Gameplay category, \"Stat Growth\" toggles). The choice is saved in the player's data.",
+  "translation": "Quando o Crescimento dinâmico está ativado, cada jogador pode ligar ou desligar o crescimento por prática de cada estatística na tela de '''Configuração''' do menu do personagem (categoria Jogabilidade, interruptores \"Crescimento de Status\"). A escolha fica salva nos dados do jogador.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Everything below lives in the <code>dynamicGrowth</code> block of <code>config/dragonminez/general-server.json</code>.",
+  "translation": "Tudo o que segue fica no bloco <code>dynamicGrowth</code> de <code>config/dragonminez/general-server.json</code>.",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== Master toggles ===",
+  "translation": "=== Interruptores gerais ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "30": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "31": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "32": {
+  "source": "Master toggle for the whole system.",
+  "translation": "Interruptor geral de todo o sistema.",
+  "outdated": false
+ },
+ "33": {
+  "source": "If <code>false</code>, every stat point needs a flat 100 practice XP instead of the curve above.",
+  "translation": "Se for <code>false</code>, cada ponto de estatística exige um valor fixo de 100 de XP de prática em vez da curva acima.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Global multiplier applied to all practice XP.",
+  "translation": "Multiplicador global aplicado a todo o XP de prática.",
+  "outdated": false
+ },
+ "35": {
+  "source": "=== Per-stat practice multipliers ===",
+  "translation": "=== Multiplicadores de prática por estatística ===",
+  "outdated": false
+ },
+ "36": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "37": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "38": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "39": {
+  "source": "Multiplier on STR practice XP.",
+  "translation": "Multiplicador do XP de prática de STR.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Multiplier on SKP practice XP.",
+  "translation": "Multiplicador do XP de prática de SKP.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Multiplier on RES practice XP.",
+  "translation": "Multiplicador do XP de prática de RES.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Multiplier on VIT practice XP.",
+  "translation": "Multiplicador do XP de prática de VIT.",
+  "outdated": false
+ },
+ "43": {
+  "source": "Multiplier on PWR practice XP.",
+  "translation": "Multiplicador do XP de prática de PWR.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Multiplier on ENE practice XP.",
+  "translation": "Multiplicador do XP de prática de ENE.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Negative values are treated as <code>0</code> (no growth for that stat).",
+  "translation": "Valores negativos são tratados como <code>0</code> (essa estatística não cresce).",
+  "outdated": false
+ },
+ "46": {
+  "source": "=== Stamina and ki spending ===",
+  "translation": "=== Gasto de estâmina e ki ===",
+  "outdated": false
+ },
+ "47": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "48": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "49": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "50": {
+  "source": "RES practice XP per point of stamina spent.",
+  "translation": "XP de prática de RES por ponto de estâmina gasto.",
+  "outdated": false
+ },
+ "51": {
+  "source": "ENE practice XP per point of ki spent.",
+  "translation": "XP de prática de ENE por ponto de ki gasto.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Melee hits with Ki Infusion active give STR XP plus this fraction of the same XP as PWR. (Melee hits with a ki weapon give PWR XP only.)",
+  "translation": "Golpes corpo a corpo com a Infusão de Ki ativa dão XP de STR mais esta fração do mesmo XP como PWR. (Golpes corpo a corpo com uma arma de ki dão apenas XP de PWR.)",
+  "outdated": false
+ },
+ "53": {
+  "source": "Fraction of every practice XP gain that also goes to the linked stat. <code>0</code> turns linked growth off.",
+  "translation": "Fração de cada ganho de XP de prática que também vai para a estatística vinculada. <code>0</code> desliga o crescimento vinculado.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Stamina and ki spending award XP directly and bypass the repeat-target anti-farm check below, since they aren't tied to a specific target.",
+  "translation": "O gasto de estâmina e ki concede XP diretamente e ignora a verificação contra farm do mesmo alvo descrita abaixo, já que não está ligado a um alvo específico.",
+  "outdated": false
+ },
+ "55": {
+  "source": "=== TP interplay ===",
+  "translation": "=== Relação com os TP ===",
+  "outdated": false
+ },
+ "56": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "57": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "58": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "59": {
+  "source": "Multiplier on the TP earned from hits and kills while Dynamic Growth is enabled. <code>0</code> removes combat TP entirely.",
+  "translation": "Multiplicador dos TP ganhos com golpes e abates enquanto o Crescimento dinâmico está ativado. <code>0</code> remove totalmente os TP de combate.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Whether players can still buy stat points with TP. If <code>false</code>, stats only grow through practice (and other sources such as capsules or racial skills).",
+  "translation": "Se os jogadores ainda podem comprar pontos de estatística com TP. Se for <code>false</code>, as estatísticas só crescem com a prática (e com outras fontes, como cápsulas ou habilidades raciais).",
+  "outdated": false
+ },
+ "61": {
+  "source": "Multiplier on the TP cost of buying a stat point (minimum <code>1.0</code>). See the TP cost formula on [[Special:MyLanguage/General Server Config|General Server Config]].",
+  "translation": "Multiplicador do custo em TP para comprar um ponto de estatística (mínimo <code>1.0</code>). Veja a fórmula do custo em TP em [[Special:MyLanguage/General Server Config|Configuração do servidor]].",
+  "outdated": false
+ },
+ "62": {
+  "source": "Whether stat points earned through Dynamic Growth raise the TP cost of buying stats.",
+  "translation": "Se os pontos de estatística ganhos com o Crescimento dinâmico aumentam o custo em TP para comprar estatísticas.",
+  "outdated": false
+ },
+ "63": {
+  "source": "The mod keeps count of the stat points each player earned through practice. With <code>growthStatsCountForTpCost</code> off (the default), those points are left out of the total used for the TP cost of the next stat point, so growing through practice never makes buying stats more expensive. The same reduced total drives the other values that follow the stat cost: the progression TP bonus (<code>increaseTPGainRelativeToTPCost</code>) and the TP rewards of training minigames.",
+  "translation": "O mod mantém a contagem dos pontos de estatística que cada jogador ganhou com a prática. Com <code>growthStatsCountForTpCost</code> desligado (o padrão), esses pontos ficam fora do total usado para o custo em TP do próximo ponto de estatística, então crescer com a prática nunca deixa a compra de estatísticas mais cara. Esse mesmo total reduzido determina os outros valores que acompanham o custo das estatísticas: o bônus de TP por progressão (<code>increaseTPGainRelativeToTPCost</code>) e as recompensas de TP dos minijogos de treinamento.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Points bought with TP or given by capsules, wishes, commands and so on count normally. If a <code>/dmzstats</code> reset keeps only a percentage of your stats, the practice count shrinks by the same percentage; a full reset clears it.",
+  "translation": "Pontos comprados com TP ou dados por cápsulas, desejos, comandos etc. contam normalmente. Se um reset com <code>/dmzstats</code> mantém só uma porcentagem das suas estatísticas, a contagem de prática diminui na mesma porcentagem; um reset completo a zera.",
+  "outdated": false
+ },
+ "65": {
+  "source": "=== Practice-source multipliers ===",
+  "translation": "=== Multiplicadores por fonte de prática ===",
+  "outdated": false
+ },
+ "66": {
+  "source": "These scale XP down for easy or low-effort training, so the system doesn't trivially outpace the intended progression:",
+  "translation": "Estes reduzem o XP em treinos fáceis ou de pouco esforço, para que o sistema não ultrapasse facilmente a progressão prevista:",
+  "outdated": false
+ },
+ "67": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "68": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "69": {
+  "source": "Applies when…",
+  "translation": "Aplica-se quando…",
+  "outdated": false
+ },
+ "70": {
+  "source": "Training on animals (cows, sheep and so on).",
+  "translation": "Você treina em animais (vacas, ovelhas etc.).",
+  "outdated": false
+ },
+ "71": {
+  "source": "Training on protected NPCs (villagers, Namekian villagers and traders, demon villagers, masters, the dragon).",
+  "translation": "Você treina em NPCs protegidos (aldeões, aldeões e comerciantes namekuseijins, aldeões demoníacos, mestres, o dragão).",
+  "outdated": false
+ },
+ "72": {
+  "source": "The hit dealt less than 0.5 damage.",
+  "translation": "O golpe causou menos de 0.5 de dano.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Training on a Shadow Dummy.",
+  "translation": "Você treina em um Boneco de Sombra.",
+  "outdated": false
+ },
+ "74": {
+  "source": "The target is not a player or a monster and isn't targeting the player back (no real risk).",
+  "translation": "O alvo não é um jogador nem um monstro e não está atacando você de volta (sem risco real).",
+  "outdated": false
+ },
+ "75": {
+  "source": "Multipliers combine: a 0.3-damage hit on a passive cow counts <code>0.2 × 0.5 × 0.5</code>.",
+  "translation": "Os multiplicadores se combinam: um golpe de 0.3 de dano em uma vaca passiva conta <code>0.2 × 0.5 × 0.5</code>.",
+  "outdated": false
+ },
+ "76": {
+  "source": "=== Repeat-target anti-farming ===",
+  "translation": "=== Antifarm por alvo repetido ===",
+  "outdated": false
+ },
+ "77": {
+  "source": "Grinding the same target repeatedly falls off inside a time window:",
+  "translation": "Insistir no mesmo alvo repetidamente rende cada vez menos dentro de uma janela de tempo:",
+  "outdated": false
+ },
+ "78": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "79": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "80": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "81": {
+  "source": "Length of the window. It starts at the first hit on a target and restarts once it has fully elapsed.",
+  "translation": "Duração da janela. Começa no primeiro golpe em um alvo e reinicia quando termina por completo.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Hits on the same target after which the soft multiplier applies.",
+  "translation": "Golpes no mesmo alvo a partir dos quais se aplica o multiplicador suave.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Hits on the same target after which the hard multiplier applies.",
+  "translation": "Golpes no mesmo alvo a partir dos quais se aplica o multiplicador forte.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Multiplier from hit 9 to hit 24 (with the default caps).",
+  "translation": "Multiplicador do golpe 9 ao golpe 24 (com os limites padrão).",
+  "outdated": false
+ },
+ "85": {
+  "source": "Multiplier from hit 25 on.",
+  "translation": "Multiplicador a partir do golpe 25.",
+  "outdated": false
+ },
+ "86": {
+  "source": "With the defaults, hits 1–8 on the same target within the window give full XP (<code>1.0</code>), hits 9–24 give <code>0.5</code>, and every hit after that gives <code>0.15</code>. A cap of <code>0</code> disables that step. The [[Special:MyLanguage/Bio-Android|Bio-Android]] Vital Drain TP reward uses the same anti-farm counter.",
+  "translation": "Com os valores padrão, os golpes 1–8 no mesmo alvo dentro da janela dão XP total (<code>1.0</code>), os golpes 9–24 dão <code>0.5</code>, e todos os golpes depois disso dão <code>0.15</code>. Um limite de <code>0</code> desativa essa etapa. A recompensa de TP da Drenagem de Vida do [[Special:MyLanguage/Bio-Android|Bio-Androide]] usa o mesmo contador contra farm.",
+  "outdated": false
+ },
+ "87": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "88": {
+  "source": "# Edit the <code>dynamicGrowth</code> block in <code>config/dragonminez/general-server.json</code>.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code>.\n# Test in-game: fight a mob and confirm that stat points arrive at the expected rate, and that repeated hits on the same target fall off as expected.",
+  "translation": "# Edite o bloco <code>dynamicGrowth</code> em <code>config/dragonminez/general-server.json</code>.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code>.\n# Teste no jogo: lute com um mob e confirme que os pontos de estatística chegam no ritmo esperado e que golpes repetidos no mesmo alvo rendem menos, como esperado.",
+  "outdated": false
+ }
+}

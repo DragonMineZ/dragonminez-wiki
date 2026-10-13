@@ -1,0 +1,582 @@
+{
+ "Page_display_title": {
+  "source": "NPC Placement and Alignment",
+  "translation": "Posicionamento e índole de NPCs",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''NPC Placement and Alignment''' covers the files that decide where master and trainer NPCs stand and how a player's alignment changes the way each NPC treats them. Two related per-world JSON files do this, both under <code><world save>/dragonminez/npcs/</code>, plus a datapack format for NPCs that live inside structures.",
+  "translation": "'''Posicionamento e índole de NPCs''' trata dos arquivos que decidem onde ficam os NPCs mestres e treinadores e como a índole de um jogador muda a forma como cada NPC o trata. Isso é feito por dois arquivos JSON relacionados de cada mundo, ambos em <code><world save>/dragonminez/npcs/</code>, além de um formato de datapack para os NPCs que vivem dentro de estruturas.",
+  "outdated": false
+ },
+ "2": {
+  "source": "File",
+  "translation": "Arquivo",
+  "outdated": false
+ },
+ "3": {
+  "source": "What it controls",
+  "translation": "O que controla",
+  "outdated": false
+ },
+ "4": {
+  "source": "Where master and trainer NPCs spawn (position, dimension, initial alignment or relation).",
+  "translation": "Onde os NPCs mestres e treinadores aparecem (posição, dimensão, índole ou relação inicial).",
+  "outdated": false
+ },
+ "5": {
+  "source": "How a '''player's''' alignment affects each NPC's hostility, friendliness and availability for interaction.",
+  "translation": "Como a índole do '''jogador''' afeta a hostilidade, a simpatia e a disponibilidade para interação de cada NPC.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Both files load at server start and reload with <code>/dmzreload config</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]. A reload also applies the placements again to every loaded dimension.",
+  "translation": "Os dois arquivos são carregados quando o servidor inicia e recarregados com <code>/dmzreload config</code> (ou <code>/dmzreload all</code>); veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]. Uma recarga também reaplica os posicionamentos em todas as dimensões carregadas.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Old worlds keep their old files",
+  "translation": "Mundos antigos mantêm seus arquivos antigos",
+  "outdated": false
+ },
+ "8": {
+  "source": "Both files are only written with DragonMineZ's defaults when they are '''missing'''. A world created with an older DragonMineZ version keeps its old files, so it does not get new default entries (for example the v2.2 Otherworld NPCs and their new coordinates). To get the current defaults, delete the file (back it up first if you edited it) and run <code>/dmzreload config</code>.",
+  "translation": "Os dois arquivos só são criados com os valores padrão do DragonMineZ quando '''não existem'''. Um mundo criado com uma versão anterior do DragonMineZ mantém seus arquivos antigos, então não recebe as novas entradas padrão (por exemplo, os NPCs do Outro Mundo da v2.2 e suas novas coordenadas). Para obter os padrões atuais, apague o arquivo (faça backup antes se você o editou) e execute <code>/dmzreload config</code>.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== NPC placement ==",
+  "translation": "== Posicionamento de NPCs ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "<code>placements.json</code> lists every NPC DragonMineZ places and where.",
+  "translation": "<code>placements.json</code> lista todos os NPCs que o DragonMineZ coloca e onde.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Source: <code>src/main/java/com/dragonminez/server/world/npc/NPCPlacementManager.java</code>.",
+  "translation": "Código-fonte: <code>src/main/java/com/dragonminez/server/world/npc/NPCPlacementManager.java</code>.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "13": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "14": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "15": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "16": {
+  "source": "Unique placement id. It is tagged onto the spawned entity so DragonMineZ can find and update it later. If two placements share an id, the last one in the file wins (a warning is logged).",
+  "translation": "Id único do posicionamento. Ele é marcado na entidade gerada para que o DragonMineZ possa encontrá-la e atualizá-la depois. Se dois posicionamentos têm o mesmo id, vale o último do arquivo (um aviso é registrado no log).",
+  "outdated": false
+ },
+ "17": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "18": {
+  "source": "Registry id of the entity type.",
+  "translation": "Id de registro do tipo de entidade.",
+  "outdated": false
+ },
+ "19": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "20": {
+  "source": "Defaults to <code>minecraft:overworld</code>.",
+  "translation": "Padrão: <code>minecraft:overworld</code>.",
+  "outdated": false
+ },
+ "21": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "22": {
+  "source": "Only meaningful for <code>dragonminez:quest_npc</code> entities: links to the quest system's NPC id.",
+  "translation": "Só tem efeito para entidades <code>dragonminez:quest_npc</code>: liga ao id de NPC do sistema de missões.",
+  "outdated": false
+ },
+ "23": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "24": {
+  "source": "Only used for <code>quest_npc</code> entities.",
+  "translation": "Usado apenas para entidades <code>quest_npc</code>.",
+  "outdated": false
+ },
+ "25": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "26": {
+  "source": "If set, <code>x</code>, <code>y</code> and <code>z</code> become an '''offset''' from that structure's origin instead of world coordinates. Valid values: <code>roshi_house</code>, <code>goku_house</code>, <code>elder_guru</code>, <code>timechamber</code>, <code>kamilookout</code>, <code>gero_lab</code>. An unrecognized value falls back to treating <code>x</code>, <code>y</code> and <code>z</code> as raw world coordinates (with a warning in the log).",
+  "translation": "Se definido, <code>x</code>, <code>y</code> e <code>z</code> passam a ser um '''deslocamento''' a partir da origem dessa estrutura, em vez de coordenadas do mundo. Valores válidos: <code>roshi_house</code>, <code>goku_house</code>, <code>elder_guru</code>, <code>timechamber</code>, <code>kamilookout</code>, <code>gero_lab</code>. Um valor não reconhecido faz <code>x</code>, <code>y</code> e <code>z</code> serem tratados como coordenadas brutas do mundo (com um aviso no log).",
+  "outdated": false
+ },
+ "27": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "28": {
+  "source": "World coordinates, or the offset from the structure (see above). Defaults: <code>0.5</code>, <code>64.0</code>, <code>0.5</code>.",
+  "translation": "Coordenadas do mundo, ou o deslocamento a partir da estrutura (veja acima). Padrões: <code>0.5</code>, <code>64.0</code>, <code>0.5</code>.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "30": {
+  "source": "Facing direction in degrees.",
+  "translation": "Direção para onde olha, em graus.",
+  "outdated": false
+ },
+ "31": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "32": {
+  "source": "If <code>true</code>, snaps Y to the terrain surface at load time instead of using the given Y.",
+  "translation": "Se for <code>true</code>, ajusta o Y à superfície do terreno ao carregar, em vez de usar o Y informado.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "34": {
+  "source": "If <code>true</code>, adds the world's spawn point to <code>x</code> and <code>z</code> (applied after any structure offset).",
+  "translation": "Se for <code>true</code>, soma o ponto de spawn do mundo a <code>x</code> e <code>z</code> (aplicado depois de qualquer deslocamento de estrutura).",
+  "outdated": false
+ },
+ "35": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "36": {
+  "source": "If <code>false</code>, this placement is skipped entirely.",
+  "translation": "Se for <code>false</code>, este posicionamento é totalmente ignorado.",
+  "outdated": false
+ },
+ "37": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "38": {
+  "source": "If <code>true</code>, the entity is always respawned, even if one already exists for this <code>id</code>. Otherwise an existing entity is just updated in place.",
+  "translation": "Se for <code>true</code>, a entidade é sempre gerada de novo, mesmo que já exista uma para este <code>id</code>. Caso contrário, a entidade existente é só atualizada no lugar.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Integer (0–100)",
+  "translation": "Inteiro (0–100)",
+  "outdated": false
+ },
+ "40": {
+  "source": "Optional alignment for this specific NPC: above 60 it is friendly, from 41 to 60 neutral, and 40 or less hostile (unless an alignment rule makes it hostile first, see below).",
+  "translation": "Índole opcional para este NPC específico: acima de 60 ele é amigável, de 41 a 60 neutro e com 40 ou menos hostil (a menos que uma regra de índole o torne hostil antes, veja abaixo).",
+  "outdated": false
+ },
+ "41": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "42": {
+  "source": "Optional override for this instance (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>), stored on the entity itself instead of being looked up from the alignment rules.",
+  "translation": "Substituição opcional para esta instância (<code>HOSTILE</code>, <code>NEUTRAL</code> ou <code>FRIENDLY</code>), guardada na própria entidade em vez de ser consultada nas regras de índole.",
+  "outdated": false
+ },
+ "43": {
+  "source": "Unknown keys are reported in the JSON load report.",
+  "translation": "Chaves desconhecidas são indicadas no relatório de carregamento do JSON.",
+  "outdated": false
+ },
+ "44": {
+  "source": "=== Default placements ===",
+  "translation": "=== Posicionamentos padrão ===",
+  "outdated": false
+ },
+ "45": {
+  "source": "The default file actively spawns these NPCs:",
+  "translation": "O arquivo padrão gera ativamente estes NPCs:",
+  "outdated": false
+ },
+ "46": {
+  "source": "Placement id",
+  "translation": "Id do posicionamento",
+  "outdated": false
+ },
+ "47": {
+  "source": "Entity",
+  "translation": "Entidade",
+  "outdated": false
+ },
+ "48": {
+  "source": "Where",
+  "translation": "Onde",
+  "outdated": false
+ },
+ "49": {
+  "source": "Roshi's house",
+  "translation": "Casa do Kame",
+  "outdated": false
+ },
+ "50": {
+  "source": "Goku's house",
+  "translation": "Casa do Goku",
+  "outdated": false
+ },
+ "51": {
+  "source": "Kami's Lookout",
+  "translation": "Mirante de Kami",
+  "outdated": false
+ },
+ "52": {
+  "source": "Gero's lab",
+  "translation": "Laboratório do Dr. Gero",
+  "outdated": false
+ },
+ "53": {
+  "source": "Elder Guru's house (Namek)",
+  "translation": "Casa do Grande Ancião (Namekusei)",
+  "outdated": false
+ },
+ "54": {
+  "source": "Otherworld, <code>54.5 299 1031.5</code>",
+  "translation": "Outro Mundo, <code>54.5 299 1031.5</code>",
+  "outdated": false
+ },
+ "55": {
+  "source": "Otherworld, <code>50.5 298 1030.5</code>",
+  "translation": "Outro Mundo, <code>50.5 298 1030.5</code>",
+  "outdated": false
+ },
+ "56": {
+  "source": "Otherworld, <code>0.5 150 17.5</code>",
+  "translation": "Outro Mundo, <code>0.5 150 17.5</code>",
+  "outdated": false
+ },
+ "57": {
+  "source": "Otherworld, <code>9.5 150 3.5</code>",
+  "translation": "Outro Mundo, <code>9.5 150 3.5</code>",
+  "outdated": false
+ },
+ "58": {
+  "source": "Otherworld, <code>-30.5 150 12.5</code>",
+  "translation": "Outro Mundo, <code>-30.5 150 12.5</code>",
+  "outdated": false
+ },
+ "59": {
+  "source": "<code>dragonminez:quest_npc</code> (<code>npc_id</code> <code>hell_ogre</code>)",
+  "translation": "<code>dragonminez:quest_npc</code> (<code>npc_id</code> <code>hell_ogre</code>)",
+  "outdated": false
+ },
+ "60": {
+  "source": "Otherworld, <code>9.5 150 16.5</code>",
+  "translation": "Outro Mundo, <code>9.5 150 16.5</code>",
+  "outdated": false
+ },
+ "61": {
+  "source": "[[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] grounds, <code>-25.5 352 -1164.5</code> (only placed once the tournament grounds have been built)",
+  "translation": "Arena do [[Special:MyLanguage/Otherworld Tournament|Torneio do Outro Mundo]], <code>-25.5 352 -1164.5</code> (só é colocado depois que a arena do torneio é construída)",
+  "outdated": false
+ },
+ "62": {
+  "source": "=== Quest NPCs and master NPCs ===",
+  "translation": "=== NPCs de missões e NPCs mestres ===",
+  "outdated": false
+ },
+ "63": {
+  "source": "Quest NPCs (Bulma, Krillin, Yamcha, Tien, Piccolo, Gohan, Vegeta, Trunks, Chi-Chi, Videl, Shin and the Namek Elder) appear in the default file too, but with <code>\"enabled\": false</code>: they are no longer spawned at runtime through this system. They are baked directly into the structure NBT, so they live at fixed, hand-placed spots instead of piling up at the world spawn. Their entries here are for reference only. NPCs added to a structure after its NBT was made come from [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|structure NPC files]] instead (Chi-Chi in Goku's House is one).",
+  "translation": "Os NPCs de missões (Bulma, Kuririn, Yamcha, Tenshinhan, Piccolo, Gohan, Vegeta, Trunks, Chi-Chi, Videl, Shin e o Ancião Namekuseijin) também aparecem no arquivo padrão, mas com <code>\"enabled\": false</code>: eles não são mais gerados durante o jogo por este sistema. Eles estão embutidos diretamente no NBT da estrutura, então ficam em pontos fixos colocados à mão, em vez de se amontoarem no spawn do mundo. As entradas deles aqui são apenas para referência. Os NPCs adicionados a uma estrutura depois que o NBT dela foi feito vêm dos [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|arquivos de NPCs de estruturas]] (a Chi-Chi na Casa do Goku é um deles).",
+  "outdated": false
+ },
+ "64": {
+  "source": "The Otherworld NPCs (<code>master_kaiosama</code>, <code>master_enma</code>, <code>master_baba</code>, <code>master_toribot</code>, <code>master_grandkai</code>, <code>master_otherworld_announcer</code> and <code>npc_hell_ogre</code>) always force <code>override: true</code> internally, whatever the file says, since they need to exist reliably in a generated dimension. See [[Special:MyLanguage/Otherworld|Otherworld]].",
+  "translation": "Os NPCs do Outro Mundo (<code>master_kaiosama</code>, <code>master_enma</code>, <code>master_baba</code>, <code>master_toribot</code>, <code>master_grandkai</code>, <code>master_otherworld_announcer</code> e <code>npc_hell_ogre</code>) sempre forçam <code>override: true</code> internamente, independentemente do que diz o arquivo, já que precisam existir de forma confiável em uma dimensão gerada. Veja [[Special:MyLanguage/Otherworld|Outro Mundo]].",
+  "outdated": false
+ },
+ "65": {
+  "source": "== Structure NPCs ==",
+  "translation": "== NPCs de estruturas ==",
+  "outdated": false
+ },
+ "66": {
+  "source": "Structure NPC files place NPCs '''inside''' a DragonMineZ structure without editing its <code>.nbt</code> file. Unlike the files above, these are '''datapack''' files: <code>data/<namespace>/structure_npcs/*.json</code>, one per structure, loaded with the datapacks (and by <code>/reload</code>).",
+  "translation": "Os arquivos de NPCs de estruturas colocam NPCs '''dentro''' de uma estrutura do DragonMineZ sem editar o arquivo <code>.nbt</code> dela. Diferente dos arquivos acima, estes são arquivos de '''datapack''': <code>data/<namespace>/structure_npcs/*.json</code>, um por estrutura, carregados com os datapacks (e pelo <code>/reload</code>).",
+  "outdated": false
+ },
+ "67": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "68": {
+  "source": "Required",
+  "translation": "Obrigatório",
+  "outdated": false
+ },
+ "69": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "70": {
+  "source": "Yes",
+  "translation": "Sim",
+  "outdated": false
+ },
+ "71": {
+  "source": "Id of the structure the NPCs belong to.",
+  "translation": "Id da estrutura à qual os NPCs pertencem.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Yes",
+  "translation": "Sim",
+  "outdated": false
+ },
+ "73": {
+  "source": "Unique id of this NPC inside the structure. It is also the tracking key, so don't rename it once worlds use it.",
+  "translation": "Id único deste NPC dentro da estrutura. Ele também é a chave de rastreamento, então não o renomeie depois que mundos já o usarem.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Yes",
+  "translation": "Sim",
+  "outdated": false
+ },
+ "75": {
+  "source": "Entity type to spawn (for example <code>dragonminez:quest_npc</code> or a master's entity id).",
+  "translation": "Tipo de entidade a ser gerada (por exemplo, <code>dragonminez:quest_npc</code> ou o id de entidade de um mestre).",
+  "outdated": false
+ },
+ "76": {
+  "source": "No",
+  "translation": "Não",
+  "outdated": false
+ },
+ "77": {
+  "source": "Quest NPC id, for <code>dragonminez:quest_npc</code>.",
+  "translation": "Id do NPC de missões, para <code>dragonminez:quest_npc</code>.",
+  "outdated": false
+ },
+ "78": {
+  "source": "No",
+  "translation": "Não",
+  "outdated": false
+ },
+ "79": {
+  "source": "Model and texture names for quest NPCs.",
+  "translation": "Nomes de modelo e textura para os NPCs de missões.",
+  "outdated": false
+ },
+ "80": {
+  "source": "No",
+  "translation": "Não",
+  "outdated": false
+ },
+ "81": {
+  "source": "Which template of the structure the position is relative to, for structures made of several pieces.",
+  "translation": "O template da estrutura ao qual a posição é relativa, para estruturas formadas por várias peças.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Yes",
+  "translation": "Sim",
+  "outdated": false
+ },
+ "83": {
+  "source": "Position '''relative to the structure's template''', so it stays right whatever rotation the structure spawned with.",
+  "translation": "Posição '''relativa ao template da estrutura''', então ela fica certa qualquer que seja a rotação com que a estrutura foi gerada.",
+  "outdated": false
+ },
+ "84": {
+  "source": "No",
+  "translation": "Não",
+  "outdated": false
+ },
+ "85": {
+  "source": "Facing, also relative to the template (default <code>0</code>).",
+  "translation": "Orientação, também relativa ao template (padrão <code>0</code>).",
+  "outdated": false
+ },
+ "86": {
+  "source": "No",
+  "translation": "Não",
+  "outdated": false
+ },
+ "87": {
+  "source": "Initial alignment and relation, as in <code>placements.json</code>.",
+  "translation": "Índole e relação iniciais, como em <code>placements.json</code>.",
+  "outdated": false
+ },
+ "88": {
+  "source": "Each NPC spawns '''once''' per generated structure when its chunk loads, including structures that were generated before the file existed, and the spawn is remembered: an NPC that dies doesn't come back.",
+  "translation": "Cada NPC aparece '''uma vez''' por estrutura gerada quando o chunk dela carrega, incluindo estruturas geradas antes de o arquivo existir, e o spawn fica registrado: um NPC que morre não volta.",
+  "outdated": false
+ },
+ "89": {
+  "source": "To get the coordinates, stand where the NPC should be and run <code>/dmzstructure here</code>: it prints the structure, its template and your position and yaw relative to the template, with a '''Copy NPC JSON''' button that copies a ready-made entry. <code>/dmzstructure npcs</code> lists the NPCs of the structure you are in and whether each one has spawned yet. Both commands need the <code>dragonminez.dmzstructure</code> permission (see [[Special:MyLanguage/Permissions|Permissions]]).",
+  "translation": "Para obter as coordenadas, fique onde o NPC deve estar e execute <code>/dmzstructure here</code>: ele mostra a estrutura, o template dela e sua posição e yaw relativos ao template, com um botão '''Copy NPC JSON''' que copia uma entrada pronta. <code>/dmzstructure npcs</code> lista os NPCs da estrutura em que você está e se cada um já apareceu. Os dois comandos exigem a permissão <code>dragonminez.dmzstructure</code> (veja [[Special:MyLanguage/Permissions|Permissões]]).",
+  "outdated": false
+ },
+ "90": {
+  "source": "== NPC alignment rules ==",
+  "translation": "== Regras de índole de NPCs ==",
+  "outdated": false
+ },
+ "91": {
+  "source": "<code>alignment_rules.json</code> decides how each NPC reacts to the player's alignment.",
+  "translation": "<code>alignment_rules.json</code> decide como cada NPC reage à índole do jogador.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Source: <code>src/main/java/com/dragonminez/common/alignment/NpcAlignmentRules.java</code>.",
+  "translation": "Código-fonte: <code>src/main/java/com/dragonminez/common/alignment/NpcAlignmentRules.java</code>.",
+  "outdated": false
+ },
+ "93": {
+  "source": "The keys in <code>npcs</code> are NPC ids '''with any namespace stripped''' (<code>dragonminez:roshi</code> becomes the key <code>roshi</code>).",
+  "translation": "As chaves em <code>npcs</code> são ids de NPC '''sem nenhum namespace''' (<code>dragonminez:roshi</code> vira a chave <code>roshi</code>).",
+  "outdated": false
+ },
+ "94": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "95": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "96": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "97": {
+  "source": "Base relation when none of the thresholds below overrides it. Defaults to <code>NEUTRAL</code>.",
+  "translation": "Relação base quando nenhum dos limites abaixo a substitui. Padrão: <code>NEUTRAL</code>.",
+  "outdated": false
+ },
+ "98": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "99": {
+  "source": "If the player's alignment is below this value, the NPC turns hostile regardless of <code>default_relation</code>.",
+  "translation": "Se a índole do jogador estiver abaixo deste valor, o NPC fica hostil independentemente de <code>default_relation</code>.",
+  "outdated": false
+ },
+ "100": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "101": {
+  "source": "The same, but for an alignment above this value.",
+  "translation": "O mesmo, mas para uma índole acima deste valor.",
+  "outdated": false
+ },
+ "102": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "103": {
+  "source": "The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.",
+  "translation": "O jogador precisa de pelo menos esta índole para falar com o NPC. Mesmo que o NPC não seja hostil, uma índole baixa o suficiente ainda bloqueia a interação. Também pode ser escrito direto na regra, sem o invólucro <code>interaction</code>.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "105": {
+  "source": "The same, but as an upper bound.",
+  "translation": "O mesmo, mas como limite superior.",
+  "outdated": false
+ },
+ "106": {
+  "source": "All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he is present but won't talk (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and can be talked to.",
+  "translation": "Os quatro campos de limite são opcionais: omita os que não se aplicam. Usando a entrada <code>goku</code> acima como exemplo: com índole abaixo de 25, o Goku é hostil; de 25 a 60 ele está presente, mas não conversa (a índole está abaixo do <code>min_alignment</code> de 61); com 61 ou mais ele é amigável e dá para falar com ele.",
+  "outdated": false
+ },
+ "107": {
+  "source": "<code>NpcDispositionService.getRelation()</code> checks the relation in this order:",
+  "translation": "<code>NpcDispositionService.getRelation()</code> verifica a relação nesta ordem:",
+  "outdated": false
+ },
+ "108": {
+  "source": "# A <code>relation</code> set on the placement (<code>placements.json</code>) wins.\n# The rule's <code>hostile_below</code> and <code>hostile_above</code> thresholds.\n# An <code>alignment</code> set on the placement.\n# The rule's <code>default_relation</code>.",
+  "translation": "# Uma <code>relation</code> definida no posicionamento (<code>placements.json</code>) tem prioridade.\n# Os limites <code>hostile_below</code> e <code>hostile_above</code> da regra.\n# Um <code>alignment</code> definido no posicionamento.\n# O <code>default_relation</code> da regra.",
+  "outdated": false
+ },
+ "109": {
+  "source": "=== Master NPCs ===",
+  "translation": "=== NPCs mestres ===",
+  "outdated": false
+ },
+ "110": {
+  "source": "For '''master and trainer NPCs''' the rule file decides hostility, but their alignment gate is a fixed rule instead of <code>interaction</code>: masters can always be talked to, but [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] only unlock their '''Skills''', '''Train''' and new quests at an alignment of at least '''61''', and [[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]] at '''40 or less'''. Every other master has no alignment gate. See [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Para os '''NPCs mestres e treinadores''', o arquivo de regras decide a hostilidade, mas o filtro de índole deles é uma regra fixa em vez de <code>interaction</code>: sempre dá para falar com os mestres, mas [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|Rei Kai]], [[Special:MyLanguage/Old Kai|Velho Kaioshin]], [[Special:MyLanguage/Master Roshi|Mestre Kame]] e [[Special:MyLanguage/Krillin|Kuririn]] só liberam '''Habilidades''', '''Treinar''' e as missões novas com uma índole de pelo menos '''61''', e [[Special:MyLanguage/Cell|Cell]] e [[Special:MyLanguage/Frieza|Freeza]] com '''40 ou menos'''. Nenhum outro mestre tem filtro de índole. Veja [[Special:MyLanguage/Masters|Mestres]].",
+  "outdated": false
+ },
+ "111": {
+  "source": "=== NPC ids covered by default ===",
+  "translation": "=== Ids de NPC incluídos por padrão ===",
+  "outdated": false
+ },
+ "112": {
+  "source": "The default file covers <code>goku</code>, <code>roshi</code>, <code>karin</code>, <code>guru</code>, <code>dende</code>, <code>popo</code>, <code>kingkai</code>, <code>gero</code>, <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code>, <code>bulma</code>, <code>krillin</code>, <code>yamcha</code>, <code>tien</code>, <code>chiaotzu</code>, <code>gohan</code>, <code>trunks</code>, <code>chi_chi</code>, <code>videl</code>, <code>namek_elder</code>, <code>shin</code>, <code>piccolo</code> and <code>vegeta</code>.",
+  "translation": "O arquivo padrão inclui <code>goku</code>, <code>roshi</code>, <code>karin</code>, <code>guru</code>, <code>dende</code>, <code>popo</code>, <code>kingkai</code>, <code>gero</code>, <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code>, <code>bulma</code>, <code>krillin</code>, <code>yamcha</code>, <code>tien</code>, <code>chiaotzu</code>, <code>gohan</code>, <code>trunks</code>, <code>chi_chi</code>, <code>videl</code>, <code>namek_elder</code>, <code>shin</code>, <code>piccolo</code> e <code>vegeta</code>.",
+  "outdated": false
+ },
+ "113": {
+  "source": "* Most default to <code>FRIENDLY</code> with <code>min_alignment: 41</code> (or <code>61</code> for Goku, Guru, Dende, King Kai and the Namek Elder) and <code>hostile_below: 25</code>.\n* <code>gero</code> defaults to <code>NEUTRAL</code> with <code>max_alignment: 60</code>.\n* <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code> and <code>vegeta</code> default to <code>NEUTRAL</code> with no thresholds.\n* <code>piccolo</code> defaults to <code>NEUTRAL</code> with its own thresholds (<code>min_alignment: 41</code>, <code>hostile_below: 20</code>).",
+  "translation": "* A maioria usa por padrão <code>FRIENDLY</code> com <code>min_alignment: 41</code> (ou <code>61</code> para Goku, Guru, Dende, Rei Kai e o Ancião Namekuseijin) e <code>hostile_below: 25</code>.\n* <code>gero</code> usa por padrão <code>NEUTRAL</code> com <code>max_alignment: 60</code>.\n* <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code> e <code>vegeta</code> usam por padrão <code>NEUTRAL</code> sem limites.\n* <code>piccolo</code> usa por padrão <code>NEUTRAL</code> com limites próprios (<code>min_alignment: 41</code>, <code>hostile_below: 20</code>).",
+  "outdated": false
+ },
+ "114": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "115": {
+  "source": "# Edit the files under <code><world save>/dragonminez/npcs/</code>.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run <code>/dmzreload config</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].\n# Check that the NPC spawned or moved as expected, and that hostility and interaction based on alignment behave as configured (test at a couple of alignment values if you can).",
+  "translation": "# Edite os arquivos em <code><world save>/dragonminez/npcs/</code>.\n# Valide a sintaxe JSON (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).\n# Execute <code>/dmzreload config</code> (ou <code>/dmzreload all</code>); veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]].\n# Confira se o NPC apareceu ou se moveu como esperado, e se a hostilidade e a interação conforme a índole se comportam como configurado (teste com alguns valores de índole, se puder).",
+  "outdated": false
+ }
+}

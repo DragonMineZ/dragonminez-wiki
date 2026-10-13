@@ -1,0 +1,53 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> Only in [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] and his Classic Saga quest</translate>
+|Behavior=<translate><!--T:3--> Flies; Novice AI in the tournament</translate>
+|Health=155
+|Damage=<translate><!--T:4--> 15 (doubled against Evil players)</translate>
+|Abilities=<translate><!--T:5--> Flight; melee only; hits Evil-aligned players twice as hard</translate>
+|Drops=<translate><!--T:6--> None</translate>
+}}
+<translate>
+<!--T:7-->
+'''Akkuman''' is one of [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]'s fighters, a fast flyer who punishes evil hearts: his hits deal double damage to Evil-aligned players. He is one of the four contenders of [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] at [[Special:MyLanguage/Fortuneteller Baba's Palace|Baba's Palace]] on [[Special:MyLanguage/Earth|Earth]], and one of Baba's fighters in the [[Special:MyLanguage/Classic Saga|Classic Saga]].
+</translate>
+
+<translate>
+== In the tournament == <!--T:8-->
+
+<!--T:9-->
+Akkuman is one of the four contenders of Fortuneteller Baba's Tournament, together with [[Special:MyLanguage/Fangs the Vampire|Fangs the Vampire]], the [[Special:MyLanguage/Invisible Man|Invisible Man]] and the [[Special:MyLanguage/Mummy|Mummy]]. The contenders come in random order and get 10% stronger for every round already played; after them come the [[Special:MyLanguage/Masked Warrior|Masked Warrior]] and [[Special:MyLanguage/Kid Goku|Kid Goku]]. His default stats for the first round are:
+</translate>
+{| class="wikitable"
+! <translate><!--T:10--> Stage</translate> !! <translate><!--T:11--> Health / melee / ki</translate> !! <translate><!--T:12--> AI tier</translate>
+|-
+| <translate><!--T:13--> Contender</translate> || 155 / 15 / 14 || <translate><!--T:14--> Novice</translate>
+|}
+
+<translate>
+<!--T:15-->
+Bouts end at knockout, so nobody dies. See [[Special:MyLanguage/Tournaments|Tournaments]] for how bouts work.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:16-->
+
+<!--T:17-->
+'''Punishing evil:''' Akkuman's melee hits deal '''double damage''' to players with Evil [[Special:MyLanguage/Alignment|alignment]] (40 or less). Other players take his normal damage.
+
+<!--T:18-->
+He flies and moves faster than most fighters. He has no ki attacks and fights with melee only, so his ki damage goes unused. In the tournament he fights on the '''Novice''' AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+<translate>
+== In the story == <!--T:19-->
+
+<!--T:20-->
+The [[Special:MyLanguage/Classic Saga|Classic Saga]] quest '''Baba's Fighters: Akkuman''' (quest 27) has you defeat him at Fortuneteller Baba's Palace.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:21--> Entity id</translate>|<code>dragonminez:saga_akkuman</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

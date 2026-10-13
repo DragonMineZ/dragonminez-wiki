@@ -1,192 +1,205 @@
 <translate>
+<!--T:1-->
 '''Training Points (TP)''' and '''mastery''' are the two things you grind in DragonMineZ. TP is the currency you spend on [[Special:MyLanguage/Stats and Attributes|stats]], [[Special:MyLanguage/Skills|skills]], [[Special:MyLanguage/Techniques|techniques]] and [[Special:MyLanguage/Transformations|transformations]]; mastery measures how well you control each transformation. This page lists every way to earn both and how to stack your bonuses.
 </translate>
 
 <translate>
-== Training Points ==
+== Training Points == <!--T:2-->
 
+<!--T:3-->
 TP is stored on your character. Every source below is run through your [[Special:MyLanguage/Training Points and Mastery#TP boosts|TP boosts]] before it is added. The amounts are the server defaults.
 </translate>
 
 <translate>
-=== Ways to earn TP ===
+=== Ways to earn TP === <!--T:4-->
 </translate>
 {{Config|General Server Config|gameplay}}
 
 {| class="wikitable"
-! <translate>Source</translate> !! <translate>How</translate>
+! <translate><!--T:5--> Source</translate> !! <translate><!--T:6--> How</translate>
 |-
-| <translate>'''Training minigames'''</translate> || <translate>Five minigames taught by [[Special:MyLanguage/Masters|masters]]: see [[Special:MyLanguage/Training Points and Mastery#Training minigames|Training minigames]] below.</translate>
+| <translate><!--T:7--> '''Training minigames'''</translate> || <translate><!--T:8--> Five minigames taught by [[Special:MyLanguage/Masters|masters]]: see [[Special:MyLanguage/Training Points and Mastery#Training minigames|Training minigames]] below.</translate>
 |-
-| <translate>'''Defeating enemies'''</translate> || <translate>Killing a mob or a player grants the per-hit TP plus '''25%''' of the target's '''max health'''. A regular Shadow Dummy gives half.</translate>
+| <translate><!--T:9--> '''Defeating enemies'''</translate> || <translate><!--T:10--> Killing a mob or a player grants the per-hit TP plus '''25%''' of the target's '''max health'''. A regular Shadow Dummy gives half.</translate>
 |-
-| <translate>'''Hitting enemies'''</translate> || <translate>Every hit of 1 or more damage you land grants '''2''' TP. The punch machine works the same way.</translate>
+| <translate><!--T:11--> '''Hitting enemies'''</translate> || <translate><!--T:12--> Every hit of 1 or more damage you land grants '''2''' TP. The punch machine works the same way.</translate>
 |-
-| <translate>'''Your own Shadow Dummy'''</translate> || <translate>Kills and hits on a Shadow Dummy you summoned from the Minigames tab give '''+25% to +75%''' extra TP, matching the stat share you gave it.</translate>
+| <translate><!--T:13--> '''Your own Shadow Dummy'''</translate> || <translate><!--T:14--> Kills and hits on a Shadow Dummy you summoned from the Minigames tab give '''+25% to +75%''' extra TP, matching the stat share you gave it.</translate>
 |-
-| <translate>'''Passive training'''</translate> || <translate>'''1''' TP every 5 seconds just for playing.</translate>
+| <translate><!--T:15--> '''Passive training'''</translate> || <translate><!--T:16--> '''1''' TP every 5 seconds just for playing.</translate>
 |-
-| <translate>'''Traveling'''</translate> || <translate>'''1''' TP per 20 blocks moved.</translate>
+| <translate><!--T:17--> '''Traveling'''</translate> || <translate><!--T:18--> '''1''' TP per 20 blocks moved.</translate>
 |-
-| <translate>'''Mining'''</translate> || <translate>'''1''' TP per block broken, plus 25% of that per point of XP the block drops.</translate>
+| <translate><!--T:19--> '''Mining'''</translate> || <translate><!--T:20--> '''1''' TP per block broken, plus 25% of that per point of XP the block drops.</translate>
 |-
-| <translate>'''Crafting'''</translate> || <translate>'''1''' TP per item crafted, multiplied by the item's rarity or tool and armor tier.</translate>
+| <translate><!--T:21--> '''Crafting'''</translate> || <translate><!--T:22--> '''1''' TP per item crafted, multiplied by the item's rarity or tool and armor tier.</translate>
 |-
-| <translate>'''Story and side quests'''</translate> || <translate>Quests reward '''Attributes''': half as Attribute Points, half as the TP those stat points cost you right now (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]). Quest lists: [[Special:MyLanguage/Sagas|Sagas]].</translate>
+| <translate><!--T:23--> '''Story and side quests'''</translate> || <translate><!--T:24--> Quests reward '''Attributes''': half as Attribute Points, half as the TP those stat points cost you right now (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]). Quest lists: [[Special:MyLanguage/Sagas|Sagas]].</translate>
 |-
-| <translate>'''World bosses, raids and tournaments'''</translate> || <translate>Lump sums for taking part (world bosses pay Attributes instead of TP): see [[Special:MyLanguage/World Bosses|World Bosses]], [[Special:MyLanguage/Raids|Raids]] and [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
+| <translate><!--T:25--> '''World bosses, raids and tournaments'''</translate> || <translate><!--T:26--> Lump sums for taking part (world bosses pay Attributes instead of TP): see [[Special:MyLanguage/World Bosses|World Bosses]], [[Special:MyLanguage/Raids|Raids]] and [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
 |-
-| <translate>'''Wishes'''</translate> || <translate>[[Special:MyLanguage/Shenron|Shenron]]'s '''Power Boost''' grants '''x100 Attributes''' and [[Special:MyLanguage/Porunga|Porunga]]'s '''x75''' (same split as quest Attributes).</translate>
+| <translate><!--T:27--> '''Wishes'''</translate> || <translate><!--T:28--> [[Special:MyLanguage/Shenron|Shenron]]'s '''Power Boost''' grants '''x100 Attributes''' and [[Special:MyLanguage/Porunga|Porunga]]'s '''x75''' (same split as quest Attributes).</translate>
 |-
-| <translate>'''Party sharing'''</translate> || <translate>Party members receive '''50%''' of the TP you earn. Sharing needs you to know [[Special:MyLanguage/Instant Transmission|Instant Transmission]]: members must be in the same dimension and within its range (200 blocks per skill level). See <code>/dmzparty</code> on [[Special:MyLanguage/Commands|Commands]].</translate>
+| <translate><!--T:29--> '''Party sharing'''</translate> || <translate><!--T:30--> Party members receive '''50%''' of the TP you earn. Sharing needs you to know [[Special:MyLanguage/Instant Transmission|Instant Transmission]]: members must be in the same dimension and within its range (200 blocks per skill level). See <code>/dmzparty</code> on [[Special:MyLanguage/Commands|Commands]].</translate>
 |-
-| <translate>'''Fusion'''</translate> || <translate>While fused, the partner receives half of the TP the leader earns. See [[Special:MyLanguage/Fusions|Fusions]].</translate>
+| <translate><!--T:31--> '''Fusion'''</translate> || <translate><!--T:32--> While fused, the partner receives half of the TP the leader earns. See [[Special:MyLanguage/Fusions|Fusions]].</translate>
 |}
 
 <translate>
+<!--T:33-->
 When [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] is enabled, combat TP (kills and hits) is also scaled by its own combat TP multiplier.
 </translate>
 
 <translate>
-=== TP boosts ===
+=== TP boosts === <!--T:34-->
 </translate>
 {{Config|General Server Config|tpGainBoosts}}
 <translate>
+<!--T:35-->
 The amount from every source is scaled by your active boosts, once. Boosts '''add up''': each one adds its bonus on top of ×1.0. The TP half of an '''Attributes''' reward is already worked out from your stat cost, so it is not boosted again. Hover the '''TP Multiplier''' row of the Stats tab to see where each of your bonuses comes from.
 </translate>
 
 {| class="wikitable"
-! <translate>Boost</translate> !! <translate>Default</translate>
+! <translate><!--T:36--> Boost</translate> !! <translate><!--T:37--> Default</translate>
 |-
-| <translate>'''Class'''</translate> || <translate>[[Special:MyLanguage/Tank|Tank]] and [[Special:MyLanguage/Cleric|Cleric]] ×1.25.</translate>
+| <translate><!--T:38--> '''Class'''</translate> || <translate><!--T:39--> [[Special:MyLanguage/Tank|Tank]] and [[Special:MyLanguage/Cleric|Cleric]] ×1.25.</translate>
 |-
-| <translate>'''Racial skill'''</translate> || <translate>[[Special:MyLanguage/Frost Demon|Frost Demon]] '''Prodigious Strength''' ×1.25.</translate>
+| <translate><!--T:40--> '''Racial skill'''</translate> || <translate><!--T:41--> [[Special:MyLanguage/Frost Demon|Frost Demon]] '''Prodigious Strength''' ×1.25.</translate>
 |-
-| <translate>'''Hyperbolic Time Chamber'''</translate> || <translate>×1.75 while inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].</translate>
+| <translate><!--T:42--> '''Hyperbolic Time Chamber'''</translate> || <translate><!--T:43--> ×1.75 while inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].</translate>
 |-
-| <translate>'''Otherworld (dead)'''</translate> || <translate>×2.0 while you are dead in the [[Special:MyLanguage/Otherworld|Otherworld]].</translate>
+| <translate><!--T:44--> '''Otherworld (dead)'''</translate> || <translate><!--T:45--> ×2.0 while you are dead in the [[Special:MyLanguage/Otherworld|Otherworld]].</translate>
 |-
-| <translate>'''Gravity'''</translate> || <translate>Training under extra gravity: see [[Special:MyLanguage/Gravity|Gravity]] and [[Special:MyLanguage/Gravity Device|Gravity Device]].</translate>
+| <translate><!--T:46--> '''Gravity'''</translate> || <translate><!--T:47--> Training under extra gravity: see [[Special:MyLanguage/Gravity|Gravity]] and [[Special:MyLanguage/Gravity Device|Gravity Device]].</translate>
 |-
-| <translate>'''Weights'''</translate> || <translate>Training with the right weight load: see [[Special:MyLanguage/Weights|Weights]].</translate>
+| <translate><!--T:48--> '''Weights'''</translate> || <translate><!--T:49--> Training with the right weight load: see [[Special:MyLanguage/Weights|Weights]].</translate>
 |-
-| <translate>'''Global'''</translate> || <translate>A server-wide multiplier (×1.0 by default).</translate>
+| <translate><!--T:50--> '''Global'''</translate> || <translate><!--T:51--> A server-wide multiplier (×1.0 by default).</translate>
 |-
-| <translate>'''Effects'''</translate> || <translate>'''TP Multiplier''' effect (+25% per level), '''Hero of the World''' (+25% for 10 minutes after winning a raid) and '''Kami's Blessing''' (×1.2 for 5 minutes, given by Dende to [[Special:MyLanguage/Alignment|Good-aligned]] players, 30-minute cooldown). See [[Special:MyLanguage/Effects|Effects]].</translate>
+| <translate><!--T:52--> '''Effects'''</translate> || <translate><!--T:53--> '''TP Multiplier''' effect (+25% per level), '''Hero of the World''' (+25% for 10 minutes after winning a raid) and '''Kami's Blessing''' (×1.2 for 5 minutes, given by Dende to [[Special:MyLanguage/Alignment|Good-aligned]] players, 30-minute cooldown). See [[Special:MyLanguage/Effects|Effects]].</translate>
 |-
-| <translate>[[Special:MyLanguage/Mutant|Mutant]]</translate> || <translate>×1.25 while you hold the Mutant effect.</translate>
+| <translate><!--T:54--> [[Special:MyLanguage/Mutant|Mutant]]</translate> || <translate><!--T:55--> ×1.25 while you hold the Mutant effect.</translate>
 |-
-| <translate>'''Quest difficulty'''</translate> || <translate>Quest TP rewards and other lump sums (raids, tournaments, TP wishes) only: ×1.25 on Easy and on Hard. See [[Special:MyLanguage/Sagas|Sagas]].</translate>
+| <translate><!--T:56--> '''Quest difficulty'''</translate> || <translate><!--T:57--> Quest TP rewards and other lump sums (raids, tournaments, TP wishes) only: ×1.25 on Easy and on Hard. See [[Special:MyLanguage/Sagas|Sagas]].</translate>
 |-
-| <translate>'''Progression'''</translate> || <translate>Up to '''+75%''' as your stats get more expensive, reaching the full bonus at the stat cost of level '''10,000''', so late-game TP keeps pace with stat costs. Not applied to training minigames, which already scale with your stat cost.</translate>
+| <translate><!--T:58--> '''Progression'''</translate> || <translate><!--T:59--> Up to '''+75%''' as your stats get more expensive, reaching the full bonus at the stat cost of level '''10,000''', so late-game TP keeps pace with stat costs. Not applied to training minigames, which already scale with your stat cost.</translate>
 |}
 
 <translate>
+<!--T:60-->
 Server owners choose which boosts apply to which source (story, passive, travel, mining, crafting, kills, hits and training).
 </translate>
 
 <translate>
-=== Training minigames ===
+=== Training minigames === <!--T:61-->
 </translate>
 {{Main|Training Minigames}}
 <translate>
+<!--T:62-->
 Five [[Special:MyLanguage/Masters|masters]] each teach one minigame:
 </translate>
 
 {| class="wikitable"
-! <translate>Minigame</translate> !! <translate>Master</translate>
+! <translate><!--T:63--> Minigame</translate> !! <translate><!--T:64--> Master</translate>
 |-
-| <translate>'''Rhythm'''</translate> || <translate>[[Special:MyLanguage/Mr. Popo|Mr. Popo]] (inside the Hyperbolic Time Chamber)</translate>
+| <translate><!--T:65--> '''Rhythm'''</translate> || <translate><!--T:66--> [[Special:MyLanguage/Mr. Popo|Mr. Popo]] (inside the Hyperbolic Time Chamber)</translate>
 |-
-| <translate>[[Special:MyLanguage/Ki Control|Ki Control]]</translate> || {{L|Krillin}}
+| <translate><!--T:67--> [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || {{L|Krillin}}
 |-
-| <translate>'''Shadow Boxing'''</translate> || {{L|Gohan}}
+| <translate><!--T:68--> '''Shadow Boxing'''</translate> || {{L|Gohan}}
 |-
-| <translate>'''Precision'''</translate> || {{L|Trunks}}
+| <translate><!--T:69--> '''Precision'''</translate> || {{L|Trunks}}
 |-
-| <translate>'''Gravity'''</translate> || {{L|Vegeta}}
+| <translate><!--T:70--> '''Gravity'''</translate> || {{L|Vegeta}}
 |}
 
-* <translate>'''Learning a game:''' play it from its master '''3 times''', reaching '''level 5''' each time. Once learned, you can also play it any time from the '''Minigames''' tab of your Character Menu.</translate>
-* <translate>'''Rewards''' depend on how long you train, the level you reach and your grade, and scale with your current '''TP cost per stat point''', so they stay worthwhile as you grow. There is no per-game TP cap by default. The server checks every run, so rewards can't be faked.</translate>
-* <translate>'''Mentor bonus:''' a game you already know, started from its master's menu, pays '''+25%'''.</translate>
-* <translate>Rhythm can also be played with music discs; finishing a disc's song with at least '''75%''' accuracy "learns" it so you can replay it without the disc.</translate>
-* <translate>'''Old Kai's Ultimate Challenge''' chains every minigame into one run; clearing it with the right requirements unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] form (see [[Special:MyLanguage/Old Kai|Old Kai]] and [[Special:MyLanguage/Transformations|Transformations]]).</translate>
+* <translate><!--T:71--> '''Learning a game:''' play it from its master '''3 times''', reaching '''level 5''' each time. Once learned, you can also play it any time from the '''Minigames''' tab of your Character Menu.</translate>
+* <translate><!--T:72--> '''Rewards''' depend on how long you train, the level you reach and your grade, and scale with your current '''TP cost per stat point''', so they stay worthwhile as you grow. There is no per-game TP cap by default. The server checks every run, so rewards can't be faked.</translate>
+* <translate><!--T:73--> '''Mentor bonus:''' a game you already know, started from its master's menu, pays '''+25%'''.</translate>
+* <translate><!--T:74--> Rhythm can also be played with music discs; finishing a disc's song with at least '''75%''' accuracy "learns" it so you can replay it without the disc.</translate>
+* <translate><!--T:75--> '''Old Kai's Ultimate Challenge''' chains every minigame into one run; clearing it with the right requirements unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] form (see [[Special:MyLanguage/Old Kai|Old Kai]] and [[Special:MyLanguage/Transformations|Transformations]]).</translate>
 
 <translate>
-=== Best way to train ===
+=== Best way to train === <!--T:76-->
 
+<!--T:77-->
 No single source is "the" answer: the fastest grind '''stacks''' a high-yield activity with every multiplier at once. In rough order of value:
 </translate>
 
-# <translate>'''Training minigames.''' The biggest deliberate TP source. Learn all five from their masters and rotate through them; start known games from the master's menu for the +25% mentor bonus.</translate>
-# <translate>'''Fight things that take a while to kill.''' Kill TP scales with the target's '''max health''', and you also gain TP '''per hit''', so a long fight with a tough enemy (or your own '''Shadow Dummy''') beats farming weak mobs. This trains TP and [[Special:MyLanguage/Training Points and Mastery#Mastery|mastery]] at the same time.</translate>
-# <translate>'''Passive and travel training, but multiplied.''' The trickle you get for playing, moving and mining is small at base, so only lean on it inside a multiplier: the [[Special:MyLanguage/Gravity Device|Gravity Device]] (higher gravity means more TP), the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (×1.75 TP inside) and [[Special:MyLanguage/Weights|Weights]].</translate>
-# <translate>'''Keep your boosts running the whole time.''' Everything above is multiplied by your class, your racial skill (Frost Demon ×1.25), a '''TP Multiplier''' effect and '''Kami's Blessing''', so get blessed by Dende and pop a TP buff ''before'' a minigame or a gravity session, not after.</translate>
-# <translate>'''Quests, raids and wishes for lump sums.''' Story and side quests, [[Special:MyLanguage/World Bosses|world bosses]] and the '''Power Boost''' wish hand out Attributes (stat points plus TP that grows with your stat cost), and [[Special:MyLanguage/Raids|raids]] hand out big one-off TP: cheap progress that doesn't depend on the grind.</translate>
+# <translate><!--T:78--> '''Training minigames.''' The biggest deliberate TP source. Learn all five from their masters and rotate through them; start known games from the master's menu for the +25% mentor bonus.</translate>
+# <translate><!--T:79--> '''Fight things that take a while to kill.''' Kill TP scales with the target's '''max health''', and you also gain TP '''per hit''', so a long fight with a tough enemy (or your own '''Shadow Dummy''') beats farming weak mobs. This trains TP and [[Special:MyLanguage/Training Points and Mastery#Mastery|mastery]] at the same time.</translate>
+# <translate><!--T:80--> '''Passive and travel training, but multiplied.''' The trickle you get for playing, moving and mining is small at base, so only lean on it inside a multiplier: the [[Special:MyLanguage/Gravity Device|Gravity Device]] (higher gravity means more TP), the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (×1.75 TP inside) and [[Special:MyLanguage/Weights|Weights]].</translate>
+# <translate><!--T:81--> '''Keep your boosts running the whole time.''' Everything above is multiplied by your class, your racial skill (Frost Demon ×1.25), a '''TP Multiplier''' effect and '''Kami's Blessing''', so get blessed by Dende and pop a TP buff ''before'' a minigame or a gravity session, not after.</translate>
+# <translate><!--T:82--> '''Quests, raids and wishes for lump sums.''' Story and side quests, [[Special:MyLanguage/World Bosses|world bosses]] and the '''Power Boost''' wish hand out Attributes (stat points plus TP that grows with your stat cost), and [[Special:MyLanguage/Raids|raids]] hand out big one-off TP: cheap progress that doesn't depend on the grind.</translate>
 
-{{Note|type=tip|title=<translate>Fastest realistic loop</translate>|<translate>Wear [[Special:MyLanguage/Weights|weights]], train inside the Gravity Device or the Time Chamber with a TP Multiplier buff active, and break it up by running the master minigames and sparring a Shadow Dummy, which banks mastery alongside the TP.</translate>}}
+{{Note|type=tip|title=<translate><!--T:83--> Fastest realistic loop</translate>|<translate><!--T:84--> Wear [[Special:MyLanguage/Weights|weights]], train inside the Gravity Device or the Time Chamber with a TP Multiplier buff active, and break it up by running the master minigames and sparring a Shadow Dummy, which banks mastery alongside the TP.</translate>}}
 
 <translate>
-== Mastery ==
+== Mastery == <!--T:85-->
 </translate>
 {{Config|Combat Config}}
 <translate>
+<!--T:86-->
 '''Mastery''' (0–100%) is earned '''per transformation''', only while that form is active. You raise a form's mastery by:
 </translate>
 
 {| class="wikitable"
-! <translate>Source</translate> !! <translate>Default gain</translate>
+! <translate><!--T:87--> Source</translate> !! <translate><!--T:88--> Default gain</translate>
 |-
-| <translate>'''Dealing hits while transformed'''</translate> || <translate>+0.025% per hit, up to '''×4''' for heavy hits.</translate>
+| <translate><!--T:89--> '''Dealing hits while transformed'''</translate> || <translate><!--T:90--> +0.025% per hit, up to '''×4''' for heavy hits.</translate>
 |-
-| <translate>'''Taking hits while transformed'''</translate> || <translate>+0.025% per hit, up to '''×4''' for heavy hits.</translate>
+| <translate><!--T:91--> '''Taking hits while transformed'''</translate> || <translate><!--T:92--> +0.025% per hit, up to '''×4''' for heavy hits.</translate>
 |-
-| <translate>'''Just staying transformed'''</translate> || <translate>+0.004% every 5 seconds (passive).</translate>
+| <translate><!--T:93--> '''Just staying transformed'''</translate> || <translate><!--T:94--> +0.004% every 5 seconds (passive).</translate>
 |-
-| <translate>'''Mastery Capsule'''</translate> || <translate>+5% to your active form (see [[Special:MyLanguage/Capsules|Capsules]]).</translate>
+| <translate><!--T:95--> '''Mastery Capsule'''</translate> || <translate><!--T:96--> +5% to your active form (see [[Special:MyLanguage/Capsules|Capsules]]).</translate>
 |-
-| <translate>'''Quest rewards'''</translate> || <translate>Custom quests can grant a form at a set mastery (see [[Special:MyLanguage/Custom Quests|Custom Quests]]).</translate>
+| <translate><!--T:97--> '''Quest rewards'''</translate> || <translate><!--T:98--> Custom quests can grant a form at a set mastery (see [[Special:MyLanguage/Custom Quests|Custom Quests]]).</translate>
 |}
 
 <translate>
+<!--T:99-->
 Hit mastery only counts at '''50% Power Release or more''', and grows with the size of the hit: a hit up to 20% of the target's max health gives the base amount, rising to '''×4''' for a hit of 80% or more. Hits against some training targets (for example silverfish and target dummies) give no mastery. Training under extra gravity adds '''+0.25%''' hit mastery per point of bonus gravity.
 
+<!--T:100-->
 So the fastest way to master a form is to '''fight in it''': trade heavy blows while transformed rather than sitting idle.
 </translate>
 
 <translate>
-=== Best way to farm mastery ===
+=== Best way to farm mastery === <!--T:101-->
 
+<!--T:102-->
 Passive gain (+0.004% every 5 seconds) is tiny: you would wait hours just standing around. Combat is about '''6× per hit''' (and up to 4× more for heavy hits), and both ''dealing'' and ''taking'' hits count, so the goal is to be in a transformation and exchange as many hits as possible:
 </translate>
 
-# <translate>'''Transform first, then fight, at high release.''' Mastery only ticks up while that specific form is active, and hit mastery needs '''50%+ Power Release'''.</translate>
-# <translate>'''Pick a punching bag that hits back.''' Because taking hits also grants mastery, the ideal target survives a while and keeps swinging at you: a tanky mob you don't one-shot, a Shadow Dummy or a sparring partner. Trading blows fills the bar from both directions at once.</translate>
-# <translate>'''Hit hard, but don't one-shot.''' Big hits (relative to the target's health) are worth up to 4× more, but if you delete enemies in one hit you get one hit's worth of mastery and then have to find another. A fight that lasts many heavy exchanges is best.</translate>
-# <translate>'''Stack the multipliers below''': a '''Mastery Multiplier''' effect, Frost Demon '''Evolutionary Mastery''' or the Mutant bonus.</translate>
-# <translate>'''Use shared mastery.''' Some forms share part of their mastery with related forms; for example every [[Special:MyLanguage/Kaioken|Kaioken]] tier passes '''25%''' of its gains to the next tier.</translate>
-# <translate>'''Top it up with Mastery Capsules''': +5% each, no fight needed.</translate>
+# <translate><!--T:103--> '''Transform first, then fight, at high release.''' Mastery only ticks up while that specific form is active, and hit mastery needs '''50%+ Power Release'''.</translate>
+# <translate><!--T:104--> '''Pick a punching bag that hits back.''' Because taking hits also grants mastery, the ideal target survives a while and keeps swinging at you: a tanky mob you don't one-shot, a Shadow Dummy or a sparring partner. Trading blows fills the bar from both directions at once.</translate>
+# <translate><!--T:105--> '''Hit hard, but don't one-shot.''' Big hits (relative to the target's health) are worth up to 4× more, but if you delete enemies in one hit you get one hit's worth of mastery and then have to find another. A fight that lasts many heavy exchanges is best.</translate>
+# <translate><!--T:106--> '''Stack the multipliers below''': a '''Mastery Multiplier''' effect, Frost Demon '''Evolutionary Mastery''' or the Mutant bonus.</translate>
+# <translate><!--T:107--> '''Use shared mastery.''' Some forms share part of their mastery with related forms; for example every [[Special:MyLanguage/Kaioken|Kaioken]] tier passes '''25%''' of its gains to the next tier.</translate>
+# <translate><!--T:108--> '''Top it up with Mastery Capsules''': +5% each, no fight needed.</translate>
 
-{{Note|type=tip|title=<translate>In short</translate>|<translate>Put on the form, release your power, find something that trades heavy hits with you for a long time, and keep a mastery buff running.</translate>}}
+{{Note|type=tip|title=<translate><!--T:109--> In short</translate>|<translate><!--T:110--> Put on the form, release your power, find something that trades heavy hits with you for a long time, and keep a mastery buff running.</translate>}}
 
 <translate>
-=== Mastery multipliers ===
+=== Mastery multipliers === <!--T:111-->
 </translate>
 
-* <translate>'''Mastery Multiplier''' effect: +25% per level (also given by the '''Medi-Bug (Worm)''', see [[Special:MyLanguage/Effects|Effects]]).</translate>
-* <translate>[[Special:MyLanguage/Frost Demon|Frost Demon]] '''Evolutionary Mastery''': +25%.</translate>
-* <translate>[[Special:MyLanguage/Mutant|Mutant]]: ×1.5 while you hold the Mutant effect (see [[Special:MyLanguage/Effects|Effects]]).</translate>
-* <translate>'''Gravity''': +0.25% per point of bonus gravity (hit mastery only).</translate>
-* <translate>'''Shared mastery''': forms can be set up to share part of their gains with related forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
+* <translate><!--T:112--> '''Mastery Multiplier''' effect: +25% per level (also given by the '''Medi-Bug (Worm)''', see [[Special:MyLanguage/Effects|Effects]]).</translate>
+* <translate><!--T:113--> [[Special:MyLanguage/Frost Demon|Frost Demon]] '''Evolutionary Mastery''': +25%.</translate>
+* <translate><!--T:114--> [[Special:MyLanguage/Mutant|Mutant]]: ×1.5 while you hold the Mutant effect (see [[Special:MyLanguage/Effects|Effects]]).</translate>
+* <translate><!--T:115--> '''Gravity''': +0.25% per point of bonus gravity (hit mastery only).</translate>
+* <translate><!--T:116--> '''Shared mastery''': forms can be set up to share part of their gains with related forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
 
 <translate>
-=== What mastery unlocks ===
+=== What mastery unlocks === <!--T:117-->
 
+<!--T:118-->
 As a form's mastery climbs it unlocks the next form of its group (25%), instant transformation (40%), transforming straight into it (50%) and the full bonus with the cheapest upkeep (100%). Mastery also lowers the form's drain. The details are on [[Special:MyLanguage/Transformations|Transformations]].
 
-=== Checking and resetting ===
+=== Checking and resetting === <!--T:119-->
 
+<!--T:120-->
 Use <code>/dmzmastery</code> to set or add mastery (see [[Special:MyLanguage/Commands|Commands]]). Mastery is tied to your forms; racial bonuses (Zenkai, Assimilation, Absorption) are separate and can be reset with <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
 </translate>
 

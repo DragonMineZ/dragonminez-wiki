@@ -1,0 +1,137 @@
+{
+ "Page_display_title": {
+  "source": "Evasion Techniques",
+  "translation": "Técnicas de evasão",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap and a roar that pushes everyone back. They activate as soon as you press the slot key and share a short lockout with each other.",
+  "translation": "As '''técnicas de evasão''' são movimentos de utilidade que ajudam você a escapar, se reposicionar ou virar uma luta: clarões que cegam, imagens residuais, teleportes, um cochilo que cura e um rugido que empurra todos para trás. Elas são ativadas assim que você aperta a tecla do slot e compartilham um breve bloqueio entre si.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How evasion techniques work ==",
+  "translation": "== Como funcionam as técnicas de evasão ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* Evasion techniques must be equipped in a technique slot, and need an empty main hand, the [[Special:MyLanguage/Ki Control|Ki Control]] skill and at least 5% Power Release.\n* After using one, '''all''' your evasion techniques share a short lockout: the technique's duration + 3 seconds.\n* They gain experience every time you use them. Spend it on '''duration''' (+2.5% per level, up to +50%) and '''cooldown''' upgrades. Sleep Recovery's duration is fixed, so it only has cooldown upgrades.",
+  "translation": "* As técnicas de evasão precisam estar equipadas em um slot de técnica e exigem a mão principal vazia, a habilidade [[Special:MyLanguage/Ki Control|Controle de Ki]] e pelo menos 5% de Liberação de Poder.\n* Depois de usar uma, '''todas''' as suas técnicas de evasão compartilham um breve bloqueio: a duração da técnica + 3 segundos.\n* Elas ganham experiência toda vez que você as usa. Gaste-a em melhorias de '''duração''' (+2.5% por nível, até +50%) e de '''recarga'''. A duração da Regeneração do Sono é fixa, então ela só tem melhorias de recarga.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Evasion techniques taught by masters ==",
+  "translation": "== Técnicas de evasão ensinadas pelos mestres ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "6": {
+  "source": "Taught by",
+  "translation": "Ensinado por",
+  "outdated": false
+ },
+ "7": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "8": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "9": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "10": {
+  "source": "A blinding flash: everyone within 20 blocks who can see you and is looking your way is blinded for 6–12 seconds. Blinded mobs lose their target.",
+  "translation": "Um clarão que cega: todos a até 20 blocos que consigam ver você e estejam olhando na sua direção ficam cegos por 6–12 segundos. Mobs cegos perdem o alvo.",
+  "outdated": false
+ },
+ "11": {
+  "source": "With a locked-on target within 24 blocks, you blink around it and end up behind it; without one, you leave an afterimage behind and step a few blocks forward. Mobs targeting you within 16 blocks lose track of you.",
+  "translation": "Com um alvo travado a até 24 blocos, você pisca ao redor dele e termina às costas dele; sem alvo, você deixa uma imagem residual para trás e avança alguns blocos. Os mobs que miram em você a até 16 blocos perdem o seu rastro.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Sleep Recovery",
+  "translation": "Regeneração do Sono",
+  "outdated": false
+ },
+ "13": {
+  "source": "A 7-second nap that heals 10% of your max health every second (up to 70%). You can't move, attack or use items while you sleep, and taking damage wakes you up. Only [[Special:MyLanguage/Majin|Majins]] can equip it.",
+  "translation": "Um cochilo de 7 segundos que cura 10% da sua vida máxima a cada segundo (até 70%). Você não pode se mover, atacar nem usar itens enquanto dorme, e sofrer dano acorda você. Só os [[Special:MyLanguage/Majin|Majins]] podem equipá-lo.",
+  "outdated": false
+ },
+ "14": {
+  "source": "'''Sleep Recovery''' is a Majin technique: any race can learn it from Majin Buu, but only a Majin can equip it in a technique slot (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use it in the story: they take a 7-second nap that heals up to 60% of their max health.",
+  "translation": "A '''Regeneração do Sono''' é uma técnica Majin: qualquer raça pode aprendê-la com Majin Boo, mas só um Majin pode equipá-la em um slot de técnica (veja [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]). [[Special:MyLanguage/Kid Buu|Kid Boo]] e [[Special:MyLanguage/Majin Kuu|Majin Kuu]] também a usam na história: eles tiram um cochilo de 7 segundos que cura até 60% da vida máxima.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Evasion techniques not taught by default ==",
+  "translation": "== Técnicas de evasão não ensinadas por padrão ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "No master offers these in the default lists. Server owners can add [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] to a master's list, and admins can grant either with {{Command|/dmztech add}}.",
+  "translation": "Nenhum mestre as oferece nas listas padrão. Donos de servidores podem adicionar o [[Special:MyLanguage/Dimensional Warp|Salto dimensional]] à lista de um mestre, e administradores podem conceder qualquer uma das duas com {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "18": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "19": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "20": {
+  "source": "How to get it",
+  "translation": "Como conseguir",
+  "outdated": false
+ },
+ "21": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "22": {
+  "source": "20% drop from the {{L|Janemba}} world boss.",
+  "translation": "20% de chance de drop do chefe de mundo {{L|Janemba}}.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Teleports you behind your locked-on target within 64 blocks, or a few blocks forward without a target.",
+  "translation": "Teleporta você para trás do seu alvo travado a até 64 blocos, ou alguns blocos para a frente sem alvo.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Granted while in Great Ape (Oozaru) form.",
+  "translation": "Concedida enquanto você está na forma de Grande Macaco (Oozaru).",
+  "outdated": false
+ },
+ "25": {
+  "source": "A roar that repeatedly damages and pushes back everything around you for 3 seconds.",
+  "translation": "Um rugido que causa dano e empurra repetidamente tudo ao seu redor por 3 segundos.",
+  "outdated": false
+ },
+ "26": {
+  "source": "World boss drop chances are the server defaults; see [[Special:MyLanguage/World Bosses|World Bosses]].",
+  "translation": "As chances de drop dos chefes de mundo são os padrões do servidor; veja [[Special:MyLanguage/World Bosses|Chefes de mundo]].",
+  "outdated": false
+ }
+}

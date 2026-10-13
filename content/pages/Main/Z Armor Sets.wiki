@@ -1,33 +1,38 @@
 {{Infobox Armor
-|quote=<translate>Outfits and armor from the Dragon Ball Z era.</translate>
-|Pieces=<translate>Chestplate, leggings and boots; six sets also have a helmet</translate>
-|Defense=<translate>Chestplate 35, leggings 26, boots 16, helmet 2</translate>
-|Pattern=<translate>Painted on a Blank Pattern (Z)</translate>
-|Crafted at=<translate>Pattern Station, then Dr. Kikono's Station</translate>
-|Materials=<translate>Kikono Cloth, Kikono String, an iron armor piece of the same slot, 1,000 Star Energy per piece</translate>
+|quote=<translate><!--T:1--> Outfits and armor from the Dragon Ball Z era.</translate>
+|Pieces=<translate><!--T:2--> Chestplate, leggings and boots; six sets also have a helmet</translate>
+|Defense=<translate><!--T:3--> Chestplate 35, leggings 26, boots 16, helmet 2</translate>
+|Pattern=<translate><!--T:4--> Painted on a Blank Pattern (Z)</translate>
+|Crafted at=<translate><!--T:5--> Pattern Station, then Dr. Kikono's Station</translate>
+|Materials=<translate><!--T:6--> Kikono Cloth, Kikono String, an iron armor piece of the same slot, 1,000 Star Energy per piece</translate>
 }}
 <translate>
+<!--T:7-->
 The '''Z armor sets''' are the 51 character-themed sets whose pattern is painted on a '''Blank Pattern (Z)'''. They only differ in looks: every set uses the Kikono armor material and gives the same protection.
 </translate>
 
 <translate>
-== Crafting a set ==
+== Crafting a set == <!--T:8-->
 
+<!--T:9-->
 # Paint the set's pattern on a Blank Pattern (Z) at the '''Pattern Station'''.
 # Assemble each piece at '''Dr. Kikono's Station''' with the pattern, Kikono Cloth, Kikono String and the matching iron armor piece. Each piece costs 1,000 Star Energy.
 
+<!--T:10-->
 See [[Special:MyLanguage/Armor|Armor]] for the full process, the recipes and how armor adds to your defense.
 </translate>
 
 <translate>
-== Sets ==
+== Sets == <!--T:11-->
 
+<!--T:12-->
 The patterns below are painted on a Blank Pattern (Z). With JEI installed, each design can be looked up in the ''Pattern Station'' recipe category.
 </translate>
 
 <translate>
-=== Earth's heroes ===
+=== Earth's heroes === <!--T:13-->
 
+<!--T:14-->
 * Red Turtle Hermit School GI (Goku, Kid)
 * Turtle Hermit School GI (Goku)
 * Blue Master GI (Goku, GT)
@@ -50,8 +55,9 @@ The patterns below are painted on a Blank Pattern (Z). With JEI installed, each 
 </translate>
 
 <translate>
-=== Saiyans ===
+=== Saiyans === <!--T:15-->
 
+<!--T:16-->
 * Blue Training Outfit (Vegeta, Buu)
 * Saiyan Armor (Vegeta, Saiyan)
 * Saiyan Armor (Vegeta, Namek)
@@ -66,8 +72,9 @@ The patterns below are painted on a Blank Pattern (Z). With JEI installed, each 
 </translate>
 
 <translate>
-=== Androids and the Red Ribbon Army ===
+=== Androids and the Red Ribbon Army === <!--T:17-->
 
+<!--T:18-->
 * Red Ribbon Army (Android 13)
 * Red Ribbon Army (Android 14)
 * Red Ribbon Army (Android 16)
@@ -81,20 +88,22 @@ The patterns below are painted on a Blank Pattern (Z). With JEI installed, each 
 </translate>
 
 <translate>
-=== Kais, Majins and villains ===
+=== Kais, Majins and villains === <!--T:19-->
 
-* Kaioshin (Shin)
-* Kaioshin (Kibito)
+<!--T:20-->
+* Kaioshin ([[Special:MyLanguage/Shin|Shin]])
+* Kaioshin ([[Special:MyLanguage/Kibito|Kibito]])
 * Majin (Buu)
-* Majin (Evil Buu)
-* Majin (Super Buu)
+* Majin ([[Special:MyLanguage/Evil Buu|Evil Buu]])
+* Majin ([[Special:MyLanguage/Super Buu|Super Buu]])
 * Evil Namekian (Slug)
 * Cooler's Soldier
 </translate>
 
 <translate>
-=== DBOnline clans ===
+=== DBOnline clans === <!--T:21-->
 
+<!--T:22-->
 * DBOnline Armor (Fighter)
 * DBOnline Armor (Mighty)
 * DBOnline Armor (Mystic)
@@ -102,15 +111,25 @@ The patterns below are painted on a Blank Pattern (Z). With JEI installed, each 
 </translate>
 
 <translate>
-== Sets with a helmet ==
+== Sets with a helmet == <!--T:23-->
 
+<!--T:24-->
 Six sets also include a helmet: Crane School (Chaoz), Demon GI (Piccolo), Evil Namekian (Slug), Hero of Justice (Great Saiyaman), Hero of Justice 2 (Great Saiyaman 2) and Red Ribbon Army (Android 20).
 </translate>
 
 <translate>
-== Battle damage ==
+== Battle damage == <!--T:25-->
 
+<!--T:26-->
 Goku's Turtle Hermit GI, the Great Saiyaman outfit and Vegeta's Saiyan armor switch to a torn, battle-damaged look once they drop below half durability.
 </translate>
+
+<translate>
+== Pattern designs == <!--T:27-->
+
+<!--T:28-->
+Every pattern on this page as it is painted at the Pattern Station. Hover over a cell to see which dye goes there.
+</translate>
+{{#invoke:Recipes|patterns|z}}
 
 {{Navbox Items}}

@@ -1,17 +1,20 @@
 {{Infobox Item
-|Type=<translate>Consumable</translate>
-|Effect=<translate>Restores health, ki and stamina like a Senzu Bean</translate>
+|Type=<translate><!--T:1--> Consumable</translate>
+|Effect=<translate><!--T:2--> Restores health, ki and stamina like a Senzu Bean</translate>
 |Stack size=16
-|Crafting=<translate>Brewing stand: a Senzu Bean added to any Potion of Regeneration</translate>
+|Crafting=<translate><!--T:3--> Brewing stand: a Senzu Bean added to any Potion of Regeneration</translate>
 }}
 <translate>
+<!--T:4-->
 '''Heart Medicine''' restores your health, ki and stamina just like a [[Special:MyLanguage/Senzu Bean|Senzu Bean]]. It stacks to 16.
 </translate>
 
 <translate>
-== Brewing ==
+== Brewing == <!--T:5-->
 
+<!--T:6-->
 Put any '''Potion of Regeneration''' in a brewing stand and add a [[Special:MyLanguage/Senzu Bean|Senzu Bean]] as the ingredient.
 </translate>
+{{Recipe|heart_medicine}}
 
 {{Navbox Items}}

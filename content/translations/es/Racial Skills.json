@@ -1,0 +1,167 @@
+{
+ "Page_display_title": {
+  "source": "Racial Skills",
+  "translation": "Habilidades raciales",
+  "outdated": false
+ },
+ "1": {
+  "source": "Every race in DragonMineZ has a '''racial skill''': a set of signature passives and, for some races, abilities you trigger yourself. The race-selection screen and the '''Skills''' menu always show your server's live values, with each part of the racial skill listed as its own entry; the numbers on this wiki are the defaults. Each race page explains its racial skill in full.",
+  "translation": "Cada raza de DragonMineZ tiene una '''habilidad racial''': un conjunto de pasivas características y, en algunas razas, habilidades que activas tú mismo. La pantalla de selección de raza y el menú '''Habilidades''' siempre muestran los valores reales de tu servidor, con cada parte de la habilidad racial como una entrada propia; los números de esta wiki son los valores por defecto. Cada página de raza explica su habilidad racial al completo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Racial skills by race ==",
+  "translation": "== Habilidades raciales por raza ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Race",
+  "translation": "Raza",
+  "outdated": false
+ },
+ "4": {
+  "source": "Parts",
+  "translation": "Partes",
+  "outdated": false
+ },
+ "5": {
+  "source": "Used with the action key",
+  "translation": "Se usa con la tecla de acción",
+  "outdated": false
+ },
+ "6": {
+  "source": "Blood-Fueled Ki, Fast Learner, Adrenaline",
+  "translation": "Ki de Sangre, Aprendiz Veloz, Adrenalina",
+  "outdated": false
+ },
+ "7": {
+  "source": "Android Core, Absorption Barrier, Fast Learner, Adrenaline",
+  "translation": "Núcleo Androide, Barrera de Absorción, Aprendiz Veloz, Adrenalina",
+  "outdated": false
+ },
+ "8": {
+  "source": "Absorption Barrier (hold G)",
+  "translation": "Barrera de Absorción (mantén G)",
+  "outdated": false
+ },
+ "9": {
+  "source": "Zenkai, Limitless Power",
+  "translation": "Zenkai, Poder Ilimitado",
+  "outdated": false
+ },
+ "10": {
+  "source": "Assimilation, Regeneration, Water Affinity",
+  "translation": "Asimilación, Regeneración, Afinidad con el Agua",
+  "outdated": false
+ },
+ "11": {
+  "source": "Assimilation (hold G); Regeneration is used from the X menu",
+  "translation": "Asimilación (mantén G); Regeneración se usa desde el menú X",
+  "outdated": false
+ },
+ "12": {
+  "source": "Prodigious Strength, Evolutionary Mastery, Hardened Body, Power Reserve",
+  "translation": "Fuerza Prodigiosa, Maestría Evolutiva, Cuerpo Endurecido, Reserva de Poder",
+  "outdated": false
+ },
+ "13": {
+  "source": "Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.",
+  "translation": "Bio-Evolución: Drenaje Vital, Autodestrucción, Cell Jr.",
+  "outdated": false
+ },
+ "14": {
+  "source": "All three, depending on your form",
+  "translation": "Las tres, según tu forma",
+  "outdated": false
+ },
+ "15": {
+  "source": "Absorption, Sweet Tooth, Healing Magic",
+  "translation": "Absorción, Goloso, Magia Curativa",
+  "outdated": false
+ },
+ "16": {
+  "source": "Absorption (hold G)",
+  "translation": "Absorción (mantén G)",
+  "outdated": false
+ },
+ "17": {
+  "source": "Divine Ki, Celestial Body, Divine Punishment, Light and Darkness",
+  "translation": "Ki Divino, Cuerpo Celestial, Castigo Divino, Luz y Oscuridad",
+  "outdated": false
+ },
+ "18": {
+  "source": "None: every part is passive",
+  "translation": "Ninguna: todas las partes son pasivas",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Using an active racial skill ==",
+  "translation": "== Usar una habilidad racial activa ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "# Hold '''X''' to open the utility menu and select '''Racial Skill''' in the '''Actions''' slice.\n# Hold or press the '''action key''' ('''G''' by default). What it does depends on your race.",
+  "translation": "# Mantén '''X''' para abrir el menú de utilidades y selecciona '''Habilidad Racial''' en la sección '''Acciones'''.\n# Mantén o pulsa la '''tecla de acción''' ('''G''' por defecto). Lo que hace depende de tu raza.",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Alt + G''' triggers the racial skill's secondary action while a racial skill is selected, such as dismissing your Cell Jrs. as a Bio-Android.",
+  "translation": "'''Alt + G''' activa la acción secundaria de la habilidad racial mientras hay una habilidad racial seleccionada; por ejemplo, retirar a tus Cell Jr. si eres Bio-Androide.",
+  "outdated": false
+ },
+ "22": {
+  "source": "While Namekian '''Assimilation''' or Majin '''Absorption''' is the selected action, your '''finishing blows knock enemies down instead of killing them''', so you can absorb them.",
+  "translation": "Mientras '''Asimilación''' (Namekiano) o '''Absorción''' (Majin) es la acción seleccionada, tus '''golpes finales derriban a los enemigos en lugar de matarlos''', para que puedas absorberlos.",
+  "outdated": false
+ },
+ "23": {
+  "source": "== Racial progress ==",
+  "translation": "== Progreso racial ==",
+  "outdated": false
+ },
+ "24": {
+  "source": "Some racial skills build up progress that stays with you until you lose it or reset it:",
+  "translation": "Algunas habilidades raciales acumulan un progreso que se queda contigo hasta que lo pierdes o lo reinicias:",
+  "outdated": false
+ },
+ "25": {
+  "source": "* '''Zenkai''' (Saiyan): up to 3 permanent boosts to STR, SKP and PWR, each raising your Power Release limit through Limitless Power.\n* '''Assimilation''' (Namekian): up to 4 assimilations; you lose the latest one when you die.\n* '''Absorption''' (Majin): up to 3 absorptions; you lose all of them when you die.\n* '''Cell Jr.''' (Bio-Android): up to 3 summoned Cell Jrs. at a time.",
+  "translation": "* '''Zenkai''' (Saiyajin): hasta 3 aumentos permanentes de STR, SKP y PWR; cada uno eleva tu límite de Liberación de Poder gracias a Poder Ilimitado.\n* '''Asimilación''' (Namekiano): hasta 4 asimilaciones; pierdes la más reciente al morir.\n* '''Absorción''' (Majin): hasta 3 absorciones; las pierdes todas al morir.\n* '''Cell Jr.''' (Bio-Androide): hasta 3 Cell Jr. invocados a la vez.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Resetting racial progress ==",
+  "translation": "== Reiniciar el progreso racial ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "The permanent racial gains (Zenkai boosts and the Power Release bonus, assimilations, absorptions and Cell Jrs.) can be reset:",
+  "translation": "Las ganancias raciales permanentes (aumentos de Zenkai y la bonificación de Liberación de Poder, asimilaciones, absorciones y Cell Jr.) se pueden reiniciar:",
+  "outdated": false
+ },
+ "28": {
+  "source": "* '''Wish:''' the '''Reset Passive''' wish, available from both [[Special:MyLanguage/Shenron|Shenron]] and [[Special:MyLanguage/Porunga|Porunga]].\n* '''Command:''' <code>/dmzracial reset [targets]</code>, with the permission nodes <code>dmzracial.reset.self</code> and <code>dmzracial.reset.others</code> (see [[Special:MyLanguage/Commands|Commands]] and [[Special:MyLanguage/Permissions|Permissions]]). It also clears racial cooldowns and despawns your Cell Jrs.",
+  "translation": "* '''Deseo:''' el deseo '''Reiniciar Pasiva Racial''', disponible tanto con [[Special:MyLanguage/Shenron|Shenron]] como con [[Special:MyLanguage/Porunga|Porunga]].\n* '''Comando:''' <code>/dmzracial reset [targets]</code>, con los nodos de permiso <code>dmzracial.reset.self</code> y <code>dmzracial.reset.others</code> (ver [[Special:MyLanguage/Commands|Comandos]] y [[Special:MyLanguage/Permissions|Permisos]]). También reinicia los tiempos de recarga raciales y hace desaparecer a tus Cell Jr.",
+  "outdated": false
+ },
+ "29": {
+  "source": "After a reset you can earn them again from zero.",
+  "translation": "Después de un reinicio puedes volver a ganarlos desde cero.",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "All racial tuning lives in <code>config/dragonminez/general-server.json</code> under <code>racialSkills</code>. A master switch, <code>enableRacialSkills</code>, turns every racial skill on or off, and each race has its own section (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>) with its own <code>enabled</code> switch and values. Which section a race uses is set by <code>racialSkill</code> in its <code>races/&lt;race&gt;/character.json</code>. Reload the config with <code>/dmzreload config</code>.",
+  "translation": "Todo el ajuste racial está en <code>config/dragonminez/general-server.json</code>, dentro de <code>racialSkills</code>. Un interruptor general, <code>enableRacialSkills</code>, activa o desactiva todas las habilidades raciales, y cada raza tiene su propia sección (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>) con su propio interruptor <code>enabled</code> y sus valores. La sección que usa cada raza se define con <code>racialSkill</code> en su <code>races/&lt;race&gt;/character.json</code>. Recarga la configuración con <code>/dmzreload config</code>.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Config files from before v2.2 that still use the old flat keys (such as <code>saiyanZenkaiAmount</code>, <code>namekianAssimilationAmount</code> or <code>majinAbsorptionAmount</code>) are moved into the per-race sections automatically the first time v2.2 loads the file. The old Majin Revive and Human Ki regeneration keys are removed.",
+  "translation": "Los archivos de configuración anteriores a la v2.2 que todavía usan las antiguas claves planas (como <code>saiyanZenkaiAmount</code>, <code>namekianAssimilationAmount</code> o <code>majinAbsorptionAmount</code>) se trasladan automáticamente a las secciones por raza la primera vez que la v2.2 carga el archivo. Las antiguas claves de Revivir de los Majin y de regeneración de Ki de los Humanos se eliminan.",
+  "outdated": false
+ }
+}

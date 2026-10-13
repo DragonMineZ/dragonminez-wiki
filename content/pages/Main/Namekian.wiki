@@ -1,20 +1,22 @@
 {{Infobox Race
-|quote=<translate>A peaceful yet powerful race, with great regenerative abilities and a natural connection to magic and nature.</translate>
-|Type=<translate>Playable race</translate>
-|Racial skill=<translate>Assimilation, Regeneration, Water Affinity</translate>
-|Forms=<translate>Super forms (Giant, Full Power, Super Namekian), Legendary forms</translate>
+|quote=<translate><!--T:1--> A peaceful yet powerful race, with great regenerative abilities and a natural connection to magic and nature.</translate>
+|Type=<translate><!--T:2--> Playable race</translate>
+|Racial skill=<translate><!--T:3--> Assimilation, Regeneration, Water Affinity</translate>
+|Forms=<translate><!--T:4--> Super forms (Giant, Full Power, Super Namekian), Legendary forms</translate>
 |Stack forms={{L|Kaioken}}, {{L|Ultimate}}
-|Strengths=<translate>Self-healing, permanent stat growth by assimilating other Namekians, faster regeneration near water</translate>
-|Playstyle=<translate>Sustained fighter who heals through long battles</translate>
+|Strengths=<translate><!--T:5--> Self-healing, permanent stat growth by assimilating other Namekians, faster regeneration near water</translate>
+|Playstyle=<translate><!--T:6--> Sustained fighter who heals through long battles</translate>
 |Fusion={{L|Fusion Dance}}, {{L|Potara Earrings}}, {{L|Medi-Bug Beetles}}
 }}
 <translate>
+<!--T:7-->
 '''Namekians''' are a peaceful yet powerful race with great regenerative abilities and a natural connection to magic and nature. They are known for their wisdom, their energy control and their ability to fuse with others of their kind. In DragonMineZ a Namekian can '''assimilate''' other Namekians to grow permanently stronger, '''regenerate''' a quarter of its health on demand and recover faster in water.
 </translate>
 
 <translate>
-== Overview and strengths ==
+== Overview and strengths == <!--T:8-->
 
+<!--T:9-->
 * '''Permanent growth.''' Each assimilation heals you and permanently raises your STR, SKP and PWR, up to four times.
 * '''Healing on demand.''' Regeneration restores 25% of your max health in 3 seconds.
 * '''Water Affinity.''' Being underwater or drinking any potion speeds up your health, Ki and stamina regeneration.
@@ -22,61 +24,66 @@
 </translate>
 
 <translate>
-== Racial skill ==
+== Racial skill == <!--T:10-->
 </translate>
 {{Config|General Server Config|racialSkills.namekian}}
 {| class="wikitable"
-! <translate>Part</translate> !! <translate>What it does</translate>
+! <translate><!--T:11--> Part</translate> !! <translate><!--T:12--> What it does</translate>
 |-
-| <translate>'''Assimilation'''</translate> || <translate>Select the racial skill in the '''X''' menu and '''hold G for 4 seconds''' while aiming at another Namekian within '''3 blocks'''. The target is absorbed: you heal '''35%''' of your max health and permanently gain '''7.5%''' of your own '''STR, SKP and PWR'''. Up to '''4''' assimilations, with a '''600 seconds''' cooldown. When you die you lose the '''latest''' one.</translate>
+| <translate><!--T:13--> '''Assimilation'''</translate> || <translate><!--T:14--> Select the racial skill in the '''X''' menu and '''hold G for 4 seconds''' while aiming at another Namekian within '''3 blocks'''. The target is absorbed: you heal '''35%''' of your max health and permanently gain '''7.5%''' of your own '''STR, SKP and PWR'''. Up to '''4''' assimilations, with a '''600 seconds''' cooldown. When you die you lose the '''latest''' one.</translate>
 |-
-| <translate>'''Regeneration'''</translate> || <translate>Use '''Regeneration''' from the '''X''' menu to recover '''25%''' of your max health over '''3 seconds''', spending '''30%''' of your Ki and '''20%''' of your stamina. Taking damage interrupts it. Cooldown: '''45 seconds''' (half if interrupted).</translate>
+| <translate><!--T:15--> '''Regeneration'''</translate> || <translate><!--T:16--> Use '''Regeneration''' from the '''X''' menu to recover '''25%''' of your max health over '''3 seconds''', spending '''30%''' of your Ki and '''20%''' of your stamina. Taking damage interrupts it. Cooldown: '''45 seconds''' (half if interrupted).</translate>
 |-
-| <translate>'''Water Affinity'''</translate> || <translate>Being underwater or drinking any potion boosts your health, Ki and stamina regeneration by '''25%''' for '''5 seconds'''.</translate>
+| <translate><!--T:17--> '''Water Affinity'''</translate> || <translate><!--T:18--> Being underwater or drinking any potion boosts your health, Ki and stamina regeneration by '''25%''' for '''5 seconds'''.</translate>
 |}
 
 <translate>
-=== Assimilation targets ===
+=== Assimilation targets === <!--T:19-->
 
+<!--T:20-->
 * '''Namekian players.''' They get a request in chat with clickable '''[Accept]''' and '''[Reject]''' buttons, and have '''30 seconds''' to answer (they can also type <code>/dmzracial reply accept</code> or <code>/dmzracial reply reject</code>). A knocked-down Namekian is assimilated without being asked.
 * '''Namekian NPCs.''' By default you can also assimilate a [[Special:MyLanguage/Namekian Warrior|Namekian Warrior]], a [[Special:MyLanguage/Namekian Trader|Namekian Trader]] or [[Special:MyLanguage/Piccolo|Piccolo]]. Server owners can turn this off, leaving only Namekian players.
 
+<!--T:21-->
 While Assimilation is the selected action, your finishing blows knock enemies down instead of killing them, so you can assimilate them. Your assimilations can be reset with the '''Reset Passive''' wish or <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills#Resetting racial progress|Racial Skills]]).
 </translate>
 
 <translate>
-== Transformations ==
+== Transformations == <!--T:22-->
 </translate>
 {{Main|Transformations}}
 {| class="wikitable"
-! <translate>Group</translate> !! <translate>Form</translate> !! <translate>Level</translate> !! <translate>TP cost</translate> !! <translate>Story requisite</translate> !! <translate>STR / SKP / PWR</translate> !! <translate>DEF</translate> !! <translate>Ki drain</translate>
+! <translate><!--T:23--> Group</translate> !! <translate><!--T:24--> Form</translate> !! <translate><!--T:25--> Level</translate> !! <translate><!--T:26--> TP cost</translate> !! <translate><!--T:27--> Story requisite</translate> !! <translate><!--T:28--> STR / SKP / PWR</translate> !! <translate><!--T:29--> DEF</translate> !! <translate><!--T:30--> Ki drain</translate>
 |-
-| rowspan="3" | <translate>Super forms</translate> || <translate>Giant</translate> || 1 || 23,000 || {{L|Classic Saga}} #46 || 2.15 || 1.8625 || 0.132
+| rowspan="3" | <translate><!--T:31--> Super forms</translate> || <translate><!--T:32--> Giant</translate> || 1 || 23,000 || {{L|Classic Saga}} #46 || 2.15 || 1.8625 || 0.132
 |-
-| <translate>Full Power</translate> || 2 || 47,000 || {{L|Frieza Saga}} #10 || 3.15 || 2.5125 || 0.319
+| <translate><!--T:33--> Full Power</translate> || 2 || 47,000 || {{L|Frieza Saga}} #10 || 3.15 || 2.5125 || 0.319
 |-
-| <translate>Super Namekian</translate> || 3 || 78,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.588
+| <translate><!--T:34--> Super Namekian</translate> || 3 || 78,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.588
 |-
-| rowspan="3" | <translate>Legendary forms</translate> || <translate>Evil Namek</translate> || 1 || — || — || 3.75 || 2.8625 || 0.349
+| rowspan="3" | <translate><!--T:35--> Legendary forms</translate> || <translate><!--T:36--> Evil Namek</translate> || 1 || — || — || 3.75 || 2.8625 || 0.349
 |-
-| <translate>Evil Giant Namek</translate> || 2 || — || — || 4.8 || 3.5875 || 0.548
+| <translate><!--T:37--> Evil Giant Namek</translate> || 2 || — || — || 4.8 || 3.5875 || 0.548
 |-
-| <translate>Buffed Namek</translate> || 3 || — || — || 5.6 || 4.0125 || 0.568
+| <translate><!--T:38--> Buffed Namek</translate> || 3 || — || — || 5.6 || 4.0125 || 0.568
 |}
 
 <translate>
+<!--T:39-->
 The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per level. Its fourth level isn't needed by any default Namekian form. ''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
 
+<!--T:40-->
 * '''Super Namekian''' is the Namekian top tier: the strongest Namekian form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.
 * '''Evil Giant Namek''' slows you down (×0.75 speed) and makes each attack cost 1.5 times as much stamina.
 * The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
 </translate>
 
 <translate>
-== Appearance ==
+== Appearance == <!--T:41-->
 </translate>
 {{Main|Character Customization}}
 <translate>
+<!--T:42-->
 * '''Hair:''' no. Namekians wear '''antennae''' instead (head parts <code>ears1</code> to <code>ears3</code>), picked on the Hair tab.
 * '''Gender:''' no.
 * '''Body types:''' 3, with body type 0 as the default.
@@ -84,9 +91,10 @@ The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per l
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:43-->
 </translate>
 <translate>
+<!--T:44-->
 Assimilation, Regeneration and Water Affinity are tuned in the <code>namekian</code> section of <code>racialSkills</code> in <code>general-server.json</code>, including the maximum number of assimilations, the request timeout and whether Namekian NPCs can be assimilated (<code>assimilationOnNamekNpcs</code>). The Super Forms TP ladder is in <code>races/namekian/character.json</code>, and each form's values are in its form file.
 </translate>
 {{See also|General Server Config|Custom Races|Custom Forms}}

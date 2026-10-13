@@ -1,0 +1,122 @@
+{
+ "Page_display_title": {
+  "source": "Creating a DMZ Addon",
+  "translation": "Crear un addon de DMZ",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Creating a DMZ Addon''' walks you through a full Forge add-on that integrates with DragonMineZ: your own mod jar that depends on DMZ and can react to its events and data. Read [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]] first for the required toolchain and versions.",
+  "translation": "'''Crear un addon de DMZ''' te guía paso a paso por un addon de Forge completo que se integra con DragonMineZ: el jar de tu propio mod, que depende de DMZ y puede reaccionar a sus eventos y datos. Lee primero [[Special:MyLanguage/Add-on Getting Started|Primeros pasos con addons]] para conocer las herramientas y versiones necesarias.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Step 1: Create a Forge 1.20.1 project ==",
+  "translation": "== Paso 1: Crea un proyecto de Forge 1.20.1 ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Start from the Forge MDK for Minecraft <code>1.20.1</code> with Forge <code>47.4.10</code>, ForgeGradle <code>6.0.30</code> and Java <code>17</code>, matching DMZ.",
+  "translation": "Parte del MDK de Forge para Minecraft <code>1.20.1</code> con Forge <code>47.4.10</code>, ForgeGradle <code>6.0.30</code> y Java <code>17</code>, igual que DMZ.",
+  "outdated": false
+ },
+ "4": {
+  "source": "These files of the DMZ repository are useful references for your project structure and setup:",
+  "translation": "Estos archivos del repositorio de DMZ son buenas referencias para la estructura y la configuración de tu proyecto:",
+  "outdated": false
+ },
+ "5": {
+  "source": "* <code>gradle.properties</code>\n* <code>build.gradle.kts</code>\n* <code>src/main/resources/META-INF/mods.toml</code>",
+  "translation": "* <code>gradle.properties</code>\n* <code>build.gradle.kts</code>\n* <code>src/main/resources/META-INF/mods.toml</code>",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Step 2: Set up Gradle ==",
+  "translation": "== Paso 2: Configura Gradle ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "DMZ uses the Kotlin Gradle DSL (<code>build.gradle.kts</code>), but you can use Groovy Gradle or any other setup you prefer for your add-on. Just make sure the Forge and Java versions match. A <code>build.gradle.kts</code> example:",
+  "translation": "DMZ usa el DSL de Gradle en Kotlin (<code>build.gradle.kts</code>), pero para tu addon puedes usar Gradle con Groovy o cualquier otra configuración que prefieras. Solo asegúrate de que las versiones de Forge y Java coincidan. Un ejemplo de <code>build.gradle.kts</code>:",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Step 3: Declare the DMZ dependency ==",
+  "translation": "== Paso 3: Declara la dependencia de DMZ ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "In your add-on's <code>mods.toml</code>, add a dependency entry for <code>dragonminez</code>:",
+  "translation": "En el <code>mods.toml</code> de tu addon, añade una entrada de dependencia para <code>dragonminez</code>:",
+  "outdated": false
+ },
+ "10": {
+  "source": "Set <code>mandatory</code> to <code>false</code> if your add-on also works without DMZ (see [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Optional dependency pattern]]). DMZ's own <code>mods.toml</code> uses <code>displayTest = \"MATCH_VERSION\"</code>, so the client and the server must run the same DMZ version anyway.",
+  "translation": "Pon <code>mandatory</code> en <code>false</code> si tu addon también funciona sin DMZ (consulta [[Special:MyLanguage/Implementation and Events#Optional dependency pattern|Patrón de dependencia opcional]]). El <code>mods.toml</code> de DMZ usa <code>displayTest = \"MATCH_VERSION\"</code>, así que de todos modos el cliente y el servidor deben usar la misma versión de DMZ.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Step 4: Add DMZ to the compile classpath ==",
+  "translation": "== Paso 4: Añade DMZ al classpath de compilación ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "DMZ's build does not publish a Maven artifact, so use a local jar during development:",
+  "translation": "La compilación de DMZ no publica un artefacto de Maven, así que usa un jar local durante el desarrollo:",
+  "outdated": false
+ },
+ "13": {
+  "source": "# Download the DMZ release you target, or build it yourself with <code>./gradlew build</code> in the DMZ repository.\n# Use the '''no-classifier''' jar (<code>dragonminez-<version>.jar</code>): it bundles DMZ's database libraries. The <code>-slim</code> jar is not meant to be used.\n# Put it in your project's <code>libs/</code> folder and reference it through <code>fg.deobf(...)</code> as shown above, so ForgeGradle remaps it to your development mappings.",
+  "translation": "# Descarga la versión de DMZ a la que apuntas o compílala tú mismo con <code>./gradlew build</code> en el repositorio de DMZ.\n# Usa el jar '''sin clasificador''' (<code>dragonminez-<version>.jar</code>): incluye las librerías de base de datos de DMZ. El jar <code>-slim</code> no está pensado para usarse.\n# Ponlo en la carpeta <code>libs/</code> de tu proyecto y referéncialo con <code>fg.deobf(...)</code> como se muestra arriba, para que ForgeGradle lo remapee a tus mappings de desarrollo.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Use <code>compileOnly</code> instead of <code>implementation</code> if you only want to compile against DMZ and run it from a separate instance.",
+  "translation": "Usa <code>compileOnly</code> en lugar de <code>implementation</code> si solo quieres compilar contra DMZ y ejecutarlo desde una instancia aparte.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Step 5: Listen to DMZ events ==",
+  "translation": "== Paso 5: Escucha los eventos de DMZ ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "DMZ publishes its server and common Forge events as nested classes of <code>com.dragonminez.common.events.DMZEvent</code>, and its client events as nested classes of <code>com.dragonminez.client.events.DMZClientEvent</code>. For example:",
+  "translation": "DMZ publica sus eventos de Forge de servidor y comunes como clases anidadas de <code>com.dragonminez.common.events.DMZEvent</code>, y sus eventos de cliente como clases anidadas de <code>com.dragonminez.client.events.DMZClientEvent</code>. Por ejemplo:",
+  "outdated": false
+ },
+ "17": {
+  "source": "The event source files are <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code> and <code>src/main/java/com/dragonminez/client/events/DMZClientEvent.java</code>. The full list, plus the quest objective and reward registries, text placeholders and utility menu slots, is on [[Special:MyLanguage/Implementation and Events|Implementation and Events]].",
+  "translation": "Los archivos fuente de los eventos son <code>src/main/java/com/dragonminez/common/events/DMZEvent.java</code> y <code>src/main/java/com/dragonminez/client/events/DMZClientEvent.java</code>. La lista completa, junto con los registros de objetivos y recompensas de misiones, los placeholders de texto y las ranuras del menú de utilidades, está en [[Special:MyLanguage/Implementation and Events|Implementación y eventos]].",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Suggested add-on structure ==",
+  "translation": "== Estructura sugerida del addon ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* <code>your/addon/MainModClass.java</code>\n* <code>your/addon/event/DmzHooks.java</code>\n* <code>src/main/resources/META-INF/mods.toml</code>\n* <code>src/main/resources/pack.mcmeta</code>",
+  "translation": "* <code>your/addon/MainModClass.java</code>\n* <code>your/addon/event/DmzHooks.java</code>\n* <code>src/main/resources/META-INF/mods.toml</code>\n* <code>src/main/resources/pack.mcmeta</code>",
+  "outdated": false
+ },
+ "20": {
+  "source": "== First milestone checklist ==",
+  "translation": "== Lista de comprobación del primer hito ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "# The add-on loads without crashing in the development client.\n# DMZ is detected when present.\n# One DMZ event is received in the logs.\n# One behavior change is visible in game.",
+  "translation": "# El addon carga sin crashear en el cliente de desarrollo.\n# DMZ se detecta cuando está presente.\n# Se recibe un evento de DMZ en los logs.\n# Se ve un cambio de comportamiento en el juego.",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Compatibility recommendations ==",
+  "translation": "== Recomendaciones de compatibilidad ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "* Guard code paths that only work with DMZ behind mod-presence checks.\n* Log clear warnings when DMZ is missing or its version is incompatible.\n* Don't bundle or depend on Legendary Tooltips, Epic Fight or Better Combat: DMZ refuses to start alongside them.\n* Use your own network channel, and never trust client input for progression (see [[Special:MyLanguage/Implementation and Events#Networking|Networking]]).",
+  "translation": "* Protege las partes del código que solo funcionan con DMZ con comprobaciones de presencia del mod.\n* Registra advertencias claras en el log cuando falte DMZ o su versión sea incompatible.\n* No incluyas ni dependas de Legendary Tooltips, Epic Fight o Better Combat: DMZ se niega a iniciar junto a ellos.\n* Usa tu propio canal de red y nunca confíes en lo que envía el cliente para el progreso (consulta [[Special:MyLanguage/Implementation and Events#Networking|Red]]).",
+  "outdated": false
+ }
+}

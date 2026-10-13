@@ -1,0 +1,137 @@
+{
+ "Page_display_title": {
+  "source": "How to JSON",
+  "translation": "Como usar JSON",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''How to JSON''' explains the rules every DragonMineZ data file follows. You don't need to know Java to configure DragonMineZ, but your files have to be valid JSON, and DragonMineZ upgrades its files between versions in ways you should know about before you start editing.",
+  "translation": "'''Como usar JSON''' explica as regras que todos os arquivos de dados do DragonMineZ seguem. Você não precisa saber Java para configurar o DragonMineZ, mas seus arquivos precisam ser JSON válido, e o DragonMineZ atualiza seus arquivos entre versões de jeitos que você deve conhecer antes de começar a editar.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Ground rules ==",
+  "translation": "== Regras básicas ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* '''Standard JSON.''' No trailing commas; keys and strings go in double quotes. The config parser tolerates <code>//</code> comments and skips keys that start with <code>_</code>, <code>$</code> or <code>//</code> without a warning, but DragonMineZ drops them whenever it rewrites a file (a version upgrade, <code>/dmzconfig</code> or the in-game config editor). Keep long notes outside the file.\n* '''UTF-8 encoding.''' Config is read and written as UTF-8 (<code>ConfigLoader.java</code>). Don't save files as UTF-16, or with a byte order mark (BOM) that your editor might add silently.\n* '''Use a real editor.''' VS Code, Notepad++ or IntelliJ catch bracket and quote mismatches before they reach the server. Notepad works, but it won't warn you about syntax errors.\n* '''Validate before you deploy.''' A single misplaced comma makes the whole file fail to parse. Paste the file into any JSON validator (or use your editor's built-in linter) before restarting or reloading a live server.",
+  "translation": "* '''JSON padrão.''' Sem vírgulas sobrando no final; chaves e textos vão entre aspas duplas. O parser da configuração tolera comentários <code>//</code> e ignora sem aviso as chaves que começam com <code>_</code>, <code>$</code> ou <code>//</code>, mas o DragonMineZ os descarta sempre que reescreve um arquivo (uma atualização de versão, <code>/dmzconfig</code> ou o editor de configuração do jogo). Deixe anotações longas fora do arquivo.\n* '''Codificação UTF-8.''' A configuração é lida e gravada em UTF-8 (<code>ConfigLoader.java</code>). Não salve arquivos em UTF-16 nem com uma marca de ordem de bytes (BOM) que seu editor pode adicionar sem avisar.\n* '''Use um editor de verdade.''' VS Code, Notepad++ ou IntelliJ detectam colchetes e aspas sem par antes que cheguem ao servidor. O Bloco de Notas funciona, mas não avisa sobre erros de sintaxe.\n* '''Valide antes de publicar.''' Uma única vírgula fora do lugar faz o arquivo inteiro falhar na leitura. Cole o arquivo em qualquer validador de JSON (ou use o linter embutido do seu editor) antes de reiniciar ou recarregar um servidor em funcionamento.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== When DragonMineZ can't read your file ==",
+  "translation": "== Quando o DragonMineZ não consegue ler seu arquivo ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "DragonMineZ never overwrites a file it can't read. If a config file has a syntax error:",
+  "translation": "O DragonMineZ nunca sobrescreve um arquivo que não consegue ler. Se um arquivo de configuração tiver um erro de sintaxe:",
+  "outdated": false
+ },
+ "6": {
+  "source": "* DragonMineZ logs <code><file> has malformed JSON; using defaults this session and leaving your file untouched</code>, with the line, column and path of the error.\n* For that session the game runs on the built-in default values of that file. Your file stays exactly as you left it.\n* Fix the syntax and run <code>/dmzreload</code> (or restart) to apply your values.",
+  "translation": "* O DragonMineZ registra <code><file> has malformed JSON; using defaults this session and leaving your file untouched</code>, com a linha, a coluna e o caminho do erro.\n* Durante essa sessão, o jogo usa os valores padrão incluídos desse arquivo. Seu arquivo fica exatamente como você deixou.\n* Corrija a sintaxe e execute <code>/dmzreload</code> (ou reinicie) para aplicar seus valores.",
+  "outdated": false
+ },
+ "7": {
+  "source": "The same applies to the other JSON files DragonMineZ loads: a malformed custom form, raid, tournament, quest, saga, side quest or wish file is '''skipped''' (not regenerated) and reported.",
+  "translation": "O mesmo vale para os outros arquivos JSON que o DragonMineZ carrega: um arquivo malformado de forma personalizada, incursão, torneio, missão, saga, missão secundária ou desejo é '''ignorado''' (não é regenerado) e reportado.",
+  "outdated": false
+ },
+ "8": {
+  "source": "=== The JSON load report ===",
+  "translation": "=== O relatório de carregamento de JSON ===",
+  "outdated": false
+ },
+ "9": {
+  "source": "All these problems are collected in one report. With <code>developer.reportJsonProblemsInChat</code> enabled in <code>general-server.json</code> (the default), every player sees a short summary in chat on login: the files that failed (<code>[!]</code>) and the default files that were upgraded automatically (<code>[~]</code>). The report also flags '''unknown keys''', usually a typo such as <code>\"tpGainMultipler\"</code>: the key is ignored and the rest of the file still loads. The server log has the full details.",
+  "translation": "Todos esses problemas são reunidos em um único relatório. Com <code>developer.reportJsonProblemsInChat</code> ativado em <code>general-server.json</code> (o padrão), cada jogador vê um breve resumo no chat ao entrar: os arquivos que falharam (<code>[!]</code>) e os arquivos padrão que foram atualizados automaticamente (<code>[~]</code>). O relatório também aponta '''chaves desconhecidas''', geralmente um erro de digitação como <code>\"tpGainMultipler\"</code>: a chave é ignorada e o resto do arquivo carrega normalmente. O log do servidor tem todos os detalhes.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Config versions and automatic upgrades ==",
+  "translation": "== Versões de configuração e atualizações automáticas ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Every config file (<code>general-server.json</code>, <code>combat.json</code>, a race's <code>character.json</code> and <code>stats.json</code>, forms, <code>entities.json</code>, raids, tournaments and so on) carries a <code>configVersion</code> string in <code>X.Y.Z</code> form, for example <code>\"2.2.0\"</code>. '''Do not edit it by hand.''' DragonMineZ compares it with the mod's own config version every time it loads the file:",
+  "translation": "Todo arquivo de configuração (<code>general-server.json</code>, <code>combat.json</code>, o <code>character.json</code> e o <code>stats.json</code> de uma raça, as formas, <code>entities.json</code>, incursões, torneios etc.) tem um texto <code>configVersion</code> no formato <code>X.Y.Z</code>, por exemplo <code>\"2.2.0\"</code>. '''Não o edite à mão.''' O DragonMineZ o compara com a versão de configuração do próprio mod sempre que carrega o arquivo:",
+  "outdated": false
+ },
+ "12": {
+  "source": "* '''Current version:''' the file is loaded as it is.\n* '''Older or missing version:''' DragonMineZ upgrades the file. Any value that isn't in <code>X.Y.Z</code> form, such as the old numeric <code>21.0</code>, counts as outdated.",
+  "translation": "* '''Versão atual:''' o arquivo é carregado como está.\n* '''Versão mais antiga ou ausente:''' o DragonMineZ atualiza o arquivo. Qualquer valor que não esteja no formato <code>X.Y.Z</code>, como o antigo valor numérico <code>21.0</code>, conta como desatualizado.",
+  "outdated": false
+ },
+ "13": {
+  "source": "An upgrade goes through these steps:",
+  "translation": "Uma atualização segue estes passos:",
+  "outdated": false
+ },
+ "14": {
+  "source": "# The old file is '''moved''' to <code>config/dragonminez/oldBackup/<same relative path></code> (for example <code>oldBackup/races/saiyan/forms/superforms.json</code>).\n# A fresh file is generated from the new defaults.\n# Your old values are merged back in with a '''three-way merge''' against the defaults of the previous release, which ship inside the mod jar (<code>data/dragonminez/previousConfigs/</code>):\n#* a value you never changed (it still equals the previous release's default) takes the '''new''' default, so balance changes reach you;\n#* a value you changed is '''kept''';\n#* keys added in the new version are added with their default, and entries you added to maps (for example extra entity ids) are kept;\n#* if there is no previous-release copy of a file (custom races, newly added files), every value that differs from the new default is kept.\n# The log shows <code>Regenerating <file>. Reason: Outdated version (...)</code> and how many of your values were preserved.",
+  "translation": "# O arquivo antigo é '''movido''' para <code>config/dragonminez/oldBackup/<same relative path></code> (por exemplo <code>oldBackup/races/saiyan/forms/superforms.json</code>).\n# Um arquivo novo é gerado a partir dos novos valores padrão.\n# Seus valores antigos são incorporados de volta com uma '''mesclagem de três vias''' contra os valores padrão da versão anterior, que vêm dentro do jar do mod (<code>data/dragonminez/previousConfigs/</code>):\n#* um valor que você nunca alterou (ainda igual ao padrão da versão anterior) recebe o '''novo''' padrão, então as mudanças de balanceamento chegam até você;\n#* um valor que você alterou é '''mantido''';\n#* chaves adicionadas na nova versão entram com seu valor padrão, e as entradas que você adicionou a mapas (por exemplo, ids de entidades extras) são mantidas;\n#* se não houver cópia da versão anterior de um arquivo (raças personalizadas, arquivos adicionados recentemente), todo valor diferente do novo padrão é mantido.\n# O log mostra <code>Regenerating <file>. Reason: Outdated version (...)</code> e quantos dos seus valores foram preservados.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Values the merge can't carry over (for example a value of the wrong type, such as a string where a number is expected) fall back to the default. After an update, compare the new file with its copy in <code>oldBackup/</code> if something looks off.",
+  "translation": "Valores que a mesclagem não consegue transferir (por exemplo, um valor do tipo errado, como um texto onde se espera um número) voltam ao padrão. Depois de uma atualização, compare o arquivo novo com a cópia em <code>oldBackup/</code> se algo parecer estranho.",
+  "outdated": false
+ },
+ "16": {
+  "source": "Leave configVersion alone",
+  "translation": "Não mexa no configVersion",
+  "outdated": false
+ },
+ "17": {
+  "source": "Changing <code>configVersion</code> by hand either forces an unwanted upgrade or makes DragonMineZ treat an outdated file as current, so new keys and balance fixes are not merged in.",
+  "translation": "Alterar o <code>configVersion</code> à mão ou força uma atualização indesejada ou faz o DragonMineZ tratar um arquivo desatualizado como atual, e aí as chaves novas e os ajustes de balanceamento não são incorporados.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Custom and user-defined files ==",
+  "translation": "== Arquivos personalizados e definidos pelo usuário ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* '''Custom races''' (any folder under <code>config/dragonminez/races/</code> that isn't a default race) go through the same version check: their <code>character.json</code> and <code>stats.json</code> are upgraded with the merge above, keeping every value you set. DragonMineZ never generates default forms for them.\n* '''Custom form files''' (form groups that aren't DragonMineZ defaults, in <code>races/<race>/forms/</code> or <code>forms/</code>) keep their content: when their version is outdated, a copy is moved to <code>oldBackup/</code> and the file is saved again with the current version.\n* '''Extra raid and tournament files''' you add are loaded as they are.\n* '''Custom quests, sagas and side quests''' you create in the world save are never modified. Only the default files DragonMineZ generated are upgraded (see below).\n* Files whose name starts with <code>old_</code> in the forms, raids and tournaments folders are ignored, so you can park a file there without it being loaded.",
+  "translation": "* '''Raças personalizadas''' (qualquer pasta em <code>config/dragonminez/races/</code> que não seja uma raça padrão): passam pela mesma verificação de versão; seu <code>character.json</code> e seu <code>stats.json</code> são atualizados com a mesclagem acima, mantendo todos os valores que você definiu. O DragonMineZ nunca gera formas padrão para elas.\n* '''Arquivos de formas personalizadas''' (grupos de formas que não são padrão do DragonMineZ, em <code>races/<race>/forms/</code> ou <code>forms/</code>): mantêm seu conteúdo; quando a versão está desatualizada, uma cópia é movida para <code>oldBackup/</code> e o arquivo é salvo de novo com a versão atual.\n* '''Arquivos extras de incursões e torneios''' que você adicionar: são carregados como estão.\n* '''Missões, sagas e missões secundárias personalizadas''' que você criar no save do mundo: nunca são modificadas. Só os arquivos padrão gerados pelo DragonMineZ são atualizados (veja abaixo).\n* Arquivos cujo nome começa com <code>old_</code> nas pastas de formas, incursões e torneios são ignorados, então você pode deixar um arquivo guardado ali sem que ele seja carregado.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Quest files and defaultsVersion ==",
+  "translation": "== Arquivos de missões e defaultsVersion ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Default quest, saga and side quest files in <code><world>/dragonminez/</code> carry a <code>\"defaultsVersion\"</code> field instead of <code>configVersion</code>. When a new DragonMineZ version ships changed defaults and <code>autoUpdateQuests</code> is on, DragonMineZ runs a similar three-way merge on them (against <code>data/dragonminez/previousQuests/</code> in the jar). If both you and the new version changed the same field, '''your value is kept''' and the conflict is listed in <code><world>/dragonminez/quest_update_report.txt</code>. Before changing a file, DragonMineZ copies it to <code><world>/dragonminez/oldBackup/</code>.",
+  "translation": "Os arquivos padrão de missões, sagas e missões secundárias em <code><world>/dragonminez/</code> têm um campo <code>\"defaultsVersion\"</code> em vez de <code>configVersion</code>. Quando uma nova versão do DragonMineZ traz padrões alterados e <code>autoUpdateQuests</code> está ativado, o DragonMineZ aplica neles uma mesclagem de três vias parecida (contra <code>data/dragonminez/previousQuests/</code> no jar). Se você e a nova versão alteraram o mesmo campo, '''seu valor é mantido''' e o conflito é listado em <code><world>/dragonminez/quest_update_report.txt</code>. Antes de alterar um arquivo, o DragonMineZ o copia para <code><world>/dragonminez/oldBackup/</code>.",
+  "outdated": false
+ },
+ "22": {
+  "source": "See [[Special:MyLanguage/Custom Quests#Default file upgrades|Custom Quests]] for how the merge treats each field, and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for how upgrades are reported.",
+  "translation": "Veja [[Special:MyLanguage/Custom Quests#Default file upgrades|Missões personalizadas]] para saber como a mesclagem trata cada campo, e [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]] para saber como as atualizações são reportadas.",
+  "outdated": false
+ },
+ "23": {
+  "source": "== Common mistakes ==",
+  "translation": "== Erros comuns ==",
+  "outdated": false
+ },
+ "24": {
+  "source": "* Not renaming <code>raceName</code>, <code>groupName</code> or other id-like fields consistently between the folder name and the JSON content. DragonMineZ keys many lookups off both.\n* Copying a form or race file and forgetting to change its internal identifiers, so one entry silently overrides another.\n* Editing a file while the server is running and expecting it to apply live. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]] for what needs a reload and what needs a restart.\n* Editing the copy in <code>oldBackup/</code> thinking it's still active. It isn't: DragonMineZ never reads it back.\n* Typos in key names. The key is ignored (and reported), so your value never applies.",
+  "translation": "* Não renomear <code>raceName</code>, <code>groupName</code> ou outros campos do tipo id de forma consistente entre o nome da pasta e o conteúdo JSON. O DragonMineZ usa os dois em muitas buscas.\n* Copiar um arquivo de forma ou de raça e esquecer de mudar seus identificadores internos, fazendo uma entrada sobrescrever outra sem aviso.\n* Editar um arquivo com o servidor rodando e esperar que a mudança valha na hora. Veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]] para saber o que precisa de recarga e o que precisa de reinicialização.\n* Editar a cópia em <code>oldBackup/</code> achando que ela ainda está ativa. Não está: o DragonMineZ nunca a lê de volta.\n* Erros de digitação nos nomes das chaves. A chave é ignorada (e reportada), então seu valor nunca é aplicado.",
+  "outdated": false
+ },
+ "25": {
+  "source": "== Checking a field against the code ==",
+  "translation": "== Conferir um campo no código ==",
+  "outdated": false
+ },
+ "26": {
+  "source": "The modding pages of this wiki name the Java class behind each file (for example <code>RaceCharacterConfig.java</code>, <code>FormConfig.java</code> or <code>GeneralServerConfig.java</code> in <code>com.dragonminez.common.config</code>). When in doubt about a field name or type, that class is the ground truth: the wiki describes it, but the code defines it. The easiest reference is a freshly generated file: start a test instance, then copy the file DragonMineZ writes.",
+  "translation": "As páginas de modding desta wiki indicam a classe Java por trás de cada arquivo (por exemplo <code>RaceCharacterConfig.java</code>, <code>FormConfig.java</code> ou <code>GeneralServerConfig.java</code> em <code>com.dragonminez.common.config</code>). Na dúvida sobre o nome ou o tipo de um campo, essa classe é a fonte da verdade: a wiki a descreve, mas o código a define. A referência mais fácil é um arquivo recém-gerado: inicie uma instância de teste e copie o arquivo que o DragonMineZ grava.",
+  "outdated": false
+ }
+}

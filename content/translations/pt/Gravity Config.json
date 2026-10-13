@@ -1,0 +1,612 @@
+{
+ "Page_display_title": {
+  "source": "Gravity Config",
+  "translation": "Configuração de gravidade",
+  "outdated": false
+ },
+ "1": {
+  "source": "The gravity system (dimension gravity, the Gravity Device block and weight-based training zones) is configured under the <code>gravity</code> key of <code>config/dragonminez/general-server.json</code>. It is one of the largest single sections of that file, with more than 60 fields, so it has its own page instead of being part of [[Special:MyLanguage/General Server Config|General Server Config]].",
+  "translation": "O sistema de gravidade (gravidade das dimensões, o bloco Dispositivo de Gravidade e as zonas de treino por peso) é configurado na chave <code>gravity</code> de <code>config/dragonminez/general-server.json</code>. É uma das maiores seções desse arquivo, com mais de 60 campos, então tem página própria em vez de fazer parte de [[Special:MyLanguage/General Server Config|Configuração do servidor]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "The schema is the <code>GravityConfig</code> class nested in <code>GeneralServerConfig.java</code>; the logic is applied mostly in <code>GravityLogic.java</code> and <code>GravityDeviceBlockEntity.java</code>. For the player side, see [[Special:MyLanguage/Gravity|Gravity]], [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity Device|Gravity Device]].",
+  "translation": "O esquema é a classe <code>GravityConfig</code> aninhada em <code>GeneralServerConfig.java</code>; a lógica é aplicada principalmente em <code>GravityLogic.java</code> e <code>GravityDeviceBlockEntity.java</code>. Para o lado do jogador, veja [[Special:MyLanguage/Gravity|Gravidade]], [[Special:MyLanguage/Weights|Pesos]] e [[Special:MyLanguage/Gravity Device|Dispositivo de Gravidade]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== How it works ==",
+  "translation": "== Como funciona ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "A player's '''raw gravity''' is built like this:",
+  "translation": "A '''gravidade bruta''' de um jogador é calculada assim:",
+  "outdated": false
+ },
+ "5": {
+  "source": "That raw gravity is then reduced by the player's stats to get the '''net gravity''' (if raw gravity is 1 or less, net gravity is 0). Higher net gravity means more TP and mastery gain, stat penalties, movement, attack, jump and fly penalties, and a higher stamina cost per attack.",
+  "translation": "Depois, as estatísticas do jogador reduzem essa gravidade bruta para chegar à '''gravidade líquida''' (se a gravidade bruta for 1 ou menos, a gravidade líquida é 0). Uma gravidade líquida maior significa mais ganho de TP e de domínio, penalidades nas estatísticas, penalidades de movimento, ataque, salto e voo, e um custo de estâmina maior por ataque.",
+  "outdated": false
+ },
+ "6": {
+  "source": "A separate '''weight-based training zone''' system is layered on top, based on how much weight the player is carrying relative to an ideal for their level. That is what produces the Comfortable, Ideal, Pushing Hard and Overloaded TP multiplier bands.",
+  "translation": "Por cima disso há um sistema separado de '''zonas de treino por peso''', baseado em quanto peso o jogador carrega em relação ao ideal para o seu nível. É isso que gera as faixas de multiplicador de TP Confortável, Ideal, No limite e Sobrecarregado.",
+  "outdated": false
+ },
+ "7": {
+  "source": "The '''Gravity''' row of the Stats menu shows all of this live: environmental and net gravity, stat penalty, TP bonus, your weight (raw → effective), ideal weight, training zone and the weight-training multiplier.",
+  "translation": "A linha '''Gravidade''' do menu de estatísticas mostra tudo isso ao vivo: a gravidade do ambiente e a líquida, a penalidade nas estatísticas, o bônus de TP, seu peso (bruto → efetivo), o peso ideal, a zona de treino e o multiplicador do treino com peso.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Base gravity sources ==",
+  "translation": "== Fontes de gravidade base ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "10": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "11": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "12": {
+  "source": "Master toggle for the whole system. When <code>false</code>, gravity is always 1.",
+  "translation": "Interruptor geral de todo o sistema. Quando é <code>false</code>, a gravidade é sempre 1.",
+  "outdated": false
+ },
+ "13": {
+  "source": "A map of dimension id to number: the base gravity of each dimension.",
+  "translation": "Um mapa de id de dimensão para número: a gravidade base de cada dimensão.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Fallback for dimensions not listed in <code>gravityPerWorld</code>.",
+  "translation": "Valor de reserva para dimensões que não estão em <code>gravityPerWorld</code>.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Gravity applied near a King Kai (Kaio) NPC.",
+  "translation": "Gravidade aplicada perto de um NPC do Rei Kai (Kaio).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Radius (in blocks) used to detect a nearby King Kai NPC.",
+  "translation": "Raio (em blocos) usado para detectar um NPC do Rei Kai por perto.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Whether Gravity Device blocks contribute to gravity at all.",
+  "translation": "Se os blocos de Dispositivo de Gravidade contribuem para a gravidade.",
+  "outdated": false
+ },
+ "18": {
+  "source": "With '''WorldGuard''' installed, the region flag <code>dmz-gravity</code> (a number) also sets a base gravity for the region; it is used when it is higher than the dimension's gravity (see [[Special:MyLanguage/Gamerules|Gamerules]]).",
+  "translation": "Com o '''WorldGuard''' instalado, a flag de região <code>dmz-gravity</code> (um número) também define uma gravidade base para a região; ela é usada quando é maior que a gravidade da dimensão (veja [[Special:MyLanguage/Gamerules|Gamerules]]).",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Resistance negation ==",
+  "translation": "== Anulação pela Resistência ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "21": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "22": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "23": {
+  "source": "Resistance divisor, as a ratio of <code>maxValue</code> (from the <code>gameplay</code> section of <code>general-server.json</code>). Higher values make your stats negate gravity less.",
+  "translation": "Divisor de Resistência, como proporção de <code>maxValue</code> (da seção <code>gameplay</code> de <code>general-server.json</code>). Valores maiores fazem suas estatísticas anularem menos gravidade.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Scales how much the negation term matters.",
+  "translation": "Escala o quanto o termo de anulação pesa.",
+  "outdated": false
+ },
+ "25": {
+  "source": "In v2.2 the default <code>gameplay.maxValue</code> is '''1,000,000''', so this negation only becomes significant at very high stats.",
+  "translation": "Na v2.2, o valor padrão de <code>gameplay.maxValue</code> é '''1,000,000''', então essa anulação só fica relevante com estatísticas muito altas.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Stat reduction curve ==",
+  "translation": "== Curva de redução de estatísticas ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "28": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "29": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "30": {
+  "source": "Master toggle.",
+  "translation": "Interruptor geral.",
+  "outdated": false
+ },
+ "31": {
+  "source": "List of the stats that get penalized.",
+  "translation": "Lista das estatísticas que sofrem penalidade.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Reduction fraction per 1 point of net gravity.",
+  "translation": "Fração de redução por 1 ponto de gravidade líquida.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Floor.",
+  "translation": "Mínimo.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Ceiling (never more than a 90% reduction).",
+  "translation": "Máximo (nunca mais de 90% de redução).",
+  "outdated": false
+ },
+ "35": {
+  "source": "The weight penalty (see the weight training zones below) is added on top of the gravity reduction, and the total is still capped at <code>maxStatReduction</code>.",
+  "translation": "A penalidade por peso (veja as zonas de treino por peso abaixo) se soma à redução pela gravidade, e o total continua limitado a <code>maxStatReduction</code>.",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Movement, attack, jump and fly penalties ==",
+  "translation": "== Penalidades de movimento, ataque, salto e voo ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "38": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "39": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "40": {
+  "source": "Net gravity at or above which flight is fully disabled, jumping takes the maximum penalty, and the gravity TP and mastery bonus drops to nothing.",
+  "translation": "Gravidade líquida a partir da qual o voo fica totalmente desativado, o salto sofre a penalidade máxima e o bônus de TP e domínio pela gravidade some.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Maximum movement-speed reduction.",
+  "translation": "Redução máxima da velocidade de movimento.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Maximum attack-speed reduction.",
+  "translation": "Redução máxima da velocidade de ataque.",
+  "outdated": false
+ },
+ "43": {
+  "source": "Curve steepness for the movement, jump and fly penalties: <code>penalty = sqrt(netGravity / 100) * penaltyCurveFactor</code>, clamped to the relevant maximum. The attack-speed penalty uses <code>sqrt(netGravity / 100)</code> without this factor.",
+  "translation": "Inclinação da curva das penalidades de movimento, salto e voo: <code>penalty = sqrt(netGravity / 100) * penaltyCurveFactor</code>, limitada ao máximo correspondente. A penalidade de velocidade de ataque usa <code>sqrt(netGravity / 100)</code> sem esse fator.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Master toggle for the jump, fall and fly penalties specifically.",
+  "translation": "Interruptor geral específica das penalidades de salto, queda e voo.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Maximum jump-height reduction.",
+  "translation": "Redução máxima da altura do salto.",
+  "outdated": false
+ },
+ "46": {
+  "source": "Extra fall-damage multiplier per point of net gravity.",
+  "translation": "Multiplicador extra de dano de queda por ponto de gravidade líquida.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Ceiling on extra fall damage.",
+  "translation": "Limite do dano de queda extra.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Maximum flight-speed reduction (before the hard stop kicks in entirely).",
+  "translation": "Redução máxima da velocidade de voo (antes de o corte total entrar em ação).",
+  "outdated": false
+ },
+ "49": {
+  "source": "The weight stat penalty (see below) is also added to the movement and attack-speed penalties, still capped at <code>maxMovementPenalty</code> / <code>maxAttackPenalty</code>.",
+  "translation": "A penalidade de estatísticas por peso (veja abaixo) também se soma às penalidades de movimento e de velocidade de ataque, ainda limitadas a <code>maxMovementPenalty</code> / <code>maxAttackPenalty</code>.",
+  "outdated": false
+ },
+ "50": {
+  "source": "== TP and mastery bonus from gravity ==",
+  "translation": "== Bônus de TP e domínio pela gravidade ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "52": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "53": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "54": {
+  "source": "Master toggle for the gravity TP bonus '''and''' the whole weight-training system below.",
+  "translation": "Interruptor geral do bônus de TP pela gravidade '''e''' de todo o sistema de treino com peso abaixo.",
+  "outdated": false
+ },
+ "55": {
+  "source": "TP multiplier gained per point of net gravity: <code>1 + netGravity × 0.025</code>.",
+  "translation": "Multiplicador de TP ganho por ponto de gravidade líquida: <code>1 + netGravity × 0.025</code>.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Form mastery bonus per point of net gravity: <code>1 + netGravity × 0.0025</code>.",
+  "translation": "Bônus de domínio de formas por ponto de gravidade líquida: <code>1 + netGravity × 0.0025</code>.",
+  "outdated": false
+ },
+ "57": {
+  "source": "The weight-training multiplier inside the '''Ideal''' band (see below).",
+  "translation": "O multiplicador do treino com peso dentro da faixa '''Ideal''' (veja abaixo).",
+  "outdated": false
+ },
+ "58": {
+  "source": "Both bonuses drop to nothing once net gravity reaches <code>hardStopThreshold</code>. Inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], the chamber's own dimension gravity is '''not''' counted for the TP bonus (the chamber has its own TP multiplier); a Gravity Device placed inside still counts.",
+  "translation": "Os dois bônus somem quando a gravidade líquida chega a <code>hardStopThreshold</code>. Dentro da [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]], a gravidade própria da dimensão '''não''' conta para o bônus de TP (a sala tem seu próprio multiplicador de TP); um Dispositivo de Gravidade colocado lá dentro ainda conta.",
+  "outdated": false
+ },
+ "59": {
+  "source": "== Weight training zones ==",
+  "translation": "== Zonas de treino por peso ==",
+  "outdated": false
+ },
+ "60": {
+  "source": "This is a separate multiplier layered on top of the gravity-derived TP bonus, based on the carried [[Special:MyLanguage/Weights|weight]] relative to an ideal for the player's level.",
+  "translation": "É um multiplicador separado que se soma ao bônus de TP vindo da gravidade, baseado no [[Special:MyLanguage/Weights|peso]] carregado em relação ao ideal para o nível do jogador.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "62": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "63": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "64": {
+  "source": "Ideal weight = relative level / this.",
+  "translation": "Peso ideal = nível relativo / este valor.",
+  "outdated": false
+ },
+ "65": {
+  "source": "How much raw gravity inflates the effective weight: <code>loadFactor = 1.0 + (gravity - 1.0) * gravitySensitivity</code>.",
+  "translation": "Quanto a gravidade bruta infla o peso efetivo: <code>loadFactor = 1.0 + (gravity - 1.0) * gravitySensitivity</code>.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Load ratio at which the multiplier reaches <code>tpComfortMultiplier</code>.",
+  "translation": "Proporção de carga em que o multiplicador chega a <code>tpComfortMultiplier</code>.",
+  "outdated": false
+ },
+ "67": {
+  "source": "The Ideal band starts here.",
+  "translation": "A faixa Ideal começa aqui.",
+  "outdated": false
+ },
+ "68": {
+  "source": "The Ideal band ends here; above it the stat penalty starts.",
+  "translation": "A faixa Ideal termina aqui; acima disso começa a penalidade nas estatísticas.",
+  "outdated": false
+ },
+ "69": {
+  "source": "The multiplier peaks at <code>tpHeavyMultiplier</code> here, then descends.",
+  "translation": "Aqui o multiplicador atinge o pico em <code>tpHeavyMultiplier</code> e depois desce.",
+  "outdated": false
+ },
+ "70": {
+  "source": "At or above this ratio, the multiplier bottoms out to <code>1.0</code> and the penalty is at its maximum.",
+  "translation": "A partir desta proporção, o multiplicador cai para <code>1.0</code> e a penalidade chega ao máximo.",
+  "outdated": false
+ },
+ "71": {
+  "source": "Multiplier at <code>tpComfortRatioLow</code>.",
+  "translation": "Multiplicador em <code>tpComfortRatioLow</code>.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Multiplier at <code>tpOverloadRatio</code>.",
+  "translation": "Multiplicador em <code>tpOverloadRatio</code>.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Maximum stat penalty from being overloaded on weight.",
+  "translation": "Penalidade máxima nas estatísticas por excesso de peso.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Highest weight (kg) a player can request from a master's weight service (Roshi, King Kai, Piccolo).",
+  "translation": "Peso máximo (kg) que um jogador pode pedir ao serviço de pesos de um mestre (Mestre Kame, Rei Kai, Piccolo).",
+  "outdated": false
+ },
+ "75": {
+  "source": "Load ratio = effective weight (total worn weight × <code>loadFactor</code>) / ideal weight. The multiplier interpolates smoothly between the ratio thresholds: <code>1.0</code> at ratio <code>0</code> → <code>tpComfortMultiplier</code> at <code>tpComfortRatioLow</code> → <code>tpPeakMultiplier</code> across the ideal band → <code>tpHeavyMultiplier</code> at <code>tpOverloadRatio</code> → back down to <code>1.0</code> at <code>tpOverloadHardRatio</code>.",
+  "translation": "Proporção de carga = peso efetivo (peso total equipado × <code>loadFactor</code>) / peso ideal. O multiplicador é interpolado suavemente entre os limiares de proporção: <code>1.0</code> com proporção <code>0</code> → <code>tpComfortMultiplier</code> em <code>tpComfortRatioLow</code> → <code>tpPeakMultiplier</code> ao longo da faixa ideal → <code>tpHeavyMultiplier</code> em <code>tpOverloadRatio</code> → de volta a <code>1.0</code> em <code>tpOverloadHardRatio</code>.",
+  "outdated": false
+ },
+ "76": {
+  "source": "The weight '''stat penalty''' is <code>0</code> up to <code>tpIdealRatioHigh</code>, then grows linearly to <code>maxWeightPenalty</code> at <code>tpOverloadHardRatio</code>.",
+  "translation": "A '''penalidade nas estatísticas''' por peso é <code>0</code> até <code>tpIdealRatioHigh</code> e depois cresce linearmente até <code>maxWeightPenalty</code> em <code>tpOverloadHardRatio</code>.",
+  "outdated": false
+ },
+ "77": {
+  "source": "Players see five training zones in-game:",
+  "translation": "Os jogadores veem cinco zonas de treino no jogo:",
+  "outdated": false
+ },
+ "78": {
+  "source": "Zone",
+  "translation": "Zona",
+  "outdated": false
+ },
+ "79": {
+  "source": "Load ratio",
+  "translation": "Proporção de carga",
+  "outdated": false
+ },
+ "80": {
+  "source": "None",
+  "translation": "Nenhum",
+  "outdated": false
+ },
+ "81": {
+  "source": "No weights worn.",
+  "translation": "Sem pesos equipados.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Comfortable",
+  "translation": "Confortável",
+  "outdated": false
+ },
+ "83": {
+  "source": "Below <code>tpIdealRatioLow</code>.",
+  "translation": "Abaixo de <code>tpIdealRatioLow</code>.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Ideal",
+  "translation": "Ideal",
+  "outdated": false
+ },
+ "85": {
+  "source": "From <code>tpIdealRatioLow</code> to <code>tpIdealRatioHigh</code>.",
+  "translation": "De <code>tpIdealRatioLow</code> a <code>tpIdealRatioHigh</code>.",
+  "outdated": false
+ },
+ "86": {
+  "source": "Pushing Hard",
+  "translation": "No limite",
+  "outdated": false
+ },
+ "87": {
+  "source": "Above the ideal band, below <code>tpOverloadHardRatio</code>.",
+  "translation": "Acima da faixa ideal, abaixo de <code>tpOverloadHardRatio</code>.",
+  "outdated": false
+ },
+ "88": {
+  "source": "Overloaded",
+  "translation": "Sobrecarregado",
+  "outdated": false
+ },
+ "89": {
+  "source": "<code>tpOverloadHardRatio</code> and above.",
+  "translation": "<code>tpOverloadHardRatio</code> ou mais.",
+  "outdated": false
+ },
+ "90": {
+  "source": "=== Gravity Room upgrades ===",
+  "translation": "=== Melhorias da Sala de Gravidade ===",
+  "outdated": false
+ },
+ "91": {
+  "source": "Bulma's side quests '''Gravity Room Mk.II''' and '''Gravity Room Mk.III''' unlock dampeners that reduce the '''weight stat penalty''' while you stand inside an '''active Gravity Device's''' room. The relief fades as you get stronger:",
+  "translation": "As missões secundárias da Bulma '''Sala de Gravidade Mk.II''' e '''Sala de Gravidade Mk.III''' desbloqueiam amortecedores que reduzem a '''penalidade de estatísticas por peso''' enquanto você está dentro da sala de um '''Dispositivo de Gravidade ativo'''. O alívio diminui conforme você fica mais forte:",
+  "outdated": false
+ },
+ "92": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "93": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "94": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "95": {
+  "source": "Base relief after Mk. II.",
+  "translation": "Alívio base após a Mk. II.",
+  "outdated": false
+ },
+ "96": {
+  "source": "How fast the Mk. II relief fades with power.",
+  "translation": "Quão rápido o alívio da Mk. II diminui com o poder.",
+  "outdated": false
+ },
+ "97": {
+  "source": "Base relief after Mk. III (replaces Mk. II).",
+  "translation": "Alívio base após a Mk. III (substitui a Mk. II).",
+  "outdated": false
+ },
+ "98": {
+  "source": "How fast the Mk. III relief fades with power.",
+  "translation": "Quão rápido o alívio da Mk. III diminui com o poder.",
+  "outdated": false
+ },
+ "99": {
+  "source": "== Drain from load and gravity ==",
+  "translation": "== Consumo por carga e gravidade ==",
+  "outdated": false
+ },
+ "100": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "101": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "102": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "103": {
+  "source": "Drain multiplier in the Comfortable zone.",
+  "translation": "Multiplicador de consumo na zona Confortável.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Drain multiplier in the Ideal zone.",
+  "translation": "Multiplicador de consumo na zona Ideal.",
+  "outdated": false
+ },
+ "105": {
+  "source": "Drain multiplier in the Pushing Hard zone.",
+  "translation": "Multiplicador de consumo na zona No limite.",
+  "outdated": false
+ },
+ "106": {
+  "source": "Drain multiplier in the Overloaded zone.",
+  "translation": "Multiplicador de consumo na zona Sobrecarregado.",
+  "outdated": false
+ },
+ "107": {
+  "source": "Extra stamina cost of attacks per point of net gravity: <code>consumptionMultiplier = 1.0 + netGravity * consumptionPerGravity</code>.",
+  "translation": "Custo extra de estâmina dos ataques por ponto de gravidade líquida: <code>consumptionMultiplier = 1.0 + netGravity * consumptionPerGravity</code>.",
+  "outdated": false
+ },
+ "108": {
+  "source": "The load drain multiplier applies to the stamina cost of attacks and to the ki, health and stamina drain of active forms.",
+  "translation": "O multiplicador de consumo por carga se aplica ao custo de estâmina dos ataques e ao consumo de ki, vida e estâmina das formas ativas.",
+  "outdated": false
+ },
+ "109": {
+  "source": "== Gravity Device block ==",
+  "translation": "== Bloco Dispositivo de Gravidade ==",
+  "outdated": false
+ },
+ "110": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "111": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "112": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "113": {
+  "source": "Minimum size (in blocks) of the enclosed room on each axis.",
+  "translation": "Tamanho mínimo (em blocos) da sala fechada em cada eixo.",
+  "outdated": false
+ },
+ "114": {
+  "source": "Maximum size of the enclosed room on each axis.",
+  "translation": "Tamanho máximo da sala fechada em cada eixo.",
+  "outdated": false
+ },
+ "115": {
+  "source": "Gravity cap the device can be set to.",
+  "translation": "Gravidade máxima em que o dispositivo pode ser ajustado.",
+  "outdated": false
+ },
+ "116": {
+  "source": "Star Energy storage capacity.",
+  "translation": "Capacidade de armazenamento de Energia Estelar.",
+  "outdated": false
+ },
+ "117": {
+  "source": "Energy consumed per second per × of target gravity (100× gravity uses 100 energy per second by default).",
+  "translation": "Energia consumida por segundo para cada × de gravidade alvo (100× de gravidade usa 100 de energia por segundo por padrão).",
+  "outdated": false
+ },
+ "118": {
+  "source": "Gravity value at which the client-side visual shader reaches full intensity.",
+  "translation": "Valor de gravidade em que o shader visual do lado do cliente atinge a intensidade máxima.",
+  "outdated": false
+ },
+ "119": {
+  "source": "The device validates its room with a flood-fill of the empty space around it: the enclosed space must be fully sealed (no gaps to the outside), and the enclosed air must measure between <code>deviceMinRoomSize</code> and <code>deviceMaxRoomSize</code> on every axis. The room is re-checked every 5 seconds while the device is on.",
+  "translation": "O dispositivo valida sua sala preenchendo o espaço vazio ao redor dele: o espaço fechado precisa estar totalmente vedado (sem frestas para o lado de fora), e o ar fechado precisa medir entre <code>deviceMinRoomSize</code> e <code>deviceMaxRoomSize</code> em cada eixo. A sala é verificada de novo a cada 5 segundos enquanto o dispositivo está ligado.",
+  "outdated": false
+ },
+ "120": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "121": {
+  "source": "# Edit the <code>gravity</code> block in <code>config/dragonminez/general-server.json</code>.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code>.\n# Test in a Gravity Device or a high-gravity dimension: check the TP gain rate, the movement and attack penalties, and the drain.",
+  "translation": "# Edite o bloco <code>gravity</code> em <code>config/dragonminez/general-server.json</code>.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code>.\n# Teste em um Dispositivo de Gravidade ou em uma dimensão de gravidade alta: confira o ritmo de ganho de TP, as penalidades de movimento e ataque, e o consumo.",
+  "outdated": false
+ }
+}

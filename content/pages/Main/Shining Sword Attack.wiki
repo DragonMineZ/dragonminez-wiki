@@ -1,34 +1,39 @@
 {{Infobox Technique
-|quote=<translate>A sword technique for the wielder of the Brave Sword.</translate>
-|Type=<translate>Strike attack</translate>
+|quote=<translate><!--T:1--> A sword technique for the wielder of the Brave Sword.</translate>
+|Type=<translate><!--T:2--> Strike attack</translate>
 |Taught by={{L|Trunks}}
-|Races=<translate>All</translate>
-|Damage=<translate>×2.4 Strike Damage</translate>
-|Cooldown=<translate>8 seconds</translate>
-|Charge time=<translate>Instant</translate>
-|Range=<translate>6 blocks (12 while flying)</translate>
+|Races=<translate><!--T:3--> All</translate>
+|Damage=<translate><!--T:4--> ×2.4 Strike Damage</translate>
+|Cooldown=<translate><!--T:5--> 8 seconds</translate>
+|Charge time=<translate><!--T:6--> Instant</translate>
+|Range=<translate><!--T:7--> 6 blocks (12 while flying)</translate>
 }}
 <translate>
+<!--T:8-->
 '''Shining Sword Attack''' is Trunks' sword technique. It is the only strike attack that needs a weapon: you can only use it while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].
 </translate>
 
 <translate>
-== Learning it ==
+== Learning it == <!--T:9-->
 
+<!--T:10-->
 [[Special:MyLanguage/Trunks|Trunks]] teaches Shining Sword Attack for '''9,000 TP'''. He has no alignment requirement. You also need [[Special:MyLanguage/Ki Control|Ki Control]] and at least 5% Power Release, and the technique must be equipped in a technique slot.
 </translate>
 
 <translate>
-== How it works ==
+== How it works == <!--T:11-->
 
+<!--T:12-->
 Hold the [[Special:MyLanguage/Brave Sword|Brave Sword]] in your main hand and press the technique's slot key. As with every strike attack, it picks a target in front of you (your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair) within a 6-block cone, or 12 blocks while flying, and you appear right in front of it. Its damage is your Strike Damage × 2.4.
 
+<!--T:13-->
 If nothing is in range you rush forward for up to 2 seconds, or straight at your locked-on target, and strike the first enemy you reach; missing completely refunds 40% of the Ki and halves the cooldown. Rushing at an enemy that is rushing at you starts a [[Special:MyLanguage/Strike Clash|strike clash]]. Every strike attack also starts a short shared cooldown (3 seconds by default).
 </translate>
 
 <translate>
-== Upgrades ==
+== Upgrades == <!--T:14-->
 
+<!--T:15-->
 Like every strike attack, it gains experience when it hits, which you can spend on damage and cooldown (−2.5% per level, up to −50%). See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].
 </translate>
 

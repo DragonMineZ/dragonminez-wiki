@@ -1,29 +1,33 @@
 <translate>
+<!--T:1-->
 '''NPC Placement and Alignment''' covers the files that decide where master and trainer NPCs stand and how a player's alignment changes the way each NPC treats them. Two related per-world JSON files do this, both under <code><world save>/dragonminez/npcs/</code>, plus a datapack format for NPCs that live inside structures.
 </translate>
 
 {| class="wikitable"
-! <translate>File</translate> !! <translate>What it controls</translate>
+! <translate><!--T:2--> File</translate> !! <translate><!--T:3--> What it controls</translate>
 |-
-| <code>placements.json</code> || <translate>Where master and trainer NPCs spawn (position, dimension, initial alignment or relation).</translate>
+| <code>placements.json</code> || <translate><!--T:4--> Where master and trainer NPCs spawn (position, dimension, initial alignment or relation).</translate>
 |-
-| <code>alignment_rules.json</code> || <translate>How a '''player's''' alignment affects each NPC's hostility, friendliness and availability for interaction.</translate>
+| <code>alignment_rules.json</code> || <translate><!--T:5--> How a '''player's''' alignment affects each NPC's hostility, friendliness and availability for interaction.</translate>
 |}
 
 <translate>
+<!--T:6-->
 Both files load at server start and reload with <code>/dmzreload config</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]. A reload also applies the placements again to every loaded dimension.
 </translate>
 
-{{Note|type=warning|title=<translate>Old worlds keep their old files</translate>|text=<translate>Both files are only written with DragonMineZ's defaults when they are '''missing'''. A world created with an older DragonMineZ version keeps its old files, so it does not get new default entries (for example the v2.2 Otherworld NPCs and their new coordinates). To get the current defaults, delete the file (back it up first if you edited it) and run <code>/dmzreload config</code>.</translate>}}
+{{Note|type=warning|title=<translate><!--T:7--> Old worlds keep their old files</translate>|text=<translate><!--T:8--> Both files are only written with DragonMineZ's defaults when they are '''missing'''. A world created with an older DragonMineZ version keeps its old files, so it does not get new default entries (for example the v2.2 Otherworld NPCs and their new coordinates). To get the current defaults, delete the file (back it up first if you edited it) and run <code>/dmzreload config</code>.</translate>}}
 
 <translate>
-== NPC placement ==
+== NPC placement == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 <code>placements.json</code> lists every NPC DragonMineZ places and where.
 </translate>
 
 <translate>
+<!--T:11-->
 Source: <code>src/main/java/com/dragonminez/server/world/npc/NPCPlacementManager.java</code>.
 </translate>
 
@@ -51,91 +55,96 @@ Source: <code>src/main/java/com/dragonminez/server/world/npc/NPCPlacementManager
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+! <translate><!--T:12--> Field</translate> !! <translate><!--T:13--> Type</translate> !! <translate><!--T:14--> What it does</translate>
 |-
-| <code>id</code> || <translate>String</translate> || <translate>Unique placement id. It is tagged onto the spawned entity so DragonMineZ can find and update it later. If two placements share an id, the last one in the file wins (a warning is logged).</translate>
+| <code>id</code> || <translate><!--T:15--> String</translate> || <translate><!--T:16--> Unique placement id. It is tagged onto the spawned entity so DragonMineZ can find and update it later. If two placements share an id, the last one in the file wins (a warning is logged).</translate>
 |-
-| <code>entity</code> || <translate>String</translate> || <translate>Registry id of the entity type.</translate>
+| <code>entity</code> || <translate><!--T:17--> String</translate> || <translate><!--T:18--> Registry id of the entity type.</translate>
 |-
-| <code>dimension</code> || <translate>String</translate> || <translate>Defaults to <code>minecraft:overworld</code>.</translate>
+| <code>dimension</code> || <translate><!--T:19--> String</translate> || <translate><!--T:20--> Defaults to <code>minecraft:overworld</code>.</translate>
 |-
-| <code>npc_id</code> || <translate>String</translate> || <translate>Only meaningful for <code>dragonminez:quest_npc</code> entities: links to the quest system's NPC id.</translate>
+| <code>npc_id</code> || <translate><!--T:21--> String</translate> || <translate><!--T:22--> Only meaningful for <code>dragonminez:quest_npc</code> entities: links to the quest system's NPC id.</translate>
 |-
-| <code>model</code> / <code>texture</code> || <translate>String</translate> || <translate>Only used for <code>quest_npc</code> entities.</translate>
+| <code>model</code> / <code>texture</code> || <translate><!--T:23--> String</translate> || <translate><!--T:24--> Only used for <code>quest_npc</code> entities.</translate>
 |-
-| <code>structure</code> || <translate>String</translate> || <translate>If set, <code>x</code>, <code>y</code> and <code>z</code> become an '''offset''' from that structure's origin instead of world coordinates. Valid values: <code>roshi_house</code>, <code>goku_house</code>, <code>elder_guru</code>, <code>timechamber</code>, <code>kamilookout</code>, <code>gero_lab</code>. An unrecognized value falls back to treating <code>x</code>, <code>y</code> and <code>z</code> as raw world coordinates (with a warning in the log).</translate>
+| <code>structure</code> || <translate><!--T:25--> String</translate> || <translate><!--T:26--> If set, <code>x</code>, <code>y</code> and <code>z</code> become an '''offset''' from that structure's origin instead of world coordinates. Valid values: <code>roshi_house</code>, <code>goku_house</code>, <code>elder_guru</code>, <code>timechamber</code>, <code>kamilookout</code>, <code>gero_lab</code>. An unrecognized value falls back to treating <code>x</code>, <code>y</code> and <code>z</code> as raw world coordinates (with a warning in the log).</translate>
 |-
-| <code>x</code>, <code>y</code>, <code>z</code> || <translate>Number</translate> || <translate>World coordinates, or the offset from the structure (see above). Defaults: <code>0.5</code>, <code>64.0</code>, <code>0.5</code>.</translate>
+| <code>x</code>, <code>y</code>, <code>z</code> || <translate><!--T:27--> Number</translate> || <translate><!--T:28--> World coordinates, or the offset from the structure (see above). Defaults: <code>0.5</code>, <code>64.0</code>, <code>0.5</code>.</translate>
 |-
-| <code>yaw</code>, <code>pitch</code> || <translate>Number</translate> || <translate>Facing direction in degrees.</translate>
+| <code>yaw</code>, <code>pitch</code> || <translate><!--T:29--> Number</translate> || <translate><!--T:30--> Facing direction in degrees.</translate>
 |-
-| <code>surface</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, snaps Y to the terrain surface at load time instead of using the given Y.</translate>
+| <code>surface</code> || <translate><!--T:31--> Boolean</translate> || <translate><!--T:32--> If <code>true</code>, snaps Y to the terrain surface at load time instead of using the given Y.</translate>
 |-
-| <code>relative_to_spawn</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, adds the world's spawn point to <code>x</code> and <code>z</code> (applied after any structure offset).</translate>
+| <code>relative_to_spawn</code> || <translate><!--T:33--> Boolean</translate> || <translate><!--T:34--> If <code>true</code>, adds the world's spawn point to <code>x</code> and <code>z</code> (applied after any structure offset).</translate>
 |-
-| <code>enabled</code> || <translate>Boolean</translate> || <translate>If <code>false</code>, this placement is skipped entirely.</translate>
+| <code>enabled</code> || <translate><!--T:35--> Boolean</translate> || <translate><!--T:36--> If <code>false</code>, this placement is skipped entirely.</translate>
 |-
-| <code>override</code> || <translate>Boolean</translate> || <translate>If <code>true</code>, the entity is always respawned, even if one already exists for this <code>id</code>. Otherwise an existing entity is just updated in place.</translate>
+| <code>override</code> || <translate><!--T:37--> Boolean</translate> || <translate><!--T:38--> If <code>true</code>, the entity is always respawned, even if one already exists for this <code>id</code>. Otherwise an existing entity is just updated in place.</translate>
 |-
-| <code>alignment</code> || <translate>Integer (0–100)</translate> || <translate>Optional alignment for this specific NPC: above 60 it is friendly, from 41 to 60 neutral, and 40 or less hostile (unless an alignment rule makes it hostile first, see below).</translate>
+| <code>alignment</code> || <translate><!--T:39--> Integer (0–100)</translate> || <translate><!--T:40--> Optional alignment for this specific NPC: above 60 it is friendly, from 41 to 60 neutral, and 40 or less hostile (unless an alignment rule makes it hostile first, see below).</translate>
 |-
-| <code>relation</code> || <translate>String</translate> || <translate>Optional override for this instance (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>), stored on the entity itself instead of being looked up from the alignment rules.</translate>
+| <code>relation</code> || <translate><!--T:41--> String</translate> || <translate><!--T:42--> Optional override for this instance (<code>HOSTILE</code>, <code>NEUTRAL</code> or <code>FRIENDLY</code>), stored on the entity itself instead of being looked up from the alignment rules.</translate>
 |}
 
 <translate>
+<!--T:43-->
 Unknown keys are reported in the JSON load report.
 </translate>
 
 <translate>
-=== Default placements ===
+=== Default placements === <!--T:44-->
 </translate>
 <translate>
+<!--T:45-->
 The default file actively spawns these NPCs:
 </translate>
 
 {| class="wikitable"
-! <translate>Placement id</translate> !! <translate>Entity</translate> !! <translate>Where</translate>
+! <translate><!--T:46--> Placement id</translate> !! <translate><!--T:47--> Entity</translate> !! <translate><!--T:48--> Where</translate>
 |-
-| <code>master_roshi</code> || <code>dragonminez:master_roshi</code> || <translate>Roshi's house</translate>
+| <code>master_roshi</code> || <code>dragonminez:master_roshi</code> || <translate><!--T:49--> Roshi's house</translate>
 |-
-| <code>master_goku</code> || <code>dragonminez:master_goku</code> || <translate>Goku's house</translate>
+| <code>master_goku</code> || <code>dragonminez:master_goku</code> || <translate><!--T:50--> Goku's house</translate>
 |-
-| <code>master_karin</code>, <code>master_dende</code>, <code>master_popo</code> || <code>dragonminez:master_karin</code>, <code>master_dende</code>, <code>master_popo</code> || <translate>Kami's Lookout</translate>
+| <code>master_karin</code>, <code>master_dende</code>, <code>master_popo</code> || <code>dragonminez:master_karin</code>, <code>master_dende</code>, <code>master_popo</code> || <translate><!--T:51--> Kami's Lookout</translate>
 |-
-| <code>master_gero</code> || <code>dragonminez:master_gero</code> || <translate>Gero's lab</translate>
+| <code>master_gero</code> || <code>dragonminez:master_gero</code> || <translate><!--T:52--> Gero's lab</translate>
 |-
-| <code>master_guru</code> || <code>dragonminez:master_guru</code> || <translate>Elder Guru's house (Namek)</translate>
+| <code>master_guru</code> || <code>dragonminez:master_guru</code> || <translate><!--T:53--> Elder Guru's house (Namek)</translate>
 |-
-| <code>master_kaiosama</code> || <code>dragonminez:master_kaiosama</code> || <translate>Otherworld, <code>54.5 299 1031.5</code></translate>
+| <code>master_kaiosama</code> || <code>dragonminez:master_kaiosama</code> || <translate><!--T:54--> Otherworld, <code>54.5 299 1031.5</code></translate>
 |-
-| <code>master_toribot</code> || <code>dragonminez:master_toribot</code> || <translate>Otherworld, <code>50.5 298 1030.5</code></translate>
+| <code>master_toribot</code> || <code>dragonminez:master_toribot</code> || <translate><!--T:55--> Otherworld, <code>50.5 298 1030.5</code></translate>
 |-
-| <code>master_enma</code> || <code>dragonminez:master_enma</code> || <translate>Otherworld, <code>0.5 150 17.5</code></translate>
+| <code>master_enma</code> || <code>dragonminez:master_enma</code> || <translate><!--T:56--> Otherworld, <code>0.5 150 17.5</code></translate>
 |-
-| <code>master_baba</code> || <code>dragonminez:master_uranai</code> || <translate>Otherworld, <code>9.5 150 3.5</code></translate>
+| <code>master_baba</code> || <code>dragonminez:master_uranai</code> || <translate><!--T:57--> Otherworld, <code>9.5 150 3.5</code></translate>
 |-
-| <code>master_grandkai</code> || <code>dragonminez:master_grandkai</code> || <translate>Otherworld, <code>-30.5 150 12.5</code></translate>
+| <code>master_grandkai</code> || <code>dragonminez:master_grandkai</code> || <translate><!--T:58--> Otherworld, <code>-30.5 150 12.5</code></translate>
 |-
-| <code>npc_hell_ogre</code> || <translate><code>dragonminez:quest_npc</code> (<code>npc_id</code> <code>hell_ogre</code>)</translate> || <translate>Otherworld, <code>9.5 150 16.5</code></translate>
+| <code>npc_hell_ogre</code> || <translate><!--T:59--> <code>dragonminez:quest_npc</code> (<code>npc_id</code> <code>hell_ogre</code>)</translate> || <translate><!--T:60--> Otherworld, <code>9.5 150 16.5</code></translate>
 |-
-| <code>master_otherworld_announcer</code> || <code>dragonminez:master_otherworld_announcer</code> || <translate>[[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] grounds, <code>-25.5 352 -1164.5</code> (only placed once the tournament grounds have been built)</translate>
+| <code>master_otherworld_announcer</code> || <code>dragonminez:master_otherworld_announcer</code> || <translate><!--T:61--> [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] grounds, <code>-25.5 352 -1164.5</code> (only placed once the tournament grounds have been built)</translate>
 |}
 
 <translate>
-=== Quest NPCs and master NPCs ===
+=== Quest NPCs and master NPCs === <!--T:62-->
 </translate>
 <translate>
+<!--T:63-->
 Quest NPCs (Bulma, Krillin, Yamcha, Tien, Piccolo, Gohan, Vegeta, Trunks, Chi-Chi, Videl, Shin and the Namek Elder) appear in the default file too, but with <code>"enabled": false</code>: they are no longer spawned at runtime through this system. They are baked directly into the structure NBT, so they live at fixed, hand-placed spots instead of piling up at the world spawn. Their entries here are for reference only. NPCs added to a structure after its NBT was made come from [[Special:MyLanguage/NPC Placement and Alignment#Structure NPCs|structure NPC files]] instead (Chi-Chi in Goku's House is one).
 </translate>
 
 <translate>
+<!--T:64-->
 The Otherworld NPCs (<code>master_kaiosama</code>, <code>master_enma</code>, <code>master_baba</code>, <code>master_toribot</code>, <code>master_grandkai</code>, <code>master_otherworld_announcer</code> and <code>npc_hell_ogre</code>) always force <code>override: true</code> internally, whatever the file says, since they need to exist reliably in a generated dimension. See [[Special:MyLanguage/Otherworld|Otherworld]].
 </translate>
 
 <translate>
-== Structure NPCs ==
+== Structure NPCs == <!--T:65-->
 </translate>
 <translate>
+<!--T:66-->
 Structure NPC files place NPCs '''inside''' a DragonMineZ structure without editing its <code>.nbt</code> file. Unlike the files above, these are '''datapack''' files: <code>data/<namespace>/structure_npcs/*.json</code>, one per structure, loaded with the datapacks (and by <code>/reload</code>).
 </translate>
 
@@ -157,44 +166,48 @@ Structure NPC files place NPCs '''inside''' a DragonMineZ structure without edit
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Required</translate> !! <translate>What it does</translate>
+! <translate><!--T:67--> Field</translate> !! <translate><!--T:68--> Required</translate> !! <translate><!--T:69--> What it does</translate>
 |-
-| <code>structure</code> || <translate>Yes</translate> || <translate>Id of the structure the NPCs belong to.</translate>
+| <code>structure</code> || <translate><!--T:70--> Yes</translate> || <translate><!--T:71--> Id of the structure the NPCs belong to.</translate>
 |-
-| <code>id</code> || <translate>Yes</translate> || <translate>Unique id of this NPC inside the structure. It is also the tracking key, so don't rename it once worlds use it.</translate>
+| <code>id</code> || <translate><!--T:72--> Yes</translate> || <translate><!--T:73--> Unique id of this NPC inside the structure. It is also the tracking key, so don't rename it once worlds use it.</translate>
 |-
-| <code>entity</code> || <translate>Yes</translate> || <translate>Entity type to spawn (for example <code>dragonminez:quest_npc</code> or a master's entity id).</translate>
+| <code>entity</code> || <translate><!--T:74--> Yes</translate> || <translate><!--T:75--> Entity type to spawn (for example <code>dragonminez:quest_npc</code> or a master's entity id).</translate>
 |-
-| <code>npc_id</code> || <translate>No</translate> || <translate>Quest NPC id, for <code>dragonminez:quest_npc</code>.</translate>
+| <code>npc_id</code> || <translate><!--T:76--> No</translate> || <translate><!--T:77--> Quest NPC id, for <code>dragonminez:quest_npc</code>.</translate>
 |-
-| <code>model</code>, <code>texture</code> || <translate>No</translate> || <translate>Model and texture names for quest NPCs.</translate>
+| <code>model</code>, <code>texture</code> || <translate><!--T:78--> No</translate> || <translate><!--T:79--> Model and texture names for quest NPCs.</translate>
 |-
-| <code>template</code> || <translate>No</translate> || <translate>Which template of the structure the position is relative to, for structures made of several pieces.</translate>
+| <code>template</code> || <translate><!--T:80--> No</translate> || <translate><!--T:81--> Which template of the structure the position is relative to, for structures made of several pieces.</translate>
 |-
-| <code>pos</code> || <translate>Yes</translate> || <translate>Position '''relative to the structure's template''', so it stays right whatever rotation the structure spawned with.</translate>
+| <code>pos</code> || <translate><!--T:82--> Yes</translate> || <translate><!--T:83--> Position '''relative to the structure's template''', so it stays right whatever rotation the structure spawned with.</translate>
 |-
-| <code>yaw</code> || <translate>No</translate> || <translate>Facing, also relative to the template (default <code>0</code>).</translate>
+| <code>yaw</code> || <translate><!--T:84--> No</translate> || <translate><!--T:85--> Facing, also relative to the template (default <code>0</code>).</translate>
 |-
-| <code>alignment</code>, <code>relation</code> || <translate>No</translate> || <translate>Initial alignment and relation, as in <code>placements.json</code>.</translate>
+| <code>alignment</code>, <code>relation</code> || <translate><!--T:86--> No</translate> || <translate><!--T:87--> Initial alignment and relation, as in <code>placements.json</code>.</translate>
 |}
 
 <translate>
+<!--T:88-->
 Each NPC spawns '''once''' per generated structure when its chunk loads, including structures that were generated before the file existed, and the spawn is remembered: an NPC that dies doesn't come back.
 </translate>
 
 <translate>
+<!--T:89-->
 To get the coordinates, stand where the NPC should be and run <code>/dmzstructure here</code>: it prints the structure, its template and your position and yaw relative to the template, with a '''Copy NPC JSON''' button that copies a ready-made entry. <code>/dmzstructure npcs</code> lists the NPCs of the structure you are in and whether each one has spawned yet. Both commands need the <code>dragonminez.dmzstructure</code> permission (see [[Special:MyLanguage/Permissions|Permissions]]).
 </translate>
 
 <translate>
-== NPC alignment rules ==
+== NPC alignment rules == <!--T:90-->
 </translate>
 {{See also|Alignment|Masters}}
 <translate>
+<!--T:91-->
 <code>alignment_rules.json</code> decides how each NPC reacts to the player's alignment.
 </translate>
 
 <translate>
+<!--T:92-->
 Source: <code>src/main/java/com/dragonminez/common/alignment/NpcAlignmentRules.java</code>.
 </translate>
 
@@ -215,31 +228,35 @@ Source: <code>src/main/java/com/dragonminez/common/alignment/NpcAlignmentRules.j
 </syntaxhighlight>
 
 <translate>
+<!--T:93-->
 The keys in <code>npcs</code> are NPC ids '''with any namespace stripped''' (<code>dragonminez:roshi</code> becomes the key <code>roshi</code>).
 </translate>
 
 {| class="wikitable"
-! <translate>Field</translate> !! <translate>Type</translate> !! <translate>What it does</translate>
+! <translate><!--T:94--> Field</translate> !! <translate><!--T:95--> Type</translate> !! <translate><!--T:96--> What it does</translate>
 |-
-| <code>default_relation</code> || <code>HOSTILE</code> / <code>NEUTRAL</code> / <code>FRIENDLY</code> || <translate>Base relation when none of the thresholds below overrides it. Defaults to <code>NEUTRAL</code>.</translate>
+| <code>default_relation</code> || <code>HOSTILE</code> / <code>NEUTRAL</code> / <code>FRIENDLY</code> || <translate><!--T:97--> Base relation when none of the thresholds below overrides it. Defaults to <code>NEUTRAL</code>.</translate>
 |-
-| <code>hostile_below</code> || <translate>Integer</translate> || <translate>If the player's alignment is below this value, the NPC turns hostile regardless of <code>default_relation</code>.</translate>
+| <code>hostile_below</code> || <translate><!--T:98--> Integer</translate> || <translate><!--T:99--> If the player's alignment is below this value, the NPC turns hostile regardless of <code>default_relation</code>.</translate>
 |-
-| <code>hostile_above</code> || <translate>Integer</translate> || <translate>The same, but for an alignment above this value.</translate>
+| <code>hostile_above</code> || <translate><!--T:100--> Integer</translate> || <translate><!--T:101--> The same, but for an alignment above this value.</translate>
 |-
-| <code>interaction.min_alignment</code> || <translate>Integer</translate> || <translate>The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.</translate>
+| <code>interaction.min_alignment</code> || <translate><!--T:102--> Integer</translate> || <translate><!--T:103--> The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.</translate>
 |-
-| <code>interaction.max_alignment</code> || <translate>Integer</translate> || <translate>The same, but as an upper bound.</translate>
+| <code>interaction.max_alignment</code> || <translate><!--T:104--> Integer</translate> || <translate><!--T:105--> The same, but as an upper bound.</translate>
 |}
 
 <translate>
+<!--T:106-->
 All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he is present but won't talk (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and can be talked to.
 </translate>
 
 <translate>
+<!--T:107-->
 <code>NpcDispositionService.getRelation()</code> checks the relation in this order:
 </translate>
 <translate>
+<!--T:108-->
 # A <code>relation</code> set on the placement (<code>placements.json</code>) wins.
 # The rule's <code>hostile_below</code> and <code>hostile_above</code> thresholds.
 # An <code>alignment</code> set on the placement.
@@ -247,19 +264,22 @@ All four threshold fields are optional: leave out whichever don't apply. Reading
 </translate>
 
 <translate>
-=== Master NPCs ===
+=== Master NPCs === <!--T:109-->
 </translate>
 <translate>
+<!--T:110-->
 For '''master and trainer NPCs''' the rule file decides hostility, but their alignment gate is a fixed rule instead of <code>interaction</code>: masters can always be talked to, but [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/Old Kai|Old Kai]], [[Special:MyLanguage/Master Roshi|Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] only unlock their '''Skills''', '''Train''' and new quests at an alignment of at least '''61''', and [[Special:MyLanguage/Cell|Cell]] and [[Special:MyLanguage/Frieza|Frieza]] at '''40 or less'''. Every other master has no alignment gate. See [[Special:MyLanguage/Masters|Masters]].
 </translate>
 
 <translate>
-=== NPC ids covered by default ===
+=== NPC ids covered by default === <!--T:111-->
 </translate>
 <translate>
+<!--T:112-->
 The default file covers <code>goku</code>, <code>roshi</code>, <code>karin</code>, <code>guru</code>, <code>dende</code>, <code>popo</code>, <code>kingkai</code>, <code>gero</code>, <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code>, <code>bulma</code>, <code>krillin</code>, <code>yamcha</code>, <code>tien</code>, <code>chiaotzu</code>, <code>gohan</code>, <code>trunks</code>, <code>chi_chi</code>, <code>videl</code>, <code>namek_elder</code>, <code>shin</code>, <code>piccolo</code> and <code>vegeta</code>.
 </translate>
 <translate>
+<!--T:113-->
 * Most default to <code>FRIENDLY</code> with <code>min_alignment: 41</code> (or <code>61</code> for Goku, Guru, Dende, King Kai and the Namek Elder) and <code>hostile_below: 25</code>.
 * <code>gero</code> defaults to <code>NEUTRAL</code> with <code>max_alignment: 60</code>.
 * <code>enma</code>, <code>baba</code>, <code>toribot</code>, <code>grandkai</code>, <code>otherworld_announcer</code> and <code>vegeta</code> default to <code>NEUTRAL</code> with no thresholds.
@@ -267,9 +287,10 @@ The default file covers <code>goku</code>, <code>roshi</code>, <code>karin</code
 </translate>
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:114-->
 </translate>
 <translate>
+<!--T:115-->
 # Edit the files under <code><world save>/dragonminez/npcs/</code>.
 # Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).
 # Run <code>/dmzreload config</code> (or <code>/dmzreload all</code>); see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].

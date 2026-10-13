@@ -1,56 +1,61 @@
 <translate>
+<!--T:1-->
 DragonMineZ adds its own enchantments for combat and survival: '''armor''' enchantments that speed up your regeneration, '''weapon''' enchantments that sharpen your attacks, and a pair of rare '''Gete-tech''' armor enchantments that you can only get from a quest.
 </translate>
 {{See also|Stats and Attributes|Armor|Special Weapons|Combat}}
 
 <translate>
-== Armor enchantments ==
+== Armor enchantments == <!--T:2-->
 
+<!--T:3-->
 Each Recovery enchantment boosts one type of regeneration (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). Their levels '''add up across all your armor pieces''', with diminishing returns:
 
+<!--T:4-->
 * '''+6.25% per level''' for the first 4 levels in total;
 * then +3.125%, +1.5625% and +0.78125% per level for each further block of 4 levels;
 * up to +18.75% with 16 levels.
 
+<!--T:5-->
 '''Only one Recovery type can go on a single piece.'''
 </translate>
 {| class="wikitable"
-! <translate>Enchantment</translate> !! <translate>Applies to</translate> !! <translate>Max level</translate> !! <translate>Effect</translate>
+! <translate><!--T:6--> Enchantment</translate> !! <translate><!--T:7--> Applies to</translate> !! <translate><!--T:8--> Max level</translate> !! <translate><!--T:9--> Effect</translate>
 |-
-| <translate>Vitality Recovery</translate> || <translate>Armor</translate> || 4 || <translate>Faster '''health''' regeneration.</translate>
+| <translate><!--T:10--> Vitality Recovery</translate> || <translate><!--T:11--> Armor</translate> || 4 || <translate><!--T:12--> Faster '''health''' regeneration.</translate>
 |-
-| <translate>Resistance Recovery</translate> || <translate>Armor</translate> || 4 || <translate>Faster '''stamina''' regeneration.</translate>
+| <translate><!--T:13--> Resistance Recovery</translate> || <translate><!--T:14--> Armor</translate> || 4 || <translate><!--T:15--> Faster '''stamina''' regeneration.</translate>
 |-
-| <translate>Energy Recovery</translate> || <translate>Armor</translate> || 4 || <translate>Faster '''ki''' regeneration.</translate>
+| <translate><!--T:16--> Energy Recovery</translate> || <translate><!--T:17--> Armor</translate> || 4 || <translate><!--T:18--> Faster '''ki''' regeneration.</translate>
 |}
 
 <translate>
-== Weapon enchantments ==
+== Weapon enchantments == <!--T:19-->
 </translate>
 {| class="wikitable"
-! <translate>Enchantment</translate> !! <translate>Applies to</translate> !! <translate>Max level</translate> !! <translate>Effect</translate>
+! <translate><!--T:20--> Enchantment</translate> !! <translate><!--T:21--> Applies to</translate> !! <translate><!--T:22--> Max level</translate> !! <translate><!--T:23--> Effect</translate>
 |-
-| <translate>Defense Penetration</translate> || <translate>Swords, axes and DMZ weapons</translate> || 5 || <translate>Your melee hits ignore '''2.5% of the enemy's defense per level''' (up to 12.5%). It stacks with the skill of the same name; total penetration is capped at 50%.</translate>
+| <translate><!--T:24--> Defense Penetration</translate> || <translate><!--T:25--> Swords, axes and DMZ weapons</translate> || 5 || <translate><!--T:26--> Your melee hits ignore '''2.5% of the enemy's defense per level''' (up to 12.5%). It stacks with the skill of the same name; total penetration is capped at 50%.</translate>
 |-
-| <translate>Healing Reduction</translate> || <translate>Swords, axes and DMZ weapons</translate> || 4 || <translate>Your hits '''cut the target's healing by 5% per level''' for 6 seconds. It stacks with the skill of the same name, capped at 40%.</translate>
+| <translate><!--T:27--> Healing Reduction</translate> || <translate><!--T:28--> Swords, axes and DMZ weapons</translate> || 4 || <translate><!--T:29--> Your hits '''cut the target's healing by 5% per level''' for 6 seconds. It stacks with the skill of the same name, capped at 40%.</translate>
 |-
-| <translate>Critical Chance</translate> || <translate>Swords, axes and DMZ weapons</translate> || 5 || <translate>'''+5% critical-hit chance''' per level (main hand).</translate>
+| <translate><!--T:30--> Critical Chance</translate> || <translate><!--T:31--> Swords, axes and DMZ weapons</translate> || 5 || <translate><!--T:32--> '''+5% critical-hit chance''' per level (main hand).</translate>
 |-
-| <translate>Critical Damage</translate> || <translate>Swords, axes and DMZ weapons</translate> || 5 || <translate>'''+5% critical-hit damage''' per level (main hand).</translate>
+| <translate><!--T:33--> Critical Damage</translate> || <translate><!--T:34--> Swords, axes and DMZ weapons</translate> || 5 || <translate><!--T:35--> '''+5% critical-hit damage''' per level (main hand).</translate>
 |}
-{{Note|type=tip|title=<translate>One crit path per weapon</translate>|<translate>Critical Chance and Critical Damage can't go on the same weapon: you pick one crit path per weapon. Every player starts with a 5% crit chance and ×1.5 crit damage.</translate>}}
+{{Note|type=tip|title=<translate><!--T:36--> One crit path per weapon</translate>|<translate><!--T:37--> Critical Chance and Critical Damage can't go on the same weapon: you pick one crit path per weapon. Every player starts with a 5% crit chance and ×1.5 crit damage.</translate>}}
 
 <translate>
-== Gete-tech enchantments ==
+== Gete-tech enchantments == <!--T:38-->
 
+<!--T:39-->
 These two are '''not''' found in the enchanting table or in villager trades. Bulma's '''Gete Enhancements''' sidequest rewards them as an enchanted book with '''Ki Conductivity II''' and '''Gravity Forged II''' (see [[Special:MyLanguage/Gete Tech|Gete Tech]]). Like the Recovery enchantments, their levels add up across your armor pieces.
 </translate>
 {| class="wikitable"
-! <translate>Enchantment</translate> !! <translate>Applies to</translate> !! <translate>Max level</translate> !! <translate>Effect</translate>
+! <translate><!--T:40--> Enchantment</translate> !! <translate><!--T:41--> Applies to</translate> !! <translate><!--T:42--> Max level</translate> !! <translate><!--T:43--> Effect</translate>
 |-
-| <translate>Ki Conductivity</translate> || <translate>Armor</translate> || 4 || <translate>Boosts your '''ki regeneration''' with the same curve as the Recovery enchantments, on top of Energy Recovery.</translate>
+| <translate><!--T:44--> Ki Conductivity</translate> || <translate><!--T:45--> Armor</translate> || 4 || <translate><!--T:46--> Boosts your '''ki regeneration''' with the same curve as the Recovery enchantments, on top of Energy Recovery.</translate>
 |-
-| <translate>Gravity Forged</translate> || <translate>Armor</translate> || 4 || <translate>'''Reduces incoming knockback by 15% per level''', down to a minimum of 40% of the normal knockback.</translate>
+| <translate><!--T:47--> Gravity Forged</translate> || <translate><!--T:48--> Armor</translate> || 4 || <translate><!--T:49--> '''Reduces incoming knockback by 15% per level''', down to a minimum of 40% of the normal knockback.</translate>
 |}
 
 {{Navbox Items}}

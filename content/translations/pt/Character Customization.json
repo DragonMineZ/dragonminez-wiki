@@ -1,0 +1,537 @@
+{
+ "Page_display_title": {
+  "source": "Character Customization",
+  "translation": "Personalização",
+  "outdated": false
+ },
+ "1": {
+  "source": "Before you can train, fight or transform you need a character. DragonMineZ's creation flow has two screens, '''race selection''' and '''customization''', plus three detailed editors: the '''hair editor''', the '''skin pixel editor''' and the '''custom tattoo''' painter. This page walks through all of them. To learn what each race or class ''does'', see [[Special:MyLanguage/Races|Races]] and [[Special:MyLanguage/Classes|Classes]]; for the stats you start with, see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]].",
+  "translation": "Antes de treinar, lutar ou se transformar, você precisa de um personagem. A criação no DragonMineZ tem duas telas, '''seleção de raça''' e '''personalização''', além de três editores detalhados: o '''editor de cabelo''', o '''editor de pixels da skin''' e o pintor de '''tatuagem personalizada'''. Esta página explica todos eles. Para saber o que cada raça ou classe ''faz'', veja [[Special:MyLanguage/Races|Raças]] e [[Special:MyLanguage/Classes|Classes]]; para as estatísticas iniciais, veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Opening the creator ==",
+  "translation": "== Abrindo o criador ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "By default the creation screen '''opens by itself''' when you join a world without a character.",
+  "translation": "Por padrão, a tela de criação '''abre sozinha''' quando você entra em um mundo sem personagem.",
+  "outdated": false
+ },
+ "4": {
+  "source": "If the server turned that off, press the '''Stats Menu''' key ({{Key|V}} by default) to start. Until you do, the HUD shows the hint \"Press [V] to begin your adventure!\".",
+  "translation": "Se o servidor desativou isso, aperte a tecla '''Menu de Estatísticas''' ({{Key|V}} por padrão) para começar. Até fazer isso, a HUD mostra a dica \"Pressione [V] para começar sua aventura!\".",
+  "outdated": false
+ },
+ "5": {
+  "source": "The first time through, a short interactive '''tutorial''' explains each step: press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn tutorials off on the welcome popup, and bring them back later from the '''Config''' tab ('''Interface''' → '''Show Tutorials Again''').",
+  "translation": "Na primeira vez, um breve '''tutorial''' interativo explica cada passo: aperte {{Key|Enter}} ou {{Key|Espaço}} para o próximo passo, ou {{Key|Esc}} para pular. Você pode desativar os tutoriais na janela de boas-vindas e reativá-los depois pela aba '''Configuração''' ('''Interface''' → '''Mostrar tutoriais novamente''').",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Race selection ==",
+  "translation": "== Seleção de raça ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "A carousel shows every race loaded on the server: the seven default races ([[Special:MyLanguage/Human|Human]], [[Special:MyLanguage/Saiyan|Saiyan]], [[Special:MyLanguage/Namekian|Namekian]], [[Special:MyLanguage/Frost Demon|Frost Demon]], [[Special:MyLanguage/Bio-Android|Bio-Android]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Glind|Glind]]) plus any [[Special:MyLanguage/Custom Races|custom races]] added by the server or an add-on.",
+  "translation": "Um carrossel mostra todas as raças carregadas no servidor: as sete raças padrão ([[Special:MyLanguage/Human|Humano]], [[Special:MyLanguage/Saiyan|Saiyajin]], [[Special:MyLanguage/Namekian|Namekuseijin]], [[Special:MyLanguage/Frost Demon|Clã Freeza]], [[Special:MyLanguage/Bio-Android|Bio-Androide]], [[Special:MyLanguage/Majin|Majin]] e [[Special:MyLanguage/Glind|Glind]]) e qualquer [[Special:MyLanguage/Custom Races|raça personalizada]] adicionada pelo servidor ou por um addon.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Use the '''arrows''' under the model to browse races; each race has its own panorama background.",
+  "translation": "Use as '''setas''' abaixo do modelo para navegar pelas raças; cada raça tem seu próprio fundo panorâmico.",
+  "outdated": false
+ },
+ "9": {
+  "source": "The left side shows the '''race description'''; the right panel lists its '''racial skills''' with your server's live values (scroll if the list is long).",
+  "translation": "O lado esquerdo mostra a '''descrição da raça'''; o painel direito lista suas '''habilidades raciais''' com os valores atuais do seu servidor (role se a lista for longa).",
+  "outdated": false
+ },
+ "10": {
+  "source": "Press '''Select''' to move on to customization with that race. Switching race resets the appearance to that race's defaults.",
+  "translation": "Aperte '''Selecionar''' para seguir para a personalização com essa raça. Trocar de raça redefine a aparência para o padrão dessa raça.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Choose your race carefully: the '''Re-Customize''' wish lets you change your looks and class later, but not your race. Picking another race means a full character reset (such as Dende's '''Reset Stats''' service), which wipes your progress. Humans can still become [[Special:MyLanguage/Android|Androids]] later through '''Dr. Gero'''.",
+  "translation": "Escolha sua raça com cuidado: o desejo '''Repersonalizar Personagem''' permite mudar sua aparência e sua classe depois, mas não sua raça. Escolher outra raça significa reiniciar o personagem por completo (como o serviço '''Redefinir estatísticas''' do Dende), o que apaga seu progresso. Os Humanos ainda podem virar [[Special:MyLanguage/Android|Androids]] depois por meio do '''Dr. Gero'''.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Customization ==",
+  "translation": "== Personalização ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "The customization screen is split into tabs; a progress bar in the bottom-right shows which step you are on. Use '''Back''' and '''Next''' to move between tabs, and '''Confirm''' on the last one to create your character. You can '''drag the model''' to rotate it at any time.",
+  "translation": "A tela de personalização é dividida em abas; uma barra de progresso no canto inferior direito mostra em qual passo você está. Use '''Voltar''' e '''Próximo''' para navegar entre as abas, e '''Confirmar''' na última para criar seu personagem. Você pode '''arrastar o modelo''' para girá-lo a qualquer momento.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Every color button opens a '''color picker''' with '''Hue''', '''Saturation''' and '''Value''' sliders and a '''hex''' field (for example <code>#FFD3C9</code>). Options are shown as a grid of small model previews: click one to pick it.",
+  "translation": "Cada botão de cor abre um '''seletor de cor''' com controles deslizantes de '''Matiz''', '''Saturação''' e '''Valor''' e um campo '''hex''' (por exemplo, <code>#FFD3C9</code>). As opções aparecem como uma grade de pequenas prévias do modelo: clique em uma para escolhê-la.",
+  "outdated": false
+ },
+ "15": {
+  "source": "=== Body ===",
+  "translation": "=== Corpo ===",
+  "outdated": false
+ },
+ "16": {
+  "source": "'''Body type''': the grid shows every body type of your race. For races with gender (Human, Saiyan, Majin and Glind) the male and female body types share the same grid, so picking a body type also picks your gender. For Humans and Saiyans, body type '''0''' uses your own '''Minecraft skin'''.",
+  "translation": "'''Tipo corporal''': a grade mostra todos os tipos corporais da sua raça. Nas raças com gênero (Humano, Saiyajin, Majin e Glind), os tipos corporais masculinos e femininos dividem a mesma grade, então escolher um tipo corporal também escolhe seu gênero. Para Humanos e Saiyajins, o tipo corporal '''0''' usa sua própria '''skin do Minecraft'''.",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Body colors''': three body color slots (Bio-Androids get a fourth one, the hair color, which tints part of their body).",
+  "translation": "'''Cores do corpo''': três espaços de cor para o corpo (os Bio-Androides têm um quarto, a cor do cabelo, que tinge parte do corpo).",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''Chest Size''': female characters get a slider from '''×0.75''' to '''×1.25'''.",
+  "translation": "'''Tamanho do peitoral''': personagens femininas têm um controle deslizante de '''×0.75''' a '''×1.25'''.",
+  "outdated": false
+ },
+ "19": {
+  "source": "=== Hair ===",
+  "translation": "=== Cabelo ===",
+  "outdated": false
+ },
+ "20": {
+  "source": "This tab only appears for races with hair or head parts.",
+  "translation": "Esta aba só aparece para raças com cabelo ou partes da cabeça.",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Head parts and hairstyles''': the grid holds a \"none\" option, your race's head parts (Namekian antennae, Frost Demon horns, the Majin head tentacle, Glind ears) and, for races that can use hair (Human, Saiyan, Majin and Glind), the '''28 hairstyle presets''' (including Bald). Head parts of the same kind replace each other; a Majin can combine a tentacle '''and''' a hairstyle, and a Glind its ears '''and''' a hairstyle.",
+  "translation": "'''Partes da cabeça e penteados''': a grade tem uma opção \"nenhum\", as partes da cabeça da sua raça (antenas namekuseijins, chifres do Clã Freeza, o tentáculo na cabeça dos Majin, orelhas dos Glind) e, para as raças que podem usar cabelo (Humano, Saiyajin, Majin e Glind), os '''28 penteados predefinidos''' (incluindo Careca). Partes da cabeça do mesmo tipo substituem umas às outras; um Majin pode combinar um tentáculo '''e''' um penteado, e um Glind suas orelhas '''e''' um penteado.",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Hair color'''.",
+  "translation": "'''Cor do cabelo'''.",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Edit''' opens the hair editor (see below).",
+  "translation": "'''Editar''' abre o editor de cabelo (veja abaixo).",
+  "outdated": false
+ },
+ "24": {
+  "source": "'''Skin Pixels''' (a small icon, only when you use your Minecraft skin) opens the skin pixel editor in hair mode.",
+  "translation": "'''Pixels da skin''' (um ícone pequeno, só quando você usa sua skin do Minecraft) abre o editor de pixels da skin no modo cabelo.",
+  "outdated": false
+ },
+ "25": {
+  "source": "=== Eyes ===",
+  "translation": "=== Olhos ===",
+  "outdated": false
+ },
+ "26": {
+  "source": "The '''eye type''' grid and the two '''eye colors''' (left and right). The small button between them copies the first color to the second.",
+  "translation": "A grade de '''tipo de olhos''' e as duas '''cores dos olhos''' (esquerdo e direito). O botão pequeno entre elas copia a primeira cor para a segunda.",
+  "outdated": false
+ },
+ "27": {
+  "source": "'''Skin Pixels''' (only when you use your Minecraft skin) opens the skin pixel editor in eyes mode.",
+  "translation": "'''Pixels da skin''' (só quando você usa sua skin do Minecraft) abre o editor de pixels da skin no modo olhos.",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== Face ===",
+  "translation": "=== Rosto ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Nose''' and '''Mouth''' grids. Glinds use the human face parts; the other races can also pick the human face parts, listed after their own.",
+  "translation": "Grades de '''Nariz''' e '''Boca'''. Os Glind usam as partes de rosto humanas; as outras raças também podem escolher as partes de rosto humanas, listadas depois das próprias.",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== Tattoo ===",
+  "translation": "=== Tatuagem ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "The '''Tattoo''' grid. The last card, '''Custom''', lets you paint your own tattoo: select it and press '''Edit''' to open the tattoo painter (see below). It isn't offered when the server has custom tattoos turned off.",
+  "translation": "A grade de '''Tatuagem'''. O último cartão, '''Personalizada''', permite pintar sua própria tatuagem: selecione-o e aperte '''Editar''' para abrir o pintor de tatuagens (veja abaixo). Ele não aparece quando o servidor desativou as tatuagens personalizadas.",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== Class and aura ===",
+  "translation": "=== Classe e aura ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "'''Class''': browse the classes with the arrows. The panel shows the class's '''base stats''', '''scalings''' and '''regeneration''', and the right side explains its '''passive'''. See [[Special:MyLanguage/Classes|Classes]].",
+  "translation": "'''Classe''': navegue pelas classes com as setas. O painel mostra os '''status base''', os '''escalonamentos''' e a '''regeneração''' da classe, e o lado direito explica sua '''passiva'''. Veja [[Special:MyLanguage/Classes|Classes]].",
+  "outdated": false
+ },
+ "34": {
+  "source": "'''Aura''': choose how your aura looks: '''2D Aura''', '''3D: Smooth''' or '''3D: Sparking''' (Glinds also get '''3D: God''', a constantly shifting flame). This is a personal visual preference; other players see your aura in the style you picked. Some forms override the 3D style; for example, Legendary forms always use the Sparking style. You can change it later from the '''Config''' tab (see [[Special:MyLanguage/Menus#Config|Menus]]).",
+  "translation": "'''Aura''': escolha a aparência da sua aura: '''Aura 2D''', '''3D: Smooth''' ou '''3D: Sparking''' (os Glind também têm '''3D: God''', uma chama que muda o tempo todo). É uma preferência visual pessoal; os outros jogadores veem sua aura no estilo que você escolheu. Algumas formas substituem o estilo 3D; por exemplo, as formas lendárias sempre usam o estilo Sparking. Você pode mudar isso depois pela aba '''Configuração''' (veja [[Special:MyLanguage/Menus#Config|Menus]]).",
+  "outdated": false
+ },
+ "35": {
+  "source": "'''Aura color'''.",
+  "translation": "'''Cor da aura'''.",
+  "outdated": false
+ },
+ "36": {
+  "source": "=== Transformation preview ===",
+  "translation": "=== Prévia das transformações ===",
+  "outdated": false
+ },
+ "37": {
+  "source": "On the Hair tab (or on the Body tab for races without hair options) a pair of arrows lets you cycle through your race's [[Special:MyLanguage/Transformations|transformations]], so you can see how your colors, hair and body look in every form before confirming. It is only a preview: nothing is unlocked.",
+  "translation": "Na aba Cabelo (ou na aba Corpo, para raças sem opções de cabelo), um par de setas permite percorrer as [[Special:MyLanguage/Transformations|transformações]] da sua raça, para você ver como suas cores, seu cabelo e seu corpo ficam em cada forma antes de confirmar. É só uma prévia: nada é desbloqueado.",
+  "outdated": false
+ },
+ "38": {
+  "source": "After you press '''Confirm''', your character is created and, if tutorials are on, a short '''HUD tour''' follows (see [[Special:MyLanguage/HUD|HUD]]).",
+  "translation": "Depois de apertar '''Confirmar''', seu personagem é criado e, se os tutoriais estiverem ativados, vem um breve '''tour pela HUD''' (veja [[Special:MyLanguage/HUD|HUD]]).",
+  "outdated": false
+ },
+ "39": {
+  "source": "== Hair editor ==",
+  "translation": "== Editor de cabelo ==",
+  "outdated": false
+ },
+ "40": {
+  "source": "The hair editor builds your hairstyle out of individual '''strands''', in the style of Blockbench. Open it from:",
+  "translation": "O editor de cabelo monta seu penteado a partir de '''mechas''' individuais, no estilo do Blockbench. Abra-o por meio de:",
+  "outdated": false
+ },
+ "41": {
+  "source": "the '''Edit''' button on the Hair tab (when creating or re-customizing your character), or",
+  "translation": "o botão '''Editar''' da aba Cabelo (ao criar ou repersonalizar seu personagem), ou",
+  "outdated": false
+ },
+ "42": {
+  "source": "the '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], at any time (outside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], and only for characters with hair).",
+  "translation": "a opção '''Corte de Cabelo''' do [[Special:MyLanguage/Mr. Popo|Sr Popo]] no [[Special:MyLanguage/Kami's Lookout|Mirante de Kami]], a qualquer momento (fora da [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]] e só para personagens com cabelo).",
+  "outdated": false
+ },
+ "43": {
+  "source": "=== Hairstyles and slots ===",
+  "translation": "=== Penteados e slots ===",
+  "outdated": false
+ },
+ "44": {
+  "source": "Your character has '''5 hairstyle slots''': '''Base''', '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4'''. You wear the Base style normally; a transformation switches to the slot it uses, so you can design how your hair changes when you transform. Pick the slot at the top of the editor.",
+  "translation": "Seu personagem tem '''5 slots de penteado''': '''Base''', '''SSJ''', '''SSJ2''', '''SSJ3''' e '''SSJ4'''. Normalmente você usa o estilo Base; uma transformação troca para o slot que ela usa, então você pode criar como seu cabelo muda ao se transformar. Escolha o slot no topo do editor.",
+  "outdated": false
+ },
+ "45": {
+  "source": "'''Preset''': start from any of the 28 presets (or Bald).",
+  "translation": "'''Predefinição''': comece de qualquer uma das 28 predefinições (ou Careca).",
+  "outdated": false
+ },
+ "46": {
+  "source": "'''Hair color''': the global color of all your hair.",
+  "translation": "'''Cor do cabelo''': a cor global de todo o seu cabelo.",
+  "outdated": false
+ },
+ "47": {
+  "source": "'''Copy from''' another slot, or '''Clear style'''.",
+  "translation": "'''Copiar de''' outro slot, ou '''Limpar estilo'''.",
+  "outdated": false
+ },
+ "48": {
+  "source": "'''Auto-generate''': with no strand selected, the Inspector can build your '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4''' styles from your '''Base''' style, all at once or one slot at a time ('''Generate from Base'''). It is a single undo step and switches to the generated slot. Long straight hair keeps its roots and only curls the tips up, and SSJ3 uses a Super Saiyan 3 mane that keeps your hanging bangs. It needs a Base style.",
+  "translation": "'''Gerar automaticamente''': sem nenhuma mecha selecionada, o Inspetor pode criar seus estilos '''SSJ''', '''SSJ2''', '''SSJ3''' e '''SSJ4''' a partir do estilo '''Base''', todos de uma vez ou um slot por vez ('''Gerar a partir da Base'''). Conta como um único passo de desfazer e troca para o slot gerado. Cabelo longo e liso mantém as raízes e só enrola as pontas para cima, e o SSJ3 usa uma juba de Super Saiyajin 3 que mantém sua franja caída. Precisa de um estilo Base.",
+  "outdated": false
+ },
+ "49": {
+  "source": "The panel shows how many strands and segments the style uses against the server limit.",
+  "translation": "O painel mostra quantas mechas e segmentos o estilo usa em relação ao limite do servidor.",
+  "outdated": false
+ },
+ "50": {
+  "source": "=== Editing strands ===",
+  "translation": "=== Editando mechas ===",
+  "outdated": false
+ },
+ "51": {
+  "source": "Strands grow from a grid on the five faces of the head ('''F'''ront, '''B'''ack, '''L'''eft, '''R'''ight and '''T'''op). Select an empty spot and press '''Add strand''', or click an existing strand. The '''Inspector''' lets you set:",
+  "translation": "As mechas crescem a partir de uma grade nas cinco faces da cabeça ('''F''' = frente, '''B''' = trás, '''L''' = esquerda, '''R''' = direita e '''T''' = topo). Selecione um ponto vazio e aperte '''Adicionar mecha''', ou clique em uma mecha existente. O '''Inspetor''' permite ajustar:",
+  "outdated": false
+ },
+ "52": {
+  "source": "'''Transform''': Offset X/Y/Z and Rotation X/Y/Z.",
+  "translation": "'''Transformação''': Deslocamento X/Y/Z e Rotação X/Y/Z.",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''Shape''': Segments, Length, Falloff, Width, Depth, Taper and Taper curve; '''Joints''' as ''Blocks'' or ''Connected''.",
+  "translation": "'''Formato''': Segmentos, Comprimento, Queda, Largura, Profundidade, Afunilamento e Curva de afunilamento; '''Juntas''' como ''Blocos'' ou ''Conectadas''.",
+  "outdated": false
+ },
+ "54": {
+  "source": "'''Curve''': Bend X/Y/Z and Twist.",
+  "translation": "'''Curva''': Dobra X/Y/Z e Torção.",
+  "outdated": false
+ },
+ "55": {
+  "source": "'''Color''': a per-strand color and '''tip color''' (''Auto'' uses your hair color).",
+  "translation": "'''Cor''': uma cor por mecha e uma '''cor da ponta''' (''Auto'' usa a cor do seu cabelo).",
+  "outdated": false
+ },
+ "56": {
+  "source": "'''Segments''': {{Key|Alt}} + click a segment to scale its Length, Width and Depth on its own ('''Reset segment''' undoes it).",
+  "translation": "'''Segmentos''': {{Key|Alt}} + clique em um segmento para escalar só o Comprimento, a Largura e a Profundidade dele ('''Redefinir segmento''' desfaz isso).",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''Copy''' and '''Paste''' a strand, '''To all''' (copy it to every other slot) and '''Clear'''.",
+  "translation": "'''Copiar''' e '''Colar''' uma mecha, '''Para todos''' (copia para todos os outros slots) e '''Limpar'''.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Right-click any value to reset it.",
+  "translation": "Clique com o botão direito em qualquer valor para redefini-lo.",
+  "outdated": false
+ },
+ "59": {
+  "source": "=== Viewport controls ===",
+  "translation": "=== Controles da visualização ===",
+  "outdated": false
+ },
+ "60": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "61": {
+  "source": "Control",
+  "translation": "Controle",
+  "outdated": false
+ },
+ "62": {
+  "source": "Select a strand / a segment",
+  "translation": "Selecionar uma mecha / um segmento",
+  "outdated": false
+ },
+ "63": {
+  "source": "Click / {{Key|Alt}} + click",
+  "translation": "Clique / {{Key|Alt}} + clique",
+  "outdated": false
+ },
+ "64": {
+  "source": "Grow or shrink",
+  "translation": "Aumentar ou diminuir",
+  "outdated": false
+ },
+ "65": {
+  "source": "{{Key|Shift}} + drag",
+  "translation": "{{Key|Shift}} + arrastar",
+  "outdated": false
+ },
+ "66": {
+  "source": "Rotate",
+  "translation": "Girar",
+  "outdated": false
+ },
+ "67": {
+  "source": "{{Key|Alt}} + drag",
+  "translation": "{{Key|Alt}} + arrastar",
+  "outdated": false
+ },
+ "68": {
+  "source": "Curve",
+  "translation": "Curvar",
+  "outdated": false
+ },
+ "69": {
+  "source": "{{Key|Ctrl}} + drag",
+  "translation": "{{Key|Ctrl}} + arrastar",
+  "outdated": false
+ },
+ "70": {
+  "source": "Add / remove a segment",
+  "translation": "Adicionar / remover um segmento",
+  "outdated": false
+ },
+ "71": {
+  "source": "Right-click a strand / {{Key|Shift}} + right-click",
+  "translation": "Botão direito em uma mecha / {{Key|Shift}} + botão direito",
+  "outdated": false
+ },
+ "72": {
+  "source": "Orbit / pan the camera",
+  "translation": "Orbitar / mover a câmera",
+  "outdated": false
+ },
+ "73": {
+  "source": "Drag / right drag",
+  "translation": "Arrastar / arrastar com o botão direito",
+  "outdated": false
+ },
+ "74": {
+  "source": "Show or hide the body",
+  "translation": "Mostrar ou ocultar o corpo",
+  "outdated": false
+ },
+ "75": {
+  "source": "Right-click empty space",
+  "translation": "Botão direito em um espaço vazio",
+  "outdated": false
+ },
+ "76": {
+  "source": "Copy / paste a strand",
+  "translation": "Copiar / colar uma mecha",
+  "outdated": false
+ },
+ "77": {
+  "source": "Clear the selected strand",
+  "translation": "Limpar a mecha selecionada",
+  "outdated": false
+ },
+ "78": {
+  "source": "Undo / redo",
+  "translation": "Desfazer / refazer",
+  "outdated": false
+ },
+ "79": {
+  "source": "{{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} (or {{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}})",
+  "translation": "{{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} (ou {{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}})",
+  "outdated": false
+ },
+ "80": {
+  "source": "The top bar also has '''Hairbase''' (show or hide the painted hair layer on the scalp), '''Physics''' (preview how the hair moves), '''Mirror''' (every edit is copied to the matching strand on the other side), '''Undo''' and '''Redo'''. View buttons snap the camera to '''Front''', '''Back''', '''Left''', '''Right''' or '''Reset'''.",
+  "translation": "A barra superior também tem '''Base de cabelo''' (mostra ou oculta a camada de cabelo pintada no couro cabeludo), '''Física''' (pré-visualiza como o cabelo se move), '''Espelhar''' (cada edição é copiada para a mecha correspondente do outro lado), '''Desfazer''' e '''Refazer'''. Os botões de visualização posicionam a câmera em '''Frente''', '''Trás''', '''Esquerda''', '''Direita''' ou '''Redefinir'''.",
+  "outdated": false
+ },
+ "81": {
+  "source": "=== Sharing hairstyles ===",
+  "translation": "=== Compartilhando penteados ===",
+  "outdated": false
+ },
+ "82": {
+  "source": "'''Style''': export the current slot to your clipboard as a code, or import one.",
+  "translation": "'''Estilo''': exporta o slot atual para a área de transferência como um código, ou importa um.",
+  "outdated": false
+ },
+ "83": {
+  "source": "'''Full''': export or import '''all 5 slots''' at once.",
+  "translation": "'''Completo''': exporta ou importa '''os 5 slots''' de uma vez.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Codes start with <code>DMZ22:</code> (style) or <code>DMZF22:</code> (full). Codes made in version 2.1 (<code>DMZ1:</code> and <code>DMZF1:</code>) can still be imported.",
+  "translation": "Os códigos começam com <code>DMZ22:</code> (estilo) ou <code>DMZF22:</code> (completo). Códigos criados na versão 2.1 (<code>DMZ1:</code> e <code>DMZF1:</code>) ainda podem ser importados.",
+  "outdated": false
+ },
+ "85": {
+  "source": "'''Hair Salon''' opens the DragonMineZ Hair Salon website (dragonminez.com/hairsalon) in your browser, after a confirmation.",
+  "translation": "'''Salão de Cabeleireiro''' abre no navegador o site do Salão de Cabeleireiro do DragonMineZ (dragonminez.com/hairsalon), depois de uma confirmação.",
+  "outdated": false
+ },
+ "86": {
+  "source": "Press '''Save''' to apply, or '''Cancel''' (you are asked before unsaved changes are discarded).",
+  "translation": "Aperte '''Salvar''' para aplicar, ou '''Cancelar''' (você recebe uma confirmação antes de descartar alterações não salvas).",
+  "outdated": false
+ },
+ "87": {
+  "source": "=== Server limits ===",
+  "translation": "=== Limites do servidor ===",
+  "outdated": false
+ },
+ "88": {
+  "source": "The server limits every style: at most '''12''' segments per strand, '''600''' segments per style, a strand length of '''20''' per hair type, a strand width of '''8''' and a root offset of '''2'''. Styles over the limits are trimmed by the server.",
+  "translation": "O servidor limita todos os estilos: no máximo '''12''' segmentos por mecha, '''600''' segmentos por estilo, comprimento de mecha '''20''' por tipo de cabelo, largura de mecha '''8''' e deslocamento da raiz '''2'''. Estilos acima dos limites são cortados pelo servidor.",
+  "outdated": false
+ },
+ "89": {
+  "source": "== Skin pixel editor ==",
+  "translation": "== Editor de pixels da skin ==",
+  "outdated": false
+ },
+ "90": {
+  "source": "If you play with your '''own Minecraft skin''' (body type 0 on a Human or Saiyan), DragonMineZ can't know which pixels of your skin are eyes or hair. The pixel editor lets you mark them by painting '''directly on the 3D model''', so your transformations can recolor them:",
+  "translation": "Se você joga com sua '''própria skin do Minecraft''' (tipo corporal 0 em um Humano ou Saiyajin), o DragonMineZ não tem como saber quais pixels da sua skin são olhos ou cabelo. O editor de pixels permite marcá-los pintando '''diretamente no modelo 3D''', para que suas transformações possam recolori-los:",
+  "outdated": false
+ },
+ "91": {
+  "source": "'''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (it takes the eye color of each form). Your base form keeps your skin's own eyes untouched.",
+  "translation": "'''Olhos''' (3 passos): marque as '''sobrancelhas''' (elas recebem a cor de cabelo de cada forma), o '''branco dos olhos''' e a '''íris''' (ela recebe a cor dos olhos de cada forma). Sua forma base mantém intactos os olhos da sua skin.",
+  "outdated": false
+ },
+ "92": {
+  "source": "'''Hair''' (2 steps): mark the hair pixels of the '''base layer''', then of the '''overlay layer''' (hat and jacket). Marked hair always follows your hair color, including form colors when you transform.",
+  "translation": "'''Cabelo''' (2 passos): marque os pixels de cabelo da '''camada base''' e depois os da '''camada externa''' (chapéu e jaqueta). O cabelo marcado sempre segue a cor do seu cabelo, inclusive as cores das formas quando você se transforma.",
+  "outdated": false
+ },
+ "93": {
+  "source": "'''Controls:''' drag on the model to paint, hold {{Key|Alt}} or use the '''Eraser''' button to erase, {{Key|Shift}} + drag for a straight axis line, and click then {{Key|Shift}} + click for a line from A to B. '''Double-click''' to fill that whole side of the body part under the cursor (or to clear it with {{Key|Alt}} or the Eraser). Drag outside the model, or hold {{Key|Ctrl}} and drag anywhere, to rotate it: the camera turns freely, even over the top of the model. Right drag to pan and use the mouse wheel to zoom. {{Key|Ctrl}} + {{Key|Z}} undoes, {{Key|Ctrl}} + {{Key|Y}} or {{Key|Ctrl}} + {{Key|X}} redoes.",
+  "translation": "'''Controles:''' arraste sobre o modelo para pintar, segure {{Key|Alt}} ou use o botão '''Borracha''' para apagar, {{Key|Shift}} + arrastar para uma linha reta em um eixo, e clique e depois {{Key|Shift}} + clique para uma linha de A até B. '''Clique duplo''' para preencher todo aquele lado da parte do corpo sob o cursor (ou para limpá-lo com {{Key|Alt}} ou a Borracha). Arraste fora do modelo, ou segure {{Key|Ctrl}} e arraste em qualquer lugar, para girá-lo: a câmera gira livremente, até por cima do modelo. Arraste com o botão direito para mover a visão e use a roda do mouse para dar zoom. {{Key|Ctrl}} + {{Key|Z}} desfaz; {{Key|Ctrl}} + {{Key|Y}} ou {{Key|Ctrl}} + {{Key|X}} refaz.",
+  "outdated": false
+ },
+ "94": {
+  "source": "The buttons in the top-left corner of the view snap the camera to '''Front''', '''Back''', '''Left''', '''Right''', '''Top''' or '''Bottom'''; '''Reset''' also brings back the default zoom and center. The '''Parts''' figure in the top-right corner shows or hides the head, body, arms and legs: click a part to hide or show it, or {{Key|Shift}} + click to show only that part (do it again to show them all). Hidden parts can't be painted, so hiding one lets you reach the sides it covers, such as the inside of the arms.",
+  "translation": "Os botões no canto superior esquerdo da visualização posicionam a câmera em '''Frente''', '''Trás''', '''Esquerda''', '''Direita''', '''Cima''' ou '''Baixo'''; '''Redefinir''' também restaura o zoom e o centro padrão. A figura '''Partes''' no canto superior direito mostra ou oculta a cabeça, o corpo, os braços e as pernas: clique em uma parte para ocultá-la ou mostrá-la, ou {{Key|Shift}} + clique para mostrar só essa parte (faça de novo para mostrar todas). Partes ocultas não podem ser pintadas, então ocultar uma permite alcançar os lados que ela cobre, como a parte interna dos braços.",
+  "outdated": false
+ },
+ "95": {
+  "source": "The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Save''' and '''Cancel'''. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.",
+  "translation": "A barra superior tem '''Desfazer''', '''Refazer''', '''Limpar''', '''Camada externa''' (mostra a camada externa e permite pintar nela), '''Cabelo''' (mostra o cabelo 3D), '''Borracha''', '''Salvar''' e '''Cancelar'''. A linha '''Prévia''' percorre suas transformações para você conferir o resultado. Só a camada visível pode ser pintada.",
+  "outdated": false
+ },
+ "96": {
+  "source": "== Custom tattoo ==",
+  "translation": "== Tatuagem personalizada ==",
+  "outdated": false
+ },
+ "97": {
+  "source": "Choosing the '''Custom''' tattoo on the Tattoo tab and pressing '''Edit''' opens the same editor in '''tattoo mode''': a free brush using the color picker (sliders and hex), painted on the model at a '''resolution''' of '''64''', '''128''' or '''256''' pixels. Overlay cubes are hidden while you paint.",
+  "translation": "Escolher a tatuagem '''Personalizada''' na aba Tatuagem e apertar '''Editar''' abre o mesmo editor no '''modo tatuagem''': um pincel livre que usa o seletor de cor (controles deslizantes e hex), pintado no modelo em uma '''resolução''' de '''64''', '''128''' ou '''256''' pixels. Os cubos da camada externa ficam ocultos enquanto você pinta.",
+  "outdated": false
+ },
+ "98": {
+  "source": "'''128''' and '''256''' are a '''Patreon''' benefit (also available to Staff): for everyone else those buttons are locked (\"Reserved for Patreons and Staff\"), and the server scales any bigger tattoo down to 64.",
+  "translation": "'''128''' e '''256''' são um benefício do '''Patreon''' (também disponível para a Staff): para todos os outros, esses botões ficam bloqueados (\"Reservado para Patreons e Staff\"), e o servidor reduz qualquer tatuagem maior para 64.",
+  "outdated": false
+ },
+ "99": {
+  "source": "Server owners can turn custom tattoos off. Then the '''Custom''' card and its '''Edit''' button are gone, custom tattoos already painted aren't shown, and the server ignores new ones.",
+  "translation": "Donos de servidores podem desativar as tatuagens personalizadas. Nesse caso, o cartão '''Personalizada''' e o botão '''Editar''' somem, as tatuagens personalizadas já pintadas não aparecem e o servidor ignora as novas.",
+  "outdated": false
+ },
+ "100": {
+  "source": "Pixel marks and custom tattoos are saved with your character and shown to every player.",
+  "translation": "As marcações de pixels e as tatuagens personalizadas são salvas com seu personagem e mostradas a todos os jogadores.",
+  "outdated": false
+ },
+ "101": {
+  "source": "== Changing your look later ==",
+  "translation": "== Mudando sua aparência depois ==",
+  "outdated": false
+ },
+ "102": {
+  "source": "The '''Re-Customize''' wish ([[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]], see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]) reopens the customization screen (the last button reads '''Update'''). You can change your appearance and '''class''', but '''not your race'''; your stats and skills are kept.",
+  "translation": "O desejo '''Repersonalizar Personagem''' ([[Special:MyLanguage/Shenron|Shenlong]] ou [[Special:MyLanguage/Porunga|Porunga]]; veja [[Special:MyLanguage/Dragons and Wishes|Dragões e desejos]]) reabre a tela de personalização (o último botão diz '''Atualizar'''). Você pode mudar sua aparência e sua '''classe''', mas '''não sua raça'''; suas estatísticas e habilidades são mantidas.",
+  "outdated": false
+ },
+ "103": {
+  "source": "The '''Haircut''' option of [[Special:MyLanguage/Mr. Popo|Mr. Popo]] reopens the hair editor at any time.",
+  "translation": "A opção '''Corte de Cabelo''' do [[Special:MyLanguage/Mr. Popo|Sr Popo]] reabre o editor de cabelo a qualquer momento.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Your aura style can be changed at any time from the '''Config''' tab.",
+  "translation": "Você pode mudar o estilo da sua aura a qualquer momento pela aba '''Configuração'''.",
+  "outdated": false
+ },
+ "105": {
+  "source": "'''Admins:''' <code>/dmzhair reset [targets]</code> restores a player's default race hair and clears all custom styles; <code>/dmzhair resync [targets]</code> re-sends a player's appearance to nearby players; <code>/dmzclass</code> changes class. See [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "'''Administradores:''' <code>/dmzhair reset [targets]</code> restaura o cabelo padrão da raça de um jogador e apaga todos os estilos personalizados; <code>/dmzhair resync [targets]</code> reenvia a aparência de um jogador para os jogadores próximos; <code>/dmzclass</code> muda a classe. Veja [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "106": {
+  "source": "Appearance changes are only accepted at character creation, with a Re-Customize wish or (for hair) at Mr. Popo, and every value is checked by the server.",
+  "translation": "As mudanças de aparência só são aceitas na criação do personagem, com um desejo Repersonalizar Personagem ou (para o cabelo) com o Sr Popo, e o servidor verifica cada valor.",
+  "outdated": false
+ }
+}

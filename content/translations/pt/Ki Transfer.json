@@ -1,0 +1,122 @@
+{
+ "Page_display_title": {
+  "source": "Ki Transfer",
+  "translation": "Transferência de ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Ki Transfer''' lets you give your Ki to another player. Hold the keys while you look at them and a stream of Ki flows from your hands into their chest: their Ki bar refills and, after a moment, every giver also makes them stronger. Giving has a price: you slow down, you can't fight while you give, and you stay weaker for a while afterwards. Players can also pour their energy into a charging Spirit Bomb, and five Saiyans giving their Ki to a sixth can start the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]].",
+  "translation": "A '''Transferência de ki''' permite dar o seu Ki a outro jogador. Segure as teclas enquanto olha para ele e um fluxo de Ki sai das suas mãos para o peito dele: a barra de Ki dele se enche e, depois de um momento, cada doador também o deixa mais forte. Doar tem um preço: você fica mais lento, não pode lutar enquanto doa e fica mais fraco por um tempo depois. Os jogadores também podem despejar a energia deles em uma Genki-Dama que está sendo carregada, e cinco Saiyajins dando o Ki a um sexto podem iniciar o [[Special:MyLanguage/Super Saiyan God Ritual|Ritual do Super Saiyajin Deus]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Giving Ki ==",
+  "translation": "== Doando Ki ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "# Look at another player within '''8 blocks''', with nothing in the way.\n# Hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}}. The link starts and both of you get a message.\n# Keep holding the keys for as long as you want to give. Letting go of any of them ends the link.",
+  "translation": "# Olhe para outro jogador a até '''8 blocos''', sem nada no caminho.\n# Segure {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Botão direito}}. A ligação começa e os dois recebem uma mensagem.\n# Continue segurando as teclas pelo tempo que quiser doar. Soltar qualquer uma delas encerra a ligação.",
+  "outdated": false
+ },
+ "4": {
+  "source": "{{Key|Ctrl}} and {{Key|Alt}} are fixed and don't follow the Second Function key; {{Key|Right Mouse}} is Minecraft's '''Use''' key, so it follows your Use binding. After a link ends you wait '''2 seconds''' before you can start a new one.",
+  "translation": "{{Key|Ctrl}} e {{Key|Alt}} são fixas e não seguem a tecla de Função Secundária; {{Key|Botão direito}} é a tecla '''Usar item/Colocar bloco''' do Minecraft, então segue a configuração que você tiver para ela. Depois que uma ligação termina, você espera '''2 segundos''' antes de poder iniciar outra.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Several players can give to the same receiver at once, but you can only give to one player at a time. You can't give Ki while someone is giving Ki to you, you can't give to a player who is giving their own Ki away, and you can't start a link while you are stunned, knocked down or out of Ki.",
+  "translation": "Vários jogadores podem doar para o mesmo receptor ao mesmo tempo, mas você só pode doar para um jogador por vez. Você não pode doar Ki enquanto alguém está doando Ki para você, não pode doar para um jogador que está doando o próprio Ki e não pode iniciar uma ligação enquanto está atordoado, nocauteado ou sem Ki.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== What the giver pays ==",
+  "translation": "== O que o doador paga ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "* '''Ki.''' You send '''2.5%''' of your max Ki every second, and the receiver gets exactly what you send.\n* '''Focus.''' While you give, you walk and fly at '''40%''' speed and can't sprint. You can't attack, block, charge Ki, transform, use techniques or items, or use or break blocks, and your Ki doesn't regenerate.\n* '''Ki Exhaustion.''' Every '''3 seconds''' of giving lowers your STR, SKP, DEF and PWR by '''5%''', up to '''25%'''. The penalty stays while you keep giving, and after the link ends it lasts '''5 seconds''' for every 3 seconds you gave. The '''Ki Exhaustion''' effect shows it; its level is the size of the penalty (level I is 5%, level V is 25%).",
+  "translation": "* '''Ki.''' Você envia '''2.5%''' do seu Ki máximo a cada segundo, e o receptor recebe exatamente o que você envia.\n* '''Foco.''' Enquanto doa, você anda e voa a '''40%''' da velocidade e não pode correr. Você não pode atacar, bloquear, carregar Ki, se transformar, usar técnicas ou itens, nem usar ou quebrar blocos, e o seu Ki não se regenera.\n* '''Exaustão de Ki.''' A cada '''3 segundos''' doando, a sua STR, SKP, DEF e PWR caem '''5%''', até '''25%'''. A penalidade continua enquanto você segue doando, e depois que a ligação termina dura '''5 segundos''' para cada 3 segundos que você doou. O efeito '''Exaustão de Ki''' mostra isso; o nível dele é o tamanho da penalidade (nível I é 5%, nível V é 25%).",
+  "outdated": false
+ },
+ "8": {
+  "source": "== What the receiver gets ==",
+  "translation": "== O que o receptor ganha ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Ki.''' The Ki fills your bar. Anything beyond your max Ki is lost, unless you are charging a ki attack (see [[Special:MyLanguage/Ki Transfer#Feeding a charging attack|below]]).\n* '''Shared power.''' Once a giver has held the link for '''1 second''', your STR, SKP, DEF and PWR rise by '''5%''' for that giver, up to '''5''' givers ('''+25%'''). The '''Shared Ki''' effect shows it; its level is the number of givers boosting you.\n* '''Lingering bonus.''' When a giver stops, you keep their bonus for '''5 seconds''' for every 3 seconds they gave you.",
+  "translation": "* '''Ki.''' O Ki enche a sua barra. O que passar do seu Ki máximo é perdido, a menos que você esteja carregando um ataque de ki (veja [[Special:MyLanguage/Ki Transfer#Feeding a charging attack|abaixo]]).\n* '''Poder compartilhado.''' Quando um doador mantém a ligação por '''1 segundo''', a sua STR, SKP, DEF e PWR sobem '''5%''' por esse doador, até '''5''' doadores ('''+25%'''). O efeito '''Ki Compartilhado''' mostra isso; o nível dele é o número de doadores fortalecendo você.\n* '''Bônus persistente.''' Quando um doador para, você mantém o bônus dele por '''5 segundos''' para cada 3 segundos que ele doou para você.",
+  "outdated": false
+ },
+ "10": {
+  "source": "You can move and fight normally while you receive Ki.",
+  "translation": "Você pode se mover e lutar normalmente enquanto recebe Ki.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== When the link breaks ==",
+  "translation": "== Quando a ligação se rompe ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "The link ends, with a message to the giver, when:",
+  "translation": "A ligação termina, com uma mensagem para o doador, quando:",
+  "outdated": false
+ },
+ "13": {
+  "source": "* the giver lets go of the keys or runs out of Ki;\n* the giver takes damage adding up to '''10%''' of their max health since the link started, or is stunned or knocked down;\n* the two players are more than '''32 blocks''' apart or in different dimensions;\n* either player dies or logs out, or the receiver can no longer receive Ki.",
+  "translation": "* o doador solta as teclas ou fica sem Ki;\n* o doador leva dano somando '''10%''' da vida máxima desde que a ligação começou, ou fica atordoado ou nocauteado;\n* os dois jogadores estão a mais de '''32 blocos''' de distância ou em dimensões diferentes;\n* qualquer um dos jogadores morre ou sai do jogo, ou o receptor não pode mais receber Ki.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Feeding a charging attack ==",
+  "translation": "== Alimentando um ataque em carga ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "If the receiver is charging a ki attack, the Ki that doesn't fit in their bar is stored for that attack instead of being lost, up to one full Ki bar of the receiver. The attack spends the stored Ki before the receiver's own, so a team can keep a big attack charging and overcharging. Whatever is left is lost when the receiver stops charging.",
+  "translation": "Se o receptor estiver carregando um ataque de ki, o Ki que não cabe na barra dele é guardado para esse ataque em vez de ser perdido, até uma barra de Ki completa do receptor. O ataque gasta o Ki guardado antes do Ki do próprio receptor, então uma equipe pode manter um ataque grande carregando e sobrecarregando. O que sobrar é perdido quando o receptor para de carregar.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Giving energy to a Spirit Bomb ==",
+  "translation": "== Doando energia para uma Genki-Dama ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "When a player charges a '''Spirit Bomb''', everyone within '''64 blocks''' is asked for help: every 2.5 seconds a message and a chime tell nearby players who aren't already giving Ki or charging an attack of their own that the Spirit Bomb needs their strength.",
+  "translation": "Quando um jogador carrega uma '''Genki-Dama''', todos a até '''64 blocos''' recebem um pedido de ajuda: a cada 2.5 segundos, uma mensagem e um som avisam os jogadores por perto que não estão doando Ki nem carregando um ataque próprio que a Genki-Dama precisa da força deles.",
+  "outdated": false
+ },
+ "18": {
+  "source": "* To answer, hold {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} as usual. You don't have to look at the caster or even see them: if you aren't looking at another player, you link to the nearest player charging a Spirit Bomb within 64 blocks. You raise your hands and your energy flies up into the bomb.\n* While the receiver charges a Spirit Bomb, each giver sends '''10%''' of their max Ki every second instead of 2.5%.\n* The Ki makes the bomb '''grow''' instead of filling the caster's bar, up to 2.5 times the biggest size a ki attack can normally reach. Once it is that big, extra Ki fills the caster's bar as usual.\n* When the bomb is thrown, its damage is multiplied by how much bigger the givers made it, up to '''×3'''.\n* While someone is giving, the Spirit Bomb doesn't fire on its own when it reaches full charge: it keeps growing for as long as the caster holds the key.\n* A link made this way stretches to 64 blocks before it breaks (instead of 32), and ends when the bomb is thrown or the caster stops charging it.",
+  "translation": "* Para responder, segure {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Botão direito}} como de costume. Você não precisa olhar para quem está lançando nem mesmo vê-lo: se você não estiver olhando para outro jogador, você se liga ao jogador mais próximo que esteja carregando uma Genki-Dama a até 64 blocos. Você levanta as mãos e a sua energia sobe voando até a esfera.\n* Enquanto o receptor carrega uma Genki-Dama, cada doador envia '''10%''' do Ki máximo a cada segundo em vez de 2.5%.\n* O Ki faz a esfera '''crescer''' em vez de encher a barra de quem a lança, até 2.5 vezes o maior tamanho que um ataque de ki normalmente alcança. Quando ela chega a esse tamanho, o Ki extra enche a barra de quem a lança, como de costume.\n* Quando a esfera é lançada, o dano é multiplicado pelo quanto os doadores a aumentaram, até '''×3'''.\n* Enquanto alguém está doando, a Genki-Dama não dispara sozinha ao chegar à carga completa: ela continua crescendo enquanto quem a lança segurar a tecla.\n* Uma ligação feita dessa forma se estende até 64 blocos antes de se romper (em vez de 32), e termina quando a esfera é lançada ou quando quem a lança para de carregá-la.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Everything else works as in a normal transfer: givers pay the same price (slowdown and Ki Exhaustion) and the caster gets the Shared Ki bonus.",
+  "translation": "Todo o resto funciona como em uma transferência normal: os doadores pagam o mesmo preço (lentidão e Exaustão de Ki) e quem lança recebe o bônus de Ki Compartilhado.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== The Super Saiyan God Ritual ==",
+  "translation": "== O Ritual do Super Saiyajin Deus ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "When five pure-hearted [[Special:MyLanguage/Saiyan|Saiyans]] in Super Saiyan give their Ki to a sixth Saiyan in SSJ Mastered, the transfer turns into a ritual that grants the '''Super Saiyan God''' form.",
+  "translation": "Quando cinco [[Special:MyLanguage/Saiyan|Saiyajins]] de coração puro em Super Saiyajin dão o Ki a um sexto Saiyajin em SSJ Dominado, a transferência vira um ritual que concede a forma '''Super Saiyajin Deus'''.",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "All values on this page are defaults. Server owners can change the transfer rate, the bonus and the penalty, the ranges and the timings, or switch Ki Transfer off.",
+  "translation": "Todos os valores desta página são os padrões. Os donos de servidores podem alterar a taxa de transferência, o bônus e a penalidade, os alcances e os tempos, ou desativar a Transferência de ki.",
+  "outdated": false
+ }
+}

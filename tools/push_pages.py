@@ -161,7 +161,7 @@ def main() -> int:
         print(f"{action} {title}: {result.get('result')} rev {result.get('newrevid', '-')}")
     uploaded = 0
     if files_dir.is_dir():
-        for path in sorted(p for p in files_dir.iterdir() if p.is_file()):
+        for path in sorted(p for p in files_dir.rglob('*') if p.is_file()):
             if args.only and not any(fnmatch.fnmatch(f'File:{path.name}', pattern) for pattern in args.only):
                 continue
             local = hashlib.sha1(path.read_bytes()).hexdigest()

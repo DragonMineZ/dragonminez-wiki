@@ -1,39 +1,44 @@
 {{Infobox Structure
 |Dimension={{L|Earth}}
-|Biome=<translate>Rocky biomes</translate>
-|Location=<translate>One per world</translate>
+|Biome=<translate><!--T:1--> Rocky biomes</translate>
+|Location=<translate><!--T:2--> One per world</translate>
 |Locate=/dmzlocate vegeta_pod
-|Inhabitants={{L|Vegeta}}, <translate>Bulma</translate>
-|Purpose=<translate>Home of a master; Bulma's quests</translate>
-|Protection=<translate>Ki attacks can't damage it</translate>
+|Inhabitants={{L|Vegeta}}, <translate><!--T:3--> Bulma</translate>
+|Purpose=<translate><!--T:4--> Home of a master; Bulma's quests</translate>
+|Protection=<translate><!--T:5--> Ki attacks can't damage it</translate>
 }}
 <translate>
+<!--T:6-->
 '''Vegeta's Saiyan Pod''' (Vegeta's Pod) is the crashed Saiyan pod where [[Special:MyLanguage/Vegeta|Vegeta]] waits, in the rocky lands of [[Special:MyLanguage/Earth|Earth]]. '''Bulma''' is here too: many story deliveries and the sidequests that unlock new [[Special:MyLanguage/Space Pod|Space Pod]] destinations go through her.
 </translate>
 
 <translate>
-== Who lives here ==
+== Who lives here == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 * '''[[Special:MyLanguage/Vegeta|Vegeta]]''' teaches ki skills, his signature ki attacks (Galick Gun, Big Bang Attack, Final Flash and more) and the [[Special:MyLanguage/Fake Moon|Fake Moon]], and runs the '''Gravity''' [[Special:MyLanguage/Training Minigames|training minigame]]. He has no alignment requirement.
 * '''Bulma''' is a quest NPC. Talk to her for story deliveries, and for sidequests such as ''Temporal Comm-Link'' and ''Otherworld Drive'', which unlock the Time Chamber and Otherworld destinations of your Space Pod (see [[Special:MyLanguage/Dimensions#Travelling between worlds|Dimensions]]).
 </translate>
 
 <translate>
-== Finding it ==
+== Finding it == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 The pod generates once per world, in rocky biomes. [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistants]] can sell a '''Vegeta's Saiyan Pod Map''' at trade tier 5, for 1 Red Scouter and an empty Map. Players with the locate permission can use {{Command|/dmzlocate vegeta_pod}}. See [[Special:MyLanguage/Structures#Finding structures|Finding structures]].
 </translate>
 
 <translate>
+<!--T:11-->
 Like every master's home, the pod can't be damaged by ki attacks (see [[Special:MyLanguage/Structures#Protection|Protection]]).
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:12-->
 </translate>
 <translate>
+<!--T:13-->
 * [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 14, ''Repairing the Saiyan Pod'': find Vegeta's Saiyan Pod and give Bulma 8 Blocks of Iron, 4 Blocks of Redstone and 4 Diamonds.
 * Saiyan Saga quest 15, ''Prepare for Namek'': talk to Bulma; the reward is a Saiyan [[Special:MyLanguage/Space Pod|Space Pod]].
 </translate>

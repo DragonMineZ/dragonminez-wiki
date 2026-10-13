@@ -1,0 +1,552 @@
+{
+ "Page_display_title": {
+  "source": "HUD",
+  "translation": "HUD",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ draws its own '''HUD''' for your '''Health''', '''Ki''', '''Stamina''' and '''Power Release''', plus extra panels for your party, quests, techniques and special fights. You can choose between four HUD styles, and every element can be moved, resized, mirrored or hidden in the '''HUD Editor'''.",
+  "translation": "O DragonMineZ desenha sua própria '''HUD''' para sua '''Vida''', '''Ki''', '''Estâmina''' e '''Liberação de Poder''', além de painéis extras para seu grupo, missões, técnicas e lutas especiais. Você pode escolher entre quatro estilos de HUD, e cada elemento pode ser movido, redimensionado, espelhado ou ocultado no '''Editor da HUD'''.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Open the editor from the Character Menu ({{Key|V}}) → '''Config''' → '''Interface''' → '''HUD Layout'''. Right after you create your character, a short tutorial points at your HUD and offers to open the editor.",
+  "translation": "Abra o editor pelo Menu do personagem ({{Key|V}}) → '''Config''' → '''Interface''' → '''Layout da HUD'''. Logo depois de você criar seu personagem, um breve tutorial aponta para sua HUD e oferece abrir o editor.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== HUD styles ==",
+  "translation": "== Estilos de HUD ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Pick the style with the '''Style''' button at the top of the HUD Editor.",
+  "translation": "Escolha o estilo com o botão '''Estilo''' no topo do Editor da HUD.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Style",
+  "translation": "Estilo",
+  "outdated": false
+ },
+ "6": {
+  "source": "What it looks like",
+  "translation": "Como é",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Xenoverse''' (default)",
+  "translation": "'''Xenoverse''' (padrão)",
+  "outdated": false
+ },
+ "8": {
+  "source": "One compact block in the top-left corner with your bars and form and release info.",
+  "translation": "Um bloco compacto no canto superior esquerdo com suas barras e as informações de forma e liberação.",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Modern'''",
+  "translation": "'''Moderno'''",
+  "outdated": false
+ },
+ "10": {
+  "source": "A head portrait of your character next to Health, Ki and Stamina stacked in one block, drawn in the metallic style of the DragonMineZ menus, with each bar split into four sections.",
+  "translation": "Um retrato da cabeça do seu personagem ao lado de Vida, Ki e Estâmina empilhadas em um único bloco, desenhado no estilo metálico dos menus do DragonMineZ, com cada barra dividida em quatro seções.",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''Compact'''",
+  "translation": "'''Compacto'''",
+  "outdated": false
+ },
+ "12": {
+  "source": "Three separate small bars ('''Health''', '''Ki and Release''', '''Stamina''') that you place one by one.",
+  "translation": "Três barras pequenas separadas ('''Vida''', '''Ki e Liberação''', '''Estâmina''') que você posiciona uma a uma.",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Vanilla'''",
+  "translation": "'''Vanilla'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "Minecraft-style blocks beside the hotbar: '''Health and Stamina''' on the left, '''Ki and Release''' on the right. They stay glued to the hotbar (and follow the offhand slot) unless you drag them away; snap them back onto the hotbar to glue them again.",
+  "translation": "Blocos no estilo do Minecraft ao lado da hotbar: '''Vida e Estâmina''' à esquerda, '''Ki e Liberação''' à direita. Eles ficam grudados na hotbar (e acompanham o slot da mão secundária), a menos que você os arraste para longe; encaixe-os de volta na hotbar para grudá-los de novo.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Every style shares the same bar animations:",
+  "translation": "Todos os estilos compartilham as mesmas animações de barra:",
+  "outdated": false
+ },
+ "16": {
+  "source": "Damage leaves a fading \"chip\", healing grows the bar, and the numbers pulse when they change. Big hits shake the Xenoverse, Modern and Compact HUDs.",
+  "translation": "O dano deixa um \"pedaço\" que vai sumindo, a cura faz a barra crescer e os números pulsam quando mudam. Golpes fortes fazem tremer as HUDs Xenoverse, Moderno e Compacto.",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Health''' shifts smoothly from green to yellow to red as it drops, '''Ki''' uses your ki color and '''Stamina''' is orange.",
+  "translation": "A '''Vida''' muda suavemente de verde para amarelo e vermelho conforme cai, o '''Ki''' usa sua cor de ki e a '''Estâmina''' é laranja.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Every few seconds a light shine sweeps across your bars, cascading from Health to Ki to Stamina.",
+  "translation": "A cada poucos segundos, um brilho de luz percorre suas barras, em cascata da Vida para o Ki e a Estâmina.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Ki bars (yours, your party's and the Ki Sense panels) ripple with a flowing light that speeds up and brightens while you charge ki.",
+  "translation": "As barras de Ki (a sua, as do seu grupo e as dos painéis de Sentido de Ki) ondulam com uma luz fluindo, que acelera e fica mais forte enquanto você carrega ki.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Below '''25% health''' the Health bar beats like a heart (faster the lower it gets) and its frame flashes red.",
+  "translation": "Abaixo de '''25% de vida''', a barra de Vida bate como um coração (mais rápido quanto mais baixa) e a moldura pisca em vermelho.",
+  "outdated": false
+ },
+ "21": {
+  "source": "The whole HUD freezes while the game is paused (including the Escape menu in multiplayer).",
+  "translation": "A HUD inteira congela enquanto o jogo está pausado (incluindo o menu do Esc no multijogador).",
+  "outdated": false
+ },
+ "22": {
+  "source": "Numbers and labels use the DragonMineZ font, in a compact, easy-to-read format.",
+  "translation": "Números e rótulos usam a fonte do DragonMineZ, em um formato compacto e fácil de ler.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Coming from version 2.1: if you used the old ''alternative HUD'', you start on the '''Vanilla''' style; otherwise on '''Xenoverse'''.",
+  "translation": "Vindo da versão 2.1: se você usava a antiga ''HUD alternativa'', começa no estilo '''Vanilla'''; caso contrário, no '''Xenoverse'''.",
+  "outdated": false
+ },
+ "24": {
+  "source": "== HUD elements ==",
+  "translation": "== Elementos da HUD ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "=== Main elements ===",
+  "translation": "=== Elementos principais ===",
+  "outdated": false
+ },
+ "26": {
+  "source": "These are placed separately for each style.",
+  "translation": "Eles são posicionados separadamente para cada estilo.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Element",
+  "translation": "Elemento",
+  "outdated": false
+ },
+ "28": {
+  "source": "Shown when",
+  "translation": "Aparece quando",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Main HUD''' (or the Compact and Vanilla blocks)",
+  "translation": "'''HUD principal''' (ou os blocos Compacto e Vanilla)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Always.",
+  "translation": "Sempre.",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Power Reserve'''",
+  "translation": "'''Reserva de Poder'''",
+  "outdated": false
+ },
+ "32": {
+  "source": "[[Special:MyLanguage/Frost Demon|Frost Demons]]: your stored ki reserve, in your ki color.",
+  "translation": "[[Special:MyLanguage/Frost Demon|Clã Freeza]]: sua reserva de ki armazenada, na sua cor de ki.",
+  "outdated": false
+ },
+ "33": {
+  "source": "'''Rage Meter'''",
+  "translation": "'''Medidor de Fúria'''",
+  "outdated": false
+ },
+ "34": {
+  "source": "Mutants (dark green) and the [[Special:MyLanguage/Saiyan|Saiyan]] False Super Saiyan charge (red).",
+  "translation": "Mutantes (verde-escuro) e a carga de Falso Super Saiyajin dos [[Special:MyLanguage/Saiyan|Saiyajins]] (vermelho).",
+  "outdated": false
+ },
+ "35": {
+  "source": "'''Party'''",
+  "translation": "'''Grupo'''",
+  "outdated": false
+ },
+ "36": {
+  "source": "You are in a party: up to '''3''' allies (nearest first) with name, health and ki. Live bars when they are nearby, their face and distance when they are far away. A downed ally is marked.",
+  "translation": "Você está em um grupo: até '''3''' aliados (os mais próximos primeiro) com nome, vida e ki. Barras ao vivo quando estão perto; rosto e distância quando estão longe. Um aliado caído fica marcado.",
+  "outdated": false
+ },
+ "37": {
+  "source": "'''Technique 1–4'''",
+  "translation": "'''Técnica 1–4'''",
+  "outdated": false
+ },
+ "38": {
+  "source": "The four rows of the '''technique hotbar''' (see below).",
+  "translation": "As quatro linhas da '''hotbar de técnicas''' (veja abaixo).",
+  "outdated": false
+ },
+ "39": {
+  "source": "Side meters such as the Power Reserve and the Rage Meter '''slide out of the screen''' while they are empty or don't apply to you, if they are placed against a screen edge; elements lined up behind them move up to fill the gap.",
+  "translation": "Medidores laterais, como a Reserva de Poder e o Medidor de Fúria, '''deslizam para fora da tela''' enquanto estão vazios ou não se aplicam a você, se estiverem encostados em uma borda da tela; os elementos alinhados atrás deles sobem para preencher o espaço.",
+  "outdated": false
+ },
+ "40": {
+  "source": "=== Extras ===",
+  "translation": "=== Extras ===",
+  "outdated": false
+ },
+ "41": {
+  "source": "Switch the editor to the '''Extras''' view to place these. They are shared by every style.",
+  "translation": "Mude o editor para a visão '''Extras''' para posicioná-los. Eles são compartilhados por todos os estilos.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Element",
+  "translation": "Elemento",
+  "outdated": false
+ },
+ "43": {
+  "source": "What it shows",
+  "translation": "O que mostra",
+  "outdated": false
+ },
+ "44": {
+  "source": "'''Notifications'''",
+  "translation": "'''Notificações'''",
+  "outdated": false
+ },
+ "45": {
+  "source": "One stack (top-right by default) for quest notices, party invites, update alerts, the '''tracked quest''', the tutorial hint and the live [[Special:MyLanguage/Tournaments|tournament]] status (see below).",
+  "translation": "Uma pilha (no canto superior direito por padrão) para avisos de missões, convites de grupo, alertas de atualização, a '''missão rastreada''', a dica do tutorial e o status ao vivo do [[Special:MyLanguage/Tournaments|torneio]] (veja abaixo).",
+  "outdated": false
+ },
+ "46": {
+  "source": "'''Scouter'''",
+  "translation": "'''Scouter'''",
+  "outdated": false
+ },
+ "47": {
+  "source": "The scouter readout while you wear a [[Special:MyLanguage/Scouters|scouter]] (not available in the Compact style).",
+  "translation": "A leitura do scouter enquanto você usa um [[Special:MyLanguage/Scouters|scouter]] (não disponível no estilo Compacto).",
+  "outdated": false
+ },
+ "48": {
+  "source": "'''Baba Temporary Revive'''",
+  "translation": "'''Ressurreição temporária da Vovó Uranai'''",
+  "outdated": false
+ },
+ "49": {
+  "source": "The time you have left in the world of the living when [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] brought you back temporarily (shows ''Paused'' or ''KO'' when relevant). See [[Special:MyLanguage/Otherworld|Otherworld]].",
+  "translation": "O tempo que resta para você no mundo dos vivos quando a [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] trouxe você de volta temporariamente (mostra ''Pausado'' ou ''KO'' quando for o caso). Veja [[Special:MyLanguage/Otherworld|Outro Mundo]].",
+  "outdated": false
+ },
+ "50": {
+  "source": "'''Boss Contribution'''",
+  "translation": "'''Contribuição contra o chefe'''",
+  "outdated": false
+ },
+ "51": {
+  "source": "During a [[Special:MyLanguage/World Bosses|world boss]] fight: the contribution ranking of the fighters.",
+  "translation": "Durante uma luta contra um [[Special:MyLanguage/World Bosses|chefe de mundo]]: o ranking de contribuição dos lutadores.",
+  "outdated": false
+ },
+ "52": {
+  "source": "=== Notifications ===",
+  "translation": "=== Notificações ===",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''Pinned''' entries stay while they apply: your '''tracked quest''' (title, the current objective with progress, a direction arrow and distance for location objectives, and the time left on timed quests), the '''\"Press [V] to begin your adventure!\"''' hint before you create a character, and the live tournament notice.",
+  "translation": "As entradas '''fixadas''' ficam enquanto se aplicam: sua '''missão rastreada''' (título, o objetivo atual com o progresso, uma seta de direção e a distância nos objetivos de local, e o tempo restante nas missões com tempo), a dica '''\"Aperte [V] para começar sua aventura!\"''' antes de você criar um personagem, e o aviso ao vivo do torneio.",
+  "outdated": false
+ },
+ "54": {
+  "source": "'''Temporary''' entries (quest started, failed, objective done or completed, party invites, quest start errors and \"update available\") slide in for '''5 seconds'''; at most 5 are shown at once. Newer ones push older ones down.",
+  "translation": "As entradas '''temporárias''' (missão iniciada, falhada, objetivo cumprido ou concluída, convites de grupo, erros ao iniciar missões e \"atualização disponível\") deslizam na tela por '''5 segundos'''; no máximo 5 aparecem ao mesmo tempo. As mais novas empurram as mais antigas para baixo.",
+  "outdated": false
+ },
+ "55": {
+  "source": "If you place the stack at the bottom of the screen, it grows upwards.",
+  "translation": "Se você colocar a pilha na parte de baixo da tela, ela cresce para cima.",
+  "outdated": false
+ },
+ "56": {
+  "source": "=== Technique hotbar ===",
+  "translation": "=== Hotbar de técnicas ===",
+  "outdated": false
+ },
+ "57": {
+  "source": "Your 8 technique slots are shown as '''four rows''' (Technique 1–4), shared by '''Bar 1''' ({{Key|Alt}} + 1–4) and '''Bar 2''' ({{Key|Ctrl}} + 1–4):",
+  "translation": "Seus 8 slots de técnica aparecem como '''quatro linhas''' (Técnica 1–4), compartilhadas pela '''Barra 1''' ({{Key|Alt}} + 1–4) e pela '''Barra 2''' ({{Key|Ctrl}} + 1–4):",
+  "outdated": false
+ },
+ "58": {
+  "source": "Holding a bar's modifier shows that bar's four slots, with the key and the technique name.",
+  "translation": "Segurar o modificador de uma barra mostra os quatro slots dela, com a tecla e o nome da técnica.",
+  "outdated": false
+ },
+ "59": {
+  "source": "When you let go, the rows fade out, except slots on '''cooldown''', which stay half-visible until they are ready, blink, and fade out a moment later.",
+  "translation": "Quando você solta, as linhas somem, exceto os slots em '''recarga''', que ficam semivisíveis até ficarem prontos, piscam e somem logo depois.",
+  "outdated": false
+ },
+ "60": {
+  "source": "=== Ki Sense panels ===",
+  "translation": "=== Painéis de Sentido de Ki ===",
+  "outdated": false
+ },
+ "61": {
+  "source": "While [[Special:MyLanguage/Ki Sense|Ki Sense]] is in '''Combat''' mode ({{Key|F4}}, see [[Special:MyLanguage/Skills|Skills]]), every living being you sense gets a small panel floating above its head, built like the Modern HUD:",
+  "translation": "Enquanto o [[Special:MyLanguage/Ki Sense|Sentido de Ki]] está no modo '''Combate''' ({{Key|F4}}, veja [[Special:MyLanguage/Skills|Habilidades]]), cada ser vivo que você percebe ganha um pequeno painel flutuando sobre a cabeça, montado como a HUD Moderno:",
+  "outdated": false
+ },
+ "62": {
+  "source": "'''Players''' show Health, Ki (with the charging effect when they charge) and Stamina; any other creature shows only its Health bar.",
+  "translation": "'''Jogadores''' mostram Vida, Ki (com o efeito de carga quando carregam) e Estâmina; qualquer outra criatura mostra só a barra de Vida.",
+  "outdated": false
+ },
+ "63": {
+  "source": "The Health number is always shown, even with '''Hide HUD Numbers''' on; the Ki and Stamina numbers follow your HUD number options.",
+  "translation": "O número de Vida sempre aparece, mesmo com '''Ocultar números da HUD''' ativado; os números de Ki e Estâmina seguem suas opções de números da HUD.",
+  "outdated": false
+ },
+ "64": {
+  "source": "The panel shows the target's '''Battle Power''' above it, plus the damage and healing you see it take (summed up while '''Ki Sense - Accumulative Damage''' is on, as single popups otherwise; in % of max health with '''Adv. Desc. (Percentage)''' on).",
+  "translation": "O painel mostra acima dele o '''Poder de luta''' do alvo, além do dano e da cura que você vê ele receber (somados enquanto '''Ki Sense (Dano)''' está ativado, como pop-ups individuais caso contrário; em % da vida máxima com '''Desc. Av. (Porcentagem)''' ativado).",
+  "outdated": false
+ },
+ "65": {
+  "source": "Panels shrink with distance (down to a readable minimum), fade in and out as targets enter or leave your sense range, and stay hidden in the HUD Editor.",
+  "translation": "Os painéis encolhem com a distância (até um mínimo legível), aparecem e somem gradualmente quando os alvos entram ou saem do seu alcance de percepção, e ficam ocultos no Editor da HUD.",
+  "outdated": false
+ },
+ "66": {
+  "source": "A being at 0% Power Release can't be sensed.",
+  "translation": "Um ser com 0% de Liberação de Poder não pode ser percebido.",
+  "outdated": false
+ },
+ "67": {
+  "source": "=== Party markers ===",
+  "translation": "=== Marcadores de grupo ===",
+  "outdated": false
+ },
+ "68": {
+  "source": "With '''Party Markers''' on (Config → Interface), a pin with the ally's face over a tinted arrow floats over each party member's head, at any distance and through walls. Idle pins are small and slightly transparent; the pin closest to your crosshair grows and shows the ally's name and distance. Markers behind the camera are hidden.",
+  "translation": "Com '''Marcadores de grupo''' ativado (Config → Interface), um marcador com o rosto do aliado sobre uma seta colorida flutua acima da cabeça de cada membro do grupo, a qualquer distância e através das paredes. Marcadores parados são pequenos e um pouco transparentes; o mais próximo da sua mira cresce e mostra o nome e a distância do aliado. Marcadores atrás da câmera ficam ocultos.",
+  "outdated": false
+ },
+ "69": {
+  "source": "The server only shows allies in the '''same dimension''' within '''2,000 blocks''' who are alive and not hidden: an [[Special:MyLanguage/Anti-Ki Cloaking Device|Anti-Ki Cloaking Device]] (see [[Special:MyLanguage/Items|Items]]), a god form you can't sense, or 0% Power Release hides them. Markers turn red when the ally is down.",
+  "translation": "O servidor só mostra aliados na '''mesma dimensão''' a até '''2,000 blocos''' que estejam vivos e não ocultos: um [[Special:MyLanguage/Anti-Ki Cloaking Device|Dispositivo de Camuflagem Anti-Ki]] (veja [[Special:MyLanguage/Items|Itens]]), uma forma divina que você não consegue perceber ou 0% de Liberação de Poder os escondem. Os marcadores ficam vermelhos quando o aliado está caído.",
+  "outdated": false
+ },
+ "70": {
+  "source": "== Numbers on the HUD ==",
+  "translation": "== Números na HUD ==",
+  "outdated": false
+ },
+ "71": {
+  "source": "Option (Config → Interface)",
+  "translation": "Opção (Config → Interface)",
+  "outdated": false
+ },
+ "72": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "73": {
+  "source": "'''Always Visible HUD Values'''",
+  "translation": "'''Valores da HUD sempre visíveis'''",
+  "outdated": false
+ },
+ "74": {
+  "source": "Off (default): the numbers on your bars appear when a value changes and fade out about 2.5 seconds later. On: they are always shown.",
+  "translation": "Desativado (padrão): os números das suas barras aparecem quando um valor muda e somem cerca de 2.5 segundos depois. Ativado: eles aparecem sempre.",
+  "outdated": false
+ },
+ "75": {
+  "source": "'''Hide HUD Numbers'''",
+  "translation": "'''Ocultar números da HUD'''",
+  "outdated": false
+ },
+ "76": {
+  "source": "Hides the numbers on your bars, side meters and party rows completely (bars only).",
+  "translation": "Oculta completamente os números das suas barras, dos medidores laterais e das linhas do grupo (só as barras).",
+  "outdated": false
+ },
+ "77": {
+  "source": "== The HUD Editor ==",
+  "translation": "== O Editor da HUD ==",
+  "outdated": false
+ },
+ "78": {
+  "source": "Opening the editor dims the screen and shows every HUD element of the current view with sample values (empty meters and an empty party are filled in so you can place them).",
+  "translation": "Ao abrir o editor, a tela escurece e mostra todos os elementos da HUD da visão atual com valores de exemplo (medidores vazios e um grupo vazio são preenchidos para que você possa posicioná-los).",
+  "outdated": false
+ },
+ "79": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "80": {
+  "source": "How",
+  "translation": "Como",
+  "outdated": false
+ },
+ "81": {
+  "source": "'''Move'''",
+  "translation": "'''Mover'''",
+  "outdated": false
+ },
+ "82": {
+  "source": "Drag an element. It soft-snaps (5 px) to screen edges, the screen centre and other elements, with guide lines.",
+  "translation": "Arraste um elemento. Ele se encaixa suavemente (5 px) nas bordas da tela, no centro da tela e em outros elementos, com linhas-guia.",
+  "outdated": false
+ },
+ "83": {
+  "source": "'''Resize'''",
+  "translation": "'''Redimensionar'''",
+  "outdated": false
+ },
+ "84": {
+  "source": "Drag one of the 8 handles around the selected element.",
+  "translation": "Arraste uma das 8 alças ao redor do elemento selecionado.",
+  "outdated": false
+ },
+ "85": {
+  "source": "'''Nudge'''",
+  "translation": "'''Ajuste fino'''",
+  "outdated": false
+ },
+ "86": {
+  "source": "The arrow keys move the selected element by 1 (hold {{Key|Shift}} for 5).",
+  "translation": "As setas do teclado movem o elemento selecionado em passos de 1 (segure {{Key|Shift}} para passos de 5).",
+  "outdated": false
+ },
+ "87": {
+  "source": "'''Mirror'''",
+  "translation": "'''Espelhar'''",
+  "outdated": false
+ },
+ "88": {
+  "source": "Right-click an element to flip it horizontally. Available for the Main HUD of the Xenoverse and Modern styles, the Party panel, the Scouter and the technique rows.",
+  "translation": "Clique com o botão direito em um elemento para invertê-lo horizontalmente. Disponível para a HUD principal dos estilos Xenoverse e Moderno, o painel de Grupo, o Scouter e as linhas de técnicas.",
+  "outdated": false
+ },
+ "89": {
+  "source": "'''Show / Hide'''",
+  "translation": "'''Mostrar / Ocultar'''",
+  "outdated": false
+ },
+ "90": {
+  "source": "Hide an element you don't want, or show it again.",
+  "translation": "Oculte um elemento que você não quer ou mostre-o de novo.",
+  "outdated": false
+ },
+ "91": {
+  "source": "'''Reset'''",
+  "translation": "'''Redefinir'''",
+  "outdated": false
+ },
+ "92": {
+  "source": "Resets the selected element (or, with nothing selected, every element of the current view) to its default placement.",
+  "translation": "Volta o elemento selecionado (ou, sem nada selecionado, todos os elementos da visão atual) para a posição padrão.",
+  "outdated": false
+ },
+ "93": {
+  "source": "'''Undo / Redo'''",
+  "translation": "'''Desfazer / Refazer'''",
+  "outdated": false
+ },
+ "94": {
+  "source": "Buttons at the top, or {{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} ({{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}} also redoes). The last 5 changes are kept.",
+  "translation": "Botões no topo, ou {{Key|Ctrl}} + {{Key|Z}} / {{Key|Ctrl}} + {{Key|Y}} ({{Key|Ctrl}} + {{Key|Shift}} + {{Key|Z}} também refaz). As últimas 5 alterações ficam guardadas.",
+  "outdated": false
+ },
+ "95": {
+  "source": "'''Style'''",
+  "translation": "'''Estilo'''",
+  "outdated": false
+ },
+ "96": {
+  "source": "Cycles the HUD style.",
+  "translation": "Alterna entre os estilos de HUD.",
+  "outdated": false
+ },
+ "97": {
+  "source": "'''Extras'''",
+  "translation": "'''Extras'''",
+  "outdated": false
+ },
+ "98": {
+  "source": "Switches between the main elements and the extras (and back with '''Main HUD''').",
+  "translation": "Alterna entre os elementos principais e os extras (e volta com '''HUD principal''').",
+  "outdated": false
+ },
+ "99": {
+  "source": "'''Done''' / {{Key|Esc}}",
+  "translation": "'''Feito''' / {{Key|Esc}}",
+  "outdated": false
+ },
+ "100": {
+  "source": "Saves the layout.",
+  "translation": "Salva o layout.",
+  "outdated": false
+ },
+ "101": {
+  "source": "'''Cancel'''",
+  "translation": "'''Cancelar'''",
+  "outdated": false
+ },
+ "102": {
+  "source": "Restores the layout and style you had when you opened the editor.",
+  "translation": "Restaura o layout e o estilo que você tinha ao abrir o editor.",
+  "outdated": false
+ },
+ "103": {
+  "source": "'''Technique rows''' move as a group: hold {{Key|Shift}} while dragging to move all four rows, right-clicking one row mirrors all of them, resizing a row rescales the group, and Reset on a row resets all four.",
+  "translation": "As '''linhas de técnicas''' se movem em grupo: segure {{Key|Shift}} enquanto arrasta para mover as quatro linhas; clicar com o botão direito em uma linha espelha todas, redimensionar uma linha reescala o grupo e Redefinir em uma linha redefine as quatro.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Positions and sizes are stored relative to your screen height, so a layout covers the same share of the screen at any window size or GUI scale (the Vanilla and Compact blocks keep their pixel size because they sit next to the hotbar).",
+  "translation": "Posições e tamanhos são salvos em relação à altura da sua tela, então um layout ocupa a mesma proporção da tela em qualquer tamanho de janela ou escala de interface (os blocos Vanilla e Compacto mantêm o tamanho em pixels porque ficam ao lado da hotbar).",
+  "outdated": false
+ },
+ "105": {
+  "source": "== Sharing a layout ==",
+  "translation": "== Compartilhar um layout ==",
+  "outdated": false
+ },
+ "106": {
+  "source": "Your style and every placement are saved in their own file on your computer, <code>config/dragonminez/hud_layout.json</code>. To share your layout, send this one file. Drop a received file into your <code>config/dragonminez</code> folder and '''open the HUD Editor''': it re-reads the file when it opens, so no restart is needed. Servers never send this file, so every player keeps their own layout.",
+  "translation": "Seu estilo e cada posicionamento são salvos em um arquivo próprio no seu computador, <code>config/dragonminez/hud_layout.json</code>. Para compartilhar seu layout, envie esse arquivo. Coloque um arquivo recebido na sua pasta <code>config/dragonminez</code> e '''abra o Editor da HUD''': ele relê o arquivo ao abrir, então não é preciso reiniciar. Os servidores nunca enviam esse arquivo, então cada jogador mantém o próprio layout.",
+  "outdated": false
+ },
+ "107": {
+  "source": "<code>style</code>: <code>xenoverse</code>, <code>modern</code>, <code>compact</code> or <code>vanilla</code>.",
+  "translation": "<code>style</code>: <code>xenoverse</code>, <code>modern</code>, <code>compact</code> ou <code>vanilla</code>.",
+  "outdated": false
+ },
+ "108": {
+  "source": "<code>layout.&lt;style&gt;.&lt;element&gt;</code>: <code>main</code>, <code>compact_health</code>, <code>compact_ki</code>, <code>compact_stamina</code>, <code>minecraft_left</code>, <code>minecraft_right</code>, <code>party</code>, <code>reserve</code>, <code>rage</code>, <code>skill_1</code> … <code>skill_4</code>. <code>layout.extras.&lt;element&gt;</code>: <code>notifications</code>, <code>scouter</code>, <code>baba_timer</code>, <code>boss_contribution</code>.",
+  "translation": "<code>layout.&lt;style&gt;.&lt;element&gt;</code>: <code>main</code>, <code>compact_health</code>, <code>compact_ki</code>, <code>compact_stamina</code>, <code>minecraft_left</code>, <code>minecraft_right</code>, <code>party</code>, <code>reserve</code>, <code>rage</code>, <code>skill_1</code> … <code>skill_4</code>. <code>layout.extras.&lt;element&gt;</code>: <code>notifications</code>, <code>scouter</code>, <code>baba_timer</code>, <code>boss_contribution</code>.",
+  "outdated": false
+ },
+ "109": {
+  "source": "Each placement: <code>anchorX</code> and <code>anchorY</code> (0 = left or top, 0.5 = centre, 1 = right or bottom), <code>offsetX</code> and <code>offsetY</code>, <code>scale</code>, <code>visible</code>, <code>hotbar</code> (Vanilla blocks glued to the hotbar) and <code>mirrored</code>. Missing entries use the default placement.",
+  "translation": "Cada posicionamento: <code>anchorX</code> e <code>anchorY</code> (0 = esquerda ou topo, 0.5 = centro, 1 = direita ou base), <code>offsetX</code> e <code>offsetY</code>, <code>scale</code>, <code>visible</code>, <code>hotbar</code> (blocos Vanilla grudados na hotbar) e <code>mirrored</code>. Entradas ausentes usam o posicionamento padrão.",
+  "outdated": false
+ }
+}

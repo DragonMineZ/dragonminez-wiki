@@ -1,0 +1,2812 @@
+{
+ "Page_display_title": {
+  "source": "General Server Config",
+  "translation": "Configuração do servidor",
+  "outdated": false
+ },
+ "1": {
+  "source": "<code>general-server.json</code> controls the server-wide and world-wide behavior of DragonMineZ: progression and Training Points, world generation, the story, racial skills, world bosses, player data storage and more. It matters for dedicated servers, LAN worlds and singleplayer saves alike, whenever you want tighter control over how a world plays.",
+  "translation": "O <code>general-server.json</code> controla o comportamento do DragonMineZ em todo o servidor e em todo o mundo: a progressão e os pontos de treino, a geração de mundo, a história, as habilidades raciais, os chefes de mundo, o armazenamento de dados dos jogadores e mais. Ele importa tanto em servidores dedicados quanto em mundos LAN e saves de um jogador, sempre que você quiser controlar melhor como um mundo funciona.",
+  "outdated": false
+ },
+ "2": {
+  "source": "The file lives at <code>config/dragonminez/general-server.json</code>. The server sends it to every client that joins (and again after <code>/dmzreload config</code>), so clients always use the server's values. This page explains every setting in the file, what each value does, and the ranges DMZ enforces when it reads them.",
+  "translation": "O arquivo fica em <code>config/dragonminez/general-server.json</code>. O servidor o envia a cada cliente que entra (e de novo depois de <code>/dmzreload config</code>), então os clientes sempre usam os valores do servidor. Esta página explica cada ajuste do arquivo, o que cada valor faz e os intervalos que o DMZ impõe ao lê-los.",
+  "outdated": false
+ },
+ "3": {
+  "source": "Combat lives in its own file",
+  "translation": "O combate tem seu próprio arquivo",
+  "outdated": false
+ },
+ "4": {
+  "source": "Stamina, blocking and parrying, damage mitigation, combat flight and ki weapon tuning are not part of this file. They live in <code>config/dragonminez/combat.json</code>, documented on [[Special:MyLanguage/Combat Config|Combat Config]].",
+  "translation": "Estâmina, bloqueio e parry, mitigação de dano, voo de combate e o ajuste das armas de ki não fazem parte deste arquivo. Eles ficam em <code>config/dragonminez/combat.json</code>, documentado em [[Special:MyLanguage/Combat Config|Configuração de combate]].",
+  "outdated": false
+ },
+ "5": {
+  "source": "== Comments in the file ==",
+  "translation": "== Comentários no arquivo ==",
+  "outdated": false
+ },
+ "6": {
+  "source": "The file DMZ generates is plain JSON without comments. DMZ's parser tolerates <code>//</code> comments and ignores keys that start with <code>_</code>, <code>$</code> or <code>//</code>, but every time DMZ rewrites the file (a version upgrade, <code>/dmzconfig</code>, the in-game config editor) those comments and notes are removed. Keep your notes outside the file.",
+  "translation": "O arquivo que o DMZ gera é JSON simples, sem comentários. O parser do DMZ tolera comentários <code>//</code> e ignora chaves que começam com <code>_</code>, <code>$</code> ou <code>//</code>, mas toda vez que o DMZ reescreve o arquivo (uma atualização de versão, <code>/dmzconfig</code>, o editor de configuração no jogo) esses comentários e anotações são removidos. Guarde suas anotações fora do arquivo.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== File overview ==",
+  "translation": "== Visão geral do arquivo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "The file is split into these top-level sections:",
+  "translation": "O arquivo é dividido nestas seções principais:",
+  "outdated": false
+ },
+ "9": {
+  "source": "Section",
+  "translation": "Seção",
+  "outdated": false
+ },
+ "10": {
+  "source": "Purpose",
+  "translation": "Propósito",
+  "outdated": false
+ },
+ "11": {
+  "source": "Version stamp used for config upgrades. Do not hand-edit it.",
+  "translation": "Marca de versão usada para atualizar a configuração. Não a edite à mão.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Structures, Dragon Ball generation, the Otherworld toggle and structure distances.",
+  "translation": "Estruturas, geração das Esferas do Dragão, o interruptor do Outro Mundo e as distâncias das estruturas.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Progression, TP gain and cost, story and side-quest toggles, the Otherworld revive, food recovery, relic items, fusion, parties, difficulty multipliers and capsules.",
+  "translation": "Progressão, ganho e custo de TP, interruptores da história e das missões secundárias, a ressurreição do Outro Mundo, a recuperação com comida, os itens relíquia, a fusão, os grupos, os multiplicadores de dificuldade e as cápsulas.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Enables and tunes each race's racial skill (one sub-object per race).",
+  "translation": "Ativa e ajusta a habilidade racial de cada raça (um subobjeto por raça).",
+  "outdated": false
+ },
+ "15": {
+  "source": "Practice-based stat growth, documented on [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].",
+  "translation": "Crescimento de estatísticas pela prática, documentado em [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]].",
+  "outdated": false
+ },
+ "16": {
+  "source": "Gravity per dimension, gravity training and the Gravity Device, documented on [[Special:MyLanguage/Gravity Config|Gravity Config]].",
+  "translation": "Gravidade por dimensão, treino com gravidade e o Dispositivo de Gravidade, documentados em [[Special:MyLanguage/Gravity Config|Configuração de gravidade]].",
+  "outdated": false
+ },
+ "17": {
+  "source": "The Mutant lottery and its rage meter.",
+  "translation": "A loteria de Mutante e seu medidor de fúria.",
+  "outdated": false
+ },
+ "18": {
+  "source": "The hidden False Super Saiyan form for Saiyans.",
+  "translation": "A forma oculta Falso Super Saiyajin para os Saiyajins.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Ki Transfer between players: rate, bonus, penalty, ranges and timings.",
+  "translation": "Transferência de ki entre jogadores: taxa, bônus, penalidade, alcances e tempos.",
+  "outdated": false
+ },
+ "20": {
+  "source": "The Super Saiyan God Ritual: participants, circle, timings, power, duration and cooldowns.",
+  "translation": "O Ritual do Super Saiyajin Deus: participantes, círculo, tempos, poder, duração e recargas.",
+  "outdated": false
+ },
+ "21": {
+  "source": "World boss contribution, knockouts, revives and rewards.",
+  "translation": "Contribuição, nocautes, ressurreições e recompensas dos chefes de mundo.",
+  "outdated": false
+ },
+ "22": {
+  "source": "What Dr. Kikono's Station copies from the template item.",
+  "translation": "O que a Estação do Dr. Kikono copia do item modelo.",
+  "outdated": false
+ },
+ "23": {
+  "source": "The player data storage backend (NBT, JSON or database).",
+  "translation": "O backend de armazenamento de dados dos jogadores (NBT, JSON ou banco de dados).",
+  "outdated": false
+ },
+ "24": {
+  "source": "The in-chat JSON problem report.",
+  "translation": "O relatório de problemas de JSON no chat.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Limits for the hair editor.",
+  "translation": "Limites do editor de cabelo.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Config version ==",
+  "translation": "== Versão da configuração ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "28": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "29": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "30": {
+  "source": "A semantic version string, for example <code>\"2.2.0\"</code>",
+  "translation": "Um texto de versão semântica, por exemplo <code>\"2.2.0\"</code>",
+  "outdated": false
+ },
+ "31": {
+  "source": "Do not change it. DMZ compares it with the mod's config version to decide whether the file must be upgraded.",
+  "translation": "Não altere. O DMZ o compara com a versão de configuração do mod para decidir se o arquivo precisa ser atualizado.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== World generation ==",
+  "translation": "== Geração de mundo ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "The <code>worldGen</code> block controls DMZ structures, Dragon Balls and the Otherworld.",
+  "translation": "O bloco <code>worldGen</code> controla as estruturas do DMZ, as Esferas do Dragão e o Outro Mundo.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "35": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "36": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "37": {
+  "source": "Enables DMZ structures in world generation.",
+  "translation": "Ativa as estruturas do DMZ na geração de mundo.",
+  "outdated": false
+ },
+ "38": {
+  "source": "Enables Dragon Ball generation and re-scattering after a wish.",
+  "translation": "Ativa a geração das Esferas do Dragão e a redistribuição delas depois de um desejo.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Keeps the Otherworld gameplay systems active. If <code>false</code>, the Otherworld isn't used and vanilla respawn applies instead.",
+  "translation": "Mantém ativos os sistemas de jogo do Outro Mundo. Se for <code>false</code>, o Outro Mundo não é usado e vale o renascimento vanilla.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Spawn radius of the built-in Earth and Namek Dragon Balls around world spawn. Clamped to <code>100</code>–<code>6000</code>.",
+  "translation": "Raio de surgimento das Esferas do Dragão embutidas da Terra e de Namekusei em volta do spawn do mundo. Limitado a <code>100</code>–<code>6000</code>.",
+  "outdated": false
+ },
+ "41": {
+  "source": "How many copies of each built-in Earth and Namek Dragon Ball are scattered (<code>1</code>–<code>10</code>; <code>0</code> counts as <code>1</code>).",
+  "translation": "Quantas cópias de cada Esfera do Dragão embutida da Terra e de Namekusei são espalhadas (<code>1</code>–<code>10</code>; <code>0</code> conta como <code>1</code>).",
+  "outdated": false
+ },
+ "42": {
+  "source": "Minimum distance DMZ structures spawn from the world origin (always at least 16 blocks below the maximum).",
+  "translation": "Distância mínima da origem do mundo em que as estruturas do DMZ surgem (sempre pelo menos 16 blocos abaixo do máximo).",
+  "outdated": false
+ },
+ "43": {
+  "source": "Maximum distance DMZ structures spawn from the world origin (enforced minimum of <code>3000</code>).",
+  "translation": "Distância máxima da origem do mundo em que as estruturas do DMZ surgem (com mínimo obrigatório de <code>3000</code>).",
+  "outdated": false
+ },
+ "44": {
+  "source": "Minimum distance kept between individual DMZ structures.",
+  "translation": "Distância mínima entre as estruturas do DMZ.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Spacing in blocks (minimum <code>256</code>) for structure sets that use the <code>dragonminez:wide_random_spread</code> placement type. None of DMZ's built-in structures use it; it is there for datapacks.",
+  "translation": "Espaçamento em blocos (mínimo <code>256</code>) para os conjuntos de estruturas que usam o tipo de posicionamento <code>dragonminez:wide_random_spread</code>. Nenhuma das estruturas embutidas do DMZ o usa; ele existe para datapacks.",
+  "outdated": false
+ },
+ "46": {
+  "source": "Minimum separation in blocks for the same placement type (always below the spacing).",
+  "translation": "Separação mínima em blocos para o mesmo tipo de posicionamento (sempre menor que o espaçamento).",
+  "outdated": false
+ },
+ "47": {
+  "source": "== Gameplay ==",
+  "translation": "== Jogabilidade ==",
+  "outdated": false
+ },
+ "48": {
+  "source": "The <code>gameplay</code> block is the largest section of the file: progression, TP, the story, the Otherworld, food, relics, fusion, parties and difficulty tuning.",
+  "translation": "O bloco <code>gameplay</code> é a maior seção do arquivo: progressão, TP, a história, o Outro Mundo, a comida, as relíquias, a fusão, os grupos e o ajuste de dificuldade.",
+  "outdated": false
+ },
+ "49": {
+  "source": "=== Core progression ===",
+  "translation": "=== Progressão básica ===",
+  "outdated": false
+ },
+ "50": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "51": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "52": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "53": {
+  "source": "Forces new players through character creation on their first login.",
+  "translation": "Obriga os jogadores novos a passar pela criação de personagem na primeira vez que entram.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Also logs DMZ command output to the server console.",
+  "translation": "Também registra a saída dos comandos do DMZ no console do servidor.",
+  "outdated": false
+ },
+ "55": {
+  "source": "<code>true</code>: <code>maxValue</code> is the '''level''' cap, and stat points can be spread freely as long as the total stays under <code>maxValue × 6</code>. <code>false</code>: each individual stat is also capped at <code>maxValue</code>.",
+  "translation": "<code>true</code>: <code>maxValue</code> é o limite de '''nível''', e os pontos de estatística podem ser distribuídos livremente desde que o total fique abaixo de <code>maxValue × 6</code>. <code>false</code>: cada estatística individual também fica limitada a <code>maxValue</code>.",
+  "outdated": false
+ },
+ "56": {
+  "source": "The cap read together with <code>maxLevelValueInsteadOfStats</code> (minimum <code>1000</code>). The total of all six stats can never exceed <code>maxValue × 6</code>, and the player level runs from 1 to <code>maxValue</code> across that range.",
+  "translation": "O limite lido junto com <code>maxLevelValueInsteadOfStats</code> (mínimo <code>1000</code>). O total das seis estatísticas nunca pode passar de <code>maxValue × 6</code>, e o nível do jogador vai de 1 a <code>maxValue</code> ao longo desse intervalo.",
+  "outdated": false
+ },
+ "57": {
+  "source": "VIT value at which health per VIT point reaches the class <code>VIT_scaling_max</code>. Below it, the per-point scaling rises quadratically from the class minimum; above it, it stays at the maximum.",
+  "translation": "Valor de VIT em que a vida por ponto de VIT atinge o <code>VIT_scaling_max</code> da classe. Abaixo dele, o escalonamento por ponto sobe de forma quadrática a partir do mínimo da classe; acima, fica no máximo.",
+  "outdated": false
+ },
+ "58": {
+  "source": "The same curve for DEF (<code>DEF_scaling_max</code>), used for flat damage mitigation.",
+  "translation": "A mesma curva para DEF (<code>DEF_scaling_max</code>), usada na mitigação de dano fixa.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Enforces the minimum player level a form can require.",
+  "translation": "Aplica o nível mínimo de jogador que uma forma pode exigir.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Enforces the saga quest a form can require before it unlocks. Ignored when <code>storyModeEnabled</code> is <code>false</code>.",
+  "translation": "Aplica a missão de saga que uma forma pode exigir antes de ser desbloqueada. É ignorado quando <code>storyModeEnabled</code> é <code>false</code>.",
+  "outdated": false
+ },
+ "61": {
+  "source": "<code>false</code>: form, stack form and effect multipliers stack additively (easier to balance). <code>true</code>: they multiply each other (weaker at low values, synergy-heavy at high progression).",
+  "translation": "<code>false</code>: os multiplicadores de formas, formas acumuláveis e efeitos se somam (mais fácil de balancear). <code>true</code>: eles se multiplicam entre si (mais fracos com valores baixos e com muita sinergia na progressão avançada).",
+  "outdated": false
+ },
+ "62": {
+  "source": "<code>false</code>: the Ultimate stack form adds its bonus on top of the best base form the player owns. <code>true</code>: Ultimate only uses the multiplier written in its own form file.",
+  "translation": "<code>false</code>: a forma acumulável Ultimate soma seu bônus à melhor forma base que o jogador tiver. <code>true</code>: Ultimate só usa o multiplicador escrito no próprio arquivo de forma.",
+  "outdated": false
+ },
+ "63": {
+  "source": "=== TP gain ===",
+  "translation": "=== Ganho de TP ===",
+  "outdated": false
+ },
+ "64": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "65": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "66": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "67": {
+  "source": "Global TP multiplier (the <code>GLOBAL</code> boost below).",
+  "translation": "Multiplicador global de TP (o bônus <code>GLOBAL</code> abaixo).",
+  "outdated": false
+ },
+ "68": {
+  "source": "Extra TP gain that grows as stat costs rise: <code>1 + value × √(current stat cost / stat cost at progressionReferenceLevel)</code>, capped at <code>1 + value</code>. <code>0</code> disables it. Applies to every TP source except training minigames (<code>TRAINING</code>). Not applied when manual TP purchases are disabled in [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].",
+  "translation": "Ganho extra de TP que cresce conforme os custos das estatísticas sobem: <code>1 + value × √(current stat cost / stat cost at progressionReferenceLevel)</code>, limitado a <code>1 + value</code>. <code>0</code> o desativa. Vale para todas as fontes de TP, exceto os minijogos de treinamento (<code>TRAINING</code>). Não é aplicado quando a compra manual com TP está desativada em [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]].",
+  "outdated": false
+ },
+ "69": {
+  "source": "Player level whose stat cost gives the full <code>increaseTPGainRelativeToTPCost</code> bonus (minimum <code>2</code>, never above <code>maxValue</code>).",
+  "translation": "Nível de jogador cujo custo de estatística dá o bônus completo de <code>increaseTPGainRelativeToTPCost</code> (mínimo <code>2</code>, nunca acima de <code>maxValue</code>).",
+  "outdated": false
+ },
+ "70": {
+  "source": "Share of an '''Attributes''' reward (quests, Power Boost wishes, world bosses) given as Attribute Points, rounded down; the rest is given as the TP those stat points cost the player at that moment. Clamped to <code>0</code>–<code>1</code>.",
+  "translation": "Parte de uma recompensa de '''Atributos''' (missões, desejos de Aumento de Poder, chefes de mundo) dada como Pontos de Atributo, arredondada para baixo; o resto é dado como os TP que esses pontos de estatística custam ao jogador naquele momento. Limitado a <code>0</code>–<code>1</code>.",
+  "outdated": false
+ },
+ "71": {
+  "source": "TP earned from a kill, scaled by the target's max health.",
+  "translation": "TP ganhos por um abate, escalados pela vida máxima do alvo.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Flat TP per successful hit.",
+  "translation": "TP fixos por golpe acertado.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Flat TP gained passively over time.",
+  "translation": "TP fixos ganhos passivamente com o tempo.",
+  "outdated": false
+ },
+ "74": {
+  "source": "TP gained per 20 blocks traveled.",
+  "translation": "TP ganhos a cada 20 blocos percorridos.",
+  "outdated": false
+ },
+ "75": {
+  "source": "TP gained per block mined.",
+  "translation": "TP ganhos por bloco minerado.",
+  "outdated": false
+ },
+ "76": {
+  "source": "TP gained per item crafted.",
+  "translation": "TP ganhos por item fabricado.",
+  "outdated": false
+ },
+ "77": {
+  "source": "Enables the gravity TP bonus (see [[Special:MyLanguage/Gravity Config|Gravity Config]]).",
+  "translation": "Ativa o bônus de TP pela gravidade (veja [[Special:MyLanguage/Gravity Config|Configuração de gravidade]]).",
+  "outdated": false
+ },
+ "78": {
+  "source": "TP multiplier inside the Hyperbolic Time Chamber (minimum <code>1.0</code>).",
+  "translation": "Multiplicador de TP dentro da Sala do Tempo (mínimo <code>1.0</code>).",
+  "outdated": false
+ },
+ "79": {
+  "source": "TP multiplier for dead players inside the Otherworld (minimum <code>1.0</code>).",
+  "translation": "Multiplicador de TP para jogadores mortos dentro do Outro Mundo (mínimo <code>1.0</code>).",
+  "outdated": false
+ },
+ "80": {
+  "source": "Story quest TP rewards after a story reset wish: run 1 gives 100%, run 2 gives 50%, run 3 gives 25%, and so on. Clamped to <code>0</code>–<code>1</code>; <code>1.0</code> disables the decay.",
+  "translation": "Recompensas de TP das missões de história depois de um desejo de Redefinir Progresso da História: a 1ª passada dá 100%, a 2ª dá 50%, a 3ª dá 25%, e assim por diante. Limitado a <code>0</code>–<code>1</code>; <code>1.0</code> desativa a redução.",
+  "outdated": false
+ },
+ "81": {
+  "source": "TP multiplier while under Kami's Blessing (minimum <code>1.0</code>). Counts as a <code>POTION</code> boost.",
+  "translation": "Multiplicador de TP sob a Bênção de Kami (mínimo <code>1.0</code>). Conta como um bônus <code>POTION</code>.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Duration of Kami's Blessing, which Dende gives to players with good alignment.",
+  "translation": "Duração da Bênção de Kami, que o Dende concede aos jogadores com boa índole.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Cooldown before Dende can bless the same player again.",
+  "translation": "Recarga até o Dende poder abençoar o mesmo jogador de novo.",
+  "outdated": false
+ },
+ "84": {
+  "source": "=== TP cost formula ===",
+  "translation": "=== Fórmula do custo em TP ===",
+  "outdated": false
+ },
+ "85": {
+  "source": "The TP cost of the next stat point is calculated like this:",
+  "translation": "O custo em TP do próximo ponto de estatística é calculado assim:",
+  "outdated": false
+ },
+ "86": {
+  "source": "If <code>dynamicGrowth.attributeTpCostMultiplier</code> is above <code>1.0</code>, the final cost is multiplied by it (rounded up). When <code>dynamicGrowth.manualTpPurchasesEnabled</code> is <code>false</code>, stats can't be bought with TP at all. Stat points earned through [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] are left out of <code>TotalStats</code> unless <code>dynamicGrowth.growthStatsCountForTpCost</code> is <code>true</code>.",
+  "translation": "Se <code>dynamicGrowth.attributeTpCostMultiplier</code> for maior que <code>1.0</code>, o custo final é multiplicado por ele (arredondado para cima). Quando <code>dynamicGrowth.manualTpPurchasesEnabled</code> é <code>false</code>, as estatísticas não podem ser compradas com TP de jeito nenhum. Os pontos de estatística ganhos com o [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]] ficam fora de <code>TotalStats</code>, a menos que <code>dynamicGrowth.growthStatsCountForTpCost</code> seja <code>true</code>.",
+  "outdated": false
+ },
+ "87": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "88": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "89": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "90": {
+  "source": "Global multiplier on stat TP costs (minimum <code>0.01</code>).",
+  "translation": "Multiplicador global dos custos em TP das estatísticas (mínimo <code>0.01</code>).",
+  "outdated": false
+ },
+ "91": {
+  "source": "Base and minimum TP cost of one stat point.",
+  "translation": "Custo em TP base e mínimo de um ponto de estatística.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Early-game TP discount threshold; the discount fades out as total stats rise.",
+  "translation": "Limiar do desconto de TP no início do jogo; o desconto some conforme as estatísticas totais sobem.",
+  "outdated": false
+ },
+ "93": {
+  "source": "=== TP gain boosts ===",
+  "translation": "=== Bônus de ganho de TP ===",
+  "outdated": false
+ },
+ "94": {
+  "source": "<code>tpGainBoosts</code> controls which multiplier ''sources'' apply to each TP-gain ''source''. Its keys are TP sources (<code>STORY</code>, <code>PASSIVE</code>, <code>TRAVEL</code>, <code>MINED</code>, <code>CRAFTED</code>, <code>KILL</code>, <code>HIT</code>, <code>TRAINING</code>); its values are lists of boosts. DMZ writes them in upper case; lower-case names are accepted too.",
+  "translation": "<code>tpGainBoosts</code> controla quais ''fontes'' de multiplicador se aplicam a cada ''fonte'' de ganho de TP. As chaves são fontes de TP (<code>STORY</code>, <code>PASSIVE</code>, <code>TRAVEL</code>, <code>MINED</code>, <code>CRAFTED</code>, <code>KILL</code>, <code>HIT</code>, <code>TRAINING</code>); os valores são listas de bônus. O DMZ os grava em maiúsculas; nomes em minúsculas também são aceitos.",
+  "outdated": false
+ },
+ "95": {
+  "source": "Boost",
+  "translation": "Bônus",
+  "outdated": false
+ },
+ "96": {
+  "source": "Multiplier it applies",
+  "translation": "Multiplicador que aplica",
+  "outdated": false
+ },
+ "97": {
+  "source": "The player class TP multiplier.",
+  "translation": "O multiplicador de TP da classe do jogador.",
+  "outdated": false
+ },
+ "98": {
+  "source": "The Frost Demon racial TP boost (<code>racialSkills.frostdemon.tpBoost</code>).",
+  "translation": "O bônus racial de TP do Clã Freeza (<code>racialSkills.frostdemon.tpBoost</code>).",
+  "outdated": false
+ },
+ "99": {
+  "source": "<code>HTCTpMultiplier</code> inside the Hyperbolic Time Chamber.",
+  "translation": "<code>HTCTpMultiplier</code> dentro da Sala do Tempo.",
+  "outdated": false
+ },
+ "100": {
+  "source": "<code>otherworldDeadTpMultiplier</code> for dead players in the Otherworld.",
+  "translation": "<code>otherworldDeadTpMultiplier</code> para jogadores mortos no Outro Mundo.",
+  "outdated": false
+ },
+ "101": {
+  "source": "The gravity training bonus (only if <code>gravityBonusEnabled</code>).",
+  "translation": "O bônus do treino com gravidade (só se <code>gravityBonusEnabled</code>).",
+  "outdated": false
+ },
+ "102": {
+  "source": "The weighted equipment bonus.",
+  "translation": "O bônus do equipamento com pesos.",
+  "outdated": false
+ },
+ "103": {
+  "source": "<code>tpGainMultiplier</code>.",
+  "translation": "<code>tpGainMultiplier</code>.",
+  "outdated": false
+ },
+ "104": {
+  "source": "TP effects, including Kami's Blessing.",
+  "translation": "Efeitos de TP, incluindo a Bênção de Kami.",
+  "outdated": false
+ },
+ "105": {
+  "source": "<code>mutant.tpGainMultiplier</code> for Mutant players.",
+  "translation": "<code>mutant.tpGainMultiplier</code> para jogadores Mutantes.",
+  "outdated": false
+ },
+ "106": {
+  "source": "The Easy or Hard TP multiplier of the player's story difficulty.",
+  "translation": "O multiplicador de TP Fácil ou Difícil da dificuldade de história do jogador.",
+  "outdated": false
+ },
+ "107": {
+  "source": "The generated default gives every source every boost except <code>DIFFICULTY</code>, which only applies to <code>STORY</code> (quest rewards):",
+  "translation": "O padrão gerado dá a cada fonte todos os bônus, exceto <code>DIFFICULTY</code>, que só se aplica a <code>STORY</code> (recompensas de missões):",
+  "outdated": false
+ },
+ "108": {
+  "source": "Boosts stack additively: <code>1 + Σ(boost − 1)</code>, plus the <code>increaseTPGainRelativeToTPCost</code> bonus, which applies to every source except <code>TRAINING</code>. Each TP gain is boosted once.",
+  "translation": "Os bônus se somam: <code>1 + Σ(boost − 1)</code>, mais o bônus de <code>increaseTPGainRelativeToTPCost</code>, que vale para todas as fontes, exceto <code>TRAINING</code>. Cada ganho de TP recebe os bônus uma única vez.",
+  "outdated": false
+ },
+ "109": {
+  "source": "<code>STORY</code> covers TP that doesn't come from one of the other sources: <code>TPS</code> quest rewards, raid and tournament rewards, TP wishes and similar lump sums. The TP half of an <code>ATTRIBUTES</code> reward or wish is computed from the player's stat cost and is never boosted.",
+  "translation": "<code>STORY</code> cobre os TP que não vêm de nenhuma das outras fontes: recompensas de missões <code>TPS</code>, recompensas de incursões e torneios, desejos de TP e quantias fixas parecidas. A metade em TP de uma recompensa ou desejo de <code>ATTRIBUTES</code> é calculada a partir do custo de estatística do jogador e nunca recebe bônus.",
+  "outdated": false
+ },
+ "110": {
+  "source": "Remove a boost from a source's list to stop that multiplier from applying to it (for example, remove <code>GRAVITY</code> from <code>MINED</code> if you don't want mining TP boosted by gravity training). A source that is present with an empty list (<code>\"MINED\": []</code>) gets no boosts at all; a source missing from the map uses its default list.",
+  "translation": "Remova um bônus da lista de uma fonte para que esse multiplicador deixe de valer para ela (por exemplo, remova <code>GRAVITY</code> de <code>MINED</code> se você não quiser que o treino com gravidade aumente os TP de mineração). Uma fonte presente com lista vazia (<code>\"MINED\": []</code>) não recebe nenhum bônus; uma fonte ausente do mapa usa sua lista padrão.",
+  "outdated": false
+ },
+ "111": {
+  "source": "=== Story and side quests ===",
+  "translation": "=== História e missões secundárias ===",
+  "outdated": false
+ },
+ "112": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "113": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "114": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "115": {
+  "source": "Master toggle for sagas.",
+  "translation": "Interruptor geral das sagas.",
+  "outdated": false
+ },
+ "116": {
+  "source": "Generates DMZ's default sagas and saga quests in the world save if they're missing (needs <code>storyModeEnabled</code>).",
+  "translation": "Gera as sagas e missões de saga padrão do DMZ no save do mundo se estiverem faltando (exige <code>storyModeEnabled</code>).",
+  "outdated": false
+ },
+ "117": {
+  "source": "Master toggle for side quests.",
+  "translation": "Interruptor geral das missões secundárias.",
+  "outdated": false
+ },
+ "118": {
+  "source": "Generates DMZ's default side quests if they're missing.",
+  "translation": "Gera as missões secundárias padrão do DMZ se estiverem faltando.",
+  "outdated": false
+ },
+ "119": {
+  "source": "Upgrades DMZ's default quest, saga and side-quest files in the world save when a new DMZ version changes them, keeping your edits. <code>false</code>: default files are only written when they are missing.",
+  "translation": "Atualiza os arquivos padrão de missões, sagas e missões secundárias do DMZ no save do mundo quando uma nova versão do DMZ os altera, mantendo suas edições. <code>false</code>: os arquivos padrão só são gravados quando estão faltando.",
+  "outdated": false
+ },
+ "120": {
+  "source": "Party-size difficulty multiplier for quest objectives (clamped to <code>1.0</code>–<code>5.0</code>).",
+  "translation": "Multiplicador de dificuldade por tamanho do grupo para os objetivos das missões (limitado a <code>1.0</code>–<code>5.0</code>).",
+  "outdated": false
+ },
+ "121": {
+  "source": "=== Otherworld and Baba's revive ===",
+  "translation": "=== O Outro Mundo e a ressurreição da Vovó Uranai ===",
+  "outdated": false
+ },
+ "122": {
+  "source": "With the Otherworld active, a dead player is sent to the Otherworld. [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can send them back to the living world for a limited time (a temporary revive); [[Special:MyLanguage/King Yemma|King Yemma]] teleports them back when they are alive or temporarily revived.",
+  "translation": "Com o Outro Mundo ativo, um jogador morto é enviado ao Outro Mundo. A [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] pode mandá-lo de volta ao mundo dos vivos por tempo limitado (uma ressurreição temporária); o [[Special:MyLanguage/King Yemma|Rei Yemma]] o teleporta de volta quando ele está vivo ou ressuscitado temporariamente.",
+  "outdated": false
+ },
+ "123": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "124": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "125": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "126": {
+  "source": "Time after death before Baba can revive the player.",
+  "translation": "Tempo após a morte até a Vovó Uranai poder ressuscitar o jogador.",
+  "outdated": false
+ },
+ "127": {
+  "source": "<code>true</code>: Baba grants a timed return; the player keeps the halo and walks the living world until the timer runs out. <code>false</code>: Baba fully revives the player.",
+  "translation": "<code>true</code>: a Vovó Uranai concede um retorno com tempo limitado; o jogador mantém a auréola e anda pelo mundo dos vivos até o cronômetro acabar. <code>false</code>: a Vovó Uranai ressuscita o jogador por completo.",
+  "outdated": false
+ },
+ "128": {
+  "source": "Length of a temporary return (minimum <code>1</code>). The timer pauses in the Otherworld and while knocked out, and each new temporary return drains faster (up to 5×). Lethal hits during a temporary return knock the player out and cut the timer instead of killing them.",
+  "translation": "Duração de um retorno temporário (mínimo <code>1</code>). O cronômetro pausa no Outro Mundo e enquanto você está nocauteado, e cada novo retorno temporário se esgota mais rápido (até 5×). Golpes letais durante um retorno temporário nocauteiam o jogador e cortam o cronômetro em vez de matá-lo.",
+  "outdated": false
+ },
+ "129": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "130": {
+  "source": "A map of dimension id to number: how fast the temporary-return timer drains in each dimension. Active forms also drain it faster.",
+  "translation": "Um mapa de id de dimensão para número: a velocidade com que o cronômetro do retorno temporário se esgota em cada dimensão. Formas ativas também o esgotam mais rápido.",
+  "outdated": false
+ },
+ "131": {
+  "source": "Drain speed for dimensions not listed in <code>babaTimeMultiplierPerWorld</code>.",
+  "translation": "Velocidade de esgotamento para dimensões que não estão em <code>babaTimeMultiplierPerWorld</code>.",
+  "outdated": false
+ },
+ "132": {
+  "source": "If <code>true</code>, each death makes the next revive cooldown longer.",
+  "translation": "Se for <code>true</code>, cada morte deixa a próxima recarga de ressurreição mais longa.",
+  "outdated": false
+ },
+ "133": {
+  "source": "With hardcore on, the cooldown is <code>reviveCooldownSeconds × (1 + growth × (deaths − 1))</code>.",
+  "translation": "Com o modo hardcore ativado, a recarga é <code>reviveCooldownSeconds × (1 + growth × (deaths − 1))</code>.",
+  "outdated": false
+ },
+ "134": {
+  "source": "Default <code>babaTimeMultiplierPerWorld</code>:",
+  "translation": "<code>babaTimeMultiplierPerWorld</code> padrão:",
+  "outdated": false
+ },
+ "135": {
+  "source": "=== Senzu Beans ===",
+  "translation": "=== Sementes dos Deuses ===",
+  "outdated": false
+ },
+ "136": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "137": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "138": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "139": {
+  "source": "Cooldown between Senzu Bean uses (also used by the Medi-Bug ant).",
+  "translation": "Recarga entre usos da Semente dos Deuses (também usada pela formiga Medi-Bug).",
+  "outdated": false
+ },
+ "140": {
+  "source": "Cooldown for the periodic Senzu \"gift\".",
+  "translation": "Recarga do \"presente\" periódico de Sementes dos Deuses.",
+  "outdated": false
+ },
+ "141": {
+  "source": "How many Senzu Beans are gifted per cycle.",
+  "translation": "Quantas Sementes dos Deuses são dadas por ciclo.",
+  "outdated": false
+ },
+ "142": {
+  "source": "=== Food restoration ===",
+  "translation": "=== Recuperação com comida ===",
+  "outdated": false
+ },
+ "143": {
+  "source": "With the <code>food</code> block, any food item's normal hunger and saturation restoration also restores a proportional slice of health, ki and stamina. Default value:",
+  "translation": "Com o bloco <code>food</code>, a recuperação normal de fome e saturação de qualquer comida também restaura uma parte proporcional de vida, ki e estâmina. Valor padrão:",
+  "outdated": false
+ },
+ "144": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "145": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "146": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "147": {
+  "source": "Food that restores fewer hunger points than the minimum gives no hunger-based recovery; anything above the maximum counts as the maximum.",
+  "translation": "Comida que restaura menos pontos de fome que o mínimo não dá recuperação baseada na fome; qualquer valor acima do máximo conta como o máximo.",
+  "outdated": false
+ },
+ "148": {
+  "source": "The same rule for the food's saturation modifier.",
+  "translation": "A mesma regra para o modificador de saturação da comida.",
+  "outdated": false
+ },
+ "149": {
+  "source": "Fraction of max health restored per hunger point.",
+  "translation": "Fração da vida máxima restaurada por ponto de fome.",
+  "outdated": false
+ },
+ "150": {
+  "source": "Fraction of max ki restored per hunger point.",
+  "translation": "Fração do ki máximo restaurada por ponto de fome.",
+  "outdated": false
+ },
+ "151": {
+  "source": "Fraction of max stamina restored per hunger point.",
+  "translation": "Fração da estâmina máxima restaurada por ponto de fome.",
+  "outdated": false
+ },
+ "152": {
+  "source": "Fraction of max health restored per saturation point.",
+  "translation": "Fração da vida máxima restaurada por ponto de saturação.",
+  "outdated": false
+ },
+ "153": {
+  "source": "Fraction of max ki restored per saturation point.",
+  "translation": "Fração do ki máximo restaurada por ponto de saturação.",
+  "outdated": false
+ },
+ "154": {
+  "source": "Fraction of max stamina restored per saturation point.",
+  "translation": "Fração da estâmina máxima restaurada por ponto de saturação.",
+  "outdated": false
+ },
+ "155": {
+  "source": "List of mod namespaces (for example <code>\"farmersdelight\"</code>) whose food is excluded from this recovery.",
+  "translation": "Lista de namespaces de mods (por exemplo <code>\"farmersdelight\"</code>) cuja comida fica excluída dessa recuperação.",
+  "outdated": false
+ },
+ "156": {
+  "source": "List of specific item ids (for example <code>\"minecraft:golden_apple\"</code>) excluded from this recovery.",
+  "translation": "Lista de ids de itens específicos (por exemplo <code>\"minecraft:golden_apple\"</code>) excluídos dessa recuperação.",
+  "outdated": false
+ },
+ "157": {
+  "source": "=== Relic items ===",
+  "translation": "=== Itens relíquia ===",
+  "outdated": false
+ },
+ "158": {
+  "source": "These keys tune the Might Fruit, the Majin power effect, [[Special:MyLanguage/Sacred Water|Sacred Water]] and the [[Special:MyLanguage/Demon Eye|Demon Eye]].",
+  "translation": "Estas chaves ajustam a Fruta do Poder, o efeito de poder Majin, a [[Special:MyLanguage/Sacred Water|Água Sagrada]] e o [[Special:MyLanguage/Demon Eye|Olho Demoníaco]].",
+  "outdated": false
+ },
+ "159": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "160": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "161": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "162": {
+  "source": "Might Fruit effect multiplier.",
+  "translation": "Multiplicador do efeito da Fruta do Poder.",
+  "outdated": false
+ },
+ "163": {
+  "source": "Majin power-effect multiplier.",
+  "translation": "Multiplicador do efeito de poder Majin.",
+  "outdated": false
+ },
+ "164": {
+  "source": "Permanent all-stats multiplier from drinking Sacred Water (once per character). Clamped to <code>1.0</code>–<code>100.0</code>.",
+  "translation": "Multiplicador permanente de todas as estatísticas por beber a Água Sagrada (uma vez por personagem). Limitado a <code>1.0</code>–<code>100.0</code>.",
+  "outdated": false
+ },
+ "165": {
+  "source": "All-stats multiplier while wearing the Demon Eye. Clamped to <code>1.0</code>–<code>100.0</code>.",
+  "translation": "Multiplicador de todas as estatísticas enquanto você usa o Olho Demoníaco. Limitado a <code>1.0</code>–<code>100.0</code>.",
+  "outdated": false
+ },
+ "166": {
+  "source": "Fraction of max ki drained per second while the Demon Eye is worn.",
+  "translation": "Fração do ki máximo consumida por segundo enquanto o Olho Demoníaco é usado.",
+  "outdated": false
+ },
+ "167": {
+  "source": "Fraction of max health drained per second once ki runs out (never below 1 health).",
+  "translation": "Fração da vida máxima consumida por segundo quando o ki acaba (nunca abaixo de 1 de vida).",
+  "outdated": false
+ },
+ "168": {
+  "source": "Every this many seconds the wearer loses 1 alignment. <code>0</code> disables it.",
+  "translation": "A cada esta quantidade de segundos, o portador perde 1 de índole. <code>0</code> desativa isso.",
+  "outdated": false
+ },
+ "169": {
+  "source": "How much the wearer grows in size (<code>0.5</code> means up to 50% bigger).",
+  "translation": "Quanto o portador cresce de tamanho (<code>0.5</code> significa até 50% maior).",
+  "outdated": false
+ },
+ "170": {
+  "source": "Time to reach the full size while wearing it.",
+  "translation": "Tempo para atingir o tamanho completo enquanto ele é usado.",
+  "outdated": false
+ },
+ "171": {
+  "source": "Melee hits from behind that knock the Demon Eye off. <code>0</code> disables it.",
+  "translation": "Golpes corpo a corpo pelas costas que derrubam o Olho Demoníaco. <code>0</code> desativa isso.",
+  "outdated": false
+ },
+ "172": {
+  "source": "Time window in which those hits must land.",
+  "translation": "Janela de tempo em que esses golpes precisam acertar.",
+  "outdated": false
+ },
+ "173": {
+  "source": "=== Fusion ===",
+  "translation": "=== Fusão ===",
+  "outdated": false
+ },
+ "174": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "175": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "176": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "177": {
+  "source": "Stat threshold used by Metamoru fusion eligibility.",
+  "translation": "Limiar de estatísticas usado nos requisitos da fusão Metamor.",
+  "outdated": false
+ },
+ "178": {
+  "source": "List of the stats boosted by fusion.",
+  "translation": "Lista das estatísticas potencializadas pela fusão.",
+  "outdated": false
+ },
+ "179": {
+  "source": "Fusion duration.",
+  "translation": "Duração da fusão.",
+  "outdated": false
+ },
+ "180": {
+  "source": "Cooldown before fusing again.",
+  "translation": "Recarga até poder se fundir de novo.",
+  "outdated": false
+ },
+ "181": {
+  "source": "=== Capsules ===",
+  "translation": "=== Cápsulas ===",
+  "outdated": false
+ },
+ "182": {
+  "source": "Stat capsule items grant stat points to the stat or stats configured in the <code>capsules</code> block:",
+  "translation": "Os itens de cápsula de estatística concedem pontos de estatística à estatística ou às estatísticas configuradas no bloco <code>capsules</code>:",
+  "outdated": false
+ },
+ "183": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "184": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "185": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "186": {
+  "source": "Separator used when a capsule lists several stats.",
+  "translation": "Separador usado quando uma cápsula lista várias estatísticas.",
+  "outdated": false
+ },
+ "187": {
+  "source": "One entry per capsule type",
+  "translation": "Uma entrada por tipo de cápsula",
+  "outdated": false
+ },
+ "188": {
+  "source": "A map of capsule type to <code>{ stats, points }</code>: which stat or stats each capsule type boosts, and how many points it grants (default <code>5</code>).",
+  "translation": "Um mapa de tipo de cápsula para <code>{ stats, points }</code>: qual estatística ou estatísticas cada tipo de cápsula potencializa e quantos pontos concede (padrão <code>5</code>).",
+  "outdated": false
+ },
+ "189": {
+  "source": "=== Party ===",
+  "translation": "=== Grupo ===",
+  "outdated": false
+ },
+ "190": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "191": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "192": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "193": {
+  "source": "Maximum party size (<code>-1</code> means unlimited).",
+  "translation": "Tamanho máximo do grupo (<code>-1</code> significa ilimitado).",
+  "outdated": false
+ },
+ "194": {
+  "source": "Maximum level difference allowed between party members (<code>-1</code> means unlimited).",
+  "translation": "Diferença máxima de nível permitida entre os membros do grupo (<code>-1</code> significa ilimitada).",
+  "outdated": false
+ },
+ "195": {
+  "source": "Fraction of TP shared with party members (clamped to <code>0</code>–<code>10</code>). Members only receive it in the same dimension and within the earner's Instant Transmission range.",
+  "translation": "Fração de TP compartilhada com os membros do grupo (limitada a <code>0</code>–<code>10</code>). Os membros só a recebem na mesma dimensão e dentro do alcance de Transmissão instantânea de quem os ganhou.",
+  "outdated": false
+ },
+ "196": {
+  "source": "Enemy health multiplier per additional party member.",
+  "translation": "Multiplicador de vida dos inimigos por membro adicional do grupo.",
+  "outdated": false
+ },
+ "197": {
+  "source": "Enemy damage multiplier per additional party member.",
+  "translation": "Multiplicador de dano dos inimigos por membro adicional do grupo.",
+  "outdated": false
+ },
+ "198": {
+  "source": "Maximum distance (in blocks, same dimension) at which party members' on-screen markers are shown.",
+  "translation": "Distância máxima (em blocos, na mesma dimensão) em que os marcadores na tela dos membros do grupo aparecem.",
+  "outdated": false
+ },
+ "199": {
+  "source": "=== Teleportation ===",
+  "translation": "=== Teleporte ===",
+  "outdated": false
+ },
+ "200": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "201": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "202": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "203": {
+  "source": "Instant Transmission range (in blocks) granted per Instant Transmission skill level. Also limits party TP sharing.",
+  "translation": "Alcance (em blocos) de Transmissão instantânea concedido por nível da habilidade Transmissão instantânea. Também limita o compartilhamento de TP do grupo.",
+  "outdated": false
+ },
+ "204": {
+  "source": "=== Difficulty multipliers ===",
+  "translation": "=== Multiplicadores de dificuldade ===",
+  "outdated": false
+ },
+ "205": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "206": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "207": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "208": {
+  "source": "Enemy health multiplier on Easy.",
+  "translation": "Multiplicador de vida dos inimigos no Fácil.",
+  "outdated": false
+ },
+ "209": {
+  "source": "Enemy damage multiplier on Easy.",
+  "translation": "Multiplicador de dano dos inimigos no Fácil.",
+  "outdated": false
+ },
+ "210": {
+  "source": "TP gain multiplier on Easy (the <code>DIFFICULTY</code> boost).",
+  "translation": "Multiplicador de ganho de TP no Fácil (o impulso <code>DIFFICULTY</code>).",
+  "outdated": false
+ },
+ "211": {
+  "source": "Quest reward multiplier on Easy.",
+  "translation": "Multiplicador de recompensas de missões no Fácil.",
+  "outdated": false
+ },
+ "212": {
+  "source": "Enemy health multiplier on Hard. World bosses always use it (times 4).",
+  "translation": "Multiplicador de vida dos inimigos no Difícil. Os chefes de mundo sempre o usam (vezes 4).",
+  "outdated": false
+ },
+ "213": {
+  "source": "Enemy damage multiplier on Hard. World bosses always use it.",
+  "translation": "Multiplicador de dano dos inimigos no Difícil. Os chefes de mundo sempre o usam.",
+  "outdated": false
+ },
+ "214": {
+  "source": "TP gain multiplier on Hard.",
+  "translation": "Multiplicador de ganho de TP no Difícil.",
+  "outdated": false
+ },
+ "215": {
+  "source": "Quest reward multiplier on Hard.",
+  "translation": "Multiplicador de recompensas de missões no Difícil.",
+  "outdated": false
+ },
+ "216": {
+  "source": "Normal difficulty always uses <code>1.0</code>. These multipliers apply to the story difficulty each player chooses, and to the enemies spawned for that player's quests.",
+  "translation": "A dificuldade Normal sempre usa <code>1.0</code>. Estes multiplicadores valem para a dificuldade de história que cada jogador escolhe e para os inimigos gerados nas missões desse jogador.",
+  "outdated": false
+ },
+ "217": {
+  "source": "=== Cosmetics ===",
+  "translation": "=== Cosméticos ===",
+  "outdated": false
+ },
+ "218": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "219": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "220": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "221": {
+  "source": "List of helmet item ids that don't hide the player's hair when worn.",
+  "translation": "Lista de ids de capacetes que não escondem o cabelo do jogador quando usados.",
+  "outdated": false
+ },
+ "222": {
+  "source": "Allows custom painted tattoos. <code>false</code> hides the custom tattoo option in character customization, stops painted tattoos from being drawn and keeps players from uploading new ones; the shipped tattoos still work.",
+  "translation": "Permite tatuagens pintadas personalizadas. <code>false</code> esconde a opção de tatuagem personalizada na personalização do personagem, para de desenhar as tatuagens pintadas e impede os jogadores de enviar novas; as tatuagens que vêm com o mod continuam funcionando.",
+  "outdated": false
+ },
+ "223": {
+  "source": "== Racial skills ==",
+  "translation": "== Habilidades raciais ==",
+  "outdated": false
+ },
+ "224": {
+  "source": "The <code>racialSkills</code> block enables and tunes each race's racial skill. Each race has its own sub-object. Files from older versions that still use the old flat keys (<code>saiyanZenkaiAmount</code>, <code>majinAbsoprtionSkill</code>, …) are converted to this layout automatically when the file is upgraded.",
+  "translation": "O bloco <code>racialSkills</code> ativa e ajusta a habilidade racial de cada raça. Cada raça tem seu próprio subobjeto. Arquivos de versões anteriores que ainda usam as antigas chaves planas (<code>saiyanZenkaiAmount</code>, <code>majinAbsoprtionSkill</code>, …) são convertidos automaticamente para esta estrutura quando o arquivo é atualizado.",
+  "outdated": false
+ },
+ "225": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "226": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "227": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "228": {
+  "source": "Global on/off switch for every racial skill.",
+  "translation": "Interruptor geral de todas as habilidades raciais.",
+  "outdated": false
+ },
+ "229": {
+  "source": "Ratios in the tables below are fractions (<code>0.25</code> means 25%).",
+  "translation": "As proporções nas tabelas abaixo são frações (<code>0.25</code> significa 25%).",
+  "outdated": false
+ },
+ "230": {
+  "source": "=== Human ===",
+  "translation": "=== Humano ===",
+  "outdated": false
+ },
+ "231": {
+  "source": "Sub-object <code>human</code>. It also holds the Absorption Barrier of Androids (Humans upgraded by [[Special:MyLanguage/Dr. Gero|Dr. Gero]]).",
+  "translation": "Subobjeto <code>human</code>. Também contém a Barreira de Absorção dos Androids (Humanos aprimorados pelo [[Special:MyLanguage/Dr. Gero|Dr. Gero]]).",
+  "outdated": false
+ },
+ "232": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "233": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "234": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "235": {
+  "source": "Enables the Human racial skill.",
+  "translation": "Ativa a habilidade racial Humana.",
+  "outdated": false
+ },
+ "236": {
+  "source": "Fast Learner: techniques gain this much more experience.",
+  "translation": "Aprendiz Veloz: as técnicas ganham esta quantidade a mais de experiência.",
+  "outdated": false
+ },
+ "237": {
+  "source": "Adrenaline triggers when health drops to this fraction or below (it re-arms once health is back above it).",
+  "translation": "A Adrenalina é ativada quando a vida cai para esta fração ou menos (ela se rearma quando a vida volta a ficar acima disso).",
+  "outdated": false
+ },
+ "238": {
+  "source": "Adrenaline duration.",
+  "translation": "Duração da Adrenalina.",
+  "outdated": false
+ },
+ "239": {
+  "source": "Damage reduction during Adrenaline.",
+  "translation": "Redução de dano durante a Adrenalina.",
+  "outdated": false
+ },
+ "240": {
+  "source": "Attack speed bonus during Adrenaline.",
+  "translation": "Bônus de velocidade de ataque durante a Adrenalina.",
+  "outdated": false
+ },
+ "241": {
+  "source": "Movement speed bonus during Adrenaline.",
+  "translation": "Bônus de velocidade de movimento durante a Adrenalina.",
+  "outdated": false
+ },
+ "242": {
+  "source": "Adrenaline cooldown.",
+  "translation": "Recarga da Adrenalina.",
+  "outdated": false
+ },
+ "243": {
+  "source": "Enables the Absorption Barrier for Androids.",
+  "translation": "Ativa a Barreira de Absorção para os Androids.",
+  "outdated": false
+ },
+ "244": {
+  "source": "Maximum time the barrier can be held.",
+  "translation": "Tempo máximo que a barreira pode ser mantida.",
+  "outdated": false
+ },
+ "245": {
+  "source": "Cooldown after releasing the barrier.",
+  "translation": "Recarga depois de soltar a barreira.",
+  "outdated": false
+ },
+ "246": {
+  "source": "Cooldown after the barrier shatters.",
+  "translation": "Recarga depois que a barreira se quebra.",
+  "outdated": false
+ },
+ "247": {
+  "source": "Fraction of an absorbed ki blast's damage restored as ki.",
+  "translation": "Fração do dano de uma rajada de ki absorvida que é restaurada como ki.",
+  "outdated": false
+ },
+ "248": {
+  "source": "Overflowing max ki by this fraction triggers a Ki Surge.",
+  "translation": "Ultrapassar o ki máximo nesta fração provoca um Surto de Ki.",
+  "outdated": false
+ },
+ "249": {
+  "source": "Overflowing max ki beyond this fraction shatters the barrier; the excess backfires as damage.",
+  "translation": "Ultrapassar o ki máximo além desta fração quebra a barreira; o excesso volta contra você como dano.",
+  "outdated": false
+ },
+ "250": {
+  "source": "Barrier size.",
+  "translation": "Tamanho da barreira.",
+  "outdated": false
+ },
+ "251": {
+  "source": "Ki regeneration multiplier for Androids.",
+  "translation": "Multiplicador de regeneração de ki para os Androids.",
+  "outdated": false
+ },
+ "252": {
+  "source": "=== Saiyan: Zenkai ===",
+  "translation": "=== Saiyajin: Zenkai ===",
+  "outdated": false
+ },
+ "253": {
+  "source": "Sub-object <code>saiyan</code>.",
+  "translation": "Subobjeto <code>saiyan</code>.",
+  "outdated": false
+ },
+ "254": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "255": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "256": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "257": {
+  "source": "Enables Zenkai.",
+  "translation": "Ativa o Zenkai.",
+  "outdated": false
+ },
+ "258": {
+  "source": "Minimum player level for Zenkai to trigger.",
+  "translation": "Nível mínimo de jogador para o Zenkai ser ativado.",
+  "outdated": false
+ },
+ "259": {
+  "source": "Zenkai cooldown.",
+  "translation": "Recarga do Zenkai.",
+  "outdated": false
+ },
+ "260": {
+  "source": "Time the Saiyan stays down (invulnerable) after a Zenkai.",
+  "translation": "Tempo que o Saiyajin fica caído (invulnerável) depois de um Zenkai.",
+  "outdated": false
+ },
+ "261": {
+  "source": "Health recovered over the knockout.",
+  "translation": "Vida recuperada durante o nocaute.",
+  "outdated": false
+ },
+ "262": {
+  "source": "Stamina recovered over the knockout.",
+  "translation": "Estâmina recuperada durante o nocaute.",
+  "outdated": false
+ },
+ "263": {
+  "source": "Ki recovered over the knockout.",
+  "translation": "Ki recuperado durante o nocaute.",
+  "outdated": false
+ },
+ "264": {
+  "source": "A lethal blow that dealt more than this fraction of max health doesn't trigger Zenkai.",
+  "translation": "Um golpe letal que causou mais que esta fração da vida máxima não ativa o Zenkai.",
+  "outdated": false
+ },
+ "265": {
+  "source": "Window in which the hardest hit taken is remembered for the boost size.",
+  "translation": "Janela em que o golpe mais forte sofrido é lembrado para definir o tamanho do aumento.",
+  "outdated": false
+ },
+ "266": {
+  "source": "Hits of at least this fraction of max health give the full boost.",
+  "translation": "Golpes de pelo menos esta fração da vida máxima dão o aumento completo.",
+  "outdated": false
+ },
+ "267": {
+  "source": "Stat boost range, scaled by the hardest hit.",
+  "translation": "Intervalo do aumento de estatísticas, escalado pelo golpe mais forte.",
+  "outdated": false
+ },
+ "268": {
+  "source": "How many full-strength boosts are permanent. Any other boost is temporary.",
+  "translation": "Quantos aumentos de força total são permanentes. Qualquer outro aumento é temporário.",
+  "outdated": false
+ },
+ "269": {
+  "source": "Duration range of a temporary boost.",
+  "translation": "Intervalo de duração de um aumento temporário.",
+  "outdated": false
+ },
+ "270": {
+  "source": "Limitless Power: each full-strength Zenkai raises the Power Release limit by this much.",
+  "translation": "Poder Ilimitado: cada Zenkai de força total aumenta o limite da liberação de poder nesta quantidade.",
+  "outdated": false
+ },
+ "271": {
+  "source": "Maximum total Power Release bonus.",
+  "translation": "Bônus total máximo de liberação de poder.",
+  "outdated": false
+ },
+ "272": {
+  "source": "Stats boosted by Zenkai.",
+  "translation": "Estatísticas potencializadas pelo Zenkai.",
+  "outdated": false
+ },
+ "273": {
+  "source": "=== Namekian ===",
+  "translation": "=== Namekuseijin ===",
+  "outdated": false
+ },
+ "274": {
+  "source": "Sub-object <code>namekian</code>.",
+  "translation": "Subobjeto <code>namekian</code>.",
+  "outdated": false
+ },
+ "275": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "276": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "277": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "278": {
+  "source": "Enables Assimilation and Regeneration.",
+  "translation": "Ativa a Assimilação e a Regeneração.",
+  "outdated": false
+ },
+ "279": {
+  "source": "Maximum number of assimilations. The latest one is lost on death.",
+  "translation": "Número máximo de assimilações. A mais recente é perdida ao morrer.",
+  "outdated": false
+ },
+ "280": {
+  "source": "Assimilation cooldown.",
+  "translation": "Recarga da assimilação.",
+  "outdated": false
+ },
+ "281": {
+  "source": "Health healed when assimilating.",
+  "translation": "Vida curada ao assimilar.",
+  "outdated": false
+ },
+ "282": {
+  "source": "Fraction of the Namekian's own stats permanently gained per assimilation.",
+  "translation": "Fração das estatísticas do próprio Namekuseijin ganha permanentemente por assimilação.",
+  "outdated": false
+ },
+ "283": {
+  "source": "Stats boosted by assimilation.",
+  "translation": "Estatísticas potencializadas pela assimilação.",
+  "outdated": false
+ },
+ "284": {
+  "source": "Also allows assimilating Namekian warriors, traders and Piccolo (otherwise only Namekian players).",
+  "translation": "Também permite assimilar guerreiros e comerciantes namekuseijins e o Piccolo (caso contrário, só jogadores Namekuseijins).",
+  "outdated": false
+ },
+ "285": {
+  "source": "Time a target player has to accept the request (knocked-down players are assimilated without asking).",
+  "translation": "Tempo que um jogador alvo tem para aceitar o pedido (jogadores nocauteados são assimilados sem pergunta).",
+  "outdated": false
+ },
+ "286": {
+  "source": "Regeneration channel time.",
+  "translation": "Tempo de canalização da Regeneração.",
+  "outdated": false
+ },
+ "287": {
+  "source": "Health recovered over the channel.",
+  "translation": "Vida recuperada durante a canalização.",
+  "outdated": false
+ },
+ "288": {
+  "source": "Ki and stamina spent by Regeneration.",
+  "translation": "Ki e estâmina gastos pela Regeneração.",
+  "outdated": false
+ },
+ "289": {
+  "source": "Regeneration cooldown (half if interrupted by damage).",
+  "translation": "Recarga da Regeneração (metade se for interrompida por dano).",
+  "outdated": false
+ },
+ "290": {
+  "source": "Water Affinity: regeneration bonus while underwater or after drinking a potion.",
+  "translation": "Afinidade com a Água: bônus de regeneração debaixo d'água ou depois de beber uma poção.",
+  "outdated": false
+ },
+ "291": {
+  "source": "Duration of that bonus.",
+  "translation": "Duração desse bônus.",
+  "outdated": false
+ },
+ "292": {
+  "source": "=== Frost Demon ===",
+  "translation": "=== Clã Freeza ===",
+  "outdated": false
+ },
+ "293": {
+  "source": "Sub-object <code>frostdemon</code>.",
+  "translation": "Subobjeto <code>frostdemon</code>.",
+  "outdated": false
+ },
+ "294": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "295": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "296": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "297": {
+  "source": "Enables the Frost Demon racial skill.",
+  "translation": "Ativa a habilidade racial do Clã Freeza.",
+  "outdated": false
+ },
+ "298": {
+  "source": "Prodigious Strength TP multiplier (the <code>RACIALSKILL</code> boost).",
+  "translation": "Multiplicador de TP da Força Prodigiosa (o bônus <code>RACIALSKILL</code>).",
+  "outdated": false
+ },
+ "299": {
+  "source": "Forms gain this much more mastery.",
+  "translation": "As formas ganham esta quantidade a mais de domínio.",
+  "outdated": false
+ },
+ "300": {
+  "source": "Damage reduction against ki techniques.",
+  "translation": "Redução de dano contra técnicas de ki.",
+  "outdated": false
+ },
+ "301": {
+  "source": "Damage reduction against strike techniques.",
+  "translation": "Redução de dano contra técnicas de golpe.",
+  "outdated": false
+ },
+ "302": {
+  "source": "Power Reserve charges only while Power Release is at or below this value.",
+  "translation": "A Reserva de Poder só carrega enquanto a liberação de poder está neste valor ou abaixo.",
+  "outdated": false
+ },
+ "303": {
+  "source": "Reserve size as a fraction of max ki.",
+  "translation": "Tamanho da reserva como fração do ki máximo.",
+  "outdated": false
+ },
+ "304": {
+  "source": "Time to fill the reserve.",
+  "translation": "Tempo para encher a reserva.",
+  "outdated": false
+ },
+ "305": {
+  "source": "How long a full reserve feeds a form (transformed at 100% Power Release): no ki upkeep and stronger form bonuses.",
+  "translation": "Por quanto tempo uma reserva cheia alimenta uma forma (transformado com 100% de liberação de poder): sem manutenção de ki e com bônus de forma mais fortes.",
+  "outdated": false
+ },
+ "306": {
+  "source": "Form bonus increase while the reserve feeds the form.",
+  "translation": "Aumento do bônus de forma enquanto a reserva alimenta a forma.",
+  "outdated": false
+ },
+ "307": {
+  "source": "Forms (besides base) in which the reserve can charge.",
+  "translation": "Formas (além da base) em que a reserva pode carregar.",
+  "outdated": false
+ },
+ "308": {
+  "source": "=== Bio-Android ===",
+  "translation": "=== Bio-Androide ===",
+  "outdated": false
+ },
+ "309": {
+  "source": "Sub-object <code>bioandroid</code>.",
+  "translation": "Subobjeto <code>bioandroid</code>.",
+  "outdated": false
+ },
+ "310": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "311": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "312": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "313": {
+  "source": "Enables the Bio-Android racial skill.",
+  "translation": "Ativa a habilidade racial do Bio-Androide.",
+  "outdated": false
+ },
+ "314": {
+  "source": "Vital Drain cooldown.",
+  "translation": "Recarga da Drenagem de Vida.",
+  "outdated": false
+ },
+ "315": {
+  "source": "Total fraction of the target's max health drained by Vital Drain.",
+  "translation": "Fração total da vida máxima do alvo drenada pela Drenagem de Vida.",
+  "outdated": false
+ },
+ "316": {
+  "source": "TP gained (Imperfect form) when Vital Drain kills the target, relative to the drained health.",
+  "translation": "TP ganhos (forma Imperfeita) quando a Drenagem de Vida mata o alvo, em relação à vida drenada.",
+  "outdated": false
+ },
+ "317": {
+  "source": "Self-Destruct hold time (Semi-Perfect form).",
+  "translation": "Tempo que é preciso segurar a Autodestruição (forma Semi-Perfeito).",
+  "outdated": false
+ },
+ "318": {
+  "source": "Time the swelling takes to revert when the charge is released early.",
+  "translation": "Tempo que o inchaço leva para se desfazer quando a carga é solta antes da hora.",
+  "outdated": false
+ },
+ "319": {
+  "source": "Explosion damage at the center, as a multiple of the user's max health (less farther away).",
+  "translation": "Dano da explosão no centro, como múltiplo da vida máxima do usuário (menos quanto mais longe).",
+  "outdated": false
+ },
+ "320": {
+  "source": "Explosion radius in blocks.",
+  "translation": "Raio da explosão em blocos.",
+  "outdated": false
+ },
+ "321": {
+  "source": "<code>true</code>: the explosion kills the user. <code>false</code>: the user survives, knocked down.",
+  "translation": "<code>true</code>: a explosão mata o usuário. <code>false</code>: o usuário sobrevive, nocauteado.",
+  "outdated": false
+ },
+ "322": {
+  "source": "Knockdown duration when the user survives.",
+  "translation": "Duração do nocaute quando o usuário sobrevive.",
+  "outdated": false
+ },
+ "323": {
+  "source": "Self-Destruct cooldown.",
+  "translation": "Recarga da Autodestruição.",
+  "outdated": false
+ },
+ "324": {
+  "source": "Cell Jr. per player at a time (Perfect form).",
+  "translation": "Cell Jr. por jogador ao mesmo tempo (forma Perfeito).",
+  "outdated": false
+ },
+ "325": {
+  "source": "Cell Jr. health and damage relative to the owner.",
+  "translation": "Vida e dano dos Cell Jr. em relação ao dono.",
+  "outdated": false
+ },
+ "326": {
+  "source": "Owner stat reduction per living Cell Jr.",
+  "translation": "Redução das estatísticas do dono por Cell Jr. vivo.",
+  "outdated": false
+ },
+ "327": {
+  "source": "Recharge time of a destroyed Cell Jr.'s slot.",
+  "translation": "Tempo de recarga do espaço de um Cell Jr. destruído.",
+  "outdated": false
+ },
+ "328": {
+  "source": "A Cell Jr. farther than this from its owner disappears.",
+  "translation": "Um Cell Jr. que fica mais longe que isso do dono desaparece.",
+  "outdated": false
+ },
+ "329": {
+  "source": "Maximum Cell Jr. alive on the whole server.",
+  "translation": "Máximo de Cell Jr. vivos em todo o servidor.",
+  "outdated": false
+ },
+ "330": {
+  "source": "=== Majin ===",
+  "translation": "=== Majin ===",
+  "outdated": false
+ },
+ "331": {
+  "source": "Sub-object <code>majin</code>.",
+  "translation": "Subobjeto <code>majin</code>.",
+  "outdated": false
+ },
+ "332": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "333": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "334": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "335": {
+  "source": "Enables Absorption.",
+  "translation": "Ativa a Absorção.",
+  "outdated": false
+ },
+ "336": {
+  "source": "Maximum number of absorptions. All are lost on death.",
+  "translation": "Número máximo de absorções. Todas são perdidas ao morrer.",
+  "outdated": false
+ },
+ "337": {
+  "source": "Absorption cooldown.",
+  "translation": "Recarga da absorção.",
+  "outdated": false
+ },
+ "338": {
+  "source": "Health healed when absorbing.",
+  "translation": "Vida curada ao absorver.",
+  "outdated": false
+ },
+ "339": {
+  "source": "Fraction of the target's stats gained (mobs use their max health).",
+  "translation": "Fração das estatísticas do alvo que é ganha (mobs usam a vida máxima).",
+  "outdated": false
+ },
+ "340": {
+  "source": "Stats boosted by absorption.",
+  "translation": "Estatísticas potencializadas pela absorção.",
+  "outdated": false
+ },
+ "341": {
+  "source": "Also allows absorbing mobs (otherwise only players).",
+  "translation": "Também permite absorver mobs (caso contrário, só jogadores).",
+  "outdated": false
+ },
+ "342": {
+  "source": "Ejecting an absorption locks its slot for this long.",
+  "translation": "Expelir uma absorção bloqueia o espaço dela por este tempo.",
+  "outdated": false
+ },
+ "343": {
+  "source": "Sweet Tooth: food heals this much more.",
+  "translation": "Paladar Doce: a comida cura esta quantidade a mais.",
+  "outdated": false
+ },
+ "344": {
+  "source": "Healing ki techniques used by a Majin heal this much more.",
+  "translation": "As técnicas de ki de cura usadas por um Majin curam esta quantidade a mais.",
+  "outdated": false
+ },
+ "345": {
+  "source": "Majins receive this much more healing from ki techniques.",
+  "translation": "Os Majins recebem esta quantidade a mais de cura das técnicas de ki.",
+  "outdated": false
+ },
+ "346": {
+  "source": "Healing techniques cost this much less ki.",
+  "translation": "As técnicas de cura custam esta quantidade a menos de ki.",
+  "outdated": false
+ },
+ "347": {
+  "source": "Healing techniques recharge this much faster.",
+  "translation": "As técnicas de cura recarregam esta quantidade mais rápido.",
+  "outdated": false
+ },
+ "348": {
+  "source": "=== Glind ===",
+  "translation": "=== Glind ===",
+  "outdated": false
+ },
+ "349": {
+  "source": "Sub-object <code>glind</code>.",
+  "translation": "Subobjeto <code>glind</code>.",
+  "outdated": false
+ },
+ "350": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "351": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "352": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "353": {
+  "source": "Enables the Glind racial skill.",
+  "translation": "Ativa a habilidade racial do Glind.",
+  "outdated": false
+ },
+ "354": {
+  "source": "Ki Sense, Scouters and Instant Transmission can't find a Glind unless the seeker has god ki (an unlocked or active God Form, or Divine Ki of their own) or is under Kami's Blessing. Divine Ki also counts as god ki, so Glinds can sense, lock on to and Instant Transmission to players in a God Form.",
+  "translation": "O Sentido de Ki, os Scouters e a Transmissão instantânea não conseguem encontrar um Glind, a menos que quem procura tenha ki divino (uma Forma Divina desbloqueada ou ativa, ou Ki Divino próprio) ou esteja sob a Bênção de Kami. O Ki Divino também conta como ki divino, então os Glinds podem sentir, travar a mira e usar a Transmissão instantânea até jogadores em uma Forma Divina.",
+  "outdated": false
+ },
+ "355": {
+  "source": "Multiplier on the Meditation dodge chance against melee.",
+  "translation": "Multiplicador da chance de esquiva da Meditação contra corpo a corpo.",
+  "outdated": false
+ },
+ "356": {
+  "source": "Health, ki and stamina regeneration multiplier.",
+  "translation": "Multiplicador de regeneração de vida, ki e estâmina.",
+  "outdated": false
+ },
+ "357": {
+  "source": "Healing reduction applied for 6 seconds to players the Glind hits.",
+  "translation": "Redução de cura aplicada por 6 segundos aos jogadores que o Glind acerta.",
+  "outdated": false
+ },
+ "358": {
+  "source": "Effectiveness of the Glind's Healing Reduction skill and enchantment on top of the base (the total is capped at 40%).",
+  "translation": "Eficácia da habilidade e do encantamento Redução de Cura do Glind acima da base (o total é limitado a 40%).",
+  "outdated": false
+ },
+ "359": {
+  "source": "A Glind at or below this alignment…",
+  "translation": "Um Glind com esta índole ou menos…",
+  "outdated": false
+ },
+ "360": {
+  "source": "…deals bonus damage to players at or above this alignment.",
+  "translation": "…causa dano extra a jogadores com esta índole ou mais.",
+  "outdated": false
+ },
+ "361": {
+  "source": "A Glind at or above this alignment…",
+  "translation": "Um Glind com esta índole ou mais…",
+  "outdated": false
+ },
+ "362": {
+  "source": "…deals bonus damage to players at or below this alignment.",
+  "translation": "…causa dano extra a jogadores com esta índole ou menos.",
+  "outdated": false
+ },
+ "363": {
+  "source": "Bonus damage against players of the opposite alignment.",
+  "translation": "Dano extra contra jogadores da índole oposta.",
+  "outdated": false
+ },
+ "364": {
+  "source": "The same bonus against Frost Demons (replaces <code>playerDamageBonus</code>).",
+  "translation": "O mesmo bônus contra o Clã Freeza (substitui <code>playerDamageBonus</code>).",
+  "outdated": false
+ },
+ "365": {
+  "source": "The same bonus against Majins (replaces <code>playerDamageBonus</code>).",
+  "translation": "O mesmo bônus contra Majins (substitui <code>playerDamageBonus</code>).",
+  "outdated": false
+ },
+ "366": {
+  "source": "Bonus damage against any non-player target.",
+  "translation": "Dano extra contra qualquer alvo que não seja um jogador.",
+  "outdated": false
+ },
+ "367": {
+  "source": "== Dynamic growth ==",
+  "translation": "== Crescimento dinâmico ==",
+  "outdated": false
+ },
+ "368": {
+  "source": "The <code>dynamicGrowth</code> block configures practice-based stat growth. It has more than 20 fields and its own anti-farming logic, so it is documented on its own page.",
+  "translation": "O bloco <code>dynamicGrowth</code> configura o crescimento de estatísticas pela prática. Ele tem mais de 20 campos e sua própria lógica contra farm, então é documentado em uma página própria.",
+  "outdated": false
+ },
+ "369": {
+  "source": "== Gravity ==",
+  "translation": "== Gravidade ==",
+  "outdated": false
+ },
+ "370": {
+  "source": "The <code>gravity</code> block configures dimension gravity, the [[Special:MyLanguage/Gravity Device|Gravity Device]] and weight-based training zones. With more than 60 fields, it is documented on its own page.",
+  "translation": "O bloco <code>gravity</code> configura a gravidade das dimensões, o [[Special:MyLanguage/Gravity Device|Dispositivo de Gravidade]] e as zonas de treino por peso. Com mais de 60 campos, ele é documentado em uma página própria.",
+  "outdated": false
+ },
+ "371": {
+  "source": "== Mutant ==",
+  "translation": "== Mutante ==",
+  "outdated": false
+ },
+ "372": {
+  "source": "The <code>mutant</code> block controls a periodic server-wide lottery: every interval, a handful of players are rolled for a chance to become a [[Special:MyLanguage/Mutant|Mutant]]. Mutants get TP and mastery multipliers and a rage meter that lets them use the forms of the <code>legendaryGroupName</code> group, even without owning them, while the meter is full or active.",
+  "translation": "O bloco <code>mutant</code> controla uma loteria periódica em todo o servidor: a cada intervalo, alguns jogadores são sorteados com a chance de virar [[Special:MyLanguage/Mutant|Mutante]]. Os Mutantes recebem multiplicadores de TP e de domínio e um medidor de fúria que permite usar as formas do grupo <code>legendaryGroupName</code>, mesmo sem possuí-las, enquanto o medidor estiver cheio ou ativo.",
+  "outdated": false
+ },
+ "373": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "374": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "375": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "376": {
+  "source": "Master toggle.",
+  "translation": "Interruptor geral.",
+  "outdated": false
+ },
+ "377": {
+  "source": "Minutes between lottery rolls (minimum <code>1</code>).",
+  "translation": "Minutos entre sorteios (mínimo <code>1</code>).",
+  "outdated": false
+ },
+ "378": {
+  "source": "Players considered per roll.",
+  "translation": "Jogadores considerados em cada sorteio.",
+  "outdated": false
+ },
+ "379": {
+  "source": "Chance (<code>0</code>–<code>1</code>) that a considered player becomes a Mutant.",
+  "translation": "Chance (<code>0</code>–<code>1</code>) de um jogador considerado virar Mutante.",
+  "outdated": false
+ },
+ "380": {
+  "source": "Maximum concurrent Mutant holders server-wide.",
+  "translation": "Máximo de Mutantes simultâneos em todo o servidor.",
+  "outdated": false
+ },
+ "381": {
+  "source": "The form group the rage meter gives access to (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).",
+  "translation": "O grupo de formas a que o medidor de fúria dá acesso (veja [[Special:MyLanguage/Custom Forms|Formas personalizadas]]).",
+  "outdated": false
+ },
+ "382": {
+  "source": "TP multiplier while Mutant (the <code>MUTANT</code> boost).",
+  "translation": "Multiplicador de TP enquanto você é Mutante (o impulso <code>MUTANT</code>).",
+  "outdated": false
+ },
+ "383": {
+  "source": "Form mastery gain multiplier while Mutant.",
+  "translation": "Multiplicador de ganho de domínio de formas enquanto você é Mutante.",
+  "outdated": false
+ },
+ "384": {
+  "source": "A legendary form the Mutant doesn't own (borrowed through the rage meter) is worth the player's best unlocked non-legendary form (with its mastery) plus this much on each stat bonus (scaled per stat like the legendary form), capped at the legendary form at full mastery. Minimum <code>0</code>.",
+  "translation": "Uma forma lendária que o Mutante não possui (emprestada pelo medidor de fúria) vale o mesmo que a melhor forma não lendária desbloqueada do jogador (com seu domínio) mais esta quantidade em cada bônus de estatística (escalado por estatística como a forma lendária), limitado à forma lendária com domínio completo. Mínimo <code>0</code>.",
+  "outdated": false
+ },
+ "385": {
+  "source": "An owned legendary form gets its bonus raised by this fraction while rage is active.",
+  "translation": "Uma forma lendária própria tem o bônus aumentado nesta fração enquanto a fúria está ativa.",
+  "outdated": false
+ },
+ "386": {
+  "source": "If <code>false</code>, dying removes Mutant status.",
+  "translation": "Se for <code>false</code>, morrer remove o status de Mutante.",
+  "outdated": false
+ },
+ "387": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "388": {
+  "source": "Rage meter tuning (an object).",
+  "translation": "Ajuste do medidor de fúria (um objeto).",
+  "outdated": false
+ },
+ "389": {
+  "source": "=== Rage meter ===",
+  "translation": "=== Medidor de fúria ===",
+  "outdated": false
+ },
+ "390": {
+  "source": "The <code>mutant.rage</code> object tunes the rage meter. The meter fills from damage dealt to worthy targets and damage taken. A full meter while in a legendary-group form starts the active phase, which drains it; when it empties, a borrowed form is reverted. Out of combat it drains on its own. Death resets it.",
+  "translation": "O objeto <code>mutant.rage</code> ajusta o medidor de fúria. O medidor enche com o dano causado a alvos dignos e com o dano sofrido. Com o medidor cheio e em uma forma do grupo lendário começa a fase ativa, que o esvazia; quando ele esvazia, a forma emprestada é revertida. Fora de combate ele esvazia sozinho. A morte o zera.",
+  "outdated": false
+ },
+ "391": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "392": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "393": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "394": {
+  "source": "Rage gained per full health bar of damage dealt (proportional to the fraction removed).",
+  "translation": "Fúria ganha por barra de vida completa de dano causado (proporcional à fração removida).",
+  "outdated": false
+ },
+ "395": {
+  "source": "Rage gained per full health bar of damage taken.",
+  "translation": "Fúria ganha por barra de vida completa de dano sofrido.",
+  "outdated": false
+ },
+ "396": {
+  "source": "Maximum rage from a single hit.",
+  "translation": "Fúria máxima de um único golpe.",
+  "outdated": false
+ },
+ "397": {
+  "source": "Damage dealt only counts against players or mobs whose max health is at least this fraction of the attacker's.",
+  "translation": "O dano causado só conta contra jogadores ou mobs cuja vida máxima seja pelo menos esta fração da do atacante.",
+  "outdated": false
+ },
+ "398": {
+  "source": "Damage taken only counts when it is at least this fraction of max health.",
+  "translation": "O dano sofrido só conta quando é pelo menos esta fração da vida máxima.",
+  "outdated": false
+ },
+ "399": {
+  "source": "Extra gain for each change of attack type (melee, strike, ki).",
+  "translation": "Ganho extra para cada troca de tipo de ataque (corpo a corpo, golpe, ki).",
+  "outdated": false
+ },
+ "400": {
+  "source": "Maximum variety steps.",
+  "translation": "Máximo de etapas de variedade.",
+  "outdated": false
+ },
+ "401": {
+  "source": "Time window for an attack-type change to count.",
+  "translation": "Janela de tempo para uma troca de tipo de ataque contar.",
+  "outdated": false
+ },
+ "402": {
+  "source": "How long a full meter lasts once active.",
+  "translation": "Quanto tempo um medidor cheio dura depois de ativo.",
+  "outdated": false
+ },
+ "403": {
+  "source": "Gain multiplier while active.",
+  "translation": "Multiplicador de ganho enquanto está ativo.",
+  "outdated": false
+ },
+ "404": {
+  "source": "Out-of-combat time before a full meter starts draining.",
+  "translation": "Tempo fora de combate até um medidor cheio começar a esvaziar.",
+  "outdated": false
+ },
+ "405": {
+  "source": "Out-of-combat time before a partial meter starts draining.",
+  "translation": "Tempo fora de combate até um medidor parcial começar a esvaziar.",
+  "outdated": false
+ },
+ "406": {
+  "source": "Time for an idle meter to drain completely.",
+  "translation": "Tempo para um medidor ocioso esvaziar por completo.",
+  "outdated": false
+ },
+ "407": {
+  "source": "== False Super Saiyan ==",
+  "translation": "== Falso Super Saiyajin ==",
+  "outdated": false
+ },
+ "408": {
+  "source": "The <code>falseSuperSaiyan</code> block controls a hidden Saiyan form that can't be bought or selected: it is granted by a rage meter that charges while a Saiyan without Super Saiyan is badly hurt, and it ends when the meter empties. Mutants never get it (the Mutant rage meter takes priority).",
+  "translation": "O bloco <code>falseSuperSaiyan</code> controla uma forma Saiyajin oculta que não pode ser comprada nem selecionada: ela é concedida por um medidor de fúria que carrega enquanto um Saiyajin sem Super Saiyajin está gravemente ferido, e termina quando o medidor esvazia. Mutantes nunca a recebem (o medidor de fúria do Mutante tem prioridade).",
+  "outdated": false
+ },
+ "409": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "410": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "411": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "412": {
+  "source": "Master toggle.",
+  "translation": "Interruptor geral.",
+  "outdated": false
+ },
+ "413": {
+  "source": "Form group of the False Super Saiyan form.",
+  "translation": "Grupo de formas da forma Falso Super Saiyajin.",
+  "outdated": false
+ },
+ "414": {
+  "source": "Form name inside that group.",
+  "translation": "Nome da forma dentro desse grupo.",
+  "outdated": false
+ },
+ "415": {
+  "source": "Minimum player level to charge it.",
+  "translation": "Nível mínimo de jogador para carregá-lo.",
+  "outdated": false
+ },
+ "416": {
+  "source": "The player level must be below this value.",
+  "translation": "O nível do jogador precisa ser menor que este valor.",
+  "outdated": false
+ },
+ "417": {
+  "source": "The meter only charges at or below this fraction of max health.",
+  "translation": "O medidor só carrega com esta fração da vida máxima ou menos.",
+  "outdated": false
+ },
+ "418": {
+  "source": "If <code>true</code>, it only charges while Zenkai is on cooldown or after all permanent Zenkai boosts are used.",
+  "translation": "Se for <code>true</code>, só carrega enquanto o Zenkai está em recarga ou depois que todos os aumentos permanentes do Zenkai foram usados.",
+  "outdated": false
+ },
+ "419": {
+  "source": "Meter gained per full health bar of damage dealt to worthy targets.",
+  "translation": "Medidor ganho por barra de vida completa de dano causado a alvos dignos.",
+  "outdated": false
+ },
+ "420": {
+  "source": "Meter gained per full health bar of damage taken.",
+  "translation": "Medidor ganho por barra de vida completa de dano sofrido.",
+  "outdated": false
+ },
+ "421": {
+  "source": "Maximum meter from a single hit.",
+  "translation": "Medidor máximo de um único golpe.",
+  "outdated": false
+ },
+ "422": {
+  "source": "Worthy-target rule, as in <code>mutant.rage</code>.",
+  "translation": "Regra de alvo digno, como em <code>mutant.rage</code>.",
+  "outdated": false
+ },
+ "423": {
+  "source": "Minimum damage taken that counts.",
+  "translation": "Dano sofrido mínimo que conta.",
+  "outdated": false
+ },
+ "424": {
+  "source": "Gain multiplier once transformed.",
+  "translation": "Multiplicador de ganho depois de transformado.",
+  "outdated": false
+ },
+ "425": {
+  "source": "Meter gained per second while the requirements are met (<code>0</code> means only hits fill it).",
+  "translation": "Medidor ganho por segundo enquanto os requisitos são cumpridos (<code>0</code> significa que só os golpes o enchem).",
+  "outdated": false
+ },
+ "426": {
+  "source": "Time after the last hit before the meter can drain.",
+  "translation": "Tempo depois do último golpe até o medidor poder esvaziar.",
+  "outdated": false
+ },
+ "427": {
+  "source": "Time to drain a full meter when the requirements are no longer met.",
+  "translation": "Tempo para esvaziar um medidor cheio quando os requisitos deixam de ser cumpridos.",
+  "outdated": false
+ },
+ "428": {
+  "source": "Time to drain a full meter once transformed.",
+  "translation": "Tempo para esvaziar um medidor cheio depois de transformado.",
+  "outdated": false
+ },
+ "429": {
+  "source": "== Ki Transfer ==",
+  "translation": "== Transferência de ki ==",
+  "outdated": false
+ },
+ "430": {
+  "source": "The <code>kiTransfer</code> block controls [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: holding {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} on another player sends them a share of your Ki and boosts their STR, SKP, DEF and PWR, while the giver is slowed, locked out of combat and weakened by Ki Exhaustion. The link is also how the Super Saiyan God Ritual gathers its givers. Negative or invalid numbers fall back to the default.",
+  "translation": "O bloco <code>kiTransfer</code> controla a [[Special:MyLanguage/Ki Transfer|Transferência de ki]]: segurar {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Botão direito}} sobre outro jogador envia a ele uma parte do seu Ki e aumenta STR, SKP, DEF e PWR dele, enquanto o doador fica lento, impedido de lutar e enfraquecido pela Exaustão de Ki. O vínculo também é a forma como o Ritual do Super Saiyajin Deus reúne seus doadores. Números negativos ou inválidos voltam ao padrão.",
+  "outdated": false
+ },
+ "431": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "432": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "433": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "434": {
+  "source": "Master toggle. Turning it off also ends every active link.",
+  "translation": "Interruptor geral. Desligá-lo também encerra todos os vínculos ativos.",
+  "outdated": false
+ },
+ "435": {
+  "source": "Fraction of the giver's max Ki sent every second (at most <code>1</code>).",
+  "translation": "Fração do Ki máximo do doador enviada a cada segundo (no máximo <code>1</code>).",
+  "outdated": false
+ },
+ "436": {
+  "source": "How long a giver must hold the link before boosting the receiver and counting as a giver for the Super Saiyan God Ritual.",
+  "translation": "Quanto tempo um doador precisa manter o vínculo antes de fortalecer o receptor e contar como doador para o Ritual do Super Saiyajin Deus.",
+  "outdated": false
+ },
+ "437": {
+  "source": "STR, SKP, DEF and PWR bonus per giver, applied on top of the receiver's other multipliers.",
+  "translation": "Bônus de STR, SKP, DEF e PWR por doador, aplicado por cima dos outros multiplicadores do receptor.",
+  "outdated": false
+ },
+ "438": {
+  "source": "Maximum number of givers that count for the bonus (minimum <code>0</code>).",
+  "translation": "Número máximo de doadores que contam para o bônus (mínimo <code>0</code>).",
+  "outdated": false
+ },
+ "439": {
+  "source": "Walking and flying speed multiplier while giving (<code>0</code>–<code>1</code>).",
+  "translation": "Multiplicador da velocidade ao andar e ao voar enquanto você doa (<code>0</code>–<code>1</code>).",
+  "outdated": false
+ },
+ "440": {
+  "source": "The link breaks once the giver has taken damage adding up to this fraction of their max health since it started (minimum <code>0.01</code>).",
+  "translation": "O vínculo se rompe quando o doador sofre, desde o início, dano que soma esta fração da vida máxima dele (mínimo <code>0.01</code>).",
+  "outdated": false
+ },
+ "441": {
+  "source": "Range in blocks to start a link (minimum <code>1</code>). The server allows 2 extra blocks for movement and needs line of sight.",
+  "translation": "Alcance em blocos para iniciar um vínculo (mínimo <code>1</code>). O servidor permite 2 blocos extras por causa do movimento e exige linha de visão.",
+  "outdated": false
+ },
+ "442": {
+  "source": "The link breaks when the players are farther apart than this (never less than <code>startRange</code>).",
+  "translation": "O vínculo se rompe quando os jogadores ficam mais longe que isso (nunca menos que <code>startRange</code>).",
+  "outdated": false
+ },
+ "443": {
+  "source": "Ki that overflows the receiver's bar while they charge a ki attack is stored for that attack, up to this fraction of the receiver's max Ki.",
+  "translation": "O Ki que transborda a barra do receptor enquanto ele carrega um ataque de ki é guardado para esse ataque, até esta fração do Ki máximo do receptor.",
+  "outdated": false
+ },
+ "444": {
+  "source": "Length of a transfer interval. Each completed interval adds a stack of Ki Exhaustion to the giver and lingering time to both players.",
+  "translation": "Duração de um intervalo de transferência. Cada intervalo completo adiciona um acúmulo de Exaustão de Ki ao doador e tempo residual aos dois jogadores.",
+  "outdated": false
+ },
+ "445": {
+  "source": "Seconds per completed interval that the receiver keeps that giver's bonus after the link ends; the giver's Ki Exhaustion lasts the same time.",
+  "translation": "Segundos por intervalo completo em que o receptor mantém o bônus desse doador depois que o vínculo termina; a Exaustão de Ki do doador dura o mesmo tempo.",
+  "outdated": false
+ },
+ "446": {
+  "source": "STR, SKP, DEF and PWR penalty the giver takes per completed interval (at most <code>1</code>).",
+  "translation": "Penalidade de STR, SKP, DEF e PWR que o doador sofre por intervalo completo (no máximo <code>1</code>).",
+  "outdated": false
+ },
+ "447": {
+  "source": "Maximum giver penalty (at most <code>0.95</code>).",
+  "translation": "Penalidade máxima do doador (no máximo <code>0.95</code>).",
+  "outdated": false
+ },
+ "448": {
+  "source": "Wait after a link ends before the same player can start a new one.",
+  "translation": "Espera depois que um vínculo termina até o mesmo jogador poder iniciar outro.",
+  "outdated": false
+ },
+ "449": {
+  "source": "== Super Saiyan God Ritual ==",
+  "translation": "== Ritual do Super Saiyajin Deus ==",
+  "outdated": false
+ },
+ "450": {
+  "source": "The <code>superSaiyanGodRitual</code> block controls the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: when enough pure-hearted Saiyans in the right forms give their Ki to another Saiyan with Ki Transfer, they gather into a ring and channel, and the receiver rises and turns into a hidden form that lasts a limited time. The form itself (colors, aura, drain) is defined in the Saiyan form group named by <code>groupName</code>, whose <code>formType</code> must stay <code>godritual</code> (see [[Special:MyLanguage/Custom Forms|Custom Forms]]). Negative or invalid numbers fall back to the default.",
+  "translation": "O bloco <code>superSaiyanGodRitual</code> controla o [[Special:MyLanguage/Super Saiyan God Ritual|Ritual do Super Saiyajin Deus]]: quando Saiyajins de coração puro suficientes, nas formas certas, dão seu Ki a outro Saiyajin com a Transferência de ki, eles se reúnem em um anel e canalizam, e o receptor se eleva e se transforma em uma forma oculta que dura um tempo limitado. A forma em si (cores, aura, consumo) é definida no grupo de formas Saiyajin indicado por <code>groupName</code>, cujo <code>formType</code> precisa continuar sendo <code>godritual</code> (veja [[Special:MyLanguage/Custom Forms|Formas personalizadas]]). Números negativos ou inválidos voltam ao padrão.",
+  "outdated": false
+ },
+ "451": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "452": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "453": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "454": {
+  "source": "Master toggle.",
+  "translation": "Interruptor geral.",
+  "outdated": false
+ },
+ "455": {
+  "source": "Saiyan form group of the ritual form.",
+  "translation": "Grupo de formas Saiyajin da forma do ritual.",
+  "outdated": false
+ },
+ "456": {
+  "source": "Form name inside that group.",
+  "translation": "Nome da forma dentro desse grupo.",
+  "outdated": false
+ },
+ "457": {
+  "source": "Forms a giver can be in, as <code>\"group.form\"</code>. A giver with a stack form active never counts.",
+  "translation": "Formas em que um doador pode estar, como <code>\"group.form\"</code>. Um doador com uma forma acumulável ativa nunca conta.",
+  "outdated": false
+ },
+ "458": {
+  "source": "Forms the receiver must be in, as <code>\"group.form\"</code>.",
+  "translation": "Formas em que o receptor precisa estar, como <code>\"group.form\"</code>.",
+  "outdated": false
+ },
+ "459": {
+  "source": "Givers needed. A fusion of two Saiyans counts as two (minimum <code>1</code>).",
+  "translation": "Doadores necessários. Uma fusão de dois Saiyajins conta como dois (mínimo <code>1</code>).",
+  "outdated": false
+ },
+ "460": {
+  "source": "A participant is pure-hearted at or above this alignment (<code>0</code>–<code>100</code>)…",
+  "translation": "Um participante tem coração puro com esta índole ou mais (<code>0</code>–<code>100</code>)…",
+  "outdated": false
+ },
+ "461": {
+  "source": "…or at or below this one (<code>0</code>–<code>100</code>).",
+  "translation": "…ou com esta ou menos (<code>0</code>–<code>100</code>).",
+  "outdated": false
+ },
+ "462": {
+  "source": "Horizontal distance from the receiver within which a giver counts (minimum <code>1</code>).",
+  "translation": "Distância horizontal do receptor dentro da qual um doador conta (mínimo <code>1</code>).",
+  "outdated": false
+ },
+ "463": {
+  "source": "Maximum height difference between a giver and the receiver.",
+  "translation": "Diferença máxima de altura entre um doador e o receptor.",
+  "outdated": false
+ },
+ "464": {
+  "source": "Radius of the ring the givers glide into when the ritual starts (between <code>1</code> and <code>ritualRadius</code>).",
+  "translation": "Raio do anel para onde os doadores deslizam quando o ritual começa (entre <code>1</code> e <code>ritualRadius</code>).",
+  "outdated": false
+ },
+ "465": {
+  "source": "Length of the channel, while the receiver's action bar fills (minimum 1 second).",
+  "translation": "Duração da canalização, enquanto a barra de ação do receptor enche (mínimo de 1 segundo).",
+  "outdated": false
+ },
+ "466": {
+  "source": "How many blocks the receiver rises after the channel (less if something is in the way).",
+  "translation": "Quantos blocos o receptor sobe depois da canalização (menos se algo estiver no caminho).",
+  "outdated": false
+ },
+ "467": {
+  "source": "Duration of the rise.",
+  "translation": "Duração da subida.",
+  "outdated": false
+ },
+ "468": {
+  "source": "Time the shell of light takes to build before the transformation.",
+  "translation": "Tempo que a casca de luz leva para se formar antes da transformação.",
+  "outdated": false
+ },
+ "469": {
+  "source": "Time the shell takes to fade after it.",
+  "translation": "Tempo que a casca leva para sumir depois.",
+  "outdated": false
+ },
+ "470": {
+  "source": "Color of the shell and of the transformation flash, as <code>#RRGGBB</code>.",
+  "translation": "Cor da casca e do clarão da transformação, como <code>#RRGGBB</code>.",
+  "outdated": false
+ },
+ "471": {
+  "source": "The ritual is cancelled when any participant takes damage adding up to more than this fraction of their max health (minimum <code>0.01</code>).",
+  "translation": "O ritual é cancelado quando qualquer participante sofre dano que soma mais que esta fração da vida máxima dele (mínimo <code>0.01</code>).",
+  "outdated": false
+ },
+ "472": {
+  "source": "Ritual cooldown given to every participant (fusion partners included) when the ritual is cancelled.",
+  "translation": "Recarga do ritual dada a todos os participantes (incluindo os parceiros de fusão) quando o ritual é cancelado.",
+  "outdated": false
+ },
+ "473": {
+  "source": "Ritual cooldown after a success: the givers get it when the receiver transforms, the receiver when the form ends.",
+  "translation": "Recarga do ritual depois de um sucesso: os doadores a recebem quando o receptor se transforma, e o receptor, quando a forma termina.",
+  "outdated": false
+ },
+ "474": {
+  "source": "How long the form lasts before the receiver returns to base form (minimum 1 second).",
+  "translation": "Quanto tempo a forma dura até o receptor voltar à forma base (mínimo de 1 segundo).",
+  "outdated": false
+ },
+ "475": {
+  "source": "The form is worth the receiver's strongest unlocked form (with its mastery) with each stat bonus raised by this fraction. The multipliers written in the form file act as a minimum.",
+  "translation": "A forma vale o mesmo que a forma desbloqueada mais forte do receptor (com seu domínio), com cada bônus de estatística aumentado nesta fração. Os multiplicadores escritos no arquivo da forma funcionam como mínimo.",
+  "outdated": false
+ },
+ "476": {
+  "source": "The same bonus for receivers who are Mutants.",
+  "translation": "O mesmo bônus para receptores que são Mutantes.",
+  "outdated": false
+ },
+ "477": {
+  "source": "== World bosses ==",
+  "translation": "== Chefes de mundo ==",
+  "outdated": false
+ },
+ "478": {
+  "source": "The <code>worldBoss</code> block tunes the world boss fights. Contribution points are the four totals (damage dealt, damage mitigated, damage received, healing) multiplied by their weights. Healing counts more when the healed player's defense and blocking soak a lot of damage (up to 10 times).",
+  "translation": "O bloco <code>worldBoss</code> ajusta as lutas contra chefes de mundo. Os pontos de contribuição são os quatro totais (dano causado, dano mitigado, dano sofrido e cura) multiplicados pelos seus pesos. A cura conta mais quando a defesa e o bloqueio do jogador curado absorvem muito dano (até 10 vezes).",
+  "outdated": false
+ },
+ "479": {
+  "source": "World boss health and damage aren't keys of this block: they follow the Hard difficulty multipliers. Each boss has its saga fight's Normal health × <code>hardModeHPMultiplier</code> × 4 and its Normal damage × <code>hardModeDamageMultiplier</code> (both in the difficulty multipliers of the <code>gameplay</code> section above). The values on the [[Special:MyLanguage/World Bosses|World Bosses]] pages use the defaults.",
+  "translation": "A vida e o dano dos chefes de mundo não são chaves deste bloco: eles seguem os multiplicadores da dificuldade Difícil. Cada chefe tem a vida no Normal da sua luta de saga × <code>hardModeHPMultiplier</code> × 4 e o dano no Normal × <code>hardModeDamageMultiplier</code> (ambos nos multiplicadores de dificuldade da seção <code>gameplay</code> acima). Os valores nas páginas de [[Special:MyLanguage/World Bosses|Chefes de mundo]] usam os padrões.",
+  "outdated": false
+ },
+ "480": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "481": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "482": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "483": {
+  "source": "Players within this range of the boss take part in the fight (minimum <code>16</code>).",
+  "translation": "Jogadores dentro deste alcance do chefe participam da luta (mínimo <code>16</code>).",
+  "outdated": false
+ },
+ "484": {
+  "source": "How often the participant list, and with it the boss's group scaling, is refreshed.",
+  "translation": "A cada quanto tempo a lista de participantes, e com ela o escalonamento do chefe pelo grupo, é atualizada.",
+  "outdated": false
+ },
+ "485": {
+  "source": "How long the contribution HUD stays on screen after the kill.",
+  "translation": "Quanto tempo a HUD de contribuição fica na tela depois do abate.",
+  "outdated": false
+ },
+ "486": {
+  "source": "Weight of damage dealt to the boss and its minions.",
+  "translation": "Peso do dano causado ao chefe e aos lacaios dele.",
+  "outdated": false
+ },
+ "487": {
+  "source": "Weight of damage mitigated (defense, blocks, barriers).",
+  "translation": "Peso do dano mitigado (defesa, bloqueios, barreiras).",
+  "outdated": false
+ },
+ "488": {
+  "source": "Weight of damage received.",
+  "translation": "Peso do dano sofrido.",
+  "outdated": false
+ },
+ "489": {
+  "source": "Weight of healing done.",
+  "translation": "Peso da cura realizada.",
+  "outdated": false
+ },
+ "490": {
+  "source": "Revives each participant can receive per fight.",
+  "translation": "Ressurreições que cada participante pode receber por luta.",
+  "outdated": false
+ },
+ "491": {
+  "source": "Technique slot (1–8) that holds the revive technique during the fight.",
+  "translation": "Slot de técnica (1–8) que guarda a técnica de ressurreição durante a luta.",
+  "outdated": false
+ },
+ "492": {
+  "source": "Cast time to revive a downed ally (several casters stack).",
+  "translation": "Tempo de conjuração para ressuscitar um aliado caído (vários conjuradores se somam).",
+  "outdated": false
+ },
+ "493": {
+  "source": "Revive cooldown after a successful revive.",
+  "translation": "Recarga de ressurreição depois de uma ressurreição bem-sucedida.",
+  "outdated": false
+ },
+ "494": {
+  "source": "Revive cooldown after the cast is interrupted.",
+  "translation": "Recarga de ressurreição quando a conjuração é interrompida.",
+  "outdated": false
+ },
+ "495": {
+  "source": "A revive cast is interrupted once the caster has taken damage adding up to this fraction of their max health (minimum <code>0.01</code>).",
+  "translation": "Uma conjuração de ressurreição é interrompida quando o conjurador sofre dano que soma esta fração da vida máxima dele (mínimo <code>0.01</code>).",
+  "outdated": false
+ },
+ "496": {
+  "source": "While nobody is reviving a downed player, their revive progress drains this many times faster than one caster fills it (minimum <code>1</code>, rounded to a whole number).",
+  "translation": "Enquanto ninguém está ressuscitando um jogador caído, o progresso de ressurreição dele esvazia esta quantidade de vezes mais rápido do que um conjurador o enche (mínimo <code>1</code>, arredondado para um número inteiro).",
+  "outdated": false
+ },
+ "497": {
+  "source": "After a fight ends, the players who took part in it can't hurt each other for this many seconds.",
+  "translation": "Quando uma luta termina, os jogadores que participaram dela não podem se ferir entre si por esta quantidade de segundos.",
+  "outdated": false
+ },
+ "498": {
+  "source": "Range to start a revive.",
+  "translation": "Alcance para iniciar uma ressurreição.",
+  "outdated": false
+ },
+ "499": {
+  "source": "Health, ki and stamina restored by a revive.",
+  "translation": "Vida, ki e estâmina restaurados por uma ressurreição.",
+  "outdated": false
+ },
+ "500": {
+  "source": "Duration of the knockout title.",
+  "translation": "Duração do título de nocaute.",
+  "outdated": false
+ },
+ "501": {
+  "source": "List of drop chance bonuses for the 1st, 2nd and 3rd best contributors.",
+  "translation": "Lista de bônus de chance de drop para o 1º, 2º e 3º melhores contribuidores.",
+  "outdated": false
+ },
+ "502": {
+  "source": "Guaranteed rewards (<code>chance</code> 1.0) scale from this fraction up to 100% with the player's points compared to the best player.",
+  "translation": "As recompensas garantidas (<code>chance</code> 1.0) escalam desta fração até 100% conforme os pontos do jogador em comparação com os do melhor jogador.",
+  "outdated": false
+ },
+ "503": {
+  "source": "Minimum share of total points needed to receive any reward (<code>0.075</code> = 7.5%). Players below it get nothing.",
+  "translation": "Parcela mínima do total de pontos necessária para receber alguma recompensa (<code>0.075</code> = 7.5%). Jogadores abaixo dela não recebem nada.",
+  "outdated": false
+ },
+ "504": {
+  "source": "Extra boss max health for each participant after the first, as a fraction of its health: with <code>0.5</code>, 2 fighters give ×1.5 and 4 give ×2.5. Participants in Creative or Spectator mode don't count. <code>0</code> turns it off.",
+  "translation": "Vida máxima extra do chefe para cada participante depois do primeiro, como fração da vida dele: com <code>0.5</code>, 2 lutadores dão ×1.5 e 4 dão ×2.5. Participantes no modo Criativo ou Espectador não contam. <code>0</code> desativa isso.",
+  "outdated": false
+ },
+ "505": {
+  "source": "The same for the boss's melee and ki damage.",
+  "translation": "O mesmo para o dano corpo a corpo e de ki do chefe.",
+  "outdated": false
+ },
+ "506": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "507": {
+  "source": "A map of boss key to reward list: the rewards of each boss.",
+  "translation": "Um mapa de chave de chefe para lista de recompensas: as recompensas de cada chefe.",
+  "outdated": false
+ },
+ "508": {
+  "source": "=== Boss rewards ===",
+  "translation": "=== Recompensas dos chefes ===",
+  "outdated": false
+ },
+ "509": {
+  "source": "Each reward entry uses the same fields as a quest reward (<code>type</code>, <code>item</code>/<code>count</code>, <code>amount</code>, <code>skill</code>/<code>level</code>, <code>command</code>, <code>formGroup</code>/<code>formName</code>, …) plus <code>chance</code> (<code>0</code>–<code>1</code>, default <code>1.0</code>). The built-in rewards pay <code>ATTRIBUTES</code> (Janemba 500, Turles 50, Metal Cooler Core 105, Tamagami Number 3, 2 and 1 90, 300 and 360, Gomah 435) instead of TP. A boss missing from the map uses its built-in rewards; write <code>\"&lt;boss key&gt;\": []</code> to disable drops for one boss.",
+  "translation": "Cada entrada de recompensa usa os mesmos campos que uma recompensa de missão (<code>type</code>, <code>item</code>/<code>count</code>, <code>amount</code>, <code>skill</code>/<code>level</code>, <code>command</code>, <code>formGroup</code>/<code>formName</code>, …) mais <code>chance</code> (<code>0</code>–<code>1</code>, padrão <code>1.0</code>). As recompensas embutidas dão <code>ATTRIBUTES</code> (Janemba 500, Turles 50, Núcleo do Metal Cooler 105, Tamagami Número 3, 2 e 1 90, 300 e 360, Gomah 435) em vez de TP. Um chefe ausente do mapa usa suas recompensas embutidas; escreva <code>\"&lt;boss key&gt;\": []</code> para desativar os drops de um chefe.",
+  "outdated": false
+ },
+ "510": {
+  "source": "Boss key",
+  "translation": "Chave do chefe",
+  "outdated": false
+ },
+ "511": {
+  "source": "World boss",
+  "translation": "Chefe de mundo",
+  "outdated": false
+ },
+ "512": {
+  "source": "== Crafting ==",
+  "translation": "== Fabricação ==",
+  "outdated": false
+ },
+ "513": {
+  "source": "The <code>crafting</code> block decides what Dr. Kikono's Station copies from the template item into the crafted result.",
+  "translation": "O bloco <code>crafting</code> decide o que a Estação do Dr. Kikono copia do item modelo para o resultado fabricado.",
+  "outdated": false
+ },
+ "514": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "515": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "516": {
+  "source": "What it copies",
+  "translation": "O que copia",
+  "outdated": false
+ },
+ "517": {
+  "source": "Enchantments.",
+  "translation": "Encantamentos.",
+  "outdated": false
+ },
+ "518": {
+  "source": "Weapon level (Weapon Leveling compatibility).",
+  "translation": "Nível da arma (compatibilidade com Weapon Leveling).",
+  "outdated": false
+ },
+ "519": {
+  "source": "Weapon level progress (Weapon Leveling compatibility).",
+  "translation": "Progresso do nível da arma (compatibilidade com Weapon Leveling).",
+  "outdated": false
+ },
+ "520": {
+  "source": "Apotheosis rarity.",
+  "translation": "Raridade do Apotheosis.",
+  "outdated": false
+ },
+ "521": {
+  "source": "Apotheosis affixes.",
+  "translation": "Afixos do Apotheosis.",
+  "outdated": false
+ },
+ "522": {
+  "source": "Apotheosis sockets.",
+  "translation": "Encaixes do Apotheosis.",
+  "outdated": false
+ },
+ "523": {
+  "source": "Apotheosis gems (only when sockets are copied too).",
+  "translation": "Gemas do Apotheosis (só quando os encaixes também são copiados).",
+  "outdated": false
+ },
+ "524": {
+  "source": "== Storage ==",
+  "translation": "== Armazenamento ==",
+  "outdated": false
+ },
+ "525": {
+  "source": "The <code>storage</code> block chooses where player data is saved. Case matters for <code>storageType</code>.",
+  "translation": "O bloco <code>storage</code> escolhe onde os dados dos jogadores são salvos. <code>storageType</code> diferencia maiúsculas de minúsculas.",
+  "outdated": false
+ },
+ "526": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "527": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "528": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "529": {
+  "source": "<code>NBT</code>, <code>JSON</code> or <code>DATABASE</code>.",
+  "translation": "<code>NBT</code>, <code>JSON</code> ou <code>DATABASE</code>.",
+  "outdated": false
+ },
+ "530": {
+  "source": "Database host (<code>DATABASE</code> only).",
+  "translation": "Host do banco de dados (só <code>DATABASE</code>).",
+  "outdated": false
+ },
+ "531": {
+  "source": "Database port (<code>DATABASE</code> only).",
+  "translation": "Porta do banco de dados (só <code>DATABASE</code>).",
+  "outdated": false
+ },
+ "532": {
+  "source": "Database name.",
+  "translation": "Nome do banco de dados.",
+  "outdated": false
+ },
+ "533": {
+  "source": "Table name.",
+  "translation": "Nome da tabela.",
+  "outdated": false
+ },
+ "534": {
+  "source": "Database user.",
+  "translation": "Usuário do banco de dados.",
+  "outdated": false
+ },
+ "535": {
+  "source": "Database password. Change it in production.",
+  "translation": "Senha do banco de dados. Altere-a em produção.",
+  "outdated": false
+ },
+ "536": {
+  "source": "Database connection pool size (minimum <code>1</code>).",
+  "translation": "Tamanho do pool de conexões do banco de dados (mínimo <code>1</code>).",
+  "outdated": false
+ },
+ "537": {
+  "source": "Threads used for asynchronous loads and saves (minimum <code>1</code>).",
+  "translation": "Threads usadas para carregamentos e salvamentos assíncronos (mínimo <code>1</code>).",
+  "outdated": false
+ },
+ "538": {
+  "source": "=== How the backends work ===",
+  "translation": "=== Como os backends funcionam ===",
+  "outdated": false
+ },
+ "539": {
+  "source": "* <code>NBT</code>: player data only rides on vanilla's own player save (<code>.dat</code>).\n* <code>JSON</code>: each player is also saved to <code>&lt;world&gt;/dragonminez/playerdata_json/&lt;uuid&gt;.json</code>.\n* <code>DATABASE</code>: each player is also saved to a MariaDB database (<code>jdbc:mariadb</code>), using <code>host</code>, <code>port</code>, <code>database</code>, <code>table</code>, <code>username</code> and <code>password</code>.\n* The vanilla <code>.dat</code> save is '''always''' written. With <code>JSON</code> or <code>DATABASE</code>, the extra store is loaded on login and overrides the vanilla values; it is saved on logout and every 5 minutes.",
+  "translation": "* <code>NBT</code>: os dados do jogador ficam só no save de jogador do próprio vanilla (<code>.dat</code>).\n* <code>JSON</code>: cada jogador também é salvo em <code>&lt;world&gt;/dragonminez/playerdata_json/&lt;uuid&gt;.json</code>.\n* <code>DATABASE</code>: cada jogador também é salvo em um banco de dados MariaDB (<code>jdbc:mariadb</code>), usando <code>host</code>, <code>port</code>, <code>database</code>, <code>table</code>, <code>username</code> e <code>password</code>.\n* O save vanilla <code>.dat</code> é '''sempre''' gravado. Com <code>JSON</code> ou <code>DATABASE</code>, o armazenamento extra é carregado ao entrar e sobrescreve os valores vanilla; ele é salvo ao sair e a cada 5 minutos.",
+  "outdated": false
+ },
+ "540": {
+  "source": "If the database fails",
+  "translation": "Se o banco de dados falhar",
+  "outdated": false
+ },
+ "541": {
+  "source": "If the database connection fails, DMZ does '''not''' switch to another backend: it logs the error and player data is only kept in the vanilla <code>.dat</code> save. Check the server log if data doesn't seem to persist.",
+  "translation": "Se a conexão com o banco de dados falhar, o DMZ '''não''' troca para outro backend: ele registra o erro no log e os dados do jogador ficam só no save vanilla <code>.dat</code>. Confira o log do servidor se os dados não parecerem persistir.",
+  "outdated": false
+ },
+ "542": {
+  "source": "Switching backends",
+  "translation": "Trocar de backend",
+  "outdated": false
+ },
+ "543": {
+  "source": "Don't switch <code>storageType</code> on a server with players online. Do it with the server empty, and take a backup first.",
+  "translation": "Não troque o <code>storageType</code> em um servidor com jogadores online. Faça isso com o servidor vazio e faça um backup antes.",
+  "outdated": false
+ },
+ "544": {
+  "source": "== Developer ==",
+  "translation": "== Desenvolvedor ==",
+  "outdated": false
+ },
+ "545": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "546": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "547": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "548": {
+  "source": "On login, shows every player a summary of the JSON files that failed to load (configs, quests, wishes, Dragon Ball packs) and of the default files that were auto-upgraded. The server log has the full details.",
+  "translation": "Ao entrar, mostra a cada jogador um resumo dos arquivos JSON que falharam ao carregar (configurações, missões, desejos, pacotes de Esferas do Dragão) e dos arquivos padrão atualizados automaticamente. O log do servidor tem todos os detalhes.",
+  "outdated": false
+ },
+ "549": {
+  "source": "== Hair ==",
+  "translation": "== Cabelo ==",
+  "outdated": false
+ },
+ "550": {
+  "source": "The <code>hair</code> block sets the limits of the hair editor. The server trims any hair style that exceeds them.",
+  "translation": "O bloco <code>hair</code> define os limites do editor de cabelo. O servidor corta qualquer penteado que passe deles.",
+  "outdated": false
+ },
+ "551": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "552": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "553": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "554": {
+  "source": "Maximum segments per strand (clamped to <code>1</code>–<code>32</code>).",
+  "translation": "Segmentos máximos por mecha (limitado a <code>1</code>–<code>32</code>).",
+  "outdated": false
+ },
+ "555": {
+  "source": "<code>20.0</code> for <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> and <code>ssj4</code>",
+  "translation": "<code>20.0</code> para <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> e <code>ssj4</code>",
+  "outdated": false
+ },
+ "556": {
+  "source": "A map of hair slot to number: the maximum strand length per hair slot (clamped to <code>0.5</code>–<code>128</code>).",
+  "translation": "Um mapa de slot de cabelo para número: o comprimento máximo de mecha por slot de cabelo (limitado a <code>0.5</code>–<code>128</code>).",
+  "outdated": false
+ },
+ "557": {
+  "source": "Maximum strand width (clamped to <code>0.25</code>–<code>16</code>).",
+  "translation": "Largura máxima da mecha (limitada a <code>0.25</code>–<code>16</code>).",
+  "outdated": false
+ },
+ "558": {
+  "source": "Maximum offset of a strand root (clamped to <code>0</code>–<code>4</code>).",
+  "translation": "Deslocamento máximo da raiz de uma mecha (limitado a <code>0</code>–<code>4</code>).",
+  "outdated": false
+ },
+ "559": {
+  "source": "Maximum segments in a whole hair style (clamped to <code>1</code>–<code>2176</code>).",
+  "translation": "Segmentos máximos em um penteado inteiro (limitado a <code>1</code>–<code>2176</code>).",
+  "outdated": false
+ },
+ "560": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "561": {
+  "source": "# Edit <code>config/dragonminez/general-server.json</code>.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code> (or <code>/dmzreload</code>). Single values can also be changed live with <code>/dmzconfig general-server &lt;section&gt; &lt;key&gt; &lt;value&gt;</code>.\n# If the file has a syntax error, DMZ keeps running on the default values, leaves your file untouched and reports the file, line and column in the log (and in chat on login, see the developer section above). Fix it and reload again.",
+  "translation": "# Edite <code>config/dragonminez/general-server.json</code>.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code> (ou <code>/dmzreload</code>). Valores individuais também podem ser alterados ao vivo com <code>/dmzconfig general-server &lt;section&gt; &lt;key&gt; &lt;value&gt;</code>.\n# Se o arquivo tiver um erro de sintaxe, o DMZ continua rodando com os valores padrão, deixa seu arquivo intacto e informa o arquivo, a linha e a coluna no log (e no chat ao entrar; veja a seção de desenvolvedor acima). Corrija e recarregue de novo.",
+  "outdated": false
+ }
+}

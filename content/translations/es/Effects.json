@@ -1,0 +1,432 @@
+{
+ "Page_display_title": {
+  "source": "Effects",
+  "translation": "Efectos",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds its own '''status effects'''. Some are gameplay effects you will notice: combat control, buffs, food and plant boosts, the [[Special:MyLanguage/Majin Mark|Majin Mark]] and the Mutant. The rest are '''internal markers''' the mod uses to track transformations, charging, dashes and cooldowns.",
+  "translation": "DragonMineZ añade sus propios '''efectos de estado'''. Algunos son efectos de juego que notarás: control en combate, mejoras, potenciadores de comida y plantas, el [[Special:MyLanguage/Majin Mark|Sello Majin]] y el Mutante. El resto son '''marcadores internos''' que el mod usa para seguir transformaciones, cargas, dashes y tiempos de recarga.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Admins can give or remove DMZ's three long-term character effects, [[Special:MyLanguage/Fruit of the Tree of Might|Might Fruit]], [[Special:MyLanguage/Majin|Majin]] and [[Special:MyLanguage/Mutant|Mutant]], with <code>/dmzeffect</code> (<code>-1</code> means permanent):",
+  "translation": "Los administradores pueden dar o quitar los tres efectos de personaje de larga duración de DMZ, [[Special:MyLanguage/Fruit of the Tree of Might|Fruto del Poder]], [[Special:MyLanguage/Majin|Majin]] y [[Special:MyLanguage/Mutant|Mutante]], con <code>/dmzeffect</code> (<code>-1</code> significa permanente):",
+  "outdated": false
+ },
+ "4": {
+  "source": "* <code>/dmzeffect give &lt;mightfruit, majin or mutant&gt; &lt;seconds or -1&gt; [targets]</code>\n* <code>/dmzeffect remove &lt;effect&gt; [targets]</code>\n* <code>/dmzeffect clear [targets]</code>",
+  "translation": "* <code>/dmzeffect give &lt;mightfruit, majin or mutant&gt; &lt;seconds or -1&gt; [targets]</code>\n* <code>/dmzeffect remove &lt;effect&gt; [targets]</code>\n* <code>/dmzeffect clear [targets]</code>",
+  "outdated": false
+ },
+ "5": {
+  "source": "<code>/dmzeffect remove</code> also accepts <code>knockout</code>, which removes the K.O. effect and gets a knocked-down player back up. Besides the effects, <code>/dmzeffect clear</code> also removes the God Ritual cooldown and the Ki Transfer effects, and ends a knockdown.",
+  "translation": "<code>/dmzeffect remove</code> también acepta <code>knockout</code>, que quita el efecto K.O. y levanta a un jugador derribado. Además de los efectos, <code>/dmzeffect clear</code> también quita el tiempo de recarga del Ritual Divino y los efectos de Transferencia de ki, y termina un derribo.",
+  "outdated": false
+ },
+ "6": {
+  "source": "The other effects work with the vanilla <code>/effect</code> command, using their id with the <code>dragonminez:</code> prefix. See [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "Los demás efectos funcionan con el comando vanilla <code>/effect</code>, usando su id con el prefijo <code>dragonminez:</code>. Consulta [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Combat control ==",
+  "translation": "== Control en combate ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "9": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "10": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "11": {
+  "source": "Stunned",
+  "translation": "Aturdido",
+  "outdated": false
+ },
+ "12": {
+  "source": "You can't move or act. Applied when your '''guard is broken''' (3 seconds by default), to the loser of a beam clash or a [[Special:MyLanguage/Strike Clash|strike clash]], and by some techniques (for example the Bio-Android's Vital Drain).",
+  "translation": "No puedes moverte ni actuar. Se aplica cuando te '''rompen la guardia''' (3 segundos por defecto), al perdedor de un choque de ondas o de un [[Special:MyLanguage/Strike Clash|choque de golpes]], y con algunas técnicas (por ejemplo, el Drenaje Vital del Bio-Androide).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Staggered",
+  "translation": "Tambaleante",
+  "outdated": false
+ },
+ "14": {
+  "source": "−25% movement and attack speed. Applied for 3 seconds to an attacker whose hit you '''parry'''.",
+  "translation": "−25% de velocidad de movimiento y de ataque. Se aplica durante 3 segundos a un atacante al que le haces '''parry'''.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Ki Slow",
+  "translation": "Ki lento",
+  "outdated": false
+ },
+ "16": {
+  "source": "−90% movement speed for a moment (1.5 seconds) after being hit by a ki attack (not by small ki blasts).",
+  "translation": "−90% de velocidad de movimiento durante un momento (1.5 segundos) después de recibir un ataque de ki (no con ráfagas de ki pequeñas).",
+  "outdated": false
+ },
+ "17": {
+  "source": "Candy",
+  "translation": "Caramelo",
+  "outdated": false
+ },
+ "18": {
+  "source": "The candy beam fired by Majin Buu, [[Special:MyLanguage/Evil Buu|Evil Buu]] and Majuub: the target is turned into candy and left helpless.",
+  "translation": "El rayo caramelo que disparan Majin Buu, [[Special:MyLanguage/Evil Buu|Buu Maligno]] y Majuub: el objetivo se convierte en caramelo y queda indefenso.",
+  "outdated": false
+ },
+ "19": {
+  "source": "K.O.",
+  "translation": "K.O.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Shown while you are '''knocked down''' (see [[Special:MyLanguage/Combat#Knockdowns|Combat]]), with the time left before you get back up. Milk doesn't remove it; removing it with a command gets you back up at once.",
+  "translation": "Se muestra mientras estás '''derribado''' (consulta [[Special:MyLanguage/Combat#Knockdowns|Combate]]), con el tiempo que falta para que te levantes. La leche no lo quita; quitarlo con un comando te levanta al instante.",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Buffs ==",
+  "translation": "== Mejoras ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "23": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "24": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "25": {
+  "source": "Might Fruit",
+  "translation": "Fruto del Poder",
+  "outdated": false
+ },
+ "26": {
+  "source": "The power boost from eating a [[Special:MyLanguage/Fruit of the Tree of Might|Fruit of the Tree of Might]] (×1.2 by default, for 1 minute).",
+  "translation": "El aumento de poder por comer un [[Special:MyLanguage/Fruit of the Tree of Might|Fruto del Árbol del Poder]] (×1.2 por defecto, durante 1 minuto).",
+  "outdated": false
+ },
+ "27": {
+  "source": "TP Multiplier",
+  "translation": "Mult. de TPs",
+  "outdated": false
+ },
+ "28": {
+  "source": "Boosts your '''Training Point''' gain (+25% per level; see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]]).",
+  "translation": "Aumenta tu ganancia de '''Puntos de Entrenamiento''' (+25% por nivel; consulta [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento y maestría]]).",
+  "outdated": false
+ },
+ "29": {
+  "source": "Mastery Multiplier",
+  "translation": "Multiplicador de Maestría",
+  "outdated": false
+ },
+ "30": {
+  "source": "Boosts your '''form mastery''' gain (+25% per level). Also given by the Medi-Bug (Worm) (see [[Special:MyLanguage/Medi-Bugs|Medi-Bugs]]).",
+  "translation": "Aumenta tu ganancia de '''maestría de forma''' (+25% por nivel). También lo da el Medi-Bug (Gusano) (consulta [[Special:MyLanguage/Medi-Bugs|Medi-Bugs]]).",
+  "outdated": false
+ },
+ "31": {
+  "source": "Ki Regeneration",
+  "translation": "Regeneración de Ki",
+  "outdated": false
+ },
+ "32": {
+  "source": "Boosts ki regeneration (+25% per level).",
+  "translation": "Aumenta la regeneración de ki (+25% por nivel).",
+  "outdated": false
+ },
+ "33": {
+  "source": "Stamina Regeneration",
+  "translation": "Regeneración de Stamina",
+  "outdated": false
+ },
+ "34": {
+  "source": "Boosts stamina regeneration (+25% per level).",
+  "translation": "Aumenta la regeneración de stamina (+25% por nivel).",
+  "outdated": false
+ },
+ "35": {
+  "source": "Medi-Bug Shell",
+  "translation": "Caparazón Medi-Bug",
+  "outdated": false
+ },
+ "36": {
+  "source": "From eating a Medi-Bug (Rhino): you take '''30% less damage''' for 45 seconds.",
+  "translation": "Por comer un Medi-Bug (Rinoceronte): recibes '''un 30% menos de daño''' durante 45 segundos.",
+  "outdated": false
+ },
+ "37": {
+  "source": "Kami's Blessing",
+  "translation": "Bendición de Kami",
+  "outdated": false
+ },
+ "38": {
+  "source": "Given by [[Special:MyLanguage/Dende|Dende]] to good-aligned players: '''×1.2 TP gain''' for 5 minutes, with a 30-minute cooldown. It also lets you sense [[Special:MyLanguage/Glind|Glind]] players.",
+  "translation": "Lo da [[Special:MyLanguage/Dende|Dendé]] a los jugadores de buen alineamiento: '''×1.2 de ganancia de TP''' durante 5 minutos, con un tiempo de recarga de 30 minutos. También te permite sentir a los jugadores [[Special:MyLanguage/Glind|Glind]].",
+  "outdated": false
+ },
+ "39": {
+  "source": "Hero of the World",
+  "translation": "Héroe del Mundo",
+  "outdated": false
+ },
+ "40": {
+  "source": "Given to every participant who survives a won '''raid''': '''+25% TP gain''' for 10 minutes (see [[Special:MyLanguage/Raids|Raids]]).",
+  "translation": "Se da a cada participante que sobrevive a una '''incursión''' ganada: '''+25% de ganancia de TP''' durante 10 minutos (consulta [[Special:MyLanguage/Raids|Incursiones]]).",
+  "outdated": false
+ },
+ "41": {
+  "source": "Adrenaline",
+  "translation": "Adrenalina",
+  "outdated": false
+ },
+ "42": {
+  "source": "Shown while a Human's '''Adrenaline''' is active (see [[Special:MyLanguage/Human|Human]]).",
+  "translation": "Se muestra mientras la '''Adrenalina''' de un Humano está activa (consulta [[Special:MyLanguage/Human|Humano]]).",
+  "outdated": false
+ },
+ "43": {
+  "source": "== Plant buffs ==",
+  "translation": "== Mejoras de plantas ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "Eating the farming plants gives a short boost (see [[Special:MyLanguage/Farming|Farming]]). A plant's buff can't be stacked.",
+  "translation": "Comer las plantas de cultivo da una mejora corta (consulta [[Special:MyLanguage/Farming|Cultivos]]). La mejora de una planta no se acumula.",
+  "outdated": false
+ },
+ "45": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "46": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "47": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "48": {
+  "source": "Oozaru Root",
+  "translation": "Raíz de Oozaru",
+  "outdated": false
+ },
+ "49": {
+  "source": "'''+15 STR''' for 15 seconds.",
+  "translation": "'''+15 STR''' durante 15 segundos.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Katchin Sprout",
+  "translation": "Brote de Katchin",
+  "outdated": false
+ },
+ "51": {
+  "source": "'''+15 RES''' for 15 seconds.",
+  "translation": "'''+15 RES''' durante 15 segundos.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Meteor Flower",
+  "translation": "Flor Meteoro",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''+15 SKP''' for 15 seconds.",
+  "translation": "'''+15 SKP''' durante 15 segundos.",
+  "outdated": false
+ },
+ "54": {
+  "source": "Aura Lily",
+  "translation": "Lirio de Aura",
+  "outdated": false
+ },
+ "55": {
+  "source": "'''+15 PWR''' for 15 seconds.",
+  "translation": "'''+15 PWR''' durante 15 segundos.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Hermit's Fern",
+  "translation": "Helecho del Ermitaño",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''+15 VIT''' for 15 seconds.",
+  "translation": "'''+15 VIT''' durante 15 segundos.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Ki Regeneration (Kaioshin Fruit)",
+  "translation": "Regeneración de Ki (Fruta Kaioshin)",
+  "outdated": false
+ },
+ "59": {
+  "source": "Restores '''10% of your max ki every second''' for 5 seconds.",
+  "translation": "Restaura el '''10% de tu ki máximo cada segundo''' durante 5 segundos.",
+  "outdated": false
+ },
+ "60": {
+  "source": "== Raids ==",
+  "translation": "== Incursiones ==",
+  "outdated": false
+ },
+ "61": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "62": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "63": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "64": {
+  "source": "Emperor's Wrath",
+  "translation": "Ira del Emperador",
+  "outdated": false
+ },
+ "65": {
+  "source": "The omen you get after killing a raid scout: when it runs out, a '''raid''' starts around you. Removing it (for example with milk) cancels the omen. See [[Special:MyLanguage/Raids|Raids]].",
+  "translation": "El presagio que recibes después de matar a un explorador de incursión: cuando se acaba, empieza una '''incursión''' a tu alrededor. Quitarlo (por ejemplo, con leche) cancela el presagio. Consulta [[Special:MyLanguage/Raids|Incursiones]].",
+  "outdated": false
+ },
+ "66": {
+  "source": "== Ki Transfer and the God Ritual ==",
+  "translation": "== Transferencia de ki y el Ritual Divino ==",
+  "outdated": false
+ },
+ "67": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "68": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "69": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "70": {
+  "source": "Shared Ki",
+  "translation": "Ki Compartido",
+  "outdated": false
+ },
+ "71": {
+  "source": "Other players are giving you Ki with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: '''+5%''' STR, SKP, DEF and PWR per giver (up to +25%). Its level is the number of givers, and it lingers for a while after they stop.",
+  "translation": "Otros jugadores te están dando Ki con [[Special:MyLanguage/Ki Transfer|Transferencia de ki]]: '''+5%''' de STR, SKP, DEF y PWR por cada donante (hasta +25%). Su nivel es el número de donantes, y dura un rato después de que dejan de dar.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Ki Exhaustion",
+  "translation": "Agotamiento de Ki",
+  "outdated": false
+ },
+ "73": {
+  "source": "You have been giving Ki with Ki Transfer: '''−5%''' STR, SKP, DEF and PWR for every 3 seconds of giving (up to −25%). It lasts while you give, then 5 seconds for every 3 seconds you gave.",
+  "translation": "Has estado dando Ki con Transferencia de ki: '''−5%''' de STR, SKP, DEF y PWR por cada 3 segundos dando (hasta −25%). Dura mientras das, y luego 5 segundos por cada 3 segundos que diste.",
+  "outdated": false
+ },
+ "74": {
+  "source": "God Ritual CD",
+  "translation": "Recarga Ritual Divino",
+  "outdated": false
+ },
+ "75": {
+  "source": "You can't take part in the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: 30 minutes after a successful ritual (for the receiver, after Super Saiyan God ends), or 30 seconds after an interrupted one.",
+  "translation": "No puedes participar en el [[Special:MyLanguage/Super Saiyan God Ritual|Ritual del Super Saiyajin Dios]]: 30 minutos después de un ritual exitoso (para quien lo recibe, después de que termina el Super Saiyajin Dios), o 30 segundos después de uno interrumpido.",
+  "outdated": false
+ },
+ "76": {
+  "source": "== Character effects ==",
+  "translation": "== Efectos de personaje ==",
+  "outdated": false
+ },
+ "77": {
+  "source": "These two effects change your character for a long time and have their own pages.",
+  "translation": "Estos dos efectos cambian a tu personaje durante mucho tiempo y tienen sus propias páginas.",
+  "outdated": false
+ },
+ "78": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "79": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "80": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "81": {
+  "source": "Babidi's mark: a '''permanent power boost''' (×1.3 by default) that also puts the Majin \"M\" on your character.",
+  "translation": "La marca de Babidi: un '''aumento de poder permanente''' (×1.3 por defecto) que además pone la \"M\" Majin en tu personaje.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Marks you as one of the server's rare '''Mutants''', with faster TP and mastery gain and a '''rage meter''' that powers up the Legendary forms.",
+  "translation": "Te marca como uno de los raros '''Mutantes''' del servidor, con una ganancia más rápida de TP y maestría y un '''medidor de furia''' que potencia las formas Legendarias.",
+  "outdated": false
+ },
+ "83": {
+  "source": "== Internal markers ==",
+  "translation": "== Marcadores internos ==",
+  "outdated": false
+ },
+ "84": {
+  "source": "The mod uses these to track state and cooldowns; you normally won't interact with them directly:",
+  "translation": "El mod los usa para seguir estados y tiempos de recarga; normalmente no interactuarás con ellos directamente:",
+  "outdated": false
+ },
+ "85": {
+  "source": "<code>transform</code>, <code>transformed</code>, <code>stack_transform</code>, <code>stack_transformed</code>, <code>kicharge</code>, <code>fly</code>, <code>fused</code>, <code>fusion_cd</code>, <code>saiyan_passive</code> (Zenkai cooldown), <code>bioandroid_passive</code> (Vital Drain cooldown), <code>bioandroid_explode_cd</code> (Self-Destruct cooldown), <code>majin_revive</code> (Revive cooldown), <code>dash_cd</code>, <code>doubledash_cd</code>, <code>teleport_cd</code>, <code>ki_blast_cd</code>, <code>poise_cd</code>.",
+  "translation": "<code>transform</code>, <code>transformed</code>, <code>stack_transform</code>, <code>stack_transformed</code>, <code>kicharge</code>, <code>fly</code>, <code>fused</code>, <code>fusion_cd</code>, <code>saiyan_passive</code> (tiempo de recarga de Zenkai), <code>bioandroid_passive</code> (tiempo de recarga de Drenaje Vital), <code>bioandroid_explode_cd</code> (tiempo de recarga de Autodestrucción), <code>majin_revive</code> (tiempo de recarga de Revivir), <code>dash_cd</code>, <code>doubledash_cd</code>, <code>teleport_cd</code>, <code>ki_blast_cd</code>, <code>poise_cd</code>.",
+  "outdated": false
+ }
+}

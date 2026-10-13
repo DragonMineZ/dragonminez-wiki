@@ -1,20 +1,22 @@
 {{Infobox Race
-|quote=<translate>Artificial beings built from the DNA of the most powerful races, designed to be invincible.</translate>
-|Type=<translate>Playable race</translate>
-|Racial skill=<translate>Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate>
-|Forms=<translate>Bio-Evolution (Semi-Perfect, Perfect, Super Perfect, Ultra Perfect), Bio-Corruption (legendary)</translate>
+|quote=<translate><!--T:1--> Artificial beings built from the DNA of the most powerful races, designed to be invincible.</translate>
+|Type=<translate><!--T:2--> Playable race</translate>
+|Racial skill=<translate><!--T:3--> Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate>
+|Forms=<translate><!--T:4--> Bio-Evolution (Semi-Perfect, Perfect, Super Perfect, Ultra Perfect), Bio-Corruption (legendary)</translate>
 |Stack forms={{L|Kaioken}}, {{L|Ultimate}}
-|Strengths=<translate>Drains health and Ki from enemies, a devastating self-destruct, summons Cell Jrs. to fight alongside</translate>
-|Playstyle=<translate>Adaptable fighter whose active ability changes with each evolution</translate>
+|Strengths=<translate><!--T:5--> Drains health and Ki from enemies, a devastating self-destruct, summons Cell Jrs. to fight alongside</translate>
+|Playstyle=<translate><!--T:6--> Adaptable fighter whose active ability changes with each evolution</translate>
 |Fusion={{L|Fusion Dance}}, {{L|Potara Earrings}}, {{L|Medi-Bug Beetles}}
 }}
 <translate>
+<!--T:7-->
 '''Bio-Androids''' are artificially created beings that combine the DNA of the most powerful races. With the ability to absorb other beings and increase their power, they are adaptable and dangerous, designed to be invincible. In DragonMineZ their racial skill, '''Bio-Evolution''', changes with their form: they drain their victims while imperfect, can self-destruct when semi-perfect, and summon '''Cell Jrs.''' once they reach perfection.
 </translate>
 
 <translate>
-== Overview and strengths ==
+== Overview and strengths == <!--T:8-->
 
+<!--T:9-->
 * '''Vital Drain.''' Grab a nearby target, stun it and drain its health, healing yourself and gaining Ki.
 * '''Self-Destruct.''' In the Semi-Perfect form you can explode, dealing enormous damage around you and surviving at 1% health.
 * '''Cell Jr.''' From the Perfect form on, summon up to three Cell Jrs. that fight for you.
@@ -22,33 +24,35 @@
 </translate>
 
 <translate>
-== Racial skill ==
+== Racial skill == <!--T:10-->
 </translate>
 {{Config|General Server Config|racialSkills.bioandroid}}
 <translate>
+<!--T:11-->
 Your active racial skill '''changes with your form''' (Bio-Evolution):
 </translate>
 {| class="wikitable"
-! <translate>Form</translate> !! <translate>Active racial skill</translate>
+! <translate><!--T:12--> Form</translate> !! <translate><!--T:13--> Active racial skill</translate>
 |-
-| <translate>Base (Imperfect)</translate> || <translate>Vital Drain</translate>
+| <translate><!--T:14--> Base (Imperfect)</translate> || <translate><!--T:15--> Vital Drain</translate>
 |-
-| <translate>Semi-Perfect</translate> || <translate>Vital Drain or Self-Destruct (pick one in the '''X''' menu)</translate>
+| <translate><!--T:16--> Semi-Perfect</translate> || <translate><!--T:17--> Vital Drain or Self-Destruct (pick one in the '''X''' menu)</translate>
 |-
-| <translate>Perfect (or any other transformation)</translate> || <translate>Summon Cell Jr.</translate>
+| <translate><!--T:18--> Perfect (or any other transformation)</translate> || <translate><!--T:19--> Summon Cell Jr.</translate>
 |}
 
 {| class="wikitable"
-! <translate>Part</translate> !! <translate>What it does</translate>
+! <translate><!--T:20--> Part</translate> !! <translate><!--T:21--> What it does</translate>
 |-
-| <translate>'''Vital Drain'''</translate> || <translate>Select the racial skill in the '''X''' menu and '''press G''' next to a target within '''3 blocks''': you appear behind it and both of you are stunned for '''6 seconds''' while you drain '''5%''' of its max health per second ('''25%''' in total), healing that much and gaining five times as much Ki. Draining it down to 1 health kills it, granting TP in the Imperfect form. Cooldown: '''180 seconds'''.</translate>
+| <translate><!--T:22--> '''Vital Drain'''</translate> || <translate><!--T:23--> Select the racial skill in the '''X''' menu and '''press G''' next to a target within '''3 blocks''': you appear behind it and both of you are stunned for '''6 seconds''' while you drain '''5%''' of its max health per second ('''25%''' in total), healing that much and gaining five times as much Ki. Draining it down to 1 health kills it, granting TP in the Imperfect form. Cooldown: '''180 seconds'''.</translate>
 |-
-| <translate>'''Self-Destruct'''</translate> || <translate>Semi-Perfect form only. Select '''Self-Destruct''' in the '''X''' menu, '''hold G for 5 seconds''' and release it to explode: everything within '''36 blocks''' takes up to '''500%''' of your max health as damage (less the farther it is), and the terrain is torn apart. You survive at '''1%''' health, knocked down for '''30 seconds''' and unable to heal. Cooldown: '''600 seconds'''.</translate>
+| <translate><!--T:24--> '''Self-Destruct'''</translate> || <translate><!--T:25--> Semi-Perfect form only. Select '''Self-Destruct''' in the '''X''' menu, '''hold G for 5 seconds''' and release it to explode: everything within '''36 blocks''' takes up to '''500%''' of your max health as damage (less the farther it is), and the terrain is torn apart. You survive at '''1%''' health, knocked down for '''30 seconds''' and unable to heal. Cooldown: '''600 seconds'''.</translate>
 |-
-| <translate>'''Cell Jr.'''</translate> || <translate>'''Hold G for 5 seconds''' to summon a Cell Jr. with '''20%''' of your health and damage, up to '''3''' at a time. Each living Cell Jr. lowers your stats by '''10%''', and the slot of a destroyed one recharges in '''240 seconds'''. Press '''Alt + G''' to dismiss them all.</translate>
+| <translate><!--T:26--> '''Cell Jr.'''</translate> || <translate><!--T:27--> '''Hold G for 5 seconds''' to summon a Cell Jr. with '''20%''' of your health and damage, up to '''3''' at a time. Each living Cell Jr. lowers your stats by '''10%''', and the slot of a destroyed one recharges in '''240 seconds'''. Press '''Alt + G''' to dismiss them all.</translate>
 |}
 
 <translate>
+<!--T:28-->
 * '''Cancelling Self-Destruct.''' If you release the charge early, your swollen body takes '''4 seconds''' to settle back, and you can't charge again until it does.
 * '''Vital Drain TP.''' A kill with Vital Drain in the Imperfect form grants TP based on the health you drained.
 * '''Cell Jr. limits.''' A Cell Jr. that strays more than '''64 blocks''' from you disappears, and at most '''30''' Cell Jrs. can be alive on the whole server.
@@ -56,39 +60,42 @@ Your active racial skill '''changes with your form''' (Bio-Evolution):
 </translate>
 
 <translate>
-== Transformations ==
+== Transformations == <!--T:29-->
 </translate>
 {{Main|Transformations}}
 {| class="wikitable"
-! <translate>Group</translate> !! <translate>Form</translate> !! <translate>Level</translate> !! <translate>TP cost</translate> !! <translate>Story requisite</translate> !! <translate>STR / SKP / PWR</translate> !! <translate>DEF</translate> !! <translate>Ki drain</translate>
+! <translate><!--T:30--> Group</translate> !! <translate><!--T:31--> Form</translate> !! <translate><!--T:32--> Level</translate> !! <translate><!--T:33--> TP cost</translate> !! <translate><!--T:34--> Story requisite</translate> !! <translate><!--T:35--> STR / SKP / PWR</translate> !! <translate><!--T:36--> DEF</translate> !! <translate><!--T:37--> Ki drain</translate>
 |-
-| rowspan="4" | <translate>Bio-Evolution</translate> || <translate>Semi-Perfect</translate> || 1 || 26,000 || {{L|Classic Saga}} #46 || 1.85 || 1.575 || —
+| rowspan="4" | <translate><!--T:38--> Bio-Evolution</translate> || <translate><!--T:39--> Semi-Perfect</translate> || 1 || 26,000 || {{L|Classic Saga}} #46 || 1.85 || 1.575 || —
 |-
-| <translate>Perfect</translate> || 2 || 57,000 || {{L|Frieza Saga}} #5 || 2.6 || 2.225 || —
+| <translate><!--T:40--> Perfect</translate> || 2 || 57,000 || {{L|Frieza Saga}} #5 || 2.6 || 2.225 || —
 |-
-| <translate>Super Perfect</translate> || 3 || 88,000 || {{L|Buu Saga}} #1 || 3.35 || 2.65 || 0.293
+| <translate><!--T:41--> Super Perfect</translate> || 3 || 88,000 || {{L|Buu Saga}} #1 || 3.35 || 2.65 || 0.293
 |-
-| <translate>Ultra Perfect</translate> || 4 || 125,000 || {{L|Buu Saga}} #35 || 4.9 || 3.6875 || 0.62
+| <translate><!--T:42--> Ultra Perfect</translate> || 4 || 125,000 || {{L|Buu Saga}} #35 || 4.9 || 3.6875 || 0.62
 |-
-| rowspan="3" | <translate>Bio-Corruption (legendary)</translate> || <translate>Xeno</translate> || 1 || — || — || 3.9 || 2.9375 || 0.118
+| rowspan="3" | <translate><!--T:43--> Bio-Corruption (legendary)</translate> || <translate><!--T:44--> Xeno</translate> || 1 || — || — || 3.9 || 2.9375 || 0.118
 |-
-| <translate>Xeno Full Power</translate> || 2 || — || — || 4.9 || 3.6625 || 0.354
+| <translate><!--T:45--> Xeno Full Power</translate> || 2 || — || — || 4.9 || 3.6625 || 0.354
 |-
-| <translate>Xeno Max</translate> || 3 || — || — || 5.7 || 4.0875 || 0.525
+| <translate><!--T:46--> Xeno Max</translate> || 3 || — || — || 5.7 || 4.0875 || 0.525
 |}
 
 <translate>
+<!--T:47-->
 ''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick ("—" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
 
+<!--T:48-->
 * '''Ultra Perfect''' is the Bio-Android top tier: the strongest Bio-Android form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. It also slows you down (×0.6 speed) and makes each attack cost 3.5 times as much stamina.
 * The '''Bio-Corruption''' group is the Bio-Android Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
 </translate>
 
 <translate>
-== Appearance ==
+== Appearance == <!--T:49-->
 </translate>
 {{Main|Character Customization}}
 <translate>
+<!--T:50-->
 * '''Hair:''' no; Bio-Androids have no head parts. The '''hair color''' picker becomes a fourth body color that tints part of the body.
 * '''Gender:''' no.
 * '''Body types:''' 6 (<code>base_0</code> to <code>base_5</code>), with body type 0 as the default.
@@ -97,9 +104,10 @@ Your active racial skill '''changes with your form''' (Bio-Evolution):
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:51-->
 </translate>
 <translate>
+<!--T:52-->
 Vital Drain, Self-Destruct and Cell Jr. are tuned in the <code>bioandroid</code> section of <code>racialSkills</code> in <code>general-server.json</code>. Server owners can also make the explosion kill its user (<code>explodeKillsUser</code>). The Super Forms TP ladder is in <code>races/bioandroid/character.json</code>, and each form's values are in its form file.
 </translate>
 {{See also|General Server Config|Custom Races|Custom Forms}}

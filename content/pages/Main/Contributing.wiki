@@ -1,11 +1,13 @@
 <translate>
+<!--T:1-->
 '''Contributing''' explains how to help DragonMineZ: reporting bugs, testing releases, suggesting features, improving documentation or working on the code. Whatever you want to do, the team is happy to collaborate with you. Please follow these guidelines so the process stays smooth for every contributor. If you want to donate to the project, see [[Special:MyLanguage/Contributing#Supporting the project on Patreon|Supporting the project on Patreon]].
 </translate>
 
 <translate>
-== Getting started ==
+== Getting started == <!--T:2-->
 </translate>
 <translate>
+<!--T:3-->
 # '''Read the Code of Conduct.''' By contributing, you agree to uphold the [https://github.com/DragonMineZ/DragonMineZ/blob/main/.github/CODE_OF_CONDUCT.md Code of Conduct].
 # '''Check the existing issues.''' Look through the [https://github.com/orgs/DragonMineZ/projects/5 issues] to see if someone has already reported your concern or proposed your idea.
 # '''Fork the repository''' and clone your fork to your local environment for testing and development (see below).
@@ -13,6 +15,7 @@
 </translate>
 
 <translate>
+<!--T:4-->
 To clone your fork:
 </translate>
 
@@ -21,66 +24,75 @@ git clone https://github.com/your-username/DragonMineZ.git
 </syntaxhighlight>
 
 <translate>
+<!--T:5-->
 Make sure you have these tools installed:
 </translate>
 <translate>
+<!--T:6-->
 * Java Development Kit (JDK) 17 (the build uses a Java 17 toolchain)
 * Git
 * An IDE with Gradle support (IntelliJ IDEA or Eclipse)
 </translate>
 <translate>
+<!--T:7-->
 You don't need to install Gradle or Forge yourself: the repository ships the Gradle wrapper (<code>gradlew</code> / <code>gradlew.bat</code>), which downloads Gradle, Minecraft Forge (<code>1.20.1-47.4.10</code>) and every dependency on the first build.
 </translate>
 
 <translate>
+<!--T:8-->
 If you are not forking the repository or creating an add-on, you can skip step 3. For add-on development, see [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]] instead.
 </translate>
 
 <translate>
-== Building and running ==
+== Building and running == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 Run these commands from the repository root (<code>./gradlew</code> on Linux and macOS, <code>.\gradlew.bat</code> on Windows):
 </translate>
 
 {| class="wikitable"
-! <translate>Command</translate> !! <translate>What it does</translate>
+! <translate><!--T:11--> Command</translate> !! <translate><!--T:12--> What it does</translate>
 |-
-| <code>./gradlew build</code> || <translate>Full build. The shippable jar is <code>build/libs/dragonminez-<version>.jar</code> (it bundles the database libraries); the <code>-slim</code> jar is not meant to be shipped.</translate>
+| <code>./gradlew build</code> || <translate><!--T:13--> Full build. The shippable jar is <code>build/libs/dragonminez-<version>.jar</code> (it bundles the database libraries); the <code>-slim</code> jar is not meant to be shipped.</translate>
 |-
-| <code>./gradlew runClient</code> || <translate>Starts a development client (working directory <code>run/</code>).</translate>
+| <code>./gradlew runClient</code> || <translate><!--T:14--> Starts a development client (working directory <code>run/</code>).</translate>
 |-
-| <code>./gradlew runServer</code> || <translate>Starts a development dedicated server (working directory <code>run/</code>).</translate>
+| <code>./gradlew runServer</code> || <translate><!--T:15--> Starts a development dedicated server (working directory <code>run/</code>).</translate>
 |-
-| <code>./gradlew runData</code> || <translate>Runs data generation (working directory <code>run-data/</code>) and writes to <code>src/generated/resources/</code>. Run it after changing datagen providers, and review the generated diff.</translate>
+| <code>./gradlew runData</code> || <translate><!--T:16--> Runs data generation (working directory <code>run-data/</code>) and writes to <code>src/generated/resources/</code>. Run it after changing datagen providers, and review the generated diff.</translate>
 |}
 
 <translate>
+<!--T:17-->
 * There is '''no automated test suite'''. Validate your change with <code>build</code> and, when it affects gameplay, by testing it in <code>runClient</code> and/or <code>runServer</code>.
 * Client-only development mods (JEI runtime, shaders and so on) are only added to <code>runClient</code>. Keep it that way, so they can't leak into generated data or the dedicated server.
 * Resource optimization (PackSquash) runs on CI and is off for local builds by default. Force it with <code>-PoptimizeResources=true</code> or <code>-PoptimizeResources=false</code>.
 </translate>
 
 <translate>
-== Translations ==
+== Translations == <!--T:18-->
 </translate>
 <translate>
+<!--T:19-->
 * <code>src/main/resources/assets/dragonminez/lang/en_us.json</code> is the source language file. Add an entry there for every new piece of text players can see, and keep existing keys stable.
 * Other languages are translated by the community on Crowdin. The English file is uploaded to Crowdin automatically when it changes on <code>main</code>.
 * Before opening a pull request, check that every language file is valid JSON with <code>scripts/check_lang.sh</code> (it needs <code>jq</code>).
 </translate>
 
 <translate>
-== How to contribute ==
+== How to contribute == <!--T:20-->
 </translate>
 
 <translate>
-=== Reporting bugs ===
+=== Reporting bugs === <!--T:21-->
 </translate>
 <translate>
+<!--T:22-->
 If you have found a bug, open a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml bug report] and include as much detail as possible:
 </translate>
 <translate>
+<!--T:23-->
 * A clear description of the issue
 * Steps to reproduce it
 * Expected and actual results
@@ -88,36 +100,42 @@ If you have found a bug, open a [https://github.com/DragonMineZ/DragonMineZ/issu
 </translate>
 
 <translate>
-=== Game testing ===
+=== Game testing === <!--T:24-->
 </translate>
 <translate>
+<!--T:25-->
 Anyone is free to test the public releases and share what they find with the team: bugs, exploits, balance issues, crashes or anything else that seems off. You don't need to be a developer or open a pull request to help this way.
 </translate>
 <translate>
+<!--T:26-->
 * Test against '''public releases only'''. Do not test against unreleased or internal builds unless you have been given explicit access.
 * Share your findings in a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml bug report] or on Discord.
 * If what you find is a '''security vulnerability''' (for example, something that could be exploited to harm other players or servers), follow the [[Special:MyLanguage/Security Policy|Security Policy]] instead of opening a public issue.
 </translate>
 
 <translate>
-=== Suggesting features ===
+=== Suggesting features === <!--T:27-->
 </translate>
 <translate>
+<!--T:28-->
 Have a great idea? Open a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=feature_request.yml feature request] and provide:
 </translate>
 <translate>
+<!--T:29-->
 * A clear and concise explanation of the feature
 * Its potential benefits and impact
 * Any alternatives or related concepts
 </translate>
 <translate>
+<!--T:30-->
 You can also suggest features on the Discord server.
 </translate>
 
 <translate>
-=== Submitting pull requests ===
+=== Submitting pull requests === <!--T:31-->
 </translate>
 <translate>
+<!--T:32-->
 '''Step 1: Create a branch.''' <code>main</code> holds the current stable release line; the next version is developed on its own version branch (for example <code>v2.2</code>). Base your branch on the one your change is meant for; if you are unsure, ask on Discord. Use a descriptive branch name:
 </translate>
 
@@ -126,15 +144,18 @@ git checkout -b fix/short-description
 </syntaxhighlight>
 
 <translate>
+<!--T:33-->
 '''Step 2: Make your changes.'''
 </translate>
 <translate>
+<!--T:34-->
 * Write clean and concise code.
 * Test your changes locally to make sure they work as intended.
 * Follow the project's coding conventions and standards.
 </translate>
 
 <translate>
+<!--T:35-->
 '''Step 3: Commit your changes''' with a meaningful commit message:
 </translate>
 
@@ -143,6 +164,7 @@ git commit -m "Fix: Resolved issue with XYZ feature"
 </syntaxhighlight>
 
 <translate>
+<!--T:36-->
 '''Step 4: Push your changes.'''
 </translate>
 
@@ -151,38 +173,42 @@ git push origin fix/short-description
 </syntaxhighlight>
 
 <translate>
+<!--T:37-->
 '''Step 5: Open a pull request.''' Go to your fork on GitHub and submit a [https://github.com/DragonMineZ/DragonMineZ/pulls pull request].
 </translate>
 <translate>
+<!--T:38-->
 * Describe the changes and link the related issues.
 * Be prepared to discuss and revise your code based on feedback.
 * Every pull request is compiled automatically by the '''Compile Check''' workflow (<code>./gradlew build</code>). If it fails, your pull request will not be merged. Workflow runs for first-time contributors may need a maintainer's approval before they start.
 </translate>
 
 <translate>
-=== Automated checks ===
+=== Automated checks === <!--T:39-->
 </translate>
 
 {| class="wikitable"
-! <translate>Workflow</translate> !! <translate>When it runs</translate> !! <translate>What it does</translate>
+! <translate><!--T:40--> Workflow</translate> !! <translate><!--T:41--> When it runs</translate> !! <translate><!--T:42--> What it does</translate>
 |-
-| Compile Check || <translate>Every pull request, and pushes to any branch except <code>main</code> that touch code, resources or Gradle files</translate> || <translate>Runs <code>./gradlew build</code></translate>
+| Compile Check || <translate><!--T:43--> Every pull request, and pushes to any branch except <code>main</code> that touch code, resources or Gradle files</translate> || <translate><!--T:44--> Runs <code>./gradlew build</code></translate>
 |-
-| Java CI || <translate>Pull requests and pushes to <code>main</code> that touch Java or <code>build.gradle.kts</code></translate> || <translate>Runs <code>./gradlew build</code> and submits the dependency graph</translate>
+| Java CI || <translate><!--T:45--> Pull requests and pushes to <code>main</code> that touch Java or <code>build.gradle.kts</code></translate> || <translate><!--T:46--> Runs <code>./gradlew build</code> and submits the dependency graph</translate>
 |-
-| Crowdin Check & Upload || <translate>Pushes to <code>main</code> that touch the lang folder, every 2 days, or manually</translate> || <translate>Validates the language files with <code>scripts/check_lang.sh</code> and uploads <code>en_us.json</code> to Crowdin</translate>
+| Crowdin Check & Upload || <translate><!--T:47--> Pushes to <code>main</code> that touch the lang folder, every 2 days, or manually</translate> || <translate><!--T:48--> Validates the language files with <code>scripts/check_lang.sh</code> and uploads <code>en_us.json</code> to Crowdin</translate>
 |-
-| CodeQL || <translate>Daily</translate> || <translate>Security analysis of the Java code and the workflows</translate>
+| CodeQL || <translate><!--T:49--> Daily</translate> || <translate><!--T:50--> Security analysis of the Java code and the workflows</translate>
 |}
 
 <translate>
+<!--T:51-->
 Releases are published to Modrinth and CurseForge from <code>main</code> by the maintainers' release workflows.
 </translate>
 
 <translate>
-== Contributor guidelines ==
+== Contributor guidelines == <!--T:52-->
 </translate>
 <translate>
+<!--T:53-->
 # '''Coding standards'''
 #* Use descriptive variable and method names.
 #* Format code consistently (indentation, spacing and so on).
@@ -202,41 +228,48 @@ Releases are published to Modrinth and CurseForge from <code>main</code> by the 
 </translate>
 
 <translate>
-== Community ==
+== Community == <!--T:54-->
 </translate>
 <translate>
+<!--T:55-->
 Join the [https://discord.gg/b5MgRNb3D7 Discord server] for real-time discussions.
 </translate>
 
 <translate>
-== Supporting the project on Patreon ==
+== Supporting the project on Patreon == <!--T:56-->
 </translate>
 <translate>
+<!--T:57-->
 DragonMineZ is a community-driven project, and your support helps the team keep improving it and delivering new features. Consider becoming a patron on [https://patreon.com/DragonMineZ Patreon] to support the development and maintenance of the mod.
 </translate>
 <translate>
+<!--T:58-->
 Patrons receive exclusive benefits, such as:
 </translate>
 <translate>
+<!--T:59-->
 * Early access to new features
 * Behind-the-scenes updates
 * Recognition in the community
 </translate>
 <translate>
+<!--T:60-->
 Every contribution, no matter how small, helps DragonMineZ keep improving.
 </translate>
 
 <translate>
-== Licensing ==
+== Licensing == <!--T:61-->
 </translate>
 <translate>
+<!--T:62-->
 By contributing, you agree that your contributions will be licensed under the same [https://github.com/DragonMineZ/DragonMineZ/blob/main/LICENSE license] that governs the project.
 </translate>
 
 <translate>
-== Thank you ==
+== Thank you == <!--T:63-->
 </translate>
 <translate>
+<!--T:64-->
 The team is excited to see your contributions and ideas. If you have any questions or need help, reach out to the team.
 </translate>
 

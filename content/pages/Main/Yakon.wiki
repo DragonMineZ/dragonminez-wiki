@@ -1,0 +1,49 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Otherworld}}, {{L|Earth}}
+|Spawns={{L|Otherworld Tournament}}, {{L|Buu Saga}}, {{L|GT Saga}}
+|Behavior=<translate><!--T:2--> Flies; Smart or Elite AI in the tournament</translate>
+|Abilities=<translate><!--T:3--> Drains ki and cancels transformations on every hit</translate>
+|Drops=<translate><!--T:4--> None</translate>
+}}
+<translate>
+<!--T:5-->
+'''Yakon''' is the second of [[Special:MyLanguage/Babidi|Babidi]]'s guards in the [[Special:MyLanguage/Buu Saga|Buu Saga]], fought at [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], and a possible contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. He is a big, pure melee fighter, and every punch he lands drains your ki and knocks you out of your transformation.
+</translate>
+
+<translate>
+== In the tournament == <!--T:6-->
+
+<!--T:7-->
+Yakon is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. Like every contender, he is drawn at random and revealed once everybody accepts the rules.
+
+<!--T:8-->
+His stats come from the [[Special:MyLanguage/Tournaments#Configuration|contender entry]] that drew him: by default between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, on the Smart AI tier for the four weakest entries and Elite for the other five. He gets 8% stronger for every round already played.
+
+<!--T:9-->
+Hover him on the tournament screen to see his stats.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+Yakon is half again as big as a normal fighter. He flies, but he has no ki attacks, no combos, no [[Special:MyLanguage/Sagas#Enemy AI tiers|Zanzoken]] and no teleport: everything he does is melee.
+
+<!--T:12-->
+* Each melee hit he lands on you drains '''3% of your maximum ki'''.
+* If you are transformed when he hits you, you drop out of your form and out of any stack form such as [[Special:MyLanguage/Kaioken|Kaioken]], and Yakon takes a small amount of damage himself.
+</translate>
+
+<translate>
+== In the story == <!--T:13-->
+
+<!--T:14-->
+* [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 12, '''Babidi's Guard: Yakon''': defeat him at [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]].
+* [[Special:MyLanguage/GT Saga|GT Saga]] quest 25, '''Hell's Escapees''': he is one of the five villains you defeat in the [[Special:MyLanguage/Otherworld|Otherworld]], together with [[Special:MyLanguage/Pui Pui|Pui Pui]].
+</translate>
+
+{{Note|type=config|title=<translate><!--T:15--> Entity id</translate>|<code>dragonminez:saga_yakon</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

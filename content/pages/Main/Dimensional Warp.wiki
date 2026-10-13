@@ -1,43 +1,50 @@
 {{Infobox Technique
-|quote=<translate>Tear through space and strike from behind.</translate>
-|Type=<translate>Evasion technique</translate>
-|Taught by=<translate>None by default (dropped by {{L|Janemba}})</translate>
-|Races=<translate>All</translate>
-|Damage=<translate>None</translate>
-|Cooldown=<translate>4 seconds</translate>
-|Charge time=<translate>Instant</translate>
-|Range=<translate>64 blocks (locked-on target)</translate>
+|quote=<translate><!--T:1--> Tear through space and strike from behind.</translate>
+|Type=<translate><!--T:2--> Evasion technique</translate>
+|Taught by=<translate><!--T:3--> None by default (dropped by {{L|Janemba}})</translate>
+|Races=<translate><!--T:4--> All</translate>
+|Damage=<translate><!--T:5--> None</translate>
+|Cooldown=<translate><!--T:6--> 4 seconds</translate>
+|Charge time=<translate><!--T:7--> Instant</translate>
+|Range=<translate><!--T:8--> 64 blocks (locked-on target)</translate>
 }}
 <translate>
+<!--T:9-->
 '''Dimensional Warp''' is an evasion technique that teleports you behind your locked-on target, even from far away. It is one of the rewards of the [[Special:MyLanguage/Janemba|Janemba]] world boss, and its short cooldown makes it one of the most mobile techniques in the game.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:10-->
 
+<!--T:11-->
 No master teaches Dimensional Warp by default. It has a '''20%''' chance to drop from the [[Special:MyLanguage/Janemba|Janemba]] world boss (the server default; see [[Special:MyLanguage/World Bosses|World Bosses]]). Server owners can also add it to a master's list, where it costs '''12,000 TP''', and admins can grant it with {{Command|/dmztech add}}.
 
+<!--T:12-->
 Like every evasion technique, it needs [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and it must be equipped in a technique slot.
 </translate>
 
 <translate>
-== How it works ==
+== How it works == <!--T:13-->
 
+<!--T:14-->
 * '''With a locked-on target within 64 blocks''', you teleport right behind it.
 * '''Without a target''', you teleport a few blocks forward.
 
+<!--T:15-->
 Lock on with {{Key|Z}}; your lock-on range depends on [[Special:MyLanguage/Ki Sense|Ki Sense]]. After using it, all your evasion techniques share a short lockout (the technique's duration + 3 seconds).
 </translate>
 
 <translate>
-== Upgrades ==
+== Upgrades == <!--T:16-->
 
+<!--T:17-->
 Dimensional Warp gains experience every time you use it. Spend it in the Skills menu on '''duration''' (+2.5% per level, up to +50%) and '''cooldown'''.
 </translate>
 
 <translate>
-== Notes ==
+== Notes == <!--T:18-->
 
+<!--T:19-->
 * [[Special:MyLanguage/Afterimage|Afterimage]] works in a similar way, but only reaches targets within 24 blocks.
 </translate>
 

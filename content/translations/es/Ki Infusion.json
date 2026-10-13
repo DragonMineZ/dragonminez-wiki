@@ -1,0 +1,82 @@
+{
+ "Page_display_title": {
+  "source": "Ki Infusion",
+  "translation": "Infusión de Ki",
+  "outdated": false
+ },
+ "1": {
+  "source": "Every blow carries a part of your ki.",
+  "translation": "Cada golpe lleva una parte de tu ki.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Passive combat ability",
+  "translation": "Habilidad pasiva de combate",
+  "outdated": false
+ },
+ "3": {
+  "source": "600 to 4,000 TP per level",
+  "translation": "De 600 a 4,000 TP por nivel",
+  "outdated": false
+ },
+ "4": {
+  "source": "Bonus melee damage equal to 2.5% of your max Ki per level, paid with Ki on every hit.",
+  "translation": "Daño cuerpo a cuerpo extra igual al 2.5% de tu Ki máximo por nivel, pagado con Ki en cada golpe.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Ki Infusion''' infuses your fists and weapons with ki. While it is switched on, every melee hit deals bonus damage based on your maximum Ki and spends part of your Ki to do it, which makes it a strong choice for characters with a large Ki pool.",
+  "translation": "La '''Infusión de Ki''' imbuye de ki tus puños y armas. Mientras está activada, cada golpe cuerpo a cuerpo hace daño extra según tu Ki máximo y gasta parte de tu Ki para hacerlo, lo que la convierte en una gran opción para personajes con una gran reserva de Ki.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Old Kai|Old Kai]] (Good alignment), [[Special:MyLanguage/Yamcha|Yamcha]] (no alignment requirement) and [[Special:MyLanguage/Cell|Cell]] (Evil alignment) teach Ki Infusion.",
+  "translation": "El [[Special:MyLanguage/Old Kai|Kaioshin Anciano]] (alineamiento Bueno), [[Special:MyLanguage/Yamcha|Yamcha]] (sin requisito de alineamiento) y [[Special:MyLanguage/Cell|Cell]] (alineamiento Maligno) enseñan la Infusión de Ki.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "== How it works ==",
+  "translation": "== Cómo funciona ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Switch Ki Infusion on in the Utility Menu ({{Key|X}}) under '''Actions → Ki Actions'''. While it is on:",
+  "translation": "Activa la Infusión de Ki en el Menú de utilidades ({{Key|X}}) en '''Acciones → Acciones de Ki'''. Mientras está activa:",
+  "outdated": false
+ },
+ "12": {
+  "source": "* every melee hit deals bonus damage equal to '''2.5% of your max Ki per level''' (up to +25% at level 10);\n* every hit costs '''2.5% of your max Ki at level 1''', rising to '''7.5% at level 10''';\n* the bonus only triggers if you have enough Ki to pay for it.",
+  "translation": "* cada golpe cuerpo a cuerpo hace daño extra igual al '''2.5% de tu Ki máximo por nivel''' (hasta +25% en el nivel 10);\n* cada golpe cuesta el '''2.5% de tu Ki máximo en el nivel 1''', y sube hasta el '''7.5% en el nivel 10''';\n* la bonificación solo se activa si tienes suficiente Ki para pagarla.",
+  "outdated": false
+ },
+ "13": {
+  "source": "These percentages are the server defaults.",
+  "translation": "Estos porcentajes son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "* Ki Infusion pairs naturally with [[Special:MyLanguage/Ki Protection|Ki Protection]], which spends Ki on defense instead of offense; both are toggled from the same menu.\n* For damage that scales with Ki Damage instead of max Ki, see the ki weapons of [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]].",
+  "translation": "* La Infusión de Ki combina de forma natural con la [[Special:MyLanguage/Ki Protection|Protección de Ki]], que gasta Ki en defensa en lugar de en ataque; ambas se activan desde el mismo menú.\n* Para un daño que escala con el Daño de ki en lugar del Ki máximo, consulta las armas de ki de la [[Special:MyLanguage/Ki Manipulation|Manipulación de Ki]].",
+  "outdated": false
+ }
+}

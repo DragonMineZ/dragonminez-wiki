@@ -1,31 +1,43 @@
 {{Infobox Mob
-|Type=<translate>Predator, wild enemy</translate>
+|Type=<translate><!--T:1--> Predator, wild enemy</translate>
 |Dimension={{L|Earth}}
-|Spawns=<translate>Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions</translate>
-|Behavior=<translate>Aggressive: attacks players, villagers and other animals on sight</translate>
+|Spawns=<translate><!--T:2--> Savanna, forest and jungle biomes, and biomes with plains or savanna villages or woodland mansions</translate>
+|Behavior=<translate><!--T:3--> Aggressive: attacks players, villagers and other animals on sight</translate>
 |Health=30
 |Damage=5
-|Drops=<translate>1–2 Raw Beef (Steak if on fire)</translate>
+|Drops=<translate><!--T:4--> 1–2 Raw Beef (Steak if on fire)</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Sabertooth Tiger''' is an aggressive predator of [[Special:MyLanguage/Earth|Earth]]'s forests, savannas and jungles. It attacks players, villagers and other animals on sight, and comes in three coat variants.
 </translate>
 
 <translate>
-== Spawning ==
+== Spawning == <!--T:6-->
 
+<!--T:7-->
 Sabertooth Tigers spawn in savanna, forest and jungle biomes, and in biomes with plains or savanna villages or woodland mansions (spawn weight 18, groups of 1–2). They share this spawn table with the [[Special:MyLanguage/Bandit|Bandit]].
 
+<!--T:8-->
 The tiger is a '''wild enemy''': it spawns under open sky, day or night, but never where light from torches and other blocks reaches. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]].
 </translate>
 
 <translate>
-== Drops ==
+== Drops == <!--T:9-->
 
+<!--T:10-->
 * 1–2 '''Raw Beef''' (cooks to Steak if on fire, +0–1 Looting)
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:sabertooth</code>}}
+<translate>
+== Gallery == <!--T:12-->
+</translate>
+<gallery>
+File:Sabertooth Tiger (Variant 1).png|<translate><!--T:13--> Variant 2</translate>
+File:Sabertooth Tiger (Variant 2).png|<translate><!--T:14--> Variant 3</translate>
+</gallery>
+
+{{Note|type=config|title=<translate><!--T:11--> Entity id</translate>|<code>dragonminez:sabertooth</code>}}
 
 {{Navbox Bestiary}}
 [[Category:Wildlife{{#translation:}}]]

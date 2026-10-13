@@ -1,25 +1,28 @@
 {{Infobox Master
-|Location={{L|Earth}}, <translate>near the world spawn</translate>
+|Location={{L|Earth}}, <translate><!--T:1--> near the world spawn</translate>
 |Structure={{L|Kami's Lookout}}
-|Alignment=<translate>None (Kami's Blessing needs Good alignment)</translate>
+|Alignment=<translate><!--T:2--> None (Kami's Blessing needs Good alignment)</translate>
 |Locate=/dmzlocate kamilookout
-|Services=<translate>Heal, Reset Stats, Grow/Remove Tail, Kami's Blessing</translate>
+|Services=<translate><!--T:3--> Heal, Reset Stats, Grow/Remove Tail, Kami's Blessing</translate>
 }}
 <translate>
+<!--T:4-->
 '''Dende''' is the guardian of [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] on [[Special:MyLanguage/Earth|Earth]]. He teaches no skills; instead he offers healing, a full character reset, Saiyan tails and Kami's Blessing, a Training Point boost for Good-aligned players.
 </translate>
 
 <translate>
-== Location ==
+== Location == <!--T:5-->
 </translate>
 <translate>
+<!--T:6-->
 Dende lives at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the world spawn, together with [[Special:MyLanguage/Korin|Korin]] and [[Special:MyLanguage/Mr. Popo|Mr. Popo]]. Capsule Corp Assistants sell a map to it at trade tier 3 (see [[Special:MyLanguage/Kami's Lookout#Finding it|Kami's Lookout]]).
 </translate>
 
 <translate>
-== Services ==
+== Services == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 * '''Heal''': heals you. Like every healing service, it's locked when you're already at full health and doesn't work while you're knocked out after a temporary revive.
 * '''Reset Stats''': a full character reset. Dende asks for confirmation first, and the window closes afterwards.
 * '''Grow Tail''' / '''Remove Tail''': only for races with a Saiyan tail.
@@ -28,19 +31,21 @@ Dende lives at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], near the wo
 
 {{Config|General Server Config|kamiBlessTpMultiplier}}
 <translate>
+<!--T:9-->
 The blessing's multiplier, duration and cooldown are server defaults.
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:10-->
 </translate>
 <translate>
+<!--T:11-->
 * [[Special:MyLanguage/Android Saga|Android Saga]] quest 21, ''A New Guardian'': find Kami's Lookout and talk to Dende.
 * [[Special:MyLanguage/Movies Saga|Movies Saga]] quest 1, ''Kami's Lookout Warning'': find Kami's Lookout and talk to Dende.
 </translate>
 
 <translate>
-== Side quests ==
+== Side quests == <!--T:12-->
 </translate>
 {{Main|Sidequests}}
 {{#invoke:Sidequests|giver|dende}}

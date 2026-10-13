@@ -1,0 +1,18 @@
+<translate>
+<!--T:1-->
+Type the name of any item you can make in '''DragonMineZ''' and pick it from the list to see its '''full crafting tree''': the recipe of the item, the recipe of every ingredient that is crafted too, each one at its own station, and the base materials you need in total. Item names follow the language of this page.
+</translate>
+{{#invoke:Recipes|finder}}
+
+<translate>
+== Reading the tree == <!--T:2-->
+
+<!--T:3-->
+* Hover over a slot to see the item's name, and click it to open its page.
+* Slots that accept several items, such as any seeds or any fuel, cycle through them.
+* The item you search for shows all its recipes. Its ingredients show the most direct one.
+* Armor pieces are made at Dr. Kikono's Station from the pattern of their set (see [[Special:MyLanguage/Armor|Armor]]).
+* The recipes come straight from the mod's files, so they always match the current version.
+</translate>
+
+{{Navbox Items}}

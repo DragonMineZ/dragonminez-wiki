@@ -1,48 +1,63 @@
 {{Infobox Fusion
-|quote=<translate>Two earrings, one warrior.</translate>
-|Method=<translate>Earrings (Pothala)</translate>
-|Requirements=<translate>A matching pair of earrings, one worn by each player</translate>
-|Duration=<translate>The full server duration (15 minutes by default)</translate>
-|Item=<translate>Pair of Pothalas (yellow) or Pair of Green Pothalas</translate>
-|Result=<translate>Bonus STR, SKP and PWR, ×1.75 to ×2.5</translate>
-|Ending=<translate>The earrings break when the timer runs out</translate>
+|quote=<translate><!--T:1--> Two earrings, one warrior.</translate>
+|Method=<translate><!--T:2--> Earrings (Pothala)</translate>
+|Requirements=<translate><!--T:3--> A matching pair of earrings, one worn by each player</translate>
+|Duration=<translate><!--T:4--> The full server duration (15 minutes by default)</translate>
+|Item=<translate><!--T:5--> Pair of Pothalas (yellow) or Pair of Green Pothalas</translate>
+|Result=<translate><!--T:6--> Bonus STR, SKP and PWR, ×1.75 to ×2.5</translate>
+|Ending=<translate><!--T:7--> The earrings break when the timer runs out</translate>
 }}
 <translate>
+<!--T:8-->
 The '''Potara Earrings''' (Pothala) are the earring fusion. They ignore the race and stat-gap rules of the [[Special:MyLanguage/Fusion Dance|Fusion Dance]] and give a '''stronger''' fusion, but the earrings only come from a wish to [[Special:MyLanguage/Porunga|Porunga]] and they break when the fusion ends.
 </translate>
 
 <translate>
-== Getting the earrings ==
+== Getting the earrings == <!--T:9-->
 
+<!--T:10-->
 * A Porunga wish grants a '''full pair''': '''Potara Earrings (Yellow)''' gives a '''Pair of Pothalas''', and '''Potara Earrings (Green)''' a '''Pair of Green Pothalas'''. You receive them as a single paired item. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].
 * '''Right-click''' the pair to split it into a '''left earring''' and a '''right earring''', both stamped with the same pair ID (shown in the tooltip).
 * Give one earring to each player. Each player equips their earring in the head/tech accessory slot added by Curios (see [[Special:MyLanguage/Items|Items]]).
 
+<!--T:11-->
 The tooltips tell you who will lead: the wearer of the '''right''' earring leads the fusion, and the wearer of the '''left''' earring is the spectator.
 </translate>
 
 <translate>
-== Fusing ==
+== Fusing == <!--T:12-->
 
+<!--T:13-->
 # Both players wear their '''matching earrings''': a left and a right with the same pair ID. Yellow pairs give a yellow fusion aura, green pairs a green one.
 # Simply '''get near each other''' (within about 20 blocks). The earrings automatically pull the two players together into the Potara pose; no key press is needed. If you get more than 24 blocks apart, the pose is cancelled.
 # When the two meet, or after about 10 seconds of pose, they fuse. '''The player wearing the right earring is the leader''' and controls the fused body.
 </translate>
 
 <translate>
-== Result ==
+== Result == <!--T:14-->
 
+<!--T:15-->
 * Bonus stats scale from '''×1.75 to ×2.5''' (STR, SKP and PWR), noticeably stronger than the Fusion Dance.
 * Any two races can fuse, there is no stat-gap limit, and upgraded Androids can fuse too.
 * The fusion lasts the full server duration.
 
+<!--T:16-->
 What you can and can't do while fused is described on the [[Special:MyLanguage/Fusions|Fusions]] page.
 </translate>
 
 <translate>
-== Durability and breaking ==
+== Durability and breaking == <!--T:17-->
 
+<!--T:18-->
 The earrings take durability damage with each fusion, and when the fusion timer runs out the earrings '''break'''. When the timer runs out, the leader also goes on Fusion cooldown, which only blocks the Fusion Dance.
+</translate>
+
+<translate>
+== Fused fighters == <!--T:19-->
+</translate>
+<translate>
+<!--T:20-->
+Among the NPC fighters, [[Special:MyLanguage/Vegetto|Vegetto]] is the Potara fusion of Goku and Vegeta. He can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]].
 </translate>
 
 {{Navbox Abilities}}

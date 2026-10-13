@@ -1,23 +1,26 @@
 <translate>
+<!--T:1-->
 DragonMineZ ships its '''own melee combat system''', similar in spirit to ''Better Combat'': every weapon has a hand-crafted '''moveset''' instead of a single generic swing. This page explains that system and compares the signature weapons that use it.
 </translate>
 
 <div class="dmz-cards">
-{{Card|Yajirobe's Katana|<translate>Quick, aggressive slashes. Crafted.</translate>}}
-{{Card|Brave Sword|<translate>The all-rounder for the Shining Sword Attack. A Porunga wish.</translate>}}
-{{Card|Z Sword|<translate>Heavy, unbreakable blows. Old Kai's challenge reward.</translate>}}
-{{Card|Power Pole|<translate>The longest reach and a 360° spin. A Shenron wish.</translate>}}
-{{Card|Dimension Sword|<translate>Super Janemba's blade.</translate>}}
-{{Card|Tamagami Sword|<translate>Dropped by Tamagami Number 1.</translate>}}
-{{Card|Tamagami Trident|<translate>Dropped by Tamagami Number 2.</translate>}}
-{{Card|Tamagami Hammer|<translate>Dropped by Tamagami Number 3.</translate>}}
+{{Card|Yajirobe's Katana|<translate><!--T:2--> Quick, aggressive slashes. Crafted.</translate>}}
+{{Card|Brave Sword|<translate><!--T:3--> The all-rounder for the Shining Sword Attack. A Porunga wish.</translate>}}
+{{Card|Z Sword|<translate><!--T:4--> Heavy, unbreakable blows. Old Kai's challenge reward.</translate>}}
+{{Card|Power Pole|<translate><!--T:5--> The longest reach and a 360° spin. A Shenron wish.</translate>}}
+{{Card|Dimension Sword|<translate><!--T:6--> Super Janemba's blade.</translate>}}
+{{Card|Tamagami Sword|<translate><!--T:7--> Dropped by Tamagami Number 1.</translate>}}
+{{Card|Tamagami Trident|<translate><!--T:8--> Dropped by Tamagami Number 2.</translate>}}
+{{Card|Tamagami Hammer|<translate><!--T:9--> Dropped by Tamagami Number 3.</translate>}}
 </div>
 
 <translate>
-== The combat system ==
+== The combat system == <!--T:10-->
 
+<!--T:11-->
 Each weapon is bound to a '''moveset''': a '''combo chain''' of attacks that you cycle through as you keep swinging, each with its own '''reach, sweep angle, timing (wind-up) and damage'''.
 
+<!--T:12-->
 * '''Combos:''' consecutive attacks step through the moveset (attack 1, 2, 3…) and loop. Different weapon classes swing, sweep and reach very differently.
 * '''Dual-wielding:''' hold a weapon in each hand and your combo alternates hands automatically.
 * '''Reach:''' each moveset has its own range (a staff out-reaches a sword), on top of your entity reach.
@@ -25,50 +28,56 @@ Each weapon is bound to a '''moveset''': a '''combo chain''' of attacks that you
 * '''Blocking and parrying:''' you can block (up to about 65% damage reduction) and '''parry''' within a tight window (about 150 ms). A broken block leaves you stunned.
 * '''Dashing:''' dash and double-dash, with cooldowns, for mobility in a fight.
 
+<!--T:13-->
 DMZ ships '''27 base movesets''': sword, katana, claymore, staff, battlestaff, spear, dagger, rapier, scythe, hammer, glaive, halberd, lance, mace, trident, twin blade, fist, claw and more. Weapons from other mods get a sensible moveset guessed from their name.
 </translate>
 {{See also|Combat|Weapon Attributes}}
 {{Config|Combat Config}}
 
 <translate>
-== Signature weapons ==
+== Signature weapons == <!--T:14-->
 
+<!--T:15-->
 Each of these plays differently because it uses a different moveset and its own critical-hit stats.
 </translate>
 {| class="wikitable"
-! <translate>Weapon</translate> !! <translate>Moveset</translate> !! <translate>Feel</translate> !! <translate>Critical chance</translate> !! <translate>Critical damage</translate> !! <translate>How to get it</translate>
+! <translate><!--T:16--> Weapon</translate> !! <translate><!--T:17--> Moveset</translate> !! <translate><!--T:18--> Feel</translate> !! <translate><!--T:19--> Critical chance</translate> !! <translate><!--T:20--> Critical damage</translate> !! <translate><!--T:21--> How to get it</translate>
 |-
-| {{L|Yajirobe's Katana}} || <translate>Katana (reach 2.75, fast 4-hit combo)</translate> || <translate>Quick, aggressive slashes</translate> || 25% || 10% || <translate>Crafted</translate>
+| {{L|Yajirobe's Katana}} || <translate><!--T:22--> Katana (reach 2.75, fast 4-hit combo)</translate> || <translate><!--T:23--> Quick, aggressive slashes</translate> || 25% || 10% || <translate><!--T:24--> Crafted</translate>
 |-
-| {{L|Brave Sword}} || <translate>Sword (reach 2.5, balanced)</translate> || <translate>All-rounder; required for the Shining Sword Attack</translate> || 10% || 15% || <translate>Porunga wish</translate>
+| {{L|Brave Sword}} || <translate><!--T:25--> Sword (reach 2.5, balanced)</translate> || <translate><!--T:26--> All-rounder; required for the Shining Sword Attack</translate> || 10% || 15% || <translate><!--T:27--> Porunga wish</translate>
 |-
-| {{L|Z Sword}} || <translate>Claymore (heavy, wide, slow swings)</translate> || <translate>Big, hard-hitting blows. Unbreakable.</translate> || 15% || 25% || <translate>Old Kai's Ultimate Challenge</translate>
+| {{L|Z Sword}} || <translate><!--T:28--> Claymore (heavy, wide, slow swings)</translate> || <translate><!--T:29--> Big, hard-hitting blows. Unbreakable.</translate> || 15% || 25% || <translate><!--T:30--> Old Kai's Ultimate Challenge</translate>
 |-
-| {{L|Power Pole}} || <translate>Its own staff combo (reach 3, the longest): two wide sweeps and a 360° spin</translate> || <translate>Long-range sweeps that keep enemies at bay. Unbreakable.</translate> || 15% || 10% || <translate>Shenron wish</translate>
+| {{L|Power Pole}} || <translate><!--T:31--> Its own staff combo (reach 3, the longest): two wide sweeps and a 360° spin</translate> || <translate><!--T:32--> Long-range sweeps that keep enemies at bay. Unbreakable.</translate> || 15% || 10% || <translate><!--T:33--> Shenron wish</translate>
 |-
-| {{L|Dimension Sword}} || <translate>Sword</translate> || <translate>Balanced sword strikes</translate> || — || — || <translate>Movies Saga quest, Janemba world boss (50%)</translate>
+| {{L|Dimension Sword}} || <translate><!--T:34--> Sword</translate> || <translate><!--T:35--> Balanced sword strikes</translate> || — || — || <translate><!--T:36--> Movies Saga quest, Janemba world boss (50%)</translate>
 |-
-| {{L|Tamagami Sword}} || <translate>Sword</translate> || <translate>Balanced sword strikes</translate> || — || — || <translate>Tamagami Number 1 (30%)</translate>
+| {{L|Tamagami Sword}} || <translate><!--T:37--> Sword</translate> || <translate><!--T:38--> Balanced sword strikes</translate> || — || — || <translate><!--T:39--> Tamagami Number 1 (30%)</translate>
 |-
-| {{L|Tamagami Trident}} || <translate>Spear</translate> || <translate>Long thrusts</translate> || — || — || <translate>Tamagami Number 2 (30%)</translate>
+| {{L|Tamagami Trident}} || <translate><!--T:40--> Spear</translate> || <translate><!--T:41--> Long thrusts</translate> || — || — || <translate><!--T:42--> Tamagami Number 2 (30%)</translate>
 |-
-| {{L|Tamagami Hammer}} || <translate>Mace</translate> || <translate>Slow, heavy blows</translate> || — || — || <translate>Tamagami Number 3 (30%)</translate>
+| {{L|Tamagami Hammer}} || <translate><!--T:43--> Mace</translate> || <translate><!--T:44--> Slow, heavy blows</translate> || — || — || <translate><!--T:45--> Tamagami Number 3 (30%)</translate>
 |}
 <translate>
+<!--T:46-->
 The same fight plays out very differently depending on the blade: the '''Katana''' chains quick combos, the [[Special:MyLanguage/Z Sword|Z Sword]] trades speed for heavy crits, and the [[Special:MyLanguage/Power Pole|Power Pole]] wins the spacing game with reach and its spinning finisher.
 
+<!--T:47-->
 World boss drop chances are the server defaults (see [[Special:MyLanguage/World Bosses|World Bosses]]). The Tamagamis are the guardians of the [[Special:MyLanguage/Demon Realm|Demon Realm]].
 </translate>
 
 <translate>
-== Weapons on your back ==
+== Weapons on your back == <!--T:48-->
 
+<!--T:49-->
 While you carry the Z Sword, the Brave Sword or the Power Pole in your inventory, it is shown on your character's back.
 </translate>
 
 <translate>
-== Enchanting weapons ==
+== Enchanting weapons == <!--T:50-->
 
+<!--T:51-->
 DMZ adds its own weapon enchantments, such as Defense Penetration, Healing Reduction, Critical Chance and Critical Damage. See [[Special:MyLanguage/Enchantments|Enchantments]].
 </translate>
 

@@ -1,0 +1,452 @@
+{
+ "Page_display_title": {
+  "source": "Bestiary",
+  "translation": "Bestiário",
+  "outdated": false
+ },
+ "1": {
+  "source": "The '''Bestiary''' covers the creatures and NPCs that live across the worlds of DragonMineZ: the animals you hunt for food, the hostile mobs that attack on sight, the enemies you meet in raids, tournaments and world boss fights, and the neutral NPCs you trade with. Each one has its own page with where it spawns, how it behaves and what it drops.",
+  "translation": "O '''Bestiário''' reúne as criaturas e NPCs que habitam os mundos de DragonMineZ: os animais que você caça para comer, os inimigos hostis que atacam assim que te veem, os adversários que você encontra em incursões, torneios e lutas contra chefes de mundo, e os NPCs neutros com quem você negocia. Cada um tem sua própria página com onde surge, como se comporta e o que dropa.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Reading these pages",
+  "translation": "Como ler estas páginas",
+  "outdated": false
+ },
+ "3": {
+  "source": "Health and damage values are the defaults of the server's entity settings. Drops come from each mob's loot table (<code>data/dragonminez/loot_tables/entities/</code>), and a mob without one drops nothing. Counts marked \"Looting\" grow by 0–1 per level of the Looting enchantment, and meat that \"cooks if on fire\" drops already cooked when the animal dies while burning.",
+  "translation": "Os valores de vida e dano são os padrões das configurações de entidades do servidor. Os drops vêm da tabela de saque de cada criatura (<code>data/dragonminez/loot_tables/entities/</code>), e uma criatura sem tabela não dropa nada. As quantidades marcadas com \"Pilhagem\" aumentam 0–1 por nível do encantamento Pilhagem, e a carne que \"cozinha se estiver em chamas\" cai já cozida quando o animal morre queimando.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Wildlife ==",
+  "translation": "== Fauna ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "The animals of the DMZ worlds. Many are hunted for food, but dinosaurs, sabertooth tigers and giant fish are '''predators''' that attack players, villagers and other animals on sight. Only the Giant Turtle and the Namek frogs are harmless.",
+  "translation": "Os animais dos mundos de DMZ. Muitos são caçados para comer, mas os dinossauros, os tigres dente-de-sabre e os peixes gigantes são '''predadores''' que atacam jogadores, aldeões e outros animais assim que os veem. Só a Tartaruga gigante e os sapos de Namekusei são inofensivos.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Walking, flying and baby dinosaurs that hunt across Earth's wilds.",
+  "translation": "Dinossauros terrestres, voadores e bebês que caçam pelas terras selvagens da Terra.",
+  "outdated": false
+ },
+ "7": {
+  "source": "An aggressive big cat that stalks forests, savannas and jungles.",
+  "translation": "Um felino agressivo que espreita florestas, savanas e selvas.",
+  "outdated": false
+ },
+ "8": {
+  "source": "A huge fish that lunges at anyone swimming in deep water.",
+  "translation": "Um peixe enorme que ataca qualquer um que nade em águas profundas.",
+  "outdated": false
+ },
+ "9": {
+  "source": "A harmless beach dweller that drops Turtle Scales.",
+  "translation": "Um morador inofensivo das praias que dropa Escamas de Tartaruga.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Planet Namek's native frog, with a rare Ginyu variant.",
+  "translation": "O sapo nativo do planeta Namekusei, com uma rara variante Ginyu.",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''Vanilla animals:''' Planet Namek's waters also hold squid, salmon, cod and other fish, and the Sacred Kai Planet hosts pigs, sheep, chickens, rabbits, horses, donkeys, mooshrooms, fish, axolotls and guardians. They behave as in vanilla Minecraft.",
+  "translation": "'''Animais vanilla:''' as águas do planeta Namekusei também têm lulas, salmões, bacalhaus e outros peixes, e o Mundo Sagrado dos Kai abriga porcos, ovelhas, galinhas, coelhos, cavalos, burros, vacogumelos, peixes, axolotes e guardiões. Eles se comportam como no Minecraft vanilla.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Hostile mobs ==",
+  "translation": "== Inimigos ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Hostile mobs attack on sight. DMZ has no separate \"Earth\" dimension: the Earth mobs live in the vanilla Overworld and target specific vanilla biomes and structures. Other hostiles live on [[Special:MyLanguage/Namek|Planet Namek]], the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]], in the Hell of the [[Special:MyLanguage/Otherworld|Otherworld]] and in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. None of them spawn in Peaceful.",
+  "translation": "Os inimigos hostis atacam assim que te veem. DMZ não tem uma dimensão \"Terra\" separada: os inimigos da Terra vivem no Overworld vanilla e aparecem em biomas e estruturas vanilla específicos. Outros inimigos vivem no [[Special:MyLanguage/Namek|planeta Namekusei]], no [[Special:MyLanguage/Sacred Kai Planet|Mundo Sagrado dos Kai]], no Inferno do [[Special:MyLanguage/Otherworld|Outro Mundo]] e no [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]. Nenhum deles surge no Pacífico.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Outlaws that roam Earth's forests, savannas and jungles.",
+  "translation": "Foras da lei que vagam pelas florestas, savanas e selvas da Terra.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Soldiers and robots that patrol around villages and garrison their tower.",
+  "translation": "Soldados e robôs que patrulham ao redor das vilas e guarnecem sua torre.",
+  "outdated": false
+ },
+ "16": {
+  "source": "Plant-grown soldiers that can latch onto you and self-destruct.",
+  "translation": "Soldados cultivados como plantas que podem se agarrar a você e se autodestruir.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Frieza's army, occupying the plains of Planet Namek.",
+  "translation": "O exército de Freeza, que ocupa as planícies do planeta Namekusei.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Robots from the Big Gete Star that march on Namekian villages.",
+  "translation": "Robôs da Estrela Big Gete que marcham sobre as vilas namekuseijins.",
+  "outdated": false
+ },
+ "19": {
+  "source": "A tiny flying Majin Buu that fires pink ki blasts.",
+  "translation": "Um minúsculo Majin Boo voador que dispara rajadas de ki rosa.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Red and blue ogres that only hunt Evil-aligned players.",
+  "translation": "Ogros vermelhos e azuis que só caçam jogadores de índole Má.",
+  "outdated": false
+ },
+ "21": {
+  "source": "A stampede that charges anyone who lingers too long in Hell.",
+  "translation": "Uma debandada que avança sobre quem fica tempo demais no Inferno.",
+  "outdated": false
+ },
+ "22": {
+  "source": "King Gomah's soldiers, raiding the demon villages.",
+  "translation": "Os soldados do Rei Gomah, que atacam as vilas demoníacas.",
+  "outdated": false
+ },
+ "45": {
+  "source": "== Raid enemies ==",
+  "translation": "== Inimigos de incursão ==",
+  "outdated": false
+ },
+ "46": {
+  "source": "The invaders of the three [[Special:MyLanguage/Raids|raids]]: the soldiers that fill each wave and the bosses that lead them. [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]] also fight in raids, but they roam their worlds too and are listed under hostile mobs.",
+  "translation": "Os invasores das três [[Special:MyLanguage/Raids|incursões]]: os soldados que preenchem cada onda e os chefes que os lideram. Os [[Special:MyLanguage/Frieza Soldier|Soldados de Freeza]] e os [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]] também lutam em incursões, mas também vagam pelos seus mundos e estão listados em Inimigos.",
+  "outdated": false
+ },
+ "47": {
+  "source": "The rank-and-file invaders of the Saiyan Assault, and the scouts of the Saiyan Craters.",
+  "translation": "A tropa comum de invasores do Ataque Saiyajin e os batedores das Crateras saiyajins.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Saiyan officers who throw a fake moon and become Oozarus in the last wave.",
+  "translation": "Oficiais saiyajins que lançam uma lua falsa e viram Grandes Macacos na última onda.",
+  "outdated": false
+ },
+ "49": {
+  "source": "Frieza's henchman who leads the third wave of Frieza's Invasion.",
+  "translation": "Capanga de Freeza que lidera a terceira onda da Invasão de Freeza.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Frieza's henchman who leads the fourth wave with Zarbon.",
+  "translation": "Capanga de Freeza que lidera a quarta onda com Zarbon.",
+  "outdated": false
+ },
+ "51": {
+  "source": "Frieza's henchman who turns into his monstrous form mid-fight.",
+  "translation": "Capanga de Freeza que assume a sua forma monstruosa no meio da luta.",
+  "outdated": false
+ },
+ "52": {
+  "source": "The member of the Ginyu Force with the least health.",
+  "translation": "O membro da Força Ginyu com menos vida.",
+  "outdated": false
+ },
+ "53": {
+  "source": "The Ginyu Force brawler who hits the hardest in melee after Ginyu.",
+  "translation": "O brutamontes da Força Ginyu que bate mais forte no corpo a corpo, depois de Ginyu.",
+  "outdated": false
+ },
+ "54": {
+  "source": "The fastest flier of the Ginyu Force.",
+  "translation": "O voador mais rápido da Força Ginyu.",
+  "outdated": false
+ },
+ "55": {
+  "source": "The member of the Ginyu Force with the fastest ki blasts.",
+  "translation": "O membro da Força Ginyu com as rajadas de ki mais rápidas.",
+  "outdated": false
+ },
+ "56": {
+  "source": "The captain of the Ginyu Force and the strongest enemy of Frieza's Invasion.",
+  "translation": "O capitão da Força Ginyu e o inimigo mais forte da Invasão de Freeza.",
+  "outdated": false
+ },
+ "57": {
+  "source": "The boss of the fourth wave of Gomah's Army, with the widest set of moves.",
+  "translation": "O chefe da quarta onda do Exército de Gomah, com o repertório de golpes mais variado.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Leads the last wave of Gomah's Army and naps mid-fight to heal.",
+  "translation": "Lidera a última onda do Exército de Gomah e tira cochilos no meio da luta para se curar.",
+  "outdated": false
+ },
+ "59": {
+  "source": "Leads the last wave of Gomah's Army, with the most health of any raid boss.",
+  "translation": "Lidera a última onda do Exército de Gomah, com mais vida que qualquer outro chefe de incursão.",
+  "outdated": false
+ },
+ "60": {
+  "source": "== Tournament fighters ==",
+  "translation": "== Lutadores de torneio ==",
+  "outdated": false
+ },
+ "61": {
+  "source": "The NPC fighters of the three [[Special:MyLanguage/Tournaments|tournaments]]; most of them are story opponents in the sagas too. Characters who are masters elsewhere, such as [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] and [[Special:MyLanguage/Cell|Cell]], list their tournament forms on their own pages.",
+  "translation": "Os lutadores NPC dos três [[Special:MyLanguage/Tournaments|torneios]]; a maioria também é oponente da história nas sagas. Personagens que são mestres em outros lugares, como [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] e [[Special:MyLanguage/Cell|Cell]], listam as suas formas de torneio nas próprias páginas.",
+  "outdated": false
+ },
+ "62": {
+  "source": "A fast-flying vampire and one of Baba's four contenders.",
+  "translation": "Um vampiro que voa rápido e um dos quatro competidores da Vovó Uranai.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Baba's fighter who really is invisible: nothing of him is drawn.",
+  "translation": "O lutador da Vovó Uranai que é invisível de verdade: nada dele é desenhado.",
+  "outdated": false
+ },
+ "64": {
+  "source": "A fast flier whose hits deal double damage to Evil-aligned players.",
+  "translation": "Um voador rápido cujos golpes causam o dobro de dano em jogadores de índole Má.",
+  "outdated": false
+ },
+ "65": {
+  "source": "A huge bandaged brawler, the toughest of Baba's four contenders.",
+  "translation": "Um brutamontes enorme e enfaixado, o mais resistente dos quatro competidores da Vovó Uranai.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Baba's semi-finalist, a masked fighter who is really Grandpa Gohan.",
+  "translation": "O semifinalista da Vovó Uranai, um lutador mascarado que na verdade é o Vovô Gohan.",
+  "outdated": false
+ },
+ "67": {
+  "source": "The young Goku with his Power Pole, champion of Baba's Tournament.",
+  "translation": "O Goku criança com o seu Bastão Mágico, campeão do Torneio da Vovó Uranai.",
+  "outdated": false
+ },
+ "68": {
+  "source": "A Cell Games contender and a sparring partner in the Saiyan Saga.",
+  "translation": "Um competidor dos Jogos de Cell e um parceiro de treino na Saga Saiyajin.",
+  "outdated": false
+ },
+ "69": {
+  "source": "A Cell Games contender and your sparring partner in the Android Saga.",
+  "translation": "Um competidor dos Jogos de Cell e o seu parceiro de treino na Saga Androide.",
+  "outdated": false
+ },
+ "70": {
+  "source": "The fast, hard-hitting semi-finalist of the Otherworld Tournament.",
+  "translation": "O semifinalista rápido e de golpes pesados do Torneio do Outro Mundo.",
+  "outdated": false
+ },
+ "71": {
+  "source": "The Fusion Dance fusion of Goku and Vegeta, champion of the Otherworld Tournament.",
+  "translation": "A fusão de Goku e Vegeta pela Dança da Fusão, campeão do Torneio do Outro Mundo.",
+  "outdated": false
+ },
+ "72": {
+  "source": "An Otherworld Tournament contender, in his base form or as a Super Saiyan.",
+  "translation": "Um competidor do Torneio do Outro Mundo, na forma base ou como Super Saiyajin.",
+  "outdated": false
+ },
+ "73": {
+  "source": "The young Trunks of the Buu Saga, an Otherworld Tournament contender.",
+  "translation": "O Trunks criança da Saga Boo, um competidor do Torneio do Outro Mundo.",
+  "outdated": false
+ },
+ "74": {
+  "source": "The Fusion Dance fusion of Goten and Trunks, drawn in any of his three forms.",
+  "translation": "A fusão de Goten e Trunks pela Dança da Fusão, sorteado em qualquer uma das suas três formas.",
+  "outdated": false
+ },
+ "75": {
+  "source": "The Potara fusion of Goku and Vegeta, an Otherworld Tournament contender.",
+  "translation": "A fusão Potara de Goku e Vegeta, um competidor do Torneio do Outro Mundo.",
+  "outdated": false
+ },
+ "76": {
+  "source": "The Supreme Kai, an Otherworld Tournament contender and a Buu Saga opponent.",
+  "translation": "O Kaioshin, um competidor do Torneio do Outro Mundo e um oponente da Saga Boo.",
+  "outdated": false
+ },
+ "77": {
+  "source": "The Supreme Kai's attendant, met only in the Otherworld Tournament.",
+  "translation": "O assistente do Kaioshin, encontrado só no Torneio do Outro Mundo.",
+  "outdated": false
+ },
+ "78": {
+  "source": "A Buu Saga martial artist and your sparring partner in the World Tournament preliminaries.",
+  "translation": "Uma artista marcial da Saga Boo e a sua parceira de treino nas eliminatórias do Torneio Mundial.",
+  "outdated": false
+ },
+ "79": {
+  "source": "A Buu Saga fighter who brawls and fires a purple Oozaru Beam.",
+  "translation": "Um lutador da Saga Boo que luta corpo a corpo e dispara um Feixe do Oozaru roxo.",
+  "outdated": false
+ },
+ "80": {
+  "source": "The first of Babidi's guards, who pelts you with purple ki.",
+  "translation": "O primeiro dos guardas de Babidi, que te bombardeia com ki roxo.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Babidi's second guard, whose punches drain your ki and break your transformation.",
+  "translation": "O segundo guarda de Babidi, cujos socos drenam o seu ki e quebram a sua transformação.",
+  "outdated": false
+ },
+ "82": {
+  "source": "The King of Demons, who fights with the Brave Sword.",
+  "translation": "O Rei dos Demônios, que luta com a Espada Valente.",
+  "outdated": false
+ },
+ "83": {
+  "source": "The form of Majin Buu whose Candy Beam turns you into candy.",
+  "translation": "A forma do Majin Boo cujo Raio de Doce transforma você em doce.",
+  "outdated": false
+ },
+ "84": {
+  "source": "The form of Majin Buu that comes in four versions, three of them after absorbing a fighter.",
+  "translation": "A forma do Majin Boo que tem quatro versões, três delas depois de absorver um lutador.",
+  "outdated": false
+ },
+ "85": {
+  "source": "The small form of Majin Buu and the final enemy of the Buu Saga.",
+  "translation": "A forma pequena do Majin Boo e o inimigo final da Saga Boo.",
+  "outdated": false
+ },
+ "86": {
+  "source": "== World boss minions ==",
+  "translation": "== Lacaios de chefes de mundo ==",
+  "outdated": false
+ },
+ "87": {
+  "source": "Enemies that serve a [[Special:MyLanguage/World Bosses|world boss]]. The [[Special:MyLanguage/Mini Janemba|Mini Janembas]] that Janemba calls to his side are listed under hostile mobs.",
+  "translation": "Inimigos que servem a um [[Special:MyLanguage/World Bosses|chefe de mundo]]. Os [[Special:MyLanguage/Mini Janemba|Mini Janembas]] que o Janemba chama para o seu lado estão listados em Inimigos.",
+  "outdated": false
+ },
+ "88": {
+  "source": "The metal army of the Big Gete Star: guardians, copies and patrol scouts.",
+  "translation": "O exército de metal da Estrela Big Gete: guardiões, cópias e batedores de patrulha.",
+  "outdated": false
+ },
+ "23": {
+  "source": "== NPCs ==",
+  "translation": "== NPCs ==",
+  "outdated": false
+ },
+ "24": {
+  "source": "Neutral and friendly characters you can interact with. Besides trading, several of them have a special role: the Capsule Corp NPCs, Namekian Traders and Time Patrollers sell '''treasure maps''' that lead to DMZ structures and bosses, Namekian Warriors defend their villages, and Demon Realm Villagers sell Medi-Bugs. NPCs have no custom drops.",
+  "translation": "Personagens neutros e amigáveis com quem você pode interagir. Além de negociar, vários têm um papel especial: os NPCs da Corporação Cápsula, os Comerciantes Namekuseijins e os Patrulheiros do Tempo vendem '''mapas do tesouro''' que levam a estruturas e chefes de DMZ, os Guerreiros Namekuseijins defendem suas vilas e os Aldeões do Reino Demoníaco vendem Medi-Bugs. Os NPCs não têm drops próprios.",
+  "outdated": false
+ },
+ "25": {
+  "source": "A villager profession that sells maps to Earth's landmarks.",
+  "translation": "Uma profissão de aldeão que vende mapas para os marcos da Terra.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Sells maps to the structures of Planet Namek.",
+  "translation": "Vende mapas para as estruturas do planeta Namekusei.",
+  "outdated": false
+ },
+ "27": {
+  "source": "General goods and the map to the Big Gete Star.",
+  "translation": "Mercadorias em geral e o mapa da Estrela Big Gete.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Flying defenders of the Namekian villages.",
+  "translation": "Defensores voadores das vilas namekuseijins.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Residents of the demon villages; some sell Medi-Bugs.",
+  "translation": "Moradores das vilas demoníacas; alguns vendem Medi-Bugs.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Sells the maps to the Demon Realm world boss lairs.",
+  "translation": "Vende os mapas para os covis dos chefes de mundo do Reino Demoníaco.",
+  "outdated": false
+ },
+ "89": {
+  "source": "Hosts the Otherworld Tournament and sends you back to the Grand Kai.",
+  "translation": "Comanda o Torneio do Outro Mundo e manda você de volta ao Grande Senhor Kaioh.",
+  "outdated": false
+ },
+ "31": {
+  "source": "The trainer NPCs ([[Special:MyLanguage/Master Roshi|Master Roshi]], Goku, Piccolo, Korin and the others) are covered on [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Os NPCs treinadores ([[Special:MyLanguage/Master Roshi|Mestre Kame]], Goku, Piccolo, Karin e os outros) são explicados em [[Special:MyLanguage/Masters|Mestres]].",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== Treasure maps ===",
+  "translation": "=== Mapas do tesouro ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "Every map trade points at the nearest structure of its kind with a red X. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located; re-open the trade window to check again.",
+  "translation": "Todo mapa negociado aponta para a estrutura mais próxima do seu tipo com um X vermelho. Se essa estrutura ainda não foi colocada no mundo, a troca aparece como '''esgotada''' e vira um mapa de verdade assim que a estrutura puder ser localizada; reabra a janela de troca para conferir de novo.",
+  "outdated": false
+ },
+ "34": {
+  "source": "=== Quest NPCs ===",
+  "translation": "=== NPCs de missão ===",
+  "outdated": false
+ },
+ "35": {
+  "source": "Quest givers are a single data-driven NPC whose model, texture and dialogue depend on the NPC it represents. Right-click one to open its dialogue, where the '''Quests''' option lists the quests it gives: available, in progress, ready to turn in, and locked ones with what's missing. It is the same window as the [[Special:MyLanguage/Masters|masters]] use. Examples in the default world are '''Bulma''' at Vegeta's Pod (story deliveries) and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]] in the Otherworld, who tells you about [[Special:MyLanguage/Janemba|Janemba]] and, once its lair is known, gives you its location.",
+  "translation": "Quem dá missões é um único NPC definido por dados, cujo modelo, textura e diálogo dependem do NPC que ele representa. Clique com o botão direito em um para abrir o diálogo, onde a opção '''Missões''' lista as missões que ele dá: disponíveis, em andamento, prontas para entregar e bloqueadas com o que falta. É a mesma janela que os [[Special:MyLanguage/Masters|mestres]] usam. Exemplos no mundo padrão são a '''Bulma''' na Nave do Vegeta (entregas da história) e o [[Special:MyLanguage/Hell Ogre|Ogro do Inferno]] no Outro Mundo, que fala sobre o [[Special:MyLanguage/Janemba|Janemba]] e, quando o covil é conhecido, te dá a localização.",
+  "outdated": false
+ },
+ "36": {
+  "source": "== How wild enemies spawn ==",
+  "translation": "== Como surgem os inimigos selvagens ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "[[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Mini Buu|Mini Buus]] are '''wild enemies'''. They have their own spawn category with its own cap of '''14''' (scaled with the loaded area like vanilla mob caps), separate from vanilla monsters, so the two never take each other's spawn slots. Their natural spawns follow these rules:",
+  "translation": "Os [[Special:MyLanguage/Bandit|Bandidos]], o [[Special:MyLanguage/Red Ribbon Army|Exército Red Ribbon]] (soldados e robôs), os [[Special:MyLanguage/Sabertooth Tiger|Tigres Dente-de-sabre]], os [[Special:MyLanguage/Frieza Soldier|Soldados de Freeza]] e os [[Special:MyLanguage/Mini Buu|Mini Boos]] são '''inimigos selvagens'''. Eles têm sua própria categoria de surgimento com seu próprio limite de '''14''' (escalonado com a área carregada, como os limites de criaturas vanilla), separada dos monstros vanilla, então um nunca ocupa as vagas de surgimento do outro. Os surgimentos naturais seguem estas regras:",
+  "outdated": false
+ },
+ "38": {
+  "source": "* '''Out in the open.''' They spawn on the surface under open sky (leaves don't count as cover), day or night, but never where block light from torches, lamps and the like reaches. They don't spawn in caves or under roofs.\n* '''Inside their structures.''' Structures that define wild-enemy spawns, such as the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], also spawn them indoors, in dim spots (block light 7 or less).\n* They need solid ground and enough free space for their whole body, and never spawn in Peaceful.\n* Like monsters, they despawn when no player is around.",
+  "translation": "* '''Ao ar livre.''' Surgem na superfície a céu aberto (folhas não contam como cobertura), de dia ou de noite, mas nunca onde chega a luz de bloco de tochas, lâmpadas e afins. Não surgem em cavernas nem sob telhados.\n* '''Dentro de suas estruturas.''' Estruturas que definem surgimentos de inimigos selvagens, como a [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]], também os geram em ambientes internos, em pontos escuros (luz de bloco 7 ou menos).\n* Precisam de chão sólido e espaço livre suficiente para o corpo inteiro, e nunca surgem no Pacífico.\n* Assim como os monstros, somem quando não há nenhum jogador por perto.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Monster spawners and other non-natural spawns skip the light and sky checks; they only need the free space.",
+  "translation": "Geradores de monstros e outros surgimentos não naturais pulam as verificações de luz e de céu; só precisam do espaço livre.",
+  "outdated": false
+ },
+ "40": {
+  "source": "== How DMZ mobs fight ==",
+  "translation": "== Como as criaturas de DMZ lutam ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "Hostile DMZ mobs use the mod's own combat AI instead of the vanilla melee behaviour: they flank and surround you as a group, call nearby mobs of their kind when one of them is hit, give up on targets they can't reach, and animals flee when badly hurt.",
+  "translation": "As criaturas hostis de DMZ usam a IA de combate própria do mod em vez do comportamento corpo a corpo vanilla: elas te flanqueiam e cercam em grupo, chamam as criaturas próximas do mesmo tipo quando uma delas é atingida, desistem de alvos que não conseguem alcançar, e os animais fogem quando estão muito feridos.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Story-style mobs that spawn naturally ([[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Saibamen|Saibamen]], [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Hell Ogre|Hell's ogres]] and [[Special:MyLanguage/Mini Buu|Mini Buu]]) fight on the '''Novice''' AI tier: slow reactions, melee, random combos and the occasional ki attack, with no dashing and no Zanzoken. Some of them also fire ki blasts. The other AI tiers are explained on [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "As criaturas no estilo da história que surgem naturalmente ([[Special:MyLanguage/Frieza Soldier|Soldados de Freeza]], [[Special:MyLanguage/Saibamen|Saibamen]], [[Special:MyLanguage/Gete Robot|Robôs Gete]], [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]], [[Special:MyLanguage/Hell Ogre|ogros do Inferno]] e [[Special:MyLanguage/Mini Buu|Mini Boo]]) lutam no nível de IA '''Novato''': reações lentas, corpo a corpo, combos aleatórios e um ataque de ki de vez em quando, sem investidas e sem Zanzoken. Algumas também disparam rajadas de ki. Os outros níveis de IA são explicados em [[Special:MyLanguage/Sagas|Sagas]].",
+  "outdated": false
+ },
+ "43": {
+  "source": "== Elsewhere in the wiki ==",
+  "translation": "== Em outras partes da wiki ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "* '''Story characters''' (Raditz, Frieza, Cell, Buu, Baby, [[Special:MyLanguage/Gomah|Gomah]]…) are fought as story quest enemies: see [[Special:MyLanguage/Sagas|Sagas]].\n* '''World bosses''' (Janemba, [[Special:MyLanguage/Turles|Turles]], [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]], the Tamagamis and Gomah): see [[Special:MyLanguage/World Bosses|World Bosses]]. Their minions are listed above.\n* '''Raids''' and '''tournaments''', where you meet the raid enemies and tournament fighters listed above: see [[Special:MyLanguage/Raids|Raids]] and [[Special:MyLanguage/Tournaments|Tournaments]].\n* '''Masters''', the trainer NPCs: see [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "* Os '''personagens da história''' (Raditz, Freeza, Cell, Boo, Baby, [[Special:MyLanguage/Gomah|Gomah]]…) são enfrentados como inimigos das missões da história: veja [[Special:MyLanguage/Sagas|Sagas]].\n* '''Chefes de mundo''' (Janemba, [[Special:MyLanguage/Turles|Turles]], [[Special:MyLanguage/Metal Cooler Core|Núcleo do Metal Cooler]], os Tamagamis e Gomah): veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]. Os lacaios deles estão listados acima.\n* '''Incursões''' e '''torneios''', onde você enfrenta os inimigos de incursão e os lutadores de torneio listados acima: veja [[Special:MyLanguage/Raids|Incursões]] e [[Special:MyLanguage/Tournaments|Torneios]].\n* '''Mestres''', os NPCs treinadores: veja [[Special:MyLanguage/Masters|Mestres]].",
+  "outdated": false
+ }
+}

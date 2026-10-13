@@ -1,0 +1,237 @@
+{
+ "Page_display_title": {
+  "source": "Human",
+  "translation": "Humano",
+  "outdated": false
+ },
+ "1": {
+  "source": "A terrestrial race that makes up for its lack of innate power with versatility, perseverance and training.",
+  "translation": "Uma raça terrestre que compensa a falta de poder inato com versatilidade, perseverança e treinamento.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Playable race",
+  "translation": "Raça jogável",
+  "outdated": false
+ },
+ "3": {
+  "source": "Blood-Fueled Ki, Fast Learner, Adrenaline",
+  "translation": "Ki de Sangue, Aprendiz Veloz, Adrenalina",
+  "outdated": false
+ },
+ "4": {
+  "source": "Super forms (Buffed, Full Power, Overdrive, Solaris), Legendary forms",
+  "translation": "Super Formas (Melhorado, Poder Máximo, Overdrive, Solaris), Formas Lendárias",
+  "outdated": false
+ },
+ "5": {
+  "source": "Cheaper ki attacks, faster technique growth, a damage-resistant burst at low health",
+  "translation": "Ataques de Ki mais baratos, técnicas que evoluem mais rápido, um impulso resistente a dano com pouca vida",
+  "outdated": false
+ },
+ "6": {
+  "source": "Versatile; the only race that can become an Android",
+  "translation": "Versátil; a única raça que pode se tornar Android",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Humans''' are a terrestrial race with highly versatile combat skills. They lack the innate power of other races, but they are resourceful and tenacious, and overcome their limits through training and discipline. In DragonMineZ they pay for cheaper ki attacks with their own health, learn techniques faster than anyone and get a burst of adrenaline when they are close to death. Humans are also the only race that [[Special:MyLanguage/Dr. Gero|Dr. Gero]] can turn into an [[Special:MyLanguage/Android|Android]].",
+  "translation": "Os '''Humanos''' são uma raça terrestre com habilidades de combate muito versáteis. Falta-lhes o poder inato de outras raças, mas são engenhosos e tenazes, e superam seus limites com treinamento e disciplina. Em DragonMineZ, eles pagam ataques de ki mais baratos com a própria vida, aprendem técnicas mais rápido que qualquer um e recebem uma descarga de adrenalina quando estão à beira da morte. Os Humanos também são a única raça que o [[Special:MyLanguage/Dr. Gero|Dr. Gero]] pode transformar em [[Special:MyLanguage/Android|Android]].",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Overview and strengths ==",
+  "translation": "== Visão geral e pontos fortes ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Cheaper ki attacks.''' Blood-Fueled Ki cuts the Ki cost of ki attacks by 25%, turning part of the saving into a health cost that comes back as bonus damage.\n* '''Faster technique growth.''' Fast Learner gives your techniques 35% more experience, so they reach their upgrades sooner.\n* '''A second wind.''' Adrenaline makes you tougher and faster when your health drops to 25%.\n* '''Play as yourself.''' The default body type uses your own Minecraft skin.\n* '''Two paths.''' A Human keeps the Super and Legendary form lines, or can trade them for the Android line through Dr. Gero's upgrade.",
+  "translation": "* '''Ataques de Ki mais baratos.''' Ki de Sangue reduz em 25% o custo de Ki dos ataques de ki e transforma parte da economia em um custo de vida que volta como dano bônus.\n* '''Técnicas que evoluem mais rápido.''' Aprendiz Veloz dá às suas técnicas 35% mais experiência, para que alcancem suas melhorias mais cedo.\n* '''Um segundo fôlego.''' Adrenalina deixa você mais resistente e rápido quando sua vida cai para 25%.\n* '''Jogue como você mesmo.''' O tipo corporal padrão usa sua própria skin do Minecraft.\n* '''Dois caminhos.''' Um Humano mantém as linhas de formas Super e Lendário, ou pode trocá-las pela linha Android através da conversão do Dr. Gero.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Racial skill ==",
+  "translation": "== Habilidade racial ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The Human racial skill has three parts. You don't need to activate any of them.",
+  "translation": "A habilidade racial Humana tem três partes. Você não precisa ativar nenhuma delas.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Part",
+  "translation": "Parte",
+  "outdated": false
+ },
+ "13": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "14": {
+  "source": "'''Blood-Fueled Ki'''",
+  "translation": "'''Ki de Sangue'''",
+  "outdated": false
+ },
+ "15": {
+  "source": "Ki attacks cost '''25%''' less Ki. Part of the saved Ki is paid with your health instead ('''12.5%''' of the original cost), and that health is added as '''bonus damage''' to the attack's next hit. It never brings you below 2 health.",
+  "translation": "Os ataques de ki custam '''25%''' menos Ki. Parte do Ki economizado é paga com a sua vida ('''12.5%''' do custo original), e essa vida é somada como '''dano bônus''' ao próximo acerto do ataque. Nunca deixa você abaixo de 2 de vida.",
+  "outdated": false
+ },
+ "16": {
+  "source": "'''Fast Learner'''",
+  "translation": "'''Aprendiz Veloz'''",
+  "outdated": false
+ },
+ "17": {
+  "source": "Your techniques gain '''35%''' more experience.",
+  "translation": "Suas técnicas ganham '''35%''' mais experiência.",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''Adrenaline'''",
+  "translation": "'''Adrenalina'''",
+  "outdated": false
+ },
+ "19": {
+  "source": "Dropping to '''25%''' health or below fills you with adrenaline for '''15 seconds''': you take '''30%''' less damage and gain '''+25%''' attack speed and '''+25%''' movement speed. It can trigger again after '''180 seconds''', once your health has risen back above that threshold.",
+  "translation": "Cair para '''25%''' de vida ou menos enche você de adrenalina por '''15 segundos''': você recebe '''30%''' menos dano e ganha '''+25%''' de velocidade de ataque e '''+25%''' de velocidade de movimento. Ela pode ser ativada de novo após '''180 segundos''', assim que sua vida voltar a ficar acima desse limite.",
+  "outdated": false
+ },
+ "20": {
+  "source": "An Android keeps Fast Learner and Adrenaline but replaces Blood-Fueled Ki with Android Core and Absorption Barrier (see [[Special:MyLanguage/Android#Racial skill|Android]]).",
+  "translation": "Um Android mantém Aprendiz Veloz e Adrenalina, mas substitui Ki de Sangue por Núcleo Androide e Barreira de Absorção (veja [[Special:MyLanguage/Android#Racial skill|Android]]).",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Transformations ==",
+  "translation": "== Transformações ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "Group",
+  "translation": "Grupo",
+  "outdated": false
+ },
+ "23": {
+  "source": "Form",
+  "translation": "Forma",
+  "outdated": false
+ },
+ "24": {
+  "source": "Level",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "25": {
+  "source": "TP cost",
+  "translation": "Custo de TP",
+  "outdated": false
+ },
+ "26": {
+  "source": "Story requisite",
+  "translation": "Requisito de história",
+  "outdated": false
+ },
+ "27": {
+  "source": "STR / SKP / PWR",
+  "translation": "STR / SKP / PWR",
+  "outdated": false
+ },
+ "28": {
+  "source": "DEF",
+  "translation": "DEF",
+  "outdated": false
+ },
+ "29": {
+  "source": "Ki drain",
+  "translation": "Consumo de ki",
+  "outdated": false
+ },
+ "30": {
+  "source": "Super forms",
+  "translation": "Super Formas",
+  "outdated": false
+ },
+ "31": {
+  "source": "Buffed",
+  "translation": "Melhorado",
+  "outdated": false
+ },
+ "32": {
+  "source": "Full Power",
+  "translation": "Poder Máximo",
+  "outdated": false
+ },
+ "33": {
+  "source": "Overdrive",
+  "translation": "Overdrive",
+  "outdated": false
+ },
+ "34": {
+  "source": "Solaris",
+  "translation": "Solaris",
+  "outdated": false
+ },
+ "35": {
+  "source": "Legendary forms",
+  "translation": "Formas Lendárias",
+  "outdated": false
+ },
+ "36": {
+  "source": "Shiyoken",
+  "translation": "Punho dos Quatro Demônios",
+  "outdated": false
+ },
+ "37": {
+  "source": "Shin Shiyoken",
+  "translation": "Nova Técnica das Quatro Bruxas",
+  "outdated": false
+ },
+ "38": {
+  "source": "Chou Shiyoken",
+  "translation": "Super Técnica das Quatro Bruxas",
+  "outdated": false
+ },
+ "39": {
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]] for what raises or lowers it.",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]] para saber o que o aumenta ou reduz.",
+  "outdated": false
+ },
+ "40": {
+  "source": "'''Solaris''' is the Human top tier: the strongest Human form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "'''Solaris''' é o nível máximo dos Humanos: a forma Humana mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia. As '''Formas Lendárias''' não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "41": {
+  "source": "== Becoming an Android ==",
+  "translation": "== Tornar-se Android ==",
+  "outdated": false
+ },
+ "42": {
+  "source": "[[Special:MyLanguage/Dr. Gero|Dr. Gero]] can convert a Human into an [[Special:MyLanguage/Android|Android]], a sub-race of the Human race. The upgrade is '''permanent''': you lose the Super and Legendary forms above for good and get the Android forms (Android Base, Super Android, Fused Android) instead, and Blood-Fueled Ki is replaced by Android Core and Absorption Barrier. Think it over before you accept.",
+  "translation": "O [[Special:MyLanguage/Dr. Gero|Dr. Gero]] pode converter um Humano em [[Special:MyLanguage/Android|Android]], uma sub-raça da raça Humana. A conversão é '''permanente''': você perde de vez as formas Super e Lendário acima e recebe no lugar as formas Android (Android Base, Super Android, Androide Fundido), e Ki de Sangue é substituído por Núcleo Androide e Barreira de Absorção. Pense bem antes de aceitar.",
+  "outdated": false
+ },
+ "43": {
+  "source": "== Appearance ==",
+  "translation": "== Aparência ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "* '''Hair:''' yes. Humans can pick any of the hairstyle presets and design their own styles in the hair editor.\n* '''Gender:''' yes. Male and female body types share the same grid, so picking a body type also picks your gender.\n* '''Body types:''' body type '''0''' (the default) uses your own '''Minecraft skin''', and there are extra body types for each gender. With your own skin, the '''skin pixel editor''' lets you mark your eyes and hair so your transformations can recolor them.\n* '''Face:''' Humans use the human nose and mouth options, which other races can also pick.",
+  "translation": "* '''Cabelo:''' sim. Os Humanos podem escolher qualquer um dos penteados predefinidos e criar seus próprios estilos no editor de cabelo.\n* '''Gênero:''' sim. Os tipos corporais masculinos e femininos compartilham a mesma grade, então escolher um tipo corporal também define seu gênero.\n* '''Tipos corporais:''' o tipo corporal '''0''' (o padrão) usa sua própria '''skin do Minecraft''', e há tipos corporais extras para cada gênero. Com sua própria skin, o '''editor de pixels da skin''' permite marcar seus olhos e seu cabelo para que suas transformações possam recolori-los.\n* '''Rosto:''' os Humanos usam as opções de nariz e boca humanas, que outras raças também podem escolher.",
+  "outdated": false
+ },
+ "45": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "46": {
+  "source": "The Human racial skill is switched on, switched off and re-balanced in the <code>human</code> section of <code>racialSkills</code> in <code>general-server.json</code>; the same section also holds the Android barrier values. The Super, Legendary and Android TP ladders are in <code>races/human/character.json</code>, and each form's multipliers, drain and requisites are in its form file.",
+  "translation": "A habilidade racial Humana é ativada, desativada e rebalanceada na seção <code>human</code> de <code>racialSkills</code> no <code>general-server.json</code>; essa mesma seção também guarda os valores da barreira Android. As escalas de TP das formas Super, Lendário e Android ficam em <code>races/human/character.json</code>, e os multiplicadores, o consumo e os requisitos de cada forma ficam no arquivo da forma.",
+  "outdated": false
+ }
+}

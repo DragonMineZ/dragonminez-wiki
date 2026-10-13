@@ -1,0 +1,56 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid boss</translate>
+|Dimension={{L|Demon Realm}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Gomah's Army|Gomah's Army]], wave 5</translate>
+|Behavior=<translate><!--T:3--> Waits until his escort falls; Elite AI</translate>
+|Health=750000
+|Damage=31,000
+|Ki damage=28,000
+|Abilities=<translate><!--T:4--> Flight, Ki Blast, Ki Volley, Ki Wave, Assault Rain, Aerial Combo, Sleep Recovery, dodging, teleporting</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Majin Kuu''' is a Majin of the [[Special:MyLanguage/Demon Realm|Demon Realm]]. In [[Special:MyLanguage/Gomah's Army|Gomah's Army]], the raid of the Demon Realm, he leads the final wave alongside [[Special:MyLanguage/Majin Duu|Majin Duu]], and he can nap in the middle of the fight to heal.
+</translate>
+
+<translate>
+== In raids == <!--T:7-->
+
+<!--T:8-->
+Majin Kuu is one of the two bosses of wave 5, with [[Special:MyLanguage/Majin Duu|Majin Duu]] and 10 [[Special:MyLanguage/Gomah Soldier|Gomah Soldiers]]. Both bosses stay dormant until the soldiers are dead, but attacking one wakes it up early. Like every raid boss, he glows red. The raid is won once the whole wave is down.
+
+<!--T:9-->
+In the raid he has 750,000 health, 31,000 melee damage and 28,000 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Elite]] AI tier. These are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+* '''Flight:''' Majin Kuu flies and follows you into the air.
+* '''Ki attacks:''' pale green '''Ki Blast''', '''Ki Volley''' (a spray of small blasts), '''Ki Wave''' and '''Assault Rain''' (a barrage of ki blasts).
+* '''Aerial Combo:''' he knocks you into the air, appears above you and slams you back down.
+* '''Sleep Recovery:''' he takes a 7-second nap that heals 10% of his maximum health every second, up to 60%. Any damage wakes him up and ends the heal.
+* '''Dodging:''' he can step back out of the way of your hits.
+* '''Teleporting:''' he teleports to you when you keep your distance or charge an attack from range.
+</translate>
+
+<translate>
+== Drops == <!--T:12-->
+
+<!--T:13-->
+Majin Kuu drops nothing. Clearing the raid rewards everyone still fighting (see [[Special:MyLanguage/Gomah's Army#Rewards|Gomah's Army]]).
+</translate>
+
+<translate>
+== In the story == <!--T:14-->
+
+<!--T:15-->
+In the [[Special:MyLanguage/Daima Saga|Daima Saga]], the quest '''A New Majin Is Born''' has you defeat him on the Third Demon World.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity ids</translate>|<code>dragonminez:saga_majin_kuu</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

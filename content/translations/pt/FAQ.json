@@ -1,0 +1,212 @@
+{
+ "Page_display_title": {
+  "source": "FAQ",
+  "translation": "Perguntas frequentes",
+  "outdated": false
+ },
+ "1": {
+  "source": "Quick answers to the most common questions and issues that players and server owners run into. If your problem isn't here, follow the links to the reference pages, or start from the [[Special:MyLanguage/Beginner's Guide|Beginner's Guide]] if you are new to the mod.",
+  "translation": "Respostas rápidas para as dúvidas e os problemas mais comuns de jogadores e donos de servidores. Se o seu problema não estiver aqui, siga os links para as páginas de referência ou, se você é novo no mod, comece pelo [[Special:MyLanguage/Beginner's Guide|Guia para iniciantes]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "== For players ==",
+  "translation": "== Para jogadores ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "=== Why can't I use ki attacks or strike attacks? ===",
+  "translation": "=== Por que não consigo usar ataques de ki ou ataques de golpe? ===",
+  "outdated": false
+ },
+ "4": {
+  "source": "Ki and strike techniques need the [[Special:MyLanguage/Ki Control|Ki Control]] skill (every master teaches it), at least '''5% Power Release''' (hold {{Key|C}} to charge) and an '''empty main hand'''. Evasion techniques have the same requirements. See [[Special:MyLanguage/Techniques|Techniques]] and [[Special:MyLanguage/Skills|Skills]].",
+  "translation": "As técnicas de ki e de golpe exigem a habilidade [[Special:MyLanguage/Ki Control|Controle de Ki]] (todo mestre a ensina), pelo menos '''5% de Liberação de Poder''' (segure {{Key|C}} para carregar) e a '''mão principal vazia'''. As técnicas de evasão têm os mesmos requisitos. Veja [[Special:MyLanguage/Techniques|Técnicas]] e [[Special:MyLanguage/Skills|Habilidades]].",
+  "outdated": false
+ },
+ "5": {
+  "source": "=== Why can't I fly? ===",
+  "translation": "=== Por que não consigo voar? ===",
+  "outdated": false
+ },
+ "6": {
+  "source": "Flight needs both the [[Special:MyLanguage/Fly|Fly]] and [[Special:MyLanguage/Ki Control|Ki Control]] skills, and at least '''5% Power Release''' to take off. Press {{Key|F}} to toggle it. See [[Special:MyLanguage/Controls|Controls]].",
+  "translation": "Para voar, você precisa das habilidades [[Special:MyLanguage/Fly|Voar]] e [[Special:MyLanguage/Ki Control|Controle de Ki]] e de pelo menos '''5% de Liberação de Poder''' para decolar. Aperte {{Key|F}} para ativar ou desativar o voo. Veja [[Special:MyLanguage/Controls|Controles]].",
+  "outdated": false
+ },
+ "7": {
+  "source": "=== How do I change the flight mode? ===",
+  "translation": "=== Como mudo o modo de voo? ===",
+  "outdated": false
+ },
+ "8": {
+  "source": "There are two flight modes, '''Combat''' and '''Search'''. Hold the '''Second Function''' key ({{Key|Left Alt}} by default) and press the [[Special:MyLanguage/Fly|Fly]] key ({{Key|F}} by default) to switch between them. You can also switch it, cap your flight speed and turn on '''Mode Lock''' from the Utility Menu ('''Movement → Fly'''). See [[Special:MyLanguage/Combat#Combat flight|Combat]].",
+  "translation": "Existem dois modos de voo, '''Combate''' e '''Busca'''. Segure a tecla '''Função Secundária''' ({{Key|Alt esquerdo}} por padrão) e aperte a tecla [[Special:MyLanguage/Fly|Voar]] ({{Key|F}} por padrão) para alternar entre eles. Você também pode trocar o modo, limitar sua velocidade de voo e ativar a '''Trava de modo''' no Menu de Utilidades ('''Movimento → Voar'''). Veja [[Special:MyLanguage/Combat#Combat flight|Combate]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "=== Why won't a master teach me? ===",
+  "translation": "=== Por que um mestre não quer me ensinar? ===",
+  "outdated": false
+ },
+ "10": {
+  "source": "Some masters lock their '''Skills''', '''Train''' and new quests until your [[Special:MyLanguage/Alignment|alignment]] fits: Good masters need 61 or more and Cell and Frieza 40 or less. Hover the locked option to see why. You also have to be within 10 blocks of a master who offers the skill, and your race has to be allowed to learn it. See [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Alguns mestres bloqueiam suas '''Habilidades''', a opção '''Treinar''' e suas missões novas até que a sua [[Special:MyLanguage/Alignment|índole]] seja compatível: mestres bons exigem 61 ou mais, e Cell e Freeza, 40 ou menos. Passe o cursor sobre a opção bloqueada para ver o motivo. Você também precisa estar a até 10 blocos de um mestre que ofereça a habilidade, e sua raça precisa poder aprendê-la. Veja [[Special:MyLanguage/Masters|Mestres]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "=== Why does my transformation keep dropping? ===",
+  "translation": "=== Por que minha transformação fica caindo? ===",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every form drains a resource (usually Ki) while it is active. If you can't pay the drain, the form and any stack form are switched off and you return to base. Raise the form's '''mastery''' (it lowers the drain), power down (the drain scales with your Power Release) or invest in '''Energy''' for a bigger Ki pool. See [[Special:MyLanguage/Transformations|Transformations]] and [[Special:MyLanguage/Training Points and Mastery#Mastery|Training Points and Mastery]].",
+  "translation": "Toda forma consome um recurso (geralmente Ki) enquanto está ativa. Se você não consegue pagar o consumo, a forma e qualquer forma acumulável são desativadas e você volta à forma base. Aumente o '''domínio''' da forma (ele reduz o consumo), reduza seu poder (o consumo escala com sua Liberação de Poder) ou invista em '''Energia''' para ter uma reserva de Ki maior. Veja [[Special:MyLanguage/Transformations|Transformações]] e [[Special:MyLanguage/Training Points and Mastery#Mastery|pontos de treino e domínio]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "=== Can I change my race, class or looks? ===",
+  "translation": "=== Posso mudar minha raça, classe ou aparência? ===",
+  "outdated": false
+ },
+ "14": {
+  "source": "The '''Re-Customize''' wish ([[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]]) reopens the customization screen: you can change your appearance and class, but not your race, and you keep your stats and skills. Picking another race takes a full character reset, which wipes your progress. Mr. Popo's '''Haircut''' reopens the hair editor at any time. A Human can become an [[Special:MyLanguage/Android|Android]] through [[Special:MyLanguage/Dr. Gero|Dr. Gero]]. See [[Special:MyLanguage/Character Customization|Character Customization]].",
+  "translation": "O desejo '''Repersonalizar Personagem''' ([[Special:MyLanguage/Shenron|Shenlong]] ou [[Special:MyLanguage/Porunga|Porunga]]) reabre a tela de personalização: você pode mudar sua aparência e sua classe, mas não sua raça, e mantém suas estatísticas e habilidades. Escolher outra raça exige resetar o personagem por completo, o que apaga o seu progresso. O '''Corte de Cabelo''' do Sr Popo reabre o editor de cabelo a qualquer momento. Um Humano pode se tornar um [[Special:MyLanguage/Android|Android]] com a ajuda do [[Special:MyLanguage/Dr. Gero|Dr. Gero]]. Veja [[Special:MyLanguage/Character Customization|Personalização]].",
+  "outdated": false
+ },
+ "15": {
+  "source": "=== Can I change my story difficulty? ===",
+  "translation": "=== Posso mudar a dificuldade da história? ===",
+  "outdated": false
+ },
+ "16": {
+  "source": "The difficulty you pick the first time you open the Quests tab is permanent. The only way to change it is the '''Change Difficulty''' wish, which lets you choose again the next time you open the Quest Tree without resetting your saga progress. Joining a party on a higher difficulty also raises yours permanently. See [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "A dificuldade que você escolhe na primeira vez que abre a aba Missões é permanente. A única forma de mudá-la é o desejo '''Alterar dificuldade''', que permite escolher de novo na próxima vez que você abrir a Árvore de missões, sem resetar seu progresso nas sagas. Entrar em um grupo com dificuldade maior também aumenta a sua permanentemente. Veja [[Special:MyLanguage/Sagas|Sagas]].",
+  "outdated": false
+ },
+ "17": {
+  "source": "=== How do I redistribute my stats? ===",
+  "translation": "=== Como redistribuo minhas estatísticas? ===",
+  "outdated": false
+ },
+ "18": {
+  "source": "Porunga's '''Reallocate Stats''' wish lets you redistribute your attribute points, and admins can do the same with <code>/dmzstats relocate</code> (see [[Special:MyLanguage/Commands#Resetting a character without losing stats|Commands]]). Dende's '''Reset Stats''' service at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] is a full character reset and asks for confirmation first.",
+  "translation": "O desejo '''Realocar Estatísticas''' de Porunga permite redistribuir seus pontos de atributo, e os administradores podem fazer o mesmo com <code>/dmzstats relocate</code> (veja [[Special:MyLanguage/Commands#Resetting a character without losing stats|Comandos]]). O serviço '''Redefinir estatísticas''' de Dende no [[Special:MyLanguage/Kami's Lookout|Mirante de Kami]] reseta o personagem por completo e pede confirmação antes.",
+  "outdated": false
+ },
+ "19": {
+  "source": "=== What happens when I die? ===",
+  "translation": "=== O que acontece quando eu morro? ===",
+  "outdated": false
+ },
+ "20": {
+  "source": "With the Otherworld enabled, your spirit goes to the [[Special:MyLanguage/Otherworld|Otherworld]] with a halo instead of respawning normally. While dead you don't get hungry and you earn double TP. [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can let you \"borrow time\" in the living world, and the dragons' revive wishes bring dead players fully back to life (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]).",
+  "translation": "Com o Outro Mundo ativado, seu espírito vai para o [[Special:MyLanguage/Otherworld|Outro Mundo]] com uma auréola em vez de reaparecer normalmente. Enquanto está morto, você não sente fome e ganha o dobro de TP. A [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] pode deixar você \"pegar tempo emprestado\" no mundo dos vivos, e os desejos de ressurreição dos dragões trazem jogadores mortos de volta à vida por completo (veja [[Special:MyLanguage/Dragons and Wishes|Dragões e desejos]]).",
+  "outdated": false
+ },
+ "21": {
+  "source": "== For server owners ==",
+  "translation": "== Para donos de servidores ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "=== \"Priceless\" forms or broken form values ===",
+  "translation": "=== Formas \"Impagável\" ou valores de formas quebrados ===",
+  "outdated": false
+ },
+ "23": {
+  "source": "A form shows '''\"Priceless\"''' in the Skills menu when its skill level has no TP cost and no quest grants it. If that happens to DragonMineZ's own forms, your form or skill config files are broken or were edited into an invalid state.",
+  "translation": "Uma forma mostra '''\"Impagável\"''' no menu de Habilidades quando seu nível de habilidade não tem custo em TP e nenhuma missão a concede. Se isso acontecer com as formas do próprio DragonMineZ, seus arquivos de configuração de formas ou habilidades estão quebrados ou foram editados até ficarem inválidos.",
+  "outdated": false
+ },
+ "24": {
+  "source": "DragonMineZ upgrades outdated config files on its own after an update (see [[Special:MyLanguage/How to JSON|How to JSON]]), so first check the server log or the JSON load report in chat for a file that failed to load, fix it and run <code>/dmzreload config</code>.",
+  "translation": "O DragonMineZ atualiza sozinho os arquivos de configuração desatualizados depois de uma atualização (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]), então primeiro confira o log do servidor ou o relatório de carregamento de JSON no chat para achar o arquivo que falhou ao carregar, corrija-o e execute <code>/dmzreload config</code>.",
+  "outdated": false
+ },
+ "25": {
+  "source": "'''Last resort:''' close the game or server, move the <code>dragonminez</code> folder out of your <code>config</code> folder (keep it as a backup), then start back up. DragonMineZ regenerates the config from its current defaults.",
+  "translation": "'''Último recurso:''' feche o jogo ou o servidor, mova a pasta <code>dragonminez</code> para fora da sua pasta <code>config</code> (guarde-a como backup) e inicie de novo. O DragonMineZ regenera a configuração com os valores padrão atuais.",
+  "outdated": false
+ },
+ "26": {
+  "source": "This only resets the '''config''' (<code>config/dragonminez</code>), not your world save or player progress. Any custom edits you made to those config files will be gone from the new files, so copy back what you need from your backup. See [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "Isso só reseta a '''configuração''' (<code>config/dragonminez</code>), não o seu mundo salvo nem o progresso dos jogadores. As edições personalizadas que você fez nesses arquivos de configuração não estarão nos arquivos novos, então copie do backup o que precisar. Veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]].",
+  "outdated": false
+ },
+ "27": {
+  "source": "=== Quests bugged after updating from an older version ===",
+  "translation": "=== Missões bugadas depois de atualizar de uma versão antiga ===",
+  "outdated": false
+ },
+ "28": {
+  "source": "DragonMineZ upgrades the default quest, saga and side-quest files of your world automatically when it starts (unless the server turned automatic quest updates off), keeping your edits. If quests are still stuck or bugged after an update, it is usually leftover story data from the previous version.",
+  "translation": "O DragonMineZ atualiza automaticamente os arquivos padrão de missões, sagas e missões secundárias do seu mundo ao iniciar (a menos que o servidor tenha desativado as atualizações automáticas de missões), mantendo suas edições. Se as missões continuarem travadas ou bugadas depois de uma atualização, geralmente são dados de história que sobraram da versão anterior.",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Fix:''' run <code>/dmzrestoreupdate</code> and confirm it (click the button, or run <code>/dmzrestoreupdate confirm</code> within 15 seconds). It '''deletes''' everything in the world's <code>dragonminez/wishes</code>, <code>sagas</code> and <code>quests</code> folders and regenerates the defaults for the current version, so back up any custom quests or wishes first. See [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "'''Solução:''' execute <code>/dmzrestoreupdate</code> e confirme (clique no botão ou execute <code>/dmzrestoreupdate confirm</code> em até 15 segundos). Ele '''apaga''' tudo nas pastas <code>dragonminez/wishes</code>, <code>sagas</code> e <code>quests</code> do mundo e regenera os padrões da versão atual, então faça antes um backup das suas missões ou desejos personalizados. Veja [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== My config edits were reset or didn't apply ===",
+  "translation": "=== Minhas edições na configuração foram resetadas ou não funcionaram ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Syntax error:''' DragonMineZ couldn't read the file. It runs on default values for that file and leaves your file untouched; the log (and the JSON load report in chat) shows the file, line and column. Fix it and run <code>/dmzreload config</code>.",
+  "translation": "'''Erro de sintaxe:''' o DragonMineZ não conseguiu ler o arquivo. Ele usa os valores padrão para esse arquivo e deixa o seu arquivo intacto; o log (e o relatório de carregamento de JSON no chat) mostra o arquivo, a linha e a coluna. Corrija-o e execute <code>/dmzreload config</code>.",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''After a DragonMineZ update:''' outdated files are regenerated with the new defaults and your changed values merged back in. The previous file is in <code>config/dragonminez/oldBackup/</code>.",
+  "translation": "'''Depois de uma atualização do DragonMineZ:''' os arquivos desatualizados são regenerados com os novos padrões, e os valores que você mudou são mesclados de volta. O arquivo anterior fica em <code>config/dragonminez/oldBackup/</code>.",
+  "outdated": false
+ },
+ "33": {
+  "source": "'''Typo in a key name:''' unknown keys are ignored and listed in the JSON load report.",
+  "translation": "'''Erro de digitação no nome de uma chave:''' chaves desconhecidas são ignoradas e listadas no relatório de carregamento de JSON.",
+  "outdated": false
+ },
+ "34": {
+  "source": "'''Edited <code>general-user.json</code> by hand:''' that file is read by the client; restart the game, or change the option from the in-game Config tab.",
+  "translation": "'''Editou o <code>general-user.json</code> manualmente:''' esse arquivo é lido pelo cliente; reinicie o jogo ou mude a opção na aba Config dentro do jogo.",
+  "outdated": false
+ },
+ "35": {
+  "source": "See [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Configuration|Configuration]].",
+  "translation": "Veja [[Special:MyLanguage/How to JSON|Como usar JSON]] e [[Special:MyLanguage/Configuration|Configuração]].",
+  "outdated": false
+ },
+ "36": {
+  "source": "=== Players see a \"JSON load report\" in chat when they join ===",
+  "translation": "=== Os jogadores veem um \"relatório de carregamento de JSON\" no chat ao entrar ===",
+  "outdated": false
+ },
+ "37": {
+  "source": "That report lists JSON files that failed to load and default files DragonMineZ upgraded. Fix the listed files and run <code>/dmzreload</code>, or turn the report off in the developer section of [[Special:MyLanguage/General Server Config|General Server Config]].",
+  "translation": "Esse relatório lista os arquivos JSON que falharam ao carregar e os arquivos padrão que o DragonMineZ atualizou. Corrija os arquivos listados e execute <code>/dmzreload</code>, ou desative o relatório na seção de desenvolvedor da [[Special:MyLanguage/General Server Config|Configuração do servidor]].",
+  "outdated": false
+ },
+ "38": {
+  "source": "=== Mod structures aren't spawning ===",
+  "translation": "=== As estruturas do mod não estão aparecendo ===",
+  "outdated": false
+ },
+ "39": {
+  "source": "First check that custom structure generation is turned on in [[Special:MyLanguage/General Server Config|General Server Config]]. You can also place DragonMineZ structures manually with the vanilla <code>/place</code> command:",
+  "translation": "Primeiro verifique se a geração de estruturas personalizadas está ativada na [[Special:MyLanguage/General Server Config|Configuração do servidor]]. Você também pode colocar estruturas do DragonMineZ manualmente com o comando vanilla <code>/place</code>:",
+  "outdated": false
+ },
+ "40": {
+  "source": "For example, <code>/place structure dragonminez:goku_house</code>. Type <code>/place structure dragonminez:</code> and use tab-completion to see every available structure. See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "Por exemplo, <code>/place structure dragonminez:goku_house</code>. Digite <code>/place structure dragonminez:</code> e use o autocompletar com Tab para ver todas as estruturas disponíveis. Veja [[Special:MyLanguage/Structures|Estruturas]].",
+  "outdated": false
+ },
+ "41": {
+  "source": "<code>/dmzlocate</code> finds where an already-generated structure is, for example <code>/dmzlocate goku_house</code> (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "<code>/dmzlocate</code> encontra onde está uma estrutura já gerada, por exemplo <code>/dmzlocate goku_house</code> (veja [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ }
+}

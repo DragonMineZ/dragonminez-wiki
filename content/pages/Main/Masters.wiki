@@ -1,93 +1,96 @@
 <translate>
+<!--T:1-->
 '''Masters''' are the trainer NPCs of DragonMineZ. Most of them teach [[Special:MyLanguage/Skills|skills]] and [[Special:MyLanguage/Techniques|techniques]] in exchange for [[Special:MyLanguage/Training Points and Mastery|Training Points]], five of them run a [[Special:MyLanguage/Training Minigames|training minigame]], and several offer services such as healing, weighted gear or a Flying Nimbus. Right-click a master to open the NPC dialogue: one menu with everything that master offers.
 </translate>
 
 <div class="dmz-cards">
-{{Card|Master Roshi|<translate>The basics: Jump, Meditation, Ki Control, the Kamehameha and weighted Turtle Shells.</translate>}}
-{{Card|Krillin|<translate>Ki skills, the Kienzan and Solar Flare, and the Ki Control minigame.</translate>}}
-{{Card|Goku|<translate>Fly, Instant Transmission, the Fusion Dance and the Spirit Bomb.</translate>}}
-{{Card|Gohan|<translate>Ki Boost, Ki Protection, Ki Sense and the Shadow Boxing minigame.</translate>}}
-{{Card|Piccolo|<translate>Potential Unlock, the Special Beam Cannon, healing and weighted capes.</translate>}}
-{{Card|Vegeta|<translate>The Galick Gun, Final Flash, Fake Moon and the Gravity minigame.</translate>}}
-{{Card|Trunks|<translate>Ki skills, sword strikes and the Precision minigame.</translate>}}
-{{Card|Yamcha|<translate>Ki Infusion, the Spirit Ball and the Wolf Fang.</translate>}}
-{{Card|Majin Buu|<translate>Assault Rain, Gum Punch, Mystic Ball Attack and Sleep Recovery.</translate>}}
-{{Card|Fortuneteller Baba|<translate>Basic skills and a tournament on Earth; revivals in the Otherworld.</translate>}}
-{{Card|Korin|<translate>The Flying Nimbus and Senzu Beans.</translate>}}
-{{Card|Mr. Popo|<translate>Haircuts at the Lookout and the Rhythm minigame in the Time Chamber.</translate>}}
-{{Card|Dende|<translate>Healing, character resets, tails and Kami's Blessing.</translate>}}
-{{Card|Dr. Gero|<translate>Turns Humans into Androids.</translate>}}
-{{Card|Babidi|<translate>Gives the Majin mark to Evil-aligned players.</translate>}}
-{{Card|Cell|<translate>A huge roster of skills and techniques, for Evil-aligned players only.</translate>}}
-{{Card|Frieza|<translate>Death Beams, the Supernova and many skills, for Evil-aligned players only.</translate>}}
-{{Card|Grand Elder Guru|<translate>Unlocks Potential Unlock level 11.</translate>}}
-{{Card|Old Kai|<translate>The Soul Punisher and the Ultimate Challenge.</translate>}}
-{{Card|King Kai|<translate>The Kaioken, the Spirit Bomb and Workout Weights.</translate>}}
-{{Card|King Yemma|<translate>Sends spirits back to the living world.</translate>}}
-{{Card|Grand Kai|<translate>The way to the Otherworld Tournament.</translate>}}
+{{Card|Master Roshi|<translate><!--T:2--> The basics: Jump, Meditation, Ki Control, the Kamehameha and weighted Turtle Shells.</translate>}}
+{{Card|Krillin|<translate><!--T:3--> Ki skills, the Kienzan and Solar Flare, and the Ki Control minigame.</translate>}}
+{{Card|Goku|<translate><!--T:4--> Fly, Instant Transmission, the Fusion Dance and the Spirit Bomb.</translate>}}
+{{Card|Gohan|<translate><!--T:5--> Ki Boost, Ki Protection, Ki Sense and the Shadow Boxing minigame.</translate>}}
+{{Card|Piccolo|<translate><!--T:6--> Potential Unlock, the Special Beam Cannon, healing and weighted capes.</translate>}}
+{{Card|Vegeta|<translate><!--T:7--> The Galick Gun, Final Flash, Fake Moon and the Gravity minigame.</translate>}}
+{{Card|Trunks|<translate><!--T:8--> Ki skills, sword strikes and the Precision minigame.</translate>}}
+{{Card|Yamcha|<translate><!--T:9--> Ki Infusion, the Spirit Ball and the Wolf Fang.</translate>}}
+{{Card|Majin Buu|<translate><!--T:10--> Assault Rain, Gum Punch, Mystic Ball Attack and Sleep Recovery.</translate>}}
+{{Card|Fortuneteller Baba|<translate><!--T:11--> Basic skills and a tournament on Earth; revivals in the Otherworld.</translate>}}
+{{Card|Korin|<translate><!--T:12--> The Flying Nimbus and Senzu Beans.</translate>}}
+{{Card|Mr. Popo|<translate><!--T:13--> Haircuts at the Lookout and the Rhythm minigame in the Time Chamber.</translate>}}
+{{Card|Dende|<translate><!--T:14--> Healing, character resets, tails and Kami's Blessing.</translate>}}
+{{Card|Dr. Gero|<translate><!--T:15--> Turns Humans into Androids.</translate>}}
+{{Card|Babidi|<translate><!--T:16--> Gives the Majin mark to Evil-aligned players.</translate>}}
+{{Card|Cell|<translate><!--T:17--> A huge roster of skills and techniques, for Evil-aligned players only.</translate>}}
+{{Card|Frieza|<translate><!--T:18--> Death Beams, the Supernova and many skills, for Evil-aligned players only.</translate>}}
+{{Card|Grand Elder Guru|<translate><!--T:19--> Unlocks Potential Unlock level 11.</translate>}}
+{{Card|Old Kai|<translate><!--T:20--> The Soul Punisher and the Ultimate Challenge.</translate>}}
+{{Card|King Kai|<translate><!--T:21--> The Kaioken, the Spirit Bomb and Workout Weights.</translate>}}
+{{Card|King Yemma|<translate><!--T:22--> Sends spirits back to the living world.</translate>}}
+{{Card|Grand Kai|<translate><!--T:23--> The way to the Otherworld Tournament.</translate>}}
 </div>
 
 <translate>
-== Where to find each master ==
+== Where to find each master == <!--T:24-->
 </translate>
 {{See also|Structures}}
 {| class="wikitable"
-! <translate>Master</translate> !! <translate>Where</translate> !! <translate>Alignment for Skills, Train and quests</translate> !! <translate>Training minigame</translate>
+! <translate><!--T:25--> Master</translate> !! <translate><!--T:26--> Where</translate> !! <translate><!--T:27--> Alignment for Skills, Train and quests</translate> !! <translate><!--T:28--> Training minigame</translate>
 |-
-| {{L|Master Roshi}} || <translate>[[Special:MyLanguage/Kame House|Kame House]] (Earth coast)</translate> || <translate>'''Good (61 or higher)'''</translate> || —
+| {{L|Master Roshi}} || <translate><!--T:29--> [[Special:MyLanguage/Kame House|Kame House]] (Earth coast)</translate> || <translate><!--T:30--> '''Good (61 or higher)'''</translate> || —
 |-
-| {{L|Krillin}} || <translate>[[Special:MyLanguage/Kame House|Kame House]], with Roshi</translate> || <translate>'''Good (61 or higher)'''</translate> || <translate>Ki Control</translate>
+| {{L|Krillin}} || <translate><!--T:31--> [[Special:MyLanguage/Kame House|Kame House]], with Roshi</translate> || <translate><!--T:32--> '''Good (61 or higher)'''</translate> || <translate><!--T:33--> Ki Control</translate>
 |-
-| {{L|Goku}} || <translate>[[Special:MyLanguage/Goku's House|Goku's House]] (Earth plains)</translate> || <translate>'''Good (61 or higher)'''</translate> || —
+| {{L|Goku}} || <translate><!--T:34--> [[Special:MyLanguage/Goku's House|Goku's House]] (Earth plains)</translate> || <translate><!--T:35--> '''Good (61 or higher)'''</translate> || —
 |-
-| {{L|Gohan}} || <translate>[[Special:MyLanguage/Goku's House|Goku's House]], with Goku</translate> || <translate>'''Good (61 or higher)'''</translate> || <translate>Shadow Boxing</translate>
+| {{L|Gohan}} || <translate><!--T:36--> [[Special:MyLanguage/Goku's House|Goku's House]], with Goku</translate> || <translate><!--T:37--> '''Good (61 or higher)'''</translate> || <translate><!--T:38--> Shadow Boxing</translate>
 |-
-| {{L|Piccolo}} || <translate>[[Special:MyLanguage/Piccolo's House|Piccolo's House]] (Earth plains)</translate> || <translate>None</translate> || —
+| {{L|Piccolo}} || <translate><!--T:39--> [[Special:MyLanguage/Piccolo's House|Piccolo's House]] (Earth plains)</translate> || <translate><!--T:40--> None</translate> || —
 |-
-| {{L|Majin Buu}} || <translate>[[Special:MyLanguage/Majin Buu's House|Majin Buu's House]] (Earth plains)</translate> || <translate>None</translate> || —
+| {{L|Majin Buu}} || <translate><!--T:41--> [[Special:MyLanguage/Majin Buu's House|Majin Buu's House]] (Earth plains)</translate> || <translate><!--T:42--> None</translate> || —
 |-
-| {{L|Yamcha}} || <translate>[[Special:MyLanguage/Yamcha's House|Yamcha's House]] (Earth desert)</translate> || <translate>None</translate> || —
+| {{L|Yamcha}} || <translate><!--T:43--> [[Special:MyLanguage/Yamcha's House|Yamcha's House]] (Earth desert)</translate> || <translate><!--T:44--> None</translate> || —
 |-
-| {{L|Trunks}} || <translate>[[Special:MyLanguage/Trunks' Ship|Trunks' Ship]] (Earth land biomes)</translate> || <translate>None</translate> || <translate>Precision</translate>
+| {{L|Trunks}} || <translate><!--T:45--> [[Special:MyLanguage/Trunks' Ship|Trunks' Ship]] (Earth land biomes)</translate> || <translate><!--T:46--> None</translate> || <translate><!--T:47--> Precision</translate>
 |-
-| {{L|Vegeta}} || <translate>[[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] (Earth rocky biomes)</translate> || <translate>None</translate> || <translate>Gravity</translate>
+| {{L|Vegeta}} || <translate><!--T:48--> [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] (Earth rocky biomes)</translate> || <translate><!--T:49--> None</translate> || <translate><!--T:50--> Gravity</translate>
 |-
-| {{L|Mr. Popo}} || <translate>[[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], and inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]</translate> || <translate>None</translate> || <translate>Rhythm (only inside the Time Chamber)</translate>
+| {{L|Mr. Popo}} || <translate><!--T:51--> [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]], and inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]</translate> || <translate><!--T:52--> None</translate> || <translate><!--T:53--> Rhythm (only inside the Time Chamber)</translate>
 |-
-| {{L|Fortuneteller Baba}} || <translate>[[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]] (Earth), and the [[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <translate>None</translate> || —
+| {{L|Fortuneteller Baba}} || <translate><!--T:54--> [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]] (Earth), and the [[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <translate><!--T:55--> None</translate> || —
 |-
-| {{L|Cell}} || <translate>[[Special:MyLanguage/Cell Arena|Cell Arena]] (Earth plains)</translate> || <translate>'''Evil (40 or lower)'''</translate> || —
+| {{L|Cell}} || <translate><!--T:56--> [[Special:MyLanguage/Cell Arena|Cell Arena]] (Earth plains)</translate> || <translate><!--T:57--> '''Evil (40 or lower)'''</translate> || —
 |-
-| {{L|Frieza}} || <translate>[[Special:MyLanguage/Frieza's Ship|Frieza's Ship]] (Namek)</translate> || <translate>'''Evil (40 or lower)'''</translate> || —
+| {{L|Frieza}} || <translate><!--T:58--> [[Special:MyLanguage/Frieza's Ship|Frieza's Ship]] (Namek)</translate> || <translate><!--T:59--> '''Evil (40 or lower)'''</translate> || —
 |-
-| {{L|Old Kai}} || <translate>[[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] (Sacred Kai Planet)</translate> || <translate>'''Good (61 or higher)'''</translate> || <translate>Ultimate Challenge</translate>
+| {{L|Old Kai}} || <translate><!--T:60--> [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] (Sacred Kai Planet)</translate> || <translate><!--T:61--> '''Good (61 or higher)'''</translate> || <translate><!--T:62--> Ultimate Challenge</translate>
 |-
-| {{L|King Kai}} || <translate>King Kai's Planet, in the [[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <translate>'''Good (61 or higher)'''</translate> || —
+| {{L|King Kai}} || <translate><!--T:63--> King Kai's Planet, in the [[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <translate><!--T:64--> '''Good (61 or higher)'''</translate> || —
 |-
-| {{L|Korin}} || <translate>[[Special:MyLanguage/Kami's Lookout|Kami's Lookout]]</translate> || <translate>None</translate> || —
+| {{L|Korin}} || <translate><!--T:65--> [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]]</translate> || <translate><!--T:66--> None</translate> || —
 |-
-| {{L|Dende}} || <translate>[[Special:MyLanguage/Kami's Lookout|Kami's Lookout]]</translate> || <translate>None</translate> || —
+| {{L|Dende}} || <translate><!--T:67--> [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]]</translate> || <translate><!--T:68--> None</translate> || —
 |-
-| {{L|Dr. Gero}} || <translate>[[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]] (Earth)</translate> || <translate>None</translate> || —
+| {{L|Dr. Gero}} || <translate><!--T:69--> [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]] (Earth)</translate> || <translate><!--T:70--> None</translate> || —
 |-
-| {{L|Babidi}} || <translate>[[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]] (Earth mountains)</translate> || <translate>None</translate> || —
+| {{L|Babidi}} || <translate><!--T:71--> [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]] (Earth mountains)</translate> || <translate><!--T:72--> None</translate> || —
 |-
-| {{L|Grand Elder Guru}} || <translate>[[Special:MyLanguage/Grand Elder's House|Grand Elder's House]] (Namek)</translate> || <translate>None</translate> || —
+| {{L|Grand Elder Guru}} || <translate><!--T:73--> [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]] (Namek)</translate> || <translate><!--T:74--> None</translate> || —
 |-
-| {{L|King Yemma}} || <translate>The [[Special:MyLanguage/Otherworld|Otherworld]]'s cloud realm</translate> || <translate>None</translate> || —
+| {{L|King Yemma}} || <translate><!--T:75--> The [[Special:MyLanguage/Otherworld|Otherworld]]'s cloud realm</translate> || <translate><!--T:76--> None</translate> || —
 |-
-| {{L|Grand Kai}} || <translate>The [[Special:MyLanguage/Otherworld|Otherworld]]'s cloud realm</translate> || <translate>None</translate> || —
+| {{L|Grand Kai}} || <translate><!--T:77--> The [[Special:MyLanguage/Otherworld|Otherworld]]'s cloud realm</translate> || <translate><!--T:78--> None</translate> || —
 |}
 
 <translate>
+<!--T:79-->
 Capsule Corp Assistants sell treasure maps to most masters' homes (see [[Special:MyLanguage/Structures#Finding structures|Finding structures]]). [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] (on Earth) and [[Special:MyLanguage/Cell|Cell]] also host [[Special:MyLanguage/Tournaments|tournaments]].
 </translate>
 
 <translate>
-== Alignment ==
+== Alignment == <!--T:80-->
 </translate>
 {{See also|Alignment}}
 <translate>
+<!--T:81-->
 Some masters only train you if your [[Special:MyLanguage/Alignment|alignment]] fits (bands: '''Good 61–100''', '''Neutral 41–60''', '''Evil 0–40'''):
 * '''Good-aligned masters''': [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, Old Kai and King Kai need an alignment of 61 or higher.
 * '''Evil-aligned masters''': Cell and Frieza need an alignment of 40 or lower.
@@ -95,160 +98,173 @@ Some masters only train you if your [[Special:MyLanguage/Alignment|alignment]] f
 </translate>
 
 <translate>
+<!--T:82-->
 A master whose alignment you don't fit still talks to you, just more coldly, but '''Skills''', '''Train''' and their '''new quests''' stay locked ("Requires an alignment of 61 or higher" or "40 or lower") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments stay open. A few services have alignment rules of their own (Korin's Nimbus, Dende's blessing, [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], Babidi, Old Kai's challenge); they're listed on each master's page.
 </translate>
 
 <translate>
+<!--T:83-->
 Whether NPCs are hostile toward you is a separate, configurable system (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
 </translate>
 
 <translate>
-== Talking to a master ==
+== Talking to a master == <!--T:84-->
 </translate>
 <translate>
+<!--T:85-->
 Right-clicking a master (or a quest NPC such as Bulma) opens the dialogue at the bottom of the screen: the NPC on the left, what they say in the middle and your options on the right. You need to have created your character first.
 </translate>
 
 {| class="wikitable"
-! <translate>Option</translate> !! <translate>Who has it</translate> !! <translate>What it does</translate>
+! <translate><!--T:86--> Option</translate> !! <translate><!--T:87--> Who has it</translate> !! <translate><!--T:88--> What it does</translate>
 |-
-| <translate>'''Quests'''</translate> || <translate>NPCs that give quests</translate> || <translate>Lists their quests in the order they unlock in the story: available, in progress, ready to turn in and locked ones. Completed quests (greyed out, with a check mark) and repeatable quests on cooldown move to the bottom. Pick a quest to see its description, objectives and rewards, then '''Accept''' or '''Reject''' it, or '''Turn in''' a finished one; the window stays open. Once every quest of that NPC is done, the '''Quests''' option shows a check mark.</translate>
+| <translate><!--T:89--> '''Quests'''</translate> || <translate><!--T:90--> NPCs that give quests</translate> || <translate><!--T:91--> Lists their quests in the order they unlock in the story: available, in progress, ready to turn in and locked ones. Completed quests (greyed out, with a check mark) and repeatable quests on cooldown move to the bottom. Pick a quest to see its description, objectives and rewards, then '''Accept''' or '''Reject''' it, or '''Turn in''' a finished one; the window stays open. Once every quest of that NPC is done, the '''Quests''' option shows a check mark.</translate>
 |-
-| <translate>'''Skills'''</translate> || <translate>Every master who teaches</translate> || <translate>Opens the master's skill shop (see ''What masters teach'' below).</translate>
+| <translate><!--T:92--> '''Skills'''</translate> || <translate><!--T:93--> Every master who teaches</translate> || <translate><!--T:94--> Opens the master's skill shop (see ''What masters teach'' below).</translate>
 |-
-| <translate>'''Train'''</translate> || <translate>Every master who teaches (Mr. Popo only inside the Time Chamber)</translate> || <translate>'''Shadow Clone''' spawns a Shadow Dummy copy of you to spar with; masters with a [[Special:MyLanguage/Training Minigames|training minigame]] also list it here.</translate>
+| <translate><!--T:95--> '''Train'''</translate> || <translate><!--T:96--> Every master who teaches (Mr. Popo only inside the Time Chamber)</translate> || <translate><!--T:97--> '''Shadow Clone''' spawns a Shadow Dummy copy of you to spar with; masters with a [[Special:MyLanguage/Training Minigames|training minigame]] also list it here.</translate>
 |-
-| <translate>''Services''</translate> || <translate>Some masters and NPCs</translate> || <translate>See ''Services'' below.</translate>
+| <translate><!--T:98--> ''Services''</translate> || <translate><!--T:99--> Some masters and NPCs</translate> || <translate><!--T:100--> See ''Services'' below.</translate>
 |-
-| <translate>'''Tournament'''</translate> || <translate>Fortuneteller Baba (Earth), Cell, the Otherworld Tournament Announcer</translate> || <translate>Opens the tournament screen. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
+| <translate><!--T:101--> '''Tournament'''</translate> || <translate><!--T:102--> Fortuneteller Baba (Earth), Cell, the [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]</translate> || <translate><!--T:103--> Opens the tournament screen. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
 |}
 
 <translate>
+<!--T:104-->
 * An option you can't use right now stays in the list but '''locked''': hover it to see why (wrong alignment, a skill level that's too low, a Flying Nimbus you already carry, full health and so on). Some masters answer in character when you click a locked service.
 * Options with a cooldown (Korin's Senzu Beans, Kami's Blessing, Baba's revive, repeatable quests) show a '''timer''' that counts down live; the option unlocks by itself when it runs out.
-* After a service the master replies and the window stays open. Teleports ([[Special:MyLanguage/King Yemma|King Yemma]], the [[Special:MyLanguage/Grand Kai|Grand Kai]], the Tournament Announcer), Dende's stat reset and the Shadow Clone close it.
+* After a service the master replies and the window stays open. Teleports ([[Special:MyLanguage/King Yemma|King Yemma]], the [[Special:MyLanguage/Grand Kai|Grand Kai]], the [[Special:MyLanguage/Otherworld Tournament Announcer|Tournament Announcer]]), Dende's stat reset and the Shadow Clone close it.
 * A locked quest tells you what's missing, for example which saga quest or sidequest to complete first.
 </translate>
 
 <translate>
+<!--T:105-->
 '''Controls:''' click an option, use {{Key|↑}} / {{Key|↓}} and {{Key|Enter}}, or press {{Key|1}}–{{Key|9}}. Click the text (or press {{Key|Space}} or {{Key|Enter}}) to show the whole line at once. '''Back''' ({{Key|Backspace}} or right click) returns to the previous page; '''Close''' or {{Key|Esc}} leaves.
 </translate>
 
 <translate>
-== What masters teach ==
+== What masters teach == <!--T:106-->
 </translate>
 {{Config|Skills Config|skillOfferings}}
 <translate>
+<!--T:107-->
 Techniques are split into '''ki attacks''' (ranged energy), '''strike attacks''' (melee) and '''evasion techniques''' (see [[Special:MyLanguage/Techniques|Techniques]]). Plain '''skills''' are passive or utility unlocks (see [[Special:MyLanguage/Skills|Skills]]). You pay for them with Training Points, and your [[Special:MyLanguage/Races|race]] still has to allow each one, so a master's shop only lists what your race can learn. These are the default lists:
 </translate>
 
 {| class="wikitable"
-! <translate>Master</translate> !! <translate>Skills</translate> !! <translate>Ki attacks</translate> !! <translate>Strike attacks</translate> !! <translate>Evasion</translate>
+! <translate><!--T:108--> Master</translate> !! <translate><!--T:109--> Skills</translate> !! <translate><!--T:110--> Ki attacks</translate> !! <translate><!--T:111--> Strike attacks</translate> !! <translate><!--T:112--> Evasion</translate>
 |-
-| {{L|Master Roshi}} || <translate>Jump, [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate>Kamehameha</translate> || — || <translate>[[Special:MyLanguage/Afterimage|Afterimage]]</translate>
+| {{L|Master Roshi}} || <translate><!--T:113--> Jump, [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:114--> Kamehameha</translate> || — || <translate><!--T:115--> [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |-
-| {{L|Goku}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Fusion Dance|Fusion]]</translate> || <translate>Kamehameha, Spirit Bomb</translate> || <translate>Dragon Fist, Super God Fist, Oozaru Fist</translate> || —
+| {{L|Goku}} || <translate><!--T:116--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Fusion Dance|Fusion]]</translate> || <translate><!--T:117--> Kamehameha, Spirit Bomb</translate> || <translate><!--T:118--> Dragon Fist, Super God Fist, Oozaru Fist</translate> || —
 |-
-| {{L|King Kai}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Kaioken|Kaioken]] (stack form)</translate> || <translate>Spirit Bomb</translate> || <translate>Kaioken Attack</translate> || —
+| {{L|King Kai}} || <translate><!--T:119--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Kaioken|Kaioken]] (stack form)</translate> || <translate><!--T:120--> Spirit Bomb</translate> || <translate><!--T:121--> Kaioken Attack</translate> || —
 |-
-| {{L|Piccolo}} || <translate>[[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate>Masenko, Special Beam Cannon, Ki Barrage, Kienzan, [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]]</translate> || — || —
+| {{L|Piccolo}} || <translate><!--T:122--> [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:123--> Masenko, Special Beam Cannon, Ki Barrage, Kienzan, [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]]</translate> || — || —
 |-
-| {{L|Gohan}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]], [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate>Masenko, Special Beam Cannon, Kamehameha, Ki Barrage</translate> || — || —
+| {{L|Gohan}} || <translate><!--T:124--> [[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]], [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate><!--T:125--> Masenko, Special Beam Cannon, Kamehameha, Ki Barrage</translate> || — || —
 |-
-| {{L|Krillin}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate>Kienzan, Double Kienzan, Ki Barrage</translate> || <translate>Deadly Dance</translate> || <translate>[[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
+| {{L|Krillin}} || <translate><!--T:126--> [[Special:MyLanguage/Ki Control|Ki Control]], Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate><!--T:127--> Kienzan, Double Kienzan, Ki Barrage</translate> || <translate><!--T:128--> Deadly Dance</translate> || <translate><!--T:129--> [[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |-
-| {{L|Vegeta}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], Defense Penetration, [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate>Galick Gun, Big Bang Attack, Final Flash, Final Explosion, [[Special:MyLanguage/Fake Moon|Fake Moon]]</translate> || <translate>Deadly Dance (Vegetto), Spirit Breaking Cannon</translate> || —
+| {{L|Vegeta}} || <translate><!--T:130--> [[Special:MyLanguage/Ki Control|Ki Control]], Defense Penetration, [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:131--> Galick Gun, Big Bang Attack, Final Flash, Final Explosion, [[Special:MyLanguage/Fake Moon|Fake Moon]]</translate> || <translate><!--T:132--> Deadly Dance (Vegetto), Spirit Breaking Cannon</translate> || —
 |-
-| {{L|Trunks}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]]</translate> || <translate>Burning Attack, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], Galick Gun, Ki Barrage</translate> || <translate>[[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], Meteor</translate> || —
+| {{L|Trunks}} || <translate><!--T:133--> [[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]]</translate> || <translate><!--T:134--> Burning Attack, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], Galick Gun, Ki Barrage</translate> || <translate><!--T:135--> [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], Meteor</translate> || —
 |-
-| {{L|Yamcha}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]]</translate> || <translate>Spirit Ball, Kamehameha, Ki Barrage</translate> || <translate>Wolf Fang</translate> || —
+| {{L|Yamcha}} || <translate><!--T:136--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]]</translate> || <translate><!--T:137--> Spirit Ball, Kamehameha, Ki Barrage</translate> || <translate><!--T:138--> Wolf Fang</translate> || —
 |-
-| {{L|Majin Buu}} || — || <translate>Assault Rain</translate> || <translate>Gum Punch, Mystic Ball Attack</translate> || <translate>Sleep Recovery</translate>
+| {{L|Majin Buu}} || — || <translate><!--T:139--> Assault Rain</translate> || <translate><!--T:140--> Gum Punch, Mystic Ball Attack</translate> || <translate><!--T:141--> Sleep Recovery</translate>
 |-
-| {{L|Fortuneteller Baba}} <translate>(Earth)</translate> || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Meditation|Meditation]]</translate> || — || — || —
+| {{L|Fortuneteller Baba}} <translate><!--T:142--> (Earth)</translate> || <translate><!--T:143--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Meditation|Meditation]]</translate> || — || — || —
 |-
-| {{L|Old Kai}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], Healing Reduction</translate> || <translate>Soul Punisher</translate> || — || —
+| {{L|Old Kai}} || <translate><!--T:144--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], Healing Reduction</translate> || <translate><!--T:145--> Soul Punisher</translate> || — || —
 |-
-| {{L|Frieza}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], Jump, Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]], [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate>Death Beam, [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]], Supernova, Double Kienzan</translate> || <translate>Deadly Dance, Meteor</translate> || —
+| {{L|Frieza}} || <translate><!--T:146--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], Jump, Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]], [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:147--> Death Beam, [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]], Supernova, Double Kienzan</translate> || <translate><!--T:148--> Deadly Dance, Meteor</translate> || —
 |-
-| {{L|Cell}} || <translate>[[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]], Defense Penetration, Healing Reduction, Ki Boost</translate> || <translate>Kamehameha, Kienzan, Galick Gun, Masenko, Death Beam, Ki Barrage</translate> || <translate>Deadly Dance, Meteor</translate> || <translate>[[Special:MyLanguage/Afterimage|Afterimage]]</translate>
+| {{L|Cell}} || <translate><!--T:149--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]], Defense Penetration, Healing Reduction, Ki Boost</translate> || <translate><!--T:150--> Kamehameha, Kienzan, Galick Gun, Masenko, Death Beam, Ki Barrage</translate> || <translate><!--T:151--> Deadly Dance, Meteor</translate> || <translate><!--T:152--> [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |}
 
 <translate>
+<!--T:153-->
 Cell and Frieza cover a huge part of the technique roster on their own, but you need Evil alignment (40 or lower) to train with them, so a Good character can't learn everything from a single master.
 </translate>
 
-{{Note|type=config|title=<translate>Server settings</translate>|<translate>What each master teaches is set in <code>config/dragonminez/skills.json</code> (<code>skillOfferings</code>, one list per master id), and the minigames in <code>training.json</code>. A master without a list of its own uses the <code>default</code> list (Ki Control and Jump).</translate>}}
+{{Note|type=config|title=<translate><!--T:154--> Server settings</translate>|<translate><!--T:155--> What each master teaches is set in <code>config/dragonminez/skills.json</code> (<code>skillOfferings</code>, one list per master id), and the minigames in <code>training.json</code>. A master without a list of its own uses the <code>default</code> list (Ki Control and Jump).</translate>}}
 
 <translate>
-== Training ==
+== Training == <!--T:156-->
 </translate>
 {{Main|Training Minigames}}
 <translate>
+<!--T:157-->
 Every master who teaches also has a '''Train''' option. '''Shadow Clone''' spawns a Shadow Dummy copy of you to spar with. Five masters also run a training minigame there: [[Special:MyLanguage/Krillin|Krillin]] (Ki Control), [[Special:MyLanguage/Gohan|Gohan]] (Shadow Boxing), [[Special:MyLanguage/Trunks|Trunks]] (Precision), [[Special:MyLanguage/Vegeta|Vegeta]] (Gravity) and [[Special:MyLanguage/Mr. Popo|Mr. Popo]] (Rhythm, inside the Time Chamber). [[Special:MyLanguage/Old Kai|Old Kai]]'s '''Unleash Power''' service chains all five into the Ultimate Challenge.
 </translate>
 
 <translate>
-== Services ==
+== Services == <!--T:158-->
 </translate>
 <translate>
+<!--T:159-->
 Besides teaching, several masters (and the other NPCs living next to them) offer services as options of their dialogue:
 </translate>
 
 {| class="wikitable"
-! <translate>NPC</translate> !! <translate>Where</translate> !! <translate>Service</translate>
+! <translate><!--T:160--> NPC</translate> !! <translate><!--T:161--> Where</translate> !! <translate><!--T:162--> Service</translate>
 |-
-| {{L|Master Roshi}} || {{L|Kame House}} || <translate>'''Weighted Gear''': gives you a '''Turtle Shell''' of the weight you type in. See [[Special:MyLanguage/Weights|Weights]].</translate>
+| {{L|Master Roshi}} || {{L|Kame House}} || <translate><!--T:163--> '''Weighted Gear''': gives you a '''Turtle Shell''' of the weight you type in. See [[Special:MyLanguage/Weights|Weights]].</translate>
 |-
-| {{L|King Kai}} || <translate>King Kai's Planet (Otherworld)</translate> || <translate>'''Weighted Gear''': gives you '''Workout Weights'''.</translate>
+| {{L|King Kai}} || <translate><!--T:164--> King Kai's Planet (Otherworld)</translate> || <translate><!--T:165--> '''Weighted Gear''': gives you '''Workout Weights'''.</translate>
 |-
-| {{L|Piccolo}} || {{L|Piccolo's House}} || <translate>'''Heal me''' (restores health, ki, stamina and poise) and '''Weighted Gear''' (a '''Weighted Cape''').</translate>
+| {{L|Piccolo}} || {{L|Piccolo's House}} || <translate><!--T:166--> '''Heal me''' (restores health, ki, stamina and poise) and '''Weighted Gear''' (a '''Weighted Cape''').</translate>
 |-
-| {{L|Mr. Popo}} || <translate>Kami's Lookout and the Time Chamber</translate> || <translate>Inside the Time Chamber: '''Train''' (Shadow Clone or the Rhythm game). Elsewhere: '''Haircut''' opens the hair editor (only for characters with hair).</translate>
+| {{L|Mr. Popo}} || <translate><!--T:167--> Kami's Lookout and the Time Chamber</translate> || <translate><!--T:168--> Inside the Time Chamber: '''Train''' (Shadow Clone or the Rhythm game). Elsewhere: '''Haircut''' opens the hair editor (only for characters with hair).</translate>
 |-
-| {{L|Korin}} || {{L|Kami's Lookout}} || <translate>'''Flying Nimbus''': a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] if your alignment is above 50, otherwise a Black Nimbus (only if you don't already carry one). '''Senzu Beans''': 5 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], once every 15 minutes.</translate>
+| {{L|Korin}} || {{L|Kami's Lookout}} || <translate><!--T:169--> '''Flying Nimbus''': a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] if your alignment is above 50, otherwise a Black Nimbus (only if you don't already carry one). '''Senzu Beans''': 5 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], once every 15 minutes.</translate>
 |-
-| {{L|Dende}} || {{L|Kami's Lookout}} || <translate>'''Heal''', '''Reset Stats''' (full character reset, asks for confirmation), '''Grow/Remove Tail''' (races with a Saiyan tail) and '''Kami's Blessing''' (Good alignment only: ×1.2 TP for 5 minutes, 30-minute cooldown).</translate>
+| {{L|Dende}} || {{L|Kami's Lookout}} || <translate><!--T:170--> '''Heal''', '''Reset Stats''' (full character reset, asks for confirmation), '''Grow/Remove Tail''' (races with a Saiyan tail) and '''Kami's Blessing''' (Good alignment only: ×1.2 TP for 5 minutes, 30-minute cooldown).</translate>
 |-
-| {{L|Grand Elder Guru}} || {{L|Grand Elder's House}} || <translate>'''Unlock Potential''': raises Potential Unlock from level 10 to 11 if your alignment is 50 or higher (below 50 he greets you coldly).</translate>
+| {{L|Grand Elder Guru}} || {{L|Grand Elder's House}} || <translate><!--T:171--> '''Unlock Potential''': raises Potential Unlock from level 10 to 11 if your alignment is 50 or higher (below 50 he greets you coldly).</translate>
 |-
-| {{L|Dr. Gero}} || {{L|Dr. Gero's Lab}} || <translate>Converts a Human into an [[Special:MyLanguage/Android|Android]] (switches you to the Android form line; not possible while fused).</translate>
+| {{L|Dr. Gero}} || {{L|Dr. Gero's Lab}} || <translate><!--T:172--> Converts a Human into an [[Special:MyLanguage/Android|Android]] (switches you to the Android form line; not possible while fused).</translate>
 |-
-| {{L|Babidi}} || {{L|Babidi's Spaceship}} || <translate>'''Receive the Mark''': gives you the [[Special:MyLanguage/Majin Mark|Majin mark]] if your alignment is below 39.</translate>
+| {{L|Babidi}} || {{L|Babidi's Spaceship}} || <translate><!--T:173--> '''Receive the Mark''': gives you the [[Special:MyLanguage/Majin Mark|Majin mark]] if your alignment is below 39.</translate>
 |-
-| {{L|Old Kai}} || {{L|Old Kai's Pillar}} || <translate>'''Unleash Power''': starts the Ultimate Challenge.</translate>
+| {{L|Old Kai}} || {{L|Old Kai's Pillar}} || <translate><!--T:174--> '''Unleash Power''': starts the Ultimate Challenge.</translate>
 |-
-| {{L|King Yemma}} || {{L|Otherworld}} || <translate>'''Return to Earth''': sends you back to the living world when you're alive or temporarily revived.</translate>
+| {{L|King Yemma}} || {{L|Otherworld}} || <translate><!--T:175--> '''Return to Earth''': sends you back to the living world when you're alive or temporarily revived.</translate>
 |-
-| {{L|Fortuneteller Baba}} || {{L|Otherworld}} || <translate>'''Revive''' or '''Borrow time''': revives a dead player (a temporary revive by default). See [[Special:MyLanguage/Otherworld#Fortuneteller Baba's temporary return|Otherworld]].</translate>
+| {{L|Fortuneteller Baba}} || {{L|Otherworld}} || <translate><!--T:176--> '''Revive''' or '''Borrow time''': revives a dead player (a temporary revive by default). See [[Special:MyLanguage/Otherworld#Fortuneteller Baba's temporary return|Otherworld]].</translate>
 |-
-| {{L|Grand Kai}} || {{L|Otherworld}} || <translate>'''Tournament''': teleports you to the Otherworld Tournament grounds; the Otherworld Tournament Announcer there sends you back.</translate>
+| {{L|Grand Kai}} || {{L|Otherworld}} || <translate><!--T:177--> '''Tournament''': teleports you to the Otherworld Tournament grounds; the [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]] there sends you back.</translate>
 |}
 
 <translate>
+<!--T:178-->
 '''Weighted Gear''' (Roshi, King Kai, Piccolo) can be asked for once per conversation; talk to them again for more. Healing services are locked when you're already at full health, and don't work while you're knocked out after a temporary revive.
 </translate>
 
 {{Config|General Server Config}}
 <translate>
+<!--T:179-->
 The amounts above are server defaults: the Senzu gift (<code>senzuGiftAmount</code>, <code>senzuGiftCooldownTicks</code>), Kami's Blessing (the <code>kamiBless…</code> settings) and the maximum weight you can request (<code>maxWeightRequested</code>, 100,000 kg by default) can all be changed.
 </translate>
 
 <translate>
-== Other NPCs ==
+== Other NPCs == <!--T:180-->
 </translate>
 <translate>
-=== Toribot ===
+=== Toribot === <!--T:181-->
 </translate>
 <translate>
+<!--T:182-->
 On King Kai's Planet in the Otherworld, right next to [[Special:MyLanguage/King Kai|King Kai]], stands '''Toribot''', a little easter egg for fans. He isn't a master: he teaches nothing and has no services or quests. Talk to him and he greets you with one of his lines ("Beep boop! I am Toribot, thanks for visiting me!"), chatting about doodling new characters and claiming he drew this whole universe himself.
 </translate>
 
 <translate>
-=== Hosts and quest NPCs ===
+=== Hosts and quest NPCs === <!--T:183-->
 </translate>
 <translate>
-* The '''Otherworld Tournament Announcer''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and sends you back to the Grand Kai.
+<!--T:184-->
+* The '''[[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and sends you back to the Grand Kai.
 * Quest NPCs such as '''Bulma''' (at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]), '''Chi-Chi''' (at [[Special:MyLanguage/Goku's House|Goku's House]]) and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]] use the same dialogue window, with a '''Quests''' option. See the [[Special:MyLanguage/Bestiary|Bestiary]].
 </translate>
 

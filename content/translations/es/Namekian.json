@@ -1,0 +1,227 @@
+{
+ "Page_display_title": {
+  "source": "Namekian",
+  "translation": "Namekiano",
+  "outdated": false
+ },
+ "1": {
+  "source": "A peaceful yet powerful race, with great regenerative abilities and a natural connection to magic and nature.",
+  "translation": "Una raza pacífica pero poderosa, con grandes habilidades regenerativas y una conexión natural con la magia y la naturaleza.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Playable race",
+  "translation": "Raza jugable",
+  "outdated": false
+ },
+ "3": {
+  "source": "Assimilation, Regeneration, Water Affinity",
+  "translation": "Asimilación, Regeneración, Afinidad con el Agua",
+  "outdated": false
+ },
+ "4": {
+  "source": "Super forms (Giant, Full Power, Super Namekian), Legendary forms",
+  "translation": "Súper Formas (Gigante, Full Power, Super Namekiano), Formas Legendarias",
+  "outdated": false
+ },
+ "5": {
+  "source": "Self-healing, permanent stat growth by assimilating other Namekians, faster regeneration near water",
+  "translation": "Autocuración, crecimiento permanente de estadísticas al asimilar a otros Namekianos, regeneración más rápida cerca del agua",
+  "outdated": false
+ },
+ "6": {
+  "source": "Sustained fighter who heals through long battles",
+  "translation": "Luchador resistente que se cura a lo largo de batallas largas",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Namekians''' are a peaceful yet powerful race with great regenerative abilities and a natural connection to magic and nature. They are known for their wisdom, their energy control and their ability to fuse with others of their kind. In DragonMineZ a Namekian can '''assimilate''' other Namekians to grow permanently stronger, '''regenerate''' a quarter of its health on demand and recover faster in water.",
+  "translation": "Los '''Namekianos''' son una raza pacífica pero poderosa, con grandes habilidades regenerativas y una conexión natural con la magia y la naturaleza. Son conocidos por su sabiduría, su control de la energía y su capacidad de fusionarse con otros de su especie. En DragonMineZ, un Namekiano puede '''asimilar''' a otros Namekianos para volverse más fuerte de forma permanente, '''regenerar''' una cuarta parte de su vida cuando quiera y recuperarse más rápido en el agua.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Overview and strengths ==",
+  "translation": "== Resumen y fortalezas ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Permanent growth.''' Each assimilation heals you and permanently raises your STR, SKP and PWR, up to four times.\n* '''Healing on demand.''' Regeneration restores 25% of your max health in 3 seconds.\n* '''Water Affinity.''' Being underwater or drinking any potion speeds up your health, Ki and stamina regeneration.\n* '''Knockdowns.''' While Assimilation is selected, your finishing blows knock enemies down instead of killing them.",
+  "translation": "* '''Crecimiento permanente.''' Cada asimilación te cura y aumenta de forma permanente tu STR, SKP y PWR, hasta cuatro veces.\n* '''Curación a demanda.''' Regeneración restaura el 25% de tu vida máxima en 3 segundos.\n* '''Afinidad con el Agua.''' Estar bajo el agua o beber cualquier poción acelera tu regeneración de vida, Ki y stamina.\n* '''Derribos.''' Mientras Asimilación está seleccionada, tus golpes finales derriban a los enemigos en lugar de matarlos.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Racial skill ==",
+  "translation": "== Habilidad racial ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Part",
+  "translation": "Parte",
+  "outdated": false
+ },
+ "12": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Assimilation'''",
+  "translation": "'''Asimilación'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "Select the racial skill in the '''X''' menu and '''hold G for 4 seconds''' while aiming at another Namekian within '''3 blocks'''. The target is absorbed: you heal '''35%''' of your max health and permanently gain '''7.5%''' of your own '''STR, SKP and PWR'''. Up to '''4''' assimilations, with a '''600 seconds''' cooldown. When you die you lose the '''latest''' one.",
+  "translation": "Selecciona la habilidad racial en el menú '''X''' y '''mantén G durante 4 segundos''' mientras apuntas a otro Namekiano a '''3 bloques''' o menos. El objetivo es absorbido: te curas un '''35%''' de tu vida máxima y ganas de forma permanente un '''7.5%''' de tu propio '''STR, SKP y PWR'''. Hasta '''4''' asimilaciones, con un tiempo de recarga de '''600 segundos'''. Al morir pierdes la '''más reciente'''.",
+  "outdated": false
+ },
+ "15": {
+  "source": "'''Regeneration'''",
+  "translation": "'''Regeneración'''",
+  "outdated": false
+ },
+ "16": {
+  "source": "Use '''Regeneration''' from the '''X''' menu to recover '''25%''' of your max health over '''3 seconds''', spending '''30%''' of your Ki and '''20%''' of your stamina. Taking damage interrupts it. Cooldown: '''45 seconds''' (half if interrupted).",
+  "translation": "Usa '''Regeneración''' desde el menú '''X''' para recuperar un '''25%''' de tu vida máxima en '''3 segundos''', gastando un '''30%''' de tu Ki y un '''20%''' de tu stamina. Recibir daño la interrumpe. Tiempo de recarga: '''45 segundos''' (la mitad si se interrumpe).",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Water Affinity'''",
+  "translation": "'''Afinidad con el Agua'''",
+  "outdated": false
+ },
+ "18": {
+  "source": "Being underwater or drinking any potion boosts your health, Ki and stamina regeneration by '''25%''' for '''5 seconds'''.",
+  "translation": "Estar bajo el agua o beber cualquier poción aumenta tu regeneración de vida, Ki y stamina un '''25%''' durante '''5 segundos'''.",
+  "outdated": false
+ },
+ "19": {
+  "source": "=== Assimilation targets ===",
+  "translation": "=== Objetivos de Asimilación ===",
+  "outdated": false
+ },
+ "20": {
+  "source": "* '''Namekian players.''' They get a request in chat with clickable '''[Accept]''' and '''[Reject]''' buttons, and have '''30 seconds''' to answer (they can also type <code>/dmzracial reply accept</code> or <code>/dmzracial reply reject</code>). A knocked-down Namekian is assimilated without being asked.\n* '''Namekian NPCs.''' By default you can also assimilate a [[Special:MyLanguage/Namekian Warrior|Namekian Warrior]], a [[Special:MyLanguage/Namekian Trader|Namekian Trader]] or [[Special:MyLanguage/Piccolo|Piccolo]]. Server owners can turn this off, leaving only Namekian players.",
+  "translation": "* '''Jugadores Namekianos.''' Reciben una solicitud en el chat con los botones clicables '''[Aceptar]''' y '''[Rechazar]''', y tienen '''30 segundos''' para responder (también pueden escribir <code>/dmzracial reply accept</code> o <code>/dmzracial reply reject</code>). Un Namekiano derribado es asimilado sin que se le pregunte.\n* '''NPCs Namekianos.''' Por defecto también puedes asimilar a un [[Special:MyLanguage/Namekian Warrior|Guerrero Namekiano]], a un [[Special:MyLanguage/Namekian Trader|Comerciante Namekiano]] o a [[Special:MyLanguage/Piccolo|Piccolo]]. Los dueños de servidores pueden desactivarlo y dejar solo a los jugadores Namekianos.",
+  "outdated": false
+ },
+ "21": {
+  "source": "While Assimilation is the selected action, your finishing blows knock enemies down instead of killing them, so you can assimilate them. Your assimilations can be reset with the '''Reset Passive''' wish or <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills#Resetting racial progress|Racial Skills]]).",
+  "translation": "Mientras Asimilación es la acción seleccionada, tus golpes finales derriban a los enemigos en lugar de matarlos, para que puedas asimilarlos. Tus asimilaciones se pueden reiniciar con el deseo '''Reiniciar Pasiva Racial''' o con <code>/dmzracial reset</code> (ver [[Special:MyLanguage/Racial Skills#Resetting racial progress|Habilidades raciales]]).",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Transformations ==",
+  "translation": "== Transformaciones ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "Group",
+  "translation": "Grupo",
+  "outdated": false
+ },
+ "24": {
+  "source": "Form",
+  "translation": "Forma",
+  "outdated": false
+ },
+ "25": {
+  "source": "Level",
+  "translation": "Nivel",
+  "outdated": false
+ },
+ "26": {
+  "source": "TP cost",
+  "translation": "Costo de TP",
+  "outdated": false
+ },
+ "27": {
+  "source": "Story requisite",
+  "translation": "Requisito de historia",
+  "outdated": false
+ },
+ "28": {
+  "source": "STR / SKP / PWR",
+  "translation": "STR / SKP / PWR",
+  "outdated": false
+ },
+ "29": {
+  "source": "DEF",
+  "translation": "DEF",
+  "outdated": false
+ },
+ "30": {
+  "source": "Ki drain",
+  "translation": "Consumo de ki",
+  "outdated": false
+ },
+ "31": {
+  "source": "Super forms",
+  "translation": "Súper Formas",
+  "outdated": false
+ },
+ "32": {
+  "source": "Giant",
+  "translation": "Gigante",
+  "outdated": false
+ },
+ "33": {
+  "source": "Full Power",
+  "translation": "Full Power",
+  "outdated": false
+ },
+ "34": {
+  "source": "Super Namekian",
+  "translation": "Super Namekiano",
+  "outdated": false
+ },
+ "35": {
+  "source": "Legendary forms",
+  "translation": "Formas Legendarias",
+  "outdated": false
+ },
+ "36": {
+  "source": "Evil Namek",
+  "translation": "Namekiano Maligno",
+  "outdated": false
+ },
+ "37": {
+  "source": "Evil Giant Namek",
+  "translation": "Namekiano Gigante Maligno",
+  "outdated": false
+ },
+ "38": {
+  "source": "Buffed Namek",
+  "translation": "Namekiano Potenciado",
+  "outdated": false
+ },
+ "39": {
+  "source": "The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per level. Its fourth level isn't needed by any default Namekian form. ''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "La habilidad Súper Formas cuesta '''23,000 · 47,000 · 78,000 · 117,000''' TP por nivel. Ninguna forma Namekiana por defecto necesita su cuarto nivel. ''Nivel'' es el nivel de la habilidad de forma (Súper Formas o Formas Legendarias) que desbloquea la forma. Cada forma después de la primera de su grupo también requiere '''25% de maestría''' en la anterior. Un solo número en la columna ''STR / SKP / PWR'' significa que las tres estadísticas lo comparten. Los multiplicadores son los valores por defecto con 0% de maestría y crecen hasta 1.5 veces con 100% de maestría. ''Consumo de ki'' es el consumo base por tick; consulta el [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energía]].",
+  "outdated": false
+ },
+ "40": {
+  "source": "* '''Super Namekian''' is the Namekian top tier: the strongest Namekian form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.\n* '''Evil Giant Namek''' slows you down (×0.75 speed) and makes each attack cost 1.5 times as much stamina.\n* The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "* '''Super Namekiano''' es el nivel máximo de los Namekianos: la forma Namekiana más fuerte, pero [[Special:MyLanguage/Ultimate|Definitivo]] nunca la copia.\n* '''Namekiano Gigante Maligno''' te vuelve más lento (×0.75 de velocidad) y hace que cada ataque cueste 1.5 veces más stamina.\n* Las '''Formas Legendarias''' no se pueden comprar con TP por defecto: la [[Special:MyLanguage/Movies Saga|Saga Películas]] otorga sus niveles, y los Mutantes pueden tomarlas prestadas (ver [[Special:MyLanguage/Transformations#Legendary forms|Formas legendarias]]).",
+  "outdated": false
+ },
+ "41": {
+  "source": "== Appearance ==",
+  "translation": "== Apariencia ==",
+  "outdated": false
+ },
+ "42": {
+  "source": "* '''Hair:''' no. Namekians wear '''antennae''' instead (head parts <code>ears1</code> to <code>ears3</code>), picked on the Hair tab.\n* '''Gender:''' no.\n* '''Body types:''' 3, with body type 0 as the default.\n* '''Face:''' besides their own nose and mouth options, Namekians can pick the human ones, listed after their own.",
+  "translation": "* '''Pelo:''' no. En su lugar, los Namekianos llevan '''antenas''' (partes de cabeza <code>ears1</code> a <code>ears3</code>), que se eligen en la pestaña Pelo.\n* '''Género:''' no.\n* '''Tipos de cuerpo:''' 3, con el tipo de cuerpo 0 como predeterminado.\n* '''Rostro:''' además de sus propias opciones de nariz y boca, los Namekianos pueden elegir las humanas, que aparecen después de las suyas.",
+  "outdated": false
+ },
+ "43": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "Assimilation, Regeneration and Water Affinity are tuned in the <code>namekian</code> section of <code>racialSkills</code> in <code>general-server.json</code>, including the maximum number of assimilations, the request timeout and whether Namekian NPCs can be assimilated (<code>assimilationOnNamekNpcs</code>). The Super Forms TP ladder is in <code>races/namekian/character.json</code>, and each form's values are in its form file.",
+  "translation": "Asimilación, Regeneración y Afinidad con el Agua se ajustan en la sección <code>namekian</code> de <code>racialSkills</code> en <code>general-server.json</code>, incluido el número máximo de asimilaciones, el tiempo límite de la solicitud y si se puede asimilar a los NPCs Namekianos (<code>assimilationOnNamekNpcs</code>). La escala de TP de Súper Formas está en <code>races/namekian/character.json</code>, y los valores de cada forma están en su archivo de forma.",
+  "outdated": false
+ }
+}

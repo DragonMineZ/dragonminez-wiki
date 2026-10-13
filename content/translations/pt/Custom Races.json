@@ -1,0 +1,447 @@
+{
+ "Page_display_title": {
+  "source": "Custom Races",
+  "translation": "Raças personalizadas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Custom races''' are playable races you add to DragonMineZ with config files alone. No Java code or add-on jar is needed: a folder with a few JSON files defines the race's look, its classes, its racial skill and its transformations, and the race then shows up in character creation.",
+  "translation": "As '''raças personalizadas''' são raças jogáveis que você adiciona ao DragonMineZ apenas com arquivos de configuração. Não é preciso código Java nem um jar de addon: uma pasta com alguns arquivos JSON define a aparência da raça, suas classes, sua habilidade racial e suas transformações, e a raça passa a aparecer na criação de personagem.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How DragonMineZ finds races ==",
+  "translation": "== Como o DragonMineZ encontra as raças ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "DragonMineZ loads its built-in races first (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>), then scans the subfolders of <code>config/dragonminez/races/</code>. Any other folder name there is treated as a custom race key (use lowercase). Each race folder holds:",
+  "translation": "O DragonMineZ carrega primeiro suas raças embutidas (<code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code>, <code>glind</code>) e depois examina as subpastas de <code>config/dragonminez/races/</code>. Qualquer outro nome de pasta ali é tratado como a chave de uma raça personalizada (use minúsculas). Cada pasta de raça contém:",
+  "outdated": false
+ },
+ "4": {
+  "source": "If you create an empty folder, DragonMineZ generates a <code>character.json</code> and a <code>stats.json</code> with neutral defaults the next time configs load. It does '''not''' generate any forms for a custom race: you add those yourself (see step 3).",
+  "translation": "Se você criar uma pasta vazia, o DragonMineZ gera um <code>character.json</code> e um <code>stats.json</code> com valores neutros na próxima vez que a configuração for carregada. Ele '''não''' gera nenhuma forma para uma raça personalizada: você mesmo as adiciona (veja o passo 3).",
+  "outdated": false
+ },
+ "5": {
+  "source": "For a good starting point, copy an existing race folder (for example <code>races/saiyan/</code>), rename it and tune the values inside.",
+  "translation": "Um bom ponto de partida é copiar a pasta de uma raça existente (por exemplo, <code>races/saiyan/</code>), renomeá-la e ajustar os valores dentro dela.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Source: <code>src/main/java/com/dragonminez/common/config/ConfigManager.java</code> (<code>loadAllRaces</code>, <code>createOrLoadRace</code>).",
+  "translation": "Código-fonte: <code>src/main/java/com/dragonminez/common/config/ConfigManager.java</code> (<code>loadAllRaces</code>, <code>createOrLoadRace</code>).",
+  "outdated": false
+ },
+ "7": {
+  "source": "Config version",
+  "translation": "Versão da configuração",
+  "outdated": false
+ },
+ "8": {
+  "source": "Every file carries a <code>\"configVersion\"</code> string (currently <code>\"2.2.0\"</code>). A custom file with an older or missing version is backed up to <code>config/dragonminez/oldBackup/</code> and saved again with the current version; your values are kept. A file with broken JSON syntax is never overwritten: it is reported and skipped until you fix it. See [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]].",
+  "translation": "Todo arquivo traz um texto <code>\"configVersion\"</code> (atualmente <code>\"2.2.0\"</code>). Um arquivo personalizado com uma versão anterior ou sem versão ganha um backup em <code>config/dragonminez/oldBackup/</code> e é salvo de novo com a versão atual; seus valores são mantidos. Um arquivo com sintaxe JSON quebrada nunca é sobrescrito: ele é relatado e ignorado até você corrigi-lo. Veja [[Special:MyLanguage/How to JSON|Como usar JSON]] e [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Step 1: Configure the character ==",
+  "translation": "== Passo 1: configure o personagem ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "<code>character.json</code> sets the race's appearance, model, racial skill and form skill prices:",
+  "translation": "<code>character.json</code> define a aparência, o modelo, a habilidade racial e os preços das habilidades de forma da raça:",
+  "outdated": false
+ },
+ "11": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "12": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "13": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "14": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "15": {
+  "source": "<code>true</code> gives the race a male/female choice. Custom models and textures then use <code>_male</code> / <code>_female</code> suffixes (see [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]]).",
+  "translation": "<code>true</code> dá à raça a escolha entre masculino/feminino. Modelos e texturas personalizados passam a usar os sufixos <code>_male</code> / <code>_female</code> (veja [[Special:MyLanguage/Custom Models and Assets|Modelos e recursos próprios]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "17": {
+  "source": "When <code>true</code>, body type <code>0</code> renders the player's own Minecraft skin; the race's own body textures start at body type <code>1</code>.",
+  "translation": "Com <code>true</code>, o tipo corporal <code>0</code> mostra a própria skin de Minecraft do jogador; as texturas de corpo da raça começam no tipo corporal <code>1</code>.",
+  "outdated": false
+ },
+ "18": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "19": {
+  "source": "Model key. Empty means the race looks like a Human. A built-in key (for example <code>namekian</code>, <code>majin</code> or <code>frostdemon</code>) reuses that model and its textures; any other key loads your own model. The built-in keys are listed on [[Special:MyLanguage/Custom Models and Assets#Built-in model keys|Custom Models and Assets]].",
+  "translation": "Chave do modelo. Vazia significa que a raça tem a aparência de um Humano. Uma chave embutida (por exemplo, <code>namekian</code>, <code>majin</code> ou <code>frostdemon</code>) reutiliza esse modelo e suas texturas; qualquer outra chave carrega seu próprio modelo. As chaves embutidas estão listadas em [[Special:MyLanguage/Custom Models and Assets#Built-in model keys|Modelos e recursos próprios]].",
+  "outdated": false
+ },
+ "20": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "21": {
+  "source": "<code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces.",
+  "translation": "<code>true</code>: o corpo é desenhado com três camadas de textura tingíveis (cores de corpo 1, 2 e 3) e a raça usa suas próprias texturas de rosto. <code>false</code>: uma única textura de corpo simples e rostos emprestados do Humano.",
+  "outdated": false
+ },
+ "22": {
+  "source": "List of strings",
+  "translation": "Lista de textos",
+  "outdated": false
+ },
+ "23": {
+  "source": "Bone names the player can choose from in character customization (one at a time, plus a \"none\" option), for example ears, horns or antennas. Join bones with <code>+</code> to show several at once (<code>\"ears1+horns2\"</code>). The special entry <code>\"hair\"</code> enables the hair editor for the race. Bones are looked up in <code>geo/entity/raceparts.geo.json</code> first, then in the race model.",
+  "translation": "Nomes de ossos que o jogador pode escolher na personalização do personagem (um por vez, mais uma opção \"nenhum\"), por exemplo orelhas, chifres ou antenas. Junte ossos com <code>+</code> para mostrar vários ao mesmo tempo (<code>\"ears1+horns2\"</code>). A entrada especial <code>\"hair\"</code> ativa o editor de cabelo para a raça. Os ossos são procurados primeiro em <code>geo/entity/raceparts.geo.json</code> e depois no modelo da raça.",
+  "outdated": false
+ },
+ "24": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "25": {
+  "source": "Which racial skill the race uses: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> or <code>glind</code>. A custom race uses the same tuning as the race it borrows from (<code>general-server.json</code> → <code>racialSkills.<skill></code>). See [[Special:MyLanguage/Racial Skills|Racial Skills]].",
+  "translation": "Qual habilidade racial a raça usa: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> ou <code>glind</code>. Uma raça personalizada usa o mesmo ajuste da raça de onde a pega emprestada (<code>general-server.json</code> → <code>racialSkills.<skill></code>). Veja [[Special:MyLanguage/Racial Skills|Habilidades raciais]].",
+  "outdated": false
+ },
+ "26": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "27": {
+  "source": "Gives the race a Saiyan tail.",
+  "translation": "Dá à raça uma cauda Saiyajin.",
+  "outdated": false
+ },
+ "28": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "29": {
+  "source": "2D aura sprite set: <code>kakarot</code> or <code>god</code>.",
+  "translation": "Conjunto de sprites da aura 2D: <code>kakarot</code> ou <code>god</code>.",
+  "outdated": false
+ },
+ "30": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "31": {
+  "source": "3D aura style of the base form: <code>smooth</code>, <code>sparking</code>, <code>god</code> or <code>userPreference</code> (follows each player's own setting).",
+  "translation": "Estilo da aura 3D da forma base: <code>smooth</code>, <code>sparking</code>, <code>god</code> ou <code>userPreference</code> (segue a configuração de cada jogador).",
+  "outdated": false
+ },
+ "32": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "33": {
+  "source": "Fine-tuning of the base 3D aura shape. The keys are listed on [[Special:MyLanguage/Custom Forms#3D aura shape|Custom Forms]].",
+  "translation": "Ajuste fino do formato da aura 3D base. As chaves estão listadas em [[Special:MyLanguage/Custom Forms#3D aura shape|Formas personalizadas]].",
+  "outdated": false
+ },
+ "34": {
+  "source": "Base model size.",
+  "translation": "Tamanho base do modelo.",
+  "outdated": false
+ },
+ "35": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "36": {
+  "source": "Body type selected by default in character creation.",
+  "translation": "Tipo corporal selecionado por padrão na criação de personagem.",
+  "outdated": false
+ },
+ "37": {
+  "source": "List of integers",
+  "translation": "Lista de inteiros",
+  "outdated": false
+ },
+ "38": {
+  "source": "Body types (other than <code>0</code>) that use slim arms. Body type <code>0</code> always follows the player's skin model.",
+  "translation": "Tipos corporais (além do <code>0</code>) que usam braços finos. O tipo corporal <code>0</code> sempre segue o modelo de skin do jogador.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "40": {
+  "source": "Default customization indices.",
+  "translation": "Índices de personalização padrão.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Hex string",
+  "translation": "Texto hexadecimal",
+  "outdated": false
+ },
+ "42": {
+  "source": "Default colors in character creation.",
+  "translation": "Cores padrão na criação de personagem.",
+  "outdated": false
+ },
+ "43": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "44": {
+  "source": "One entry per form skill the race can level (see below).",
+  "translation": "Uma entrada para cada habilidade de forma que a raça pode evoluir (veja abaixo).",
+  "outdated": false
+ },
+ "45": {
+  "source": "Schema source: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.",
+  "translation": "Origem do esquema: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.",
+  "outdated": false
+ },
+ "46": {
+  "source": "=== Form skill prices ===",
+  "translation": "=== Preços das habilidades de forma ===",
+  "outdated": false
+ },
+ "47": {
+  "source": "Each key of <code>formSkillsCosts</code> is a form skill: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> or <code>androidforms</code>. The value is either a plain array of prices or an object with these fields:",
+  "translation": "Cada chave de <code>formSkillsCosts</code> é uma habilidade de forma: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> ou <code>androidforms</code>. O valor é um array simples de preços ou um objeto com estes campos:",
+  "outdated": false
+ },
+ "48": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "49": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "50": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "51": {
+  "source": "List of numbers",
+  "translation": "Lista de números",
+  "outdated": false
+ },
+ "52": {
+  "source": "TP price of each level, in order. The number of entries is the skill's maximum level, so an empty list means the race cannot level that skill.",
+  "translation": "Preço em TP de cada nível, em ordem. O número de entradas é o nível máximo da habilidade, então uma lista vazia significa que a raça não pode evoluir essa habilidade.",
+  "outdated": false
+ },
+ "53": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "54": {
+  "source": "<code>true</code>: the first level has to be bought from a master before the skill can be leveled from the Skills menu.",
+  "translation": "<code>true</code>: o primeiro nível precisa ser comprado de um mestre antes que a habilidade possa ser evoluída pelo menu de Habilidades.",
+  "outdated": false
+ },
+ "55": {
+  "source": "A form unlocks when this skill reaches the form's <code>unlockOnSkillLevel</code> (see step 3).",
+  "translation": "Uma forma é desbloqueada quando esta habilidade atinge o <code>unlockOnSkillLevel</code> da forma (veja o passo 3).",
+  "outdated": false
+ },
+ "56": {
+  "source": "=== Android upgrade for custom races ===",
+  "translation": "=== Upgrade androide para raças personalizadas ===",
+  "outdated": false
+ },
+ "57": {
+  "source": "Dr. Gero's android upgrade is offered to any race whose <code>formSkillsCosts</code> has at least one price under <code>androidforms</code> (by default only [[Special:MyLanguage/Human|Humans]]). The upgrade puts the player into the <code>androidbase</code> form of the <code>androidforms</code> group, so the race also needs an <code>androidforms</code> form group in its <code>forms/</code> folder. The easiest way is to copy <code>races/human/forms/androidforms.json</code> into your race's <code>forms/</code> folder. See [[Special:MyLanguage/Android|Android]] for the upgrade itself.",
+  "translation": "O upgrade androide do Dr. Gero é oferecido a qualquer raça cujo <code>formSkillsCosts</code> tenha pelo menos um preço em <code>androidforms</code> (por padrão, apenas os [[Special:MyLanguage/Human|Humanos]]). O upgrade coloca o jogador na forma <code>androidbase</code> do grupo <code>androidforms</code>, então a raça também precisa de um grupo de formas <code>androidforms</code> na pasta <code>forms/</code>. O jeito mais fácil é copiar <code>races/human/forms/androidforms.json</code> para a pasta <code>forms/</code> da sua raça. Veja [[Special:MyLanguage/Android|Android]] para o upgrade em si.",
+  "outdated": false
+ },
+ "58": {
+  "source": "== Step 2: Configure the classes ==",
+  "translation": "== Passo 2: configure as classes ==",
+  "outdated": false
+ },
+ "59": {
+  "source": "<code>stats.json</code> holds a <code>classes</code> object with one block per class. DragonMineZ generates the eight default classes: <code>warrior</code>, <code>spiritualist</code>, <code>martialartist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> and <code>unversed</code> (see [[Special:MyLanguage/Classes|Classes]]). You can add your own class by duplicating a block under a new key; it shows up in character creation for that race. A player whose class isn't in the race's file uses the <code>warrior</code> values.",
+  "translation": "<code>stats.json</code> contém um objeto <code>classes</code> com um bloco por classe. O DragonMineZ gera as oito classes padrão: <code>warrior</code>, <code>spiritualist</code>, <code>martialartist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> e <code>unversed</code> (veja [[Special:MyLanguage/Classes|Classes]]). Você pode adicionar sua própria classe duplicando um bloco com uma chave nova; ela aparece na criação de personagem dessa raça. Um jogador cuja classe não está no arquivo da raça usa os valores de <code>warrior</code>.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Inside each class block:",
+  "translation": "Dentro de cada bloco de classe:",
+  "outdated": false
+ },
+ "61": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "62": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "63": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "64": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "65": {
+  "source": "Starting stats: <code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code>, <code>ENE</code>.",
+  "translation": "Estatísticas iniciais: <code>STR</code>, <code>SKP</code>, <code>RES</code>, <code>VIT</code>, <code>PWR</code>, <code>ENE</code>.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "67": {
+  "source": "<code>STR_scaling</code>, <code>SKP_scaling</code>, <code>STM_scaling</code>, <code>DEF_scaling</code>, <code>VIT_scaling</code>, <code>PWR_scaling</code>, <code>ENE_scaling</code>. The optional <code>VIT_scaling_max</code> and <code>DEF_scaling_max</code> make the scaling grow from the normal value towards this maximum as the stat rises (up to the curve knee set in <code>general-server.json</code>); leave them out for flat scaling.",
+  "translation": "<code>STR_scaling</code>, <code>SKP_scaling</code>, <code>STM_scaling</code>, <code>DEF_scaling</code>, <code>VIT_scaling</code>, <code>PWR_scaling</code>, <code>ENE_scaling</code>. Os opcionais <code>VIT_scaling_max</code> e <code>DEF_scaling_max</code> fazem o escalonamento crescer do valor normal até esse máximo conforme a estatística sobe (até o ponto de inflexão da curva definido no <code>general-server.json</code>); omita-os para um escalonamento fixo.",
+  "outdated": false
+ },
+ "68": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "69": {
+  "source": "Health regenerated every 5 seconds, plus a share of VIT.",
+  "translation": "Vida regenerada a cada 5 segundos, mais uma parte da VIT.",
+  "outdated": false
+ },
+ "70": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "71": {
+  "source": "Ki regenerated every 5 seconds, plus a share of ENE.",
+  "translation": "Ki regenerado a cada 5 segundos, mais uma parte da ENE.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "73": {
+  "source": "Stamina regenerated every 5 seconds, plus a share of VIT (<code>sp5StmScaling</code>, despite its name) and a share of RES (<code>sp5ResScaling</code>, <code>0</code> when missing).",
+  "translation": "Estâmina regenerada a cada 5 segundos, mais uma parte da VIT (<code>sp5StmScaling</code>, apesar do nome) e uma parte da RES (<code>sp5ResScaling</code>, <code>0</code> quando ausente).",
+  "outdated": false
+ },
+ "74": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "75": {
+  "source": "Class-wide multipliers on TP costs and TP gains.",
+  "translation": "Multiplicadores da classe inteira sobre os custos e os ganhos de TP.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "77": {
+  "source": "<code>enabled</code> plus a <code>values</code> map with the tuning of the class passive (the keys depend on the class).",
+  "translation": "<code>enabled</code> mais um mapa <code>values</code> com o ajuste da passiva da classe (as chaves dependem da classe).",
+  "outdated": false
+ },
+ "78": {
+  "source": "Schema source: <code>src/main/java/com/dragonminez/common/config/RaceStatsConfig.java</code>. See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for what each stat does.",
+  "translation": "Origem do esquema: <code>src/main/java/com/dragonminez/common/config/RaceStatsConfig.java</code>. Veja [[Special:MyLanguage/Stats and Attributes|Estatísticas e atributos]] para saber o que cada estatística faz.",
+  "outdated": false
+ },
+ "79": {
+  "source": "== Step 3: Add form groups ==",
+  "translation": "== Passo 3: adicione grupos de formas ==",
+  "outdated": false
+ },
+ "80": {
+  "source": "Each file in <code>races/<race_key>/forms/</code> defines one form group. Race forms use exactly the same schema as stack forms, so the full field reference is on [[Special:MyLanguage/Custom Forms|Custom Forms]]. The fields that matter most for a race group are:",
+  "translation": "Cada arquivo em <code>races/<race_key>/forms/</code> define um grupo de formas. As formas de raça usam exatamente o mesmo esquema das formas acumuláveis, então a referência completa dos campos está em [[Special:MyLanguage/Custom Forms|Formas personalizadas]]. Os campos mais importantes para um grupo de raça são:",
+  "outdated": false
+ },
+ "81": {
+  "source": "* <code>groupName</code>: the group key (lowercase). Groups are identified by this value, not by the filename.\n* <code>formType</code>: the form skill that unlocks the group: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> or <code>androidforms</code>. The race needs prices for that skill in <code>formSkillsCosts</code>.\n* <code>forms</code>: the forms of the group, in transformation order. Each form's <code>unlockOnSkillLevel</code> is the skill level that unlocks it.\n* <code>customModel</code>: a model key for the form (looked up the same way as the race's <code>customModel</code>).",
+  "translation": "* <code>groupName</code>: a chave do grupo (em minúsculas). Os grupos são identificados por este valor, não pelo nome do arquivo.\n* <code>formType</code>: a habilidade de forma que desbloqueia o grupo: <code>superforms</code>, <code>legendaryforms</code>, <code>godforms</code> ou <code>androidforms</code>. A raça precisa de preços para essa habilidade em <code>formSkillsCosts</code>.\n* <code>forms</code>: as formas do grupo, em ordem de transformação. O <code>unlockOnSkillLevel</code> de cada forma é o nível de habilidade que a desbloqueia.\n* <code>customModel</code>: uma chave de modelo para a forma (procurada do mesmo jeito que o <code>customModel</code> da raça).",
+  "outdated": false
+ },
+ "82": {
+  "source": "Files whose name starts with <code>old_</code> are ignored. See [[Special:MyLanguage/Transformations|Transformations]] for how forms work in game.",
+  "translation": "Arquivos cujo nome começa com <code>old_</code> são ignorados. Veja [[Special:MyLanguage/Transformations|Transformações]] para saber como as formas funcionam no jogo.",
+  "outdated": false
+ },
+ "83": {
+  "source": "== Step 4: Add translation keys ==",
+  "translation": "== Passo 4: adicione chaves de tradução ==",
+  "outdated": false
+ },
+ "84": {
+  "source": "Race and form names are translated with these keys:",
+  "translation": "Os nomes de raças e formas são traduzidos com estas chaves:",
+  "outdated": false
+ },
+ "85": {
+  "source": "* <code>race.dragonminez.<race_key></code>: the name of the race.\n* <code>race.dragonminez.<race_key>.desc</code>: a short description shown in character creation.\n* <code>race.dragonminez.<race_key>.group.<group_key></code>: the name of a form group.\n* <code>race.dragonminez.<race_key>.form.<group_key>.<form_key></code>: the name of a form.",
+  "translation": "* <code>race.dragonminez.<race_key></code>: o nome da raça.\n* <code>race.dragonminez.<race_key>.desc</code>: uma descrição curta mostrada na criação de personagem.\n* <code>race.dragonminez.<race_key>.group.<group_key></code>: o nome de um grupo de formas.\n* <code>race.dragonminez.<race_key>.form.<group_key>.<form_key></code>: o nome de uma forma.",
+  "outdated": false
+ },
+ "86": {
+  "source": "The default language file is <code>src/main/resources/assets/dragonminez/lang/en_us.json</code>. Feel free to edit your <code>en_us.json</code> or create a new language file for your custom race. You don't need to add translation keys for anything else: DragonMineZ automatically merges the translations already made on Crowdin with your own.",
+  "translation": "O arquivo de idioma padrão é <code>src/main/resources/assets/dragonminez/lang/en_us.json</code>. Fique à vontade para editar seu <code>en_us.json</code> ou criar um novo arquivo de idioma para sua raça personalizada. Você não precisa adicionar chaves de tradução para mais nada: o DragonMineZ combina automaticamente as traduções já feitas no Crowdin com as suas.",
+  "outdated": false
+ },
+ "87": {
+  "source": "== Step 5: Reload and validate ==",
+  "translation": "== Passo 5: recarregue e valide ==",
+  "outdated": false
+ },
+ "88": {
+  "source": "# Save your JSON files.\n# Run <code>/dmzreload config</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).\n# Open character creation and check that your race appears.\n# Check its forms, colors and scaling in game.",
+  "translation": "# Salve seus arquivos JSON.\n# Execute <code>/dmzreload config</code> (veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]).\n# Abra a criação de personagem e confira se sua raça aparece.\n# Verifique as formas, as cores e o escalonamento no jogo.",
+  "outdated": false
+ }
+}

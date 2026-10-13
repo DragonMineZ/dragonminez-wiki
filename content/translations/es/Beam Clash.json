@@ -1,0 +1,112 @@
+{
+ "Page_display_title": {
+  "source": "Beam Clash",
+  "translation": "Choque de ondas",
+  "outdated": false
+ },
+ "1": {
+  "source": "A '''beam clash''' happens when two beams meet head-on. Both fighters are locked in place and a timing meter appears: every well-timed press pushes your beam forward, and the side that pushes far enough breaks through while the loser is left exhausted. Your stats matter, but timing can turn a fight around.",
+  "translation": "Un '''choque de ondas''' ocurre cuando dos rayos chocan de frente. Ambos luchadores quedan inmovilizados y aparece un medidor de sincronización: cada pulsación bien sincronizada empuja tu rayo hacia adelante, y el bando que empuja lo suficiente se abre paso mientras el perdedor queda agotado. Tus estadísticas importan, pero la sincronización puede darle la vuelta a un combate.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Starting a clash ==",
+  "translation": "== Cómo empieza un choque ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "A clash starts when two '''beams''' fired by different fighters meet head-on. Only the Wave and Beam types clash: the Kamehameha, Galick Gun, Final Flash, Special Beam Cannon, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], [[Special:MyLanguage/Mouth Blast|Mouth Blast]] and the like, Wave attacks you create yourself included. See [[Special:MyLanguage/Ki Attacks|Ki Attacks]].",
+  "translation": "Un choque empieza cuando dos '''rayos''' disparados por luchadores distintos chocan de frente. Solo chocan los tipos Onda y Rayo: el Kamehame Ha, el Cañón Galick, el Destello Final, el Cañón de Haz Especial, el [[Special:MyLanguage/Heat Dome Attack|Ataque Cúpula de Calor]], la [[Special:MyLanguage/Mouth Blast|Ráfaga bucal]] y similares, incluidos los ataques de tipo Onda que crees tú mismo. Consulta [[Special:MyLanguage/Ki Attacks|Ataques de Ki]].",
+  "outdated": false
+ },
+ "4": {
+  "source": "Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam don't clash: they are simply destroyed.",
+  "translation": "Los ataques más pequeños (Bolas Pequeñas, Láseres, Discos) que chocan contra un rayo en curso no generan un choque: simplemente se destruyen.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Allies never clash with each other: party members (while party PvP is off), players on the same team and players fighting the same world boss (see [[Special:MyLanguage/World Bosses#Truce|world boss truce]]) can fire their beams side by side, and a beam doesn't destroy an ally's smaller attacks.",
+  "translation": "Los aliados nunca chocan entre sí: los miembros del grupo (mientras el PvP de grupo esté desactivado), los jugadores del mismo equipo y los jugadores que luchan contra el mismo jefe de mundo (consulta la [[Special:MyLanguage/World Bosses#Truce|tregua de los jefes de mundo]]) pueden disparar sus rayos uno al lado del otro, y un rayo no destruye los ataques más pequeños de un aliado.",
+  "outdated": false
+ },
+ "6": {
+  "source": "While the clash lasts, both fighters are held in place and '''invulnerable'''.",
+  "translation": "Mientras dura el choque, ambos luchadores quedan inmovilizados y son '''invulnerables'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== The timing meter ==",
+  "translation": "== El medidor de sincronización ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Each fighter gets their own meter. A marker sweeps across it, changing direction on every sweep, and each sweep has a '''window''' in a different place. A sweep takes about 2 to 3 seconds.",
+  "translation": "Cada luchador tiene su propio medidor. Un marcador lo recorre cambiando de dirección en cada pasada, y cada pasada tiene una '''ventana''' en un lugar distinto. Una pasada dura entre 2 y 3 segundos.",
+  "outdated": false
+ },
+ "9": {
+  "source": "* '''Right-click''' when the marker is inside the window.\n* A press near the centre of the window is '''PERFECT'''; anywhere else inside it is '''GOOD'''.\n* A press outside the window is a '''MISS''' and wastes that sweep. Only one press counts per sweep.",
+  "translation": "* Haz '''clic derecho''' cuando el marcador esté dentro de la ventana.\n* Una pulsación cerca del centro de la ventana es '''PERFECT'''; en cualquier otro punto dentro de ella es '''GOOD'''.\n* Una pulsación fuera de la ventana es un '''MISS''' y desperdicia esa pasada. Solo cuenta una pulsación por pasada.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Presses are checked by the server, so the timing can't be faked.",
+  "translation": "El servidor comprueba las pulsaciones, así que la sincronización no se puede falsificar.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Pushing your beam ==",
+  "translation": "== Cómo empujar tu rayo ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every PERFECT or GOOD press builds '''momentum''' that pushes your beam forward: a PERFECT press gives the full amount, a GOOD press between half and the full amount depending on how close to the centre you were. Momentum fades over time, so you have to keep hitting the window.",
+  "translation": "Cada pulsación PERFECT o GOOD acumula '''impulso''', que empuja tu rayo hacia adelante: una pulsación PERFECT da la cantidad completa, y una GOOD entre la mitad y la cantidad completa según lo cerca del centro que hayas estado. El impulso se desvanece con el tiempo, así que tienes que seguir acertando en la ventana.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Your stats decide how hard each press pushes: the beam with more power behind it turns the same momentum into a bigger push. A weaker fighter can still win with better timing.",
+  "translation": "Tus estadísticas deciden cuánto empuja cada pulsación: el rayo con más poder detrás convierte el mismo impulso en un empuje mayor. Un luchador más débil aún puede ganar con mejor sincronización.",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Winning and losing ==",
+  "translation": "== Victoria y derrota ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "The side that pushes the clash far enough '''wins''': its beam breaks through and keeps going for a moment. The losing beam is destroyed and the loser is '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "El bando que empuja el choque lo suficiente '''gana''': su rayo se abre paso y sigue avanzando un momento. El rayo perdedor se destruye y el perdedor queda '''agotado''': aturdido durante 3.5 segundos (consulta [[Special:MyLanguage/Effects|Efectos]]).",
+  "outdated": false
+ },
+ "16": {
+  "source": "A clash can also end in other ways:",
+  "translation": "Un choque también puede terminar de otras formas:",
+  "outdated": false
+ },
+ "17": {
+  "source": "* If either fighter stops firing, the clash dissolves with no winner.\n* If neither fighter presses for 7 seconds, the clash dissolves.\n* After 30 seconds, whoever is ahead wins. If the beams are exactly even, the clash dissolves.",
+  "translation": "* Si cualquiera de los luchadores deja de disparar, el choque se disuelve sin ganador.\n* Si ninguno de los luchadores pulsa durante 7 segundos, el choque se disuelve.\n* Tras 30 segundos, gana quien vaya por delante. Si los rayos están exactamente igualados, el choque se disuelve.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Clashing with enemies ==",
+  "translation": "== Choques con enemigos ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "Enemies that fire beams can clash with you too. They press on their own, and the more powerful their beam is, the more accurate their timing gets.",
+  "translation": "Los enemigos que disparan rayos también pueden chocar contigo. Pulsan por su cuenta, y cuanto más poderoso es su rayo, más precisa es su sincronización.",
+  "outdated": false
+ },
+ "20": {
+  "source": "== Strike clashes ==",
+  "translation": "== Choques de golpes ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "Melee techniques can clash too: when two fighters rush at each other with strike attacks, their fists meet and the same timing meter decides who breaks through.",
+  "translation": "Las técnicas cuerpo a cuerpo también pueden chocar: cuando dos luchadores se lanzan uno contra otro con Super Golpes, sus puños se encuentran y el mismo medidor de sincronización decide quién se abre paso.",
+  "outdated": false
+ }
+}

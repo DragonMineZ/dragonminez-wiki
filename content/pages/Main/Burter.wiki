@@ -1,0 +1,54 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, raid boss</translate>
+|Dimension={{L|Namek}}
+|Spawns=<translate><!--T:2--> [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], wave 5</translate>
+|Behavior=<translate><!--T:3--> Waits until his escort falls; Elite AI</translate>
+|Health=10000
+|Damage=70
+|Ki damage=55
+|Abilities=<translate><!--T:4--> Fast flight, Blue Hurricane, dodging, teleporting</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Burter''' is a member of the '''Ginyu Force''', Frieza's elite squad. In [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]], the raid of [[Special:MyLanguage/Namek|Planet Namek]], he arrives in the final wave with the rest of the squad. He is the fastest flier of the five.
+</translate>
+
+<translate>
+== In raids == <!--T:7-->
+
+<!--T:8-->
+The whole Ginyu Force is the boss group of wave 5: [[Special:MyLanguage/Guldo|Guldo]], [[Special:MyLanguage/Recoome|Recoome]], Burter, [[Special:MyLanguage/Jeice|Jeice]] and [[Special:MyLanguage/Ginyu|Ginyu]], escorted by 15 [[Special:MyLanguage/Frieza Soldier|Frieza Soldiers]]. The five stay dormant until the soldiers are dead, but attacking one wakes it up early. Like every raid boss, they glow red.
+
+<!--T:9-->
+In the raid Burter has 10,000 health, 70 melee damage and 55 ki damage, and fights on the [[Special:MyLanguage/Sagas#Enemy AI tiers|Elite]] AI tier, like Jeice and Ginyu. These are the defaults, before the story difficulty multiplier of the player who started the raid (see [[Special:MyLanguage/Raids#Difficulty|Raids]]); the number of participants doesn't change them.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+* '''Flight:''' Burter flies faster than the rest of the Ginyu Force.
+* '''Blue Hurricane:''' he spins up a whirlwind around himself. Its damage follows his melee damage.
+* '''Dodging:''' he can step back out of the way of your hits.
+* '''Teleporting:''' he teleports to you when you keep your distance or charge an attack from range.
+</translate>
+
+<translate>
+== Drops == <!--T:12-->
+
+<!--T:13-->
+Burter drops nothing. Clearing the raid rewards everyone still fighting (see [[Special:MyLanguage/Frieza's Invasion#Rewards|Frieza's Invasion]]).
+</translate>
+
+<translate>
+== In the story == <!--T:14-->
+
+<!--T:15-->
+In the [[Special:MyLanguage/Frieza Saga|Frieza Saga]], the quest '''Burter and Jeice''' has you defeat him and [[Special:MyLanguage/Jeice|Jeice]] together on Namek's Ajissa Plains.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity ids</translate>|<code>dragonminez:saga_burter</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Raid enemies{{#translation:}}]]

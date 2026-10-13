@@ -1,38 +1,42 @@
 {{Infobox Structure
 |Dimension={{L|Namek}}
-|Biome=<translate>Ajissa Plains or Sacred Land</translate>
-|Location=<translate>At least 1,000 blocks from 0, 0; one per world</translate>
+|Biome=<translate><!--T:1--> Ajissa Plains or Sacred Land</translate>
+|Location=<translate><!--T:2--> At least 1,000 blocks from 0, 0; one per world</translate>
 |Locate=/dmzlocate gete_star
-|Inhabitants={{L|Metal Cooler Core}}, {{L|Gete Robot}}
-|Purpose=<translate>World boss lair</translate>
-|Protection=<translate>Unbreakable hull</translate>
+|Inhabitants={{L|Metal Cooler Core}}, {{L|Metal Cooler}}, {{L|Gete Robot}}
+|Purpose=<translate><!--T:3--> World boss lair</translate>
+|Protection=<translate><!--T:4--> Unbreakable hull</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Big Gete Star''' is a huge, half-buried mechanical sphere on [[Special:MyLanguage/Namek|Namek]]. Its inner chamber is the lair of the [[Special:MyLanguage/World Bosses|world boss]] [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]], and its robots march on the Namekian villages.
 </translate>
 
 <translate>
-== The star ==
+== The star == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 * Its hull is '''unbreakable'''.
 * The drained ground around it hides some '''[[Special:MyLanguage/Gete Tech|Gete Debris]]''', a rare ore.
-* Around the star, up to 2 '''Metal Cooler patrols''' (a Metal Cooler scout with 2–3 [[Special:MyLanguage/Gete Robot|Gete Robots]]) roam near players. Gete Robots also march from here on the [[Special:MyLanguage/Namekian Village|Namekian villages]].
+* Around the star, up to 2 '''Metal Cooler patrols''' (a [[Special:MyLanguage/Metal Cooler|Metal Cooler]] scout with 2–3 [[Special:MyLanguage/Gete Robot|Gete Robots]]) roam near players. Gete Robots also march from here on the [[Special:MyLanguage/Namekian Village|Namekian villages]].
 * In worlds created before the star was added, it still appears: because it's too big to place at once, it's filled in gradually (see [[Special:MyLanguage/Structures#Existing worlds|Existing worlds]]).
 </translate>
 
 <translate>
-== Metal Cooler Core ==
+== Metal Cooler Core == <!--T:8-->
 </translate>
 {{Main|Metal Cooler Core}}
 <translate>
+<!--T:9-->
 The [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]] waits in the star's inner chamber, and only wakes for players inside that chamber. See [[Special:MyLanguage/World Bosses|World Bosses]] for how lairs, waking and respawning work.
 </translate>
 
 <translate>
-== Finding it ==
+== Finding it == <!--T:10-->
 </translate>
 <translate>
+<!--T:11-->
 The Big Gete Star generates once per world, in the Ajissa Plains or the Sacred Land, at least 1,000 blocks from the world origin. Every [[Special:MyLanguage/Namekian Trader|Namekian Trader]] sells a '''Big Gete Star Map''' for 16 Emeralds (4 uses). Players with the locate permission can use {{Command|/dmzlocate gete_star}} on Namek.
 </translate>
 

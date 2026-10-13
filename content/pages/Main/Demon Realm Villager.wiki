@@ -1,47 +1,51 @@
 {{Infobox Mob
-|Type=<translate>Villager, trader</translate>
+|Type=<translate><!--T:1--> Villager, trader</translate>
 |Dimension={{L|Demon Realm}}
-|Spawns=<translate>Demon villages on the Third Demon World, 1–2 per house</translate>
-|Behavior=<translate>Passive; about 40% of them sell Medi-Bugs</translate>
-|Abilities=<translate>Sells Medi-Bugs</translate>
-|Drops=<translate>None</translate>
+|Spawns=<translate><!--T:2--> Demon villages on the Third Demon World, 1–2 per house</translate>
+|Behavior=<translate><!--T:3--> Passive; about 40% of them sell Medi-Bugs</translate>
+|Abilities=<translate><!--T:4--> Sells Medi-Bugs</translate>
+|Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
+<!--T:6-->
 '''Demon Realm Villagers''' are the residents of the demon villages of the [[Special:MyLanguage/Demon Realm|Demon Realm]], dressed in Demon Realm outfits. About '''40%''' of them are '''bug traders''' who sell Medi-Bugs.
 </translate>
 
 <translate>
-== Where to find them ==
+== Where to find them == <!--T:7-->
 
+<!--T:8-->
 Demon villages generate on the Third Demon World: a plaza surrounded by 3–5 adobe houses, 1–2 farms, adobe-brick paths and lantern posts. Each house has 1–2 villagers. Every village also has a [[Special:MyLanguage/Time Patroller|Time Patroller]] on its plaza.
 </translate>
 
 <translate>
-== Medi-Bug trades ==
+== Medi-Bug trades == <!--T:9-->
 
+<!--T:10-->
 A bug trader sells 2–3 of these offers for emeralds. The other villagers don't trade.
 </translate>
 {| class="wikitable"
-! <translate>Item</translate> !! <translate>Effect when eaten</translate> !! <translate>Cost</translate> !! <translate>Uses</translate>
+! <translate><!--T:11--> Item</translate> !! <translate><!--T:12--> Effect when eaten</translate> !! <translate><!--T:13--> Cost</translate> !! <translate><!--T:14--> Uses</translate>
 |-
-| <translate>Medi-Bug (Ant)</translate> || <translate>Restores 85% of your health, ki and stamina. It has its own cooldown, as long as the Senzu Bean's.</translate> || <translate>8 Emeralds</translate> || 6
+| <translate><!--T:15--> Medi-Bug (Ant)</translate> || <translate><!--T:16--> Restores 85% of your health, ki and stamina. It has its own cooldown, as long as the Senzu Bean's.</translate> || <translate><!--T:17--> 8 Emeralds</translate> || 6
 |-
-| <translate>Pair of Medi-Bugs (Beetle)</translate> || <translate>Right-click to split it into two identical Medi-Bug (Beetle). Two players who eat beetles with the same ID within 30 seconds fuse.</translate> || <translate>16 Emeralds</translate> || 2
+| <translate><!--T:18--> Pair of Medi-Bugs (Beetle)</translate> || <translate><!--T:19--> Right-click to split it into two identical Medi-Bug (Beetle). Two players who eat beetles with the same ID within 30 seconds fuse.</translate> || <translate><!--T:20--> 16 Emeralds</translate> || 2
 |-
-| <translate>Medi-Bug (Rhino)</translate> || <translate>Medi-Bug Shell for 45 seconds: you take 30% less damage.</translate> || <translate>6 Emeralds</translate> || 6
+| <translate><!--T:21--> Medi-Bug (Rhino)</translate> || <translate><!--T:22--> Medi-Bug Shell for 45 seconds: you take 30% less damage.</translate> || <translate><!--T:23--> 6 Emeralds</translate> || 6
 |-
-| <translate>Medi-Bug (Worm)</translate> || <translate>Mastery Gain II for 5 minutes: 50% more form mastery.</translate> || <translate>6 Emeralds</translate> || 6
+| <translate><!--T:24--> Medi-Bug (Worm)</translate> || <translate><!--T:25--> Mastery Gain II for 5 minutes: 50% more form mastery.</translate> || <translate><!--T:26--> 6 Emeralds</translate> || 6
 |}
 
 <translate>
+<!--T:27-->
 Trades restock once per in-game day when you trade with the villager. The beetle fusion is explained on [[Special:MyLanguage/Medi-Bug Beetles|Medi-Bug Beetles]]. Besides the bug traders, Bulma's repeatable '''Medi-Bug Market''' sidequest sells a batch of Medi-Bugs (a Beetle pair included) for emeralds and gold ingots, once an hour.
 </translate>
 
-{{Note|type=warning|title=<translate>Alignment</translate>|<translate>Killing a Demon Realm Villager or the Time Patroller lowers your alignment.</translate>}}
+{{Note|type=warning|title=<translate><!--T:28--> Alignment</translate>|<translate><!--T:29--> Killing a Demon Realm Villager or the Time Patroller lowers your alignment.</translate>}}
 
 {{See also|Alignment|Medi-Bug Beetles|Effects}}
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:demon_villager</code>}}
+{{Note|type=config|title=<translate><!--T:30--> Entity id</translate>|<code>dragonminez:demon_villager</code>}}
 
 {{Navbox Bestiary}}
 [[Category:NPCs{{#translation:}}]]

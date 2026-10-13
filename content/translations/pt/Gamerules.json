@@ -1,0 +1,132 @@
+{
+ "Page_display_title": {
+  "source": "Gamerules",
+  "translation": "Gamerules",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds a few vanilla-style '''gamerules''', set with <code>/gamerule &lt;name&gt; &lt;value&gt;</code>. They control '''ki-griefing''' (whether ki attacks are allowed to damage and destroy the world) and '''building inside arena structures''', so server owners can protect terrain and builds.",
+  "translation": "O DragonMineZ adiciona algumas '''gamerules''' no estilo vanilla, definidas com <code>/gamerule &lt;name&gt; &lt;value&gt;</code>. Elas controlam a '''destruição com ki''' (se os ataques de ki podem danificar e destruir o mundo) e a '''construção dentro das estruturas de arena''', para que os donos de servidores possam proteger o terreno e as construções.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Gamerule list ==",
+  "translation": "== Lista de gamerules ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Gamerule",
+  "translation": "Gamerule",
+  "outdated": false
+ },
+ "4": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "5": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "6": {
+  "source": "Whether ki attacks '''fired by players''' can break or damage blocks. Set it to <code>false</code> to stop players blowing up terrain.",
+  "translation": "Se os ataques de ki '''disparados por jogadores''' podem quebrar ou danificar blocos. Defina como <code>false</code> para impedir que os jogadores explodam o terreno.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Whether ki attacks '''fired by mobs and NPCs''' (for example saga enemies) can break or damage blocks.",
+  "translation": "Se os ataques de ki '''disparados por mobs e NPCs''' (por exemplo, inimigos de saga) podem quebrar ou danificar blocos.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Whether ki-griefing is allowed '''inside master structures'''. It is off by default, so master homes (Goku's House and the rest) are protected even when the other two rules are on.",
+  "translation": "Se a destruição com ki é permitida '''dentro das estruturas de mestres'''. Vem desativada por padrão, então as casas dos mestres (a Casa do Goku e as demais) ficam protegidas mesmo com as outras duas regras ativadas.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Whether players can '''place and break blocks inside arena structures''' (Fortuneteller Baba's Palace, the Cell Games Arena and the Otherworld tournament grounds). Off by default.",
+  "translation": "Se os jogadores podem '''colocar e quebrar blocos dentro das estruturas de arena''' (o Palácio da Vovó Uranai, a Arena dos Jogos de Cell e o local do torneio do Outro Mundo). Desativada por padrão.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Ki-griefing ==",
+  "translation": "== Destruição com ki ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''How the rules combine:''' a ki blast can break a block only if the matching player or mob rule is <code>true</code> '''and''', if the spot is inside a protected structure, <code>allowKiGriefingMasterStructures</code> is also <code>true</code>.",
+  "translation": "'''Como as regras se combinam:''' uma rajada de ki só pode quebrar um bloco se a regra correspondente de jogador ou de mob for <code>true</code> '''e''', se o local estiver dentro de uma estrutura protegida, <code>allowKiGriefingMasterStructures</code> também for <code>true</code>.",
+  "outdated": false
+ },
+ "12": {
+  "source": "The structures protected by <code>allowKiGriefingMasterStructures</code> are the ones in the structure tag <code>dragonminez:ki_griefing_protected</code>:",
+  "translation": "As estruturas protegidas por <code>allowKiGriefingMasterStructures</code> são as da tag de estruturas <code>dragonminez:ki_griefing_protected</code>:",
+  "outdated": false
+ },
+ "13": {
+  "source": "* [[Special:MyLanguage/Goku's House|Goku's House]]\n* [[Special:MyLanguage/Kame House|Kame House]]\n* [[Special:MyLanguage/Grand Elder's House|Grand Elder's House]]\n* [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]]\n* [[Special:MyLanguage/Piccolo's House|Piccolo's House]]\n* [[Special:MyLanguage/Yamcha's House|Yamcha's House]]\n* '''Old Kai's pillar''' (<code>oldkai_pillar</code>)\n* the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (<code>timechamber</code>)\n* [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]]\n* [[Special:MyLanguage/Cell Arena|Cell Games Arena]]\n* [[Special:MyLanguage/Frieza's Ship|Frieza's Spaceship]]\n* [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]]\n* [[Special:MyLanguage/Trunks' Ship|Trunks' Time Machine]]\n* [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]\n* [[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]]",
+  "translation": "* [[Special:MyLanguage/Goku's House|Casa do Goku]]\n* [[Special:MyLanguage/Kame House|Casa do Kame]]\n* [[Special:MyLanguage/Grand Elder's House|Casa do Grande Ancião]]\n* [[Special:MyLanguage/Kami's Lookout|Mirante de Kami]]\n* [[Special:MyLanguage/Piccolo's House|Casa do Piccolo]]\n* [[Special:MyLanguage/Yamcha's House|Casa do Yamcha]]\n* '''Pilar do Velho Kaioshin''' (<code>oldkai_pillar</code>)\n* a [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]] (<code>timechamber</code>)\n* [[Special:MyLanguage/Babidi's Spaceship|Nave de Babidi]]\n* [[Special:MyLanguage/Cell Arena|Arena do Cell]]\n* [[Special:MyLanguage/Frieza's Ship|Nave do Freeza]]\n* [[Special:MyLanguage/Dr. Gero's Lab|Laboratório do Dr. Gero]]\n* [[Special:MyLanguage/Trunks' Ship|Nave do Trunks]]\n* [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin do Vegeta]]\n* [[Special:MyLanguage/Fortuneteller Baba's Palace|Palácio da Vovó Uranai]]",
+  "outdated": false
+ },
+ "14": {
+  "source": "The Otherworld tournament grounds and the [[Special:MyLanguage/Otherworld|Otherworld]] landmarks (King Yemma's palace, Snake Way and King Kai's Planet) count as protected structures too. Datapacks can add their own structures to the tag.",
+  "translation": "O local do torneio do Outro Mundo e os pontos marcantes do [[Special:MyLanguage/Otherworld|Outro Mundo]] (o palácio do Rei Yemma, o Caminho da Serpente e o planeta do Rei Kai) também contam como estruturas protegidas. Datapacks podem adicionar suas próprias estruturas à tag.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Building in arena structures ==",
+  "translation": "== Construir em estruturas de arena ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "While <code>allowBuildingInArenaStructures</code> is <code>false</code>, players in Survival or Adventure mode can't place or break blocks inside the structures of the tag <code>dragonminez:build_protected</code> (Fortuneteller Baba's Palace and the Cell Games Arena) or inside the Otherworld tournament grounds. They get the message ''\"This place is protected. You can't build here.\"''. Explosions don't destroy blocks there either, and mobs can't grief them. Creative and Spectator players are not affected.",
+  "translation": "Enquanto <code>allowBuildingInArenaStructures</code> for <code>false</code>, jogadores no modo Sobrevivência ou Aventura não podem colocar nem quebrar blocos dentro das estruturas da tag <code>dragonminez:build_protected</code> (o Palácio da Vovó Uranai e a Arena dos Jogos de Cell) nem dentro do local do torneio do Outro Mundo. Eles recebem a mensagem ''\"Este lugar está protegido. Você não pode construir aqui.\"''. Explosões também não destroem blocos ali, e mobs não podem danificá-los. Jogadores no modo Criativo e Espectador não são afetados.",
+  "outdated": false
+ },
+ "17": {
+  "source": "== WorldGuard ==",
+  "translation": "== WorldGuard ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "For finer, region-based control, DMZ also integrates with '''WorldGuard''' if it is installed. It registers two region flags:",
+  "translation": "Para um controle mais fino por regiões, o DMZ também se integra ao '''WorldGuard''', se estiver instalado. Ele registra duas flags de região:",
+  "outdated": false
+ },
+ "19": {
+  "source": "Flag",
+  "translation": "Flag",
+  "outdated": false
+ },
+ "20": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "21": {
+  "source": "Effect",
+  "translation": "Efeito",
+  "outdated": false
+ },
+ "22": {
+  "source": "State (allow or deny, default allow)",
+  "translation": "State (allow ou deny; allow por padrão)",
+  "outdated": false
+ },
+ "23": {
+  "source": "Whether ki attacks can break blocks in that region. Checked after the gamerules above.",
+  "translation": "Se os ataques de ki podem quebrar blocos nessa região. É verificado depois das gamerules acima.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Number",
+  "translation": "Número",
+  "outdated": false
+ },
+ "25": {
+  "source": "Base gravity inside that region (used when it is higher than the dimension's gravity); see [[Special:MyLanguage/Gravity Config|Gravity Config]].",
+  "translation": "Gravidade base dentro dessa região (usada quando é maior que a gravidade da dimensão); veja [[Special:MyLanguage/Gravity Config|Configuração de gravidade]].",
+  "outdated": false
+ }
+}

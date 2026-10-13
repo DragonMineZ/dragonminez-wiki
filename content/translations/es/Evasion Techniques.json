@@ -1,0 +1,137 @@
+{
+ "Page_display_title": {
+  "source": "Evasion Techniques",
+  "translation": "Técnicas de evasión",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap and a roar that pushes everyone back. They activate as soon as you press the slot key and share a short lockout with each other.",
+  "translation": "Las '''técnicas de evasión''' son movimientos de utilidad que te ayudan a escapar, reposicionarte o darle la vuelta a un combate: destellos cegadores, imágenes residuales, teletransportes, una siesta curativa y un rugido que empuja a todos hacia atrás. Se activan en cuanto pulsas la tecla de la ranura y comparten un breve bloqueo entre sí.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How evasion techniques work ==",
+  "translation": "== Cómo funcionan las técnicas de evasión ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* Evasion techniques must be equipped in a technique slot, and need an empty main hand, the [[Special:MyLanguage/Ki Control|Ki Control]] skill and at least 5% Power Release.\n* After using one, '''all''' your evasion techniques share a short lockout: the technique's duration + 3 seconds.\n* They gain experience every time you use them. Spend it on '''duration''' (+2.5% per level, up to +50%) and '''cooldown''' upgrades. Sleep Recovery's duration is fixed, so it only has cooldown upgrades.",
+  "translation": "* Las técnicas de evasión deben equiparse en una ranura de técnica y necesitan la mano principal vacía, la habilidad [[Special:MyLanguage/Ki Control|Control de Ki]] y al menos un 5% de Liberación de Poder.\n* Después de usar una, '''todas''' tus técnicas de evasión comparten un breve bloqueo: la duración de la técnica + 3 segundos.\n* Ganan experiencia cada vez que las usas. Gástala en mejoras de '''duración''' (+2.5% por nivel, hasta +50%) y de '''tiempo de recarga'''. La duración del Sueño Regenerador es fija, así que solo tiene mejoras de tiempo de recarga.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Evasion techniques taught by masters ==",
+  "translation": "== Técnicas de evasión que enseñan los maestros ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "6": {
+  "source": "Taught by",
+  "translation": "Lo enseña",
+  "outdated": false
+ },
+ "7": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "8": {
+  "source": "Cooldown (seconds)",
+  "translation": "Tiempo de recarga (segundos)",
+  "outdated": false
+ },
+ "9": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "10": {
+  "source": "A blinding flash: everyone within 20 blocks who can see you and is looking your way is blinded for 6–12 seconds. Blinded mobs lose their target.",
+  "translation": "Un destello cegador: todos a 20 bloques o menos que puedan verte y estén mirando hacia ti quedan cegados durante 6–12 segundos. Los mobs cegados pierden su objetivo.",
+  "outdated": false
+ },
+ "11": {
+  "source": "With a locked-on target within 24 blocks, you blink around it and end up behind it; without one, you leave an afterimage behind and step a few blocks forward. Mobs targeting you within 16 blocks lose track of you.",
+  "translation": "Con un objetivo fijado a 24 bloques o menos, parpadeas a su alrededor y terminas a su espalda; sin objetivo, dejas una imagen residual atrás y avanzas unos bloques. Los mobs que te tienen como objetivo a 16 bloques o menos te pierden el rastro.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Sleep Recovery",
+  "translation": "Sueño Regenerador",
+  "outdated": false
+ },
+ "13": {
+  "source": "A 7-second nap that heals 10% of your max health every second (up to 70%). You can't move, attack or use items while you sleep, and taking damage wakes you up. Only [[Special:MyLanguage/Majin|Majins]] can equip it.",
+  "translation": "Una siesta de 7 segundos que cura el 10% de tu vida máxima cada segundo (hasta un 70%). No puedes moverte, atacar ni usar objetos mientras duermes, y recibir daño te despierta. Solo los [[Special:MyLanguage/Majin|Majin]] pueden equiparla.",
+  "outdated": false
+ },
+ "14": {
+  "source": "'''Sleep Recovery''' is a Majin technique: any race can learn it from Majin Buu, but only a Majin can equip it in a technique slot (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use it in the story: they take a 7-second nap that heals up to 60% of their max health.",
+  "translation": "El '''Sueño Regenerador''' es una técnica Majin: cualquier raza puede aprenderla de Majin Buu, pero solo un Majin puede equiparla en una ranura de técnica (consulta [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] y [[Special:MyLanguage/Majin Kuu|Majin Kuu]] también la usan en la historia: se echan una siesta de 7 segundos que les cura hasta el 60% de su vida máxima.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Evasion techniques not taught by default ==",
+  "translation": "== Técnicas de evasión que no se enseñan por defecto ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "No master offers these in the default lists. Server owners can add [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]] to a master's list, and admins can grant either with {{Command|/dmztech add}}.",
+  "translation": "Ningún maestro las ofrece en las listas por defecto. Los dueños de servidores pueden añadir el [[Special:MyLanguage/Dimensional Warp|Salto dimensional]] a la lista de un maestro, y los administradores pueden otorgar cualquiera de las dos con {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "18": {
+  "source": "TP cost",
+  "translation": "Costo en TP",
+  "outdated": false
+ },
+ "19": {
+  "source": "Cooldown (seconds)",
+  "translation": "Tiempo de recarga (segundos)",
+  "outdated": false
+ },
+ "20": {
+  "source": "How to get it",
+  "translation": "Cómo conseguirla",
+  "outdated": false
+ },
+ "21": {
+  "source": "Effect",
+  "translation": "Efecto",
+  "outdated": false
+ },
+ "22": {
+  "source": "20% drop from the {{L|Janemba}} world boss.",
+  "translation": "20% de probabilidad de que la suelte el jefe de mundo {{L|Janemba}}.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Teleports you behind your locked-on target within 64 blocks, or a few blocks forward without a target.",
+  "translation": "Te teletransporta detrás de tu objetivo fijado a 64 bloques o menos, o unos bloques hacia adelante si no tienes objetivo.",
+  "outdated": false
+ },
+ "24": {
+  "source": "Granted while in Great Ape (Oozaru) form.",
+  "translation": "Se otorga mientras estás en la forma de Mono Gigante (Oozaru).",
+  "outdated": false
+ },
+ "25": {
+  "source": "A roar that repeatedly damages and pushes back everything around you for 3 seconds.",
+  "translation": "Un rugido que daña y empuja repetidamente todo lo que te rodea durante 3 segundos.",
+  "outdated": false
+ },
+ "26": {
+  "source": "World boss drop chances are the server defaults; see [[Special:MyLanguage/World Bosses|World Bosses]].",
+  "translation": "Las probabilidades de botín de los jefes de mundo son los valores por defecto del servidor; consulta [[Special:MyLanguage/World Bosses|Jefes de mundo]].",
+  "outdated": false
+ }
+}

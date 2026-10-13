@@ -1,0 +1,47 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Otherworld}}, {{L|Earth}}
+|Spawns={{L|Otherworld Tournament}}, {{L|Buu Saga}}
+|Behavior=<translate><!--T:2--> Flies; Smart or Elite AI in the tournament</translate>
+|Abilities=<translate><!--T:3--> Oozaru Beam</translate>
+|Drops=<translate><!--T:4--> None</translate>
+}}
+<translate>
+<!--T:5-->
+'''Spopovich''' is a fighter from the [[Special:MyLanguage/Buu Saga|Buu Saga]]. You face him at the World Tournament, and he can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. He flies, fights in melee and has a single ki attack, a purple '''Oozaru Beam'''.
+</translate>
+
+<translate>
+== In the tournament == <!--T:6-->
+
+<!--T:7-->
+Spopovich is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. Like every contender, he is drawn at random and revealed once everybody accepts the rules.
+
+<!--T:8-->
+His stats come from the [[Special:MyLanguage/Tournaments#Configuration|contender entry]] that drew him: by default between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, on the Smart AI tier for the four weakest entries and Elite for the other five. He gets 8% stronger for every round already played.
+
+<!--T:9-->
+Hover him on the tournament screen to see his stats; with Bulma's '''Threat Database''' scan data you also see his ki attacks.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+Spopovich flies and fights in melee. He has no combos, no [[Special:MyLanguage/Sagas#Enemy AI tiers|Zanzoken]] and no teleport.
+
+<!--T:12-->
+* '''Oozaru Beam:''' his only ki attack, a purple beam.
+</translate>
+
+<translate>
+== In the story == <!--T:13-->
+
+<!--T:14-->
+[[Special:MyLanguage/Buu Saga|Buu Saga]] quest 9, '''Tournament: Spopovich''', has you defeat him at the World Tournament, in Earth's plains.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:15--> Entity id</translate>|<code>dragonminez:saga_spopovitch</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

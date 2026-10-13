@@ -1,0 +1,807 @@
+{
+ "Page_display_title": {
+  "source": "Custom Forms",
+  "translation": "Formas personalizadas",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Custom forms''' are transformations you add or change with JSON files. Forms can live in two places; both use exactly the same JSON schema and Java class (<code>FormConfig.java</code>), and only the folder they sit in changes what they mean:",
+  "translation": "As '''formas personalizadas''' são transformações que você adiciona ou altera com arquivos JSON. As formas podem ficar em dois lugares; ambos usam exatamente o mesmo esquema JSON e a mesma classe Java (<code>FormConfig.java</code>), e só a pasta em que estão muda o que elas significam:",
+  "outdated": false
+ },
+ "2": {
+  "source": "Location",
+  "translation": "Localização",
+  "outdated": false
+ },
+ "3": {
+  "source": "What it is",
+  "translation": "O que é",
+  "outdated": false
+ },
+ "4": {
+  "source": "'''Race forms''' belong to one race only (for example, Super Saiyan only exists for Saiyans). See [[Special:MyLanguage/Custom Races|Custom Races]].",
+  "translation": "As '''formas de raça''' pertencem a uma única raça (por exemplo, o Super Saiyajin só existe para os Saiyajins). Veja [[Special:MyLanguage/Custom Races|Raças personalizadas]].",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Stack forms''' are shared by all races and designed to layer on top of whatever race form is already active.",
+  "translation": "As '''formas acumuláveis''' são compartilhadas por todas as raças e feitas para se somar por cima da forma de raça que já estiver ativa.",
+  "outdated": false
+ },
+ "6": {
+  "source": "This page is about the second kind, stack forms, but the [[Special:MyLanguage/Custom Forms#Field reference|field reference]] below applies to race forms too.",
+  "translation": "Esta página trata do segundo tipo, as formas acumuláveis, mas a [[Special:MyLanguage/Custom Forms#Field reference|referência de campos]] abaixo também vale para as formas de raça.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Loader: <code>ConfigManager.createOrLoadStackForms()</code> reads every file in <code>config/dragonminez/forms/</code> (<code>ConfigLoader.loadStackForms</code>). Files whose name starts with <code>old_</code> are ignored.",
+  "translation": "Carregador: <code>ConfigManager.createOrLoadStackForms()</code> lê todos os arquivos de <code>config/dragonminez/forms/</code> (<code>ConfigLoader.loadStackForms</code>). Arquivos cujo nome começa com <code>old_</code> são ignorados.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== What a stack form is ==",
+  "translation": "== O que é uma forma acumulável ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "A stack form doesn't replace your current transformation: it stacks its multipliers on top of it. The clearest example is [[Special:MyLanguage/Kaioken|Kaioken]]: a Saiyan can be in base form or Super Saiyan and ''also'' be in Kaioken x2 at the same time, multiplying whatever form they are already in. The built-in stack form groups are <code>kaioken</code> (x2, x3, x4, x10, x20) and <code>ultimate</code> (<code>StackForms.java</code>).",
+  "translation": "Uma forma acumulável não substitui sua transformação atual: ela soma seus multiplicadores por cima dela. O exemplo mais claro é o [[Special:MyLanguage/Kaioken|Kaioken]]: um Saiyajin pode estar na forma base ou em Super Saiyajin e ''também'' estar em Kaioken x2 ao mesmo tempo, multiplicando a forma em que já estiver. Os grupos de formas acumuláveis incluídos são <code>kaioken</code> (x2, x3, x4, x10, x20) e <code>ultimate</code> (<code>StackForms.java</code>).",
+  "outdated": false
+ },
+ "10": {
+  "source": "A stack group is unlocked by the stack skill named in its <code>formType</code>: <code>kaioken</code> or <code>ultimate</code>. A form of the group becomes available when that skill reaches the form's <code>unlockOnSkillLevel</code>.",
+  "translation": "Um grupo acumulável é desbloqueado pela habilidade acumulável indicada no seu <code>formType</code>: <code>kaioken</code> ou <code>ultimate</code>. Uma forma do grupo fica disponível quando essa habilidade atinge o <code>unlockOnSkillLevel</code> da forma.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== File structure ==",
+  "translation": "== Estrutura do arquivo ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "There is one file per group, for example <code>config/dragonminez/forms/kaioken.json</code> (shortened):",
+  "translation": "Há um arquivo por grupo, por exemplo <code>config/dragonminez/forms/kaioken.json</code> (resumido):",
+  "outdated": false
+ },
+ "13": {
+  "source": "<code>groupName</code> is the group key (lowercase); groups are identified by it, not by the filename. Everything nested under <code>forms</code> is one form entry, keyed by its own <code>name</code>. Any field you leave out takes the default shown below.",
+  "translation": "<code>groupName</code> é a chave do grupo (em minúsculas); os grupos são identificados por ela, não pelo nome do arquivo. Tudo o que está aninhado dentro de <code>forms</code> é uma entrada de forma, identificada pelo seu próprio <code>name</code>. Qualquer campo que você omitir recebe o valor padrão mostrado abaixo.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Config version",
+  "translation": "Versão da configuração",
+  "outdated": false
+ },
+ "15": {
+  "source": "Use <code>\"configVersion\": \"2.2.0\"</code>. A custom form file with an older or missing version is backed up to <code>config/dragonminez/oldBackup/</code> and saved again with the current version; your values are kept. A file with broken JSON syntax is skipped and reported until you fix it.",
+  "translation": "Use <code>\"configVersion\": \"2.2.0\"</code>. Um arquivo de forma personalizada com versão mais antiga ou sem versão ganha um backup em <code>config/dragonminez/oldBackup/</code> e é salvo de novo com a versão atual; seus valores são mantidos. Um arquivo com sintaxe JSON quebrada é ignorado e reportado até você corrigi-lo.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Field reference ==",
+  "translation": "== Referência de campos ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "Schema source: <code>src/main/java/com/dragonminez/common/config/FormConfig.java</code>.",
+  "translation": "Origem do esquema: <code>src/main/java/com/dragonminez/common/config/FormConfig.java</code>.",
+  "outdated": false
+ },
+ "18": {
+  "source": "=== Unlock and requirements ===",
+  "translation": "=== Desbloqueio e requisitos ===",
+  "outdated": false
+ },
+ "19": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "20": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "21": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "22": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "23": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "24": {
+  "source": "Form key within the group (for example <code>x2</code>, <code>x3</code> or <code>ultimate</code>).",
+  "translation": "Chave da forma dentro do grupo (por exemplo <code>x2</code>, <code>x3</code> ou <code>ultimate</code>).",
+  "outdated": false
+ },
+ "25": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "26": {
+  "source": "Level of the group's form skill that unlocks this form.",
+  "translation": "Nível da habilidade de forma do grupo que desbloqueia esta forma.",
+  "outdated": false
+ },
+ "27": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "28": {
+  "source": "Other forms that must be mastered first, as <code>\"group.form\"</code>. Separate several with commas.",
+  "translation": "Outras formas que precisam ser dominadas primeiro, como <code>\"group.form\"</code>. Separe várias com vírgulas.",
+  "outdated": false
+ },
+ "29": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "30": {
+  "source": "<code>all</code>: every listed form needs the mastery. <code>any</code>: one is enough.",
+  "translation": "<code>all</code>: todas as formas listadas precisam do domínio. <code>any</code>: basta uma.",
+  "outdated": false
+ },
+ "31": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "32": {
+  "source": "Mastery the <code>formRequisite</code> forms need. <code>0</code> turns the requirement off.",
+  "translation": "Domínio que as formas de <code>formRequisite</code> precisam ter. <code>0</code> desativa o requisito.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "34": {
+  "source": "Player level needed. Until it is reached, the form skill cannot be leveled up to this form. Toggle: <code>levelFormRequisiteEnabled</code> in <code>general-server.json</code> → <code>gameplay</code>.",
+  "translation": "Nível de jogador necessário. Até alcançá-lo, a habilidade de forma não pode subir de nível até esta forma. Ativado por <code>levelFormRequisiteEnabled</code> em <code>general-server.json</code> → <code>gameplay</code>.",
+  "outdated": false
+ },
+ "35": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "36": {
+  "source": "Saga quest that must be completed first, as <code>\"sagaId:questId\"</code> (for example <code>\"frieza_saga:10\"</code>). Until it is completed, the form skill cannot be leveled up to this form. Ignored when story mode is off or the quest does not exist. Toggle: <code>sagaFormRequisiteEnabled</code> in <code>general-server.json</code> → <code>gameplay</code>.",
+  "translation": "Missão de saga que precisa ser concluída primeiro, como <code>\"sagaId:questId\"</code> (por exemplo <code>\"frieza_saga:10\"</code>). Até concluí-la, a habilidade de forma não pode subir de nível até esta forma. É ignorado se o modo história estiver desativado ou se a missão não existir. Ativado por <code>sagaFormRequisiteEnabled</code> em <code>general-server.json</code> → <code>gameplay</code>.",
+  "outdated": false
+ },
+ "37": {
+  "source": "=== Visuals ===",
+  "translation": "=== Aparência ===",
+  "outdated": false
+ },
+ "38": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "39": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "40": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "41": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "42": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "43": {
+  "source": "Model key for the form. Looked up like a race model: built-in keys or your own <code>geo/entity/races/<key>.geo.json</code> (see [[Special:MyLanguage/Custom Models and Assets|Custom Models and Assets]]). A stack form's model wins over the race form's.",
+  "translation": "Chave de modelo da forma. É procurada como um modelo de raça: chaves incluídas ou seu próprio <code>geo/entity/races/<key>.geo.json</code> (veja [[Special:MyLanguage/Custom Models and Assets|Modelos e recursos próprios]]). O modelo de uma forma acumulável tem prioridade sobre o da forma de raça.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "45": {
+  "source": "Keeps the player's chosen head bone (ears, horns and so on) visible in this form.",
+  "translation": "Mantém visível nesta forma o osso de cabeça escolhido pelo jogador (orelhas, chifres etc.).",
+  "outdated": false
+ },
+ "46": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "47": {
+  "source": "Hides the Saiyan tail while in this form.",
+  "translation": "Esconde a cauda Saiyajin enquanto estiver nesta forma.",
+  "outdated": false
+ },
+ "48": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "49": {
+  "source": "Animation played while charging into this form. Built-in values: <code>transf.generic</code>, <code>transf.ssj</code>, <code>transf.ssj3</code>, <code>transf.ssg2</code>, <code>transf.ozaru</code>, <code>transf.absorb</code>, <code>transf.berserker</code>, <code>transf.freezer</code>, <code>transf.freezer2</code>, <code>transf.janemba</code>, <code>transf.daima</code>. Any animation name from the player animation files (<code>assets/dragonminez/animations/entity/races/*.animation.json</code>) works, so a resource pack can add its own. Empty means the generic animation.",
+  "translation": "Animação reproduzida enquanto você carrega esta forma. Valores incluídos: <code>transf.generic</code>, <code>transf.ssj</code>, <code>transf.ssj3</code>, <code>transf.ssg2</code>, <code>transf.ozaru</code>, <code>transf.absorb</code>, <code>transf.berserker</code>, <code>transf.freezer</code>, <code>transf.freezer2</code>, <code>transf.janemba</code>, <code>transf.daima</code>. Qualquer nome de animação dos arquivos de animação do jogador (<code>assets/dragonminez/animations/entity/races/*.animation.json</code>) funciona, então um pacote de recursos pode adicionar as suas. Vazio significa a animação genérica.",
+  "outdated": false
+ },
+ "50": {
+  "source": "Hex string",
+  "translation": "Texto hex",
+  "outdated": false
+ },
+ "51": {
+  "source": "Color overrides. Empty keeps the player's color. Colors blend in while charging.",
+  "translation": "Cores que substituem as do jogador. Vazio mantém a cor do jogador. As cores vão se misturando durante a carga.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "53": {
+  "source": "On SSJ4 models (a <code>customModel</code> containing <code>ssj4gt</code> or <code>ssj4d</code>), colors the fur with the hair color.",
+  "translation": "Nos modelos SSJ4 (um <code>customModel</code> que contém <code>ssj4gt</code> ou <code>ssj4d</code>), colore os pelos do corpo com a cor do cabelo.",
+  "outdated": false
+ },
+ "54": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "55": {
+  "source": "Which of the player's hair styles to show: <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> or <code>ssj4</code>.",
+  "translation": "Qual dos penteados do jogador mostrar: <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> ou <code>ssj4</code>.",
+  "outdated": false
+ },
+ "56": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "57": {
+  "source": "A hair code (from the hair editor) forced while in this form.",
+  "translation": "Um código de cabelo (do editor de cabelo) forçado enquanto estiver nesta forma.",
+  "outdated": false
+ },
+ "58": {
+  "source": "String / Hex",
+  "translation": "Texto / Hex",
+  "outdated": false
+ },
+ "59": {
+  "source": "Extra texture drawn over the body, tinted with <code>extraFormColor</code> (white if empty). Use a full <code>namespace:path</code> or a path inside the <code>dragonminez</code> namespace, for example <code>textures/entity/races/my_overlay.png</code>.",
+  "translation": "Textura extra desenhada sobre o corpo, tingida com <code>extraFormColor</code> (branca se estiver vazio). Use um <code>namespace:path</code> completo ou um caminho dentro do namespace <code>dragonminez</code>, por exemplo <code>textures/entity/races/my_overlay.png</code>.",
+  "outdated": false
+ },
+ "60": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "61": {
+  "source": "2D aura sprite set: <code>kakarot</code> or <code>god</code>.",
+  "translation": "Conjunto de sprites da aura 2D: <code>kakarot</code> ou <code>god</code>.",
+  "outdated": false
+ },
+ "62": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "63": {
+  "source": "3D aura style: <code>smooth</code>, <code>sparking</code>, <code>god</code> or <code>userPreference</code> (each player's own setting). A form that names <code>god</code> shows it for any race; as a player preference it is Glind-only.",
+  "translation": "Estilo da aura 3D: <code>smooth</code>, <code>sparking</code>, <code>god</code> ou <code>userPreference</code> (a configuração de cada jogador). Uma forma que indica <code>god</code> o mostra em qualquer raça; como preferência do jogador, é exclusivo dos Glind.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Hex string",
+  "translation": "Texto hex",
+  "outdated": false
+ },
+ "65": {
+  "source": "Aura color. Empty keeps the player's aura color.",
+  "translation": "Cor da aura. Vazio mantém a cor de aura do jogador.",
+  "outdated": false
+ },
+ "66": {
+  "source": "Integer",
+  "translation": "Inteiro",
+  "outdated": false
+ },
+ "67": {
+  "source": "Aura layer slot. Forms on different layers show separate auras at the same time (the Kaioken forms use layer <code>1</code>).",
+  "translation": "Camada da aura. Formas em camadas diferentes mostram auras separadas ao mesmo tempo (as formas Kaioken usam a camada <code>1</code>).",
+  "outdated": false
+ },
+ "68": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "69": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "70": {
+  "source": "Shape of the 3D aura (see [[Special:MyLanguage/Custom Forms#3D aura shape|3D aura shape]]).",
+  "translation": "Formato da aura 3D (veja [[Special:MyLanguage/Custom Forms#3D aura shape|Formato da aura 3D]]).",
+  "outdated": false
+ },
+ "71": {
+  "source": "<code>kakarot</code>, <code>userPreference</code>, <code>#FFFFFF</code>, <code>-1</code>, defaults",
+  "translation": "<code>kakarot</code>, <code>userPreference</code>, <code>#FFFFFF</code>, <code>-1</code>, valores padrão",
+  "outdated": false
+ },
+ "72": {
+  "source": "A second aura. <code>extraAuraLayer</code> must be <code>1</code>–<code>6</code> to show; <code>-1</code> means none.",
+  "translation": "Uma segunda aura. <code>extraAuraLayer</code> precisa ser de <code>1</code> a <code>6</code> para aparecer; <code>-1</code> significa nenhuma.",
+  "outdated": false
+ },
+ "73": {
+  "source": "Boolean / Hex",
+  "translation": "Booleano / Hex",
+  "outdated": false
+ },
+ "74": {
+  "source": "Lightning bolts around the player.",
+  "translation": "Raios ao redor do jogador.",
+  "outdated": false
+ },
+ "75": {
+  "source": "<code>[x, y, z]</code> floats",
+  "translation": "Decimais <code>[x, y, z]</code>",
+  "outdated": false
+ },
+ "76": {
+  "source": "Model scale factors.",
+  "translation": "Fatores de escala do modelo.",
+  "outdated": false
+ },
+ "77": {
+  "source": "Hex / Double",
+  "translation": "Hex / Decimal",
+  "outdated": false
+ },
+ "78": {
+  "source": "Color tint over the player while transformed. <code>0</code> means no tint.",
+  "translation": "Tonalidade de cor sobre o jogador enquanto está transformado. <code>0</code> significa sem tonalidade.",
+  "outdated": false
+ },
+ "79": {
+  "source": "Object",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "80": {
+  "source": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).",
+  "translation": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).",
+  "outdated": false
+ },
+ "81": {
+  "source": "=== 3D aura shape ===",
+  "translation": "=== Formato da aura 3D ===",
+  "outdated": false
+ },
+ "82": {
+  "source": "These keys go inside <code>aura3DStyle</code> and <code>extraAura3DStyle</code> (and inside a race's <code>aura3DStyle</code> in <code>character.json</code>). Every key is optional; a missing key uses the default.",
+  "translation": "Estas chaves ficam dentro de <code>aura3DStyle</code> e <code>extraAura3DStyle</code> (e dentro do <code>aura3DStyle</code> de uma raça em <code>character.json</code>). Todas as chaves são opcionais; uma chave ausente usa o valor padrão.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "84": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "85": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "86": {
+  "source": "Width, height and depth of the aura shell.",
+  "translation": "Largura, altura e profundidade da casca da aura.",
+  "outdated": false
+ },
+ "87": {
+  "source": "Number of flame tongues around the shell (1–64). Smooth style only.",
+  "translation": "Número de línguas de fogo ao redor da casca (1–64). Só no estilo smooth.",
+  "outdated": false
+ },
+ "88": {
+  "source": "Flame waves. In the sparking style, <code>waveAmplitude</code> is the spike reach and <code>waveSpeed</code> is the surge speed.",
+  "translation": "Ondas das chamas. No estilo sparking, <code>waveAmplitude</code> é o alcance das pontas e <code>waveSpeed</code> é a velocidade das explosões.",
+  "outdated": false
+ },
+ "89": {
+  "source": "Flame turbulence, and how strongly it flows upwards.",
+  "translation": "Turbulência das chamas e com que força elas sobem.",
+  "outdated": false
+ },
+ "90": {
+  "source": "Opacity of the center and of the edge.",
+  "translation": "Opacidade do centro e da borda.",
+  "outdated": false
+ },
+ "91": {
+  "source": "Hex colors. Empty means derived from the aura color.",
+  "translation": "Cores hex. Vazio significa que são derivadas da cor da aura.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Hex color of an outer fringe around the edge. Sparking style only; empty means no fringe.",
+  "translation": "Cor hex de uma franja externa ao redor da borda. Só no estilo sparking; vazio significa sem franja.",
+  "outdated": false
+ },
+ "93": {
+  "source": "Glow strength.",
+  "translation": "Intensidade do brilho.",
+  "outdated": false
+ },
+ "94": {
+  "source": "Sparking style only: spike columns (4–32), burst rate, how rare spikes are, and where the outline band starts.",
+  "translation": "Só no estilo sparking: colunas de pontas (4–32), frequência das explosões, quão raras são as pontas e onde começa a faixa do contorno.",
+  "outdated": false
+ },
+ "95": {
+  "source": "=== Stats and drains ===",
+  "translation": "=== Estatísticas e consumos ===",
+  "outdated": false
+ },
+ "96": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "97": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "98": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "99": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "100": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "101": {
+  "source": "Stat multipliers. RES uses the average of <code>defMultiplier</code> and <code>stmMultiplier</code>. A race form and a stack form add their bonuses together, or multiply them if <code>multiplicationInsteadOfAdditionForMultipliers</code> is on in <code>general-server.json</code>.",
+  "translation": "Multiplicadores de estatísticas. RES usa a média de <code>defMultiplier</code> e <code>stmMultiplier</code>. Uma forma de raça e uma forma acumulável somam seus bônus, ou os multiplicam se <code>multiplicationInsteadOfAdditionForMultipliers</code> estiver ativado em <code>general-server.json</code>.",
+  "outdated": false
+ },
+ "102": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "103": {
+  "source": "Attack speed multiplier.",
+  "translation": "Multiplicador de velocidade de ataque.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "105": {
+  "source": "Drain while transformed (also used for the cost of transforming). Values below <code>0</code> are treated as <code>0</code>.",
+  "translation": "Consumo enquanto estiver transformado (também usado para o custo de se transformar). Valores abaixo de <code>0</code> são tratados como <code>0</code>.",
+  "outdated": false
+ },
+ "106": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "107": {
+  "source": "Multiplier on the stamina each attack costs while transformed.",
+  "translation": "Multiplicador da estâmina que cada ataque custa enquanto estiver transformado.",
+  "outdated": false
+ },
+ "108": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "109": {
+  "source": "How fast this form drains Baba's temporary-revive timer, at 0 mastery and at full mastery (blended in between). See [[Special:MyLanguage/Otherworld|Otherworld]].",
+  "translation": "Com que rapidez esta forma consome o temporizador de revivência temporária da Vovó Uranai, com 0 de domínio e com domínio completo (interpolado entre os dois). Veja [[Special:MyLanguage/Otherworld|Outro Mundo]].",
+  "outdated": false
+ },
+ "110": {
+  "source": "=== Mastery ===",
+  "translation": "=== Domínio ===",
+  "outdated": false
+ },
+ "111": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "112": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "113": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "114": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "115": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "116": {
+  "source": "Maximum mastery (<code>0</code> means no mastery progression).",
+  "translation": "Domínio máximo (<code>0</code> significa que não há progresso de domínio).",
+  "outdated": false
+ },
+ "117": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "118": {
+  "source": "Mastery gained per hit.",
+  "translation": "Domínio ganho por golpe.",
+  "outdated": false
+ },
+ "119": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "120": {
+  "source": "Passive mastery gained every 5 seconds in the form.",
+  "translation": "Domínio passivo ganho a cada 5 segundos na forma.",
+  "outdated": false
+ },
+ "121": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "122": {
+  "source": "At full mastery, stat multipliers above <code>1</code> are multiplied by this (scales up linearly with mastery).",
+  "translation": "Com domínio completo, os multiplicadores de estatísticas acima de <code>1</code> são multiplicados por este valor (cresce de forma linear com o domínio).",
+  "outdated": false
+ },
+ "123": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "124": {
+  "source": "At full mastery, the form's drains are multiplied by this (scales linearly with mastery).",
+  "translation": "Com domínio completo, os consumos da forma são multiplicados por este valor (escala de forma linear com o domínio).",
+  "outdated": false
+ },
+ "125": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "126": {
+  "source": "Mastery this form needs before it can be combined with a stack form (or, for a stack form, with a race form).",
+  "translation": "Domínio que esta forma precisa antes de poder ser combinada com uma forma acumulável (ou, no caso de uma forma acumulável, com uma forma de raça).",
+  "outdated": false
+ },
+ "127": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "128": {
+  "source": "Mastery this form needs for instant transformation (no charge, costs ki).",
+  "translation": "Domínio que esta forma precisa para a transformação instantânea (sem carga, custa ki).",
+  "outdated": false
+ },
+ "129": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "130": {
+  "source": "Mastery this form needs before you can transform straight into it instead of going through the group in order. The group's first unlocked form never needs it.",
+  "translation": "Domínio que esta forma precisa antes que você possa se transformar diretamente nela em vez de passar pelo grupo em ordem. A primeira forma desbloqueada do grupo nunca precisa dele.",
+  "outdated": false
+ },
+ "131": {
+  "source": "List / Double",
+  "translation": "Lista / Decimal",
+  "outdated": false
+ },
+ "132": {
+  "source": "Whenever this form gains mastery, each listed form (<code>\"group.form\"</code>) gains that amount × <code>shareMasteryMultiplier</code>. The default Kaioken forms share 25% with the next one up.",
+  "translation": "Sempre que esta forma ganha domínio, cada forma listada (<code>\"group.form\"</code>) ganha essa quantidade × <code>shareMasteryMultiplier</code>. As formas Kaioken padrão compartilham 25% com a seguinte.",
+  "outdated": false
+ },
+ "133": {
+  "source": "=== Stacking behavior ===",
+  "translation": "=== Comportamento de acúmulo ===",
+  "outdated": false
+ },
+ "134": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "135": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "136": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "137": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "138": {
+  "source": "Boolean",
+  "translation": "Booleano",
+  "outdated": false
+ },
+ "139": {
+  "source": "Both the race form and the stack form must allow stacking.",
+  "translation": "Tanto a forma de raça quanto a forma acumulável precisam permitir o acúmulo.",
+  "outdated": false
+ },
+ "140": {
+  "source": "Double",
+  "translation": "Decimal",
+  "outdated": false
+ },
+ "141": {
+  "source": "While a race form and a stack form are combined, the drains of both forms are multiplied by the <code>stackDrainMultiplier</code> of both forms.",
+  "translation": "Enquanto uma forma de raça e uma forma acumulável estão combinadas, os consumos das duas formas são multiplicados pelo <code>stackDrainMultiplier</code> das duas formas.",
+  "outdated": false
+ },
+ "142": {
+  "source": "List of <code>\"group.form\"</code>",
+  "translation": "Lista de <code>\"group.form\"</code>",
+  "outdated": false
+ },
+ "143": {
+  "source": "Forms that cannot be active at the same time as this one (checked both ways). On a race form, listing <code>ultimate.ultimate</code> also keeps the Ultimate form from copying it as your best form; DragonMineZ's own forms only list it on each race's top tier.",
+  "translation": "Formas que não podem estar ativas ao mesmo tempo que esta (verificado nos dois sentidos). Em uma forma de raça, listar <code>ultimate.ultimate</code> também impede que a forma Ultimate a copie como sua melhor forma; as formas do próprio DragonMineZ só a listam no nível mais alto de cada raça.",
+  "outdated": false
+ },
+ "144": {
+  "source": "String",
+  "translation": "Texto",
+  "outdated": false
+ },
+ "145": {
+  "source": "Weapon attributes id used for melee combos while in this form, for example <code>dragonminez:giant</code> for giant forms. A bare name is looked up under <code>dragonminez:</code>, then <code>minecraft:</code>. See [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]].",
+  "translation": "Id de atributos de arma usado nos combos corpo a corpo nesta forma, por exemplo <code>dragonminez:giant</code> para as formas gigantes. Um nome sem namespace é procurado em <code>dragonminez:</code> e depois em <code>minecraft:</code>. Veja [[Special:MyLanguage/Weapon Attributes|Atributos de armas]].",
+  "outdated": false
+ },
+ "146": {
+  "source": "=== Costs and effects ===",
+  "translation": "=== Custos e efeitos ===",
+  "outdated": false
+ },
+ "147": {
+  "source": "Field",
+  "translation": "Campo",
+  "outdated": false
+ },
+ "148": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "149": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "150": {
+  "source": "List of <code>{ itemId</code> or <code>itemTag, nbt, count, consume }</code>",
+  "translation": "Lista de <code>{ itemId</code> ou <code>itemTag, nbt, count, consume }</code>",
+  "outdated": false
+ },
+ "151": {
+  "source": "Items needed to transform. Entries are alternatives: the first one the player can pay is used. <code>count</code> defaults to <code>1</code> and <code>consume</code> to <code>true</code>. <code>itemTag</code> is a tag id without <code>#</code>. Creative players skip it.",
+  "translation": "Itens necessários para se transformar. As entradas são alternativas: é usada a primeira que o jogador puder pagar. <code>count</code> vale <code>1</code> por padrão e <code>consume</code>, <code>true</code>. <code>itemTag</code> é um id de tag sem <code>#</code>. Jogadores no modo criativo ignoram isso.",
+  "outdated": false
+ },
+ "152": {
+  "source": "List of <code>{ itemId</code> or <code>itemTag, nbt, durationSeconds }</code>",
+  "translation": "Lista de <code>{ itemId</code> ou <code>itemTag, nbt, durationSeconds }</code>",
+  "outdated": false
+ },
+ "153": {
+  "source": "Items that keep the form going: one item buys <code>durationSeconds</code> (default <code>1</code>) of form time. When none is left, the form ends.",
+  "translation": "Itens que mantêm a forma ativa: cada item compra <code>durationSeconds</code> (padrão <code>1</code>) de tempo de forma. Quando não sobra nenhum, a forma termina.",
+  "outdated": false
+ },
+ "154": {
+  "source": "List of <code>{ effectId, amplifier, durationTicks, ambient, visible, showIcon }</code>",
+  "translation": "Lista de <code>{ effectId, amplifier, durationTicks, ambient, visible, showIcon }</code>",
+  "outdated": false
+ },
+ "155": {
+  "source": "Potion effects applied while transformed. <code>durationTicks</code> <code>-1</code> (the default) means as long as the form lasts.",
+  "translation": "Efeitos de poção aplicados enquanto estiver transformado. <code>durationTicks</code> <code>-1</code> (o padrão) significa enquanto a forma durar.",
+  "outdated": false
+ },
+ "156": {
+  "source": "== Translation keys ==",
+  "translation": "== Chaves de tradução ==",
+  "outdated": false
+ },
+ "157": {
+  "source": "Stack form groups and forms are named with these keys:",
+  "translation": "Os grupos de formas acumuláveis e suas formas são nomeados com estas chaves:",
+  "outdated": false
+ },
+ "158": {
+  "source": "Add these to your <code>en_us.json</code> or to your own language file. Custom translations merge with the Crowdin ones in the same way as for [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|custom races]].",
+  "translation": "Adicione-as ao seu <code>en_us.json</code> ou ao seu próprio arquivo de idioma. As traduções personalizadas se combinam com as do Crowdin do mesmo jeito que nas [[Special:MyLanguage/Custom Races#Step 4: Add translation keys|raças personalizadas]].",
+  "outdated": false
+ },
+ "159": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "160": {
+  "source": "# Save your file under <code>config/dragonminez/forms/</code>.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run <code>/dmzreload config</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).\n# Transform in game and check that stats, drains, visuals and stacking behave as expected.",
+  "translation": "# Salve seu arquivo em <code>config/dragonminez/forms/</code>.\n# Valide a sintaxe JSON (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).\n# Execute <code>/dmzreload config</code> (veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]).\n# Transforme-se no jogo e confira se as estatísticas, os consumos, a aparência e o acúmulo funcionam como esperado.",
+  "outdated": false
+ }
+}

@@ -1,34 +1,36 @@
 {{Infobox Item
-|Type=<translate>Material</translate>
-|Obtained=<translate>Namek Deepslate Kikono Ore on Namek</translate>
-|Crafting=<translate>Kikono String and Kikono Cloth need an Armor Crafting Kit</translate>
+|Type=<translate><!--T:1--> Material</translate>
+|Obtained=<translate><!--T:2--> Namek Deepslate Kikono Ore on Namek</translate>
+|Crafting=<translate><!--T:3--> Kikono String and Kikono Cloth need an Armor Crafting Kit</translate>
 }}
 <translate>
+<!--T:4-->
 '''Kikono materials''' are the crafting materials of DMZ [[Special:MyLanguage/Armor|armor]]. They all come from '''Kikono Shards''', mined from '''Namek Deepslate Kikono Ore''', the exclusive ore of [[Special:MyLanguage/Namek|Namek]].
 </translate>
 
 <translate>
-== Materials ==
+== Materials == <!--T:5-->
 </translate>
 {| class="wikitable"
-! <translate>Material</translate> !! <translate>How to get it</translate> !! <translate>Used for</translate>
+! <translate><!--T:6--> Material</translate> !! <translate><!--T:7--> How to get it</translate> !! <translate><!--T:8--> Used for</translate>
 |-
-| <translate>Kikono Shard</translate> || <translate>Mine Namek Deepslate Kikono Ore (Fortune gives more). With Silk Touch you get the ore block, which you can smelt or blast into a shard.</translate> || <translate>Every other Kikono material. Repairs DMZ armor.</translate>
+| <translate><!--T:9--> Kikono Shard</translate> || <translate><!--T:10--> Mine Namek Deepslate Kikono Ore (Fortune gives more). With Silk Touch you get the ore block, which you can smelt or blast into a shard.</translate> || <translate><!--T:11--> Every other Kikono material. Repairs DMZ armor.</translate>
 |-
-| <translate>Kikono Block</translate> || <translate>9 Kikono Shards. It turns back into 9 shards.</translate> || <translate>Dr. Kikono's Station.</translate>
+| <translate><!--T:12--> Kikono Block</translate> || {{Recipe|kikono_block|kikono_shard|kind=crafting}} || <translate><!--T:14--> Dr. Kikono's Station.</translate>
 |-
-| <translate>Kikono Stick</translate> || <translate>2 Kikono Shards, one above the other, give 2 sticks.</translate> || <translate>Gete tools (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).</translate>
+| <translate><!--T:15--> Kikono Stick</translate> || {{Recipe|kikono_stick}} || <translate><!--T:17--> Gete tools (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).</translate>
 |-
-| <translate>Kikono String</translate> || <translate>Kikono Shard + Armor Crafting Kit (shapeless) give 2 strings.</translate> || <translate>Armor pieces, Kikono Cloth.</translate>
+| <translate><!--T:18--> Kikono String</translate> || {{Recipe|kikono_string}} || <translate><!--T:20--> Armor pieces, Kikono Cloth.</translate>
 |-
-| <translate>Kikono Cloth</translate> || <translate>4 Kikono String + Armor Crafting Kit (shapeless).</translate> || <translate>Armor pieces.</translate>
+| <translate><!--T:21--> Kikono Cloth</translate> || {{Recipe|kikono_cloth}} || <translate><!--T:23--> Armor pieces.</translate>
 |-
-| <translate>Armor Crafting Kit</translate> || <translate>Red Wool + Shears (shapeless).</translate> || <translate>Crafting Kikono String, Kikono Cloth and the Pattern Station. It isn't consumed.</translate>
+| <translate><!--T:24--> Armor Crafting Kit</translate> || {{Recipe|armor_crafting_kit}} || <translate><!--T:26--> Crafting Kikono String, Kikono Cloth and the Pattern Station. It isn't consumed.</translate>
 |}
 
 <translate>
-== Other sources ==
+== Other sources == <!--T:27-->
 
+<!--T:28-->
 The '''Armor Materials''' wish gives 32 Kikono Shards and 64 Iron Ingots from [[Special:MyLanguage/Shenron|Shenron]], or 64 Kikono Shards and 128 Iron Ingots from [[Special:MyLanguage/Porunga|Porunga]].
 </translate>
 

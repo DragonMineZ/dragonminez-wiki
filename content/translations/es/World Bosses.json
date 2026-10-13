@@ -1,0 +1,462 @@
+{
+ "Page_display_title": {
+  "source": "World Bosses",
+  "translation": "Jefes de mundo",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''World bosses''' are huge, persistent enemies that sleep in fixed '''lairs''' across the worlds of DragonMineZ. Anyone can walk in and wake one, everyone nearby fights it together (the boss gets tougher with every extra fighter), and when it falls every fighter is ranked by '''contribution''' and rolls for rewards. A defeated boss comes back after an hour.",
+  "translation": "Los '''jefes de mundo''' son enemigos enormes y persistentes que duermen en '''guaridas''' fijas repartidas por los mundos de DragonMineZ. Cualquiera puede entrar y despertar a uno, todos los que estén cerca lo combaten juntos (el jefe se vuelve más resistente con cada luchador extra) y, cuando cae, cada luchador se clasifica según su '''contribución''' y tira por las recompensas. Un jefe derrotado vuelve al cabo de una hora.",
+  "outdated": false
+ },
+ "2": {
+  "source": "The demon of Hell, who turns into Super Janemba mid-fight.",
+  "translation": "El demonio del Infierno, que se convierte en Súper Janemba en mitad del combate.",
+  "outdated": false
+ },
+ "3": {
+  "source": "The Saiyan under the Tree of Might, empowered by its fruit.",
+  "translation": "El saiyajin bajo el Árbol del Poder, potenciado por su fruto.",
+  "outdated": false
+ },
+ "4": {
+  "source": "The heart of the Big Gete Star and its army of metal copies.",
+  "translation": "El corazón de la Gran Estrella Gete y su ejército de copias metálicas.",
+  "outdated": false
+ },
+ "5": {
+  "source": "The hammer-wielding guardian of the Third Demon World.",
+  "translation": "El guardián armado con martillo del Tercer Mundo Demoníaco.",
+  "outdated": false
+ },
+ "6": {
+  "source": "The trident-wielding guardian of the Second Demon World.",
+  "translation": "El guardián armado con tridente del Segundo Mundo Demoníaco.",
+  "outdated": false
+ },
+ "7": {
+  "source": "The swordsman who guards the First Demon World.",
+  "translation": "El espadachín que guarda el Primer Mundo Demoníaco.",
+  "outdated": false
+ },
+ "8": {
+  "source": "The Demon King, who grows stronger the longer the fight lasts.",
+  "translation": "El Rey Demonio, que se vuelve más fuerte cuanto más dura el combate.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== The bosses ==",
+  "translation": "== Los jefes ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Boss",
+  "translation": "Jefe",
+  "outdated": false
+ },
+ "11": {
+  "source": "Boss key",
+  "translation": "Clave del jefe",
+  "outdated": false
+ },
+ "12": {
+  "source": "World",
+  "translation": "Mundo",
+  "outdated": false
+ },
+ "13": {
+  "source": "Lair",
+  "translation": "Guarida",
+  "outdated": false
+ },
+ "14": {
+  "source": "Health",
+  "translation": "Vida",
+  "outdated": false
+ },
+ "15": {
+  "source": "A ring of spikes at the very bottom of Hell, about 1,000 blocks from the centre of the Otherworld.",
+  "translation": "Un anillo de púas en el fondo del Infierno, a unos 1,000 bloques del centro del Otro Mundo.",
+  "outdated": false
+ },
+ "16": {
+  "source": "8,064,000 (Super Janemba: 8,820,000)",
+  "translation": "8,064,000 (Súper Janemba: 8,820,000)",
+  "outdated": false
+ },
+ "17": {
+  "source": "The clearing under the Tree of Might (swamps, at least 1,000 blocks from 0, 0).",
+  "translation": "El claro bajo el Árbol del Poder (pantanos, a al menos 1,000 bloques de 0, 0).",
+  "outdated": false
+ },
+ "18": {
+  "source": "The inner chamber of the Big Gete Star.",
+  "translation": "La cámara interior de la Gran Estrella Gete.",
+  "outdated": false
+ },
+ "19": {
+  "source": "A stone platform on the Third Demon World.",
+  "translation": "Una plataforma de piedra en el Tercer Mundo Demoníaco.",
+  "outdated": false
+ },
+ "20": {
+  "source": "A stone platform on the Second Demon World.",
+  "translation": "Una plataforma de piedra en el Segundo Mundo Demoníaco.",
+  "outdated": false
+ },
+ "21": {
+  "source": "A stone platform on the First Demon World.",
+  "translation": "Una plataforma de piedra en el Primer Mundo Demoníaco.",
+  "outdated": false
+ },
+ "22": {
+  "source": "His throne on Gomah's Horn Cradle, a floating island high above the First Demon World, around X −1112, Z −1144.",
+  "translation": "Su trono en la Cuna de Cuernos de Gomah, una isla flotante muy por encima del Primer Mundo Demoníaco, alrededor de X −1112, Z −1144.",
+  "outdated": false
+ },
+ "23": {
+  "source": "The health shown is for a single fighter with the default settings: every extra fighter adds more (see [[Special:MyLanguage/World Bosses#Bigger groups, tougher bosses|Bigger groups, tougher bosses]]). World bosses are built on the Hard story difficulty: each one has 4 times the health of its [[Special:MyLanguage/Sagas|saga]] fight on Hard (8 times the Normal health) and the damage of that fight on Hard (1.5 times the Normal damage).",
+  "translation": "La vida indicada es para un solo luchador con la configuración predeterminada: cada luchador extra añade más (consulta [[Special:MyLanguage/World Bosses#Bigger groups, tougher bosses|Grupos más grandes, jefes más duros]]). Los jefes de mundo se basan en la dificultad de historia Difícil: cada uno tiene 4 veces la vida de su combate de [[Special:MyLanguage/Sagas|saga]] en Difícil (8 veces la vida en Normal) y el daño de ese combate en Difícil (1.5 veces el daño en Normal).",
+  "outdated": false
+ },
+ "24": {
+  "source": "== Lairs, waking and respawning ==",
+  "translation": "== Guaridas, despertar y reaparición ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "* Each lair's position is chosen once per world. The lair is prepared and the boss spawns when a player comes within '''128 blocks''' of it. [[Special:MyLanguage/Turles|Turles]] waits until the [[Special:MyLanguage/Tree of Might|Tree of Might]] has been generated, the Tamagami lairs are searched for while players are in the [[Special:MyLanguage/Demon Realm|Demon Realm]], and [[Special:MyLanguage/Gomah|Gomah]] needs his Horn Cradle to have generated.\n* A sleeping boss '''wakes up''' when a survival or adventure player comes within '''32 blocks''' of its lair. The Metal Cooler Core only wakes for players inside its chamber, and a Tamagami or Gomah also wakes when you hit it. The boss then shows a boss bar to everyone within 64 blocks.\n* If nobody is left fighting (no participant within range of the lair or the boss), the boss '''goes back to sleep''' at full health. A sleeping boss that has been pushed away from its lair is sent back to it.\n* After a boss is defeated, it '''respawns after 1 hour''' of game time.\n* Lairs '''repair themselves''' outside a fight. When a player comes near a lair whose floor has been destroyed, the Janemba and Tamagami arenas are rebuilt, and the Tree of Might, the Big Gete Star and Gomah's Horn Cradle are restored in the chunks that are loaded. A boss that is due to respawn waits up to a minute for the repair first.",
+  "translation": "* La posición de cada guarida se elige una vez por mundo. La guarida se prepara y el jefe aparece cuando un jugador se acerca a menos de '''128 bloques''' de ella. [[Special:MyLanguage/Turles|Turles]] espera hasta que se haya generado el [[Special:MyLanguage/Tree of Might|Árbol del Poder]], las guaridas de los Tamagamis se buscan mientras hay jugadores en el [[Special:MyLanguage/Demon Realm|Reino Demoníaco]], y [[Special:MyLanguage/Gomah|Gomah]] necesita que se haya generado su Cuna de Cuernos.\n* Un jefe dormido '''despierta''' cuando un jugador en modo supervivencia o aventura se acerca a menos de '''32 bloques''' de su guarida. El Núcleo de Metal Cooler solo despierta con jugadores dentro de su cámara, y un Tamagami o Gomah también despiertan cuando los golpeas. Entonces el jefe muestra una barra de jefe a todos los que estén a 64 bloques o menos.\n* Si no queda nadie peleando (ningún participante dentro del alcance de la guarida o del jefe), el jefe '''vuelve a dormirse''' con la vida al máximo. Un jefe dormido al que se ha alejado de su guarida es devuelto a ella.\n* Después de que un jefe es derrotado, '''reaparece al cabo de 1 hora''' de tiempo de juego.\n* Las guaridas '''se reparan solas''' fuera de los combates. Cuando un jugador se acerca a una guarida cuyo suelo ha sido destruido, las arenas de Janemba y de los Tamagamis se reconstruyen, y el Árbol del Poder, la Gran Estrella Gete y la Cuna de Cuernos de Gomah se restauran en los chunks que están cargados. Un jefe que deba reaparecer espera hasta un minuto a que termine la reparación.",
+  "outdated": false
+ },
+ "26": {
+  "source": "=== Finding a lair ===",
+  "translation": "=== Cómo encontrar una guarida ===",
+  "outdated": false
+ },
+ "27": {
+  "source": "You don't need commands to reach the bosses:\n* The '''Hell Ogre''' next to [[Special:MyLanguage/King Yemma|King Yemma]] tells you where [[Special:MyLanguage/Janemba|Janemba]] sleeps (see [[Special:MyLanguage/Hell Ogre|Hell Ogre]]).\n* [[Special:MyLanguage/Namekian Trader|Namekian Traders]] sell a map to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], the lair of the [[Special:MyLanguage/Metal Cooler Core|Metal Cooler Core]].\n* The [[Special:MyLanguage/Time Patroller|Time Patroller]] in the demon villages sells maps to the three Tamagami lairs and to Gomah's Horn Cradle.",
+  "translation": "No necesitas comandos para llegar a los jefes:\n* El '''Ogro del Infierno''' que está junto al [[Special:MyLanguage/King Yemma|Rey Yemma]] te dice dónde duerme [[Special:MyLanguage/Janemba|Janemba]] (consulta [[Special:MyLanguage/Hell Ogre|Ogro del Infierno]]).\n* Los [[Special:MyLanguage/Namekian Trader|Comerciantes Namekianos]] venden un mapa a la [[Special:MyLanguage/Big Gete Star|Gran Estrella Gete]], la guarida del [[Special:MyLanguage/Metal Cooler Core|Núcleo de Metal Cooler]].\n* El [[Special:MyLanguage/Time Patroller|Patrullero del Tiempo]] de las aldeas demoníacas vende mapas a las tres guaridas de los Tamagamis y a la Cuna de Cuernos de Gomah.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Operators can use <code>/dmzworldboss locate</code> to see every lair and whether its boss is alive, respawning or waiting to spawn (see the commands below). If a lair's structure hasn't generated yet, <code>locate</code> and <code>tp</code> tell you which dimension and biomes to explore to generate it.",
+  "translation": "Los operadores pueden usar <code>/dmzworldboss locate</code> para ver todas las guaridas y si su jefe está vivo, reapareciendo o esperando a aparecer (consulta los comandos de abajo). Si la estructura de una guarida todavía no se ha generado, <code>locate</code> y <code>tp</code> te dicen qué dimensión y qué biomas explorar para generarla.",
+  "outdated": false
+ },
+ "29": {
+  "source": "== Fighting ==",
+  "translation": "== El combate ==",
+  "outdated": false
+ },
+ "30": {
+  "source": "=== Participants ===",
+  "translation": "=== Participantes ===",
+  "outdated": false
+ },
+ "31": {
+  "source": "Every player with a character within '''150 blocks''' of the boss joins the fight. Joining puts the hidden '''Revive''' technique in your technique slot '''4'''; whatever was there comes back when the fight ends or you leave the dimension.",
+  "translation": "Todo jugador con un personaje a '''150 bloques''' o menos del jefe se une al combate. Unirse coloca la técnica oculta '''Revivir''' en tu ranura de técnica '''4'''; lo que hubiera allí vuelve cuando termina el combate o cuando sales de la dimensión.",
+  "outdated": false
+ },
+ "32": {
+  "source": "While you take part in the fight the '''World Boss Theme''' plays. It stops when you leave the area, and a victory tune plays when the boss falls.",
+  "translation": "Mientras participas en el combate suena el '''Tema del Jefe de Mundo'''. Se detiene cuando sales de la zona, y suena una melodía de victoria cuando el jefe cae.",
+  "outdated": false
+ },
+ "33": {
+  "source": "=== Bigger groups, tougher bosses ===",
+  "translation": "=== Grupos más grandes, jefes más duros ===",
+  "outdated": false
+ },
+ "34": {
+  "source": "A world boss scales with the number of fighters: every participant after the first adds '''50%''' to its max health and '''25%''' to its melee and ki damage. With 2 fighters it has 1.5 times its health, with 4 fighters 2.5 times. Participants within 150 blocks of the boss count, including knocked-out ones; players in Creative or Spectator mode don't. The count is checked every 5 seconds, and when it changes the boss keeps the same percentage of its health. The bonus goes away when the boss goes back to sleep.",
+  "translation": "Un jefe de mundo escala con el número de luchadores: cada participante después del primero suma un '''50%''' a su vida máxima y un '''25%''' a su daño cuerpo a cuerpo y de ki. Con 2 luchadores tiene 1.5 veces su vida, con 4 luchadores 2.5 veces. Cuentan los participantes a 150 bloques o menos del jefe, incluidos los noqueados; los jugadores en modo creativo o espectador no cuentan. El recuento se comprueba cada 5 segundos, y cuando cambia, el jefe conserva el mismo porcentaje de vida. El bonus desaparece cuando el jefe vuelve a dormirse.",
+  "outdated": false
+ },
+ "35": {
+  "source": "=== Truce ===",
+  "translation": "=== Tregua ===",
+  "outdated": false
+ },
+ "36": {
+  "source": "The fighters of a world boss are on the same side. Once you have contribution points in the fight or have been knocked out in it, you can't hurt any other fighter in the same situation, even with party PvP on or outside any party, and your beams don't [[Special:MyLanguage/Beam Clash|clash]] with theirs. The truce lasts until '''15 seconds''' after the fight ends.",
+  "translation": "Los luchadores de un jefe de mundo están en el mismo bando. Una vez que tienes puntos de contribución en el combate o has sido noqueado en él, no puedes herir a ningún otro luchador en la misma situación, aunque el PvP del grupo esté activado o no estés en ningún grupo, y tus ondas no [[Special:MyLanguage/Beam Clash|chocan]] con las suyas. La tregua dura hasta '''15 segundos''' después de que termina el combate.",
+  "outdated": false
+ },
+ "37": {
+  "source": "=== How bosses fight ===",
+  "translation": "=== Cómo pelean los jefes ===",
+  "outdated": false
+ },
+ "38": {
+  "source": "World bosses fight on the '''Expert''' AI tier: everything the Elite tier does, with the fastest reactions and near-perfect dodging and aim (see [[Special:MyLanguage/Sagas|Sagas]] for the AI tiers). World bosses that can '''Zanzoken''' (teleport out of the way) can do it on any player hit while it's off cooldown.",
+  "translation": "Los jefes de mundo pelean en el nivel de IA '''Experto''': todo lo que hace el nivel Élite, con las reacciones más rápidas y una esquiva y una puntería casi perfectas (consulta [[Special:MyLanguage/Sagas|Sagas]] para los niveles de IA). Los jefes de mundo que pueden usar '''Zanzoken''' (teletransportarse para esquivar) pueden hacerlo ante cualquier golpe de un jugador mientras no esté en tiempo de recarga.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Their big moves are marked on the ground before they land: red circles and lanes show where a hit will fall. Each boss page lists its moves and phases.",
+  "translation": "Sus grandes movimientos se marcan en el suelo antes de caer: los círculos y carriles rojos muestran dónde caerá un golpe. La página de cada jefe enumera sus movimientos y fases.",
+  "outdated": false
+ },
+ "40": {
+  "source": "=== Knockouts instead of death ===",
+  "translation": "=== Noqueos en lugar de muerte ===",
+  "outdated": false
+ },
+ "41": {
+  "source": "During a world boss fight, a lethal hit '''knocks you down''' instead of killing you: you drop to the ground, glow, and see a desaturated screen with the number of revives you have left. You stay down until an ally revives you.",
+  "translation": "Durante un combate contra un jefe de mundo, un golpe letal '''te noquea''' en lugar de matarte: caes al suelo, brillas y ves la pantalla desaturada con el número de reanimaciones que te quedan. Te quedas en el suelo hasta que un aliado te reanime.",
+  "outdated": false
+ },
+ "42": {
+  "source": "* Each player has '''3 lives''' per fight. A life is only used when you're revived; with no lives left you can no longer be revived.\n* If '''every''' participant is knocked out at the same time, the fight is lost: the downed players die and the boss goes back to sleep.\n* If the fight ends any other way without a kill (the boss resets, an operator resets it…), downed players get back up and keep their lives.",
+  "translation": "* Cada jugador tiene '''3 vidas''' por combate. Una vida solo se gasta cuando te reaniman; sin vidas restantes ya no te pueden reanimar.\n* Si '''todos''' los participantes quedan noqueados a la vez, el combate se pierde: los jugadores caídos mueren y el jefe vuelve a dormirse.\n* Si el combate termina de cualquier otra forma sin una muerte (el jefe se reinicia, un operador lo reinicia…), los jugadores caídos se levantan y conservan sus vidas.",
+  "outdated": false
+ },
+ "43": {
+  "source": "=== Reviving allies ===",
+  "translation": "=== Reanimar a los aliados ===",
+  "outdated": false
+ },
+ "44": {
+  "source": "Press the Revive technique's key while looking at (or locked on to) a downed ally within '''6 blocks'''. Hold still for '''15 seconds''': moving more than a block, being stunned, or taking damage that adds up to '''10%''' of your max health during the cast cancels it and puts Revive on a 15-second cooldown. Several players can revive the same ally at once to get them up faster. If every cast on an ally stops, the progress already made isn't lost at once: it fades three times as fast as one reviver builds it, so a new cast soon after picks up where it left off.",
+  "translation": "Presiona la tecla de la técnica Revivir mientras miras a (o tienes fijado) un aliado caído a '''6 bloques''' o menos. Quédate quieto durante '''15 segundos''': moverte más de un bloque, quedar aturdido o recibir daño que sume el '''10%''' de tu vida máxima durante la canalización la cancela y pone Revivir en un tiempo de recarga de 15 segundos. Varios jugadores pueden reanimar al mismo aliado a la vez para levantarlo más rápido. Si todas las canalizaciones sobre un aliado se detienen, el progreso ya hecho no se pierde de golpe: se desvanece tres veces más rápido de lo que lo acumula un solo reanimador, así que una nueva canalización poco después continúa donde se quedó.",
+  "outdated": false
+ },
+ "45": {
+  "source": "A successful revive restores '''25%''' of the ally's health, ki and stamina and puts Revive on a '''90-second''' cooldown for everyone who helped.",
+  "translation": "Una reanimación exitosa restaura el '''25%''' de la vida, el ki y la stamina del aliado y pone Revivir en un tiempo de recarga de '''90 segundos''' para todos los que ayudaron.",
+  "outdated": false
+ },
+ "46": {
+  "source": "== Contribution ==",
+  "translation": "== Contribución ==",
+  "outdated": false
+ },
+ "47": {
+  "source": "Your contribution is the sum of four totals, each weighted equally by default:",
+  "translation": "Tu contribución es la suma de cuatro totales, cada uno con el mismo peso por defecto:",
+  "outdated": false
+ },
+ "48": {
+  "source": "Category",
+  "translation": "Categoría",
+  "outdated": false
+ },
+ "49": {
+  "source": "What counts",
+  "translation": "Qué cuenta",
+  "outdated": false
+ },
+ "50": {
+  "source": "'''Damage dealt'''",
+  "translation": "'''Daño infligido'''",
+  "outdated": false
+ },
+ "51": {
+  "source": "Damage to the boss and its minions (physical, strike, ki and other). Minions include Janemba's [[Special:MyLanguage/Mini Janemba|Mini Janembas]] and the [[Special:MyLanguage/Metal Cooler|Metal Coolers]] of the Metal Cooler Core.",
+  "translation": "Daño al jefe y a sus secuaces (físico, de golpe, de ki y otros). Entre los secuaces están los [[Special:MyLanguage/Mini Janemba|Mini Janembas]] de Janemba y los [[Special:MyLanguage/Metal Cooler|Metal Coolers]] del Núcleo de Metal Cooler.",
+  "outdated": false
+ },
+ "52": {
+  "source": "'''Damage mitigated'''",
+  "translation": "'''Daño mitigado'''",
+  "outdated": false
+ },
+ "53": {
+  "source": "Damage blocked by your defense, by blocking, and by your ki barriers (including barriers you put on allies).",
+  "translation": "Daño bloqueado por tu defensa, al bloquear y por tus barreras de ki (incluidas las barreras que pones a tus aliados).",
+  "outdated": false
+ },
+ "54": {
+  "source": "'''Damage received'''",
+  "translation": "'''Daño recibido'''",
+  "outdated": false
+ },
+ "55": {
+  "source": "Damage you took from the boss and its minions.",
+  "translation": "Daño que recibiste del jefe y de sus secuaces.",
+  "outdated": false
+ },
+ "56": {
+  "source": "'''Healing done'''",
+  "translation": "'''Curación realizada'''",
+  "outdated": false
+ },
+ "57": {
+  "source": "Healing on yourself and on allies. Food, Senzu Beans and the revive restore don't count. Healing someone whose defense and blocking soak a lot of damage is worth more: each point healed counts as the damage it undoes before their defense and blocking, up to 10 times its value.",
+  "translation": "Curación a ti mismo y a tus aliados. La comida, las Semillas del Ermitaño y la restauración de la reanimación no cuentan. Curar a alguien cuya defensa y bloqueo absorben mucho daño vale más: cada punto curado cuenta como el daño que deshace antes de su defensa y su bloqueo, hasta 10 veces su valor.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Your '''share''' is your points divided by everyone's points. During the fight, the '''boss contribution''' panel on your HUD shows up to 8 fighters (always including you), alternating between share and points, with bars tinted in each player's aura colour. When the boss falls the panel stays on screen for 15 seconds. You can move it with the [[Special:MyLanguage/HUD|HUD]] editor.",
+  "translation": "Tu '''porcentaje''' son tus puntos divididos entre los puntos de todos. Durante el combate, el panel de '''contribución al jefe''' de tu HUD muestra hasta 8 luchadores (siempre te incluye a ti), alternando entre porcentaje y puntos, con barras teñidas del color del aura de cada jugador. Cuando el jefe cae, el panel se queda en pantalla 15 segundos. Puedes moverlo con el editor del [[Special:MyLanguage/HUD|HUD]].",
+  "outdated": false
+ },
+ "59": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "60": {
+  "source": "When the boss is defeated, everyone in range sees a victory title with their placement and share. Every contributor with at least '''7.5%''' of all the points then rolls each reward of that boss; below that share you get nothing, and the chat tells you your contribution wasn't enough.",
+  "translation": "Cuando el jefe es derrotado, todos los que estén dentro del alcance ven un título de victoria con su puesto y su porcentaje. Después, todo contribuyente con al menos el '''7.5%''' de todos los puntos tira por cada recompensa de ese jefe; por debajo de ese porcentaje no recibes nada, y el chat te avisa de que tu contribución no fue suficiente.",
+  "outdated": false
+ },
+ "61": {
+  "source": "* A reward with a 100% chance is '''guaranteed''', and its amount (Attributes, item count) scales with your points: the top contributor gets the full amount, and everyone else at least '''50%''' of it.\n* Other rewards are rolled with their chance, boosted by your rank: '''MVP +25%''', '''2nd +15%''', '''3rd +10%'''.\n* A reward that teaches a predefined technique also unlocks it.",
+  "translation": "* Una recompensa con un 100% de probabilidad está '''garantizada''', y su cantidad (Atributos, número de objetos) escala con tus puntos: el que más contribuyó recibe la cantidad completa, y todos los demás al menos el '''50%''' de ella.\n* Las demás recompensas se tiran con su probabilidad, aumentada según tu puesto: '''MVP +25%''', '''2.º +15%''', '''3.º +10%'''.\n* Una recompensa que enseña una técnica predefinida también la desbloquea.",
+  "outdated": false
+ },
+ "62": {
+  "source": "Every boss pays '''Attributes''', split like quest rewards: half arrive as '''Attribute Points''' and half as the Training Points those points would cost you right now, so the reward keeps its value however expensive your stats get (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]). Your story difficulty doesn't change world boss rewards.",
+  "translation": "Todos los jefes dan '''Atributos''', repartidos igual que las recompensas de misión: la mitad llega como '''Puntos de Atributo''' y la otra mitad como los Puntos de Entrenamiento que esos puntos te costarían ahora mismo, así que la recompensa conserva su valor por caras que se vuelvan tus estadísticas (consulta [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Estadísticas y atributos]]). Tu dificultad de historia no cambia las recompensas de los jefes de mundo.",
+  "outdated": false
+ },
+ "63": {
+  "source": "Boss",
+  "translation": "Jefe",
+  "outdated": false
+ },
+ "64": {
+  "source": "Default rewards",
+  "translation": "Recompensas predeterminadas",
+  "outdated": false
+ },
+ "65": {
+  "source": "×500 Attributes, Dimension Sword (50%), Dimensional Warp technique (20%)",
+  "translation": "×500 Atributos, Espada Dimensional (50%), técnica Salto dimensional (20%)",
+  "outdated": false
+ },
+ "66": {
+  "source": "×50 Attributes, Fruit of the Tree of Might (50%), Kill Driver technique (25%), Meteor Burst technique (15%)",
+  "translation": "×50 Atributos, Fruto del Árbol del Poder (50%), técnica Kill Driver (25%), técnica Estallido Meteoro (15%)",
+  "outdated": false
+ },
+ "67": {
+  "source": "×105 Attributes, 4 Gete Ingots, Supernova (Cooler) technique (20%), each of the six Gete capsules (12% each)",
+  "translation": "×105 Atributos, 4 Lingotes Gete, técnica Supernova (Cooler) (20%), cada una de las seis cápsulas Gete (12% cada una)",
+  "outdated": false
+ },
+ "68": {
+  "source": "×90 Attributes, Tamagami Hammer (30%)",
+  "translation": "×90 Atributos, Martillo de Tamagami (30%)",
+  "outdated": false
+ },
+ "69": {
+  "source": "×300 Attributes, Tamagami Trident (30%)",
+  "translation": "×300 Atributos, Tridente de Tamagami (30%)",
+  "outdated": false
+ },
+ "70": {
+  "source": "×360 Attributes, Tamagami Sword (30%)",
+  "translation": "×360 Atributos, Espada de Tamagami (30%)",
+  "outdated": false
+ },
+ "71": {
+  "source": "×435 Attributes, Demon Eye (2%)",
+  "translation": "×435 Atributos, Ojo Demoníaco (2%)",
+  "outdated": false
+ },
+ "72": {
+  "source": "Each Tamagami also drops its own '''Demon Realm Dragon Ball''' on its platform when defeated: Tamagami Number 3 the 3-star ball, Number 2 the 2-star and Number 1 the 1-star. The three balls summon [[Special:MyLanguage/Porunga|Porunga]] in the Demon Realm.",
+  "translation": "Cada Tamagami también suelta su propia '''Esfera del Dragón del Reino Demoníaco''' en su plataforma cuando es derrotado: Tamagami Número 3 la esfera de 3 estrellas, el Número 2 la de 2 estrellas y el Número 1 la de 1 estrella. Las tres esferas invocan a [[Special:MyLanguage/Porunga|Porunga]] en el Reino Demoníaco.",
+  "outdated": false
+ },
+ "73": {
+  "source": "=== Results screen ===",
+  "translation": "=== Pantalla de resultados ===",
+  "outdated": false
+ },
+ "74": {
+  "source": "Each contributor gets a chat summary of what they received with a '''[More info]''' link. It opens the '''results screen''', also available with <code>/dmzworldboss results</code> for 30 minutes after the fight. It shows rank badges, a four-colour contribution bar per player (red for damage, blue for mitigated, orange for received, green for healed; hover for the breakdown), and each player's chances and received rewards. Click a player to see theirs.",
+  "translation": "Cada contribuyente recibe en el chat un resumen de lo que obtuvo con un enlace '''[Más información]'''. Este abre la '''pantalla de resultados''', también disponible con <code>/dmzworldboss results</code> durante 30 minutos después del combate. Muestra insignias de puesto, una barra de contribución de cuatro colores por jugador (rojo para el daño, azul para el mitigado, naranja para el recibido, verde para la curación; pasa el cursor para ver el desglose), y las probabilidades y recompensas recibidas de cada jugador. Haz clic en un jugador para ver las suyas.",
+  "outdated": false
+ },
+ "75": {
+  "source": "== Commands ==",
+  "translation": "== Comandos ==",
+  "outdated": false
+ },
+ "76": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "77": {
+  "source": "Permission",
+  "translation": "Permiso",
+  "outdated": false
+ },
+ "78": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "79": {
+  "source": "Everyone",
+  "translation": "Todos",
+  "outdated": false
+ },
+ "80": {
+  "source": "Opens the results screen of your last world boss fight (kept for 30 minutes).",
+  "translation": "Abre la pantalla de resultados de tu último combate contra un jefe de mundo (se guarda durante 30 minutos).",
+  "outdated": false
+ },
+ "81": {
+  "source": "Level 2",
+  "translation": "Nivel 2",
+  "outdated": false
+ },
+ "82": {
+  "source": "Without a boss: lists every lair with clickable coordinates, distance and status (alive, respawning in…, waiting to spawn). With a boss key: just that one.",
+  "translation": "Sin jefe: lista todas las guaridas con coordenadas en las que se puede hacer clic, distancia y estado (vivo, reaparece en…, esperando a aparecer). Con una clave de jefe: solo esa.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Level 2",
+  "translation": "Nivel 2",
+  "outdated": false
+ },
+ "84": {
+  "source": "Teleports you to a lair.",
+  "translation": "Te teletransporta a una guarida.",
+  "outdated": false
+ },
+ "85": {
+  "source": "Level 2",
+  "translation": "Nivel 2",
+  "outdated": false
+ },
+ "86": {
+  "source": "Ends the fight, removes the boss and clears its lair state and respawn timer, so the lair is set up again and the boss respawns. The Tree of Might, the Big Gete Star and Gomah's Horn Cradle are also restored (over a few seconds) in the chunks that are loaded: stand next to a big lair and run it again to restore the rest. The Janemba and Tamagami arenas are rebuilt when a player gets close. A boss that isn't loaded is removed as soon as its chunk loads.",
+  "translation": "Termina el combate, elimina al jefe y borra el estado de su guarida y el temporizador de reaparición, así que la guarida se vuelve a preparar y el jefe reaparece. El Árbol del Poder, la Gran Estrella Gete y la Cuna de Cuernos de Gomah también se restauran (a lo largo de unos segundos) en los chunks que están cargados: colócate junto a una guarida grande y vuelve a ejecutarlo para restaurar el resto. Las arenas de Janemba y de los Tamagamis se reconstruyen cuando un jugador se acerca. Un jefe que no está cargado se elimina en cuanto se carga su chunk.",
+  "outdated": false
+ },
+ "87": {
+  "source": "Level 2",
+  "translation": "Nivel 2",
+  "outdated": false
+ },
+ "88": {
+  "source": "Clears the respawn timer so the boss can spawn (or wake) right away.",
+  "translation": "Borra el temporizador de reaparición para que el jefe pueda aparecer (o despertar) de inmediato.",
+  "outdated": false
+ },
+ "89": {
+  "source": "Without a boss, <code>tp</code>, <code>reset</code> and <code>ready</code> use the '''nearest lair in the dimension you're in''' (<code>janemba</code> if this dimension has none). The boss keys are <code>janemba</code>, <code>turles</code>, <code>metal_cooler_core</code>, <code>tamagami_3</code>, <code>tamagami_2</code>, <code>tamagami_1</code> and <code>gomah</code>.",
+  "translation": "Sin jefe, <code>tp</code>, <code>reset</code> y <code>ready</code> usan la '''guarida más cercana en la dimensión en la que estás''' (<code>janemba</code> si esta dimensión no tiene ninguna). Las claves de jefe son <code>janemba</code>, <code>turles</code>, <code>metal_cooler_core</code>, <code>tamagami_3</code>, <code>tamagami_2</code>, <code>tamagami_1</code> y <code>gomah</code>.",
+  "outdated": false
+ },
+ "90": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "91": {
+  "source": "Server owners can tune the fights in the <code>worldBoss</code> section of <code>general-server.json</code>: the contribution range and category weights, the number of lives, the revive slot, cast time, range, cooldowns and restore amount, the damage that interrupts a revive and how fast unfinished revive progress fades, how long the truce lasts after a fight, how much health and damage each extra fighter adds, the rank chance bonuses, the guaranteed reward minimum and minimum share, and each boss's reward list. A boss missing from the reward list uses its default rewards, and an empty list disables its drops. The Hard difficulty health and damage multipliers (<code>hardModeHPMultiplier</code>, <code>hardModeDamageMultiplier</code>) also scale every world boss.",
+  "translation": "Los dueños de servidores pueden ajustar los combates en la sección <code>worldBoss</code> de <code>general-server.json</code>: el alcance de la contribución y los pesos de cada categoría, el número de vidas, la ranura de Revivir, el tiempo de canalización, el alcance, los tiempos de recarga y la cantidad restaurada, el daño que interrumpe una reanimación y lo rápido que se desvanece el progreso de reanimación sin terminar, cuánto dura la tregua después de un combate, cuánta vida y daño añade cada luchador extra, los bonus de probabilidad por puesto, el mínimo de las recompensas garantizadas y el porcentaje mínimo, y la lista de recompensas de cada jefe. Un jefe que no está en la lista de recompensas usa sus recompensas predeterminadas, y una lista vacía desactiva su botín. Los multiplicadores de vida y daño de la dificultad Difícil (<code>hardModeHPMultiplier</code>, <code>hardModeDamageMultiplier</code>) también escalan a todos los jefes de mundo.",
+  "outdated": false
+ }
+}

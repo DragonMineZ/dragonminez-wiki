@@ -1,0 +1,102 @@
+{
+ "Page_display_title": {
+  "source": "Afterimage",
+  "translation": "Imagen residual",
+  "outdated": false
+ },
+ "1": {
+  "source": "Leave an image behind and reappear behind your foe.",
+  "translation": "Deja una imagen atrás y reaparece a espaldas de tu rival.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Evasion technique",
+  "translation": "Técnica de evasión",
+  "outdated": false
+ },
+ "3": {
+  "source": "All",
+  "translation": "Todas",
+  "outdated": false
+ },
+ "4": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "5": {
+  "source": "10 seconds",
+  "translation": "10 segundos",
+  "outdated": false
+ },
+ "6": {
+  "source": "Instant",
+  "translation": "Instantáneo",
+  "outdated": false
+ },
+ "7": {
+  "source": "24 blocks (locked-on target)",
+  "translation": "24 bloques (objetivo fijado)",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Afterimage''' is an evasion technique that leaves an image of you behind while you move at high speed. With a locked-on target it lets you blink around the enemy and reappear behind it; without one, it is a quick sidestep forward. Mobs that were targeting you lose track of you.",
+  "translation": "La '''Imagen residual''' es una técnica de evasión que deja una imagen tuya atrás mientras te mueves a gran velocidad. Con un objetivo fijado te permite parpadear alrededor del enemigo y reaparecer a su espalda; sin objetivo, es un paso lateral rápido hacia adelante. Los mobs que te tenían como objetivo te pierden el rastro.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Learning it ==",
+  "translation": "== Cómo aprenderla ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Afterimage costs '''2,500 TP'''. It is taught by [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] (both Good alignment) and by [[Special:MyLanguage/Cell|Cell]] (Evil alignment). Like every evasion technique, it needs [[Special:MyLanguage/Ki Control|Ki Control]], an empty main hand and at least 5% Power Release, and it must be equipped in a technique slot.",
+  "translation": "La Imagen residual cuesta '''2,500 TP'''. La enseñan el [[Special:MyLanguage/Master Roshi|Maestro Roshi]] y [[Special:MyLanguage/Krillin|Krilin]] (ambos con alineamiento Bueno) y [[Special:MyLanguage/Cell|Cell]] (alineamiento Maligno). Como toda técnica de evasión, necesita [[Special:MyLanguage/Ki Control|Control de Ki]], la mano principal vacía y al menos un 5% de Liberación de Poder, y debes equiparla en una ranura de técnica.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== How it works ==",
+  "translation": "== Cómo funciona ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Press the technique's slot key. What happens depends on whether you are locked on:",
+  "translation": "Pulsa la tecla de la ranura de la técnica. Lo que ocurre depende de si tienes un objetivo fijado:",
+  "outdated": false
+ },
+ "13": {
+  "source": "* '''With a locked-on target within 24 blocks''', you blink around it a few times and end up behind it.\n* '''Without a target''', you leave an afterimage behind and step a few blocks forward.",
+  "translation": "* '''Con un objetivo fijado a 24 bloques o menos''', parpadeas a su alrededor varias veces y terminas a su espalda.\n* '''Sin objetivo''', dejas una imagen residual atrás y avanzas unos bloques.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Either way, mobs targeting you within '''16 blocks''' lose track of you. Lock on with {{Key|Z}}; your lock-on range depends on [[Special:MyLanguage/Ki Sense|Ki Sense]].",
+  "translation": "En ambos casos, los mobs que te tienen como objetivo a '''16 bloques''' o menos te pierden el rastro. Fija un objetivo con {{Key|Z}}; tu alcance para fijar objetivos depende de [[Special:MyLanguage/Ki Sense|Sentir Ki]].",
+  "outdated": false
+ },
+ "15": {
+  "source": "After using it, all your evasion techniques share a short lockout (the technique's duration + 3 seconds).",
+  "translation": "Después de usarla, todas tus técnicas de evasión comparten un breve bloqueo (la duración de la técnica + 3 segundos).",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Upgrades ==",
+  "translation": "== Mejoras ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "Afterimage gains experience every time you use it. Spend it in the Skills menu on '''duration''' (+2.5% per level, up to +50%) and '''cooldown'''.",
+  "translation": "La Imagen residual gana experiencia cada vez que la usas. Gástala en el menú de Habilidades en '''duración''' (+2.5% por nivel, hasta +50%) y '''tiempo de recarga'''.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* For a long-range version that teleports you behind a target up to 64 blocks away, see [[Special:MyLanguage/Dimensional Warp|Dimensional Warp]].\n* [[Special:MyLanguage/Instant Transmission|Instant Transmission]] can also put you behind a target, using the dash cooldown instead of the evasion lockout.",
+  "translation": "* Para una versión de largo alcance que te teletransporta detrás de un objetivo a hasta 64 bloques, consulta [[Special:MyLanguage/Dimensional Warp|Salto dimensional]].\n* La [[Special:MyLanguage/Instant Transmission|Teletransportación Instantánea]] también puede dejarte detrás de un objetivo, usando el tiempo de recarga del dash en lugar del bloqueo de evasión.",
+  "outdated": false
+ }
+}

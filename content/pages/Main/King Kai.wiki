@@ -1,32 +1,36 @@
 {{Infobox Master
-|Location={{L|Otherworld}}, <translate>King Kai's Planet</translate>
-|Alignment=<translate>Good (61 or higher)</translate>
-|Teaches={{L|Ki Control}}, {{L|Potential Unlock}}, {{L|Ki Manipulation}}, {{L|Kaioken}}, <translate>Spirit Bomb, Kaioken Attack</translate>
-|Services=<translate>Weighted Gear (Workout Weights)</translate>
+|Location={{L|Otherworld}}, <translate><!--T:1--> King Kai's Planet</translate>
+|Alignment=<translate><!--T:2--> Good (61 or higher)</translate>
+|Teaches={{L|Ki Control}}, {{L|Potential Unlock}}, {{L|Ki Manipulation}}, {{L|Kaioken}}, <translate><!--T:3--> Spirit Bomb, Kaioken Attack</translate>
+|Services=<translate><!--T:4--> Weighted Gear (Workout Weights)</translate>
 }}
 <translate>
+<!--T:5-->
 '''King Kai''' (Master King Kai) is a [[Special:MyLanguage/Masters|master]] who lives on King Kai's Planet in the [[Special:MyLanguage/Otherworld|Otherworld]]. He teaches the [[Special:MyLanguage/Kaioken|Kaioken]] stack form, the Spirit Bomb and Ki Manipulation, and gives out Workout Weights. He only trains Good-aligned players.
 </translate>
 
 <translate>
-== Location ==
+== Location == <!--T:6-->
 </translate>
 <translate>
+<!--T:7-->
 King Kai's Planet is at the end of '''Snake Way''', which starts in the Otherworld's cloud realm where spirits arrive. '''Toribot''' stands right next to him. You reach the Otherworld by dying (when the Otherworld is enabled) or by [[Special:MyLanguage/Space Pod|Space Pod]] after Bulma's ''Otherworld Drive'' sidequest. King Kai's Planet isn't a structure you can find with <code>/dmzlocate</code>.
 </translate>
 
 <translate>
-== Alignment ==
+== Alignment == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 King Kai needs an [[Special:MyLanguage/Alignment|alignment]] of '''61 or higher''' (Good). Below that he still talks to you, but his '''Skills''', '''Train''' and new quests stay locked. His Weighted Gear service stays open.
 </translate>
 
 <translate>
-== Skills and techniques ==
+== Skills and techniques == <!--T:10-->
 </translate>
 {{See also|Skills|Techniques}}
 <translate>
+<!--T:11-->
 * '''Skills:''' [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]]
 * '''Stack form:''' [[Special:MyLanguage/Kaioken|Kaioken]] (see [[Special:MyLanguage/Transformations|Transformations]])
 * '''Ki attack:''' Spirit Bomb
@@ -34,18 +38,20 @@ King Kai needs an [[Special:MyLanguage/Alignment|alignment]] of '''61 or higher'
 </translate>
 
 <translate>
+<!--T:12-->
 Everything is paid for with Training Points, and your race has to allow each skill. His '''Train''' option spawns a Shadow Clone to spar with.
 </translate>
 
 <translate>
-== Services ==
+== Services == <!--T:13-->
 </translate>
 <translate>
+<!--T:14-->
 '''Weighted Gear''': type the weight you want and King Kai gives you '''Workout Weights''' of that weight (up to 100,000 kg by default). You can ask once per conversation; talk to him again for more. See [[Special:MyLanguage/Weights|Weights]].
 </translate>
 
 <translate>
-== Side quests ==
+== Side quests == <!--T:15-->
 </translate>
 {{Main|Sidequests}}
 {{#invoke:Sidequests|giver|kingkai}}

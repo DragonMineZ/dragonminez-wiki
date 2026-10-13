@@ -1,0 +1,677 @@
+{
+ "Page_display_title": {
+  "source": "Structures",
+  "translation": "Estruturas",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ generates landmark structures across its worlds. Most of them are the homes of [[Special:MyLanguage/Masters|masters]], the trainer NPCs who teach you [[Special:MyLanguage/Skills|skills]] and [[Special:MyLanguage/Techniques|techniques]]. Others are [[Special:MyLanguage/World Bosses|world boss]] lairs, [[Special:MyLanguage/Raids|raid]] sites, [[Special:MyLanguage/Tournaments|tournament]] arenas and villages. This page explains how structures generate, how they're protected and how to find them, and lists every one of them.",
+  "translation": "O DragonMineZ gera estruturas marcantes em seus mundos. A maioria é a casa dos [[Special:MyLanguage/Masters|mestres]], os NPCs treinadores que ensinam [[Special:MyLanguage/Skills|habilidades]] e [[Special:MyLanguage/Techniques|técnicas]]. Outras são covis de [[Special:MyLanguage/World Bosses|chefes de mundo]], locais de [[Special:MyLanguage/Raids|incursão]], arenas de [[Special:MyLanguage/Tournaments|torneio]] e vilas. Esta página explica como as estruturas são geradas, como são protegidas e como encontrá-las, e lista todas elas.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Home of Goku, Gohan and Chi-Chi, in the plains.",
+  "translation": "Lar de Goku, Gohan e Chi-Chi, nas planícies.",
+  "outdated": false
+ },
+ "3": {
+  "source": "Master Roshi and Krillin's island home on the coast.",
+  "translation": "A casa na ilha do Mestre Kame e de Kuririn, no litoral.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Korin, Dende, Mr. Popo and the portal to the Time Chamber.",
+  "translation": "Karin, Dende, Sr Popo e o portal para a Sala do Tempo.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Piccolo's home in the plains.",
+  "translation": "A casa de Piccolo nas planícies.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Majin Buu's home in the plains.",
+  "translation": "A casa de Majin Boo nas planícies.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Yamcha's hideout in the desert.",
+  "translation": "O esconderijo de Yamcha no deserto.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Where Humans can become Androids.",
+  "translation": "Onde Humanos podem se tornar Androids.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Baba's palace rising from the sea, and her tournament.",
+  "translation": "O palácio da Vovó Uranai, que se ergue no mar, e seu torneio.",
+  "outdated": false
+ },
+ "10": {
+  "source": "Cell's ring, home of the Cell Games.",
+  "translation": "O ringue de Cell, sede dos Jogos de Cell.",
+  "outdated": false
+ },
+ "11": {
+  "source": "Babidi's ship, where the Majin mark is given.",
+  "translation": "A nave de Babidi, onde a marca Majin é concedida.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Trunks' time machine.",
+  "translation": "A máquina do tempo de Trunks.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Vegeta and Bulma, at a crashed Saiyan pod.",
+  "translation": "Vegeta e Bulma, ao lado de uma nave saiyajin caída.",
+  "outdated": false
+ },
+ "14": {
+  "source": "A Red Ribbon outpost that keeps spawning soldiers and robots.",
+  "translation": "Um posto avançado da Red Ribbon que não para de gerar soldados e robôs.",
+  "outdated": false
+ },
+ "15": {
+  "source": "A giant tree in the swamps and the lair of Turles.",
+  "translation": "Uma árvore gigante nos pântanos e o covil de Turles.",
+  "outdated": false
+ },
+ "16": {
+  "source": "A crashed Saiyan pod that starts the Saiyan Assault raid.",
+  "translation": "Uma nave saiyajin caída que inicia a incursão Ataque Saiyajin.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Frieza's ship on the Ajissa Plains of Namek.",
+  "translation": "A nave de Freeza nas Planícies Ajissa de Namekusei.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Grand Elder Guru's home in the Sacred Land of Namek.",
+  "translation": "A casa do Grande Ancião Guru na Terra Sagrada de Namekusei.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Namekian traders and warriors on Namek.",
+  "translation": "Comerciantes e guerreiros namekuseijins em Namekusei.",
+  "outdated": false
+ },
+ "20": {
+  "source": "A razed village that starts Frieza's Invasion.",
+  "translation": "Uma vila arrasada que inicia a Invasão de Freeza.",
+  "outdated": false
+ },
+ "21": {
+  "source": "A half-buried mechanical sphere and the lair of the Metal Cooler Core.",
+  "translation": "Uma esfera mecânica meio enterrada e o covil do Núcleo do Metal Cooler.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Old Kai's home on the Sacred Kai Planet.",
+  "translation": "A casa do Velho Kaioshin no Mundo Sagrado dos Kai.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Adobe villages of the Third Demon World.",
+  "translation": "Vilas de adobe do Terceiro Mundo Demoníaco.",
+  "outdated": false
+ },
+ "24": {
+  "source": "A palisade camp that starts the Gomah's Army raid.",
+  "translation": "Um acampamento cercado por paliçadas que inicia a incursão Exército de Gomah.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Gomah's floating throne island.",
+  "translation": "A ilha flutuante do trono de Gomah.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Every structure ==",
+  "translation": "== Todas as estruturas ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "Structure",
+  "translation": "Estrutura",
+  "outdated": false
+ },
+ "28": {
+  "source": "Id",
+  "translation": "Id",
+  "outdated": false
+ },
+ "29": {
+  "source": "World",
+  "translation": "Mundo",
+  "outdated": false
+ },
+ "30": {
+  "source": "Where",
+  "translation": "Onde",
+  "outdated": false
+ },
+ "31": {
+  "source": "What you find",
+  "translation": "O que você encontra",
+  "outdated": false
+ },
+ "32": {
+  "source": "Plains",
+  "translation": "Planícies",
+  "outdated": false
+ },
+ "33": {
+  "source": "Goku, Gohan and Chi-Chi",
+  "translation": "Goku, Gohan e Chi-Chi",
+  "outdated": false
+ },
+ "34": {
+  "source": "Oceans (coastal)",
+  "translation": "Oceanos (no litoral)",
+  "outdated": false
+ },
+ "35": {
+  "source": "Master Roshi and Krillin",
+  "translation": "Mestre Kame e Kuririn",
+  "outdated": false
+ },
+ "36": {
+  "source": "Near the world spawn (any biome)",
+  "translation": "Perto do ponto de renascimento do mundo (qualquer bioma)",
+  "outdated": false
+ },
+ "37": {
+  "source": "Korin, Dende, Mr. Popo and the Time Chamber portal",
+  "translation": "Karin, Dende, Sr Popo e o portal da Sala do Tempo",
+  "outdated": false
+ },
+ "38": {
+  "source": "Plains",
+  "translation": "Planícies",
+  "outdated": false
+ },
+ "39": {
+  "source": "Plains",
+  "translation": "Planícies",
+  "outdated": false
+ },
+ "40": {
+  "source": "Deserts",
+  "translation": "Desertos",
+  "outdated": false
+ },
+ "41": {
+  "source": "Rocky biome or mountains",
+  "translation": "Bioma Rochoso ou montanhas",
+  "outdated": false
+ },
+ "42": {
+  "source": "Oceans",
+  "translation": "Oceanos",
+  "outdated": false
+ },
+ "43": {
+  "source": "Fortuneteller Baba; tournament arena",
+  "translation": "Vovó Uranai; arena de torneio",
+  "outdated": false
+ },
+ "44": {
+  "source": "Plains",
+  "translation": "Planícies",
+  "outdated": false
+ },
+ "45": {
+  "source": "Cell; tournament arena",
+  "translation": "Cell; arena de torneio",
+  "outdated": false
+ },
+ "46": {
+  "source": "Mountains",
+  "translation": "Montanhas",
+  "outdated": false
+ },
+ "47": {
+  "source": "Land biomes",
+  "translation": "Biomas terrestres",
+  "outdated": false
+ },
+ "48": {
+  "source": "Rocky biomes",
+  "translation": "Biomas rochosos",
+  "outdated": false
+ },
+ "49": {
+  "source": "Vegeta and Bulma",
+  "translation": "Vegeta e Bulma",
+  "outdated": false
+ },
+ "50": {
+  "source": "Swamps, at least 1,000 blocks from 0, 0 (one per world)",
+  "translation": "Pântanos, a pelo menos 1,000 blocos de 0, 0 (uma por mundo)",
+  "outdated": false
+ },
+ "51": {
+  "source": "Lair of Turles",
+  "translation": "Covil de Turles",
+  "outdated": false
+ },
+ "52": {
+  "source": "Anywhere on land, spread out and kept away from villages",
+  "translation": "Em qualquer lugar em terra firme, espalhadas e longe das vilas",
+  "outdated": false
+ },
+ "53": {
+  "source": "Saiyan Assault raid site",
+  "translation": "Local de incursão do Ataque Saiyajin",
+  "outdated": false
+ },
+ "54": {
+  "source": "Most land biomes",
+  "translation": "A maioria dos biomas terrestres",
+  "outdated": false
+ },
+ "55": {
+  "source": "A Red Ribbon outpost where [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]] soldiers and robots spawn",
+  "translation": "Um posto avançado onde surgem soldados e robôs da [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]]",
+  "outdated": false
+ },
+ "56": {
+  "source": "Ajissa Plains",
+  "translation": "Planícies Ajissa",
+  "outdated": false
+ },
+ "57": {
+  "source": "Sacred Land",
+  "translation": "Terra Sagrada",
+  "outdated": false
+ },
+ "58": {
+  "source": "Ajissa Plains and Sacred Land",
+  "translation": "Planícies Ajissa e Terra Sagrada",
+  "outdated": false
+ },
+ "59": {
+  "source": "Namekian Traders and Warriors",
+  "translation": "Comerciantes e Guerreiros Namekuseijins",
+  "outdated": false
+ },
+ "60": {
+  "source": "Spread out, away from Ajissa villages",
+  "translation": "Espalhadas, longe das vilas de Ajissa",
+  "outdated": false
+ },
+ "61": {
+  "source": "Frieza's Invasion raid site",
+  "translation": "Local de incursão da Invasão de Freeza",
+  "outdated": false
+ },
+ "62": {
+  "source": "Ajissa Plains or Sacred Land, at least 1,000 blocks from 0, 0 (one per world)",
+  "translation": "Planícies Ajissa ou Terra Sagrada, a pelo menos 1,000 blocos de 0, 0 (uma por mundo)",
+  "outdated": false
+ },
+ "63": {
+  "source": "Lair of the Metal Cooler Core",
+  "translation": "Covil do Núcleo do Metal Cooler",
+  "outdated": false
+ },
+ "64": {
+  "source": "Sacred Kai Plains",
+  "translation": "Planícies Sagradas dos Kai",
+  "outdated": false
+ },
+ "65": {
+  "source": "'''Time Chamber'''",
+  "translation": "'''Sala do Tempo'''",
+  "outdated": false
+ },
+ "66": {
+  "source": "Fixed, at the chamber's entry point",
+  "translation": "Fixa, no ponto de entrada da sala",
+  "outdated": false
+ },
+ "67": {
+  "source": "Mr. Popo and the portal back to Kami's Lookout",
+  "translation": "Sr Popo e o portal de volta ao Mirante de Kami",
+  "outdated": false
+ },
+ "68": {
+  "source": "'''Otherworld Tournament grounds'''",
+  "translation": "'''Arena do Torneio do Outro Mundo'''",
+  "outdated": false
+ },
+ "69": {
+  "source": "(for <code>/dmzlocate</code> only)",
+  "translation": "(só para <code>/dmzlocate</code>)",
+  "outdated": false
+ },
+ "70": {
+  "source": "Fixed: ring centre at 0, 355, −1200",
+  "translation": "Fixa: centro do ringue em 0, 355, −1200",
+  "outdated": false
+ },
+ "71": {
+  "source": "Arena of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]",
+  "translation": "Arena do [[Special:MyLanguage/Otherworld Tournament|Torneio do Outro Mundo]]",
+  "outdated": false
+ },
+ "72": {
+  "source": "Third Demon World",
+  "translation": "Terceiro Mundo Demoníaco",
+  "outdated": false
+ },
+ "73": {
+  "source": "Demon Realm Villagers and a Time Patroller",
+  "translation": "Aldeões do Reino Demoníaco e um Patrulheiro do Tempo",
+  "outdated": false
+ },
+ "74": {
+  "source": "Any of the three Demon Worlds, kept away from demon villages",
+  "translation": "Qualquer um dos três Mundos Demoníacos, longe das vilas demoníacas",
+  "outdated": false
+ },
+ "75": {
+  "source": "Gomah's Army raid site",
+  "translation": "Local de incursão do Exército de Gomah",
+  "outdated": false
+ },
+ "76": {
+  "source": "Fixed spot high above the First Demon World, around X −1112, Z −1144 (one per world)",
+  "translation": "Ponto fixo bem acima do Primeiro Mundo Demoníaco, por volta de X −1112, Z −1144 (um por mundo)",
+  "outdated": false
+ },
+ "77": {
+  "source": "Lair of Gomah",
+  "translation": "Covil de Gomah",
+  "outdated": false
+ },
+ "78": {
+  "source": "Not every master lives in a structure you can locate: [[Special:MyLanguage/King Kai|King Kai]], [[Special:MyLanguage/King Yemma|King Yemma]], the [[Special:MyLanguage/Grand Kai|Grand Kai]] and the Otherworld's [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] live in the [[Special:MyLanguage/Otherworld|Otherworld]]. See [[Special:MyLanguage/Masters|Masters]].",
+  "translation": "Nem todo mestre vive em uma estrutura que você possa localizar: o [[Special:MyLanguage/King Kai|Rei Kai]], o [[Special:MyLanguage/King Yemma|Rei Yemma]], o [[Special:MyLanguage/Grand Kai|Grande Senhor Kaioh]] e a [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] do Outro Mundo vivem no [[Special:MyLanguage/Otherworld|Outro Mundo]]. Veja [[Special:MyLanguage/Masters|Mestres]].",
+  "outdated": false
+ },
+ "79": {
+  "source": "== Alignment ==",
+  "translation": "== Índole ==",
+  "outdated": false
+ },
+ "80": {
+  "source": "Some masters only train you if your [[Special:MyLanguage/Alignment|alignment]] fits their morality (bands: Good 61–100, Neutral 41–60, Evil 0–40). Without the right alignment, their '''Skills''', '''Train''' and new quests stay locked:\n* '''Good alignment (61 or higher)''': [[Special:MyLanguage/Goku|Goku]] and [[Special:MyLanguage/Gohan|Gohan]] at Goku's House, [[Special:MyLanguage/Master Roshi|Master Roshi]] and [[Special:MyLanguage/Krillin|Krillin]] at [[Special:MyLanguage/Kame House|Kame House]], [[Special:MyLanguage/Old Kai|Old Kai]] at [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]], and [[Special:MyLanguage/King Kai|King Kai]] in the Otherworld.\n* '''Evil alignment (40 or lower)''': [[Special:MyLanguage/Cell|Cell]] at the Cell Arena and [[Special:MyLanguage/Frieza|Frieza]] at Frieza's Ship.\n* '''Every other master''' has no alignment requirement by default.",
+  "translation": "Alguns mestres só treinam você se a sua [[Special:MyLanguage/Alignment|índole]] combinar com a moral deles (faixas: Boa 61–100, Neutra 41–60, Má 0–40). Sem a índole certo, as opções '''Habilidades''' e '''Treinar''' e as missões novas deles continuam bloqueadas:\n* '''Índole Boa (61 ou mais)''': [[Special:MyLanguage/Goku|Goku]] e [[Special:MyLanguage/Gohan|Gohan]] na Casa do Goku, o [[Special:MyLanguage/Master Roshi|Mestre Kame]] e [[Special:MyLanguage/Krillin|Kuririn]] na [[Special:MyLanguage/Kame House|Casa do Kame]], o [[Special:MyLanguage/Old Kai|Velho Kaioshin]] no [[Special:MyLanguage/Old Kai's Pillar|Pilar do Velho Kaioshin]] e o [[Special:MyLanguage/King Kai|Rei Kai]] no Outro Mundo.\n* '''Índole Má (40 ou menos)''': [[Special:MyLanguage/Cell|Cell]] na Arena do Cell e [[Special:MyLanguage/Frieza|Freeza]] na Nave do Freeza.\n* '''Todos os outros mestres''' não têm requisito de índole por padrão.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Some services have their own alignment rules, such as Babidi's mark or the Grand Elder's potential unlock. Whether NPCs are hostile toward you is a separate, configurable system (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Alguns serviços têm as próprias regras de índole, como a marca de Babidi ou o desbloqueio de potencial do Grande Ancião. Se os NPCs são hostis com você é um sistema separado e configurável (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
+  "outdated": false
+ },
+ "82": {
+  "source": "== How structures generate ==",
+  "translation": "== Como as estruturas são geradas ==",
+  "outdated": false
+ },
+ "83": {
+  "source": "Each master's structure is placed '''once per world''' and only in its biomes, so structures don't spawn on top of each other. Before placing one, DragonMineZ checks the biome, water and slope over the structure's whole footprint and keeps the best spot it finds. The surface buildings are then '''fitted to the terrain''': the best rotation is chosen, the building is set on the ground around it, and the land under and around its footprint is filled or trimmed, so houses don't cut square holes into hills or stand on walls of filler blocks. [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]] and [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], which reach underground, keep their own placement.",
+  "translation": "A estrutura de cada mestre é colocada '''uma vez por mundo''' e só nos biomas dela, então as estruturas não surgem umas sobre as outras. Antes de colocar uma, o DragonMineZ verifica o bioma, a água e a inclinação em toda a área ocupada pela estrutura e fica com o melhor local que encontrar. Depois, as construções de superfície são '''ajustadas ao terreno''': a melhor rotação é escolhida, a construção é assentada no chão ao redor e o terreno embaixo e em volta da base é preenchido ou aparado, para que as casas não abram buracos quadrados nas colinas nem fiquem sobre muros de blocos de preenchimento. O [[Special:MyLanguage/Dr. Gero's Lab|Laboratório do Dr. Gero]] e a [[Special:MyLanguage/Babidi's Spaceship|Nave de Babidi]], que chegam ao subsolo, mantêm o próprio posicionamento.",
+  "outdated": false
+ },
+ "84": {
+  "source": "Some structures have NPCs living in them besides their master, such as '''Chi-Chi''' in [[Special:MyLanguage/Goku's House|Goku's House]]. Each one spawns once per structure, also in structures generated before it was added, and doesn't come back if it dies. Server owners can add their own with a datapack (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Algumas estruturas têm NPCs morando nelas além do mestre, como '''Chi-Chi''' na [[Special:MyLanguage/Goku's House|Casa do Goku]]. Cada um surge uma vez por estrutura, inclusive em estruturas geradas antes de ele ser adicionado, e não volta se morrer. Donos de servidores podem adicionar os próprios com um datapack (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
+  "outdated": false
+ },
+ "85": {
+  "source": "Server owners can turn DragonMineZ structures off entirely.",
+  "translation": "Donos de servidores podem desativar completamente as estruturas do DragonMineZ.",
+  "outdated": false
+ },
+ "86": {
+  "source": "=== Existing worlds ===",
+  "translation": "=== Mundos existentes ===",
+  "outdated": false
+ },
+ "87": {
+  "source": "Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters only appear in newly generated chunks.",
+  "translation": "Estruturas únicas adicionadas em uma atualização (por exemplo, o Palácio da Vovó Uranai, a Árvore do Poder ou a Estrela Big Gete) aparecem mesmo assim em mundos criados antes dela. Se o local que o DragonMineZ planejou para elas já estiver gerado, a estrutura é colocada lá quando um jogador carrega esse chunk. A Árvore do Poder e a Estrela Big Gete são grandes demais para serem colocadas de uma vez, então são preenchidas aos poucos (a árvore cresce diante dos seus olhos). Chunks onde jogadores passaram mais de uma hora são ignorados, então as bases nunca são sobrescritas. As Crateras saiyajins só aparecem em chunks recém-gerados.",
+  "outdated": false
+ },
+ "88": {
+  "source": "== Protection ==",
+  "translation": "== Proteção ==",
+  "outdated": false
+ },
+ "89": {
+  "source": "* '''Master structures''' (every structure that is a master's home, plus the Time Chamber) can't be damaged by ki attacks unless the gamerule <code>allowKiGriefingMasterStructures</code> is <code>true</code> (default <code>false</code>).\n* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).\n* Some lairs have their own unbreakable parts: the wood and roots of the [[Special:MyLanguage/Tree of Might|Tree of Might]] and the hull of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].",
+  "translation": "* As '''estruturas de mestres''' (toda estrutura que é casa de um mestre, mais a Sala do Tempo) não podem ser danificadas por ataques de ki, a menos que a gamerule <code>allowKiGriefingMasterStructures</code> seja <code>true</code> (padrão <code>false</code>).\n* Nas '''arenas de torneio''' (o [[Special:MyLanguage/Fortuneteller Baba's Palace|Palácio da Vovó Uranai]], a [[Special:MyLanguage/Cell Arena|Arena do Cell]] e a arena do Torneio do Outro Mundo), jogadores no modo sobrevivência ou aventura, explosões e mobs não podem construir nem quebrar nada, a menos que a gamerule <code>allowBuildingInArenaStructures</code> seja <code>true</code> (padrão <code>false</code>).\n* Alguns covis têm partes indestrutíveis próprias: a madeira e as raízes da [[Special:MyLanguage/Tree of Might|Árvore do Poder]] e o casco da [[Special:MyLanguage/Big Gete Star|Estrela Big Gete]].",
+  "outdated": false
+ },
+ "90": {
+  "source": "== Finding structures ==",
+  "translation": "== Como encontrar estruturas ==",
+  "outdated": false
+ },
+ "91": {
+  "source": "=== The locate command ===",
+  "translation": "=== O comando de localização ===",
+  "outdated": false
+ },
+ "92": {
+  "source": "{{Command|/dmzlocate &lt;structure&gt;}} finds the nearest DragonMineZ structure with that id in the dimension you're in, and prints the coordinates of the structure itself (its centre, at floor level) and its distance. Click the coordinates to get a ready-made teleport command. It accepts a bare id (<code>goku_house</code>) or a full one (<code>dragonminez:goku_house</code>), and tab-completes every DragonMineZ structure plus <code>otherworld_tournament</code> (which only works inside the Otherworld). It needs the <code>dragonminez.dmzlocate</code> permission.",
+  "translation": "{{Command|/dmzlocate &lt;structure&gt;}} encontra a estrutura do DragonMineZ mais próxima com esse id na dimensão em que você está e mostra as coordenadas da própria estrutura (o centro dela, no nível do chão) e a distância. Clique nas coordenadas para obter um comando de teleporte pronto. Ele aceita um id simples (<code>goku_house</code>) ou completo (<code>dragonminez:goku_house</code>) e autocompleta com Tab todas as estruturas do DragonMineZ, mais <code>otherworld_tournament</code> (que só funciona dentro do Outro Mundo). Ele exige a permissão <code>dragonminez.dmzlocate</code>.",
+  "outdated": false
+ },
+ "93": {
+  "source": "If nothing is found nearby, it tells you which dimension and biomes the structure generates in, so you know where to explore. For world boss lairs, operators can use {{Command|/dmzworldboss locate}} (see [[Special:MyLanguage/World Bosses|World Bosses]]).",
+  "translation": "Se nada for encontrado por perto, ele informa em qual dimensão e biomas a estrutura é gerada, para você saber onde explorar. Para covis de chefes de mundo, operadores podem usar {{Command|/dmzworldboss locate}} (veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]).",
+  "outdated": false
+ },
+ "94": {
+  "source": "=== Treasure maps ===",
+  "translation": "=== Mapas do tesouro ===",
+  "outdated": false
+ },
+ "95": {
+  "source": "Several NPCs sell treasure maps with a red X that point to the nearest structure of their kind. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located (re-open the trade window).",
+  "translation": "Vários NPCs vendem mapas do tesouro com um X vermelho que apontam para a estrutura mais próxima do tipo. Se essa estrutura ainda não tiver sido colocada no mundo, a troca aparece como '''esgotada''' e vira um mapa de verdade assim que a estrutura puder ser localizada (reabra a janela de troca).",
+  "outdated": false
+ },
+ "96": {
+  "source": "Map to",
+  "translation": "Mapa para",
+  "outdated": false
+ },
+ "97": {
+  "source": "Sold by",
+  "translation": "Vendido por",
+  "outdated": false
+ },
+ "98": {
+  "source": "Cost",
+  "translation": "Custo",
+  "outdated": false
+ },
+ "99": {
+  "source": "[[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]], tier 1",
+  "translation": "[[Special:MyLanguage/Capsule Corp Assistant|Assistente da Corporação Cápsula]], nível 1",
+  "outdated": false
+ },
+ "100": {
+  "source": "10 Cooked Dino Meat",
+  "translation": "10 Carnes de Dinossauro Cozidas",
+  "outdated": false
+ },
+ "101": {
+  "source": "Capsule Corp Assistant, tier 1",
+  "translation": "Assistente da Corporação Cápsula, nível 1",
+  "outdated": false
+ },
+ "102": {
+  "source": "8 Cod",
+  "translation": "8 bacalhaus crus",
+  "outdated": false
+ },
+ "103": {
+  "source": "Capsule Corp Assistant, tier 2",
+  "translation": "Assistente da Corporação Cápsula, nível 2",
+  "outdated": false
+ },
+ "104": {
+  "source": "1 Water Bucket",
+  "translation": "1 balde de água",
+  "outdated": false
+ },
+ "105": {
+  "source": "Capsule Corp Assistant, tier 2",
+  "translation": "Assistente da Corporação Cápsula, nível 2",
+  "outdated": false
+ },
+ "106": {
+  "source": "1 Bone",
+  "translation": "1 osso",
+  "outdated": false
+ },
+ "107": {
+  "source": "Capsule Corp Assistant, tier 3",
+  "translation": "Assistente da Corporação Cápsula, nível 3",
+  "outdated": false
+ },
+ "108": {
+  "source": "1 Spruce Sapling",
+  "translation": "1 muda de abeto",
+  "outdated": false
+ },
+ "109": {
+  "source": "Capsule Corp Assistant, tier 3 (always offered)",
+  "translation": "Assistente da Corporação Cápsula, nível 3 (sempre oferecido)",
+  "outdated": false
+ },
+ "110": {
+  "source": "6 Glass Bottles",
+  "translation": "6 frascos de vidro",
+  "outdated": false
+ },
+ "111": {
+  "source": "Capsule Corp Assistant, tier 3",
+  "translation": "Assistente da Corporação Cápsula, nível 3",
+  "outdated": false
+ },
+ "112": {
+  "source": "1 Tier-1 Radar Chip",
+  "translation": "1 Chip do Radar (Terra) de nível 1",
+  "outdated": false
+ },
+ "113": {
+  "source": "Capsule Corp Assistant, tier 4",
+  "translation": "Assistente da Corporação Cápsula, nível 4",
+  "outdated": false
+ },
+ "114": {
+  "source": "16 Iron Ingots",
+  "translation": "16 lingotes de ferro",
+  "outdated": false
+ },
+ "115": {
+  "source": "Capsule Corp Assistant, tier 4",
+  "translation": "Assistente da Corporação Cápsula, nível 4",
+  "outdated": false
+ },
+ "116": {
+  "source": "1 Iron Sword",
+  "translation": "1 espada de ferro",
+  "outdated": false
+ },
+ "117": {
+  "source": "Capsule Corp Assistant, tier 5",
+  "translation": "Assistente da Corporação Cápsula, nível 5",
+  "outdated": false
+ },
+ "118": {
+  "source": "1 Red Scouter",
+  "translation": "1 Scouter (Vermelho)",
+  "outdated": false
+ },
+ "119": {
+  "source": "Capsule Corp Assistant, tier 5",
+  "translation": "Assistente da Corporação Cápsula, nível 5",
+  "outdated": false
+ },
+ "120": {
+  "source": "4 Ender Pearls",
+  "translation": "4 pérolas de ender",
+  "outdated": false
+ },
+ "121": {
+  "source": "Capsule Corp Assistant, tier 5 (always offered)",
+  "translation": "Assistente da Corporação Cápsula, nível 5 (sempre oferecido)",
+  "outdated": false
+ },
+ "122": {
+  "source": "1 Cake",
+  "translation": "1 bolo",
+  "outdated": false
+ },
+ "123": {
+  "source": "[[Special:MyLanguage/Capsule Corp Namekian|Capsule Corp Namekian]]",
+  "translation": "[[Special:MyLanguage/Capsule Corp Namekian|Corporação Cápsula Namekuseijin]]",
+  "outdated": false
+ },
+ "124": {
+  "source": "1 Tier-1 Radar Chip",
+  "translation": "1 Chip do Radar (Terra) de nível 1",
+  "outdated": false
+ },
+ "125": {
+  "source": "Capsule Corp Namekian",
+  "translation": "Corporação Cápsula Namekuseijin",
+  "outdated": false
+ },
+ "126": {
+  "source": "1 Healing Bucket",
+  "translation": "1 Balde de Líquido de Cura",
+  "outdated": false
+ },
+ "127": {
+  "source": "[[Special:MyLanguage/Namekian Trader|Namekian Trader]]",
+  "translation": "[[Special:MyLanguage/Namekian Trader|Comerciante Namekuseijin]]",
+  "outdated": false
+ },
+ "128": {
+  "source": "16 Emeralds",
+  "translation": "16 esmeraldas",
+  "outdated": false
+ },
+ "129": {
+  "source": "Tamagami Number Three, Two and One lairs",
+  "translation": "Covis dos Tamagamis Número Três, Dois e Um",
+  "outdated": false
+ },
+ "130": {
+  "source": "[[Special:MyLanguage/Time Patroller|Time Patroller]]",
+  "translation": "[[Special:MyLanguage/Time Patroller|Patrulheiro do Tempo]]",
+  "outdated": false
+ },
+ "131": {
+  "source": "12, 16 and 20 Emeralds",
+  "translation": "12, 16 e 20 esmeraldas",
+  "outdated": false
+ },
+ "132": {
+  "source": "Time Patroller",
+  "translation": "Patrulheiro do Tempo",
+  "outdated": false
+ },
+ "133": {
+  "source": "24 Emeralds",
+  "translation": "24 esmeraldas",
+  "outdated": false
+ },
+ "134": {
+  "source": "Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace map is offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.",
+  "translation": "Todo mapa da Corporação Cápsula também custa um mapa em branco, e cada uma dessas trocas de mapa pode ser usada até 8 vezes (as da Corporação Cápsula Namekuseijin também). O mapa do Palácio da Vovó Uranai é oferecido por todo Assistente da Corporação Cápsula de nível 3 ou superior, e o da Casa do Majin Boo por todo assistente de nível 5; eles são adicionados na próxima vez que você abre as trocas dele, então assistentes que subiram de nível antes também os recebem. Os mapas do Comerciante Namekuseijin e do Patrulheiro do Tempo têm 4 usos cada. Veja as páginas dos NPCs no [[Special:MyLanguage/Bestiary|Bestiário]] para conhecer as outras trocas deles.",
+  "outdated": false
+ }
+}

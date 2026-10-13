@@ -1,0 +1,237 @@
+{
+ "Page_display_title": {
+  "source": "Modding",
+  "translation": "Contenido propio",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Modding''' covers everything you can add to or change in DragonMineZ without writing Java code. Races, transformations, sagas, side quests, wishes, NPC conversations, [[Special:MyLanguage/Space Pod|Space Pod]] destinations, weapon movesets, models and textures are all read from JSON files and resource packs: you edit them with a text editor, reload them and test them in game.",
+  "translation": "'''Contenido propio''' abarca todo lo que puedes añadir o cambiar en DragonMineZ sin escribir código Java. Razas, transformaciones, sagas, misiones secundarias, deseos, conversaciones con NPCs, destinos de la [[Special:MyLanguage/Space Pod|Cápsula Espacial]], movimientos de armas, modelos y texturas se leen desde archivos JSON y paquetes de recursos: los editas con un editor de texto, los recargas y los pruebas en el juego.",
+  "outdated": false
+ },
+ "2": {
+  "source": "If this is your first time, start with [[Special:MyLanguage/How to JSON|How to JSON]] and [[Special:MyLanguage/Locating Specific Folders|Locating Specific Folders]]. To write your own Forge mod that hooks into DragonMineZ, see [[Special:MyLanguage/Add-on Development|Add-on Development]] instead.",
+  "translation": "Si es tu primera vez, empieza por [[Special:MyLanguage/How to JSON|Cómo usar JSON]] y [[Special:MyLanguage/Locating Specific Folders|Encontrar carpetas]]. Si quieres escribir tu propio mod de Forge que se conecte con DragonMineZ, consulta [[Special:MyLanguage/Add-on Development|Desarrollo de addons]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Getting started ==",
+  "translation": "== Primeros pasos ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "The JSON rules, the load report and how files are upgraded between versions.",
+  "translation": "Las reglas del JSON, el informe de carga y cómo se actualizan los archivos entre versiones.",
+  "outdated": false
+ },
+ "5": {
+  "source": "Which folder holds which file: config, world save, Dragon Ball packs, datapacks and assets.",
+  "translation": "Qué carpeta guarda cada archivo: configuración, mundo guardado, paquetes de Esferas del Dragón, datapacks y recursos.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Characters and forms ==",
+  "translation": "== Personajes y formas ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Create a new playable race with its own look, classes and transformations.",
+  "translation": "Crea una nueva raza jugable con su propia apariencia, clases y transformaciones.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Every form field, and how to add stack forms that layer on top of race forms.",
+  "translation": "Todos los campos de una forma, y cómo añadir formas acumulables que se suman a las formas de la raza.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Point races and forms at your own models, body textures and faces.",
+  "translation": "Asigna a razas y formas tus propios modelos, texturas de cuerpo y caras.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Story and NPCs ==",
+  "translation": "== Historia y NPCs ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Write your own sagas, saga quests and side quests.",
+  "translation": "Escribe tus propias sagas, misiones de saga y misiones secundarias.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Change what a dragon grants, or ship a brand-new dragon.",
+  "translation": "Cambia lo que concede un dragón o crea un dragón totalmente nuevo.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Move master NPCs, place NPCs inside structures and decide how alignment affects them.",
+  "translation": "Mueve NPCs maestros, coloca NPCs dentro de estructuras y decide cómo les afecta el alineamiento.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Give masters branching conversations with conditions and actions.",
+  "translation": "Dales a los maestros conversaciones ramificadas con condiciones y acciones.",
+  "outdated": false
+ },
+ "15": {
+  "source": "== Datapacks ==",
+  "translation": "== Datapacks ==",
+  "outdated": false
+ },
+ "16": {
+  "source": "Add worlds to the Space Pod menu and decide when they unlock.",
+  "translation": "Añade mundos al menú de la Cápsula Espacial y decide cuándo se desbloquean.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Define how a weapon swings, hits and combos in DragonMineZ combat.",
+  "translation": "Define cómo un arma golpea, impacta y encadena combos en el combate de DragonMineZ.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Data or code ==",
+  "translation": "== Datos o código ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "There are two ways to extend DragonMineZ. Everything in this section of the wiki is a data add-on; code add-ons are covered in [[Special:MyLanguage/Add-on Development|Add-on Development]].",
+  "translation": "Hay dos formas de ampliar DragonMineZ. Todo lo que hay en esta sección de la wiki es un addon de datos; los addons de código se explican en [[Special:MyLanguage/Add-on Development|Desarrollo de addons]].",
+  "outdated": false
+ },
+ "20": {
+  "source": "Approach",
+  "translation": "Enfoque",
+  "outdated": false
+ },
+ "21": {
+  "source": "What you need",
+  "translation": "Qué necesitas",
+  "outdated": false
+ },
+ "22": {
+  "source": "Where to start",
+  "translation": "Por dónde empezar",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Data add-ons''': configs, races, forms, quests, wishes, Dragon Ball packs and resource packs",
+  "translation": "'''Addons de datos''': configuraciones, razas, formas, misiones, deseos, paquetes de Esferas del Dragón y paquetes de recursos",
+  "outdated": false
+ },
+ "24": {
+  "source": "A text editor and a DragonMineZ instance",
+  "translation": "Un editor de texto y una instancia de DragonMineZ",
+  "outdated": false
+ },
+ "25": {
+  "source": "'''Code add-ons''': your own Forge mod that hooks DragonMineZ events and APIs",
+  "translation": "'''Addons de código''': tu propio mod de Forge que se engancha a los eventos y las API de DragonMineZ",
+  "outdated": false
+ },
+ "26": {
+  "source": "A Forge 1.20.1 development environment",
+  "translation": "Un entorno de desarrollo de Forge 1.20.1",
+  "outdated": false
+ },
+ "27": {
+  "source": "DragonMineZ has no Java API to register new races, forms, skills or techniques: new races and forms are always added through JSON config files.",
+  "translation": "DragonMineZ no tiene una API de Java para registrar nuevas razas, formas, habilidades o técnicas: las nuevas razas y formas siempre se añaden mediante archivos de configuración JSON.",
+  "outdated": false
+ },
+ "28": {
+  "source": "== Where each kind of content lives ==",
+  "translation": "== Dónde va cada tipo de contenido ==",
+  "outdated": false
+ },
+ "29": {
+  "source": "* Tuning stats, damage or costs, or adding a race, form, entity or raid: <code>config/dragonminez/</code>\n* Adding or editing story content, wishes, dialogue or NPC placement for one world: <code><world save>/dragonminez/</code>\n* Shipping a distributable Dragon Ball pack: <code><game dir>/dragonballs/</code>\n* Space Pod destinations, weapon attributes and rhythm charts: a datapack\n* Adding a model, texture or animation: <code>assets/dragonminez/...</code> in a resource pack",
+  "translation": "* Ajustar estadísticas, daño o costos, o añadir una raza, forma, entidad o incursión: <code>config/dragonminez/</code>\n* Añadir o editar contenido de historia, deseos, diálogos o la ubicación de NPCs de un mundo: <code><world save>/dragonminez/</code>\n* Distribuir un paquete de Esferas del Dragón: <code><game dir>/dragonballs/</code>\n* Destinos de la Cápsula Espacial, atributos de armas y partituras de ritmo: un datapack\n* Añadir un modelo, textura o animación: <code>assets/dragonminez/...</code> en un paquete de recursos",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Applying your changes ==",
+  "translation": "== Aplicar tus cambios ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "Each kind of file is applied in a different way. <code>/dmzreload</code> with no argument reloads everything it covers.",
+  "translation": "Cada tipo de archivo se aplica de una forma distinta. <code>/dmzreload</code> sin argumentos recarga todo lo que abarca.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Content",
+  "translation": "Contenido",
+  "outdated": false
+ },
+ "33": {
+  "source": "How to apply it",
+  "translation": "Cómo aplicarlo",
+  "outdated": false
+ },
+ "34": {
+  "source": "Races, forms, NPC placements and NPC alignment rules",
+  "translation": "Razas, formas, ubicaciones de NPCs y reglas de alineamiento de NPCs",
+  "outdated": false
+ },
+ "35": {
+  "source": "Sagas, quests, side quests and NPC dialogue",
+  "translation": "Sagas, misiones, misiones secundarias y diálogos de NPCs",
+  "outdated": false
+ },
+ "36": {
+  "source": "Per-world wish lists",
+  "translation": "Listas de deseos de cada mundo",
+  "outdated": false
+ },
+ "37": {
+  "source": "Space Pod destinations, weapon attributes and structure NPCs",
+  "translation": "Destinos de la Cápsula Espacial, atributos de armas y NPCs de estructuras",
+  "outdated": false
+ },
+ "38": {
+  "source": "Vanilla <code>/reload</code>",
+  "translation": "<code>/reload</code> de vanilla",
+  "outdated": false
+ },
+ "39": {
+  "source": "Wish lists inside Dragon Ball packs",
+  "translation": "Listas de deseos dentro de paquetes de Esferas del Dragón",
+  "outdated": false
+ },
+ "40": {
+  "source": "Vanilla <code>/reload</code>, then <code>/dmzreload wishes</code>",
+  "translation": "<code>/reload</code> de vanilla y luego <code>/dmzreload wishes</code>",
+  "outdated": false
+ },
+ "41": {
+  "source": "New dragons, ball sets and radars",
+  "translation": "Dragones, juegos de esferas y radares nuevos",
+  "outdated": false
+ },
+ "42": {
+  "source": "Restart the game",
+  "translation": "Reinicia el juego",
+  "outdated": false
+ },
+ "43": {
+  "source": "Models, textures and animations",
+  "translation": "Modelos, texturas y animaciones",
+  "outdated": false
+ },
+ "44": {
+  "source": "Resource reload ({{Key|F3}} + {{Key|T}}) or restart",
+  "translation": "Recarga de recursos ({{Key|F3}} + {{Key|T}}) o reinicio",
+  "outdated": false
+ },
+ "45": {
+  "source": "== Translating your content ==",
+  "translation": "== Traducir tu contenido ==",
+  "outdated": false
+ },
+ "46": {
+  "source": "All in-game text uses translation keys. Races, forms, sagas, quests, wishes and dialogue lines take a translation key wherever a name or a text is shown, and each page of this section lists the key pattern it uses. Add your keys to your <code>en_us.json</code> or to your own language file in a resource pack (<code>assets/<namespace>/lang/<locale>.json</code>). You don't need to add translation keys for anything else: DragonMineZ merges the translations already made on Crowdin with your own.",
+  "translation": "Todo el texto del juego usa claves de traducción. Las razas, formas, sagas, misiones, deseos y líneas de diálogo usan una clave de traducción en cada lugar donde se muestra un nombre o un texto, y cada página de esta sección indica el patrón de clave que usa. Añade tus claves a tu <code>en_us.json</code> o a tu propio archivo de idioma en un paquete de recursos (<code>assets/<namespace>/lang/<locale>.json</code>). No necesitas añadir claves de traducción para nada más: DragonMineZ combina las traducciones ya hechas en Crowdin con las tuyas.",
+  "outdated": false
+ }
+}

@@ -1,0 +1,58 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, story enemy</translate>
+|Dimension={{L|Otherworld}}, {{L|Sacred Kai Planet}}
+|Spawns={{L|Otherworld Tournament}}, {{L|Buu Saga}}
+|Behavior=<translate><!--T:2--> Flies; Smart or Elite AI in the tournament; Expert AI in the story on Hard</translate>
+|Abilities=<translate><!--T:3--> Mystic Ball Attack, Big Bang Attack, Oozaru Roar, Sleep Recovery, Zanzoken, teleport</translate>
+|Drops=<translate><!--T:4--> None</translate>
+}}
+<translate>
+<!--T:5-->
+'''Kid Buu''' is the small form of [[Special:MyLanguage/Majin Buu|Majin Buu]] and the final enemy of the [[Special:MyLanguage/Buu Saga|Buu Saga]], fought twice on the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]]. He can also be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. He is fast, punches faster than any other Buu, chains combos often and can nap to heal himself.
+</translate>
+
+<translate>
+== In the tournament == <!--T:6-->
+
+<!--T:7-->
+Kid Buu is one of the Buu Saga fighters that can be drawn as a contender in the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. Like every contender, he is drawn at random and revealed once everybody accepts the rules. He counts as a different fighter from the other forms of Majin Buu, so he can share a bracket with them.
+
+<!--T:8-->
+His stats come from the [[Special:MyLanguage/Tournaments#Configuration|contender entry]] that drew him: by default between 238,000 and 612,500 health, 9,900 to 25,800 melee damage and 8,840 to 23,460 ki damage, on the Smart AI tier for the four weakest entries and Elite for the other five. He gets 8% stronger for every round already played.
+
+<!--T:9-->
+Hover him on the tournament screen to see his stats; with Bulma's '''Threat Database''' scan data you also see his ki attacks and combos.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:10-->
+
+<!--T:11-->
+Kid Buu is smaller than a normal fighter, but he moves fast and his melee attacks come faster than any other Buu's. He flies, uses the strongest [[Special:MyLanguage/Sagas#Enemy AI tiers|Zanzoken]] (6 after-image hops) and can teleport next to you. He can start a combo far more often than the other forms of Majin Buu.
+
+<!--T:12-->
+* '''Mystic Ball Attack:''' he '''rushes''' at you from up to 24 blocks away when he can see you, and the attack starts when he reaches you: a kick launches you into the air, then he slams into you as a pink ball (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]). If your own strike rush meets his head-on, the two of you start a [[Special:MyLanguage/Strike Clash|strike clash]].
+* '''Sleep Recovery:''' a 7-second nap that heals up to 60% of his max health (see [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]]).
+* '''Gum Punch:''' he appears in front of you and sends you flying with one heavy punch.
+* '''Gum Expand:''' a lighter blow that pushes you back.
+* '''Rapid Kicks:''' a quick flurry of kicks at close range.
+* '''Melee Combo:''' he blinks around you for three hits; the last one knocks you away.
+* '''Aerial Combo:''' he knocks you into the air, appears above you and slams you back down.
+* '''Ki attacks:''' Ki Blast, Ki Wave, '''Oozaru Roar''' and a large pink '''Big Bang Attack'''.
+</translate>
+
+<translate>
+== In the story == <!--T:13-->
+
+<!--T:14-->
+* [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 30, '''Kid Buu''': defeat him on the [[Special:MyLanguage/Sacred Kai Planet|Sacred Kai Planet]].
+* Buu Saga quest 34, '''Destroy Kid Buu''': defeat him again on the Sacred Kai Planet. It is the last fight of the saga.
+
+<!--T:15-->
+Kid Buu is one of the final bosses that fight on the '''Expert''' AI tier when you play on Hard (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity id</translate>|<code>dragonminez:saga_kidbuu</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Tournament fighters{{#translation:}}]]

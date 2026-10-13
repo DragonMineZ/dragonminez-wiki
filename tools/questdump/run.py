@@ -42,8 +42,10 @@ def main() -> int:
         shutil.rmtree(out)
     (out / 'game').mkdir(parents=True)
     with tempfile.TemporaryDirectory(prefix='questdump-') as tmp:
-        subprocess.run([find_java(args.jdk, 'javac'), '-nowarn', '-proc:none', '-cp', classpath, '-d', tmp, str(HERE / 'QuestDump.java')], check=True)
-        subprocess.run([find_java(args.jdk, 'java'), '-cp', tmp + os.pathsep + classpath, 'QuestDump', str(out)], check=True)
+        quest_sources = mod / 'src' / 'main' / 'java' / 'com' / 'dragonminez' / 'common' / 'quest'
+        sources = [str(HERE / 'QuestDump.java'), str(quest_sources / 'QuestDefaults.java'), str(quest_sources / 'SideQuestDefaults.java')]
+        subprocess.run([find_java(args.jdk, 'javac'), '-nowarn', '-proc:none', '-encoding', 'UTF-8', '-cp', classpath, '-d', tmp] + sources, check=True)
+        subprocess.run([find_java(args.jdk, 'java'), '-cp', tmp + os.pathsep + classpath, 'QuestDump', str(out)], check=True, cwd=out)
     sides = len(list((out / 'dragonminez' / 'sidequests').rglob('*.json')))
     sagas = len(list((out / 'dragonminez' / 'quests').rglob('*.json')))
     print(f'{sides} side quests and {sagas} saga quests written to {out / "dragonminez"}')

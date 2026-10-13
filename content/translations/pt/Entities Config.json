@@ -1,0 +1,272 @@
+{
+ "Page_display_title": {
+  "source": "Entities Config",
+  "translation": "Configuração de entidades",
+  "outdated": false
+ },
+ "1": {
+  "source": "<code>config/dragonminez/entities.json</code> sets the base stats of DMZ creatures and enemies, and the default stat jump when a saga enemy transforms into its next form. Like the other server configs, the server sends it to every client.",
+  "translation": "O <code>config/dragonminez/entities.json</code> define as estatísticas base das criaturas e inimigos do DMZ e o salto de estatísticas padrão quando um inimigo de saga se transforma na próxima forma. Como as outras configurações do servidor, o servidor o envia a cada cliente.",
+  "outdated": false
+ },
+ "2": {
+  "source": "For the creatures themselves, see the [[Special:MyLanguage/Bestiary|Bestiary]].",
+  "translation": "Para as criaturas em si, veja o [[Special:MyLanguage/Bestiary|Bestiário]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== Keys ==",
+  "translation": "== Chaves ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "5": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "6": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "7": {
+  "source": "A version string, for example <code>\"2.2.0\"</code>",
+  "translation": "Um texto de versão, por exemplo <code>\"2.2.0\"</code>",
+  "outdated": false
+ },
+ "8": {
+  "source": "Version stamp used for config upgrades. Do not change it (see [[Special:MyLanguage/How to JSON|How to JSON]]).",
+  "translation": "Marca de versão usada para atualizar a configuração. Não a altere (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).",
+  "outdated": false
+ },
+ "9": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "10": {
+  "source": "Base stats per entity id (an object).",
+  "translation": "Estatísticas base por id de entidade (um objeto).",
+  "outdated": false
+ },
+ "11": {
+  "source": "See below",
+  "translation": "Veja abaixo",
+  "outdated": false
+ },
+ "12": {
+  "source": "Default multipliers and trigger used when a saga enemy transforms (an object).",
+  "translation": "Multiplicadores padrão e gatilho usados quando um inimigo de saga se transforma (um objeto).",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Entity base stats ==",
+  "translation": "== Estatísticas base das entidades ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "<code>defaultEntityStats</code> maps an entity registry id (for example <code>\"dragonminez:bandit\"</code>) to a stat object:",
+  "translation": "<code>defaultEntityStats</code> associa um id de registro de entidade (por exemplo <code>\"dragonminez:bandit\"</code>) a um objeto de estatísticas:",
+  "outdated": false
+ },
+ "15": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "16": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "17": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "18": {
+  "source": "Max health. The default applies when the field is missing.",
+  "translation": "Vida máxima. O valor padrão vale quando o campo está ausente.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Melee attack damage. The default applies when the field is missing.",
+  "translation": "Dano de ataque corpo a corpo. O valor padrão vale quando o campo está ausente.",
+  "outdated": false
+ },
+ "20": {
+  "source": "Ki blast damage (only for entities that have a ki blast damage attribute). The default applies when the field is missing.",
+  "translation": "Dano de rajada de ki (só para entidades que têm um atributo de dano de rajada de ki). O valor padrão vale quando o campo está ausente.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Values below <code>1</code> are raised to <code>1</code>.",
+  "translation": "Valores menores que <code>1</code> são elevados para <code>1</code>.",
+  "outdated": false
+ },
+ "22": {
+  "source": "The stats are applied once, when the entity first spawns. Entities that were already in the world keep the stats they spawned with. Entities spawned for a quest use the stats written in the quest instead (see [[Special:MyLanguage/Custom Quests|Custom Quests]]), scaled by the difficulty multipliers in [[Special:MyLanguage/General Server Config|General Server Config]] (<code>easyMode*</code> / <code>hardMode*</code>); naturally spawned entities are not scaled by difficulty.",
+  "translation": "As estatísticas são aplicadas uma única vez, quando a entidade surge pela primeira vez. Entidades que já estavam no mundo mantêm as estatísticas com que surgiram. Entidades geradas por uma missão usam as estatísticas escritas na missão (veja [[Special:MyLanguage/Custom Quests|Missões personalizadas]]), escaladas pelos multiplicadores de dificuldade de [[Special:MyLanguage/General Server Config|Configuração do servidor]] (<code>easyMode*</code> / <code>hardMode*</code>); entidades que surgem naturalmente não são escaladas pela dificuldade.",
+  "outdated": false
+ },
+ "23": {
+  "source": "=== Default entries ===",
+  "translation": "=== Entradas padrão ===",
+  "outdated": false
+ },
+ "24": {
+  "source": "Entity id",
+  "translation": "Id da entidade",
+  "outdated": false
+ },
+ "25": {
+  "source": "Name",
+  "translation": "Nome",
+  "outdated": false
+ },
+ "26": {
+  "source": "Baby Dinosaur",
+  "translation": "Bebê Dinossauro",
+  "outdated": false
+ },
+ "27": {
+  "source": "Dinosaur",
+  "translation": "Dinossauro",
+  "outdated": false
+ },
+ "28": {
+  "source": "Large Dinosaur",
+  "translation": "Dinossauro Grande",
+  "outdated": false
+ },
+ "29": {
+  "source": "Flying Dinosaur",
+  "translation": "Dinossauro Voador",
+  "outdated": false
+ },
+ "30": {
+  "source": "Red Ribbon's Soldier",
+  "translation": "Soldado da Red Ribbon",
+  "outdated": false
+ },
+ "31": {
+  "source": "Red Ribbon Robot",
+  "translation": "Robô da Red Ribbon",
+  "outdated": false
+ },
+ "32": {
+  "source": "Red Ribbon Robot",
+  "translation": "Robô da Red Ribbon",
+  "outdated": false
+ },
+ "33": {
+  "source": "Red Ribbon Robot",
+  "translation": "Robô da Red Ribbon",
+  "outdated": false
+ },
+ "34": {
+  "source": "Red Ogre",
+  "translation": "Ogro Vermelho",
+  "outdated": false
+ },
+ "35": {
+  "source": "Blue Ogre",
+  "translation": "Ogro Azul",
+  "outdated": false
+ },
+ "36": {
+  "source": "You can add entries for other entity ids too: any living entity whose id is listed gets these stats when it spawns.",
+  "translation": "Você também pode adicionar entradas para outros ids de entidade: qualquer entidade viva cujo id esteja na lista recebe estas estatísticas ao surgir.",
+  "outdated": false
+ },
+ "37": {
+  "source": "== Spawn rates ==",
+  "translation": "== Taxas de surgimento ==",
+  "outdated": false
+ },
+ "38": {
+  "source": "<code>entities.json</code> only sets stats. Where and how often creatures spawn naturally is defined by the Forge biome modifiers in <code>data/dragonminez/forge/biome_modifier/</code> (spawn weights and group sizes per biome), which a datapack can override.",
+  "translation": "O <code>entities.json</code> só define estatísticas. Onde e com que frequência as criaturas surgem naturalmente é definido pelos biome modifiers do Forge em <code>data/dragonminez/forge/biome_modifier/</code> (pesos de surgimento e tamanhos de grupo por bioma), que um datapack pode sobrescrever.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Bandits, the Red Ribbon Army, Sabertooth Tigers, Frieza's Soldiers and Mini Buus use their own spawn category, <code>dragonminez:wild_enemy</code>, with its own cap. Structures can define spawns for it in their <code>spawn_overrides</code>, as the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]] does. The spawn rules, weights and biomes of each creature are listed in the [[Special:MyLanguage/Bestiary|Bestiary]].",
+  "translation": "Bandidos, o Exército Red Ribbon, Tigres Dente-de-sabre, Soldados do Freeza e Mini Boos usam sua própria categoria de surgimento, <code>dragonminez:wild_enemy</code>, com seu próprio limite. Estruturas podem definir surgimentos para ela em seus <code>spawn_overrides</code>, como faz a [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]]. As regras de surgimento, os pesos e os biomas de cada criatura estão listados no [[Special:MyLanguage/Bestiary|Bestiário]].",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Saga enemy transformations ==",
+  "translation": "== Transformações dos inimigos de saga ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "Saga enemies that have a next form (for example Frieza) transform when their health drops low enough. The <code>transformDefaults</code> values are used unless the quest's kill objective sets its own.",
+  "translation": "Inimigos de saga que têm uma próxima forma (por exemplo, Freeza) se transformam quando a vida cai o suficiente. Os valores de <code>transformDefaults</code> são usados, a menos que o objetivo de abate da missão defina os seus.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Key",
+  "translation": "Chave",
+  "outdated": false
+ },
+ "43": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "44": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "45": {
+  "source": "The new form's max health is the previous form's max health × this value (minimum <code>0.1</code>).",
+  "translation": "A vida máxima da nova forma é a vida máxima da forma anterior × este valor (mínimo <code>0.1</code>).",
+  "outdated": false
+ },
+ "46": {
+  "source": "Multiplier on the previous form's melee damage (minimum <code>0.1</code>).",
+  "translation": "Multiplicador do dano corpo a corpo da forma anterior (mínimo <code>0.1</code>).",
+  "outdated": false
+ },
+ "47": {
+  "source": "Multiplier on the previous form's ki blast damage (minimum <code>0.1</code>).",
+  "translation": "Multiplicador do dano de rajada de ki da forma anterior (mínimo <code>0.1</code>).",
+  "outdated": false
+ },
+ "48": {
+  "source": "Fraction of max health (<code>0</code>–<code>1</code>) at which the enemy transforms.",
+  "translation": "Fração da vida máxima (<code>0</code>–<code>1</code>) em que o inimigo se transforma.",
+  "outdated": false
+ },
+ "49": {
+  "source": "== Example ==",
+  "translation": "== Exemplo ==",
+  "outdated": false
+ },
+ "50": {
+  "source": "== Removed keys ==",
+  "translation": "== Chaves removidas ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "<code>hardModeSettings</code> (<code>hpMultiplier</code>, <code>damageMultiplier</code>) no longer exists. Difficulty scaling is configured in [[Special:MyLanguage/General Server Config|General Server Config]] with <code>easyModeHPMultiplier</code>, <code>easyModeDamageMultiplier</code>, <code>hardModeHPMultiplier</code> and <code>hardModeDamageMultiplier</code>.",
+  "translation": "<code>hardModeSettings</code> (<code>hpMultiplier</code>, <code>damageMultiplier</code>) não existe mais. O escalonamento por dificuldade é configurado em [[Special:MyLanguage/General Server Config|Configuração do servidor]] com <code>easyModeHPMultiplier</code>, <code>easyModeDamageMultiplier</code>, <code>hardModeHPMultiplier</code> e <code>hardModeDamageMultiplier</code>.",
+  "outdated": false
+ },
+ "52": {
+  "source": "== Reload and validate ==",
+  "translation": "== Recarregar e validar ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "# Edit <code>config/dragonminez/entities.json</code>.\n# Validate the JSON syntax.\n# Run <code>/dmzreload config</code>. New values apply to entities spawned afterwards.",
+  "translation": "# Edite <code>config/dragonminez/entities.json</code>.\n# Valide a sintaxe do JSON.\n# Execute <code>/dmzreload config</code>. Os novos valores valem para as entidades que surgirem depois.",
+  "outdated": false
+ }
+}

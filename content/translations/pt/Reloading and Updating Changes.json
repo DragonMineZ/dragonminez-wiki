@@ -1,0 +1,177 @@
+{
+ "Page_display_title": {
+  "source": "Reloading and Updating Changes",
+  "translation": "Recarregar e atualizar mudanças",
+  "outdated": false
+ },
+ "1": {
+  "source": "Not every change needs a server restart, but not every change can be picked up live either. This page explains what <code>/dmzreload</code> does, how config values reach the clients, when you still need a restart or a resource reload, and what happens to your files when DragonMineZ itself is updated.",
+  "translation": "Nem toda mudança precisa reiniciar o servidor, mas nem toda mudança pode ser aplicada ao vivo. Esta página explica o que o <code>/dmzreload</code> faz, como os valores de configuração chegam aos clientes, quando ainda é preciso reiniciar ou recarregar os recursos, e o que acontece com seus arquivos quando o próprio DragonMineZ é atualizado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== The /dmzreload command ==",
+  "translation": "== O comando /dmzreload ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "<code>/dmzreload [target]</code> is defined in <code>ReloadCommand.java</code>. It requires the <code>dragonminez.dmz.reload</code> permission node, <code>dragonminez.admin</code>, or operator level 2 (see [[Special:MyLanguage/Permissions|Permissions]]). The console can always run it.",
+  "translation": "O <code>/dmzreload [target]</code> é definido em <code>ReloadCommand.java</code>. Ele exige o nó de permissão <code>dragonminez.dmz.reload</code>, <code>dragonminez.admin</code> ou o nível de operador 2 (veja [[Special:MyLanguage/Permissions|Permissões]]). O console sempre pode executá-lo.",
+  "outdated": false
+ },
+ "4": {
+  "source": "Target",
+  "translation": "Alvo",
+  "outdated": false
+ },
+ "5": {
+  "source": "What it reloads",
+  "translation": "O que recarrega",
+  "outdated": false
+ },
+ "6": {
+  "source": "Every file in <code>config/dragonminez</code> (general, combat, training, skills, techniques, entities, races, forms, stack forms, raids, tournaments), the raid types, the player storage backend (<code>StorageManager.reload()</code>), NPC alignment rules and NPC placements (respawning configured NPCs). Then every config file is resent to every online player, and their skill limits and progression are resynced.",
+  "translation": "Todos os arquivos de <code>config/dragonminez</code> (geral, combate, treinamento, habilidades, técnicas, entidades, raças, formas, formas acumuláveis, incursões, torneios), os tipos de incursão, o backend de armazenamento de jogadores (<code>StorageManager.reload()</code>), as regras de índole de NPCs e o posicionamento de NPCs (gerando de novo os NPCs configurados). Depois, todos os arquivos de configuração são reenviados a cada jogador online, e os limites de habilidades e a progressão deles são ressincronizados.",
+  "outdated": false
+ },
+ "7": {
+  "source": "<code>QuestRegistry.loadAll(server)</code>, which re-reads sagas, quests and side quests from the world save (running the quest auto-upgrade described below), and <code>DialogueRegistry.loadAll(server)</code> for NPC dialogues. Then the quest registry is resent to every online player.",
+  "translation": "<code>QuestRegistry.loadAll(server)</code>, que relê as sagas, missões e missões secundárias do save do mundo (executando a atualização automática de missões descrita abaixo), e <code>DialogueRegistry.loadAll(server)</code> para os diálogos de NPCs. Depois, o registro de missões é reenviado a cada jogador online.",
+  "outdated": false
+ },
+ "8": {
+  "source": "<code>WishManager.loadWishes(server)</code>, then the wishes are resent to every online player.",
+  "translation": "<code>WishManager.loadWishes(server)</code>; depois, os desejos são reenviados a cada jogador online.",
+  "outdated": false
+ },
+ "9": {
+  "source": "All of the above, in that order.",
+  "translation": "Tudo o que está acima, nessa ordem.",
+  "outdated": false
+ },
+ "10": {
+  "source": "After a reload, connected players are resynced automatically; they don't need to relog. The console also prints the JSON load report (files that failed to load, files that were auto-upgraded).",
+  "translation": "Depois de um recarregamento, os jogadores conectados são ressincronizados automaticamente; eles não precisam sair e entrar de novo. O console também mostra o relatório de carregamento de JSON (arquivos que falharam ao carregar e arquivos atualizados automaticamente).",
+  "outdated": false
+ },
+ "11": {
+  "source": "=== In-game config screen ===",
+  "translation": "=== Tela de configuração no jogo ===",
+  "outdated": false
+ },
+ "12": {
+  "source": "The '''DragonMineZ''' entry of the Forge ''Mods'' screen has a config screen that lists every file in <code>config/dragonminez</code> and lets you edit them in-game; while you are in a world it also has a reload button that runs <code>/dmzreload</code>. It edits the files of '''your own''' game folder, so it is meant for singleplayer and LAN hosts. On a dedicated server, edit the server's files.",
+  "translation": "A entrada '''DragonMineZ''' da tela ''Mods'' do Forge tem uma tela de configuração que lista todos os arquivos de <code>config/dragonminez</code> e permite editá-los no jogo; enquanto você está em um mundo, ela também tem um botão de recarregar que executa <code>/dmzreload</code>. Ela edita os arquivos da '''sua própria''' pasta do jogo, então é pensada para o modo um jogador e anfitriões de LAN. Em um servidor dedicado, edite os arquivos do servidor.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Changing one value live with /dmzconfig ==",
+  "translation": "== Alterar um valor ao vivo com /dmzconfig ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "<code>/dmzconfig &lt;file&gt; &lt;key&gt; &lt;value&gt;</code> or <code>/dmzconfig &lt;file&gt; &lt;section&gt; &lt;key&gt; &lt;value&gt;</code> (permission: <code>dragonminez.admin</code> or operator level 2) changes a single value, saves the file and resends it to every online player. Examples:",
+  "translation": "<code>/dmzconfig &lt;file&gt; &lt;key&gt; &lt;value&gt;</code> ou <code>/dmzconfig &lt;file&gt; &lt;section&gt; &lt;key&gt; &lt;value&gt;</code> (permissão: <code>dragonminez.admin</code> ou nível de operador 2) altera um único valor, salva o arquivo e o reenvia a cada jogador online. Exemplos:",
+  "outdated": false
+ },
+ "15": {
+  "source": "It only edits plain values (numbers, <code>true</code>/<code>false</code>, text) directly in the file or one section deep; lists and deeper objects must be edited in the file. It writes the file as it is, without the version upgrade described below.",
+  "translation": "Ele só edita valores simples (números, <code>true</code>/<code>false</code>, texto) direto no arquivo ou a um nível de seção; listas e objetos mais profundos precisam ser editados no arquivo. Ele grava o arquivo como está, sem a atualização de versão descrita abaixo.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== How config reaches the clients ==",
+  "translation": "== Como a configuração chega aos clientes ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "* When a player joins, the server sends them '''every''' file under <code>config/dragonminez</code> except the client-only <code>general-user.json</code> and <code>hud_layout.json</code>, one compressed packet per file. While connected, the client uses the server's values for everything those files control (stats, forms, skills, combat values shown in the menus and so on).\n* <code>/dmzreload config</code> and <code>/dmzconfig</code> send the files again to everyone online.\n* The server sends the files '''as they are on disk'''. If you edit a file and don't reload, the server keeps running the old values while players who join afterwards receive your edited file. Always run <code>/dmzreload config</code> after editing.\n* On disconnect, the client drops the server's copy and goes back to its own local files.",
+  "translation": "* Quando um jogador entra, o servidor envia a ele '''todos''' os arquivos de <code>config/dragonminez</code>, exceto os só do cliente <code>general-user.json</code> e <code>hud_layout.json</code>, um pacote comprimido por arquivo. Enquanto estiver conectado, o cliente usa os valores do servidor para tudo o que esses arquivos controlam (estatísticas, formas, habilidades, valores de combate mostrados nos menus etc.).\n* <code>/dmzreload config</code> e <code>/dmzconfig</code> enviam os arquivos de novo para todos que estão online.\n* O servidor envia os arquivos '''do jeito que estão no disco'''. Se você editar um arquivo e não recarregar, o servidor continua rodando com os valores antigos enquanto os jogadores que entrarem depois recebem seu arquivo editado. Sempre execute <code>/dmzreload config</code> depois de editar.\n* Ao se desconectar, o cliente descarta a cópia do servidor e volta a usar seus próprios arquivos locais.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== What /dmzreload covers ==",
+  "translation": "== O que o /dmzreload cobre ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* <code>config/dragonminez/general-server.json</code>, <code>combat.json</code>, <code>training.json</code>, <code>skills.json</code>, <code>techniques.json</code>, <code>entities.json</code>\n* <code>config/dragonminez/races/&lt;race&gt;/character.json</code>, <code>stats.json</code> and <code>forms/*.json</code>, and <code>config/dragonminez/forms/*.json</code> (stack forms)\n* <code>config/dragonminez/raids/*.json</code> and <code>config/dragonminez/tournaments/*.json</code>\n* <code>&lt;world save&gt;/dragonminez/{sagas,quests,sidequests}</code> and <code>&lt;world save&gt;/dragonminez/dialogues</code> (with <code>story</code> or <code>all</code>)\n* <code>&lt;world save&gt;/dragonminez/wishes/*.json</code> (with <code>wishes</code> or <code>all</code>); see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]\n* <code>&lt;world save&gt;/dragonminez/npcs/{placements.json,alignment_rules.json}</code> (with <code>config</code> or <code>all</code>); see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]",
+  "translation": "* <code>config/dragonminez/general-server.json</code>, <code>combat.json</code>, <code>training.json</code>, <code>skills.json</code>, <code>techniques.json</code>, <code>entities.json</code>\n* <code>config/dragonminez/races/&lt;race&gt;/character.json</code>, <code>stats.json</code> e <code>forms/*.json</code>, e <code>config/dragonminez/forms/*.json</code> (formas acumuláveis)\n* <code>config/dragonminez/raids/*.json</code> e <code>config/dragonminez/tournaments/*.json</code>\n* <code>&lt;world save&gt;/dragonminez/{sagas,quests,sidequests}</code> e <code>&lt;world save&gt;/dragonminez/dialogues</code> (com <code>story</code> ou <code>all</code>)\n* <code>&lt;world save&gt;/dragonminez/wishes/*.json</code> (com <code>wishes</code> ou <code>all</code>); veja [[Special:MyLanguage/Custom Wishes|Desejos personalizados]]\n* <code>&lt;world save&gt;/dragonminez/npcs/{placements.json,alignment_rules.json}</code> (com <code>config</code> ou <code>all</code>); veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]",
+  "outdated": false
+ },
+ "20": {
+  "source": "== What /dmzreload does not cover ==",
+  "translation": "== O que o /dmzreload não cobre ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "* '''<code>general-user.json</code> and <code>hud_layout.json</code>''': these are client files. Players change them from the in-game Configuration screen and the HUD editor; hand edits need a game restart.\n* '''Resource pack assets''' (models, textures, animations under <code>assets/dragonminez/...</code>). They need a client resource reload ({{Key|F3}} + {{Key|T}}), since they are loaded on the client, not from the server config.\n* '''Datapack reload listeners''': <code>spacepod/*.json</code> (see [[Special:MyLanguage/Space Pod Destinations|Space Pod Destinations]]), <code>weapon_attributes/*.json</code> (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]) and <code>rhythm_charts/*.json</code>. These follow vanilla datapack rules: use the vanilla <code>/reload</code> or restart the server.\n* '''External Dragon Ball add-on packs''' under <code>&lt;game dir&gt;/dragonballs/</code>. They are re-read by the vanilla <code>/reload</code> (ball sets, radars, dragons and the pack's wishes). Run <code>/dmzreload wishes</code> afterwards so the per-world wish files are merged on top of the reloaded pack wishes again.\n* '''Storage backend switch''' (<code>NBT</code> ↔ <code>JSON</code> ↔ <code>DATABASE</code>): <code>/dmzreload config</code> saves the online players and restarts the storage backend with the new settings, but switching backends with players online is not something to do casually; prefer doing it with the server empty.\n* '''New Java code or add-on jars''': these always require a restart.",
+  "translation": "* '''<code>general-user.json</code> e <code>hud_layout.json</code>''': são arquivos do cliente. Os jogadores os alteram pela tela de Configuração no jogo e pelo editor da HUD; edições à mão exigem reiniciar o jogo.\n* '''Recursos de resource packs''' (modelos, texturas, animações em <code>assets/dragonminez/...</code>). Eles exigem um recarregamento de recursos no cliente ({{Key|F3}} + {{Key|T}}), já que são carregados no cliente, não pela configuração do servidor.\n* '''Listeners de recarregamento de datapacks''': <code>spacepod/*.json</code> (veja [[Special:MyLanguage/Space Pod Destinations|Destinos da Cápsula Espacial]]), <code>weapon_attributes/*.json</code> (veja [[Special:MyLanguage/Weapon Attributes|Atributos de armas]]) e <code>rhythm_charts/*.json</code>. Eles seguem as regras dos datapacks vanilla: use o <code>/reload</code> vanilla ou reinicie o servidor.\n* '''Pacotes de addons externos de Esferas do Dragão''' em <code>&lt;game dir&gt;/dragonballs/</code>. Eles são relidos pelo <code>/reload</code> vanilla (conjuntos de esferas, radares, dragões e os desejos do pacote). Execute <code>/dmzreload wishes</code> depois para que os arquivos de desejos de cada mundo sejam mesclados de novo por cima dos desejos recarregados do pacote.\n* '''Troca de backend de armazenamento''' (<code>NBT</code> ↔ <code>JSON</code> ↔ <code>DATABASE</code>): <code>/dmzreload config</code> salva os jogadores online e reinicia o backend de armazenamento com os novos ajustes, mas trocar de backend com jogadores online não é algo para fazer de qualquer jeito; prefira fazer isso com o servidor vazio.\n* '''Código Java novo ou jars de addons''': sempre exigem reiniciar.",
+  "outdated": false
+ },
+ "22": {
+  "source": "== Updating DragonMineZ ==",
+  "translation": "== Atualizar o DragonMineZ ==",
+  "outdated": false
+ },
+ "23": {
+  "source": "When you install a new DMZ version, your files are upgraded automatically on the next start.",
+  "translation": "Quando você instala uma versão nova do DMZ, seus arquivos são atualizados automaticamente na próxima inicialização.",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Config files ===",
+  "translation": "=== Arquivos de configuração ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Each config file carries a <code>configVersion</code> (for example <code>\"2.2.0\"</code>). When it is older than the mod's version, DMZ moves the old file to <code>config/dragonminez/oldBackup/&lt;same path&gt;</code>, writes the new defaults, and merges your values back in: values you never touched take the new default, values you changed are kept, and new keys are added. The details are on [[Special:MyLanguage/How to JSON|How to JSON]].",
+  "translation": "Cada arquivo de configuração carrega um <code>configVersion</code> (por exemplo <code>\"2.2.0\"</code>). Quando ele é mais antigo que a versão do mod, o DMZ move o arquivo antigo para <code>config/dragonminez/oldBackup/&lt;same path&gt;</code>, grava os novos padrões e mescla seus valores de volta: valores que você nunca mexeu adotam o novo padrão, valores que você alterou são mantidos e chaves novas são adicionadas. Os detalhes estão em [[Special:MyLanguage/How to JSON|Como usar JSON]].",
+  "outdated": false
+ },
+ "26": {
+  "source": "=== Quests, sagas and side quests ===",
+  "translation": "=== Missões, sagas e missões secundárias ===",
+  "outdated": false
+ },
+ "27": {
+  "source": "With <code>autoUpdateQuests</code> enabled in [[Special:MyLanguage/General Server Config|General Server Config]] (the default), the default quest, saga and side-quest files DMZ generated in your world are upgraded the same way when the server starts (and on <code>/dmzreload story</code>):",
+  "translation": "Com <code>autoUpdateQuests</code> ativado em [[Special:MyLanguage/General Server Config|Configuração do servidor]] (o padrão), os arquivos padrão de missões, sagas e missões secundárias que o DMZ gerou no seu mundo são atualizados da mesma forma quando o servidor inicia (e com <code>/dmzreload story</code>):",
+  "outdated": false
+ },
+ "28": {
+  "source": "* Each generated file carries a <code>\"defaultsVersion\"</code>. Files already at the current version are skipped.\n* A field you never edited takes the new default, so balance fixes reach your world.\n* A field you edited keeps your value. If the new version also changed that field, it is recorded as a '''conflict''', and your value still wins.\n* Keys you added are kept. Lists (objectives, rewards) are only merged entry by entry when their structure still matches; otherwise your whole list is kept and reported as a conflict.\n* Before a file is changed, a copy goes to <code>&lt;world&gt;/dragonminez/oldBackup/&lt;same path&gt;</code>. A summary of what changed is written to <code>&lt;world&gt;/dragonminez/quest_update_report.txt</code> and shown in the JSON load report.\n* Quest files you created yourself are never touched.",
+  "translation": "* Cada arquivo gerado carrega um <code>\"defaultsVersion\"</code>. Arquivos que já estão na versão atual são ignorados.\n* Um campo que você nunca editou adota o novo padrão, então as correções de balanceamento chegam ao seu mundo.\n* Um campo que você editou mantém o seu valor. Se a nova versão também mudou esse campo, isso é registrado como '''conflito''', e o seu valor continua vencendo.\n* Chaves que você adicionou são mantidas. Listas (objetivos, recompensas) só são mescladas entrada por entrada quando a estrutura ainda corresponde; caso contrário, sua lista inteira é mantida e informada como conflito.\n* Antes de um arquivo ser alterado, uma cópia vai para <code>&lt;world&gt;/dragonminez/oldBackup/&lt;same path&gt;</code>. Um resumo do que mudou é gravado em <code>&lt;world&gt;/dragonminez/quest_update_report.txt</code> e aparece no relatório de carregamento de JSON.\n* Arquivos de missões que você mesmo criou nunca são alterados.",
+  "outdated": false
+ },
+ "29": {
+  "source": "With <code>autoUpdateQuests</code> set to <code>false</code>, default files are only written when they are missing.",
+  "translation": "Com <code>autoUpdateQuests</code> definido como <code>false</code>, os arquivos padrão só são gravados quando estão faltando.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Starting over from the defaults",
+  "translation": "Recomeçar do zero com os padrões",
+  "outdated": false
+ },
+ "31": {
+  "source": "To throw your world's story files away and start from the current defaults, use <code>/dmzrestoreupdate</code>. It '''deletes''' everything in <code>&lt;world&gt;/dragonminez/wishes</code>, <code>sagas</code> and <code>quests</code>, then runs <code>/dmzreload all</code> to regenerate them (side quests are not touched). It asks for confirmation first: click the button or run <code>/dmzrestoreupdate confirm</code> within 15 seconds.",
+  "translation": "Para descartar os arquivos de história do seu mundo e começar com os padrões atuais, use <code>/dmzrestoreupdate</code>. Ele '''apaga''' tudo em <code>&lt;world&gt;/dragonminez/wishes</code>, <code>sagas</code> e <code>quests</code> e depois executa <code>/dmzreload all</code> para regenerá-los (as missões secundárias não são alteradas). Antes, ele pede confirmação: clique no botão ou execute <code>/dmzrestoreupdate confirm</code> em até 15 segundos.",
+  "outdated": false
+ },
+ "32": {
+  "source": "== Practical workflow ==",
+  "translation": "== Fluxo de trabalho prático ==",
+  "outdated": false
+ },
+ "33": {
+  "source": "# Edit your JSON file or files.\n# Validate the JSON syntax (see [[Special:MyLanguage/How to JSON|How to JSON]]).\n# Run the narrowest <code>/dmzreload &lt;target&gt;</code> that covers your change: <code>config</code> for balance, race, form and raid edits, <code>story</code> for quest, saga and dialogue edits, <code>wishes</code> for wish edits.\n# Check the server log (or the JSON load report in chat). A <code>malformed JSON</code> message means DMZ couldn't read your file: it is running on defaults for that file and your file was left untouched. Fix it and reload again.\n# For resource pack or datapack changes, do a client resource reload or a vanilla <code>/reload</code> instead.",
+  "translation": "# Edite seu arquivo ou arquivos JSON.\n# Valide a sintaxe do JSON (veja [[Special:MyLanguage/How to JSON|Como usar JSON]]).\n# Execute o <code>/dmzreload &lt;target&gt;</code> mais específico que cubra sua mudança: <code>config</code> para edições de balanceamento, raças, formas e incursões, <code>story</code> para edições de missões, sagas e diálogos, <code>wishes</code> para edições de desejos.\n# Confira o log do servidor (ou o relatório de carregamento de JSON no chat). Uma mensagem <code>malformed JSON</code> significa que o DMZ não conseguiu ler seu arquivo: ele está usando os padrões desse arquivo e seu arquivo ficou intacto. Corrija e recarregue de novo.\n# Para mudanças em resource packs ou datapacks, faça em vez disso um recarregamento de recursos no cliente ou um <code>/reload</code> vanilla.",
+  "outdated": false
+ },
+ "34": {
+  "source": "If in doubt, <code>/dmzreload all</code> is safe to run at any time: it just re-runs every reload path and resyncs everyone.",
+  "translation": "Na dúvida, o <code>/dmzreload all</code> pode ser executado com segurança a qualquer momento: ele só refaz todos os caminhos de recarregamento e ressincroniza todo mundo.",
+  "outdated": false
+ }
+}

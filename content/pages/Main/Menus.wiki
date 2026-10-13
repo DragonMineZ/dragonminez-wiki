@@ -1,187 +1,204 @@
 <translate>
+<!--T:1-->
 DragonMineZ has two in-game menus: the '''Character Menu''', a tabbed window for your stats, party, skills, quests, minigames and settings, and the '''Utility Menu''', a radial wheel for transforming and using skills in the middle of a fight. Talking to a master or a quest NPC opens the '''NPC dialogue'''. This page explains each of them.
 </translate>
 
 <translate>
-== Opening the menus ==
+== Opening the menus == <!--T:2-->
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Opens</translate>
+! <translate><!--T:3--> Key</translate> !! <translate><!--T:4--> Opens</translate>
 |-
-| {{Key|V}} || <translate>The '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config). Before you have created a character it opens character creation.</translate>
+| {{Key|V}} || <translate><!--T:5--> The '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config). Before you have created a character it opens character creation.</translate>
 |-
-| <translate>{{Key|X}} (hold)</translate> || <translate>The '''Utility Menu''' (transformations, stack forms, movement and actions).</translate>
+| <translate><!--T:6--> {{Key|X}} (hold)</translate> || <translate><!--T:7--> The '''Utility Menu''' (transformations, stack forms, movement and actions).</translate>
 |-
-| <translate>''Unbound''</translate> || <translate>'''Open Party / Skills / Quests / Minigames / Config Tab''': optional shortcuts straight to one tab. They also switch tabs while the menu is open.</translate>
+| <translate><!--T:8--> ''Unbound''</translate> || <translate><!--T:9--> '''Open Party / Skills / Quests / Minigames / Config Tab''': optional shortcuts straight to one tab. They also switch tabs while the menu is open.</translate>
 |}
 
 <translate>
+<!--T:10-->
 All keys can be changed in Minecraft's controls options: see [[Special:MyLanguage/Controls|Controls]].
 </translate>
 
-{{Note|title=<translate>Tutorials</translate>|<translate>The first time you open the race selection, the character customization, the Stats, Skills and Quests menus (and your first look at the HUD after creating a character), a short interactive tutorial highlights each part of the screen. Press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn them off, or see them all again, from '''Config''' → '''Interface'''. Almost every screen has a tutorial.</translate>}}
+{{Note|title=<translate><!--T:11--> Tutorials</translate>|<translate><!--T:12--> The first time you open the race selection, the character customization, the Stats, Skills and Quests menus (and your first look at the HUD after creating a character), a short interactive tutorial highlights each part of the screen. Press {{Key|Enter}} or {{Key|Space}} for the next step, or {{Key|Esc}} to skip. You can turn them off, or see them all again, from '''Config''' → '''Interface'''. Almost every screen has a tutorial.</translate>}}
 
 <translate>
-== Character Menu ==
+== Character Menu == <!--T:13-->
 
+<!--T:14-->
 A tabbed window opened with {{Key|V}}. Each tab is a button along the menu. Use the '''+/-''' size buttons (or the '''Menu Panel Scale''' option in Config) to make the menu bigger or smaller; the panels keep their pixel-art frame at any size.
 
-=== Stats ===
+=== Stats === <!--T:15-->
 
+<!--T:16-->
 Your main character page:
 </translate>
 
-* <translate>Your '''name, level, Battle Power''', [[Special:MyLanguage/Alignment|alignment]] and [[Special:MyLanguage/Classes|class]].</translate>
-* <translate>The '''six attribute buttons''' ('''STR, SKP, RES, VIT, PWR''' and '''ENE'''): click one to '''spend Training Points''' and raise that stat (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The '''TPC''' box shows the TP cost of the next point; if you have pending '''Attribute Points''' (for example after a respec) they are spent first, at no TP cost.</translate>
-* <translate>The '''Statistics''' list: damage, defense, health, ki, stamina, speed, form multipliers and drains, and more, with the real costs charged by the server (stat costs, stamina regeneration and per-hit cost, form drains). Hover a row for details; hold {{Key|Shift}} for advanced descriptions.</translate>
-* <translate>'''TP Multiplier''': hover it to see where each bonus comes from (class, gravity, weights, effects, [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]…). See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].</translate>
-* <translate>'''Gravity''': your current gravity, stat penalty, weights and training zone (see [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity|Gravity]]).</translate>
-* <translate>The stats can be shown as a '''list''' or as a '''hexagon''' chart ('''Hexagon Stats Display''' in Config).</translate>
+* <translate><!--T:17--> Your '''name, level, Battle Power''', [[Special:MyLanguage/Alignment|alignment]] and [[Special:MyLanguage/Classes|class]].</translate>
+* <translate><!--T:18--> The '''six attribute buttons''' ('''STR, SKP, RES, VIT, PWR''' and '''ENE'''): click one to '''spend Training Points''' and raise that stat (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). The '''TPC''' box shows the TP cost of the next point; if you have pending '''Attribute Points''' (for example after a respec) they are spent first, at no TP cost.</translate>
+* <translate><!--T:19--> The '''Statistics''' list: damage, defense, health, ki, stamina, speed, form multipliers and drains, and more, with the real costs charged by the server (stat costs, stamina regeneration and per-hit cost, form drains). Hover a row for details; hold {{Key|Shift}} for advanced descriptions.</translate>
+* <translate><!--T:20--> '''TP Multiplier''': hover it to see where each bonus comes from (class, gravity, weights, effects, [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]]…). See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].</translate>
+* <translate><!--T:21--> '''Gravity''': your current gravity, stat penalty, weights and training zone (see [[Special:MyLanguage/Weights|Weights]] and [[Special:MyLanguage/Gravity|Gravity]]).</translate>
+* <translate><!--T:22--> The stats can be shown as a '''list''' or as a '''hexagon''' chart ('''Hexagon Stats Display''' in Config).</translate>
 
 <translate>
-=== Party ===
+=== Party === <!--T:23-->
 
+<!--T:24-->
 Create and manage your party: invite online players, accept or reject invitations, kick members, leave or disband, and toggle party PvP. Party members can play quests together (see [[Special:MyLanguage/Sagas#Parties|Sagas]]), see each other on the [[Special:MyLanguage/HUD#Party markers|party HUD]] and get markers over each other's heads.
 
+<!--T:25-->
 Once you are in a party, the '''Invite Players''' button lists the online players who aren't in it yet; going back from that list keeps your party and the invitations you already sent. Only the leader sends invitations: when another member picks a player, the leader gets a suggestion to invite them instead. When an invitation can't be sent, the chat tells you why (the level gap is too large, the party is full, the player is offline or plays on a higher difficulty).
 
+<!--T:26-->
 The player who creates the party leads it. If they log off, the lead passes to another online member until they come back, and the chat tells everyone who leads. The leader can kick members, even offline ones, but never the creator. Only the creator can disband the party: their own button reads '''Disband''' instead of '''Leave''', and leaving as the creator disbands it.
 
+<!--T:27-->
 '''Join Party''' lists your invitations with who sent them, the party's story difficulty and the time left (an invitation expires after 60 seconds). You can accept an invitation while you are in another party: you leave your old party when you join the new one (if you created it and it has other members, it is disbanded). You can only join a party that plays on your difficulty or higher, and joining a party on a higher difficulty raises yours '''permanently''', so the '''Accept''' button turns into '''Confirm & Join''' and needs a second click. Nobody can join or be invited to a party while its [[Special:MyLanguage/Tournaments|tournament]] is underway. See also <code>/dmzparty</code> on [[Special:MyLanguage/Commands|Commands]].
 
-=== Skills ===
+=== Skills === <!--T:28-->
 
+<!--T:29-->
 Learn and level your '''skills, techniques and transformations''' by spending Training Points. The tabs are '''Skills''', [[Special:MyLanguage/Ki Attacks|Ki Attacks]], [[Special:MyLanguage/Strike Attacks|Strike Attacks]], '''Evasion Attacks''' and '''Forms'''. Racial skills are listed here too, one entry per racial ability. Double-click an entry to buy it. Buying a skill or technique requires being near a master who offers it, and locked forms show what they are waiting for (for example "Locked until: Frieza Saga - Quest 10").
 
+<!--T:30-->
 Techniques can be bound to a technique slot ('''Bind to Slot'''); a race-locked technique shows '''Not usable by your race''' instead, and the masters' shop lists the allowed races on a '''Race''' line. '''Create Skill''' opens the Technique Creator. [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]] and [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] only work while switched on here. See [[Special:MyLanguage/Skills|Skills]], [[Special:MyLanguage/Techniques|Techniques]] and [[Special:MyLanguage/Transformations|Transformations]].
 
-=== Quests ===
+=== Quests === <!--T:31-->
 
+<!--T:32-->
 The '''Quest Tree''': your story progress, objectives and rewards. The left panel lists every saga as a collapsible dropdown with its completed/total counter; quests with side branches expand the same way. Select a quest node to see its description, objectives and rewards, '''Start Quest''', '''Track''' it on your HUD, and '''Claim Rewards''' once it is complete. Hovering an Attributes reward shows how it splits into Attribute Points and TP. See [[Special:MyLanguage/Sagas|Sagas]].
 </translate>
 
-{{Note|type=warning|title=<translate>Story difficulty is chosen once</translate>|<translate>The first time you open the Quests tab you pick '''Easy''', '''Normal''' or '''Hard'''. Difficulty scales the health and damage of the enemies spawned by your quests (only for you and your party) and your training-point and quest-reward multipliers. The choice is '''permanent''': the only way to change it later is the '''Change Difficulty''' wish (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]), although operators can also set it with <code>/dmzquest difficulty</code>. In a party, everyone plays on the party leader's difficulty.</translate>}}
+{{Note|type=warning|title=<translate><!--T:33--> Story difficulty is chosen once</translate>|<translate><!--T:34--> The first time you open the Quests tab you pick '''Easy''', '''Normal''' or '''Hard'''. Difficulty scales the health and damage of the enemies spawned by your quests (only for you and your party) and your training-point and quest-reward multipliers. The choice is '''permanent''': the only way to change it later is the '''Change Difficulty''' wish (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]), although operators can also set it with <code>/dmzquest difficulty</code>. In a party, everyone plays on the party leader's difficulty.</translate>}}
 
 <translate>
-=== Minigames ===
+=== Minigames === <!--T:35-->
 
+<!--T:36-->
 The training minigames ('''Rhythm''', [[Special:MyLanguage/Ki Control|Ki Control]], '''Shadow Boxing''', '''Precision''' and '''Gravity''') and the '''Shadow Dummy''', all of which reward Training Points. A minigame has to be '''learned from its master''' first (three runs that reach level 5); after that you can play it from here at any time. See [[Special:MyLanguage/Training Minigames|Training Minigames]].
 
-=== Config ===
+=== Config === <!--T:37-->
 </translate>
 {{Config|General User Config}}
 <translate>
+<!--T:38-->
 Your personal DragonMineZ settings, grouped in collapsible categories with a '''search box''' on top. They are saved on your computer, not on the server.
 </translate>
 
 {| class="wikitable"
-! <translate>Category</translate> !! <translate>Option</translate> !! <translate>What it does</translate>
+! <translate><!--T:39--> Category</translate> !! <translate><!--T:40--> Option</translate> !! <translate><!--T:41--> What it does</translate>
 |-
-| rowspan="12" | <translate>'''Interface'''</translate> || <translate>'''HUD Layout'''</translate> || <translate>Opens the [[Special:MyLanguage/HUD#The HUD Editor|HUD Editor]], where you also pick the HUD style.</translate>
+| rowspan="12" | <translate><!--T:42--> '''Interface'''</translate> || <translate><!--T:43--> '''HUD Layout'''</translate> || <translate><!--T:44--> Opens the [[Special:MyLanguage/HUD#The HUD Editor|HUD Editor]], where you also pick the HUD style.</translate>
 |-
-| <translate>'''Always Visible HUD Values'''</translate> || <translate>Keeps the numbers on your HUD bars visible instead of fading them out.</translate>
+| <translate><!--T:45--> '''Always Visible HUD Values'''</translate> || <translate><!--T:46--> Keeps the numbers on your HUD bars visible instead of fading them out.</translate>
 |-
-| <translate>'''Hide HUD Numbers'''</translate> || <translate>Hides the numbers on your bars, side meters and party rows completely.</translate>
+| <translate><!--T:47--> '''Hide HUD Numbers'''</translate> || <translate><!--T:48--> Hides the numbers on your bars, side meters and party rows completely.</translate>
 |-
-| <translate>'''Party Markers'''</translate> || <translate>Shows a marker over each party member's head.</translate>
+| <translate><!--T:49--> '''Party Markers'''</translate> || <translate><!--T:50--> Shows a marker over each party member's head.</translate>
 |-
-| <translate>'''Ki Sense - Accumulative Damage'''</translate> || <translate>Sums up the damage a sensed target takes instead of showing single popups.</translate>
+| <translate><!--T:51--> '''Ki Sense - Accumulative Damage'''</translate> || <translate><!--T:52--> Sums up the damage a sensed target takes instead of showing single popups.</translate>
 |-
-| <translate>'''Advanced Description'''</translate> || <translate>Shows the value of each HUD bar next to it.</translate>
+| <translate><!--T:53--> '''Advanced Description'''</translate> || <translate><!--T:54--> Shows the value of each HUD bar next to it.</translate>
 |-
-| <translate>'''Adv. Desc. (Percentage)'''</translate> || <translate>Shows those values as a percentage instead of current / maximum.</translate>
+| <translate><!--T:55--> '''Adv. Desc. (Percentage)'''</translate> || <translate><!--T:56--> Shows those values as a percentage instead of current / maximum.</translate>
 |-
-| <translate>'''Hexagon Stats Display'''</translate> || <translate>Shows the Stats tab as a hexagon chart instead of a list.</translate>
+| <translate><!--T:57--> '''Hexagon Stats Display'''</translate> || <translate><!--T:58--> Shows the Stats tab as a hexagon chart instead of a list.</translate>
 |-
-| <translate>'''Menu Panel Scale'''</translate> || <translate>Size of the menu panels (0.5 to 2.5).</translate>
+| <translate><!--T:59--> '''Menu Panel Scale'''</translate> || <translate><!--T:60--> Size of the menu panels (0.5 to 2.5).</translate>
 |-
-| <translate>'''Utility Menu Scale'''</translate> || <translate>Size of the Utility Menu (0.5 to 2.5).</translate>
+| <translate><!--T:61--> '''Utility Menu Scale'''</translate> || <translate><!--T:62--> Size of the Utility Menu (0.5 to 2.5).</translate>
 |-
-| <translate>'''Tutorials'''</translate> || <translate>Turns the interactive tutorials on or off.</translate>
+| <translate><!--T:63--> '''Tutorials'''</translate> || <translate><!--T:64--> Turns the interactive tutorials on or off.</translate>
 |-
-| <translate>'''Show Tutorials Again'''</translate> || <translate>Forgets the tutorials you have already seen.</translate>
+| <translate><!--T:65--> '''Show Tutorials Again'''</translate> || <translate><!--T:66--> Forgets the tutorials you have already seen.</translate>
 |-
-| rowspan="5" | <translate>'''Gameplay'''</translate> || <translate>'''Camera Movement while Flying'''</translate> || <translate>Tilts (banks) the camera with your flight turns.</translate>
+| rowspan="5" | <translate><!--T:67--> '''Gameplay'''</translate> || <translate><!--T:68--> '''Camera Movement while Flying'''</translate> || <translate><!--T:69--> Tilts (banks) the camera with your flight turns.</translate>
 |-
-| <translate>'''Flight Turn Sensitivity'''</translate> || <translate>Mouse turn sensitivity while flying.</translate>
+| <translate><!--T:70--> '''Flight Turn Sensitivity'''</translate> || <translate><!--T:71--> Mouse turn sensitivity while flying.</translate>
 |-
-| <translate>'''Over Shoulder Camera'''</translate> || <translate>Opens its own settings: mode (disabled, lock-on only or always), shoulder side, distance, height, sideways offset and smoothing.</translate>
+| <translate><!--T:72--> '''Over Shoulder Camera'''</translate> || <translate><!--T:73--> Opens its own settings: mode (disabled, lock-on only or always), shoulder side, distance, height, sideways offset and smoothing.</translate>
 |-
-| <translate>'''Reserve First Hotbar Slot'''</translate> || <translate>Items you pick up (or receive from rewards, <code>/give</code> and so on) never land in your first hotbar slot, so that slot stays empty unless you put something there yourself. The server keeps the setting, also after you die.</translate>
+| <translate><!--T:74--> '''Reserve First Hotbar Slot'''</translate> || <translate><!--T:75--> Items you pick up (or receive from rewards, <code>/give</code> and so on) never land in your first hotbar slot, so that slot stays empty unless you put something there yourself. The server keeps the setting, also after you die.</translate>
 |-
-| <translate>'''Stat Growth''' toggles</translate> || <translate>One toggle per stat, only when the server has [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] on.</translate>
+| <translate><!--T:76--> '''Stat Growth''' toggles</translate> || <translate><!--T:77--> One toggle per stat, only when the server has [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] on.</translate>
 |-
-| rowspan="7" | <translate>'''Visuals'''</translate> || <translate>'''My Aura - 3D Style'''</translate> || <translate>Draws your aura in 3D instead of 2D. Other players also see your aura in the style you picked.</translate>
+| rowspan="7" | <translate><!--T:78--> '''Visuals'''</translate> || <translate><!--T:79--> '''My Aura - 3D Style'''</translate> || <translate><!--T:80--> Draws your aura in 3D instead of 2D. Other players also see your aura in the style you picked.</translate>
 |-
-| <translate>'''My Aura - 3D Type'''</translate> || <translate>Smooth, Sparking or (Glind only) God.</translate>
+| <translate><!--T:81--> '''My Aura - 3D Type'''</translate> || <translate><!--T:82--> Smooth, Sparking or (Glind only) God.</translate>
 |-
-| <translate>'''Enemy Auras - 3D Style'''</translate> || <translate>Draws the auras of NPCs and enemies in 3D.</translate>
+| <translate><!--T:83--> '''Enemy Auras - 3D Style'''</translate> || <translate><!--T:84--> Draws the auras of NPCs and enemies in 3D.</translate>
 |-
-| <translate>'''Transformation Outlines'''</translate> || <translate>Shows the outline effect while transforming.</translate>
+| <translate><!--T:85--> '''Transformation Outlines'''</translate> || <translate><!--T:86--> Shows the outline effect while transforming.</translate>
 |-
-| <translate>'''Enable Impact Frames'''</translate> || <translate>Enables the impact-frame screen flashes some hits and ki attacks trigger.</translate>
+| <translate><!--T:87--> '''Enable Impact Frames'''</translate> || <translate><!--T:88--> Enables the impact-frame screen flashes some hits and ki attacks trigger.</translate>
 |-
-| <translate>'''Use Animated First Person Model'''</translate> || <translate>Uses the animated DragonMineZ model in first person.</translate>
+| <translate><!--T:89--> '''Use Animated First Person Model'''</translate> || <translate><!--T:90--> Uses the animated DragonMineZ model in first person.</translate>
 |-
-| <translate>'''Solar Flare - Invert Palette'''</translate> || <translate>Inverts the colors of the Solar Flare blinding flash.</translate>
+| <translate><!--T:91--> '''Solar Flare - Invert Palette'''</translate> || <translate><!--T:92--> Inverts the colors of the Solar Flare blinding flash.</translate>
 |-
-| <translate>'''Audio'''</translate> || <translate>'''Ki Sound Volume (%)'''</translate> || <translate>Volume of the ki sounds (charging, ki blasts, beams and their explosions), from 0 to 100%.</translate>
+| <translate><!--T:93--> '''Audio'''</translate> || <translate><!--T:94--> '''Ki Sound Volume (%)'''</translate> || <translate><!--T:95--> Volume of the ki sounds (charging, ki blasts, beams and their explosions), from 0 to 100%.</translate>
 |}
 
 <translate>
-== Utility Menu ==
+== Utility Menu == <!--T:96-->
 
+<!--T:97-->
 A radial wheel for the heat of battle. '''Hold''' {{Key|X}} to open it, hover a slice and click; '''release''' {{Key|X}} (or press {{Key|Esc}}) to close it. Every entry has its own icon. The wheel has these slices:
 </translate>
 
 {| class="wikitable"
-! <translate>Slice</translate> !! <translate>What it holds</translate>
+! <translate><!--T:98--> Slice</translate> !! <translate><!--T:99--> What it holds</translate>
 |-
-| <translate>'''Super Forms'''</translate> || <translate>Your Super, Legendary and Android form groups.</translate>
+| <translate><!--T:100--> '''Super Forms'''</translate> || <translate><!--T:101--> Your Super, Legendary and Android form groups.</translate>
 |-
-| <translate>'''Extra Forms'''</translate> || <translate>Every other form group of your race (god forms and so on).</translate>
+| <translate><!--T:102--> '''Extra Forms'''</translate> || <translate><!--T:103--> Every other form group of your race (god forms and so on).</translate>
 |-
-| <translate>'''Stack Skills'''</translate> || <translate>Stack forms such as Kaioken.</translate>
+| <translate><!--T:104--> '''Stack Skills'''</translate> || <translate><!--T:105--> Stack forms such as Kaioken.</translate>
 |-
-| <translate>'''Movement'''</translate> || <translate>Toggle the [[Special:MyLanguage/Fly|Fly]], '''Jump''' and '''Sprint''' skills. Hovering [[Special:MyLanguage/Fly|Fly]] opens its flight options: '''Search Fly / Combat Fly''', '''Flight Speed''' and '''Mode Lock'''.</translate>
+| <translate><!--T:106--> '''Movement'''</translate> || <translate><!--T:107--> Toggle the [[Special:MyLanguage/Fly|Fly]], '''Jump''' and '''Sprint''' skills. Hovering [[Special:MyLanguage/Fly|Fly]] opens its flight options: '''Search Fly / Combat Fly''', '''Flight Speed''' and '''Mode Lock'''.</translate>
 |-
-| <translate>'''Descend'''</translate> || <translate>Power down one step: it drops your stack form first, then your form; in base form it sets your Power Release to 0%. Only shown when there is something to drop.</translate>
+| <translate><!--T:108--> '''Descend'''</translate> || <translate><!--T:109--> Power down one step: it drops your stack form first, then your form; in base form it sets your Power Release to 0%. Only shown when there is something to drop.</translate>
 |-
-| <translate>'''Actions'''</translate> || <translate>'''Racial Skill''' (Zenkai, Assimilation, Absorption, Vital Drain…; for Saiyans also hide or show the tail), the Namekian '''Regeneration''', '''Fusion''', '''Limit Release''', '''Ki Weapons''' and '''Ki Actions''' (Aura, Friendly Fist, Ki Protection and Ki Infusion).</translate>
+| <translate><!--T:110--> '''Actions'''</translate> || <translate><!--T:111--> '''Racial Skill''' (Zenkai, Assimilation, Absorption, Vital Drain…; for Saiyans also hide or show the tail), the Namekian '''Regeneration''', '''Fusion''', '''Limit Release''', '''Ki Weapons''' and '''Ki Actions''' (Aura, Friendly Fist, Ki Protection and Ki Infusion).</translate>
 |}
 
-* <translate>'''Forms:''' click a form to '''select''' it as your next transformation (then charge it with {{Key|G}}); '''double-click''' to transform instantly. See [[Special:MyLanguage/Transformations|Transformations]].</translate>
-* <translate>'''Limit Release:''' pick a maximum Power Release (5% steps, up to your max). Charging stops at that limit. Click it again while a limit is active to remove it. You can also hover it and use the '''mouse wheel''' to raise or lower the limit by 5%.</translate>
-* <translate>'''Search Fly / Combat Fly:''' switch your flight mode (same as {{Key|Alt}} + {{Key|F}}). See [[Special:MyLanguage/Combat#Combat flight|Combat]].</translate>
-* <translate>'''Flight Speed:''' cap your flight speed between 5% and 100% (5% steps); the cap also slows rising and descending. Click it again to go back to 100%, or hover it and use the '''mouse wheel'''.</translate>
-* <translate>'''Mode Lock:''' remembers the flight mode you chose. When taking or dealing damage forces you from Search Fly into Combat Fly, you are switched back to your chosen mode as soon as the Combat Fly lock ends.</translate>
-* <translate>When a category has more than 5 entries, the last slot becomes '''More''': it opens a list where you can '''drag entries to reorder them'''. Your order is saved on your computer.</translate>
-* <translate>Add-ons can add their own slices to the two free slots of the wheel.</translate>
+* <translate><!--T:112--> '''Forms:''' click a form to '''select''' it as your next transformation (then charge it with {{Key|G}}); '''double-click''' to transform instantly. See [[Special:MyLanguage/Transformations|Transformations]].</translate>
+* <translate><!--T:113--> '''Limit Release:''' pick a maximum Power Release (5% steps, up to your max). Charging stops at that limit. Click it again while a limit is active to remove it. You can also hover it and use the '''mouse wheel''' to raise or lower the limit by 5%.</translate>
+* <translate><!--T:114--> '''Search Fly / Combat Fly:''' switch your flight mode (same as {{Key|Alt}} + {{Key|F}}). See [[Special:MyLanguage/Combat#Combat flight|Combat]].</translate>
+* <translate><!--T:115--> '''Flight Speed:''' cap your flight speed between 5% and 100% (5% steps); the cap also slows rising and descending. Click it again to go back to 100%, or hover it and use the '''mouse wheel'''.</translate>
+* <translate><!--T:116--> '''Mode Lock:''' remembers the flight mode you chose. When taking or dealing damage forces you from Search Fly into Combat Fly, you are switched back to your chosen mode as soon as the Combat Fly lock ends.</translate>
+* <translate><!--T:117--> When a category has more than 5 entries, the last slot becomes '''More''': it opens a list where you can '''drag entries to reorder them'''. Your order is saved on your computer.</translate>
+* <translate><!--T:118--> Add-ons can add their own slices to the two free slots of the wheel.</translate>
 
 <translate>
-== NPC dialogue ==
+== NPC dialogue == <!--T:119-->
 
+<!--T:120-->
 '''Right-click''' a master or a quest NPC to talk to them (you need to have created your character first). The dialogue opens as a band across the bottom of the screen, with a live portrait of the NPC on the left, their line in the middle (typed out like a typewriter) and your options on the right. It gathers everything that NPC offers in one menu:
 </translate>
 
-* <translate>'''Quests''', in story order: accept, turn in, see why a quest is still locked, and look back at the ones you completed. The window stays open while you accept or turn in quests.</translate>
-* <translate>'''Skills''': the master's skill shop.</translate>
-* <translate>'''Train''': the '''Shadow Clone''' (a Shadow Dummy copy of you to spar with) and the master's minigame.</translate>
-* <translate>The NPC's '''services''' (healing, Senzu Beans, weights, revive…).</translate>
-* <translate>'''Tournament''', for the tournament hosts.</translate>
+* <translate><!--T:121--> '''Quests''', in story order: accept, turn in, see why a quest is still locked, and look back at the ones you completed. The window stays open while you accept or turn in quests.</translate>
+* <translate><!--T:122--> '''Skills''': the master's skill shop.</translate>
+* <translate><!--T:123--> '''Train''': the '''Shadow Clone''' (a Shadow Dummy copy of you to spar with) and the master's minigame.</translate>
+* <translate><!--T:124--> The NPC's '''services''' (healing, Senzu Beans, weights, revive…).</translate>
+* <translate><!--T:125--> '''Tournament''', for the tournament hosts.</translate>
 
 <translate>
+<!--T:126-->
 Options you can't use yet stay visible but locked: hover them to see why. Cooldowns show a live timer. Click an option, or use {{Key|↑}} / {{Key|↓}} and {{Key|Enter}}, or the number keys {{Key|1}}–{{Key|9}}. {{Key|Space}} or {{Key|Enter}}, or a click on the text, shows the whole line at once. '''Back''' (or {{Key|Backspace}}, or a right-click) goes up one page; '''Close''' or {{Key|Esc}} leaves.
 
+<!--T:127-->
 What each NPC offers is listed on [[Special:MyLanguage/Masters|Masters]].
 
-== Other screens ==
+== Other screens == <!--T:128-->
 </translate>
 
-* <translate>'''Wishes screen''': left-click a wish to pick it, right-click to remove your last pick of that wish; slots are numbered, and revive wishes have an in-screen target picker. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].</translate>
-* <translate>'''Tournament screen''': the bracket, the rules and the Ready check of a tournament. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
-* <translate>'''Space Pod menu''': press {{Key|H}} while riding a [[Special:MyLanguage/Space Pod|Space Pod]] to pick a destination.</translate>
-* <translate>'''Technique Creator''': opened with '''Create Skill''' in the Skills tab. See [[Special:MyLanguage/Techniques|Techniques]].</translate>
+* <translate><!--T:129--> '''Wishes screen''': left-click a wish to pick it, right-click to remove your last pick of that wish; slots are numbered, and revive wishes have an in-screen target picker. See [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].</translate>
+* <translate><!--T:130--> '''Tournament screen''': the bracket, the rules and the Ready check of a tournament. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
+* <translate><!--T:131--> '''Space Pod menu''': press {{Key|H}} while riding a [[Special:MyLanguage/Space Pod|Space Pod]] to pick a destination.</translate>
+* <translate><!--T:132--> '''Technique Creator''': opened with '''Create Skill''' in the Skills tab. See [[Special:MyLanguage/Techniques|Techniques]].</translate>
 
 {{Navbox Mechanics}}

@@ -1,0 +1,187 @@
+{
+ "Page_display_title": {
+  "source": "Strike Attacks",
+  "translation": "Ataques de Golpe",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Strike attacks''' are close-range techniques: you rush to your target and unleash a powerful melee sequence such as the Dragon Fist or the Meteor. Their damage scales with your '''Strike Damage (SKP)''' and they activate the moment you press the slot key, with no charging.",
+  "translation": "Os '''ataques de golpe''' são técnicas de curto alcance: você avança até o alvo e desfere uma poderosa sequência corpo a corpo, como o Punho do Dragão ou o Meteoro. O dano deles escala com o seu '''Dano de golpe (SKP)''' e eles são ativados no momento em que você aperta a tecla do slot, sem carga.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How strike attacks work ==",
+  "translation": "== Como funcionam os ataques de golpe ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "* You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand. The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] is the exception: it needs the Brave Sword in your hand.\n* When you use a strike attack, it looks for a target in front of you: your lock-on target first, then the last enemy you hit, otherwise the one closest to your crosshair, within a '''6-block''' cone ('''12 blocks''' while flying). If it finds one, you appear right in front of it and the technique starts.\n* Otherwise you '''rush''': for up to '''2 seconds''' you fly forward at high speed with your aura on, or straight at your locked-on target if it is within '''64 blocks'''. The technique starts as soon as you reach an enemy, and a higher [[Special:MyLanguage/Fly|Fly]] level makes the rush faster.\n* If the rush ends without reaching anyone, it's a miss: 40% of the Ki is refunded and the cooldown is halved.\n* The Dragon Fist, Deadly Dance, Deadly Dance (Vegetto), Super God Fist, Wolf Fang and Gum Punch don't rush: with nothing in reach they start right away and hit whatever they meet.\n* Two fighters rushing at each other start a [[Special:MyLanguage/Strike Clash|strike clash]], a timing duel decided like a beam clash.\n* Some story enemies rush at you with strike techniques too (see [[Special:MyLanguage/Sagas#Enemy AI tiers|Sagas]]).\n* Only one strike attack can run at a time, and every strike starts a short '''shared cooldown''' (3 seconds by default), so owning several strikes doesn't let you chain them.\n* Strike attacks gain experience when they hit, which you spend on damage and cooldown upgrades (−2.5% cooldown per level, up to −50%).",
+  "translation": "* Você precisa de [[Special:MyLanguage/Ki Control|Controle de Ki]], de pelo menos 5% de Liberação de Poder e da mão principal vazia. O [[Special:MyLanguage/Shining Sword Attack|Ataque da Espada Brilhante]] é a exceção: ele exige a Espada Valente na mão.\n* Quando você usa um ataque de golpe, ele procura um alvo à sua frente: primeiro o seu alvo travado, depois o último inimigo que você acertou e, se não houver, o mais próximo da sua mira, dentro de um cone de '''6 blocos''' ('''12 blocos''' voando). Se encontrar um, você aparece bem na frente dele e a técnica começa.\n* Caso contrário, você '''avança''': por até '''2 segundos''' você voa para a frente em alta velocidade com a aura acesa, ou direto até o seu alvo travado se ele estiver a até '''64 blocos'''. A técnica começa assim que você alcança um inimigo, e um nível maior de [[Special:MyLanguage/Fly|Voar]] deixa a investida mais rápida.\n* Se a investida terminar sem alcançar ninguém, é um erro: 40% do Ki é devolvido e a recarga cai pela metade.\n* O Punho do Dragão, a Dança Mortal, a Dança Mortal (Vegetto), o Super Punho Divino, a Presa de Lobo e o Soco de Goma não avançam: sem nada ao alcance, eles começam na hora e acertam o que encontrarem.\n* Dois lutadores avançando um contra o outro iniciam um [[Special:MyLanguage/Strike Clash|choque de golpes]], um duelo de tempo decidido como um choque de energia.\n* Alguns inimigos da história também avançam contra você com técnicas de golpe (veja [[Special:MyLanguage/Sagas#Enemy AI tiers|Sagas]]).\n* Só um ataque de golpe pode ser executado por vez, e cada golpe inicia uma breve '''recarga compartilhada''' (3 segundos por padrão), então ter vários golpes não permite encadeá-los.\n* Os ataques de golpe ganham experiência ao acertar, que você gasta em melhorias de dano e de recarga (−2.5% de recarga por nível, até −50%).",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Strike attacks taught by masters ==",
+  "translation": "== Ataques de golpe ensinados pelos mestres ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Cooldowns are before XP upgrades. The TP cost is paid once to unlock the technique.",
+  "translation": "As recargas são as de antes das melhorias com XP. O custo em TP é pago uma única vez para desbloquear a técnica.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "7": {
+  "source": "Taught by",
+  "translation": "Ensinado por",
+  "outdated": false
+ },
+ "8": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "9": {
+  "source": "Damage multiplier",
+  "translation": "Multiplicador de dano",
+  "outdated": false
+ },
+ "10": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "11": {
+  "source": "Meteor",
+  "translation": "Meteoro",
+  "outdated": false
+ },
+ "12": {
+  "source": "Wolf Fang",
+  "translation": "Presa de Lobo",
+  "outdated": false
+ },
+ "13": {
+  "source": "Kaioken Attack",
+  "translation": "Kaioken Ataque",
+  "outdated": false
+ },
+ "14": {
+  "source": "Dragon Fist",
+  "translation": "Punho do Dragão",
+  "outdated": false
+ },
+ "15": {
+  "source": "Deadly Dance",
+  "translation": "Dança Mortal",
+  "outdated": false
+ },
+ "16": {
+  "source": "Super God Fist",
+  "translation": "Super Punho Divino",
+  "outdated": false
+ },
+ "17": {
+  "source": "Deadly Dance (Vegetto)",
+  "translation": "Dança Mortal (Vegetto)",
+  "outdated": false
+ },
+ "18": {
+  "source": "Spirit Breaking Cannon",
+  "translation": "Canhão Quebra-Espírito",
+  "outdated": false
+ },
+ "19": {
+  "source": "Oozaru Fist",
+  "translation": "Punho Oozaru",
+  "outdated": false
+ },
+ "20": {
+  "source": "Gum Punch",
+  "translation": "Soco de Goma",
+  "outdated": false
+ },
+ "21": {
+  "source": "Mystic Ball Attack",
+  "translation": "Ataque da Bola Mística",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Gum Punch''' and the '''Mystic Ball Attack''' are Majin techniques: any race can learn them from Majin Buu, but only a [[Special:MyLanguage/Majin|Majin]] can equip them in a technique slot. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].",
+  "translation": "O '''Soco de Goma''' e o '''Ataque da Bola Mística''' são técnicas Majin: qualquer raça pode aprendê-las com Majin Boo, mas só um [[Special:MyLanguage/Majin|Majin]] pode equipá-las em um slot de técnica. Veja [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]].",
+  "outdated": false
+ },
+ "23": {
+  "source": "The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].",
+  "translation": "O [[Special:MyLanguage/Shining Sword Attack|Ataque da Espada Brilhante]] só pode ser usado enquanto você empunha a [[Special:MyLanguage/Brave Sword|Espada Valente]].",
+  "outdated": false
+ },
+ "24": {
+  "source": "The '''Dragon Fist''' sends you charging forward behind a golden dragon shaped like [[Special:MyLanguage/Shenron|Shenron]]: it bursts out in front of you with its jaws open, leaves a golden trail behind you, holds the enemies it catches and lunges at the end of the charge.",
+  "translation": "O '''Punho do Dragão''' faz você investir para a frente atrás de um dragão dourado com a forma de [[Special:MyLanguage/Shenron|Shenlong]]: ele surge à sua frente com a boca aberta, deixa um rastro dourado atrás de você, segura os inimigos que pega e dá o bote no fim da investida.",
+  "outdated": false
+ },
+ "25": {
+  "source": "The '''Mystic Ball Attack''' is a bouncing attack that [[Special:MyLanguage/Kid Buu|Kid Buu]] also uses against you in the [[Special:MyLanguage/Buu Saga|Buu Saga]]. A kick launches the target into the air, then you curl up into a pink ball and slam into it six times from different directions, rise above it and dive down to stomp it into the ground. It lasts about 5 seconds: the kick deals 17% of its damage, each bounce 8% and the final stomp 35%. World bosses and giant multi-part enemies can't be carried, so they are pinned in place instead.",
+  "translation": "O '''Ataque da Bola Mística''' é um ataque de quicadas que [[Special:MyLanguage/Kid Buu|Kid Boo]] também usa contra você na [[Special:MyLanguage/Buu Saga|Saga Boo]]. Um chute lança o alvo para o alto, depois você se enrola em uma bola rosa e se choca contra ele seis vezes de direções diferentes, sobe acima dele e mergulha para pisoteá-lo contra o chão. Dura cerca de 5 segundos: o chute causa 17% do dano, cada quicada 8% e o pisão final 35%. Chefes de mundo e inimigos gigantes de várias partes não podem ser carregados, então ficam presos no lugar.",
+  "outdated": false
+ },
+ "26": {
+  "source": "== Strike attacks not taught by default ==",
+  "translation": "== Ataques de golpe não ensinados por padrão ==",
+  "outdated": false
+ },
+ "27": {
+  "source": "No master offers these in the default lists. Server owners can add them to a master's list, and admins can grant them with {{Command|/dmztech add}}.",
+  "translation": "Nenhum mestre os oferece nas listas padrão. Donos de servidores podem adicioná-los à lista de um mestre, e administradores podem concedê-los com {{Command|/dmztech add}}.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Technique",
+  "translation": "Técnica",
+  "outdated": false
+ },
+ "29": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "30": {
+  "source": "Damage multiplier",
+  "translation": "Multiplicador de dano",
+  "outdated": false
+ },
+ "31": {
+  "source": "Cooldown (seconds)",
+  "translation": "Recarga (segundos)",
+  "outdated": false
+ },
+ "32": {
+  "source": "How to get it",
+  "translation": "Como conseguir",
+  "outdated": false
+ },
+ "33": {
+  "source": "15% drop from the {{L|Turles}} world boss. A 10-second combo that mixes strikes, a slam and ki blasts.",
+  "translation": "15% de chance de drop do chefe de mundo {{L|Turles}}. Um combo de 10 segundos que mistura golpes, uma pancada e rajadas de ki.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Oozaru Slam",
+  "translation": "Esmagamento Oozaru",
+  "outdated": false
+ },
+ "35": {
+  "source": "Granted while in Great Ape (Oozaru) form.",
+  "translation": "Concedido enquanto você está na forma de Grande Macaco (Oozaru).",
+  "outdated": false
+ },
+ "36": {
+  "source": "The mod also includes these strike attacks: '''Blue Hurricane''', '''Grab Throw''', '''Meteor Combo''', '''Dimensional Fist''' and '''Dimensional Slash'''. The Grab Throw seizes the target, swings it around four times over about two and a half seconds and then throws it. The Dimensional Slash carves a crescent into the terrain it hits.",
+  "translation": "O mod também inclui estes ataques de golpe: '''Furacão Azul''', '''Agarrar e Arremessar''', '''Combo Meteoro''', '''Punho Dimensional''' e '''Corte Dimensional'''. O Agarrar e Arremessar agarra o alvo, gira com ele quatro vezes ao longo de cerca de dois segundos e meio e depois o arremessa. O Corte Dimensional abre uma meia-lua no terreno que atinge.",
+  "outdated": false
+ }
+}

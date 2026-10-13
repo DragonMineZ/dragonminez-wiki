@@ -1,54 +1,60 @@
 {{Infobox Dimension
 |Gravity=×10
-|Access=<translate>Time Chamber portal at Kami's Lookout; Space Pod after Bulma's Temporal Comm-Link sidequest</translate>
-|Biomes=<translate>Hyperbolic Time Chamber (a single flat void)</translate>
-|Resources=<translate>None</translate>
+|Access=<translate><!--T:1--> Time Chamber portal at Kami's Lookout; Space Pod after Bulma's Temporal Comm-Link sidequest</translate>
+|Biomes=<translate><!--T:2--> Hyperbolic Time Chamber (a single flat void)</translate>
+|Resources=<translate><!--T:3--> None</translate>
 |Inhabitants={{L|Mr. Popo}}
-|Structures=<translate>The entry building, with the portal back to Kami's Lookout</translate>
+|Structures=<translate><!--T:4--> The entry building, with the portal back to Kami's Lookout</translate>
 }}
 <translate>
+<!--T:5-->
 The '''Hyperbolic Time Chamber''' (the Room of Spirit and Time, dimension id <code>dragonminez:time_chamber</code>) is a boundless white void built for one thing: '''training'''. Its gravity is ten times stronger than Earth's and every Training Point you earn inside is multiplied, which makes it the best place to grind [[Special:MyLanguage/Training Points and Mastery|Training Points and form mastery]].
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:6-->
 </translate>
 {{Config|Gravity Config|gravityPerWorld}}
 <translate>
+<!--T:7-->
 The chamber has '''×10''' gravity by default, the highest of any DragonMineZ dimension. Everything is heavier here: movement, jumping and flight are all weighed down, which is exactly what makes it a training ground.
 </translate>
 
 <translate>
-== Environment ==
+== Environment == <!--T:8-->
 </translate>
 <translate>
+<!--T:9-->
 The whole dimension is a flat, endless expanse of '''Time Chamber Block''' under a blank sky. There are no ores and no natural mobs: you bring your own training. You arrive in the chamber's '''entry building''', where [[Special:MyLanguage/Mr. Popo|Mr. Popo]] waits next to a Punch Machine and the portal back to [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]].
 </translate>
 
 <translate>
-== Training ==
+== Training == <!--T:10-->
 </translate>
 {{Config|General Server Config|HTCTpMultiplier}}
 <translate>
+<!--T:11-->
 * Every Training Point you earn inside the chamber is multiplied by '''×1.75''' by default, on top of your other TP boosts. See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].
 * The chamber's gravity still amplifies your [[Special:MyLanguage/Weights|weights]], but it doesn't add the flat gravity TP bonus: the chamber's own TP multiplier replaces it.
 * Inside the chamber, [[Special:MyLanguage/Mr. Popo|Mr. Popo]] offers '''Train''': a Shadow Clone to spar with, or the '''Rhythm''' [[Special:MyLanguage/Training Minigames|training minigame]]. He only offers it here.
 </translate>
 
-{{Note|type=tip|title=<translate>Tip</translate>|<translate>A fast training loop: wear weights inside the chamber with a TP Multiplier effect active, and break it up with master minigames and a Shadow Dummy, which also trains form mastery.</translate>}}
+{{Note|type=tip|title=<translate><!--T:12--> Tip</translate>|<translate><!--T:13--> A fast training loop: wear weights inside the chamber with a TP Multiplier effect active, and break it up with master minigames and a Shadow Dummy, which also trains form mastery.</translate>}}
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:14-->
 </translate>
 <translate>
+<!--T:15-->
 * Use the '''Time Chamber portal''' at [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] on Earth. The portal in the entry building takes you back to the Lookout.
 * Or travel by [[Special:MyLanguage/Space Pod|Space Pod]] once you complete Bulma's ''Temporal Comm-Link'' sidequest. The pod lands at the chamber's entry point (0.5, 130, 0.5).
 </translate>
 
-{{Note|type=warning|<translate>Spirits on a temporary return from [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] burn their remaining time five times faster in the chamber. See [[Special:MyLanguage/Otherworld#Fortuneteller Baba's temporary return|Otherworld]].</translate>}}
+{{Note|type=warning|<translate><!--T:16--> Spirits on a temporary return from [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] burn their remaining time five times faster in the chamber. See [[Special:MyLanguage/Otherworld#Fortuneteller Baba's temporary return|Otherworld]].</translate>}}
 
 <translate>
-In the story, the [[Special:MyLanguage/Buu Saga|Buu Saga]] has you fight Super Buu inside the chamber.
+<!--T:17-->
+In the story, the [[Special:MyLanguage/Buu Saga|Buu Saga]] has you fight [[Special:MyLanguage/Super Buu|Super Buu]] inside the chamber.
 </translate>
 
 {{Navbox Dimensions}}

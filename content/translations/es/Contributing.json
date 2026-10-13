@@ -1,0 +1,327 @@
+{
+ "Page_display_title": {
+  "source": "Contributing",
+  "translation": "Cómo contribuir",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Contributing''' explains how to help DragonMineZ: reporting bugs, testing releases, suggesting features, improving documentation or working on the code. Whatever you want to do, the team is happy to collaborate with you. Please follow these guidelines so the process stays smooth for every contributor. If you want to donate to the project, see [[Special:MyLanguage/Contributing#Supporting the project on Patreon|Supporting the project on Patreon]].",
+  "translation": "'''Cómo contribuir''' explica cómo ayudar a DragonMineZ: reportar errores, probar versiones, sugerir funciones, mejorar la documentación o trabajar en el código. Sea lo que sea que quieras hacer, el equipo estará encantado de colaborar contigo. Sigue estas pautas para que el proceso sea fluido para todos los colaboradores. Si quieres hacer una donación al proyecto, consulta [[Special:MyLanguage/Contributing#Supporting the project on Patreon|Apoyar el proyecto en Patreon]].",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Getting started ==",
+  "translation": "== Primeros pasos ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "# '''Read the Code of Conduct.''' By contributing, you agree to uphold the [https://github.com/DragonMineZ/DragonMineZ/blob/main/.github/CODE_OF_CONDUCT.md Code of Conduct].\n# '''Check the existing issues.''' Look through the [https://github.com/orgs/DragonMineZ/projects/5 issues] to see if someone has already reported your concern or proposed your idea.\n# '''Fork the repository''' and clone your fork to your local environment for testing and development (see below).\n# '''Set up your environment''' with the tools listed below.",
+  "translation": "# '''Lee el Código de Conducta.''' Al contribuir, aceptas respetar el [https://github.com/DragonMineZ/DragonMineZ/blob/main/.github/CODE_OF_CONDUCT.md Código de Conducta].\n# '''Revisa los issues existentes.''' Mira los [https://github.com/orgs/DragonMineZ/projects/5 issues] para ver si alguien ya reportó tu problema o propuso tu idea.\n# '''Haz un fork del repositorio''' y clona tu fork en tu entorno local para probar y desarrollar (ver abajo).\n# '''Prepara tu entorno''' con las herramientas que se indican abajo.",
+  "outdated": false
+ },
+ "4": {
+  "source": "To clone your fork:",
+  "translation": "Para clonar tu fork:",
+  "outdated": false
+ },
+ "5": {
+  "source": "Make sure you have these tools installed:",
+  "translation": "Asegúrate de tener instaladas estas herramientas:",
+  "outdated": false
+ },
+ "6": {
+  "source": "* Java Development Kit (JDK) 17 (the build uses a Java 17 toolchain)\n* Git\n* An IDE with Gradle support (IntelliJ IDEA or Eclipse)",
+  "translation": "* Java Development Kit (JDK) 17 (la compilación usa una toolchain de Java 17)\n* Git\n* Un IDE compatible con Gradle (IntelliJ IDEA o Eclipse)",
+  "outdated": false
+ },
+ "7": {
+  "source": "You don't need to install Gradle or Forge yourself: the repository ships the Gradle wrapper (<code>gradlew</code> / <code>gradlew.bat</code>), which downloads Gradle, Minecraft Forge (<code>1.20.1-47.4.10</code>) and every dependency on the first build.",
+  "translation": "No necesitas instalar Gradle ni Forge por tu cuenta: el repositorio incluye el wrapper de Gradle (<code>gradlew</code> / <code>gradlew.bat</code>), que descarga Gradle, Minecraft Forge (<code>1.20.1-47.4.10</code>) y todas las dependencias en la primera compilación.",
+  "outdated": false
+ },
+ "8": {
+  "source": "If you are not forking the repository or creating an add-on, you can skip step 3. For add-on development, see [[Special:MyLanguage/Add-on Getting Started|Add-on Getting Started]] instead.",
+  "translation": "Si no vas a hacer un fork del repositorio ni a crear un addon, puedes saltarte el paso 3. Para desarrollar addons, consulta [[Special:MyLanguage/Add-on Getting Started|Primeros pasos con addons]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Building and running ==",
+  "translation": "== Compilar y ejecutar ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Run these commands from the repository root (<code>./gradlew</code> on Linux and macOS, <code>.\\gradlew.bat</code> on Windows):",
+  "translation": "Ejecuta estos comandos desde la raíz del repositorio (<code>./gradlew</code> en Linux y macOS, <code>.\\gradlew.bat</code> en Windows):",
+  "outdated": false
+ },
+ "11": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "12": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "13": {
+  "source": "Full build. The shippable jar is <code>build/libs/dragonminez-<version>.jar</code> (it bundles the database libraries); the <code>-slim</code> jar is not meant to be shipped.",
+  "translation": "Compilación completa. El jar que se distribuye es <code>build/libs/dragonminez-<version>.jar</code> (incluye las librerías de base de datos); el jar <code>-slim</code> no está pensado para distribuirse.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Starts a development client (working directory <code>run/</code>).",
+  "translation": "Inicia un cliente de desarrollo (directorio de trabajo <code>run/</code>).",
+  "outdated": false
+ },
+ "15": {
+  "source": "Starts a development dedicated server (working directory <code>run/</code>).",
+  "translation": "Inicia un servidor dedicado de desarrollo (directorio de trabajo <code>run/</code>).",
+  "outdated": false
+ },
+ "16": {
+  "source": "Runs data generation (working directory <code>run-data/</code>) and writes to <code>src/generated/resources/</code>. Run it after changing datagen providers, and review the generated diff.",
+  "translation": "Ejecuta la generación de datos (directorio de trabajo <code>run-data/</code>) y escribe en <code>src/generated/resources/</code>. Ejecútalo después de cambiar los proveedores de datagen y revisa el diff generado.",
+  "outdated": false
+ },
+ "17": {
+  "source": "* There is '''no automated test suite'''. Validate your change with <code>build</code> and, when it affects gameplay, by testing it in <code>runClient</code> and/or <code>runServer</code>.\n* Client-only development mods (JEI runtime, shaders and so on) are only added to <code>runClient</code>. Keep it that way, so they can't leak into generated data or the dedicated server.\n* Resource optimization (PackSquash) runs on CI and is off for local builds by default. Force it with <code>-PoptimizeResources=true</code> or <code>-PoptimizeResources=false</code>.",
+  "translation": "* '''No hay una suite de pruebas automatizadas'''. Valida tu cambio con <code>build</code> y, si afecta a la jugabilidad, probándolo en <code>runClient</code> y/o <code>runServer</code>.\n* Los mods de desarrollo solo para el cliente (JEI runtime, shaders, etc.) solo se añaden a <code>runClient</code>. Mantenlo así para que no se filtren en los datos generados ni en el servidor dedicado.\n* La optimización de recursos (PackSquash) se ejecuta en CI y está desactivada por defecto en las compilaciones locales. Puedes forzarla con <code>-PoptimizeResources=true</code> o <code>-PoptimizeResources=false</code>.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Translations ==",
+  "translation": "== Traducciones ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "* <code>src/main/resources/assets/dragonminez/lang/en_us.json</code> is the source language file. Add an entry there for every new piece of text players can see, and keep existing keys stable.\n* Other languages are translated by the community on Crowdin. The English file is uploaded to Crowdin automatically when it changes on <code>main</code>.\n* Before opening a pull request, check that every language file is valid JSON with <code>scripts/check_lang.sh</code> (it needs <code>jq</code>).",
+  "translation": "* <code>src/main/resources/assets/dragonminez/lang/en_us.json</code> es el archivo de idioma de origen. Añade ahí una entrada por cada texto nuevo que puedan ver los jugadores y mantén estables las claves existentes.\n* Los demás idiomas los traduce la comunidad en Crowdin. El archivo en inglés se sube a Crowdin automáticamente cuando cambia en <code>main</code>.\n* Antes de abrir un pull request, comprueba que todos los archivos de idioma sean JSON válido con <code>scripts/check_lang.sh</code> (necesita <code>jq</code>).",
+  "outdated": false
+ },
+ "20": {
+  "source": "== How to contribute ==",
+  "translation": "== Cómo contribuir ==",
+  "outdated": false
+ },
+ "21": {
+  "source": "=== Reporting bugs ===",
+  "translation": "=== Reportar errores ===",
+  "outdated": false
+ },
+ "22": {
+  "source": "If you have found a bug, open a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml bug report] and include as much detail as possible:",
+  "translation": "Si encontraste un error, abre un [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml reporte de error] e incluye todos los detalles posibles:",
+  "outdated": false
+ },
+ "23": {
+  "source": "* A clear description of the issue\n* Steps to reproduce it\n* Expected and actual results\n* Screenshots, logs or crash reports, if any",
+  "translation": "* Una descripción clara del problema\n* Pasos para reproducirlo\n* Resultado esperado y resultado real\n* Capturas de pantalla, logs o reportes de crash, si los hay",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Game testing ===",
+  "translation": "=== Probar el juego ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Anyone is free to test the public releases and share what they find with the team: bugs, exploits, balance issues, crashes or anything else that seems off. You don't need to be a developer or open a pull request to help this way.",
+  "translation": "Cualquiera puede probar las versiones públicas y compartir lo que encuentre con el equipo: errores, exploits, problemas de balance, crashes o cualquier otra cosa que parezca rara. No necesitas ser desarrollador ni abrir un pull request para ayudar de esta forma.",
+  "outdated": false
+ },
+ "26": {
+  "source": "* Test against '''public releases only'''. Do not test against unreleased or internal builds unless you have been given explicit access.\n* Share your findings in a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml bug report] or on Discord.\n* If what you find is a '''security vulnerability''' (for example, something that could be exploited to harm other players or servers), follow the [[Special:MyLanguage/Security Policy|Security Policy]] instead of opening a public issue.",
+  "translation": "* Prueba '''solo versiones públicas'''. No pruebes versiones internas o sin publicar a menos que te hayan dado acceso explícito.\n* Comparte lo que encuentres en un [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=bug_report.yml reporte de error] o en Discord.\n* Si lo que encuentras es una '''vulnerabilidad de seguridad''' (por ejemplo, algo que se podría explotar para perjudicar a otros jugadores o servidores), sigue la [[Special:MyLanguage/Security Policy|Política de seguridad]] en lugar de abrir un issue público.",
+  "outdated": false
+ },
+ "27": {
+  "source": "=== Suggesting features ===",
+  "translation": "=== Sugerir funciones ===",
+  "outdated": false
+ },
+ "28": {
+  "source": "Have a great idea? Open a [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=feature_request.yml feature request] and provide:",
+  "translation": "¿Tienes una gran idea? Abre una [https://github.com/DragonMineZ/DragonMineZ/issues/new?template=feature_request.yml solicitud de función] e incluye:",
+  "outdated": false
+ },
+ "29": {
+  "source": "* A clear and concise explanation of the feature\n* Its potential benefits and impact\n* Any alternatives or related concepts",
+  "translation": "* Una explicación clara y concisa de la función\n* Sus posibles beneficios e impacto\n* Alternativas o conceptos relacionados",
+  "outdated": false
+ },
+ "30": {
+  "source": "You can also suggest features on the Discord server.",
+  "translation": "También puedes sugerir funciones en el servidor de Discord.",
+  "outdated": false
+ },
+ "31": {
+  "source": "=== Submitting pull requests ===",
+  "translation": "=== Enviar pull requests ===",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''Step 1: Create a branch.''' <code>main</code> holds the current stable release line; the next version is developed on its own version branch (for example <code>v2.2</code>). Base your branch on the one your change is meant for; if you are unsure, ask on Discord. Use a descriptive branch name:",
+  "translation": "'''Paso 1: Crea una rama.''' <code>main</code> contiene la línea estable actual; la próxima versión se desarrolla en su propia rama de versión (por ejemplo, <code>v2.2</code>). Basa tu rama en aquella a la que va dirigido tu cambio; si no estás seguro, pregunta en Discord. Usa un nombre de rama descriptivo:",
+  "outdated": false
+ },
+ "33": {
+  "source": "'''Step 2: Make your changes.'''",
+  "translation": "'''Paso 2: Haz tus cambios.'''",
+  "outdated": false
+ },
+ "34": {
+  "source": "* Write clean and concise code.\n* Test your changes locally to make sure they work as intended.\n* Follow the project's coding conventions and standards.",
+  "translation": "* Escribe código limpio y conciso.\n* Prueba tus cambios en local para asegurarte de que funcionan como esperas.\n* Sigue las convenciones y estándares de código del proyecto.",
+  "outdated": false
+ },
+ "35": {
+  "source": "'''Step 3: Commit your changes''' with a meaningful commit message:",
+  "translation": "'''Paso 3: Haz commit de tus cambios''' con un mensaje de commit significativo:",
+  "outdated": false
+ },
+ "36": {
+  "source": "'''Step 4: Push your changes.'''",
+  "translation": "'''Paso 4: Sube tus cambios (push).'''",
+  "outdated": false
+ },
+ "37": {
+  "source": "'''Step 5: Open a pull request.''' Go to your fork on GitHub and submit a [https://github.com/DragonMineZ/DragonMineZ/pulls pull request].",
+  "translation": "'''Paso 5: Abre un pull request.''' Ve a tu fork en GitHub y envía un [https://github.com/DragonMineZ/DragonMineZ/pulls pull request].",
+  "outdated": false
+ },
+ "38": {
+  "source": "* Describe the changes and link the related issues.\n* Be prepared to discuss and revise your code based on feedback.\n* Every pull request is compiled automatically by the '''Compile Check''' workflow (<code>./gradlew build</code>). If it fails, your pull request will not be merged. Workflow runs for first-time contributors may need a maintainer's approval before they start.",
+  "translation": "* Describe los cambios y enlaza los issues relacionados.\n* Prepárate para discutir y revisar tu código según los comentarios.\n* Cada pull request se compila automáticamente con el workflow '''Compile Check''' (<code>./gradlew build</code>). Si falla, tu pull request no se fusionará. Los workflows de quienes contribuyen por primera vez pueden necesitar la aprobación de un mantenedor antes de ejecutarse.",
+  "outdated": false
+ },
+ "39": {
+  "source": "=== Automated checks ===",
+  "translation": "=== Comprobaciones automáticas ===",
+  "outdated": false
+ },
+ "40": {
+  "source": "Workflow",
+  "translation": "Workflow",
+  "outdated": false
+ },
+ "41": {
+  "source": "When it runs",
+  "translation": "Cuándo se ejecuta",
+  "outdated": false
+ },
+ "42": {
+  "source": "What it does",
+  "translation": "Qué hace",
+  "outdated": false
+ },
+ "43": {
+  "source": "Every pull request, and pushes to any branch except <code>main</code> that touch code, resources or Gradle files",
+  "translation": "Cada pull request, y los push a cualquier rama excepto <code>main</code> que toquen código, recursos o archivos de Gradle",
+  "outdated": false
+ },
+ "44": {
+  "source": "Runs <code>./gradlew build</code>",
+  "translation": "Ejecuta <code>./gradlew build</code>",
+  "outdated": false
+ },
+ "45": {
+  "source": "Pull requests and pushes to <code>main</code> that touch Java or <code>build.gradle.kts</code>",
+  "translation": "Pull requests y push a <code>main</code> que toquen Java o <code>build.gradle.kts</code>",
+  "outdated": false
+ },
+ "46": {
+  "source": "Runs <code>./gradlew build</code> and submits the dependency graph",
+  "translation": "Ejecuta <code>./gradlew build</code> y envía el grafo de dependencias",
+  "outdated": false
+ },
+ "47": {
+  "source": "Pushes to <code>main</code> that touch the lang folder, every 2 days, or manually",
+  "translation": "Push a <code>main</code> que toquen la carpeta lang, cada 2 días o manualmente",
+  "outdated": false
+ },
+ "48": {
+  "source": "Validates the language files with <code>scripts/check_lang.sh</code> and uploads <code>en_us.json</code> to Crowdin",
+  "translation": "Valida los archivos de idioma con <code>scripts/check_lang.sh</code> y sube <code>en_us.json</code> a Crowdin",
+  "outdated": false
+ },
+ "49": {
+  "source": "Daily",
+  "translation": "Diario",
+  "outdated": false
+ },
+ "50": {
+  "source": "Security analysis of the Java code and the workflows",
+  "translation": "Análisis de seguridad del código Java y de los workflows",
+  "outdated": false
+ },
+ "51": {
+  "source": "Releases are published to Modrinth and CurseForge from <code>main</code> by the maintainers' release workflows.",
+  "translation": "Los mantenedores publican las versiones en Modrinth y CurseForge desde <code>main</code> con sus workflows de publicación.",
+  "outdated": false
+ },
+ "52": {
+  "source": "== Contributor guidelines ==",
+  "translation": "== Pautas para colaboradores ==",
+  "outdated": false
+ },
+ "53": {
+  "source": "# '''Coding standards'''\n#* Use descriptive variable and method names.\n#* Format code consistently (indentation, spacing and so on).\n#* Write comments for complex logic.\n# '''Documentation'''\n#* Update or add documentation for new or changed features.\n#* Make sure this [[Special:MyLanguage/Main Page|wiki]] reflects major changes.\n# '''Testing'''\n#* Test thoroughly across the relevant scenarios, including a dedicated server (<code>runServer</code>) when your change touches client classes, networking or server logic.\n#* Fix any linting or compilation issues before submitting your pull request.\n# '''Compatibility'''\n#* Many systems read JSON that players, server owners and add-on authors edit (configs, quests, wishes, Dragon Ball packs). Don't rename or remove config keys, JSON fields, NBT save keys or registry names without discussing it first: older worlds and configs must still load.\n#* Network packets are identified by registration order: add new packets at the end of <code>NetworkHandler.register()</code>, never in the middle.\n#* Validate everything a client sends on the server; never trust the client for stats, unlocks, quests, wishes or progression.\n# '''Project docs'''\n#* <code>CLAUDE.md</code> and the <code>AI/</code> folder (<code>Agents.md</code>, <code>Context.md</code>, <code>Memory.md</code>, <code>QuestAddonAPI.md</code>) describe the architecture, data systems, build and release automation in detail. They are written for AI coding assistants but are just as useful for human contributors: read <code>AI/Context.md</code> before larger changes.",
+  "translation": "# '''Estándares de código'''\n#* Usa nombres descriptivos para variables y métodos.\n#* Formatea el código de manera consistente (sangría, espaciado, etc.).\n#* Escribe comentarios para la lógica compleja.\n# '''Documentación'''\n#* Actualiza o añade documentación para las funciones nuevas o modificadas.\n#* Asegúrate de que esta [[Special:MyLanguage/Main Page|wiki]] refleje los cambios importantes.\n# '''Pruebas'''\n#* Prueba a fondo en los escenarios relevantes, incluido un servidor dedicado (<code>runServer</code>) cuando tu cambio toque clases del cliente, red o lógica del servidor.\n#* Corrige cualquier problema de linting o de compilación antes de enviar tu pull request.\n# '''Compatibilidad'''\n#* Muchos sistemas leen JSON que editan jugadores, dueños de servidores y autores de addons (configuraciones, misiones, deseos, paquetes de Esferas del Dragón). No renombres ni elimines claves de configuración, campos JSON, claves de guardado NBT ni nombres de registro sin hablarlo antes: los mundos y configuraciones antiguos deben seguir cargando.\n#* Los paquetes de red se identifican por su orden de registro: añade los paquetes nuevos al final de <code>NetworkHandler.register()</code>, nunca en medio.\n#* Valida en el servidor todo lo que envíe un cliente; nunca confíes en el cliente para estadísticas, desbloqueos, misiones, deseos o progreso.\n# '''Documentación del proyecto'''\n#* <code>CLAUDE.md</code> y la carpeta <code>AI/</code> (<code>Agents.md</code>, <code>Context.md</code>, <code>Memory.md</code>, <code>QuestAddonAPI.md</code>) describen en detalle la arquitectura, los sistemas de datos, la compilación y la automatización de versiones. Están escritos para asistentes de programación con IA, pero son igual de útiles para colaboradores humanos: lee <code>AI/Context.md</code> antes de hacer cambios grandes.",
+  "outdated": false
+ },
+ "54": {
+  "source": "== Community ==",
+  "translation": "== Comunidad ==",
+  "outdated": false
+ },
+ "55": {
+  "source": "Join the [https://discord.gg/b5MgRNb3D7 Discord server] for real-time discussions.",
+  "translation": "Únete al [https://discord.gg/b5MgRNb3D7 servidor de Discord] para conversar en tiempo real.",
+  "outdated": false
+ },
+ "56": {
+  "source": "== Supporting the project on Patreon ==",
+  "translation": "== Apoyar el proyecto en Patreon ==",
+  "outdated": false
+ },
+ "57": {
+  "source": "DragonMineZ is a community-driven project, and your support helps the team keep improving it and delivering new features. Consider becoming a patron on [https://patreon.com/DragonMineZ Patreon] to support the development and maintenance of the mod.",
+  "translation": "DragonMineZ es un proyecto impulsado por la comunidad, y tu apoyo ayuda al equipo a seguir mejorándolo y a lanzar nuevas funciones. Considera hacerte patrocinador en [https://patreon.com/DragonMineZ Patreon] para apoyar el desarrollo y el mantenimiento del mod.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Patrons receive exclusive benefits, such as:",
+  "translation": "Los patrocinadores reciben beneficios exclusivos, como:",
+  "outdated": false
+ },
+ "59": {
+  "source": "* Early access to new features\n* Behind-the-scenes updates\n* Recognition in the community",
+  "translation": "* Acceso anticipado a nuevas funciones\n* Novedades del detrás de escena\n* Reconocimiento en la comunidad",
+  "outdated": false
+ },
+ "60": {
+  "source": "Every contribution, no matter how small, helps DragonMineZ keep improving.",
+  "translation": "Cada aporte, por pequeño que sea, ayuda a que DragonMineZ siga mejorando.",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Licensing ==",
+  "translation": "== Licencia ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "By contributing, you agree that your contributions will be licensed under the same [https://github.com/DragonMineZ/DragonMineZ/blob/main/LICENSE license] that governs the project.",
+  "translation": "Al contribuir, aceptas que tus contribuciones se publiquen bajo la misma [https://github.com/DragonMineZ/DragonMineZ/blob/main/LICENSE licencia] que rige el proyecto.",
+  "outdated": false
+ },
+ "63": {
+  "source": "== Thank you ==",
+  "translation": "== Gracias ==",
+  "outdated": false
+ },
+ "64": {
+  "source": "The team is excited to see your contributions and ideas. If you have any questions or need help, reach out to the team.",
+  "translation": "Al equipo le entusiasma ver tus contribuciones e ideas. Si tienes alguna pregunta o necesitas ayuda, contacta al equipo.",
+  "outdated": false
+ }
+}

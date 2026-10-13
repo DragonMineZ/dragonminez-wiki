@@ -1,0 +1,607 @@
+{
+ "Page_display_title": {
+  "source": "Training Points and Mastery",
+  "translation": "Pontos de treino e domínio",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Training Points (TP)''' and '''mastery''' are the two things you grind in DragonMineZ. TP is the currency you spend on [[Special:MyLanguage/Stats and Attributes|stats]], [[Special:MyLanguage/Skills|skills]], [[Special:MyLanguage/Techniques|techniques]] and [[Special:MyLanguage/Transformations|transformations]]; mastery measures how well you control each transformation. This page lists every way to earn both and how to stack your bonuses.",
+  "translation": "Os '''pontos de treino (TP)''' e o '''domínio''' são as duas coisas que você vai farmar no DragonMineZ. Os TP são a moeda que você gasta em [[Special:MyLanguage/Stats and Attributes|estatísticas]], [[Special:MyLanguage/Skills|habilidades]], [[Special:MyLanguage/Techniques|técnicas]] e [[Special:MyLanguage/Transformations|transformações]]; o domínio mede o quanto você controla cada transformação. Esta página lista todas as formas de ganhar os dois e como acumular seus bônus.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Training Points ==",
+  "translation": "== Pontos de treino ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "TP is stored on your character. Every source below is run through your [[Special:MyLanguage/Training Points and Mastery#TP boosts|TP boosts]] before it is added. The amounts are the server defaults.",
+  "translation": "Os TP ficam guardados no seu personagem. Cada fonte abaixo passa pelos seus [[Special:MyLanguage/Training Points and Mastery#TP boosts|bônus de TP]] antes de ser somada. As quantidades são os padrões do servidor.",
+  "outdated": false
+ },
+ "4": {
+  "source": "=== Ways to earn TP ===",
+  "translation": "=== Como ganhar TP ===",
+  "outdated": false
+ },
+ "5": {
+  "source": "Source",
+  "translation": "Fonte",
+  "outdated": false
+ },
+ "6": {
+  "source": "How",
+  "translation": "Como",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Training minigames'''",
+  "translation": "'''Minijogos de treinamento'''",
+  "outdated": false
+ },
+ "8": {
+  "source": "Five minigames taught by [[Special:MyLanguage/Masters|masters]]: see [[Special:MyLanguage/Training Points and Mastery#Training minigames|Training minigames]] below.",
+  "translation": "Cinco minijogos ensinados por [[Special:MyLanguage/Masters|mestres]]: veja [[Special:MyLanguage/Training Points and Mastery#Training minigames|Minijogos de treinamento]] abaixo.",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Defeating enemies'''",
+  "translation": "'''Derrotar inimigos'''",
+  "outdated": false
+ },
+ "10": {
+  "source": "Killing a mob or a player grants the per-hit TP plus '''25%''' of the target's '''max health'''. A regular Shadow Dummy gives half.",
+  "translation": "Matar um mob ou um jogador dá os TP por golpe mais '''25%''' da '''vida máxima''' do alvo. Um Boneco de Sombra comum dá metade.",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''Hitting enemies'''",
+  "translation": "'''Acertar inimigos'''",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every hit of 1 or more damage you land grants '''2''' TP. The punch machine works the same way.",
+  "translation": "Cada golpe de 1 ou mais de dano que você acerta dá '''2''' TP. A máquina de soco funciona do mesmo jeito.",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Your own Shadow Dummy'''",
+  "translation": "'''Seu próprio Boneco de Sombra'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "Kills and hits on a Shadow Dummy you summoned from the Minigames tab give '''+25% to +75%''' extra TP, matching the stat share you gave it.",
+  "translation": "Abates e golpes em um Boneco de Sombra que você invocou pela aba Minigames dão '''+25% a +75%''' de TP extra, de acordo com a parcela de estatísticas que você deu a ele.",
+  "outdated": false
+ },
+ "15": {
+  "source": "'''Passive training'''",
+  "translation": "'''Treino passivo'''",
+  "outdated": false
+ },
+ "16": {
+  "source": "'''1''' TP every 5 seconds just for playing.",
+  "translation": "'''1''' TP a cada 5 segundos só por jogar.",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Traveling'''",
+  "translation": "'''Viajar'''",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''1''' TP per 20 blocks moved.",
+  "translation": "'''1''' TP a cada 20 blocos percorridos.",
+  "outdated": false
+ },
+ "19": {
+  "source": "'''Mining'''",
+  "translation": "'''Minerar'''",
+  "outdated": false
+ },
+ "20": {
+  "source": "'''1''' TP per block broken, plus 25% of that per point of XP the block drops.",
+  "translation": "'''1''' TP por bloco quebrado, mais 25% disso por ponto de XP que o bloco solta.",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Crafting'''",
+  "translation": "'''Fabricar'''",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''1''' TP per item crafted, multiplied by the item's rarity or tool and armor tier.",
+  "translation": "'''1''' TP por item fabricado, multiplicado pela raridade do item ou pelo nível da ferramenta ou da armadura.",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Story and side quests'''",
+  "translation": "'''Missões da história e secundárias'''",
+  "outdated": false
+ },
+ "24": {
+  "source": "Quests reward '''Attributes''': half as Attribute Points, half as the TP those stat points cost you right now (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]). Quest lists: [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "As missões dão '''Atributos''': metade como Pontos de Atributo e metade como os TP que esses pontos de estatística custam para você agora (veja [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Estatísticas e atributos]]). Listas de missões: [[Special:MyLanguage/Sagas|Sagas]].",
+  "outdated": false
+ },
+ "25": {
+  "source": "'''World bosses, raids and tournaments'''",
+  "translation": "'''Chefes de mundo, incursões e torneios'''",
+  "outdated": false
+ },
+ "26": {
+  "source": "Lump sums for taking part (world bosses pay Attributes instead of TP): see [[Special:MyLanguage/World Bosses|World Bosses]], [[Special:MyLanguage/Raids|Raids]] and [[Special:MyLanguage/Tournaments|Tournaments]].",
+  "translation": "Quantias fixas por participar (os chefes de mundo pagam Atributos em vez de TP): veja [[Special:MyLanguage/World Bosses|Chefes de mundo]], [[Special:MyLanguage/Raids|Incursões]] e [[Special:MyLanguage/Tournaments|Torneios]].",
+  "outdated": false
+ },
+ "27": {
+  "source": "'''Wishes'''",
+  "translation": "'''Desejos'''",
+  "outdated": false
+ },
+ "28": {
+  "source": "[[Special:MyLanguage/Shenron|Shenron]]'s '''Power Boost''' grants '''x100 Attributes''' and [[Special:MyLanguage/Porunga|Porunga]]'s '''x75''' (same split as quest Attributes).",
+  "translation": "O '''Aumento de Poder''' do [[Special:MyLanguage/Shenron|Shenlong]] dá '''x100 Atributos''' e o do [[Special:MyLanguage/Porunga|Porunga]], '''x75''' (com a mesma divisão dos Atributos das missões).",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Party sharing'''",
+  "translation": "'''Compartilhamento em grupo'''",
+  "outdated": false
+ },
+ "30": {
+  "source": "Party members receive '''50%''' of the TP you earn. Sharing needs you to know [[Special:MyLanguage/Instant Transmission|Instant Transmission]]: members must be in the same dimension and within its range (200 blocks per skill level). See <code>/dmzparty</code> on [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "Os membros do grupo recebem '''50%''' dos TP que você ganha. Para compartilhar, você precisa conhecer a [[Special:MyLanguage/Instant Transmission|Transmissão instantânea]]: os membros precisam estar na mesma dimensão e dentro do alcance dela (200 blocos por nível da habilidade). Veja <code>/dmzparty</code> em [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Fusion'''",
+  "translation": "'''Fusão'''",
+  "outdated": false
+ },
+ "32": {
+  "source": "While fused, the partner receives half of the TP the leader earns. See [[Special:MyLanguage/Fusions|Fusions]].",
+  "translation": "Durante a fusão, o parceiro recebe metade dos TP que o líder ganha. Veja [[Special:MyLanguage/Fusions|Fusões]].",
+  "outdated": false
+ },
+ "33": {
+  "source": "When [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] is enabled, combat TP (kills and hits) is also scaled by its own combat TP multiplier.",
+  "translation": "Quando o [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]] está ativado, os TP de combate (abates e golpes) também são escalados pelo multiplicador de TP de combate próprio dele.",
+  "outdated": false
+ },
+ "34": {
+  "source": "=== TP boosts ===",
+  "translation": "=== Bônus de TP ===",
+  "outdated": false
+ },
+ "35": {
+  "source": "The amount from every source is scaled by your active boosts, once. Boosts '''add up''': each one adds its bonus on top of ×1.0. The TP half of an '''Attributes''' reward is already worked out from your stat cost, so it is not boosted again. Hover the '''TP Multiplier''' row of the Stats tab to see where each of your bonuses comes from.",
+  "translation": "A quantidade de cada fonte é escalada uma única vez pelos seus bônus ativos. Os bônus '''se somam''': cada um adiciona o seu valor em cima de ×1.0. A metade em TP de uma recompensa de '''Atributos''' já é calculada a partir do custo das suas estatísticas, então não recebe bônus de novo. Passe o mouse sobre a linha '''Multipl. de PT''' da aba Estatísticas para ver de onde vem cada um dos seus bônus.",
+  "outdated": false
+ },
+ "36": {
+  "source": "Boost",
+  "translation": "Bônus",
+  "outdated": false
+ },
+ "37": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "38": {
+  "source": "'''Class'''",
+  "translation": "'''Classe'''",
+  "outdated": false
+ },
+ "39": {
+  "source": "[[Special:MyLanguage/Tank|Tank]] and [[Special:MyLanguage/Cleric|Cleric]] ×1.25.",
+  "translation": "[[Special:MyLanguage/Tank|Tanque]] e [[Special:MyLanguage/Cleric|Clérigo]] ×1.25.",
+  "outdated": false
+ },
+ "40": {
+  "source": "'''Racial skill'''",
+  "translation": "'''Habilidade racial'''",
+  "outdated": false
+ },
+ "41": {
+  "source": "[[Special:MyLanguage/Frost Demon|Frost Demon]] '''Prodigious Strength''' ×1.25.",
+  "translation": "'''Força Prodigiosa''' do [[Special:MyLanguage/Frost Demon|Clã Freeza]] ×1.25.",
+  "outdated": false
+ },
+ "42": {
+  "source": "'''Hyperbolic Time Chamber'''",
+  "translation": "'''Sala do Tempo'''",
+  "outdated": false
+ },
+ "43": {
+  "source": "×1.75 while inside the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]].",
+  "translation": "×1.75 enquanto você estiver dentro da [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]].",
+  "outdated": false
+ },
+ "44": {
+  "source": "'''Otherworld (dead)'''",
+  "translation": "'''Outro Mundo (morto)'''",
+  "outdated": false
+ },
+ "45": {
+  "source": "×2.0 while you are dead in the [[Special:MyLanguage/Otherworld|Otherworld]].",
+  "translation": "×2.0 enquanto você estiver morto no [[Special:MyLanguage/Otherworld|Outro Mundo]].",
+  "outdated": false
+ },
+ "46": {
+  "source": "'''Gravity'''",
+  "translation": "'''Gravidade'''",
+  "outdated": false
+ },
+ "47": {
+  "source": "Training under extra gravity: see [[Special:MyLanguage/Gravity|Gravity]] and [[Special:MyLanguage/Gravity Device|Gravity Device]].",
+  "translation": "Treinar sob gravidade extra: veja [[Special:MyLanguage/Gravity|Gravidade]] e [[Special:MyLanguage/Gravity Device|Dispositivo de Gravidade]].",
+  "outdated": false
+ },
+ "48": {
+  "source": "'''Weights'''",
+  "translation": "'''Pesos'''",
+  "outdated": false
+ },
+ "49": {
+  "source": "Training with the right weight load: see [[Special:MyLanguage/Weights|Weights]].",
+  "translation": "Treinar com a carga de peso certa: veja [[Special:MyLanguage/Weights|Pesos]].",
+  "outdated": false
+ },
+ "50": {
+  "source": "'''Global'''",
+  "translation": "'''Global'''",
+  "outdated": false
+ },
+ "51": {
+  "source": "A server-wide multiplier (×1.0 by default).",
+  "translation": "Um multiplicador para o servidor inteiro (×1.0 por padrão).",
+  "outdated": false
+ },
+ "52": {
+  "source": "'''Effects'''",
+  "translation": "'''Efeitos'''",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''TP Multiplier''' effect (+25% per level), '''Hero of the World''' (+25% for 10 minutes after winning a raid) and '''Kami's Blessing''' (×1.2 for 5 minutes, given by Dende to [[Special:MyLanguage/Alignment|Good-aligned]] players, 30-minute cooldown). See [[Special:MyLanguage/Effects|Effects]].",
+  "translation": "Efeito '''Multip. de PT''' (+25% por nível), '''Herói do Mundo''' (+25% por 10 minutos depois de vencer uma incursão) e '''Bênção de Kami''' (×1.2 por 5 minutos, dada pelo Dende a jogadores de [[Special:MyLanguage/Alignment|índole Boa]], com recarga de 30 minutos). Veja [[Special:MyLanguage/Effects|Efeitos]].",
+  "outdated": false
+ },
+ "54": {
+  "source": "[[Special:MyLanguage/Mutant|Mutant]]",
+  "translation": "[[Special:MyLanguage/Mutant|Mutante]]",
+  "outdated": false
+ },
+ "55": {
+  "source": "×1.25 while you hold the Mutant effect.",
+  "translation": "×1.25 enquanto você tiver o efeito Mutante.",
+  "outdated": false
+ },
+ "56": {
+  "source": "'''Quest difficulty'''",
+  "translation": "'''Dificuldade das missões'''",
+  "outdated": false
+ },
+ "57": {
+  "source": "Quest TP rewards and other lump sums (raids, tournaments, TP wishes) only: ×1.25 on Easy and on Hard. See [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "Só para recompensas de TP de missões e outras quantias fixas (incursões, torneios, desejos de TP): ×1.25 no Fácil e no Difícil. Veja [[Special:MyLanguage/Sagas|Sagas]].",
+  "outdated": false
+ },
+ "58": {
+  "source": "'''Progression'''",
+  "translation": "'''Progresso'''",
+  "outdated": false
+ },
+ "59": {
+  "source": "Up to '''+75%''' as your stats get more expensive, reaching the full bonus at the stat cost of level '''10,000''', so late-game TP keeps pace with stat costs. Not applied to training minigames, which already scale with your stat cost.",
+  "translation": "Até '''+75%''' conforme suas estatísticas ficam mais caras; o bônus completo chega no custo de estatística do nível '''10,000''', então os TP do fim de jogo acompanham os custos de estatística. Não se aplica aos minijogos de treinamento, que já escalam com o seu custo de estatística.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Server owners choose which boosts apply to which source (story, passive, travel, mining, crafting, kills, hits and training).",
+  "translation": "Os donos de servidores escolhem quais bônus se aplicam a cada fonte (história, passivo, viagem, mineração, fabricação, abates, golpes e treino).",
+  "outdated": false
+ },
+ "61": {
+  "source": "=== Training minigames ===",
+  "translation": "=== Minijogos de treinamento ===",
+  "outdated": false
+ },
+ "62": {
+  "source": "Five [[Special:MyLanguage/Masters|masters]] each teach one minigame:",
+  "translation": "Cinco [[Special:MyLanguage/Masters|mestres]] ensinam um minijogo cada:",
+  "outdated": false
+ },
+ "63": {
+  "source": "Minigame",
+  "translation": "Minijogo",
+  "outdated": false
+ },
+ "64": {
+  "source": "Master",
+  "translation": "Mestre",
+  "outdated": false
+ },
+ "65": {
+  "source": "'''Rhythm'''",
+  "translation": "'''Ritmo'''",
+  "outdated": false
+ },
+ "66": {
+  "source": "[[Special:MyLanguage/Mr. Popo|Mr. Popo]] (inside the Hyperbolic Time Chamber)",
+  "translation": "[[Special:MyLanguage/Mr. Popo|Sr Popo]] (dentro da Sala do Tempo)",
+  "outdated": false
+ },
+ "67": {
+  "source": "[[Special:MyLanguage/Ki Control|Ki Control]]",
+  "translation": "[[Special:MyLanguage/Ki Control|Controle de Ki]]",
+  "outdated": false
+ },
+ "68": {
+  "source": "'''Shadow Boxing'''",
+  "translation": "'''Boxe Sombrio'''",
+  "outdated": false
+ },
+ "69": {
+  "source": "'''Precision'''",
+  "translation": "'''Precisão'''",
+  "outdated": false
+ },
+ "70": {
+  "source": "'''Gravity'''",
+  "translation": "'''Gravidade'''",
+  "outdated": false
+ },
+ "71": {
+  "source": "'''Learning a game:''' play it from its master '''3 times''', reaching '''level 5''' each time. Once learned, you can also play it any time from the '''Minigames''' tab of your Character Menu.",
+  "translation": "'''Como aprender um jogo:''' jogue-o com o mestre dele '''3 vezes''', chegando ao '''nível 5''' em cada uma. Depois de aprendido, você também pode jogá-lo quando quiser pela aba '''Minigames''' do seu Menu do personagem.",
+  "outdated": false
+ },
+ "72": {
+  "source": "'''Rewards''' depend on how long you train, the level you reach and your grade, and scale with your current '''TP cost per stat point''', so they stay worthwhile as you grow. There is no per-game TP cap by default. The server checks every run, so rewards can't be faked.",
+  "translation": "As '''recompensas''' dependem de quanto tempo você treina, do nível que alcança e da sua nota, e escalam com o seu '''custo de TP por ponto de estatística''' atual, então continuam valendo a pena conforme você evolui. Por padrão, não há limite de TP por jogo. O servidor verifica cada partida, então as recompensas não podem ser falsificadas.",
+  "outdated": false
+ },
+ "73": {
+  "source": "'''Mentor bonus:''' a game you already know, started from its master's menu, pays '''+25%'''.",
+  "translation": "'''Bônus de mentor:''' um jogo que você já conhece, iniciado pelo menu do mestre dele, paga '''+25%'''.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Rhythm can also be played with music discs; finishing a disc's song with at least '''75%''' accuracy \"learns\" it so you can replay it without the disc.",
+  "translation": "O Ritmo também pode ser jogado com discos de música; terminar a música de um disco com pelo menos '''75%''' de precisão faz você \"aprendê-la\", e assim você pode jogá-la de novo sem o disco.",
+  "outdated": false
+ },
+ "75": {
+  "source": "'''Old Kai's Ultimate Challenge''' chains every minigame into one run; clearing it with the right requirements unlocks the [[Special:MyLanguage/Ultimate|Ultimate]] form (see [[Special:MyLanguage/Old Kai|Old Kai]] and [[Special:MyLanguage/Transformations|Transformations]]).",
+  "translation": "O '''Desafio Ultimate do Velho Kaioshin''' encadeia todos os minijogos em uma única partida; superá-lo com os requisitos certos desbloqueia a forma [[Special:MyLanguage/Ultimate|Ultimate]] (veja [[Special:MyLanguage/Old Kai|Velho Kaioshin]] e [[Special:MyLanguage/Transformations|Transformações]]).",
+  "outdated": false
+ },
+ "76": {
+  "source": "=== Best way to train ===",
+  "translation": "=== Melhor forma de treinar ===",
+  "outdated": false
+ },
+ "77": {
+  "source": "No single source is \"the\" answer: the fastest grind '''stacks''' a high-yield activity with every multiplier at once. In rough order of value:",
+  "translation": "Nenhuma fonte sozinha é \"a\" resposta: o farm mais rápido '''combina''' uma atividade de alto rendimento com todos os multiplicadores ao mesmo tempo. Em ordem aproximada de valor:",
+  "outdated": false
+ },
+ "78": {
+  "source": "'''Training minigames.''' The biggest deliberate TP source. Learn all five from their masters and rotate through them; start known games from the master's menu for the +25% mentor bonus.",
+  "translation": "'''Minijogos de treinamento.''' A maior fonte de TP que você pode buscar ativamente. Aprenda os cinco com os mestres e alterne entre eles; inicie os jogos que você já conhece pelo menu do mestre para ganhar o bônus de mentor de +25%.",
+  "outdated": false
+ },
+ "79": {
+  "source": "'''Fight things that take a while to kill.''' Kill TP scales with the target's '''max health''', and you also gain TP '''per hit''', so a long fight with a tough enemy (or your own '''Shadow Dummy''') beats farming weak mobs. This trains TP and [[Special:MyLanguage/Training Points and Mastery#Mastery|mastery]] at the same time.",
+  "translation": "'''Lute contra coisas que demoram a morrer.''' O TP por abate escala com a '''vida máxima''' do alvo, e você também ganha TP '''por golpe''', então uma luta longa contra um inimigo resistente (ou contra o seu próprio '''Boneco de Sombra''') rende mais do que farmar mobs fracos. Isso treina TP e [[Special:MyLanguage/Training Points and Mastery#Mastery|domínio]] ao mesmo tempo.",
+  "outdated": false
+ },
+ "80": {
+  "source": "'''Passive and travel training, but multiplied.''' The trickle you get for playing, moving and mining is small at base, so only lean on it inside a multiplier: the [[Special:MyLanguage/Gravity Device|Gravity Device]] (higher gravity means more TP), the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] (×1.75 TP inside) and [[Special:MyLanguage/Weights|Weights]].",
+  "translation": "'''Treino passivo e de viagem, mas multiplicado.''' O pouquinho que você ganha jogando, se movendo e minerando é pequeno na base, então só conte com isso dentro de um multiplicador: o [[Special:MyLanguage/Gravity Device|Dispositivo de Gravidade]] (mais gravidade significa mais TP), a [[Special:MyLanguage/Hyperbolic Time Chamber|Sala do Tempo]] (×1.75 de TP lá dentro) e os [[Special:MyLanguage/Weights|Pesos]].",
+  "outdated": false
+ },
+ "81": {
+  "source": "'''Keep your boosts running the whole time.''' Everything above is multiplied by your class, your racial skill (Frost Demon ×1.25), a '''TP Multiplier''' effect and '''Kami's Blessing''', so get blessed by Dende and pop a TP buff ''before'' a minigame or a gravity session, not after.",
+  "translation": "'''Mantenha seus bônus ativos o tempo todo.''' Tudo o que foi dito acima é multiplicado pela sua classe, pela sua habilidade racial (Clã Freeza ×1.25), por um efeito '''Multip. de PT''' e pela '''Bênção de Kami''', então receba a bênção do Dende e ative um bônus de TP ''antes'' de um minijogo ou de uma sessão de gravidade, não depois.",
+  "outdated": false
+ },
+ "82": {
+  "source": "'''Quests, raids and wishes for lump sums.''' Story and side quests, [[Special:MyLanguage/World Bosses|world bosses]] and the '''Power Boost''' wish hand out Attributes (stat points plus TP that grows with your stat cost), and [[Special:MyLanguage/Raids|raids]] hand out big one-off TP: cheap progress that doesn't depend on the grind.",
+  "translation": "'''Missões, incursões e desejos para quantias fixas.''' Missões da história e secundárias, [[Special:MyLanguage/World Bosses|chefes de mundo]] e o desejo '''Aumento de Poder''' dão Atributos (pontos de estatística mais TP que cresce com o seu custo de estatística), e as [[Special:MyLanguage/Raids|incursões]] dão grandes quantias de TP de uma só vez: progresso barato que não depende do farm.",
+  "outdated": false
+ },
+ "83": {
+  "source": "Fastest realistic loop",
+  "translation": "O ciclo realista mais rápido",
+  "outdated": false
+ },
+ "84": {
+  "source": "Wear [[Special:MyLanguage/Weights|weights]], train inside the Gravity Device or the Time Chamber with a TP Multiplier buff active, and break it up by running the master minigames and sparring a Shadow Dummy, which banks mastery alongside the TP.",
+  "translation": "Use [[Special:MyLanguage/Weights|pesos]], treine dentro do Dispositivo de Gravidade ou da Sala do Tempo com um efeito Multip. de PT ativo e intercale com os minijogos dos mestres e lutas contra um Boneco de Sombra, que rendem domínio junto com os TP.",
+  "outdated": false
+ },
+ "85": {
+  "source": "== Mastery ==",
+  "translation": "== Domínio ==",
+  "outdated": false
+ },
+ "86": {
+  "source": "'''Mastery''' (0–100%) is earned '''per transformation''', only while that form is active. You raise a form's mastery by:",
+  "translation": "O '''domínio''' (0–100%) é ganho '''por transformação''', só enquanto essa forma está ativa. Você aumenta o domínio de uma forma com:",
+  "outdated": false
+ },
+ "87": {
+  "source": "Source",
+  "translation": "Fonte",
+  "outdated": false
+ },
+ "88": {
+  "source": "Default gain",
+  "translation": "Ganho padrão",
+  "outdated": false
+ },
+ "89": {
+  "source": "'''Dealing hits while transformed'''",
+  "translation": "'''Dar golpes transformado'''",
+  "outdated": false
+ },
+ "90": {
+  "source": "+0.025% per hit, up to '''×4''' for heavy hits.",
+  "translation": "+0.025% por golpe, até '''×4''' em golpes pesados.",
+  "outdated": false
+ },
+ "91": {
+  "source": "'''Taking hits while transformed'''",
+  "translation": "'''Receber golpes transformado'''",
+  "outdated": false
+ },
+ "92": {
+  "source": "+0.025% per hit, up to '''×4''' for heavy hits.",
+  "translation": "+0.025% por golpe, até '''×4''' em golpes pesados.",
+  "outdated": false
+ },
+ "93": {
+  "source": "'''Just staying transformed'''",
+  "translation": "'''Só ficar transformado'''",
+  "outdated": false
+ },
+ "94": {
+  "source": "+0.004% every 5 seconds (passive).",
+  "translation": "+0.004% a cada 5 segundos (passivo).",
+  "outdated": false
+ },
+ "95": {
+  "source": "'''Mastery Capsule'''",
+  "translation": "'''Cápsula de Domínio'''",
+  "outdated": false
+ },
+ "96": {
+  "source": "+5% to your active form (see [[Special:MyLanguage/Capsules|Capsules]]).",
+  "translation": "+5% para a sua forma ativa (veja [[Special:MyLanguage/Capsules|Cápsulas]]).",
+  "outdated": false
+ },
+ "97": {
+  "source": "'''Quest rewards'''",
+  "translation": "'''Recompensas de missões'''",
+  "outdated": false
+ },
+ "98": {
+  "source": "Custom quests can grant a form at a set mastery (see [[Special:MyLanguage/Custom Quests|Custom Quests]]).",
+  "translation": "Missões personalizadas podem conceder uma forma com um domínio definido (veja [[Special:MyLanguage/Custom Quests|Missões personalizadas]]).",
+  "outdated": false
+ },
+ "99": {
+  "source": "Hit mastery only counts at '''50% Power Release or more''', and grows with the size of the hit: a hit up to 20% of the target's max health gives the base amount, rising to '''×4''' for a hit of 80% or more. Hits against some training targets (for example silverfish and target dummies) give no mastery. Training under extra gravity adds '''+0.25%''' hit mastery per point of bonus gravity.",
+  "translation": "O domínio por golpe só conta com '''50% de Liberação de Poder ou mais''' e cresce com o tamanho do golpe: um golpe de até 20% da vida máxima do alvo dá a quantidade base, subindo até '''×4''' para um golpe de 80% ou mais. Golpes contra alguns alvos de treino (por exemplo, traças e bonecos de treino) não dão domínio. Treinar sob gravidade extra adiciona '''+0.25%''' de domínio por golpe para cada ponto de gravidade bônus.",
+  "outdated": false
+ },
+ "100": {
+  "source": "So the fastest way to master a form is to '''fight in it''': trade heavy blows while transformed rather than sitting idle.",
+  "translation": "Então, a forma mais rápida de dominar uma forma é '''lutar com ela''': troque golpes pesados enquanto estiver transformado em vez de ficar parado.",
+  "outdated": false
+ },
+ "101": {
+  "source": "=== Best way to farm mastery ===",
+  "translation": "=== Melhor forma de farmar domínio ===",
+  "outdated": false
+ },
+ "102": {
+  "source": "Passive gain (+0.004% every 5 seconds) is tiny: you would wait hours just standing around. Combat is about '''6× per hit''' (and up to 4× more for heavy hits), and both ''dealing'' and ''taking'' hits count, so the goal is to be in a transformation and exchange as many hits as possible:",
+  "translation": "O ganho passivo (+0.004% a cada 5 segundos) é minúsculo: você esperaria horas só parado. O combate dá cerca de '''6× por golpe''' (e até 4× mais em golpes pesados), e tanto ''dar'' quanto ''receber'' golpes conta, então o objetivo é estar transformado e trocar o máximo de golpes possível:",
+  "outdated": false
+ },
+ "103": {
+  "source": "'''Transform first, then fight, at high release.''' Mastery only ticks up while that specific form is active, and hit mastery needs '''50%+ Power Release'''.",
+  "translation": "'''Transforme-se primeiro, depois lute, com liberação alta.''' O domínio só sobe enquanto aquela forma específica está ativa, e o domínio por golpe exige '''50%+ de Liberação de Poder'''.",
+  "outdated": false
+ },
+ "104": {
+  "source": "'''Pick a punching bag that hits back.''' Because taking hits also grants mastery, the ideal target survives a while and keeps swinging at you: a tanky mob you don't one-shot, a Shadow Dummy or a sparring partner. Trading blows fills the bar from both directions at once.",
+  "translation": "'''Escolha um saco de pancadas que revide.''' Como receber golpes também dá domínio, o alvo ideal aguenta um bom tempo e continua atacando você: um mob resistente que você não mata com um golpe, um Boneco de Sombra ou um parceiro de treino. Trocar golpes enche a barra pelos dois lados ao mesmo tempo.",
+  "outdated": false
+ },
+ "105": {
+  "source": "'''Hit hard, but don't one-shot.''' Big hits (relative to the target's health) are worth up to 4× more, but if you delete enemies in one hit you get one hit's worth of mastery and then have to find another. A fight that lasts many heavy exchanges is best.",
+  "translation": "'''Bata forte, mas sem matar com um golpe.''' Golpes grandes (em relação à vida do alvo) valem até 4× mais, mas se você elimina os inimigos com um golpe, ganha o domínio de um único golpe e depois precisa achar outro. O melhor é uma luta com muitas trocas pesadas.",
+  "outdated": false
+ },
+ "106": {
+  "source": "'''Stack the multipliers below''': a '''Mastery Multiplier''' effect, Frost Demon '''Evolutionary Mastery''' or the Mutant bonus.",
+  "translation": "'''Acumule os multiplicadores abaixo''': um efeito '''Multiplicador de Domínio''', o '''Domínio Evolutivo''' do Clã Freeza ou o bônus de Mutante.",
+  "outdated": false
+ },
+ "107": {
+  "source": "'''Use shared mastery.''' Some forms share part of their mastery with related forms; for example every [[Special:MyLanguage/Kaioken|Kaioken]] tier passes '''25%''' of its gains to the next tier.",
+  "translation": "'''Use o domínio compartilhado.''' Algumas formas compartilham parte do seu domínio com formas relacionadas; por exemplo, cada nível do [[Special:MyLanguage/Kaioken|Kaioken]] passa '''25%''' do que ganha para o nível seguinte.",
+  "outdated": false
+ },
+ "108": {
+  "source": "'''Top it up with Mastery Capsules''': +5% each, no fight needed.",
+  "translation": "'''Complete com Cápsulas de Domínio''': +5% cada, sem precisar lutar.",
+  "outdated": false
+ },
+ "109": {
+  "source": "In short",
+  "translation": "Resumindo",
+  "outdated": false
+ },
+ "110": {
+  "source": "Put on the form, release your power, find something that trades heavy hits with you for a long time, and keep a mastery buff running.",
+  "translation": "Transforme-se, libere seu poder, encontre algo que troque golpes pesados com você por bastante tempo e mantenha ativo um bônus de domínio.",
+  "outdated": false
+ },
+ "111": {
+  "source": "=== Mastery multipliers ===",
+  "translation": "=== Multiplicadores de domínio ===",
+  "outdated": false
+ },
+ "112": {
+  "source": "'''Mastery Multiplier''' effect: +25% per level (also given by the '''Medi-Bug (Worm)''', see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "Efeito '''Multiplicador de Domínio''': +25% por nível (também dado pelo '''Medi-Bug (Minhoca)'''; veja [[Special:MyLanguage/Effects|Efeitos]]).",
+  "outdated": false
+ },
+ "113": {
+  "source": "[[Special:MyLanguage/Frost Demon|Frost Demon]] '''Evolutionary Mastery''': +25%.",
+  "translation": "'''Domínio Evolutivo''' do [[Special:MyLanguage/Frost Demon|Clã Freeza]]: +25%.",
+  "outdated": false
+ },
+ "114": {
+  "source": "[[Special:MyLanguage/Mutant|Mutant]]: ×1.5 while you hold the Mutant effect (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "[[Special:MyLanguage/Mutant|Mutante]]: ×1.5 enquanto você tiver o efeito Mutante (veja [[Special:MyLanguage/Effects|Efeitos]]).",
+  "outdated": false
+ },
+ "115": {
+  "source": "'''Gravity''': +0.25% per point of bonus gravity (hit mastery only).",
+  "translation": "'''Gravidade''': +0.25% por ponto de gravidade bônus (só domínio por golpe).",
+  "outdated": false
+ },
+ "116": {
+  "source": "'''Shared mastery''': forms can be set up to share part of their gains with related forms (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).",
+  "translation": "'''Domínio compartilhado''': as formas podem ser configuradas para compartilhar parte do que ganham com formas relacionadas (veja [[Special:MyLanguage/Custom Forms|Formas personalizadas]]).",
+  "outdated": false
+ },
+ "117": {
+  "source": "=== What mastery unlocks ===",
+  "translation": "=== O que o domínio desbloqueia ===",
+  "outdated": false
+ },
+ "118": {
+  "source": "As a form's mastery climbs it unlocks the next form of its group (25%), instant transformation (40%), transforming straight into it (50%) and the full bonus with the cheapest upkeep (100%). Mastery also lowers the form's drain. The details are on [[Special:MyLanguage/Transformations|Transformations]].",
+  "translation": "Conforme o domínio de uma forma sobe, ela desbloqueia a próxima forma do grupo (25%), a transformação instantânea (40%), transformar-se diretamente nela (50%) e o bônus completo com a manutenção mais barata (100%). O domínio também reduz o consumo da forma. Os detalhes estão em [[Special:MyLanguage/Transformations|Transformações]].",
+  "outdated": false
+ },
+ "119": {
+  "source": "=== Checking and resetting ===",
+  "translation": "=== Consultar e redefinir ===",
+  "outdated": false
+ },
+ "120": {
+  "source": "Use <code>/dmzmastery</code> to set or add mastery (see [[Special:MyLanguage/Commands|Commands]]). Mastery is tied to your forms; racial bonuses (Zenkai, Assimilation, Absorption) are separate and can be reset with <code>/dmzracial reset</code> (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
+  "translation": "Use <code>/dmzmastery</code> para definir ou adicionar domínio (veja [[Special:MyLanguage/Commands|Comandos]]). O domínio fica ligado às suas formas; os bônus raciais (Zenkai, Assimilação, Absorção) são separados e podem ser redefinidos com <code>/dmzracial reset</code> (veja [[Special:MyLanguage/Racial Skills|Habilidades raciais]]).",
+  "outdated": false
+ }
+}

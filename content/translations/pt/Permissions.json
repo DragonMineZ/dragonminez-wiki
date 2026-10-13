@@ -1,0 +1,757 @@
+{
+ "Page_display_title": {
+  "source": "Permissions",
+  "translation": "Permissões",
+  "outdated": false
+ },
+ "1": {
+  "source": "Every DragonMineZ command node is registered through Forge's <code>PermissionAPI</code>, so server owners running a permissions mod (LuckPerms, PermissionsEx and the like) can grant fine-grained access instead of relying on blanket operator status. Without a permissions mod, DMZ falls back to vanilla operator levels.",
+  "translation": "Cada nó de comando do DragonMineZ é registrado pela <code>PermissionAPI</code> do Forge, então donos de servidores que usam um mod de permissões (LuckPerms, PermissionsEx e similares) podem conceder acesso detalhado em vez de depender do status geral de operador. Sem um mod de permissões, o DMZ recorre aos níveis de operador vanilla.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Nodes are defined in <code>DMZPermissions.java</code>. Each one is registered under the <code>dragonminez</code> namespace, so its full name is <code>dragonminez.&lt;node&gt;</code>, for example <code>dragonminez.admin</code> or <code>dragonminez.dmzstats.set.self</code>. For what each command does, see [[Special:MyLanguage/Commands|Commands]].",
+  "translation": "Os nós são definidos em <code>DMZPermissions.java</code>. Cada um é registrado no namespace <code>dragonminez</code>, então o nome completo é <code>dragonminez.&lt;node&gt;</code>, por exemplo <code>dragonminez.admin</code> ou <code>dragonminez.dmzstats.set.self</code>. Para saber o que cada comando faz, veja [[Special:MyLanguage/Commands|Comandos]].",
+  "outdated": false
+ },
+ "3": {
+  "source": "== How a permission check resolves ==",
+  "translation": "== Como uma verificação de permissão é resolvida ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "For every command gated by a DMZ permission, the check passes if '''any''' of these is true:",
+  "translation": "Em cada comando protegido por uma permissão do DMZ, a verificação passa se '''qualquer''' uma destas condições for verdadeira:",
+  "outdated": false
+ },
+ "5": {
+  "source": "# The player has '''the specific node''' for that action.\n# The player has '''<code>dragonminez.admin</code>''', which grants every DMZ permission at once.\n# The player is a '''vanilla operator of level 2 or higher''' (<code>player.hasPermissions(2)</code>).",
+  "translation": "# O jogador tem '''o nó específico''' daquela ação.\n# O jogador tem '''<code>dragonminez.admin</code>''', que concede todas as permissões do DMZ de uma vez.\n# O jogador é '''operador vanilla de nível 2 ou superior''' (<code>player.hasPermissions(2)</code>).",
+  "outdated": false
+ },
+ "6": {
+  "source": "Commands run from the '''server console or command blocks''' (anything that isn't a player) always pass DMZ permission checks.",
+  "translation": "Comandos executados pelo '''console do servidor ou por blocos de comando''' (qualquer coisa que não seja um jogador) sempre passam nas verificações de permissão do DMZ.",
+  "outdated": false
+ },
+ "7": {
+  "source": "=== Commands gated by vanilla operator level ===",
+  "translation": "=== Comandos protegidos pelo nível de operador vanilla ===",
+  "outdated": false
+ },
+ "8": {
+  "source": "A few commands don't use DMZ nodes at all: they simply require '''operator level 2''', and are not affected by <code>dragonminez.admin</code>.",
+  "translation": "Alguns comandos não usam nós do DMZ: eles simplesmente exigem '''operador de nível 2''' e não são afetados por <code>dragonminez.admin</code>.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Command",
+  "translation": "Comando",
+  "outdated": false
+ },
+ "10": {
+  "source": "Note",
+  "translation": "Observação",
+  "outdated": false
+ },
+ "11": {
+  "source": "Every subcommand (see [[Special:MyLanguage/Raids|Raids]]).",
+  "translation": "Todos os subcomandos (veja [[Special:MyLanguage/Raids|Incursões]]).",
+  "outdated": false
+ },
+ "12": {
+  "source": "Every subcommand '''except <code>results</code>''', which anyone can use (see [[Special:MyLanguage/World Bosses|World Bosses]]).",
+  "translation": "Todos os subcomandos '''exceto <code>results</code>''', que qualquer um pode usar (veja [[Special:MyLanguage/World Bosses|Chefes de mundo]]).",
+  "outdated": false
+ },
+ "13": {
+  "source": "Every subcommand (see [[Special:MyLanguage/Tournaments|Tournaments]]).",
+  "translation": "Todos os subcomandos (veja [[Special:MyLanguage/Tournaments|Torneios]]).",
+  "outdated": false
+ },
+ "14": {
+  "source": "The quest-NPC spawning subcommands (the rest of <code>/dmzquest</code> uses nodes).",
+  "translation": "Os subcomandos que geram NPCs de missões (o resto do <code>/dmzquest</code> usa nós).",
+  "outdated": false
+ },
+ "15": {
+  "source": "<code>/dmzracial reply accept|reject</code> (answering a Namekian assimilation request) needs no permission at all.",
+  "translation": "<code>/dmzracial reply accept|reject</code> (responder a um pedido de assimilação namekuseijin) não precisa de nenhuma permissão.",
+  "outdated": false
+ },
+ "16": {
+  "source": "== Without a permissions mod ==",
+  "translation": "== Sem um mod de permissões ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "Without LuckPerms, PermissionsEx or a similar mod handling these nodes, each node falls back to its default. In practice, only operators of level 2 or higher can use anything gated by a node that defaults to <code>false</code>. Everyone else only gets the handful of nodes that default to <code>true</code> (see the tables below), which are mostly \"view or list your own stuff\".",
+  "translation": "Sem LuckPerms, PermissionsEx ou um mod parecido cuidando desses nós, cada nó usa seu valor padrão. Na prática, só operadores de nível 2 ou superior podem usar o que for protegido por um nó cujo padrão é <code>false</code>. Todos os outros recebem apenas o punhado de nós cujo padrão é <code>true</code> (veja as tabelas abaixo), que na maioria são \"ver ou listar suas próprias coisas\".",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Granting nodes with a permissions mod ==",
+  "translation": "== Conceder nós com um mod de permissões ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "Example using LuckPerms syntax (adjust it for the mod you run):",
+  "translation": "Exemplo com a sintaxe do LuckPerms (adapte ao mod que você usa):",
+  "outdated": false
+ },
+ "20": {
+  "source": "DMZ doesn't ship its own grant or revoke command: node management is entirely up to your permissions mod.",
+  "translation": "O DMZ não traz um comando próprio para conceder ou revogar: o gerenciamento de nós fica inteiramente a cargo do seu mod de permissões.",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Node reference ==",
+  "translation": "== Referência de nós ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "Nodes default to <code>false</code> (operators and admins only) unless the table says <code>true</code>. Rows written as <code>….self</code> / <code>.others</code> are two nodes: one for using the command on yourself and one for using it on other players.",
+  "translation": "Os nós têm <code>false</code> como padrão (só operadores e administradores), a menos que a tabela diga <code>true</code>. As linhas escritas como <code>….self</code> / <code>.others</code> são dois nós: um para usar o comando em você mesmo e outro para usá-lo em outros jogadores.",
+  "outdated": false
+ },
+ "23": {
+  "source": "=== Admin ===",
+  "translation": "=== Administrador ===",
+  "outdated": false
+ },
+ "24": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "25": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "26": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "27": {
+  "source": "Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.",
+  "translation": "Todas as permissões do DMZ de uma vez. Também é necessário (ou o nível de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> e <code>/dmzdebug</code>.",
+  "outdated": false
+ },
+ "28": {
+  "source": "=== Stats ===",
+  "translation": "=== Estatísticas ===",
+  "outdated": false
+ },
+ "29": {
+  "source": "Nodes of <code>StatsCommand</code> (<code>/dmzstats</code>).",
+  "translation": "Nós de <code>StatsCommand</code> (<code>/dmzstats</code>).",
+  "outdated": false
+ },
+ "30": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "31": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "32": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "33": {
+  "source": "Set your own stats.",
+  "translation": "Definir suas próprias estatísticas.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Set another player's stats.",
+  "translation": "Definir as estatísticas de outro jogador.",
+  "outdated": false
+ },
+ "35": {
+  "source": "Add to or remove from your own stats (<code>add</code> and <code>remove</code>).",
+  "translation": "Somar ou subtrair das suas próprias estatísticas (<code>add</code> e <code>remove</code>).",
+  "outdated": false
+ },
+ "36": {
+  "source": "Add to or remove from another player's stats.",
+  "translation": "Somar ou subtrair das estatísticas de outro jogador.",
+  "outdated": false
+ },
+ "37": {
+  "source": "View your own stats.",
+  "translation": "Ver suas próprias estatísticas.",
+  "outdated": false
+ },
+ "38": {
+  "source": "View another player's stats.",
+  "translation": "Ver as estatísticas de outro jogador.",
+  "outdated": false
+ },
+ "39": {
+  "source": "Reset or relocate your own stats.",
+  "translation": "Resetar ou redistribuir suas próprias estatísticas.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Reset or relocate another player's stats.",
+  "translation": "Resetar ou redistribuir as estatísticas de outro jogador.",
+  "outdated": false
+ },
+ "41": {
+  "source": "=== Skills ===",
+  "translation": "=== Habilidades ===",
+  "outdated": false
+ },
+ "42": {
+  "source": "Nodes of <code>SkillsCommand</code> (<code>/dmzskill</code>).",
+  "translation": "Nós de <code>SkillsCommand</code> (<code>/dmzskill</code>).",
+  "outdated": false
+ },
+ "43": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "44": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "45": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "46": {
+  "source": "Set skill levels.",
+  "translation": "Definir níveis de habilidades.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Add a skill.",
+  "translation": "Adicionar uma habilidade.",
+  "outdated": false
+ },
+ "48": {
+  "source": "Remove a skill.",
+  "translation": "Remover uma habilidade.",
+  "outdated": false
+ },
+ "49": {
+  "source": "List your own skills.",
+  "translation": "Listar suas próprias habilidades.",
+  "outdated": false
+ },
+ "50": {
+  "source": "List another player's skills.",
+  "translation": "Listar as habilidades de outro jogador.",
+  "outdated": false
+ },
+ "51": {
+  "source": "=== Techniques ===",
+  "translation": "=== Técnicas ===",
+  "outdated": false
+ },
+ "52": {
+  "source": "Nodes of <code>TechCommand</code> (<code>/dmztech</code>).",
+  "translation": "Nós de <code>TechCommand</code> (<code>/dmztech</code>).",
+  "outdated": false
+ },
+ "53": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "54": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "55": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "56": {
+  "source": "Grant a ki technique.",
+  "translation": "Conceder uma técnica de ki.",
+  "outdated": false
+ },
+ "57": {
+  "source": "Remove a ki technique.",
+  "translation": "Remover uma técnica de ki.",
+  "outdated": false
+ },
+ "58": {
+  "source": "List your own techniques.",
+  "translation": "Listar suas próprias técnicas.",
+  "outdated": false
+ },
+ "59": {
+  "source": "List another player's techniques.",
+  "translation": "Listar as técnicas de outro jogador.",
+  "outdated": false
+ },
+ "60": {
+  "source": "Change technique experience.",
+  "translation": "Alterar a experiência das técnicas.",
+  "outdated": false
+ },
+ "61": {
+  "source": "=== Technique cooldowns ===",
+  "translation": "=== Recargas de técnicas ===",
+  "outdated": false
+ },
+ "62": {
+  "source": "Nodes of <code>CooldownsCommand</code> (<code>/dmzcooldowns</code>).",
+  "translation": "Nós de <code>CooldownsCommand</code> (<code>/dmzcooldowns</code>).",
+  "outdated": false
+ },
+ "63": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "64": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "65": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "66": {
+  "source": "Change your own ki and strike technique cooldowns.",
+  "translation": "Alterar as recargas das suas próprias técnicas de ki e de golpe.",
+  "outdated": false
+ },
+ "67": {
+  "source": "Change another player's ki and strike technique cooldowns.",
+  "translation": "Alterar as recargas das técnicas de ki e de golpe de outro jogador.",
+  "outdated": false
+ },
+ "68": {
+  "source": "=== Bonus stats ===",
+  "translation": "=== Estatísticas bônus ===",
+  "outdated": false
+ },
+ "69": {
+  "source": "Nodes of <code>BonusCommand</code> (<code>/dmzbonus</code>).",
+  "translation": "Nós de <code>BonusCommand</code> (<code>/dmzbonus</code>).",
+  "outdated": false
+ },
+ "70": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "71": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "72": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "73": {
+  "source": "Add bonus stats.",
+  "translation": "Adicionar estatísticas bônus.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Remove or clear bonus stats (<code>remove</code> and <code>clear</code>).",
+  "translation": "Remover ou limpar estatísticas bônus (<code>remove</code> e <code>clear</code>).",
+  "outdated": false
+ },
+ "75": {
+  "source": "=== Effects ===",
+  "translation": "=== Efeitos ===",
+  "outdated": false
+ },
+ "76": {
+  "source": "Nodes of <code>EffectsCommand</code> (<code>/dmzeffect</code>).",
+  "translation": "Nós de <code>EffectsCommand</code> (<code>/dmzeffect</code>).",
+  "outdated": false
+ },
+ "77": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "78": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "79": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "80": {
+  "source": "Give a status effect.",
+  "translation": "Dar um efeito de status.",
+  "outdated": false
+ },
+ "81": {
+  "source": "Remove a status effect.",
+  "translation": "Remover um efeito de status.",
+  "outdated": false
+ },
+ "82": {
+  "source": "Clear all effects.",
+  "translation": "Limpar todos os efeitos.",
+  "outdated": false
+ },
+ "83": {
+  "source": "List your own effects.",
+  "translation": "Listar seus próprios efeitos.",
+  "outdated": false
+ },
+ "84": {
+  "source": "List another player's effects.",
+  "translation": "Listar os efeitos de outro jogador.",
+  "outdated": false
+ },
+ "85": {
+  "source": "=== Points ===",
+  "translation": "=== Pontos ===",
+  "outdated": false
+ },
+ "86": {
+  "source": "Nodes of <code>PointsCommand</code> (<code>/dmzpoints</code>).",
+  "translation": "Nós de <code>PointsCommand</code> (<code>/dmzpoints</code>).",
+  "outdated": false
+ },
+ "87": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "88": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "89": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "90": {
+  "source": "Set points.",
+  "translation": "Definir pontos.",
+  "outdated": false
+ },
+ "91": {
+  "source": "Add points.",
+  "translation": "Adicionar pontos.",
+  "outdated": false
+ },
+ "92": {
+  "source": "Remove points.",
+  "translation": "Remover pontos.",
+  "outdated": false
+ },
+ "93": {
+  "source": "View your own points.",
+  "translation": "Ver seus próprios pontos.",
+  "outdated": false
+ },
+ "94": {
+  "source": "View another player's points.",
+  "translation": "Ver os pontos de outro jogador.",
+  "outdated": false
+ },
+ "95": {
+  "source": "=== Quests and sagas ===",
+  "translation": "=== Missões e sagas ===",
+  "outdated": false
+ },
+ "96": {
+  "source": "Nodes of <code>StoryCommand</code> (<code>/dmzquest</code>).",
+  "translation": "Nós de <code>StoryCommand</code> (<code>/dmzquest</code>).",
+  "outdated": false
+ },
+ "97": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "98": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "99": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "100": {
+  "source": "List your own quest progress.",
+  "translation": "Listar seu próprio progresso de missões.",
+  "outdated": false
+ },
+ "101": {
+  "source": "List another player's quest progress.",
+  "translation": "Listar o progresso de missões de outro jogador.",
+  "outdated": false
+ },
+ "102": {
+  "source": "View quest metadata.",
+  "translation": "Ver os metadados de uma missão.",
+  "outdated": false
+ },
+ "103": {
+  "source": "Force-start a quest.",
+  "translation": "Forçar o início de uma missão.",
+  "outdated": false
+ },
+ "104": {
+  "source": "Force-complete a quest.",
+  "translation": "Forçar a conclusão de uma missão.",
+  "outdated": false
+ },
+ "105": {
+  "source": "Force-fail a quest.",
+  "translation": "Forçar a falha de uma missão.",
+  "outdated": false
+ },
+ "106": {
+  "source": "Reset a quest.",
+  "translation": "Resetar uma missão.",
+  "outdated": false
+ },
+ "107": {
+  "source": "Set your own tracked quest.",
+  "translation": "Definir sua própria missão rastreada.",
+  "outdated": false
+ },
+ "108": {
+  "source": "Set another player's tracked quest.",
+  "translation": "Definir a missão rastreada de outro jogador.",
+  "outdated": false
+ },
+ "109": {
+  "source": "Force-start every quest in a saga.",
+  "translation": "Forçar o início de todas as missões de uma saga.",
+  "outdated": false
+ },
+ "110": {
+  "source": "Force-complete every quest in a saga.",
+  "translation": "Forçar a conclusão de todas as missões de uma saga.",
+  "outdated": false
+ },
+ "111": {
+  "source": "Reset an entire saga.",
+  "translation": "Resetar uma saga inteira.",
+  "outdated": false
+ },
+ "112": {
+  "source": "See or change your own story difficulty (<code>/dmzquest difficulty</code>).",
+  "translation": "Ver ou alterar sua própria dificuldade da história (<code>/dmzquest difficulty</code>).",
+  "outdated": false
+ },
+ "113": {
+  "source": "Change other players' story difficulty.",
+  "translation": "Alterar a dificuldade da história de outros jogadores.",
+  "outdated": false
+ },
+ "114": {
+  "source": "=== Other commands ===",
+  "translation": "=== Outros comandos ===",
+  "outdated": false
+ },
+ "115": {
+  "source": "Node",
+  "translation": "Nó",
+  "outdated": false
+ },
+ "116": {
+  "source": "Default",
+  "translation": "Padrão",
+  "outdated": false
+ },
+ "117": {
+  "source": "Grants",
+  "translation": "Concede",
+  "outdated": false
+ },
+ "118": {
+  "source": "Command class",
+  "translation": "Classe do comando",
+  "outdated": false
+ },
+ "119": {
+  "source": "Locate special structures.",
+  "translation": "Localizar estruturas especiais.",
+  "outdated": false
+ },
+ "120": {
+  "source": "Read structure-local coordinates and structure NPCs (<code>/dmzstructure</code>).",
+  "translation": "Ler coordenadas locais de estruturas e os NPCs das estruturas (<code>/dmzstructure</code>).",
+  "outdated": false
+ },
+ "121": {
+  "source": "View where every Dragon Ball set is tracked (<code>/dmzdragonballs status</code>).",
+  "translation": "Ver onde cada conjunto de Esferas do Dragão está sendo rastreado (<code>/dmzdragonballs status</code>).",
+  "outdated": false
+ },
+ "122": {
+  "source": "Refill a Dragon Ball set up to its configured copies (<code>/dmzdragonballs regenerate</code>).",
+  "translation": "Completar um conjunto de Esferas do Dragão até as cópias configuradas (<code>/dmzdragonballs regenerate</code>).",
+  "outdated": false
+ },
+ "123": {
+  "source": "Revive a player.",
+  "translation": "Reviver um jogador.",
+  "outdated": false
+ },
+ "124": {
+  "source": "Invite, accept and reject invitations, kick, disband and toggle party PvP, with <code>/dmzparty</code> or the Party tab. Listing your party (<code>/dmzparty</code>, <code>/dmzparty list</code>) and leaving it don't need it.",
+  "translation": "Convidar, aceitar e recusar convites, expulsar, desfazer e ligar ou desligar o PvP de grupo, com <code>/dmzparty</code> ou a aba Grupo. Listar seu grupo (<code>/dmzparty</code>, <code>/dmzparty list</code>) e sair dele não precisam disso.",
+  "outdated": false
+ },
+ "125": {
+  "source": "Set or add transformation mastery.",
+  "translation": "Definir ou adicionar domínio de transformação.",
+  "outdated": false
+ },
+ "126": {
+  "source": "Run <code>/dmzreload</code> (see [[Special:MyLanguage/Reloading and Updating Changes|Reloading and Updating Changes]]).",
+  "translation": "Executar <code>/dmzreload</code> (veja [[Special:MyLanguage/Reloading and Updating Changes|Recarregar e atualizar mudanças]]).",
+  "outdated": false
+ },
+ "127": {
+  "source": "Set a form.",
+  "translation": "Definir uma forma.",
+  "outdated": false
+ },
+ "128": {
+  "source": "Grant a form.",
+  "translation": "Conceder uma forma.",
+  "outdated": false
+ },
+ "129": {
+  "source": "Remove a form.",
+  "translation": "Remover uma forma.",
+  "outdated": false
+ },
+ "130": {
+  "source": "List your own forms.",
+  "translation": "Listar suas próprias formas.",
+  "outdated": false
+ },
+ "131": {
+  "source": "List another player's forms.",
+  "translation": "Listar as formas de outro jogador.",
+  "outdated": false
+ },
+ "132": {
+  "source": "Reset racial skills.",
+  "translation": "Resetar as habilidades raciais.",
+  "outdated": false
+ },
+ "133": {
+  "source": "Give weight training items.",
+  "translation": "Dar itens de treino com peso.",
+  "outdated": false
+ },
+ "134": {
+  "source": "Set alignment.",
+  "translation": "Definir a índole.",
+  "outdated": false
+ },
+ "135": {
+  "source": "Add alignment.",
+  "translation": "Adicionar índole.",
+  "outdated": false
+ },
+ "136": {
+  "source": "Remove alignment.",
+  "translation": "Remover índole.",
+  "outdated": false
+ },
+ "137": {
+  "source": "View your own alignment.",
+  "translation": "Ver sua própria índole.",
+  "outdated": false
+ },
+ "138": {
+  "source": "View another player's alignment.",
+  "translation": "Ver a índole de outro jogador.",
+  "outdated": false
+ },
+ "139": {
+  "source": "Grow or cut your own tail.",
+  "translation": "Fazer crescer ou cortar sua própria cauda.",
+  "outdated": false
+ },
+ "140": {
+  "source": "Grow or cut another player's tail.",
+  "translation": "Fazer crescer ou cortar a cauda de outro jogador.",
+  "outdated": false
+ },
+ "141": {
+  "source": "Open or learn training minigames for yourself with <code>/dmzminigame</code>.",
+  "translation": "Abrir ou aprender minijogos de treinamento para você com <code>/dmzminigame</code>.",
+  "outdated": false
+ },
+ "142": {
+  "source": "Open or teach training minigames to other players.",
+  "translation": "Abrir ou ensinar minijogos de treinamento para outros jogadores.",
+  "outdated": false
+ },
+ "143": {
+  "source": "Toggle a halo.",
+  "translation": "Ligar ou desligar uma auréola.",
+  "outdated": false
+ },
+ "144": {
+  "source": "Resync or reset your own hair.",
+  "translation": "Ressincronizar ou resetar seu próprio cabelo.",
+  "outdated": false
+ },
+ "145": {
+  "source": "Resync or reset another player's hair.",
+  "translation": "Ressincronizar ou resetar o cabelo de outro jogador.",
+  "outdated": false
+ },
+ "146": {
+  "source": "Change your own class.",
+  "translation": "Alterar sua própria classe.",
+  "outdated": false
+ },
+ "147": {
+  "source": "Change another player's class.",
+  "translation": "Alterar a classe de outro jogador.",
+  "outdated": false
+ },
+ "148": {
+  "source": "Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.",
+  "translation": "Também é necessário (ou o nível de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> e <code>/dmzdebug</code>.",
+  "outdated": false
+ },
+ "149": {
+  "source": "== Applying changes ==",
+  "translation": "== Aplicar mudanças ==",
+  "outdated": false
+ },
+ "150": {
+  "source": "Nodes are registered when the mod starts and don't need a config-style reload: grant and revoke changes take effect as soon as your permissions mod applies them (LuckPerms, for instance, applies most changes immediately).",
+  "translation": "Os nós são registrados quando o mod inicia e não precisam de um recarregamento como o da configuração: as mudanças de concessão e revogação valem assim que seu mod de permissões as aplica (o LuckPerms, por exemplo, aplica a maioria das mudanças na hora).",
+  "outdated": false
+ }
+}

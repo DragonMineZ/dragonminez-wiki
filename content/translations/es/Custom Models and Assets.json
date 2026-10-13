@@ -1,0 +1,232 @@
+{
+ "Page_display_title": {
+  "source": "Custom Models and Assets",
+  "translation": "Modelos y recursos propios",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Custom models and assets''' let races and forms use your own geometry, body textures and faces. You don't need to build a separate add-on for this, but you do need to edit JSON config files and add assets to a resource pack.",
+  "translation": "Los '''modelos y recursos propios''' permiten que las razas y formas usen tu propia geometría, texturas de cuerpo y caras. No necesitas crear un addon aparte para esto, pero sí tienes que editar archivos de configuración JSON y añadir recursos a un paquete de recursos.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== How the model is chosen ==",
+  "translation": "== Cómo se elige el modelo ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "DragonMineZ picks the model key in this order:",
+  "translation": "DragonMineZ elige la clave de modelo en este orden:",
+  "outdated": false
+ },
+ "4": {
+  "source": "# The <code>customModel</code> of the active '''stack form''' (from <code>config/dragonminez/forms/<group>.json</code>).\n# The <code>customModel</code> of the active '''race form''' (from <code>races/<race>/forms/<group>.json</code>).\n# The race's <code>customModel</code> (from <code>races/<race>/character.json</code>).\n# The race's built-in default model (a custom race without <code>customModel</code> uses the Human model).",
+  "translation": "# El <code>customModel</code> de la '''forma acumulable''' activa (de <code>config/dragonminez/forms/<group>.json</code>).\n# El <code>customModel</code> de la '''forma de raza''' activa (de <code>races/<race>/forms/<group>.json</code>).\n# El <code>customModel</code> de la raza (de <code>races/<race>/character.json</code>).\n# El modelo por defecto incluido de la raza (una raza personalizada sin <code>customModel</code> usa el modelo Humano).",
+  "outdated": false
+ },
+ "5": {
+  "source": "Source: <code>src/main/java/com/dragonminez/client/model/DMZPlayerModel.java</code>.",
+  "translation": "Origen: <code>src/main/java/com/dragonminez/client/model/DMZPlayerModel.java</code>.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Built-in model keys ==",
+  "translation": "== Claves de modelo incluidas ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "You can point any race or form at a model that already ships with DragonMineZ. These keys also bring that model's textures and faces with them:",
+  "translation": "Puedes hacer que cualquier raza o forma use un modelo que ya viene con DragonMineZ. Estas claves también traen consigo las texturas y caras de ese modelo:",
+  "outdated": false
+ },
+ "8": {
+  "source": "Family",
+  "translation": "Familia",
+  "outdated": false
+ },
+ "9": {
+  "source": "Keys",
+  "translation": "Claves",
+  "outdated": false
+ },
+ "10": {
+  "source": "[[Special:MyLanguage/Human|Human]] / [[Special:MyLanguage/Saiyan|Saiyan]]",
+  "translation": "[[Special:MyLanguage/Human|Humano]] / [[Special:MyLanguage/Saiyan|Saiyajin]]",
+  "outdated": false
+ },
+ "11": {
+  "source": "[[Special:MyLanguage/Namekian|Namekian]]",
+  "translation": "[[Special:MyLanguage/Namekian|Namekiano]]",
+  "outdated": false
+ },
+ "12": {
+  "source": "[[Special:MyLanguage/Majin|Majin]]",
+  "translation": "[[Special:MyLanguage/Majin|Majin]]",
+  "outdated": false
+ },
+ "13": {
+  "source": "[[Special:MyLanguage/Frost Demon|Frost Demon]]",
+  "translation": "[[Special:MyLanguage/Frost Demon|Demonio del Frío]]",
+  "outdated": false
+ },
+ "14": {
+  "source": "[[Special:MyLanguage/Bio-Android|Bio-Android]]",
+  "translation": "[[Special:MyLanguage/Bio-Android|Bio-Androide]]",
+  "outdated": false
+ },
+ "15": {
+  "source": "[[Special:MyLanguage/Glind|Glind]]",
+  "translation": "[[Special:MyLanguage/Glind|Glind]]",
+  "outdated": false
+ },
+ "16": {
+  "source": "<code>glindtrueform</code>, <code>trascended</code> (uses the female model for female characters)",
+  "translation": "<code>glindtrueform</code>, <code>trascended</code> (usa el modelo femenino para los personajes femeninos)",
+  "outdated": false
+ },
+ "17": {
+  "source": "The special key <code>finalbase</code> (used by the Ultimate stack form) switches back to the race's own base model for the built-in races.",
+  "translation": "La clave especial <code>finalbase</code> (que usa la forma acumulable Definitivo) vuelve al modelo base propio de la raza en las razas incluidas.",
+  "outdated": false
+ },
+ "18": {
+  "source": "Any other key is a '''custom model key''' and follows the conventions below.",
+  "translation": "Cualquier otra clave es una '''clave de modelo personalizada''' y sigue las convenciones de abajo.",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Geometry files ==",
+  "translation": "== Archivos de geometría ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "Custom model files are looked up at this namespace and path, for race models '''and''' form models:",
+  "translation": "Los archivos de modelos personalizados se buscan en este namespace y ruta, tanto para modelos de raza '''como''' de forma:",
+  "outdated": false
+ },
+ "21": {
+  "source": "If the race has <code>hasGender: true</code>, DragonMineZ appends the gender suffix instead:",
+  "translation": "Si la raza tiene <code>hasGender: true</code>, DragonMineZ añade en su lugar el sufijo de género:",
+  "outdated": false
+ },
+ "22": {
+  "source": "If the file is not found, the player falls back to the default Human model. This suffix behavior comes from <code>DMZPlayerModel#resolveCustomModel</code>.",
+  "translation": "Si no se encuentra el archivo, el jugador vuelve al modelo Humano por defecto. Este comportamiento del sufijo viene de <code>DMZPlayerModel#resolveCustomModel</code>.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Extra head parts chosen in character customization (the race's <code>headBones</code>) are taken from <code>assets/dragonminez/geo/entity/raceparts.geo.json</code> first, then from the race model itself, so you can add your own ear or horn bones directly to your model.",
+  "translation": "Las partes extra de la cabeza que se eligen en la personalización del personaje (los <code>headBones</code> de la raza) se toman primero de <code>assets/dragonminez/geo/entity/raceparts.geo.json</code> y luego del propio modelo de la raza, así que puedes añadir tus propios huesos de orejas o cuernos directamente en tu modelo.",
+  "outdated": false
+ },
+ "24": {
+  "source": "== Body textures ==",
+  "translation": "== Texturas del cuerpo ==",
+  "outdated": false
+ },
+ "25": {
+  "source": "For custom model keys, body textures live in a folder named after the '''race key''': <code>assets/dragonminez/textures/entity/races/<race_key>/</code>.",
+  "translation": "Para las claves de modelo personalizadas, las texturas del cuerpo están en una carpeta con el nombre de la '''clave de la raza''': <code>assets/dragonminez/textures/entity/races/<race_key>/</code>.",
+  "outdated": false
+ },
+ "26": {
+  "source": "'''Layered races''' (<code>isLayered: true</code> in <code>character.json</code>) use three grayscale layers per body type, tinted with the three body colors:",
+  "translation": "Las '''razas por capas''' (<code>isLayered: true</code> en <code>character.json</code>) usan tres capas en escala de grises por tipo de cuerpo, teñidas con los tres colores de cuerpo:",
+  "outdated": false
+ },
+ "27": {
+  "source": "* <code><model_key>_<bodyType>_layer1.png</code> (body color 1)\n* <code><model_key>_<bodyType>_layer2.png</code> (body color 2)\n* <code><model_key>_<bodyType>_layer3.png</code> (body color 3)\n* With gender: <code><model_key>_male_<bodyType>_layer1.png</code>, <code><model_key>_female_<bodyType>_layer1.png</code> and so on.",
+  "translation": "* <code><model_key>_<bodyType>_layer1.png</code> (color de cuerpo 1)\n* <code><model_key>_<bodyType>_layer2.png</code> (color de cuerpo 2)\n* <code><model_key>_<bodyType>_layer3.png</code> (color de cuerpo 3)\n* Con género: <code><model_key>_male_<bodyType>_layer1.png</code>, <code><model_key>_female_<bodyType>_layer1.png</code>, etc.",
+  "outdated": false
+ },
+ "28": {
+  "source": "The number of body types offered in character customization is the number of consecutive <code><model_key>[_male|_female]_<n>_layer1.png</code> files found, starting at <code>0</code>. If the race has <code>useVanillaSkin: true</code>, body type <code>0</code> is the player's own Minecraft skin and your textures start at <code>1</code>. A missing <code>layer1</code> for a body type falls back to body type <code>0</code>.",
+  "translation": "La cantidad de tipos de cuerpo que se ofrecen en la personalización del personaje es la cantidad de archivos <code><model_key>[_male|_female]_<n>_layer1.png</code> consecutivos que se encuentran, empezando en <code>0</code>. Si la raza tiene <code>useVanillaSkin: true</code>, el tipo de cuerpo <code>0</code> es la skin de Minecraft del propio jugador y tus texturas empiezan en <code>1</code>. Si a un tipo de cuerpo le falta el <code>layer1</code>, se usa el tipo de cuerpo <code>0</code>.",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Non-layered races''' (<code>isLayered: false</code>) use a single texture tinted with body color 1: <code><model_key>.png</code>, or <code><model_key>_male.png</code> / <code><model_key>_female.png</code> with gender.",
+  "translation": "Las '''razas sin capas''' (<code>isLayered: false</code>) usan una sola textura teñida con el color de cuerpo 1: <code><model_key>.png</code>, o <code><model_key>_male.png</code> / <code><model_key>_female.png</code> con género.",
+  "outdated": false
+ },
+ "30": {
+  "source": "Source: <code>src/main/java/com/dragonminez/client/util/SkinGathererProvider.java</code>, <code>src/main/java/com/dragonminez/client/util/TextureCounter.java</code>.",
+  "translation": "Origen: <code>src/main/java/com/dragonminez/client/util/SkinGathererProvider.java</code>, <code>src/main/java/com/dragonminez/client/util/TextureCounter.java</code>.",
+  "outdated": false
+ },
+ "31": {
+  "source": "== Face textures ==",
+  "translation": "== Texturas de la cara ==",
+  "outdated": false
+ },
+ "32": {
+  "source": "Layered custom races draw their own face from this folder:",
+  "translation": "Las razas personalizadas por capas dibujan su propia cara desde esta carpeta:",
+  "outdated": false
+ },
+ "33": {
+  "source": "The files follow this naming pattern:",
+  "translation": "Los archivos siguen este patrón de nombres:",
+  "outdated": false
+ },
+ "34": {
+  "source": "* <code><model_key>_eye_<eyesType>_0.png</code> (white of the eye)\n* <code><model_key>_eye_<eyesType>_1.png</code> (eye color 1)\n* <code><model_key>_eye_<eyesType>_2.png</code> (eye color 2)\n* <code><model_key>_eye_<eyesType>_3.png</code> (eyebrows, hair color)\n* <code><model_key>_nose_<noseType>.png</code> (skin color)\n* <code><model_key>_mouth_<mouthType>.png</code> (skin color)",
+  "translation": "* <code><model_key>_eye_<eyesType>_0.png</code> (blanco del ojo)\n* <code><model_key>_eye_<eyesType>_1.png</code> (color de ojos 1)\n* <code><model_key>_eye_<eyesType>_2.png</code> (color de ojos 2)\n* <code><model_key>_eye_<eyesType>_3.png</code> (cejas, color del pelo)\n* <code><model_key>_nose_<noseType>.png</code> (color de piel)\n* <code><model_key>_mouth_<mouthType>.png</code> (color de piel)",
+  "outdated": false
+ },
+ "35": {
+  "source": "A missing index falls back to <code>_0</code>. The customization screen offers your own eyes, noses and mouths first (counted from the files above, starting at <code>0</code>), followed by all of the Human ones, so players can also give your race a Human face.",
+  "translation": "Si falta un índice, se usa <code>_0</code>. La pantalla de personalización ofrece primero tus propios ojos, narices y bocas (contados a partir de los archivos de arriba, empezando en <code>0</code>) y después todos los de los Humanos, así que los jugadores también pueden darle a tu raza una cara Humana.",
+  "outdated": false
+ },
+ "36": {
+  "source": "Non-layered custom races borrow the Human face entirely. When a race renders the player's Minecraft skin (body type <code>0</code> with <code>useVanillaSkin: true</code>), no face textures are drawn on top.",
+  "translation": "Las razas personalizadas sin capas toman prestada por completo la cara Humana. Cuando una raza renderiza la skin de Minecraft del jugador (tipo de cuerpo <code>0</code> con <code>useVanillaSkin: true</code>), no se dibuja ninguna textura de cara encima.",
+  "outdated": false
+ },
+ "37": {
+  "source": "Source: <code>src/main/java/com/dragonminez/client/render/layer/DMZSkinLayer.java</code> (<code>renderCustomFace</code>).",
+  "translation": "Origen: <code>src/main/java/com/dragonminez/client/render/layer/DMZSkinLayer.java</code> (<code>renderCustomFace</code>).",
+  "outdated": false
+ },
+ "38": {
+  "source": "== Assigning your model key ==",
+  "translation": "== Asignar tu clave de modelo ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "Pick one place:",
+  "translation": "Elige un lugar:",
+  "outdated": false
+ },
+ "40": {
+  "source": "* The race's default model: <code>races/<race>/character.json</code> → <code>customModel</code>\n* A specific form: <code>races/<race>/forms/<group>.json</code> → <code>forms.<form>.customModel</code>\n* A stack form: <code>forms/<group>.json</code> → <code>forms.<form>.customModel</code>",
+  "translation": "* El modelo por defecto de la raza: <code>races/<race>/character.json</code> → <code>customModel</code>\n* Una forma concreta: <code>races/<race>/forms/<group>.json</code> → <code>forms.<form>.customModel</code>\n* Una forma acumulable: <code>forms/<group>.json</code> → <code>forms.<form>.customModel</code>",
+  "outdated": false
+ },
+ "41": {
+  "source": "Then add the matching geometry and textures to your resource pack. See [[Special:MyLanguage/Custom Races|Custom Races]] and [[Special:MyLanguage/Custom Forms|Custom Forms]] for the other fields.",
+  "translation": "Después añade la geometría y las texturas correspondientes a tu paquete de recursos. Consulta [[Special:MyLanguage/Custom Races|Razas personalizadas]] y [[Special:MyLanguage/Custom Forms|Formas personalizadas]] para ver los demás campos.",
+  "outdated": false
+ },
+ "42": {
+  "source": "== Transformation animations ==",
+  "translation": "== Animaciones de transformación ==",
+  "outdated": false
+ },
+ "43": {
+  "source": "A form's <code>transformationAnimation</code> can name any animation defined in the player animation files under <code>assets/dragonminez/animations/entity/races/</code> (<code>movement</code>, <code>combat</code>, <code>ki</code>, <code>transf</code>, <code>skp</code>, <code>evs</code>). To add your own, ship a copy of <code>transf.animation.json</code> in your resource pack that keeps the built-in entries and adds your animation, then reference its name from the form config.",
+  "translation": "El <code>transformationAnimation</code> de una forma puede nombrar cualquier animación definida en los archivos de animación del jugador en <code>assets/dragonminez/animations/entity/races/</code> (<code>movement</code>, <code>combat</code>, <code>ki</code>, <code>transf</code>, <code>skp</code>, <code>evs</code>). Para añadir la tuya, incluye en tu paquete de recursos una copia de <code>transf.animation.json</code> que conserve las entradas incluidas y añada tu animación, y luego usa su nombre en la configuración de la forma.",
+  "outdated": false
+ },
+ "44": {
+  "source": "== Checklist ==",
+  "translation": "== Lista de comprobación ==",
+  "outdated": false
+ },
+ "45": {
+  "source": "# Set <code>customModel</code> in the race or form config.\n# Add <code>geo/entity/races/<model_key>.geo.json</code> (plus <code>_male</code> and <code>_female</code> variants if the race has gender).\n# Add the body textures under <code>textures/entity/races/<race_key>/</code> (and gender variants if needed).\n# For layered races, add face textures for every eye, nose and mouth index you use.\n# Reload resources and run <code>/dmzreload</code>. Sometimes you will need to restart the game.",
+  "translation": "# Define <code>customModel</code> en la configuración de la raza o de la forma.\n# Añade <code>geo/entity/races/<model_key>.geo.json</code> (y las variantes <code>_male</code> y <code>_female</code> si la raza tiene género).\n# Añade las texturas del cuerpo en <code>textures/entity/races/<race_key>/</code> (y las variantes de género si hace falta).\n# En las razas por capas, añade texturas de cara para cada índice de ojos, nariz y boca que uses.\n# Recarga los recursos y ejecuta <code>/dmzreload</code>. A veces tendrás que reiniciar el juego.",
+  "outdated": false
+ }
+}

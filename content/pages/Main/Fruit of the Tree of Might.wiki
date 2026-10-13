@@ -1,26 +1,29 @@
 {{Infobox Item
-|quote=<translate>A powerful temporary power boost.</translate>
-|Type=<translate>Consumable</translate>
-|Effect=<translate>Might Fruit effect: ×1.2 power</translate>
-|Duration=<translate>1 minute</translate>
+|quote=<translate><!--T:1--> A powerful temporary power boost.</translate>
+|Type=<translate><!--T:2--> Consumable</translate>
+|Effect=<translate><!--T:3--> Might Fruit effect: ×1.2 power</translate>
+|Duration=<translate><!--T:4--> 1 minute</translate>
 |Stack size=6
-|Obtained=<translate>Tree of Might, Turles, Shenron wish</translate>
+|Obtained=<translate><!--T:5--> Tree of Might, Turles, Shenron wish</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Fruit of the Tree of Might''' gives you a powerful temporary boost: eating it applies the '''Might Fruit''' effect, which multiplies your power by ×1.2 by default for 1 minute. You can eat it even when you are not hungry.
 </translate>
 
 <translate>
-== Getting it ==
+== Getting it == <!--T:7-->
 
+<!--T:8-->
 * The rare glowing fruit of the [[Special:MyLanguage/Tree of Might|Tree of Might]], a giant tree in the swamps of [[Special:MyLanguage/Earth|Earth]], drops it (see [[Special:MyLanguage/Structures|Structures]]).
 * The [[Special:MyLanguage/Turles|Turles]] world boss, who lives under the tree, drops it 50% of the time. Turles also eats it during the fight for a damage boost.
 * [[Special:MyLanguage/Shenron|Shenron]] can grant 16 of them as a wish.
 </translate>
 
 <translate>
-== The Might Fruit effect ==
+== The Might Fruit effect == <!--T:9-->
 
+<!--T:10-->
 The effect multiplies your Strength, Strike Power and Ki Power by ×1.2 and adds half of that bonus to your defense. Admins can give it with <code>/dmzeffect give mightfruit &lt;seconds&gt; [targets]</code> (see [[Special:MyLanguage/Effects|Effects]]).
 </translate>
 {{Config|General Server Config|mightFruitPower}}

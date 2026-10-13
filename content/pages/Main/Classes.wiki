@@ -1,53 +1,60 @@
 <translate>
+<!--T:1-->
 When you create a character you pick a '''class'''. A class decides how your first stat points are distributed, how efficiently each attribute grows as you train and which unique passive you get. DragonMineZ has '''eight classes''', and every class is available to every race: [[Special:MyLanguage/Warrior|Warrior]], [[Special:MyLanguage/Martial Artist|Martial Artist]], [[Special:MyLanguage/Spiritualist|Spiritualist]], [[Special:MyLanguage/Berserker|Berserker]], [[Special:MyLanguage/Paladin|Paladin]], [[Special:MyLanguage/Tank|Tank]], [[Special:MyLanguage/Cleric|Cleric]] and [[Special:MyLanguage/Unversed|Unversed]].
 </translate>
 
 <div class="dmz-cards">
-{{Card|Warrior|<translate>The melee bruiser, with balanced physical stats and stacks of Fury.</translate>}}
-{{Card|Martial Artist|<translate>The technical striker who hits harder the more hurt the enemy is.</translate>}}
-{{Card|Spiritualist|<translate>The ki caster: enormous energy scaling, weak body.</translate>}}
-{{Card|Berserker|<translate>The glass cannon: the closer to death, the stronger.</translate>}}
-{{Card|Paladin|<translate>The protector who takes hits for its party and heals from their damage.</translate>}}
-{{Card|Tank|<translate>The wall, with the best defense and vitality scaling.</translate>}}
-{{Card|Cleric|<translate>The support caster, with a huge energy pool and faster healing techniques.</translate>}}
-{{Card|Unversed|<translate>The all-rounder, rewarded for mixing ki attacks and melee.</translate>}}
+{{Card|Warrior|<translate><!--T:2--> The melee bruiser, with balanced physical stats and stacks of Fury.</translate>}}
+{{Card|Martial Artist|<translate><!--T:3--> The technical striker who hits harder the more hurt the enemy is.</translate>}}
+{{Card|Spiritualist|<translate><!--T:4--> The ki caster: enormous energy scaling, weak body.</translate>}}
+{{Card|Berserker|<translate><!--T:5--> The glass cannon: the closer to death, the stronger.</translate>}}
+{{Card|Paladin|<translate><!--T:6--> The protector who takes hits for its party and heals from their damage.</translate>}}
+{{Card|Tank|<translate><!--T:7--> The wall, with the best defense and vitality scaling.</translate>}}
+{{Card|Cleric|<translate><!--T:8--> The support caster, with a huge energy pool and faster healing techniques.</translate>}}
+{{Card|Unversed|<translate><!--T:9--> The all-rounder, rewarded for mixing ki attacks and melee.</translate>}}
 </div>
 
 <translate>
-== What a class does ==
+== What a class does == <!--T:10-->
 
+<!--T:11-->
 # '''Starting attributes''': how your first stat points are distributed.
 # '''Stat scalings''': how efficiently each attribute contributes as you train. This is what defines the class's playstyle.
 # '''A class passive''': a unique combat or utility effect.
 </translate>
 
 <translate>
-== Choosing and changing your class ==
+== Choosing and changing your class == <!--T:12-->
 </translate>
 {{See also|Character Customization}}
 <translate>
+<!--T:13-->
 You pick your class on the last tab ('''Class & Aura''') of the character customization screen. Browse the classes with the arrows: the panel shows each class's starting stats, scalings and regeneration, and the right side explains its passive.
 
+<!--T:14-->
 * The '''Re-Customize Character''' wish of [[Special:MyLanguage/Shenron|Shenron]] or [[Special:MyLanguage/Porunga|Porunga]] reopens the customization screen and lets you pick another class '''without''' resetting your stats or skills.
 * Admins can use <code>/dmzclass &lt;class&gt; [targets]</code>. The class must be one your race offers, and stat multipliers are re-applied on change (see [[Special:MyLanguage/Commands|Commands]]).
 </translate>
 
 <translate>
-== Stat keys and regeneration ==
+== Stat keys and regeneration == <!--T:15-->
 
+<!--T:16-->
 * '''Stat keys:''' STR = Strength · SKP = Strike Power · RES = Resistance · VIT = Vitality · PWR = Ki Power · ENE = Energy. Scalings also include DEF (Defense) and STM (Stamina), which come from Resistance.
 * '''Regeneration''' values are amounts '''per 5 seconds'''. For example, health regeneration is the class's base value plus VIT times its health scaling, and stamina regeneration grows with both VIT and RES.
 
+<!--T:17-->
 See [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]] for what each stat does.
 </translate>
 
 <translate>
-== Default stat scalings ==
+== Default stat scalings == <!--T:18-->
 
+<!--T:19-->
 Higher numbers mean that attribute contributes more for the class. Bold marks each class's standout stats.
 </translate>
 {| class="wikitable"
-! <translate>Class</translate> !! STR !! SKP !! DEF !! STM !! VIT !! PWR !! ENE
+! <translate><!--T:20--> Class</translate> !! STR !! SKP !! DEF !! STM !! VIT !! PWR !! ENE
 |-
 | {{L|Warrior}} || 1.4 || 1.0 || 0.24 || '''1.6''' || 1.8 || 0.5 || 1.5
 |-
@@ -67,14 +74,15 @@ Higher numbers mean that attribute contributes more for the class. Bold marks ea
 |}
 
 <translate>
+<!--T:21-->
 The '''VIT''' and '''DEF''' values are the ''starting'' per-point rates: both grow on a curve as you invest more Vitality and Resistance, up to <code>VIT_scaling_max</code> and <code>DEF_scaling_max</code>, which are '''4 times''' the values in this table by default.
 </translate>
 
 <translate>
-== Starting stats ==
+== Starting stats == <!--T:22-->
 </translate>
 {| class="wikitable"
-! <translate>Class</translate> !! STR !! SKP !! RES !! VIT !! PWR !! ENE
+! <translate><!--T:23--> Class</translate> !! STR !! SKP !! RES !! VIT !! PWR !! ENE
 |-
 | {{L|Warrior}} || 10 || 0 || 5 || 5 || 0 || 0
 |-
@@ -94,12 +102,13 @@ The '''VIT''' and '''DEF''' values are the ''starting'' per-point rates: both gr
 |}
 
 <translate>
-== Regeneration ==
+== Regeneration == <!--T:24-->
 
+<!--T:25-->
 Base amounts per 5 seconds, plus the extra amount per point of the listed stat.
 </translate>
 {| class="wikitable"
-! <translate>Class</translate> !! <translate>Health</translate> !! <translate>Ki</translate> !! <translate>Stamina</translate>
+! <translate><!--T:26--> Class</translate> !! <translate><!--T:27--> Health</translate> !! <translate><!--T:28--> Ki</translate> !! <translate><!--T:29--> Stamina</translate>
 |-
 | {{L|Warrior}} || 1.75 (+0.06 / VIT) || 4.0 (+0.08 / ENE) || 12.0 (+0.045 / VIT, +0.06 / RES)
 |-
@@ -119,21 +128,25 @@ Base amounts per 5 seconds, plus the extra amount per point of the listed stat.
 |}
 
 <translate>
-== Training speed ==
+== Training speed == <!--T:30-->
 
+<!--T:31-->
 Two classes train faster than average:
 
+<!--T:32-->
 * [[Special:MyLanguage/Tank|Tank]]: '''×1.25''' TP gain.
 * [[Special:MyLanguage/Cleric|Cleric]]: '''×1.25''' TP gain and '''×0.9''' TP cost, the cheapest and fastest class to train.
 
+<!--T:33-->
 The class TP multiplier is one of the TP boosts described on [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].
 </translate>
 
 <translate>
-== Configuration ==
+== Configuration == <!--T:34-->
 </translate>
 {{Config|Custom Races|stats.json}}
 <translate>
+<!--T:35-->
 All these values are defaults. Starting stats, scalings, regeneration, TP multipliers and the passive values live '''per race''' in the race stats file (<code>config/dragonminez/races/&lt;race&gt;/stats.json</code>), so server owners and add-ons can change them for each race. The class ids used in config are <code>warrior</code>, <code>martialartist</code>, <code>spiritualist</code>, <code>berserker</code>, <code>paladin</code>, <code>tank</code>, <code>cleric</code> and <code>unversed</code>.
 </translate>
 

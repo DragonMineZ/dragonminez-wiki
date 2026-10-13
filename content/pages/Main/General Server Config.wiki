@@ -1,188 +1,195 @@
 <translate>
+<!--T:1-->
 <code>general-server.json</code> controls the server-wide and world-wide behavior of DragonMineZ: progression and Training Points, world generation, the story, racial skills, world bosses, player data storage and more. It matters for dedicated servers, LAN worlds and singleplayer saves alike, whenever you want tighter control over how a world plays.
 </translate>
 
 <translate>
+<!--T:2-->
 The file lives at <code>config/dragonminez/general-server.json</code>. The server sends it to every client that joins (and again after <code>/dmzreload config</code>), so clients always use the server's values. This page explains every setting in the file, what each value does, and the ranges DMZ enforces when it reads them.
 </translate>
 
-{{Note|type=config|title=<translate>Combat lives in its own file</translate>|text=<translate>Stamina, blocking and parrying, damage mitigation, combat flight and ki weapon tuning are not part of this file. They live in <code>config/dragonminez/combat.json</code>, documented on [[Special:MyLanguage/Combat Config|Combat Config]].</translate>}}
+{{Note|type=config|title=<translate><!--T:3--> Combat lives in its own file</translate>|text=<translate><!--T:4--> Stamina, blocking and parrying, damage mitigation, combat flight and ki weapon tuning are not part of this file. They live in <code>config/dragonminez/combat.json</code>, documented on [[Special:MyLanguage/Combat Config|Combat Config]].</translate>}}
 
 <translate>
-== Comments in the file ==
+== Comments in the file == <!--T:5-->
 </translate>
 {{See also|How to JSON}}
 <translate>
+<!--T:6-->
 The file DMZ generates is plain JSON without comments. DMZ's parser tolerates <code>//</code> comments and ignores keys that start with <code>_</code>, <code>$</code> or <code>//</code>, but every time DMZ rewrites the file (a version upgrade, <code>/dmzconfig</code>, the in-game config editor) those comments and notes are removed. Keep your notes outside the file.
 </translate>
 
 <translate>
-== File overview ==
+== File overview == <!--T:7-->
 </translate>
 <translate>
+<!--T:8-->
 The file is split into these top-level sections:
 </translate>
 
 {| class="wikitable"
-! <translate>Section</translate> !! <translate>Purpose</translate>
+! <translate><!--T:9--> Section</translate> !! <translate><!--T:10--> Purpose</translate>
 |-
-| <code>configVersion</code> || <translate>Version stamp used for config upgrades. Do not hand-edit it.</translate>
+| <code>configVersion</code> || <translate><!--T:11--> Version stamp used for config upgrades. Do not hand-edit it.</translate>
 |-
-| <code>worldGen</code> || <translate>Structures, Dragon Ball generation, the Otherworld toggle and structure distances.</translate>
+| <code>worldGen</code> || <translate><!--T:12--> Structures, Dragon Ball generation, the Otherworld toggle and structure distances.</translate>
 |-
-| <code>gameplay</code> || <translate>Progression, TP gain and cost, story and side-quest toggles, the Otherworld revive, food recovery, relic items, fusion, parties, difficulty multipliers and capsules.</translate>
+| <code>gameplay</code> || <translate><!--T:13--> Progression, TP gain and cost, story and side-quest toggles, the Otherworld revive, food recovery, relic items, fusion, parties, difficulty multipliers and capsules.</translate>
 |-
-| <code>racialSkills</code> || <translate>Enables and tunes each race's racial skill (one sub-object per race).</translate>
+| <code>racialSkills</code> || <translate><!--T:14--> Enables and tunes each race's racial skill (one sub-object per race).</translate>
 |-
-| <code>dynamicGrowth</code> || <translate>Practice-based stat growth, documented on [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].</translate>
+| <code>dynamicGrowth</code> || <translate><!--T:15--> Practice-based stat growth, documented on [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].</translate>
 |-
-| <code>gravity</code> || <translate>Gravity per dimension, gravity training and the Gravity Device, documented on [[Special:MyLanguage/Gravity Config|Gravity Config]].</translate>
+| <code>gravity</code> || <translate><!--T:16--> Gravity per dimension, gravity training and the Gravity Device, documented on [[Special:MyLanguage/Gravity Config|Gravity Config]].</translate>
 |-
-| <code>mutant</code> || <translate>The Mutant lottery and its rage meter.</translate>
+| <code>mutant</code> || <translate><!--T:17--> The Mutant lottery and its rage meter.</translate>
 |-
-| <code>falseSuperSaiyan</code> || <translate>The hidden False Super Saiyan form for Saiyans.</translate>
+| <code>falseSuperSaiyan</code> || <translate><!--T:18--> The hidden False Super Saiyan form for Saiyans.</translate>
 |-
-| <code>kiTransfer</code> || <translate>Ki Transfer between players: rate, bonus, penalty, ranges and timings.</translate>
+| <code>kiTransfer</code> || <translate><!--T:19--> Ki Transfer between players: rate, bonus, penalty, ranges and timings.</translate>
 |-
-| <code>superSaiyanGodRitual</code> || <translate>The Super Saiyan God Ritual: participants, circle, timings, power, duration and cooldowns.</translate>
+| <code>superSaiyanGodRitual</code> || <translate><!--T:20--> The Super Saiyan God Ritual: participants, circle, timings, power, duration and cooldowns.</translate>
 |-
-| <code>worldBoss</code> || <translate>World boss contribution, knockouts, revives and rewards.</translate>
+| <code>worldBoss</code> || <translate><!--T:21--> World boss contribution, knockouts, revives and rewards.</translate>
 |-
-| <code>crafting</code> || <translate>What Dr. Kikono's Station copies from the template item.</translate>
+| <code>crafting</code> || <translate><!--T:22--> What Dr. Kikono's Station copies from the template item.</translate>
 |-
-| <code>storage</code> || <translate>The player data storage backend (NBT, JSON or database).</translate>
+| <code>storage</code> || <translate><!--T:23--> The player data storage backend (NBT, JSON or database).</translate>
 |-
-| <code>developer</code> || <translate>The in-chat JSON problem report.</translate>
+| <code>developer</code> || <translate><!--T:24--> The in-chat JSON problem report.</translate>
 |-
-| <code>hair</code> || <translate>Limits for the hair editor.</translate>
+| <code>hair</code> || <translate><!--T:25--> Limits for the hair editor.</translate>
 |}
 
 <div id="configVersion"></div>
 <translate>
-== Config version ==
+== Config version == <!--T:26-->
 </translate>
 {{See also|How to JSON}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:27--> Key</translate> !! <translate><!--T:28--> Default</translate> !! <translate><!--T:29--> What it does</translate>
 |-
-| <code>configVersion</code> || <translate>A semantic version string, for example <code>"2.2.0"</code></translate> || <translate>Do not change it. DMZ compares it with the mod's config version to decide whether the file must be upgraded.</translate>
+| <code>configVersion</code> || <translate><!--T:30--> A semantic version string, for example <code>"2.2.0"</code></translate> || <translate><!--T:31--> Do not change it. DMZ compares it with the mod's config version to decide whether the file must be upgraded.</translate>
 |}
 
 <div id="worldGen"></div>
 <translate>
-== World generation ==
+== World generation == <!--T:32-->
 </translate>
 {{See also|Structures|Dragons and Wishes|Otherworld}}
 <translate>
+<!--T:33-->
 The <code>worldGen</code> block controls DMZ structures, Dragon Balls and the Otherworld.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:34--> Key</translate> !! <translate><!--T:35--> Default</translate> !! <translate><!--T:36--> What it does</translate>
 |-
-| <code>generateCustomStructures</code> || <code>true</code> || <translate>Enables DMZ structures in world generation.</translate>
+| <code>generateCustomStructures</code> || <code>true</code> || <translate><!--T:37--> Enables DMZ structures in world generation.</translate>
 |-
-| <code>generateDragonBalls</code> || <code>true</code> || <translate>Enables Dragon Ball generation and re-scattering after a wish.</translate>
+| <code>generateDragonBalls</code> || <code>true</code> || <translate><!--T:38--> Enables Dragon Ball generation and re-scattering after a wish.</translate>
 |-
-| <code>otherworldActive</code> || <code>true</code> || <translate>Keeps the Otherworld gameplay systems active. If <code>false</code>, the Otherworld isn't used and vanilla respawn applies instead.</translate>
+| <code>otherworldActive</code> || <code>true</code> || <translate><!--T:39--> Keeps the Otherworld gameplay systems active. If <code>false</code>, the Otherworld isn't used and vanilla respawn applies instead.</translate>
 |-
-| <code>dbSpawnRange</code> || <code>1000</code> || <translate>Spawn radius of the built-in Earth and Namek Dragon Balls around world spawn. Clamped to <code>100</code>–<code>6000</code>.</translate>
+| <code>dbSpawnRange</code> || <code>1000</code> || <translate><!--T:40--> Spawn radius of the built-in Earth and Namek Dragon Balls around world spawn. Clamped to <code>100</code>–<code>6000</code>.</translate>
 |-
-| <code>dragonBallSets</code> || <code>1</code> || <translate>How many copies of each built-in Earth and Namek Dragon Ball are scattered (<code>1</code>–<code>10</code>; <code>0</code> counts as <code>1</code>).</translate>
+| <code>dragonBallSets</code> || <code>1</code> || <translate><!--T:41--> How many copies of each built-in Earth and Namek Dragon Ball are scattered (<code>1</code>–<code>10</code>; <code>0</code> counts as <code>1</code>).</translate>
 |-
-| <code>structureMinDistanceFromSpawn</code> || <code>500</code> || <translate>Minimum distance DMZ structures spawn from the world origin (always at least 16 blocks below the maximum).</translate>
+| <code>structureMinDistanceFromSpawn</code> || <code>500</code> || <translate><!--T:42--> Minimum distance DMZ structures spawn from the world origin (always at least 16 blocks below the maximum).</translate>
 |-
-| <code>structureMaxDistanceFromSpawn</code> || <code>10000</code> || <translate>Maximum distance DMZ structures spawn from the world origin (enforced minimum of <code>3000</code>).</translate>
+| <code>structureMaxDistanceFromSpawn</code> || <code>10000</code> || <translate><!--T:43--> Maximum distance DMZ structures spawn from the world origin (enforced minimum of <code>3000</code>).</translate>
 |-
-| <code>structureMinDistanceBetween</code> || <code>500</code> || <translate>Minimum distance kept between individual DMZ structures.</translate>
+| <code>structureMinDistanceBetween</code> || <code>500</code> || <translate><!--T:44--> Minimum distance kept between individual DMZ structures.</translate>
 |-
-| <code>structureSpacing</code> || <code>6000</code> || <translate>Spacing in blocks (minimum <code>256</code>) for structure sets that use the <code>dragonminez:wide_random_spread</code> placement type. None of DMZ's built-in structures use it; it is there for datapacks.</translate>
+| <code>structureSpacing</code> || <code>6000</code> || <translate><!--T:45--> Spacing in blocks (minimum <code>256</code>) for structure sets that use the <code>dragonminez:wide_random_spread</code> placement type. None of DMZ's built-in structures use it; it is there for datapacks.</translate>
 |-
-| <code>structureSeparation</code> || <code>2000</code> || <translate>Minimum separation in blocks for the same placement type (always below the spacing).</translate>
+| <code>structureSeparation</code> || <code>2000</code> || <translate><!--T:46--> Minimum separation in blocks for the same placement type (always below the spacing).</translate>
 |}
 
 <div id="gameplay"></div>
 <translate>
-== Gameplay ==
+== Gameplay == <!--T:47-->
 </translate>
 <translate>
+<!--T:48-->
 The <code>gameplay</code> block is the largest section of the file: progression, TP, the story, the Otherworld, food, relics, fusion, parties and difficulty tuning.
 </translate>
 
 <translate>
-=== Core progression ===
+=== Core progression === <!--T:49-->
 </translate>
 {{See also|Stats and Attributes|Transformations|Custom Forms}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:50--> Key</translate> !! <translate><!--T:51--> Default</translate> !! <translate><!--T:52--> What it does</translate>
 |-
-| <code>forceCharacterCreation</code> || <code>true</code> || <translate>Forces new players through character creation on their first login.</translate>
+| <code>forceCharacterCreation</code> || <code>true</code> || <translate><!--T:53--> Forces new players through character creation on their first login.</translate>
 |-
-| <code>commandOutputOnConsole</code> || <code>true</code> || <translate>Also logs DMZ command output to the server console.</translate>
+| <code>commandOutputOnConsole</code> || <code>true</code> || <translate><!--T:54--> Also logs DMZ command output to the server console.</translate>
 |-
-| <code>maxLevelValueInsteadOfStats</code> || <code>true</code> || <translate><code>true</code>: <code>maxValue</code> is the '''level''' cap, and stat points can be spread freely as long as the total stays under <code>maxValue × 6</code>. <code>false</code>: each individual stat is also capped at <code>maxValue</code>.</translate>
+| <code>maxLevelValueInsteadOfStats</code> || <code>true</code> || <translate><!--T:55--> <code>true</code>: <code>maxValue</code> is the '''level''' cap, and stat points can be spread freely as long as the total stays under <code>maxValue × 6</code>. <code>false</code>: each individual stat is also capped at <code>maxValue</code>.</translate>
 |-
-| <code>maxValue</code> || <code>1000000</code> || <translate>The cap read together with <code>maxLevelValueInsteadOfStats</code> (minimum <code>1000</code>). The total of all six stats can never exceed <code>maxValue × 6</code>, and the player level runs from 1 to <code>maxValue</code> across that range.</translate>
+| <code>maxValue</code> || <code>1000000</code> || <translate><!--T:56--> The cap read together with <code>maxLevelValueInsteadOfStats</code> (minimum <code>1000</code>). The total of all six stats can never exceed <code>maxValue × 6</code>, and the player level runs from 1 to <code>maxValue</code> across that range.</translate>
 |-
-| <code>vitCurveKnee</code> || <code>16000.0</code> || <translate>VIT value at which health per VIT point reaches the class <code>VIT_scaling_max</code>. Below it, the per-point scaling rises quadratically from the class minimum; above it, it stays at the maximum.</translate>
+| <code>vitCurveKnee</code> || <code>16000.0</code> || <translate><!--T:57--> VIT value at which health per VIT point reaches the class <code>VIT_scaling_max</code>. Below it, the per-point scaling rises quadratically from the class minimum; above it, it stays at the maximum.</translate>
 |-
-| <code>defCurveKnee</code> || <code>20000.0</code> || <translate>The same curve for DEF (<code>DEF_scaling_max</code>), used for flat damage mitigation.</translate>
+| <code>defCurveKnee</code> || <code>20000.0</code> || <translate><!--T:58--> The same curve for DEF (<code>DEF_scaling_max</code>), used for flat damage mitigation.</translate>
 |-
-| <code>levelFormRequisiteEnabled</code> || <code>true</code> || <translate>Enforces the minimum player level a form can require.</translate>
+| <code>levelFormRequisiteEnabled</code> || <code>true</code> || <translate><!--T:59--> Enforces the minimum player level a form can require.</translate>
 |-
-| <code>sagaFormRequisiteEnabled</code> || <code>true</code> || <translate>Enforces the saga quest a form can require before it unlocks. Ignored when <code>storyModeEnabled</code> is <code>false</code>.</translate>
+| <code>sagaFormRequisiteEnabled</code> || <code>true</code> || <translate><!--T:60--> Enforces the saga quest a form can require before it unlocks. Ignored when <code>storyModeEnabled</code> is <code>false</code>.</translate>
 |-
-| <code>multiplicationInsteadOfAdditionForMultipliers</code> || <code>false</code> || <translate><code>false</code>: form, stack form and effect multipliers stack additively (easier to balance). <code>true</code>: they multiply each other (weaker at low values, synergy-heavy at high progression).</translate>
+| <code>multiplicationInsteadOfAdditionForMultipliers</code> || <code>false</code> || <translate><!--T:61--> <code>false</code>: form, stack form and effect multipliers stack additively (easier to balance). <code>true</code>: they multiply each other (weaker at low values, synergy-heavy at high progression).</translate>
 |-
-| <code>ultimateFormFixedValue</code> || <code>false</code> || <translate><code>false</code>: the Ultimate stack form adds its bonus on top of the best base form the player owns. <code>true</code>: Ultimate only uses the multiplier written in its own form file.</translate>
+| <code>ultimateFormFixedValue</code> || <code>false</code> || <translate><!--T:62--> <code>false</code>: the Ultimate stack form adds its bonus on top of the best base form the player owns. <code>true</code>: Ultimate only uses the multiplier written in its own form file.</translate>
 |}
 
 <translate>
-=== TP gain ===
+=== TP gain === <!--T:63-->
 </translate>
 {{See also|Training Points and Mastery|Hyperbolic Time Chamber|Effects}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:64--> Key</translate> !! <translate><!--T:65--> Default</translate> !! <translate><!--T:66--> What it does</translate>
 |-
-| <code>tpGainMultiplier</code> || <code>1.0</code> || <translate>Global TP multiplier (the <code>GLOBAL</code> boost below).</translate>
+| <code>tpGainMultiplier</code> || <code>1.0</code> || <translate><!--T:67--> Global TP multiplier (the <code>GLOBAL</code> boost below).</translate>
 |-
-| <code>increaseTPGainRelativeToTPCost</code> || <code>0.75</code> || <translate>Extra TP gain that grows as stat costs rise: <code>1 + value × √(current stat cost / stat cost at progressionReferenceLevel)</code>, capped at <code>1 + value</code>. <code>0</code> disables it. Applies to every TP source except training minigames (<code>TRAINING</code>). Not applied when manual TP purchases are disabled in [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].</translate>
+| <code>increaseTPGainRelativeToTPCost</code> || <code>0.75</code> || <translate><!--T:68--> Extra TP gain that grows as stat costs rise: <code>1 + value × √(current stat cost / stat cost at progressionReferenceLevel)</code>, capped at <code>1 + value</code>. <code>0</code> disables it. Applies to every TP source except training minigames (<code>TRAINING</code>). Not applied when manual TP purchases are disabled in [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]].</translate>
 |-
-| <code>progressionReferenceLevel</code> || <code>10000</code> || <translate>Player level whose stat cost gives the full <code>increaseTPGainRelativeToTPCost</code> bonus (minimum <code>2</code>, never above <code>maxValue</code>).</translate>
+| <code>progressionReferenceLevel</code> || <code>10000</code> || <translate><!--T:69--> Player level whose stat cost gives the full <code>increaseTPGainRelativeToTPCost</code> bonus (minimum <code>2</code>, never above <code>maxValue</code>).</translate>
 |-
-| <code>attributeRewardPointRatio</code> || <code>0.5</code> || <translate>Share of an '''Attributes''' reward (quests, Power Boost wishes, world bosses) given as Attribute Points, rounded down; the rest is given as the TP those stat points cost the player at that moment. Clamped to <code>0</code>–<code>1</code>.</translate>
+| <code>attributeRewardPointRatio</code> || <code>0.5</code> || <translate><!--T:70--> Share of an '''Attributes''' reward (quests, Power Boost wishes, world bosses) given as Attribute Points, rounded down; the rest is given as the TP those stat points cost the player at that moment. Clamped to <code>0</code>–<code>1</code>.</translate>
 |-
-| <code>tpHealthRatio</code> || <code>0.25</code> || <translate>TP earned from a kill, scaled by the target's max health.</translate>
+| <code>tpHealthRatio</code> || <code>0.25</code> || <translate><!--T:71--> TP earned from a kill, scaled by the target's max health.</translate>
 |-
-| <code>tpPerHit</code> || <code>2</code> || <translate>Flat TP per successful hit.</translate>
+| <code>tpPerHit</code> || <code>2</code> || <translate><!--T:72--> Flat TP per successful hit.</translate>
 |-
-| <code>passiveTpGain</code> || <code>1</code> || <translate>Flat TP gained passively over time.</translate>
+| <code>passiveTpGain</code> || <code>1</code> || <translate><!--T:73--> Flat TP gained passively over time.</translate>
 |-
-| <code>tpPer20BlocksTraveled</code> || <code>1</code> || <translate>TP gained per 20 blocks traveled.</translate>
+| <code>tpPer20BlocksTraveled</code> || <code>1</code> || <translate><!--T:74--> TP gained per 20 blocks traveled.</translate>
 |-
-| <code>tpPerBlockMined</code> || <code>1</code> || <translate>TP gained per block mined.</translate>
+| <code>tpPerBlockMined</code> || <code>1</code> || <translate><!--T:75--> TP gained per block mined.</translate>
 |-
-| <code>tpPerItemCrafted</code> || <code>1</code> || <translate>TP gained per item crafted.</translate>
+| <code>tpPerItemCrafted</code> || <code>1</code> || <translate><!--T:76--> TP gained per item crafted.</translate>
 |-
-| <code>gravityBonusEnabled</code> || <code>true</code> || <translate>Enables the gravity TP bonus (see [[Special:MyLanguage/Gravity Config|Gravity Config]]).</translate>
+| <code>gravityBonusEnabled</code> || <code>true</code> || <translate><!--T:77--> Enables the gravity TP bonus (see [[Special:MyLanguage/Gravity Config|Gravity Config]]).</translate>
 |-
-| <code>HTCTpMultiplier</code> || <code>1.75</code> || <translate>TP multiplier inside the Hyperbolic Time Chamber (minimum <code>1.0</code>).</translate>
+| <code>HTCTpMultiplier</code> || <code>1.75</code> || <translate><!--T:78--> TP multiplier inside the Hyperbolic Time Chamber (minimum <code>1.0</code>).</translate>
 |-
-| <code>otherworldDeadTpMultiplier</code> || <code>2.0</code> || <translate>TP multiplier for dead players inside the Otherworld (minimum <code>1.0</code>).</translate>
+| <code>otherworldDeadTpMultiplier</code> || <code>2.0</code> || <translate><!--T:79--> TP multiplier for dead players inside the Otherworld (minimum <code>1.0</code>).</translate>
 |-
-| <code>storyResetTPMultiplier</code> || <code>0.5</code> || <translate>Story quest TP rewards after a story reset wish: run 1 gives 100%, run 2 gives 50%, run 3 gives 25%, and so on. Clamped to <code>0</code>–<code>1</code>; <code>1.0</code> disables the decay.</translate>
+| <code>storyResetTPMultiplier</code> || <code>0.5</code> || <translate><!--T:80--> Story quest TP rewards after a story reset wish: run 1 gives 100%, run 2 gives 50%, run 3 gives 25%, and so on. Clamped to <code>0</code>–<code>1</code>; <code>1.0</code> disables the decay.</translate>
 |-
-| <code>kamiBlessTpMultiplier</code> || <code>1.2</code> || <translate>TP multiplier while under Kami's Blessing (minimum <code>1.0</code>). Counts as a <code>POTION</code> boost.</translate>
+| <code>kamiBlessTpMultiplier</code> || <code>1.2</code> || <translate><!--T:81--> TP multiplier while under Kami's Blessing (minimum <code>1.0</code>). Counts as a <code>POTION</code> boost.</translate>
 |-
-| <code>kamiBlessDurationSeconds</code> || <code>300</code> || <translate>Duration of Kami's Blessing, which Dende gives to players with good alignment.</translate>
+| <code>kamiBlessDurationSeconds</code> || <code>300</code> || <translate><!--T:82--> Duration of Kami's Blessing, which Dende gives to players with good alignment.</translate>
 |-
-| <code>kamiBlessCooldownSeconds</code> || <code>1800</code> || <translate>Cooldown before Dende can bless the same player again.</translate>
+| <code>kamiBlessCooldownSeconds</code> || <code>1800</code> || <translate><!--T:83--> Cooldown before Dende can bless the same player again.</translate>
 |}
 
 <translate>
-=== TP cost formula ===
+=== TP cost formula === <!--T:84-->
 </translate>
 <translate>
+<!--T:85-->
 The TP cost of the next stat point is calculated like this:
 </translate>
 
@@ -201,52 +208,55 @@ FinalCost  = max(minTPCost, BaseCost × Multiplier − Discount)
 </syntaxhighlight>
 
 <translate>
+<!--T:86-->
 If <code>dynamicGrowth.attributeTpCostMultiplier</code> is above <code>1.0</code>, the final cost is multiplied by it (rounded up). When <code>dynamicGrowth.manualTpPurchasesEnabled</code> is <code>false</code>, stats can't be bought with TP at all. Stat points earned through [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]] are left out of <code>TotalStats</code> unless <code>dynamicGrowth.growthStatsCountForTpCost</code> is <code>true</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:87--> Key</translate> !! <translate><!--T:88--> Default</translate> !! <translate><!--T:89--> What it does</translate>
 |-
-| <code>globalTPCostMultiplier</code> || <code>1.0</code> || <translate>Global multiplier on stat TP costs (minimum <code>0.01</code>).</translate>
+| <code>globalTPCostMultiplier</code> || <code>1.0</code> || <translate><!--T:90--> Global multiplier on stat TP costs (minimum <code>0.01</code>).</translate>
 |-
-| <code>minTPCost</code> || <code>16</code> || <translate>Base and minimum TP cost of one stat point.</translate>
+| <code>minTPCost</code> || <code>16</code> || <translate><!--T:91--> Base and minimum TP cost of one stat point.</translate>
 |-
-| <code>maxTPDiscount</code> || <code>140</code> || <translate>Early-game TP discount threshold; the discount fades out as total stats rise.</translate>
+| <code>maxTPDiscount</code> || <code>140</code> || <translate><!--T:92--> Early-game TP discount threshold; the discount fades out as total stats rise.</translate>
 |}
 
 <div id="tpGainBoosts"></div>
 <translate>
-=== TP gain boosts ===
+=== TP gain boosts === <!--T:93-->
 </translate>
 <translate>
+<!--T:94-->
 <code>tpGainBoosts</code> controls which multiplier ''sources'' apply to each TP-gain ''source''. Its keys are TP sources (<code>STORY</code>, <code>PASSIVE</code>, <code>TRAVEL</code>, <code>MINED</code>, <code>CRAFTED</code>, <code>KILL</code>, <code>HIT</code>, <code>TRAINING</code>); its values are lists of boosts. DMZ writes them in upper case; lower-case names are accepted too.
 </translate>
 
 {| class="wikitable"
-! <translate>Boost</translate> !! <translate>Multiplier it applies</translate>
+! <translate><!--T:95--> Boost</translate> !! <translate><!--T:96--> Multiplier it applies</translate>
 |-
-| <code>CLASS</code> || <translate>The player class TP multiplier.</translate>
+| <code>CLASS</code> || <translate><!--T:97--> The player class TP multiplier.</translate>
 |-
-| <code>RACIALSKILL</code> || <translate>The Frost Demon racial TP boost (<code>racialSkills.frostdemon.tpBoost</code>).</translate>
+| <code>RACIALSKILL</code> || <translate><!--T:98--> The Frost Demon racial TP boost (<code>racialSkills.frostdemon.tpBoost</code>).</translate>
 |-
-| <code>HTC</code> || <translate><code>HTCTpMultiplier</code> inside the Hyperbolic Time Chamber.</translate>
+| <code>HTC</code> || <translate><!--T:99--> <code>HTCTpMultiplier</code> inside the Hyperbolic Time Chamber.</translate>
 |-
-| <code>OTHERWORLD</code> || <translate><code>otherworldDeadTpMultiplier</code> for dead players in the Otherworld.</translate>
+| <code>OTHERWORLD</code> || <translate><!--T:100--> <code>otherworldDeadTpMultiplier</code> for dead players in the Otherworld.</translate>
 |-
-| <code>GRAVITY</code> || <translate>The gravity training bonus (only if <code>gravityBonusEnabled</code>).</translate>
+| <code>GRAVITY</code> || <translate><!--T:101--> The gravity training bonus (only if <code>gravityBonusEnabled</code>).</translate>
 |-
-| <code>WEIGHTS</code> || <translate>The weighted equipment bonus.</translate>
+| <code>WEIGHTS</code> || <translate><!--T:102--> The weighted equipment bonus.</translate>
 |-
-| <code>GLOBAL</code> || <translate><code>tpGainMultiplier</code>.</translate>
+| <code>GLOBAL</code> || <translate><!--T:103--> <code>tpGainMultiplier</code>.</translate>
 |-
-| <code>POTION</code> || <translate>TP effects, including Kami's Blessing.</translate>
+| <code>POTION</code> || <translate><!--T:104--> TP effects, including Kami's Blessing.</translate>
 |-
-| <code>MUTANT</code> || <translate><code>mutant.tpGainMultiplier</code> for Mutant players.</translate>
+| <code>MUTANT</code> || <translate><!--T:105--> <code>mutant.tpGainMultiplier</code> for Mutant players.</translate>
 |-
-| <code>DIFFICULTY</code> || <translate>The Easy or Hard TP multiplier of the player's story difficulty.</translate>
+| <code>DIFFICULTY</code> || <translate><!--T:106--> The Easy or Hard TP multiplier of the player's story difficulty.</translate>
 |}
 
 <translate>
+<!--T:107-->
 The generated default gives every source every boost except <code>DIFFICULTY</code>, which only applies to <code>STORY</code> (quest rewards):
 </translate>
 
@@ -264,64 +274,69 @@ The generated default gives every source every boost except <code>DIFFICULTY</co
 </syntaxhighlight>
 
 <translate>
+<!--T:108-->
 Boosts stack additively: <code>1 + Σ(boost − 1)</code>, plus the <code>increaseTPGainRelativeToTPCost</code> bonus, which applies to every source except <code>TRAINING</code>. Each TP gain is boosted once.
 </translate>
 
 <translate>
+<!--T:109-->
 <code>STORY</code> covers TP that doesn't come from one of the other sources: <code>TPS</code> quest rewards, raid and tournament rewards, TP wishes and similar lump sums. The TP half of an <code>ATTRIBUTES</code> reward or wish is computed from the player's stat cost and is never boosted.
 </translate>
 
 <translate>
+<!--T:110-->
 Remove a boost from a source's list to stop that multiplier from applying to it (for example, remove <code>GRAVITY</code> from <code>MINED</code> if you don't want mining TP boosted by gravity training). A source that is present with an empty list (<code>"MINED": []</code>) gets no boosts at all; a source missing from the map uses its default list.
 </translate>
 
 <translate>
-=== Story and side quests ===
+=== Story and side quests === <!--T:111-->
 </translate>
 {{See also|Sagas|Custom Quests|Reloading and Updating Changes}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:112--> Key</translate> !! <translate><!--T:113--> Default</translate> !! <translate><!--T:114--> What it does</translate>
 |-
-| <code>storyModeEnabled</code> || <code>true</code> || <translate>Master toggle for sagas.</translate>
+| <code>storyModeEnabled</code> || <code>true</code> || <translate><!--T:115--> Master toggle for sagas.</translate>
 |-
-| <code>createDefaultSagas</code> || <code>true</code> || <translate>Generates DMZ's default sagas and saga quests in the world save if they're missing (needs <code>storyModeEnabled</code>).</translate>
+| <code>createDefaultSagas</code> || <code>true</code> || <translate><!--T:116--> Generates DMZ's default sagas and saga quests in the world save if they're missing (needs <code>storyModeEnabled</code>).</translate>
 |-
-| <code>sideQuestsEnabled</code> || <code>true</code> || <translate>Master toggle for side quests.</translate>
+| <code>sideQuestsEnabled</code> || <code>true</code> || <translate><!--T:117--> Master toggle for side quests.</translate>
 |-
-| <code>createDefaultSideQuests</code> || <code>true</code> || <translate>Generates DMZ's default side quests if they're missing.</translate>
+| <code>createDefaultSideQuests</code> || <code>true</code> || <translate><!--T:118--> Generates DMZ's default side quests if they're missing.</translate>
 |-
-| <code>autoUpdateQuests</code> || <code>true</code> || <translate>Upgrades DMZ's default quest, saga and side-quest files in the world save when a new DMZ version changes them, keeping your edits. <code>false</code>: default files are only written when they are missing.</translate>
+| <code>autoUpdateQuests</code> || <code>true</code> || <translate><!--T:119--> Upgrades DMZ's default quest, saga and side-quest files in the world save when a new DMZ version changes them, keeping your edits. <code>false</code>: default files are only written when they are missing.</translate>
 |-
-| <code>defaultQuestPartyMultiplier</code> || <code>1.45</code> || <translate>Party-size difficulty multiplier for quest objectives (clamped to <code>1.0</code>–<code>5.0</code>).</translate>
+| <code>defaultQuestPartyMultiplier</code> || <code>1.45</code> || <translate><!--T:120--> Party-size difficulty multiplier for quest objectives (clamped to <code>1.0</code>–<code>5.0</code>).</translate>
 |}
 
 <translate>
-=== Otherworld and Baba's revive ===
+=== Otherworld and Baba's revive === <!--T:121-->
 </translate>
 {{See also|Otherworld|Fortuneteller Baba}}
 <translate>
+<!--T:122-->
 With the Otherworld active, a dead player is sent to the Otherworld. [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] can send them back to the living world for a limited time (a temporary revive); [[Special:MyLanguage/King Yemma|King Yemma]] teleports them back when they are alive or temporarily revived.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:123--> Key</translate> !! <translate><!--T:124--> Default</translate> !! <translate><!--T:125--> What it does</translate>
 |-
-| <code>reviveCooldownSeconds</code> || <code>180</code> || <translate>Time after death before Baba can revive the player.</translate>
+| <code>reviveCooldownSeconds</code> || <code>180</code> || <translate><!--T:126--> Time after death before Baba can revive the player.</translate>
 |-
-| <code>babaTemporaryRevive</code> || <code>true</code> || <translate><code>true</code>: Baba grants a timed return; the player keeps the halo and walks the living world until the timer runs out. <code>false</code>: Baba fully revives the player.</translate>
+| <code>babaTemporaryRevive</code> || <code>true</code> || <translate><!--T:127--> <code>true</code>: Baba grants a timed return; the player keeps the halo and walks the living world until the timer runs out. <code>false</code>: Baba fully revives the player.</translate>
 |-
-| <code>babaTempReturnSeconds</code> || <code>3600</code> || <translate>Length of a temporary return (minimum <code>1</code>). The timer pauses in the Otherworld and while knocked out, and each new temporary return drains faster (up to 5×). Lethal hits during a temporary return knock the player out and cut the timer instead of killing them.</translate>
+| <code>babaTempReturnSeconds</code> || <code>3600</code> || <translate><!--T:128--> Length of a temporary return (minimum <code>1</code>). The timer pauses in the Otherworld and while knocked out, and each new temporary return drains faster (up to 5×). Lethal hits during a temporary return knock the player out and cut the timer instead of killing them.</translate>
 |-
-| <code>babaTimeMultiplierPerWorld</code> || <translate>See below</translate> || <translate>A map of dimension id to number: how fast the temporary-return timer drains in each dimension. Active forms also drain it faster.</translate>
+| <code>babaTimeMultiplierPerWorld</code> || <translate><!--T:129--> See below</translate> || <translate><!--T:130--> A map of dimension id to number: how fast the temporary-return timer drains in each dimension. Active forms also drain it faster.</translate>
 |-
-| <code>defaultBabaTimeMultiplier</code> || <code>1.0</code> || <translate>Drain speed for dimensions not listed in <code>babaTimeMultiplierPerWorld</code>.</translate>
+| <code>defaultBabaTimeMultiplier</code> || <code>1.0</code> || <translate><!--T:131--> Drain speed for dimensions not listed in <code>babaTimeMultiplierPerWorld</code>.</translate>
 |-
-| <code>babaHardcoreEnabled</code> || <code>false</code> || <translate>If <code>true</code>, each death makes the next revive cooldown longer.</translate>
+| <code>babaHardcoreEnabled</code> || <code>false</code> || <translate><!--T:132--> If <code>true</code>, each death makes the next revive cooldown longer.</translate>
 |-
-| <code>babaHardcoreCooldownGrowth</code> || <code>0.5</code> || <translate>With hardcore on, the cooldown is <code>reviveCooldownSeconds × (1 + growth × (deaths − 1))</code>.</translate>
+| <code>babaHardcoreCooldownGrowth</code> || <code>0.5</code> || <translate><!--T:133--> With hardcore on, the cooldown is <code>reviveCooldownSeconds × (1 + growth × (deaths − 1))</code>.</translate>
 |}
 
 <translate>
+<!--T:134-->
 Default <code>babaTimeMultiplierPerWorld</code>:
 </translate>
 
@@ -337,24 +352,25 @@ Default <code>babaTimeMultiplierPerWorld</code>:
 </syntaxhighlight>
 
 <translate>
-=== Senzu Beans ===
+=== Senzu Beans === <!--T:135-->
 </translate>
 {{See also|Senzu Bean}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:136--> Key</translate> !! <translate><!--T:137--> Default</translate> !! <translate><!--T:138--> What it does</translate>
 |-
-| <code>senzuCooldownTicks</code> || <code>240</code> || <translate>Cooldown between Senzu Bean uses (also used by the Medi-Bug ant).</translate>
+| <code>senzuCooldownTicks</code> || <code>240</code> || <translate><!--T:139--> Cooldown between Senzu Bean uses (also used by the Medi-Bug ant).</translate>
 |-
-| <code>senzuGiftCooldownTicks</code> || <code>18000</code> || <translate>Cooldown for the periodic Senzu "gift".</translate>
+| <code>senzuGiftCooldownTicks</code> || <code>18000</code> || <translate><!--T:140--> Cooldown for the periodic Senzu "gift".</translate>
 |-
-| <code>senzuGiftAmount</code> || <code>5</code> || <translate>How many Senzu Beans are gifted per cycle.</translate>
+| <code>senzuGiftAmount</code> || <code>5</code> || <translate><!--T:141--> How many Senzu Beans are gifted per cycle.</translate>
 |}
 
 <div id="food"></div>
 <translate>
-=== Food restoration ===
+=== Food restoration === <!--T:142-->
 </translate>
 <translate>
+<!--T:143-->
 With the <code>food</code> block, any food item's normal hunger and saturation restoration also restores a proportional slice of health, ki and stamina. Default value:
 </translate>
 
@@ -376,85 +392,87 @@ With the <code>food</code> block, any food item's normal hunger and saturation r
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:144--> Key</translate> !! <translate><!--T:145--> Default</translate> !! <translate><!--T:146--> What it does</translate>
 |-
-| <code>minHungerPoints</code> / <code>maxHungerPoints</code> || <code>2</code> / <code>20</code> || <translate>Food that restores fewer hunger points than the minimum gives no hunger-based recovery; anything above the maximum counts as the maximum.</translate>
+| <code>minHungerPoints</code> / <code>maxHungerPoints</code> || <code>2</code> / <code>20</code> || <translate><!--T:147--> Food that restores fewer hunger points than the minimum gives no hunger-based recovery; anything above the maximum counts as the maximum.</translate>
 |-
-| <code>minSaturationPoints</code> / <code>maxSaturationPoints</code> || <code>0.4</code> / <code>2.0</code> || <translate>The same rule for the food's saturation modifier.</translate>
+| <code>minSaturationPoints</code> / <code>maxSaturationPoints</code> || <code>0.4</code> / <code>2.0</code> || <translate><!--T:148--> The same rule for the food's saturation modifier.</translate>
 |-
-| <code>healthPercentageRecoveredPerHungerPoint</code> || <code>0.01</code> || <translate>Fraction of max health restored per hunger point.</translate>
+| <code>healthPercentageRecoveredPerHungerPoint</code> || <code>0.01</code> || <translate><!--T:149--> Fraction of max health restored per hunger point.</translate>
 |-
-| <code>kiPercentageRecoveredPerHungerPoint</code> || <code>0.01</code> || <translate>Fraction of max ki restored per hunger point.</translate>
+| <code>kiPercentageRecoveredPerHungerPoint</code> || <code>0.01</code> || <translate><!--T:150--> Fraction of max ki restored per hunger point.</translate>
 |-
-| <code>staminaPercentageRecoveredPerHungerPoint</code> || <code>0.02</code> || <translate>Fraction of max stamina restored per hunger point.</translate>
+| <code>staminaPercentageRecoveredPerHungerPoint</code> || <code>0.02</code> || <translate><!--T:151--> Fraction of max stamina restored per hunger point.</translate>
 |-
-| <code>healthPercentageRecoveredPerSaturationPoint</code> || <code>0.001</code> || <translate>Fraction of max health restored per saturation point.</translate>
+| <code>healthPercentageRecoveredPerSaturationPoint</code> || <code>0.001</code> || <translate><!--T:152--> Fraction of max health restored per saturation point.</translate>
 |-
-| <code>kiPercentageRecoveredPerSaturationPoint</code> || <code>0.001</code> || <translate>Fraction of max ki restored per saturation point.</translate>
+| <code>kiPercentageRecoveredPerSaturationPoint</code> || <code>0.001</code> || <translate><!--T:153--> Fraction of max ki restored per saturation point.</translate>
 |-
-| <code>staminaPercentageRecoveredPerSaturationPoint</code> || <code>0.004</code> || <translate>Fraction of max stamina restored per saturation point.</translate>
+| <code>staminaPercentageRecoveredPerSaturationPoint</code> || <code>0.004</code> || <translate><!--T:154--> Fraction of max stamina restored per saturation point.</translate>
 |-
-| <code>blacklistedNamespaces</code> || <code>[]</code> || <translate>List of mod namespaces (for example <code>"farmersdelight"</code>) whose food is excluded from this recovery.</translate>
+| <code>blacklistedNamespaces</code> || <code>[]</code> || <translate><!--T:155--> List of mod namespaces (for example <code>"farmersdelight"</code>) whose food is excluded from this recovery.</translate>
 |-
-| <code>blacklistedItems</code> || <code>[]</code> || <translate>List of specific item ids (for example <code>"minecraft:golden_apple"</code>) excluded from this recovery.</translate>
+| <code>blacklistedItems</code> || <code>[]</code> || <translate><!--T:156--> List of specific item ids (for example <code>"minecraft:golden_apple"</code>) excluded from this recovery.</translate>
 |}
 
 <translate>
-=== Relic items ===
+=== Relic items === <!--T:157-->
 </translate>
 {{See also|Items|Effects}}
 <translate>
+<!--T:158-->
 These keys tune the Might Fruit, the Majin power effect, [[Special:MyLanguage/Sacred Water|Sacred Water]] and the [[Special:MyLanguage/Demon Eye|Demon Eye]].
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:159--> Key</translate> !! <translate><!--T:160--> Default</translate> !! <translate><!--T:161--> What it does</translate>
 |-
-| <code>mightFruitPower</code> || <code>1.2</code> || <translate>Might Fruit effect multiplier.</translate>
+| <code>mightFruitPower</code> || <code>1.2</code> || <translate><!--T:162--> Might Fruit effect multiplier.</translate>
 |-
-| <code>majinPower</code> || <code>1.3</code> || <translate>Majin power-effect multiplier.</translate>
+| <code>majinPower</code> || <code>1.3</code> || <translate><!--T:163--> Majin power-effect multiplier.</translate>
 |-
-| <code>sacredWaterMultiplier</code> || <code>1.1</code> || <translate>Permanent all-stats multiplier from drinking Sacred Water (once per character). Clamped to <code>1.0</code>–<code>100.0</code>.</translate>
+| <code>sacredWaterMultiplier</code> || <code>1.1</code> || <translate><!--T:164--> Permanent all-stats multiplier from drinking Sacred Water (once per character). Clamped to <code>1.0</code>–<code>100.0</code>.</translate>
 |-
-| <code>demonEyeMultiplier</code> || <code>1.5</code> || <translate>All-stats multiplier while wearing the Demon Eye. Clamped to <code>1.0</code>–<code>100.0</code>.</translate>
+| <code>demonEyeMultiplier</code> || <code>1.5</code> || <translate><!--T:165--> All-stats multiplier while wearing the Demon Eye. Clamped to <code>1.0</code>–<code>100.0</code>.</translate>
 |-
-| <code>demonEyeKiDrainPercent</code> || <code>0.02</code> || <translate>Fraction of max ki drained per second while the Demon Eye is worn.</translate>
+| <code>demonEyeKiDrainPercent</code> || <code>0.02</code> || <translate><!--T:166--> Fraction of max ki drained per second while the Demon Eye is worn.</translate>
 |-
-| <code>demonEyeHealthDrainPercent</code> || <code>0.02</code> || <translate>Fraction of max health drained per second once ki runs out (never below 1 health).</translate>
+| <code>demonEyeHealthDrainPercent</code> || <code>0.02</code> || <translate><!--T:167--> Fraction of max health drained per second once ki runs out (never below 1 health).</translate>
 |-
-| <code>demonEyeAlignmentLossIntervalSeconds</code> || <code>10</code> || <translate>Every this many seconds the wearer loses 1 alignment. <code>0</code> disables it.</translate>
+| <code>demonEyeAlignmentLossIntervalSeconds</code> || <code>10</code> || <translate><!--T:168--> Every this many seconds the wearer loses 1 alignment. <code>0</code> disables it.</translate>
 |-
-| <code>demonEyeMaxGrowth</code> || <code>0.5</code> || <translate>How much the wearer grows in size (<code>0.5</code> means up to 50% bigger).</translate>
+| <code>demonEyeMaxGrowth</code> || <code>0.5</code> || <translate><!--T:169--> How much the wearer grows in size (<code>0.5</code> means up to 50% bigger).</translate>
 |-
-| <code>demonEyeGrowthSeconds</code> || <code>300</code> || <translate>Time to reach the full size while wearing it.</translate>
+| <code>demonEyeGrowthSeconds</code> || <code>300</code> || <translate><!--T:170--> Time to reach the full size while wearing it.</translate>
 |-
-| <code>demonEyeBackHitsToRemove</code> || <code>3</code> || <translate>Melee hits from behind that knock the Demon Eye off. <code>0</code> disables it.</translate>
+| <code>demonEyeBackHitsToRemove</code> || <code>3</code> || <translate><!--T:171--> Melee hits from behind that knock the Demon Eye off. <code>0</code> disables it.</translate>
 |-
-| <code>demonEyeBackHitWindowSeconds</code> || <code>10</code> || <translate>Time window in which those hits must land.</translate>
+| <code>demonEyeBackHitWindowSeconds</code> || <code>10</code> || <translate><!--T:172--> Time window in which those hits must land.</translate>
 |}
 
 <translate>
-=== Fusion ===
+=== Fusion === <!--T:173-->
 </translate>
 {{Main|Fusions}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:174--> Key</translate> !! <translate><!--T:175--> Default</translate> !! <translate><!--T:176--> What it does</translate>
 |-
-| <code>metamoruFusionThreshold</code> || <code>0.5</code> || <translate>Stat threshold used by Metamoru fusion eligibility.</translate>
+| <code>metamoruFusionThreshold</code> || <code>0.5</code> || <translate><!--T:177--> Stat threshold used by Metamoru fusion eligibility.</translate>
 |-
-| <code>fusionBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate>List of the stats boosted by fusion.</translate>
+| <code>fusionBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate><!--T:178--> List of the stats boosted by fusion.</translate>
 |-
-| <code>fusionDurationSeconds</code> || <code>900</code> || <translate>Fusion duration.</translate>
+| <code>fusionDurationSeconds</code> || <code>900</code> || <translate><!--T:179--> Fusion duration.</translate>
 |-
-| <code>fusionCooldownSeconds</code> || <code>1800</code> || <translate>Cooldown before fusing again.</translate>
+| <code>fusionCooldownSeconds</code> || <code>1800</code> || <translate><!--T:180--> Cooldown before fusing again.</translate>
 |}
 
 <div id="capsules"></div>
 <translate>
-=== Capsules ===
+=== Capsules === <!--T:181-->
 </translate>
 {{See also|Capsules}}
 <translate>
+<!--T:182-->
 Stat capsule items grant stat points to the stat or stats configured in the <code>capsules</code> block:
 </translate>
 
@@ -468,710 +486,730 @@ Stat capsule items grant stat points to the stat or stats configured in the <cod
 </syntaxhighlight>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:183--> Key</translate> !! <translate><!--T:184--> Default</translate> !! <translate><!--T:185--> What it does</translate>
 |-
-| <code>statSeparator</code> || <code>", "</code> || <translate>Separator used when a capsule lists several stats.</translate>
+| <code>statSeparator</code> || <code>", "</code> || <translate><!--T:186--> Separator used when a capsule lists several stats.</translate>
 |-
-| <code>values</code> || <translate>One entry per capsule type</translate> || <translate>A map of capsule type to <code>{ stats, points }</code>: which stat or stats each capsule type boosts, and how many points it grants (default <code>5</code>).</translate>
+| <code>values</code> || <translate><!--T:187--> One entry per capsule type</translate> || <translate><!--T:188--> A map of capsule type to <code>{ stats, points }</code>: which stat or stats each capsule type boosts, and how many points it grants (default <code>5</code>).</translate>
 |}
 
 <translate>
-=== Party ===
+=== Party === <!--T:189-->
 </translate>
 {{See also|Commands}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:190--> Key</translate> !! <translate><!--T:191--> Default</translate> !! <translate><!--T:192--> What it does</translate>
 |-
-| <code>partyMaxMembers</code> || <code>-1</code> || <translate>Maximum party size (<code>-1</code> means unlimited).</translate>
+| <code>partyMaxMembers</code> || <code>-1</code> || <translate><!--T:193--> Maximum party size (<code>-1</code> means unlimited).</translate>
 |-
-| <code>partyMaxLevelGap</code> || <code>500</code> || <translate>Maximum level difference allowed between party members (<code>-1</code> means unlimited).</translate>
+| <code>partyMaxLevelGap</code> || <code>500</code> || <translate><!--T:194--> Maximum level difference allowed between party members (<code>-1</code> means unlimited).</translate>
 |-
-| <code>partyTpShareRatio</code> || <code>0.5</code> || <translate>Fraction of TP shared with party members (clamped to <code>0</code>–<code>10</code>). Members only receive it in the same dimension and within the earner's Instant Transmission range.</translate>
+| <code>partyTpShareRatio</code> || <code>0.5</code> || <translate><!--T:195--> Fraction of TP shared with party members (clamped to <code>0</code>–<code>10</code>). Members only receive it in the same dimension and within the earner's Instant Transmission range.</translate>
 |-
-| <code>enemyHealthPerPartyPlayer</code> || <code>1.25</code> || <translate>Enemy health multiplier per additional party member.</translate>
+| <code>enemyHealthPerPartyPlayer</code> || <code>1.25</code> || <translate><!--T:196--> Enemy health multiplier per additional party member.</translate>
 |-
-| <code>enemyDamagePerPartyPlayer</code> || <code>1.1</code> || <translate>Enemy damage multiplier per additional party member.</translate>
+| <code>enemyDamagePerPartyPlayer</code> || <code>1.1</code> || <translate><!--T:197--> Enemy damage multiplier per additional party member.</translate>
 |-
-| <code>partyMarkerRange</code> || <code>2000</code> || <translate>Maximum distance (in blocks, same dimension) at which party members' on-screen markers are shown.</translate>
+| <code>partyMarkerRange</code> || <code>2000</code> || <translate><!--T:198--> Maximum distance (in blocks, same dimension) at which party members' on-screen markers are shown.</translate>
 |}
 
 <translate>
-=== Teleportation ===
+=== Teleportation === <!--T:199-->
 </translate>
 {{See also|Skills}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:200--> Key</translate> !! <translate><!--T:201--> Default</translate> !! <translate><!--T:202--> What it does</translate>
 |-
-| <code>instantTransmissionPlayerRangePerLevel</code> || <code>200</code> || <translate>Instant Transmission range (in blocks) granted per Instant Transmission skill level. Also limits party TP sharing.</translate>
+| <code>instantTransmissionPlayerRangePerLevel</code> || <code>200</code> || <translate><!--T:203--> Instant Transmission range (in blocks) granted per Instant Transmission skill level. Also limits party TP sharing.</translate>
 |}
 
 <translate>
-=== Difficulty multipliers ===
+=== Difficulty multipliers === <!--T:204-->
 </translate>
 {{See also|Sagas}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:205--> Key</translate> !! <translate><!--T:206--> Default</translate> !! <translate><!--T:207--> What it does</translate>
 |-
-| <code>easyModeHPMultiplier</code> || <code>0.75</code> || <translate>Enemy health multiplier on Easy.</translate>
+| <code>easyModeHPMultiplier</code> || <code>0.75</code> || <translate><!--T:208--> Enemy health multiplier on Easy.</translate>
 |-
-| <code>easyModeDamageMultiplier</code> || <code>0.5</code> || <translate>Enemy damage multiplier on Easy.</translate>
+| <code>easyModeDamageMultiplier</code> || <code>0.5</code> || <translate><!--T:209--> Enemy damage multiplier on Easy.</translate>
 |-
-| <code>easyModeTPMultiplier</code> || <code>1.25</code> || <translate>TP gain multiplier on Easy (the <code>DIFFICULTY</code> boost).</translate>
+| <code>easyModeTPMultiplier</code> || <code>1.25</code> || <translate><!--T:210--> TP gain multiplier on Easy (the <code>DIFFICULTY</code> boost).</translate>
 |-
-| <code>easyModeQuestRewardMultiplier</code> || <code>1.0</code> || <translate>Quest reward multiplier on Easy.</translate>
+| <code>easyModeQuestRewardMultiplier</code> || <code>1.0</code> || <translate><!--T:211--> Quest reward multiplier on Easy.</translate>
 |-
-| <code>hardModeHPMultiplier</code> || <code>2.0</code> || <translate>Enemy health multiplier on Hard. World bosses always use it (times 4).</translate>
+| <code>hardModeHPMultiplier</code> || <code>2.0</code> || <translate><!--T:212--> Enemy health multiplier on Hard. World bosses always use it (times 4).</translate>
 |-
-| <code>hardModeDamageMultiplier</code> || <code>1.5</code> || <translate>Enemy damage multiplier on Hard. World bosses always use it.</translate>
+| <code>hardModeDamageMultiplier</code> || <code>1.5</code> || <translate><!--T:213--> Enemy damage multiplier on Hard. World bosses always use it.</translate>
 |-
-| <code>hardModeTPMultiplier</code> || <code>1.25</code> || <translate>TP gain multiplier on Hard.</translate>
+| <code>hardModeTPMultiplier</code> || <code>1.25</code> || <translate><!--T:214--> TP gain multiplier on Hard.</translate>
 |-
-| <code>hardModeQuestRewardMultiplier</code> || <code>1.25</code> || <translate>Quest reward multiplier on Hard.</translate>
+| <code>hardModeQuestRewardMultiplier</code> || <code>1.25</code> || <translate><!--T:215--> Quest reward multiplier on Hard.</translate>
 |}
 
 <translate>
+<!--T:216-->
 Normal difficulty always uses <code>1.0</code>. These multipliers apply to the story difficulty each player chooses, and to the enemies spawned for that player's quests.
 </translate>
 
 <translate>
-=== Cosmetics ===
+=== Cosmetics === <!--T:217-->
 </translate>
 {{See also|Character Customization}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:218--> Key</translate> !! <translate><!--T:219--> Default</translate> !! <translate><!--T:220--> What it does</translate>
 |-
-| <code>helmetsThatKeepHair</code> || <code>["dragonminez:invencible_armor_helmet", "dragonminez:invencible_blue_armor_helmet"]</code> || <translate>List of helmet item ids that don't hide the player's hair when worn.</translate>
+| <code>helmetsThatKeepHair</code> || <code>["dragonminez:invencible_armor_helmet", "dragonminez:invencible_blue_armor_helmet"]</code> || <translate><!--T:221--> List of helmet item ids that don't hide the player's hair when worn.</translate>
 |-
-| <code>pixelTattooPaintingEnabled</code> || <code>true</code> || <translate>Allows custom painted tattoos. <code>false</code> hides the custom tattoo option in character customization, stops painted tattoos from being drawn and keeps players from uploading new ones; the shipped tattoos still work.</translate>
+| <code>pixelTattooPaintingEnabled</code> || <code>true</code> || <translate><!--T:222--> Allows custom painted tattoos. <code>false</code> hides the custom tattoo option in character customization, stops painted tattoos from being drawn and keeps players from uploading new ones; the shipped tattoos still work.</translate>
 |}
 
 <div id="racialSkills"></div>
 <translate>
-== Racial skills ==
+== Racial skills == <!--T:223-->
 </translate>
 {{Main|Racial Skills}}
 <translate>
+<!--T:224-->
 The <code>racialSkills</code> block enables and tunes each race's racial skill. Each race has its own sub-object. Files from older versions that still use the old flat keys (<code>saiyanZenkaiAmount</code>, <code>majinAbsoprtionSkill</code>, …) are converted to this layout automatically when the file is upgraded.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:225--> Key</translate> !! <translate><!--T:226--> Default</translate> !! <translate><!--T:227--> What it does</translate>
 |-
-| <code>enableRacialSkills</code> || <code>true</code> || <translate>Global on/off switch for every racial skill.</translate>
+| <code>enableRacialSkills</code> || <code>true</code> || <translate><!--T:228--> Global on/off switch for every racial skill.</translate>
 |}
 
 <translate>
+<!--T:229-->
 Ratios in the tables below are fractions (<code>0.25</code> means 25%).
 </translate>
 
 <div id="human"></div>
 <translate>
-=== Human ===
+=== Human === <!--T:230-->
 </translate>
 {{See also|Human|Android}}
 <translate>
+<!--T:231-->
 Sub-object <code>human</code>. It also holds the Absorption Barrier of Androids (Humans upgraded by [[Special:MyLanguage/Dr. Gero|Dr. Gero]]).
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:232--> Key</translate> !! <translate><!--T:233--> Default</translate> !! <translate><!--T:234--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables the Human racial skill.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:235--> Enables the Human racial skill.</translate>
 |-
-| <code>techniqueXpBonus</code> || <code>0.35</code> || <translate>Fast Learner: techniques gain this much more experience.</translate>
+| <code>techniqueXpBonus</code> || <code>0.35</code> || <translate><!--T:236--> Fast Learner: techniques gain this much more experience.</translate>
 |-
-| <code>adrenalineThreshold</code> || <code>0.25</code> || <translate>Adrenaline triggers when health drops to this fraction or below (it re-arms once health is back above it).</translate>
+| <code>adrenalineThreshold</code> || <code>0.25</code> || <translate><!--T:237--> Adrenaline triggers when health drops to this fraction or below (it re-arms once health is back above it).</translate>
 |-
-| <code>adrenalineSeconds</code> || <code>15</code> || <translate>Adrenaline duration.</translate>
+| <code>adrenalineSeconds</code> || <code>15</code> || <translate><!--T:238--> Adrenaline duration.</translate>
 |-
-| <code>adrenalineDamageReduction</code> || <code>0.30</code> || <translate>Damage reduction during Adrenaline.</translate>
+| <code>adrenalineDamageReduction</code> || <code>0.30</code> || <translate><!--T:239--> Damage reduction during Adrenaline.</translate>
 |-
-| <code>adrenalineAttackSpeed</code> || <code>0.25</code> || <translate>Attack speed bonus during Adrenaline.</translate>
+| <code>adrenalineAttackSpeed</code> || <code>0.25</code> || <translate><!--T:240--> Attack speed bonus during Adrenaline.</translate>
 |-
-| <code>adrenalineMoveSpeed</code> || <code>0.25</code> || <translate>Movement speed bonus during Adrenaline.</translate>
+| <code>adrenalineMoveSpeed</code> || <code>0.25</code> || <translate><!--T:241--> Movement speed bonus during Adrenaline.</translate>
 |-
-| <code>adrenalineCooldownSeconds</code> || <code>180</code> || <translate>Adrenaline cooldown.</translate>
+| <code>adrenalineCooldownSeconds</code> || <code>180</code> || <translate><!--T:242--> Adrenaline cooldown.</translate>
 |-
-| <code>androidBarrierEnabled</code> || <code>true</code> || <translate>Enables the Absorption Barrier for Androids.</translate>
+| <code>androidBarrierEnabled</code> || <code>true</code> || <translate><!--T:243--> Enables the Absorption Barrier for Androids.</translate>
 |-
-| <code>androidBarrierMaxSeconds</code> || <code>10</code> || <translate>Maximum time the barrier can be held.</translate>
+| <code>androidBarrierMaxSeconds</code> || <code>10</code> || <translate><!--T:244--> Maximum time the barrier can be held.</translate>
 |-
-| <code>androidBarrierCooldownSeconds</code> || <code>30</code> || <translate>Cooldown after releasing the barrier.</translate>
+| <code>androidBarrierCooldownSeconds</code> || <code>30</code> || <translate><!--T:245--> Cooldown after releasing the barrier.</translate>
 |-
-| <code>androidBarrierBrokenCooldownSeconds</code> || <code>180</code> || <translate>Cooldown after the barrier shatters.</translate>
+| <code>androidBarrierBrokenCooldownSeconds</code> || <code>180</code> || <translate><!--T:246--> Cooldown after the barrier shatters.</translate>
 |-
-| <code>androidBarrierKiConversion</code> || <code>0.50</code> || <translate>Fraction of an absorbed ki blast's damage restored as ki.</translate>
+| <code>androidBarrierKiConversion</code> || <code>0.50</code> || <translate><!--T:247--> Fraction of an absorbed ki blast's damage restored as ki.</translate>
 |-
-| <code>androidBarrierSurgeOverflow</code> || <code>0.50</code> || <translate>Overflowing max ki by this fraction triggers a Ki Surge.</translate>
+| <code>androidBarrierSurgeOverflow</code> || <code>0.50</code> || <translate><!--T:248--> Overflowing max ki by this fraction triggers a Ki Surge.</translate>
 |-
-| <code>androidBarrierBreakOverflow</code> || <code>0.75</code> || <translate>Overflowing max ki beyond this fraction shatters the barrier; the excess backfires as damage.</translate>
+| <code>androidBarrierBreakOverflow</code> || <code>0.75</code> || <translate><!--T:249--> Overflowing max ki beyond this fraction shatters the barrier; the excess backfires as damage.</translate>
 |-
-| <code>androidBarrierSize</code> || <code>2.6</code> || <translate>Barrier size.</translate>
+| <code>androidBarrierSize</code> || <code>2.6</code> || <translate><!--T:250--> Barrier size.</translate>
 |-
-| <code>androidKiRegenMultiplier</code> || <code>2.0</code> || <translate>Ki regeneration multiplier for Androids.</translate>
+| <code>androidKiRegenMultiplier</code> || <code>2.0</code> || <translate><!--T:251--> Ki regeneration multiplier for Androids.</translate>
 |}
 
 <div id="saiyan"></div>
 <translate>
-=== Saiyan: Zenkai ===
+=== Saiyan: Zenkai === <!--T:252-->
 </translate>
 {{See also|Saiyan}}
 <translate>
+<!--T:253-->
 Sub-object <code>saiyan</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:254--> Key</translate> !! <translate><!--T:255--> Default</translate> !! <translate><!--T:256--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables Zenkai.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:257--> Enables Zenkai.</translate>
 |-
-| <code>minLevel</code> || <code>100</code> || <translate>Minimum player level for Zenkai to trigger.</translate>
+| <code>minLevel</code> || <code>100</code> || <translate><!--T:258--> Minimum player level for Zenkai to trigger.</translate>
 |-
-| <code>cooldownSeconds</code> || <code>900</code> || <translate>Zenkai cooldown.</translate>
+| <code>cooldownSeconds</code> || <code>900</code> || <translate><!--T:259--> Zenkai cooldown.</translate>
 |-
-| <code>knockoutSeconds</code> || <code>10</code> || <translate>Time the Saiyan stays down (invulnerable) after a Zenkai.</translate>
+| <code>knockoutSeconds</code> || <code>10</code> || <translate><!--T:260--> Time the Saiyan stays down (invulnerable) after a Zenkai.</translate>
 |-
-| <code>knockoutHealthRegen</code> || <code>0.40</code> || <translate>Health recovered over the knockout.</translate>
+| <code>knockoutHealthRegen</code> || <code>0.40</code> || <translate><!--T:261--> Health recovered over the knockout.</translate>
 |-
-| <code>knockoutStaminaRegen</code> || <code>0.80</code> || <translate>Stamina recovered over the knockout.</translate>
+| <code>knockoutStaminaRegen</code> || <code>0.80</code> || <translate><!--T:262--> Stamina recovered over the knockout.</translate>
 |-
-| <code>knockoutEnergyRegen</code> || <code>0.80</code> || <translate>Ki recovered over the knockout.</translate>
+| <code>knockoutEnergyRegen</code> || <code>0.80</code> || <translate><!--T:263--> Ki recovered over the knockout.</translate>
 |-
-| <code>overkillThreshold</code> || <code>1.0</code> || <translate>A lethal blow that dealt more than this fraction of max health doesn't trigger Zenkai.</translate>
+| <code>overkillThreshold</code> || <code>1.0</code> || <translate><!--T:264--> A lethal blow that dealt more than this fraction of max health doesn't trigger Zenkai.</translate>
 |-
-| <code>peakWindowSeconds</code> || <code>10</code> || <translate>Window in which the hardest hit taken is remembered for the boost size.</translate>
+| <code>peakWindowSeconds</code> || <code>10</code> || <translate><!--T:265--> Window in which the hardest hit taken is remembered for the boost size.</translate>
 |-
-| <code>maxBuffHitRatio</code> || <code>0.25</code> || <translate>Hits of at least this fraction of max health give the full boost.</translate>
+| <code>maxBuffHitRatio</code> || <code>0.25</code> || <translate><!--T:266--> Hits of at least this fraction of max health give the full boost.</translate>
 |-
-| <code>minBuffPct</code> / <code>maxBuffPct</code> || <code>0.01</code> / <code>0.10</code> || <translate>Stat boost range, scaled by the hardest hit.</translate>
+| <code>minBuffPct</code> / <code>maxBuffPct</code> || <code>0.01</code> / <code>0.10</code> || <translate><!--T:267--> Stat boost range, scaled by the hardest hit.</translate>
 |-
-| <code>permanentMaxBuffs</code> || <code>3</code> || <translate>How many full-strength boosts are permanent. Any other boost is temporary.</translate>
+| <code>permanentMaxBuffs</code> || <code>3</code> || <translate><!--T:268--> How many full-strength boosts are permanent. Any other boost is temporary.</translate>
 |-
-| <code>tempBuffMinSeconds</code> / <code>tempBuffMaxSeconds</code> || <code>120</code> / <code>240</code> || <translate>Duration range of a temporary boost.</translate>
+| <code>tempBuffMinSeconds</code> / <code>tempBuffMaxSeconds</code> || <code>120</code> / <code>240</code> || <translate><!--T:269--> Duration range of a temporary boost.</translate>
 |-
-| <code>releaseBonusPerZenkai</code> || <code>0.05</code> || <translate>Limitless Power: each full-strength Zenkai raises the Power Release limit by this much.</translate>
+| <code>releaseBonusPerZenkai</code> || <code>0.05</code> || <translate><!--T:270--> Limitless Power: each full-strength Zenkai raises the Power Release limit by this much.</translate>
 |-
-| <code>releaseBonusCap</code> || <code>0.15</code> || <translate>Maximum total Power Release bonus.</translate>
+| <code>releaseBonusCap</code> || <code>0.15</code> || <translate><!--T:271--> Maximum total Power Release bonus.</translate>
 |-
-| <code>buffStats</code> || <code>["STR", "SKP", "PWR"]</code> || <translate>Stats boosted by Zenkai.</translate>
+| <code>buffStats</code> || <code>["STR", "SKP", "PWR"]</code> || <translate><!--T:272--> Stats boosted by Zenkai.</translate>
 |}
 
 <div id="namekian"></div>
 <translate>
-=== Namekian ===
+=== Namekian === <!--T:273-->
 </translate>
 {{See also|Namekian}}
 <translate>
+<!--T:274-->
 Sub-object <code>namekian</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:275--> Key</translate> !! <translate><!--T:276--> Default</translate> !! <translate><!--T:277--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables Assimilation and Regeneration.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:278--> Enables Assimilation and Regeneration.</translate>
 |-
-| <code>assimilationAmount</code> || <code>4</code> || <translate>Maximum number of assimilations. The latest one is lost on death.</translate>
+| <code>assimilationAmount</code> || <code>4</code> || <translate><!--T:279--> Maximum number of assimilations. The latest one is lost on death.</translate>
 |-
-| <code>assimilationCooldownSeconds</code> || <code>600</code> || <translate>Assimilation cooldown.</translate>
+| <code>assimilationCooldownSeconds</code> || <code>600</code> || <translate><!--T:280--> Assimilation cooldown.</translate>
 |-
-| <code>assimilationHealthRegen</code> || <code>0.35</code> || <translate>Health healed when assimilating.</translate>
+| <code>assimilationHealthRegen</code> || <code>0.35</code> || <translate><!--T:281--> Health healed when assimilating.</translate>
 |-
-| <code>assimilationStatBoost</code> || <code>0.075</code> || <translate>Fraction of the Namekian's own stats permanently gained per assimilation.</translate>
+| <code>assimilationStatBoost</code> || <code>0.075</code> || <translate><!--T:282--> Fraction of the Namekian's own stats permanently gained per assimilation.</translate>
 |-
-| <code>assimilationBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate>Stats boosted by assimilation.</translate>
+| <code>assimilationBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate><!--T:283--> Stats boosted by assimilation.</translate>
 |-
-| <code>assimilationOnNamekNpcs</code> || <code>true</code> || <translate>Also allows assimilating Namekian warriors, traders and Piccolo (otherwise only Namekian players).</translate>
+| <code>assimilationOnNamekNpcs</code> || <code>true</code> || <translate><!--T:284--> Also allows assimilating Namekian warriors, traders and Piccolo (otherwise only Namekian players).</translate>
 |-
-| <code>assimilationRequestTimeoutSeconds</code> || <code>30</code> || <translate>Time a target player has to accept the request (knocked-down players are assimilated without asking).</translate>
+| <code>assimilationRequestTimeoutSeconds</code> || <code>30</code> || <translate><!--T:285--> Time a target player has to accept the request (knocked-down players are assimilated without asking).</translate>
 |-
-| <code>regenChannelSeconds</code> || <code>3</code> || <translate>Regeneration channel time.</translate>
+| <code>regenChannelSeconds</code> || <code>3</code> || <translate><!--T:286--> Regeneration channel time.</translate>
 |-
-| <code>regenHealthRatio</code> || <code>0.25</code> || <translate>Health recovered over the channel.</translate>
+| <code>regenHealthRatio</code> || <code>0.25</code> || <translate><!--T:287--> Health recovered over the channel.</translate>
 |-
-| <code>regenEnergyCost</code> / <code>regenStaminaCost</code> || <code>0.30</code> / <code>0.20</code> || <translate>Ki and stamina spent by Regeneration.</translate>
+| <code>regenEnergyCost</code> / <code>regenStaminaCost</code> || <code>0.30</code> / <code>0.20</code> || <translate><!--T:288--> Ki and stamina spent by Regeneration.</translate>
 |-
-| <code>regenCooldownSeconds</code> || <code>45</code> || <translate>Regeneration cooldown (half if interrupted by damage).</translate>
+| <code>regenCooldownSeconds</code> || <code>45</code> || <translate><!--T:289--> Regeneration cooldown (half if interrupted by damage).</translate>
 |-
-| <code>waterRegenBonus</code> || <code>0.25</code> || <translate>Water Affinity: regeneration bonus while underwater or after drinking a potion.</translate>
+| <code>waterRegenBonus</code> || <code>0.25</code> || <translate><!--T:290--> Water Affinity: regeneration bonus while underwater or after drinking a potion.</translate>
 |-
-| <code>waterRegenSeconds</code> || <code>5</code> || <translate>Duration of that bonus.</translate>
+| <code>waterRegenSeconds</code> || <code>5</code> || <translate><!--T:291--> Duration of that bonus.</translate>
 |}
 
 <div id="frostdemon"></div>
 <translate>
-=== Frost Demon ===
+=== Frost Demon === <!--T:292-->
 </translate>
 {{See also|Frost Demon}}
 <translate>
+<!--T:293-->
 Sub-object <code>frostdemon</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:294--> Key</translate> !! <translate><!--T:295--> Default</translate> !! <translate><!--T:296--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables the Frost Demon racial skill.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:297--> Enables the Frost Demon racial skill.</translate>
 |-
-| <code>tpBoost</code> || <code>1.25</code> || <translate>Prodigious Strength TP multiplier (the <code>RACIALSKILL</code> boost).</translate>
+| <code>tpBoost</code> || <code>1.25</code> || <translate><!--T:298--> Prodigious Strength TP multiplier (the <code>RACIALSKILL</code> boost).</translate>
 |-
-| <code>masteryGainBonus</code> || <code>0.25</code> || <translate>Forms gain this much more mastery.</translate>
+| <code>masteryGainBonus</code> || <code>0.25</code> || <translate><!--T:299--> Forms gain this much more mastery.</translate>
 |-
-| <code>kiTechniqueResistance</code> || <code>0.125</code> || <translate>Damage reduction against ki techniques.</translate>
+| <code>kiTechniqueResistance</code> || <code>0.125</code> || <translate><!--T:300--> Damage reduction against ki techniques.</translate>
 |-
-| <code>strikeTechniqueResistance</code> || <code>0.05</code> || <translate>Damage reduction against strike techniques.</translate>
+| <code>strikeTechniqueResistance</code> || <code>0.05</code> || <translate><!--T:301--> Damage reduction against strike techniques.</translate>
 |-
-| <code>reserveChargeReleaseThreshold</code> || <code>25</code> || <translate>Power Reserve charges only while Power Release is at or below this value.</translate>
+| <code>reserveChargeReleaseThreshold</code> || <code>25</code> || <translate><!--T:302--> Power Reserve charges only while Power Release is at or below this value.</translate>
 |-
-| <code>reserveMaxRatio</code> || <code>0.50</code> || <translate>Reserve size as a fraction of max ki.</translate>
+| <code>reserveMaxRatio</code> || <code>0.50</code> || <translate><!--T:303--> Reserve size as a fraction of max ki.</translate>
 |-
-| <code>reserveFullChargeSeconds</code> || <code>30</code> || <translate>Time to fill the reserve.</translate>
+| <code>reserveFullChargeSeconds</code> || <code>30</code> || <translate><!--T:304--> Time to fill the reserve.</translate>
 |-
-| <code>reserveDurationSeconds</code> || <code>10</code> || <translate>How long a full reserve feeds a form (transformed at 100% Power Release): no ki upkeep and stronger form bonuses.</translate>
+| <code>reserveDurationSeconds</code> || <code>10</code> || <translate><!--T:305--> How long a full reserve feeds a form (transformed at 100% Power Release): no ki upkeep and stronger form bonuses.</translate>
 |-
-| <code>reserveFormBonus</code> || <code>0.15</code> || <translate>Form bonus increase while the reserve feeds the form.</translate>
+| <code>reserveFormBonus</code> || <code>0.15</code> || <translate><!--T:306--> Form bonus increase while the reserve feeds the form.</translate>
 |-
-| <code>reserveChargeForms</code> || <code>["second", "third", "final"]</code> || <translate>Forms (besides base) in which the reserve can charge.</translate>
+| <code>reserveChargeForms</code> || <code>["second", "third", "final"]</code> || <translate><!--T:307--> Forms (besides base) in which the reserve can charge.</translate>
 |}
 
 <div id="bioandroid"></div>
 <translate>
-=== Bio-Android ===
+=== Bio-Android === <!--T:308-->
 </translate>
 {{See also|Bio-Android}}
 <translate>
+<!--T:309-->
 Sub-object <code>bioandroid</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:310--> Key</translate> !! <translate><!--T:311--> Default</translate> !! <translate><!--T:312--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables the Bio-Android racial skill.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:313--> Enables the Bio-Android racial skill.</translate>
 |-
-| <code>cooldownSeconds</code> || <code>180</code> || <translate>Vital Drain cooldown.</translate>
+| <code>cooldownSeconds</code> || <code>180</code> || <translate><!--T:314--> Vital Drain cooldown.</translate>
 |-
-| <code>drainRatio</code> || <code>0.25</code> || <translate>Total fraction of the target's max health drained by Vital Drain.</translate>
+| <code>drainRatio</code> || <code>0.25</code> || <translate><!--T:315--> Total fraction of the target's max health drained by Vital Drain.</translate>
 |-
-| <code>drainTpRatio</code> || <code>0.50</code> || <translate>TP gained (Imperfect form) when Vital Drain kills the target, relative to the drained health.</translate>
+| <code>drainTpRatio</code> || <code>0.50</code> || <translate><!--T:316--> TP gained (Imperfect form) when Vital Drain kills the target, relative to the drained health.</translate>
 |-
-| <code>explodeChargeSeconds</code> || <code>5</code> || <translate>Self-Destruct hold time (Semi-Perfect form).</translate>
+| <code>explodeChargeSeconds</code> || <code>5</code> || <translate><!--T:317--> Self-Destruct hold time (Semi-Perfect form).</translate>
 |-
-| <code>explodeRevertSeconds</code> || <code>4</code> || <translate>Time the swelling takes to revert when the charge is released early.</translate>
+| <code>explodeRevertSeconds</code> || <code>4</code> || <translate><!--T:318--> Time the swelling takes to revert when the charge is released early.</translate>
 |-
-| <code>explodeDamageRatio</code> || <code>5.0</code> || <translate>Explosion damage at the center, as a multiple of the user's max health (less farther away).</translate>
+| <code>explodeDamageRatio</code> || <code>5.0</code> || <translate><!--T:319--> Explosion damage at the center, as a multiple of the user's max health (less farther away).</translate>
 |-
-| <code>explodeRadius</code> || <code>36</code> || <translate>Explosion radius in blocks.</translate>
+| <code>explodeRadius</code> || <code>36</code> || <translate><!--T:320--> Explosion radius in blocks.</translate>
 |-
-| <code>explodeKillsUser</code> || <code>false</code> || <translate><code>true</code>: the explosion kills the user. <code>false</code>: the user survives, knocked down.</translate>
+| <code>explodeKillsUser</code> || <code>false</code> || <translate><!--T:321--> <code>true</code>: the explosion kills the user. <code>false</code>: the user survives, knocked down.</translate>
 |-
-| <code>explodeKnockdownSeconds</code> || <code>30</code> || <translate>Knockdown duration when the user survives.</translate>
+| <code>explodeKnockdownSeconds</code> || <code>30</code> || <translate><!--T:322--> Knockdown duration when the user survives.</translate>
 |-
-| <code>explodeCooldownSeconds</code> || <code>600</code> || <translate>Self-Destruct cooldown.</translate>
+| <code>explodeCooldownSeconds</code> || <code>600</code> || <translate><!--T:323--> Self-Destruct cooldown.</translate>
 |-
-| <code>cellJrMax</code> || <code>3</code> || <translate>Cell Jr. per player at a time (Perfect form).</translate>
+| <code>cellJrMax</code> || <code>3</code> || <translate><!--T:324--> Cell Jr. per player at a time (Perfect form).</translate>
 |-
-| <code>cellJrStatRatio</code> || <code>0.20</code> || <translate>Cell Jr. health and damage relative to the owner.</translate>
+| <code>cellJrStatRatio</code> || <code>0.20</code> || <translate><!--T:325--> Cell Jr. health and damage relative to the owner.</translate>
 |-
-| <code>cellJrOwnerPenalty</code> || <code>0.10</code> || <translate>Owner stat reduction per living Cell Jr.</translate>
+| <code>cellJrOwnerPenalty</code> || <code>0.10</code> || <translate><!--T:326--> Owner stat reduction per living Cell Jr.</translate>
 |-
-| <code>cellJrChargeCooldownSeconds</code> || <code>240</code> || <translate>Recharge time of a destroyed Cell Jr.'s slot.</translate>
+| <code>cellJrChargeCooldownSeconds</code> || <code>240</code> || <translate><!--T:327--> Recharge time of a destroyed Cell Jr.'s slot.</translate>
 |-
-| <code>cellJrLeashRange</code> || <code>64</code> || <translate>A Cell Jr. farther than this from its owner disappears.</translate>
+| <code>cellJrLeashRange</code> || <code>64</code> || <translate><!--T:328--> A Cell Jr. farther than this from its owner disappears.</translate>
 |-
-| <code>cellJrGlobalCap</code> || <code>30</code> || <translate>Maximum Cell Jr. alive on the whole server.</translate>
+| <code>cellJrGlobalCap</code> || <code>30</code> || <translate><!--T:329--> Maximum Cell Jr. alive on the whole server.</translate>
 |}
 
 <div id="majin"></div>
 <translate>
-=== Majin ===
+=== Majin === <!--T:330-->
 </translate>
 {{See also|Majin}}
 <translate>
+<!--T:331-->
 Sub-object <code>majin</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:332--> Key</translate> !! <translate><!--T:333--> Default</translate> !! <translate><!--T:334--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables Absorption.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:335--> Enables Absorption.</translate>
 |-
-| <code>absorptionAmount</code> || <code>3</code> || <translate>Maximum number of absorptions. All are lost on death.</translate>
+| <code>absorptionAmount</code> || <code>3</code> || <translate><!--T:336--> Maximum number of absorptions. All are lost on death.</translate>
 |-
-| <code>absorptionCooldownSeconds</code> || <code>600</code> || <translate>Absorption cooldown.</translate>
+| <code>absorptionCooldownSeconds</code> || <code>600</code> || <translate><!--T:337--> Absorption cooldown.</translate>
 |-
-| <code>absorptionHealthRegen</code> || <code>0.30</code> || <translate>Health healed when absorbing.</translate>
+| <code>absorptionHealthRegen</code> || <code>0.30</code> || <translate><!--T:338--> Health healed when absorbing.</translate>
 |-
-| <code>absorptionStatCopy</code> || <code>0.04</code> || <translate>Fraction of the target's stats gained (mobs use their max health).</translate>
+| <code>absorptionStatCopy</code> || <code>0.04</code> || <translate><!--T:339--> Fraction of the target's stats gained (mobs use their max health).</translate>
 |-
-| <code>absorptionBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate>Stats boosted by absorption.</translate>
+| <code>absorptionBoosts</code> || <code>["STR", "SKP", "PWR"]</code> || <translate><!--T:340--> Stats boosted by absorption.</translate>
 |-
-| <code>absorptionOnMobs</code> || <code>true</code> || <translate>Also allows absorbing mobs (otherwise only players).</translate>
+| <code>absorptionOnMobs</code> || <code>true</code> || <translate><!--T:341--> Also allows absorbing mobs (otherwise only players).</translate>
 |-
-| <code>slotEjectCooldownSeconds</code> || <code>300</code> || <translate>Ejecting an absorption locks its slot for this long.</translate>
+| <code>slotEjectCooldownSeconds</code> || <code>300</code> || <translate><!--T:342--> Ejecting an absorption locks its slot for this long.</translate>
 |-
-| <code>foodHealBonus</code> || <code>0.25</code> || <translate>Sweet Tooth: food heals this much more.</translate>
+| <code>foodHealBonus</code> || <code>0.25</code> || <translate><!--T:343--> Sweet Tooth: food heals this much more.</translate>
 |-
-| <code>kiHealDealtBonus</code> || <code>0.25</code> || <translate>Healing ki techniques used by a Majin heal this much more.</translate>
+| <code>kiHealDealtBonus</code> || <code>0.25</code> || <translate><!--T:344--> Healing ki techniques used by a Majin heal this much more.</translate>
 |-
-| <code>kiHealReceivedBonus</code> || <code>0.25</code> || <translate>Majins receive this much more healing from ki techniques.</translate>
+| <code>kiHealReceivedBonus</code> || <code>0.25</code> || <translate><!--T:345--> Majins receive this much more healing from ki techniques.</translate>
 |-
-| <code>healTechniqueCostReduction</code> || <code>0.10</code> || <translate>Healing techniques cost this much less ki.</translate>
+| <code>healTechniqueCostReduction</code> || <code>0.10</code> || <translate><!--T:346--> Healing techniques cost this much less ki.</translate>
 |-
-| <code>healTechniqueCooldownReduction</code> || <code>0.10</code> || <translate>Healing techniques recharge this much faster.</translate>
+| <code>healTechniqueCooldownReduction</code> || <code>0.10</code> || <translate><!--T:347--> Healing techniques recharge this much faster.</translate>
 |}
 
 <div id="glind"></div>
 <translate>
-=== Glind ===
+=== Glind === <!--T:348-->
 </translate>
 {{See also|Glind|Alignment}}
 <translate>
+<!--T:349-->
 Sub-object <code>glind</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:350--> Key</translate> !! <translate><!--T:351--> Default</translate> !! <translate><!--T:352--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Enables the Glind racial skill.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:353--> Enables the Glind racial skill.</translate>
 |-
-| <code>divineKi</code> || <code>true</code> || <translate>Ki Sense, Scouters and Instant Transmission can't find a Glind unless the seeker has god ki (an unlocked or active God Form, or Divine Ki of their own) or is under Kami's Blessing. Divine Ki also counts as god ki, so Glinds can sense, lock on to and Instant Transmission to players in a God Form.</translate>
+| <code>divineKi</code> || <code>true</code> || <translate><!--T:354--> Ki Sense, Scouters and Instant Transmission can't find a Glind unless the seeker has god ki (an unlocked or active God Form, or Divine Ki of their own) or is under Kami's Blessing. Divine Ki also counts as god ki, so Glinds can sense, lock on to and Instant Transmission to players in a God Form.</translate>
 |-
-| <code>meditationDodgeMultiplier</code> || <code>1.5</code> || <translate>Multiplier on the Meditation dodge chance against melee.</translate>
+| <code>meditationDodgeMultiplier</code> || <code>1.5</code> || <translate><!--T:355--> Multiplier on the Meditation dodge chance against melee.</translate>
 |-
-| <code>regenMultiplier</code> || <code>1.25</code> || <translate>Health, ki and stamina regeneration multiplier.</translate>
+| <code>regenMultiplier</code> || <code>1.25</code> || <translate><!--T:356--> Health, ki and stamina regeneration multiplier.</translate>
 |-
-| <code>healingReductionBase</code> || <code>0.20</code> || <translate>Healing reduction applied for 6 seconds to players the Glind hits.</translate>
+| <code>healingReductionBase</code> || <code>0.20</code> || <translate><!--T:357--> Healing reduction applied for 6 seconds to players the Glind hits.</translate>
 |-
-| <code>healingReductionStackEfficiency</code> || <code>0.5</code> || <translate>Effectiveness of the Glind's Healing Reduction skill and enchantment on top of the base (the total is capped at 40%).</translate>
+| <code>healingReductionStackEfficiency</code> || <code>0.5</code> || <translate><!--T:358--> Effectiveness of the Glind's Healing Reduction skill and enchantment on top of the base (the total is capped at 40%).</translate>
 |-
-| <code>evilAttackerMaxAlignment</code> || <code>25</code> || <translate>A Glind at or below this alignment…</translate>
+| <code>evilAttackerMaxAlignment</code> || <code>25</code> || <translate><!--T:359--> A Glind at or below this alignment…</translate>
 |-
-| <code>goodTargetMinAlignment</code> || <code>60</code> || <translate>…deals bonus damage to players at or above this alignment.</translate>
+| <code>goodTargetMinAlignment</code> || <code>60</code> || <translate><!--T:360--> …deals bonus damage to players at or above this alignment.</translate>
 |-
-| <code>goodAttackerMinAlignment</code> || <code>75</code> || <translate>A Glind at or above this alignment…</translate>
+| <code>goodAttackerMinAlignment</code> || <code>75</code> || <translate><!--T:361--> A Glind at or above this alignment…</translate>
 |-
-| <code>evilTargetMaxAlignment</code> || <code>40</code> || <translate>…deals bonus damage to players at or below this alignment.</translate>
+| <code>evilTargetMaxAlignment</code> || <code>40</code> || <translate><!--T:362--> …deals bonus damage to players at or below this alignment.</translate>
 |-
-| <code>playerDamageBonus</code> || <code>0.10</code> || <translate>Bonus damage against players of the opposite alignment.</translate>
+| <code>playerDamageBonus</code> || <code>0.10</code> || <translate><!--T:363--> Bonus damage against players of the opposite alignment.</translate>
 |-
-| <code>frostDemonDamageBonus</code> || <code>0.15</code> || <translate>The same bonus against Frost Demons (replaces <code>playerDamageBonus</code>).</translate>
+| <code>frostDemonDamageBonus</code> || <code>0.15</code> || <translate><!--T:364--> The same bonus against Frost Demons (replaces <code>playerDamageBonus</code>).</translate>
 |-
-| <code>majinDamageBonus</code> || <code>0.05</code> || <translate>The same bonus against Majins (replaces <code>playerDamageBonus</code>).</translate>
+| <code>majinDamageBonus</code> || <code>0.05</code> || <translate><!--T:365--> The same bonus against Majins (replaces <code>playerDamageBonus</code>).</translate>
 |-
-| <code>npcDamageBonus</code> || <code>0.075</code> || <translate>Bonus damage against any non-player target.</translate>
+| <code>npcDamageBonus</code> || <code>0.075</code> || <translate><!--T:366--> Bonus damage against any non-player target.</translate>
 |}
 
 <div id="dynamicGrowth"></div>
 <translate>
-== Dynamic growth ==
+== Dynamic growth == <!--T:367-->
 </translate>
 {{Main|Dynamic Growth}}
 <translate>
+<!--T:368-->
 The <code>dynamicGrowth</code> block configures practice-based stat growth. It has more than 20 fields and its own anti-farming logic, so it is documented on its own page.
 </translate>
 
 <div id="gravity"></div>
 <translate>
-== Gravity ==
+== Gravity == <!--T:369-->
 </translate>
 {{Main|Gravity Config}}
 <translate>
+<!--T:370-->
 The <code>gravity</code> block configures dimension gravity, the [[Special:MyLanguage/Gravity Device|Gravity Device]] and weight-based training zones. With more than 60 fields, it is documented on its own page.
 </translate>
 
 <div id="mutant"></div>
 <translate>
-== Mutant ==
+== Mutant == <!--T:371-->
 </translate>
 {{See also|Effects|Transformations}}
 <translate>
+<!--T:372-->
 The <code>mutant</code> block controls a periodic server-wide lottery: every interval, a handful of players are rolled for a chance to become a [[Special:MyLanguage/Mutant|Mutant]]. Mutants get TP and mastery multipliers and a rage meter that lets them use the forms of the <code>legendaryGroupName</code> group, even without owning them, while the meter is full or active.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:373--> Key</translate> !! <translate><!--T:374--> Default</translate> !! <translate><!--T:375--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Master toggle.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:376--> Master toggle.</translate>
 |-
-| <code>rollIntervalMinutes</code> || <code>30</code> || <translate>Minutes between lottery rolls (minimum <code>1</code>).</translate>
+| <code>rollIntervalMinutes</code> || <code>30</code> || <translate><!--T:377--> Minutes between lottery rolls (minimum <code>1</code>).</translate>
 |-
-| <code>playersPerRoll</code> || <code>1</code> || <translate>Players considered per roll.</translate>
+| <code>playersPerRoll</code> || <code>1</code> || <translate><!--T:378--> Players considered per roll.</translate>
 |-
-| <code>chance</code> || <code>0.20</code> || <translate>Chance (<code>0</code>–<code>1</code>) that a considered player becomes a Mutant.</translate>
+| <code>chance</code> || <code>0.20</code> || <translate><!--T:379--> Chance (<code>0</code>–<code>1</code>) that a considered player becomes a Mutant.</translate>
 |-
-| <code>maxHolders</code> || <code>1</code> || <translate>Maximum concurrent Mutant holders server-wide.</translate>
+| <code>maxHolders</code> || <code>1</code> || <translate><!--T:380--> Maximum concurrent Mutant holders server-wide.</translate>
 |-
-| <code>legendaryGroupName</code> || <code>"legendaryforms"</code> || <translate>The form group the rage meter gives access to (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
+| <code>legendaryGroupName</code> || <code>"legendaryforms"</code> || <translate><!--T:381--> The form group the rage meter gives access to (see [[Special:MyLanguage/Custom Forms|Custom Forms]]).</translate>
 |-
-| <code>tpGainMultiplier</code> || <code>1.25</code> || <translate>TP multiplier while Mutant (the <code>MUTANT</code> boost).</translate>
+| <code>tpGainMultiplier</code> || <code>1.25</code> || <translate><!--T:382--> TP multiplier while Mutant (the <code>MUTANT</code> boost).</translate>
 |-
-| <code>masteryGainMultiplier</code> || <code>1.50</code> || <translate>Form mastery gain multiplier while Mutant.</translate>
+| <code>masteryGainMultiplier</code> || <code>1.50</code> || <translate><!--T:383--> Form mastery gain multiplier while Mutant.</translate>
 |-
-| <code>rageBorrowedFormBonus</code> || <code>0.5</code> || <translate>A legendary form the Mutant doesn't own (borrowed through the rage meter) is worth the player's best unlocked non-legendary form (with its mastery) plus this much on each stat bonus (scaled per stat like the legendary form), capped at the legendary form at full mastery. Minimum <code>0</code>.</translate>
+| <code>rageBorrowedFormBonus</code> || <code>0.5</code> || <translate><!--T:384--> A legendary form the Mutant doesn't own (borrowed through the rage meter) is worth the player's best unlocked non-legendary form (with its mastery) plus this much on each stat bonus (scaled per stat like the legendary form), capped at the legendary form at full mastery. Minimum <code>0</code>.</translate>
 |-
-| <code>powerBonusBoostWithSkill</code> || <code>0.33</code> || <translate>An owned legendary form gets its bonus raised by this fraction while rage is active.</translate>
+| <code>powerBonusBoostWithSkill</code> || <code>0.33</code> || <translate><!--T:385--> An owned legendary form gets its bonus raised by this fraction while rage is active.</translate>
 |-
-| <code>keepMutantOnDeath</code> || <code>false</code> || <translate>If <code>false</code>, dying removes Mutant status.</translate>
+| <code>keepMutantOnDeath</code> || <code>false</code> || <translate><!--T:386--> If <code>false</code>, dying removes Mutant status.</translate>
 |-
-| <code>rage</code> || <translate>See below</translate> || <translate>Rage meter tuning (an object).</translate>
+| <code>rage</code> || <translate><!--T:387--> See below</translate> || <translate><!--T:388--> Rage meter tuning (an object).</translate>
 |}
 
 <translate>
-=== Rage meter ===
+=== Rage meter === <!--T:389-->
 </translate>
 <translate>
+<!--T:390-->
 The <code>mutant.rage</code> object tunes the rage meter. The meter fills from damage dealt to worthy targets and damage taken. A full meter while in a legendary-group form starts the active phase, which drains it; when it empties, a borrowed form is reverted. Out of combat it drains on its own. Death resets it.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:391--> Key</translate> !! <translate><!--T:392--> Default</translate> !! <translate><!--T:393--> What it does</translate>
 |-
-| <code>gainPerDealtHealthFraction</code> || <code>60.0</code> || <translate>Rage gained per full health bar of damage dealt (proportional to the fraction removed).</translate>
+| <code>gainPerDealtHealthFraction</code> || <code>60.0</code> || <translate><!--T:394--> Rage gained per full health bar of damage dealt (proportional to the fraction removed).</translate>
 |-
-| <code>gainPerReceivedHealthFraction</code> || <code>150.0</code> || <translate>Rage gained per full health bar of damage taken.</translate>
+| <code>gainPerReceivedHealthFraction</code> || <code>150.0</code> || <translate><!--T:395--> Rage gained per full health bar of damage taken.</translate>
 |-
-| <code>maxGainPerHit</code> || <code>25.0</code> || <translate>Maximum rage from a single hit.</translate>
+| <code>maxGainPerHit</code> || <code>25.0</code> || <translate><!--T:396--> Maximum rage from a single hit.</translate>
 |-
-| <code>significantTargetHealthRatio</code> || <code>0.10</code> || <translate>Damage dealt only counts against players or mobs whose max health is at least this fraction of the attacker's.</translate>
+| <code>significantTargetHealthRatio</code> || <code>0.10</code> || <translate><!--T:397--> Damage dealt only counts against players or mobs whose max health is at least this fraction of the attacker's.</translate>
 |-
-| <code>significantDamageTakenRatio</code> || <code>0.01</code> || <translate>Damage taken only counts when it is at least this fraction of max health.</translate>
+| <code>significantDamageTakenRatio</code> || <code>0.01</code> || <translate><!--T:398--> Damage taken only counts when it is at least this fraction of max health.</translate>
 |-
-| <code>varietyBonusPerStep</code> || <code>0.25</code> || <translate>Extra gain for each change of attack type (melee, strike, ki).</translate>
+| <code>varietyBonusPerStep</code> || <code>0.25</code> || <translate><!--T:399--> Extra gain for each change of attack type (melee, strike, ki).</translate>
 |-
-| <code>varietyMaxSteps</code> || <code>4</code> || <translate>Maximum variety steps.</translate>
+| <code>varietyMaxSteps</code> || <code>4</code> || <translate><!--T:400--> Maximum variety steps.</translate>
 |-
-| <code>varietyWindowSeconds</code> || <code>4.0</code> || <translate>Time window for an attack-type change to count.</translate>
+| <code>varietyWindowSeconds</code> || <code>4.0</code> || <translate><!--T:401--> Time window for an attack-type change to count.</translate>
 |-
-| <code>activeDurationSeconds</code> || <code>10.0</code> || <translate>How long a full meter lasts once active.</translate>
+| <code>activeDurationSeconds</code> || <code>10.0</code> || <translate><!--T:402--> How long a full meter lasts once active.</translate>
 |-
-| <code>activeGainMultiplier</code> || <code>0.35</code> || <translate>Gain multiplier while active.</translate>
+| <code>activeGainMultiplier</code> || <code>0.35</code> || <translate><!--T:403--> Gain multiplier while active.</translate>
 |-
-| <code>fullIdleSeconds</code> || <code>15.0</code> || <translate>Out-of-combat time before a full meter starts draining.</translate>
+| <code>fullIdleSeconds</code> || <code>15.0</code> || <translate><!--T:404--> Out-of-combat time before a full meter starts draining.</translate>
 |-
-| <code>partialIdleSeconds</code> || <code>8.0</code> || <translate>Out-of-combat time before a partial meter starts draining.</translate>
+| <code>partialIdleSeconds</code> || <code>8.0</code> || <translate><!--T:405--> Out-of-combat time before a partial meter starts draining.</translate>
 |-
-| <code>idleDrainSeconds</code> || <code>3.0</code> || <translate>Time for an idle meter to drain completely.</translate>
+| <code>idleDrainSeconds</code> || <code>3.0</code> || <translate><!--T:406--> Time for an idle meter to drain completely.</translate>
 |}
 
 <div id="falseSuperSaiyan"></div>
 <translate>
-== False Super Saiyan ==
+== False Super Saiyan == <!--T:407-->
 </translate>
 {{See also|Saiyan}}
 <translate>
+<!--T:408-->
 The <code>falseSuperSaiyan</code> block controls a hidden Saiyan form that can't be bought or selected: it is granted by a rage meter that charges while a Saiyan without Super Saiyan is badly hurt, and it ends when the meter empties. Mutants never get it (the Mutant rage meter takes priority).
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:409--> Key</translate> !! <translate><!--T:410--> Default</translate> !! <translate><!--T:411--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Master toggle.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:412--> Master toggle.</translate>
 |-
-| <code>groupName</code> || <code>"falseform"</code> || <translate>Form group of the False Super Saiyan form.</translate>
+| <code>groupName</code> || <code>"falseform"</code> || <translate><!--T:413--> Form group of the False Super Saiyan form.</translate>
 |-
-| <code>formName</code> || <code>"falsesupersaiyan"</code> || <translate>Form name inside that group.</translate>
+| <code>formName</code> || <code>"falsesupersaiyan"</code> || <translate><!--T:414--> Form name inside that group.</translate>
 |-
-| <code>minLevel</code> || <code>100</code> || <translate>Minimum player level to charge it.</translate>
+| <code>minLevel</code> || <code>100</code> || <translate><!--T:415--> Minimum player level to charge it.</translate>
 |-
-| <code>maxLevel</code> || <code>200</code> || <translate>The player level must be below this value.</translate>
+| <code>maxLevel</code> || <code>200</code> || <translate><!--T:416--> The player level must be below this value.</translate>
 |-
-| <code>healthThreshold</code> || <code>0.25</code> || <translate>The meter only charges at or below this fraction of max health.</translate>
+| <code>healthThreshold</code> || <code>0.25</code> || <translate><!--T:417--> The meter only charges at or below this fraction of max health.</translate>
 |-
-| <code>requireZenkaiSpent</code> || <code>false</code> || <translate>If <code>true</code>, it only charges while Zenkai is on cooldown or after all permanent Zenkai boosts are used.</translate>
+| <code>requireZenkaiSpent</code> || <code>false</code> || <translate><!--T:418--> If <code>true</code>, it only charges while Zenkai is on cooldown or after all permanent Zenkai boosts are used.</translate>
 |-
-| <code>gainPerDealtHealthFraction</code> || <code>60.0</code> || <translate>Meter gained per full health bar of damage dealt to worthy targets.</translate>
+| <code>gainPerDealtHealthFraction</code> || <code>60.0</code> || <translate><!--T:419--> Meter gained per full health bar of damage dealt to worthy targets.</translate>
 |-
-| <code>gainPerReceivedHealthFraction</code> || <code>150.0</code> || <translate>Meter gained per full health bar of damage taken.</translate>
+| <code>gainPerReceivedHealthFraction</code> || <code>150.0</code> || <translate><!--T:420--> Meter gained per full health bar of damage taken.</translate>
 |-
-| <code>maxGainPerHit</code> || <code>25.0</code> || <translate>Maximum meter from a single hit.</translate>
+| <code>maxGainPerHit</code> || <code>25.0</code> || <translate><!--T:421--> Maximum meter from a single hit.</translate>
 |-
-| <code>significantTargetHealthRatio</code> || <code>0.10</code> || <translate>Worthy-target rule, as in <code>mutant.rage</code>.</translate>
+| <code>significantTargetHealthRatio</code> || <code>0.10</code> || <translate><!--T:422--> Worthy-target rule, as in <code>mutant.rage</code>.</translate>
 |-
-| <code>significantDamageTakenRatio</code> || <code>0.01</code> || <translate>Minimum damage taken that counts.</translate>
+| <code>significantDamageTakenRatio</code> || <code>0.01</code> || <translate><!--T:423--> Minimum damage taken that counts.</translate>
 |-
-| <code>activeGainMultiplier</code> || <code>0.5</code> || <translate>Gain multiplier once transformed.</translate>
+| <code>activeGainMultiplier</code> || <code>0.5</code> || <translate><!--T:424--> Gain multiplier once transformed.</translate>
 |-
-| <code>idleGainPerSecond</code> || <code>10.0</code> || <translate>Meter gained per second while the requirements are met (<code>0</code> means only hits fill it).</translate>
+| <code>idleGainPerSecond</code> || <code>10.0</code> || <translate><!--T:425--> Meter gained per second while the requirements are met (<code>0</code> means only hits fill it).</translate>
 |-
-| <code>combatGraceSeconds</code> || <code>2.0</code> || <translate>Time after the last hit before the meter can drain.</translate>
+| <code>combatGraceSeconds</code> || <code>2.0</code> || <translate><!--T:426--> Time after the last hit before the meter can drain.</translate>
 |-
-| <code>drainSeconds</code> || <code>8.0</code> || <translate>Time to drain a full meter when the requirements are no longer met.</translate>
+| <code>drainSeconds</code> || <code>8.0</code> || <translate><!--T:427--> Time to drain a full meter when the requirements are no longer met.</translate>
 |-
-| <code>activeDrainSeconds</code> || <code>12.0</code> || <translate>Time to drain a full meter once transformed.</translate>
+| <code>activeDrainSeconds</code> || <code>12.0</code> || <translate><!--T:428--> Time to drain a full meter once transformed.</translate>
 |}
 
 <div id="kiTransfer"></div>
 <translate>
-== Ki Transfer ==
+== Ki Transfer == <!--T:429-->
 </translate>
 {{See also|Ki Transfer}}
 <translate>
+<!--T:430-->
 The <code>kiTransfer</code> block controls [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: holding {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} on another player sends them a share of your Ki and boosts their STR, SKP, DEF and PWR, while the giver is slowed, locked out of combat and weakened by Ki Exhaustion. The link is also how the Super Saiyan God Ritual gathers its givers. Negative or invalid numbers fall back to the default.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:431--> Key</translate> !! <translate><!--T:432--> Default</translate> !! <translate><!--T:433--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Master toggle. Turning it off also ends every active link.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:434--> Master toggle. Turning it off also ends every active link.</translate>
 |-
-| <code>kiPercentPerSecond</code> || <code>0.025</code> || <translate>Fraction of the giver's max Ki sent every second (at most <code>1</code>).</translate>
+| <code>kiPercentPerSecond</code> || <code>0.025</code> || <translate><!--T:435--> Fraction of the giver's max Ki sent every second (at most <code>1</code>).</translate>
 |-
-| <code>boostDelaySeconds</code> || <code>1.0</code> || <translate>How long a giver must hold the link before boosting the receiver and counting as a giver for the Super Saiyan God Ritual.</translate>
+| <code>boostDelaySeconds</code> || <code>1.0</code> || <translate><!--T:436--> How long a giver must hold the link before boosting the receiver and counting as a giver for the Super Saiyan God Ritual.</translate>
 |-
-| <code>boostPerDonor</code> || <code>0.05</code> || <translate>STR, SKP, DEF and PWR bonus per giver, applied on top of the receiver's other multipliers.</translate>
+| <code>boostPerDonor</code> || <code>0.05</code> || <translate><!--T:437--> STR, SKP, DEF and PWR bonus per giver, applied on top of the receiver's other multipliers.</translate>
 |-
-| <code>maxBoostDonors</code> || <code>5</code> || <translate>Maximum number of givers that count for the bonus (minimum <code>0</code>).</translate>
+| <code>maxBoostDonors</code> || <code>5</code> || <translate><!--T:438--> Maximum number of givers that count for the bonus (minimum <code>0</code>).</translate>
 |-
-| <code>donorSpeedMultiplier</code> || <code>0.4</code> || <translate>Walking and flying speed multiplier while giving (<code>0</code>–<code>1</code>).</translate>
+| <code>donorSpeedMultiplier</code> || <code>0.4</code> || <translate><!--T:439--> Walking and flying speed multiplier while giving (<code>0</code>–<code>1</code>).</translate>
 |-
-| <code>interruptDamageRatio</code> || <code>0.10</code> || <translate>The link breaks once the giver has taken damage adding up to this fraction of their max health since it started (minimum <code>0.01</code>).</translate>
+| <code>interruptDamageRatio</code> || <code>0.10</code> || <translate><!--T:440--> The link breaks once the giver has taken damage adding up to this fraction of their max health since it started (minimum <code>0.01</code>).</translate>
 |-
-| <code>startRange</code> || <code>8.0</code> || <translate>Range in blocks to start a link (minimum <code>1</code>). The server allows 2 extra blocks for movement and needs line of sight.</translate>
+| <code>startRange</code> || <code>8.0</code> || <translate><!--T:441--> Range in blocks to start a link (minimum <code>1</code>). The server allows 2 extra blocks for movement and needs line of sight.</translate>
 |-
-| <code>maxLinkDistance</code> || <code>32.0</code> || <translate>The link breaks when the players are farther apart than this (never less than <code>startRange</code>).</translate>
+| <code>maxLinkDistance</code> || <code>32.0</code> || <translate><!--T:442--> The link breaks when the players are farther apart than this (never less than <code>startRange</code>).</translate>
 |-
-| <code>attackChargeCreditRatio</code> || <code>1.0</code> || <translate>Ki that overflows the receiver's bar while they charge a ki attack is stored for that attack, up to this fraction of the receiver's max Ki.</translate>
+| <code>attackChargeCreditRatio</code> || <code>1.0</code> || <translate><!--T:443--> Ki that overflows the receiver's bar while they charge a ki attack is stored for that attack, up to this fraction of the receiver's max Ki.</translate>
 |-
-| <code>intervalSeconds</code> || <code>3.0</code> || <translate>Length of a transfer interval. Each completed interval adds a stack of Ki Exhaustion to the giver and lingering time to both players.</translate>
+| <code>intervalSeconds</code> || <code>3.0</code> || <translate><!--T:444--> Length of a transfer interval. Each completed interval adds a stack of Ki Exhaustion to the giver and lingering time to both players.</translate>
 |-
-| <code>retainSecondsPerInterval</code> || <code>5.0</code> || <translate>Seconds per completed interval that the receiver keeps that giver's bonus after the link ends; the giver's Ki Exhaustion lasts the same time.</translate>
+| <code>retainSecondsPerInterval</code> || <code>5.0</code> || <translate><!--T:445--> Seconds per completed interval that the receiver keeps that giver's bonus after the link ends; the giver's Ki Exhaustion lasts the same time.</translate>
 |-
-| <code>donorPenaltyPerInterval</code> || <code>0.05</code> || <translate>STR, SKP, DEF and PWR penalty the giver takes per completed interval (at most <code>1</code>).</translate>
+| <code>donorPenaltyPerInterval</code> || <code>0.05</code> || <translate><!--T:446--> STR, SKP, DEF and PWR penalty the giver takes per completed interval (at most <code>1</code>).</translate>
 |-
-| <code>donorPenaltyMax</code> || <code>0.25</code> || <translate>Maximum giver penalty (at most <code>0.95</code>).</translate>
+| <code>donorPenaltyMax</code> || <code>0.25</code> || <translate><!--T:447--> Maximum giver penalty (at most <code>0.95</code>).</translate>
 |-
-| <code>restartCooldownSeconds</code> || <code>2.0</code> || <translate>Wait after a link ends before the same player can start a new one.</translate>
+| <code>restartCooldownSeconds</code> || <code>2.0</code> || <translate><!--T:448--> Wait after a link ends before the same player can start a new one.</translate>
 |}
 
 <div id="superSaiyanGodRitual"></div>
 <translate>
-== Super Saiyan God Ritual ==
+== Super Saiyan God Ritual == <!--T:449-->
 </translate>
 {{See also|Super Saiyan God Ritual|Saiyan}}
 <translate>
+<!--T:450-->
 The <code>superSaiyanGodRitual</code> block controls the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]]: when enough pure-hearted Saiyans in the right forms give their Ki to another Saiyan with Ki Transfer, they gather into a ring and channel, and the receiver rises and turns into a hidden form that lasts a limited time. The form itself (colors, aura, drain) is defined in the Saiyan form group named by <code>groupName</code>, whose <code>formType</code> must stay <code>godritual</code> (see [[Special:MyLanguage/Custom Forms|Custom Forms]]). Negative or invalid numbers fall back to the default.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:451--> Key</translate> !! <translate><!--T:452--> Default</translate> !! <translate><!--T:453--> What it does</translate>
 |-
-| <code>enabled</code> || <code>true</code> || <translate>Master toggle.</translate>
+| <code>enabled</code> || <code>true</code> || <translate><!--T:454--> Master toggle.</translate>
 |-
-| <code>groupName</code> || <code>"godritual"</code> || <translate>Saiyan form group of the ritual form.</translate>
+| <code>groupName</code> || <code>"godritual"</code> || <translate><!--T:455--> Saiyan form group of the ritual form.</translate>
 |-
-| <code>formName</code> || <code>"supersaiyangodritual"</code> || <translate>Form name inside that group.</translate>
+| <code>formName</code> || <code>"supersaiyangodritual"</code> || <translate><!--T:456--> Form name inside that group.</translate>
 |-
-| <code>donorForms</code> || <code>["ssgrades.supersaiyan", "supersaiyan.supersaiyanmastered"]</code> || <translate>Forms a giver can be in, as <code>"group.form"</code>. A giver with a stack form active never counts.</translate>
+| <code>donorForms</code> || <code>["ssgrades.supersaiyan", "supersaiyan.supersaiyanmastered"]</code> || <translate><!--T:457--> Forms a giver can be in, as <code>"group.form"</code>. A giver with a stack form active never counts.</translate>
 |-
-| <code>recipientForms</code> || <code>["supersaiyan.supersaiyanmastered"]</code> || <translate>Forms the receiver must be in, as <code>"group.form"</code>.</translate>
+| <code>recipientForms</code> || <code>["supersaiyan.supersaiyanmastered"]</code> || <translate><!--T:458--> Forms the receiver must be in, as <code>"group.form"</code>.</translate>
 |-
-| <code>requiredDonors</code> || <code>5</code> || <translate>Givers needed. A fusion of two Saiyans counts as two (minimum <code>1</code>).</translate>
+| <code>requiredDonors</code> || <code>5</code> || <translate><!--T:459--> Givers needed. A fusion of two Saiyans counts as two (minimum <code>1</code>).</translate>
 |-
-| <code>pureGoodMinAlignment</code> || <code>90</code> || <translate>A participant is pure-hearted at or above this alignment (<code>0</code>–<code>100</code>)…</translate>
+| <code>pureGoodMinAlignment</code> || <code>90</code> || <translate><!--T:460--> A participant is pure-hearted at or above this alignment (<code>0</code>–<code>100</code>)…</translate>
 |-
-| <code>pureEvilMaxAlignment</code> || <code>10</code> || <translate>…or at or below this one (<code>0</code>–<code>100</code>).</translate>
+| <code>pureEvilMaxAlignment</code> || <code>10</code> || <translate><!--T:461--> …or at or below this one (<code>0</code>–<code>100</code>).</translate>
 |-
-| <code>ritualRadius</code> || <code>5.0</code> || <translate>Horizontal distance from the receiver within which a giver counts (minimum <code>1</code>).</translate>
+| <code>ritualRadius</code> || <code>5.0</code> || <translate><!--T:462--> Horizontal distance from the receiver within which a giver counts (minimum <code>1</code>).</translate>
 |-
-| <code>ritualVerticalRange</code> || <code>3.0</code> || <translate>Maximum height difference between a giver and the receiver.</translate>
+| <code>ritualVerticalRange</code> || <code>3.0</code> || <translate><!--T:463--> Maximum height difference between a giver and the receiver.</translate>
 |-
-| <code>ringRadius</code> || <code>2.5</code> || <translate>Radius of the ring the givers glide into when the ritual starts (between <code>1</code> and <code>ritualRadius</code>).</translate>
+| <code>ringRadius</code> || <code>2.5</code> || <translate><!--T:464--> Radius of the ring the givers glide into when the ritual starts (between <code>1</code> and <code>ritualRadius</code>).</translate>
 |-
-| <code>channelSeconds</code> || <code>10.0</code> || <translate>Length of the channel, while the receiver's action bar fills (minimum 1 second).</translate>
+| <code>channelSeconds</code> || <code>10.0</code> || <translate><!--T:465--> Length of the channel, while the receiver's action bar fills (minimum 1 second).</translate>
 |-
-| <code>liftHeight</code> || <code>6.0</code> || <translate>How many blocks the receiver rises after the channel (less if something is in the way).</translate>
+| <code>liftHeight</code> || <code>6.0</code> || <translate><!--T:466--> How many blocks the receiver rises after the channel (less if something is in the way).</translate>
 |-
-| <code>liftSeconds</code> || <code>2.0</code> || <translate>Duration of the rise.</translate>
+| <code>liftSeconds</code> || <code>2.0</code> || <translate><!--T:467--> Duration of the rise.</translate>
 |-
-| <code>glowInSeconds</code> || <code>1.0</code> || <translate>Time the shell of light takes to build before the transformation.</translate>
+| <code>glowInSeconds</code> || <code>1.0</code> || <translate><!--T:468--> Time the shell of light takes to build before the transformation.</translate>
 |-
-| <code>glowOutSeconds</code> || <code>1.5</code> || <translate>Time the shell takes to fade after it.</translate>
+| <code>glowOutSeconds</code> || <code>1.5</code> || <translate><!--T:469--> Time the shell takes to fade after it.</translate>
 |-
-| <code>shellColor</code> || <code>"#6FD8FF"</code> || <translate>Color of the shell and of the transformation flash, as <code>#RRGGBB</code>.</translate>
+| <code>shellColor</code> || <code>"#6FD8FF"</code> || <translate><!--T:470--> Color of the shell and of the transformation flash, as <code>#RRGGBB</code>.</translate>
 |-
-| <code>interruptDamageRatio</code> || <code>0.25</code> || <translate>The ritual is cancelled when any participant takes damage adding up to more than this fraction of their max health (minimum <code>0.01</code>).</translate>
+| <code>interruptDamageRatio</code> || <code>0.25</code> || <translate><!--T:471--> The ritual is cancelled when any participant takes damage adding up to more than this fraction of their max health (minimum <code>0.01</code>).</translate>
 |-
-| <code>interruptCooldownSeconds</code> || <code>30.0</code> || <translate>Ritual cooldown given to every participant (fusion partners included) when the ritual is cancelled.</translate>
+| <code>interruptCooldownSeconds</code> || <code>30.0</code> || <translate><!--T:472--> Ritual cooldown given to every participant (fusion partners included) when the ritual is cancelled.</translate>
 |-
-| <code>cooldownMinutes</code> || <code>30.0</code> || <translate>Ritual cooldown after a success: the givers get it when the receiver transforms, the receiver when the form ends.</translate>
+| <code>cooldownMinutes</code> || <code>30.0</code> || <translate><!--T:473--> Ritual cooldown after a success: the givers get it when the receiver transforms, the receiver when the form ends.</translate>
 |-
-| <code>durationMinutes</code> || <code>5.0</code> || <translate>How long the form lasts before the receiver returns to base form (minimum 1 second).</translate>
+| <code>durationMinutes</code> || <code>5.0</code> || <translate><!--T:474--> How long the form lasts before the receiver returns to base form (minimum 1 second).</translate>
 |-
-| <code>powerBonus</code> || <code>0.30</code> || <translate>The form is worth the receiver's strongest unlocked form (with its mastery) with each stat bonus raised by this fraction. The multipliers written in the form file act as a minimum.</translate>
+| <code>powerBonus</code> || <code>0.30</code> || <translate><!--T:475--> The form is worth the receiver's strongest unlocked form (with its mastery) with each stat bonus raised by this fraction. The multipliers written in the form file act as a minimum.</translate>
 |-
-| <code>mutantPowerBonus</code> || <code>0.45</code> || <translate>The same bonus for receivers who are Mutants.</translate>
+| <code>mutantPowerBonus</code> || <code>0.45</code> || <translate><!--T:476--> The same bonus for receivers who are Mutants.</translate>
 |}
 
 <div id="worldBoss"></div>
 <translate>
-== World bosses ==
+== World bosses == <!--T:477-->
 </translate>
 {{Main|World Bosses}}
 <translate>
+<!--T:478-->
 The <code>worldBoss</code> block tunes the world boss fights. Contribution points are the four totals (damage dealt, damage mitigated, damage received, healing) multiplied by their weights. Healing counts more when the healed player's defense and blocking soak a lot of damage (up to 10 times).
 
+<!--T:479-->
 World boss health and damage aren't keys of this block: they follow the Hard difficulty multipliers. Each boss has its saga fight's Normal health × <code>hardModeHPMultiplier</code> × 4 and its Normal damage × <code>hardModeDamageMultiplier</code> (both in the difficulty multipliers of the <code>gameplay</code> section above). The values on the [[Special:MyLanguage/World Bosses|World Bosses]] pages use the defaults.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:480--> Key</translate> !! <translate><!--T:481--> Default</translate> !! <translate><!--T:482--> What it does</translate>
 |-
-| <code>contributionRange</code> || <code>150</code> || <translate>Players within this range of the boss take part in the fight (minimum <code>16</code>).</translate>
+| <code>contributionRange</code> || <code>150</code> || <translate><!--T:483--> Players within this range of the boss take part in the fight (minimum <code>16</code>).</translate>
 |-
-| <code>audienceRefreshSeconds</code> || <code>5</code> || <translate>How often the participant list, and with it the boss's group scaling, is refreshed.</translate>
+| <code>audienceRefreshSeconds</code> || <code>5</code> || <translate><!--T:484--> How often the participant list, and with it the boss's group scaling, is refreshed.</translate>
 |-
-| <code>meterLingerSeconds</code> || <code>15</code> || <translate>How long the contribution HUD stays on screen after the kill.</translate>
+| <code>meterLingerSeconds</code> || <code>15</code> || <translate><!--T:485--> How long the contribution HUD stays on screen after the kill.</translate>
 |-
-| <code>damageWeight</code> || <code>1.0</code> || <translate>Weight of damage dealt to the boss and its minions.</translate>
+| <code>damageWeight</code> || <code>1.0</code> || <translate><!--T:486--> Weight of damage dealt to the boss and its minions.</translate>
 |-
-| <code>mitigatedWeight</code> || <code>1.0</code> || <translate>Weight of damage mitigated (defense, blocks, barriers).</translate>
+| <code>mitigatedWeight</code> || <code>1.0</code> || <translate><!--T:487--> Weight of damage mitigated (defense, blocks, barriers).</translate>
 |-
-| <code>receivedWeight</code> || <code>1.0</code> || <translate>Weight of damage received.</translate>
+| <code>receivedWeight</code> || <code>1.0</code> || <translate><!--T:488--> Weight of damage received.</translate>
 |-
-| <code>healedWeight</code> || <code>1.0</code> || <translate>Weight of healing done.</translate>
+| <code>healedWeight</code> || <code>1.0</code> || <translate><!--T:489--> Weight of healing done.</translate>
 |-
-| <code>lives</code> || <code>3</code> || <translate>Revives each participant can receive per fight.</translate>
+| <code>lives</code> || <code>3</code> || <translate><!--T:490--> Revives each participant can receive per fight.</translate>
 |-
-| <code>reviveSlot</code> || <code>4</code> || <translate>Technique slot (1–8) that holds the revive technique during the fight.</translate>
+| <code>reviveSlot</code> || <code>4</code> || <translate><!--T:491--> Technique slot (1–8) that holds the revive technique during the fight.</translate>
 |-
-| <code>reviveCastSeconds</code> || <code>15</code> || <translate>Cast time to revive a downed ally (several casters stack).</translate>
+| <code>reviveCastSeconds</code> || <code>15</code> || <translate><!--T:492--> Cast time to revive a downed ally (several casters stack).</translate>
 |-
-| <code>reviveCooldownSeconds</code> || <code>90</code> || <translate>Revive cooldown after a successful revive.</translate>
+| <code>reviveCooldownSeconds</code> || <code>90</code> || <translate><!--T:493--> Revive cooldown after a successful revive.</translate>
 |-
-| <code>reviveInterruptCooldownSeconds</code> || <code>15</code> || <translate>Revive cooldown after the cast is interrupted.</translate>
+| <code>reviveInterruptCooldownSeconds</code> || <code>15</code> || <translate><!--T:494--> Revive cooldown after the cast is interrupted.</translate>
 |-
-| <code>reviveInterruptDamageRatio</code> || <code>0.10</code> || <translate>A revive cast is interrupted once the caster has taken damage adding up to this fraction of their max health (minimum <code>0.01</code>).</translate>
+| <code>reviveInterruptDamageRatio</code> || <code>0.10</code> || <translate><!--T:495--> A revive cast is interrupted once the caster has taken damage adding up to this fraction of their max health (minimum <code>0.01</code>).</translate>
 |-
-| <code>reviveDecayMultiplier</code> || <code>3.0</code> || <translate>While nobody is reviving a downed player, their revive progress drains this many times faster than one caster fills it (minimum <code>1</code>, rounded to a whole number).</translate>
+| <code>reviveDecayMultiplier</code> || <code>3.0</code> || <translate><!--T:496--> While nobody is reviving a downed player, their revive progress drains this many times faster than one caster fills it (minimum <code>1</code>, rounded to a whole number).</translate>
 |-
-| <code>truceGraceSeconds</code> || <code>15</code> || <translate>After a fight ends, the players who took part in it can't hurt each other for this many seconds.</translate>
+| <code>truceGraceSeconds</code> || <code>15</code> || <translate><!--T:497--> After a fight ends, the players who took part in it can't hurt each other for this many seconds.</translate>
 |-
-| <code>reviveRange</code> || <code>6.0</code> || <translate>Range to start a revive.</translate>
+| <code>reviveRange</code> || <code>6.0</code> || <translate><!--T:498--> Range to start a revive.</translate>
 |-
-| <code>reviveRestoreRatio</code> || <code>0.25</code> || <translate>Health, ki and stamina restored by a revive.</translate>
+| <code>reviveRestoreRatio</code> || <code>0.25</code> || <translate><!--T:499--> Health, ki and stamina restored by a revive.</translate>
 |-
-| <code>knockoutTitleSeconds</code> || <code>5</code> || <translate>Duration of the knockout title.</translate>
+| <code>knockoutTitleSeconds</code> || <code>5</code> || <translate><!--T:500--> Duration of the knockout title.</translate>
 |-
-| <code>rankChanceBonus</code> || <code>[0.25, 0.15, 0.10]</code> || <translate>List of drop chance bonuses for the 1st, 2nd and 3rd best contributors.</translate>
+| <code>rankChanceBonus</code> || <code>[0.25, 0.15, 0.10]</code> || <translate><!--T:501--> List of drop chance bonuses for the 1st, 2nd and 3rd best contributors.</translate>
 |-
-| <code>guaranteedRewardMinRatio</code> || <code>0.5</code> || <translate>Guaranteed rewards (<code>chance</code> 1.0) scale from this fraction up to 100% with the player's points compared to the best player.</translate>
+| <code>guaranteedRewardMinRatio</code> || <code>0.5</code> || <translate><!--T:502--> Guaranteed rewards (<code>chance</code> 1.0) scale from this fraction up to 100% with the player's points compared to the best player.</translate>
 |-
-| <code>minContributionShare</code> || <code>0.075</code> || <translate>Minimum share of total points needed to receive any reward (<code>0.075</code> = 7.5%). Players below it get nothing.</translate>
+| <code>minContributionShare</code> || <code>0.075</code> || <translate><!--T:503--> Minimum share of total points needed to receive any reward (<code>0.075</code> = 7.5%). Players below it get nothing.</translate>
 |-
-| <code>healthPerExtraMember</code> || <code>0.5</code> || <translate>Extra boss max health for each participant after the first, as a fraction of its health: with <code>0.5</code>, 2 fighters give ×1.5 and 4 give ×2.5. Participants in Creative or Spectator mode don't count. <code>0</code> turns it off.</translate>
+| <code>healthPerExtraMember</code> || <code>0.5</code> || <translate><!--T:504--> Extra boss max health for each participant after the first, as a fraction of its health: with <code>0.5</code>, 2 fighters give ×1.5 and 4 give ×2.5. Participants in Creative or Spectator mode don't count. <code>0</code> turns it off.</translate>
 |-
-| <code>damagePerExtraMember</code> || <code>0.25</code> || <translate>The same for the boss's melee and ki damage.</translate>
+| <code>damagePerExtraMember</code> || <code>0.25</code> || <translate><!--T:505--> The same for the boss's melee and ki damage.</translate>
 |-
-| <code>rewards</code> || <translate>See below</translate> || <translate>A map of boss key to reward list: the rewards of each boss.</translate>
+| <code>rewards</code> || <translate><!--T:506--> See below</translate> || <translate><!--T:507--> A map of boss key to reward list: the rewards of each boss.</translate>
 |}
 
 <translate>
-=== Boss rewards ===
+=== Boss rewards === <!--T:508-->
 </translate>
 <translate>
+<!--T:509-->
 Each reward entry uses the same fields as a quest reward (<code>type</code>, <code>item</code>/<code>count</code>, <code>amount</code>, <code>skill</code>/<code>level</code>, <code>command</code>, <code>formGroup</code>/<code>formName</code>, …) plus <code>chance</code> (<code>0</code>–<code>1</code>, default <code>1.0</code>). The built-in rewards pay <code>ATTRIBUTES</code> (Janemba 500, Turles 50, Metal Cooler Core 105, Tamagami Number 3, 2 and 1 90, 300 and 360, Gomah 435) instead of TP. A boss missing from the map uses its built-in rewards; write <code>"&lt;boss key&gt;": []</code> to disable drops for one boss.
 </translate>
 
 {| class="wikitable"
-! <translate>Boss key</translate> !! <translate>World boss</translate>
+! <translate><!--T:510--> Boss key</translate> !! <translate><!--T:511--> World boss</translate>
 |-
 | <code>janemba</code> || {{L|Janemba}}
 |-
@@ -1200,115 +1238,120 @@ Each reward entry uses the same fields as a quest reward (<code>type</code>, <co
 
 <div id="crafting"></div>
 <translate>
-== Crafting ==
+== Crafting == <!--T:512-->
 </translate>
 {{See also|Armor}}
 <translate>
+<!--T:513-->
 The <code>crafting</code> block decides what Dr. Kikono's Station copies from the template item into the crafted result.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it copies</translate>
+! <translate><!--T:514--> Key</translate> !! <translate><!--T:515--> Default</translate> !! <translate><!--T:516--> What it copies</translate>
 |-
-| <code>copyEnchantmentsFromTemplate</code> || <code>true</code> || <translate>Enchantments.</translate>
+| <code>copyEnchantmentsFromTemplate</code> || <code>true</code> || <translate><!--T:517--> Enchantments.</translate>
 |-
-| <code>copyWeaponLevelFromTemplate</code> || <code>false</code> || <translate>Weapon level (Weapon Leveling compatibility).</translate>
+| <code>copyWeaponLevelFromTemplate</code> || <code>false</code> || <translate><!--T:518--> Weapon level (Weapon Leveling compatibility).</translate>
 |-
-| <code>copyWeaponLevelProgressFromTemplate</code> || <code>false</code> || <translate>Weapon level progress (Weapon Leveling compatibility).</translate>
+| <code>copyWeaponLevelProgressFromTemplate</code> || <code>false</code> || <translate><!--T:519--> Weapon level progress (Weapon Leveling compatibility).</translate>
 |-
-| <code>copyApotheosisRarityFromTemplate</code> || <code>false</code> || <translate>Apotheosis rarity.</translate>
+| <code>copyApotheosisRarityFromTemplate</code> || <code>false</code> || <translate><!--T:520--> Apotheosis rarity.</translate>
 |-
-| <code>copyApotheosisAffixesFromTemplate</code> || <code>false</code> || <translate>Apotheosis affixes.</translate>
+| <code>copyApotheosisAffixesFromTemplate</code> || <code>false</code> || <translate><!--T:521--> Apotheosis affixes.</translate>
 |-
-| <code>copyApotheosisSocketsFromTemplate</code> || <code>false</code> || <translate>Apotheosis sockets.</translate>
+| <code>copyApotheosisSocketsFromTemplate</code> || <code>false</code> || <translate><!--T:522--> Apotheosis sockets.</translate>
 |-
-| <code>copyApotheosisGemsFromTemplate</code> || <code>false</code> || <translate>Apotheosis gems (only when sockets are copied too).</translate>
+| <code>copyApotheosisGemsFromTemplate</code> || <code>false</code> || <translate><!--T:523--> Apotheosis gems (only when sockets are copied too).</translate>
 |}
 
 <div id="storage"></div>
 <translate>
-== Storage ==
+== Storage == <!--T:524-->
 </translate>
 {{See also|Notice to Server Owners}}
 <translate>
+<!--T:525-->
 The <code>storage</code> block chooses where player data is saved. Case matters for <code>storageType</code>.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:526--> Key</translate> !! <translate><!--T:527--> Default</translate> !! <translate><!--T:528--> What it does</translate>
 |-
-| <code>storageType</code> || <code>"NBT"</code> || <translate><code>NBT</code>, <code>JSON</code> or <code>DATABASE</code>.</translate>
+| <code>storageType</code> || <code>"NBT"</code> || <translate><!--T:529--> <code>NBT</code>, <code>JSON</code> or <code>DATABASE</code>.</translate>
 |-
-| <code>host</code> || <code>"localhost"</code> || <translate>Database host (<code>DATABASE</code> only).</translate>
+| <code>host</code> || <code>"localhost"</code> || <translate><!--T:530--> Database host (<code>DATABASE</code> only).</translate>
 |-
-| <code>port</code> || <code>3306</code> || <translate>Database port (<code>DATABASE</code> only).</translate>
+| <code>port</code> || <code>3306</code> || <translate><!--T:531--> Database port (<code>DATABASE</code> only).</translate>
 |-
-| <code>database</code> || <code>"dragonminez"</code> || <translate>Database name.</translate>
+| <code>database</code> || <code>"dragonminez"</code> || <translate><!--T:532--> Database name.</translate>
 |-
-| <code>table</code> || <code>"player_data"</code> || <translate>Table name.</translate>
+| <code>table</code> || <code>"player_data"</code> || <translate><!--T:533--> Table name.</translate>
 |-
-| <code>username</code> || <code>"root"</code> || <translate>Database user.</translate>
+| <code>username</code> || <code>"root"</code> || <translate><!--T:534--> Database user.</translate>
 |-
-| <code>password</code> || <code>"password"</code> || <translate>Database password. Change it in production.</translate>
+| <code>password</code> || <code>"password"</code> || <translate><!--T:535--> Database password. Change it in production.</translate>
 |-
-| <code>poolSize</code> || <code>10</code> || <translate>Database connection pool size (minimum <code>1</code>).</translate>
+| <code>poolSize</code> || <code>10</code> || <translate><!--T:536--> Database connection pool size (minimum <code>1</code>).</translate>
 |-
-| <code>threadPoolSize</code> || <code>4</code> || <translate>Threads used for asynchronous loads and saves (minimum <code>1</code>).</translate>
+| <code>threadPoolSize</code> || <code>4</code> || <translate><!--T:537--> Threads used for asynchronous loads and saves (minimum <code>1</code>).</translate>
 |}
 
 <translate>
-=== How the backends work ===
+=== How the backends work === <!--T:538-->
 </translate>
 <translate>
+<!--T:539-->
 * <code>NBT</code>: player data only rides on vanilla's own player save (<code>.dat</code>).
 * <code>JSON</code>: each player is also saved to <code>&lt;world&gt;/dragonminez/playerdata_json/&lt;uuid&gt;.json</code>.
 * <code>DATABASE</code>: each player is also saved to a MariaDB database (<code>jdbc:mariadb</code>), using <code>host</code>, <code>port</code>, <code>database</code>, <code>table</code>, <code>username</code> and <code>password</code>.
 * The vanilla <code>.dat</code> save is '''always''' written. With <code>JSON</code> or <code>DATABASE</code>, the extra store is loaded on login and overrides the vanilla values; it is saved on logout and every 5 minutes.
 </translate>
 
-{{Note|type=warning|title=<translate>If the database fails</translate>|text=<translate>If the database connection fails, DMZ does '''not''' switch to another backend: it logs the error and player data is only kept in the vanilla <code>.dat</code> save. Check the server log if data doesn't seem to persist.</translate>}}
+{{Note|type=warning|title=<translate><!--T:540--> If the database fails</translate>|text=<translate><!--T:541--> If the database connection fails, DMZ does '''not''' switch to another backend: it logs the error and player data is only kept in the vanilla <code>.dat</code> save. Check the server log if data doesn't seem to persist.</translate>}}
 
-{{Note|type=danger|title=<translate>Switching backends</translate>|text=<translate>Don't switch <code>storageType</code> on a server with players online. Do it with the server empty, and take a backup first.</translate>}}
+{{Note|type=danger|title=<translate><!--T:542--> Switching backends</translate>|text=<translate><!--T:543--> Don't switch <code>storageType</code> on a server with players online. Do it with the server empty, and take a backup first.</translate>}}
 
 <div id="developer"></div>
 <translate>
-== Developer ==
+== Developer == <!--T:544-->
 </translate>
 {{See also|How to JSON}}
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:545--> Key</translate> !! <translate><!--T:546--> Default</translate> !! <translate><!--T:547--> What it does</translate>
 |-
-| <code>reportJsonProblemsInChat</code> || <code>true</code> || <translate>On login, shows every player a summary of the JSON files that failed to load (configs, quests, wishes, Dragon Ball packs) and of the default files that were auto-upgraded. The server log has the full details.</translate>
+| <code>reportJsonProblemsInChat</code> || <code>true</code> || <translate><!--T:548--> On login, shows every player a summary of the JSON files that failed to load (configs, quests, wishes, Dragon Ball packs) and of the default files that were auto-upgraded. The server log has the full details.</translate>
 |}
 
 <div id="hair"></div>
 <translate>
-== Hair ==
+== Hair == <!--T:549-->
 </translate>
 {{See also|Character Customization}}
 <translate>
+<!--T:550-->
 The <code>hair</code> block sets the limits of the hair editor. The server trims any hair style that exceeds them.
 </translate>
 
 {| class="wikitable"
-! <translate>Key</translate> !! <translate>Default</translate> !! <translate>What it does</translate>
+! <translate><!--T:551--> Key</translate> !! <translate><!--T:552--> Default</translate> !! <translate><!--T:553--> What it does</translate>
 |-
-| <code>maxSegmentsPerStrand</code> || <code>12</code> || <translate>Maximum segments per strand (clamped to <code>1</code>–<code>32</code>).</translate>
+| <code>maxSegmentsPerStrand</code> || <code>12</code> || <translate><!--T:554--> Maximum segments per strand (clamped to <code>1</code>–<code>32</code>).</translate>
 |-
-| <code>maxStrandLength</code> || <translate><code>20.0</code> for <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> and <code>ssj4</code></translate> || <translate>A map of hair slot to number: the maximum strand length per hair slot (clamped to <code>0.5</code>–<code>128</code>).</translate>
+| <code>maxStrandLength</code> || <translate><!--T:555--> <code>20.0</code> for <code>base</code>, <code>ssj</code>, <code>ssj2</code>, <code>ssj3</code> and <code>ssj4</code></translate> || <translate><!--T:556--> A map of hair slot to number: the maximum strand length per hair slot (clamped to <code>0.5</code>–<code>128</code>).</translate>
 |-
-| <code>maxStrandWidth</code> || <code>8.0</code> || <translate>Maximum strand width (clamped to <code>0.25</code>–<code>16</code>).</translate>
+| <code>maxStrandWidth</code> || <code>8.0</code> || <translate><!--T:557--> Maximum strand width (clamped to <code>0.25</code>–<code>16</code>).</translate>
 |-
-| <code>maxRootOffset</code> || <code>2.0</code> || <translate>Maximum offset of a strand root (clamped to <code>0</code>–<code>4</code>).</translate>
+| <code>maxRootOffset</code> || <code>2.0</code> || <translate><!--T:558--> Maximum offset of a strand root (clamped to <code>0</code>–<code>4</code>).</translate>
 |-
-| <code>maxTotalSegmentsPerStyle</code> || <code>600</code> || <translate>Maximum segments in a whole hair style (clamped to <code>1</code>–<code>2176</code>).</translate>
+| <code>maxTotalSegmentsPerStyle</code> || <code>600</code> || <translate><!--T:559--> Maximum segments in a whole hair style (clamped to <code>1</code>–<code>2176</code>).</translate>
 |}
 
 <translate>
-== Reload and validate ==
+== Reload and validate == <!--T:560-->
 </translate>
 {{See also|Reloading and Updating Changes|How to JSON}}
 <translate>
+<!--T:561-->
 # Edit <code>config/dragonminez/general-server.json</code>.
 # Validate the JSON syntax.
 # Run <code>/dmzreload config</code> (or <code>/dmzreload</code>). Single values can also be changed live with <code>/dmzconfig general-server &lt;section&gt; &lt;key&gt; &lt;value&gt;</code>.

@@ -1,0 +1,332 @@
+{
+ "Page_display_title": {
+  "source": "Controls",
+  "translation": "Controles",
+  "outdated": false
+ },
+ "1": {
+  "source": "This page lists DragonMineZ's default key bindings and key combinations. Every key can be changed in Minecraft's '''Options → Controls''', under the '''DragonMine Z''' category (the Rhythm minigame lanes are in '''DragonMine Z Minigames''').",
+  "translation": "Esta página lista as teclas e combinações padrão do DragonMineZ. Qualquer tecla pode ser alterada em '''Opções → Controles''' do Minecraft, na categoria '''DragonMine Z''' (as pistas do minigame Ritmo ficam em '''DragonMine Z Minigames''').",
+  "outdated": false
+ },
+ "2": {
+  "source": "The Second Function key",
+  "translation": "A tecla Função Secundária",
+  "outdated": false
+ },
+ "3": {
+  "source": "{{Key|Left Alt}} is the '''Second Function''' key: the modifier used by most of the combinations below.",
+  "translation": "{{Key|Alt esquerdo}} é a tecla '''Função Secundária''': o modificador usado pela maioria das combinações abaixo.",
+  "outdated": false
+ },
+ "4": {
+  "source": "== Menus ==",
+  "translation": "== Menus ==",
+  "outdated": false
+ },
+ "5": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "6": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "7": {
+  "source": "Open the '''Character Menu''' (Stats, Party, Skills, Quests, Minigames and Config; see [[Special:MyLanguage/Menus|Menus]]). Before you have created a character it opens character creation.",
+  "translation": "Abre o '''Menu do personagem''' (Estatísticas, Grupo, Habilidades, Missões, Minigames e Configuração; veja [[Special:MyLanguage/Menus|Menus]]). Antes de você criar um personagem, abre a criação de personagem.",
+  "outdated": false
+ },
+ "8": {
+  "source": "{{Key|X}} (hold)",
+  "translation": "{{Key|X}} (segurar)",
+  "outdated": false
+ },
+ "9": {
+  "source": "Open the '''Utility Menu''' (radial wheel: transform, stack forms, movement and actions). Releasing the key closes it.",
+  "translation": "Abre o '''Menu de Utilidades''' (roda radial: transformação, formas acumuláveis, movimento e ações). Soltar a tecla o fecha.",
+  "outdated": false
+ },
+ "10": {
+  "source": "[[Special:MyLanguage/Instant Transmission|Instant Transmission]] (see below), or the '''Space Pod''' menu while riding a [[Special:MyLanguage/Space Pod|Space Pod]].",
+  "translation": "[[Special:MyLanguage/Instant Transmission|Transmissão instantânea]] (veja abaixo), ou o '''Menu de Cápsula Espacial''' enquanto você está em uma [[Special:MyLanguage/Space Pod|Cápsula Espacial]].",
+  "outdated": false
+ },
+ "11": {
+  "source": "''Unbound''",
+  "translation": "''Sem atribuição''",
+  "outdated": false
+ },
+ "12": {
+  "source": "'''Open Party / Skills / Quests / Minigames / Config Tab''': jump straight to that tab of the Character Menu. Bind them yourself if you want shortcuts; they also switch tabs while the menu is open.",
+  "translation": "'''Abrir aba de grupo / habilidades / missões / minigames / configurações''': vão direto para essa aba do Menu do personagem. Atribua-as você mesmo se quiser atalhos; elas também trocam de aba com o menu aberto.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Combat and actions ==",
+  "translation": "== Combate e ações ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "15": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "16": {
+  "source": "{{Key|C}} (hold)",
+  "translation": "{{Key|C}} (segurar)",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Charge Ki''': raises your Power Release (up to your release limit). '''Double-tap''' {{Key|C}} to jump straight to your maximum release, paying 1% of your max Ki per 5% of release gained.",
+  "translation": "'''Carregar Ki''': aumenta sua Liberação de Poder (até o seu limite de liberação). '''Toque duas vezes''' {{Key|C}} para ir direto à liberação máxima, pagando 1% do seu Ki máximo a cada 5% de liberação ganha.",
+  "outdated": false
+ },
+ "18": {
+  "source": "''Keep holding'' {{Key|C}} ''at full Ki''",
+  "translation": "''Continuar segurando'' {{Key|C}} ''com o Ki no máximo''",
+  "outdated": false
+ },
+ "19": {
+  "source": "Fills the '''Ki Surge''' bar; when it is full you unleash a '''Ki Surge''' (see [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Combat]]). Letting go of {{Key|C}} empties the bar.",
+  "translation": "Enche a barra de '''Surto de Ki'''; quando ela está cheia, você libera um '''Surto de Ki''' (veja [[Special:MyLanguage/Combat#Ki charging and Ki Surge|Combate]]). Soltar {{Key|C}} esvazia a barra.",
+  "outdated": false
+ },
+ "20": {
+  "source": "{{Key|Alt}} + {{Key|C}} (hold)",
+  "translation": "{{Key|Alt}} + {{Key|C}} (segurar)",
+  "outdated": false
+ },
+ "21": {
+  "source": "'''Lower Release''': lowers your Power Release.",
+  "translation": "'''Reduzir liberação''': reduz sua Liberação de Poder.",
+  "outdated": false
+ },
+ "22": {
+  "source": "{{Key|G}} (hold)",
+  "translation": "{{Key|G}} (segurar)",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Action''' key: charges the action selected in the Utility Menu (transform, stack form, racial skill, fusion…). '''Double-tap''' {{Key|G}} to transform instantly.",
+  "translation": "Tecla '''Ação''': carrega a ação selecionada no Menu de Utilidades (transformação, forma acumulável, habilidade racial, fusão…). '''Toque duas vezes''' {{Key|G}} para se transformar instantaneamente.",
+  "outdated": false
+ },
+ "24": {
+  "source": "''Unbound''",
+  "translation": "''Sem atribuição''",
+  "outdated": false
+ },
+ "25": {
+  "source": "'''Instant Transform''': transform instantly with one key press.",
+  "translation": "'''Transformação instantânea''': transforma você instantaneamente com um único toque.",
+  "outdated": false
+ },
+ "26": {
+  "source": "'''Descend (Lower Form)''': drop one form or stack-form tier. With a racial skill selected it triggers the racial '''secondary action''' instead (for example dismissing a Cell Jr. or a Bio-Android's Self-Destruct).",
+  "translation": "'''Descender (Reduzir forma)''': desce uma forma ou um nível de forma acumulável. Com uma habilidade racial selecionada, ativa em vez disso a '''ação secundária''' racial (por exemplo, dispensar um Cell Jr. ou a Autodestruição de um Bio-Androide).",
+  "outdated": false
+ },
+ "27": {
+  "source": "Fire a basic '''ki blast'''.",
+  "translation": "Dispara uma '''rajada de ki''' básica.",
+  "outdated": false
+ },
+ "28": {
+  "source": "{{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} (hold)",
+  "translation": "{{Key|Ctrl}} + {{Key|Alt}} + {{Key|Botão direito}} (segurar)",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Ki Transfer''': give your Ki to the player you are looking at (within 8 blocks) for as long as you hold the keys. {{Key|Ctrl}} and {{Key|Alt}} are fixed here and don't follow the Second Function key. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].",
+  "translation": "'''Transferência de ki''': dá seu Ki ao jogador para quem você está olhando (a até 8 blocos) enquanto você segurar as teclas. {{Key|Ctrl}} e {{Key|Alt}} são fixas aqui e não seguem a tecla Função Secundária. Veja [[Special:MyLanguage/Ki Transfer|Transferência de ki]].",
+  "outdated": false
+ },
+ "30": {
+  "source": "'''Dash''' (and double dash).",
+  "translation": "'''Esquiva''' (e esquiva dupla).",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Lock on''' to a target.",
+  "translation": "'''Travar a mira''' em um alvo.",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''Block''' (with empty hands). Starting a block right before a hit lands is a '''parry''' (see [[Special:MyLanguage/Combat#Parrying|Combat]]).",
+  "translation": "'''Bloquear''' (com as mãos vazias). Começar a bloquear logo antes de um golpe chegar é um '''parry''' (veja [[Special:MyLanguage/Combat#Parrying|Combate]]).",
+  "outdated": false
+ },
+ "33": {
+  "source": "== Movement and sensing ==",
+  "translation": "== Movimento e percepção ==",
+  "outdated": false
+ },
+ "34": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "35": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "36": {
+  "source": "Toggle '''flight''' on or off. It needs the Fly and Ki Control skills, and at least 5% Power Release to take off.",
+  "translation": "Liga ou desliga o '''voo'''. Precisa das habilidades Voar e Controle de Ki, e de pelo menos 5% de Liberação de Poder para decolar.",
+  "outdated": false
+ },
+ "37": {
+  "source": "'''Switch flight mode''' between '''Combat Fly''' and '''Search Fly'''. The flight mode, the flight speed cap and the flight '''Mode Lock''' are also in the Utility Menu under '''Movement → Fly''' (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).",
+  "translation": "'''Troca o modo de voo''' entre '''Voo de combate''' e '''Voo de busca'''. O modo de voo, o limite de velocidade de voo e a '''Trava de modo''' de voo também ficam no Menu de Utilidades, em '''Movimento → Voar''' (veja [[Special:MyLanguage/Menus#Utility Menu|Menus]]).",
+  "outdated": false
+ },
+ "38": {
+  "source": "[[Special:MyLanguage/Ki Sense|Ki Sense]]: cycle the Ki Sense display through Combat mode, Search mode and off (needs the Ki Sense skill). While you wear a [[Special:MyLanguage/Scouters|scouter]] it toggles the scouter readout instead.",
+  "translation": "[[Special:MyLanguage/Ki Sense|Sentido de Ki]]: alterna a exibição do Sentido de Ki entre o modo Combate, o modo Busca e desligado (precisa da habilidade Sentido de Ki). Enquanto você usa um [[Special:MyLanguage/Scouters|scouter]], ele liga ou desliga a leitura do scouter.",
+  "outdated": false
+ },
+ "39": {
+  "source": "== Instant Transmission ==",
+  "translation": "== Transmissão instantânea ==",
+  "outdated": false
+ },
+ "40": {
+  "source": "Use",
+  "translation": "Uso",
+  "outdated": false
+ },
+ "41": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "42": {
+  "source": "Tap {{Key|H}}",
+  "translation": "Toque {{Key|H}}",
+  "outdated": false
+ },
+ "43": {
+  "source": "Teleport to your '''locked-on target'''.",
+  "translation": "Teletransporta você até o '''alvo travado'''.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Hold {{Key|H}} (half a second)",
+  "translation": "Segure {{Key|H}} (meio segundo)",
+  "outdated": false
+ },
+ "45": {
+  "source": "Open the '''Instant Transmission menu''' to pick a destination (needs Instant Transmission level 5 or higher).",
+  "translation": "Abre o '''menu de Transmissão instantânea''' para escolher um destino (precisa de Transmissão instantânea nível 5 ou maior).",
+  "outdated": false
+ },
+ "46": {
+  "source": "See [[Special:MyLanguage/Skills|Skills]] for the Instant Transmission skill.",
+  "translation": "Veja [[Special:MyLanguage/Skills|Habilidades]] para a habilidade Transmissão instantânea.",
+  "outdated": false
+ },
+ "47": {
+  "source": "== Techniques ==",
+  "translation": "== Técnicas ==",
+  "outdated": false
+ },
+ "48": {
+  "source": "Save techniques to slots in the Skills tab and fire them with a modifier plus a number. While you hold a bar's modifier, its four slots appear on the [[Special:MyLanguage/HUD#Technique hotbar|technique hotbar]].",
+  "translation": "Salve técnicas em slots na aba Habilidades e dispare-as com um modificador mais um número. Enquanto você segura o modificador de uma barra, os quatro slots dela aparecem na [[Special:MyLanguage/HUD#Technique hotbar|barra de técnicas]].",
+  "outdated": false
+ },
+ "49": {
+  "source": "Keys",
+  "translation": "Teclas",
+  "outdated": false
+ },
+ "50": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "51": {
+  "source": "Fire technique slots '''1–4''' (Bar 1).",
+  "translation": "Dispara os slots de técnica '''1–4''' (Barra 1).",
+  "outdated": false
+ },
+ "52": {
+  "source": "Fire technique slots '''5–8''' (Bar 2).",
+  "translation": "Dispara os slots de técnica '''5–8''' (Barra 2).",
+  "outdated": false
+ },
+ "53": {
+  "source": "Ki attacks charge while you hold the slot key and fire when you release it; strike attacks and evasion techniques activate as soon as you press it. See [[Special:MyLanguage/Techniques|Techniques]].",
+  "translation": "Ataques de Ki carregam enquanto você segura a tecla do slot e disparam quando você a solta; ataques de golpe e técnicas de evasão são ativados assim que você a aperta. Veja [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ },
+ "54": {
+  "source": "== Minigames ==",
+  "translation": "== Minigames ==",
+  "outdated": false
+ },
+ "55": {
+  "source": "Keys",
+  "translation": "Teclas",
+  "outdated": false
+ },
+ "56": {
+  "source": "Action",
+  "translation": "Ação",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''Rhythm''' minigame lanes 1–4 (they only work inside the minigame, so they don't clash with movement). The arrow keys {{Key|←}} {{Key|↓}} {{Key|↑}} {{Key|→}} also play lanes 1–4. Each lane shows its key as printed on your keyboard layout. In the song list, {{Key|↑}} / {{Key|↓}} browse songs and {{Key|←}} / {{Key|→}} change the difficulty.",
+  "translation": "Pistas 1–4 do minigame '''Ritmo''' (só funcionam dentro do minigame, então não conflitam com o movimento). As setas {{Key|←}} {{Key|↓}} {{Key|↑}} {{Key|→}} também tocam as pistas 1–4. Cada pista mostra a tecla como ela aparece impressa no layout do seu teclado. Na lista de músicas, {{Key|↑}} / {{Key|↓}} navegam pelas músicas e {{Key|←}} / {{Key|→}} mudam a dificuldade.",
+  "outdated": false
+ },
+ "58": {
+  "source": "{{Key|A}}–{{Key|Z}}, {{Key|0}}–{{Key|9}}",
+  "translation": "{{Key|A}}–{{Key|Z}}, {{Key|0}}–{{Key|9}}",
+  "outdated": false
+ },
+ "59": {
+  "source": "'''Shadow Boxing''' minigame: type the combo shown on screen. Letters follow your keyboard layout (AZERTY, QWERTZ…): press the key that has that letter printed on it.",
+  "translation": "Minigame '''Boxe Sombrio''': digite o combo mostrado na tela. As letras seguem o layout do seu teclado (AZERTY, QWERTZ…): aperte a tecla que tem aquela letra impressa.",
+  "outdated": false
+ },
+ "60": {
+  "source": "'''Precision''' minigame: click at the mouse position.",
+  "translation": "Minigame '''Precisão''': clique na posição do mouse.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Start a minigame from its rules panel.",
+  "translation": "Inicia um minigame pelo painel de regras.",
+  "outdated": false
+ },
+ "62": {
+  "source": "Pause a running minigame ('''Resume''' or '''Finish''' from the pause panel).",
+  "translation": "Pausa um minigame em andamento ('''Continuar''' ou '''Finalizar''' no painel de pausa).",
+  "outdated": false
+ },
+ "63": {
+  "source": "See [[Special:MyLanguage/Training Minigames|Training Minigames]] for the minigames themselves.",
+  "translation": "Veja [[Special:MyLanguage/Training Minigames|Minijogos de treinamento]] para os minigames em si.",
+  "outdated": false
+ },
+ "64": {
+  "source": "== Controls in editors and dialogues ==",
+  "translation": "== Controles em editores e diálogos ==",
+  "outdated": false
+ },
+ "65": {
+  "source": "The hair editor, the skin pixel editor and the HUD Editor have their own mouse and keyboard controls: see [[Special:MyLanguage/Character Customization#Viewport controls|Character Customization]] and [[Special:MyLanguage/HUD#The HUD Editor|HUD]]. NPC dialogues can be driven with the arrow keys, {{Key|Enter}} and the number keys: see [[Special:MyLanguage/Menus#NPC dialogue|Menus]].",
+  "translation": "O editor de cabelo, o editor de pixels da skin e o Editor da HUD têm seus próprios controles de mouse e teclado: veja [[Special:MyLanguage/Character Customization#Viewport controls|Personalização]] e [[Special:MyLanguage/HUD#The HUD Editor|HUD]]. Os diálogos com NPCs podem ser conduzidos com as setas, {{Key|Enter}} e as teclas numéricas: veja [[Special:MyLanguage/Menus#NPC dialogue|Menus]].",
+  "outdated": false
+ }
+}

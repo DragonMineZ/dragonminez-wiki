@@ -1,0 +1,417 @@
+{
+ "Page_display_title": {
+  "source": "Stats and Attributes",
+  "translation": "Estatísticas e atributos",
+  "outdated": false
+ },
+ "1": {
+  "source": "Your character is defined by '''six core attributes''' that you raise by training. They feed your '''derived resources''' (Health, Ki, Stamina and Poise), your damage, your defense, your speed and your overall '''Battle Power'''. This page explains what each attribute does, how regeneration, defense, speed and critical hits work, and how '''Power Release''' multiplies almost everything.",
+  "translation": "Seu personagem é definido por '''seis atributos principais''' que você aumenta treinando. Eles alimentam seus '''recursos derivados''' (Vida, Ki, Estâmina e Postura), seu dano, sua defesa, sua velocidade e seu '''Poder de luta''' geral. Esta página explica o que cada atributo faz, como funcionam a regeneração, a defesa, a velocidade e os acertos críticos, e como a '''Liberação de Poder''' multiplica quase tudo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "The exact numbers depend on your [[Special:MyLanguage/Races|race]] and [[Special:MyLanguage/Classes|class]] scalings. The values on this page describe what a stat drives, not fixed amounts, and every default can be changed by the server.",
+  "translation": "Os números exatos dependem dos escalonamentos da sua [[Special:MyLanguage/Races|raça]] e da sua [[Special:MyLanguage/Classes|classe]]. Os valores desta página descrevem o que cada estatística influencia, não quantidades fixas, e o servidor pode alterar qualquer padrão.",
+  "outdated": false
+ },
+ "3": {
+  "source": "== The six core attributes ==",
+  "translation": "== Os seis atributos principais ==",
+  "outdated": false
+ },
+ "4": {
+  "source": "Stat",
+  "translation": "Estatística",
+  "outdated": false
+ },
+ "5": {
+  "source": "Key",
+  "translation": "Sigla",
+  "outdated": false
+ },
+ "6": {
+  "source": "What it governs",
+  "translation": "O que controla",
+  "outdated": false
+ },
+ "7": {
+  "source": "'''Strength'''",
+  "translation": "'''Força'''",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Melee (physical) damage'''. A quarter of it is also added to strike damage.",
+  "translation": "'''Dano corpo a corpo (físico)'''. Um quarto dela também é somado ao dano de golpe.",
+  "outdated": false
+ },
+ "9": {
+  "source": "'''Strike Power'''",
+  "translation": "'''Poder de Golpe'''",
+  "outdated": false
+ },
+ "10": {
+  "source": "'''Strike damage''': ki-enhanced melee and technique hits.",
+  "translation": "'''Dano de golpe''': golpes corpo a corpo potencializados com ki e golpes de técnicas.",
+  "outdated": false
+ },
+ "11": {
+  "source": "'''Resistance'''",
+  "translation": "'''Resistência'''",
+  "outdated": false
+ },
+ "12": {
+  "source": "'''Defense''' (damage mitigation), '''max Stamina''', '''Stamina regeneration''', '''max Poise''' and your '''Speed'''.",
+  "translation": "'''Defesa''' (mitigação de dano), '''Estâmina máxima''', '''regeneração de Estâmina''', '''Postura máxima''' e sua '''Velocidade'''.",
+  "outdated": false
+ },
+ "13": {
+  "source": "'''Vitality'''",
+  "translation": "'''Vitalidade'''",
+  "outdated": false
+ },
+ "14": {
+  "source": "'''Max Health''' (on a growing curve) and your '''Health and Stamina regeneration'''.",
+  "translation": "'''Vida máxima''' (em uma curva crescente) e sua '''regeneração de Vida e de Estâmina'''.",
+  "outdated": false
+ },
+ "15": {
+  "source": "'''Ki Power'''",
+  "translation": "'''Força do Ki'''",
+  "outdated": false
+ },
+ "16": {
+  "source": "'''Ki blast and energy-wave damage'''.",
+  "translation": "'''Dano de rajadas de ki e ondas de energia'''.",
+  "outdated": false
+ },
+ "17": {
+  "source": "'''Energy'''",
+  "translation": "'''Energia'''",
+  "outdated": false
+ },
+ "18": {
+  "source": "'''Max Ki''' (your energy pool) and your '''Ki regeneration'''.",
+  "translation": "'''Ki máximo''' (sua reserva de energia) e sua '''regeneração de Ki'''.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Your three offensive stats stack: your total offense is melee (STR) plus strike (SKP) plus ki (PWR). RES, VIT and ENE build your survivability and your resource pools.",
+  "translation": "Suas três estatísticas ofensivas se somam: sua ofensiva total é corpo a corpo (STR) mais golpe (SKP) mais ki (PWR). RES, VIT e ENE constroem sua sobrevivência e suas reservas de recursos.",
+  "outdated": false
+ },
+ "20": {
+  "source": "You raise a stat by spending [[Special:MyLanguage/Training Points and Mastery|Training Points]] on it in the '''Stats''' tab of the [[Special:MyLanguage/Menus|Character Menu]]. The '''TPC''' box shows the TP cost of the next point, and the cost grows as your stats grow. [[Special:MyLanguage/Weights|Weights]] make training faster. Stats can also grow on their own from how you fight (see [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]); points gained that way don't make buying stats with TP more expensive. The server caps how far a stat can go (1,000,000 by default). Admins can edit stats and points with <code>/dmzstats</code> and <code>/dmzpoints</code> (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "Você aumenta uma estatística gastando [[Special:MyLanguage/Training Points and Mastery|pontos de treino]] nela na aba '''Estatísticas''' do [[Special:MyLanguage/Menus|Menu do personagem]]. O campo '''CPT''' mostra o custo em TP do próximo ponto, e o custo cresce conforme suas estatísticas crescem. [[Special:MyLanguage/Weights|Pesos]] deixam o treino mais rápido. As estatísticas também podem crescer sozinhas de acordo com o seu jeito de lutar (veja [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]]); os pontos ganhos assim não encarecem a compra de estatísticas com TP. O servidor limita até onde uma estatística pode chegar (1,000,000 por padrão). Administradores podem editar estatísticas e pontos com <code>/dmzstats</code> e <code>/dmzpoints</code> (veja [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ },
+ "21": {
+  "source": "=== Attribute Points and Attributes rewards ===",
+  "translation": "=== Pontos de Atributo e recompensas de Atributos ===",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Attribute Points (AP)''' are free stat points waiting to be placed. The Stats tab spends them first, before any TP. You get them from the '''Reallocate Stats''' wish, from <code>/dmzstats relocate</code> and from '''Attributes''' rewards.",
+  "translation": "Os '''Pontos de Atributo (PA)''' são pontos de estatística gratuitos esperando para serem distribuídos. A aba Estatísticas os gasta primeiro, antes de qualquer TP. Você os ganha com o desejo '''Realocar Estatísticas''', com <code>/dmzstats relocate</code> e com recompensas de '''Atributos'''.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Saga quests, side quests and the dragons' '''Power Boost''' wish reward '''Attributes''' (shown as \"x40 Attributes\") instead of a fixed amount of TP, so they keep their value however expensive your stats get:",
+  "translation": "As missões de saga, as missões secundárias e o desejo '''Aumento de Poder''' dos dragões dão '''Atributos''' (mostrados como \"x40 Atributos\") em vez de uma quantidade fixa de TP, então mantêm o valor por mais caras que suas estatísticas fiquem:",
+  "outdated": false
+ },
+ "24": {
+  "source": "'''Half''' of them (rounded down, by default) arrive as '''Attribute Points'''.",
+  "translation": "'''Metade''' deles (arredondada para baixo, por padrão) chega como '''Pontos de Atributo'''.",
+  "outdated": false
+ },
+ "25": {
+  "source": "The other half arrive as the '''Training Points those stat points would cost you right now''' (worked out after the AP above, so you get the TP for the ''next'' points). This TP is not multiplied again by your TP boosts and is not shared with your party. If the server turned off buying stats with TP (see [[Special:MyLanguage/Dynamic Growth|Dynamic Growth]]), this half gives nothing.",
+  "translation": "A outra metade chega como '''os pontos de treino que esses pontos de estatística custariam agora''' (calculados depois dos PA acima, então você recebe os TP dos ''próximos'' pontos). Esses TP não são multiplicados de novo pelos seus bônus de TP e não são compartilhados com o grupo. Se o servidor desativou a compra de estatísticas com TP (veja [[Special:MyLanguage/Dynamic Growth|Crescimento dinâmico]]), essa metade não dá nada.",
+  "outdated": false
+ },
+ "26": {
+  "source": "Hovering an Attributes reward in the Quest Tree, in an NPC's quest sheet or in the wish screen shows the split and roughly how much TP it is worth at your current cost. Your story difficulty's quest-reward multiplier (Hard ×1.25) and the story-reset penalty apply to the number of Attributes. See [[Special:MyLanguage/Sagas|Sagas]] and [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]].",
+  "translation": "Passar o cursor sobre uma recompensa de Atributos na Árvore de missões, na ficha de missão de um NPC ou na tela de desejos mostra a divisão e, aproximadamente, quanto TP ela vale no seu custo atual. O multiplicador de recompensas de missão da dificuldade da sua história (Difícil ×1.25) e a penalidade por reiniciar a história se aplicam à quantidade de Atributos. Veja [[Special:MyLanguage/Sagas|Sagas]] e [[Special:MyLanguage/Dragons and Wishes|Dragões e desejos]].",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Derived resources ==",
+  "translation": "== Recursos derivados ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "'''Health (HP)''': the vanilla 20 HP plus a bonus from '''VIT''' (multiplied by your class VIT scaling and your form multipliers). VIT is '''not linear''': see the Vitality curve below.",
+  "translation": "'''Vida (HP)''': os 20 HP vanilla mais um bônus de '''VIT''' (multiplicado pelo escalonamento de VIT da sua classe e pelos multiplicadores da sua forma). A VIT '''não é linear''': veja a curva de Vitalidade abaixo.",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Ki (Energy, EP)''': a pool of 20 + ENE × your ENE scaling. You spend it to cast ki skills and to power transformations.",
+  "translation": "'''Ki (Energia, EP)''': uma reserva de 20 + ENE × seu escalonamento de ENE. Você o gasta para usar habilidades de ki e para alimentar as transformações.",
+  "outdated": false
+ },
+ "30": {
+  "source": "'''Stamina (SP)''': a pool of 20 + RES × your Stamina scaling. You spend it on sprinting, blocking, combat flight and melee actions (see [[Special:MyLanguage/Combat|Combat]]).",
+  "translation": "'''Estâmina (SP)''': uma reserva de 20 + RES × seu escalonamento de Estâmina. Você a gasta ao correr, bloquear, no voo de combate e nas ações corpo a corpo (veja [[Special:MyLanguage/Combat|Combate]]).",
+  "outdated": false
+ },
+ "31": {
+  "source": "'''Poise''': 25 plus a value derived from your defense. Poise resists being staggered or stunned in combat.",
+  "translation": "'''Postura''': 25 mais um valor derivado da sua defesa. A postura resiste a ficar cambaleante ou atordoado em combate.",
+  "outdated": false
+ },
+ "32": {
+  "source": "=== Vitality curve ===",
+  "translation": "=== Curva de Vitalidade ===",
+  "outdated": false
+ },
+ "33": {
+  "source": "The health each point of VIT gives '''grows as you invest more VIT'''. Your class VIT scaling is the starting rate per point; it ramps up quadratically until VIT reaches the '''knee''' (16,000 VIT by default), where it reaches the class maximum (by default '''4×''' the starting rate), and it stays at that maximum for every point after the knee.",
+  "translation": "A vida que cada ponto de VIT dá '''cresce quanto mais VIT você investe'''. O escalonamento de VIT da sua classe é a taxa inicial por ponto; ele sobe de forma quadrática até a VIT chegar ao '''ponto de virada''' (16,000 de VIT por padrão), onde atinge o máximo da classe (por padrão, '''4×''' a taxa inicial), e fica nesse máximo para cada ponto depois do ponto de virada.",
+  "outdated": false
+ },
+ "34": {
+  "source": "Example",
+  "translation": "Exemplo",
+  "outdated": false
+ },
+ "35": {
+  "source": "A Warrior has a VIT scaling of 1.8. At 16,000 VIT a flat 1.8 per point would give 28,800 bonus HP; the curve gives '''57,600''', and every VIT point past 16,000 is worth 7.2 HP.",
+  "translation": "Um Guerreiro tem escalonamento de VIT de 1.8. Com 16,000 de VIT, um valor fixo de 1.8 por ponto daria 28,800 HP extras; a curva dá '''57,600''', e cada ponto de VIT acima de 16,000 vale 7.2 HP.",
+  "outdated": false
+ },
+ "36": {
+  "source": "The class maximum is set per class in each race's stats file (see [[Special:MyLanguage/Custom Races|Custom Races]]). A race file that doesn't have it yet keeps the flat (linear) scaling until the file is regenerated.",
+  "translation": "O máximo de cada classe é definido no arquivo de estatísticas de cada raça (veja [[Special:MyLanguage/Custom Races|Raças personalizadas]]). Um arquivo de raça que ainda não o tem mantém o escalonamento fixo (linear) até ser regenerado.",
+  "outdated": false
+ },
+ "37": {
+  "source": "== Regeneration ==",
+  "translation": "== Regeneração ==",
+  "outdated": false
+ },
+ "38": {
+  "source": "Regeneration is worked out per second from your class's base values \"per 5 seconds\" plus your attributes:",
+  "translation": "A regeneração é calculada por segundo a partir dos valores base da sua classe \"a cada 5 segundos\" mais seus atributos:",
+  "outdated": false
+ },
+ "39": {
+  "source": "'''Health regeneration''': your class's base HP regeneration plus VIT × your class's HP regeneration scaling, divided by 5.",
+  "translation": "'''Regeneração de Vida''': a regeneração de HP base da sua classe mais VIT × o escalonamento de regeneração de HP da sua classe, dividido por 5.",
+  "outdated": false
+ },
+ "40": {
+  "source": "'''Ki regeneration''': your class's base Ki regeneration plus ENE × its Ki regeneration scaling, divided by 5. It is ×1.5 while you are actively '''charging ki''', plus '''+25% per level''' of the '''Ki Boost''' skill while charging.",
+  "translation": "'''Regeneração de Ki''': a regeneração de Ki base da sua classe mais ENE × o escalonamento de regeneração de Ki dela, dividido por 5. Ela é ×1.5 enquanto você está '''carregando ki''' ativamente, mais '''+25% por nível''' da habilidade '''Impulso de Ki''' enquanto carrega.",
+  "outdated": false
+ },
+ "41": {
+  "source": "'''Stamina regeneration''': your class's base Stamina regeneration plus VIT and RES × their stamina regeneration scalings, divided by 5. It is reduced while an action is draining stamina. Both VIT and RES count with your form and effect multipliers.",
+  "translation": "'''Regeneração de Estâmina''': a regeneração de Estâmina base da sua classe mais VIT e RES × os escalonamentos de regeneração de estâmina delas, dividido por 5. Ela diminui enquanto uma ação está consumindo estâmina. Tanto a VIT quanto a RES contam com os multiplicadores da sua forma e dos seus efeitos.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Regeneration is further modified by armor recovery [[Special:MyLanguage/Enchantments|enchantments]], the [[Special:MyLanguage/Meditation|Meditation]] skill (+5% Ki and Stamina regeneration per level), potion [[Special:MyLanguage/Effects|effects]], racial and class passives (for example the [[Special:MyLanguage/Warrior|Warrior]], [[Special:MyLanguage/Berserker|Berserker]] and [[Special:MyLanguage/Tank|Tank]] passives) and active transformation drain. The base values and scalings of each class are listed on [[Special:MyLanguage/Classes|Classes]].",
+  "translation": "A regeneração também é modificada pelos [[Special:MyLanguage/Enchantments|encantamentos]] de recuperação de armadura, pela habilidade [[Special:MyLanguage/Meditation|Meditação]] (+5% de regeneração de Ki e Estâmina por nível), pelos [[Special:MyLanguage/Effects|efeitos]] de poções, pelas passivas raciais e de classe (por exemplo, as passivas de [[Special:MyLanguage/Warrior|Guerreiro]], [[Special:MyLanguage/Berserker|Berserker]] e [[Special:MyLanguage/Tank|Tanque]]) e pelo consumo das transformações ativas. Os valores base e os escalonamentos de cada classe estão listados em [[Special:MyLanguage/Classes|Classes]].",
+  "outdated": false
+ },
+ "43": {
+  "source": "== How defense works ==",
+  "translation": "== Como a defesa funciona ==",
+  "outdated": false
+ },
+ "44": {
+  "source": "'''Defense''' is your damage-mitigation value: DMZ replaces vanilla armor math with its own server-side calculation. Your defense is built from:",
+  "translation": "A '''Defesa''' é seu valor de mitigação de dano: o DMZ substitui a matemática de armadura vanilla pelo próprio cálculo no servidor. Sua defesa é composta por:",
+  "outdated": false
+ },
+ "45": {
+  "source": "your '''Resistance (RES)''' × your class '''DEF scaling''' (plus any flat or percent DEF bonuses from forms, effects and so on);",
+  "translation": "sua '''Resistência (RES)''' × o '''escalonamento de DEF''' da sua classe (mais quaisquer bônus diretos ou percentuais de DEF de formas, efeitos etc.);",
+  "outdated": false
+ },
+ "46": {
+  "source": "your worn '''[[Special:MyLanguage/Armor|armor]]''', weighted as armor × 0.5 + toughness × 0.7;",
+  "translation": "a '''[[Special:MyLanguage/Armor|armadura]]''' que você veste, ponderada como armadura × 0.5 + dureza × 0.7;",
+  "outdated": false
+ },
+ "47": {
+  "source": "any secondary DEF attributes and effects.",
+  "translation": "quaisquer atributos e efeitos secundários de DEF.",
+  "outdated": false
+ },
+ "48": {
+  "source": "That total is then '''multiplied by your current Power Release''', so a character who isn't charged up defends far more weakly than one at full release, and by your form's DEF multiplier. Keeping your ki charged is part of tanking.",
+  "translation": "Esse total é então '''multiplicado pela sua Liberação de Poder atual''', então um personagem sem carga se defende muito pior que um em liberação total, e pelo multiplicador de DEF da sua forma. Manter o ki carregado faz parte de tanquear.",
+  "outdated": false
+ },
+ "49": {
+  "source": "DMZ uses that defense in two ways:",
+  "translation": "O DMZ usa essa defesa de duas formas:",
+  "outdated": false
+ },
+ "50": {
+  "source": "'''Flat defense''' follows the same kind of '''curve''' as Vitality: the DEF scaling of each RES point ramps up quadratically until RES reaches 20,000 (by default), where it reaches the class maximum (by default '''4×''' the class DEF scaling). Flat defense drives the flat absorption, the \"negate the hit\" check and the adaptive mitigation below.",
+  "translation": "A '''defesa direta''' segue o mesmo tipo de '''curva''' da Vitalidade: o escalonamento de DEF de cada ponto de RES sobe de forma quadrática até a RES chegar a 20,000 (por padrão), onde atinge o máximo da classe (por padrão, '''4×''' o escalonamento de DEF da classe). A defesa direta controla a absorção direta, a verificação de \"anular o golpe\" e a mitigação adaptativa abaixo.",
+  "outdated": false
+ },
+ "51": {
+  "source": "'''Percent defense''' stays '''linear''' (class DEF scaling only) and drives the percentage reduction and blocking.",
+  "translation": "A '''defesa percentual''' continua '''linear''' (só o escalonamento de DEF da classe) e controla a redução percentual e o bloqueio.",
+  "outdated": false
+ },
+ "52": {
+  "source": "When you take a hit, defense is applied in stages (default values):",
+  "translation": "Quando você leva um golpe, a defesa é aplicada em etapas (valores padrão):",
+  "outdated": false
+ },
+ "53": {
+  "source": "'''Penetration and guard state.''' The attacker's '''defense penetration''' is subtracted from your defense first: from the Defense Penetration skill and weapon enchantment (2.5% per level each), a ki technique's armor penetration, or the Warrior passive, capped at '''50%''' in total. If your '''guard was broken''', your defense for that hit is cut by '''66%'''.",
+  "translation": "'''Penetração e estado da guarda.''' Primeiro, a '''penetração de defesa''' do atacante é subtraída da sua defesa: a da habilidade Penetração de Defesa e do encantamento de arma (2.5% por nível cada), a penetração de armadura de uma técnica de ki ou a passiva de Guerreiro, limitada a '''50%''' no total. Se sua '''guarda estava quebrada''', sua defesa para aquele golpe cai '''66%'''.",
+  "outdated": false
+ },
+ "54": {
+  "source": "'''Negation.''' If your flat defense is at least '''2.5×''' the incoming damage, the hit is '''negated entirely'''.",
+  "translation": "'''Anulação.''' Se sua defesa direta for pelo menos '''2.5×''' o dano recebido, o golpe é '''anulado por completo'''.",
+  "outdated": false
+ },
+ "55": {
+  "source": "'''Flat mitigation.''' Your flat defense is absorbed straight off the hit, up to '''82%''' of the incoming damage.",
+  "translation": "'''Mitigação direta.''' Sua defesa direta é absorvida direto do golpe, até '''82%''' do dano recebido.",
+  "outdated": false
+ },
+ "56": {
+  "source": "'''Percent reduction (diminishing returns).''' The remainder is reduced by a curve: more defense always helps, but with diminishing returns, hard-capped at '''88%'''.",
+  "translation": "'''Redução percentual (retornos decrescentes).''' O restante é reduzido por uma curva: mais defesa sempre ajuda, mas com retornos decrescentes, limitada a '''88%'''.",
+  "outdated": false
+ },
+ "57": {
+  "source": "'''Enchantment protection.''' Protection enchantments add their own reduction on top, with the combined total capped at '''93%'''.",
+  "translation": "'''Proteção de encantamentos.''' Encantamentos de Proteção adicionam a própria redução por cima, com o total combinado limitado a '''93%'''.",
+  "outdated": false
+ },
+ "58": {
+  "source": "'''Adaptive mitigation.''' Hits that are small compared to your flat defense are reduced further: a hit equal to your flat defense loses another '''35%''', shrinking to nothing once the hit is '''14×''' your flat defense, and never more than '''65%'''.",
+  "translation": "'''Mitigação adaptativa.''' Golpes pequenos em relação à sua defesa direta são reduzidos ainda mais: um golpe igual à sua defesa direta perde mais '''35%''', o que diminui até zero quando o golpe é '''14×''' sua defesa direta, e nunca passa de '''65%'''.",
+  "outdated": false
+ },
+ "59": {
+  "source": "'''Blocking and Ki Protection.''' While you are actively '''blocking''', an extra block reduction applies (from 5% up to 65%, scaled by your defense). The [[Special:MyLanguage/Ki Protection|Ki Protection]] skill can also spend Ki to shave off more of the hit (2.5% per level by default). See [[Special:MyLanguage/Combat|Combat]].",
+  "translation": "'''Bloqueio e Proteção de Ki.''' Enquanto você está '''bloqueando''' ativamente, uma redução extra de bloqueio é aplicada (de 5% a 65%, conforme sua defesa). A habilidade [[Special:MyLanguage/Ki Protection|Proteção de Ki]] também pode gastar Ki para reduzir mais o golpe (2.5% por nível por padrão). Veja [[Special:MyLanguage/Combat|Combate]].",
+  "outdated": false
+ },
+ "60": {
+  "source": "Takeaways",
+  "translation": "O essencial",
+  "outdated": false
+ },
+ "61": {
+  "source": "Raise '''RES''' (and wear armor) to tank harder: your flat defense grows faster and faster up to about 20,000 RES. Keep your '''Power Release''' high in a fight, since defense scales with it. Remember the caps: percent reduction stops at '''88%''', or '''93%''' with enchantments.",
+  "translation": "Aumente a '''RES''' (e use armadura) para aguentar mais: sua defesa direta cresce cada vez mais rápido até uns 20,000 de RES. Mantenha sua '''Liberação de Poder''' alta em uma luta, já que a defesa escala com ela. Lembre-se dos limites: a redução percentual para em '''88%''', ou '''93%''' com encantamentos.",
+  "outdated": false
+ },
+ "62": {
+  "source": "== Speed ==",
+  "translation": "== Velocidade ==",
+  "outdated": false
+ },
+ "63": {
+  "source": "With the speed system enabled (it is on by default), '''Resistance''' also makes you faster:",
+  "translation": "Com o sistema de velocidade ativado (ele vem ativado por padrão), a '''Resistência''' também deixa você mais rápido:",
+  "outdated": false
+ },
+ "64": {
+  "source": "Every 10,000 RES at full release adds +1.0 Speed (by default).",
+  "translation": "Cada 10,000 de RES em liberação total soma +1.0 de Velocidade (por padrão).",
+  "outdated": false
+ },
+ "65": {
+  "source": "While '''transformed''' (or using a stack form), the RES part is also multiplied by '''×2''', on top of the form's own speed multiplier (for example [[Special:MyLanguage/Kaioken|Kaioken]]).",
+  "translation": "Enquanto você está '''transformado''' (ou usando uma forma acumulável), a parte de RES também é multiplicada por '''×2''', além do próprio multiplicador de velocidade da forma (por exemplo, [[Special:MyLanguage/Kaioken|Kaioken]]).",
+  "outdated": false
+ },
+ "66": {
+  "source": "Your '''movement speed''' bonus follows your Speed, capped at '''×3'''.",
+  "translation": "Seu bônus de '''velocidade de movimento''' acompanha sua Velocidade, limitado a '''×3'''.",
+  "outdated": false
+ },
+ "67": {
+  "source": "At Speed '''2.0''' or more you also get a '''+0.5 block step-up''', so you don't get stuck on single blocks while running.",
+  "translation": "Com Velocidade '''2.0''' ou mais, você também ganha '''+0.5 de altura de passo''', para não ficar preso em blocos únicos enquanto corre.",
+  "outdated": false
+ },
+ "68": {
+  "source": "Speed is also what decides your chance to '''dodge''' attacks automatically: see [[Special:MyLanguage/Combat#Speed and passive dodge|Combat]].",
+  "translation": "A Velocidade também define sua chance de '''desviar''' de ataques automaticamente: veja [[Special:MyLanguage/Combat#Speed and passive dodge|Combate]].",
+  "outdated": false
+ },
+ "69": {
+  "source": "== Critical hits ==",
+  "translation": "== Acertos críticos ==",
+  "outdated": false
+ },
+ "70": {
+  "source": "Melee hits can '''crit'''. Every player has a base '''5% crit chance''' and '''×1.5 crit damage''' (the <code>dragonminez:crit_chance</code> and <code>dragonminez:crit_damage</code> attributes). The '''Critical Chance''' and '''Critical Damage''' [[Special:MyLanguage/Enchantments|enchantments]] on your main-hand weapon add '''+5%''' each per level, weapons can carry their own crit values (see [[Special:MyLanguage/Weapon Attributes|Weapon Attributes]]), and the [[Special:MyLanguage/Berserker|Berserker]] class passive adds crit chance at low health.",
+  "translation": "Golpes corpo a corpo podem ser '''críticos'''. Todo jogador tem uma base de '''5% de chance de crítico''' e '''×1.5 de dano crítico''' (os atributos <code>dragonminez:crit_chance</code> e <code>dragonminez:crit_damage</code>). Os [[Special:MyLanguage/Enchantments|encantamentos]] '''Chance de crítico''' e '''Dano crítico''' na arma da mão principal adicionam '''+5%''' cada um por nível, as armas podem ter seus próprios valores de crítico (veja [[Special:MyLanguage/Weapon Attributes|Atributos de armas]]) e a passiva da classe [[Special:MyLanguage/Berserker|Berserker]] adiciona chance de crítico com pouca vida.",
+  "outdated": false
+ },
+ "71": {
+  "source": "== Battle Power ==",
+  "translation": "== Poder de luta ==",
+  "outdated": false
+ },
+ "72": {
+  "source": "'''Battle Power (BP)''' is your overall \"power level\". It adds up your four combat stats ('''STR + SKP + RES + PWR''', each with its class scaling, form multipliers and bonuses) plus your '''VIT and ENE at half weight''', runs that through a growth curve, then multiplies it by your current '''Power Release''':",
+  "translation": "O '''Poder de luta (BP)''' é seu \"nível de poder\" geral. Ele soma suas quatro estatísticas de combate ('''STR + SKP + RES + PWR''', cada uma com o escalonamento da sua classe, os multiplicadores de forma e os bônus) mais sua '''VIT e ENE com metade do peso''', passa isso por uma curva de crescimento e depois multiplica pela sua '''Liberação de Poder''' atual:",
+  "outdated": false
+ },
+ "73": {
+  "source": "BP is a decimal value, so it keeps growing smoothly even at very high stats. Upgraded [[Special:MyLanguage/Android|Androids]] always report the maximum possible Battle Power. You can read other beings' Battle Power with [[Special:MyLanguage/Scouters|Scouters]] or the [[Special:MyLanguage/Ki Sense|Ki Sense]] skill (see [[Special:MyLanguage/HUD#Ki Sense panels|HUD]]).",
+  "translation": "O BP é um valor decimal, então continua crescendo suavemente mesmo com estatísticas muito altas. [[Special:MyLanguage/Android|Androids]] aprimorados sempre mostram o Poder de luta máximo possível. Você pode ler o Poder de luta de outros seres com [[Special:MyLanguage/Scouters|Scouters]] ou com a habilidade [[Special:MyLanguage/Ki Sense|Sentido de Ki]] (veja [[Special:MyLanguage/HUD#Ki Sense panels|HUD]]).",
+  "outdated": false
+ },
+ "74": {
+  "source": "== Power Release ==",
+  "translation": "== Liberação de Poder ==",
+  "outdated": false
+ },
+ "75": {
+  "source": "'''Power Release''' is the percentage of your power you are currently channeling. Charging ki (hold {{Key|C}}) raises it. It acts as a '''multiplier''' on your melee, strike and ki damage, your defense, your speed and your Battle Power. Releasing more power costs energy upkeep.",
+  "translation": "A '''Liberação de Poder''' é a porcentagem do seu poder que você está canalizando no momento. Carregar ki (segure {{Key|C}}) a aumenta. Ela atua como um '''multiplicador''' do seu dano corpo a corpo, de golpe e de ki, da sua defesa, da sua velocidade e do seu Poder de luta. Liberar mais poder tem um custo de manutenção de energia.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Your '''maximum''' release starts at '''50%''', and each level of the [[Special:MyLanguage/Potential Unlock|Potential Unlock]] skill adds '''+5%''' (see [[Special:MyLanguage/Skills|Skills]]).",
+  "translation": "Sua liberação '''máxima''' começa em '''50%''', e cada nível da habilidade [[Special:MyLanguage/Potential Unlock|Potencial Liberado]] soma '''+5%''' (veja [[Special:MyLanguage/Skills|Habilidades]]).",
+  "outdated": false
+ },
+ "77": {
+  "source": "[[Special:MyLanguage/Saiyan|Saiyans]] can push that limit further with their '''Limitless Power''' racial skill.",
+  "translation": "Os [[Special:MyLanguage/Saiyan|Saiyajins]] podem levar esse limite mais longe com a habilidade racial '''Poder Ilimitado'''.",
+  "outdated": false
+ },
+ "78": {
+  "source": "Double-tapping the charge key jumps straight to your maximum, costing '''1% of your max Ki for every 5%''' of release gained.",
+  "translation": "Tocar duas vezes a tecla de carga leva direto ao máximo, custando '''1% do seu Ki máximo a cada 5%''' de liberação ganha.",
+  "outdated": false
+ },
+ "79": {
+  "source": "Hold {{Key|Alt}} + {{Key|C}} to lower your release, or set a release cap with '''Limit Release''' in the Utility Menu (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).",
+  "translation": "Segure {{Key|Alt}} + {{Key|C}} para reduzir sua liberação, ou defina um limite com '''Limite de liberação''' no Menu de Utilidades (veja [[Special:MyLanguage/Menus#Utility Menu|Menus]]).",
+  "outdated": false
+ },
+ "80": {
+  "source": "Ki and strike techniques and flight need at least '''5%''' Power Release. At '''0%''' you are hidden from Ki Sense.",
+  "translation": "As técnicas de ki e de golpe e o voo precisam de pelo menos '''5%''' de Liberação de Poder. Em '''0%''', você fica oculto do Sentido de Ki.",
+  "outdated": false
+ },
+ "81": {
+  "source": "== Alignment ==",
+  "translation": "== Índole ==",
+  "outdated": false
+ },
+ "82": {
+  "source": "'''Alignment''' is a value from 0 to 100 (100 by default) that measures how good or evil your character is: '''Good''' 61–100, '''Neutral''' 41–60, '''Evil''' 0–40. It decides which masters train you, how some NPCs treat you and a few other perks.",
+  "translation": "A '''índole''' é um valor de 0 a 100 (100 por padrão) que mede o quão bom ou mau é o seu personagem: '''Boa''' 61–100, '''Neutra''' 41–60, '''Má''' 0–40. Ela decide quais mestres treinam você, como alguns NPCs tratam você e algumas outras vantagens.",
+  "outdated": false
+ }
+}

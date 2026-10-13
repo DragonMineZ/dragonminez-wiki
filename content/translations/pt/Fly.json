@@ -1,0 +1,157 @@
+{
+ "Page_display_title": {
+  "source": "Fly",
+  "translation": "Voar",
+  "outdated": false
+ },
+ "1": {
+  "source": "Control your ki and take to the skies.",
+  "translation": "Controle o seu ki e ganhe os céus.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Movement and utility",
+  "translation": "Movimento e utilidade",
+  "outdated": false
+ },
+ "3": {
+  "source": "1,500 TP for level 1, then 600 to 3,000 TP per level",
+  "translation": "1,500 TP no nível 1, depois de 600 a 3,000 TP por nível",
+  "outdated": false
+ },
+ "4": {
+  "source": "Ki flight with two modes, Search Fly and Combat Fly. Each level increases your speed.",
+  "translation": "Voo com ki em dois modos, Voo de Busca e Voo de Combate. Cada nível aumenta a sua velocidade.",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Fly''' is the skill that lets you fly with your ki. It has two flight modes: '''Search Fly''', a fast, free-steering 360° flight for travelling, and '''Combat Fly''', a momentum-based hover tuned for fighting. Each level of the skill makes you faster.",
+  "translation": "'''Voar''' é a habilidade que permite voar com o seu ki. Ela tem dois modos de voo: o '''Voo de Busca''', um voo rápido em 360° com controle livre para viajar, e o '''Voo de Combate''', uma flutuação baseada em inércia ajustada para lutar. Cada nível da habilidade deixa você mais rápido.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Learning it ==",
+  "translation": "== Como aprender ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "[[Special:MyLanguage/Goku|Goku]] (Good alignment) and [[Special:MyLanguage/Frieza|Frieza]] (Evil alignment) teach Fly. To actually take off you also need [[Special:MyLanguage/Ki Control|Ki Control]] and at least '''5% Power Release'''.",
+  "translation": "[[Special:MyLanguage/Goku|Goku]] (índole Boa) e [[Special:MyLanguage/Frieza|Freeza]] (índole Má) ensinam Voar. Para decolar de fato, você também precisa de [[Special:MyLanguage/Ki Control|Controle de Ki]] e de pelo menos '''5% de Liberação de Poder'''.",
+  "outdated": false
+ },
+ "8": {
+  "source": "Level",
+  "translation": "Nível",
+  "outdated": false
+ },
+ "9": {
+  "source": "TP cost",
+  "translation": "Custo em TP",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Taking off ==",
+  "translation": "== Decolando ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "Jump and press {{Key|F}} in mid-air to start flying, and press it again to stop. You can also toggle Fly from the Utility Menu ({{Key|X}}) under '''Movement'''.",
+  "translation": "Pule e aperte {{Key|F}} no ar para começar a voar, e aperte de novo para parar. Você também pode ativar ou desativar Voar pelo Menu de Utilidades ({{Key|X}}) em '''Movimento'''.",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Flight modes ==",
+  "translation": "== Modos de voo ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "Mode",
+  "translation": "Modo",
+  "outdated": false
+ },
+ "14": {
+  "source": "Best for",
+  "translation": "Ideal para",
+  "outdated": false
+ },
+ "15": {
+  "source": "How it feels",
+  "translation": "Sensação",
+  "outdated": false
+ },
+ "16": {
+  "source": "Search Fly",
+  "translation": "Voo de Busca",
+  "outdated": false
+ },
+ "17": {
+  "source": "Travelling",
+  "translation": "Viajar",
+  "outdated": false
+ },
+ "18": {
+  "source": "Fast, free-steering 360° flight.",
+  "translation": "Voo rápido em 360° com controle livre.",
+  "outdated": false
+ },
+ "19": {
+  "source": "Combat Fly",
+  "translation": "Voo de Combate",
+  "outdated": false
+ },
+ "20": {
+  "source": "Fighting",
+  "translation": "Lutar",
+  "outdated": false
+ },
+ "21": {
+  "source": "A momentum-based hover tuned for combat.",
+  "translation": "Uma flutuação baseada em inércia ajustada para o combate.",
+  "outdated": false
+ },
+ "22": {
+  "source": "Switch between them with {{Key|Alt}} + {{Key|F}}, or in the Utility Menu under '''Movement → Fly'''.",
+  "translation": "Alterne entre eles com {{Key|Alt}} + {{Key|F}}, ou no Menu de Utilidades em '''Movimento → Voar'''.",
+  "outdated": false
+ },
+ "23": {
+  "source": "By default, taking or dealing damage while in Search Fly switches you to Combat Fly for '''8 seconds'''.",
+  "translation": "Por padrão, sofrer ou causar dano no Voo de Busca muda você para o Voo de Combate por '''8 segundos'''.",
+  "outdated": false
+ },
+ "24": {
+  "source": "=== Flight options ===",
+  "translation": "=== Opções de voo ===",
+  "outdated": false
+ },
+ "25": {
+  "source": "Hovering '''Fly''' in the Utility Menu ('''{{Key|X}} → Movement → Fly''') opens its options:",
+  "translation": "Passar o cursor sobre '''Voar''' no Menu de Utilidades ('''{{Key|X}} → Movimento → Voar''') abre as opções:",
+  "outdated": false
+ },
+ "26": {
+  "source": "* '''Search Fly / Combat Fly''' switches the mode (same as {{Key|Alt}} + {{Key|F}}).\n* '''Flight Speed''' caps your flight speed between 5% and 100% in 5% steps. The cap also slows rising and descending. Click it again to go back to 100%, or hover it and use the mouse wheel.\n* '''Mode Lock''' remembers the mode you chose. When taking or dealing damage forces you from Search Fly into Combat Fly, you are switched back to your chosen mode as soon as the Combat Fly lock ends.",
+  "translation": "* '''Voo de Busca / Voo de Combate''' alterna o modo (o mesmo que {{Key|Alt}} + {{Key|F}}).\n* '''Velocidade de voo''' limita a sua velocidade de voo entre 5% e 100%, em passos de 5%. O limite também deixa a subida e a descida mais lentas. Clique de novo para voltar a 100%, ou passe o cursor por cima e use a roda do mouse.\n* '''Trava de modo''' lembra o modo que você escolheu. Quando sofrer ou causar dano força você a sair do Voo de Busca para o Voo de Combate, você volta ao modo escolhido assim que a trava do Voo de Combate termina.",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Flying in combat ==",
+  "translation": "== Voando em combate ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "* [[Special:MyLanguage/Strike Attacks|Strike attacks]] reach targets up to 12 blocks away while you fly, instead of 6.\n* During a '''Ki Surge''' you fly faster (see [[Special:MyLanguage/Combat|Combat]]).\n* By default Combat Fly drains Ki at half the normal rate.",
+  "translation": "* Os [[Special:MyLanguage/Strike Attacks|ataques de golpe]] alcançam alvos a até 12 blocos enquanto você voa, em vez de 6.\n* Durante um '''Surto de Ki''' você voa mais rápido (veja [[Special:MyLanguage/Combat|Combate]]).\n* Por padrão, o Voo de Combate consome Ki na metade do ritmo normal.",
+  "outdated": false
+ },
+ "29": {
+  "source": "== Notes ==",
+  "translation": "== Notas ==",
+  "outdated": false
+ },
+ "30": {
+  "source": "* If you can't fly yet, [[Special:MyLanguage/Korin|Korin]] gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] (or a Black Nimbus if your alignment is 50 or lower).\n* All flight keys can be rebound in Minecraft's controls (see [[Special:MyLanguage/Controls|Controls]]).",
+  "translation": "* Se você ainda não consegue voar, [[Special:MyLanguage/Korin|Karin]] dá a você uma [[Special:MyLanguage/Flying Nimbus|Nuvem Voadora]] (ou uma Nuvem Negra se a sua índole for 50 ou menos).\n* Todas as teclas de voo podem ser reatribuídas nos controles do Minecraft (veja [[Special:MyLanguage/Controls|Controles]]).",
+  "outdated": false
+ }
+}

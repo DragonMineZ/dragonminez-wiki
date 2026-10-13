@@ -1,63 +1,71 @@
 {{Infobox Dimension
 |Gravity=×1.0
-|Access=<translate>Space Pod, after Buu Saga quest 23</translate>
-|Biomes=<translate>Sacred Kai Plains, Sacred Kai Hills, Sacred Kai Rivers</translate>
-|Resources=<translate>Sacred wood, Sacred grass, Sacred flowers and ferns (no ores)</translate>
-|Inhabitants=<translate>Vanilla animals</translate>, {{L|Mini Buu}}, <translate>Endermen</translate>, {{L|Old Kai}}
+|Access=<translate><!--T:1--> Space Pod, after Buu Saga quest 23</translate>
+|Biomes=<translate><!--T:2--> Sacred Kai Plains, Sacred Kai Hills, Sacred Kai Rivers</translate>
+|Resources=<translate><!--T:3--> Sacred wood, Sacred grass, Sacred flowers and ferns (no ores)</translate>
+|Inhabitants=<translate><!--T:4--> Vanilla animals</translate>, {{L|Mini Buu}}, <translate><!--T:5--> Endermen</translate>, {{L|Old Kai}}
 |Structures={{L|Old Kai's Pillar}}
 }}
 <translate>
+<!--T:6-->
 The '''Sacred Kai Planet''' (the Sacred World of the Kais, dimension id <code>dragonminez:sacredkaiplanet</code>) is a lush, otherworldly planet, home of the Kais. It's a decorative, lore world rather than a mining destination, and the place where you meet [[Special:MyLanguage/Old Kai|Old Kai]] and face his Ultimate Challenge.
 </translate>
 
 <translate>
-== Gravity ==
+== Gravity == <!--T:7-->
 </translate>
 {{Config|Gravity Config|defaultWorldGravity}}
 <translate>
+<!--T:8-->
 Gravity is normal (×1.0) by default. The planet isn't listed in the per-world gravity setting, so it uses the fallback world gravity.
 </translate>
 
 <translate>
-== Biomes ==
+== Biomes == <!--T:9-->
 </translate>
 <translate>
+<!--T:10-->
 * '''Sacred Kai Plains''', where [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] stands
 * '''Sacred Kai Hills'''
 * '''Sacred Kai Rivers'''
 </translate>
 
 <translate>
-== Blocks and resources ==
+== Blocks and resources == <!--T:11-->
 </translate>
 <translate>
+<!--T:12-->
 The Sacred Kai Planet has no ore set of its own. Its signature blocks are the '''Sacred wood''' set (log, planks, stairs, doors and more), '''Sacred grass''', a range of '''Sacred flowers''' (amaryllis, catharanthus, chrysanthemum, marigold and trillium) and '''Sacred ferns'''.
 </translate>
 
 <translate>
-== Creatures ==
+== Creatures == <!--T:13-->
 </translate>
 <translate>
+<!--T:14-->
 * '''Vanilla animals''': pigs, sheep, mooshrooms, chickens, rabbits, horses and donkeys, plus fish, axolotls and guardians in the water.
 * '''Hostiles''': [[Special:MyLanguage/Mini Buu|Mini Buu]] and Endermen.
 </translate>
 
 <translate>
-== Old Kai's Pillar ==
+== Old Kai's Pillar == <!--T:15-->
 </translate>
 {{Main|Old Kai's Pillar}}
 <translate>
+<!--T:16-->
 [[Special:MyLanguage/Old Kai's Pillar|Old Kai's Pillar]] in the Sacred Kai Plains is the home of [[Special:MyLanguage/Old Kai|Old Kai]], the master tied to unlocking your hidden potential. His '''Unleash Power''' service starts the Ultimate Challenge, which unlocks the Ultimate form and gives you the [[Special:MyLanguage/Z Sword|Z Sword]] (see [[Special:MyLanguage/Training Minigames#Old Kai's Ultimate Challenge|Training Minigames]]).
 </translate>
 
 <translate>
-== Getting there ==
+== Getting there == <!--T:17-->
 </translate>
 <translate>
+<!--T:18-->
 Travel by [[Special:MyLanguage/Space Pod|Space Pod]]. The '''Sacred Kai Planet''' destination unlocks once you complete [[Special:MyLanguage/Buu Saga|Buu Saga]] quest 23, ''Gotenks at Full Power''. The pod lands you at the same X, Y and Z you left from.
 </translate>
 
 <translate>
+<!--T:19-->
 The final battles of the [[Special:MyLanguage/Buu Saga|Buu Saga]] take place here, and the [[Special:MyLanguage/GT Saga|GT Saga]] sends you back to talk to Old Kai.
 </translate>
 

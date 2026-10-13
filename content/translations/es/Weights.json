@@ -1,0 +1,287 @@
+{
+ "Page_display_title": {
+  "source": "Weights",
+  "translation": "Pesas",
+  "outdated": false
+ },
+ "1": {
+  "source": "Train heavy, but not too heavy.",
+  "translation": "Entrena pesado, pero no demasiado.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Curio (Weights slot)",
+  "translation": "Curio (ranura Weights)",
+  "outdated": false
+ },
+ "3": {
+  "source": "Multiplies the Training Points you earn, up to ×2.5",
+  "translation": "Multiplica los Puntos de Entrenamiento que ganas, hasta ×2.5",
+  "outdated": false
+ },
+ "4": {
+  "source": "Weight service of Master Roshi, King Kai and Piccolo",
+  "translation": "Servicio de pesas del Maestro Roshi, Kaiosama y Piccolo",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Weights''' are wearable training gear. Wearing them while you train '''multiplies the Training Points (TP) you earn''', but overloading yourself makes you weaker. Getting the balance right is the whole point.",
+  "translation": "Las '''pesas''' son equipo de entrenamiento que te pones. Llevarlas mientras entrenas '''multiplica los Puntos de Entrenamiento (TP) que ganas''', pero sobrecargarte te debilita. Encontrar el equilibrio justo es la clave.",
+  "outdated": false
+ },
+ "6": {
+  "source": "Weights work hand in hand with gravity: training under higher gravity makes the same weight count for much more (see [[Special:MyLanguage/Gravity|Gravity]]). All numbers on this page are server defaults.",
+  "translation": "Las pesas van de la mano con la gravedad: entrenar con más gravedad hace que el mismo peso cuente mucho más (consulta [[Special:MyLanguage/Gravity|Gravedad]]). Todos los números de esta página son los valores por defecto del servidor.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Weight items ==",
+  "translation": "== Objetos de peso ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Weights are worn in the dedicated '''Weights''' Curios slot (one slot, with a cosmetic slot next to it). There are three, and each holds its own '''weight value''' in kg, shown in the tooltip:",
+  "translation": "Las pesas se llevan en la ranura '''Weights''' de Curios dedicada a ellas (una ranura, con una ranura cosmética al lado). Hay tres, y cada una tiene su propio '''valor de peso''' en kg, que se ve en la descripción emergente:",
+  "outdated": false
+ },
+ "9": {
+  "source": "Item",
+  "translation": "Objeto",
+  "outdated": false
+ },
+ "10": {
+  "source": "Given by",
+  "translation": "Lo da",
+  "outdated": false
+ },
+ "11": {
+  "source": "Turtle Shell",
+  "translation": "Caparazón de Tortuga",
+  "outdated": false
+ },
+ "12": {
+  "source": "Workout Weights",
+  "translation": "Pesas de Entrenamiento",
+  "outdated": false
+ },
+ "13": {
+  "source": "Weighted Cape",
+  "translation": "Capa con Pesas",
+  "outdated": false
+ },
+ "14": {
+  "source": "Ask one of these masters for their '''weight service''' and type how many kg you want: you receive a new weight item with that value. Requests are capped at '''100,000 kg'''. You can ask once per conversation; talk to the master again for more (see [[Special:MyLanguage/Masters|Masters]]).",
+  "translation": "Pídele a uno de estos maestros su '''servicio de pesas''' y escribe cuántos kg quieres: recibes un objeto de peso nuevo con ese valor. Las peticiones tienen un tope de '''100,000 kg'''. Puedes pedir una vez por conversación; vuelve a hablar con el maestro para pedir más (consulta [[Special:MyLanguage/Masters|Maestros]]).",
+  "outdated": false
+ },
+ "15": {
+  "source": "Admins can also hand them out with <code>/dmzweight &lt;type&gt; &lt;amount&gt;</code> (see [[Special:MyLanguage/Commands|Commands]]). A weight item is also an ingredient of the [[Special:MyLanguage/Gravity Device|Gravity Device]].",
+  "translation": "Los administradores también pueden darlas con <code>/dmzweight &lt;type&gt; &lt;amount&gt;</code> (consulta [[Special:MyLanguage/Commands|Comandos]]). Un objeto de peso también es ingrediente del [[Special:MyLanguage/Gravity Device|Dispositivo de Gravedad]].",
+  "outdated": false
+ },
+ "16": {
+  "source": "== How training with weights works ==",
+  "translation": "== Cómo funciona el entrenamiento con pesas ==",
+  "outdated": false
+ },
+ "17": {
+  "source": "The bonus isn't just \"more weight, more TP\". The game compares how much weight you carry with how much your character ''should'' be able to handle:",
+  "translation": "La bonificación no es simplemente \"más peso, más TP\". El juego compara cuánto peso cargas con cuánto ''debería'' poder aguantar tu personaje:",
+  "outdated": false
+ },
+ "18": {
+  "source": "* '''Effective weight''' is your total worn weight multiplied by the gravity load factor. Under higher gravity the same weight counts for much more.\n* '''Ideal weight''' scales with your power level (roughly your relative level divided by 2).\n* '''Load ratio''' is effective weight divided by ideal weight. This ratio decides your TP multiplier and your training zone.",
+  "translation": "* El '''peso efectivo''' es el peso total que llevas multiplicado por el factor de carga de la gravedad. Con más gravedad, el mismo peso cuenta mucho más.\n* El '''peso ideal''' escala con tu nivel de poder (aproximadamente tu nivel relativo dividido entre 2).\n* La '''proporción de carga''' es el peso efectivo dividido entre el peso ideal. Esta proporción decide tu multiplicador de TP y tu zona de entrenamiento.",
+  "outdated": false
+ },
+ "19": {
+  "source": "You can check all of this in the '''Gravity''' row of the Stats menu ({{Key|V}}): your weight (raw and effective), your ideal weight, the zone you're in and the current ''Weight Training'' multiplier.",
+  "translation": "Puedes consultar todo esto en la fila '''Gravedad''' del menú de estadísticas ({{Key|V}}): tu peso (bruto y efectivo), tu peso ideal, la zona en la que estás y el multiplicador actual de ''Entrenamiento con pesas''.",
+  "outdated": false
+ },
+ "20": {
+  "source": "=== Training zones ===",
+  "translation": "=== Zonas de entrenamiento ===",
+  "outdated": false
+ },
+ "21": {
+  "source": "Load ratio",
+  "translation": "Proporción de carga",
+  "outdated": false
+ },
+ "22": {
+  "source": "Zone shown in game",
+  "translation": "Zona en el juego",
+  "outdated": false
+ },
+ "23": {
+  "source": "TP multiplier",
+  "translation": "Multiplicador de TP",
+  "outdated": false
+ },
+ "24": {
+  "source": "Stat penalty",
+  "translation": "Penalización de estadísticas",
+  "outdated": false
+ },
+ "25": {
+  "source": "0 (no weights)",
+  "translation": "0 (sin pesas)",
+  "outdated": false
+ },
+ "26": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "27": {
+  "source": "none",
+  "translation": "ninguna",
+  "outdated": false
+ },
+ "28": {
+  "source": "up to 0.5",
+  "translation": "hasta 0.5",
+  "outdated": false
+ },
+ "29": {
+  "source": "Comfortable",
+  "translation": "Confortable",
+  "outdated": false
+ },
+ "30": {
+  "source": "×1.0 to ×1.5",
+  "translation": "×1.0 a ×1.5",
+  "outdated": false
+ },
+ "31": {
+  "source": "none",
+  "translation": "ninguna",
+  "outdated": false
+ },
+ "32": {
+  "source": "0.5 to 0.75",
+  "translation": "0.5 a 0.75",
+  "outdated": false
+ },
+ "33": {
+  "source": "Comfortable",
+  "translation": "Confortable",
+  "outdated": false
+ },
+ "34": {
+  "source": "×1.5 to ×2.0",
+  "translation": "×1.5 a ×2.0",
+  "outdated": false
+ },
+ "35": {
+  "source": "none",
+  "translation": "ninguna",
+  "outdated": false
+ },
+ "36": {
+  "source": "'''0.75 to 1.25'''",
+  "translation": "'''0.75 a 1.25'''",
+  "outdated": false
+ },
+ "37": {
+  "source": "'''Ideal'''",
+  "translation": "'''Ideal'''",
+  "outdated": false
+ },
+ "38": {
+  "source": "'''none'''",
+  "translation": "'''ninguna'''",
+  "outdated": false
+ },
+ "39": {
+  "source": "1.25 to 2.0",
+  "translation": "1.25 a 2.0",
+  "outdated": false
+ },
+ "40": {
+  "source": "Pushing Hard",
+  "translation": "Esforzándose al máximo",
+  "outdated": false
+ },
+ "41": {
+  "source": "×2.0 to '''×2.5'''",
+  "translation": "×2.0 a '''×2.5'''",
+  "outdated": false
+ },
+ "42": {
+  "source": "rising",
+  "translation": "en aumento",
+  "outdated": false
+ },
+ "43": {
+  "source": "2.0 to 2.5",
+  "translation": "2.0 a 2.5",
+  "outdated": false
+ },
+ "44": {
+  "source": "Pushing Hard",
+  "translation": "Esforzándose al máximo",
+  "outdated": false
+ },
+ "45": {
+  "source": "×2.5 to ×1.0",
+  "translation": "×2.5 a ×1.0",
+  "outdated": false
+ },
+ "46": {
+  "source": "rising to the maximum",
+  "translation": "aumenta hasta el máximo",
+  "outdated": false
+ },
+ "47": {
+  "source": "2.5 and above",
+  "translation": "2.5 o más",
+  "outdated": false
+ },
+ "48": {
+  "source": "Overloaded",
+  "translation": "Sobrecargado",
+  "outdated": false
+ },
+ "49": {
+  "source": "'''−60% stats'''",
+  "translation": "'''−60% de estadísticas'''",
+  "outdated": false
+ },
+ "50": {
+  "source": "What this means:",
+  "translation": "Qué significa esto:",
+  "outdated": false
+ },
+ "51": {
+  "source": "* The '''Ideal zone''' (ratio 0.75 to 1.25) gives a safe '''×2.0 TP''' with '''no penalty'''. It is the recommended place to sit.\n* '''Pushing Hard''' can reach up to '''×2.5 TP''', but you start taking a '''stat penalty''' (up to −60% of your stats). The same penalty also slows your movement and attack speed, so you fight much weaker while overloaded.\n* Going '''too heavy''' (ratio 2.5 or more, Overloaded) is the worst of both: the TP bonus collapses back to ×1.0 '''and''' you keep the full penalty.\n* Heavier zones also raise your '''stamina cost per attack''' and the '''drain of active forms''': ×1.15 Comfortable, ×1.3 Ideal, ×1.5 Pushing Hard, ×2.0 Overloaded.",
+  "translation": "* La '''zona Ideal''' (proporción de 0.75 a 1.25) da un '''×2.0 de TP''' seguro '''sin penalización'''. Es el lugar recomendado para quedarse.\n* '''Esforzándose al máximo''' puede llegar hasta '''×2.5 de TP''', pero empiezas a recibir una '''penalización de estadísticas''' (hasta −60% de tus estadísticas). La misma penalización también reduce tu velocidad de movimiento y de ataque, así que peleas mucho más débil mientras estás sobrecargado.\n* Ir '''demasiado pesado''' (proporción de 2.5 o más, Sobrecargado) es lo peor de ambos mundos: la bonificación de TP vuelve a caer a ×1.0 '''y''' mantienes la penalización completa.\n* Las zonas más pesadas también suben tu '''costo de stamina por ataque''' y el '''consumo de las formas activas''': ×1.15 en Confortable, ×1.3 en Ideal, ×1.5 en Esforzándose al máximo, ×2.0 en Sobrecargado.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Because your ideal weight grows with your level, weights that once overloaded you become ideal as you get stronger, so you keep asking for heavier weights over time.",
+  "translation": "Como tu peso ideal crece con tu nivel, las pesas que antes te sobrecargaban se vuelven ideales a medida que te haces más fuerte, así que con el tiempo seguirás pidiendo pesas más pesadas.",
+  "outdated": false
+ },
+ "53": {
+  "source": "== Gravity synergy ==",
+  "translation": "== Sinergia con la gravedad ==",
+  "outdated": false
+ },
+ "54": {
+  "source": "Training under gravity stacks with weights:",
+  "translation": "Entrenar bajo gravedad se acumula con las pesas:",
+  "outdated": false
+ },
+ "55": {
+  "source": "* Gravity '''amplifies effective weight''', so you can reach the Ideal and Pushing Hard zones with less physical weight.\n* Gravity also grants a '''flat TP bonus''' (+2.5% per point of net gravity) and a small '''mastery bonus''' (+0.25% per point of net gravity). Both stop once net gravity reaches 75.\n* In the [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]], the chamber's 10× gravity still amplifies your weights, but it doesn't add the flat gravity TP bonus: the chamber has its own TP multiplier instead.\n* Bulma's '''Gravity Room Mk.II''' and '''Mk.III''' sidequests reduce the weight stat penalty while you train inside an active Gravity Device (see [[Special:MyLanguage/Gravity Device#Gravity Room upgrades|Gravity Device]]).",
+  "translation": "* La gravedad '''amplifica el peso efectivo''', así que puedes llegar a las zonas Ideal y Esforzándose al máximo con menos peso físico.\n* La gravedad también da una '''bonificación fija de TP''' (+2.5% por punto de gravedad neta) y una pequeña '''bonificación de maestría''' (+0.25% por punto de gravedad neta). Ambas se detienen cuando la gravedad neta llega a 75.\n* En la [[Special:MyLanguage/Hyperbolic Time Chamber|Cámara Hiperbólica del Tiempo]], la gravedad de 10× de la cámara sigue amplificando tus pesas, pero no suma la bonificación fija de TP por gravedad: la cámara tiene su propio multiplicador de TP.\n* Las misiones secundarias '''Sala de Gravedad Mk. II''' y '''Mk. III''' de Bulma reducen la penalización de estadísticas por peso mientras entrenas dentro de un Dispositivo de Gravedad activo (consulta [[Special:MyLanguage/Gravity Device#Gravity Room upgrades|Dispositivo de Gravedad]]).",
+  "outdated": false
+ },
+ "56": {
+  "source": "The strongest training setup is '''weights and a [[Special:MyLanguage/Gravity Device|Gravity Device]]''', kept in (or just above) the Ideal zone. See [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]] for everything else that grants TP.",
+  "translation": "El entrenamiento más fuerte combina '''pesas y un [[Special:MyLanguage/Gravity Device|Dispositivo de Gravedad]]''', manteniéndote en la zona Ideal (o justo por encima). Consulta [[Special:MyLanguage/Training Points and Mastery|Puntos de entrenamiento y maestría]] para ver todo lo demás que da TP.",
+  "outdated": false
+ }
+}

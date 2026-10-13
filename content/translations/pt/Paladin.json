@@ -1,0 +1,82 @@
+{
+ "Page_display_title": {
+  "source": "Paladin",
+  "translation": "Paladino",
+  "outdated": false
+ },
+ "1": {
+  "source": "The protector: high defense scaling, built to guard its party.",
+  "translation": "O protetor: alto escalonamento de defesa, feito para proteger o grupo.",
+  "outdated": false
+ },
+ "2": {
+  "source": "Guardian",
+  "translation": "Guardião",
+  "outdated": false
+ },
+ "3": {
+  "source": "Party defender",
+  "translation": "Defensor do grupo",
+  "outdated": false
+ },
+ "4": {
+  "source": "DEF 0.336, STM 1.2",
+  "translation": "DEF 0.336, STM 1.2",
+  "outdated": false
+ },
+ "5": {
+  "source": "'''Paladin''' is the protector among the [[Special:MyLanguage/Classes|classes]]. It has a high Defense scaling, and its passive takes part of the damage its party members suffer while healing it from the damage they deal.",
+  "translation": "'''Paladino''' é o protetor entre as [[Special:MyLanguage/Classes|classes]]. Tem um alto escalonamento de Defesa, e sua passiva absorve parte do dano que os membros do grupo sofrem enquanto o cura com o dano que eles causam.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Passive: Guardian ==",
+  "translation": "== Passiva: Guardião ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "While you are in a party (<code>/dmzparty</code>, see [[Special:MyLanguage/Commands|Commands]]):",
+  "translation": "Enquanto você estiver em um grupo (<code>/dmzparty</code>, veja [[Special:MyLanguage/Commands|Comandos]]):",
+  "outdated": false
+ },
+ "8": {
+  "source": "* '''15%''' of the damage your party members take is redirected to you;\n* you heal for '''15%''' of the damage your party members deal.",
+  "translation": "* '''15%''' do dano que os membros do seu grupo recebem é redirecionado para você;\n* você se cura em '''15%''' do dano que os membros do seu grupo causam.",
+  "outdated": false
+ },
+ "9": {
+  "source": "Only members in the same dimension and within '''50 blocks''' count, and hits smaller than 1% of the target's max health are ignored. The redirected share is reduced by '''your own defense''', never takes you below 1 health (whatever you can't take stays on your ally) and doesn't flash your screen. Your own hits never heal you or get redirected to you.",
+  "translation": "Só contam os membros que estão na mesma dimensão e a até '''50 blocos''', e golpes menores que 1% da vida máxima do alvo são ignorados. A parte redirecionada é reduzida pela '''sua própria defesa''', nunca deixa você abaixo de 1 de vida (o que você não puder receber fica com o aliado) e não faz sua tela piscar. Seus próprios golpes nunca curam você nem são redirecionados para você.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Starting stats and regeneration ==",
+  "translation": "== Atributos iniciais e regeneração ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "* '''Starting stats:''' SKP 5 · RES 10 · VIT 5\n* '''Regeneration''' (per 5 seconds): health 2.0 (+0.0675 per VIT) · Ki 4.0 (+0.08 per ENE) · stamina 8.0 (+0.03 per VIT, +0.04 per RES)",
+  "translation": "* '''Atributos iniciais:''' SKP 5 · RES 10 · VIT 5\n* '''Regeneração''' (a cada 5 segundos): vida 2.0 (+0.0675 por VIT) · Ki 4.0 (+0.08 por ENE) · estâmina 8.0 (+0.03 por VIT, +0.04 por RES)",
+  "outdated": false
+ },
+ "12": {
+  "source": "== Stat scaling ==",
+  "translation": "== Escalonamento de atributos ==",
+  "outdated": false
+ },
+ "13": {
+  "source": "The Paladin's standout scaling is '''Defense''' (DEF 0.336), second only to the Tank. The VIT and DEF values grow on a curve as you invest more, up to 4 times the starting rate. Compare every class on the [[Special:MyLanguage/Classes#Default stat scalings|Classes]] page.",
+  "translation": "O escalonamento de destaque do Paladino é '''Defesa''' (DEF 0.336), atrás apenas do Tanque. Os valores de VIT e DEF crescem em curva conforme você investe mais, até 4 vezes a taxa inicial. Compare todas as classes na página [[Special:MyLanguage/Classes#Default stat scalings|Classes]].",
+  "outdated": false
+ },
+ "14": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "15": {
+  "source": "The class id is <code>paladin</code>. Its passive values are <code>redirectPct</code> (0.15) and <code>lifestealPct</code> (0.15), set per race in <code>races/&lt;race&gt;/stats.json</code> together with the starting stats, scalings and regeneration.",
+  "translation": "O id da classe é <code>paladin</code>. Os valores da passiva são <code>redirectPct</code> (0.15) e <code>lifestealPct</code> (0.15), definidos por raça em <code>races/&lt;race&gt;/stats.json</code> junto com os atributos iniciais, os escalonamentos e a regeneração.",
+  "outdated": false
+ }
+}

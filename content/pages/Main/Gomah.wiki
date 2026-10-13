@@ -1,69 +1,78 @@
 {{Infobox World Boss
-|quote=<translate>Gomah rises from his throne! Hit him 3 times from behind to knock his Demon Eye loose.</translate>
+|quote=<translate><!--T:1--> Gomah rises from his throne! Hit him 3 times from behind to knock his Demon Eye loose.</translate>
 |World={{L|Demon Realm}}
-|Lair=<translate>His throne on Gomah's Horn Cradle, a floating island high above the First Demon World</translate>
-|Coordinates=<translate>Around X −1112, Z −1144</translate>
-|How to find=<translate>Buy Gomah's Horn Cradle Map from the Time Patroller (24 Emeralds)</translate>
+|Lair=<translate><!--T:2--> His throne on Gomah's Horn Cradle, a floating island high above the First Demon World</translate>
+|Coordinates=<translate><!--T:3--> Around X −1112, Z −1144</translate>
+|How to find=<translate><!--T:4--> Buy Gomah's Horn Cradle Map from the Time Patroller (24 Emeralds)</translate>
 |Boss key=gomah
 |Health=25292000
-|Minions=<translate>Gomah Soldiers</translate>
-|Signature moves=<translate>Demon Eye, Great Sphere, Blaster Meteors, Evil Eye, Eye Beam, Demon Grab, Quake, Demon Eye Eruption</translate>
-|Reward=<translate>×435 Attributes</translate>
-|Drops=<translate>Demon Eye (2%)</translate>
+|Minions=<translate><!--T:5--> Gomah Soldiers</translate>
+|Signature moves=<translate><!--T:6--> Demon Eye, Great Sphere, Blaster Meteors, Evil Eye, Eye Beam, Demon Grab, Quake, Demon Eye Eruption</translate>
+|Reward=<translate><!--T:7--> ×435 Attributes</translate>
+|Drops=<translate><!--T:8--> Demon Eye (2%)</translate>
 }}
 <translate>
+<!--T:9-->
 '''Gomah''', the Demon King, is the strongest world boss of the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He sits on his throne on [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]], high in the sky of the First Demon World, and his [[Special:MyLanguage/Demon Eye|Demon Eye]] makes him bigger and stronger the longer the fight lasts. Hitting him from behind is the key to keeping him in check.
 </translate>
 
 <translate>
-== Gomah's Horn Cradle ==
+== Gomah's Horn Cradle == <!--T:10-->
 
+<!--T:11-->
 [[Special:MyLanguage/Gomah's Horn Cradle|Gomah's Horn Cradle]] is a floating island of red ash and demon rock, about 120 blocks across, caged by giant curved horns that rise from beneath it up toward the rock ceiling. It sits at a fixed spot high above the First Demon World, around X −1112, Z −1144, and there is only one per world. Gomah sits on a demon-brick throne in the middle. See [[Special:MyLanguage/Structures|Structures]].
 
+<!--T:12-->
 The [[Special:MyLanguage/Time Patroller|Time Patroller]] in any demon village sells '''Gomah's Horn Cradle Map''' for 24 Emeralds (4 uses) once the Cradle has been located. When an operator resets the boss, the Cradle is restored too.
 
+<!--T:13-->
 Gomah stays on his island: if he strays or falls off, he teleports back to his throne.
 </translate>
 
 <translate>
-== Waking Gomah ==
+== Waking Gomah == <!--T:14-->
 
+<!--T:15-->
 Gomah sleeps on his throne until you come within 32 blocks or hit him. When he rises, everyone is told to hit him 3 times from behind to knock his Demon Eye loose.
 </translate>
 
 <translate>
-== The Demon Eye ==
+== The Demon Eye == <!--T:16-->
 
+<!--T:17-->
 Once Gomah is awake, his [[Special:MyLanguage/Demon Eye|Demon Eye]] gains stacks, shown as ◉ next to his name on the boss bar, up to '''5''':
 * one every 20 seconds of fighting,
 * a little more with every hit he lands on a player,
 * a whole stack every time a player is knocked out.
 
+<!--T:18-->
 Each stack makes him '''bigger''', adds '''+30%''' to his melee and ki damage, and unlocks new moves.
 </translate>
 {| class="wikitable"
-! <translate>Stacks</translate> !! <translate>New move</translate>
+! <translate><!--T:19--> Stacks</translate> !! <translate><!--T:20--> New move</translate>
 |-
-| <translate>Any</translate> || <translate>'''Great Sphere''': he raises a giant sphere over a big red mark and drops it. Fire beams at the falling sphere to join a '''power clash''': win it and the sphere is pushed back into Gomah (5% of his max health, and he loses a stack); lose it and it explodes over the mark and he gains a stack. He also throws purple '''Blaster Meteors'''.</translate>
+| <translate><!--T:21--> Any</translate> || <translate><!--T:22--> '''Great Sphere''': he raises a giant sphere over a big red mark and drops it. Fire beams at the falling sphere to join a '''power clash''': win it and the sphere is pushed back into Gomah (5% of his max health, and he loses a stack); lose it and it explodes over the mark and he gains a stack. He also throws purple '''Blaster Meteors'''.</translate>
 |-
-| 1+ || <translate>'''Evil Eye''': his third eye glows ("LOOK AWAY!"). Anyone looking at it when it flashes is stunned and blinded for 2 seconds.</translate>
+| 1+ || <translate><!--T:23--> '''Evil Eye''': his third eye glows ("LOOK AWAY!"). Anyone looking at it when it flashes is stunned and blinded for 2 seconds.</translate>
 |-
-| 2+ || <translate>'''Eye Beam''': a beam fired along a red lane.</translate>
+| 2+ || <translate><!--T:24--> '''Eye Beam''': a beam fired along a red lane.</translate>
 |-
-| 3+ || <translate>'''Demon Grab''': he grabs the player standing in the red circle, crushes them and throws them. Press the sneak key 8 times to break free.</translate>
+| 3+ || <translate><!--T:25--> '''Demon Grab''': he grabs the player standing in the red circle, crushes them and throws them. Press the sneak key 8 times to break free.</translate>
 |-
-| 4+ || <translate>'''Quake''': he drags flying players to the ground, leaps and slams, with a big impact around him and a shockwave ring across the island. Jump over the ring.</translate>
+| 4+ || <translate><!--T:26--> '''Quake''': he drags flying players to the ground, leaps and slams, with a big impact around him and a shockwave ring across the island. Jump over the ring.</translate>
 |}
 
 <translate>
-=== The Demon King ===
+=== The Demon King === <!--T:27-->
 
+<!--T:28-->
 At 5 stacks Gomah becomes the '''Demon King''': his moves come back 30% faster. If he keeps all 5 stacks for 20 seconds, he starts the '''Demon Eye Eruption''', a 10-second countdown that then hits everyone on the island. The eruption costs him 2 stacks.
 </translate>
 
 <translate>
-== Knocking the eye loose ==
+== Knocking the eye loose == <!--T:29-->
 
+<!--T:30-->
 '''Hit him 3 times from behind''' (melee or strikes, within 10 seconds) to knock the Demon Eye loose:
 * he is stunned, and any move he was using, including the Eruption, is cancelled;
 * the eye has to start adapting again;
@@ -71,19 +80,29 @@ At 5 stacks Gomah becomes the '''Demon King''': his moves come back 30% faster. 
 </translate>
 
 <translate>
-== Rewards ==
+== Rewards == <!--T:31-->
 
+<!--T:32-->
 Every contributor with at least 7.5% of the points rolls these default rewards (see [[Special:MyLanguage/World Bosses#Rewards|how world boss rewards work]]):
 * '''×435 Attributes''' (guaranteed; the amount scales with your contribution): half as Attribute Points and half as Training Points, like quest rewards (see [[Special:MyLanguage/Stats and Attributes#Attribute Points and Attributes rewards|Stats and Attributes]]).
 * The [[Special:MyLanguage/Demon Eye|Demon Eye]] relic (2%).
 
+<!--T:33-->
 The Demon Eye is worn in the '''Head Tech''' curio slot. While you wear it, all your stats are multiplied by 1.5, but every second it drains 2% of your max ki, then 2% of your health once your ki is empty (never lethal), and it lowers your alignment by 1 every 10 seconds. The longer you wear it, the bigger you grow, up to 1.5 times your size over 5 minutes, with your hitbox and reach growing too; you snap back to normal size the moment it comes off. Three hits from behind within 10 seconds knock it off your forehead. See [[Special:MyLanguage/Items|Items]].
 </translate>
 
 <translate>
-== In the story ==
+== In the story == <!--T:34-->
 
+<!--T:35-->
 The [[Special:MyLanguage/Daima Saga|Daima Saga]] ends on the First Demon World with '''King Gomah''' and '''The Demon Eye''', where you fight Gomah in his small and his third-eye forms.
 </translate>
+
+<translate>
+== Gallery == <!--T:36-->
+</translate>
+<gallery>
+File:Gomah (Saga).png|<translate><!--T:37--> Small form (Daima Saga)</translate>
+</gallery>
 
 {{Navbox Challenges}}

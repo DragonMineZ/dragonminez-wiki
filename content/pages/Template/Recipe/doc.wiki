@@ -1,0 +1,34 @@
+Shows recipes the way they look in game: the Crafting Table, the Pattern Station, Dr. Kikono's Station, the furnaces (Furnace, Blast Furnace, Smoker), the Campfire and the Brewing Stand. The data comes from the mod's recipe files through <code>tools/build_recipes.py</code> (<code>Module:Recipes/data</code>), so the recipes never have to be typed by hand. Item names follow the reader's language and every ingredient links to its page. Slots that accept several items (a tag such as "any seeds", or any fuel) cycle through them.
+
+== Usage ==
+<pre>
+{{Recipe|radar_piece}}
+{{Recipe|t1_radar_chip|t1_radar_cpu}}
+{{Recipe|pattern_goku1|caption=yes}}
+{{Recipe|kikono/chestplate}}
+{{Recipe|minecraft:coal|kind=smelting}}
+</pre>
+
+{| class="wikitable"
+! Parameter !! Description
+|-
+| <code>1</code>, <code>2</code>… || Item ids (the <code>dragonminez:</code> namespace can be left out). Every recipe that makes that item is shown. A recipe id from the data module also works, to show only one of them.
+|-
+| <code>kind</code> || Only show recipes of one station: <code>crafting</code>, <code>pattern</code>, <code>kikono</code>, <code>smelting</code>, <code>blasting</code>, <code>smoking</code>, <code>campfire</code> or <code>brewing</code>.
+|-
+| <code>caption</code> || <code>yes</code> puts the result's name above each recipe.
+|-
+| <code>size</code> || <code>small</code> draws the recipes at half size.
+|}
+
+* <code><nowiki>{{#invoke:Recipes|patterns|z}}</nowiki></code> and <code><nowiki>{{#invoke:Recipes|patterns|super}}</nowiki></code> list every Z or Super armor pattern.
+* <code>kikono/helmet</code>, <code>kikono/chestplate</code>, <code>kikono/leggings</code> and <code>kikono/boots</code> show each armor piece at Dr. Kikono's Station, cycling through several sets.
+* <code><nowiki>{{#invoke:Recipes|screen|fuel_generator}}</nowiki></code> and <code><nowiki>{{#invoke:Recipes|screen|gravity_device}}</nowiki></code> draw those machines' menus.
+
+== Examples ==
+{{Recipe|radar_piece|empty_capsule}}
+{{Recipe|kikono/chestplate|gete_pickaxe}}
+{{Recipe|giant_fish_cooked}}
+{{Recipe|heart_medicine|minecraft:potion.curative}}
+{{Recipe|pattern_goku1|caption=yes|size=small}}
+{{#invoke:Recipes|screen|gravity_device}}

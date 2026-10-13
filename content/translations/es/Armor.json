@@ -1,0 +1,402 @@
+{
+ "Page_display_title": {
+  "source": "Armor",
+  "translation": "Armaduras",
+  "outdated": false
+ },
+ "1": {
+  "source": "DragonMineZ adds dozens of character-themed '''armor sets''': Goku, Vegeta, Piccolo, Bardock, Trunks, the Androids, the DBOnline clans and many more. They aren't made at a vanilla crafting table. Crafting a set takes two steps:",
+  "translation": "DragonMineZ añade decenas de '''conjuntos de armadura''' inspirados en personajes: Goku, Vegeta, Piccolo, Bardock, Trunks, los Androides, los clanes de DBOnline y muchos más. No se hacen en una mesa de trabajo normal. Fabricar un conjunto lleva dos pasos:",
+  "outdated": false
+ },
+ "2": {
+  "source": "# Paint the set's '''armor pattern''' (its blueprint) at a '''Pattern Station'''.\n# Assemble each piece at '''Dr. Kikono's Station''', which runs on '''Star Energy'''.",
+  "translation": "# Pinta el '''patrón de armadura''' del conjunto (su plano) en una '''Estación de Patrones'''.\n# Ensambla cada pieza en la '''Estación del Dr. Kikono''', que funciona con '''Energía Estelar'''.",
+  "outdated": false
+ },
+ "3": {
+  "source": "DMZ armor is real protective gear: it adds to the defense you get from your Resistance stat. Two special sets, The Strongest Armor and the Invincible Armor, are dragon wishes instead.",
+  "translation": "Las armaduras de DMZ son equipo de protección de verdad: suman a la defensa que te da tu estadística de Resistencia. Dos conjuntos especiales, la Armadura del Más Fuerte y la Armadura Invencible, se obtienen como deseos de dragón.",
+  "outdated": false
+ },
+ "4": {
+  "source": "The 51 sets painted on a Blank Pattern (Z), from Goku's GI to the DBOnline clans.",
+  "translation": "Los 51 conjuntos que se pintan sobre un Patrón en Blanco (Z), desde el Gi de Goku hasta los clanes de DBOnline.",
+  "outdated": false
+ },
+ "5": {
+  "source": "The 31 sets painted on a Blank Pattern (Super), from Whis Symbol GIs to the Time Patrol.",
+  "translation": "Los 31 conjuntos que se pintan sobre un Patrón en Blanco (Super), desde los Gi con Símbolo Whis hasta la Patrulla del Tiempo.",
+  "outdated": false
+ },
+ "6": {
+  "source": "A set granted by Shenron's wish.",
+  "translation": "Un conjunto que concede un deseo de Shenron.",
+  "outdated": false
+ },
+ "7": {
+  "source": "Two sets granted by Porunga's wishes.",
+  "translation": "Dos conjuntos que conceden los deseos de Porunga.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== What you need ==",
+  "translation": "== Lo que necesitas ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "Thing",
+  "translation": "Elemento",
+  "outdated": false
+ },
+ "10": {
+  "source": "Role",
+  "translation": "Función",
+  "outdated": false
+ },
+ "11": {
+  "source": "Pattern Station (block)",
+  "translation": "Estación de Patrones (bloque)",
+  "outdated": false
+ },
+ "12": {
+  "source": "A two-block-tall workbench where you paint armor patterns.",
+  "translation": "Una mesa de trabajo de dos bloques de alto donde pintas los patrones de armadura.",
+  "outdated": false
+ },
+ "13": {
+  "source": "Blank Pattern (Z) / Blank Pattern (Super)",
+  "translation": "Patrón en Blanco (Z) / Patrón en Blanco (Super)",
+  "outdated": false
+ },
+ "14": {
+  "source": "The blank blueprints you paint at the Pattern Station.",
+  "translation": "Los planos en blanco que pintas en la Estación de Patrones.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Dr. Kikono's Station (block)",
+  "translation": "Estación del Dr. Kikono (bloque)",
+  "outdated": false
+ },
+ "16": {
+  "source": "The armor-crafting machine. Holds up to '''2,000 Star Energy'''.",
+  "translation": "La máquina para fabricar armaduras. Almacena hasta '''2,000 de Energía Estelar'''.",
+  "outdated": false
+ },
+ "17": {
+  "source": "Fuel Generator (block)",
+  "translation": "Generador de Combustible (bloque)",
+  "outdated": false
+ },
+ "18": {
+  "source": "Burns fuel to produce '''Star Energy''' (holds up to 1,000).",
+  "translation": "Quema combustible para producir '''Energía Estelar''' (almacena hasta 1,000).",
+  "outdated": false
+ },
+ "19": {
+  "source": "Energy Cable (block)",
+  "translation": "Cable de Energía (bloque)",
+  "outdated": false
+ },
+ "20": {
+  "source": "Carries energy from the generator to the station.",
+  "translation": "Lleva la energía del generador a la estación.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Kikono materials",
+  "translation": "Materiales Kikono",
+  "outdated": false
+ },
+ "22": {
+  "source": "'''Kikono Cloth''' and '''Kikono String''', made from Kikono Shards mined on [[Special:MyLanguage/Namek|Namek]] (see [[Special:MyLanguage/Kikono Materials|Kikono Materials]]).",
+  "translation": "'''Tela de Kikono''' e '''Hilo de Kikono''', hechos con Fragmentos de Kikono extraídos en [[Special:MyLanguage/Namek|Namek]] (consulta [[Special:MyLanguage/Kikono Materials|Materiales Kikono]]).",
+  "outdated": false
+ },
+ "23": {
+  "source": "Armor Crafting Kit",
+  "translation": "Kit de Fabricación de Armaduras",
+  "outdated": false
+ },
+ "24": {
+  "source": "Needed to craft Kikono String, Kikono Cloth and the Pattern Station. It isn't consumed.",
+  "translation": "Necesario para fabricar el Hilo de Kikono, la Tela de Kikono y la Estación de Patrones. No se consume.",
+  "outdated": false
+ },
+ "25": {
+  "source": "Template",
+  "translation": "Plantilla",
+  "outdated": false
+ },
+ "26": {
+  "source": "A vanilla iron armor piece of the matching slot (Iron Helmet, Chestplate, Leggings or Boots), used as the base.",
+  "translation": "Una pieza de armadura de hierro vanilla del mismo espacio (Casco, Peto, Pantalones o Botas de hierro), que se usa como base.",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Crafting the equipment ==",
+  "translation": "== Fabricar el equipo ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "All of these are made at a normal crafting table.",
+  "translation": "Todo esto se hace en una mesa de trabajo normal.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Result",
+  "translation": "Resultado",
+  "outdated": false
+ },
+ "30": {
+  "source": "Recipe",
+  "translation": "Receta",
+  "outdated": false
+ },
+ "31": {
+  "source": "Armor Crafting Kit",
+  "translation": "Kit de Fabricación de Armaduras",
+  "outdated": false
+ },
+ "33": {
+  "source": "Kikono String ×2",
+  "translation": "Hilo de Kikono ×2",
+  "outdated": false
+ },
+ "35": {
+  "source": "Kikono Cloth",
+  "translation": "Tela de Kikono",
+  "outdated": false
+ },
+ "37": {
+  "source": "Pattern Station",
+  "translation": "Estación de Patrones",
+  "outdated": false
+ },
+ "39": {
+  "source": "Blank Pattern (Z)",
+  "translation": "Patrón en Blanco (Z)",
+  "outdated": false
+ },
+ "41": {
+  "source": "Blank Pattern (Super)",
+  "translation": "Patrón en Blanco (Super)",
+  "outdated": false
+ },
+ "43": {
+  "source": "Dr. Kikono's Station",
+  "translation": "Estación del Dr. Kikono",
+  "outdated": false
+ },
+ "45": {
+  "source": "Fuel Generator",
+  "translation": "Generador de Combustible",
+  "outdated": false
+ },
+ "47": {
+  "source": "Energy Cable ×4",
+  "translation": "Cable de Energía ×4",
+  "outdated": false
+ },
+ "49": {
+  "source": "See [[Special:MyLanguage/Dragon Radar#Radar parts|Dragon Radar]] for the Radar's Chip and Radar's CPU.",
+  "translation": "Consulta [[Special:MyLanguage/Dragon Radar#Radar parts|Radar del Dragón]] para el Chip del Radar y la CPU del Radar.",
+  "outdated": false
+ },
+ "50": {
+  "source": "== Painting the pattern ==",
+  "translation": "== Pintar el patrón ==",
+  "outdated": false
+ },
+ "51": {
+  "source": "Open the '''Pattern Station''' to get a '''6×6 grid'''. Each armor pattern is a small piece of '''pixel art''': place the matching blank pattern in its cell of the grid and fill the other cells with '''dyes''' (any of the 16 colors) and '''gold nuggets''' following the design. When the picture matches, the finished pattern appears in the result slot. Empty cells must stay empty.",
+  "translation": "Abre la '''Estación de Patrones''' para ver una '''cuadrícula de 6×6'''. Cada patrón de armadura es un pequeño '''pixel art''': coloca el patrón en blanco correspondiente en su casilla de la cuadrícula y rellena las demás casillas con '''tintes''' (cualquiera de los 16 colores) y '''pepitas de oro''' siguiendo el diseño. Cuando el dibujo coincide, el patrón terminado aparece en la casilla de resultado. Las casillas vacías deben quedar vacías.",
+  "outdated": false
+ },
+ "52": {
+  "source": "* Dragon Ball Z sets use a '''Blank Pattern (Z)''' (see [[Special:MyLanguage/Z Armor Sets|Z Armor Sets]]).\n* Dragon Ball Super sets use a '''Blank Pattern (Super)''' (see [[Special:MyLanguage/Super Armor Sets|Super Armor Sets]]).\n* With '''JEI''' installed, every pattern design can be looked up in its own ''Pattern Station'' recipe category.",
+  "translation": "* Los conjuntos de Dragon Ball Z usan un '''Patrón en Blanco (Z)''' (consulta [[Special:MyLanguage/Z Armor Sets|Conjuntos de armadura Z]]).\n* Los conjuntos de Dragon Ball Super usan un '''Patrón en Blanco (Super)''' (consulta [[Special:MyLanguage/Super Armor Sets|Conjuntos de armadura Super]]).\n* Con '''JEI''' instalado, puedes consultar el diseño de cada patrón en su propia categoría de recetas ''Estación de Patrones''.",
+  "outdated": false
+ },
+ "53": {
+  "source": "The '''Gete Pattern''' is not painted: Bulma hands it out through her Gete sidequests (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).",
+  "translation": "El '''Patrón Gete''' no se pinta: Bulma lo entrega en sus misiones secundarias de Gete (consulta [[Special:MyLanguage/Gete Tech|Tecnología Gete]]).",
+  "outdated": false
+ },
+ "54": {
+  "source": "== Assembling the armor ==",
+  "translation": "== Ensamblar la armadura ==",
+  "outdated": false
+ },
+ "55": {
+  "source": "=== Star Energy ===",
+  "translation": "=== Energía Estelar ===",
+  "outdated": false
+ },
+ "56": {
+  "source": "Dr. Kikono's Station runs on '''Star Energy''', which you generate yourself:",
+  "translation": "La Estación del Dr. Kikono funciona con '''Energía Estelar''', que generas tú mismo:",
+  "outdated": false
+ },
+ "57": {
+  "source": "# Place a '''Fuel Generator''' and put '''any furnace fuel''' in it (coal, charcoal, wood, blaze rods, lava buckets…). It burns fuel just like a furnace, filling its energy buffer.\n# Connect the generator to the station with '''Energy Cables'''.\n# The station draws the energy it needs from the network.",
+  "translation": "# Coloca un '''Generador de Combustible''' y pon en él '''cualquier combustible de horno''' (carbón, carbón vegetal, madera, varas de blaze, cubos de lava…). Quema combustible igual que un horno y llena su reserva de energía.\n# Conecta el generador a la estación con '''Cables de Energía'''.\n# La estación toma de la red la energía que necesita.",
+  "outdated": false
+ },
+ "58": {
+  "source": "Each armor piece costs '''1,000 Star Energy''' and takes '''10 seconds''' by default. The [[Special:MyLanguage/Gravity Device|Gravity Device]] runs on the same Star Energy network.",
+  "translation": "Cada pieza de armadura cuesta '''1,000 de Energía Estelar''' y tarda '''10 segundos''' por defecto. El [[Special:MyLanguage/Gravity Device|Dispositivo de Gravedad]] funciona con la misma red de Energía Estelar.",
+  "outdated": false
+ },
+ "59": {
+  "source": "=== Procedure ===",
+  "translation": "=== Procedimiento ===",
+  "outdated": false
+ },
+ "60": {
+  "source": "# Mine '''Namek Deepslate Kikono Ore''' on Namek for '''Kikono Shards''', then craft '''Kikono String''' and '''Kikono Cloth'''.\n# Set up a '''Fuel Generator''', '''Energy Cables''' and '''Dr. Kikono's Station''', and fuel the generator.\n# Open the station and load the '''pattern''' of the armor you want, the '''template''' (the matching iron armor piece) and the '''Kikono materials''' in the shape of that piece.\n# With enough Star Energy, the station crafts the piece. Repeat for each piece of the set.",
+  "translation": "# Extrae '''Mineral de Kikono en Pizarra de Namek''' en Namek para conseguir '''Fragmentos de Kikono''' y luego fabrica '''Hilo de Kikono''' y '''Tela de Kikono'''.\n# Instala un '''Generador de Combustible''', '''Cables de Energía''' y la '''Estación del Dr. Kikono''', y alimenta el generador.\n# Abre la estación y coloca el '''patrón''' de la armadura que quieres, la '''plantilla''' (la pieza de armadura de hierro correspondiente) y los '''materiales Kikono''' con la forma de esa pieza.\n# Con suficiente Energía Estelar, la estación fabrica la pieza. Repite con cada pieza del conjunto.",
+  "outdated": false
+ },
+ "61": {
+  "source": "Piece",
+  "translation": "Pieza",
+  "outdated": false
+ },
+ "62": {
+  "source": "Kikono Cloth",
+  "translation": "Tela de Kikono",
+  "outdated": false
+ },
+ "63": {
+  "source": "Kikono String",
+  "translation": "Hilo de Kikono",
+  "outdated": false
+ },
+ "64": {
+  "source": "Template",
+  "translation": "Plantilla",
+  "outdated": false
+ },
+ "65": {
+  "source": "Helmet (only some sets)",
+  "translation": "Casco (solo algunos conjuntos)",
+  "outdated": false
+ },
+ "66": {
+  "source": "Iron Helmet",
+  "translation": "Casco de hierro",
+  "outdated": false
+ },
+ "67": {
+  "source": "Chestplate",
+  "translation": "Peto",
+  "outdated": false
+ },
+ "68": {
+  "source": "Iron Chestplate",
+  "translation": "Peto de hierro",
+  "outdated": false
+ },
+ "69": {
+  "source": "Leggings",
+  "translation": "Pantalones",
+  "outdated": false
+ },
+ "70": {
+  "source": "Iron Leggings",
+  "translation": "Pantalones de hierro",
+  "outdated": false
+ },
+ "71": {
+  "source": "Boots",
+  "translation": "Botas",
+  "outdated": false
+ },
+ "72": {
+  "source": "Iron Boots",
+  "translation": "Botas de hierro",
+  "outdated": false
+ },
+ "73": {
+  "source": "The station can copy enchantments from the template onto the result. With the matching mods installed, it can also copy Weapon Leveling levels and Apotheosis affixes and sockets. Server owners toggle this in the server config.",
+  "translation": "La estación puede copiar los encantamientos de la plantilla al resultado. Con los mods correspondientes instalados, también puede copiar los niveles de Weapon Leveling y los afijos y engarces de Apotheosis. Los dueños de servidores lo activan o desactivan en la configuración del servidor.",
+  "outdated": false
+ },
+ "74": {
+  "source": "The same station also makes the '''Gete tools''' (see [[Special:MyLanguage/Gete Tech|Gete Tech]]).",
+  "translation": "La misma estación también fabrica las '''herramientas Gete''' (consulta [[Special:MyLanguage/Gete Tech|Tecnología Gete]]).",
+  "outdated": false
+ },
+ "75": {
+  "source": "== Defense and resistance ==",
+  "translation": "== Defensa y resistencia ==",
+  "outdated": false
+ },
+ "76": {
+  "source": "Every crafted set uses the '''Kikono''' armor material:",
+  "translation": "Todos los conjuntos fabricados usan el material de armadura '''Kikono''':",
+  "outdated": false
+ },
+ "77": {
+  "source": "Piece",
+  "translation": "Pieza",
+  "outdated": false
+ },
+ "78": {
+  "source": "Armor points",
+  "translation": "Puntos de armadura",
+  "outdated": false
+ },
+ "79": {
+  "source": "Helmet",
+  "translation": "Casco",
+  "outdated": false
+ },
+ "80": {
+  "source": "Chestplate",
+  "translation": "Peto",
+  "outdated": false
+ },
+ "81": {
+  "source": "Leggings",
+  "translation": "Pantalones",
+  "outdated": false
+ },
+ "82": {
+  "source": "Boots",
+  "translation": "Botas",
+  "outdated": false
+ },
+ "83": {
+  "source": "Each piece also gives '''5 toughness''' and '''0.1 knockback resistance''', and can be repaired with Kikono Shards.",
+  "translation": "Cada pieza también da '''5 de dureza''' y '''0.1 de resistencia al retroceso''', y se puede reparar con Fragmentos de Kikono.",
+  "outdated": false
+ },
+ "84": {
+  "source": "This '''stacks on top of your Resistance (RES) stat''': DMZ adds '''50% of your armor value''' and '''70% of your armor toughness''' to your Defense. RES is your character's built-in defense: it drives your damage mitigation, max Stamina and Poise (see [[Special:MyLanguage/Stats and Attributes|Stats and Attributes]]). A well-geared fighter takes noticeably less damage and is harder to stagger. See [[Special:MyLanguage/Combat|Combat]] for how mitigation and poise work in fights, and [[Special:MyLanguage/Enchantments|Enchantments]] for DMZ's armor enchantments.",
+  "translation": "Esto '''se suma a tu estadística de Resistencia (RES)''': DMZ añade el '''50% de tu valor de armadura''' y el '''70% de tu dureza de armadura''' a tu Defensa. RES es la defensa propia de tu personaje: determina tu mitigación de daño, tu Stamina máxima y tu Estabilidad (consulta [[Special:MyLanguage/Stats and Attributes|Estadísticas y atributos]]). Un luchador bien equipado recibe bastante menos daño y es más difícil de hacer tambalear. Consulta [[Special:MyLanguage/Combat|Combate]] para ver cómo funcionan la mitigación y la estabilidad en las peleas, y [[Special:MyLanguage/Enchantments|Encantamientos]] para los encantamientos de armadura de DMZ.",
+  "outdated": false
+ },
+ "85": {
+  "source": "== Battle damage ==",
+  "translation": "== Daño de batalla ==",
+  "outdated": false
+ },
+ "86": {
+  "source": "A few sets, Goku's Turtle Hermit GI, Great Saiyaman and Vegeta's Saiyan armor, switch to a torn, battle-damaged look once they drop below half durability. Resource packs can add a damaged look to any set by shipping <code>textures/armor/&lt;set&gt;_damaged_layer1.png</code> and <code>_damaged_layer2.png</code>.",
+  "translation": "Algunos conjuntos, el Gi de la Escuela Tortuga de Goku, el Gran Saiyaman y la armadura Saiyajin de Vegeta, cambian a un aspecto roto y dañado en batalla cuando bajan de la mitad de su durabilidad. Los paquetes de recursos pueden añadir un aspecto dañado a cualquier conjunto incluyendo <code>textures/armor/&lt;set&gt;_damaged_layer1.png</code> y <code>_damaged_layer2.png</code>.",
+  "outdated": false
+ },
+ "87": {
+  "source": "== Wish armor ==",
+  "translation": "== Armaduras de deseo ==",
+  "outdated": false
+ },
+ "88": {
+  "source": "[[Special:MyLanguage/The Strongest Armor|The Strongest Armor]] and the [[Special:MyLanguage/Invincible Armor|Invincible Armor]] aren't crafted: they are dragon wishes (see [[Special:MyLanguage/Dragons and Wishes|Dragons and Wishes]]).",
+  "translation": "La [[Special:MyLanguage/The Strongest Armor|Armadura del Más Fuerte]] y la [[Special:MyLanguage/Invincible Armor|Armadura Invencible]] no se fabrican: son deseos de dragón (consulta [[Special:MyLanguage/Dragons and Wishes|Dragones y deseos]]).",
+  "outdated": false
+ }
+}

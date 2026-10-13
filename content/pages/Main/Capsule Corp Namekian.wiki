@@ -1,35 +1,39 @@
 {{Infobox Mob
-|Type=<translate>Trader</translate>
+|Type=<translate><!--T:1--> Trader</translate>
 |Dimension={{L|Namek}}
-|Spawns=<translate>Its own house inside Ajissa villages</translate>
-|Behavior=<translate>Trades</translate>
-|Abilities=<translate>Sells treasure maps to Namek structures</translate>
-|Drops=<translate>None</translate>
+|Spawns=<translate><!--T:2--> Its own house inside Ajissa villages</translate>
+|Behavior=<translate><!--T:3--> Trades</translate>
+|Abilities=<translate><!--T:4--> Sells treasure maps to Namek structures</translate>
+|Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
+<!--T:6-->
 The '''Capsule Corp Namekian''' is the [[Special:MyLanguage/Namek|Namek]] counterpart of the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]. It lives in its own house inside the '''Ajissa villages''' of Planet Namek and works as a structure locator, selling treasure maps to Namek's landmarks.
 </translate>
 
 <translate>
-== Treasure maps ==
+== Treasure maps == <!--T:7-->
 
+<!--T:8-->
 Each map trade can be used up to 8 times.
 </translate>
 {| class="wikitable"
-! <translate>Map to</translate> !! <translate>Cost</translate>
+! <translate><!--T:9--> Map to</translate> !! <translate><!--T:10--> Cost</translate>
 |-
-| <translate>Frieza's Ship</translate> || <translate>1 Tier-1 Radar Chip</translate>
+| <translate><!--T:11--> Frieza's Ship</translate> || <translate><!--T:12--> 1 Tier-1 Radar Chip</translate>
 |-
-| <translate>Grand Elder's House (Elder Guru)</translate> || <translate>1 Healing Bucket</translate>
+| <translate><!--T:13--> Grand Elder's House (Elder Guru)</translate> || <translate><!--T:14--> 1 Healing Bucket</translate>
 |}
 
 <translate>
+<!--T:15-->
 Every map points at the nearest structure of its kind with a red X. If that structure hasn't been placed in the world yet, the trade shows as '''out of stock''' and turns into a real map once the structure can be located; re-open the trade window to check again.
 
+<!--T:16-->
 For the map to the [[Special:MyLanguage/Big Gete Star|Big Gete Star]], see the [[Special:MyLanguage/Namekian Trader|Namekian Trader]].
 </translate>
 
-{{Note|type=config|title=<translate>Entity id</translate>|<code>dragonminez:cc_namekian</code>}}
+{{Note|type=config|title=<translate><!--T:17--> Entity id</translate>|<code>dragonminez:cc_namekian</code>}}
 
 {{Navbox Bestiary}}
 [[Category:NPCs{{#translation:}}]]
