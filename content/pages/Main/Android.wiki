@@ -1,4 +1,8 @@
 {{Infobox Race
+|forms=Male 1; Male 2; Female 1; Female 2
+|Male 2_image=Android (Male 2).png
+|Female 1_image=Android (Female 1).png
+|Female 2_image=Android (Female 2).png
 |quote=<translate><!--T:1--> A Human rebuilt by Dr. Gero: a permanent choice that trades the Human forms for a new line of power.</translate>
 |Type=<translate><!--T:2--> Sub-race</translate>
 |Parent race={{L|Human}}
@@ -63,20 +67,39 @@ The Ki Surge is explained on the [[Special:MyLanguage/Combat|Combat]] page.
 == Transformations == <!--T:25-->
 </translate>
 {{Main|Transformations}}
-{| class="wikitable"
-! <translate><!--T:26--> Group</translate> !! <translate><!--T:27--> Form</translate> !! <translate><!--T:28--> Level</translate> !! <translate><!--T:29--> TP cost</translate> !! <translate><!--T:30--> Story requisite</translate> !! <translate><!--T:31--> STR / SKP / PWR</translate> !! <translate><!--T:32--> DEF</translate> !! <translate><!--T:33--> Ki drain</translate>
-|-
-| rowspan="3" | <translate><!--T:34--> Android forms</translate> || <translate><!--T:35--> Android Base</translate> || 0 || <translate><!--T:36--> Given by Dr. Gero</translate> || — || 2.15 / 2.15 / 2.5 || 1.8625 || —
-|-
-| <translate><!--T:37--> Super Android</translate> || 1 || <translate><!--T:38--> Included with the upgrade</translate> || {{L|Frieza Saga}} #10 || 3.2 / 3.2 / 3.65 || 2.575 || —
-|-
-| <translate><!--T:39--> Fused Android</translate> || 2 || 104,000 || {{L|Buu Saga}} #1 || 4.1 / 4.1 / 4.7 || 3.3 || <translate><!--T:40--> — (attacks cost ×2.5 stamina)</translate>
-|}
-
 <translate>
 <!--T:41-->
-''Level'' is the level of the Android Forms skill that unlocks the form. The default Android Forms price list is '''42,000 · 104,000''' TP, but Dr. Gero's upgrade already gives you level 1, so only level 2 (Fused Android) is bought. Each form after Android Base also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The Android forms have no Ki upkeep; Fused Android makes each attack cost 2.5 times as much stamina.
+''Level'' is the level of the Android Forms skill that unlocks the form. The default Android Forms price list is '''42,000 · 104,000''' TP, but Dr. Gero's upgrade already gives you level 1, so only level 2 (Fused Android) is bought. Each form after Android Base also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The Android forms have no Ki upkeep.
 </translate>
+{{Form group|android|androidforms}}
+{{Race form|android|androidforms|androidbase
+|level=0
+|cost=<translate><!--T:36--> Given by Dr. Gero</translate>
+|story=—
+|power=2.15 / 2.15 / 2.5
+|def=1.8625
+|drain=—
+|text=<translate><!--T:44--> Dr. Gero's conversion puts you straight into this form. You keep your Human look.</translate>
+}}
+{{Race form|android|androidforms|superandroid
+|level=1
+|cost=<translate><!--T:38--> Included with the upgrade</translate>
+|story={{L|Frieza Saga}} #10
+|power=3.2 / 3.2 / 3.65
+|def=2.575
+|drain=—
+|text=<translate><!--T:45--> A bulkier body with spiky hair. The upgrade already includes its skill level, so it costs no TP.</translate>
+}}
+{{Race form|android|androidforms|fusedandroid
+|level=2
+|cost=104,000
+|story={{L|Buu Saga}} #1
+|power=4.1 / 4.1 / 4.7
+|def=3.3
+|drain=—
+|text=<translate><!--T:46--> The strongest Android form: a huge body with blue skin, wild orange-red hair, white eyes and red lightning. Each attack costs 2.5 times as much stamina.</translate>
+}}
+{{Form group end}}
 
 <translate>
 == Configuration == <!--T:42-->

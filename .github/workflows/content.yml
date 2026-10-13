@@ -1,0 +1,73 @@
+name: Sync content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content/**
+      - .github/workflows/content.yml
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Publish every page, file and translation (slow; for a first load or a resync)
+        type: boolean
+        default: false
+      dry_run:
+        description: Only list what would be published
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      MW_API: ${{ vars.MW_API || 'https://wiki.dragonminez.com/api.php' }}
+      MW_BOT_USER: ${{ secrets.MW_BOT_USER }}
+      MW_BOT_PASSWORD: ${{ secrets.MW_BOT_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check credentials
+        id: creds
+        run: |
+          if [ -z "$MW_BOT_USER" ] || [ -z "$MW_BOT_PASSWORD" ]; then
+            echo "::warning::Set the MW_BOT_USER and MW_BOT_PASSWORD repository secrets to publish content."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish pages, files and translations
+        if: steps.creds.outputs.ok == 'true'
+        run: >-
+          python tools/sync_content.py
+          --base "${{ github.event_name == 'push' && github.event.before || 'HEAD~1' }}"
+          ${{ inputs.full && '--full' || '' }}
+          ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit new translation unit markers
+        if: steps.creds.outputs.ok == 'true' && !inputs.dry_run
+        run: |
+          if git diff --quiet -- content/pages; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/pages
+          git commit -m "chore: translation unit markers from the wiki"
+          git pull --rebase
+          git push

@@ -129,54 +129,9 @@
   "translation": "== Transformaciones ==",
   "outdated": false
  },
- "26": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "27": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "28": {
-  "source": "Level",
-  "translation": "Nivel",
-  "outdated": false
- },
- "29": {
-  "source": "TP cost",
-  "translation": "Costo de TP",
-  "outdated": false
- },
- "30": {
-  "source": "Story requisite",
-  "translation": "Requisito de historia",
-  "outdated": false
- },
- "31": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "32": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "33": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "34": {
-  "source": "Android forms",
-  "translation": "Formas Androide",
-  "outdated": false
- },
- "35": {
-  "source": "Android Base",
-  "translation": "Base Androide",
+ "41": {
+  "source": "''Level'' is the level of the Android Forms skill that unlocks the form. The default Android Forms price list is '''42,000 · 104,000''' TP, but Dr. Gero's upgrade already gives you level 1, so only level 2 (Fused Android) is bought. Each form after Android Base also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The Android forms have no Ki upkeep.",
+  "translation": "''Nivel'' es el nivel de la habilidad Formas Androide que desbloquea la forma. La lista de precios por defecto de Formas Androide es '''42,000 · 104,000''' TP, pero la conversión del Dr. Gero ya te da el nivel 1, así que solo se compra el nivel 2 (Androide Fusionado). Cada forma después de Base Androide también requiere '''25% de maestría''' en la anterior. Los multiplicadores son los valores por defecto con 0% de maestría y crecen hasta 1.5 veces con 100% de maestría. Las formas Androide no tienen consumo de Ki.",
   "outdated": false
  },
  "36": {
@@ -184,9 +139,9 @@
   "translation": "Lo otorga el Dr. Gero",
   "outdated": false
  },
- "37": {
-  "source": "Super Android",
-  "translation": "Super Androide",
+ "44": {
+  "source": "Dr. Gero's conversion puts you straight into this form. You keep your Human look.",
+  "translation": "La conversión del Dr. Gero te pone directamente en esta forma. Conservas tu aspecto Humano.",
   "outdated": false
  },
  "38": {
@@ -194,19 +149,14 @@
   "translation": "Incluido con la conversión",
   "outdated": false
  },
- "39": {
-  "source": "Fused Android",
-  "translation": "Androide Fusionado",
+ "45": {
+  "source": "A bulkier body with spiky hair. The upgrade already includes its skill level, so it costs no TP.",
+  "translation": "Un cuerpo más corpulento con el pelo en punta. La conversión ya incluye su nivel de habilidad, así que no cuesta TP.",
   "outdated": false
  },
- "40": {
-  "source": "— (attacks cost ×2.5 stamina)",
-  "translation": "— (los ataques cuestan ×2.5 de stamina)",
-  "outdated": false
- },
- "41": {
-  "source": "''Level'' is the level of the Android Forms skill that unlocks the form. The default Android Forms price list is '''42,000 · 104,000''' TP, but Dr. Gero's upgrade already gives you level 1, so only level 2 (Fused Android) is bought. Each form after Android Base also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. The Android forms have no Ki upkeep; Fused Android makes each attack cost 2.5 times as much stamina.",
-  "translation": "''Nivel'' es el nivel de la habilidad Formas Androide que desbloquea la forma. La lista de precios por defecto de Formas Androide es '''42,000 · 104,000''' TP, pero la conversión del Dr. Gero ya te da el nivel 1, así que solo se compra el nivel 2 (Androide Fusionado). Cada forma después de Base Androide también requiere '''25% de maestría''' en la anterior. Los multiplicadores son los valores por defecto con 0% de maestría y crecen hasta 1.5 veces con 100% de maestría. Las formas Androide no tienen consumo de Ki; Androide Fusionado hace que cada ataque cueste 2.5 veces más stamina.",
+ "46": {
+  "source": "The strongest Android form: a huge body with blue skin, wild orange-red hair, white eyes and red lightning. Each attack costs 2.5 times as much stamina.",
+  "translation": "La forma Androide más fuerte: un cuerpo enorme de piel azul, pelo salvaje rojo anaranjado, ojos blancos y rayos rojos. Cada ataque cuesta 2.5 veces más stamina.",
   "outdated": false
  },
  "42": {

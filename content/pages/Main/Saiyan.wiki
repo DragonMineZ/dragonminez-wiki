@@ -1,4 +1,8 @@
 {{Infobox Race
+|forms=Male 1; Male 2; Female 1; Female 2
+|Male 2_image=Saiyan (Male 2).png
+|Female 1_image=Saiyan (Female 1).png
+|Female 2_image=Saiyan (Female 2).png
 |quote=<translate><!--T:1--> A warrior race born for combat, which grows stronger after every battle.</translate>
 |Type=<translate><!--T:2--> Playable race</translate>
 |Racial skill=<translate><!--T:3--> Zenkai, Limitless Power</translate>
@@ -45,51 +49,159 @@ Both parts work on their own; there is nothing to activate. The permanent Zenkai
 == Transformations == <!--T:18-->
 </translate>
 {{Main|Transformations}}
-{| class="wikitable"
-! <translate><!--T:19--> Group</translate> !! <translate><!--T:20--> Form</translate> !! <translate><!--T:21--> Level</translate> !! <translate><!--T:22--> TP cost</translate> !! <translate><!--T:23--> Story requisite</translate> !! <translate><!--T:24--> STR / SKP / PWR</translate> !! <translate><!--T:25--> DEF</translate> !! <translate><!--T:26--> Ki drain</translate>
-|-
-| rowspan="3" | <translate><!--T:27--> Oozaru</translate> || <translate><!--T:28--> Oozaru</translate> || 0 || <translate><!--T:29--> Free</translate> || — || 1.25 || 1.15 || 0.056
-|-
-| <translate><!--T:30--> Golden Oozaru</translate> || 7 || 78,000 || {{L|Buu Saga}} #1 || 2.15 || 2.3 || 0.352
-|-
-| <translate><!--T:31--> SSJ 4 [GT]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
-|-
-| rowspan="3" | <translate><!--T:32--> SS Grades</translate> || <translate><!--T:33--> Super Saiyan (SSJ)</translate> || 1 || 13,000 || {{L|Classic Saga}} #46 || 1.6 || 1.375 || 0.101
-|-
-| <translate><!--T:34--> SSJ Grade 2</translate> || 2 || 21,000 || {{L|Saiyan Saga}} #12 || 1.85 || 1.575 || 0.163
-|-
-| <translate><!--T:35--> SSJ Grade 3</translate> || 3 || 31,000 || {{L|Frieza Saga}} #5 || 3.0 || 2.15 || 0.831
-|-
-| rowspan="4" | <translate><!--T:36--> Super Saiyan</translate> || <translate><!--T:37--> SSJ Mastered</translate> || 4 || 42,000 || {{L|Android Saga}} #4 || 1.85 || 1.5 || 0.041
-|-
-| <translate><!--T:38--> SSJ 2</translate> || 5 || 52,000 || {{L|Android Saga}} #15 || 2.45 || 1.9375 || 0.25
-|-
-| <translate><!--T:39--> SSJ 3</translate> || 6 || 65,000 || {{L|Buu Saga}} #1 || 3.3 || 2.65 || 0.618
-|-
-| <translate><!--T:40--> SSJ 4 [D]</translate> || 8 || 104,000 || {{L|Buu Saga}} #35 || 4.75 || 3.5625 || 0.523
-|-
-| rowspan="3" | <translate><!--T:41--> Mutant (legendary)</translate> || <translate><!--T:42--> Ikari</translate> || 1 || — || — || 3.75 || 2.8625 || 0.194
-|-
-| <translate><!--T:43--> SSJ Hybrid</translate> || 2 || — || — || 4.8 || 3.5875 || 0.351
-|-
-| <translate><!--T:44--> SSJ Full Power</translate> || 3 || — || — || 5.6 || 4.0125 || 0.615
-|-
-| <translate><!--T:45--> False Form</translate> || <translate><!--T:46--> False Super Saiyan</translate> || — || — || — || 1.45 || 1.2875 || —
-|-
-| <translate><!--T:47--> God Ritual</translate> || <translate><!--T:48--> [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God]]</translate> || — || — || — || <translate><!--T:49--> Best form, +30% bonus</translate> || <translate><!--T:50--> Best form, +30% bonus</translate> || 0.16
-|}
-
 <translate>
 <!--T:51-->
-All three Super Saiyan groups share the '''Super Forms''' skill, whose eight levels cost '''13,000 · 21,000 · 31,000 · 42,000 · 52,000 · 65,000 · 78,000 · 104,000''' TP. ''Level'' is the level that unlocks each form; level 8 unlocks both SSJ 4 forms. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
-
-<!--T:52-->
-* The two '''SSJ 4''' forms are the Saiyan top tier: the strongest Saiyan forms, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies them.
-* The bulkier forms slow you down and make each attack cost more stamina: Oozaru (×0.8 speed, ×1.2 stamina), Golden Oozaru (×0.85 speed, ×1.3 stamina), SSJ Grade 2 (×0.9 speed, ×1.3 stamina) and SSJ Grade 3 (×0.7 speed, ×3.5 stamina).
-* The [[Special:MyLanguage/Mutant|Mutant]] group is the Saiyan Legendary line (the Legendary Super Saiyan forms). It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
-* '''False Super Saiyan''' can't be bought or selected; see [[Special:MyLanguage/Saiyan#False Super Saiyan|below]].
-* '''Super Saiyan God''' can't be bought or selected either: a ritual grants it; see [[Special:MyLanguage/Saiyan#Super Saiyan God|below]].
+All three Super Saiyan groups share the '''Super Forms''' skill, whose eight levels cost '''13,000 · 21,000 · 31,000 · 42,000 · 52,000 · 65,000 · 78,000 · 104,000''' TP; level 8 unlocks both SSJ 4 forms. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
 </translate>
+{{Form group|saiyan|oozaru}}
+{{Race form|saiyan|oozaru|oozaru
+|level=0
+|cost=<translate><!--T:29--> Free</translate>
+|story=—
+|power=1.25
+|def=1.15
+|drain=0.056
+|text=<translate><!--T:73--> Look at the full moon, or at a [[Special:MyLanguage/Fake Moon|Fake Moon]], with your tail out and you turn into a Great Ape almost four times your size. It is the first form of its group and costs no TP. While you are a Great Ape, your first three technique slots hold its own moves; see [[Special:MyLanguage/Saiyan#Tail and Oozaru|Tail and Oozaru]].</translate>
+}}
+{{Race form|saiyan|oozaru|goldenoozaru
+|level=7
+|cost=78,000
+|story={{L|Buu Saga}} #1
+|power=2.15
+|def=2.3
+|drain=0.352
+|text=<translate><!--T:74--> A Great Ape with golden fur and a golden aura. Like Oozaru, it needs your tail and gives you the Great Ape moves while it lasts.</translate>
+}}
+{{Race form|saiyan|oozaru|supersaiyan4
+|level=8
+|cost=104,000
+|story={{L|Buu Saga}} #35
+|power=4.75
+|def=3.5625
+|drain=0.523
+|text=<translate><!--T:75--> Back to normal size, with red fur over your body and tail, long wild hair, golden eyes and a golden aura. Together with SSJ 4 [D] it is the strongest Saiyan form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.</translate>
+}}
+{{Form group end}}
+{{Form group|saiyan|ssgrades}}
+{{Race form|saiyan|ssgrades|supersaiyan
+|level=1
+|cost=13,000
+|story={{L|Classic Saga}} #46
+|power=1.6
+|def=1.375
+|drain=0.101
+|text=<translate><!--T:76--> The first Super Saiyan: spiky pale golden hair, teal eyes and a golden aura. It is the first form the Super Forms skill unlocks.</translate>
+}}
+{{Race form|saiyan|ssgrades|supersaiyangrade2
+|level=2
+|cost=21,000
+|story={{L|Saiyan Saga}} #12
+|power=1.85
+|def=1.575
+|drain=0.163
+|text=<translate><!--T:77--> A more muscular Super Saiyan. The extra bulk costs some speed and makes each attack use more stamina.</translate>
+}}
+{{Race form|saiyan|ssgrades|supersaiyangrade3
+|level=3
+|cost=31,000
+|story={{L|Frieza Saga}} #5
+|power=3.0
+|def=2.15
+|drain=0.831
+|text=<translate><!--T:78--> The most muscular grade: your body swells to its limit, so you move and swing slower and each attack eats a lot of stamina. It hits hard but tires you out fast.</translate>
+}}
+{{Form group end}}
+{{Form group|saiyan|supersaiyan}}
+{{Race form|saiyan|supersaiyan|supersaiyanmastered
+|level=4
+|cost=42,000
+|story={{L|Android Saga}} #4
+|power=1.85
+|def=1.5
+|drain=0.041
+|text=<translate><!--T:79--> A Super Saiyan you have fully mastered: the same spiky golden look as SSJ, with the lowest Ki upkeep of any Saiyan form you can buy. It opens the Super Saiyan group, so it doesn't need mastery on another form.</translate>
+}}
+{{Race form|saiyan|supersaiyan|supersaiyan2
+|level=5
+|cost=52,000
+|story={{L|Android Saga}} #15
+|power=2.45
+|def=1.9375
+|drain=0.25
+|text=<translate><!--T:80--> Sharper, spikier hair and light blue lightning crackling through the golden aura.</translate>
+}}
+{{Race form|saiyan|supersaiyan|supersaiyan3
+|level=6
+|cost=65,000
+|story={{L|Buu Saga}} #1
+|power=3.3
+|def=2.65
+|drain=0.618
+|text=<translate><!--T:81--> Your hair grows down to your back, with the same golden aura and lightning as SSJ 2. Its Ki upkeep is more than twice that of SSJ 2.</translate>
+}}
+{{Race form|saiyan|supersaiyan|supersaiyan4
+|level=8
+|cost=104,000
+|story={{L|Buu Saga}} #35
+|power=4.75
+|def=3.5625
+|drain=0.523
+|text=<translate><!--T:82--> Crimson hair, fur and eyes, a golden aura with light blue lightning and a glowing outline. Together with SSJ 4 [GT] it is the strongest Saiyan form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.</translate>
+}}
+{{Form group end}}
+{{Form group|saiyan|legendaryforms
+|text=<translate><!--T:83--> The [[Special:MyLanguage/Mutant|Mutant]] group is the Saiyan Legendary line (the Legendary Super Saiyan forms). It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).</translate>
+}}
+{{Race form|saiyan|legendaryforms|ikari
+|level=1
+|cost=—
+|story=—
+|power=3.75
+|def=2.8625
+|drain=0.194
+|text=<translate><!--T:84--> The first Legendary Super Saiyan stage: a bulkier body, spiky hair, golden eyes, a green aura and a green and yellow glowing outline.</translate>
+}}
+{{Race form|saiyan|legendaryforms|ssjhybrid
+|level=2
+|cost=—
+|story=—
+|power=4.8
+|def=3.5875
+|drain=0.351
+|text=<translate><!--T:85--> Pale golden spiky hair, white eyes, a green aura and green lightning on a bulky body.</translate>
+}}
+{{Race form|saiyan|legendaryforms|ssjfullpower
+|level=3
+|cost=—
+|story=—
+|power=5.6
+|def=4.0125
+|drain=0.615
+|text=<translate><!--T:86--> The full Legendary Super Saiyan: a huge, muscular body, light green spiky hair, white eyes and green lightning.</translate>
+}}
+{{Form group end}}
+{{Form group|saiyan|falseform}}
+{{Race form|saiyan|falseform|falsesupersaiyan
+|level=—
+|cost=—
+|story=—
+|power=1.45
+|def=1.2875
+|drain=—
+|text=<translate><!--T:87--> A hidden form that rage triggers on its own: you can't buy or select it. Your hair spikes up in a dark tone and your eyes turn white. See [[Special:MyLanguage/Saiyan#False Super Saiyan|False Super Saiyan]] below for who can get it and how it ends.</translate>
+}}
+{{Form group end}}
+{{Form group|saiyan|godritual}}
+{{Race form|saiyan|godritual|supersaiyangodritual
+|level=—
+|cost=—
+|story=—
+|power=<translate><!--T:49--> Best form, +30% bonus</translate>
+|def=<translate><!--T:50--> Best form, +30% bonus</translate>
+|drain=0.16
+|text=<translate><!--T:88--> Only the [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyan God Ritual]] grants this form, for 5 minutes: crimson hair and eyes and a red-orange aura. It takes your strongest unlocked form and raises each of its stat bonuses by 30% (45% for Mutants); see [[Special:MyLanguage/Saiyan#Super Saiyan God|Super Saiyan God]] below.</translate>
+}}
+{{Form group end}}
 
 <translate>
 == Tail and Oozaru == <!--T:53-->

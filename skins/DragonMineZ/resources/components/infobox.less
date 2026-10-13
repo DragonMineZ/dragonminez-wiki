@@ -67,38 +67,112 @@
 	font-size: 12px;
 }
 
+.dmz-tabstrip {
+	position: relative;
+	margin: 0 0 12px;
+	border-bottom: 1px solid var( --glass-strong );
+}
+
 .druid-main-images-labels,
 .druid-section-tabs {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 6px;
-	padding: 0 12px 12px;
+	flex-wrap: nowrap;
+	gap: 4px;
+	padding: 0 14px;
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.dmz-tabstrip.can-next .druid-tabs {
+	mask-image: linear-gradient( to right, #000 calc( 100% - 48px ), transparent );
+}
+
+.dmz-tabstrip.can-prev .druid-tabs {
+	mask-image: linear-gradient( to left, #000 calc( 100% - 48px ), transparent );
+}
+
+.dmz-tabstrip.can-prev.can-next .druid-tabs {
+	mask-image: linear-gradient( to right, transparent, #000 48px, #000 calc( 100% - 48px ), transparent );
 }
 
 .druid-main-images-label,
 .druid-section-tab {
-	padding: 4px 12px;
-	border: 1px solid var( --glass-strong );
-	border-radius: 9999px;
+	flex: 0 0 auto;
+	margin-bottom: -1px;
+	padding: 8px 8px 9px;
+	border-bottom: 2px solid transparent;
 	color: var( --muted );
-	font-size: 11px;
-	font-weight: 700;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+	font-size: 12.5px;
+	font-weight: 800;
+	white-space: nowrap;
 	cursor: pointer;
-	transition: all 0.2s ease;
+	transition: color 0.2s ease, border-color 0.2s ease;
 
 	&:hover {
 		color: var( --foreground );
-		background: var( --glass );
+	}
+
+	&:focus-visible {
+		outline: 2px solid var( --link );
+		outline-offset: -2px;
+		border-radius: 6px;
 	}
 
 	&.focused {
-		background: var( --foreground );
-		border-color: var( --foreground );
-		color: var( --background );
+		border-bottom-color: var( --link );
+		color: var( --foreground );
 	}
+}
+
+.dmz-tabstrip__arrow {
+	position: absolute;
+	top: 50%;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	padding: 0;
+	border: 1px solid var( --glass-strong );
+	border-radius: 9999px;
+	background: var( --surface-elevated );
+	color: var( --foreground );
+	cursor: pointer;
+	transform: translateY( -50% );
+
+	&::before {
+		content: 'chevron_right';
+		font-family: 'Material Symbols Rounded';
+		font-size: 18px;
+		line-height: 1;
+		font-feature-settings: 'liga';
+	}
+
+	&:hover {
+		background: var( --glass-strong );
+	}
+
+	&--prev {
+		left: 6px;
+
+		&::before {
+			transform: rotate( 180deg );
+		}
+	}
+
+	&--next {
+		right: 6px;
+	}
+}
+
+.dmz-tabstrip.can-prev .dmz-tabstrip__arrow--prev,
+.dmz-tabstrip.can-next .dmz-tabstrip__arrow--next {
+	display: flex;
 }
 
 .druid-toggleable-data,

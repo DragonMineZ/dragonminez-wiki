@@ -5,12 +5,14 @@ namespace MediaWiki\Skins\DragonMineZ;
 use MediaWiki\Config\Config;
 use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\Hook\InternalParseBeforeLinksHook;
+use MediaWiki\Hook\MediaWikiPerformActionHook;
 use MediaWiki\Hook\SkinBuildSidebarHook;
 use MediaWiki\Hook\UserGetLanguageObjectHook;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\Hook\OutputPageBodyAttributesHook;
+use MediaWiki\Output\Hook\OutputPageParserOutputHook;
 use MediaWiki\Page\Hook\PageViewUpdatesHook;
 use MediaWiki\Title\Title;
 
@@ -20,8 +22,12 @@ class Hooks implements
 	OutputPageBodyAttributesHook,
 	SkinBuildSidebarHook,
 	PageViewUpdatesHook,
-	InternalParseBeforeLinksHook
+	InternalParseBeforeLinksHook,
+	OutputPageParserOutputHook,
+	MediaWikiPerformActionHook
 {
+	private const VIEW_ONLY_PARAMS = [ 'oldid', 'diff', 'curid', 'printable', 'redirect', 'uselang', 'veaction', 'search' ];
+
 	private const ICON_NAMES = [
 		'account_circle', 'arrow_outward', 'article', 'arrow_upward', 'check', 'chevron_right', 'close',
 		'dark_mode', 'download', 'edit', 'edit_note', 'error', 'expand_more', 'history',
@@ -50,7 +56,53 @@ class Hooks implements
 		}
 	}
 
+	public function onMediaWikiPerformAction( $output, $article, $title, $user, $request, $mediaWiki ) {
+		if ( $request->wasPosted() || ( $request->getRawVal( 'action' ) ?? 'view' ) !== 'view' ) {
+			return true;
+		}
+		$query = $request->getQueryValuesOnly();
+		unset( $query['title'] );
+		$chosen = $request->getRawVal( 'dmzlang' );
+		if ( $chosen !== null ) {
+			unset( $query['dmzlang'] );
+			if ( in_array( $chosen, ReaderLanguage::languages( $this->config ), true ) ) {
+				ReaderLanguage::setCookie( $request, $chosen, $this->config );
+			}
+			$output->redirect( $title->getFullURL( $query ) );
+			return false;
+		}
+		if ( !$title->isContentPage() && !$title->inNamespace( NS_CATEGORY ) ) {
+			return true;
+		}
+		foreach ( self::VIEW_ONLY_PARAMS as $param ) {
+			if ( $request->getCheck( $param ) ) {
+				return true;
+			}
+		}
+		$reader = ReaderLanguage::fromCookie( $request, $this->config ) ?? ReaderLanguage::fromBrowser( $request, $this->config );
+		if ( $reader === null || $reader === ReaderLanguage::pageLanguage( $title, $this->config ) ) {
+			return true;
+		}
+		$target = ReaderLanguage::variants( $title, $this->config )[$reader] ?? null;
+		if ( !$target || $target->equals( $title ) ) {
+			return true;
+		}
+		$output->redirect( $target->getFullURL( $query ) );
+		return false;
+	}
+
+	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {
+		if ( (string)$outputPage->getProperty( SocialMeta::PROPERTY ) !== '' ) {
+			return;
+		}
+		$description = SocialMeta::description( (string)$parserOutput->getRawText() );
+		if ( $description !== '' ) {
+			$outputPage->setProperty( SocialMeta::PROPERTY, $description );
+		}
+	}
+
 	public function onBeforePageDisplay( $out, $skin ): void {
+		SocialMeta::add( $out, $this->config );
 		if ( $skin->getSkinName() !== 'dragonminez' ) {
 			return;
 		}

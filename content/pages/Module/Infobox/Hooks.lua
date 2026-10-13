@@ -14,12 +14,12 @@ local function localize( name, lang )
 	return row and ( row[ lang ] or row.en ) or name
 end
 
-local function fileWikitext( name, alt )
+local function fileWikitext( name, alt, size )
 	local title = mw.title.new( name, 'File' )
 	if not title or not title.file or not title.file.exists then
 		return nil
 	end
-	return string.format( '[[File:%s|300px|link=|alt=%s]]', name, alt )
+	return string.format( '[[File:%s|%s|link=|alt=%s]]', name, size, alt )
 end
 
 local function formatValue( value, lang )
@@ -60,12 +60,13 @@ function p.onCastArgsStart( args, sep )
 		end
 	end
 	local keys = {}
+	local size = args.image and args.image:match( '^%[%[File:[^|]+|(%d*x?%d+px)|' ) or '300px'
 	for i, name in ipairs( names ) do
 		local key = 'form' .. i
 		keys[ i ] = key
 		local label = args[ name .. '_label' ] or localize( name, lang )
 		args[ key .. '_label' ] = label
-		local image = i > 1 and args[ name .. '_image' ] and fileWikitext( args[ name .. '_image' ], label )
+		local image = i > 1 and args[ name .. '_image' ] and fileWikitext( args[ name .. '_image' ], label, size )
 		args[ key .. '_image' ] = image or args.image
 	end
 	for field, values in pairs( overrides ) do

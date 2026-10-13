@@ -60,4 +60,4 @@ chmod 640 data/secrets/*.php
 
 docker compose up -d
 echo
-echo "Wiki is up on 127.0.0.1:${WIKI_PORT:-8091}. Next: point the cloudflared tunnel at it (see README)."
+echo "Wiki is up on 127.0.0.1:${WIKI_PORT:-8091}. Next: point the cloudflared tunnel at it (see docs/SERVER.md)."

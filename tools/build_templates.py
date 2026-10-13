@@ -89,6 +89,7 @@ INFOBOXES = {
 NUMERIC = {'Health', 'Transformed health', 'TP reward', 'Scout health'}
 CODE = {'Boss key', 'Raid id', 'Tournament id', 'Locate'}
 COLLAPSIBLE = {'Rewards'}
+IMAGE_SIZE = {'Race': '300x360px'}
 
 LABELS = {
     'General': ('General', 'Geral'), 'Gameplay': ('Jugabilidad', 'Jogabilidade'),
@@ -295,7 +296,7 @@ def infobox(name: str, kind: str, category: str, sections) -> str:
         f'|kind=dmz-{kind}',
         '|sep=,',
         '|title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}',
-        '|image={{#invoke:Labels|image|{{{image|}}}}}',
+        '|image={{#invoke:Labels|image|{{{image|}}}' + (f'|size={IMAGE_SIZE[name]}' if name in IMAGE_SIZE else '') + '}}',
         '|caption={{{caption|}}}',
         '|sections=Summary, ' + ', '.join(section_key(s, sections) for s, _ in sections),
         '',

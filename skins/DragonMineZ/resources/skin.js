@@ -61,6 +61,62 @@ function bindDruid( root ) {
 	} );
 }
 
+function bindTabStrips( root ) {
+	root.querySelectorAll( '.druid-container .druid-tabs' ).forEach( ( strip ) => {
+		if ( strip.parentNode.classList.contains( 'dmz-tabstrip' ) ) {
+			return;
+		}
+		const wrapper = document.createElement( 'div' );
+		wrapper.className = 'dmz-tabstrip';
+		strip.parentNode.insertBefore( wrapper, strip );
+		wrapper.appendChild( strip );
+		strip.setAttribute( 'role', 'tablist' );
+		const tabs = Array.prototype.slice.call( strip.querySelectorAll( '.druid-tab' ) );
+		const update = () => {
+			const max = strip.scrollWidth - strip.clientWidth;
+			wrapper.classList.toggle( 'can-prev', strip.scrollLeft > 1 );
+			wrapper.classList.toggle( 'can-next', strip.scrollLeft < max - 1 );
+		};
+		const select = () => {
+			tabs.forEach( ( tab ) => {
+				tab.setAttribute( 'aria-selected', tab.classList.contains( 'focused' ) ? 'true' : 'false' );
+			} );
+		};
+		[ -1, 1 ].forEach( ( direction ) => {
+			const button = document.createElement( 'button' );
+			button.type = 'button';
+			button.className = 'dmz-tabstrip__arrow dmz-tabstrip__arrow--' + ( direction < 0 ? 'prev' : 'next' );
+			button.tabIndex = -1;
+			button.setAttribute( 'aria-hidden', 'true' );
+			button.addEventListener( 'click', () => {
+				strip.scrollBy( { left: direction * strip.clientWidth * 0.7, behavior: 'smooth' } );
+			} );
+			wrapper.appendChild( button );
+		} );
+		tabs.forEach( ( tab ) => {
+			tab.setAttribute( 'role', 'tab' );
+			tab.tabIndex = 0;
+			tab.addEventListener( 'keydown', ( event ) => {
+				if ( event.key === 'Enter' || event.key === ' ' ) {
+					event.preventDefault();
+					tab.click();
+				}
+			} );
+			tab.addEventListener( 'click', () => {
+				select();
+				const left = tab.offsetLeft - strip.offsetLeft;
+				if ( left < strip.scrollLeft || left + tab.offsetWidth > strip.scrollLeft + strip.clientWidth ) {
+					strip.scrollTo( { left: left - ( strip.clientWidth - tab.offsetWidth ) / 2, behavior: 'smooth' } );
+				}
+			} );
+		} );
+		strip.addEventListener( 'scroll', update, { passive: true } );
+		window.addEventListener( 'resize', update );
+		select();
+		update();
+	} );
+}
+
 function markActiveSidebar() {
 	const languages = mw.config.get( 'wgDMZLanguages' ) || [];
 	const prefix = mw.config.get( 'wgArticlePath' ).replace( '$1', '' );
@@ -86,9 +142,25 @@ function markActiveSidebar() {
 	} );
 }
 
+function bindLanguagePills() {
+	document.querySelectorAll( '.dmz-lang-pill[data-dmz-lang][href]' ).forEach( ( pill ) => {
+		pill.addEventListener( 'click', ( event ) => {
+			if ( event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey ) {
+				return;
+			}
+			event.preventDefault();
+			prefs.setLanguage( pill.getAttribute( 'data-dmz-lang' ) );
+			const url = new URL( pill.href, location.href );
+			url.searchParams.delete( 'dmzlang' );
+			location.href = url.toString();
+		} );
+	} );
+}
+
 function init() {
 	header.init();
 	dropdowns.init();
+	bindLanguagePills();
 	search.init();
 	sidebar.init();
 	floatingMenu.init();
@@ -99,6 +171,7 @@ function init() {
 		const root = $content && $content[ 0 ] ? $content[ 0 ] : document;
 		wrapTables( root );
 		bindDruid( root );
+		bindTabStrips( root );
 	} );
 }
 

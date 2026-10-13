@@ -1,4 +1,10 @@
 {{Infobox Race
+|forms=Type 1; Type 1 (spotted); Type 2; Type 2 (spotted); Type 3; Type 3 (spotted)
+|Type 1 (spotted)_image=Bio-Android (Type 1 (spotted)).png
+|Type 2_image=Bio-Android (Type 2).png
+|Type 2 (spotted)_image=Bio-Android (Type 2 (spotted)).png
+|Type 3_image=Bio-Android (Type 3).png
+|Type 3 (spotted)_image=Bio-Android (Type 3 (spotted)).png
 |quote=<translate><!--T:1--> Artificial beings built from the DNA of the most powerful races, designed to be invincible.</translate>
 |Type=<translate><!--T:2--> Playable race</translate>
 |Racial skill=<translate><!--T:3--> Bio-Evolution: Vital Drain, Self-Destruct, Cell Jr.</translate>
@@ -63,32 +69,79 @@ Your active racial skill '''changes with your form''' (Bio-Evolution):
 == Transformations == <!--T:29-->
 </translate>
 {{Main|Transformations}}
-{| class="wikitable"
-! <translate><!--T:30--> Group</translate> !! <translate><!--T:31--> Form</translate> !! <translate><!--T:32--> Level</translate> !! <translate><!--T:33--> TP cost</translate> !! <translate><!--T:34--> Story requisite</translate> !! <translate><!--T:35--> STR / SKP / PWR</translate> !! <translate><!--T:36--> DEF</translate> !! <translate><!--T:37--> Ki drain</translate>
-|-
-| rowspan="4" | <translate><!--T:38--> Bio-Evolution</translate> || <translate><!--T:39--> Semi-Perfect</translate> || 1 || 26,000 || {{L|Classic Saga}} #46 || 1.85 || 1.575 || —
-|-
-| <translate><!--T:40--> Perfect</translate> || 2 || 57,000 || {{L|Frieza Saga}} #5 || 2.6 || 2.225 || —
-|-
-| <translate><!--T:41--> Super Perfect</translate> || 3 || 88,000 || {{L|Buu Saga}} #1 || 3.35 || 2.65 || 0.293
-|-
-| <translate><!--T:42--> Ultra Perfect</translate> || 4 || 125,000 || {{L|Buu Saga}} #35 || 4.9 || 3.6875 || 0.62
-|-
-| rowspan="3" | <translate><!--T:43--> Bio-Corruption (legendary)</translate> || <translate><!--T:44--> Xeno</translate> || 1 || — || — || 3.9 || 2.9375 || 0.118
-|-
-| <translate><!--T:45--> Xeno Full Power</translate> || 2 || — || — || 4.9 || 3.6625 || 0.354
-|-
-| <translate><!--T:46--> Xeno Max</translate> || 3 || — || — || 5.7 || 4.0875 || 0.525
-|}
-
 <translate>
 <!--T:47-->
-''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick ("—" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
-
-<!--T:48-->
-* '''Ultra Perfect''' is the Bio-Android top tier: the strongest Bio-Android form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. It also slows you down (×0.6 speed) and makes each attack cost 3.5 times as much stamina.
-* The '''Bio-Corruption''' group is the Bio-Android Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
+''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].
 </translate>
+{{Form group|bioandroid|bioevolution}}
+{{Race form|bioandroid|bioevolution|semiperfect
+|level=1
+|cost=26,000
+|story={{L|Classic Saga}} #46
+|power=1.85
+|def=1.575
+|drain=—
+|text=<translate><!--T:53--> A larger, heavier body with a stinger tail and an orange and yellow face.</translate>
+}}
+{{Race form|bioandroid|bioevolution|perfect
+|level=2
+|cost=57,000
+|story={{L|Frieza Saga}} #5
+|power=2.6
+|def=2.225
+|drain=—
+|text=<translate><!--T:54--> The sleek, perfected body with a yellow aura.</translate>
+}}
+{{Race form|bioandroid|bioevolution|superperfect
+|level=3
+|cost=88,000
+|story={{L|Buu Saga}} #1
+|power=3.35
+|def=2.65
+|drain=0.293
+|text=<translate><!--T:55--> The perfected body with blue lightning crackling through its yellow aura.</translate>
+}}
+{{Race form|bioandroid|bioevolution|ultraperfect
+|level=4
+|cost=125,000
+|story={{L|Buu Saga}} #35
+|power=4.9
+|def=3.6875
+|drain=0.62
+|text=<translate><!--T:56--> The Bio-Android top tier: a huge, muscle-bound body with blue lightning. You move and swing slower and each attack costs 3.5 times as much stamina. It is the strongest Bio-Android form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.</translate>
+}}
+{{Form group end}}
+{{Form group|bioandroid|legendaryforms
+|text=<translate><!--T:57--> The '''Bio-Corruption''' group is the Bio-Android Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).</translate>
+}}
+{{Race form|bioandroid|legendaryforms|xeno
+|level=1
+|cost=—
+|story=—
+|power=3.9
+|def=2.9375
+|drain=0.118
+|text=<translate><!--T:58--> Bio-Corruption begins: a darker body with a red core in the chest, white eyes, a deep purple aura and dark purple lightning.</translate>
+}}
+{{Race form|bioandroid|legendaryforms|xenofp
+|level=2
+|cost=—
+|story=—
+|power=4.9
+|def=3.6625
+|drain=0.354
+|text=<translate><!--T:59--> The corruption spreads: a bigger, winged body with red eyes.</translate>
+}}
+{{Race form|bioandroid|legendaryforms|xenomax
+|level=3
+|cost=—
+|story=—
+|power=5.7
+|def=4.0875
+|drain=0.525
+|text=<translate><!--T:60--> A giant corrupted Bio-Android almost four times your size.</translate>
+}}
+{{Form group end}}
 
 <translate>
 == Appearance == <!--T:49-->

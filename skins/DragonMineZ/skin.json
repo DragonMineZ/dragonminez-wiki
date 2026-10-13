@@ -87,6 +87,8 @@
 		"SkinBuildSidebar": "main",
 		"PageViewUpdates": "main",
 		"InternalParseBeforeLinks": "main",
+		"OutputPageParserOutput": "main",
+		"MediaWikiPerformAction": "main",
 		"LoadExtensionSchemaUpdates": "schema"
 	},
 	"HookHandlers": {

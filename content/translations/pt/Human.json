@@ -109,99 +109,49 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "22": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "23": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "24": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "25": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "26": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "27": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "28": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "29": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "30": {
-  "source": "Super forms",
-  "translation": "Super Formas",
-  "outdated": false
- },
- "31": {
-  "source": "Buffed",
-  "translation": "Melhorado",
-  "outdated": false
- },
- "32": {
-  "source": "Full Power",
-  "translation": "Poder Máximo",
-  "outdated": false
- },
- "33": {
-  "source": "Overdrive",
-  "translation": "Overdrive",
-  "outdated": false
- },
- "34": {
-  "source": "Solaris",
-  "translation": "Solaris",
-  "outdated": false
- },
- "35": {
-  "source": "Legendary forms",
-  "translation": "Formas Lendárias",
-  "outdated": false
- },
- "36": {
-  "source": "Shiyoken",
-  "translation": "Punho dos Quatro Demônios",
-  "outdated": false
- },
- "37": {
-  "source": "Shin Shiyoken",
-  "translation": "Nova Técnica das Quatro Bruxas",
-  "outdated": false
- },
- "38": {
-  "source": "Chou Shiyoken",
-  "translation": "Super Técnica das Quatro Bruxas",
-  "outdated": false
- },
  "39": {
-  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]] for what raises or lowers it.",
-  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]] para saber o que o aumenta ou reduz.",
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]] for what raises or lowers it.",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]] para saber o que o aumenta ou reduz.",
   "outdated": false
  },
- "40": {
-  "source": "'''Solaris''' is the Human top tier: the strongest Human form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "'''Solaris''' é o nível máximo dos Humanos: a forma Humana mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia. As '''Formas Lendárias''' não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "47": {
+  "source": "Your muscles swell into a much bulkier body, while your hair and aura stay as they are. It is the first form the Super Forms skill unlocks.",
+  "translation": "Seus músculos incham em um corpo muito mais corpulento, enquanto o cabelo e a aura continuam iguais. É a primeira forma que a habilidade Super Formas desbloqueia.",
+  "outdated": false
+ },
+ "48": {
+  "source": "You return to your normal build and your hair rises into spikes, keeping its color.",
+  "translation": "Você volta ao seu físico normal e o cabelo se arrepia em pontas, sem mudar de cor.",
+  "outdated": false
+ },
+ "49": {
+  "source": "Your hair spikes up even further and a pale yellow aura with white lightning surrounds you.",
+  "translation": "O cabelo se arrepia ainda mais e uma aura amarelo-clara com raios brancos envolve você.",
+  "outdated": false
+ },
+ "50": {
+  "source": "The Human top tier keeps the spiked hair of Overdrive without its lightning. It is the strongest Human form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo dos Humanos mantém o cabelo arrepiado do Overdrive, sem os raios. É a forma Humana mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "51": {
+  "source": "The Legendary forms can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "As Formas Lendárias não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "52": {
+  "source": "Your Ki burns at its limit: a blood-red aura with red lightning, with no change to your body.",
+  "translation": "Seu Ki queima no limite: uma aura vermelho-sangue com raios vermelhos, sem nenhuma mudança no corpo.",
+  "outdated": false
+ },
+ "53": {
+  "source": "The same blood-red aura and lightning on a bulkier, more muscular body.",
+  "translation": "A mesma aura vermelho-sangue e os mesmos raios em um corpo mais corpulento e musculoso.",
+  "outdated": false
+ },
+ "54": {
+  "source": "The last Shiyoken stage: a broad body with an extra pair of arms and a red glowing outline, still wrapped in the blood-red aura and lightning.",
+  "translation": "O último estágio do Shiyoken: um corpo largo com um par extra de braços e um contorno vermelho brilhante, ainda envolto na aura vermelho-sangue e nos raios.",
   "outdated": false
  },
  "41": {

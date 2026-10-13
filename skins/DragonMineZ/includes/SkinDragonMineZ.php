@@ -273,7 +273,7 @@ class SkinDragonMineZ extends SkinMustache {
 				'code' => $code,
 				'label' => ReaderLanguage::label( $code ),
 				'flag-src' => ReaderLanguage::flagUrl( $code ),
-				'href' => $target ? $target->getLocalURL() : null,
+				'href' => $target ? $target->getLocalURL( [ 'dmzlang' => $code ] ) : null,
 				'is-reader' => $code === $readerLang,
 				'is-page' => $code === $pageLang,
 				'is-available' => $variants === [] || $target !== null,
@@ -302,6 +302,7 @@ class SkinDragonMineZ extends SkinMustache {
 			$html .= Html::rawElement( 'a', [
 				'class' => [ 'dmz-lang-pill', 'is-active' => $item['is-page'] ],
 				'href' => $item['href'],
+				'data-dmz-lang' => $item['code'],
 				'hreflang' => $item['code'],
 				'lang' => $item['code'],
 				'aria-current' => $item['is-page'] ? 'page' : null,

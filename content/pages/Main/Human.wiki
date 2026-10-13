@@ -1,4 +1,8 @@
 {{Infobox Race
+|forms=Male 1; Male 2; Female 1; Female 2
+|Male 2_image=Human (Male 2).png
+|Female 1_image=Human (Female 1).png
+|Female 2_image=Human (Female 2).png
 |quote=<translate><!--T:1--> A terrestrial race that makes up for its lack of innate power with versatility, perseverance and training.</translate>
 |Type=<translate><!--T:2--> Playable race</translate>
 |Racial skill=<translate><!--T:3--> Blood-Fueled Ki, Fast Learner, Adrenaline</translate>
@@ -51,31 +55,79 @@ An Android keeps Fast Learner and Adrenaline but replaces Blood-Fueled Ki with A
 == Transformations == <!--T:21-->
 </translate>
 {{Main|Transformations}}
-{| class="wikitable"
-! <translate><!--T:22--> Group</translate> !! <translate><!--T:23--> Form</translate> !! <translate><!--T:24--> Level</translate> !! <translate><!--T:25--> TP cost</translate> !! <translate><!--T:26--> Story requisite</translate> !! <translate><!--T:27--> STR / SKP / PWR</translate> !! <translate><!--T:28--> DEF</translate> !! <translate><!--T:29--> Ki drain</translate>
-|-
-| rowspan="4" | <translate><!--T:30--> Super forms</translate> || <translate><!--T:31--> Buffed</translate> || 1 || 21,000 || {{L|Classic Saga}} #46 || 1.7 / 1.85 / 1.5 || 1.425 || 0.109
-|-
-| <translate><!--T:32--> Full Power</translate> || 2 || 42,000 || {{L|Saiyan Saga}} #12 || 2.25 / 2.45 / 2.05 || 1.9375 || 0.25
-|-
-| <translate><!--T:33--> Overdrive</translate> || 3 || 65,000 || {{L|Frieza Saga}} #10 || 3.15 / 3.3 / 2.85 || 2.65 || 0.618
-|-
-| <translate><!--T:34--> Solaris</translate> || 4 || 104,000 || {{L|Buu Saga}} #35 || 4.6 / 4.75 / 4.25 || 3.6 || 0.479
-|-
-| rowspan="3" | <translate><!--T:35--> Legendary forms</translate> || <translate><!--T:36--> Shiyoken</translate> || 1 || — || — || 3.75 || 2.8625 || 0.426
-|-
-| <translate><!--T:37--> Shin Shiyoken</translate> || 2 || — || — || 4.8 || 3.5875 || 0.613
-|-
-| <translate><!--T:38--> Chou Shiyoken</translate> || 3 || — || — || 5.6 || 4.0125 || 0.805
-|}
-
 <translate>
 <!--T:39-->
-''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]] for what raises or lowers it.
-
-<!--T:40-->
-'''Solaris''' is the Human top tier: the strongest Human form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).
+''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]] for what raises or lowers it.
 </translate>
+{{Form group|human|superforms}}
+{{Race form|human|superforms|buffed
+|level=1
+|cost=21,000
+|story={{L|Classic Saga}} #46
+|power=1.7 / 1.85 / 1.5
+|def=1.425
+|drain=0.109
+|text=<translate><!--T:47--> Your muscles swell into a much bulkier body, while your hair and aura stay as they are. It is the first form the Super Forms skill unlocks.</translate>
+}}
+{{Race form|human|superforms|fullpower
+|level=2
+|cost=42,000
+|story={{L|Saiyan Saga}} #12
+|power=2.25 / 2.45 / 2.05
+|def=1.9375
+|drain=0.25
+|text=<translate><!--T:48--> You return to your normal build and your hair rises into spikes, keeping its color.</translate>
+}}
+{{Race form|human|superforms|overdrive
+|level=3
+|cost=65,000
+|story={{L|Frieza Saga}} #10
+|power=3.15 / 3.3 / 2.85
+|def=2.65
+|drain=0.618
+|text=<translate><!--T:49--> Your hair spikes up even further and a pale yellow aura with white lightning surrounds you.</translate>
+}}
+{{Race form|human|superforms|solaris
+|level=4
+|cost=104,000
+|story={{L|Buu Saga}} #35
+|power=4.6 / 4.75 / 4.25
+|def=3.6
+|drain=0.479
+|text=<translate><!--T:50--> The Human top tier keeps the spiked hair of Overdrive without its lightning. It is the strongest Human form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.</translate>
+}}
+{{Form group end}}
+{{Form group|human|legendaryforms
+|text=<translate><!--T:51--> The Legendary forms can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).</translate>
+}}
+{{Race form|human|legendaryforms|shiyoken
+|level=1
+|cost=—
+|story=—
+|power=3.75
+|def=2.8625
+|drain=0.426
+|text=<translate><!--T:52--> Your Ki burns at its limit: a blood-red aura with red lightning, with no change to your body.</translate>
+}}
+{{Race form|human|legendaryforms|shin_shiyoken
+|level=2
+|cost=—
+|story=—
+|power=4.8
+|def=3.5875
+|drain=0.613
+|text=<translate><!--T:53--> The same blood-red aura and lightning on a bulkier, more muscular body.</translate>
+}}
+{{Race form|human|legendaryforms|chou_shiyoken
+|level=3
+|cost=—
+|story=—
+|power=5.6
+|def=4.0125
+|drain=0.805
+|text=<translate><!--T:54--> The last Shiyoken stage: a broad body with an extra pair of arms and a red glowing outline, still wrapped in the blood-red aura and lightning.</translate>
+}}
+{{Form group end}}
 
 <translate>
 == Becoming an Android == <!--T:41-->

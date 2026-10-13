@@ -47,11 +47,19 @@ class ReaderLanguage {
 		return in_array( $value, self::languages( $config ), true ) ? $value : null;
 	}
 
-	public static function fromRequest( WebRequest $request, Config $config ): string {
-		$cookie = self::fromCookie( $request, $config );
-		if ( $cookie !== null ) {
-			return $cookie;
-		}
+	public static function setCookie( WebRequest $request, string $code, Config $config ): void {
+		$domain = (string)$config->get( 'DMZCookieDomain' );
+		$request->response()->setCookie( self::COOKIE_LANG, $code, time() + 365 * 86400, [
+			'prefix' => '',
+			'path' => '/',
+			'domain' => $domain !== '' ? $domain : null,
+			'secure' => $request->getProtocol() === 'https',
+			'httpOnly' => false,
+			'sameSite' => 'Lax',
+		] );
+	}
+
+	public static function fromBrowser( WebRequest $request, Config $config ): ?string {
 		$languages = self::languages( $config );
 		foreach ( array_keys( $request->getAcceptLang() ) as $accepted ) {
 			$primary = strtolower( explode( '-', (string)$accepted )[0] );
@@ -59,8 +67,16 @@ class ReaderLanguage {
 				return $primary;
 			}
 		}
+		return null;
+	}
+
+	public static function fromRequest( WebRequest $request, Config $config ): string {
+		$known = self::fromCookie( $request, $config ) ?? self::fromBrowser( $request, $config );
+		if ( $known !== null ) {
+			return $known;
+		}
 		$default = (string)$config->get( 'DMZDefaultLanguage' );
-		return in_array( $default, $languages, true ) ? $default : self::sourceLanguage( $config );
+		return in_array( $default, self::languages( $config ), true ) ? $default : self::sourceLanguage( $config );
 	}
 
 	public static function splitTitle( Title $title, Config $config ): array {

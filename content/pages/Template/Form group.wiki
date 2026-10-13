@@ -1,0 +1,6 @@
+<includeonly>{{#invoke:Forms|group}}</includeonly><noinclude>Opens a collapsible group of transformations on a race page. Close it with <code>{{Form group end}}</code>. The group name comes from [[Module:Forms/data]]; <code>|text=</code> adds an optional intro.
+
+<pre>{{Form group|saiyan|oozaru}}
+{{Race form|saiyan|oozaru|oozaru|...}}
+{{Form group end}}</pre>
+</noinclude>

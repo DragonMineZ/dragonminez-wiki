@@ -114,94 +114,44 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "23": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "24": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "25": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "26": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "27": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "28": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "29": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "30": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "31": {
-  "source": "Super forms",
-  "translation": "Super Formas",
-  "outdated": false
- },
- "32": {
-  "source": "Giant",
-  "translation": "Gigante",
-  "outdated": false
- },
- "33": {
-  "source": "Full Power",
-  "translation": "Poder Total",
-  "outdated": false
- },
- "34": {
-  "source": "Super Namekian",
-  "translation": "Super Namekuseijin",
-  "outdated": false
- },
- "35": {
-  "source": "Legendary forms",
-  "translation": "Formas Lendárias",
-  "outdated": false
- },
- "36": {
-  "source": "Evil Namek",
-  "translation": "Namekuseijin Maligno",
-  "outdated": false
- },
- "37": {
-  "source": "Evil Giant Namek",
-  "translation": "Namekuseijin Maligno Gigante",
-  "outdated": false
- },
- "38": {
-  "source": "Buffed Namek",
-  "translation": "Namekuseijin Melhorado",
-  "outdated": false
- },
  "39": {
-  "source": "The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per level. Its fourth level isn't needed by any default Namekian form. ''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
-  "translation": "A habilidade Super Formas custa '''23,000 · 47,000 · 78,000 · 117,000''' TP por nível. Nenhuma forma Namekuseijin padrão precisa do quarto nível. ''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "source": "The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per level. Its fourth level isn't needed by any default Namekian form. ''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "A habilidade Super Formas custa '''23,000 · 47,000 · 78,000 · 117,000''' TP por nível. Nenhuma forma Namekuseijin padrão precisa do quarto nível. ''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
   "outdated": false
  },
- "40": {
-  "source": "* '''Super Namekian''' is the Namekian top tier: the strongest Namekian form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.\n* '''Evil Giant Namek''' slows you down (×0.75 speed) and makes each attack cost 1.5 times as much stamina.\n* The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "* '''Super Namekuseijin''' é o nível máximo dos Namekuseijins: a forma Namekuseijin mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.\n* '''Namekuseijin Maligno Gigante''' deixa você mais lento (×0.75 de velocidade) e faz cada ataque custar 1.5 vez mais estâmina.\n* As '''Formas Lendárias''' não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "45": {
+  "source": "You grow to more than three and a half times your size: huge reach, but every swing is much slower.",
+  "translation": "Você cresce mais de três vezes e meia o seu tamanho: um alcance enorme, mas cada golpe fica bem mais lento.",
+  "outdated": false
+ },
+ "46": {
+  "source": "Back to your normal size with your full strength unleashed; your look doesn't change.",
+  "translation": "De volta ao tamanho normal com toda a sua força liberada; seu visual não muda.",
+  "outdated": false
+ },
+ "47": {
+  "source": "The Namekian top tier: a bulkier body wrapped in a bright green aura with white lightning. It is the strongest Namekian form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo dos Namekuseijins: um corpo mais corpulento envolto em uma aura verde brilhante com raios brancos. É a forma Namekuseijin mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "48": {
+  "source": "The Legendary forms can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "As Formas Lendárias não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "49": {
+  "source": "Your skin turns a darker green and your eyes go white, inside a dark red aura with red lightning.",
+  "translation": "Sua pele fica de um verde mais escuro e seus olhos brancos, dentro de uma aura vermelho-escura com raios vermelhos.",
+  "outdated": false
+ },
+ "50": {
+  "source": "A towering evil Namekian, almost four times your size, with a bulky body, even darker skin and red eyes.",
+  "translation": "Um Namekuseijin maligno colossal, quase quatro vezes maior que você, com corpo corpulento, pele ainda mais escura e olhos vermelhos.",
+  "outdated": false
+ },
+ "51": {
+  "source": "Back to normal size: a bulky, muscular evil Namekian with red eyes, red lightning and a dark red glowing outline.",
+  "translation": "De volta ao tamanho normal: um Namekuseijin maligno corpulento e musculoso, com olhos vermelhos, raios vermelhos e um contorno brilhante vermelho-escuro.",
   "outdated": false
  },
  "41": {

@@ -119,109 +119,59 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "24": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "25": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "26": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "27": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "28": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "29": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "30": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "31": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "32": {
-  "source": "Super forms",
-  "translation": "Super Formas",
-  "outdated": false
- },
- "33": {
-  "source": "Buffed",
-  "translation": "Melhorado",
-  "outdated": false
- },
- "34": {
-  "source": "Out of Control",
-  "translation": "Fora de Controle",
-  "outdated": false
- },
- "35": {
-  "source": "Super",
-  "translation": "Super",
-  "outdated": false
- },
- "36": {
-  "source": "Absorption",
-  "translation": "Absorção",
-  "outdated": false
- },
- "37": {
-  "source": "True Form",
-  "translation": "Forma Verdadeira",
-  "outdated": false
- },
- "38": {
-  "source": "Legendary forms",
-  "translation": "Formas Lendárias",
-  "outdated": false
- },
- "39": {
-  "source": "Transcended",
-  "translation": "Transcendido",
-  "outdated": false
- },
- "40": {
-  "source": "Dark King",
-  "translation": "Rei das Trevas",
-  "outdated": false
- },
- "41": {
-  "source": "Time Power: Dark King",
-  "translation": "Poder do Tempo: Rei das Trevas",
-  "outdated": false
- },
- "42": {
-  "source": "Time Power: Realm of Light",
-  "translation": "Poder do Tempo: Reino da Luz",
-  "outdated": false
- },
  "43": {
-  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
-  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
   "outdated": false
  },
- "44": {
-  "source": "* '''True Form''' is the Glind top tier: the strongest Glind form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.\n* The '''Legendary forms''' can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "* '''Forma Verdadeira''' é o nível máximo dos Glinds: a forma Glind mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.\n* As '''Formas Lendárias''' não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "51": {
+  "source": "A slightly bulkier body; your look barely changes.",
+  "translation": "Um corpo um pouco mais corpulento; seu visual quase não muda.",
+  "outdated": false
+ },
+ "52": {
+  "source": "Your power slips out of control: red eyes, a red aura and a red glowing outline.",
+  "translation": "Seu poder sai do controle: olhos vermelhos, uma aura vermelha e um contorno vermelho brilhante.",
+  "outdated": false
+ },
+ "53": {
+  "source": "Red eyes with a blue aura and a blue glowing outline.",
+  "translation": "Olhos vermelhos com uma aura azul e um contorno azul brilhante.",
+  "outdated": false
+ },
+ "54": {
+  "source": "A huge mane of white hair and fur over your body, with a blue aura and a bright white outline.",
+  "translation": "Uma enorme juba de cabelo branco e pelos pelo corpo, com uma aura azul e um contorno branco brilhante.",
+  "outdated": false
+ },
+ "55": {
+  "source": "The Glind top tier: a body almost twice your size with blue skin, long red hair, red eyes and a violet aura. It is the strongest Glind form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo dos Glinds: um corpo quase duas vezes maior, de pele azul, cabelo vermelho longo, olhos vermelhos e uma aura violeta. É a forma Glind mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "56": {
+  "source": "The Legendary forms can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants their levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]). Their third level unlocks both Time Power forms; see [[Special:MyLanguage/Glind#Time Power|Time Power]].",
+  "translation": "As Formas Lendárias não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]). O terceiro nível desbloqueia as duas formas Poder do Tempo; veja [[Special:MyLanguage/Glind#Time Power|Poder do Tempo]].",
+  "outdated": false
+ },
+ "57": {
+  "source": "A transcended body with pale skin, blue legs and tail, crimson hair, golden eyes and a violet aura.",
+  "translation": "Um corpo transcendido de pele pálida, pernas e cauda azuis, cabelo carmesim, olhos dourados e uma aura violeta.",
+  "outdated": false
+ },
+ "58": {
+  "source": "A muscular dark king with crimson hair, red eyes, a deep red aura and a glowing outline.",
+  "translation": "Um rei das trevas musculoso, com cabelo carmesim, olhos vermelhos, uma aura vermelho-intensa e um contorno brilhante.",
+  "outdated": false
+ },
+ "59": {
+  "source": "The darker of the two Time Power forms: crimson hair with small horns, red eyes, dark armor with red marks and a thick black outline.",
+  "translation": "A mais sombria das duas formas Poder do Tempo: cabelo carmesim com pequenos chifres, olhos vermelhos, armadura escura com marcas vermelhas e um contorno preto grosso.",
+  "outdated": false
+ },
+ "60": {
+  "source": "The bright Time Power form: your body grows slightly taller and is wrapped in a pale golden aura and a white glowing outline.",
+  "translation": "A forma luminosa do Poder do Tempo: seu corpo cresce um pouco e fica envolto em uma aura dourado-clara e um contorno branco brilhante.",
   "outdated": false
  },
  "45": {

@@ -2,7 +2,7 @@
 |kind=dmz-race
 |sep=,
 |title={{#if:{{{title|}}}|{{{title}}}|{{#invoke:Labels|name}}}}
-|image={{#invoke:Labels|image|{{{image|}}}}}
+|image={{#invoke:Labels|image|{{{image|}}}|size=300x360px}}
 |caption={{{caption|}}}
 |sections=Summary, General, Gameplay
 

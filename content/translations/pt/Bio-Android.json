@@ -149,99 +149,49 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "30": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "31": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "32": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "33": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "34": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "35": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "36": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "37": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "38": {
-  "source": "Bio-Evolution",
-  "translation": "Bio-Evolução",
-  "outdated": false
- },
- "39": {
-  "source": "Semi-Perfect",
-  "translation": "Semi-Perfeito",
-  "outdated": false
- },
- "40": {
-  "source": "Perfect",
-  "translation": "Perfeito",
-  "outdated": false
- },
- "41": {
-  "source": "Super Perfect",
-  "translation": "Super Perfeito",
-  "outdated": false
- },
- "42": {
-  "source": "Ultra Perfect",
-  "translation": "Ultra Perfeito",
-  "outdated": false
- },
- "43": {
-  "source": "Bio-Corruption (legendary)",
-  "translation": "Bio-Corrupção (lendário)",
-  "outdated": false
- },
- "44": {
-  "source": "Xeno",
-  "translation": "Xeno",
-  "outdated": false
- },
- "45": {
-  "source": "Xeno Full Power",
-  "translation": "Xeno Poder Total",
-  "outdated": false
- },
- "46": {
-  "source": "Xeno Max",
-  "translation": "Xeno Max",
-  "outdated": false
- },
  "47": {
-  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick (\"—\" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
-  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick (\"—\" significa que não há consumo de Ki); veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
   "outdated": false
  },
- "48": {
-  "source": "* '''Ultra Perfect''' is the Bio-Android top tier: the strongest Bio-Android form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. It also slows you down (×0.6 speed) and makes each attack cost 3.5 times as much stamina.\n* The '''Bio-Corruption''' group is the Bio-Android Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "* '''Ultra Perfeito''' é o nível máximo dos Bio-Androides: a forma Bio-Androide mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia. Ela também deixa você mais lento (×0.6 de velocidade) e faz cada ataque custar 3.5 vezes mais estâmina.\n* O grupo '''Bio-Corrupção''' é a linha Lendário dos Bio-Androides. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "53": {
+  "source": "A larger, heavier body with a stinger tail and an orange and yellow face.",
+  "translation": "Um corpo maior e mais pesado, com uma cauda com ferrão e o rosto laranja e amarelo.",
+  "outdated": false
+ },
+ "54": {
+  "source": "The sleek, perfected body with a yellow aura.",
+  "translation": "O corpo aperfeiçoado e esguio, com uma aura amarela.",
+  "outdated": false
+ },
+ "55": {
+  "source": "The perfected body with blue lightning crackling through its yellow aura.",
+  "translation": "O corpo aperfeiçoado com raios azuis estalando na aura amarela.",
+  "outdated": false
+ },
+ "56": {
+  "source": "The Bio-Android top tier: a huge, muscle-bound body with blue lightning. You move and swing slower and each attack costs 3.5 times as much stamina. It is the strongest Bio-Android form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo dos Bio-Androides: um corpo enorme e musculoso com raios azuis. Você se move e golpeia mais devagar e cada ataque custa 3.5 vezes mais estâmina. É a forma Bio-Androide mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "57": {
+  "source": "The '''Bio-Corruption''' group is the Bio-Android Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "O grupo '''Bio-Corrupção''' é a linha Lendário dos Bio-Androides. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "58": {
+  "source": "Bio-Corruption begins: a darker body with a red core in the chest, white eyes, a deep purple aura and dark purple lightning.",
+  "translation": "A Bio-Corrupção começa: um corpo mais escuro com um núcleo vermelho no peito, olhos brancos, uma aura roxo-escura e raios roxo-escuros.",
+  "outdated": false
+ },
+ "59": {
+  "source": "The corruption spreads: a bigger, winged body with red eyes.",
+  "translation": "A corrupção se espalha: um corpo maior, com asas e olhos vermelhos.",
+  "outdated": false
+ },
+ "60": {
+  "source": "A giant corrupted Bio-Android almost four times your size.",
+  "translation": "Um Bio-Androide corrompido gigante, quase quatro vezes maior que você.",
   "outdated": false
  },
  "49": {

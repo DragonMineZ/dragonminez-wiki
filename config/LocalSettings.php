@@ -194,9 +194,9 @@ wfLoadExtensions( [
 
 $wgDMZClerkPublishableKey = $dmzEnv( 'DMZ_CLERK_PUBLISHABLE_KEY', '' );
 $wgDMZClerkFrontendApi = $dmzEnv( 'DMZ_CLERK_FRONTEND_API', 'https://clerk.dragonminez.com' );
-$wgDMZClerkSecretKey = $dmzClerkSecretKey ?? '';
+$wgDMZClerkSecretKey = ( $dmzClerkSecretKey ?? '' ) ?: $dmzEnv( 'DMZ_CLERK_SECRET_KEY', '' );
 $wgDMZDiscordGuildId = $dmzEnv( 'DMZ_DISCORD_GUILD_ID', '' );
-$wgDMZDiscordBotToken = $dmzDiscordBotToken ?? '';
+$wgDMZDiscordBotToken = ( $dmzDiscordBotToken ?? '' ) ?: $dmzEnv( 'DMZ_DISCORD_BOT_TOKEN', '' );
 $wgDMZAuthPasswordLogin = $dmzFlag( 'MW_PASSWORD_LOGIN' );
 
 $wgPFEnableStringFunctions = true;
@@ -208,6 +208,8 @@ $wgDefaultUserOptions['visualeditor-enable'] = 1;
 $wgDefaultUserOptions['visualeditor-editor'] = 'visualeditor';
 $wgVisualEditorAvailableNamespaces = [ NS_MAIN => true, NS_PROJECT => true, NS_HELP => true, NS_USER => true ];
 $wgTemplateStylesAllowedUrls = [];
+$wgPageImagesOpenGraph = false;
+$wgPageImagesOpenGraphFallbackImage = "$wgResourceBasePath/skins/DragonMineZ/resources/images/dmz-share.png";
 
 $wgULSAnonCanChangeLanguage = false;
 $wgULSIMEEnabled = false;

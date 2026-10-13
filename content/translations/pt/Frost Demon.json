@@ -114,104 +114,54 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "23": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "24": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "25": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "26": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "27": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "28": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "29": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "30": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "31": {
-  "source": "Evolution forms",
-  "translation": "Formas de Evolução",
-  "outdated": false
- },
- "32": {
-  "source": "Second Form",
-  "translation": "Segunda forma",
-  "outdated": false
- },
- "33": {
-  "source": "Third Form",
-  "translation": "Terceira forma",
-  "outdated": false
- },
- "34": {
-  "source": "Final Form",
-  "translation": "Forma final",
-  "outdated": false
- },
- "35": {
-  "source": "Full Power",
-  "translation": "Poder Total",
-  "outdated": false
- },
- "36": {
-  "source": "Fifth Form",
-  "translation": "Quinta Forma",
-  "outdated": false
- },
- "37": {
-  "source": "Artificial (legendary)",
-  "translation": "Artificial (lendário)",
-  "outdated": false
- },
- "38": {
-  "source": "Mecha",
-  "translation": "Meca",
-  "outdated": false
- },
- "39": {
-  "source": "Metal",
-  "translation": "Metal",
-  "outdated": false
- },
- "40": {
-  "source": "Metal-Core",
-  "translation": "Meta-Cooler",
-  "outdated": false
- },
  "41": {
-  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick (\"—\" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
-  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick (\"—\" significa que não há consumo de Ki); veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
   "outdated": false
  },
- "42": {
-  "source": "* The Second, Third and Final Forms have '''no Ki upkeep'''.\n* '''Mecha''' and the '''Metal''' forms have no Ki upkeep either. The Metal form files set a negative drain (−0.05 and −0.10), but DragonMineZ counts any negative drain as zero, so they don't restore Ki.\n* '''Full Power''' makes each attack cost 2.5 times as much stamina.\n* '''Fifth Form''' is the Frost Demon top tier: the strongest Frost Demon form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.\n* The '''Artificial''' group is the Frost Demon Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "* A Segunda forma, a Terceira forma e a Forma final '''não têm consumo de Ki'''.\n* '''Meca''' e as formas '''Metal''' também não têm consumo de Ki. Os arquivos das formas Metal definem um consumo negativo (−0.05 e −0.10), mas o DragonMineZ conta qualquer consumo negativo como zero, então elas não restauram Ki.\n* '''Poder Total''' faz cada ataque custar 2.5 vezes mais estâmina.\n* '''Quinta Forma''' é o nível máximo do Clã Freeza: a forma mais forte da raça, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.\n* O grupo '''Artificial''' é a linha Lendário do Clã Freeza. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "51": {
+  "source": "A taller, bulkier body with big horns and pink and purple plates.",
+  "translation": "Um corpo mais alto e corpulento, com chifres grandes e placas rosa e roxas.",
+  "outdated": false
+ },
+ "52": {
+  "source": "A long, curved head and a hunched, alien body.",
+  "translation": "Uma cabeça longa e curvada e um corpo curvado de aparência alienígena.",
+  "outdated": false
+ },
+ "53": {
+  "source": "A small, sleek white body with purple plates and no horns. From this form on, running out of energy or the Descend key only drop you back to Final Form; see [[Special:MyLanguage/Frost Demon#Evolution floor|Evolution floor]].",
+  "translation": "Um corpo pequeno e esguio, branco com placas roxas e sem chifres. A partir desta forma, ficar sem energia ou a tecla Descender só levam você de volta à Forma final; veja [[Special:MyLanguage/Frost Demon#Evolution floor|Piso evolutivo]].",
+  "outdated": false
+ },
+ "54": {
+  "source": "A swollen, muscular Final Form. Your swings are slower and each attack costs 2.5 times as much stamina.",
+  "translation": "Uma Forma final inchada e musculosa. Você golpeia mais devagar e cada ataque custa 2.5 vezes mais estâmina.",
+  "outdated": false
+ },
+ "55": {
+  "source": "The Frost Demon top tier: a towering, spiked body with red eyes and red lightning. It is the strongest Frost Demon form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo do Clã Freeza: um corpo imponente e cheio de espinhos, com olhos vermelhos e raios vermelhos. É a forma mais forte da raça, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "56": {
+  "source": "The '''Artificial''' group is the Frost Demon Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]). None of its forms has Ki upkeep: the Metal form files set a negative drain (−0.05 and −0.10), but DragonMineZ counts any negative drain as zero, so they don't restore Ki.",
+  "translation": "O grupo '''Artificial''' é a linha Lendário do Clã Freeza. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]). Nenhuma das suas formas tem consumo de Ki: os arquivos das formas Metal definem um consumo negativo (−0.05 e −0.10), mas o DragonMineZ conta qualquer consumo negativo como zero, então elas não restauram Ki.",
+  "outdated": false
+ },
+ "57": {
+  "source": "A cyborg body rebuilt with metal parts, crackling with red lightning.",
+  "translation": "Um corpo cibernético reconstruído com peças de metal, envolto em raios vermelhos.",
+  "outdated": false
+ },
+ "58": {
+  "source": "A chrome Final Form in icy blue, with pale blue lightning.",
+  "translation": "Uma Forma final cromada em azul-gelo, com raios azul-claros.",
+  "outdated": false
+ },
+ "59": {
+  "source": "A giant metal core almost four times your size, with dark plating, red eyes and cables trailing from its back. Every swing is very slow.",
+  "translation": "Um núcleo de metal gigante, quase quatro vezes maior que você, com blindagem escura, olhos vermelhos e cabos saindo das costas. Cada golpe é muito lento.",
   "outdated": false
  },
  "43": {

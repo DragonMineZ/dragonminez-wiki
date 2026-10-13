@@ -104,99 +104,49 @@
   "translation": "== Transformações ==",
   "outdated": false
  },
- "21": {
-  "source": "Group",
-  "translation": "Grupo",
-  "outdated": false
- },
- "22": {
-  "source": "Form",
-  "translation": "Forma",
-  "outdated": false
- },
- "23": {
-  "source": "Level",
-  "translation": "Nível",
-  "outdated": false
- },
- "24": {
-  "source": "TP cost",
-  "translation": "Custo de TP",
-  "outdated": false
- },
- "25": {
-  "source": "Story requisite",
-  "translation": "Requisito de história",
-  "outdated": false
- },
- "26": {
-  "source": "STR / SKP / PWR",
-  "translation": "STR / SKP / PWR",
-  "outdated": false
- },
- "27": {
-  "source": "DEF",
-  "translation": "DEF",
-  "outdated": false
- },
- "28": {
-  "source": "Ki drain",
-  "translation": "Consumo de ki",
-  "outdated": false
- },
- "29": {
-  "source": "Pure forms",
-  "translation": "Formas Puras",
-  "outdated": false
- },
- "30": {
-  "source": "Kid Majin",
-  "translation": "Kid Majin",
-  "outdated": false
- },
- "31": {
-  "source": "Evil Majin",
-  "translation": "Majin Mau",
-  "outdated": false
- },
- "32": {
-  "source": "Super Majin",
-  "translation": "Super Majin",
-  "outdated": false
- },
- "33": {
-  "source": "Ultra Majin",
-  "translation": "Ultra Majin",
-  "outdated": false
- },
- "34": {
-  "source": "Demon (legendary)",
-  "translation": "Demônio (lendário)",
-  "outdated": false
- },
- "35": {
-  "source": "Innocence Demon",
-  "translation": "Demônio Inocente",
-  "outdated": false
- },
- "36": {
-  "source": "Giant Innocence Demon",
-  "translation": "Gigante Demônio Inocente",
-  "outdated": false
- },
- "37": {
-  "source": "Super Demon",
-  "translation": "Super Demônio",
-  "outdated": false
- },
  "38": {
-  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. One number in the ''STR / SKP / PWR'' column means the three stats share it. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick (\"—\" means no Ki upkeep); see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
-  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Um único número na coluna ''STR / SKP / PWR'' significa que os três atributos o compartilham. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick (\"—\" significa que não há consumo de Ki); veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
+  "source": "''Level'' is the level of the form skill (Super Forms or Legendary Forms) that unlocks the form, and ''TP cost'' is the price of that level. Each form after the first of its group also needs '''25% mastery''' on the previous one. Multipliers are the defaults at 0% mastery and grow up to 1.5 times at 100% mastery. ''Ki drain'' is the base upkeep per tick; see [[Special:MyLanguage/Transformations#Energy consumption while transformed|energy consumption]].",
+  "translation": "''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].",
   "outdated": false
  },
- "39": {
-  "source": "* '''Ultra Majin''' is the Majin top tier: the strongest Majin form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it. It also makes each attack cost 3.5 times as much stamina.\n* The '''Demon''' group is the Majin Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
-  "translation": "* '''Ultra Majin''' é o nível máximo dos Majins: a forma Majin mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia. Ela também faz cada ataque custar 3.5 vezes mais estâmina.\n* O grupo '''Demônio''' é a linha Lendário dos Majins. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+ "46": {
+  "source": "A small, wiry body about 70% of your size.",
+  "translation": "Um corpo pequeno e magro, com cerca de 70% do seu tamanho.",
+  "outdated": false
+ },
+ "47": {
+  "source": "Grey skin and red eyes on a lean body.",
+  "translation": "Pele cinza e olhos vermelhos em um corpo magro.",
+  "outdated": false
+ },
+ "48": {
+  "source": "A tall, muscular body.",
+  "translation": "Um corpo alto e musculoso.",
+  "outdated": false
+ },
+ "49": {
+  "source": "The Majin top tier: a bigger body crackling with red lightning. Each attack costs 3.5 times as much stamina. It is the strongest Majin form, but [[Special:MyLanguage/Ultimate|Ultimate]] never copies it.",
+  "translation": "O nível máximo dos Majins: um corpo maior envolto em raios vermelhos. Cada ataque custa 3.5 vezes mais estâmina. É a forma Majin mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.",
+  "outdated": false
+ },
+ "50": {
+  "source": "The '''Demon''' group is the Majin Legendary line. It can't be bought with TP by default: the [[Special:MyLanguage/Movies Saga|Movies Saga]] grants its levels, and Mutants can borrow them (see [[Special:MyLanguage/Transformations#Legendary forms|Legendary forms]]).",
+  "translation": "O grupo '''Demônio''' é a linha Lendário dos Majins. Ele não pode ser comprado com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]).",
+  "outdated": false
+ },
+ "51": {
+  "source": "A round pink demon with red eyes and a flower on its head.",
+  "translation": "Um demônio rosa e redondo, com olhos vermelhos e uma flor na cabeça.",
+  "outdated": false
+ },
+ "52": {
+  "source": "The demon swells to almost four times your size into a pudgy yellow and pink giant, like the first Janemba. Every swing is very slow.",
+  "translation": "O demônio incha até quase quatro vezes o seu tamanho e vira um gigante gorducho amarelo e rosa, como o primeiro Janemba. Cada golpe é muito lento.",
+  "outdated": false
+ },
+ "53": {
+  "source": "A slimmer, horned demon in purple and red with a long tail, like Super Janemba.",
+  "translation": "Um demônio mais esguio e com chifres, roxo e vermelho, com uma cauda longa, como o Super Janemba.",
   "outdated": false
  },
  "40": {
