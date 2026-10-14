@@ -54,5 +54,7 @@
 	"dmz-finder-placeholder": "Placeholder of the Crafting Finder search box.",
 	"dmz-finder-empty": "Shown in the Crafting Finder suggestions when nothing matches.",
 	"dmz-finder-loading": "Shown while the crafting tree is being rendered.",
-	"dmz-finder-error": "Shown when the crafting tree request fails."
+	"dmz-finder-error": "Shown when the crafting tree request fails.",
+	"dmz-heading-link": "Tooltip and accessible label of the button shown next to each section heading that copies a link to that section.",
+	"dmz-heading-link-copied": "Toast shown after the link to a section was copied to the clipboard."
 }

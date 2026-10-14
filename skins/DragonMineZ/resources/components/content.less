@@ -162,6 +162,63 @@
 		gap: 4px 12px;
 	}
 
+	.dmz-heading-host {
+		position: relative;
+	}
+
+	.dmz-heading-link {
+		position: absolute;
+		top: 0;
+		right: 100%;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 26px;
+		height: 1.2em;
+		height: 1lh;
+		margin-right: 6px;
+		border-radius: 8px;
+		color: var( --muted );
+		font-style: normal;
+		font-weight: 400;
+		text-decoration: none;
+		opacity: 0;
+		transition: opacity 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+
+		.material-symbols-rounded {
+			font-size: 18px;
+			line-height: 1;
+		}
+
+		&:hover,
+		&:focus-visible {
+			background: var( --glass-strong );
+			color: var( --foreground );
+		}
+
+		&.is-copied {
+			color: var( --link );
+		}
+	}
+
+	.dmz-heading-host:hover .dmz-heading-link,
+	.dmz-heading-link:focus-visible,
+	.dmz-heading-link.is-copied {
+		opacity: 1;
+	}
+
+	@media ( max-width: ( @dmz-bp-md - 1px ) ), ( hover: none ) {
+		.dmz-heading-link {
+			position: static;
+			order: 1;
+			align-self: center;
+			height: 26px;
+			margin: 0 0 0 6px;
+			vertical-align: middle;
+			opacity: 0.6;
+		}
+	}
+
 	ul,
 	ol {
 		margin: 0 0 1em;

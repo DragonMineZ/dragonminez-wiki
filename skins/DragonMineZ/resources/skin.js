@@ -22,6 +22,81 @@ function wrapTables( root ) {
 	} );
 }
 
+function sectionUrl( id ) {
+	const canonical = document.querySelector( 'meta[property="og:url"]' );
+	const url = new URL( ( canonical && canonical.content ) || location.href, location.href );
+	url.search = '';
+	url.hash = mw.util.escapeIdForLink( id );
+	return url.toString();
+}
+
+function copyWithSelection( text ) {
+	const area = document.createElement( 'textarea' );
+	area.value = text;
+	area.setAttribute( 'readonly', '' );
+	area.style.position = 'fixed';
+	area.style.opacity = '0';
+	document.body.appendChild( area );
+	area.select();
+	let copied = false;
+	try {
+		copied = document.execCommand( 'copy' );
+	} catch ( e ) {}
+	area.remove();
+	return copied;
+}
+
+function copyText( text ) {
+	const fallback = () => ( copyWithSelection( text ) ? Promise.resolve() : Promise.reject( new Error( 'copy' ) ) );
+	if ( navigator.clipboard && window.isSecureContext ) {
+		return navigator.clipboard.writeText( text ).catch( fallback );
+	}
+	return fallback();
+}
+
+function bindHeadingLinks( root ) {
+	const selector = [ 'h2', 'h3', 'h4', 'h5', 'h6' ].map( ( tag ) => `.mw-parser-output ${ tag }` ).join( ', ' );
+	root.querySelectorAll( selector ).forEach( ( heading ) => {
+		const modern = heading.parentElement.classList.contains( 'mw-heading' );
+		const anchor = modern ? heading : heading.querySelector( ':scope > .mw-headline[id]' );
+		const host = modern ? heading.parentElement : heading;
+		if ( !anchor || !anchor.id || host.querySelector( '.dmz-heading-link' ) ) {
+			return;
+		}
+		const link = document.createElement( 'a' );
+		link.className = 'dmz-heading-link';
+		link.href = '#' + mw.util.escapeIdForLink( anchor.id );
+		link.title = mw.msg( 'dmz-heading-link' );
+		link.setAttribute( 'aria-label', mw.msg( 'dmz-heading-link' ) );
+		const icon = document.createElement( 'span' );
+		icon.className = 'material-symbols-rounded';
+		icon.setAttribute( 'aria-hidden', 'true' );
+		icon.textContent = 'link';
+		link.appendChild( icon );
+		let reset = null;
+		link.addEventListener( 'click', ( event ) => {
+			if ( event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey ) {
+				return;
+			}
+			event.preventDefault();
+			copyText( sectionUrl( anchor.id ) ).then( () => {
+				icon.textContent = 'check';
+				link.classList.add( 'is-copied' );
+				prefs.showToast( mw.msg( 'dmz-heading-link-copied' ) );
+				clearTimeout( reset );
+				reset = setTimeout( () => {
+					icon.textContent = 'link';
+					link.classList.remove( 'is-copied' );
+				}, 1500 );
+			} ).catch( () => {
+				location.hash = link.hash;
+			} );
+		} );
+		host.classList.add( 'dmz-heading-host' );
+		host.appendChild( link );
+	} );
+}
+
 function bindDruid( root ) {
 	root.querySelectorAll( '.druid-container .druid-collapsible' ).forEach( ( row ) => {
 		if ( row.getAttribute( 'data-dmz-bound' ) ) {
@@ -170,6 +245,7 @@ function init() {
 	mw.hook( 'wikipage.content' ).add( ( $content ) => {
 		const root = $content && $content[ 0 ] ? $content[ 0 ] : document;
 		wrapTables( root );
+		bindHeadingLinks( root );
 		bindDruid( root );
 		bindTabStrips( root );
 	} );

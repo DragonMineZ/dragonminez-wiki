@@ -195,7 +195,9 @@
 				"dmz-finder-placeholder",
 				"dmz-finder-empty",
 				"dmz-finder-loading",
-				"dmz-finder-error"
+				"dmz-finder-error",
+				"dmz-heading-link",
+				"dmz-heading-link-copied"
 			],
 			"dependencies": [
 				"mediawiki.util",
