@@ -80,6 +80,8 @@ $wgParserCacheType = CACHE_DB;
 $wgSessionCacheType = CACHE_DB;
 $wgCacheDirectory = $dmzEnv( 'MW_CACHE_DIR', "$IP/cache" );
 $wgUseFileCache = false;
+$wgInvalidateCacheOnLocalSettingsChange = false;
+$wgParserCacheExpireTime = 30 * 86400;
 $wgJobRunRate = 0;
 $wgCdnServersNoPurge = [ '127.0.0.1', '::1', '10.0.0.0/8', '172.16.0.0/12', '192.168.0.0/16' ];
 
@@ -87,6 +89,7 @@ $wgEnableUploads = true;
 $wgUploadDirectory = $dmzEnv( 'MW_UPLOAD_DIR', "$IP/images" );
 $wgFileExtensions = [ 'png', 'gif', 'jpg', 'jpeg', 'webp', 'svg' ];
 $wgMaxUploadSize = 20 * 1024 * 1024;
+$wgNativeImageLazyLoading = true;
 $wgUseImageMagick = $dmzFlag( 'MW_IMAGEMAGICK', true );
 $wgImageMagickConvertCommand = '/usr/bin/convert';
 $wgMaxShellMemory = 1048576;
