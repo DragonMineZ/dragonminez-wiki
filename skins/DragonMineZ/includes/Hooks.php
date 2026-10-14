@@ -16,6 +16,7 @@ use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\Hook\OutputPageBodyAttributesHook;
 use MediaWiki\Output\Hook\OutputPageParserOutputHook;
 use MediaWiki\Page\Hook\PageViewUpdatesHook;
+use MediaWiki\Request\FauxRequest;
 use MediaWiki\Title\Title;
 
 class Hooks implements
@@ -61,6 +62,9 @@ class Hooks implements
 	}
 
 	public function onMediaWikiPerformAction( $output, $article, $title, $user, $request, $mediaWiki ) {
+		if ( $request instanceof FauxRequest ) {
+			return true;
+		}
 		if ( $request->wasPosted() || ( $request->getRawVal( 'action' ) ?? 'view' ) !== 'view' ) {
 			return true;
 		}
