@@ -36,6 +36,10 @@ class DiscordAccess {
 		return $this->guildId !== '' && $this->botToken !== '';
 	}
 
+	public static function roleKey( string $name ): string {
+		return trim( (string)preg_replace( '/[^\p{L}\p{N}]+/u', ' ', mb_strtolower( $name ) ) );
+	}
+
 	/**
 	 * Wiki groups that the member's current Discord roles grant.
 	 *
@@ -94,7 +98,7 @@ class DiscordAccess {
 			if ( !isset( $roles[$roleId] ) ) {
 				continue;
 			}
-			$names[] = mb_strtolower( $roles[$roleId]['name'] );
+			$names[] = self::roleKey( $roles[$roleId]['name'] );
 			if ( ( (int)$roles[$roleId]['permissions'] & self::ADMINISTRATOR ) !== 0 ) {
 				$isAdmin = true;
 			}
@@ -106,7 +110,7 @@ class DiscordAccess {
 				if (
 					( $entry === '@administrator' && $isAdmin ) ||
 					in_array( $entry, $memberRoles, true ) ||
-					in_array( mb_strtolower( $entry ), $names, true )
+					( self::roleKey( $entry ) !== '' && in_array( self::roleKey( $entry ), $names, true ) )
 				) {
 					$groups[] = (string)$group;
 					break;

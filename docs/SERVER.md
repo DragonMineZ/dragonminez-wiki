@@ -108,7 +108,7 @@ Confirma memoria, disco, Docker, puertos ocupados y cómo está configurado el p
 | Moderator | `editor` + `moderator` | todo lo anterior, más borrar, restaurar y proteger páginas. |
 | Dueño del servidor o rol con permiso de Administrador | `editor` + `moderator` + `sysop` + `interface-admin` + `bureaucrat` | administración completa (bloqueos, interfaz, CSS/JS del sitio, filtros). |
 
-Se cambia con `$wgDMZDiscordGroupRoles` (nombres o IDs de rol; `@administrator` = dueño o permiso de Administrador). Los roles se cachean `$wgDMZDiscordRoleTTL` segundos (300). Si Discord no responde, se mantiene el último resultado conocido hasta 24 h para no dejar a nadie afuera por una caída; al iniciar sesión siempre se consulta en vivo.
+Se cambia con `$wgDMZDiscordGroupRoles` (nombres o IDs de rol; `@administrator` = dueño o permiso de Administrador). Los nombres se comparan sin mayúsculas, emojis ni símbolos ("✏️ Wiki Maintainer" cuenta como "Wiki Maintainer"), y Wiki Maintainer y Moderator también figuran por ID, así siguen funcionando aunque se renombren. Los roles se cachean `$wgDMZDiscordRoleTTL` segundos (300). Si Discord no responde, se mantiene el último resultado conocido hasta 24 h para no dejar a nadie afuera por una caída; al iniciar sesión siempre se consulta en vivo.
 
 **Emergencia:** `MW_PASSWORD_LOGIN=1` en `.env` y reiniciar devuelve el login con usuario y contraseña (por ejemplo, si Clerk o Discord están caídos). La cuenta de administrador de la instalación y sus BotPasswords (`push_pages.py`, `translations.py`) funcionan siempre, porque el login de bots no pasa por este proveedor.
 
