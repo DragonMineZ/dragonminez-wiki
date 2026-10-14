@@ -4,6 +4,9 @@ namespace MediaWiki\Skins\DragonMineZ;
 
 use MediaWiki\Config\Config;
 use MediaWiki\Deferred\DeferredUpdates;
+use MediaWiki\Extension\Translate\MessageLoading\MessageHandle;
+use MediaWiki\Extension\Translate\PageTranslation\TranslatablePage;
+use MediaWiki\Extension\Translate\Statistics\MessageGroupStats;
 use MediaWiki\Hook\GetLocalURLHook;
 use MediaWiki\Hook\InternalParseBeforeLinksHook;
 use MediaWiki\Hook\MediaWikiPerformActionHook;
@@ -265,7 +268,26 @@ class Hooks implements
 		if ( SkinDragonMineZ::isHome( $out->getTitle(), $this->config ) ) {
 			$classes[] = 'dmz-home';
 		}
+		if ( $this->isCompleteTranslation( $out->getTitle() ) ) {
+			$classes[] = 'dmz-translation-complete';
+		}
 		$bodyAttrs['class'] = trim( ( $bodyAttrs['class'] ?? '' ) . ' ' . implode( ' ', $classes ) );
+	}
+
+	private function isCompleteTranslation( ?Title $title ): bool {
+		if ( !$title || !class_exists( TranslatablePage::class ) ) {
+			return false;
+		}
+		$page = TranslatablePage::isTranslationPage( $title );
+		if ( !$page ) {
+			return false;
+		}
+		$code = ( new MessageHandle( $title ) )->getCode();
+		$stats = MessageGroupStats::forItem( $page->getMessageGroupId(), $code );
+		$total = $stats[MessageGroupStats::TOTAL] ?? 0;
+		return $total > 0
+			&& ( $stats[MessageGroupStats::TRANSLATED] ?? 0 ) >= $total
+			&& !( $stats[MessageGroupStats::FUZZY] ?? 0 );
 	}
 
 	private function themeScript(): string {
