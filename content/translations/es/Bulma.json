@@ -15,8 +15,8 @@
   "outdated": false
  },
  "3": {
-  "source": "Friendly; talks to characters with alignment 41 or higher",
-  "translation": "Amistosa; habla con personajes con alineamiento de 41 o más",
+  "source": "Friendly; her side quests need alignment 41 or higher",
+  "translation": "Amistosa; sus misiones secundarias piden un alineamiento de 41 o más",
   "outdated": false
  },
  "4": {
@@ -30,8 +30,8 @@
   "outdated": false
  },
  "6": {
-  "source": "'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets and a long list of errands.",
-  "translation": "'''Bulma''' es la científica de la Corporación Cápsula. En DragonMineZ espera junto a la [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin de Vegeta]] en la [[Special:MyLanguage/Earth|Tierra]], recibe las piezas de todas las naves y radares de la historia y da más misiones secundarias que nadie: toda la línea de aparatos de la Corp. Cápsula y una larga lista de encargos.",
+  "source": "'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets, parts for your [[Special:MyLanguage/Vehicles|vehicles]] and a long list of errands.",
+  "translation": "'''Bulma''' es la científica de la Corporación Cápsula. En DragonMineZ espera junto a la [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin de Vegeta]] en la [[Special:MyLanguage/Earth|Tierra]], recibe las piezas de todas las naves y radares de la historia y da más misiones secundarias que nadie: toda la línea de aparatos de la Corp. Cápsula, piezas para tus [[Special:MyLanguage/Vehicles|vehículos]] y una larga lista de encargos.",
   "outdated": false
  },
  "7": {
@@ -50,8 +50,8 @@
   "outdated": false
  },
  "10": {
-  "source": "Bulma only talks to characters with an [[Special:MyLanguage/Alignment|alignment]] of 41 or higher. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
-  "translation": "Bulma solo habla con personajes con un [[Special:MyLanguage/Alignment|alineamiento]] de 41 o más. Por debajo de 25 te trata como hostil. Los dueños de servidores pueden cambiar ambos límites en las reglas de alineamiento de los NPCs (consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]]).",
+  "source": "Bulma talks to every character, but if your [[Special:MyLanguage/Alignment|alignment]] is below 41 she greets you coldly and her side quests show as locked (\"Requires an alignment of 41 or higher.\"). Her story quests and any side quest you have already started stay open. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Bulma habla con todos los personajes, pero si tu [[Special:MyLanguage/Alignment|alineamiento]] es menor que 41 te saluda con frialdad y sus misiones secundarias aparecen bloqueadas (\"Requiere un alineamiento de 41 o más.\"). Sus misiones de la historia y cualquier misión secundaria que ya hayas empezado siguen disponibles. Por debajo de 25 te trata como hostil. Los dueños de servidores pueden cambiar ambos límites en las reglas de alineamiento de los NPCs (consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]]).",
   "outdated": false
  },
  "11": {
@@ -70,8 +70,8 @@
   "outdated": false
  },
  "14": {
-  "source": "Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world.",
-  "translation": "La mayoría de las misiones secundarias de Bulma pertenecen a la categoría '''Corp. Cápsula''': construyen [[Special:MyLanguage/Dragon Radar|Radares del Dragón]], [[Special:MyLanguage/Scouters|escáneres]], [[Special:MyLanguage/Gete Tech|tecnología Gete]] y nuevos destinos para la [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. El resto son encargos que te llevan por todo el mundo.",
+  "source": "Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world. Five of them reward the parts you need to build [[Special:MyLanguage/Vehicles|vehicles]]: ''Capsule Corp R&D'' and ''Alien Artifacts'' (a Vehicle Engine each), ''Comfortable Ride'' (2 Vehicle Seats), ''Rare Mineral Survey'' (2 Vehicle Plating) and ''Flight Stabilizer'' (a Vehicle Propeller).",
+  "translation": "La mayoría de las misiones secundarias de Bulma pertenecen a la categoría '''Corp. Cápsula''': construyen [[Special:MyLanguage/Dragon Radar|Radares del Dragón]], [[Special:MyLanguage/Scouters|escáneres]], [[Special:MyLanguage/Gete Tech|tecnología Gete]] y nuevos destinos para la [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. El resto son encargos que te llevan por todo el mundo. Cinco de ellos dan las piezas que necesitas para construir [[Special:MyLanguage/Vehicles|vehículos]]: ''I+D de Cápsula Corp.'' y ''Artefactos Alienígenas'' (un Motor de Vehículo cada una), ''Un Viaje Cómodo'' (2 Asientos de Vehículo), ''Prospección de Minerales Raros'' (2 Blindajes de Vehículo) y ''Estabilizador de Vuelo'' (una Hélice de Vehículo).",
   "outdated": false
  }
 }

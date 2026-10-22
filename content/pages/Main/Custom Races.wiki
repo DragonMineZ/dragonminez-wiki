@@ -87,13 +87,13 @@ Source: <code>src/main/java/com/dragonminez/common/config/ConfigManager.java</co
 |-
 | <code>customModel</code> || <translate><!--T:18--> String</translate> || <translate><!--T:19--> Model key. Empty means the race looks like a Human. A built-in key (for example <code>namekian</code>, <code>majin</code> or <code>frostdemon</code>) reuses that model and its textures; any other key loads your own model. The built-in keys are listed on [[Special:MyLanguage/Custom Models and Assets#Built-in model keys|Custom Models and Assets]].</translate>
 |-
-| <code>isLayered</code> || <translate><!--T:20--> Boolean</translate> || <translate><!--T:21--> <code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces.</translate>
+| <code>isLayered</code> || <translate><!--T:20--> Boolean</translate> || <translate><!--T:21--> <code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces. Any body texture can have an optional <code><texture>_shadow.png</code> mask next to it (for example <code>..._layer1_shadow.png</code> next to <code>..._layer1.png</code>): it is drawn in a shadow tone of that texture's body color (same hue, shifted saturation), so the shading follows the colors the player picks.</translate>
 |-
 | <code>headBones</code> || <translate><!--T:22--> List of strings</translate> || <translate><!--T:23--> Bone names the player can choose from in character customization (one at a time, plus a "none" option), for example ears, horns or antennas. Join bones with <code>+</code> to show several at once (<code>"ears1+horns2"</code>). The special entry <code>"hair"</code> enables the hair editor for the race. Bones are looked up in <code>geo/entity/raceparts.geo.json</code> first, then in the race model.</translate>
 |-
 | <code>racialSkill</code> || <translate><!--T:24--> String</translate> || <translate><!--T:25--> Which racial skill the race uses: <code>human</code>, <code>saiyan</code>, <code>namekian</code>, <code>frostdemon</code>, <code>bioandroid</code>, <code>majin</code> or <code>glind</code>. A custom race uses the same tuning as the race it borrows from (<code>general-server.json</code> → <code>racialSkills.<skill></code>). See [[Special:MyLanguage/Racial Skills|Racial Skills]].</translate>
 |-
-| <code>hasSaiyanTail</code> || <translate><!--T:26--> Boolean</translate> || <translate><!--T:27--> Gives the race a Saiyan tail.</translate>
+| <code>hasSaiyanTail</code> || <translate><!--T:26--> Boolean</translate> || <translate><!--T:27--> Gives the race a Saiyan tail. Hiding and showing it plays the same animation as for Saiyans, which wraps the tail around the waist.</translate>
 |-
 | <code>auraType</code> || <translate><!--T:28--> String</translate> || <translate><!--T:29--> 2D aura sprite set: <code>kakarot</code> or <code>god</code>.</translate>
 |-
@@ -118,6 +118,8 @@ Source: <code>src/main/java/com/dragonminez/common/config/ConfigManager.java</co
 <!--T:45-->
 Schema source: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.
 </translate>
+
+{{Note|type=info|title=<translate><!--T:89--> Resource packs</translate>|text=<translate><!--T:90--> In 2.2 the built-in <code>humansaiyan</code> body shading textures were renamed from <code>bodytype_*_layer2.png</code> to <code>bodytype_*_layer1_shadow.png</code> (in <code>textures/entity/races/humansaiyan/</code>). A resource pack that replaced the old files must rename them.</translate>}}
 
 <translate>
 === Form skill prices === <!--T:46-->

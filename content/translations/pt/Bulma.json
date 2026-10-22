@@ -15,8 +15,8 @@
   "outdated": false
  },
  "3": {
-  "source": "Friendly; talks to characters with alignment 41 or higher",
-  "translation": "Amigável; fala com personagens com índole 41 ou maior",
+  "source": "Friendly; her side quests need alignment 41 or higher",
+  "translation": "Amigável; suas missões secundárias exigem índole 41 ou maior",
   "outdated": false
  },
  "4": {
@@ -30,8 +30,8 @@
   "outdated": false
  },
  "6": {
-  "source": "'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets and a long list of errands.",
-  "translation": "'''Bulma''' é a cientista da Corporação Cápsula. Em DragonMineZ, ela espera ao lado da [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin do Vegeta]] na [[Special:MyLanguage/Earth|Terra]], recebe as peças de todas as naves e radares da história e dá mais missões secundárias do que qualquer outro: toda a linha de aparelhos da Corporação Cápsula e uma longa lista de tarefas.",
+  "source": "'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets, parts for your [[Special:MyLanguage/Vehicles|vehicles]] and a long list of errands.",
+  "translation": "'''Bulma''' é a cientista da Corporação Cápsula. Em DragonMineZ, ela espera ao lado da [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin do Vegeta]] na [[Special:MyLanguage/Earth|Terra]], recebe as peças de todas as naves e radares da história e dá mais missões secundárias do que qualquer outro: toda a linha de aparelhos da Corporação Cápsula, peças para os seus [[Special:MyLanguage/Vehicles|veículos]] e uma longa lista de tarefas.",
   "outdated": false
  },
  "7": {
@@ -50,8 +50,8 @@
   "outdated": false
  },
  "10": {
-  "source": "Bulma only talks to characters with an [[Special:MyLanguage/Alignment|alignment]] of 41 or higher. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
-  "translation": "Bulma só fala com personagens com [[Special:MyLanguage/Alignment|índole]] 41 ou maior. Abaixo de 25, ela trata você como hostil. Os donos de servidores podem mudar os dois limites nas regras de índole dos NPCs (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
+  "source": "Bulma talks to every character, but if your [[Special:MyLanguage/Alignment|alignment]] is below 41 she greets you coldly and her side quests show as locked (\"Requires an alignment of 41 or higher.\"). Her story quests and any side quest you have already started stay open. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Bulma fala com todos os personagens, mas se a sua [[Special:MyLanguage/Alignment|índole]] for menor que 41 ela cumprimenta você com frieza e as missões secundárias dela aparecem bloqueadas (\"Requer índole de 41 ou mais.\"). As missões da história dela e qualquer missão secundária que você já começou continuam disponíveis. Abaixo de 25, ela trata você como hostil. Os donos de servidores podem mudar os dois limites nas regras de índole dos NPCs (veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]]).",
   "outdated": false
  },
  "11": {
@@ -70,8 +70,8 @@
   "outdated": false
  },
  "14": {
-  "source": "Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world.",
-  "translation": "A maioria das missões secundárias da Bulma pertence à categoria '''Corporação Cápsula''': elas constroem [[Special:MyLanguage/Dragon Radar|Radares do Dragão]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|tecnologia Gete]] e novos destinos para a [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. O resto são tarefas que levam você pelo mundo todo.",
+  "source": "Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world. Five of them reward the parts you need to build [[Special:MyLanguage/Vehicles|vehicles]]: ''Capsule Corp R&D'' and ''Alien Artifacts'' (a Vehicle Engine each), ''Comfortable Ride'' (2 Vehicle Seats), ''Rare Mineral Survey'' (2 Vehicle Plating) and ''Flight Stabilizer'' (a Vehicle Propeller).",
+  "translation": "A maioria das missões secundárias da Bulma pertence à categoria '''Corporação Cápsula''': elas constroem [[Special:MyLanguage/Dragon Radar|Radares do Dragão]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|tecnologia Gete]] e novos destinos para a [[Special:MyLanguage/Space Pod|Cápsula Espacial]]. O resto são tarefas que levam você pelo mundo todo. Cinco delas dão as peças de que você precisa para construir [[Special:MyLanguage/Vehicles|veículos]]: ''P&D da Corporação Cápsula'' e ''Artefatos Alienígenas'' (um Motor de Veículo cada), ''Viagem Confortável'' (2 Assentos de Veículo), ''Levantamento de Minerais Raros'' (2 Blindagens de Veículo) e ''Estabilizador de Voo'' (uma Hélice de Veículo).",
   "outdated": false
  }
 }

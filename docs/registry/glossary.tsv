@@ -177,8 +177,8 @@ Capsule Corp Jacket Boots (Trunks - DBZ)	Botas de la Chaqueta Cápsula Corp. (Tr
 Capsule Corp Jacket Boots (Trunks - Super)	Botas de la Chaqueta Cápsula Corp. (Trunks - Super)	Botas da Jaqueta da Corporação Cápsula (Trunks - Super)	item.dragonminez.trunks_super_armor_boots
 Capsule Corp Jacket Chestplate (Trunks - DBZ)	Peto de la Chaqueta Cápsula Corp. (Trunks - DBZ)	Peitoral da Jaqueta da Corporação Cápsula (Trunks - DBZ)	item.dragonminez.trunks_z_armor_chestplate
 Capsule Corp Jacket Chestplate (Trunks - Super)	Peto de la Chaqueta Cápsula Corp. (Trunks - Super)	Peitoral da Jaqueta da Corporação Cápsula (Trunks - Super)	item.dragonminez.trunks_super_armor_chestplate
+Capsule Corp Jacket Leggings (Trunks - DBZ)	Pantalones de la Chaqueta Cápsula Corp. (Trunks - DBZ)	Calças da Jaqueta da Corporação Cápsula (Trunks - DBZ)	item.dragonminez.trunks_z_armor_leggings
 Capsule Corp Jacket Leggings (Trunks - Super)	Pantalones de la Chaqueta Cápsula Corp. (Trunks - Super)	Calças da Jaqueta da Corporação Cápsula (Trunks - Super)	item.dragonminez.trunks_super_armor_leggings
-Capsule Corp Jacket Leggings (Trunks- DBZ)	Pantalones de la Chaqueta Cápsula Corp. (Trunks - DBZ)	Calças da Jaqueta da Corporação Cápsula (Trunks - DBZ)	item.dragonminez.trunks_z_armor_leggings
 Capsule Corp Jacket Pattern (Trunks)	Patrón de la Chaqueta Cápsula Corp. (Trunks)	Padrão da Jaqueta da Capsule Corp (Trunks)	item.dragonminez.pattern_trunks_z
 Capsule Corp Jacket Pattern (Trunks) (Super)	Patrón de la Chaqueta Cápsula Corp. (Trunks) (Super)	Padrão da Jaqueta da Capsule Corp (Trunks) (Super)	item.dragonminez.pattern_trunks_super
 Capsule Corp Leggings	Pantalones Cápsula Corp.	Calças da Corporação Cápsula	item.dragonminez.capsule_corp_armor_leggings
@@ -255,7 +255,7 @@ Cost per point grows with your total stats.	El coste por punto crece con tus est
 Could not save file	No se pudo guardar el archivo	Não foi possível salvar o arquivo	gui.dragonminez.modconfig.save_failed
 Crane School GI Boots (Chaotzu)	Botas del Gi de la Escuela Grulla (Chaozu)	Botas do Uniforme da Escola da Garça (Chaoz)	item.dragonminez.chaoz_armor_boots
 Crane School GI Boots (Tien)	Botas del Gi de la Escuela Grulla (Ten Shin Han)	Botas do Uniforme da Escola da Garça (Tien)	item.dragonminez.tien_armor_boots
-Crane School GI Chesptlate (Chaotzu)	Peto del Gi de la Escuela Grulla (Chaozu)	Peitoral do Uniforme da Escola da Garça (Chaoz)	item.dragonminez.chaoz_armor_chestplate
+Crane School GI Chestplate (Chaotzu)	Peto del Gi de la Escuela Grulla (Chaozu)	Peitoral do Uniforme da Escola da Garça (Chaoz)	item.dragonminez.chaoz_armor_chestplate
 Crane School GI Chestplate (Tien)	Peto del Gi de la Escuela Grulla (Ten Shin Han)	Peitoral do Uniforme da Escola da Garça (Tien)	item.dragonminez.tien_armor_chestplate
 Crane School GI Helmet (Chaotzu)	Casco del Gi de la Escuela Grulla (Chaozu)	Capacete do Uniforme da Escola da Garça (Chaoz)	item.dragonminez.chaoz_armor_helmet
 Crane School GI Leggings (Chaotzu)	Pantalones del Gi de la Escuela Grulla (Chaozu)	Calças do Uniforme da Escola da Garça (Chaoz)	item.dragonminez.chaoz_armor_leggings
@@ -1092,7 +1092,6 @@ Red Turtle Hermit School GI Boots (Goku - Kid)	Botas del Gi de la Escuela Tortug
 Red Turtle Hermit School GI Chestplate (Goku - Kid)	Peto del Gi de la Escuela Tortuga Roja (Goku - Niño)	Peitoral do Uniforme Vermelho da Escola da Tartaruga (Goku - Kid)	item.dragonminez.goku_kid_armor_chestplate
 Red Turtle Hermit School GI Leggings (Goku - Kid)	Pantalones del Gi de la Escuela Tortuga Roja (Goku - Niño)	Calças do Uniforme Vermelho da Escola da Tartaruga (Goku - Kid)	item.dragonminez.goku_kid_armor_leggings
 Red Turtle Hermit School GI Pattern (Goku) (Kid)	Patrón del Gi de la Escuela Tortuga Roja (Goku) (Niño)	Padrão do Uniforme Vermelho da Escola da Tartaruga (Goku) (Kid)	item.dragonminez.pattern_goku_kid
-Regeneration Sleep	Sueño Regenerador	Regeneração do Sono	gui.dragonminez.quest_tree.preview.combo.sleep_recovery
 Remove Tail	Quitar Cola	Remover Cauda	gui.dragonminez.button.dende.remove_tail
 Repeat!	¡Repite!	Repita!	gui.dragonminez.minigame.memory.repeat
 Requirements	Requisitos	Requisitos	gui.dragonminez.quests.requirements
@@ -1267,6 +1266,7 @@ Signal Amplifier	Amplificador de Señal	Amplificador de Sinal	dmz.sidequest.bulm
 Size	Tamaño	Tamanho	gui.dragonminez.technique.size
 Skills	Habilidades	Habilidades	gui.dragonminez.skills.tab.skills
 SKP	SKP	PDG	gui.dragonminez.character_stats.skp
+Sleep Recovery	Sueño Regenerador	Regeneração do Sono	gui.dragonminez.quest_tree.preview.combo.sleep_recovery
 Slug's Shadow	La Sombra de Slug	A Sombra de Slug	dmz.sidequest.slug_aftermath.name
 Slug's Soldier	Soldado de Slug	Soldado de Slug	entity.dragonminez.saga_slug_soldier
 Slug's Soldiers	Los Soldados de Slug	Soldados de Slug	dmz.quest.movies11.name
@@ -1526,10 +1526,10 @@ Turtle Hermit School GI Boots (Goku - Super)	Botas del Gi de la Escuela Tortuga 
 Turtle Hermit School GI Boots (Goku)	Botas del Gi de la Escuela Tortuga (Goku)	Botas do Uniforme da Escola da Tartaruga (Goku)	item.dragonminez.goku_armor_boots
 Turtle Hermit School GI Boots (Goten)	Botas del Gi de la Escuela Tortuga (Goten)	Botas do Uniforme da Escola da Tartaruga (Goten)	item.dragonminez.goten_armor_boots
 Turtle Hermit School GI Boots (King Kai)	Botas del Gi de la Escuela Tortuga (Kaiosama)	Botas do Uniforme da Escola da Tartaruga (Rei Kai)	item.dragonminez.goku_kaito_armor_boots
-Turtle Hermit School GI Chesplate (Goten)	Peto del Gi de la Escuela Tortuga (Goten)	Peitoral do Uniforme da Escola da Tartaruga (Goten)	item.dragonminez.goten_armor_chestplate
 Turtle Hermit School GI Chestplate (Future Gohan)	Peto del Gi de la Escuela Tortuga (Gohan del Futuro)	Peitoral do Uniforme da Escola da Tartaruga (Gohan do Futuro)	item.dragonminez.future_gohan_armor_chestplate
 Turtle Hermit School GI Chestplate (Goku - Super)	Peto del Gi de la Escuela Tortuga (Goku - Super)	Peitoral do Uniforme da Escola da Tartaruga (Goku - Super)	item.dragonminez.goku_super_armor_chestplate
 Turtle Hermit School GI Chestplate (Goku)	Peto del Gi de la Escuela Tortuga (Goku)	Peitoral do Uniforme da Escola da Tartaruga (Goku)	item.dragonminez.goku_armor_chestplate
+Turtle Hermit School GI Chestplate (Goten)	Peto del Gi de la Escuela Tortuga (Goten)	Peitoral do Uniforme da Escola da Tartaruga (Goten)	item.dragonminez.goten_armor_chestplate
 Turtle Hermit School GI Chestplate (King Kai)	Peto del Gi de la Escuela Tortuga (Kaiosama)	Peitoral do Uniforme da Escola da Tartaruga (Rei Kai)	item.dragonminez.goku_kaito_armor_chestplate
 Turtle Hermit School GI Leggings (Future Gohan)	Pantalones del Gi de la Escuela Tortuga (Gohan del Futuro)	Calças do Uniforme da Escola da Tartaruga (Gohan do Futuro)	item.dragonminez.future_gohan_armor_leggings
 Turtle Hermit School GI Leggings (Goku - Super)	Pantalones del Gi de la Escuela Tortuga (Goku - Super)	Calças do Uniforme da Escola da Tartaruga (Goku - Super)	item.dragonminez.goku_super_armor_leggings

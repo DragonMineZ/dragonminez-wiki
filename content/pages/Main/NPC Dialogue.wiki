@@ -45,7 +45,7 @@ Dialogue trees work on '''master NPCs''': the trainers placed by [[Special:MyLan
 
 <translate>
 <!--T:10-->
-When a master has a tree, right-clicking it shows the tree '''instead of''' the master's usual options (Quests, Skills, Train and services; see [[Special:MyLanguage/Masters|Masters]]). The tree uses the same dialogue window: the line appears in the middle of the bottom band and the choices are listed on the right. Give one of your choices the <code>OPEN_QUESTS</code> action so players can still reach the master's quests. The player must have created a character first. A master's alignment requirement does not stop the conversation; it only locks Skills, Train and new quests (see [[Special:MyLanguage/Masters|Masters]]).
+When a master has a tree, right-clicking it shows the tree '''instead of''' the master's usual options (Quests, Skills, Train and services; see [[Special:MyLanguage/Masters|Masters]]). The tree uses the same dialogue window: the line appears in the middle of the bottom band and the choices are listed on the right. Give one of your choices the <code>OPEN_QUESTS</code> action so players can still reach the master's quests. The player must have created a character first. A master's alignment requirement does not stop the conversation (a master who dislikes you greets you with a "disliked" line); it only locks Skills, Train and that master's new side quests, while saga quests and quests already in progress stay open (see [[Special:MyLanguage/Masters|Masters]] and [[Special:MyLanguage/Alignment|Alignment]]).
 </translate>
 
 <translate>

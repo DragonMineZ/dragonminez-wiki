@@ -1,0 +1,127 @@
+{
+ "Page_display_title": {
+  "source": "Mr. Satan",
+  "translation": "Sr. Satán",
+  "outdated": false
+ },
+ "1": {
+  "source": "Tournament fighter, quest NPC",
+  "translation": "Luchador de torneo, NPC de misiones",
+  "outdated": false
+ },
+ "2": {
+  "source": "Quest NPC on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island; tournament fighter in three tournaments",
+  "translation": "NPC de misiones en la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]]; luchador en tres torneos",
+  "outdated": false
+ },
+ "3": {
+  "source": "Friendly to every player; as a fighter he walks and leaps, Smart AI as the World Champion",
+  "translation": "Amistoso con todos los jugadores; como luchador camina y salta, IA Inteligente como Campeón Mundial",
+  "outdated": false
+ },
+ "4": {
+  "source": "Leap strike; no flight and no ki attacks",
+  "translation": "Golpe en salto; no vuela ni tiene ataques de ki",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Mr. Satan''' is the World Champion: the reigning champion and last opponent of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]. He can also be drawn as a contender in the [[Special:MyLanguage/Cell Games|Cell Games]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and he waits on the tournament island as a quest NPC with four side quests.",
+  "translation": "El '''Sr. Satán''' es el Campeón Mundial: el campeón actual y último rival del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]]. También puede salir como aspirante en los [[Special:MyLanguage/Cell Games|Juegos de Cell]] y en el [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]], y espera en la isla del torneo como NPC de misiones con cuatro misiones secundarias.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding him ==",
+  "translation": "== Cómo encontrarlo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Mr. Satan stands near the World Tournament Announcer on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island, in the oceans of [[Special:MyLanguage/Earth|Earth]]. Find the island with {{Command|/dmzlocate budokai_tenkaichi}} or a map from a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher. He is friendly and talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]].",
+  "translation": "El Sr. Satán está cerca del Presentador del Torneo de Artes Marciales, en la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]], en los océanos de la [[Special:MyLanguage/Earth|Tierra]]. Encuentra la isla con {{Command|/dmzlocate budokai_tenkaichi}} o con un mapa de un [[Special:MyLanguage/Capsule Corp Assistant|Asistente de la Corporación Cápsula]] de nivel 3 o superior. Es amistoso y habla con todos los jugadores, sea cual sea su [[Special:MyLanguage/Alignment|alineamiento]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== In the tournaments ==",
+  "translation": "== En los torneos ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Mr. Satan is the '''champion''' of the World Martial Arts Tournament: after the qualifier rounds, [[Special:MyLanguage/Gohan|Gohan]] and Majin [[Special:MyLanguage/Vegeta|Vegeta]], you face him in the title match. Like the other fixed fighters, he doesn't get stronger from round to round. His default stats are:",
+  "translation": "El Sr. Satán es el '''campeón''' del Torneo de Artes Marciales: después de las rondas clasificatorias, de [[Special:MyLanguage/Gohan|Gohan]] y de [[Special:MyLanguage/Vegeta|Vegeta]] Majin, te enfrentas a él en el combate por el título. Como los demás luchadores fijos, no se vuelve más fuerte de una ronda a otra. Sus estadísticas predeterminadas son:",
+  "outdated": false
+ },
+ "11": {
+  "source": "Stage",
+  "translation": "Fase",
+  "outdated": false
+ },
+ "12": {
+  "source": "Health / melee / ki",
+  "translation": "Vida / cuerpo a cuerpo / ki",
+  "outdated": false
+ },
+ "13": {
+  "source": "AI tier",
+  "translation": "Nivel de IA",
+  "outdated": false
+ },
+ "14": {
+  "source": "Champion",
+  "translation": "Campeón",
+  "outdated": false
+ },
+ "15": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "16": {
+  "source": "Beating him wins the tournament: '''1,800,000 TP''' and '''+5 alignment'''. Bouts end at knockout, so nobody dies. See [[Special:MyLanguage/Tournaments|Tournaments]] for how bouts work.",
+  "translation": "Vencerlo te hace ganar el torneo: '''1,800,000 TP''' y '''+5 de alineamiento'''. Los combates terminan por noqueo, así que nadie muere. Consulta [[Special:MyLanguage/Tournaments|Torneos]] para saber cómo funcionan los combates.",
+  "outdated": false
+ },
+ "17": {
+  "source": "He is also in the contender pools of the [[Special:MyLanguage/Cell Games|Cell Games]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. There his stats come from the seat he is drawn into, not from the character: by default between 66,500 and 210,000 health in the Cell Games and between 238,000 and 612,500 in the Otherworld Tournament. The Cell Games are '''lethal''': losing a bout there kills you.",
+  "translation": "También está en los grupos de aspirantes de los [[Special:MyLanguage/Cell Games|Juegos de Cell]] y del [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]]. Allí sus estadísticas vienen de la plaza en la que sale, no del personaje: por defecto, entre 66,500 y 210,000 de vida en los Juegos de Cell y entre 238,000 y 612,500 en el Torneo del Otro Mundo. Los Juegos de Cell son '''letales''': perder un combate allí te mata.",
+  "outdated": false
+ },
+ "18": {
+  "source": "== Behavior and abilities ==",
+  "translation": "== Comportamiento y habilidades ==",
+  "outdated": false
+ },
+ "19": {
+  "source": "Mr. Satan has his own model. He can't fly and has no ki attacks: he fights with plain melee and a '''leap strike'''. When his target is 4 to 14 blocks away, or up to 9 blocks above him, he jumps at it and punches on contact. He can leap again 3.5 seconds after landing.",
+  "translation": "El Sr. Satán tiene su propio modelo. No puede volar y no tiene ataques de ki: pelea solo cuerpo a cuerpo y con un '''golpe en salto'''. Cuando su objetivo está a entre 4 y 14 bloques, o hasta 9 bloques por encima de él, salta hacia él y lo golpea al alcanzarlo. Puede volver a saltar 3.5 segundos después de aterrizar.",
+  "outdated": false
+ },
+ "20": {
+  "source": "How well he fights depends on his AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).",
+  "translation": "Lo bien que pelea depende de su nivel de IA (consulta [[Special:MyLanguage/Sagas#Enemy AI tiers|niveles de IA enemiga]]).",
+  "outdated": false
+ },
+ "21": {
+  "source": "== Side quests ==",
+  "translation": "== Misiones secundarias ==",
+  "outdated": false
+ },
+ "22": {
+  "source": "Mr. Satan's side quests open after the [[Special:MyLanguage/Android Saga|Android Saga]] quest ''Super Perfect Cell'' and the [[Special:MyLanguage/Buu Saga|Buu Saga]] quest ''Satan and Majin Buu''. Enemies spawned by these quests scale with your story difficulty.",
+  "translation": "Las misiones secundarias del Sr. Satán se abren después de la misión ''Cell Super Perfecto'' de la [[Special:MyLanguage/Android Saga|Saga Androides]] y la misión ''Satán y Majin Buu'' de la [[Special:MyLanguage/Buu Saga|Saga Buu]]. Los enemigos que aparecen con estas misiones se ajustan a tu dificultad de la historia.",
+  "outdated": false
+ },
+ "23": {
+  "source": "Ids",
+  "translation": "IDs",
+  "outdated": false
+ },
+ "24": {
+  "source": "<code>dragonminez:saga_mr_satan</code> (fighter), <code>mr_satan</code> (quest NPC)",
+  "translation": "<code>dragonminez:saga_mr_satan</code> (luchador), <code>mr_satan</code> (NPC de misiones)",
+  "outdated": false
+ }
+}

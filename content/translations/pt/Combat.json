@@ -310,8 +310,8 @@
   "outdated": false
  },
  "62": {
-  "source": "An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''' can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
-  "translation": "A '''Barreira de Absorção''' de um [[Special:MyLanguage/Android|Android]] também pode forçar um Surto de Ki quando transborda (veja [[Special:MyLanguage/Racial Skills|Habilidades raciais]]).",
+  "source": "An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''', which you can keep up while moving, can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).",
+  "translation": "A '''Barreira de Absorção''' de um [[Special:MyLanguage/Android|Android]], que você pode manter enquanto se move, também pode forçar um Surto de Ki quando transborda (veja [[Special:MyLanguage/Racial Skills|Habilidades raciais]]).",
   "outdated": false
  },
  "63": {
@@ -429,6 +429,21 @@
   "translation": "A Manipulação de Ki também aumenta o dano das rajadas de ki básicas ({{Key|Alt}} + {{Key|Botão direito}}) em 5% do seu Dano de Ki por nível.",
   "outdated": false
  },
+ "97": {
+  "source": "== Ki blasts and Ki Volley ==",
+  "translation": "== Rajadas de ki e Voleio de Ki ==",
+  "outdated": false
+ },
+ "98": {
+  "source": "Hold the '''Second Function''' key ({{Key|Alt}}) and right-click to fire ki from your hands:",
+  "translation": "Segure a tecla de '''Função Secundária''' ({{Key|Alt}}) e clique com o botão direito para disparar ki com as mãos:",
+  "outdated": false
+ },
+ "99": {
+  "source": "* '''Ki blast''': release quickly to fire a single ki blast; your shots alternate between your hands. A blast costs 2% of your max Ki + 8 and deals your Ki Damage × (0.5 + 0.05 × your Ki Manipulation level), with a 1.6-second cooldown.\n* '''Ki Volley''': hold for 0.3 seconds to fire 6 ki blasts, one every 3 ticks, each dealing 60% of a single blast's damage (360% in total). A volley costs 3 times the Ki of a blast and has a 30-second cooldown, and you can't fire single blasts for about 2 seconds after it. While the volley is on cooldown, holding fires a single blast.\n* Small ki blasts don't slow down story enemies.",
+  "translation": "* '''Rajada de ki''': solte rápido para disparar uma única rajada de ki; seus disparos alternam entre uma mão e a outra. Uma rajada custa 2% do seu Ki máximo + 8 e causa o seu Dano de Ki × (0.5 + 0.05 × o seu nível de Manipulação de Ki), com recarga de 1.6 segundos.\n* '''Voleio de Ki''': segure por 0.3 segundos para disparar 6 rajadas de ki, uma a cada 3 ticks, cada uma causando 60% do dano de uma rajada normal (360% no total). Um voleio custa 3 vezes o Ki de uma rajada e tem recarga de 30 segundos, e você não pode disparar rajadas avulsas por cerca de 2 segundos depois dele. Enquanto o voleio está em recarga, segurar dispara uma única rajada.\n* Rajadas de ki pequenas não deixam os inimigos da história mais lentos.",
+  "outdated": false
+ },
  "86": {
   "source": "== Combat flight ==",
   "translation": "== Voo de combate ==",
@@ -474,6 +489,11 @@
   "translation": "Ataques de Ki, ataques de golpe e técnicas de evasão são disparados pelos seus slots de técnica ({{Key|Alt}} + 1–4 e {{Key|Ctrl}} + 1–4); eles precisam da habilidade [[Special:MyLanguage/Ki Control|Controle de Ki]], de pelo menos '''5%''' de Liberação de Poder e da mão principal vazia. Cada ataque de golpe inicia uma curta '''recarga compartilhada''' (3 segundos, pela metade quando erra), então ter vários golpes não permite encadeá-los. Sem nenhum inimigo ao alcance, um ataque de golpe '''avança''' por até 2 segundos, e errar completamente devolve parte do Ki. Dois raios que se encontram de frente iniciam um [[Special:MyLanguage/Beam Clash|choque de energia]], e dois lutadores avançando um contra o outro com ataques de golpe iniciam um [[Special:MyLanguage/Strike Clash|choque de golpes]]. Tudo sobre técnicas está em [[Special:MyLanguage/Techniques|Técnicas]].",
   "outdated": false
  },
+ "100": {
+  "source": "When you hit a target with a strike attack, a '''cinematic camera''' films the technique from a third-person angle, and a player you hit sees it too. You can't look around with the mouse or toggle lock-on until it ends. Boss combos and grabs against you are filmed the same way. See [[Special:MyLanguage/Strike Attacks#Cinematic camera|Strike Attacks]].",
+  "translation": "Quando você acerta um alvo com um ataque de golpe, uma '''câmera cinematográfica''' filma a técnica de um ângulo em terceira pessoa, e o jogador que você acerta também a vê. Você não pode olhar ao redor com o mouse nem ligar ou desligar a trava de mira até ela terminar. Os combos e agarrões dos chefes contra você são filmados do mesmo jeito. Veja [[Special:MyLanguage/Strike Attacks#Cinematic camera|Ataques de Golpe]].",
+  "outdated": false
+ },
  "95": {
   "source": "== Who you can hit ==",
   "translation": "== Quem você pode atacar ==",
@@ -482,6 +502,11 @@
  "96": {
   "source": "Party members are always friendly unless your party has PvP switched on, players fighting the same world boss with you are friendly even then (see [[Special:MyLanguage/World Bosses#Truce|World Bosses]]), and [[Special:MyLanguage/Tournaments|tournament]] rivals are always hostile. By default DMZ's combat targeting treats other players and every mob as hostile, except villagers, iron golems and the guards of the Guard Villagers mod, which are neutral.",
   "translation": "Os membros do grupo são sempre aliados, a menos que seu grupo tenha o PvP ativado; jogadores lutando com você contra o mesmo chefe de mundo são aliados mesmo assim (veja [[Special:MyLanguage/World Bosses#Truce|Chefes de mundo]]), e os rivais de um [[Special:MyLanguage/Tournaments|torneio]] são sempre hostis. Por padrão, o sistema de alvos de combate do DMZ trata os outros jogadores e todos os mobs como hostis, exceto aldeões, golens de ferro e os guardas do mod Guard Villagers, que são neutros.",
+  "outdated": false
+ },
+ "101": {
+  "source": "[[Special:MyLanguage/Masters|Masters]] can't be pushed or moved (they only fall). They are immune to potions, fire, explosions and drowning, and they can't be leashed, ridden or pulled by ki attacks.",
+  "translation": "Os [[Special:MyLanguage/Masters|mestres]] não podem ser empurrados nem movidos (só caem). Eles são imunes a poções, fogo, explosões e afogamento, e não podem ser presos com laço, montados nem puxados por ataques de ki.",
   "outdated": false
  }
 }

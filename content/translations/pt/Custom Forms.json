@@ -400,8 +400,8 @@
   "outdated": false
  },
  "80": {
-  "source": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).",
-  "translation": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).",
+  "source": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>), <code>fireIntensity</code> (<code>0</code>–<code>3</code>, default <code>0</code>: animated flame tongues), <code>colorMode</code> (<code>\"pulse\"</code>, the default, shifts between the two colors; <code>\"gradient\"</code> goes from <code>primaryColor</code> next to the body to <code>secondaryColor</code> at the outer edge) and <code>bodyGlow</code> (<code>0</code>–<code>1</code>, default <code>0</code>: a glow of the outline color along the edges of the body). The same <code>outlineThickness</code> draws a wider outline than before 2.2.",
+  "translation": "<code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>), <code>fireIntensity</code> (<code>0</code>–<code>3</code>, padrão <code>0</code>: línguas de fogo animadas), <code>colorMode</code> (<code>\"pulse\"</code>, o padrão, alterna entre as duas cores; <code>\"gradient\"</code> vai da <code>primaryColor</code> junto ao corpo à <code>secondaryColor</code> na borda externa) e <code>bodyGlow</code> (<code>0</code>–<code>1</code>, padrão <code>0</code>: um brilho da cor do contorno nas bordas do corpo). O mesmo <code>outlineThickness</code> desenha um contorno mais largo do que antes da 2.2.",
   "outdated": false
  },
  "81": {

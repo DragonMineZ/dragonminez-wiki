@@ -1,0 +1,67 @@
+{
+ "Page_display_title": {
+  "source": "Bioman",
+  "translation": "Bioman",
+  "outdated": false
+ },
+ "1": {
+  "source": "Hostile",
+  "translation": "Hostil",
+  "outdated": false
+ },
+ "2": {
+  "source": "Snowy biomes, in dim spots, in groups of 2–4",
+  "translation": "Biomas nevados, en zonas oscuras, en grupos de 2–4",
+  "outdated": false
+ },
+ "3": {
+  "source": "Attacks on sight; never self-destructs; Novice AI",
+  "translation": "Ataca en cuanto te ve; nunca se autodestruye; IA Novato",
+  "outdated": false
+ },
+ "4": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "5": {
+  "source": "The '''Bioman''' is a variant of the [[Special:MyLanguage/Saibamen|Saibamen]] that lives in the snowy biomes of [[Special:MyLanguage/Earth|Earth]]. It hunts in small groups and, unlike a Saibaman, never grabs you to blow itself up.",
+  "translation": "El '''Bioman''' es una variante de los [[Special:MyLanguage/Saibamen|Saibamen]] que vive en los biomas nevados de la [[Special:MyLanguage/Earth|Tierra]]. Caza en grupos pequeños y, a diferencia de un Saibaman, nunca te agarra para hacerse explotar.",
+  "outdated": false
+ },
+ "6": {
+  "source": "== Spawning ==",
+  "translation": "== Aparición ==",
+  "outdated": false
+ },
+ "7": {
+  "source": "Bioman spawn in snowy biomes (every biome in the <code>#forge:is_snowy</code> tag, such as Snowy Plains) in groups of 2–4, with spawn weight 60. Like the Saibamen, they spawn as monsters: not in Peaceful, only in dim spots (block light 7 or less), and only about a third of spawn attempts succeed. In Creative, the '''Bioman Spawn Egg''' spawns one.",
+  "translation": "Los Bioman aparecen en biomas nevados (todos los biomas de la etiqueta <code>#forge:is_snowy</code>, como la Llanura nevada) en grupos de 2–4, con peso de aparición 60. Como los Saibamen, aparecen como monstruos: no en Pacífico, solo en zonas oscuras (luz de bloque 7 o menos), y solo alrededor de un tercio de los intentos de aparición tienen éxito. En Creativo, el '''Huevo Generador de Bioman''' genera uno.",
+  "outdated": false
+ },
+ "8": {
+  "source": "== Behavior ==",
+  "translation": "== Comportamiento ==",
+  "outdated": false
+ },
+ "9": {
+  "source": "The Bioman attacks on sight and fights on the '''Novice''' AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]). It has a little less health and damage than a Saibaman but moves faster, shrugs off half of the knockback it takes, and has a Battle Power of 1,100. Unlike the Saibamen, it '''never self-destructs'''.",
+  "translation": "El Bioman ataca en cuanto te ve y pelea en el nivel de IA '''Novato''' (consulta [[Special:MyLanguage/Sagas#Enemy AI tiers|niveles de IA enemiga]]). Tiene un poco menos de vida y de daño que un Saibaman, pero se mueve más rápido, ignora la mitad del retroceso que recibe y tiene un Poder de Combate de 1,100. A diferencia de los Saibamen, '''nunca se autodestruye'''.",
+  "outdated": false
+ },
+ "10": {
+  "source": "== Drops ==",
+  "translation": "== Botín ==",
+  "outdated": false
+ },
+ "11": {
+  "source": "The Bioman drops nothing.",
+  "translation": "El Bioman no suelta nada.",
+  "outdated": false
+ },
+ "12": {
+  "source": "Entity id",
+  "translation": "ID de entidad",
+  "outdated": false
+ }
+}

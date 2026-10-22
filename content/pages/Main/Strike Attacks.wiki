@@ -25,7 +25,7 @@
 == Strike attacks taught by masters == <!--T:4-->
 
 <!--T:5-->
-Cooldowns are before XP upgrades. The TP cost is paid once to unlock the technique.
+Cooldowns are the defaults, before XP upgrades. The TP cost is paid once to unlock the technique. A server that already has a <code>techniques.json</code> keeps the cooldowns written in it, so it may still use older values until its owner edits them (see [[Special:MyLanguage/Skills Config#techniques.json|Skills Config]]).
 </translate>
 {| class="wikitable sortable"
 ! <translate><!--T:6--> Technique</translate> !! <translate><!--T:7--> Taught by</translate> !! <translate><!--T:8--> TP cost</translate> !! <translate><!--T:9--> Damage multiplier</translate> !! <translate><!--T:10--> Cooldown (seconds)</translate>
@@ -34,28 +34,40 @@ Cooldowns are before XP upgrades. The TP cost is paid once to unlock the techniq
 |-
 | '''<translate><!--T:12--> Wolf Fang</translate>''' || {{L|Yamcha}} || 3,500 || ×1.25 || 7
 |-
-| '''<translate><!--T:13--> Kaioken Attack</translate>''' || {{L|King Kai}} || 5,000 || ×1.75 || 12
+| '''<translate><!--T:13--> Kaioken Attack</translate>''' || {{L|King Kai}} || 5,000 || ×1.75 || 9
 |-
 | '''<translate><!--T:14--> Dragon Fist</translate>''' || {{L|Goku}} || 6,000 || ×2.5 || 16
 |-
 | '''<translate><!--T:15--> Deadly Dance</translate>''' || {{L|Krillin}}, {{L|Frieza}}, {{L|Cell}} || 8,000 || ×1.25 || 8
 |-
-| {{L|Shining Sword Attack}} || {{L|Trunks}} || 9,000 || ×2.4 || 8
+| {{L|Shining Sword Attack}} || {{L|Trunks}} || 9,000 || ×2.4 || 16
 |-
-| '''<translate><!--T:16--> Super God Fist</translate>''' || {{L|Goku}} || 10,000 || ×2.0 || 12
+| '''<translate><!--T:16--> Super God Fist</translate>''' || {{L|Goku}} || 10,000 || ×2.0 || 15
 |-
 | '''<translate><!--T:17--> Deadly Dance (Vegetto)</translate>''' || {{L|Vegeta}} || 12,000 || ×1.5 || 10
 |-
-| '''<translate><!--T:18--> Spirit Breaking Cannon</translate>''' || {{L|Vegeta}} || 12,000 || ×2.2 || 12
+| '''<translate><!--T:18--> Spirit Breaking Cannon</translate>''' || {{L|Vegeta}} || 12,000 || ×2.2 || 16.5
 |-
 | '''<translate><!--T:19--> Oozaru Fist</translate>''' || {{L|Goku}} || 15,000 || ×2.25 || 14
 |-
-| '''<translate><!--T:20--> Gum Punch</translate>''' || {{L|Majin Buu}} || 4,000 || ×1.5 || 7
+| '''<translate><!--T:37--> Death Chaser</translate>''' || {{L|Frieza}} || 15,000 || ×2.4 || 16
 |-
-| '''<translate><!--T:21--> Mystic Ball Attack</translate>''' || {{L|Majin Buu}} || 11,000 || ×2.4 || 14
+| '''<translate><!--T:38--> Beam Sword Slash</translate>''' || {{L|Goku}} || 16,000 || ×2.6 || 17.5
+|-
+| '''<translate><!--T:39--> Spirit Breaker</translate>''' || {{L|Vegeta}} || 17,000 || ×2.8 || 18.5
+|-
+| '''<translate><!--T:20--> Gum Punch</translate>''' || {{L|Majin Buu}} || 4,000 || ×1.5 || 13
+|-
+| '''<translate><!--T:21--> Mystic Ball Attack</translate>''' || {{L|Majin Buu}} || 11,000 || ×2.4 || 16
+|-
+| '''<translate><!--T:40--> Darkness Eye Beam</translate>''' || {{L|Piccolo}} || 11,000 || ×2.6 || 20.5
+|-
+| '''<translate><!--T:41--> Android Combo</translate>''' || {{L|Cell}} || 14,000 || ×2.4 || 19
+|-
+| '''<translate><!--T:42--> Perfect Rush</translate>''' || {{L|Cell}} || 15,000 || ×2.5 || 16.5
 |}
 
-{{Note|<translate><!--T:22--> '''Gum Punch''' and the '''Mystic Ball Attack''' are Majin techniques: any race can learn them from Majin Buu, but only a [[Special:MyLanguage/Majin|Majin]] can equip them in a technique slot. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].</translate>}}
+{{Note|<translate><!--T:22--> Some strike attacks belong to one race: any race can learn them from their master, but only that race can equip them in a technique slot or upgrade them. '''Gum Punch''' and the '''Mystic Ball Attack''' are for [[Special:MyLanguage/Majin|Majins]], the '''Darkness Eye Beam''' for [[Special:MyLanguage/Namekian|Namekians]], the '''Android Combo''' for [[Special:MyLanguage/Android|Androids]] (any character with the android upgrade) and '''Perfect Rush''' for [[Special:MyLanguage/Bio-Android|Bio-Androids]]. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].</translate>}}
 
 {{Note|<translate><!--T:23--> The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] can only be used while holding the [[Special:MyLanguage/Brave Sword|Brave Sword]].</translate>}}
 
@@ -65,6 +77,34 @@ The '''Dragon Fist''' sends you charging forward behind a golden dragon shaped l
 
 <!--T:25-->
 The '''Mystic Ball Attack''' is a bouncing attack that [[Special:MyLanguage/Kid Buu|Kid Buu]] also uses against you in the [[Special:MyLanguage/Buu Saga|Buu Saga]]. A kick launches the target into the air, then you curl up into a pink ball and slam into it six times from different directions, rise above it and dive down to stomp it into the ground. It lasts about 5 seconds: the kick deals 17% of its damage, each bounce 8% and the final stomp 35%. World bosses and giant multi-part enemies can't be carried, so they are pinned in place instead.
+</translate>
+
+<translate>
+=== Combo strikes === <!--T:43-->
+
+<!--T:44-->
+Six strike attacks are long scripted combos: the Darkness Eye Beam, Death Chaser, Android Combo, Perfect Rush, Spirit Breaker and Beam Sword Slash. You are invulnerable while the combo plays, and only a stun or a knockdown can interrupt it. Only the finishing blow can kill: the earlier hits never take the target below 1 health.
+
+<!--T:45-->
+* '''Darkness Eye Beam''' (about 5 seconds): you dash in, backhand the target, grab and choke it, throw it, stretch an arm to grab it again, swing it overhead, roar and fire eye beams that end in an explosion. The eye beams and the explosion add 0.5× your Ki Damage.
+* '''Death Chaser''' (about 3.5 seconds): you power up, dash in, land a hook and a straight, vanish, launch the target with a knee, vanish above it, hammer it to the ground and dive onto it with a stomp.
+* '''Android Combo''' (about 4 seconds): a dash, a palm strike, a hook and a haymaker, then you chase the target, knee it, hit it with jabs and launch it with an uppercut, and finish with a ki bomb charged at its chest and thrown. The ki bomb adds 0.5× your Ki Damage.
+* '''Perfect Rush''' (about 4.5 seconds): you power up, dash in, land a hook, a backhand and an elbow, launch the target with a knee, leap after it, hit it with a jab and a straight, dash up above it and hammer it into a crash.
+* '''Spirit Breaker''' (about 7.5 seconds): a dash, a gut punch and an uppercut, then you vanish, unleash a flurry and a big punch that blows the target away, ram it, slam it, hit it with a burst of flame and finish with an axe kick.
+* '''Beam Sword Slash''' (about 5.5 seconds): a dash, a kick, a knee, a punch and a launch, then you vanish above the target and hammer it down, form a ki blade in your aura colour, extend it in a thrust that skewers the target, sweep it and finish with a final slash.
+
+<!--T:46-->
+Some story bosses use these combos against you: Perfect Cell and Super Perfect Cell use Perfect Rush, Vegeta (Daima, Super Saiyan 3) uses the Spirit Breaker, and Vegetto and Vegetto (Super Saiyan) use the Beam Sword Slash.
+</translate>
+
+<translate>
+== Cinematic camera == <!--T:47-->
+
+<!--T:48-->
+When you use a strike attack on a target, the camera moves to a third-person angle that films you and your victim, then returns to your normal view when the technique ends. A player you hit sees the same shot. While it plays you can't look around with the mouse or toggle lock-on; your lock-on target comes back afterwards. There is no option to turn it off.
+
+<!--T:49-->
+Every strike attack on this page uses it except the Oozaru Slam, Gum Punch, Blue Hurricane, Dimensional Fist and Dimensional Slash. Boss combos and grabs against a player use it too: the Spirit Breaking Cannon, Super God Fist, Deadly Dance (Vegetto), Meteor Burst, Mystic Ball Attack, Beam Sword Slash, Perfect Rush and Spirit Breaker of the story bosses, the grab and the Meteor Burst of the [[Special:MyLanguage/Turles|Turles]] world boss, and the Demon Grab of [[Special:MyLanguage/Gomah|Gomah]].
 </translate>
 
 <translate>
@@ -78,7 +118,7 @@ No master offers these in the default lists. Server owners can add them to a mas
 |-
 | {{L|Meteor Burst}} || 24,000 || ×2.6 || 30 || <translate><!--T:33--> 15% drop from the {{L|Turles}} world boss. A 10-second combo that mixes strikes, a slam and ki blasts.</translate>
 |-
-| '''<translate><!--T:34--> Oozaru Slam</translate>''' || 4,000 || ×1.5 || 6 || <translate><!--T:35--> Granted while in Great Ape (Oozaru) form.</translate>
+| '''<translate><!--T:34--> Oozaru Slam</translate>''' || 4,000 || ×1.5 || 9 || <translate><!--T:35--> Granted while in Great Ape (Oozaru) form.</translate>
 |}
 
 <translate>

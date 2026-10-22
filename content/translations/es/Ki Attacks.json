@@ -15,8 +15,8 @@
   "outdated": false
  },
  "3": {
-  "source": "* You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand.\n* Hold the technique's slot key to charge it and release it to fire. Small Ball and Laser attacks are instant; the other types charge to 100% and can be overcharged to 175%. Medium Ball and Giant Ball attacks fire on their own at the cap.\n* If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.\n* Damage is your Ki Damage × the technique's damage multiplier (listed below) × the type's damage multiplier (1.0 by default) × the charge.\n* Every attack belongs to a '''type''' (Wave, Laser, Giant Ball…) that sets its cast time, how it behaves and which stats it can upgrade. See the [[Special:MyLanguage/Techniques|Techniques]] page for the type table, overcharge and upgrades.\n* Wave and Beam attacks can [[Special:MyLanguage/Beam Clash|clash]] with each other.",
-  "translation": "* Necesitas [[Special:MyLanguage/Ki Control|Control de Ki]], al menos un 5% de Liberación de Poder y la mano principal vacía.\n* Mantén pulsada la tecla de la ranura de la técnica para cargarla y suéltala para disparar. Los ataques de tipo Bola Pequeña y Láser son instantáneos; los demás tipos se cargan hasta el 100% y se pueden sobrecargar hasta el 175%. Los ataques de tipo Bola Media y Bola Gigante se disparan solos al llegar al tope.\n* Si tienes un objetivo fijado (para lo que necesitas [[Special:MyLanguage/Ki Sense|Sentir Ki]]), los ataques teledirigidos siguen a tu objetivo.\n* El daño es tu Daño de ki × el multiplicador de daño de la técnica (indicado abajo) × el multiplicador de daño del tipo (1.0 por defecto) × la carga.\n* Cada ataque pertenece a un '''tipo''' (Onda, Láser, Bola Gigante…) que determina su tiempo de lanzamiento, cómo se comporta y qué estadísticas puede mejorar. Consulta la página [[Special:MyLanguage/Techniques|Técnicas]] para ver la tabla de tipos, la sobrecarga y las mejoras.\n* Los ataques de tipo Onda y Rayo pueden generar un [[Special:MyLanguage/Beam Clash|choque]] entre sí.",
+  "source": "* You need [[Special:MyLanguage/Ki Control|Ki Control]], at least 5% Power Release and an empty main hand.\n* Hold the technique's slot key to charge it and release it to fire. Small Ball and Laser attacks are instant; the other types charge to 100% and can be overcharged to 175%. Medium Ball and Giant Ball attacks fire on their own at the cap.\n* If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.\n* Damage is your Ki Damage × the technique's damage multiplier (listed below) × the type's damage multiplier (1.0 by default) × the charge.\n* Every attack belongs to a '''type''' (Wave, Laser, Giant Ball…) that sets its cast time, how it behaves and which stats it can upgrade. See the [[Special:MyLanguage/Techniques|Techniques]] page for the type table, overcharge and upgrades.\n* Laser and Wave beams deal at least 75% of their total damage on their first hit on each target.\n* Wave and Beam attacks can [[Special:MyLanguage/Beam Clash|clash]] with each other.",
+  "translation": "* Necesitas [[Special:MyLanguage/Ki Control|Control de Ki]], al menos un 5% de Liberación de Poder y la mano principal vacía.\n* Mantén pulsada la tecla de la ranura de la técnica para cargarla y suéltala para disparar. Los ataques de tipo Bola Pequeña y Láser son instantáneos; los demás tipos se cargan hasta el 100% y se pueden sobrecargar hasta el 175%. Los ataques de tipo Bola Media y Bola Gigante se disparan solos al llegar al tope.\n* Si tienes un objetivo fijado (para lo que necesitas [[Special:MyLanguage/Ki Sense|Sentir Ki]]), los ataques teledirigidos siguen a tu objetivo.\n* El daño es tu Daño de ki × el multiplicador de daño de la técnica (indicado abajo) × el multiplicador de daño del tipo (1.0 por defecto) × la carga.\n* Cada ataque pertenece a un '''tipo''' (Onda, Láser, Bola Gigante…) que determina su tiempo de lanzamiento, cómo se comporta y qué estadísticas puede mejorar. Consulta la página [[Special:MyLanguage/Techniques|Técnicas]] para ver la tabla de tipos, la sobrecarga y las mejoras.\n* Los rayos de tipo Láser y Onda hacen al menos el 75% de su daño total en su primer impacto contra cada objetivo.\n* Los ataques de tipo Onda y Rayo pueden generar un [[Special:MyLanguage/Beam Clash|choque]] entre sí.",
   "outdated": false
  },
  "4": {
@@ -119,6 +119,16 @@
   "translation": "Disco",
   "outdated": false
  },
+ "77": {
+  "source": "Dodon Ray",
+  "translation": "Rayo Dodon",
+  "outdated": false
+ },
+ "78": {
+  "source": "Laser",
+  "translation": "Láser",
+  "outdated": false
+ },
  "24": {
   "source": "Special Beam Cannon (Makankosappo)",
   "translation": "Cañón de Haz Especial (Makankosappo)",
@@ -184,6 +194,16 @@
   "translation": "Onda",
   "outdated": false
  },
+ "79": {
+  "source": "Tri-Beam",
+  "translation": "Kikoho",
+  "outdated": false
+ },
+ "80": {
+  "source": "Laser",
+  "translation": "Láser",
+  "outdated": false
+ },
  "37": {
   "source": "Wave",
   "translation": "Onda",
@@ -192,6 +212,16 @@
  "38": {
   "source": "Barrage",
   "translation": "Descarga",
+  "outdated": false
+ },
+ "81": {
+  "source": "Neo Tri-Beam",
+  "translation": "Neo Kikoho",
+  "outdated": false
+ },
+ "82": {
+  "source": "Medium Ball",
+  "translation": "Bola Media",
   "outdated": false
  },
  "39": {
@@ -245,8 +275,8 @@
   "outdated": false
  },
  "49": {
-  "source": "Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.",
-  "translation": "Los maestros con requisito de [[Special:MyLanguage/Alignment|alineamiento]] (Bueno para el [[Special:MyLanguage/Master Roshi|Maestro Roshi]], Krilin, Goku, Gohan, [[Special:MyLanguage/King Kai|Kaiosama]] y el [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]; Maligno para Cell y Freezer) solo te enseñan cuando tu alineamiento encaja. Cell y Freezer cubren por sí solos gran parte del repertorio, pero solo para personajes Malignos.",
+  "source": "Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. [[Special:MyLanguage/Master Tien|Master Tien]] has no such requirement, and he is the only master who teaches the Dodon Ray, the Tri-Beam and the Neo Tri-Beam. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.",
+  "translation": "Los maestros con requisito de [[Special:MyLanguage/Alignment|alineamiento]] (Bueno para el [[Special:MyLanguage/Master Roshi|Maestro Roshi]], Krilin, Goku, Gohan, [[Special:MyLanguage/King Kai|Kaiosama]] y el [[Special:MyLanguage/Old Kai|Kaioshin Anciano]]; Maligno para Cell y Freezer) solo te enseñan cuando tu alineamiento encaja. El [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]] no tiene ese requisito, y es el único maestro que enseña el Rayo Dodon, el Kikoho y el Neo Kikoho. Cell y Freezer cubren por sí solos gran parte del repertorio, pero solo para personajes Malignos.",
   "outdated": false
  },
  "50": {
@@ -255,8 +285,8 @@
   "outdated": false
  },
  "51": {
-  "source": "* [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]] fires a rapid chain of 10 death beams; the follow-up shots deal 20% of the first one's damage.\n* [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]] launches the closest enemy in front of you (within 8 blocks) into the air before the beam hits.\n* [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]] needs a target (lock on or aim at one): the ki blasts surround it and then close in.\n* '''Spirit Bomb''' calls for help while you charge it: other players within 64 blocks can give it their energy with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]. Their Ki makes the bomb grow and hit harder (up to ×3 damage), and while they give it keeps growing for as long as you hold the key instead of firing at full charge. See [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Ki Transfer]].",
-  "translation": "* El [[Special:MyLanguage/Emperor's Death Beam|Rayo de la Muerte Imperial]] dispara una rápida cadena de 10 rayos de la muerte; los disparos siguientes hacen el 20% del daño del primero.\n* El [[Special:MyLanguage/Heat Dome Attack|Ataque Cúpula de Calor]] lanza por los aires al enemigo más cercano frente a ti (a 8 bloques o menos) antes de que impacte el rayo.\n* La [[Special:MyLanguage/Hellzone Grenade|Granada Infernal]] necesita un objetivo (fíjalo o apunta a uno): las ráfagas de ki lo rodean y luego se cierran sobre él.\n* La '''Genkidama''' pide ayuda mientras la cargas: otros jugadores a 64 bloques o menos pueden darle su energía con la [[Special:MyLanguage/Ki Transfer|Transferencia de ki]]. Su Ki hace que la bomba crezca y golpee más fuerte (hasta ×3 de daño), y mientras te dan energía sigue creciendo todo el tiempo que mantengas pulsada la tecla, en lugar de dispararse con la carga completa. Consulta [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Transferencia de ki]].",
+  "source": "* [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]] fires a rapid chain of 10 death beams; the follow-up shots deal 20% of the first one's damage.\n* [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]] launches the closest enemy in front of you (within 8 blocks) into the air before the beam hits.\n* [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]] needs a target (lock on or aim at one): the ki blasts surround it and then close in.\n* '''Neo Tri-Beam''': after it fires you have 3 seconds to right-click for another shot, up to 3 follow-up shots. Each follow-up costs 10% of your max health and needs at least 20% of your health left.\n* '''Spirit Bomb''' calls for help while you charge it: other players within 64 blocks can give it their energy with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]. Their Ki makes the bomb grow and hit harder (up to ×3 damage), and while they give it keeps growing for as long as you hold the key instead of firing at full charge. See [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Ki Transfer]].",
+  "translation": "* El [[Special:MyLanguage/Emperor's Death Beam|Rayo de la Muerte Imperial]] dispara una rápida cadena de 10 rayos de la muerte; los disparos siguientes hacen el 20% del daño del primero.\n* El [[Special:MyLanguage/Heat Dome Attack|Ataque Cúpula de Calor]] lanza por los aires al enemigo más cercano frente a ti (a 8 bloques o menos) antes de que impacte el rayo.\n* La [[Special:MyLanguage/Hellzone Grenade|Granada Infernal]] necesita un objetivo (fíjalo o apunta a uno): las ráfagas de ki lo rodean y luego se cierran sobre él.\n* '''Neo Kikoho''': después de dispararlo tienes 3 segundos para hacer clic derecho y lanzar otro disparo, hasta 3 disparos adicionales. Cada disparo adicional cuesta el 10% de tu vida máxima y necesita que te quede al menos el 20% de tu vida.\n* La '''Genkidama''' pide ayuda mientras la cargas: otros jugadores a 64 bloques o menos pueden darle su energía con la [[Special:MyLanguage/Ki Transfer|Transferencia de ki]]. Su Ki hace que la bomba crezca y golpee más fuerte (hasta ×3 de daño), y mientras te dan energía sigue creciendo todo el tiempo que mantengas pulsada la tecla, en lugar de dispararse con la carga completa. Consulta [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Transferencia de ki]].",
   "outdated": false
  },
  "52": {
@@ -345,8 +375,8 @@
   "outdated": false
  },
  "69": {
-  "source": "The mod also includes these ki attacks: '''Dodon Ray''', '''Tri-Beam''', '''Neo Tri-Beam''' and '''Blaster Meteor'''.",
-  "translation": "El mod también incluye estos ataques de ki: '''Rayo Dodon''', '''Kikoho''', '''Neo Kikoho''' y '''Blaster Meteor'''.",
+  "source": "The mod also includes the '''Blaster Meteor''' ki attack (Barrage, 5,000 TP, ×0.7 damage multiplier, 15-second cooldown).",
+  "translation": "El mod también incluye el ataque de ki '''Blaster Meteor''' (Descarga, 5,000 TP, multiplicador de daño ×0.7, tiempo de recarga de 15 segundos).",
   "outdated": false
  },
  "70": {

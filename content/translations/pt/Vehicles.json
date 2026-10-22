@@ -1,0 +1,547 @@
+{
+ "Page_display_title": {
+  "source": "Vehicles",
+  "translation": "Veículos",
+  "outdated": false
+ },
+ "1": {
+  "source": "'''Vehicles''' carry you and your friends across the world without spending any ki. You can build cars and an aircraft from parts at a crafting table, get some of those parts from [[Special:MyLanguage/Bulma|Bulma]], or wish for '''Frieza's Capsule''' from [[Special:MyLanguage/Porunga|Porunga]]. The [[Special:MyLanguage/Space Pod|Space Pod]], the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and the Black Nimbus are vehicles too, and every vehicle shares the same controls and rules.",
+  "translation": "Os '''veículos''' levam você e seus amigos pelo mundo todo sem gastar nada de ki. Você pode construir carros e uma aeronave com peças em uma bancada de trabalho, conseguir algumas dessas peças com a [[Special:MyLanguage/Bulma|Bulma]] ou pedir a '''Cápsula do Freeza''' a [[Special:MyLanguage/Porunga|Porunga]]. A [[Special:MyLanguage/Space Pod|Cápsula Espacial]], a [[Special:MyLanguage/Flying Nimbus|Nuvem Voadora]] e a Nuvem Negra também são veículos, e todos os veículos compartilham os mesmos controles e regras.",
+  "outdated": false
+ },
+ "2": {
+  "source": "== Vehicles at a glance ==",
+  "translation": "== Os veículos em resumo ==",
+  "outdated": false
+ },
+ "3": {
+  "source": "Vehicle",
+  "translation": "Veículo",
+  "outdated": false
+ },
+ "4": {
+  "source": "Type",
+  "translation": "Tipo",
+  "outdated": false
+ },
+ "5": {
+  "source": "Seats",
+  "translation": "Assentos",
+  "outdated": false
+ },
+ "6": {
+  "source": "Speed (blocks per second)",
+  "translation": "Velocidade (blocos por segundo)",
+  "outdated": false
+ },
+ "7": {
+  "source": "Sprinting",
+  "translation": "Correndo",
+  "outdated": false
+ },
+ "8": {
+  "source": "Climbing and descending",
+  "translation": "Subir e descer",
+  "outdated": false
+ },
+ "9": {
+  "source": "How to get it",
+  "translation": "Como conseguir",
+  "outdated": false
+ },
+ "10": {
+  "source": "Red Car / Yellow Car",
+  "translation": "Carro Vermelho / Carro Amarelo",
+  "outdated": false
+ },
+ "11": {
+  "source": "Ground",
+  "translation": "Terrestre",
+  "outdated": false
+ },
+ "12": {
+  "source": "— (backs up at 3.6)",
+  "translation": "— (dá ré a 3.6)",
+  "outdated": false
+ },
+ "13": {
+  "source": "Crafting",
+  "translation": "Fabricação",
+  "outdated": false
+ },
+ "14": {
+  "source": "Capsule Corp. 576",
+  "translation": "Corporação Cápsula 576",
+  "outdated": false
+ },
+ "15": {
+  "source": "Flying (always airborne)",
+  "translation": "Voador (sempre no ar)",
+  "outdated": false
+ },
+ "16": {
+  "source": "Crafting",
+  "translation": "Fabricação",
+  "outdated": false
+ },
+ "17": {
+  "source": "Frieza's Capsule",
+  "translation": "Cápsula do Freeza",
+  "outdated": false
+ },
+ "18": {
+  "source": "Hybrid (hovers on the ground, can take off)",
+  "translation": "Híbrido (flutua sobre o chão, pode decolar)",
+  "outdated": false
+ },
+ "19": {
+  "source": "A wish to {{L|Porunga}}",
+  "translation": "Um desejo a {{L|Porunga}}",
+  "outdated": false
+ },
+ "20": {
+  "source": "Flying",
+  "translation": "Voador",
+  "outdated": false
+ },
+ "21": {
+  "source": "Saiyan Saga quest 15, a wish to Shenron, crafting",
+  "translation": "Missão 15 da Saga Saiyajin, um desejo a Shenlong, fabricação",
+  "outdated": false
+ },
+ "22": {
+  "source": "Flying",
+  "translation": "Voador",
+  "outdated": false
+ },
+ "23": {
+  "source": "Dash boost instead",
+  "translation": "Impulso com Esquiva",
+  "outdated": false
+ },
+ "24": {
+  "source": "[[Special:MyLanguage/Korin|Korin]]; only carries riders with an alignment of 67 or more",
+  "translation": "[[Special:MyLanguage/Korin|Karin]]; só carrega quem tem índole de 67 ou mais",
+  "outdated": false
+ },
+ "25": {
+  "source": "[[Special:MyLanguage/Flying Nimbus|Black Nimbus]]",
+  "translation": "[[Special:MyLanguage/Flying Nimbus|Nuvem Negra]]",
+  "outdated": false
+ },
+ "26": {
+  "source": "Flying",
+  "translation": "Voador",
+  "outdated": false
+ },
+ "27": {
+  "source": "Dash boost instead",
+  "translation": "Impulso com Esquiva",
+  "outdated": false
+ },
+ "28": {
+  "source": "[[Special:MyLanguage/Korin|Korin]]; only carries riders with an alignment of 66 or less",
+  "translation": "[[Special:MyLanguage/Korin|Karin]]; só carrega quem tem índole de 66 ou menos",
+  "outdated": false
+ },
+ "29": {
+  "source": "Vehicle speeds are fixed: they don't depend on your stats, skills or form. Sprinting only speeds up the cars, the Capsule Corp. 576 and Frieza's Capsule; the clouds have a Dash boost instead.",
+  "translation": "As velocidades dos veículos são fixas: não dependem das suas estatísticas, habilidades ou forma. Correr só acelera os carros, a Corporação Cápsula 576 e a Cápsula do Freeza; as nuvens têm um impulso com Esquiva no lugar disso.",
+  "outdated": false
+ },
+ "30": {
+  "source": "== Placing and boarding ==",
+  "translation": "== Colocando e embarcando ==",
+  "outdated": false
+ },
+ "31": {
+  "source": "* '''Place:''' right-click a block with the vehicle item. The vehicle appears facing the way you look, and the item is used up (except in Creative mode). Vehicle items don't stack. If something is in the way you get \"There is not enough room to place this vehicle here.\"\n* '''Board:''' right-click the vehicle. The first player to get in drives and the others take the free seats. The [[Special:MyLanguage/Space Pod|Space Pod]] opens its hatch on the first click and lets you in on the second.\n* '''Get out:''' press Sneak ({{Key|Left Shift}} by default), as with any other mount. The cars, the Capsule Corp. 576 and Frieza's Capsule let you out beside them.\n* '''Pick up:''' hit the vehicle to turn it back into its item.",
+  "translation": "* '''Colocar:''' clique com o botão direito em um bloco com o item do veículo. O veículo aparece virado para onde você está olhando e o item é gasto (exceto no modo Criativo). Itens de veículo não empilham. Se algo estiver no caminho, aparece \"Não há espaço suficiente para colocar este veículo aqui.\"\n* '''Embarcar:''' clique com o botão direito no veículo. O primeiro jogador a entrar dirige e os outros ocupam os assentos livres. A [[Special:MyLanguage/Space Pod|Cápsula Espacial]] abre a escotilha no primeiro clique e deixa você entrar no segundo.\n* '''Sair:''' aperte Agachar ({{Key|Shift esquerdo}} por padrão), como em qualquer outra montaria. Os carros, a Corporação Cápsula 576 e a Cápsula do Freeza deixam você sair ao lado deles.\n* '''Recolher:''' bata no veículo para transformá-lo de volta no item.",
+  "outdated": false
+ },
+ "32": {
+  "source": "Vehicles need no fuel and never despawn. Only a hit from a player affects them, and that hit picks them up: they ignore fire, mobs, explosions and fall damage.",
+  "translation": "Os veículos não precisam de combustível e nunca somem. Só o golpe de um jogador os afeta, e esse golpe os recolhe: eles ignoram fogo, mobs, explosões e dano de queda.",
+  "outdated": false
+ },
+ "33": {
+  "source": "Anyone can pick it up",
+  "translation": "Qualquer um pode recolher",
+  "outdated": false
+ },
+ "34": {
+  "source": "Any player can pick up any vehicle by hitting it, not only the player who placed it.",
+  "translation": "Qualquer jogador pode recolher qualquer veículo batendo nele, não só quem o colocou.",
+  "outdated": false
+ },
+ "35": {
+  "source": "== Controls ==",
+  "translation": "== Controles ==",
+  "outdated": false
+ },
+ "36": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "37": {
+  "source": "What it does",
+  "translation": "O que faz",
+  "outdated": false
+ },
+ "38": {
+  "source": "Mouse",
+  "translation": "Mouse",
+  "outdated": false
+ },
+ "39": {
+  "source": "Steer: the vehicle turns to face where you look.",
+  "translation": "Dirigir: o veículo vira para onde você está olhando.",
+  "outdated": false
+ },
+ "40": {
+  "source": "Move forward or back. The cars back up slowly.",
+  "translation": "Ir para a frente ou para trás. Os carros dão ré devagar.",
+  "outdated": false
+ },
+ "41": {
+  "source": "Move sideways. The cars can't.",
+  "translation": "Mover para os lados. Os carros não podem.",
+  "outdated": false
+ },
+ "42": {
+  "source": "Jump ({{Key|Space}})",
+  "translation": "Pular ({{Key|Espaço}})",
+  "outdated": false
+ },
+ "43": {
+  "source": "Climb. In Frieza's Capsule, double-tap it to take off.",
+  "translation": "Subir. Na Cápsula do Freeza, aperte duas vezes seguidas para decolar.",
+  "outdated": false
+ },
+ "44": {
+  "source": "Second Function ({{Key|Left Alt}})",
+  "translation": "Função Secundária ({{Key|Alt esquerdo}})",
+  "outdated": false
+ },
+ "45": {
+  "source": "Descend.",
+  "translation": "Descer.",
+  "outdated": false
+ },
+ "46": {
+  "source": "Sprint ({{Key|Left Ctrl}})",
+  "translation": "Correr ({{Key|Ctrl esquerdo}})",
+  "outdated": false
+ },
+ "47": {
+  "source": "Go faster (cars, Capsule Corp. 576 and Frieza's Capsule).",
+  "translation": "Ir mais rápido (carros, Corporação Cápsula 576 e Cápsula do Freeza).",
+  "outdated": false
+ },
+ "48": {
+  "source": "Dash ({{Key|R}})",
+  "translation": "Esquiva ({{Key|R}})",
+  "outdated": false
+ },
+ "49": {
+  "source": "A burst of speed (Flying Nimbus and Black Nimbus only).",
+  "translation": "Um impulso de velocidade (só a Nuvem Voadora e a Nuvem Negra).",
+  "outdated": false
+ },
+ "50": {
+  "source": "Technique Slot 1–4 ({{Key|Alt}} + {{Key|1}}–{{Key|4}})",
+  "translation": "Slot de técnica 1–4 ({{Key|Alt}} + {{Key|1}}–{{Key|4}})",
+  "outdated": false
+ },
+ "51": {
+  "source": "Move to seat 1–4. Seat 1 is the driver's seat. If the seat is taken you get \"Seat 2 is already taken.\" (with that seat's number).",
+  "translation": "Passar para o assento 1–4. O assento 1 é o do motorista. Se o assento estiver ocupado, aparece \"O assento 2 já está ocupado.\" (com o número desse assento).",
+  "outdated": false
+ },
+ "52": {
+  "source": "Sneak ({{Key|Left Shift}})",
+  "translation": "Agachar ({{Key|Shift esquerdo}})",
+  "outdated": false
+ },
+ "53": {
+  "source": "Get out.",
+  "translation": "Sair do veículo.",
+  "outdated": false
+ },
+ "54": {
+  "source": "The keys shown are the defaults; vehicles follow your own key bindings (see [[Special:MyLanguage/Controls|Controls]]).",
+  "translation": "As teclas mostradas são as padrão; os veículos seguem as suas próprias configurações de teclas (veja [[Special:MyLanguage/Controls|Controles]]).",
+  "outdated": false
+ },
+ "55": {
+  "source": "== While you ride ==",
+  "translation": "== Enquanto você pilota ==",
+  "outdated": false
+ },
+ "56": {
+  "source": "* You can't fire [[Special:MyLanguage/Techniques|techniques]] from any vehicle: the technique slot keys pick seats instead.\n* [[Special:MyLanguage/Fly|Fly]] switches off when you get on, and you can't switch it back on until you get off.\n* Ground vehicles drive up 1-block steps on their own; flying vehicles only take small steps (0.6 blocks) without climbing.\n* A driven ground vehicle, or Frieza's Capsule when it lands, rests on the surface of still water instead of sinking.\n* Flying vehicles lean into turns and climbs. The cars, the Capsule Corp. 576, Frieza's Capsule and the Space Pod have engine sounds, and the cars, the Capsule Corp. 576 and the Space Pod leave exhaust smoke while someone drives.\n* An empty flying vehicle slowly drifts down to the ground, and any vehicle left in water or lava sinks.\n* The Capsule Corp. 576 moves your third-person camera 6 blocks further back so the whole aircraft fits on screen.",
+  "translation": "* Você não pode lançar [[Special:MyLanguage/Techniques|técnicas]] de nenhum veículo: as teclas dos slots de técnica escolhem o assento.\n* [[Special:MyLanguage/Fly|Voar]] desliga quando você embarca, e você não pode ligá-lo de novo até sair.\n* Os veículos terrestres sobem degraus de 1 bloco sozinhos; os voadores só passam por degraus pequenos (0.6 bloco) sem subir.\n* Um veículo terrestre sendo dirigido, ou a Cápsula do Freeza quando pousa, fica sobre a superfície da água parada em vez de afundar.\n* Os veículos voadores se inclinam nas curvas e nas subidas. Os carros, a Corporação Cápsula 576, a Cápsula do Freeza e a Cápsula Espacial têm som de motor, e os carros, a Corporação Cápsula 576 e a Cápsula Espacial soltam fumaça enquanto alguém pilota.\n* Um veículo voador vazio desce devagar até o chão, e qualquer veículo deixado na água ou na lava afunda.\n* A Corporação Cápsula 576 afasta a sua câmera em terceira pessoa 6 blocos a mais para que a aeronave inteira caiba na tela.",
+  "outdated": false
+ },
+ "57": {
+  "source": "== Cars ==",
+  "translation": "== Carros ==",
+  "outdated": false
+ },
+ "58": {
+  "source": "The '''Red Car''' and the '''Yellow Car''' are the same two-seat ground vehicle in two colors. They only drive on the ground, can't move sideways, back up slowly and go much faster while you sprint. Each one takes 2 Vehicle Plating, 2 Vehicle Seats, 1 Vehicle Engine, 2 Black Wool and a Red or Yellow Dye.",
+  "translation": "O '''Carro Vermelho''' e o '''Carro Amarelo''' são o mesmo veículo terrestre de dois assentos em duas cores. Eles só andam no chão, não podem se mover para os lados, dão ré devagar e ficam bem mais rápidos enquanto você corre. Cada um leva 2 Blindagens de Veículo, 2 Assentos de Veículo, 1 Motor de Veículo, 2 Lãs pretas e um Corante vermelho ou amarelo.",
+  "outdated": false
+ },
+ "59": {
+  "source": "== Capsule Corp. 576 ==",
+  "translation": "== Corporação Cápsula 576 ==",
+  "outdated": false
+ },
+ "60": {
+  "source": "The '''Capsule Corp. 576''' is a four-seat aircraft and, while you sprint, the fastest vehicle in the game. It is always in flight: it holds its height when you let go of the controls and only climbs or descends when you tell it to. Building one takes 2 Vehicle Propellers, 2 Vehicle Engines, 2 Vehicle Seats, 2 Vehicle Plating and 1 Glass.",
+  "translation": "A '''Corporação Cápsula 576''' é uma aeronave de quatro assentos e, enquanto você corre, o veículo mais rápido do jogo. Ela está sempre em voo: mantém a altura quando você solta os controles e só sobe ou desce quando você manda. Para construí-la, você precisa de 2 Hélices de Veículo, 2 Motores de Veículo, 2 Assentos de Veículo, 2 Blindagens de Veículo e 1 Vidro.",
+  "outdated": false
+ },
+ "61": {
+  "source": "== Frieza's Capsule ==",
+  "translation": "== Cápsula do Freeza ==",
+  "outdated": false
+ },
+ "62": {
+  "source": "'''Frieza's Capsule''' is Frieza's one-seat hover pod. It glides along the ground, bobbing gently, until you '''double-tap Jump''': it then takes off in a ring of clouds and flies like the other aircraft. It lands by itself when you descend onto the ground or onto still water. Sprinting makes it faster both on the ground and in the air.",
+  "translation": "A '''Cápsula do Freeza''' é a cápsula flutuante de um assento do Freeza. Ela desliza sobre o chão, balançando de leve, até você '''apertar Pular duas vezes seguidas''': aí ela decola em um anel de nuvens e voa como as outras aeronaves. Ela pousa sozinha quando você desce sobre o chão ou sobre água parada. Correr a deixa mais rápida tanto no chão quanto no ar.",
+  "outdated": false
+ },
+ "63": {
+  "source": "It can't be crafted: you get it with the '''Frieza's Capsule''' wish from [[Special:MyLanguage/Porunga|Porunga]]. Porunga (Daima), in the Demon Realm, has his own wish list with the same wishes, this one included.",
+  "translation": "Ela não pode ser fabricada: você a consegue com o desejo '''Cápsula do Freeza''' de [[Special:MyLanguage/Porunga|Porunga]]. Porunga (Daima), no Reino Demoníaco, tem a sua própria lista de desejos com os mesmos desejos, incluindo este.",
+  "outdated": false
+ },
+ "64": {
+  "source": "Worlds from before version 2.2",
+  "translation": "Mundos de antes da versão 2.2",
+  "outdated": false
+ },
+ "65": {
+  "source": "Each world keeps the Porunga wish list it already has (<code>dragonminez/wishes/porunga.json</code> in the world folder), so worlds created before version 2.2 don't get the Frieza's Capsule wish on their own. Server owners can add it by hand, or delete that file so the default list is written again (which also undoes any changes made to it). See [[Special:MyLanguage/Custom Wishes|Custom Wishes]].",
+  "translation": "Cada mundo mantém a lista de desejos de Porunga que já tem (<code>dragonminez/wishes/porunga.json</code> na pasta do mundo), então os mundos criados antes da versão 2.2 não ganham o desejo da Cápsula do Freeza sozinhos. Os donos de servidores podem adicioná-lo à mão ou apagar esse arquivo para que a lista padrão seja escrita de novo (o que também desfaz qualquer mudança feita nela). Veja [[Special:MyLanguage/Custom Wishes|Desejos personalizados]].",
+  "outdated": false
+ },
+ "66": {
+  "source": "== Space Pod and the clouds ==",
+  "translation": "== A Cápsula Espacial e as nuvens ==",
+  "outdated": false
+ },
+ "67": {
+  "source": "The [[Special:MyLanguage/Space Pod|Space Pod]], the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and the Black Nimbus use the same controls and rules as the other vehicles. Their own pages explain how to get them, the Space Pod's trips to other worlds and the alignment each cloud asks of its riders.",
+  "translation": "A [[Special:MyLanguage/Space Pod|Cápsula Espacial]], a [[Special:MyLanguage/Flying Nimbus|Nuvem Voadora]] e a Nuvem Negra usam os mesmos controles e regras que os outros veículos. As páginas delas explicam como consegui-las, as viagens da Cápsula Espacial para outros mundos e a índole que cada nuvem exige de quem a monta.",
+  "outdated": false
+ },
+ "68": {
+  "source": "A one-person spacecraft that takes you between worlds.",
+  "translation": "Uma nave espacial para uma pessoa que leva você entre mundos.",
+  "outdated": false
+ },
+ "69": {
+  "source": "Korin's cloud for the pure of heart, and its dark counterpart, the Black Nimbus.",
+  "translation": "A nuvem de Karin para quem tem coração puro, e sua versão sombria, a Nuvem Negra.",
+  "outdated": false
+ },
+ "70": {
+  "source": "== Vehicle parts ==",
+  "translation": "== Peças de veículo ==",
+  "outdated": false
+ },
+ "71": {
+  "source": "The cars and the Capsule Corp. 576 are built from four parts, all made at a crafting table. Vehicle Engines, Propellers and Seats stack to 16, and Vehicle Plating to 32.",
+  "translation": "Os carros e a Corporação Cápsula 576 são construídos com quatro peças, todas feitas em uma bancada de trabalho. Motores, Hélices e Assentos de Veículo empilham até 16, e a Blindagem de Veículo até 32.",
+  "outdated": false
+ },
+ "72": {
+  "source": "Part",
+  "translation": "Peça",
+  "outdated": false
+ },
+ "73": {
+  "source": "Used in",
+  "translation": "Usada em",
+  "outdated": false
+ },
+ "74": {
+  "source": "Recipe",
+  "translation": "Receita",
+  "outdated": false
+ },
+ "75": {
+  "source": "Vehicle Engine",
+  "translation": "Motor de Veículo",
+  "outdated": false
+ },
+ "76": {
+  "source": "Cars (1), Capsule Corp. 576 (2)",
+  "translation": "Carros (1), Corporação Cápsula 576 (2)",
+  "outdated": false
+ },
+ "77": {
+  "source": "Vehicle Propeller",
+  "translation": "Hélice de Veículo",
+  "outdated": false
+ },
+ "78": {
+  "source": "Capsule Corp. 576 (2)",
+  "translation": "Corporação Cápsula 576 (2)",
+  "outdated": false
+ },
+ "79": {
+  "source": "Vehicle Seat",
+  "translation": "Assento de Veículo",
+  "outdated": false
+ },
+ "80": {
+  "source": "Cars (2), Capsule Corp. 576 (2)",
+  "translation": "Carros (2), Corporação Cápsula 576 (2)",
+  "outdated": false
+ },
+ "81": {
+  "source": "Vehicle Plating ×2",
+  "translation": "Blindagem de Veículo ×2",
+  "outdated": false
+ },
+ "82": {
+  "source": "Cars (2), Capsule Corp. 576 (2)",
+  "translation": "Carros (2), Corporação Cápsula 576 (2)",
+  "outdated": false
+ },
+ "83": {
+  "source": "=== Parts from Bulma ===",
+  "translation": "=== Peças da Bulma ===",
+  "outdated": false
+ },
+ "84": {
+  "source": "[[Special:MyLanguage/Bulma|Bulma]] gives out parts as rewards for some of her [[Special:MyLanguage/Sidequests|side quests]]. Deliver the items to her, then talk to her to finish the quest:",
+  "translation": "A [[Special:MyLanguage/Bulma|Bulma]] dá peças como recompensa de algumas das suas [[Special:MyLanguage/Sidequests|missões secundárias]]. Entregue os itens para ela e depois fale com ela para concluir a missão:",
+  "outdated": false
+ },
+ "85": {
+  "source": "Side quest",
+  "translation": "Missão secundária",
+  "outdated": false
+ },
+ "86": {
+  "source": "Unlocks after",
+  "translation": "Desbloqueia após",
+  "outdated": false
+ },
+ "87": {
+  "source": "Deliver",
+  "translation": "Entregar",
+  "outdated": false
+ },
+ "88": {
+  "source": "Reward",
+  "translation": "Recompensa",
+  "outdated": false
+ },
+ "89": {
+  "source": "[[Special:MyLanguage/Sidequests#sq-bulma_capsule_development|Capsule Corp R&D]]",
+  "translation": "[[Special:MyLanguage/Sidequests#sq-bulma_capsule_development|P&D da Corporação Cápsula]]",
+  "outdated": false
+ },
+ "90": {
+  "source": "[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 1",
+  "translation": "Missão 1 da [[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]]",
+  "outdated": false
+ },
+ "91": {
+  "source": "16 Iron Ingots, 16 Redstone Dust, 2 Pistons",
+  "translation": "16 Lingotes de ferro, 16 Pós de redstone, 2 Pistões",
+  "outdated": false
+ },
+ "92": {
+  "source": "4 Attributes, 1 Vehicle Engine",
+  "translation": "4 Atributos, 1 Motor de Veículo",
+  "outdated": false
+ },
+ "93": {
+  "source": "[[Special:MyLanguage/Sidequests#sq-bulma_vehicle_upholstery|Comfortable Ride]]",
+  "translation": "[[Special:MyLanguage/Sidequests#sq-bulma_vehicle_upholstery|Viagem Confortável]]",
+  "outdated": false
+ },
+ "94": {
+  "source": "[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 3",
+  "translation": "Missão 3 da [[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]]",
+  "outdated": false
+ },
+ "95": {
+  "source": "8 Leather, 4 Cyan Wool, 4 Iron Ingots",
+  "translation": "8 Couros, 4 Lãs ciano, 4 Lingotes de ferro",
+  "outdated": false
+ },
+ "96": {
+  "source": "3 Attributes, 2 Vehicle Seats",
+  "translation": "3 Atributos, 2 Assentos de Veículo",
+  "outdated": false
+ },
+ "97": {
+  "source": "[[Special:MyLanguage/Sidequests#sq-bulma_rare_mineral_survey|Rare Mineral Survey]]",
+  "translation": "[[Special:MyLanguage/Sidequests#sq-bulma_rare_mineral_survey|Levantamento de Minerais Raros]]",
+  "outdated": false
+ },
+ "98": {
+  "source": "[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 8",
+  "translation": "Missão 8 da [[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]]",
+  "outdated": false
+ },
+ "99": {
+  "source": "12 Iron Ingots, 12 Copper Ingots, 4 Amethyst Shards",
+  "translation": "12 Lingotes de ferro, 12 Lingotes de cobre, 4 Fragmentos de ametista",
+  "outdated": false
+ },
+ "100": {
+  "source": "3 Attributes, 2 Vehicle Plating",
+  "translation": "3 Atributos, 2 Blindagens de Veículo",
+  "outdated": false
+ },
+ "101": {
+  "source": "[[Special:MyLanguage/Sidequests#sq-bulma_flight_stabilizer|Flight Stabilizer]]",
+  "translation": "[[Special:MyLanguage/Sidequests#sq-bulma_flight_stabilizer|Estabilizador de Voo]]",
+  "outdated": false
+ },
+ "102": {
+  "source": "[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 9",
+  "translation": "Missão 9 da [[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]]",
+  "outdated": false
+ },
+ "103": {
+  "source": "16 Feathers, 8 Iron Ingots, 4 Gold Ingots",
+  "translation": "16 Penas, 8 Lingotes de ferro, 4 Lingotes de ouro",
+  "outdated": false
+ },
+ "104": {
+  "source": "3 Attributes, 1 Vehicle Propeller",
+  "translation": "3 Atributos, 1 Hélice de Veículo",
+  "outdated": false
+ },
+ "105": {
+  "source": "[[Special:MyLanguage/Sidequests#sq-merchant_alien_artifacts|Alien Artifacts]]",
+  "translation": "[[Special:MyLanguage/Sidequests#sq-merchant_alien_artifacts|Artefatos Alienígenas]]",
+  "outdated": false
+ },
+ "106": {
+  "source": "[[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest 4",
+  "translation": "Missão 4 da [[Special:MyLanguage/Frieza Saga|Saga Freeza]]",
+  "outdated": false
+ },
+ "107": {
+  "source": "16 Kikono Shards, 4 Diamonds",
+  "translation": "16 Fragmentos de Kikono, 4 Diamantes",
+  "outdated": false
+ },
+ "108": {
+  "source": "13 Attributes, 1 Vehicle Engine",
+  "translation": "13 Atributos, 1 Motor de Veículo",
+  "outdated": false
+ }
+}

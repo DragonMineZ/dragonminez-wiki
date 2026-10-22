@@ -1,0 +1,149 @@
+{{Infobox Tournament
+|Tournament id=budokai
+|Host={{L|World Tournament Announcer}}
+|Arena=<translate><!--T:2--> World Martial Arts Tournament island (Overworld oceans)</translate>
+|Format=<translate><!--T:3--> Bracket</translate>
+|Ring=<translate><!--T:4--> Knockout</translate>
+|Difficulty=★★★★
+|Fighters=<translate><!--T:5--> An 8-seat bracket of fighters from every era of the story</translate>
+|Final={{L|Gohan}} <translate><!--T:6--> (Buu Saga; semi-final)</translate>; {{L|Vegeta}} <translate><!--T:7--> (Majin Vegeta; final)</translate>; {{L|Mr. Satan}} <translate><!--T:8--> (World Champion; title match)</translate>
+|Rewards=<translate><!--T:9--> 1,800,000 TP, +5 alignment</translate>
+|Re-entry cooldown=<translate><!--T:10--> 75 minutes</translate>
+}}
+<translate>
+<!--T:11-->
+'''The World Martial Arts Tournament''' is a four-star '''bracket''' tournament held on an island of its own in the oceans of [[Special:MyLanguage/Earth|Earth]]. After a bracket of contenders from every era of the story, you face [[Special:MyLanguage/Gohan|Gohan]] in the semi-final, Majin [[Special:MyLanguage/Vegeta|Vegeta]] in the final and the reigning World Champion, '''[[Special:MyLanguage/Mr. Satan|Mr. Satan]]''', in the title match. Bouts end at knockout, so nobody dies. The island is also home to [[Special:MyLanguage/Master Tien|Master Tien]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]].
+</translate>
+
+<translate>
+== The island == <!--T:12-->
+
+<!--T:13-->
+The island is a structure of 172 × 91 × 342 blocks (id <code>budokai_tenkaichi</code>) that generates '''once per world''' in an Ocean, Deep Ocean, Lukewarm Ocean, Deep Lukewarm Ocean, Warm Ocean, Cold Ocean or Deep Cold Ocean biome, never in frozen oceans. Its site has to be at least 98% water and keeps away from Ocean Monuments, and the island always faces the same way. It is too big to place at once, so it is built step by step as players come within about 200 blocks of it.
+
+<!--T:14-->
+Like every tournament arena, the island can't be built in or broken by survival players (see [[Special:MyLanguage/Tournaments#Arena protection|arena protection]]), and ki attacks can't damage it (see [[Special:MyLanguage/Structures#Protection|structure protection]]).
+</translate>
+
+<translate>
+=== Finding it === <!--T:15-->
+
+<!--T:16-->
+* {{Command|/dmzlocate budokai_tenkaichi}} prints the island's coordinates (see [[Special:MyLanguage/Structures#Finding structures|Finding structures]]).
+* Every [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher sells a '''World Martial Arts Tournament Map''' for 1 Map and 4 Gold Ingots, up to 8 times. If the island hasn't been placed in the world yet, the trade shows as out of stock until it can be located.
+</translate>
+
+<translate>
+=== Who lives there === <!--T:17-->
+
+<!--T:18-->
+* The '''[[Special:MyLanguage/World Tournament Announcer|World Tournament Announcer]]''' stands by the ring and hosts the tournament. He talks to every player, teaches nothing and is never drawn as a fighter.
+* [[Special:MyLanguage/Mr. Satan|Mr. Satan]], the World Champion, waits near the announcer and gives four side quests.
+* [[Special:MyLanguage/Master Tien|Master Tien]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]] stand together about 130 blocks from the ring. Master Tien teaches the Dodon Ray, the Tri-Beam and the Neo Tri-Beam; Chiaotzu gives three side quests.
+</translate>
+
+<translate>
+== Entering == <!--T:19-->
+
+<!--T:20-->
+Talk to the World Tournament Announcer, press '''Tournament''' and then '''Enter''' while you are within 12 blocks of him. He talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]]. The general rules for entering, bouts and parties are on [[Special:MyLanguage/Tournaments|Tournaments]].
+</translate>
+
+<translate>
+== Format == <!--T:21-->
+
+<!--T:22-->
+This tournament is a '''bracket''' of 8 seats filled with random contenders. Winners climb the ladder, and fights between two NPCs are decided automatically. After the 3 qualifier rounds, the survivor faces the semi-finalist, then the finalist and finally the champion, so winning alone takes 6 bouts. Only those three are known before you enter; the rest of the draw is revealed once everybody accepts the rules.
+
+<!--T:23-->
+With a party, each member has their own seat; if the draw puts two members against each other, they fight a PvP bout. Each bout lasts up to '''7 minutes'''; a bout that runs out of time is void and fought again. The tournament is '''non-lethal''': bouts end at knockout and nobody dies.
+</translate>
+
+<translate>
+== Fighters == <!--T:24-->
+</translate>
+<translate>
+=== Semi-final, final and title match === <!--T:25-->
+
+<!--T:26-->
+The last three opponents are always the same. Unlike the contenders, they don't get stronger from round to round. Mr. Satan, the reigning champion, is far weaker than the two fighters before him.
+</translate>
+{| class="wikitable"
+! <translate><!--T:27--> Stage</translate> !! <translate><!--T:28--> Fighter</translate> !! <translate><!--T:29--> Health / melee / ki</translate> !! <translate><!--T:30--> AI tier</translate>
+|-
+| <translate><!--T:31--> Semi-finalist</translate> || {{L|Gohan}} <translate><!--T:32--> (Buu Saga)</translate> || 462,000 / 19,200 / 17,400 || <translate><!--T:33--> Elite</translate>
+|-
+| <translate><!--T:34--> Finalist</translate> || {{L|Vegeta}} <translate><!--T:35--> (Majin Vegeta)</translate> || 640,000 / 26,700 / 24,300 || <translate><!--T:36--> Elite</translate>
+|-
+| <translate><!--T:37--> Champion</translate> || {{L|Mr. Satan}} || 96,000 / 4,200 / 1,500 || <translate><!--T:38--> Smart</translate>
+|}
+
+<translate>
+=== Contenders === <!--T:39-->
+
+<!--T:40-->
+The contenders come from nine stat tiers. Each tier draws one random character from the pool below, and the drawn fighters are shuffled into the free seats, so a solo bracket uses 7 of the 9 tiers and you can't tell which one you'll meet first. Contenders get 8% stronger for every round already played. The default tiers are:
+</translate>
+{| class="wikitable"
+! <translate><!--T:41--> Stat tier</translate> !! <translate><!--T:42--> Health / melee / ki</translate> !! <translate><!--T:43--> AI tier</translate>
+|-
+| 1 || 147,000 / 6,100 / 5,500 || <translate><!--T:44--> Smart</translate>
+|-
+| 2 || 168,000 / 7,000 / 6,300 || <translate><!--T:45--> Smart</translate>
+|-
+| 3 || 189,000 / 7,900 / 7,100 || <translate><!--T:46--> Smart</translate>
+|-
+| 4 || 213,500 / 8,900 / 8,000 || <translate><!--T:47--> Smart</translate>
+|-
+| 5 || 245,000 / 10,200 / 9,200 || <translate><!--T:48--> Elite</translate>
+|-
+| 6 || 280,000 / 11,700 / 10,500 || <translate><!--T:49--> Elite</translate>
+|-
+| 7 || 315,000 / 13,100 / 11,800 || <translate><!--T:50--> Elite</translate>
+|-
+| 8 || 350,000 / 14,600 / 13,100 || <translate><!--T:51--> Elite</translate>
+|-
+| 9 || 392,000 / 16,300 / 14,700 || <translate><!--T:52--> Elite</translate>
+|}
+
+<translate>
+<!--T:53-->
+The pool is the entity tag <code>#dragonminez:npc_budokai</code>, with 34 characters from every saga: [[Special:MyLanguage/Kid Goku|Kid Goku]], Kid Krillin, Bandit Yamcha, Young Yamcha, Jackie Chun, Jackie Chun (Full Power), Nam, [[Special:MyLanguage/Giran|Giran]], Young Tien Shinhan, [[Special:MyLanguage/Chiaotzu|Chiaotzu]], Goku, Yamcha, [[Special:MyLanguage/Tien Shinhan|Tien Shinhan]], Chi-Chi, Majunia, [[Special:MyLanguage/Krillin|Krillin]], Cyborg Tao Pai Pai, [[Special:MyLanguage/Mr. Satan|Mr. Satan]], [[Special:MyLanguage/Goku|Goku (End)]], [[Special:MyLanguage/Vegeta|Vegeta (End)]], Majin Vegeta, [[Special:MyLanguage/Gohan|Gohan (End)]], [[Special:MyLanguage/Piccolo|Piccolo]], [[Special:MyLanguage/Videl|Videl]], Android 18, [[Special:MyLanguage/Kid Trunks|Trunks]], [[Special:MyLanguage/Goten|Goten]], [[Special:MyLanguage/Shin|Shin]], [[Special:MyLanguage/Kibito|Kibito]], [[Special:MyLanguage/Spopovich|Spopovich]], [[Special:MyLanguage/Majin Buu|Majin Buu]], Uub, Pan and Goku (GT).
+
+<!--T:54-->
+Each seat draws a character who isn't in the tournament yet, and the semi-finalist, the finalist and the champion are drawn first, so Gohan (End), Majin Vegeta and Mr. Satan are never drawn as contenders. Jackie Chun and Jackie Chun (Full Power) count as one character. The four Gokus (Kid Goku, Goku, Goku (End) and Goku (GT)) are different characters and can meet in the same bracket, and Vegeta (End) can still be drawn even though Majin Vegeta is the finalist.
+</translate>
+
+<translate>
+== Rewards == <!--T:55-->
+
+<!--T:56-->
+Beating Mr. Satan wins '''1,800,000 TP''' and '''+5 alignment''', with fireworks and the victory music. Losing a bout, withdrawing or being disqualified puts you on a '''75-minute''' cooldown before you can enter again; winning starts the same cooldown.
+</translate>
+
+<translate>
+== Side quests == <!--T:57-->
+</translate>
+{{Main|Sidequests}}
+<translate>
+<!--T:58-->
+[[Special:MyLanguage/Mr. Satan|Mr. Satan]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]] give side quests on the island, and one of Chiaotzu's sends you to [[Special:MyLanguage/Master Tien|Master Tien]]. Enemies spawned by these quests scale with your story difficulty.
+</translate>
+{{#invoke:Sidequests|giver|mr_satan,chiaotzu}}
+
+<translate>
+== Configuration and commands == <!--T:59-->
+
+<!--T:60-->
+The tournament is set up in <code>config/dragonminez/tournaments/budokai.json</code>, with the same fields as the other tournaments (see [[Special:MyLanguage/Tournaments#Configuration|Tournaments]]); its rewards can also run <code>commands</code> for the winner. Operators can move the ring with {{Command|/dmztournament ring budokai}} and clear cooldowns with {{Command|/dmztournament cooldown clear &lt;players&gt; budokai}}.
+</translate>
+
+<translate>
+== In the story == <!--T:61-->
+
+<!--T:62-->
+The [[Special:MyLanguage/Classic Saga|Classic Saga]] and the [[Special:MyLanguage/Buu Saga|Buu Saga]] have their own World Tournament quests. They are story fights in the plains, not part of this tournament.
+</translate>
+
+{{Navbox Challenges}}
+[[Category:Structures{{#translation:}}]]

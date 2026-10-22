@@ -16,7 +16,7 @@ Smaller attacks (Small Balls, Lasers, Disks) that run into a firing beam don't c
 Allies never clash with each other: party members (while party PvP is off), players on the same team and players fighting the same world boss (see [[Special:MyLanguage/World Bosses#Truce|world boss truce]]) can fire their beams side by side, and a beam doesn't destroy an ally's smaller attacks.
 
 <!--T:6-->
-While the clash lasts, both fighters are held in place and '''invulnerable'''.
+While the clash lasts, both fighters are held in place and '''invulnerable''', and the damage of both beams is frozen.
 </translate>
 
 <translate>
@@ -48,7 +48,7 @@ Your stats decide how hard each press pushes: the beam with more power behind it
 == Winning and losing == <!--T:14-->
 
 <!--T:15-->
-The side that pushes the clash far enough '''wins''': its beam breaks through and keeps going for a moment. The losing beam is destroyed and the loser is '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).
+The side that pushes the clash far enough '''wins''': its beam breaks through and keeps going for a moment, and the losing fighter takes the beam's '''full Ki damage''', even through invulnerability frames. The losing beam is destroyed and the loser is '''exhausted''': stunned for 3.5 seconds (see [[Special:MyLanguage/Effects|Effects]]).
 
 <!--T:16-->
 A clash can also end in other ways:

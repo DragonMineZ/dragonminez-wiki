@@ -5,8 +5,8 @@
   "outdated": false
  },
  "1": {
-  "source": "The changelog lists every change made to DragonMineZ, newest version first. Version 2.2 is a major update: it adds the Demon Realm, world bosses, raids and tournaments, three new sagas, the Glind race, the Unversed class, a reworked combat system, a new HUD and much more. The list below covers everything that changed from version 2.1.3 to version 2.2.",
-  "translation": "As notas de versão listam todas as mudanças feitas no DragonMineZ, da versão mais nova para a mais antiga. A versão 2.2 é uma grande atualização: adiciona o Reino Demoníaco, chefes de mundo, incursões e torneios, três novas sagas, a raça Glind, a classe Unversed, um sistema de combate reformulado, uma nova HUD e muito mais. A lista abaixo cobre tudo o que mudou da versão 2.1.3 para a versão 2.2.",
+  "source": "The changelog lists every change made to DragonMineZ, newest version first. Version 2.2 is a major update: it adds the Demon Realm, world bosses, raids and tournaments, three new sagas, the Glind race, the Unversed class, vehicles, a reworked combat system, a new HUD and much more. The list below covers everything that changed from version 2.1.3 to version 2.2.",
+  "translation": "As notas de versão listam todas as mudanças feitas no DragonMineZ, da versão mais nova para a mais antiga. A versão 2.2 é uma grande atualização: adiciona o Reino Demoníaco, chefes de mundo, incursões e torneios, três novas sagas, a raça Glind, a classe Unversed, veículos, um sistema de combate reformulado, uma nova HUD e muito mais. A lista abaixo cobre tudo o que mudou da versão 2.1.3 para a versão 2.2.",
   "outdated": false
  },
  "2": {
@@ -65,8 +65,8 @@
   "outdated": false
  },
  "13": {
-  "source": "New treasure maps: Baba's Palace and Buu's House (sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), the Big Gete Star ([[Special:MyLanguage/Namekian Trader|Namekian Traders]]), the three Tamagami lairs and Gomah's Horn Cradle (Time Patroller). Maps to structures that don't exist yet now show as out of stock instead of disappearing.",
-  "translation": "Novos mapas do tesouro: o Palácio da Vovó Uranai e a Casa do Boo (vendidos pelo [[Special:MyLanguage/Capsule Corp Assistant|Assistente da Corporação Cápsula]]), a Estrela Big Gete ([[Special:MyLanguage/Namekian Trader|Comerciantes Namekuseijins]]), os três covis dos Tamagamis e o Berço de Chifres de Gomah (Patrulheiro do Tempo). Mapas para estruturas que ainda não existem agora aparecem como esgotados em vez de sumir.",
+  "source": "New treasure maps: Baba's Palace, Buu's House and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] (sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]]), the Big Gete Star ([[Special:MyLanguage/Namekian Trader|Namekian Traders]]), the three Tamagami lairs and Gomah's Horn Cradle (Time Patroller). Maps to structures that don't exist yet now show as out of stock instead of disappearing.",
+  "translation": "Novos mapas do tesouro: o Palácio da Vovó Uranai, a Casa do Boo e o [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]] (vendidos pelo [[Special:MyLanguage/Capsule Corp Assistant|Assistente da Corporação Cápsula]]), a Estrela Big Gete ([[Special:MyLanguage/Namekian Trader|Comerciantes Namekuseijins]]), os três covis dos Tamagamis e o Berço de Chifres de Gomah (Patrulheiro do Tempo). Mapas para estruturas que ainda não existem agora aparecem como esgotados em vez de sumir.",
   "outdated": false
  },
  "14": {
@@ -80,8 +80,8 @@
   "outdated": false
  },
  "16": {
-  "source": "Tournament arenas are protected from building, explosions and mob griefing, and Baba's Palace from ki griefing.",
-  "translation": "As arenas de torneio são protegidas contra construção, explosões e griefing de mobs, e o Palácio da Vovó Uranai contra griefing com ki.",
+  "source": "Tournament arenas are protected from building, explosions and mob griefing, and Baba's Palace and the World Martial Arts Tournament island from ki griefing.",
+  "translation": "As arenas de torneio são protegidas contra construção, explosões e griefing de mobs, e o Palácio da Vovó Uranai e a ilha do Torneio de Artes Marciais contra griefing com ki.",
   "outdated": false
  },
  "17": {
@@ -107,6 +107,16 @@
  "21": {
   "source": "Added Buu's House, home of [[Special:MyLanguage/Majin Buu|Majin Buu]], in plains biomes, and Gomah's Horn Cradle, a floating island caged by giant horns above the First Demon World.",
   "translation": "Adicionados a Casa do Boo, lar do [[Special:MyLanguage/Majin Buu|Majin Boo]], em biomas de planície, e o Berço de Chifres de Gomah, uma ilha flutuante cercada por chifres gigantes acima do Primeiro Mundo Demoníaco.",
+  "outdated": false
+ },
+ "268": {
+  "source": "Added the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island: a huge island that generates once per world in the ocean, with the tournament ring, [[Special:MyLanguage/Master Tien|Master Tien]], [[Special:MyLanguage/Chiaotzu|Chiaotzu]] and [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. Find it with <code>/dmzlocate budokai_tenkaichi</code> or with its map.",
+  "translation": "Adicionada a ilha do [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]]: uma ilha enorme que é gerada uma vez por mundo no oceano, com o ringue do torneio, o [[Special:MyLanguage/Master Tien|Mestre Tenshinhan]], [[Special:MyLanguage/Chiaotzu|Chaoz]] e o [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. Encontre-a com <code>/dmzlocate budokai_tenkaichi</code> ou com o mapa dela.",
+  "outdated": false
+ },
+ "269": {
+  "source": "Added Red Ribbon Army bases in plains and savannas, guarded by a commander, soldiers and robots. Killing the commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid; find a base with <code>/dmzlocate red_ribbon_base</code>.",
+  "translation": "Adicionadas bases do Exército Red Ribbon em planícies e savanas, guardadas por um comandante, soldados e robôs. Matar o comandante inicia a incursão [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]]; encontre uma base com <code>/dmzlocate red_ribbon_base</code>.",
   "outdated": false
  },
  "22": {
@@ -175,13 +185,13 @@
   "outdated": false
  },
  "35": {
-  "source": "Reworked [[Special:MyLanguage/Raids|raids]]: [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] (Earth, with Oozaru transformations), a reworked [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] (Namek, from Cui to the Ginyu Force) and the new [[Special:MyLanguage/Gomah's Army|Gomah's Army]] (Demon Realm). Start them by killing the scout at a raid site, with an omen, a boss bar, dormant bosses, party participants, a leash countdown, rewards and an alignment penalty on defeat.",
-  "translation": "Reformuladas as [[Special:MyLanguage/Raids|incursões]]: [[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]] (Terra, com transformações em Grande Macaco), uma [[Special:MyLanguage/Frieza's Invasion|Invasão de Freeza]] reformulada (Namekusei, de Cui à Força Ginyu) e o novo [[Special:MyLanguage/Gomah's Army|Exército de Gomah]] (Reino Demoníaco). Elas começam quando você mata o batedor em um local de incursão, com um presságio, uma barra de chefe, chefes adormecidos, participantes do grupo, uma contagem regressiva se você se afastar, recompensas e uma penalidade de índole na derrota.",
+  "source": "Reworked [[Special:MyLanguage/Raids|raids]]: [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] (Earth, with Oozaru transformations), a reworked [[Special:MyLanguage/Frieza's Invasion|Frieza's Invasion]] (Namek, from Cui to the Ginyu Force), and the new [[Special:MyLanguage/Gomah's Army|Gomah's Army]] (Demon Realm) and [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] (Earth, up to General Blue and General Black's Robot). Start them by killing the scout or the commander at a raid site, with an omen, a boss bar, dormant bosses, party participants, a leash countdown, rewards and an alignment penalty on defeat.",
+  "translation": "Reformuladas as [[Special:MyLanguage/Raids|incursões]]: [[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]] (Terra, com transformações em Grande Macaco), uma [[Special:MyLanguage/Frieza's Invasion|Invasão de Freeza]] reformulada (Namekusei, de Cui à Força Ginyu), e os novos [[Special:MyLanguage/Gomah's Army|Exército de Gomah]] (Reino Demoníaco) e [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]] (Terra, até o General Blue e o Robô do General Black). Elas começam quando você mata o batedor ou o comandante em um local de incursão, com um presságio, uma barra de chefe, chefes adormecidos, participantes do grupo, uma contagem regressiva se você se afastar, recompensas e uma penalidade de índole na derrota.",
   "outdated": false
  },
  "36": {
-  "source": "Added [[Special:MyLanguage/Tournaments|Tournaments]]: [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] (Gauntlet), [[Special:MyLanguage/Cell Games|The Cell Games]] (lethal Bracket) and [[Special:MyLanguage/Otherworld Tournament|The Otherworld Tournament]] (Bracket), solo or as a party, with PvP bouts, a rules screen, Ready checks, a bracket screen, TP and alignment rewards, and cooldowns.",
-  "translation": "Adicionados os [[Special:MyLanguage/Tournaments|Torneios]]: o [[Special:MyLanguage/Fortuneteller Baba's Tournament|Torneio da Vovó Uranai]] (lutas em sequência), [[Special:MyLanguage/Cell Games|os Jogos de Cell]] (chaveamento letal) e [[Special:MyLanguage/Otherworld Tournament|o Torneio do Outro Mundo]] (chaveamento), sozinho ou em grupo, com lutas PvP, uma tela de regras, confirmações de Pronto, uma tela de chaveamento, recompensas de TP e índole, e recargas.",
+  "source": "Added [[Special:MyLanguage/Tournaments|Tournaments]]: [[Special:MyLanguage/Fortuneteller Baba's Tournament|Fortuneteller Baba's Tournament]] (Gauntlet), [[Special:MyLanguage/Cell Games|The Cell Games]] (lethal Bracket), [[Special:MyLanguage/World Martial Arts Tournament|the World Martial Arts Tournament]] (non-lethal Bracket, with Mr. Satan in the final) and [[Special:MyLanguage/Otherworld Tournament|The Otherworld Tournament]] (Bracket), solo or as a party, with PvP bouts, a rules screen, Ready checks, a bracket screen, TP and alignment rewards, and cooldowns.",
+  "translation": "Adicionados os [[Special:MyLanguage/Tournaments|Torneios]]: o [[Special:MyLanguage/Fortuneteller Baba's Tournament|Torneio da Vovó Uranai]] (lutas em sequência), [[Special:MyLanguage/Cell Games|os Jogos de Cell]] (chaveamento letal), [[Special:MyLanguage/World Martial Arts Tournament|o Torneio de Artes Marciais]] (chaveamento não letal, com o Mr. Satan na final) e [[Special:MyLanguage/Otherworld Tournament|o Torneio do Outro Mundo]] (chaveamento), sozinho ou em grupo, com lutas PvP, uma tela de regras, confirmações de Pronto, uma tela de chaveamento, recompensas de TP e índole, e recargas.",
   "outdated": false
  },
  "37": {
@@ -220,8 +230,8 @@
   "outdated": false
  },
  "44": {
-  "source": "Added 37 new side quests.",
-  "translation": "Adicionadas 37 novas missões secundárias.",
+  "source": "Added 45 new side quests, among them [[Special:MyLanguage/Chiaotzu|Chiaotzu]]'s and [[Special:MyLanguage/Mr. Satan|Mr. Satan]]'s at the World Martial Arts Tournament; several of [[Special:MyLanguage/Bulma|Bulma]]'s now reward [[Special:MyLanguage/Vehicles|vehicle]] parts.",
+  "translation": "Adicionadas 45 novas missões secundárias, entre elas as de [[Special:MyLanguage/Chiaotzu|Chaoz]] e do [[Special:MyLanguage/Mr. Satan|Mr. Satan]] no Torneio de Artes Marciais; várias das missões da [[Special:MyLanguage/Bulma|Bulma]] agora dão peças de [[Special:MyLanguage/Vehicles|veículos]].",
   "outdated": false
  },
  "45": {
@@ -435,8 +445,13 @@
   "outdated": false
  },
  "87": {
-  "source": "Added the Speed system: Resistance raises your Speed (up to 3× movement speed and step assist).",
-  "translation": "Adicionado o sistema de Velocidade: a Resistência aumenta sua Velocidade (até 3× a velocidade de movimento, além de subir blocos automaticamente).",
+  "source": "Added the Speed system: Resistance raises your Speed (up to 2.7× movement speed and step assist).",
+  "translation": "Adicionado o sistema de Velocidade: a Resistência aumenta sua Velocidade (até 2.7× a velocidade de movimento, além de subir blocos automaticamente).",
+  "outdated": false
+ },
+ "270": {
+  "source": "Normal [[Special:MyLanguage/Fly|flight]] is 18% slower and combat flight 15% slower, and the Sprint skill now adds 6% movement speed per level (was 10%).",
+  "translation": "O [[Special:MyLanguage/Fly|voo]] normal está 18% mais lento e o voo de combate 15% mais lento, e a habilidade Correr agora dá 6% de velocidade de movimento por nível (antes 10%).",
   "outdated": false
  },
  "88": {
@@ -490,13 +505,13 @@
   "outdated": false
  },
  "98": {
-  "source": "Updated the hair presets: ten of them were redrawn (a new Raditz style among them), and several come with their own Super Saiyan 4 hair.",
-  "translation": "Atualizadas as predefinições de cabelo: dez foram redesenhadas (entre elas um novo estilo do Raditz), e várias vêm com o próprio cabelo de Super Saiyajin 4.",
+  "source": "Updated the hair presets: many of them were redrawn (new Vegeta and Raditz styles among them), and several come with their own Super Saiyan 4 hair.",
+  "translation": "Atualizadas as predefinições de cabelo: muitas foram redesenhadas (entre elas novos estilos do Vegeta e do Raditz), e várias vêm com o próprio cabelo de Super Saiyajin 4.",
   "outdated": false
  },
  "99": {
-  "source": "Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit), with view buttons, a body-part picker to hide or isolate parts and double-click to fill a whole side.",
-  "translation": "Adicionada a pintura por pixel para olhos, sobrancelhas, cabelo e tatuagens personalizadas (resolução 64, ou 128 e 256 como benefício do Patreon), com botões de visualização, um seletor de partes do corpo para ocultar ou isolar partes e clique duplo para preencher um lado inteiro.",
+  "source": "Added per-pixel painting for eyes, eyebrows, hair and custom tattoos (64 resolution, or 128 and 256 as a Patreon benefit), with view buttons, a body-part picker to hide or isolate parts, double-click to fill a whole side and a Fill tool that paints every visible pixel of the same color in one click.",
+  "translation": "Adicionada a pintura por pixel para olhos, sobrancelhas, cabelo e tatuagens personalizadas (resolução 64, ou 128 e 256 como benefício do Patreon), com botões de visualização, um seletor de partes do corpo para ocultar ou isolar partes, clique duplo para preencher um lado inteiro e uma ferramenta Preencher que pinta com um clique todos os pixels visíveis da mesma cor.",
   "outdated": false
  },
  "100": {
@@ -544,9 +559,14 @@
   "translation": "Novas [[Special:MyLanguage/Strike Attacks|técnicas de golpe]]: Canhão Quebra-Espírito, [[Special:MyLanguage/Shining Sword Attack|Ataque da Espada Brilhante]] (exige a [[Special:MyLanguage/Brave Sword|Espada Valente]]), Esmagamento Oozaru, Soco de Goma, Furacão Azul, Agarrar e Arremessar, Combo Meteoro, Explosão Meteoro, o Ataque da Bola Mística (só Majin, ensinado pelo [[Special:MyLanguage/Majin Buu|Majin Boo]]), Punho Dimensional e Corte Dimensional.",
   "outdated": false
  },
+ "271": {
+  "source": "New combo strike attacks, each with its own cinematic sequence: Darkness Eye Beam ([[Special:MyLanguage/Piccolo|Piccolo]], Namekians only), Death Chaser ([[Special:MyLanguage/Frieza|Frieza]]), Android Combo ([[Special:MyLanguage/Cell|Cell]], Androids only), Perfect Rush (Cell, Bio-Androids only), Spirit Breaker ([[Special:MyLanguage/Vegeta|Vegeta]]) and Beam Sword Slash ([[Special:MyLanguage/Goku|Goku]]). You can't be hurt during the combo, and only its finishing blow can kill. See [[Special:MyLanguage/Strike Attacks|Strike Attacks]].",
+  "translation": "Novos Ataques de Golpe em combo, cada um com sua própria sequência cinematográfica: Raio Ocular das Trevas ([[Special:MyLanguage/Piccolo|Piccolo]], só Namekuseijins), Caçador da Morte ([[Special:MyLanguage/Frieza|Freeza]]), Combo Androide ([[Special:MyLanguage/Cell|Cell]], só Androides), Investida Perfeita (Cell, só Bio-Androides), Quebra-Espírito ([[Special:MyLanguage/Vegeta|Vegeta]]) e Corte da Espada de Energia ([[Special:MyLanguage/Goku|Goku]]). Você não pode ser ferido durante o combo, e só o golpe final pode matar. Veja [[Special:MyLanguage/Strike Attacks|Ataques de Golpe]].",
+  "outdated": false
+ },
  "109": {
-  "source": "New [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] category: [[Special:MyLanguage/Afterimage|Afterimage]], [[Special:MyLanguage/Solar Flare|Solar Flare]] (moved here), [[Special:MyLanguage/Rage Scream|Rage Scream]], Sleep Recovery and Dimensional Warp.",
-  "translation": "Nova categoria de [[Special:MyLanguage/Evasion Techniques|Técnicas de evasão]]: [[Special:MyLanguage/Afterimage|Imagem residual]], [[Special:MyLanguage/Solar Flare|Explosão Solar]] (movida para cá), [[Special:MyLanguage/Rage Scream|Grito de fúria]], Regeneração do Sono e Salto dimensional.",
+  "source": "New [[Special:MyLanguage/Evasion Techniques|Evasion Techniques]] category: [[Special:MyLanguage/Afterimage|Afterimage]], [[Special:MyLanguage/Solar Flare|Solar Flare]] (moved here), [[Special:MyLanguage/Rage Scream|Rage Scream]], Sleep Recovery, Dimensional Warp, and Majin Buu's Candy Beam and Gum Bind (Majin only).",
+  "translation": "Nova categoria de [[Special:MyLanguage/Evasion Techniques|Técnicas de evasão]]: [[Special:MyLanguage/Afterimage|Imagem residual]], [[Special:MyLanguage/Solar Flare|Explosão Solar]] (movida para cá), [[Special:MyLanguage/Rage Scream|Grito de fúria]], Regeneração do Sono, Salto dimensional, e o Raio de Doce e a Amarra de Goma do Majin Boo (exclusivos de Majin).",
   "outdated": false
  },
  "110": {
@@ -574,14 +594,24 @@
   "translation": "Os ataques de ki (exceto Bola Pequena, Média e Gigante) agora podem ser disparados antes de chegar à carga completa.",
   "outdated": false
  },
+ "272": {
+  "source": "Hold {{Key|Alt}} + {{Key|Right Mouse}} to fire a Ki Volley: six quick ki blasts with a 30-second cooldown. A quick press still fires a single ki blast, and ki blasts now alternate hands.",
+  "translation": "Segure {{Key|Alt}} + {{Key|Botão direito}} para disparar um Voleio de Ki: seis rajadas de ki rápidas com 30 segundos de recarga. Um toque rápido ainda dispara uma única rajada de ki, e as rajadas agora alternam de mão.",
+  "outdated": false
+ },
  "115": {
   "source": "Ki attack sizes now grow with Ki Power, with bigger caps while transformed.",
   "translation": "O tamanho dos ataques de ki agora cresce com a Força do Ki, com limites maiores enquanto você está transformado.",
   "outdated": false
  },
+ "273": {
+  "source": "Rebalanced techniques: the Ki Barrage deals ×0.5 damage (was ×1.0), Assault Rain and Blaster Meteor ×0.7 (were ×1.0), the Emperor's Death Beam and the Special Beam Cannon recharge in 14 seconds (were 10 and 20), the Neo Tri-Beam fires at most 3 follow-up shots, and strike cooldowns were retuned to match each strike's power (for example, the Shining Sword Attack now recharges in 16 seconds, was 8). Learned techniques pick up rebalances automatically.",
+  "translation": "Rebalanceadas técnicas: a Rajada de Ki causa ×0.5 de dano (antes ×1.0), a Chuva de Ataques e o Blaster Meteor ×0.7 (antes ×1.0), o Raio da Morte do Imperador e o Canhão Especial de Raio recarregam em 14 segundos (antes 10 e 20), o Neo Kikoho dispara no máximo 3 tiros extras, e as recargas dos Ataques de Golpe foram ajustadas à potência de cada um (por exemplo, o Ataque da Espada Brilhante agora recarrega em 16 segundos, antes 8). As técnicas aprendidas recebem os rebalanceamentos automaticamente.",
+  "outdated": false
+ },
  "116": {
-  "source": "Reworked beam clashes: a timing meter (PERFECT / GOOD / MISS), stat-based push, and the loser is left exhausted; firing beams destroy smaller ki attacks.",
-  "translation": "Reformulados os choques de energia: um medidor de tempo (PERFECT / GOOD / MISS), empurrão baseado em estatísticas, e o perdedor fica exausto; rajadas disparadas destroem ataques de ki menores.",
+  "source": "Reworked beam clashes: a timing meter (PERFECT / GOOD / MISS), stat-based push, and the winner's beam breaks through for its full damage while the loser is left exhausted; firing beams destroy smaller ki attacks, and laser and wave beams deal at least 75% of their damage on the first hit.",
+  "translation": "Reformulados os choques de energia: um medidor de tempo (PERFECT / GOOD / MISS), empurrão baseado em estatísticas, e a rajada do vencedor atravessa com todo o dano enquanto o perdedor fica exausto; rajadas disparadas destroem ataques de ki menores, e lasers e ondas causam pelo menos 75% do dano no primeiro acerto.",
   "outdated": false
  },
  "117": {
@@ -650,8 +680,8 @@
   "outdated": false
  },
  "130": {
-  "source": "New status [[Special:MyLanguage/Effects|effects]]: Adrenaline, Self-Destruct cooldown, Kami's Blessing, Medi-Bug Shell, Emperor's Wrath, Hero of the World, and the plant buffs.",
-  "translation": "Novos [[Special:MyLanguage/Effects|efeitos]] de status: Adrenalina, recarga de Autodestruição, Bênção de Kami, Carapaça Medi-Bug, Ira do Imperador, Herói do Mundo e os bônus das plantas.",
+  "source": "New status [[Special:MyLanguage/Effects|effects]]: Adrenaline, Self-Destruct cooldown, Kami's Blessing, Medi-Bug Shell, Hunted (raid preparation), Candy, Hero of the World, and the plant buffs.",
+  "translation": "Novos [[Special:MyLanguage/Effects|efeitos]] de status: Adrenalina, recarga de Autodestruição, Bênção de Kami, Carapaça Medi-Bug, Caçado (preparação de incursão), Doce, Herói do Mundo e os bônus das plantas.",
   "outdated": false
  },
  "131": {
@@ -674,19 +704,29 @@
   "translation": "Adicionados os [[Special:MyLanguage/Strike Clash|choques de golpes]]: dois lutadores avançando um contra o outro com ataques de golpe travam os punhos em um duelo de tempo no medidor do choque de energia. O vencedor acerta um golpe pesado e recupera a técnica na hora; o perdedor é arremessado para trás e fica atordoado.",
   "outdated": false
  },
+ "274": {
+  "source": "Added a cinematic camera for strike attacks: strikes that land on a target, and boss combos and grabs against you, are filmed from a third-person angle and then return to your view.",
+  "translation": "Adicionada uma câmera cinematográfica para os Ataques de Golpe: os que acertam um alvo, e os combos e agarrões dos chefes contra você, são filmados de um ângulo em terceira pessoa e depois voltam para a sua visão.",
+  "outdated": false
+ },
  "135": {
   "source": "The Spirit Bomb accepts [[Special:MyLanguage/Ki Transfer|Ki Transfer]]: players within 64 blocks are called to help and can give 10% of their max Ki per second without looking at the caster. Their energy makes the bomb grow and hit up to 3 times harder.",
   "translation": "A Genki-Dama aceita a [[Special:MyLanguage/Ki Transfer|Transferência de ki]]: jogadores a até 64 blocos são chamados para ajudar e podem dar 10% do seu Ki máximo por segundo sem olhar para quem a lança. A energia deles faz a esfera crescer e acertar até 3 vezes mais forte.",
   "outdated": false
  },
  "136": {
-  "source": "Techniques can be limited to certain races: masters show a '''Race''' line, and a race-locked technique can be learned by anyone but only equipped by its races. Gum Punch, the Mystic Ball Attack and Sleep Recovery are Majin only.",
-  "translation": "As técnicas podem ser limitadas a certas raças: os mestres mostram uma linha de '''Raça''', e uma técnica limitada por raça pode ser aprendida por qualquer um, mas só equipada pelas suas raças. Soco de Goma, Ataque da Bola Mística e Regeneração do Sono são exclusivos de Majin.",
+  "source": "Techniques can be limited to certain races: masters show a '''Race''' line, and a race-locked technique can be learned by anyone but only equipped by its races. Gum Punch, the Mystic Ball Attack, Sleep Recovery, Candy Beam and Gum Bind are Majin only; the Darkness Eye Beam is Namekian only, Perfect Rush is Bio-Android only and the Android Combo is for Androids.",
+  "translation": "As técnicas podem ser limitadas a certas raças: os mestres mostram uma linha de '''Raça''', e uma técnica limitada por raça pode ser aprendida por qualquer um, mas só equipada pelas suas raças. Soco de Goma, Ataque da Bola Mística, Regeneração do Sono, Raio de Doce e Amarra de Goma são exclusivos de Majin; o Raio Ocular das Trevas é exclusivo de Namekuseijins, a Investida Perfeita de Bio-Androides e o Combo Androide é para Androides.",
   "outdated": false
  },
  "137": {
   "source": "New '''K.O.''' effect shows how long you stay knocked down.",
   "translation": "O novo efeito '''K.O.''' mostra por quanto tempo você fica nocauteado.",
+  "outdated": false
+ },
+ "275": {
+  "source": "The [[Special:MyLanguage/Instant Transmission|Instant Transmission]] menu now has NPC and Player tabs and shows each destination's Ki cost: farther trips and other dimensions cost more Ki (for example, 2,000 extra Ki to reach Namek from Earth).",
+  "translation": "O menu da [[Special:MyLanguage/Instant Transmission|Transmissão instantânea]] agora tem abas de NPCs e Jogadores e mostra o custo de Ki de cada destino: viagens mais longas e para outras dimensões custam mais Ki (por exemplo, 2,000 de Ki extra para chegar a Namekusei saindo da Terra).",
   "outdated": false
  },
  "138": {
@@ -695,8 +735,8 @@
   "outdated": false
  },
  "139": {
-  "source": "New [[Special:MyLanguage/Masters|masters]]: [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] at her palace on Earth (she teaches [[Special:MyLanguage/Ki Control|Ki Control]] and Meditation, and hosts a tournament) and Majin Buu at Buu's House.",
-  "translation": "Novos [[Special:MyLanguage/Masters|mestres]]: a [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] em seu palácio na Terra (ela ensina [[Special:MyLanguage/Ki Control|Controle de Ki]] e Meditação, e organiza um torneio) e Majin Boo na Casa do Boo.",
+  "source": "New [[Special:MyLanguage/Masters|masters]]: [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]] at her palace on Earth (she teaches [[Special:MyLanguage/Ki Control|Ki Control]] and Meditation, and hosts a tournament), Majin Buu at Buu's House and [[Special:MyLanguage/Master Tien|Master Tien]] at the World Martial Arts Tournament island (Ki Control, Solar Flare, Dodon Ray, Tri-Beam and Neo Tri-Beam).",
+  "translation": "Novos [[Special:MyLanguage/Masters|mestres]]: a [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] em seu palácio na Terra (ela ensina [[Special:MyLanguage/Ki Control|Controle de Ki]] e Meditação, e organiza um torneio), Majin Boo na Casa do Boo e o [[Special:MyLanguage/Master Tien|Mestre Tenshinhan]] na ilha do Torneio de Artes Marciais (Controle de Ki, Explosão Solar, Raio Dodon, Kikoho e Neo Kikoho).",
   "outdated": false
  },
  "140": {
@@ -715,8 +755,13 @@
   "outdated": false
  },
  "143": {
-  "source": "Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement now always talk to you, but lock Skills, Train and their new quests until your alignment fits.",
-  "translation": "Mestres com requisito de [[Special:MyLanguage/Alignment|índole]] agora sempre falam com você, mas bloqueiam Habilidades, Treinar e suas missões novas até que a sua índole seja compatível.",
+  "source": "Every NPC now talks to you whatever your [[Special:MyLanguage/Alignment|alignment]], with a colder greeting if it dislikes you. Masters still lock Skills and Train until your alignment fits, and quest givers only lock the quests that need another alignment.",
+  "translation": "Todos os NPCs agora falam com você independentemente da sua [[Special:MyLanguage/Alignment|índole]], com uma saudação mais fria se não gostarem de você. Os mestres continuam bloqueando Habilidades e Treinar até que a sua índole seja compatível, e quem dá missões só bloqueia as missões que pedem outra índole.",
+  "outdated": false
+ },
+ "276": {
+  "source": "Masters can no longer be pushed, moved, leashed or mounted, and fire, explosions, drowning and potions don't affect them.",
+  "translation": "Os mestres não podem mais ser empurrados, movidos, presos com laço nem montados, e fogo, explosões, afogamento e poções não os afetam.",
   "outdated": false
  },
  "144": {
@@ -735,8 +780,8 @@
   "outdated": false
  },
  "147": {
-  "source": "Reworked every [[Special:MyLanguage/Training Minigames|minigame]], now verified by the server: Control is a ki-orb balancing game, Shadow Boxing a typing combo game, and Gravity a pod flight through rock pillars.",
-  "translation": "Reformulados todos os [[Special:MyLanguage/Training Minigames|minijogos]], agora verificados pelo servidor: Controle é um jogo de equilíbrio com um orbe de ki, Boxe Sombrio um jogo de combos digitando, e Gravidade um voo de cápsula entre pilares de rocha.",
+  "source": "Reworked every [[Special:MyLanguage/Training Minigames|minigame]], now verified by the server: Control is a ki-orb balancing game, Shadow Boxing a typing combo game, and Gravity a pod flight through rock pillars. Doing anything else while one is open (fighting, building, using items or crafting) cancels it with no reward.",
+  "translation": "Reformulados todos os [[Special:MyLanguage/Training Minigames|minijogos]], agora verificados pelo servidor: Controle é um jogo de equilíbrio com um orbe de ki, Boxe Sombrio um jogo de combos digitando, e Gravidade um voo de cápsula entre pilares de rocha. Fazer qualquer outra coisa enquanto um está aberto (lutar, construir, usar itens ou fabricar) o cancela sem recompensa.",
   "outdated": false
  },
  "148": {
@@ -755,13 +800,13 @@
   "outdated": false
  },
  "151": {
-  "source": "New hostile mobs: Red and Blue Ogres, the [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampede, [[Special:MyLanguage/Gete Robot|Gete Robots]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]].",
-  "translation": "Novos mobs hostis: Ogros Vermelhos e Azuis, a debandada de [[Special:MyLanguage/Mini Janemba|Mini Janembas]], os [[Special:MyLanguage/Gete Robot|Robôs Gete]] e os [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]].",
+  "source": "New hostile mobs: Red and Blue Ogres, the [[Special:MyLanguage/Mini Janemba|Mini Janemba]] stampede, [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Giran|Giran]] in dinosaur biomes and packs of [[Special:MyLanguage/Bioman|Biomen]] in snowy biomes.",
+  "translation": "Novos mobs hostis: Ogros Vermelhos e Azuis, a debandada de [[Special:MyLanguage/Mini Janemba|Mini Janembas]], os [[Special:MyLanguage/Gete Robot|Robôs Gete]], os [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]], [[Special:MyLanguage/Giran|Giran]] nos biomas de dinossauros e grupos de [[Special:MyLanguage/Bioman|Bioman]] nos biomas nevados.",
   "outdated": false
  },
  "152": {
-  "source": "New NPCs: [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]], [[Special:MyLanguage/Time Patroller|Time Patrollers]], the [[Special:MyLanguage/Hell Ogre|Hell Ogre]], Grand Kai and the Otherworld Tournament Announcer.",
-  "translation": "Novos NPCs: [[Special:MyLanguage/Demon Realm Villager|Aldeões do Reino Demoníaco]], [[Special:MyLanguage/Time Patroller|Patrulheiros do Tempo]], o [[Special:MyLanguage/Hell Ogre|Ogro do Inferno]], o Grande Senhor Kaioh e o Locutor do Torneio do Outro Mundo.",
+  "source": "New NPCs: [[Special:MyLanguage/Demon Realm Villager|Demon Realm Villagers]], [[Special:MyLanguage/Time Patroller|Time Patrollers]], the [[Special:MyLanguage/Hell Ogre|Hell Ogre]], Grand Kai, the Otherworld Tournament Announcer, and the World Tournament Announcer, [[Special:MyLanguage/Chiaotzu|Chiaotzu]] and [[Special:MyLanguage/Mr. Satan|Mr. Satan]] at the World Martial Arts Tournament.",
+  "translation": "Novos NPCs: [[Special:MyLanguage/Demon Realm Villager|Aldeões do Reino Demoníaco]], [[Special:MyLanguage/Time Patroller|Patrulheiros do Tempo]], o [[Special:MyLanguage/Hell Ogre|Ogro do Inferno]], o Grande Senhor Kaioh, o Locutor do Torneio do Outro Mundo, e o Locutor do Torneio de Artes Marciais, [[Special:MyLanguage/Chiaotzu|Chaoz]] e o [[Special:MyLanguage/Mr. Satan|Mr. Satan]] no Torneio de Artes Marciais.",
   "outdated": false
  },
  "153": {
@@ -770,8 +815,8 @@
   "outdated": false
  },
  "154": {
-  "source": "New Gogeta (Super Saiyan) and Gogeta (Super Saiyan 4) models.",
-  "translation": "Novos modelos de Gogeta (Super Saiyajin) e Gogeta (Super Saiyajin 4).",
+  "source": "New Gogeta (Super Saiyan), Gogeta (Super Saiyan 4) and Mr. Satan models.",
+  "translation": "Novos modelos de Gogeta (Super Saiyajin), Gogeta (Super Saiyajin 4) e Mr. Satan.",
   "outdated": false
  },
  "155": {
@@ -789,9 +834,19 @@
   "translation": "Os inimigos da história agora avançam contra você com suas técnicas de golpe e podem iniciar choques de golpes: Turles usa [[Special:MyLanguage/Meteor Burst|Explosão Meteoro]] e Kid Boo o Ataque da Bola Mística.",
   "outdated": false
  },
+ "277": {
+  "source": "Halloween: on October 31, masters wear pumpkin heads and Evil Clones of Goku, Vegeta, Piccolo, Nappa and Krillin roam the Overworld at night.",
+  "translation": "Halloween: em 31 de outubro, os mestres usam cabeças de abóbora e Clones Malignos de Goku, Vegeta, Piccolo, Nappa e Kuririn vagam pela Terra à noite.",
+  "outdated": false
+ },
  "158": {
   "source": "=== Items and gear ===",
   "translation": "=== Itens e equipamentos ===",
+  "outdated": false
+ },
+ "278": {
+  "source": "Added [[Special:MyLanguage/Vehicles|vehicles]]: the Red Car and Yellow Car (2 seats), the Capsule Corp. 576 aircraft (4 seats) and Frieza's Capsule (a hover pod from a new [[Special:MyLanguage/Porunga|Porunga]] wish). The cars and the 576 are crafted from the new Vehicle Engine, Propeller, Seat and Plating, and the [[Special:MyLanguage/Space Pod|Space Pod]] and the Nimbuses now use the same controls.",
+  "translation": "Adicionados [[Special:MyLanguage/Vehicles|veículos]]: o Carro Vermelho e o Carro Amarelo (2 assentos), a aeronave Corporação Cápsula 576 (4 assentos) e a Cápsula do Freeza (uma cápsula flutuante de um novo desejo de [[Special:MyLanguage/Porunga|Porunga]]). Os carros e a 576 são fabricados com as novas peças Motor, Hélice, Assento e Blindagem de Veículo, e a [[Special:MyLanguage/Space Pod|Cápsula Espacial]] e as Nuvens agora usam os mesmos controles.",
   "outdated": false
  },
  "159": {
@@ -850,8 +905,13 @@
   "outdated": false
  },
  "170": {
-  "source": "New armors: Taiyou Gi, Brightly's Regular Wear and Time Patrol (Trunks Xeno).",
-  "translation": "Novas armaduras: Taiyou Gi, Roupa Comum de Brightly e Patrulha do Tempo (Trunks Xeno).",
+  "source": "New armors: Taiyou Gi, Brightly's Regular Wear, Time Patrol (Trunks Xeno) and Scarlet Blaze (Patreon).",
+  "translation": "Novas armaduras: Taiyou Gi, Roupa Comum de Brightly, Patrulha do Tempo (Trunks Xeno) e Scarlet Blaze (Patreon).",
+  "outdated": false
+ },
+ "279": {
+  "source": "Added the Control Jewelry Tiara, which completes Broly's set (see [[Special:MyLanguage/Z Armor Sets|Z Armor Sets]]): it keeps your hair visible, and while you wear it (also in the cosmetic slot) the Saiyan Mutant forms take Broly's colors (cyan hair and a gold aura in Ikari, a gold aura in SSJ Hybrid and a lime one in SSJ Full Power).",
+  "translation": "Adicionada a Tiara do Conjunto de Jóias de Controle, que completa o conjunto do Broly (veja [[Special:MyLanguage/Z Armor Sets|Conjuntos de armadura Z]]): ela deixa o seu cabelo à mostra, e enquanto você a usa (também no espaço cosmético) as formas Mutantes Saiyajin ganham as cores do Broly (cabelo ciano e aura dourada no Ikari, aura dourada no SSJ Híbrido e uma verde-limão no SSJ Poder Total).",
   "outdated": false
  },
  "171": {
@@ -880,8 +940,8 @@
   "outdated": false
  },
  "176": {
-  "source": "Reworked outlines: now smoother and with a blooming effect, and NPCs can have outlines too.",
-  "translation": "Reformulados os contornos: agora mais suaves e com efeito de brilho, e os NPCs também podem ter contornos.",
+  "source": "Reworked outlines: now smoother and with a blooming effect, and NPCs can have outlines too. Outlines can also have animated flames, a two-color gradient and a body glow, with new looks for SSJ 4 [D], Super Saiyan God, Ikari, Buffed Namek, Chou Shiyoken and several Glind forms.",
+  "translation": "Reformulados os contornos: agora mais suaves e com efeito de brilho, e os NPCs também podem ter contornos. Os contornos também podem ter chamas animadas, um degradê de duas cores e um brilho no corpo, com novos visuais para SSJ 4 [D], Super Saiyajin Deus, Ikari, Namekuseijin Melhorado, Chou Shiyoken e várias formas Glind.",
   "outdated": false
  },
  "177": {
@@ -960,8 +1020,13 @@
   "outdated": false
  },
  "192": {
-  "source": "New looks for the [[Special:MyLanguage/Glind|Glind]] forms: Dark King (bulkier body, crimson hair, red eyes on black sclera, red outline and aura), a new model for Time Power: Dark King, outlines for Absorption and both Time Power forms, and an exclusive Glind eye style.",
-  "translation": "Novo visual para as formas [[Special:MyLanguage/Glind|Glind]]: Rei das Trevas (corpo mais robusto, cabelo carmesim, olhos vermelhos sobre esclera preta, contorno e aura vermelhos), um novo modelo para Poder do Tempo: Rei das Trevas, contornos para Absorção e as duas formas de Poder do Tempo, e um estilo de olhos exclusivo dos Glinds.",
+  "source": "New looks for the [[Special:MyLanguage/Glind|Glind]] forms: Dark King (bulkier body, crimson hair, red eyes on black sclera, red outline and aura), a new model for Time Power: Dark King, outlines for Absorption and both Time Power forms, a golden time halo for Time Power: Realm of Light, and an exclusive Glind eye style. Most Glind forms now keep your chosen ears and hair.",
+  "translation": "Novo visual para as formas [[Special:MyLanguage/Glind|Glind]]: Rei das Trevas (corpo mais robusto, cabelo carmesim, olhos vermelhos sobre esclera preta, contorno e aura vermelhos), um novo modelo para Poder do Tempo: Rei das Trevas, contornos para Absorção e as duas formas de Poder do Tempo, um halo do tempo dourado para Poder do Tempo: Reino da Luz, e um estilo de olhos exclusivo dos Glinds. A maioria das formas Glind agora mantém as orelhas e o cabelo que você escolheu.",
+  "outdated": false
+ },
+ "280": {
+  "source": "New look for the [[Special:MyLanguage/Human|Human]] form Solaris: golden cel-shaded smoke around the neck, shoulders and wrists, and a golden aura.",
+  "translation": "Novo visual para a forma Solaris dos [[Special:MyLanguage/Human|Humanos]]: fumaça dourada com sombreamento cel ao redor do pescoço, dos ombros e dos pulsos, e uma aura dourada.",
   "outdated": false
  },
  "193": {
@@ -977,6 +1042,16 @@
  "195": {
   "source": "Each race has its own ki charging animation.",
   "translation": "Cada raça tem sua própria animação de carga de ki.",
+  "outdated": false
+ },
+ "281": {
+  "source": "New animations and effects: Saiyan tails wrap around the waist, a recoil when your attack is parried and a stunned pose after a guard break, a stronger start when you overcharge ki, the target fading away during Assimilation, and an afterimage that breaks apart when you use Instant Transmission.",
+  "translation": "Novas animações e efeitos: as caudas Saiyajin se enrolam na cintura, um recuo quando o seu ataque é aparado e uma pose de atordoamento após uma quebra de guarda, um início mais intenso ao sobrecarregar ki, o alvo desaparecendo durante a Assimilação e uma imagem residual que se desfaz ao usar a Transmissão instantânea.",
+  "outdated": false
+ },
+ "282": {
+  "source": "The Ki Blade, Ki Scythe and Ki Claw Lance have a new glowing energy look in first and third person.",
+  "translation": "A Lâmina de Ki, a Foice de Ki e a Lança Garra de Ki têm um novo visual de energia brilhante em primeira e terceira pessoa.",
   "outdated": false
  },
  "196": {
@@ -1014,6 +1089,11 @@
   "translation": "Reformuladas todas as telas, com tutoriais para quase todas. Veja [[Special:MyLanguage/Menus|Menus]].",
   "outdated": false
  },
+ "283": {
+  "source": "Quest numbers in the Quest Tree, quest lists and requirements now show each quest's position in its saga.",
+  "translation": "Os números das missões na Árvore de Missões, nas listas de missões e nos requisitos agora mostram a posição de cada missão na sua saga.",
+  "outdated": false
+ },
  "203": {
   "source": "Reworked the Wishes screen: left-click to pick, right-click to remove, numbered slots, and an in-screen target picker for revive wishes.",
   "translation": "Reformulada a tela de Desejos: clique esquerdo para escolher, clique direito para remover, slots numerados e um seletor de alvo na própria tela para os desejos de ressurreição.",
@@ -1047,6 +1127,11 @@
  "209": {
   "source": "[[Special:MyLanguage/Scouters|Scouters]], Pothala Earrings and [[Special:MyLanguage/Weights|Weights]] now work in the cosmetic Curios slots.",
   "translation": "Os [[Special:MyLanguage/Scouters|scouters]], os Brincos Potara e os [[Special:MyLanguage/Weights|pesos]] agora funcionam nos slots cosméticos do Curios.",
+  "outdated": false
+ },
+ "284": {
+  "source": "[[Special:MyLanguage/Scouters|Scouters]] have sounds (switching on and off, a new strongest signal, locking on) and read the Battle Power of whatever you aim at up to 20 blocks away, with a direction arrow up to 50 blocks.",
+  "translation": "Os [[Special:MyLanguage/Scouters|Scouters]] têm sons (ao ligar e desligar, com um novo sinal mais forte e ao travar a mira) e leem o Poder de luta do que você mirar até 20 blocos, com uma seta de direção até 50 blocos.",
   "outdated": false
  },
  "210": {
@@ -1259,6 +1344,31 @@
   "translation": "<code>/dmzeffect remove knockout</code> encerra um nocaute, e <code>/dmzeffect clear</code> agora também encerra nocautes.",
   "outdated": false
  },
+ "285": {
+  "source": "<code>/dmzdebug [scope]</code> now works for every player on their own data and saves a JSON file in the <code>dmzdebug</code> folder of the game directory, ready to attach to bug reports; admins can still dump other players.",
+  "translation": "<code>/dmzdebug [scope]</code> agora funciona para qualquer jogador com os próprios dados e salva um arquivo JSON na pasta <code>dmzdebug</code> do diretório do jogo, pronto para anexar a relatórios de bugs; administradores ainda podem exportar os dados de outros jogadores.",
+  "outdated": false
+ },
+ "286": {
+  "source": "New <code>/dmztrigger</code> testing command to enter forms and stack forms, fire racial skills, clear cooldowns and set rage, knockdowns or Power Release without costs or requirements (permission nodes <code>dragonminez.dmztrigger.self</code> and <code>dragonminez.dmztrigger.others</code>).",
+  "translation": "Novo comando de teste <code>/dmztrigger</code> para entrar em formas e formas acumuláveis, ativar habilidades raciais, zerar recargas e definir a fúria, os nocautes ou a Liberação de Poder sem custos nem requisitos (nós de permissão <code>dragonminez.dmztrigger.self</code> e <code>dragonminez.dmztrigger.others</code>).",
+  "outdated": false
+ },
+ "287": {
+  "source": "<code>skills.json</code> and <code>techniques.json</code> now add any missing default entries (new techniques and master offerings) when they load, without changing your values; existing servers keep their old strike cooldowns.",
+  "translation": "<code>skills.json</code> e <code>techniques.json</code> agora adicionam as entradas padrão que faltarem (técnicas novas e ofertas dos mestres) ao carregar, sem alterar os seus valores; servidores existentes mantêm as recargas antigas dos Ataques de Golpe.",
+  "outdated": false
+ },
+ "288": {
+  "source": "[[Special:MyLanguage/Custom Forms|Custom forms]]: new outline keys <code>fireIntensity</code>, <code>colorMode</code> and <code>bodyGlow</code>.",
+  "translation": "[[Special:MyLanguage/Custom Forms|Formas personalizadas]]: novas chaves de contorno <code>fireIntensity</code>, <code>colorMode</code> e <code>bodyGlow</code>.",
+  "outdated": false
+ },
+ "289": {
+  "source": "[[Special:MyLanguage/Custom Races|Custom races]] can ship a <code>&lt;texture&gt;_shadow.png</code> mask for colored body shading (the built-in Human and Saiyan shadow textures were renamed to <code>*_layer1_shadow.png</code>).",
+  "translation": "As [[Special:MyLanguage/Custom Races|raças personalizadas]] podem incluir uma máscara <code>&lt;texture&gt;_shadow.png</code> para o sombreamento colorido do corpo (as texturas de sombra embutidas de Humanos e Saiyajins foram renomeadas para <code>*_layer1_shadow.png</code>).",
+  "outdated": false
+ },
  "252": {
   "source": "=== Add-on API and compatibility ===",
   "translation": "=== API para addons e compatibilidade ===",
@@ -1292,6 +1402,11 @@
  "258": {
   "source": "Live Crowdin translations are now always on (turn them off with <code>-Ddmz.crowdin.enabled=false</code>).",
   "translation": "As traduções ao vivo do Crowdin agora estão sempre ativadas (desative-as com <code>-Ddmz.crowdin.enabled=false</code>).",
+  "outdated": false
+ },
+ "290": {
+  "source": "Clients and servers must run the exact same DragonMineZ build: a different version is refused when joining instead of causing desyncs.",
+  "translation": "O cliente e o servidor precisam usar exatamente a mesma versão do DragonMineZ: uma versão diferente é recusada ao entrar em vez de causar dessincronizações.",
   "outdated": false
  },
  "259": {

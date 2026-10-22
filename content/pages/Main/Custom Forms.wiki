@@ -155,7 +155,7 @@ Schema source: <code>src/main/java/com/dragonminez/common/config/FormConfig.java
 |-
 | <code>tintColor</code>, <code>tintIntensity</code> || <translate><!--T:77--> Hex / Double</translate> || <code>#FF0000</code>, <code>0.0</code> || <translate><!--T:78--> Color tint over the player while transformed. <code>0</code> means no tint.</translate>
 |-
-| <code>outlineShader</code> || <translate><!--T:79--> Object</translate> || — || <translate><!--T:80--> <code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>).</translate>
+| <code>outlineShader</code> || <translate><!--T:79--> Object</translate> || — || <translate><!--T:80--> <code>enabled</code> (<code>false</code>), <code>primaryColor</code> (<code>#7FFFFF</code>), <code>secondaryColor</code>, <code>outlineThickness</code> (<code>1.5</code>), <code>fireIntensity</code> (<code>0</code>–<code>3</code>, default <code>0</code>: animated flame tongues), <code>colorMode</code> (<code>"pulse"</code>, the default, shifts between the two colors; <code>"gradient"</code> goes from <code>primaryColor</code> next to the body to <code>secondaryColor</code> at the outer edge) and <code>bodyGlow</code> (<code>0</code>–<code>1</code>, default <code>0</code>: a glow of the outline color along the edges of the body). The same <code>outlineThickness</code> draws a wider outline than before 2.2.</translate>
 |}
 
 <translate>

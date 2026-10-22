@@ -23,7 +23,7 @@ NPC_PAGES = {
     'baba_earth': 'Fortuneteller Baba', 'bulma': 'Bulma', 'dende': 'Dende', 'gohan': 'Gohan', 'goku': 'Goku',
     'guru': 'Grand Elder Guru', 'karin': 'Korin', 'kingkai': 'King Kai', 'krillin': 'Krillin', 'oldkai': 'Old Kai',
     'piccolo': 'Piccolo', 'popo': 'Mr. Popo', 'roshi': 'Master Roshi', 'trunks': 'Trunks', 'vegeta': 'Vegeta',
-    'yamcha': 'Yamcha',
+    'yamcha': 'Yamcha', 'chiaotzu': 'Chiaotzu', 'mr_satan': 'Mr. Satan', 'tien': 'Master Tien', 'buu': 'Majin Buu',
 }
 
 STRUCTURE_PAGES = {
@@ -33,6 +33,7 @@ STRUCTURE_PAGES = {
     'dragonminez:namek_ruins': 'Namekian Ruins', 'dragonminez:roshi_house': 'Kame House',
     'dragonminez:rrtower': 'Red Ribbon Tower', 'dragonminez:timechamber': 'Hyperbolic Time Chamber',
     'dragonminez:village_ajissa': 'Namekian Village', 'dragonminez:village_sacred': 'Sacred Kai Planet',
+    'dragonminez:budokai_tenkaichi': 'World Martial Arts Tournament', 'dragonminez:red_ribbon_base': 'Red Ribbon Army Assault',
 }
 
 DIMENSION_PAGES = {

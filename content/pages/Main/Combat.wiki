@@ -153,7 +153,7 @@ Keep charging at full Ki and the '''Ki Surge''' bar fills (4 seconds by default;
 
 <translate>
 <!--T:62-->
-An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''' can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
+An [[Special:MyLanguage/Android|Android]]'s '''Absorption Barrier''', which you can keep up while moving, can also force a Ki Surge when it overflows (see [[Special:MyLanguage/Racial Skills|Racial Skills]]).
 </translate>
 
 <translate>
@@ -197,6 +197,16 @@ The [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]] skill lets you form w
 <!--T:85-->
 Ki Manipulation also raises the damage of basic ki blasts ({{Key|Alt}} + {{Key|Right Mouse}}) by 5% of your Ki Damage per level.
 
+== Ki blasts and Ki Volley == <!--T:97-->
+
+<!--T:98-->
+Hold the '''Second Function''' key ({{Key|Alt}}) and right-click to fire ki from your hands:
+
+<!--T:99-->
+* '''Ki blast''': release quickly to fire a single ki blast; your shots alternate between your hands. A blast costs 2% of your max Ki + 8 and deals your Ki Damage × (0.5 + 0.05 × your Ki Manipulation level), with a 1.6-second cooldown.
+* '''Ki Volley''': hold for 0.3 seconds to fire 6 ki blasts, one every 3 ticks, each dealing 60% of a single blast's damage (360% in total). A volley costs 3 times the Ki of a blast and has a 30-second cooldown, and you can't fire single blasts for about 2 seconds after it. While the volley is on cooldown, holding fires a single blast.
+* Small ki blasts don't slow down story enemies.
+
 == Combat flight == <!--T:86-->
 
 <!--T:87-->
@@ -217,10 +227,16 @@ See [[Special:MyLanguage/Skills|Skills]] and [[Special:MyLanguage/Controls|Contr
 <!--T:94-->
 Ki attacks, strike attacks and evasion techniques are fired from your technique slots ({{Key|Alt}} + 1–4 and {{Key|Ctrl}} + 1–4); they need the [[Special:MyLanguage/Ki Control|Ki Control]] skill, at least '''5%''' Power Release and an empty main hand. Every strike attack starts a short '''shared cooldown''' (3 seconds, halved when it misses), so owning several strikes doesn't let you chain them. With no enemy in reach, a strike attack '''rushes''' forward for up to 2 seconds, and missing completely refunds part of its Ki. Two beams that meet head-on start a [[Special:MyLanguage/Beam Clash|beam clash]], and two fighters rushing at each other with strike attacks start a [[Special:MyLanguage/Strike Clash|strike clash]]. Everything about techniques is on [[Special:MyLanguage/Techniques|Techniques]].
 
+<!--T:100-->
+When you hit a target with a strike attack, a '''cinematic camera''' films the technique from a third-person angle, and a player you hit sees it too. You can't look around with the mouse or toggle lock-on until it ends. Boss combos and grabs against you are filmed the same way. See [[Special:MyLanguage/Strike Attacks#Cinematic camera|Strike Attacks]].
+
 == Who you can hit == <!--T:95-->
 
 <!--T:96-->
 Party members are always friendly unless your party has PvP switched on, players fighting the same world boss with you are friendly even then (see [[Special:MyLanguage/World Bosses#Truce|World Bosses]]), and [[Special:MyLanguage/Tournaments|tournament]] rivals are always hostile. By default DMZ's combat targeting treats other players and every mob as hostile, except villagers, iron golems and the guards of the Guard Villagers mod, which are neutral.
+
+<!--T:101-->
+[[Special:MyLanguage/Masters|Masters]] can't be pushed or moved (they only fall). They are immune to potions, fire, explosions and drowning, and they can't be leashed, ridden or pulled by ki attacks.
 </translate>
 
 {{Navbox Mechanics}}

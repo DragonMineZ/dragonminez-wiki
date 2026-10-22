@@ -19,6 +19,11 @@
   "translation": "O chaveamento letal de Guerreiros Z do Cell, terminando com o Cell Super Perfeito.",
   "outdated": false
  },
+ "78": {
+  "source": "A four-star bracket on an ocean island, ending with the World Champion, Mr. Satan.",
+  "translation": "Um chaveamento de quatro estrelas em uma ilha no oceano, terminando com o Campeão Mundial, Mr. Satan.",
+  "outdated": false
+ },
  "4": {
   "source": "The afterlife's five-star bracket, ending with Gogeta.",
   "translation": "O chaveamento de cinco estrelas do além, terminando com o Gogeta.",
@@ -114,6 +119,31 @@
   "translation": "60 minutos",
   "outdated": false
  },
+ "79": {
+  "source": "The World Tournament Announcer, on the World Martial Arts Tournament island (Overworld oceans)",
+  "translation": "O Locutor do Torneio de Artes Marciais, na ilha do Torneio de Artes Marciais (oceanos do Overworld)",
+  "outdated": false
+ },
+ "80": {
+  "source": "Bracket",
+  "translation": "Chaveamento",
+  "outdated": false
+ },
+ "81": {
+  "source": "Knockout",
+  "translation": "Nocaute",
+  "outdated": false
+ },
+ "82": {
+  "source": "1,800,000 TP, +5 alignment",
+  "translation": "1,800,000 TP, +5 de índole",
+  "outdated": false
+ },
+ "83": {
+  "source": "75 minutes",
+  "translation": "75 minutos",
+  "outdated": false
+ },
  "23": {
   "source": "The [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]], at the tournament grounds in the [[Special:MyLanguage/Otherworld|Otherworld]]",
   "translation": "O [[Special:MyLanguage/Otherworld Tournament Announcer|Locutor do Torneio do Outro Mundo]], na arena do torneio no [[Special:MyLanguage/Otherworld|Outro Mundo]]",
@@ -140,8 +170,8 @@
   "outdated": false
  },
  "28": {
-  "source": "* [[Special:MyLanguage/Cell|Cell]] only talks to players with '''Evil alignment''' (40 or less), as he does as a master.\n* To reach the Otherworld Tournament, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] and press '''Tournament'''. The [[Special:MyLanguage/Otherworld Tournament Announcer|Announcer]] can send you back.\n* Qualifier fighters get '''8% stronger''' each round (Baba's fighters 10%).",
-  "translation": "* O [[Special:MyLanguage/Cell|Cell]] só fala com jogadores de '''índole Má''' (40 ou menos), assim como faz como mestre.\n* Para chegar ao Torneio do Outro Mundo, fale com o [[Special:MyLanguage/Grand Kai|Grande Senhor Kaioh]] ao lado do [[Special:MyLanguage/King Yemma|Rei Yemma]] e aperte '''Torneio'''. O [[Special:MyLanguage/Otherworld Tournament Announcer|Locutor]] pode mandar você de volta.\n* Os lutadores das rodadas classificatórias ficam '''8% mais fortes''' a cada rodada (os lutadores da Vovó Uranai, 10%).",
+  "source": "* [[Special:MyLanguage/Cell|Cell]] talks to every player. His Evil alignment requirement (40 or less) only locks his '''Skills''' and '''Train''' as a master, not the Cell Games.\n* To reach the Otherworld Tournament, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] and press '''Tournament'''. The [[Special:MyLanguage/Otherworld Tournament Announcer|Announcer]] can send you back.\n* The [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island generates once per world in the oceans. Find it with <code>/dmzlocate budokai_tenkaichi</code> or a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] map, and sign up with the World Tournament Announcer.\n* Qualifier fighters get '''8% stronger''' each round (Baba's fighters 10%).",
+  "translation": "* O [[Special:MyLanguage/Cell|Cell]] fala com todos os jogadores. O requisito de índole Má dele (40 ou menos) só bloqueia as opções '''Habilidades''' e '''Treinar''' dele como mestre, não os Jogos de Cell.\n* Para chegar ao Torneio do Outro Mundo, fale com o [[Special:MyLanguage/Grand Kai|Grande Senhor Kaioh]] ao lado do [[Special:MyLanguage/King Yemma|Rei Yemma]] e aperte '''Torneio'''. O [[Special:MyLanguage/Otherworld Tournament Announcer|Locutor]] pode mandar você de volta.\n* A ilha do [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]] é gerada uma vez por mundo nos oceanos. Encontre-a com <code>/dmzlocate budokai_tenkaichi</code> ou com um mapa de um [[Special:MyLanguage/Capsule Corp Assistant|Assistente da Corporação Cápsula]] e inscreva-se com o Locutor do Torneio de Artes Marciais.\n* Os lutadores das rodadas classificatórias ficam '''8% mais fortes''' a cada rodada (os lutadores da Vovó Uranai, 10%).",
   "outdated": false
  },
  "29": {
@@ -150,8 +180,8 @@
   "outdated": false
  },
  "30": {
-  "source": "* '''Bracket''': you're seated in a knockout bracket filled with random NPC contenders. Winners climb the ladder; fights between two NPCs are decided automatically. After the qualifier rounds, the survivor faces the host's '''semi-finalist''', then (Otherworld only) a '''finalist''', then the '''champion'''. Only the semi-finalist, finalist and champion are known before you enter; the rest of the draw is revealed once everybody accepts the rules.\n* '''Gauntlet''': you beat every fighter from left to right, then the semi-finalist and the champion.",
-  "translation": "* '''Chaveamento''': você ocupa uma vaga em uma chave eliminatória preenchida com competidores NPC aleatórios. Os vencedores sobem na chave; as lutas entre dois NPCs são decididas automaticamente. Depois das rodadas classificatórias, o sobrevivente enfrenta o '''semifinalista''' do anfitrião, depois (só no Outro Mundo) um '''finalista''' e depois o '''campeão'''. Só o semifinalista, o finalista e o campeão são conhecidos antes de você entrar; o resto do sorteio é revelado quando todos aceitam as regras.\n* '''Desafio em sequência''': você derrota cada lutador da esquerda para a direita, depois o semifinalista e o campeão.",
+  "source": "* '''Bracket''': you're seated in a knockout bracket filled with random NPC contenders. Winners climb the ladder; fights between two NPCs are decided automatically. After the qualifier rounds, the survivor faces the host's '''semi-finalist''', then (Otherworld and World Martial Arts Tournament only) a '''finalist''', then the '''champion'''. Only the semi-finalist, finalist and champion are known before you enter; the rest of the draw is revealed once everybody accepts the rules.\n* '''Gauntlet''': you beat every fighter from left to right, then the semi-finalist and the champion.",
+  "translation": "* '''Chaveamento''': você ocupa uma vaga em uma chave eliminatória preenchida com competidores NPC aleatórios. Os vencedores sobem na chave; as lutas entre dois NPCs são decididas automaticamente. Depois das rodadas classificatórias, o sobrevivente enfrenta o '''semifinalista''' do anfitrião, depois (só no Outro Mundo e no Torneio de Artes Marciais) um '''finalista''' e depois o '''campeão'''. Só o semifinalista, o finalista e o campeão são conhecidos antes de você entrar; o resto do sorteio é revelado quando todos aceitam as regras.\n* '''Desafio em sequência''': você derrota cada lutador da esquerda para a direita, depois o semifinalista e o campeão.",
   "outdated": false
  },
  "31": {
@@ -175,8 +205,8 @@
   "outdated": false
  },
  "35": {
-  "source": "* When your bout is next, the tournament screen opens and you have '''30 seconds''' to press '''Ready'''. Hover your opponent to study their stats and, once you have Bulma's '''Threat Database''' scan data, their ki attacks and combos. Miss the window and you're disqualified (your opponent advances).\n* When everyone in the bout is ready, a 5-second preview plays, then you're teleported into the ring. Fighters stand frozen through a '''3-2-1''' countdown, then '''FIGHT!'''\n* Only your opponent can hurt you and only you can hurt them. Anyone else who comes within '''15 blocks''' of the fighters is pushed out.\n* Each bout has a time limit (Baba 5 minutes, Cell 7 minutes, Otherworld 8 minutes). A bout that runs out of time is void and fought again.\n* Stay within '''60 blocks''' of the ring. If you walk away (or log out), you have '''15 seconds''' to come back, or you're out. Party members called into the tournament from elsewhere get '''60 seconds''' to reach the arena.\n* Losing a bout knocks you out of the tournament and starts your re-entry cooldown.",
-  "translation": "* Quando a sua luta for a próxima, a tela do torneio abre e você tem '''30 segundos''' para apertar '''Pronto'''. Passe o cursor sobre o oponente para estudar os atributos dele e, depois que tiver os dados de scan do '''Banco de Dados de Ameaças''' da Bulma, os ataques de ki e combos dele. Se perder o prazo, você é desclassificado (o oponente avança).\n* Quando todos na luta estiverem prontos, uma prévia de 5 segundos é exibida e você é teletransportado para o ringue. Os lutadores ficam congelados durante uma contagem regressiva de '''3-2-1''' e então vem o '''LUTEM!'''\n* Só o seu oponente pode te ferir e só você pode feri-lo. Qualquer outra pessoa que chegue a menos de '''15 blocos''' dos lutadores é empurrada para fora.\n* Cada luta tem um limite de tempo (Vovó Uranai 5 minutos, Cell 7 minutos, Outro Mundo 8 minutos). Uma luta que fica sem tempo é anulada e disputada de novo.\n* Fique a até '''60 blocos''' do ringue. Se você se afastar (ou sair do jogo), tem '''15 segundos''' para voltar, senão está fora. Membros do grupo chamados para o torneio de outro lugar têm '''60 segundos''' para chegar à arena.\n* Perder uma luta te elimina do torneio e inicia sua espera para reentrar.",
+  "source": "* When your bout is next, the tournament screen opens and you have '''30 seconds''' to press '''Ready'''. Hover your opponent to study their stats and, once you have Bulma's '''Threat Database''' scan data, their ki attacks and combos. Miss the window and you're disqualified (your opponent advances).\n* When everyone in the bout is ready, a 5-second preview plays, then you're teleported into the ring. Fighters stand frozen through a '''3-2-1''' countdown, then '''FIGHT!'''\n* Only your opponent can hurt you and only you can hurt them. Anyone else who comes within '''15 blocks''' of the fighters is pushed out.\n* Each bout has a time limit (Baba 5 minutes, Cell 7 minutes, Otherworld 8 minutes, World Martial Arts Tournament 7 minutes). A bout that runs out of time is void and fought again.\n* Stay within '''60 blocks''' of the ring. If you walk away (or log out), you have '''15 seconds''' to come back, or you're out. Party members called into the tournament from elsewhere get '''60 seconds''' to reach the arena.\n* Losing a bout knocks you out of the tournament and starts your re-entry cooldown.",
+  "translation": "* Quando a sua luta for a próxima, a tela do torneio abre e você tem '''30 segundos''' para apertar '''Pronto'''. Passe o cursor sobre o oponente para estudar os atributos dele e, depois que tiver os dados de scan do '''Banco de Dados de Ameaças''' da Bulma, os ataques de ki e combos dele. Se perder o prazo, você é desclassificado (o oponente avança).\n* Quando todos na luta estiverem prontos, uma prévia de 5 segundos é exibida e você é teletransportado para o ringue. Os lutadores ficam congelados durante uma contagem regressiva de '''3-2-1''' e então vem o '''LUTEM!'''\n* Só o seu oponente pode te ferir e só você pode feri-lo. Qualquer outra pessoa que chegue a menos de '''15 blocos''' dos lutadores é empurrada para fora.\n* Cada luta tem um limite de tempo (Vovó Uranai 5 minutos, Cell 7 minutos, Outro Mundo 8 minutos, Torneio de Artes Marciais 7 minutos). Uma luta que fica sem tempo é anulada e disputada de novo.\n* Fique a até '''60 blocos''' do ringue. Se você se afastar (ou sair do jogo), tem '''15 segundos''' para voltar, senão está fora. Membros do grupo chamados para o torneio de outro lugar têm '''60 segundos''' para chegar à arena.\n* Perder uma luta te elimina do torneio e inicia sua espera para reentrar.",
   "outdated": false
  },
  "36": {
@@ -220,8 +250,8 @@
   "outdated": false
  },
  "44": {
-  "source": "The tournament arenas (Baba's Palace, the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival players unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code>. See [[Special:MyLanguage/Gamerules|Gamerules]].",
-  "translation": "Jogadores no modo sobrevivência não podem construir nem quebrar blocos nas arenas de torneio (o Palácio da Vovó Uranai, a [[Special:MyLanguage/Cell Arena|Arena do Cell]] e a arena do Torneio do Outro Mundo), a menos que a gamerule <code>allowBuildingInArenaStructures</code> esteja em <code>true</code>. Veja [[Special:MyLanguage/Gamerules|Gamerules]].",
+  "source": "The tournament arenas (Baba's Palace, the [[Special:MyLanguage/Cell Arena|Cell Arena]], the Otherworld Tournament grounds and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island) can't be built in or broken by survival players unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code>. See [[Special:MyLanguage/Gamerules|Gamerules]].",
+  "translation": "Jogadores no modo sobrevivência não podem construir nem quebrar blocos nas arenas de torneio (o Palácio da Vovó Uranai, a [[Special:MyLanguage/Cell Arena|Arena do Cell]], a arena do Torneio do Outro Mundo e a ilha do [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]]), a menos que a gamerule <code>allowBuildingInArenaStructures</code> esteja em <code>true</code>. Veja [[Special:MyLanguage/Gamerules|Gamerules]].",
   "outdated": false
  },
  "45": {
@@ -230,8 +260,8 @@
   "outdated": false
  },
  "46": {
-  "source": "All <code>/dmztournament</code> subcommands require operator permission level 2.",
-  "translation": "Todos os subcomandos de <code>/dmztournament</code> exigem nível de permissão de operador 2.",
+  "source": "All <code>/dmztournament</code> subcommands require operator permission level 2. The tournament ids are <code>baba</code>, <code>cell</code>, <code>otherworld</code> and <code>budokai</code> (the World Martial Arts Tournament).",
+  "translation": "Todos os subcomandos de <code>/dmztournament</code> exigem nível de permissão de operador 2. Os ids dos torneios são <code>baba</code>, <code>cell</code>, <code>otherworld</code> e <code>budokai</code> (o Torneio de Artes Marciais).",
   "outdated": false
  },
  "47": {
@@ -260,8 +290,8 @@
   "outdated": false
  },
  "52": {
-  "source": "Each tournament is one file in <code>config/dragonminez/tournaments/</code> named after its id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>), generated with the defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded too (files starting with <code>old_</code> are ignored), but only the three shipped ids have a host NPC. Reload with <code>/dmzreload config</code>.",
-  "translation": "Cada torneio é um arquivo em <code>config/dragonminez/tournaments/</code> com o nome do seu id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>), gerado com os valores padrão e atualizado por versão como os outros arquivos de configuração. Qualquer outro arquivo <code>.json</code> na pasta também é carregado (arquivos que começam com <code>old_</code> são ignorados), mas só os três ids incluídos têm um NPC anfitrião. Recarregue com <code>/dmzreload config</code>.",
+  "source": "Each tournament is one file in <code>config/dragonminez/tournaments/</code> named after its id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>, <code>budokai.json</code>), generated with the defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded too (files starting with <code>old_</code> are ignored), but only the four shipped ids have a host NPC. Reload with <code>/dmzreload config</code>.",
+  "translation": "Cada torneio é um arquivo em <code>config/dragonminez/tournaments/</code> com o nome do seu id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>, <code>budokai.json</code>), gerado com os valores padrão e atualizado por versão como os outros arquivos de configuração. Qualquer outro arquivo <code>.json</code> na pasta também é carregado (arquivos que começam com <code>old_</code> são ignorados), mas só os quatro ids incluídos têm um NPC anfitrião. Recarregue com <code>/dmzreload config</code>.",
   "outdated": false
  },
  "53": {
@@ -270,8 +300,8 @@
   "outdated": false
  },
  "54": {
-  "source": "Default (Baba / Cell / Otherworld)",
-  "translation": "Padrão (Vovó Uranai / Cell / Outro Mundo)",
+  "source": "Default (Baba / Cell / Otherworld / World Martial Arts Tournament)",
+  "translation": "Padrão (Vovó Uranai / Cell / Outro Mundo / Torneio de Artes Marciais)",
   "outdated": false
  },
  "55": {
@@ -354,6 +384,11 @@
   "translation": "Lutadores obrigatórios.",
   "outdated": false
  },
+ "84": {
+  "source": "(Majin Vegeta)",
+  "translation": "(Majin Vegeta)",
+  "outdated": false
+ },
  "72": {
   "source": "Optional fighter between the semi-final and the champion.",
   "translation": "Lutador opcional entre a semifinal e o campeão.",
@@ -382,6 +417,11 @@
  "77": {
   "source": "A fighter drawn from a tag is always a character who isn't in the tournament yet: the semi-finalist, the finalist and the champion are resolved first, then the contenders with a fixed entity id, then the tag draws in list order, and the forms of a character (base, Super Saiyan and so on) count as one. A contender entry whose tag has no character left is skipped.",
   "translation": "Um lutador sorteado de uma tag é sempre um personagem que ainda não está no torneio: o semifinalista, o finalista e o campeão são definidos primeiro, depois os competidores com um id de entidade fixo e depois os sorteios por tag, na ordem da lista; as formas de um personagem (base, Super Saiyajin etc.) contam como uma só. Uma entrada de competidor cuja tag não tem mais nenhum personagem disponível é ignorada.",
+  "outdated": false
+ },
+ "85": {
+  "source": "Characters in the entity tag <code>#dragonminez:non_fighters</code> are never drawn from a tag, even if the tag lists them. By default these are [[Special:MyLanguage/Bulma|Bulma]] and the World Tournament Announcer, so neither can turn up as a contender.",
+  "translation": "Os personagens da tag de entidade <code>#dragonminez:non_fighters</code> nunca são sorteados de uma tag, mesmo que a tag os inclua. Por padrão, são a [[Special:MyLanguage/Bulma|Bulma]] e o Locutor do Torneio de Artes Marciais, então nenhum dos dois pode aparecer como competidor.",
   "outdated": false
  }
 }

@@ -1,0 +1,222 @@
+{
+ "Page_display_title": {
+  "source": "Red Ribbon Army Assault",
+  "translation": "Ataque do Exército Red Ribbon",
+  "outdated": false
+ },
+ "1": {
+  "source": "Send every soldier we have! Nobody humiliates the Red Ribbon Army!",
+  "translation": "Mandem todos os soldados que temos! Ninguém humilha o Exército Red Ribbon!",
+  "outdated": false
+ },
+ "2": {
+  "source": "Red Ribbon base: an army base held by Red Ribbon soldiers, robots and their commander",
+  "translation": "Base da Red Ribbon: uma base militar ocupada por soldados e robôs da Red Ribbon e pelo seu comandante",
+  "outdated": false
+ },
+ "3": {
+  "source": "Colonel Silver (wave 3); Sergeant Metallic and Ninja Murasaki (wave 4); General Blue and General Black's Robot (wave 5)",
+  "translation": "Coronel Silver (onda 3); Sargento Metallic e Ninja Murasaki (onda 4); General Blue e Robô do General Black (onda 5)",
+  "outdated": false
+ },
+ "4": {
+  "source": "5,700 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Red Capsule, 1 Blue Capsule",
+  "translation": "5,700 TP, Herói da Vila e Herói do Mundo (10 min), 8 Cenouras douradas, 2 Sementes dos Deuses, 1 Cápsula Vermelha, 1 Cápsula Azul",
+  "outdated": false
+ },
+ "5": {
+  "source": "−5 alignment",
+  "translation": "−5 de índole",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Red Ribbon Army Assault''' is a raid of [[Special:MyLanguage/Earth|Earth]] and the easiest of the four raids. Kill the commander of a Red Ribbon base and General Red sends the whole [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] after you: five waves of soldiers and robots, led by '''Colonel Silver''', then '''Sergeant Metallic''' and '''Ninja Murasaki''', and finally '''General Blue''' and '''General Black's Robot'''.",
+  "translation": "O '''Ataque do Exército Red Ribbon''' é uma incursão da [[Special:MyLanguage/Earth|Terra]] e a mais fácil das quatro incursões. Mate o comandante de uma base da Red Ribbon e o General Red manda todo o [[Special:MyLanguage/Red Ribbon Army|Exército Red Ribbon]] atrás de você: cinco ondas de soldados e robôs, lideradas pelo '''Coronel Silver''', depois pelo '''Sargento Metallic''' e pelo '''Ninja Murasaki''', e por fim pelo '''General Blue''' e pelo '''Robô do General Black'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding a Red Ribbon base ==",
+  "translation": "== Como encontrar uma base da Red Ribbon ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Red Ribbon bases''' are large army bases (84 × 146 blocks, 23 blocks high) found in the Plains, Sunflower Plains and Savanna biomes of the Overworld. They are spread out (at most one in every 32 × 32 chunk area, at least 16 chunks apart) and kept at least 8 chunks away from villages, and they only appear in newly generated chunks. Use <code>/dmzlocate red_ribbon_base</code> to find the nearest one; no villager sells a map to them. Bases have no build or ki protection. They are not the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a separate outpost that keeps spawning soldiers. See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "As '''bases da Red Ribbon''' são grandes bases militares (84 × 146 blocos, 23 blocos de altura) encontradas nos biomas Planície, Planície de girassóis e Savana do Overworld. Elas ficam espalhadas (no máximo uma em cada área de 32 × 32 chunks, separadas por pelo menos 16 chunks) e a pelo menos 8 chunks das vilas, e só aparecem em chunks recém-gerados. Use <code>/dmzlocate red_ribbon_base</code> para encontrar a mais próxima; nenhum aldeão vende um mapa para elas. As bases não têm proteção contra construção nem contra ki. Elas não são a [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]], um posto avançado separado que continua gerando soldados. Veja [[Special:MyLanguage/Structures|Estruturas]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== The garrison ==",
+  "translation": "== A guarnição ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "When you come within 80 blocks of a base, its garrison appears and you get a warning: ''\"You spot a Red Ribbon Army base nearby... its commander must be inside the headquarters.\"''. The garrison is 16 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]] and 3 Red Ribbon Robots posted around the base, plus the '''Red Ribbon Commander''' inside the headquarters: a named Red Ribbon's Soldier with 150 health and 8 melee damage. All of them show the purple supervillain tint and outline and don't despawn. Each guard stays within 12 blocks of its post, and the commander within 10 blocks of his. The garrison doesn't appear in Peaceful.",
+  "translation": "Quando você chega a menos de 80 blocos de uma base, a guarnição dela aparece e você recebe um aviso: ''\"Você avista uma base do Exército Red Ribbon aqui perto... o comandante deve estar dentro do quartel-general.\"''. A guarnição tem 16 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]] e 3 Robôs da Red Ribbon posicionados pela base, além do '''Comandante do Exército Red Ribbon''' dentro do quartel-general: um Soldado da Red Ribbon com nome próprio, 150 de vida e 8 de dano corpo a corpo. Todos mostram o tom e o contorno roxos de supervilão e não desaparecem. Cada guarda fica a menos de 12 blocos do seu posto, e o comandante a menos de 10 blocos do dele. A guarnição não aparece no Pacífico.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Starting the raid ==",
+  "translation": "== Como iniciar a incursão ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Kill the commander. The player who kills him (or the nearest player within 48 blocks, if nobody gets the credit) receives the '''Hunted''' effect for 60 seconds, and the alarm goes off: ''\"The alarm is blaring! The whole Red Ribbon Army is mobilizing against you!\"''. When Hunted runs out, the raid starts where you stand and General Red gives the order: ''\"Send every soldier we have! Nobody humiliates the Red Ribbon Army!\"''. Drinking milk to remove Hunted calls the raid off. Each base can start only one raid: once its commander is dead, the base is spent. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].",
+  "translation": "Mate o comandante. O jogador que o mata (ou o jogador mais próximo a menos de 48 blocos, se ninguém levar o crédito) recebe o efeito '''Caçado''' por 60 segundos, e o alarme dispara: ''\"O alarme está tocando! Todo o Exército Red Ribbon está se mobilizando contra você!\"''. Quando Caçado acaba, a incursão começa onde você estiver e o General Red dá a ordem: ''\"Mandem todos os soldados que temos! Ninguém humilha o Exército Red Ribbon!\"''. Beber leite para remover Caçado cancela a incursão. Cada base só pode iniciar uma incursão: assim que o comandante morre, a base se esgota. O fluxo completo é explicado em [[Special:MyLanguage/Raids#How a raid plays out|Incursões]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Waves ==",
+  "translation": "== Ondas ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Stats are the defaults, before the story difficulty multiplier of the player who started the raid. The soldiers and robots spawn on the ground around you and fight like the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] mobs outside raids, so the AI tiers don't apply to them; each robot is one of the three robot models, drawn at random. The bosses drop in from above and stay dormant until the soldiers and robots of their wave are dead.",
+  "translation": "Os atributos são os padrões, antes do multiplicador de dificuldade da história do jogador que iniciou a incursão. Os soldados e robôs surgem no chão ao seu redor e lutam como as criaturas do [[Special:MyLanguage/Red Ribbon Army|Exército Red Ribbon]] fora das incursões, então os níveis de IA não se aplicam a eles; cada robô é um dos três modelos de robô, sorteado. Os chefes caem do alto e ficam adormecidos até que os soldados e robôs da sua onda morram.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Wave",
+  "translation": "Onda",
+  "outdated": false
+ },
+ "16": {
+  "source": "Enemies",
+  "translation": "Inimigos",
+  "outdated": false
+ },
+ "17": {
+  "source": "Health / melee / ki",
+  "translation": "Vida / corpo a corpo / ki",
+  "outdated": false
+ },
+ "18": {
+  "source": "AI tier",
+  "translation": "Nível de IA",
+  "outdated": false
+ },
+ "19": {
+  "source": "8 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "8 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]]",
+  "outdated": false
+ },
+ "20": {
+  "source": "10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "10 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]]",
+  "outdated": false
+ },
+ "21": {
+  "source": "3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]",
+  "translation": "3 [[Special:MyLanguage/Red Ribbon Army|Robôs da Red Ribbon]]",
+  "outdated": false
+ },
+ "22": {
+  "source": "10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "10 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]]",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Colonel Silver''' (boss)",
+  "translation": "'''Coronel Silver''' (chefe)",
+  "outdated": false
+ },
+ "24": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "25": {
+  "source": "12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "12 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]]",
+  "outdated": false
+ },
+ "26": {
+  "source": "3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]",
+  "translation": "3 [[Special:MyLanguage/Red Ribbon Army|Robôs da Red Ribbon]]",
+  "outdated": false
+ },
+ "27": {
+  "source": "'''Sergeant Metallic''' (boss)",
+  "translation": "'''Sargento Metallic''' (chefe)",
+  "outdated": false
+ },
+ "28": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Ninja Murasaki''' (boss)",
+  "translation": "'''Ninja Murasaki''' (chefe)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "31": {
+  "source": "12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "12 [[Special:MyLanguage/Red Ribbon Army|Soldados da Red Ribbon]]",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''General Blue''' (boss)",
+  "translation": "'''General Blue''' (chefe)",
+  "outdated": false
+ },
+ "33": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "34": {
+  "source": "'''General Black's Robot''' (boss)",
+  "translation": "'''Robô do General Black''' (chefe)",
+  "outdated": false
+ },
+ "35": {
+  "source": "Elite",
+  "translation": "Elite",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Bosses ==",
+  "translation": "== Chefes ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "None of the bosses can fly. '''Ninja Murasaki''' carries a katana and steps out of the way of attacks every so often; after landing three hits he runs away from you for 3 seconds. '''Sergeant Metallic''' is a big robot, 1.4 times the normal size, and '''General Blue''' attacks twice as fast as a normal fighter. '''General Black's Robot''' is the strongest enemy of the raid and the only one on the Elite AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).",
+  "translation": "Nenhum dos chefes pode voar. O '''Ninja Murasaki''' carrega uma katana e de vez em quando sai do caminho de um ataque; depois de acertar três golpes, ele foge de você por 3 segundos. O '''Sargento Metallic''' é um robô grande, 1.4 vezes o tamanho normal, e o '''General Blue''' ataca duas vezes mais rápido que um lutador normal. O '''Robô do General Black''' é o inimigo mais forte da incursão e o único no nível de IA Elite (veja [[Special:MyLanguage/Sagas#Enemy AI tiers|níveis de IA dos inimigos]]).",
+  "outdated": false
+ },
+ "38": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "Every participant still fighting when the last wave is cleared gets:\n* '''5,700 TP'''\n* '''Hero of the Village''' and '''Hero of the World''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])\n* 8 [[Special:MyLanguage/Golden Carrot|Golden Carrots]], 2 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], 1 [[Special:MyLanguage/Capsules|Red Capsule]] (STR) and 1 [[Special:MyLanguage/Capsules|Blue Capsule]] (ENE)",
+  "translation": "Todo participante que ainda estiver lutando quando a última onda for eliminada recebe:\n* '''5,700 TP'''\n* '''Herói da Vila''' e '''Herói do Mundo''' por 10 minutos (veja [[Special:MyLanguage/Effects|Efeitos]])\n* 8 [[Special:MyLanguage/Golden Carrot|Cenouras douradas]], 2 [[Special:MyLanguage/Senzu Bean|Sementes dos Deuses]], 1 [[Special:MyLanguage/Capsules|Cápsula Vermelha]] (STR) e 1 [[Special:MyLanguage/Capsules|Cápsula Azul]] (ENE)",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Defeat ==",
+  "translation": "== Derrota ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "If every participant falls or leaves, the raid is lost: the remaining soldiers vanish, everyone sees ''\"You couldn't stop the Red Ribbon Army...\"'' and loses '''5 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).",
+  "translation": "Se todos os participantes caírem ou saírem, a incursão é perdida: os soldados restantes desaparecem, todos veem ''\"Você não conseguiu deter o Exército Red Ribbon...\"'' e perdem '''5 de índole''' (veja [[Special:MyLanguage/Alignment|Índole]]).",
+  "outdated": false
+ },
+ "42": {
+  "source": "== Configuration ==",
+  "translation": "== Configuração ==",
+  "outdated": false
+ },
+ "43": {
+  "source": "The raid's trigger, waves and rewards are defined in <code>config/dragonminez/raids/red_ribbon_assault.json</code>; the fields are explained on [[Special:MyLanguage/Raids#Configuration|Raids]]. Operators can start the raid anywhere with <code>/dmzraid start red_ribbon_assault</code> (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "O gatilho, as ondas e as recompensas da incursão são definidos em <code>config/dragonminez/raids/red_ribbon_assault.json</code>; os campos são explicados em [[Special:MyLanguage/Raids#Configuration|Incursões]]. Os operadores podem iniciar a incursão em qualquer lugar com <code>/dmzraid start red_ribbon_assault</code> (veja [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ }
+}

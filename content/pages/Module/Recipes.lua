@@ -170,6 +170,20 @@ local function card( recipe, lang )
 		.. mw.text.nowiki( nameOf( recipe.result[ 1 ], lang ) ) .. '</div>' .. render( recipe, lang ) .. '</div>'
 end
 
+local function armorRecipe( id )
+	local info = data.armor[ id ]
+	if not info then
+		return nil
+	end
+	local group = data.recipes[ 'kikono/' .. info.piece ]
+	local slots = {}
+	for name, items in pairs( group.slots ) do
+		slots[ name ] = items
+	end
+	slots.pattern = { info.pattern }
+	return { kind = 'kikono', slots = slots, result = { id }, time = group.time, energy = group.energy }
+end
+
 local function recipesFor( arg, kind )
 	local value = mw.text.trim( arg or '' )
 	if data.recipes[ value ] then
@@ -182,6 +196,10 @@ local function recipesFor( arg, kind )
 		if not kind or recipe.kind == kind then
 			table.insert( list, recipe )
 		end
+	end
+	local armor = #list == 0 and ( not kind or kind == 'kikono' ) and armorRecipe( id )
+	if armor then
+		table.insert( list, armor )
 	end
 	return list, id
 end
@@ -240,20 +258,6 @@ local TREE = {
 	energy = { en = 'Total: %s Star Energy', es = 'Total: %s de Energía Estelar', pt = 'Total: %s de Energia Estelar' },
 	unknown = { en = 'Unknown item: %s', es = 'Ítem desconocido: %s', pt = 'Item desconhecido: %s' },
 }
-
-local function armorRecipe( id )
-	local info = data.armor[ id ]
-	if not info then
-		return nil
-	end
-	local group = data.recipes[ 'kikono/' .. info.piece ]
-	local slots = {}
-	for name, items in pairs( group.slots ) do
-		slots[ name ] = items
-	end
-	slots.pattern = { info.pattern }
-	return { kind = 'kikono', slots = slots, result = { id }, time = group.time, energy = group.energy }
-end
 
 local function recipesOf( id )
 	local armor = armorRecipe( id )

@@ -54,6 +54,11 @@
   "translation": "reabrir o resumo da sua última luta contra um chefe de mundo (<code>/dmzworldboss results</code>);",
   "outdated": false
  },
+ "73": {
+  "source": "saving a debug file of your own character (<code>/dmzdebug</code>, once every 5 seconds);",
+  "translation": "salvar um arquivo de depuração do seu próprio personagem (<code>/dmzdebug</code>, uma vez a cada 5 segundos);",
+  "outdated": false
+ },
  "11": {
   "source": "viewing your own stats, points, skills, techniques, forms and effects.",
   "translation": "ver suas próprias estatísticas, pontos, habilidades, técnicas, formas e efeitos.",
@@ -255,8 +260,8 @@
   "outdated": false
  },
  "51": {
-  "source": "<code>start</code> begins a raid at your position (<code>saiyan_assault</code> by default); <code>stop</code> cancels the nearest raid within 128 blocks; <code>info</code> shows the state of the nearest raid. Needs OP level 2. See [[Special:MyLanguage/Raids|Raids]].",
-  "translation": "<code>start</code> inicia uma incursão na sua posição (<code>saiyan_assault</code> por padrão); <code>stop</code> cancela a incursão mais próxima num raio de 128 blocos; <code>info</code> mostra o estado da incursão mais próxima. Exige OP nível 2. Veja [[Special:MyLanguage/Raids|Incursões]].",
+  "source": "<code>start</code> begins a raid at your position: <code>red_ribbon_assault</code>, <code>saiyan_assault</code> (the default), <code>frieza_invasion</code>, <code>gomah_assault</code> or an extra raid; <code>stop</code> cancels the nearest raid within 128 blocks; <code>info</code> shows the state of the nearest raid. Needs OP level 2. See [[Special:MyLanguage/Raids|Raids]].",
+  "translation": "<code>start</code> inicia uma incursão na sua posição: <code>red_ribbon_assault</code>, <code>saiyan_assault</code> (a padrão), <code>frieza_invasion</code>, <code>gomah_assault</code> ou uma incursão extra; <code>stop</code> cancela a incursão mais próxima num raio de 128 blocos; <code>info</code> mostra o estado da incursão mais próxima. Exige OP nível 2. Veja [[Special:MyLanguage/Raids|Incursões]].",
   "outdated": false
  },
  "52": {
@@ -290,8 +295,8 @@
   "outdated": false
  },
  "58": {
-  "source": "<code>ring</code>, run while standing inside a tournament arena structure, saves your spot as that tournament's ring point. <code>cooldown clear</code> clears tournament cooldowns (of every tournament if none is given). Needs OP level 2. See [[Special:MyLanguage/Tournaments|Tournaments]].",
-  "translation": "<code>ring</code>, executado dentro de uma estrutura de arena de torneio, salva sua posição como o ponto do ringue desse torneio. <code>cooldown clear</code> limpa as recargas de torneio (de todos os torneios se nenhum for informado). Exige OP nível 2. Veja [[Special:MyLanguage/Tournaments|Torneios]].",
+  "source": "<code>ring</code>, run while standing inside a tournament arena structure, saves your spot as that tournament's ring point. <code>cooldown clear</code> clears tournament cooldowns (of every tournament if none is given). Tournaments: <code>baba</code>, <code>cell</code>, <code>otherworld</code> and <code>budokai</code> (the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]). Needs OP level 2. See [[Special:MyLanguage/Tournaments|Tournaments]].",
+  "translation": "<code>ring</code>, executado dentro de uma estrutura de arena de torneio, salva sua posição como o ponto do ringue desse torneio. <code>cooldown clear</code> limpa as recargas de torneio (de todos os torneios se nenhum for informado). Torneios: <code>baba</code>, <code>cell</code>, <code>otherworld</code> e <code>budokai</code> (o [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]]). Exige OP nível 2. Veja [[Special:MyLanguage/Tournaments|Torneios]].",
   "outdated": false
  },
  "59": {
@@ -330,8 +335,8 @@
   "outdated": false
  },
  "66": {
-  "source": "Finds the nearest DragonMineZ structure with that id in your dimension (a bare id or <code>namespace:path</code>). It also accepts <code>otherworld_tournament</code>, the Otherworld Tournament ring, which only works while you are in the [[Special:MyLanguage/Otherworld|Otherworld]]. See [[Special:MyLanguage/Structures|Structures]].",
-  "translation": "Encontra a estrutura do DragonMineZ mais próxima com esse id na sua dimensão (um id simples ou <code>namespace:path</code>). Também aceita <code>otherworld_tournament</code>, o ringue do Torneio do Outro Mundo, que só funciona enquanto você está no [[Special:MyLanguage/Otherworld|Outro Mundo]]. Veja [[Special:MyLanguage/Structures|Estruturas]].",
+  "source": "Finds the nearest DragonMineZ structure with that id in your dimension (a bare id or <code>namespace:path</code>). It also accepts <code>otherworld_tournament</code>, the Otherworld Tournament ring, which only works while you are in the [[Special:MyLanguage/Otherworld|Otherworld]]. Among the ids are <code>budokai_tenkaichi</code> (the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island) and <code>red_ribbon_base</code> (the bases of the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]]). See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "Encontra a estrutura do DragonMineZ mais próxima com esse id na sua dimensão (um id simples ou <code>namespace:path</code>). Também aceita <code>otherworld_tournament</code>, o ringue do Torneio do Outro Mundo, que só funciona enquanto você está no [[Special:MyLanguage/Otherworld|Outro Mundo]]. Entre os ids estão <code>budokai_tenkaichi</code> (a ilha do [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]]) e <code>red_ribbon_base</code> (as bases do [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]]). Veja [[Special:MyLanguage/Structures|Estruturas]].",
   "outdated": false
  },
  "67": {
@@ -355,8 +360,13 @@
   "outdated": false
  },
  "71": {
-  "source": "Prints debug data. When both are given, '''the target (a player) comes before the scope'''; a scope alone uses yourself. Scopes: <code>ALL</code>, <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
-  "translation": "Mostra dados de depuração. Quando ambos são informados, '''o alvo (um jogador) vem antes do escopo'''; um escopo sozinho usa você. Escopos: <code>ALL</code>, <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
+  "source": "Saves a debug file with a character's DragonMineZ data. Every player can run it on their own character, once every 5 seconds: the file is saved on your own computer as <code>dmzdebug/&lt;PlayerName&gt;.json</code> in your game folder, and the chat message has a link that opens the folder. Admins (OP level 2 or <code>dragonminez.admin</code>) can also name another player, '''before the scope''', and have no cooldown; run from the server console, the file is saved in the server's folder. Scopes: <code>ALL</code> (the default), <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
+  "translation": "Salva um arquivo de depuração com os dados de DragonMineZ de um personagem. Qualquer jogador pode usá-lo no próprio personagem, uma vez a cada 5 segundos: o arquivo é salvo no seu próprio computador como <code>dmzdebug/&lt;PlayerName&gt;.json</code> dentro da pasta do jogo, e a mensagem do chat tem um link que abre a pasta. Administradores (OP nível 2 ou <code>dragonminez.admin</code>) também podem informar outro jogador, '''antes do escopo''', e não têm tempo de espera; se for executado pelo console do servidor, o arquivo é salvo na pasta do servidor. Escopos: <code>ALL</code> (o padrão), <code>STATS</code>, <code>CHARACTER</code>, <code>TECHNIQUES</code>, <code>QUESTS</code>.",
+  "outdated": false
+ },
+ "74": {
+  "source": "A testing tool: unlike most commands, the player is required and comes '''first'''. <code>form</code> puts the player into any form of their race (<code>base</code> reverts), <code>stackform</code> applies a stack form (<code>clear</code> removes it) and <code>clear</code> removes both; forms triggered this way cost nothing, give no mastery and skip unlock requirements. <code>racialskill</code> fires a [[Special:MyLanguage/Racial Skills|racial skill]]: a Saiyan Zenkai at a potency (<code>temp</code> only applies the temporary boost, <code>real</code> triggers a full Zenkai), a Majin absorption of the mob you name, a Namekian assimilation, Human Adrenaline, a Frost Demon energy reserve at that percentage, or a Bio-Android self-destruct or Cell Jr. <code>cooldowns</code> clears the racial cooldowns, <code>rage</code> sets the Rage meter (Mutants and False Super Saiyan), <code>knockout</code> knocks the player out (by default for the server's knockdown time) and <code>release</code> sets Power Release. Needs OP level 2, <code>dragonminez.admin</code>, <code>dragonminez.dmztrigger.self</code> (yourself only) or <code>dragonminez.dmztrigger.others</code>; both nodes are off by default.",
+  "translation": "Uma ferramenta de testes: ao contrário da maioria dos comandos, o jogador é obrigatório e vem '''primeiro'''. <code>form</code> coloca o jogador em qualquer forma da raça dele (<code>base</code> o devolve à forma base), <code>stackform</code> aplica uma forma acumulável (<code>clear</code> a remove) e <code>clear</code> remove as duas; formas ativadas assim não custam nada, não dão domínio e ignoram os requisitos de desbloqueio. <code>racialskill</code> ativa uma [[Special:MyLanguage/Racial Skills|habilidade racial]]: um Zenkai saiyajin com uma potência (<code>temp</code> só aplica o bônus temporário, <code>real</code> ativa um Zenkai completo), uma absorção majin da criatura que você informar, uma assimilação namekuseijin, a Adrenalina humana, a reserva de energia de um Clã Freeza nessa porcentagem, ou a autodestruição ou um Cell Jr. de um Bio-Androide. <code>cooldowns</code> limpa as recargas raciais, <code>rage</code> define o medidor de fúria (Mutantes e Falso Super Saiyajin), <code>knockout</code> nocauteia o jogador (por padrão pelo tempo de nocaute do servidor) e <code>release</code> define a Liberação de Poder. Exige OP nível 2, <code>dragonminez.admin</code>, <code>dragonminez.dmztrigger.self</code> (só em você mesmo) ou <code>dragonminez.dmztrigger.others</code>; os dois nós vêm desativados por padrão.",
   "outdated": false
  },
  "72": {

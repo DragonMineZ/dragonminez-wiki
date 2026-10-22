@@ -98,7 +98,7 @@ Nodes default to <code>false</code> (operators and admins only) unless the table
 {| class="wikitable"
 ! <translate><!--T:24--> Node</translate> !! <translate><!--T:25--> Default</translate> !! <translate><!--T:26--> Grants</translate>
 |-
-| <code>dragonminez.admin</code> || <code>false</code> || <translate><!--T:27--> Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.</translate>
+| <code>dragonminez.admin</code> || <code>false</code> || <translate><!--T:27--> Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and for using <code>/dmzdebug</code> on another player.</translate>
 |}
 
 <translate>
@@ -353,7 +353,11 @@ Nodes of <code>StoryCommand</code> (<code>/dmzquest</code>).
 |-
 | <code>dragonminez.dmzclass.set.others</code> || <code>false</code> || <translate><!--T:147--> Change another player's class.</translate> || <code>ClassCommand</code>
 |-
-| <code>dragonminez.admin</code> || <code>false</code> || <translate><!--T:148--> Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.</translate> || <code>ConfigCommand</code>, <code>RestoreCommand</code>, <code>DebugCommand</code>
+| <code>dragonminez.dmztrigger.self</code> || <code>false</code> || <translate><!--T:151--> Trigger test forms, racial skills and states on yourself with <code>/dmztrigger</code>.</translate> || <code>TriggerCommand</code>
+|-
+| <code>dragonminez.dmztrigger.others</code> || <code>false</code> || <translate><!--T:152--> The same, on another player.</translate> || <code>TriggerCommand</code>
+|-
+| <code>dragonminez.admin</code> || <code>false</code> || <translate><!--T:148--> Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and for using <code>/dmzdebug</code> on another player.</translate> || <code>ConfigCommand</code>, <code>RestoreCommand</code>, <code>DebugCommand</code>
 |}
 
 <translate>

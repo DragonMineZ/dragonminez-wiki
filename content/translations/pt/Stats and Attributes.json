@@ -330,8 +330,8 @@
   "outdated": false
  },
  "66": {
-  "source": "Your '''movement speed''' bonus follows your Speed, capped at '''×3'''.",
-  "translation": "Seu bônus de '''velocidade de movimento''' acompanha sua Velocidade, limitado a '''×3'''.",
+  "source": "Your '''movement speed''' gets 85% of your extra Speed: ×(1 + (Speed − 1) × 0.85). Only Speed up to '''3''' counts (by default), so you move at most '''×2.7''' as fast.",
+  "translation": "A sua '''velocidade de movimento''' recebe 85% da sua Velocidade extra: ×(1 + (Velocidade − 1) × 0.85). Só conta a Velocidade até '''3''' (por padrão), então você se move no máximo '''×2.7''' mais rápido.",
   "outdated": false
  },
  "67": {

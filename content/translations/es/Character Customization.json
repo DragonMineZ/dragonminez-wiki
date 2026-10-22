@@ -225,8 +225,8 @@
   "outdated": false
  },
  "45": {
-  "source": "'''Preset''': start from any of the 28 presets (or Bald).",
-  "translation": "'''Preajuste''': empieza desde cualquiera de los 28 preajustes (o Calvo).",
+  "source": "'''Preset''': start from any of the 28 presets (or Bald). Presets 2 (Vegeta) and 8 (Raditz) were redrawn in version 2.2.",
+  "translation": "'''Preajuste''': empieza desde cualquiera de los 28 preajustes (o Calvo). Los preajustes 2 (Vegeta) y 8 (Raditz) se redibujaron en la versión 2.2.",
   "outdated": false
  },
  "46": {
@@ -455,8 +455,8 @@
   "outdated": false
  },
  "91": {
-  "source": "'''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (it takes the eye color of each form). Your base form keeps your skin's own eyes untouched.",
-  "translation": "'''Ojos''' (3 pasos): marca las '''cejas''' (toman el color de pelo de cada forma), el '''blanco de los ojos''' y el '''iris''' (toma el color de ojos de cada forma). Tu forma base mantiene intactos los ojos de tu skin.",
+  "source": "'''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (the left eye takes the first eye color of each form and the right eye the second; the legend shows them as '''Left iris''' and '''Right iris'''). Your base form keeps your skin's own eyes untouched.",
+  "translation": "'''Ojos''' (3 pasos): marca las '''cejas''' (toman el color de pelo de cada forma), el '''blanco de los ojos''' y el '''iris''' (el ojo izquierdo toma el primer color de ojos de cada forma y el derecho el segundo; la leyenda los muestra como '''Iris izquierdo''' e '''Iris derecho'''). Tu forma base mantiene intactos los ojos de tu skin.",
   "outdated": false
  },
  "92": {
@@ -475,8 +475,8 @@
   "outdated": false
  },
  "95": {
-  "source": "The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Save''' and '''Cancel'''. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.",
-  "translation": "La barra superior tiene '''Deshacer''', '''Rehacer''', '''Borrar''', '''Capa exterior''' (muestra la capa exterior y permite pintar sobre ella), '''Pelo''' (muestra el pelo 3D), '''Borrador''', '''Guardar''' y '''Cancelar'''. La fila de '''Vista previa''' recorre tus transformaciones para que compruebes el resultado. Solo se puede pintar la capa visible.",
+  "source": "The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Fill''', '''Save''' and '''Cancel'''. With '''Fill''' on, a click paints every visible pixel of the color you click in one go; the area is highlighted before you click, and with the Eraser on or {{Key|Alt}} held it erases that area instead. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.",
+  "translation": "La barra superior tiene '''Deshacer''', '''Rehacer''', '''Borrar''', '''Capa exterior''' (muestra la capa exterior y permite pintar sobre ella), '''Pelo''' (muestra el pelo 3D), '''Borrador''', '''Rellenar''', '''Guardar''' y '''Cancelar'''. Con '''Rellenar''' activado, un clic pinta de una vez todos los píxeles visibles del color en el que haces clic; la zona se resalta antes del clic, y con el Borrador activado o manteniendo {{Key|Alt}} borra esa zona. La fila de '''Vista previa''' recorre tus transformaciones para que compruebes el resultado. Solo se puede pintar la capa visible.",
   "outdated": false
  },
  "96": {

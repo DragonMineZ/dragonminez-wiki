@@ -40,8 +40,8 @@
   "outdated": false
  },
  "8": {
-  "source": "* Wear the scouter in the '''Head Tech''' Curios slot. It also works in the cosmetic slot.\n* It reads the Battle Power of the entity you look at within '''20 blocks''' and points towards the strongest entity nearby.\n* Press the [[Special:MyLanguage/Ki Sense|Ki Sense]] key ({{Key|F4}} by default) to toggle the readout (see [[Special:MyLanguage/Controls|Controls]]).\n* The readout is a HUD element you can move and mirror in the HUD editor. It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).",
-  "translation": "* Use o scouter no slot '''Head Tech''' do Curios. Ele também funciona no slot cosmético.\n* Ele lê o Poder de luta da entidade para a qual você olha a até '''20 blocos''' e aponta para a entidade mais forte por perto.\n* Aperte a tecla [[Special:MyLanguage/Ki Sense|Sentido de Ki]] ({{Key|F4}} por padrão) para ligar ou desligar a leitura (veja [[Special:MyLanguage/Controls|Controles]]).\n* A leitura é um elemento da HUD que você pode mover e espelhar no Editor da HUD. Ela não está disponível no estilo de HUD Compacto (veja [[Special:MyLanguage/HUD|HUD]]).",
+  "source": "* Wear the scouter in the '''Head Tech''' Curios slot. It also works in the cosmetic slot.\n* It reads the Battle Power of the entity you aim at within '''20 blocks''', and an arrow points towards the strongest entity within '''50 blocks'''.\n* Press the [[Special:MyLanguage/Ki Sense|Ki Sense]] key ({{Key|F4}} by default) to toggle the readout (see [[Special:MyLanguage/Controls|Controls]]).\n* The scouter beeps when you switch it on or off, when a new strongest signal shows up and when it locks onto the entity you aim at.\n* The readout is a HUD element you can move and mirror in the HUD editor (it was re-centered in version 2.2). It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).",
+  "translation": "* Use o scouter no slot '''Head Tech''' do Curios. Ele também funciona no slot cosmético.\n* Ele lê o Poder de luta da entidade para a qual você mira a até '''20 blocos''', e uma seta aponta para a entidade mais forte a até '''50 blocos'''.\n* Aperte a tecla [[Special:MyLanguage/Ki Sense|Sentido de Ki]] ({{Key|F4}} por padrão) para ligar ou desligar a leitura (veja [[Special:MyLanguage/Controls|Controles]]).\n* O scouter apita quando você o liga ou desliga, quando aparece um novo sinal mais forte e quando ele trava na entidade para a qual você mira.\n* A leitura é um elemento da HUD que você pode mover e espelhar no Editor da HUD (ela foi centralizada de novo na versão 2.2). Ela não está disponível no estilo de HUD Compacto (veja [[Special:MyLanguage/HUD|HUD]]).",
   "outdated": false
  },
  "9": {
@@ -50,8 +50,8 @@
   "outdated": false
  },
  "10": {
-  "source": "* The numbers only show once you complete Bulma's '''Scouter Calibration''' sidequest.\n* Her '''Bio-Scan Module''' sidequest adds extra information about the target.",
-  "translation": "* Os números só aparecem depois que você conclui a missão secundária '''Calibração do Scouter''' da Bulma.\n* A missão secundária '''Módulo de Bio-Scan''' dela adiciona informações extras sobre o alvo.",
+  "source": "* Bulma's '''Scouter Calibration''' sidequest shows enemies' Battle Power in quest enemy previews. The scouter itself shows the numbers without it.\n* Her '''Bio-Scan Module''' sidequest adds extra information about the target.",
+  "translation": "* A missão secundária '''Calibração do Scouter''' da Bulma mostra o Poder de luta dos inimigos nas prévias de inimigos das missões. O scouter em si mostra os números sem ela.\n* A missão secundária '''Módulo de Bio-Scan''' dela adiciona informações extras sobre o alvo.",
   "outdated": false
  },
  "11": {

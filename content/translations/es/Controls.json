@@ -135,8 +135,8 @@
   "outdated": false
  },
  "27": {
-  "source": "Fire a basic '''ki blast'''.",
-  "translation": "Lanza una '''ráfaga de ki''' básica.",
+  "source": "Tap to fire a basic '''ki blast''' (your shots alternate hands). Hold for 0.3 seconds to fire a '''Ki Volley''' of 6 ki blasts (30-second cooldown). See [[Special:MyLanguage/Combat#Ki blasts and Ki Volley|Combat]].",
+  "translation": "Tócala para lanzar una '''ráfaga de ki''' básica (tus disparos alternan entre una mano y la otra). Mantenla 0.3 segundos para lanzar una '''Andanada de Ki''' de 6 ráfagas de ki (30 segundos de tiempo de recarga). Consulta [[Special:MyLanguage/Combat#Ki blasts and Ki Volley|Combate]].",
   "outdated": false
  },
  "28": {
@@ -162,6 +162,16 @@
  "32": {
   "source": "'''Block''' (with empty hands). Starting a block right before a hit lands is a '''parry''' (see [[Special:MyLanguage/Combat#Parrying|Combat]]).",
   "translation": "'''Bloquear''' (con las manos vacías). Empezar a bloquear justo antes de que llegue un golpe es un '''parry''' (consulta [[Special:MyLanguage/Combat#Parrying|Combate]]).",
+  "outdated": false
+ },
+ "66": {
+  "source": "{{Key|Shift}} (mash)",
+  "translation": "{{Key|Shift}} (pulsar repetidamente)",
+  "outdated": false
+ },
+ "67": {
+  "source": "Break free from '''Gum Bind''' when a Majin wraps you in gum: every press of the Sneak key takes 0.25 seconds off the bind (see [[Special:MyLanguage/Evasion Techniques#Breaking free from Gum Bind|Evasion Techniques]]).",
+  "translation": "Libérate de la '''Atadura de Goma''' cuando un Majin te envuelve en goma: cada pulsación de la tecla de Agacharse le quita 0.25 segundos a la atadura (consulta [[Special:MyLanguage/Evasion Techniques#Breaking free from Gum Bind|Técnicas de evasión]]).",
   "outdated": false
  },
  "33": {
@@ -192,6 +202,56 @@
  "38": {
   "source": "[[Special:MyLanguage/Ki Sense|Ki Sense]]: cycle the Ki Sense display through Combat mode, Search mode and off (needs the Ki Sense skill). While you wear a [[Special:MyLanguage/Scouters|scouter]] it toggles the scouter readout instead.",
   "translation": "[[Special:MyLanguage/Ki Sense|Sentir Ki]]: alterna la visualización de Sentir Ki entre el modo Combate, el modo Búsqueda y apagado (necesita la habilidad Sentir Ki). Mientras llevas un [[Special:MyLanguage/Scouters|escáner]], en cambio activa o desactiva la lectura del escáner.",
+  "outdated": false
+ },
+ "68": {
+  "source": "== Vehicles ==",
+  "translation": "== Vehículos ==",
+  "outdated": false
+ },
+ "69": {
+  "source": "While you ride a [[Special:MyLanguage/Vehicles|vehicle]], these keys drive it. You can't fire techniques while riding, and flight turns off when you get on.",
+  "translation": "Mientras vas en un [[Special:MyLanguage/Vehicles|vehículo]], estas teclas lo conducen. No puedes lanzar técnicas mientras vas montado, y el vuelo se desactiva al subirte.",
+  "outdated": false
+ },
+ "70": {
+  "source": "Key",
+  "translation": "Tecla",
+  "outdated": false
+ },
+ "71": {
+  "source": "Action",
+  "translation": "Acción",
+  "outdated": false
+ },
+ "72": {
+  "source": "Drive (cars can't strafe).",
+  "translation": "Conducir (los autos no pueden moverse de lado).",
+  "outdated": false
+ },
+ "73": {
+  "source": "Ascend. Double-tap it to take off with Frieza's Capsule.",
+  "translation": "Ascender. Tócala dos veces para despegar con la Cápsula de Freezer.",
+  "outdated": false
+ },
+ "74": {
+  "source": "Descend (the Second Function key).",
+  "translation": "Descender (la tecla Función Secundaria).",
+  "outdated": false
+ },
+ "75": {
+  "source": "Sprint: go faster with vehicles that have a sprint speed.",
+  "translation": "Sprint: ve más rápido con los vehículos que tienen velocidad de sprint.",
+  "outdated": false
+ },
+ "76": {
+  "source": "Boost (Flying Nimbus and Black Nimbus only).",
+  "translation": "Impulso (solo la Nube Voladora y la Nube Negra).",
+  "outdated": false
+ },
+ "77": {
+  "source": "Move to seat 1–4 (the technique slot 1–4 keys). Seat 1 drives.",
+  "translation": "Cambiar al asiento 1–4 (las teclas de las ranuras de técnica 1–4). El asiento 1 conduce.",
   "outdated": false
  },
  "39": {
@@ -267,6 +327,11 @@
  "53": {
   "source": "Ki attacks charge while you hold the slot key and fire when you release it; strike attacks and evasion techniques activate as soon as you press it. See [[Special:MyLanguage/Techniques|Techniques]].",
   "translation": "Los ataques de ki se cargan mientras mantienes la tecla de la ranura y se lanzan al soltarla; los Super Golpes y las técnicas de evasión se activan en cuanto la presionas. Consulta [[Special:MyLanguage/Techniques|Técnicas]].",
+  "outdated": false
+ },
+ "78": {
+  "source": "While the '''cinematic camera''' of a strike attack plays, you can't look around with the mouse or toggle lock-on (see [[Special:MyLanguage/Strike Attacks#Cinematic camera|Strike Attacks]]).",
+  "translation": "Mientras se reproduce la '''cámara cinematográfica''' de un Super Golpe, no puedes mirar alrededor con el ratón ni activar o desactivar la fijación de objetivo (consulta [[Special:MyLanguage/Strike Attacks#Cinematic camera|Super Golpes]]).",
   "outdated": false
  },
  "54": {

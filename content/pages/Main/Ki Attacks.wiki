@@ -14,6 +14,7 @@
 * If you are locked on (which needs [[Special:MyLanguage/Ki Sense|Ki Sense]]), homing attacks follow your target.
 * Damage is your Ki Damage × the technique's damage multiplier (listed below) × the type's damage multiplier (1.0 by default) × the charge.
 * Every attack belongs to a '''type''' (Wave, Laser, Giant Ball…) that sets its cast time, how it behaves and which stats it can upgrade. See the [[Special:MyLanguage/Techniques|Techniques]] page for the type table, overcharge and upgrades.
+* Laser and Wave beams deal at least 75% of their total damage on their first hit on each target.
 * Wave and Beam attacks can [[Special:MyLanguage/Beam Clash|clash]] with each other.
 </translate>
 
@@ -26,7 +27,7 @@ Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to un
 {| class="wikitable sortable"
 ! <translate><!--T:6--> Technique</translate> !! <translate><!--T:7--> Type</translate> !! <translate><!--T:8--> Taught by</translate> !! <translate><!--T:9--> TP cost</translate> !! <translate><!--T:10--> Damage multiplier</translate> !! <translate><!--T:11--> Cooldown (seconds)</translate>
 |-
-| '''<translate><!--T:12--> Ki Barrage</translate>''' || <translate><!--T:13--> Barrage</translate> || {{L|Gohan}}, {{L|Piccolo}}, {{L|Krillin}}, {{L|Trunks}}, {{L|Cell}}, {{L|Yamcha}} || 1,000 || ×1.0 || 10
+| '''<translate><!--T:12--> Ki Barrage</translate>''' || <translate><!--T:13--> Barrage</translate> || {{L|Gohan}}, {{L|Piccolo}}, {{L|Krillin}}, {{L|Trunks}}, {{L|Cell}}, {{L|Yamcha}} || 1,000 || ×0.5 || 10
 |-
 | '''<translate><!--T:14--> Masenko</translate>''' || <translate><!--T:15--> Wave</translate> || {{L|Gohan}}, {{L|Piccolo}}, {{L|Cell}} || 1,500 || ×1.5 || 10
 |-
@@ -38,7 +39,9 @@ Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to un
 |-
 | '''<translate><!--T:22--> Kienzan (Destructo Disc)</translate>''' || <translate><!--T:23--> Disk</translate> || {{L|Piccolo}}, {{L|Krillin}}, {{L|Cell}} || 3,000 || ×1.5 || 10
 |-
-| '''<translate><!--T:24--> Special Beam Cannon (Makankosappo)</translate>''' || <translate><!--T:25--> Beam</translate> || {{L|Gohan}}, {{L|Piccolo}} || 3,500 || ×0.75 || 20
+| '''<translate><!--T:77--> Dodon Ray</translate>''' || <translate><!--T:78--> Laser</translate> || {{L|Master Tien}} || 3,000 || ×1.0 || 8
+|-
+| '''<translate><!--T:24--> Special Beam Cannon (Makankosappo)</translate>''' || <translate><!--T:25--> Beam</translate> || {{L|Gohan}}, {{L|Piccolo}} || 3,500 || ×0.75 || 14
 |-
 | '''<translate><!--T:26--> Burning Attack</translate>''' || <translate><!--T:27--> Medium Ball</translate> || {{L|Trunks}} || 3,500 || ×1.5 || 10
 |-
@@ -48,13 +51,17 @@ Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to un
 |-
 | '''<translate><!--T:32--> Double Kienzan</translate>''' || <translate><!--T:33--> Disk</translate> || {{L|Krillin}}, {{L|Frieza}} || 4,000 || ×1.75 || 10
 |-
-| {{L|Emperor's Death Beam}} || <translate><!--T:34--> Laser</translate> || {{L|Frieza}} || 5,000 || ×1.25 || 10
+| {{L|Emperor's Death Beam}} || <translate><!--T:34--> Laser</translate> || {{L|Frieza}} || 5,000 || ×1.25 || 14
 |-
 | '''<translate><!--T:35--> Final Flash</translate>''' || <translate><!--T:36--> Wave</translate> || {{L|Vegeta}} || 5,000 || ×2.5 || 10
+|-
+| '''<translate><!--T:79--> Tri-Beam</translate>''' || <translate><!--T:80--> Laser</translate> || {{L|Master Tien}} || 5,000 || ×2.0 || 12
 |-
 | {{L|Heat Dome Attack}} || <translate><!--T:37--> Wave</translate> || {{L|Trunks}} || 6,000 || ×2.25 || 12
 |-
 | {{L|Hellzone Grenade}} || <translate><!--T:38--> Barrage</translate> || {{L|Piccolo}} || 6,000 || ×2.5 || 15
+|-
+| '''<translate><!--T:81--> Neo Tri-Beam</translate>''' || <translate><!--T:82--> Medium Ball</translate> || {{L|Master Tien}} || 8,000 || ×2.5 || 15
 |-
 | '''<translate><!--T:39--> Spirit Bomb</translate>''' || <translate><!--T:40--> Giant Ball</translate> || {{L|Goku}}, {{L|King Kai}} || 10,000 || ×3.0 || 10
 |-
@@ -64,12 +71,12 @@ Cooldowns are at 100% charge, before XP upgrades. The TP cost is paid once to un
 |-
 | '''<translate><!--T:45--> Soul Punisher</translate>''' || <translate><!--T:46--> Medium Ball</translate> || {{L|Old Kai}} || 25,000 || ×3.5 || 45
 |-
-| '''<translate><!--T:47--> Assault Rain</translate>''' || <translate><!--T:48--> Barrage</translate> || {{L|Majin Buu}} || 4,500 || ×1.0 || 15
+| '''<translate><!--T:47--> Assault Rain</translate>''' || <translate><!--T:48--> Barrage</translate> || {{L|Majin Buu}} || 4,500 || ×0.7 || 15
 |}
 
 <translate>
 <!--T:49-->
-Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.
+Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for [[Special:MyLanguage/Master Roshi|Master Roshi]], Krillin, Goku, Gohan, [[Special:MyLanguage/King Kai|King Kai]] and [[Special:MyLanguage/Old Kai|Old Kai]]; Evil for Cell and Frieza) only teach you once your alignment fits. [[Special:MyLanguage/Master Tien|Master Tien]] has no such requirement, and he is the only master who teaches the Dodon Ray, the Tri-Beam and the Neo Tri-Beam. Cell and Frieza cover a large part of the roster on their own, but only for Evil characters.
 </translate>
 
 <translate>
@@ -79,6 +86,7 @@ Masters with an [[Special:MyLanguage/Alignment|alignment]] requirement (Good for
 * [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]] fires a rapid chain of 10 death beams; the follow-up shots deal 20% of the first one's damage.
 * [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]] launches the closest enemy in front of you (within 8 blocks) into the air before the beam hits.
 * [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]] needs a target (lock on or aim at one): the ki blasts surround it and then close in.
+* '''Neo Tri-Beam''': after it fires you have 3 seconds to right-click for another shot, up to 3 follow-up shots. Each follow-up costs 10% of your max health and needs at least 20% of your health left.
 * '''Spirit Bomb''' calls for help while you charge it: other players within 64 blocks can give it their energy with [[Special:MyLanguage/Ki Transfer|Ki Transfer]]. Their Ki makes the bomb grow and hit harder (up to ×3 damage), and while they give it keeps growing for as long as you hold the key instead of firing at full charge. See [[Special:MyLanguage/Ki Transfer#Giving energy to a Spirit Bomb|Ki Transfer]].
 </translate>
 
@@ -103,7 +111,7 @@ No master offers these in the default lists. Some come from other sources; serve
 World boss drop chances are the server defaults; see [[Special:MyLanguage/World Bosses|World Bosses]].
 
 <!--T:69-->
-The mod also includes these ki attacks: '''Dodon Ray''', '''Tri-Beam''', '''Neo Tri-Beam''' and '''Blaster Meteor'''.
+The mod also includes the '''Blaster Meteor''' ki attack (Barrage, 5,000 TP, ×0.7 damage multiplier, 15-second cooldown).
 </translate>
 
 <translate>

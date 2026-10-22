@@ -10,18 +10,18 @@
   "outdated": false
  },
  "2": {
-  "source": "Drawn at random as an Otherworld Tournament contender; Buu Saga quest 37",
-  "translation": "Sale al azar como aspirante del Torneo del Otro Mundo; misión 37 de la Saga Buu",
+  "source": "Drawn at random as a World Martial Arts Tournament or Otherworld Tournament contender; Buu Saga quest 37",
+  "translation": "Sale al azar como aspirante del Torneo de Artes Marciales o del Torneo del Otro Mundo; misión 37 de la Saga Buu",
   "outdated": false
  },
  "3": {
-  "source": "Fights you in the ring; Smart or Elite AI in the tournament",
-  "translation": "Pelea contigo en el ring; IA Inteligente o Élite en el torneo",
+  "source": "Fights you in the ring; Smart or Elite AI in the tournaments",
+  "translation": "Pelea contigo en el ring; IA Inteligente o Élite en los torneos",
   "outdated": false
  },
  "4": {
-  "source": "Flight, Ki Volley, Ki Blast",
-  "translation": "Vuelo, Descarga de Ki, Ráfaga de Ki",
+  "source": "Flight, small ki blasts",
+  "translation": "Vuelo, ráfagas de ki pequeñas",
   "outdated": false
  },
  "5": {
@@ -30,8 +30,8 @@
   "outdated": false
  },
  "6": {
-  "source": "'''Videl''' is a martial artist of the Buu Saga. She is one of the Buu Saga fighters of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and your sparring partner in the World Tournament preliminaries of the [[Special:MyLanguage/Buu Saga|Buu Saga]].",
-  "translation": "'''Videl''' es una artista marcial de la Saga Buu. Es una de las luchadoras de la Saga Buu del [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]] y tu compañera de práctica en las eliminatorias del Torneo Mundial de la [[Special:MyLanguage/Buu Saga|Saga Buu]].",
+  "source": "'''Videl''' is a martial artist of the Buu Saga. She is one of the contenders of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and your sparring partner in the World Tournament preliminaries of the [[Special:MyLanguage/Buu Saga|Buu Saga]].",
+  "translation": "'''Videl''' es una artista marcial de la Saga Buu. Es una de las aspirantes del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]] y del [[Special:MyLanguage/Otherworld Tournament|Torneo del Otro Mundo]], y tu compañera de práctica en las eliminatorias del Torneo Mundial de la [[Special:MyLanguage/Buu Saga|Saga Buu]].",
   "outdated": false
  },
  "7": {
@@ -40,13 +40,18 @@
   "outdated": false
  },
  "8": {
-  "source": "Videl can be drawn as a '''contender''' in the Otherworld Tournament. Each contender seat draws a random fighter from the Buu Saga cast. The draw is revealed once everybody accepts the rules, and you only face her if she reaches your bout: fights between two NPCs are decided automatically.",
-  "translation": "Videl puede salir como '''aspirante''' en el Torneo del Otro Mundo. Cada plaza de aspirante sortea un luchador al azar del elenco de la Saga Buu. El sorteo se revela cuando todos aceptan las reglas, y solo te enfrentas a ella si llega a tu combate: los combates entre dos NPCs se deciden automáticamente.",
+  "source": "Videl can be drawn as a '''contender''' in the World Martial Arts Tournament and the Otherworld Tournament. Each contender seat draws a random fighter from that tournament's pool. The draw is revealed once everybody accepts the rules, and you only face her if she reaches your bout: fights between two NPCs are decided automatically.",
+  "translation": "Videl puede salir como '''aspirante''' en el Torneo de Artes Marciales y en el Torneo del Otro Mundo. Cada plaza de aspirante sortea un luchador al azar del grupo de candidatos de ese torneo. El sorteo se revela cuando todos aceptan las reglas, y solo te enfrentas a ella si llega a tu combate: los combates entre dos NPCs se deciden automáticamente.",
   "outdated": false
  },
  "9": {
-  "source": "Her stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI), and contenders get 8% stronger for every round already played. Bouts end at knockout, so she isn't killed and drops nothing.",
-  "translation": "Sus estadísticas vienen del torneo, no del personaje: cada sorteo de aspirante tiene su propia vida, daño y nivel de IA. Por defecto van desde 238,000 de vida, 9,900 de daño cuerpo a cuerpo y 8,840 de daño de ki (IA Inteligente) hasta 612,500 de vida, 25,800 de daño cuerpo a cuerpo y 23,460 de daño de ki (IA Élite), y los aspirantes se vuelven un 8% más fuertes por cada ronda ya jugada. Los combates terminan por noqueo, así que no muere y no suelta nada.",
+  "source": "Her stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 147,000 health, 6,100 melee damage and 5,500 ki damage (Smart AI) to 392,000 health, 16,300 melee damage and 14,700 ki damage (Elite AI) in the World Martial Arts Tournament, and from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI) in the Otherworld Tournament. Contenders get 8% stronger for every round already played. Bouts end at knockout, so she isn't killed and drops nothing.",
+  "translation": "Sus estadísticas vienen del torneo, no del personaje: cada sorteo de aspirante tiene su propia vida, daño y nivel de IA. Por defecto van desde 147,000 de vida, 6,100 de daño cuerpo a cuerpo y 5,500 de daño de ki (IA Inteligente) hasta 392,000 de vida, 16,300 de daño cuerpo a cuerpo y 14,700 de daño de ki (IA Élite) en el Torneo de Artes Marciales, y desde 238,000 de vida, 9,900 de daño cuerpo a cuerpo y 8,840 de daño de ki (IA Inteligente) hasta 612,500 de vida, 25,800 de daño cuerpo a cuerpo y 23,460 de daño de ki (IA Élite) en el Torneo del Otro Mundo. Los aspirantes se vuelven un 8% más fuertes por cada ronda ya jugada. Los combates terminan por noqueo, así que no muere y no suelta nada.",
+  "outdated": false
+ },
+ "17": {
+  "source": "She is also in the Z Fighters entity tag (<code>#dragonminez:npc_zfighters</code>), which server owners can use for the contenders of their own tournaments (see [[Special:MyLanguage/Tournaments#Configuration|Tournaments]]).",
+  "translation": "También está en la etiqueta de entidad de los Guerreros Z (<code>#dragonminez:npc_zfighters</code>), que los dueños de servidores pueden usar para los aspirantes de sus propios torneos (consulta [[Special:MyLanguage/Tournaments#Configuration|Torneos]]).",
   "outdated": false
  },
  "10": {
@@ -55,13 +60,13 @@
   "outdated": false
  },
  "11": {
-  "source": "Videl has a single form and doesn't transform. She fights with the same kit as [[Special:MyLanguage/Shin|Shin]]:",
-  "translation": "Videl tiene una sola forma y no se transforma. Pelea con el mismo repertorio que [[Special:MyLanguage/Shin|Shin]]:",
+  "source": "Videl has a single form and doesn't transform. She has her own fighter kit (she used to share [[Special:MyLanguage/Shin|Shin]]'s):",
+  "translation": "Videl tiene una sola forma y no se transforma. Tiene su propio repertorio de luchadora (antes compartía el de [[Special:MyLanguage/Shin|Shin]]):",
   "outdated": false
  },
  "12": {
-  "source": "* '''Ki attacks:''' Ki Volley and Ki Blast, both yellow.\n* '''Combos:''' none; she fights with plain melee.\n* '''Mobility:''' she flies and backsteps away from your hits.",
-  "translation": "* '''Ataques de ki:''' Descarga de Ki y Ráfaga de Ki, ambos amarillos.\n* '''Combos:''' ninguno; pelea solo cuerpo a cuerpo.\n* '''Movilidad:''' vuela y retrocede para apartarse de tus golpes.",
+  "source": "* '''Ki attacks:''' small white ki blasts, her only ki attack.\n* '''Combos:''' none; she fights with plain melee.\n* '''Mobility:''' she flies, with a white aura.",
+  "translation": "* '''Ataques de ki:''' pequeñas ráfagas de ki blancas, su único ataque de ki.\n* '''Combos:''' ninguno; pelea solo cuerpo a cuerpo.\n* '''Movilidad:''' vuela, con un aura blanca.",
   "outdated": false
  },
  "13": {

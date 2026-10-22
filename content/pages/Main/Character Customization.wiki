@@ -105,7 +105,7 @@ The hair editor builds your hairstyle out of individual '''strands''', in the st
 Your character has '''5 hairstyle slots''': '''Base''', '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4'''. You wear the Base style normally; a transformation switches to the slot it uses, so you can design how your hair changes when you transform. Pick the slot at the top of the editor.
 </translate>
 
-* <translate><!--T:45--> '''Preset''': start from any of the 28 presets (or Bald).</translate>
+* <translate><!--T:45--> '''Preset''': start from any of the 28 presets (or Bald). Presets 2 (Vegeta) and 8 (Raditz) were redrawn in version 2.2.</translate>
 * <translate><!--T:46--> '''Hair color''': the global color of all your hair.</translate>
 * <translate><!--T:47--> '''Copy from''' another slot, or '''Clear style'''.</translate>
 * <translate><!--T:48--> '''Auto-generate''': with no strand selected, the Inspector can build your '''SSJ''', '''SSJ2''', '''SSJ3''' and '''SSJ4''' styles from your '''Base''' style, all at once or one slot at a time ('''Generate from Base'''). It is a single undo step and switches to the generated slot. Long straight hair keeps its roots and only curls the tips up, and SSJ3 uses a Super Saiyan 3 mane that keeps your hanging bangs. It needs a Base style.</translate>
@@ -187,7 +187,7 @@ The server limits every style: at most '''12''' segments per strand, '''600''' s
 If you play with your '''own Minecraft skin''' (body type 0 on a Human or Saiyan), DragonMineZ can't know which pixels of your skin are eyes or hair. The pixel editor lets you mark them by painting '''directly on the 3D model''', so your transformations can recolor them:
 </translate>
 
-* <translate><!--T:91--> '''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (it takes the eye color of each form). Your base form keeps your skin's own eyes untouched.</translate>
+* <translate><!--T:91--> '''Eyes''' (3 steps): mark the '''eyebrows''' (they take the hair color of each form), the '''white of the eyes''' and the '''iris''' (the left eye takes the first eye color of each form and the right eye the second; the legend shows them as '''Left iris''' and '''Right iris'''). Your base form keeps your skin's own eyes untouched.</translate>
 * <translate><!--T:92--> '''Hair''' (2 steps): mark the hair pixels of the '''base layer''', then of the '''overlay layer''' (hat and jacket). Marked hair always follows your hair color, including form colors when you transform.</translate>
 
 <translate>
@@ -198,7 +198,7 @@ If you play with your '''own Minecraft skin''' (body type 0 on a Human or Saiyan
 The buttons in the top-left corner of the view snap the camera to '''Front''', '''Back''', '''Left''', '''Right''', '''Top''' or '''Bottom'''; '''Reset''' also brings back the default zoom and center. The '''Parts''' figure in the top-right corner shows or hides the head, body, arms and legs: click a part to hide or show it, or {{Key|Shift}} + click to show only that part (do it again to show them all). Hidden parts can't be painted, so hiding one lets you reach the sides it covers, such as the inside of the arms.
 
 <!--T:95-->
-The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Save''' and '''Cancel'''. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.
+The top bar has '''Undo''', '''Redo''', '''Clear''', '''Overlay''' (show the overlay layer and paint on it), '''Hair''' (show the 3D hair), '''Eraser''', '''Fill''', '''Save''' and '''Cancel'''. With '''Fill''' on, a click paints every visible pixel of the color you click in one go; the area is highlighted before you click, and with the Eraser on or {{Key|Alt}} held it erases that area instead. The '''Preview''' row cycles through your transformations so you can check the result. Only the visible layer can be painted.
 
 == Custom tattoo == <!--T:96-->
 

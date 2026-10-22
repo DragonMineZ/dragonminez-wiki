@@ -27,10 +27,13 @@ The '''Saiyan Space Pod''' is a one-person spacecraft and the main way to travel
 <!--T:10-->
 # Right-click a block with the item to place the pod.
 # Right-click the pod to open its hatch, then right-click again to climb in.
-# Steer with the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend.
+# Steer with the mouse and the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend. The pod flies at 21.6 blocks per second and rises or descends at 7.
 
 <!--T:11-->
-Hit the pod to pick it back up as an item.
+Hit the pod to pick it back up as an item. Any player can pick up any pod.
+
+<!--T:35-->
+The pod uses the controls and rules shared by every [[Special:MyLanguage/Vehicles|vehicle]]: you can't fire techniques while you ride it, and [[Special:MyLanguage/Fly|Fly]] switches off when you climb in. Since version 2.2 it has a new model, hums while someone flies it, leaves a thin trail of exhaust and leans into turns.
 </translate>
 
 <translate>

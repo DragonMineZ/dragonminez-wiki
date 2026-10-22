@@ -1,0 +1,41 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> NPC, tournament host</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> By the ring of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island (one per world)</translate>
+|Behavior=<translate><!--T:3--> Friendly; talks to every player; can't be hurt</translate>
+|Abilities=<translate><!--T:4--> Tournament screen</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+The '''World Tournament Announcer''' hosts the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] on its island in the ocean. Talk to him to enter the tournament.
+</translate>
+
+<translate>
+== Finding him == <!--T:7-->
+
+<!--T:8-->
+The announcer stands by the tournament ring, next to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. The island generates once per world in the ocean: find it with <code>/dmzlocate budokai_tenkaichi</code> or with the map sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]].
+</translate>
+
+<translate>
+== In the tournament == <!--T:9-->
+
+<!--T:10-->
+The announcer is the host of the World Martial Arts Tournament, a non-lethal four-star bracket that ends with [[Special:MyLanguage/Gohan|Gohan (End)]], Majin Vegeta and the champion, [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. Press '''Tournament''' in his dialogue to open the tournament screen, then '''Enter''' while you are within 12 blocks of him. See [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] for the fighters and rewards, and [[Special:MyLanguage/Tournaments|Tournaments]] for how entering and bouts work.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:11-->
+
+<!--T:12-->
+Right-click the announcer to open his dialogue. He greets you with one of several welcome lines and offers '''Tournament''', which opens the tournament screen.
+
+<!--T:13-->
+He teaches no skills and gives no quests. He talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]]. Like the [[Special:MyLanguage/Masters|masters]], he stays in place, can't be pushed and can't be hurt. He is never drawn as a fighter in any tournament.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:14--> Entity id</translate>|<code>dragonminez:saga_world_tournament_announcer</code>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]

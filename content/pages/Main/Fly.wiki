@@ -49,6 +49,9 @@ Switch between them with {{Key|Alt}} + {{Key|F}}, or in the Utility Menu under '
 
 <!--T:23-->
 By default, taking or dealing damage while in Search Fly switches you to Combat Fly for '''8 seconds'''.
+
+<!--T:31-->
+Since version 2.2, Search Fly is '''18%''' slower and Combat Fly '''15%''' slower than before; the rush of a [[Special:MyLanguage/Strike Attacks|strike attack]] keeps its speed. The aura you show while sprinting in flight no longer lights up its surroundings.
 </translate>
 
 <translate>
@@ -78,6 +81,7 @@ Hovering '''Fly''' in the Utility Menu ('''{{Key|X}} → Movement → Fly''') op
 
 <!--T:30-->
 * If you can't fly yet, [[Special:MyLanguage/Korin|Korin]] gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] (or a Black Nimbus if your alignment is 50 or lower).
+* Fly switches off when you get on a [[Special:MyLanguage/Vehicles|vehicle]], and you can't switch it on while you ride.
 * All flight keys can be rebound in Minecraft's controls (see [[Special:MyLanguage/Controls|Controls]]).
 </translate>
 

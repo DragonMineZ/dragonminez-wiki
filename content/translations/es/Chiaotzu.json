@@ -1,0 +1,117 @@
+{
+ "Page_display_title": {
+  "source": "Chiaotzu",
+  "translation": "Chaozu",
+  "outdated": false
+ },
+ "1": {
+  "source": "Quest NPC, tournament contender",
+  "translation": "NPC de misiones, aspirante de torneo",
+  "outdated": false
+ },
+ "2": {
+  "source": "Quest NPC on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island; drawn at random as a contender of that tournament",
+  "translation": "NPC de misiones en la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]]; sale al azar como aspirante de ese torneo",
+  "outdated": false
+ },
+ "3": {
+  "source": "Friendly; his side quests need alignment 41 or higher",
+  "translation": "Amistoso; sus misiones secundarias piden un alineamiento de 41 o más",
+  "outdated": false
+ },
+ "4": {
+  "source": "Flight, Ki Laser, dodging, self-destruct",
+  "translation": "Vuelo, Láser de Ki, esquiva, autodestrucción",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "6": {
+  "source": "'''Chiaotzu''' is [[Special:MyLanguage/Master Tien|Master Tien]]'s closest friend. He stands next to Tien on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island, where he gives three side quests, and he can be drawn as a contender in the tournament itself. He is also an opponent in the [[Special:MyLanguage/Classic Saga|Classic Saga]].",
+  "translation": "'''Chaozu''' es el mejor amigo del [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]]. Está junto a Ten Shin Han en la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]], donde da tres misiones secundarias, y puede salir como aspirante en el propio torneo. También es un rival en la [[Special:MyLanguage/Classic Saga|Saga Clásica]].",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding him ==",
+  "translation": "== Cómo encontrarlo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "Chiaotzu stands next to Master Tien on the island of the World Martial Arts Tournament, about 130 blocks from the ring. Find the island with {{Command|/dmzlocate budokai_tenkaichi}} or a map from a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher.",
+  "translation": "Chaozu está junto al Maestro Ten Shin Han en la isla del Torneo de Artes Marciales, a unos 130 bloques del ring. Encuentra la isla con {{Command|/dmzlocate budokai_tenkaichi}} o con un mapa de un [[Special:MyLanguage/Capsule Corp Assistant|Asistente de la Corporación Cápsula]] de nivel 3 o superior.",
+  "outdated": false
+ },
+ "9": {
+  "source": "== Alignment ==",
+  "translation": "== Alineamiento ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "Chiaotzu talks to every character, but if your [[Special:MyLanguage/Alignment|alignment]] is below 41 he greets you coldly and his side quests show as locked (\"Requires an alignment of 41 or higher.\"). Any side quest you have already started stays open. Below 25 he treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
+  "translation": "Chaozu habla con todos los personajes, pero si tu [[Special:MyLanguage/Alignment|alineamiento]] es menor que 41 te saluda con frialdad y sus misiones secundarias aparecen bloqueadas (\"Requiere un alineamiento de 41 o más.\"). Cualquier misión secundaria que ya hayas empezado sigue disponible. Por debajo de 25 te trata como hostil. Los dueños de servidores pueden cambiar ambos límites en las reglas de alineamiento de los NPCs (consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]]).",
+  "outdated": false
+ },
+ "11": {
+  "source": "== In the tournament ==",
+  "translation": "== En el torneo ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Chiaotzu is one of the contenders of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]. Each contender seat draws a random fighter from the pool, and his stats come from the seat: by default between 147,000 and 392,000 health, 6,100 to 16,300 melee damage and 5,500 to 14,700 ki damage, on the Smart or Elite AI tier, and 8% stronger for every round already played. Bouts end at knockout, so nobody dies.",
+  "translation": "Chaozu es uno de los aspirantes del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]]. Cada plaza de aspirante sortea un luchador al azar del grupo de candidatos, y sus estadísticas vienen de la plaza: por defecto, entre 147,000 y 392,000 de vida, de 6,100 a 16,300 de daño cuerpo a cuerpo y de 5,500 a 14,700 de daño de ki, en el nivel de IA Inteligente o Élite, y un 8% más fuerte por cada ronda ya jugada. Los combates terminan por noqueo, así que nadie muere.",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Behavior and abilities ==",
+  "translation": "== Comportamiento y habilidades ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Chiaotzu is child-sized and flies, with a white aura.",
+  "translation": "Chaozu tiene tamaño de niño y vuela, con un aura blanca.",
+  "outdated": false
+ },
+ "15": {
+  "source": "* '''Ki Laser:''' a quick yellow beam, his only ki attack.\n* '''Dodging:''' every so often he steps out of the way of an attack.\n* '''Self-destruct:''' when his health drops to a quarter, he latches onto his target's back and explodes 3 seconds later, hurting everything within 5 blocks for four times his melee damage.",
+  "translation": "* '''Láser de Ki:''' un rayo amarillo rápido, su único ataque de ki.\n* '''Esquiva:''' de vez en cuando se aparta del camino de un ataque.\n* '''Autodestrucción:''' cuando su vida baja a una cuarta parte, se aferra a la espalda de su objetivo y explota 3 segundos después, dañando todo lo que esté a 5 bloques o menos con el cuádruple de su daño cuerpo a cuerpo.",
+  "outdated": false
+ },
+ "16": {
+  "source": "How well he fights depends on his AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).",
+  "translation": "Lo bien que pelea depende de su nivel de IA (consulta [[Special:MyLanguage/Sagas#Enemy AI tiers|niveles de IA enemiga]]).",
+  "outdated": false
+ },
+ "17": {
+  "source": "== In the story ==",
+  "translation": "== En la historia ==",
+  "outdated": false
+ },
+ "18": {
+  "source": "The [[Special:MyLanguage/Classic Saga|Classic Saga]] quest ''Tournament: Chiaotzu'' is a fight against him. Completing it opens his side quests.",
+  "translation": "La misión ''Torneo: Chaozu'' de la [[Special:MyLanguage/Classic Saga|Saga Clásica]] es un combate contra él. Completarla abre sus misiones secundarias.",
+  "outdated": false
+ },
+ "19": {
+  "source": "== Side quests ==",
+  "translation": "== Misiones secundarias ==",
+  "outdated": false
+ },
+ "20": {
+  "source": "''A Gift for Tien'' has you deliver food to [[Special:MyLanguage/Master Tien|Master Tien]], and ''Shadow of the Crane School'' also needs the Classic Saga quest ''Tournament: Cyborg Tao''. Enemies spawned by these quests scale with your story difficulty.",
+  "translation": "''Un Regalo para Ten Shin Han'' te pide entregar comida al [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]], y ''La Sombra de la Escuela Grulla'' también requiere la misión ''Torneo: Tao Cyborg'' de la Saga Clásica. Los enemigos que aparecen con estas misiones se ajustan a tu dificultad de la historia.",
+  "outdated": false
+ },
+ "21": {
+  "source": "Ids",
+  "translation": "IDs",
+  "outdated": false
+ },
+ "22": {
+  "source": "<code>dragonminez:saga_chaoz</code> (fighter), <code>chiaotzu</code> (quest NPC)",
+  "translation": "<code>dragonminez:saga_chaoz</code> (luchador), <code>chiaotzu</code> (NPC de misiones)",
+  "outdated": false
+ }
+}

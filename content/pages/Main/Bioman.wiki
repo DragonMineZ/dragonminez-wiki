@@ -1,0 +1,39 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> Snowy biomes, in dim spots, in groups of 2–4</translate>
+|Behavior=<translate><!--T:3--> Attacks on sight; never self-destructs; Novice AI</translate>
+|Health=70
+|Damage=13
+|Drops=<translate><!--T:4--> None</translate>
+}}
+<translate>
+<!--T:5-->
+The '''Bioman''' is a variant of the [[Special:MyLanguage/Saibamen|Saibamen]] that lives in the snowy biomes of [[Special:MyLanguage/Earth|Earth]]. It hunts in small groups and, unlike a Saibaman, never grabs you to blow itself up.
+</translate>
+
+<translate>
+== Spawning == <!--T:6-->
+
+<!--T:7-->
+Bioman spawn in snowy biomes (every biome in the <code>#forge:is_snowy</code> tag, such as Snowy Plains) in groups of 2–4, with spawn weight 60. Like the Saibamen, they spawn as monsters: not in Peaceful, only in dim spots (block light 7 or less), and only about a third of spawn attempts succeed. In Creative, the '''Bioman Spawn Egg''' spawns one.
+</translate>
+
+<translate>
+== Behavior == <!--T:8-->
+
+<!--T:9-->
+The Bioman attacks on sight and fights on the '''Novice''' AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]). It has a little less health and damage than a Saibaman but moves faster, shrugs off half of the knockback it takes, and has a Battle Power of 1,100. Unlike the Saibamen, it '''never self-destructs'''.
+</translate>
+
+<translate>
+== Drops == <!--T:10-->
+
+<!--T:11-->
+The Bioman drops nothing.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:12--> Entity id</translate>|<code>dragonminez:saga_bioman</code>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]

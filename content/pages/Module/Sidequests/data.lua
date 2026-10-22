@@ -62,6 +62,10 @@ return {
 		trunks = 'Trunks',
 		vegeta = 'Vegeta',
 		yamcha = 'Yamcha',
+		chiaotzu = 'Chiaotzu',
+		mr_satan = 'Mr. Satan',
+		tien = 'Master Tien',
+		buu = 'Majin Buu',
 	},
 	none = {
 		en = 'None',
@@ -333,7 +337,7 @@ return {
 				pt = 'Despedida Final de Goku',
 			},
 			desc = {
-				en = 'With Cell defeated, Goku has one last wish & visit Kami\'s Lookout together one more time. This may be the last chance to say goodbye.',
+				en = 'With Cell defeated, Goku has one last wish — visit Kami\'s Lookout together one more time. This may be the last chance to say goodbye.',
 				es = 'Con Cell derrotado, Goku tiene un último deseo: visitar juntos la Atalaya de Kami una última vez. Puede que sea la última oportunidad de despedirse.',
 				pt = 'Com Cell derrotado, Goku tem um último desejo: visitar o Mirante de Kami juntos mais uma vez. Esta pode ser a última chance de se despedir.',
 			},
@@ -392,7 +396,7 @@ return {
 				pt = 'Defendendo a Cápsula de Cura',
 			},
 			desc = {
-				en = 'Goku is recovering in a healing pod after his battle with the Ginyu Force. Frieza\'s soldiers are closing in & defend the area at all costs!',
+				en = 'Goku is recovering in a healing pod after his battle with the Ginyu Force. Frieza\'s soldiers are closing in — defend the area at all costs!',
 				es = 'Goku se está recuperando en una cápsula de curación tras su batalla con las Fuerzas Especiales Ginyu. Los soldados de Freezer se están acercando: ¡defiende el área a toda costa!',
 				pt = 'Goku está se recuperando em uma cápsula de cura após sua batalha contra a Força Ginyu. Os soldados de Freeza estão se aproximando. Defenda a área a todo custo!',
 			},
@@ -749,6 +753,65 @@ return {
 			},
 		},
 		{
+			id = 'chiaotzu_psychic_sparring',
+			category = 'training',
+			giver = 'chiaotzu',
+			turnin = 'chiaotzu',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'Psychic Sparring',
+				es = 'Combate Psíquico',
+				pt = 'Treino Psíquico',
+			},
+			desc = {
+				en = 'Chiaotzu wants to test his telekinesis on a real opponent at the World Tournament island. Spar with him and show him you can break free.',
+				es = 'Chaozu quiere probar su telequinesis con un oponente de verdad en la isla del Torneo de Artes Marciales. Combate con él y demuéstrale que puedes liberarte.',
+				pt = 'Chaoz quer testar sua telecinese em um oponente de verdade na ilha do Torneio de Artes Marciais. Lute com ele e mostre que você consegue se libertar.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				es = '[[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				pt = '[[Special:MyLanguage/Chiaotzu|Chaoz]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 33: \'\'Tournament: Chiaotzu\'\'',
+				},
+				es = {
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 33: \'\'Torneo: Chaozu\'\'',
+				},
+				pt = {
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 33: \'\'Torneio: Chaoz\'\'',
+				},
+			},
+			objectives = {
+				en = {
+					'Spar with Chiaotzu and win without killing them (spawned by the quest, 1,300 health)',
+					'Talk to [[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				},
+				es = {
+					'Entrena con Chaozu y gana sin matarlo (aparece con la misión, 1 300 de vida)',
+					'Habla con [[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				},
+				pt = {
+					'Treine com Chaoz e vença sem matá-lo (surge com a missão, 1 300 de vida)',
+					'Fale com [[Special:MyLanguage/Chiaotzu|Chaoz]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×6 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+				},
+				es = {
+					'×6 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+				pt = {
+					'×6 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
 			id = 'classic_jackie_chun_rematch',
 			category = 'training',
 			giver = 'roshi',
@@ -999,7 +1062,7 @@ return {
 				pt = 'Kit de Sobrevivência de Gohan',
 			},
 			desc = {
-				en = 'Piccolo left young Gohan alone in the wilderness to toughen him up. The boy could use some supplies & bring him food and a weapon.',
+				en = 'Piccolo left young Gohan alone in the wilderness to toughen him up. The boy could use some supplies — bring him food and a weapon.',
 				es = 'Piccolo dejó al joven Gohan solo en la naturaleza para endurecerlo. El chico podría necesitar provisiones: llévale comida y un arma.',
 				pt = 'Piccolo deixou o jovem Gohan sozinho na selva para endurecê-lo. O menino poderia usar alguns suprimentos. Leve-lhe comida e uma arma.',
 			},
@@ -1355,6 +1418,68 @@ return {
 				},
 				pt = {
 					'×5 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
+			id = 'mr_satan_train_the_champ',
+			category = 'training',
+			giver = 'mr_satan',
+			turnin = 'mr_satan',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'Train the Champ',
+				es = 'Entrena al Campeón',
+				pt = 'Treine o Campeão',
+			},
+			desc = {
+				en = 'Mr. Satan insists on a training session to "help you improve". Spar with the World Champion... and try not to embarrass him in front of the crowd.',
+				es = 'El Sr. Satán insiste en una sesión de entrenamiento para "ayudarte a mejorar". Combate con el Campeón Mundial... e intenta no avergonzarlo frente al público.',
+				pt = 'O Mr. Satan insiste em uma sessão de treino para "ajudar você a melhorar". Lute com o Campeão Mundial... e tente não envergonhá-lo na frente do público.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				es = '[[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				pt = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 37: \'\'Tournament Preliminaries\'\'',
+					'Complete [[Special:MyLanguage/Sidequests#sq-mr_satan_peace_offering|A Peace Offering]]',
+				},
+				es = {
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 37: \'\'Preliminares del Torneo\'\'',
+					'Completa [[Special:MyLanguage/Sidequests#sq-mr_satan_peace_offering|Una Ofrenda de Paz]]',
+				},
+				pt = {
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 37: \'\'Eliminatórias do Torneio\'\'',
+					'Conclua [[Special:MyLanguage/Sidequests#sq-mr_satan_peace_offering|Uma Oferta de Paz]]',
+				},
+			},
+			objectives = {
+				en = {
+					'Spar with Mr. Satan and win without killing them (spawned by the quest, 90,000 health)',
+					'Talk to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+				es = {
+					'Entrena con Sr. Satán y gana sin matarlo (aparece con la misión, 90 000 de vida)',
+					'Habla con [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				},
+				pt = {
+					'Treine com Mr. Satan e vença sem matá-lo (surge com a missão, 90 000 de vida)',
+					'Fale com [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×20 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+				},
+				es = {
+					'×20 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+				pt = {
+					'×20 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
 				},
 			},
 		},
@@ -3001,6 +3126,68 @@ return {
 			},
 		},
 		{
+			id = 'chiaotzu_crane_school_shadow',
+			category = 'combat',
+			giver = 'chiaotzu',
+			turnin = 'chiaotzu',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'Shadow of the Crane School',
+				es = 'La Sombra de la Escuela Grulla',
+				pt = 'A Sombra da Escola da Garça',
+			},
+			desc = {
+				en = 'Chiaotzu keeps dreaming about Mercenary Tao and his cyborg body. Defeat Cyborg Tao so Chiaotzu can finally sleep in peace.',
+				es = 'Chaozu sigue soñando con el Mercenario Tao y su cuerpo de cyborg. Derrota a Cyborg Tao para que Chaozu por fin pueda dormir en paz.',
+				pt = 'Chaoz continua sonhando com o Mercenário Tao e seu corpo de ciborgue. Derrote o Ciborgue Tao para que Chaoz finalmente possa dormir em paz.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				es = '[[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				pt = '[[Special:MyLanguage/Chiaotzu|Chaoz]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Classic Saga|Classic Saga]], quest 47: \'\'Tournament: Cyborg Tao\'\'',
+					'Complete [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Psychic Sparring]]',
+				},
+				es = {
+					'[[Special:MyLanguage/Classic Saga|Saga Clásica]], misión 47: \'\'Torneo: Cyborg Tao\'\'',
+					'Completa [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Combate Psíquico]]',
+				},
+				pt = {
+					'[[Special:MyLanguage/Classic Saga|Saga Clássica]], missão 47: \'\'Torneio: Ciborgue Tao\'\'',
+					'Conclua [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Treino Psíquico]]',
+				},
+			},
+			objectives = {
+				en = {
+					'Defeat Cyborg Tao Pai Pai (spawned by the quest, 1,900 health)',
+					'Talk to [[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				},
+				es = {
+					'Derrota a Cyborg Tao Pai Pai (aparece con la misión, 1 900 de vida)',
+					'Habla con [[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				},
+				pt = {
+					'Derrote Ciborgue Tao Pai Pai (surge com a missão, 1 900 de vida)',
+					'Fale com [[Special:MyLanguage/Chiaotzu|Chaoz]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×10 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+				},
+				es = {
+					'×10 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+				pt = {
+					'×10 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
 			id = 'classic_red_ribbon_patrol',
 			category = 'combat',
 			giver = '',
@@ -3379,7 +3566,7 @@ return {
 				pt = 'Aquecimento Contra a Força Ginyu',
 			},
 			desc = {
-				en = 'The Ginyu Force is coming. Goku asks you to train by clearing out Frieza\'s remaining soldiers on the Ajissa Plains & you\'ll need every ounce of strength.',
+				en = 'The Ginyu Force is coming. Goku asks you to train by clearing out Frieza\'s remaining soldiers on the Ajissa Plains — you\'ll need every ounce of strength.',
 				es = 'Las Fuerzas Especiales Ginyu están en camino. Goku te pide que entrenes eliminando a los soldados restantes de Freezer en las Llanuras de Ajissa: vas a necesitar toda tu fuerza.',
 				pt = 'A Força Ginyu está chegando. Goku pede que você treine eliminando os soldados restantes de Freeza nas Planícies Ajissa. Você vai precisar de toda a sua força.',
 			},
@@ -3600,6 +3787,68 @@ return {
 				},
 				pt = {
 					'×5 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
+			id = 'mr_satan_cell_jr_cleanup',
+			category = 'combat',
+			giver = 'mr_satan',
+			turnin = 'mr_satan',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'Hero of the Cell Games',
+				es = 'El Héroe de los Juegos de Cell',
+				pt = 'O Herói dos Jogos de Cell',
+			},
+			desc = {
+				en = 'A few Cell Juniors were spotted near the tournament grounds. Mr. Satan would deal with them himself, but his back hurts. Defeat them quietly; he will take the credit.',
+				es = 'Vieron a algunos Cell Jr. cerca del torneo. El Sr. Satán se encargaría él mismo, pero le duele la espalda. Derrótalos sin hacer ruido; él se llevará el crédito.',
+				pt = 'Alguns Cell Jr. foram vistos perto do torneio. O Mr. Satan cuidaria deles pessoalmente, mas está com dor nas costas. Derrote-os discretamente; ele vai ficar com o crédito.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				es = '[[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				pt = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 15: \'\'Super Perfect Cell\'\'',
+					'Complete [[Special:MyLanguage/Sidequests#sq-mr_satan_autographs|The Champ\'s Autographs]]',
+				},
+				es = {
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
+					'Completa [[Special:MyLanguage/Sidequests#sq-mr_satan_autographs|Los Autógrafos del Campeón]]',
+				},
+				pt = {
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 15: \'\'Cell Super Perfeito\'\'',
+					'Conclua [[Special:MyLanguage/Sidequests#sq-mr_satan_autographs|Os Autógrafos do Campeão]]',
+				},
+			},
+			objectives = {
+				en = {
+					'Defeat 3 × Cell Jr (spawned by the quest, 108,360 health)',
+					'Talk to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+				es = {
+					'Derrota a 3 × Cell Jr. (aparece con la misión, 108 360 de vida)',
+					'Habla con [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				},
+				pt = {
+					'Derrote 3 × Cell Jr (surge com a missão, 108 360 de vida)',
+					'Fale com [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×30 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+				},
+				es = {
+					'×30 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+				pt = {
+					'×30 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
 				},
 			},
 		},
@@ -3986,7 +4235,7 @@ return {
 				pt = 'Rancor do Lobo do Deserto',
 			},
 			desc = {
-				en = 'Yamcha\'s old desert hideout has been overrun by bandits. He asks you to clear them out & for old times\' sake.',
+				en = 'Yamcha\'s old desert hideout has been overrun by bandits. He asks you to clear them out — for old times\' sake.',
 				es = 'El antiguo escondite desértico de Yamcha ha sido invadido por bandidos. Te pide que los elimines, por los viejos tiempos.',
 				pt = 'O antigo esconderijo de Yamcha no deserto foi tomado por bandidos. Ele pede que você os expulse, por uma questão de nostalgia.',
 			},
@@ -4376,7 +4625,7 @@ return {
 				pt = 'P&D da Corporação Cápsula',
 			},
 			desc = {
-				en = 'Help Bulma prototype a new capsule line — bring her diamonds and redstone.',
+				en = 'Bulma is prototyping a compact capsule engine. Bring her iron, redstone and pistons and the first unit is yours.',
 				es = 'Ayuda a Bulma a prototipar una nueva línea de cápsulas: llévale diamantes y piedra roja.',
 				pt = 'Ajude Bulma a prototipar uma nova linha de cápsulas — leve a ela diamantes e Redstone.',
 			},
@@ -4398,30 +4647,36 @@ return {
 			},
 			objectives = {
 				en = {
-					'Obtain 4 × Diamond',
-					'Obtain 8 × Redstone Dust',
+					'Deliver 16 × Iron Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 16 × Redstone Dust to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 2 × Piston to [[Special:MyLanguage/Bulma|Bulma]]',
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Consigue 4 × Diamante',
-					'Consigue 8 × Polvo de redstone',
+					'Entrega 16 × Lingote de hierro a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 16 × Polvo de redstone a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 2 × Pistón a [[Special:MyLanguage/Bulma|Bulma]]',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Obtenha 4 × Diamante',
-					'Obtenha 8 × Pó de Redstone',
+					'Entregue 16 × Lingote de Ferro para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 16 × Pó de Redstone para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 2 × Pistão para [[Special:MyLanguage/Bulma|Bulma]]',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 			},
 			rewards = {
 				en = {
 					'×4 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'1 × Vehicle Engine',
 				},
 				es = {
 					'×4 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × Motor de Vehículo',
 				},
 				pt = {
 					'×4 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × Motor de Veículo',
 				},
 			},
 		},
@@ -4633,7 +4888,7 @@ return {
 				pt = 'Estabilizador de Voo',
 			},
 			desc = {
-				en = 'Bulma is building a flight-enhancement module. She needs feathers, redstone and gold.',
+				en = 'Bulma is building a flight-enhancement module. Bring her feathers, iron and gold and she\'ll machine you a propeller.',
 				es = 'Bulma está construyendo un módulo de mejora de vuelo. Necesita plumas, piedra roja y oro.',
 				pt = 'Bulma está construindo um módulo de aprimoramento de voo. Ela precisa de penas, redstone e ouro.',
 			},
@@ -4655,33 +4910,36 @@ return {
 			},
 			objectives = {
 				en = {
-					'Obtain 16 × Feather',
-					'Obtain 12 × Redstone Dust',
-					'Obtain 4 × Gold Ingot',
+					'Deliver 16 × Feather to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 8 × Iron Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 4 × Gold Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Consigue 16 × Pluma',
-					'Consigue 12 × Polvo de redstone',
-					'Consigue 4 × Lingote de oro',
+					'Entrega 16 × Pluma a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 8 × Lingote de hierro a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 4 × Lingote de oro a [[Special:MyLanguage/Bulma|Bulma]]',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Obtenha 16 × Pena',
-					'Obtenha 12 × Pó de Redstone',
-					'Obtenha 4 × Lingote de Ouro',
+					'Entregue 16 × Pena para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 8 × Lingote de Ferro para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 4 × Lingote de Ouro para [[Special:MyLanguage/Bulma|Bulma]]',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 			},
 			rewards = {
 				en = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'1 × Vehicle Propeller',
 				},
 				es = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × Hélice de Vehículo',
 				},
 				pt = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × Hélice de Veículo',
 				},
 			},
 		},
@@ -5153,7 +5411,7 @@ return {
 				pt = 'Upgrade do Radar',
 			},
 			desc = {
-				en = 'Bulma needs specific materials to improve the Dragon Radar\'s range. Gather redstone, copper, and gold for her & she\'ll make it worth your while.',
+				en = 'Bulma needs specific materials to improve the Dragon Radar\'s range. Gather redstone, copper, and gold for her — she\'ll make it worth your while.',
 				es = 'Bulma necesita materiales concretos para mejorar el alcance del Radar de Esferas del Dragón. Consíguele piedra roja, cobre y oro: te lo compensará.',
 				pt = 'Bulma precisa de materiais específicos para melhorar o alcance do Radar do Dragão. Reúna redstone, cobre e ouro para ela, e ela fará valer a pena.',
 			},
@@ -5221,7 +5479,7 @@ return {
 				pt = 'Levantamento de Minerais Raros',
 			},
 			desc = {
-				en = 'Bulma needs rare-material samples for her research. Gather amethyst and copper.',
+				en = 'Bulma is testing a lighter alloy for vehicle hulls. Bring her iron, copper and amethyst to forge some plating.',
 				es = 'Bulma necesita muestras de materiales raros para su investigación. Consigue amatista y cobre.',
 				pt = 'Bulma precisa de amostras de materiais raros para sua pesquisa. Reúna ametista e cobre.',
 			},
@@ -5243,30 +5501,36 @@ return {
 			},
 			objectives = {
 				en = {
-					'Obtain 8 × Amethyst Shard',
-					'Obtain 12 × Copper Ingot',
+					'Deliver 12 × Iron Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 12 × Copper Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 4 × Amethyst Shard to [[Special:MyLanguage/Bulma|Bulma]]',
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Consigue 8 × Fragmento de amatista',
-					'Consigue 12 × Lingote de cobre',
+					'Entrega 12 × Lingote de hierro a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 12 × Lingote de cobre a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 4 × Fragmento de amatista a [[Special:MyLanguage/Bulma|Bulma]]',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Obtenha 8 × Fragmento de Ametista',
-					'Obtenha 12 × Lingote de Cobre',
+					'Entregue 12 × Lingote de Ferro para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 12 × Lingote de Cobre para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 4 × Fragmento de Ametista para [[Special:MyLanguage/Bulma|Bulma]]',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 			},
 			rewards = {
 				en = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'2 × Vehicle Plating',
 				},
 				es = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × Blindaje de Vehículo',
 				},
 				pt = {
 					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × Blindagem de Veículo',
 				},
 			},
 		},
@@ -5332,6 +5596,74 @@ return {
 				},
 				pt = {
 					'×11 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
+			id = 'bulma_vehicle_upholstery',
+			category = 'collection',
+			giver = 'bulma',
+			turnin = 'bulma',
+			ordered = false,
+			repeatable = false,
+			name = {
+				en = 'Comfortable Ride',
+				es = 'Un Viaje Cómodo',
+				pt = 'Viagem Confortável',
+			},
+			desc = {
+				en = 'Bulma refuses to sit on bare metal. Bring her leather, cyan wool and iron so she can upholster some vehicle seats.',
+				es = 'Bulma se niega a sentarse sobre metal pelado. Llévale cuero, lana cian y hierro para que pueda tapizar unos asientos de vehículo.',
+				pt = 'Bulma se recusa a sentar em metal puro. Leve couro, lã ciano e ferro para ela estofar alguns assentos de veículo.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Bulma|Bulma]]',
+				es = '[[Special:MyLanguage/Bulma|Bulma]]',
+				pt = '[[Special:MyLanguage/Bulma|Bulma]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Saiyan Saga|Saiyan Saga]], quest 3: \'\'Wilderness Training\'\'',
+				},
+				es = {
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], misión 3: \'\'Elimina a los Saibamen\'\'',
+				},
+				pt = {
+					'[[Special:MyLanguage/Saiyan Saga|Saga Saiyajin]], missão 3: \'\'Mate os Saibamen\'\'',
+				},
+			},
+			objectives = {
+				en = {
+					'Deliver 8 × Leather to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 4 × Cyan Wool to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 4 × Iron Ingot to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
+				},
+				es = {
+					'Entrega 8 × Cuero a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 4 × Lana cian a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 4 × Lingote de hierro a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
+				},
+				pt = {
+					'Entregue 8 × Couro para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 4 × Lã Ciano para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 4 × Lingote de Ferro para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'2 × Vehicle Seat',
+				},
+				es = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × Asiento de Vehículo',
+				},
+				pt = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × Assento de Veículo',
 				},
 			},
 		},
@@ -5588,6 +5920,71 @@ return {
 				pt = {
 					'×4 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
 					'5 × Maçã Dourada',
+				},
+			},
+		},
+		{
+			id = 'chiaotzu_gift_for_tien',
+			category = 'collection',
+			giver = 'chiaotzu',
+			turnin = 'chiaotzu',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'A Gift for Tien',
+				es = 'Un Regalo para Ten Shin Han',
+				pt = 'Um Presente para Tenshinhan',
+			},
+			desc = {
+				en = 'Tien trains so hard he forgets to eat. Chiaotzu asks you to bring him cooked salmon and bread, then come back and tell him how it went.',
+				es = 'Ten Shin Han entrena tanto que se olvida de comer. Chaozu te pide que le lleves salmón cocido y pan, y que después vuelvas a contarle cómo te fue.',
+				pt = 'Tenshinhan treina tanto que esquece de comer. Chaoz pede que você leve salmão assado e pão para ele e depois volte para contar como foi.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				es = '[[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				pt = '[[Special:MyLanguage/Chiaotzu|Chaoz]]',
+			},
+			unlock = {
+				en = {
+					'Complete [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Psychic Sparring]]',
+				},
+				es = {
+					'Completa [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Combate Psíquico]]',
+				},
+				pt = {
+					'Conclua [[Special:MyLanguage/Sidequests#sq-chiaotzu_psychic_sparring|Treino Psíquico]]',
+				},
+			},
+			objectives = {
+				en = {
+					'Deliver 10 × Cooked Salmon to [[Special:MyLanguage/Master Tien|Master Tien]]',
+					'Deliver 10 × Bread to [[Special:MyLanguage/Master Tien|Master Tien]]',
+					'Talk to [[Special:MyLanguage/Chiaotzu|Chiaotzu]]',
+				},
+				es = {
+					'Entrega 10 × Salmón ahumado a [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]]',
+					'Entrega 10 × Pan a [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]]',
+					'Habla con [[Special:MyLanguage/Chiaotzu|Chaozu]]',
+				},
+				pt = {
+					'Entregue 10 × Salmão Assado para [[Special:MyLanguage/Master Tien|Mestre Tenshinhan]]',
+					'Entregue 10 × Pão para [[Special:MyLanguage/Master Tien|Mestre Tenshinhan]]',
+					'Fale com [[Special:MyLanguage/Chiaotzu|Chaoz]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'1 × [[Special:MyLanguage/Senzu Bean|Senzu Bean]]',
+				},
+				es = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × [[Special:MyLanguage/Senzu Bean|Semilla del Ermitaño]]',
+				},
+				pt = {
+					'×3 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'1 × [[Special:MyLanguage/Senzu Bean|Semente dos Deuses]]',
 				},
 			},
 		},
@@ -6618,7 +7015,7 @@ return {
 				pt = 'Artefatos Alienígenas',
 			},
 			desc = {
-				en = 'Bulma discovered rare alien materials on Namek. Retrieve Kikono shards and diamonds for her & she promises a legendary weapon in return.',
+				en = 'Bulma discovered rare alien materials on Namek. Bring her Kikono shards and diamonds and she\'ll build you an engine using alien technology.',
 				es = 'Bulma ha descubierto materiales alienígenas raros en Namek. Recupera fragmentos de Kikono y diamantes para ella: promete un arma legendaria a cambio.',
 				pt = 'Bulma descobriu materiais alienígenas raros em Namek. Recupere fragmentos de Kikono e diamantes para ela, e ela promete uma arma lendária em troca.',
 			},
@@ -6640,33 +7037,160 @@ return {
 			},
 			objectives = {
 				en = {
-					'Obtain 16 × [[Special:MyLanguage/Kikono Materials|Kikono Shard]]',
-					'Obtain 8 × Diamond',
+					'Deliver 16 × [[Special:MyLanguage/Kikono Materials|Kikono Shard]] to [[Special:MyLanguage/Bulma|Bulma]]',
+					'Deliver 4 × Diamond to [[Special:MyLanguage/Bulma|Bulma]]',
 					'Talk to [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				es = {
-					'Consigue 16 × [[Special:MyLanguage/Kikono Materials|Fragmento de Kikono]]',
-					'Consigue 8 × Diamante',
+					'Entrega 16 × [[Special:MyLanguage/Kikono Materials|Fragmento de Kikono]] a [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entrega 4 × Diamante a [[Special:MyLanguage/Bulma|Bulma]]',
 					'Habla con [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 				pt = {
-					'Obtenha 16 × [[Special:MyLanguage/Kikono Materials|Fragmento de Kikono]]',
-					'Obtenha 8 × Diamante',
+					'Entregue 16 × [[Special:MyLanguage/Kikono Materials|Fragmento de Kikono]] para [[Special:MyLanguage/Bulma|Bulma]]',
+					'Entregue 4 × Diamante para [[Special:MyLanguage/Bulma|Bulma]]',
 					'Fale com [[Special:MyLanguage/Bulma|Bulma]]',
 				},
 			},
 			rewards = {
 				en = {
 					'×13 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
-					'1 × Diamond Sword',
+					'1 × Vehicle Engine',
 				},
 				es = {
 					'×13 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
-					'1 × Espada de diamante',
+					'1 × Motor de Vehículo',
 				},
 				pt = {
 					'×13 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
-					'1 × Espada de Diamante',
+					'1 × Motor de Veículo',
+				},
+			},
+		},
+		{
+			id = 'mr_satan_autographs',
+			category = 'collection',
+			giver = 'mr_satan',
+			turnin = 'mr_satan',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'The Champ\'s Autographs',
+				es = 'Los Autógrafos del Campeón',
+				pt = 'Os Autógrafos do Campeão',
+			},
+			desc = {
+				en = 'Mr. Satan has run out of paper for his fans. Bring him paper and ink sacs so the World Champion can keep signing autographs.',
+				es = 'Al Sr. Satán se le acabó el papel para sus fans. Llévale papel y bolsas de tinta para que el Campeón Mundial pueda seguir firmando autógrafos.',
+				pt = 'O Mr. Satan ficou sem papel para os fãs. Leve papel e bolsas de tinta para que o Campeão Mundial possa continuar dando autógrafos.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				es = '[[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				pt = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Android Saga|Android Saga]], quest 15: \'\'Super Perfect Cell\'\'',
+				},
+				es = {
+					'[[Special:MyLanguage/Android Saga|Saga Androides]], misión 15: \'\'Cell Super Perfecto\'\'',
+				},
+				pt = {
+					'[[Special:MyLanguage/Android Saga|Saga Androide]], missão 15: \'\'Cell Super Perfeito\'\'',
+				},
+			},
+			objectives = {
+				en = {
+					'Deliver 32 × Paper to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+					'Deliver 8 × Ink Sac to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+					'Talk to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+				es = {
+					'Entrega 32 × Papel a [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+					'Entrega 8 × Saco de tinta a [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+					'Habla con [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				},
+				pt = {
+					'Entregue 32 × Papel para [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+					'Entregue 8 × Bolsa de Tinta para [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+					'Fale com [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×8 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+				},
+				es = {
+					'×8 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+				pt = {
+					'×8 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+				},
+			},
+		},
+		{
+			id = 'mr_satan_peace_offering',
+			category = 'collection',
+			giver = 'mr_satan',
+			turnin = 'mr_satan',
+			ordered = true,
+			repeatable = false,
+			name = {
+				en = 'A Peace Offering',
+				es = 'Una Ofrenda de Paz',
+				pt = 'Uma Oferta de Paz',
+			},
+			desc = {
+				en = 'Mr. Satan wants to stay on Majin Buu\'s good side. Take cakes and cookies to Buu at his house, then report back to the champ.',
+				es = 'El Sr. Satán quiere seguir en buenos términos con Majin Buu. Llévale pasteles y galletas a su casa y después vuelve a contárselo al campeón.',
+				pt = 'O Mr. Satan quer continuar de bem com o Majin Boo. Leve bolos e biscoitos para o Boo na casa dele e depois volte para contar ao campeão.',
+			},
+			giverText = {
+				en = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				es = '[[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				pt = '[[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+			},
+			unlock = {
+				en = {
+					'[[Special:MyLanguage/Buu Saga|Buu Saga]], quest 33: \'\'Satan and Majin Buu\'\'',
+				},
+				es = {
+					'[[Special:MyLanguage/Buu Saga|Saga Buu]], misión 33: \'\'Satán y Majin Buu\'\'',
+				},
+				pt = {
+					'[[Special:MyLanguage/Buu Saga|Saga Boo]], missão 33: \'\'Satan e Majin Boo\'\'',
+				},
+			},
+			objectives = {
+				en = {
+					'Deliver 3 × Cake to [[Special:MyLanguage/Majin Buu|Majin Buu]]',
+					'Deliver 16 × Cookie to [[Special:MyLanguage/Majin Buu|Majin Buu]]',
+					'Talk to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+				es = {
+					'Entrega 3 × Tarta a [[Special:MyLanguage/Majin Buu|Majin Buu]]',
+					'Entrega 16 × Galleta a [[Special:MyLanguage/Majin Buu|Majin Buu]]',
+					'Habla con [[Special:MyLanguage/Mr. Satan|Sr. Satán]]',
+				},
+				pt = {
+					'Entregue 3 × Bolo para [[Special:MyLanguage/Majin Buu|Majin Boo]]',
+					'Entregue 16 × Biscoito para [[Special:MyLanguage/Majin Buu|Majin Boo]]',
+					'Fale com [[Special:MyLanguage/Mr. Satan|Mr. Satan]]',
+				},
+			},
+			rewards = {
+				en = {
+					'×12 [[Special:MyLanguage/Stats and Attributes|Attributes]]',
+					'2 × [[Special:MyLanguage/Senzu Bean|Senzu Bean]]',
+				},
+				es = {
+					'×12 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × [[Special:MyLanguage/Senzu Bean|Semilla del Ermitaño]]',
+				},
+				pt = {
+					'×12 [[Special:MyLanguage/Stats and Attributes|Atributos]]',
+					'2 × [[Special:MyLanguage/Senzu Bean|Semente dos Deuses]]',
 				},
 			},
 		},

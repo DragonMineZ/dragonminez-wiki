@@ -80,7 +80,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=2.25
 |def=1.9375
 |drain=0.24
-|text=<translate><!--T:52--> Your power slips out of control: red eyes, a red aura and a red glowing outline.</translate>
+|text=<translate><!--T:52--> Your power slips out of control: red eyes, a red aura and a pulsing red outline with small flames.</translate>
 }}
 {{Race form|glind|superforms|super
 |level=3
@@ -89,7 +89,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=2.85
 |def=2.3625
 |drain=0.371
-|text=<translate><!--T:53--> Red eyes with a blue aura and a blue glowing outline.</translate>
+|text=<translate><!--T:53--> Red eyes with a blue aura and a pulsing light blue outline with small flames.</translate>
 }}
 {{Race form|glind|superforms|absorption
 |level=4
@@ -98,7 +98,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=3.45
 |def=2.725
 |drain=0.446
-|text=<translate><!--T:54--> A huge mane of white hair and fur over your body, with a blue aura and a bright white outline.</translate>
+|text=<translate><!--T:54--> A huge mane of white hair and fur over your body, with a blue aura and a bright white outline with flames.</translate>
 }}
 {{Race form|glind|superforms|trueform
 |level=5
@@ -129,7 +129,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=4.8
 |def=3.5875
 |drain=0.613
-|text=<translate><!--T:58--> A muscular dark king with crimson hair, red eyes, a deep red aura and a glowing outline.</translate>
+|text=<translate><!--T:58--> A muscular dark king with crimson hair, red eyes, a deep red aura and a red outline with flames.</translate>
 }}
 {{Race form|glind|legendaryforms|timepower_darkking
 |level=3
@@ -138,7 +138,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=5.6
 |def=4.0125
 |drain=0.805
-|text=<translate><!--T:59--> The darker of the two Time Power forms: crimson hair with small horns, red eyes, dark armor with red marks and a thick black outline.</translate>
+|text=<translate><!--T:59--> The darker of the two Time Power forms: crimson hair with small horns, red eyes, dark armor with red marks and a thick black outline with strong flames.</translate>
 }}
 {{Race form|glind|legendaryforms|timepower_realmoflight
 |level=3
@@ -147,7 +147,7 @@ Every part of the Glind racial skill is passive: there is nothing to select or a
 |power=5.6
 |def=4.0125
 |drain=0.805
-|text=<translate><!--T:60--> The bright Time Power form: your body grows slightly taller and is wrapped in a pale golden aura and a white glowing outline.</translate>
+|text=<translate><!--T:60--> The bright Time Power form: your body grows slightly taller and is wrapped in a pale golden aura and a white and pale gold outline with strong flames. A golden halo shaped like a gear with ten teeth, with two arms in a V and a stem inside, floats behind your upper back: its edges flicker, its glow slowly pulses and it fades in when you transform.</translate>
 }}
 {{Form group end}}
 
@@ -166,12 +166,12 @@ Glinds get two alternative forms on the third Legendary level. Both '''Time Powe
 <!--T:48-->
 * '''Model:''' the Human body and face parts with Glind colors. Glinds can't use their Minecraft skin.
 * '''Eyes:''' besides the human eye styles, Glinds have their own Glind eye style, the first one in the '''Eyes''' list.
-* '''Head:''' Glinds wear '''ears''' (head part <code>ears1</code>), which can be combined with a hairstyle.
+* '''Head:''' Glinds wear '''ears''' (head part <code>ears1</code>), and you can wear the ears and a hairstyle at the same time. Buffed, Out of Control, Super, Absorption, Time Power: Dark King and Time Power: Realm of Light keep your ears and hairstyle.
 * '''Hair:''' yes. Glinds can pick any hairstyle preset and design their own styles in the hair editor.
 * '''Gender:''' yes, with male and female models, including the Transcended form.
 * '''Body types:''' 2 for each gender, with body type 1 as the default. The second male body type has slim arms.
 * '''Aura:''' Glinds can pick the exclusive '''3D: God''' aura style, a constantly shifting flame.
-* '''Forms:''' several forms change your look. '''Absorption''' adds a white outline. '''Dark King''' gives you a bulkier body, crimson hair (your SSJ2 hairstyle slot), red eyes on black sclera, a red outline and a red and black aura. '''Time Power: Dark King''' has its own model with red markings, the same red eyes on black sclera and a black outline, and '''Time Power: Realm of Light''' a white outline. With the '''3D: Sparking''' aura style, the Absorption aura has a white outer edge, and the dark auras of Transcended, True Form and Time Power: Dark King a black one.
+* '''Forms:''' several forms change your look. '''Out of Control''' and '''Super''' add a pulsing outline with small flames (red and light blue), and '''Absorption''' a white outline with flames. '''Dark King''' gives you a bulkier body, crimson hair (your SSJ2 hairstyle slot), red eyes on black sclera, a red outline with flames and a red and black aura. '''Time Power: Dark King''' has its own model with red markings, the same red eyes on black sclera and a black outline with strong flames, and '''Time Power: Realm of Light''' a white outline with strong flames and a golden time halo on your back. With the '''3D: Sparking''' aura style, the Absorption aura has a white outer edge, and the dark auras of Transcended, True Form and Time Power: Dark King a black one.
 </translate>
 
 <translate>

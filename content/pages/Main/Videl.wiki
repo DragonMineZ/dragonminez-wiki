@@ -1,38 +1,41 @@
 {{Infobox Mob
 |Type=<translate><!--T:1--> Tournament contender, story sparring partner</translate>
 |Dimension={{L|Otherworld}}, {{L|Earth}}
-|Spawns=<translate><!--T:2--> Drawn at random as an Otherworld Tournament contender; Buu Saga quest 37</translate>
-|Behavior=<translate><!--T:3--> Fights you in the ring; Smart or Elite AI in the tournament</translate>
-|Damage=9,900–25,800
-|Ki damage=8,840–23,460
-|Abilities=<translate><!--T:4--> Flight, Ki Volley, Ki Blast</translate>
+|Spawns=<translate><!--T:2--> Drawn at random as a World Martial Arts Tournament or Otherworld Tournament contender; Buu Saga quest 37</translate>
+|Behavior=<translate><!--T:3--> Fights you in the ring; Smart or Elite AI in the tournaments</translate>
+|Damage=6,100–25,800
+|Ki damage=5,500–23,460
+|Abilities=<translate><!--T:4--> Flight, small ki blasts</translate>
 |Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
 <!--T:6-->
-'''Videl''' is a martial artist of the Buu Saga. She is one of the Buu Saga fighters of the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and your sparring partner in the World Tournament preliminaries of the [[Special:MyLanguage/Buu Saga|Buu Saga]].
+'''Videl''' is a martial artist of the Buu Saga. She is one of the contenders of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and your sparring partner in the World Tournament preliminaries of the [[Special:MyLanguage/Buu Saga|Buu Saga]].
 </translate>
 
 <translate>
 == In the tournament == <!--T:7-->
 
 <!--T:8-->
-Videl can be drawn as a '''contender''' in the Otherworld Tournament. Each contender seat draws a random fighter from the Buu Saga cast. The draw is revealed once everybody accepts the rules, and you only face her if she reaches your bout: fights between two NPCs are decided automatically.
+Videl can be drawn as a '''contender''' in the World Martial Arts Tournament and the Otherworld Tournament. Each contender seat draws a random fighter from that tournament's pool. The draw is revealed once everybody accepts the rules, and you only face her if she reaches your bout: fights between two NPCs are decided automatically.
 
 <!--T:9-->
-Her stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI), and contenders get 8% stronger for every round already played. Bouts end at knockout, so she isn't killed and drops nothing.
+Her stats come from the tournament, not from the character: each contender draw has its own health, damage and AI tier. By default they range from 147,000 health, 6,100 melee damage and 5,500 ki damage (Smart AI) to 392,000 health, 16,300 melee damage and 14,700 ki damage (Elite AI) in the World Martial Arts Tournament, and from 238,000 health, 9,900 melee damage and 8,840 ki damage (Smart AI) to 612,500 health, 25,800 melee damage and 23,460 ki damage (Elite AI) in the Otherworld Tournament. Contenders get 8% stronger for every round already played. Bouts end at knockout, so she isn't killed and drops nothing.
+
+<!--T:17-->
+She is also in the Z Fighters entity tag (<code>#dragonminez:npc_zfighters</code>), which server owners can use for the contenders of their own tournaments (see [[Special:MyLanguage/Tournaments#Configuration|Tournaments]]).
 </translate>
 
 <translate>
 == Behavior and abilities == <!--T:10-->
 
 <!--T:11-->
-Videl has a single form and doesn't transform. She fights with the same kit as [[Special:MyLanguage/Shin|Shin]]:
+Videl has a single form and doesn't transform. She has her own fighter kit (she used to share [[Special:MyLanguage/Shin|Shin]]'s):
 
 <!--T:12-->
-* '''Ki attacks:''' Ki Volley and Ki Blast, both yellow.
+* '''Ki attacks:''' small white ki blasts, her only ki attack.
 * '''Combos:''' none; she fights with plain melee.
-* '''Mobility:''' she flies and backsteps away from your hits.
+* '''Mobility:''' she flies, with a white aura.
 
 <!--T:13-->
 Her AI tier comes from the tournament draw or, in the story, from your difficulty (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).

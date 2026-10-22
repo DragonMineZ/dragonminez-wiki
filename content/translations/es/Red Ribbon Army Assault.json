@@ -1,0 +1,222 @@
+{
+ "Page_display_title": {
+  "source": "Red Ribbon Army Assault",
+  "translation": "Asalto de la Patrulla Roja",
+  "outdated": false
+ },
+ "1": {
+  "source": "Send every soldier we have! Nobody humiliates the Red Ribbon Army!",
+  "translation": "¡Envíen a todos los soldados que tengamos! ¡Nadie humilla a la Patrulla Roja!",
+  "outdated": false
+ },
+ "2": {
+  "source": "Red Ribbon base: an army base held by Red Ribbon soldiers, robots and their commander",
+  "translation": "Base de la Patrulla Roja: una base militar custodiada por soldados y robots de la Patrulla Roja y su comandante",
+  "outdated": false
+ },
+ "3": {
+  "source": "Colonel Silver (wave 3); Sergeant Metallic and Ninja Murasaki (wave 4); General Blue and General Black's Robot (wave 5)",
+  "translation": "Coronel Silver (oleada 3); Sargento Metallic y Ninja Murasaki (oleada 4); General Blue y Robot del General Black (oleada 5)",
+  "outdated": false
+ },
+ "4": {
+  "source": "5,700 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Red Capsule, 1 Blue Capsule",
+  "translation": "5,700 TP, Héroe de la aldea y Héroe del Mundo (10 min), 8 Zanahorias doradas, 2 Semillas del Ermitaño, 1 Cápsula Roja, 1 Cápsula Azul",
+  "outdated": false
+ },
+ "5": {
+  "source": "−5 alignment",
+  "translation": "−5 de alineamiento",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''Red Ribbon Army Assault''' is a raid of [[Special:MyLanguage/Earth|Earth]] and the easiest of the four raids. Kill the commander of a Red Ribbon base and General Red sends the whole [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] after you: five waves of soldiers and robots, led by '''Colonel Silver''', then '''Sergeant Metallic''' and '''Ninja Murasaki''', and finally '''General Blue''' and '''General Black's Robot'''.",
+  "translation": "El '''Asalto de la Patrulla Roja''' es una incursión de la [[Special:MyLanguage/Earth|Tierra]] y la más fácil de las cuatro incursiones. Mata al comandante de una base de la Patrulla Roja y el General Red manda a todo el [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] tras de ti: cinco oleadas de soldados y robots, lideradas por el '''Coronel Silver''', luego por el '''Sargento Metallic''' y el '''Ninja Murasaki''', y por último por el '''General Blue''' y el '''Robot del General Black'''.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding a Red Ribbon base ==",
+  "translation": "== Cómo encontrar una base de la Patrulla Roja ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "'''Red Ribbon bases''' are large army bases (84 × 146 blocks, 23 blocks high) found in the Plains, Sunflower Plains and Savanna biomes of the Overworld. They are spread out (at most one in every 32 × 32 chunk area, at least 16 chunks apart) and kept at least 8 chunks away from villages, and they only appear in newly generated chunks. Use <code>/dmzlocate red_ribbon_base</code> to find the nearest one; no villager sells a map to them. Bases have no build or ki protection. They are not the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a separate outpost that keeps spawning soldiers. See [[Special:MyLanguage/Structures|Structures]].",
+  "translation": "Las '''bases de la Patrulla Roja''' son grandes bases militares (84 × 146 bloques, 23 bloques de alto) que se encuentran en los biomas Llanura, Llanura de girasoles y Sabana del Overworld. Están dispersas (como mucho una en cada área de 32 × 32 chunks, separadas por al menos 16 chunks) y siempre a por lo menos 8 chunks de las aldeas, y solo aparecen en chunks recién generados. Usa <code>/dmzlocate red_ribbon_base</code> para encontrar la más cercana; ningún aldeano vende un mapa hacia ellas. Las bases no tienen protección contra construcción ni contra el ki. No son la [[Special:MyLanguage/Red Ribbon Tower|Torre de la Patrulla Roja]], un puesto de avanzada aparte que no deja de generar soldados. Consulta [[Special:MyLanguage/Structures|Estructuras]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== The garrison ==",
+  "translation": "== La guarnición ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "When you come within 80 blocks of a base, its garrison appears and you get a warning: ''\"You spot a Red Ribbon Army base nearby... its commander must be inside the headquarters.\"''. The garrison is 16 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]] and 3 Red Ribbon Robots posted around the base, plus the '''Red Ribbon Commander''' inside the headquarters: a named Red Ribbon's Soldier with 150 health and 8 melee damage. All of them show the purple supervillain tint and outline and don't despawn. Each guard stays within 12 blocks of its post, and the commander within 10 blocks of his. The garrison doesn't appear in Peaceful.",
+  "translation": "Cuando te acercas a menos de 80 bloques de una base, aparece su guarnición y recibes un aviso: ''\"Ves una base del Ejército de la Patrulla Roja cerca... su comandante debe estar dentro del cuartel general.\"''. La guarnición son 16 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]] y 3 Robots Red Ribbon apostados por la base, más el '''Comandante de la Patrulla Roja''' dentro del cuartel general: un Soldado Red Ribbon con nombre propio, 150 de vida y 8 de daño cuerpo a cuerpo. Todos muestran el tinte y el contorno morados de supervillano y no desaparecen. Cada guardia se queda a menos de 12 bloques de su puesto, y el comandante a menos de 10 bloques del suyo. La guarnición no aparece en Pacífico.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Starting the raid ==",
+  "translation": "== Cómo iniciar la incursión ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Kill the commander. The player who kills him (or the nearest player within 48 blocks, if nobody gets the credit) receives the '''Hunted''' effect for 60 seconds, and the alarm goes off: ''\"The alarm is blaring! The whole Red Ribbon Army is mobilizing against you!\"''. When Hunted runs out, the raid starts where you stand and General Red gives the order: ''\"Send every soldier we have! Nobody humiliates the Red Ribbon Army!\"''. Drinking milk to remove Hunted calls the raid off. Each base can start only one raid: once its commander is dead, the base is spent. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].",
+  "translation": "Mata al comandante. El jugador que lo mata (o el jugador más cercano a menos de 48 bloques, si nadie se lleva el mérito) recibe el efecto '''Perseguido''' durante 60 segundos, y suena la alarma: ''\"¡La alarma está sonando! ¡Todo el Ejército de la Patrulla Roja se moviliza contra ti!\"''. Cuando se acaba Perseguido, la incursión empieza donde estés y el General Red da la orden: ''\"¡Envíen a todos los soldados que tengamos! ¡Nadie humilla a la Patrulla Roja!\"''. Beber leche para quitarte Perseguido cancela la incursión. Cada base solo puede iniciar una incursión: en cuanto muere su comandante, la base queda agotada. El desarrollo completo se explica en [[Special:MyLanguage/Raids#How a raid plays out|Incursiones]].",
+  "outdated": false
+ },
+ "13": {
+  "source": "== Waves ==",
+  "translation": "== Oleadas ==",
+  "outdated": false
+ },
+ "14": {
+  "source": "Stats are the defaults, before the story difficulty multiplier of the player who started the raid. The soldiers and robots spawn on the ground around you and fight like the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] mobs outside raids, so the AI tiers don't apply to them; each robot is one of the three robot models, drawn at random. The bosses drop in from above and stay dormant until the soldiers and robots of their wave are dead.",
+  "translation": "Las estadísticas son las predeterminadas, antes del multiplicador de dificultad de historia del jugador que inició la incursión. Los soldados y los robots aparecen en el suelo a tu alrededor y pelean como las criaturas del [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] fuera de las incursiones, así que los niveles de IA no se les aplican; cada robot es uno de los tres modelos de robot, elegido al azar. Los jefes caen desde arriba y permanecen inactivos hasta que mueren los soldados y robots de su oleada.",
+  "outdated": false
+ },
+ "15": {
+  "source": "Wave",
+  "translation": "Oleada",
+  "outdated": false
+ },
+ "16": {
+  "source": "Enemies",
+  "translation": "Enemigos",
+  "outdated": false
+ },
+ "17": {
+  "source": "Health / melee / ki",
+  "translation": "Vida / cuerpo a cuerpo / ki",
+  "outdated": false
+ },
+ "18": {
+  "source": "AI tier",
+  "translation": "Nivel de IA",
+  "outdated": false
+ },
+ "19": {
+  "source": "8 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "8 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]]",
+  "outdated": false
+ },
+ "20": {
+  "source": "10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "10 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]]",
+  "outdated": false
+ },
+ "21": {
+  "source": "3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]",
+  "translation": "3 [[Special:MyLanguage/Red Ribbon Army|Robots Red Ribbon]]",
+  "outdated": false
+ },
+ "22": {
+  "source": "10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "10 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]]",
+  "outdated": false
+ },
+ "23": {
+  "source": "'''Colonel Silver''' (boss)",
+  "translation": "'''Coronel Silver''' (jefe)",
+  "outdated": false
+ },
+ "24": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "25": {
+  "source": "12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "12 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]]",
+  "outdated": false
+ },
+ "26": {
+  "source": "3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]",
+  "translation": "3 [[Special:MyLanguage/Red Ribbon Army|Robots Red Ribbon]]",
+  "outdated": false
+ },
+ "27": {
+  "source": "'''Sergeant Metallic''' (boss)",
+  "translation": "'''Sargento Metallic''' (jefe)",
+  "outdated": false
+ },
+ "28": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "29": {
+  "source": "'''Ninja Murasaki''' (boss)",
+  "translation": "'''Ninja Murasaki''' (jefe)",
+  "outdated": false
+ },
+ "30": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "31": {
+  "source": "12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]",
+  "translation": "12 [[Special:MyLanguage/Red Ribbon Army|Soldados Red Ribbon]]",
+  "outdated": false
+ },
+ "32": {
+  "source": "'''General Blue''' (boss)",
+  "translation": "'''General Blue''' (jefe)",
+  "outdated": false
+ },
+ "33": {
+  "source": "Smart",
+  "translation": "Inteligente",
+  "outdated": false
+ },
+ "34": {
+  "source": "'''General Black's Robot''' (boss)",
+  "translation": "'''Robot del General Black''' (jefe)",
+  "outdated": false
+ },
+ "35": {
+  "source": "Elite",
+  "translation": "Élite",
+  "outdated": false
+ },
+ "36": {
+  "source": "== Bosses ==",
+  "translation": "== Jefes ==",
+  "outdated": false
+ },
+ "37": {
+  "source": "None of the bosses can fly. '''Ninja Murasaki''' carries a katana and steps out of the way of attacks every so often; after landing three hits he runs away from you for 3 seconds. '''Sergeant Metallic''' is a big robot, 1.4 times the normal size, and '''General Blue''' attacks twice as fast as a normal fighter. '''General Black's Robot''' is the strongest enemy of the raid and the only one on the Elite AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).",
+  "translation": "Ningún jefe puede volar. El '''Ninja Murasaki''' lleva una katana y de vez en cuando se aparta de un ataque; después de acertar tres golpes, huye de ti durante 3 segundos. El '''Sargento Metallic''' es un robot grande, 1.4 veces el tamaño normal, y el '''General Blue''' ataca el doble de rápido que un luchador normal. El '''Robot del General Black''' es el enemigo más fuerte de la incursión y el único en el nivel de IA Élite (consulta [[Special:MyLanguage/Sagas#Enemy AI tiers|niveles de IA enemiga]]).",
+  "outdated": false
+ },
+ "38": {
+  "source": "== Rewards ==",
+  "translation": "== Recompensas ==",
+  "outdated": false
+ },
+ "39": {
+  "source": "Every participant still fighting when the last wave is cleared gets:\n* '''5,700 TP'''\n* '''Hero of the Village''' and '''Hero of the World''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])\n* 8 [[Special:MyLanguage/Golden Carrot|Golden Carrots]], 2 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], 1 [[Special:MyLanguage/Capsules|Red Capsule]] (STR) and 1 [[Special:MyLanguage/Capsules|Blue Capsule]] (ENE)",
+  "translation": "Todos los participantes que sigan peleando cuando se despeje la última oleada reciben:\n* '''5,700 TP'''\n* '''Héroe de la aldea''' y '''Héroe del Mundo''' durante 10 minutos (consulta [[Special:MyLanguage/Effects|Efectos]])\n* 8 [[Special:MyLanguage/Golden Carrot|Zanahorias doradas]], 2 [[Special:MyLanguage/Senzu Bean|Semillas del Ermitaño]], 1 [[Special:MyLanguage/Capsules|Cápsula Roja]] (STR) y 1 [[Special:MyLanguage/Capsules|Cápsula Azul]] (ENE)",
+  "outdated": false
+ },
+ "40": {
+  "source": "== Defeat ==",
+  "translation": "== Derrota ==",
+  "outdated": false
+ },
+ "41": {
+  "source": "If every participant falls or leaves, the raid is lost: the remaining soldiers vanish, everyone sees ''\"You couldn't stop the Red Ribbon Army...\"'' and loses '''5 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).",
+  "translation": "Si todos los participantes caen o se van, la incursión se pierde: los soldados restantes desaparecen, todos ven ''\"No pudiste detener al Ejército de la Patrulla Roja...\"'' y pierden '''5 de alineamiento''' (consulta [[Special:MyLanguage/Alignment|Alineamiento]]).",
+  "outdated": false
+ },
+ "42": {
+  "source": "== Configuration ==",
+  "translation": "== Configuración ==",
+  "outdated": false
+ },
+ "43": {
+  "source": "The raid's trigger, waves and rewards are defined in <code>config/dragonminez/raids/red_ribbon_assault.json</code>; the fields are explained on [[Special:MyLanguage/Raids#Configuration|Raids]]. Operators can start the raid anywhere with <code>/dmzraid start red_ribbon_assault</code> (see [[Special:MyLanguage/Commands|Commands]]).",
+  "translation": "El disparador, las oleadas y las recompensas de la incursión se definen en <code>config/dragonminez/raids/red_ribbon_assault.json</code>; los campos se explican en [[Special:MyLanguage/Raids#Configuration|Incursiones]]. Los operadores pueden iniciar la incursión en cualquier lugar con <code>/dmzraid start red_ribbon_assault</code> (consulta [[Special:MyLanguage/Commands|Comandos]]).",
+  "outdated": false
+ }
+}

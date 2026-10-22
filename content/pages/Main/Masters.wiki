@@ -12,6 +12,7 @@
 {{Card|Vegeta|<translate><!--T:7--> The Galick Gun, Final Flash, Fake Moon and the Gravity minigame.</translate>}}
 {{Card|Trunks|<translate><!--T:8--> Ki skills, sword strikes and the Precision minigame.</translate>}}
 {{Card|Yamcha|<translate><!--T:9--> Ki Infusion, the Spirit Ball and the Wolf Fang.</translate>}}
+{{Card|Master Tien|<translate><!--T:185--> The Dodon Ray, the Tri-Beam and the Neo Tri-Beam, on the World Martial Arts Tournament island.</translate>}}
 {{Card|Majin Buu|<translate><!--T:10--> Assault Rain, Gum Punch, Mystic Ball Attack and Sleep Recovery.</translate>}}
 {{Card|Fortuneteller Baba|<translate><!--T:11--> Basic skills and a tournament on Earth; revivals in the Otherworld.</translate>}}
 {{Card|Korin|<translate><!--T:12--> The Flying Nimbus and Senzu Beans.</translate>}}
@@ -48,6 +49,8 @@
 | {{L|Majin Buu}} || <translate><!--T:41--> [[Special:MyLanguage/Majin Buu's House|Majin Buu's House]] (Earth plains)</translate> || <translate><!--T:42--> None</translate> || —
 |-
 | {{L|Yamcha}} || <translate><!--T:43--> [[Special:MyLanguage/Yamcha's House|Yamcha's House]] (Earth desert)</translate> || <translate><!--T:44--> None</translate> || —
+|-
+| {{L|Master Tien}} || <translate><!--T:186--> [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island (Earth oceans), with Chiaotzu</translate> || <translate><!--T:187--> None</translate> || —
 |-
 | {{L|Trunks}} || <translate><!--T:45--> [[Special:MyLanguage/Trunks' Ship|Trunks' Ship]] (Earth land biomes)</translate> || <translate><!--T:46--> None</translate> || <translate><!--T:47--> Precision</translate>
 |-
@@ -99,7 +102,7 @@ Some masters only train you if your [[Special:MyLanguage/Alignment|alignment]] f
 
 <translate>
 <!--T:82-->
-A master whose alignment you don't fit still talks to you, just more coldly, but '''Skills''', '''Train''' and their '''new quests''' stay locked ("Requires an alignment of 61 or higher" or "40 or lower") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments stay open. A few services have alignment rules of their own (Korin's Nimbus, Dende's blessing, [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], Babidi, Old Kai's challenge); they're listed on each master's page.
+Every master and quest NPC talks to you, whatever your alignment; if it dislikes you (wrong alignment, or hostile toward you), it greets you with a cold line instead. A master whose alignment you don't fit keeps '''Skills''' and '''Train''' locked ("Requires an alignment of 61 or higher." or "40 or lower.") until your alignment fits. The '''Quests''' option is always open: only quests whose giver needs another alignment show as locked (saga quests and quests with an alignment condition of their own follow their own rules), and quests you already started or can turn in stay usable. Their other services and tournaments stay open. A few services have alignment rules of their own (Korin's Nimbus, Dende's blessing, [[Special:MyLanguage/Grand Elder Guru|Grand Elder Guru]], Babidi, Old Kai's challenge); they're listed on each master's page.
 </translate>
 
 <translate>
@@ -126,7 +129,7 @@ Right-clicking a master (or a quest NPC such as Bulma) opens the dialogue at the
 |-
 | <translate><!--T:98--> ''Services''</translate> || <translate><!--T:99--> Some masters and NPCs</translate> || <translate><!--T:100--> See ''Services'' below.</translate>
 |-
-| <translate><!--T:101--> '''Tournament'''</translate> || <translate><!--T:102--> Fortuneteller Baba (Earth), Cell, the [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]</translate> || <translate><!--T:103--> Opens the tournament screen. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
+| <translate><!--T:101--> '''Tournament'''</translate> || <translate><!--T:102--> Fortuneteller Baba (Earth), Cell, the [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]], the World Tournament Announcer ([[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]])</translate> || <translate><!--T:103--> Opens the tournament screen. See [[Special:MyLanguage/Tournaments|Tournaments]].</translate>
 |}
 
 <translate>
@@ -148,7 +151,7 @@ Right-clicking a master (or a quest NPC such as Bulma) opens the dialogue at the
 {{Config|Skills Config|skillOfferings}}
 <translate>
 <!--T:107-->
-Techniques are split into '''ki attacks''' (ranged energy), '''strike attacks''' (melee) and '''evasion techniques''' (see [[Special:MyLanguage/Techniques|Techniques]]). Plain '''skills''' are passive or utility unlocks (see [[Special:MyLanguage/Skills|Skills]]). You pay for them with Training Points, and your [[Special:MyLanguage/Races|race]] still has to allow each one, so a master's shop only lists what your race can learn. These are the default lists:
+Techniques are split into '''ki attacks''' (ranged energy), '''strike attacks''' (melee) and '''evasion techniques''' (see [[Special:MyLanguage/Techniques|Techniques]]). Plain '''skills''' are passive or utility unlocks (see [[Special:MyLanguage/Skills|Skills]]). You pay for them with Training Points. Your [[Special:MyLanguage/Races|race]] still has to allow each skill, so a master's shop only lists the skills your race can learn; techniques are always listed, but a few of them can only be equipped by one race (marked below). These are the default lists:
 </translate>
 
 {| class="wikitable"
@@ -156,31 +159,33 @@ Techniques are split into '''ki attacks''' (ranged energy), '''strike attacks'''
 |-
 | {{L|Master Roshi}} || <translate><!--T:113--> Jump, [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:114--> Kamehameha</translate> || — || <translate><!--T:115--> [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |-
-| {{L|Goku}} || <translate><!--T:116--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Fusion Dance|Fusion]]</translate> || <translate><!--T:117--> Kamehameha, Spirit Bomb</translate> || <translate><!--T:118--> Dragon Fist, Super God Fist, Oozaru Fist</translate> || —
+| {{L|Goku}} || <translate><!--T:116--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Fusion Dance|Fusion]]</translate> || <translate><!--T:117--> Kamehameha, Spirit Bomb</translate> || <translate><!--T:118--> Dragon Fist, Super God Fist, Oozaru Fist, Beam Sword Slash</translate> || —
 |-
 | {{L|King Kai}} || <translate><!--T:119--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Kaioken|Kaioken]] (stack form)</translate> || <translate><!--T:120--> Spirit Bomb</translate> || <translate><!--T:121--> Kaioken Attack</translate> || —
 |-
-| {{L|Piccolo}} || <translate><!--T:122--> [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:123--> Masenko, Special Beam Cannon, Ki Barrage, Kienzan, [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]]</translate> || — || —
+| {{L|Piccolo}} || <translate><!--T:122--> [[Special:MyLanguage/Potential Unlock|Potential Unlock]], [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:123--> Masenko, Special Beam Cannon, Ki Barrage, Kienzan, [[Special:MyLanguage/Hellzone Grenade|Hellzone Grenade]]</translate> || <translate><!--T:188--> Darkness Eye Beam (Namekian only)</translate> || —
 |-
 | {{L|Gohan}} || <translate><!--T:124--> [[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]], [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate><!--T:125--> Masenko, Special Beam Cannon, Kamehameha, Ki Barrage</translate> || — || —
 |-
 | {{L|Krillin}} || <translate><!--T:126--> [[Special:MyLanguage/Ki Control|Ki Control]], Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]]</translate> || <translate><!--T:127--> Kienzan, Double Kienzan, Ki Barrage</translate> || <translate><!--T:128--> Deadly Dance</translate> || <translate><!--T:129--> [[Special:MyLanguage/Solar Flare|Solar Flare]], [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |-
-| {{L|Vegeta}} || <translate><!--T:130--> [[Special:MyLanguage/Ki Control|Ki Control]], Defense Penetration, [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:131--> Galick Gun, Big Bang Attack, Final Flash, Final Explosion, [[Special:MyLanguage/Fake Moon|Fake Moon]]</translate> || <translate><!--T:132--> Deadly Dance (Vegetto), Spirit Breaking Cannon</translate> || —
+| {{L|Vegeta}} || <translate><!--T:130--> [[Special:MyLanguage/Ki Control|Ki Control]], Defense Penetration, [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:131--> Galick Gun, Big Bang Attack, Final Flash, Final Explosion, [[Special:MyLanguage/Fake Moon|Fake Moon]]</translate> || <translate><!--T:132--> Deadly Dance (Vegetto), Spirit Breaker, Spirit Breaking Cannon</translate> || —
 |-
 | {{L|Trunks}} || <translate><!--T:133--> [[Special:MyLanguage/Ki Control|Ki Control]], Ki Boost, [[Special:MyLanguage/Ki Protection|Ki Protection]]</translate> || <translate><!--T:134--> Burning Attack, [[Special:MyLanguage/Heat Dome Attack|Heat Dome Attack]], Galick Gun, Ki Barrage</translate> || <translate><!--T:135--> [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]], Meteor</translate> || —
 |-
 | {{L|Yamcha}} || <translate><!--T:136--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]]</translate> || <translate><!--T:137--> Spirit Ball, Kamehameha, Ki Barrage</translate> || <translate><!--T:138--> Wolf Fang</translate> || —
 |-
-| {{L|Majin Buu}} || — || <translate><!--T:139--> Assault Rain</translate> || <translate><!--T:140--> Gum Punch, Mystic Ball Attack</translate> || <translate><!--T:141--> Sleep Recovery</translate>
+| {{L|Master Tien}} || <translate><!--T:189--> [[Special:MyLanguage/Ki Control|Ki Control]]</translate> || <translate><!--T:190--> Dodon Ray, Tri-Beam, Neo Tri-Beam</translate> || — || <translate><!--T:191--> [[Special:MyLanguage/Solar Flare|Solar Flare]]</translate>
+|-
+| {{L|Majin Buu}} || — || <translate><!--T:139--> Assault Rain</translate> || <translate><!--T:140--> Gum Punch, Mystic Ball Attack</translate> || <translate><!--T:141--> Sleep Recovery, Candy Beam, Gum Bind (all three Majin only)</translate>
 |-
 | {{L|Fortuneteller Baba}} <translate><!--T:142--> (Earth)</translate> || <translate><!--T:143--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Meditation|Meditation]]</translate> || — || — || —
 |-
 | {{L|Old Kai}} || <translate><!--T:144--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], Healing Reduction</translate> || <translate><!--T:145--> Soul Punisher</translate> || — || —
 |-
-| {{L|Frieza}} || <translate><!--T:146--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], Jump, Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]], [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:147--> Death Beam, [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]], Supernova, Double Kienzan</translate> || <translate><!--T:148--> Deadly Dance, Meteor</translate> || —
+| {{L|Frieza}} || <translate><!--T:146--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Fly|Fly]], Jump, Sprint, [[Special:MyLanguage/Ki Sense|Ki Sense]], [[Special:MyLanguage/Meditation|Meditation]], [[Special:MyLanguage/Potential Unlock|Potential Unlock]]</translate> || <translate><!--T:147--> Death Beam, [[Special:MyLanguage/Emperor's Death Beam|Emperor's Death Beam]], Supernova, Double Kienzan</translate> || <translate><!--T:148--> Deadly Dance, Meteor, Death Chaser</translate> || —
 |-
-| {{L|Cell}} || <translate><!--T:149--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]], Defense Penetration, Healing Reduction, Ki Boost</translate> || <translate><!--T:150--> Kamehameha, Kienzan, Galick Gun, Masenko, Death Beam, Ki Barrage</translate> || <translate><!--T:151--> Deadly Dance, Meteor</translate> || <translate><!--T:152--> [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
+| {{L|Cell}} || <translate><!--T:149--> [[Special:MyLanguage/Ki Control|Ki Control]], [[Special:MyLanguage/Instant Transmission|Instant Transmission]], [[Special:MyLanguage/Ki Manipulation|Ki Manipulation]], [[Special:MyLanguage/Ki Infusion|Ki Infusion]], [[Special:MyLanguage/Ki Protection|Ki Protection]], Defense Penetration, Healing Reduction, Ki Boost</translate> || <translate><!--T:150--> Kamehameha, Kienzan, Galick Gun, Masenko, Death Beam, Ki Barrage</translate> || <translate><!--T:151--> Deadly Dance, Meteor, Android Combo (Androids only), Perfect Rush (Bio-Android only)</translate> || <translate><!--T:152--> [[Special:MyLanguage/Afterimage|Afterimage]]</translate>
 |}
 
 <translate>
@@ -265,7 +270,8 @@ On King Kai's Planet in the Otherworld, right next to [[Special:MyLanguage/King 
 <translate>
 <!--T:184-->
 * The '''[[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]]''' hosts the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]] and sends you back to the Grand Kai.
-* Quest NPCs such as '''Bulma''' (at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]), '''Chi-Chi''' (at [[Special:MyLanguage/Goku's House|Goku's House]]) and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]] use the same dialogue window, with a '''Quests''' option. See the [[Special:MyLanguage/Bestiary|Bestiary]].
+* The '''World Tournament Announcer''' hosts the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] on its island.
+* Quest NPCs such as '''Bulma''' (at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]), '''Chi-Chi''' (at [[Special:MyLanguage/Goku's House|Goku's House]]), [[Special:MyLanguage/Mr. Satan|Mr. Satan]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]] (on the World Martial Arts Tournament island) and the [[Special:MyLanguage/Hell Ogre|Hell Ogre]] use the same dialogue window, with a '''Quests''' option. See the [[Special:MyLanguage/Bestiary|Bestiary]].
 </translate>
 
 {{Navbox Masters}}

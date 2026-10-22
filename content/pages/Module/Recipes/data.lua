@@ -1129,6 +1129,15 @@ return {
 			icon = 'Item dragonminez broly_z_armor_chestplate.png',
 			page = 'Z Armor Sets',
 		},
+		[ 'dragonminez:broly_z_armor_helmet' ] = {
+			name = {
+				en = 'Control Jewelry Tiara (Broly)',
+				es = 'Tiara del Conjunto de Joyería de Control (Broly)',
+				pt = 'Tiara do Conjunto de Jóias de Controle (Broly)',
+			},
+			icon = 'Item dragonminez broly_z_armor_helmet.png',
+			page = 'Z Armor Sets',
+		},
 		[ 'dragonminez:broly_z_armor_leggings' ] = {
 			name = {
 				en = 'Control Jewelry Set Leggings (Broly)',
@@ -1165,6 +1174,24 @@ return {
 			icon = 'Item dragonminez capsule_corp_armor_leggings.png',
 			page = 'Z Armor Sets',
 		},
+		[ 'dragonminez:car_red' ] = {
+			name = {
+				en = 'Red Car',
+				es = 'Auto Rojo',
+				pt = 'Carro Vermelho',
+			},
+			icon = 'Item dragonminez car_red.png',
+			page = 'Vehicles',
+		},
+		[ 'dragonminez:car_yellow' ] = {
+			name = {
+				en = 'Yellow Car',
+				es = 'Auto Amarillo',
+				pt = 'Carro Amarelo',
+			},
+			icon = 'Item dragonminez car_yellow.png',
+			page = 'Vehicles',
+		},
 		[ 'dragonminez:caulifla_armor_boots' ] = {
 			name = {
 				en = 'Saiyan Armor Boots (Caulifla)',
@@ -1192,6 +1219,15 @@ return {
 			icon = 'Item dragonminez caulifla_armor_leggings.png',
 			page = 'Super Armor Sets',
 		},
+		[ 'dragonminez:cc576' ] = {
+			name = {
+				en = 'Capsule Corp. 576',
+				es = 'Corp. Cápsula 576',
+				pt = 'Corporação Cápsula 576',
+			},
+			icon = 'Item dragonminez cc576.png',
+			page = 'Vehicles',
+		},
 		[ 'dragonminez:chaoz_armor_boots' ] = {
 			name = {
 				en = 'Crane School GI Boots (Chaotzu)',
@@ -1203,7 +1239,7 @@ return {
 		},
 		[ 'dragonminez:chaoz_armor_chestplate' ] = {
 			name = {
-				en = 'Crane School GI Chesptlate (Chaotzu)',
+				en = 'Crane School GI Chestplate (Chaotzu)',
 				es = 'Peto del Gi de la Escuela Grulla (Chaozu)',
 				pt = 'Peitoral do Uniforme da Escola da Garça (Chaoz)',
 			},
@@ -2049,7 +2085,7 @@ return {
 		},
 		[ 'dragonminez:goten_armor_chestplate' ] = {
 			name = {
-				en = 'Turtle Hermit School GI Chesplate (Goten)',
+				en = 'Turtle Hermit School GI Chestplate (Goten)',
 				es = 'Peto del Gi de la Escuela Tortuga (Goten)',
 				pt = 'Peitoral do Uniforme da Escola da Tartaruga (Goten)',
 			},
@@ -4461,7 +4497,7 @@ return {
 		},
 		[ 'dragonminez:trunks_z_armor_leggings' ] = {
 			name = {
-				en = 'Capsule Corp Jacket Leggings (Trunks- DBZ)',
+				en = 'Capsule Corp Jacket Leggings (Trunks - DBZ)',
 				es = 'Pantalones de la Chaqueta Cápsula Corp. (Trunks - DBZ)',
 				pt = 'Calças da Jaqueta da Corporação Cápsula (Trunks - DBZ)',
 			},
@@ -4719,6 +4755,42 @@ return {
 			},
 			icon = 'Item dragonminez vegetto_armor_leggings.png',
 			page = 'Z Armor Sets',
+		},
+		[ 'dragonminez:vehicle_engine' ] = {
+			name = {
+				en = 'Vehicle Engine',
+				es = 'Motor de Vehículo',
+				pt = 'Motor de Veículo',
+			},
+			icon = 'Item dragonminez vehicle_engine.png',
+			page = 'Vehicles',
+		},
+		[ 'dragonminez:vehicle_plating' ] = {
+			name = {
+				en = 'Vehicle Plating',
+				es = 'Blindaje de Vehículo',
+				pt = 'Blindagem de Veículo',
+			},
+			icon = 'Item dragonminez vehicle_plating.png',
+			page = 'Vehicles',
+		},
+		[ 'dragonminez:vehicle_propeller' ] = {
+			name = {
+				en = 'Vehicle Propeller',
+				es = 'Hélice de Vehículo',
+				pt = 'Hélice de Veículo',
+			},
+			icon = 'Item dragonminez vehicle_propeller.png',
+			page = 'Vehicles',
+		},
+		[ 'dragonminez:vehicle_seat' ] = {
+			name = {
+				en = 'Vehicle Seat',
+				es = 'Asiento de Vehículo',
+				pt = 'Assento de Veículo',
+			},
+			icon = 'Item dragonminez vehicle_seat.png',
+			page = 'Vehicles',
 		},
 		[ 'dragonminez:vergil_armor_boots' ] = {
 			name = {
@@ -5188,6 +5260,15 @@ return {
 			icon = 'Item minecraft comparator.png',
 			url = 'https://minecraft.wiki/w/Redstone_Comparator',
 		},
+		[ 'minecraft:copper_block' ] = {
+			name = {
+				en = 'Block of Copper',
+				es = 'Bloque de cobre',
+				pt = 'Bloco de Cobre',
+			},
+			icon = 'Item minecraft copper_block.png',
+			url = 'https://minecraft.wiki/w/Block_of_Copper',
+		},
 		[ 'minecraft:copper_ingot' ] = {
 			name = {
 				en = 'Copper Ingot',
@@ -5268,6 +5349,15 @@ return {
 			},
 			icon = 'Item minecraft furnace.png',
 			url = 'https://minecraft.wiki/w/Furnace',
+		},
+		[ 'minecraft:glass' ] = {
+			name = {
+				en = 'Glass',
+				es = 'Cristal',
+				pt = 'Vidro',
+			},
+			icon = 'Item minecraft glass.png',
+			url = 'https://minecraft.wiki/w/Glass',
 		},
 		[ 'minecraft:glass_pane' ] = {
 			name = {
@@ -5583,6 +5673,15 @@ return {
 			},
 			icon = 'Item minecraft pink_dye.png',
 			url = 'https://minecraft.wiki/w/Pink_Dye',
+		},
+		[ 'minecraft:piston' ] = {
+			name = {
+				en = 'Piston',
+				es = 'Pistón',
+				pt = 'Pistão',
+			},
+			icon = 'Item minecraft piston.png',
+			url = 'https://minecraft.wiki/w/Piston',
 		},
 		[ 'minecraft:potion.curative' ] = {
 			name = {
@@ -6515,6 +6614,105 @@ return {
 			},
 			result = {
 				'dragonminez:blue_scouter',
+			},
+		},
+		[ 'dragonminez:car_red' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'dragonminez:vehicle_plating',
+				},
+				[ '2' ] = {
+					'minecraft:red_dye',
+				},
+				[ '3' ] = {
+					'dragonminez:vehicle_plating',
+				},
+				[ '4' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '5' ] = {
+					'dragonminez:vehicle_engine',
+				},
+				[ '6' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '7' ] = {
+					'minecraft:black_wool',
+				},
+				[ '9' ] = {
+					'minecraft:black_wool',
+				},
+			},
+			result = {
+				'dragonminez:car_red',
+			},
+		},
+		[ 'dragonminez:car_yellow' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'dragonminez:vehicle_plating',
+				},
+				[ '2' ] = {
+					'minecraft:yellow_dye',
+				},
+				[ '3' ] = {
+					'dragonminez:vehicle_plating',
+				},
+				[ '4' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '5' ] = {
+					'dragonminez:vehicle_engine',
+				},
+				[ '6' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '7' ] = {
+					'minecraft:black_wool',
+				},
+				[ '9' ] = {
+					'minecraft:black_wool',
+				},
+			},
+			result = {
+				'dragonminez:car_yellow',
+			},
+		},
+		[ 'dragonminez:cc576' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'dragonminez:vehicle_propeller',
+				},
+				[ '2' ] = {
+					'minecraft:glass',
+				},
+				[ '3' ] = {
+					'dragonminez:vehicle_propeller',
+				},
+				[ '4' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '5' ] = {
+					'dragonminez:vehicle_engine',
+				},
+				[ '6' ] = {
+					'dragonminez:vehicle_seat',
+				},
+				[ '7' ] = {
+					'dragonminez:vehicle_plating',
+				},
+				[ '8' ] = {
+					'dragonminez:vehicle_engine',
+				},
+				[ '9' ] = {
+					'dragonminez:vehicle_plating',
+				},
+			},
+			result = {
+				'dragonminez:cc576',
 			},
 		},
 		[ 'dragonminez:dball_radar' ] = {
@@ -16718,6 +16916,126 @@ return {
 			},
 			shapeless = true,
 		},
+		[ 'dragonminez:vehicle_engine' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '2' ] = {
+					'minecraft:piston',
+				},
+				[ '3' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '4' ] = {
+					'minecraft:redstone',
+				},
+				[ '5' ] = {
+					'minecraft:blast_furnace',
+				},
+				[ '6' ] = {
+					'minecraft:redstone',
+				},
+				[ '7' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '8' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '9' ] = {
+					'minecraft:iron_ingot',
+				},
+			},
+			result = {
+				'dragonminez:vehicle_engine',
+			},
+		},
+		[ 'dragonminez:vehicle_plating' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '2' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '3' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '4' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '5' ] = {
+					'minecraft:copper_ingot',
+				},
+				[ '6' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '7' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '8' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '9' ] = {
+					'minecraft:iron_ingot',
+				},
+			},
+			result = {
+				'dragonminez:vehicle_plating',
+			},
+			count = 2,
+		},
+		[ 'dragonminez:vehicle_propeller' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '2' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '4' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '5' ] = {
+					'minecraft:copper_block',
+				},
+				[ '6' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '8' ] = {
+					'minecraft:iron_ingot',
+				},
+			},
+			result = {
+				'dragonminez:vehicle_propeller',
+			},
+		},
+		[ 'dragonminez:vehicle_seat' ] = {
+			kind = 'crafting',
+			slots = {
+				[ '1' ] = {
+					'minecraft:leather',
+				},
+				[ '4' ] = {
+					'minecraft:leather',
+				},
+				[ '5' ] = {
+					'minecraft:cyan_wool',
+				},
+				[ '6' ] = {
+					'minecraft:cyan_wool',
+				},
+				[ '7' ] = {
+					'minecraft:iron_ingot',
+				},
+				[ '9' ] = {
+					'minecraft:iron_ingot',
+				},
+			},
+			result = {
+				'dragonminez:vehicle_seat',
+			},
+		},
 		[ 'dragonminez:vit_capsule' ] = {
 			kind = 'crafting',
 			slots = {
@@ -16908,6 +17226,7 @@ return {
 				},
 				pattern = {
 					'dragonminez:pattern_piccolo',
+					'dragonminez:pattern_broly_z',
 					'dragonminez:pattern_a20',
 					'dragonminez:pattern_chaoz',
 					'dragonminez:pattern_great_saiyaman',
@@ -16920,6 +17239,7 @@ return {
 			},
 			result = {
 				'dragonminez:piccolo_armor_helmet',
+				'dragonminez:broly_z_armor_helmet',
 				'dragonminez:a20_armor_helmet',
 				'dragonminez:chaoz_armor_helmet',
 				'dragonminez:great_saiyaman_armor_helmet',
@@ -17292,6 +17612,15 @@ return {
 		},
 		[ 'dragonminez:blue_scouter' ] = {
 			'dragonminez:blue_scouter',
+		},
+		[ 'dragonminez:car_red' ] = {
+			'dragonminez:car_red',
+		},
+		[ 'dragonminez:car_yellow' ] = {
+			'dragonminez:car_yellow',
+		},
+		[ 'dragonminez:cc576' ] = {
+			'dragonminez:cc576',
 		},
 		[ 'dragonminez:cooked_baby_dino_meat' ] = {
 			'campfire/dragonminez:cooked_baby_dino_meat',
@@ -17866,6 +18195,18 @@ return {
 		[ 'dragonminez:turtle_scale' ] = {
 			'dragonminez:turtle_scale',
 		},
+		[ 'dragonminez:vehicle_engine' ] = {
+			'dragonminez:vehicle_engine',
+		},
+		[ 'dragonminez:vehicle_plating' ] = {
+			'dragonminez:vehicle_plating',
+		},
+		[ 'dragonminez:vehicle_propeller' ] = {
+			'dragonminez:vehicle_propeller',
+		},
+		[ 'dragonminez:vehicle_seat' ] = {
+			'dragonminez:vehicle_seat',
+		},
 		[ 'dragonminez:yajirobe_katana' ] = {
 			'dragonminez:yajirobe_katana',
 		},
@@ -18115,6 +18456,10 @@ return {
 		[ 'dragonminez:broly_z_armor_chestplate' ] = {
 			pattern = 'dragonminez:pattern_broly_z',
 			piece = 'chestplate',
+		},
+		[ 'dragonminez:broly_z_armor_helmet' ] = {
+			pattern = 'dragonminez:pattern_broly_z',
+			piece = 'helmet',
 		},
 		[ 'dragonminez:broly_z_armor_leggings' ] = {
 			pattern = 'dragonminez:pattern_broly_z',

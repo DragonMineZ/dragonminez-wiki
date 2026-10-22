@@ -515,8 +515,8 @@
   "outdated": false
  },
  "103": {
-  "source": "The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.",
-  "translation": "O jogador precisa de pelo menos esta índole para falar com o NPC. Mesmo que o NPC não seja hostil, uma índole baixa o suficiente ainda bloqueia a interação. Também pode ser escrito direto na regra, sem o invólucro <code>interaction</code>.",
+  "source": "Below this alignment the NPC still talks to the player, but greets them coldly, and its side quests show as locked (saga quests, quests with their own alignment condition and quests already in progress stay available). It can also be written directly on the rule, without the <code>interaction</code> wrapper.",
+  "translation": "Abaixo desta índole o NPC continua falando com o jogador, mas o cumprimenta com frieza, e as missões secundárias dele aparecem bloqueadas (missões de saga, missões com a própria condição de índole e missões já em andamento continuam disponíveis). Também pode ser escrito direto na regra, sem o invólucro <code>interaction</code>.",
   "outdated": false
  },
  "104": {
@@ -530,8 +530,8 @@
   "outdated": false
  },
  "106": {
-  "source": "All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he is present but won't talk (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and can be talked to.",
-  "translation": "Os quatro campos de limite são opcionais: omita os que não se aplicam. Usando a entrada <code>goku</code> acima como exemplo: com índole abaixo de 25, o Goku é hostil; de 25 a 60 ele está presente, mas não conversa (a índole está abaixo do <code>min_alignment</code> de 61); com 61 ou mais ele é amigável e dá para falar com ele.",
+  "source": "All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he still talks to you, but coldly, and his side quests stay locked (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and everything is open.",
+  "translation": "Os quatro campos de limite são opcionais: omita os que não se aplicam. Usando a entrada <code>goku</code> acima como exemplo: com índole abaixo de 25, o Goku é hostil; de 25 a 60 ele continua falando com você, mas com frieza, e as missões secundárias dele continuam bloqueadas (a índole está abaixo do <code>min_alignment</code> de 61); com 61 ou mais ele é amigável e tudo fica disponível.",
   "outdated": false
  },
  "107": {

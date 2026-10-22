@@ -1,14 +1,14 @@
 {{Infobox Mob
 |Type=<translate><!--T:1--> Hostile, wild enemy</translate>
 |Dimension={{L|Earth}}
-|Spawns=<translate><!--T:2--> Biomes with savanna, plains or snowy villages, and inside the Red Ribbon Tower</translate>
+|Spawns=<translate><!--T:2--> Biomes with savanna, plains or snowy villages, inside the Red Ribbon Tower, and as the garrison of Red Ribbon bases</translate>
 |Behavior=<translate><!--T:3--> Attacks players and villagers on sight</translate>
 |Damage=<translate><!--T:4--> 5 (soldier), 15 (robots)</translate>
 |Drops=<translate><!--T:5--> Redstone, Iron Nuggets, Iron Ingots</translate>
 }}
 <translate>
 <!--T:6-->
-The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike.
+The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike. They also guard the Red Ribbon bases, whose commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid.
 </translate>
 
 <translate>
@@ -55,6 +55,15 @@ File:Red Ribbon Army (Robot 3).png|<translate><!--T:26--> Third robot model</tra
 
 <!--T:21-->
 Soldiers and robots are '''wild enemies''': out in the open they spawn under open sky, day or night, away from torches and other light. The [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a Red Ribbon outpost found in most land biomes, also spawns them indoors in dim spots (block light 7 or less), and vanilla monsters don't spawn in it. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]] and [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== Red Ribbon bases == <!--T:27-->
+</translate>
+{{Main|Red Ribbon Army Assault}}
+<translate>
+<!--T:28-->
+'''Red Ribbon bases''' are large army bases in the Plains, Sunflower Plains and Savanna biomes of the Overworld; find the nearest one with <code>/dmzlocate red_ribbon_base</code>. When you come within 80 blocks, a garrison appears: 16 Red Ribbon's Soldiers and 3 robots posted around the base, each staying within 12 blocks of its post, and the '''Red Ribbon Commander''' inside the headquarters, a named soldier with 150 health and 8 melee damage. The garrison shows the purple supervillain tint and outline and doesn't despawn. Killing the commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid: five waves of soldiers and robots led by Colonel Silver, Sergeant Metallic, Ninja Murasaki, General Blue and General Black's Robot.
 </translate>
 
 <translate>

@@ -50,13 +50,18 @@
   "outdated": false
  },
  "10": {
-  "source": "# Right-click a block with the item to place the pod.\n# Right-click the pod to open its hatch, then right-click again to climb in.\n# Steer with the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend.",
-  "translation": "# Clique com o botão direito em um bloco com o item para colocar a cápsula.\n# Clique com o botão direito na cápsula para abrir a escotilha e clique com o botão direito de novo para entrar.\n# Pilote com as teclas de movimento. Segure {{Key|Espaço}} para subir e a tecla Função Secundária ({{Key|Alt esquerdo}} por padrão) para descer.",
+  "source": "# Right-click a block with the item to place the pod.\n# Right-click the pod to open its hatch, then right-click again to climb in.\n# Steer with the mouse and the movement keys. Hold {{Key|Space}} to rise and the Second Function key ({{Key|Left Alt}} by default) to descend. The pod flies at 21.6 blocks per second and rises or descends at 7.",
+  "translation": "# Clique com o botão direito em um bloco com o item para colocar a cápsula.\n# Clique com o botão direito na cápsula para abrir a escotilha e clique com o botão direito de novo para entrar.\n# Pilote com o mouse e as teclas de movimento. Segure {{Key|Espaço}} para subir e a tecla Função Secundária ({{Key|Alt esquerdo}} por padrão) para descer. A cápsula voa a 21.6 blocos por segundo e sobe ou desce a 7.",
   "outdated": false
  },
  "11": {
-  "source": "Hit the pod to pick it back up as an item.",
-  "translation": "Bata na cápsula para pegá-la de volta como item.",
+  "source": "Hit the pod to pick it back up as an item. Any player can pick up any pod.",
+  "translation": "Bata na cápsula para pegá-la de volta como item. Qualquer jogador pode pegar qualquer cápsula.",
+  "outdated": false
+ },
+ "35": {
+  "source": "The pod uses the controls and rules shared by every [[Special:MyLanguage/Vehicles|vehicle]]: you can't fire techniques while you ride it, and [[Special:MyLanguage/Fly|Fly]] switches off when you climb in. Since version 2.2 it has a new model, hums while someone flies it, leaves a thin trail of exhaust and leans into turns.",
+  "translation": "A cápsula usa os controles e as regras que todos os [[Special:MyLanguage/Vehicles|veículos]] compartilham: você não pode lançar técnicas enquanto está nela e [[Special:MyLanguage/Fly|Voar]] desliga quando você entra. Desde a versão 2.2 ela tem um modelo novo, zumbe enquanto alguém a pilota, deixa um rastro fino de fumaça e se inclina nas curvas.",
   "outdated": false
  },
  "12": {

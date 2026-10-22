@@ -2,13 +2,13 @@
 |Type=<translate><!--T:1--> Quest NPC</translate>
 |Dimension={{L|Earth}}
 |Spawns=<translate><!--T:2--> Placed with [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]]</translate>
-|Behavior=<translate><!--T:3--> Friendly; talks to characters with alignment 41 or higher</translate>
+|Behavior=<translate><!--T:3--> Friendly; her side quests need alignment 41 or higher</translate>
 |Abilities=<translate><!--T:4--> Story deliveries and the Capsule Corp side quests</translate>
 |Drops=<translate><!--T:5--> None</translate>
 }}
 <translate>
 <!--T:6-->
-'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets and a long list of errands.
+'''Bulma''' is the scientist of the Capsule Corporation. In DragonMineZ she waits next to [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] on [[Special:MyLanguage/Earth|Earth]], takes the parts for every ship and radar in the story and gives more side quests than anyone else: the whole Capsule Corp line of gadgets, parts for your [[Special:MyLanguage/Vehicles|vehicles]] and a long list of errands.
 </translate>
 
 <translate>
@@ -24,7 +24,7 @@ Bulma is part of the structure: she is placed when [[Special:MyLanguage/Vegeta's
 </translate>
 <translate>
 <!--T:10-->
-Bulma only talks to characters with an [[Special:MyLanguage/Alignment|alignment]] of 41 or higher. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+Bulma talks to every character, but if your [[Special:MyLanguage/Alignment|alignment]] is below 41 she greets you coldly and her side quests show as locked ("Requires an alignment of 41 or higher."). Her story quests and any side quest you have already started stay open. Below 25 she treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
 </translate>
 
 <translate>
@@ -46,7 +46,7 @@ Bulma only talks to characters with an [[Special:MyLanguage/Alignment|alignment]
 {{Main|Sidequests}}
 <translate>
 <!--T:14-->
-Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world.
+Most of Bulma's side quests belong to the '''Capsule Corp''' category: they build [[Special:MyLanguage/Dragon Radar|Dragon Radars]], [[Special:MyLanguage/Scouters|scouters]], [[Special:MyLanguage/Gete Tech|Gete tech]] and new [[Special:MyLanguage/Space Pod|Space Pod]] destinations. The rest are errands that send you around the world. Five of them reward the parts you need to build [[Special:MyLanguage/Vehicles|vehicles]]: ''Capsule Corp R&D'' and ''Alien Artifacts'' (a Vehicle Engine each), ''Comfortable Ride'' (2 Vehicle Seats), ''Rare Mineral Survey'' (2 Vehicle Plating) and ''Flight Stabilizer'' (a Vehicle Propeller).
 </translate>
 {{#invoke:Sidequests|giver|bulma}}
 

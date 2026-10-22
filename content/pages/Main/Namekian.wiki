@@ -24,6 +24,7 @@
 * '''Healing on demand.''' Regeneration restores 25% of your max health in 3 seconds.
 * '''Water Affinity.''' Being underwater or drinking any potion speeds up your health, Ki and stamina regeneration.
 * '''Knockdowns.''' While Assimilation is selected, your finishing blows knock enemies down instead of killing them.
+* '''Darkness Eye Beam.''' Only Namekians can equip [[Special:MyLanguage/Piccolo|Piccolo]]'s Darkness Eye Beam, a strike combo that costs 11,000 TP (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).
 </translate>
 
 <translate>
@@ -39,6 +40,11 @@
 |-
 | <translate><!--T:17--> '''Water Affinity'''</translate> || <translate><!--T:18--> Being underwater or drinking any potion boosts your health, Ki and stamina regeneration by '''25%''' for '''5 seconds'''.</translate>
 |}
+
+<translate>
+<!--T:52-->
+While you hold G, the target slowly turns pale. Once it is absorbed, it dissolves in strips that stream into you, and lightning crackles around you for 3 seconds. These effects are not shown while an Iris shaderpack is in use.
+</translate>
 
 <translate>
 === Assimilation targets === <!--T:19-->
@@ -116,7 +122,7 @@ The Super Forms skill costs '''23,000 · 47,000 · 78,000 · 117,000''' TP per l
 |power=5.6
 |def=4.0125
 |drain=0.568
-|text=<translate><!--T:51--> Back to normal size: a bulky, muscular evil Namekian with red eyes, red lightning and a dark red glowing outline.</translate>
+|text=<translate><!--T:51--> Back to normal size: a bulky, muscular evil Namekian with red eyes, red lightning and a dark red outline with flames.</translate>
 }}
 {{Form group end}}
 

@@ -33,7 +33,7 @@ The other effects work with the vanilla <code>/effect</code> command, using thei
 |-
 | <translate><!--T:15--> Ki Slow</translate> || <code>ki_slow</code> || <translate><!--T:16--> −90% movement speed for a moment (1.5 seconds) after being hit by a ki attack (not by small ki blasts).</translate>
 |-
-| <translate><!--T:17--> Candy</translate> || <code>candy</code> || <translate><!--T:18--> The candy beam fired by Majin Buu, [[Special:MyLanguage/Evil Buu|Evil Buu]] and Majuub: the target is turned into candy and left helpless.</translate>
+| <translate><!--T:17--> Candy</translate> || <code>candy</code> || <translate><!--T:18--> The target is turned into candy and '''can't attack''' until the effect ends. The [[Special:MyLanguage/Evasion Techniques|Candy Beam]] technique candies its target for 3 seconds; the Majin Candy beam of Majin Buu, [[Special:MyLanguage/Evil Buu|Evil Buu]] and Majuub keeps it on while the beam hits, and a while after.</translate>
 |-
 | <translate><!--T:19--> K.O.</translate> || <code>knockout</code> || <translate><!--T:20--> Shown while you are '''knocked down''' (see [[Special:MyLanguage/Combat#Knockdowns|Combat]]), with the time left before you get back up. Milk doesn't remove it; removing it with a command gets you back up at once.</translate>
 |}
@@ -92,7 +92,7 @@ Eating the farming plants gives a short boost (see [[Special:MyLanguage/Farming|
 {| class="wikitable"
 ! <translate><!--T:61--> Effect</translate> !! <translate><!--T:62--> Id</translate> !! <translate><!--T:63--> What it does</translate>
 |-
-| <translate><!--T:64--> Emperor's Wrath</translate> || <code>raid_wrath</code> || <translate><!--T:65--> The omen you get after killing a raid scout: when it runs out, a '''raid''' starts around you. Removing it (for example with milk) cancels the omen. See [[Special:MyLanguage/Raids|Raids]].</translate>
+| <translate><!--T:64--> Hunted</translate> || <code>raid_wrath</code> || <translate><!--T:65--> The preparation effect of every raid, formerly called ''Emperor's Wrath''. You get it after killing a raid scout or the commander of a Red Ribbon base, and when it runs out (60 seconds by default), a '''raid''' starts around you. Removing it (for example with milk) calls the raid off. See [[Special:MyLanguage/Raids|Raids]].</translate>
 |}
 
 <translate>

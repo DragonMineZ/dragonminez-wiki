@@ -16,16 +16,17 @@
 
 <!--T:8-->
 * Wear the scouter in the '''Head Tech''' Curios slot. It also works in the cosmetic slot.
-* It reads the Battle Power of the entity you look at within '''20 blocks''' and points towards the strongest entity nearby.
+* It reads the Battle Power of the entity you aim at within '''20 blocks''', and an arrow points towards the strongest entity within '''50 blocks'''.
 * Press the [[Special:MyLanguage/Ki Sense|Ki Sense]] key ({{Key|F4}} by default) to toggle the readout (see [[Special:MyLanguage/Controls|Controls]]).
-* The readout is a HUD element you can move and mirror in the HUD editor. It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).
+* The scouter beeps when you switch it on or off, when a new strongest signal shows up and when it locks onto the entity you aim at.
+* The readout is a HUD element you can move and mirror in the HUD editor (it was re-centered in version 2.2). It isn't available in the Compact HUD style (see [[Special:MyLanguage/HUD|HUD]]).
 </translate>
 
 <translate>
 === Bulma's upgrades === <!--T:9-->
 
 <!--T:10-->
-* The numbers only show once you complete Bulma's '''Scouter Calibration''' sidequest.
+* Bulma's '''Scouter Calibration''' sidequest shows enemies' Battle Power in quest enemy previews. The scouter itself shows the numbers without it.
 * Her '''Bio-Scan Module''' sidequest adds extra information about the target.
 </translate>
 

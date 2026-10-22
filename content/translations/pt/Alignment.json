@@ -214,14 +214,19 @@
   "translation": "'''Mestres malignos''' ([[Special:MyLanguage/Cell|Cell]] e [[Special:MyLanguage/Frieza|Freeza]]) precisam de índole '''40 ou menor'''.",
   "outdated": false
  },
+ "75": {
+  "source": "[[Special:MyLanguage/Master Tien|Master Tien]] keeps his Skills and Train open at any alignment, but below '''41''' he greets you coldly and his side quests show as locked, and below '''25''' he turns hostile.",
+  "translation": "O [[Special:MyLanguage/Master Tien|Mestre Tenshinhan]] mantém Habilidades e Treinar abertos com qualquer índole, mas abaixo de '''41''' ele cumprimenta você com frieza e as missões secundárias dele aparecem bloqueadas, e abaixo de '''25''' ele fica hostil.",
+  "outdated": false
+ },
  "43": {
   "source": "'''Every other master''' (Piccolo, Vegeta, Trunks, Yamcha, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] and the rest) has no alignment requirement by default.",
   "translation": "'''Todos os outros mestres''' (Piccolo, Vegeta, Trunks, Yamcha, [[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]], [[Special:MyLanguage/Majin Buu|Majin Boo]] e os demais) não têm requisito de índole por padrão.",
   "outdated": false
  },
  "44": {
-  "source": "A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new quests''' stay locked (\"Requires an alignment of 61 or higher\" or \"40 or lower\") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.",
-  "translation": "Um mestre cujo requisito você não cumpre continua falando com você, só que de forma mais fria, mas suas '''Habilidades''', o '''Treinar''' e as '''novas missões''' ficam bloqueados (\"Requer índole de 61 ou mais\" ou \"40 ou menos\") até sua índole se encaixar. Missões que você já começou ainda podem ser entregues, e os outros serviços e torneios dele (como os [[Special:MyLanguage/Cell Games|Jogos de Cell]] do Cell) continuam abertos. Todo mestre tem várias falas de saudação, além de falas frias para quando não gosta da sua índole.",
+  "source": "A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new side quests''' stay locked (\"Requires an alignment of 61 or higher\" or \"40 or lower\") until your alignment fits. Saga quests are never locked this way, quests you already started can still be completed and turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.",
+  "translation": "Um mestre cujo requisito você não cumpre continua falando com você, só que de forma mais fria, mas suas '''Habilidades''', o '''Treinar''' e as '''novas missões secundárias''' ficam bloqueados (\"Requer índole de 61 ou mais\" ou \"40 ou menos\") até sua índole se encaixar. As missões de saga nunca são bloqueadas assim, missões que você já começou ainda podem ser concluídas e entregues, e os outros serviços e torneios dele (como os [[Special:MyLanguage/Cell Games|Jogos de Cell]] do Cell) continuam abertos. Todo mestre tem várias falas de saudação, além de falas frias para quando não gosta da sua índole.",
   "outdated": false
  },
  "45": {
@@ -335,8 +340,8 @@
   "outdated": false
  },
  "67": {
-  "source": "Besides the master rule above, each NPC can turn hostile or refuse to talk depending on your alignment. By default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20), and some refuse to talk to you until your alignment is high enough. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
-  "translation": "Além da regra dos mestres acima, cada NPC pode ficar hostil ou se recusar a falar dependendo da sua índole. Por padrão, muitos NPCs da história ficam '''hostis abaixo de 25''' (Piccolo, abaixo de 20), e alguns se recusam a falar com você até sua índole ser alta o bastante. Donos de servidores definem esses limites para cada NPC: veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]].",
+  "source": "Besides the master rule above, each NPC has its own alignment range, and by default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20). Every NPC still talks to you: if you are outside its range or it has turned hostile, it greets you with a \"disliked\" line. Its '''Quests''' option always opens, but side quests from an NPC that needs a different alignment show as locked (for example \"Requires an alignment of 41 or higher.\"). Saga quests, quests with their own alignment condition and quests you already have in progress or ready to turn in are never locked this way. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
+  "translation": "Além da regra dos mestres acima, cada NPC tem a sua própria faixa de índole, e por padrão muitos NPCs da história ficam '''hostis abaixo de 25''' (Piccolo, abaixo de 20). Todo NPC continua falando com você: se você estiver fora da faixa dele ou se ele tiver ficado hostil, ele o cumprimenta com uma fala de desagrado. A opção '''Missões''' dele sempre abre, mas as missões secundárias de um NPC que exige outra índole aparecem bloqueadas (por exemplo \"Requer índole de 41 ou mais.\"). Missões de saga, missões com a sua própria condição de índole e missões que você já tem em andamento ou prontas para entregar nunca são bloqueadas assim. Donos de servidores definem esses limites para cada NPC: veja [[Special:MyLanguage/NPC Placement and Alignment|Posicionamento e índole de NPCs]].",
   "outdated": false
  },
  "68": {

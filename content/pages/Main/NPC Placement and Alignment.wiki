@@ -241,14 +241,14 @@ The keys in <code>npcs</code> are NPC ids '''with any namespace stripped''' (<co
 |-
 | <code>hostile_above</code> || <translate><!--T:100--> Integer</translate> || <translate><!--T:101--> The same, but for an alignment above this value.</translate>
 |-
-| <code>interaction.min_alignment</code> || <translate><!--T:102--> Integer</translate> || <translate><!--T:103--> The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.</translate>
+| <code>interaction.min_alignment</code> || <translate><!--T:102--> Integer</translate> || <translate><!--T:103--> Below this alignment the NPC still talks to the player, but greets them coldly, and its side quests show as locked (saga quests, quests with their own alignment condition and quests already in progress stay available). It can also be written directly on the rule, without the <code>interaction</code> wrapper.</translate>
 |-
 | <code>interaction.max_alignment</code> || <translate><!--T:104--> Integer</translate> || <translate><!--T:105--> The same, but as an upper bound.</translate>
 |}
 
 <translate>
 <!--T:106-->
-All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he is present but won't talk (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and can be talked to.
+All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he still talks to you, but coldly, and his side quests stay locked (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and everything is open.
 </translate>
 
 <translate>

@@ -9,6 +9,11 @@
   "translation": "Las '''incursiones''' son batallas por oleadas contra un ejército invasor. Inicias una matando a un '''explorador''' marcado en un lugar de incursión; tras un breve presagio, el ejército llega en oleadas a tu posición y termina con sus jefes. Sobrevive a todas las oleadas y todos los que sigan peleando reciben recompensa; si caes (o te vas), la incursión se pierde.",
   "outdated": false
  },
+ "77": {
+  "source": "General Red's soldiers and robots, sent after you when you take out a Red Ribbon base's commander.",
+  "translation": "Los soldados y robots del General Red, que van tras de ti cuando eliminas al comandante de una base de la Patrulla Roja.",
+  "outdated": false
+ },
  "2": {
   "source": "Saiyan soldiers and elites from a crashed pod, ending with Oozarus.",
   "translation": "Soldados y élites saiyajin de una nave estrellada, que terminan como Oozarus.",
@@ -59,6 +64,21 @@
   "translation": "Derrota",
   "outdated": false
  },
+ "78": {
+  "source": "Red Ribbon base",
+  "translation": "Base de la Patrulla Roja",
+  "outdated": false
+ },
+ "79": {
+  "source": "5,700 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Red Capsule, 1 Blue Capsule",
+  "translation": "5,700 TP, Héroe de la aldea y Héroe del Mundo (10 min), 8 Zanahorias doradas, 2 Semillas del Ermitaño, 1 Cápsula Roja, 1 Cápsula Azul",
+  "outdated": false
+ },
+ "80": {
+  "source": "−5 alignment",
+  "translation": "−5 de alineamiento",
+  "outdated": false
+ },
  "12": {
   "source": "Saiyan Crater",
   "translation": "Cráter saiyajin",
@@ -105,8 +125,8 @@
   "outdated": false
  },
  "21": {
-  "source": "All three raids have 5 waves. '''Hero of the World''' is a DMZ effect that boosts the TP you earn (see [[Special:MyLanguage/Effects|Effects]]).",
-  "translation": "Las tres incursiones tienen 5 oleadas. '''Héroe del Mundo''' es un efecto de DMZ que aumenta los TP que ganas (consulta [[Special:MyLanguage/Effects|Efectos]]).",
+  "source": "All four raids have 5 waves. '''Hero of the World''' is a DMZ effect that boosts the TP you earn (see [[Special:MyLanguage/Effects|Effects]]).",
+  "translation": "Las cuatro incursiones tienen 5 oleadas. '''Héroe del Mundo''' es un efecto de DMZ que aumenta los TP que ganas (consulta [[Special:MyLanguage/Effects|Efectos]]).",
   "outdated": false
  },
  "22": {
@@ -115,8 +135,8 @@
   "outdated": false
  },
  "23": {
-  "source": "# '''Find a raid site.''' Saiyan Craters, Namekian Ruins and [[Special:MyLanguage/Gomah|Gomah]] Camps generate as structures (see [[Special:MyLanguage/Structures|Structures]]). When you come within 80 blocks of one, you get a chat warning, for example ''\"Your scouter picks up a Saiyan pod that just crashed nearby...\"''. Each site has one scout, shown with a supervillain aura; a site is spent once its scout dies or disappears.\n# '''Kill the scout.''' The player who kills it (or the nearest player, if nobody gets the credit) receives the '''Emperor's Wrath''' omen effect and the preparation music starts. The omen lasts the raid's preparation time (60 seconds by default). If the effect is removed early, for example by drinking milk, the raid is called off.\n# '''The raid starts''' where you stand when the omen runs out. The '''participants''' are you plus every member of your party (see [[Special:MyLanguage/Commands|Commands]]). Only one raid can run in the same area at a time.\n# '''Waves.''' Enemies drop in around the raid centre, 6–16 blocks out. A boss bar shows ''\"Raid — Wave X/Y — N left\"''; it turns purple on boss waves. Raid mobs glow so they're easy to find: minions in purple, bosses in red. In waves with bosses, the bosses stay '''dormant''' until their escort is dead, but attacking one wakes it up early. There's a short pause between waves (5 seconds by default).\n# '''Victory.''' When the last wave is cleared, every participant still fighting gets the rewards, the victory music, fireworks and the ''Hero of the World'' effect.\n# '''Defeat.''' A participant who dies, logs out, changes dimension or switches to spectator is out. Walking farther than 80 blocks (by default) from the raid centre gives you a 15-second countdown to come back. When no participant is left, the raid is lost: the remaining mobs vanish and every participant sees '''YOU LOST!''' and loses alignment (see the table above and [[Special:MyLanguage/Alignment|Alignment]]).",
-  "translation": "# '''Encuentra un lugar de incursión.''' Los Cráteres saiyajin, las Ruinas namekianas y los Campamentos de [[Special:MyLanguage/Gomah|Gomah]] se generan como estructuras (consulta [[Special:MyLanguage/Structures|Estructuras]]). Cuando te acercas a menos de 80 bloques de uno, recibes un aviso en el chat, por ejemplo ''\"Tu escáner detecta una nave saiyajin que acaba de estrellarse cerca...\"''. Cada lugar tiene un explorador, que se muestra con un aura de supervillano; un lugar queda agotado en cuanto su explorador muere o desaparece.\n# '''Mata al explorador.''' El jugador que lo mata (o el jugador más cercano, si nadie se lleva el mérito) recibe el efecto de presagio '''Ira del Emperador''' y empieza la música de preparación. El presagio dura el tiempo de preparación de la incursión (60 segundos por defecto). Si el efecto se quita antes, por ejemplo bebiendo leche, la incursión se cancela.\n# '''La incursión empieza''' donde estés cuando se acaba el presagio. Los '''participantes''' son tú y todos los miembros de tu grupo (consulta [[Special:MyLanguage/Commands|Comandos]]). Solo puede haber una incursión a la vez en la misma zona.\n# '''Oleadas.''' Los enemigos caen alrededor del centro de la incursión, a 6–16 bloques. Una barra de jefe muestra ''\"Incursión — Oleada X/Y — quedan N\"''; se vuelve morada en las oleadas con jefes. Las criaturas de la incursión brillan para que sea fácil encontrarlas: los secuaces en morado y los jefes en rojo. En las oleadas con jefes, los jefes permanecen '''inactivos''' hasta que muere su escolta, pero atacar a uno lo despierta antes. Hay una breve pausa entre oleadas (5 segundos por defecto).\n# '''Victoria.''' Cuando se despeja la última oleada, todos los participantes que sigan peleando reciben las recompensas, la música de victoria, fuegos artificiales y el efecto ''Héroe del Mundo''.\n# '''Derrota.''' Un participante que muere, se desconecta, cambia de dimensión o pasa a modo espectador queda fuera. Alejarte más de 80 bloques (por defecto) del centro de la incursión inicia una cuenta regresiva de 15 segundos para que vuelvas. Cuando no queda ningún participante, la incursión se pierde: las criaturas restantes desaparecen y todos los participantes ven '''¡PERDISTE!''' y pierden alineamiento (consulta la tabla de arriba y [[Special:MyLanguage/Alignment|Alineamiento]]).",
+  "source": "# '''Find a raid site.''' Red Ribbon bases, Saiyan Craters, Namekian Ruins and [[Special:MyLanguage/Gomah|Gomah]] Camps generate as structures (see [[Special:MyLanguage/Structures|Structures]]). When you come within 80 blocks of one, you get a chat warning, for example ''\"Your scouter picks up a Saiyan pod that just crashed nearby...\"''. Each site has one scout, shown with a supervillain aura; at a Red Ribbon base the scout is the base's commander, guarded by a garrison of soldiers and robots. A site is spent once its scout dies or disappears.\n# '''Kill the scout.''' The player who kills it (or the nearest player, if nobody gets the credit) receives the '''Hunted''' effect and the preparation music starts. Hunted lasts the raid's preparation time (60 seconds by default). If the effect is removed early, for example by drinking milk, the raid is called off.\n# '''The raid starts''' where you stand when Hunted runs out. The '''participants''' are you plus every member of your party (see [[Special:MyLanguage/Commands|Commands]]). Only one raid can run in the same area at a time.\n# '''Waves.''' Enemies appear around the raid centre, 6–16 blocks out: story fighters drop in from above, while mobs that only walk, such as the Red Ribbon soldiers and robots, spawn on the ground. A boss bar shows ''\"Raid — Wave X/Y — N left\"''; it turns purple on boss waves. Raid mobs glow so they're easy to find: minions in purple, bosses in red. In waves with bosses, the bosses stay '''dormant''' until their escort is dead, but attacking one wakes it up early. There's a short pause between waves (5 seconds by default).\n# '''Victory.''' When the last wave is cleared, every participant still fighting gets the rewards, the victory music, fireworks and the ''Hero of the World'' effect.\n# '''Defeat.''' A participant who dies, logs out, changes dimension or switches to spectator is out. Walking farther than 80 blocks (by default) from the raid centre gives you a 15-second countdown to come back. When no participant is left, the raid is lost: the remaining mobs vanish and every participant sees '''YOU LOST!''' and loses alignment (see the table above and [[Special:MyLanguage/Alignment|Alignment]]).",
+  "translation": "# '''Encuentra un lugar de incursión.''' Las bases de la Patrulla Roja, los Cráteres saiyajin, las Ruinas namekianas y los Campamentos de [[Special:MyLanguage/Gomah|Gomah]] se generan como estructuras (consulta [[Special:MyLanguage/Structures|Estructuras]]). Cuando te acercas a menos de 80 bloques de uno, recibes un aviso en el chat, por ejemplo ''\"Tu escáner detecta una nave saiyajin que acaba de estrellarse cerca...\"''. Cada lugar tiene un explorador, que se muestra con un aura de supervillano; en una base de la Patrulla Roja el explorador es el comandante de la base, custodiado por una guarnición de soldados y robots. Un lugar queda agotado en cuanto su explorador muere o desaparece.\n# '''Mata al explorador.''' El jugador que lo mata (o el jugador más cercano, si nadie se lleva el mérito) recibe el efecto '''Perseguido''' y empieza la música de preparación. Perseguido dura el tiempo de preparación de la incursión (60 segundos por defecto). Si el efecto se quita antes, por ejemplo bebiendo leche, la incursión se cancela.\n# '''La incursión empieza''' donde estés cuando se acaba Perseguido. Los '''participantes''' son tú y todos los miembros de tu grupo (consulta [[Special:MyLanguage/Commands|Comandos]]). Solo puede haber una incursión a la vez en la misma zona.\n# '''Oleadas.''' Los enemigos aparecen alrededor del centro de la incursión, a 6–16 bloques: los luchadores de la historia caen desde arriba, mientras que las criaturas que solo caminan, como los soldados y robots de la Patrulla Roja, aparecen en el suelo. Una barra de jefe muestra ''\"Incursión — Oleada X/Y — quedan N\"''; se vuelve morada en las oleadas con jefes. Las criaturas de la incursión brillan para que sea fácil encontrarlas: los secuaces en morado y los jefes en rojo. En las oleadas con jefes, los jefes permanecen '''inactivos''' hasta que muere su escolta, pero atacar a uno lo despierta antes. Hay una breve pausa entre oleadas (5 segundos por defecto).\n# '''Victoria.''' Cuando se despeja la última oleada, todos los participantes que sigan peleando reciben las recompensas, la música de victoria, fuegos artificiales y el efecto ''Héroe del Mundo''.\n# '''Derrota.''' Un participante que muere, se desconecta, cambia de dimensión o pasa a modo espectador queda fuera. Alejarte más de 80 bloques (por defecto) del centro de la incursión inicia una cuenta regresiva de 15 segundos para que vuelvas. Cuando no queda ningún participante, la incursión se pierde: las criaturas restantes desaparecen y todos los participantes ven '''¡PERDISTE!''' y pierden alineamiento (consulta la tabla de arriba y [[Special:MyLanguage/Alignment|Alineamiento]]).",
   "outdated": false
  },
  "24": {
@@ -150,8 +170,8 @@
   "outdated": false
  },
  "30": {
-  "source": "Starts a raid of that type at your position (default: <code>saiyan_assault</code>). Fails if a raid is already running nearby.",
-  "translation": "Inicia una incursión de ese tipo en tu posición (por defecto: <code>saiyan_assault</code>). Falla si ya hay una incursión en curso cerca.",
+  "source": "Starts a raid of that type at your position: <code>red_ribbon_assault</code>, <code>saiyan_assault</code> (the default), <code>frieza_invasion</code>, <code>gomah_assault</code> or an extra raid. Fails if a raid is already running nearby.",
+  "translation": "Inicia una incursión de ese tipo en tu posición: <code>red_ribbon_assault</code>, <code>saiyan_assault</code> (la predeterminada), <code>frieza_invasion</code>, <code>gomah_assault</code> o una incursión extra. Falla si ya hay una incursión en curso cerca.",
   "outdated": false
  },
  "31": {
@@ -170,8 +190,8 @@
   "outdated": false
  },
  "34": {
-  "source": "Raids are defined in JSON files under <code>config/dragonminez/raids/</code>, so server owners can tune the shipped raids or add their own. Each raid is one file named after its id: <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> and <code>gomah_assault.json</code> are generated with their defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded as an '''extra raid''' with the file name as its id; files whose name starts with <code>old_</code> are ignored. Reload with <code>/dmzreload config</code>.",
-  "translation": "Las incursiones se definen en archivos JSON dentro de <code>config/dragonminez/raids/</code>, así que los dueños de servidores pueden ajustar las incursiones incluidas o añadir las suyas. Cada incursión es un archivo con el nombre de su id: <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> y <code>gomah_assault.json</code> se generan con sus valores predeterminados y se actualizan por versión como los demás archivos de configuración. Cualquier otro archivo <code>.json</code> de la carpeta se carga como una '''incursión extra''' con el nombre del archivo como id; los archivos cuyo nombre empieza por <code>old_</code> se ignoran. Recarga con <code>/dmzreload config</code>.",
+  "source": "Raids are defined in JSON files under <code>config/dragonminez/raids/</code>, so server owners can tune the shipped raids or add their own. Each raid is one file named after its id: <code>red_ribbon_assault.json</code>, <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> and <code>gomah_assault.json</code> are generated with their defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded as an '''extra raid''' with the file name as its id; files whose name starts with <code>old_</code> are ignored. Reload with <code>/dmzreload config</code>.",
+  "translation": "Las incursiones se definen en archivos JSON dentro de <code>config/dragonminez/raids/</code>, así que los dueños de servidores pueden ajustar las incursiones incluidas o añadir las suyas. Cada incursión es un archivo con el nombre de su id: <code>red_ribbon_assault.json</code>, <code>saiyan_assault.json</code>, <code>frieza_invasion.json</code> y <code>gomah_assault.json</code> se generan con sus valores predeterminados y se actualizan por versión como los demás archivos de configuración. Cualquier otro archivo <code>.json</code> de la carpeta se carga como una '''incursión extra''' con el nombre del archivo como id; los archivos cuyo nombre empieza por <code>old_</code> se ignoran. Recarga con <code>/dmzreload config</code>.",
   "outdated": false
  },
  "35": {
@@ -310,8 +330,8 @@
   "outdated": false
  },
  "62": {
-  "source": "The structure raid sites (Saiyan Crater, Namekian Ruins and Gomah Camp) are tied to the three shipped raids. An extra raid can use <code>spawnChance</code> or <code>/dmzraid start</code>.",
-  "translation": "Los lugares de incursión que son estructuras (Cráter saiyajin, Ruinas namekianas y Campamento de Gomah) están ligados a las tres incursiones incluidas. Una incursión extra puede usar <code>spawnChance</code> o <code>/dmzraid start</code>.",
+  "source": "The structure raid sites (Red Ribbon base, Saiyan Crater, Namekian Ruins and Gomah Camp) are tied to the four shipped raids. An extra raid can use <code>spawnChance</code> or <code>/dmzraid start</code>.",
+  "translation": "Los lugares de incursión que son estructuras (base de la Patrulla Roja, Cráter saiyajin, Ruinas namekianas y Campamento de Gomah) están ligados a las cuatro incursiones incluidas. Una incursión extra puede usar <code>spawnChance</code> o <code>/dmzraid start</code>.",
   "outdated": false
  },
  "63": {

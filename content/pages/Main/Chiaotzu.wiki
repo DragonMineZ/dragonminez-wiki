@@ -1,0 +1,71 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Quest NPC, tournament contender</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> Quest NPC on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island; drawn at random as a contender of that tournament</translate>
+|Behavior=<translate><!--T:3--> Friendly; his side quests need alignment 41 or higher</translate>
+|Abilities=<translate><!--T:4--> Flight, Ki Laser, dodging, self-destruct</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Chiaotzu''' is [[Special:MyLanguage/Master Tien|Master Tien]]'s closest friend. He stands next to Tien on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island, where he gives three side quests, and he can be drawn as a contender in the tournament itself. He is also an opponent in the [[Special:MyLanguage/Classic Saga|Classic Saga]].
+</translate>
+
+<translate>
+== Finding him == <!--T:7-->
+
+<!--T:8-->
+Chiaotzu stands next to Master Tien on the island of the World Martial Arts Tournament, about 130 blocks from the ring. Find the island with {{Command|/dmzlocate budokai_tenkaichi}} or a map from a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher.
+</translate>
+
+<translate>
+== Alignment == <!--T:9-->
+
+<!--T:10-->
+Chiaotzu talks to every character, but if your [[Special:MyLanguage/Alignment|alignment]] is below 41 he greets you coldly and his side quests show as locked ("Requires an alignment of 41 or higher."). Any side quest you have already started stays open. Below 25 he treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+</translate>
+
+<translate>
+== In the tournament == <!--T:11-->
+
+<!--T:12-->
+Chiaotzu is one of the contenders of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]. Each contender seat draws a random fighter from the pool, and his stats come from the seat: by default between 147,000 and 392,000 health, 6,100 to 16,300 melee damage and 5,500 to 14,700 ki damage, on the Smart or Elite AI tier, and 8% stronger for every round already played. Bouts end at knockout, so nobody dies.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:13-->
+
+<!--T:14-->
+Chiaotzu is child-sized and flies, with a white aura.
+
+<!--T:15-->
+* '''Ki Laser:''' a quick yellow beam, his only ki attack.
+* '''Dodging:''' every so often he steps out of the way of an attack.
+* '''Self-destruct:''' when his health drops to a quarter, he latches onto his target's back and explodes 3 seconds later, hurting everything within 5 blocks for four times his melee damage.
+
+<!--T:16-->
+How well he fights depends on his AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+<translate>
+== In the story == <!--T:17-->
+
+<!--T:18-->
+The [[Special:MyLanguage/Classic Saga|Classic Saga]] quest ''Tournament: Chiaotzu'' is a fight against him. Completing it opens his side quests.
+</translate>
+
+<translate>
+== Side quests == <!--T:19-->
+</translate>
+{{Main|Sidequests}}
+<translate>
+<!--T:20-->
+''A Gift for Tien'' has you deliver food to [[Special:MyLanguage/Master Tien|Master Tien]], and ''Shadow of the Crane School'' also needs the Classic Saga quest ''Tournament: Cyborg Tao''. Enemies spawned by these quests scale with your story difficulty.
+</translate>
+{{#invoke:Sidequests|giver|chiaotzu}}
+
+{{Note|type=config|title=<translate><!--T:21--> Ids</translate>|<translate><!--T:22--> <code>dragonminez:saga_chaoz</code> (fighter), <code>chiaotzu</code> (quest NPC)</translate>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]
+[[Category:Tournament fighters{{#translation:}}]]

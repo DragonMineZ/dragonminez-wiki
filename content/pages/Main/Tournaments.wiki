@@ -6,6 +6,7 @@
 <div class="dmz-cards">
 {{Card|Fortuneteller Baba's Tournament|<translate><!--T:2--> A one-star gauntlet at Baba's Palace, ending with Kid Goku.</translate>}}
 {{Card|Cell Games|<translate><!--T:3--> Cell's lethal bracket of Z Fighters, ending with Super Perfect Cell.</translate>}}
+{{Card|World Martial Arts Tournament|<translate><!--T:78--> A four-star bracket on an ocean island, ending with the World Champion, Mr. Satan.</translate>}}
 {{Card|Otherworld Tournament|<translate><!--T:4--> The afterlife's five-star bracket, ending with Gogeta.</translate>}}
 </div>
 
@@ -19,13 +20,16 @@
 |-
 | {{L|Cell Games}} || <translate><!--T:18--> [[Special:MyLanguage/Cell|Cell]], at the Cell Arena (Overworld plains)</translate> || <translate><!--T:19--> Bracket</translate> || <translate><!--T:20--> '''Lethal'''</translate> || ★★★★ || <translate><!--T:21--> 1,000,000 TP, +10 alignment</translate> || <translate><!--T:22--> 60 minutes</translate>
 |-
+| {{L|World Martial Arts Tournament}} || <translate><!--T:79--> The World Tournament Announcer, on the World Martial Arts Tournament island (Overworld oceans)</translate> || <translate><!--T:80--> Bracket</translate> || <translate><!--T:81--> Knockout</translate> || ★★★★ || <translate><!--T:82--> 1,800,000 TP, +5 alignment</translate> || <translate><!--T:83--> 75 minutes</translate>
+|-
 | {{L|Otherworld Tournament}} || <translate><!--T:23--> The [[Special:MyLanguage/Otherworld Tournament Announcer|Otherworld Tournament Announcer]], at the tournament grounds in the [[Special:MyLanguage/Otherworld|Otherworld]]</translate> || <translate><!--T:24--> Bracket</translate> || <translate><!--T:25--> Knockout</translate> || ★★★★★ || <translate><!--T:26--> 3,000,000 TP, +10 alignment</translate> || <translate><!--T:27--> 90 minutes</translate>
 |}
 
 <translate>
 <!--T:28-->
-* [[Special:MyLanguage/Cell|Cell]] only talks to players with '''Evil alignment''' (40 or less), as he does as a master.
+* [[Special:MyLanguage/Cell|Cell]] talks to every player. His Evil alignment requirement (40 or less) only locks his '''Skills''' and '''Train''' as a master, not the Cell Games.
 * To reach the Otherworld Tournament, talk to the [[Special:MyLanguage/Grand Kai|Grand Kai]] next to [[Special:MyLanguage/King Yemma|King Yemma]] and press '''Tournament'''. The [[Special:MyLanguage/Otherworld Tournament Announcer|Announcer]] can send you back.
+* The [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island generates once per world in the oceans. Find it with <code>/dmzlocate budokai_tenkaichi</code> or a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] map, and sign up with the World Tournament Announcer.
 * Qualifier fighters get '''8% stronger''' each round (Baba's fighters 10%).
 </translate>
 
@@ -33,7 +37,7 @@
 == Formats == <!--T:29-->
 
 <!--T:30-->
-* '''Bracket''': you're seated in a knockout bracket filled with random NPC contenders. Winners climb the ladder; fights between two NPCs are decided automatically. After the qualifier rounds, the survivor faces the host's '''semi-finalist''', then (Otherworld only) a '''finalist''', then the '''champion'''. Only the semi-finalist, finalist and champion are known before you enter; the rest of the draw is revealed once everybody accepts the rules.
+* '''Bracket''': you're seated in a knockout bracket filled with random NPC contenders. Winners climb the ladder; fights between two NPCs are decided automatically. After the qualifier rounds, the survivor faces the host's '''semi-finalist''', then (Otherworld and World Martial Arts Tournament only) a '''finalist''', then the '''champion'''. Only the semi-finalist, finalist and champion are known before you enter; the rest of the draw is revealed once everybody accepts the rules.
 * '''Gauntlet''': you beat every fighter from left to right, then the semi-finalist and the champion.
 
 <!--T:31-->
@@ -57,7 +61,7 @@
 * When your bout is next, the tournament screen opens and you have '''30 seconds''' to press '''Ready'''. Hover your opponent to study their stats and, once you have Bulma's '''Threat Database''' scan data, their ki attacks and combos. Miss the window and you're disqualified (your opponent advances).
 * When everyone in the bout is ready, a 5-second preview plays, then you're teleported into the ring. Fighters stand frozen through a '''3-2-1''' countdown, then '''FIGHT!'''
 * Only your opponent can hurt you and only you can hurt them. Anyone else who comes within '''15 blocks''' of the fighters is pushed out.
-* Each bout has a time limit (Baba 5 minutes, Cell 7 minutes, Otherworld 8 minutes). A bout that runs out of time is void and fought again.
+* Each bout has a time limit (Baba 5 minutes, Cell 7 minutes, Otherworld 8 minutes, World Martial Arts Tournament 7 minutes). A bout that runs out of time is void and fought again.
 * Stay within '''60 blocks''' of the ring. If you walk away (or log out), you have '''15 seconds''' to come back, or you're out. Party members called into the tournament from elsewhere get '''60 seconds''' to reach the arena.
 * Losing a bout knocks you out of the tournament and starts your re-entry cooldown.
 </translate>
@@ -93,14 +97,14 @@ The screen shows the tournament name and difficulty stars, its format (Bracket o
 == Arena protection == <!--T:43-->
 
 <!--T:44-->
-The tournament arenas (Baba's Palace, the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival players unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code>. See [[Special:MyLanguage/Gamerules|Gamerules]].
+The tournament arenas (Baba's Palace, the [[Special:MyLanguage/Cell Arena|Cell Arena]], the Otherworld Tournament grounds and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island) can't be built in or broken by survival players unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code>. See [[Special:MyLanguage/Gamerules|Gamerules]].
 </translate>
 
 <translate>
 == Commands == <!--T:45-->
 
 <!--T:46-->
-All <code>/dmztournament</code> subcommands require operator permission level 2.
+All <code>/dmztournament</code> subcommands require operator permission level 2. The tournament ids are <code>baba</code>, <code>cell</code>, <code>otherworld</code> and <code>budokai</code> (the World Martial Arts Tournament).
 </translate>
 {| class="wikitable"
 ! <translate><!--T:47--> Command</translate> !! <translate><!--T:48--> What it does</translate>
@@ -114,31 +118,31 @@ All <code>/dmztournament</code> subcommands require operator permission level 2.
 == Configuration == <!--T:51-->
 
 <!--T:52-->
-Each tournament is one file in <code>config/dragonminez/tournaments/</code> named after its id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>), generated with the defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded too (files starting with <code>old_</code> are ignored), but only the three shipped ids have a host NPC. Reload with <code>/dmzreload config</code>.
+Each tournament is one file in <code>config/dragonminez/tournaments/</code> named after its id (<code>baba.json</code>, <code>cell.json</code>, <code>otherworld.json</code>, <code>budokai.json</code>), generated with the defaults and version-updated like the other config files. Any other <code>.json</code> file in the folder is loaded too (files starting with <code>old_</code> are ignored), but only the four shipped ids have a host NPC. Reload with <code>/dmzreload config</code>.
 </translate>
 
 {{See also|Reloading and Updating Changes|How to JSON}}
 
 {| class="wikitable"
-! <translate><!--T:53--> Field</translate> !! <translate><!--T:54--> Default (Baba / Cell / Otherworld)</translate> !! <translate><!--T:55--> Notes</translate>
+! <translate><!--T:53--> Field</translate> !! <translate><!--T:54--> Default (Baba / Cell / Otherworld / World Martial Arts Tournament)</translate> !! <translate><!--T:55--> Notes</translate>
 |-
 | <code>enabled</code> || <code>true</code> ||
 |-
 | <code>displayName</code> || <code>tournament.dragonminez.&lt;id&gt;</code> || <translate><!--T:56--> Translation key.</translate>
 |-
-| <code>format</code> || <code>GAUNTLET</code> / <code>BRACKET</code> / <code>BRACKET</code> || <translate><!--T:57--> <code>BRACKET</code> or <code>GAUNTLET</code>.</translate>
+| <code>format</code> || <code>GAUNTLET</code> / <code>BRACKET</code> / <code>BRACKET</code> / <code>BRACKET</code> || <translate><!--T:57--> <code>BRACKET</code> or <code>GAUNTLET</code>.</translate>
 |-
-| <code>difficultyStars</code> || <code>1</code> / <code>4</code> / <code>5</code> || <translate><!--T:58--> 1–5, shown on the screen.</translate>
+| <code>difficultyStars</code> || <code>1</code> / <code>4</code> / <code>5</code> / <code>4</code> || <translate><!--T:58--> 1–5, shown on the screen.</translate>
 |-
-| <code>qualifierSlots</code> || — / <code>8</code> / <code>8</code> || <translate><!--T:59--> Bracket size (2–16, rounded down to a power of two; grows if a big party enters).</translate>
+| <code>qualifierSlots</code> || — / <code>8</code> / <code>8</code> / <code>8</code> || <translate><!--T:59--> Bracket size (2–16, rounded down to a power of two; grows if a big party enters).</translate>
 |-
-| <code>lethal</code> || <code>false</code> / <code>true</code> / <code>false</code> || <translate><!--T:60--> Whether a lost bout can kill you.</translate>
+| <code>lethal</code> || <code>false</code> / <code>true</code> / <code>false</code> / <code>false</code> || <translate><!--T:60--> Whether a lost bout can kill you.</translate>
 |-
-| <code>reentryCooldownSeconds</code> || <code>1200</code> / <code>3600</code> / <code>5400</code> || <translate><!--T:61--> Cooldown after losing, withdrawing or being disqualified.</translate>
+| <code>reentryCooldownSeconds</code> || <code>1200</code> / <code>3600</code> / <code>5400</code> / <code>4500</code> || <translate><!--T:61--> Cooldown after losing, withdrawing or being disqualified.</translate>
 |-
 | <code>victoryCooldownSeconds</code> || — || <translate><!--T:62--> Cooldown after winning; defaults to <code>reentryCooldownSeconds</code>.</translate>
 |-
-| <code>matchTimeoutSeconds</code> || <code>300</code> / <code>420</code> / <code>480</code> || <translate><!--T:63--> Bout time limit (minimum 30).</translate>
+| <code>matchTimeoutSeconds</code> || <code>300</code> / <code>420</code> / <code>480</code> / <code>420</code> || <translate><!--T:63--> Bout time limit (minimum 30).</translate>
 |-
 | <code>nextRoundSeconds</code> || <code>30</code> || <translate><!--T:64--> Time to press Ready (minimum 5).</translate>
 |-
@@ -152,7 +156,7 @@ Each tournament is one file in <code>config/dragonminez/tournaments/</code> name
 |-
 | <code>champion</code>, <code>semifinalist</code> || — || <translate><!--T:70--> Required fighters.</translate>
 |-
-| <code>finalist</code> || — / — / {{L|Goku}} || <translate><!--T:72--> Optional fighter between the semi-final and the champion.</translate>
+| <code>finalist</code> || — / — / {{L|Goku}} / {{L|Vegeta}} <translate><!--T:84--> (Majin Vegeta)</translate> || <translate><!--T:72--> Optional fighter between the semi-final and the champion.</translate>
 |-
 | <code>contenders</code> || <translate><!--T:73--> list</translate> || <translate><!--T:74--> Qualifier fighters (at least one).</translate>
 |-
@@ -167,6 +171,9 @@ Each fighter has <code>entityId</code> (an entity id, or <code>#tag</code> to dr
 <translate>
 <!--T:77-->
 A fighter drawn from a tag is always a character who isn't in the tournament yet: the semi-finalist, the finalist and the champion are resolved first, then the contenders with a fixed entity id, then the tag draws in list order, and the forms of a character (base, Super Saiyan and so on) count as one. A contender entry whose tag has no character left is skipped.
+
+<!--T:85-->
+Characters in the entity tag <code>#dragonminez:non_fighters</code> are never drawn from a tag, even if the tag lists them. By default these are [[Special:MyLanguage/Bulma|Bulma]] and the World Tournament Announcer, so neither can turn up as a contender.
 </translate>
 
 {{Navbox Challenges}}

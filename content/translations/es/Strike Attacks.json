@@ -25,8 +25,8 @@
   "outdated": false
  },
  "5": {
-  "source": "Cooldowns are before XP upgrades. The TP cost is paid once to unlock the technique.",
-  "translation": "Los tiempos de recarga son antes de las mejoras con XP. El costo en TP se paga una sola vez para desbloquear la técnica.",
+  "source": "Cooldowns are the defaults, before XP upgrades. The TP cost is paid once to unlock the technique. A server that already has a <code>techniques.json</code> keeps the cooldowns written in it, so it may still use older values until its owner edits them (see [[Special:MyLanguage/Skills Config#techniques.json|Skills Config]]).",
+  "translation": "Los tiempos de recarga son los valores por defecto, antes de las mejoras con XP. El costo en TP se paga una sola vez para desbloquear la técnica. Un servidor que ya tiene un <code>techniques.json</code> conserva los tiempos de recarga escritos en él, así que puede seguir usando valores anteriores hasta que su dueño los edite (consulta [[Special:MyLanguage/Skills Config#techniques.json|Configuración de habilidades]]).",
   "outdated": false
  },
  "6": {
@@ -99,6 +99,21 @@
   "translation": "Puño Oozaru",
   "outdated": false
  },
+ "37": {
+  "source": "Death Chaser",
+  "translation": "Cazador de la Muerte",
+  "outdated": false
+ },
+ "38": {
+  "source": "Beam Sword Slash",
+  "translation": "Tajo de Espada de Energía",
+  "outdated": false
+ },
+ "39": {
+  "source": "Spirit Breaker",
+  "translation": "Rompeespíritus",
+  "outdated": false
+ },
  "20": {
   "source": "Gum Punch",
   "translation": "Puñetazo de Goma",
@@ -109,9 +124,24 @@
   "translation": "Ataque de Bola Mística",
   "outdated": false
  },
+ "40": {
+  "source": "Darkness Eye Beam",
+  "translation": "Rayo Ocular de la Oscuridad",
+  "outdated": false
+ },
+ "41": {
+  "source": "Android Combo",
+  "translation": "Combo Androide",
+  "outdated": false
+ },
+ "42": {
+  "source": "Perfect Rush",
+  "translation": "Embestida Perfecta",
+  "outdated": false
+ },
  "22": {
-  "source": "'''Gum Punch''' and the '''Mystic Ball Attack''' are Majin techniques: any race can learn them from Majin Buu, but only a [[Special:MyLanguage/Majin|Majin]] can equip them in a technique slot. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].",
-  "translation": "El '''Puñetazo de Goma''' y el '''Ataque de Bola Mística''' son técnicas Majin: cualquier raza puede aprenderlas de Majin Buu, pero solo un [[Special:MyLanguage/Majin|Majin]] puede equiparlas en una ranura de técnica. Consulta [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]].",
+  "source": "Some strike attacks belong to one race: any race can learn them from their master, but only that race can equip them in a technique slot or upgrade them. '''Gum Punch''' and the '''Mystic Ball Attack''' are for [[Special:MyLanguage/Majin|Majins]], the '''Darkness Eye Beam''' for [[Special:MyLanguage/Namekian|Namekians]], the '''Android Combo''' for [[Special:MyLanguage/Android|Androids]] (any character with the android upgrade) and '''Perfect Rush''' for [[Special:MyLanguage/Bio-Android|Bio-Androids]]. See [[Special:MyLanguage/Techniques#Learning techniques|Techniques]].",
+  "translation": "Algunos Super Golpes pertenecen a una sola raza: cualquier raza puede aprenderlos de su maestro, pero solo esa raza puede equiparlos en una ranura de técnica o mejorarlos. El '''Puñetazo de Goma''' y el '''Ataque de Bola Mística''' son para los [[Special:MyLanguage/Majin|Majin]], el '''Rayo Ocular de la Oscuridad''' para los [[Special:MyLanguage/Namekian|Namekianos]], el '''Combo Androide''' para los [[Special:MyLanguage/Android|Androides]] (cualquier personaje con la mejora androide) y la '''Embestida Perfecta''' para los [[Special:MyLanguage/Bio-Android|Bio-Androides]]. Consulta [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]].",
   "outdated": false
  },
  "23": {
@@ -127,6 +157,41 @@
  "25": {
   "source": "The '''Mystic Ball Attack''' is a bouncing attack that [[Special:MyLanguage/Kid Buu|Kid Buu]] also uses against you in the [[Special:MyLanguage/Buu Saga|Buu Saga]]. A kick launches the target into the air, then you curl up into a pink ball and slam into it six times from different directions, rise above it and dive down to stomp it into the ground. It lasts about 5 seconds: the kick deals 17% of its damage, each bounce 8% and the final stomp 35%. World bosses and giant multi-part enemies can't be carried, so they are pinned in place instead.",
   "translation": "El '''Ataque de Bola Mística''' es un ataque de rebotes que [[Special:MyLanguage/Kid Buu|Kid Buu]] también usa contra ti en la [[Special:MyLanguage/Buu Saga|Saga Buu]]. Una patada lanza al objetivo por los aires, luego te enroscas en una bola rosa y te estrellas contra él seis veces desde distintas direcciones, subes por encima de él y te lanzas en picada para estamparlo contra el suelo de un pisotón. Dura unos 5 segundos: la patada hace el 17% de su daño, cada rebote el 8% y el pisotón final el 35%. Los jefes de mundo y los enemigos gigantes de varias partes no se pueden arrastrar, así que quedan inmovilizados en su lugar.",
+  "outdated": false
+ },
+ "43": {
+  "source": "=== Combo strikes ===",
+  "translation": "=== Super Golpes de combo ===",
+  "outdated": false
+ },
+ "44": {
+  "source": "Six strike attacks are long scripted combos: the Darkness Eye Beam, Death Chaser, Android Combo, Perfect Rush, Spirit Breaker and Beam Sword Slash. You are invulnerable while the combo plays, and only a stun or a knockdown can interrupt it. Only the finishing blow can kill: the earlier hits never take the target below 1 health.",
+  "translation": "Seis Super Golpes son combos largos y coreografiados: el Rayo Ocular de la Oscuridad, el Cazador de la Muerte, el Combo Androide, la Embestida Perfecta, el Rompeespíritus y el Tajo de Espada de Energía. Eres invulnerable mientras dura el combo, y solo un aturdimiento o un derribo pueden interrumpirlo. Solo el golpe final puede matar: los golpes anteriores nunca dejan al objetivo por debajo de 1 de vida.",
+  "outdated": false
+ },
+ "45": {
+  "source": "* '''Darkness Eye Beam''' (about 5 seconds): you dash in, backhand the target, grab and choke it, throw it, stretch an arm to grab it again, swing it overhead, roar and fire eye beams that end in an explosion. The eye beams and the explosion add 0.5× your Ki Damage.\n* '''Death Chaser''' (about 3.5 seconds): you power up, dash in, land a hook and a straight, vanish, launch the target with a knee, vanish above it, hammer it to the ground and dive onto it with a stomp.\n* '''Android Combo''' (about 4 seconds): a dash, a palm strike, a hook and a haymaker, then you chase the target, knee it, hit it with jabs and launch it with an uppercut, and finish with a ki bomb charged at its chest and thrown. The ki bomb adds 0.5× your Ki Damage.\n* '''Perfect Rush''' (about 4.5 seconds): you power up, dash in, land a hook, a backhand and an elbow, launch the target with a knee, leap after it, hit it with a jab and a straight, dash up above it and hammer it into a crash.\n* '''Spirit Breaker''' (about 7.5 seconds): a dash, a gut punch and an uppercut, then you vanish, unleash a flurry and a big punch that blows the target away, ram it, slam it, hit it with a burst of flame and finish with an axe kick.\n* '''Beam Sword Slash''' (about 5.5 seconds): a dash, a kick, a knee, a punch and a launch, then you vanish above the target and hammer it down, form a ki blade in your aura colour, extend it in a thrust that skewers the target, sweep it and finish with a final slash.",
+  "translation": "* '''Rayo Ocular de la Oscuridad''' (unos 5 segundos): te lanzas hacia el objetivo, le das un revés, lo agarras y lo estrangulas, lo arrojas, estiras un brazo para atraparlo de nuevo, lo haces girar por encima de tu cabeza, ruges y disparas rayos por los ojos que terminan en una explosión. Los rayos oculares y la explosión suman 0.5× tu Daño de Ki.\n* '''Cazador de la Muerte''' (unos 3.5 segundos): aumentas tu poder, te lanzas hacia el objetivo, le das un gancho y un directo, desapareces, lo lanzas por los aires con un rodillazo, reapareces por encima de él, lo estampas contra el suelo de un martillazo y caes sobre él con un pisotón.\n* '''Combo Androide''' (unos 4 segundos): una embestida, un golpe con la palma, un gancho y un golpe salvaje; luego persigues al objetivo, le das un rodillazo, lo golpeas con jabs y lo lanzas por los aires con un gancho ascendente, y terminas con una bomba de ki cargada contra su pecho y arrojada. La bomba de ki suma 0.5× tu Daño de Ki.\n* '''Embestida Perfecta''' (unos 4.5 segundos): aumentas tu poder, te lanzas hacia el objetivo, le das un gancho, un revés y un codazo, lo lanzas por los aires con un rodillazo, saltas tras él, lo golpeas con un jab y un directo, te elevas por encima de él y lo estrellas de un martillazo.\n* '''Rompeespíritus''' (unos 7.5 segundos): una embestida, un golpe al estómago y un gancho ascendente; luego desapareces, desatas una ráfaga de golpes y un gran puñetazo que lo manda a volar, lo embistes, lo azotas, lo golpeas con una llamarada y terminas con una patada de hacha.\n* '''Tajo de Espada de Energía''' (unos 5.5 segundos): una embestida, una patada, un rodillazo, un puñetazo y un lanzamiento; luego desapareces, reapareces por encima del objetivo y lo derribas de un martillazo, formas una espada de ki del color de tu aura, la extiendes en una estocada que atraviesa al objetivo, la barres y terminas con un tajo final.",
+  "outdated": false
+ },
+ "46": {
+  "source": "Some story bosses use these combos against you: Perfect Cell and Super Perfect Cell use Perfect Rush, Vegeta (Daima, Super Saiyan 3) uses the Spirit Breaker, and Vegetto and Vegetto (Super Saiyan) use the Beam Sword Slash.",
+  "translation": "Algunos jefes de la historia usan estos combos contra ti: Cell Perfecto y Cell Super Perfecto usan la Embestida Perfecta, Vegeta (Daima, Super Saiyajin 3) usa el Rompeespíritus, y Vegetto y Vegetto (Super Saiyan) usan el Tajo de Espada de Energía.",
+  "outdated": false
+ },
+ "47": {
+  "source": "== Cinematic camera ==",
+  "translation": "== Cámara cinematográfica ==",
+  "outdated": false
+ },
+ "48": {
+  "source": "When you use a strike attack on a target, the camera moves to a third-person angle that films you and your victim, then returns to your normal view when the technique ends. A player you hit sees the same shot. While it plays you can't look around with the mouse or toggle lock-on; your lock-on target comes back afterwards. There is no option to turn it off.",
+  "translation": "Cuando usas un Super Golpe contra un objetivo, la cámara pasa a un ángulo en tercera persona que te filma a ti y a tu víctima, y vuelve a tu vista normal cuando termina la técnica. Un jugador al que golpeas ve la misma toma. Mientras se reproduce no puedes mirar alrededor con el ratón ni activar o desactivar la fijación de objetivo; tu objetivo fijado vuelve después. No hay ninguna opción para desactivarla.",
+  "outdated": false
+ },
+ "49": {
+  "source": "Every strike attack on this page uses it except the Oozaru Slam, Gum Punch, Blue Hurricane, Dimensional Fist and Dimensional Slash. Boss combos and grabs against a player use it too: the Spirit Breaking Cannon, Super God Fist, Deadly Dance (Vegetto), Meteor Burst, Mystic Ball Attack, Beam Sword Slash, Perfect Rush and Spirit Breaker of the story bosses, the grab and the Meteor Burst of the [[Special:MyLanguage/Turles|Turles]] world boss, and the Demon Grab of [[Special:MyLanguage/Gomah|Gomah]].",
+  "translation": "Todos los Super Golpes de esta página la usan, excepto el Aplastamiento Oozaru, el Puñetazo de Goma, el Huracán Azul, el Puño Dimensional y el Corte Dimensional. Los combos y agarres de los jefes contra un jugador también la usan: el Cañón Rompeespíritus, el Puño Súper Dios, la Danza Mortal (Vegito), el Estallido Meteoro, el Ataque de Bola Mística, el Tajo de Espada de Energía, la Embestida Perfecta y el Rompeespíritus de los jefes de la historia, el agarre y el Estallido Meteoro del jefe de mundo [[Special:MyLanguage/Turles|Turles]], y el Agarre Demoníaco de [[Special:MyLanguage/Gomah|Gomah]].",
   "outdated": false
  },
  "26": {

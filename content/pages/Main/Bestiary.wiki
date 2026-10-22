@@ -37,6 +37,8 @@ Hostile mobs attack on sight. DMZ has no separate "Earth" dimension: the Earth m
 {{Card|Bandit|<translate><!--T:14--> Outlaws that roam Earth's forests, savannas and jungles.</translate>}}
 {{Card|Red Ribbon Army|<translate><!--T:15--> Soldiers and robots that patrol around villages and garrison their tower.</translate>}}
 {{Card|Saibamen|<translate><!--T:16--> Plant-grown soldiers that can latch onto you and self-destruct.</translate>}}
+{{Card|Bioman|<translate><!--T:90--> A Saibaman variant that hunts in small groups in snowy biomes and never self-destructs.</translate>}}
+{{Card|Giran|<translate><!--T:91--> A huge wild Giran, rare and always alone, in the lands where dinosaurs live.</translate>}}
 {{Card|Frieza Soldier|<translate><!--T:17--> Frieza's army, occupying the plains of Planet Namek.</translate>}}
 {{Card|Gete Robot|<translate><!--T:18--> Robots from the Big Gete Star that march on Namekian villages.</translate>}}
 {{Card|Mini Buu|<translate><!--T:19--> A tiny flying Majin Buu that fires pink ki blasts.</translate>}}
@@ -46,10 +48,15 @@ Hostile mobs attack on sight. DMZ has no separate "Earth" dimension: the Earth m
 </div>
 
 <translate>
+<!--T:92-->
+'''Halloween:''' only on October 31 (by the server's date), '''Evil Clones''' of Goku, Vegeta, Piccolo, Nappa and Krillin roam the Overworld at night, in dark spots like vanilla monsters. They spawn alone (Evil Clone Krillin sometimes in pairs) and have 1,800 health, 90 melee damage, 140 ki damage and a Battle Power of 1,200. They can't fly and only fire small red ki blasts. Each clone has its own spawn egg. On October 31 the masters also wear carved pumpkins (this one follows your own computer's date).
+</translate>
+
+<translate>
 == Raid enemies == <!--T:45-->
 
 <!--T:46-->
-The invaders of the three [[Special:MyLanguage/Raids|raids]]: the soldiers that fill each wave and the bosses that lead them. [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]] also fight in raids, but they roam their worlds too and are listed under hostile mobs.
+The invaders of the four [[Special:MyLanguage/Raids|raids]]: the soldiers that fill each wave and the bosses that lead them. [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]] and the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]]'s soldiers and robots also fight in raids, but they roam their worlds too and are listed under hostile mobs. The bosses of the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] (Colonel Silver, Sergeant Metallic, Ninja Murasaki, General Blue and General Black's Robot) are described on the raid's page.
 </translate>
 
 <div class="dmz-cards">
@@ -72,7 +79,7 @@ The invaders of the three [[Special:MyLanguage/Raids|raids]]: the soldiers that 
 == Tournament fighters == <!--T:60-->
 
 <!--T:61-->
-The NPC fighters of the three [[Special:MyLanguage/Tournaments|tournaments]]; most of them are story opponents in the sagas too. Characters who are masters elsewhere, such as [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] and [[Special:MyLanguage/Cell|Cell]], list their tournament forms on their own pages.
+The NPC fighters of the four [[Special:MyLanguage/Tournaments|tournaments]]; most of them are story opponents in the sagas too. [[Special:MyLanguage/Giran|Giran]], who also roams the wild, is listed under hostile mobs. Characters who are masters elsewhere, such as [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] and [[Special:MyLanguage/Cell|Cell]], list their tournament forms on their own pages.
 </translate>
 
 <div class="dmz-cards">
@@ -155,7 +162,7 @@ Quest givers are a single data-driven NPC whose model, texture and dialogue depe
 == How wild enemies spawn == <!--T:36-->
 
 <!--T:37-->
-[[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Mini Buu|Mini Buus]] are '''wild enemies'''. They have their own spawn category with its own cap of '''14''' (scaled with the loaded area like vanilla mob caps), separate from vanilla monsters, so the two never take each other's spawn slots. Their natural spawns follow these rules:
+[[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Mini Buu|Mini Buus]] and the wild [[Special:MyLanguage/Giran|Giran]] are '''wild enemies'''. They have their own spawn category with its own cap of '''14''' (scaled with the loaded area like vanilla mob caps), separate from vanilla monsters, so the two never take each other's spawn slots. Their natural spawns follow these rules:
 
 <!--T:38-->
 * '''Out in the open.''' They spawn on the surface under open sky (leaves don't count as cover), day or night, but never where block light from torches, lamps and the like reaches. They don't spawn in caves or under roofs.
@@ -174,7 +181,7 @@ Monster spawners and other non-natural spawns skip the light and sky checks; the
 Hostile DMZ mobs use the mod's own combat AI instead of the vanilla melee behaviour: they flank and surround you as a group, call nearby mobs of their kind when one of them is hit, give up on targets they can't reach, and animals flee when badly hurt.
 
 <!--T:42-->
-Story-style mobs that spawn naturally ([[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Saibamen|Saibamen]], [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Hell Ogre|Hell's ogres]] and [[Special:MyLanguage/Mini Buu|Mini Buu]]) fight on the '''Novice''' AI tier: slow reactions, melee, random combos and the occasional ki attack, with no dashing and no Zanzoken. Some of them also fire ki blasts. The other AI tiers are explained on [[Special:MyLanguage/Sagas|Sagas]].
+Story-style mobs that spawn naturally ([[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Saibamen|Saibamen]], the [[Special:MyLanguage/Bioman|Bioman]], the wild [[Special:MyLanguage/Giran|Giran]], [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Hell Ogre|Hell's ogres]] and [[Special:MyLanguage/Mini Buu|Mini Buu]]) fight on the '''Novice''' AI tier: slow reactions, melee, random combos and the occasional ki attack, with no dashing and no Zanzoken. Some of them also fire ki blasts. The other AI tiers are explained on [[Special:MyLanguage/Sagas|Sagas]].
 </translate>
 
 <translate>

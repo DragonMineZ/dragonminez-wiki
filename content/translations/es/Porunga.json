@@ -94,6 +94,16 @@
   "translation": "La [[Special:MyLanguage/Brave Sword|Espada Valiente]], un arma especial.",
   "outdated": false
  },
+ "47": {
+  "source": "Frieza's Capsule",
+  "translation": "Cápsula de Freezer",
+  "outdated": false
+ },
+ "48": {
+  "source": "Frieza's personal hover capsule, a one-seat [[Special:MyLanguage/Vehicles|vehicle]] that glides along the ground and can take off. It can't be crafted.",
+  "translation": "La cápsula flotante personal de Freezer, un [[Special:MyLanguage/Vehicles|vehículo]] de un asiento que se desliza sobre el suelo y puede despegar. No se puede fabricar.",
+  "outdated": false
+ },
  "19": {
   "source": "Reset Passive",
   "translation": "Reiniciar Pasiva Racial",
@@ -210,8 +220,8 @@
   "outdated": false
  },
  "42": {
-  "source": "* The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] technique can only be used while holding the Brave Sword.\n* Each pair of Potara earrings has its own pair ID: the two players must wear the left and the right earring of the same pair.\n* The revive wish only works on players who are dead in the [[Special:MyLanguage/Otherworld|Otherworld]] and online. Revived players lose their halo and are fully alive again.\n* After a '''Reset Story Progress''', story rewards shrink on every new run (by default 50% on the second run, 25% on the third, and so on).\n* The [[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest ''Summon Porunga'' asks you to summon him with the Namek Dragon Balls.",
-  "translation": "* La técnica [[Special:MyLanguage/Shining Sword Attack|Ataque de la Espada Brillante]] solo se puede usar con la Espada Valiente en la mano.\n* Cada par de aretes Potara tiene su propio ID de par: los dos jugadores deben llevar el arete izquierdo y el derecho del mismo par.\n* El deseo de resurrección solo funciona con jugadores que están muertos en el [[Special:MyLanguage/Otherworld|Otro Mundo]] y conectados. Los jugadores revividos pierden su aureola y vuelven a estar completamente vivos.\n* Después de un '''Restablecer progreso de la historia''', las recompensas de la historia se reducen en cada nueva partida (por defecto, 50% en la segunda, 25% en la tercera, y así sucesivamente).\n* La misión ''Invoca a Porunga'' de la [[Special:MyLanguage/Frieza Saga|Saga Freezer]] te pide invocarlo con las Esferas del Dragón de Namek.",
+  "source": "* The [[Special:MyLanguage/Shining Sword Attack|Shining Sword Attack]] technique can only be used while holding the Brave Sword.\n* Each pair of Potara earrings has its own pair ID: the two players must wear the left and the right earring of the same pair.\n* The revive wish only works on players who are dead in the [[Special:MyLanguage/Otherworld|Otherworld]] and online. Revived players lose their halo and are fully alive again.\n* After a '''Reset Story Progress''', story rewards shrink on every new run (by default 50% on the second run, 25% on the third, and so on).\n* The [[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest ''Summon Porunga'' asks you to summon him with the Namek Dragon Balls.\n* Each world keeps Porunga's list in <code>&lt;world&gt;/dragonminez/wishes/porunga.json</code>, which is only written when it is missing. A world created before Frieza's Capsule was added keeps its old list, so the wish only appears there if the server adds it to the file or deletes the file so it is generated again (see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).",
+  "translation": "* La técnica [[Special:MyLanguage/Shining Sword Attack|Ataque de la Espada Brillante]] solo se puede usar con la Espada Valiente en la mano.\n* Cada par de aretes Potara tiene su propio ID de par: los dos jugadores deben llevar el arete izquierdo y el derecho del mismo par.\n* El deseo de resurrección solo funciona con jugadores que están muertos en el [[Special:MyLanguage/Otherworld|Otro Mundo]] y conectados. Los jugadores revividos pierden su aureola y vuelven a estar completamente vivos.\n* Después de un '''Restablecer progreso de la historia''', las recompensas de la historia se reducen en cada nueva partida (por defecto, 50% en la segunda, 25% en la tercera, y así sucesivamente).\n* La misión ''Invoca a Porunga'' de la [[Special:MyLanguage/Frieza Saga|Saga Freezer]] te pide invocarlo con las Esferas del Dragón de Namek.\n* Cada mundo guarda la lista de Porunga en <code>&lt;world&gt;/dragonminez/wishes/porunga.json</code>, que solo se escribe cuando falta. Un mundo creado antes de que se añadiera la Cápsula de Freezer conserva su lista antigua, así que el deseo solo aparece ahí si el servidor lo añade al archivo o borra el archivo para que se genere de nuevo (consulta [[Special:MyLanguage/Custom Wishes|Deseos personalizados]]).",
   "outdated": false
  },
  "43": {
@@ -220,8 +230,8 @@
   "outdated": false
  },
  "44": {
-  "source": "'''Porunga (Daima)''' is a second Porunga who lives in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He offers the same wish list as Porunga, with three wishes per summon.",
-  "translation": "'''Porunga (Daima)''' es un segundo Porunga que vive en el [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]. Ofrece la misma lista de deseos que Porunga, con tres deseos por invocación.",
+  "source": "'''Porunga (Daima)''' is a second Porunga who lives in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He has his own wish list, <code>porunga_daima.json</code>, which by default is the same as Porunga's (Frieza's Capsule included), with three wishes per summon.",
+  "translation": "'''Porunga (Daima)''' es un segundo Porunga que vive en el [[Special:MyLanguage/Demon Realm|Reino Demoníaco]]. Tiene su propia lista de deseos, <code>porunga_daima.json</code>, que por defecto es igual a la de Porunga (con la Cápsula de Freezer incluida), con tres deseos por invocación.",
   "outdated": false
  },
  "45": {

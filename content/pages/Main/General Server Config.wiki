@@ -559,7 +559,7 @@ Normal difficulty always uses <code>1.0</code>. These multipliers apply to the s
 {| class="wikitable"
 ! <translate><!--T:218--> Key</translate> !! <translate><!--T:219--> Default</translate> !! <translate><!--T:220--> What it does</translate>
 |-
-| <code>helmetsThatKeepHair</code> || <code>["dragonminez:invencible_armor_helmet", "dragonminez:invencible_blue_armor_helmet"]</code> || <translate><!--T:221--> List of helmet item ids that don't hide the player's hair when worn.</translate>
+| <code>helmetsThatKeepHair</code> || <code>["dragonminez:invencible_armor_helmet", "dragonminez:invencible_blue_armor_helmet", "dragonminez:broly_z_armor_helmet"]</code> || <translate><!--T:221--> List of helmet item ids that don't hide the player's hair when worn.</translate>
 |-
 | <code>pixelTattooPaintingEnabled</code> || <code>true</code> || <translate><!--T:222--> Allows custom painted tattoos. <code>false</code> hides the custom tattoo option in character customization, stops painted tattoos from being drawn and keeps players from uploading new ones; the shipped tattoos still work.</translate>
 |}

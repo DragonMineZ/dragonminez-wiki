@@ -105,8 +105,8 @@
   "outdated": false
  },
  "21": {
-  "source": "<code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces.",
-  "translation": "<code>true</code>: o corpo é desenhado com três camadas de textura tingíveis (cores de corpo 1, 2 e 3) e a raça usa suas próprias texturas de rosto. <code>false</code>: uma única textura de corpo simples e rostos emprestados do Humano.",
+  "source": "<code>true</code>: the body is drawn from three tintable texture layers (body colors 1, 2 and 3) and the race uses its own face textures. <code>false</code>: one plain body texture and borrowed Human faces. Any body texture can have an optional <code><texture>_shadow.png</code> mask next to it (for example <code>..._layer1_shadow.png</code> next to <code>..._layer1.png</code>): it is drawn in a shadow tone of that texture's body color (same hue, shifted saturation), so the shading follows the colors the player picks.",
+  "translation": "<code>true</code>: o corpo é desenhado com três camadas de textura tingíveis (cores de corpo 1, 2 e 3) e a raça usa suas próprias texturas de rosto. <code>false</code>: uma única textura de corpo simples e rostos emprestados do Humano. Qualquer textura de corpo pode ter ao lado uma máscara opcional <code><texture>_shadow.png</code> (por exemplo, <code>..._layer1_shadow.png</code> junto de <code>..._layer1.png</code>): ela é desenhada em um tom de sombra da cor de corpo dessa textura (o mesmo matiz, com a saturação ajustada), assim o sombreamento acompanha as cores que o jogador escolhe.",
   "outdated": false
  },
  "22": {
@@ -135,8 +135,8 @@
   "outdated": false
  },
  "27": {
-  "source": "Gives the race a Saiyan tail.",
-  "translation": "Dá à raça uma cauda Saiyajin.",
+  "source": "Gives the race a Saiyan tail. Hiding and showing it plays the same animation as for Saiyans, which wraps the tail around the waist.",
+  "translation": "Dá à raça uma cauda Saiyajin. Ao escondê-la ou mostrá-la, toca a mesma animação dos Saiyajins, que enrola a cauda na cintura.",
   "outdated": false
  },
  "28": {
@@ -227,6 +227,16 @@
  "45": {
   "source": "Schema source: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.",
   "translation": "Origem do esquema: <code>src/main/java/com/dragonminez/common/config/RaceCharacterConfig.java</code>.",
+  "outdated": false
+ },
+ "89": {
+  "source": "Resource packs",
+  "translation": "Pacotes de recursos",
+  "outdated": false
+ },
+ "90": {
+  "source": "In 2.2 the built-in <code>humansaiyan</code> body shading textures were renamed from <code>bodytype_*_layer2.png</code> to <code>bodytype_*_layer1_shadow.png</code> (in <code>textures/entity/races/humansaiyan/</code>). A resource pack that replaced the old files must rename them.",
+  "translation": "Na 2.2, as texturas de sombreamento de corpo <code>humansaiyan</code> incluídas no mod mudaram de nome: de <code>bodytype_*_layer2.png</code> para <code>bodytype_*_layer1_shadow.png</code> (em <code>textures/entity/races/humansaiyan/</code>). Um pacote de recursos que substituía os arquivos antigos precisa renomeá-los.",
   "outdated": false
  },
  "46": {

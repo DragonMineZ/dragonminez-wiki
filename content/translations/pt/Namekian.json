@@ -45,8 +45,8 @@
   "outdated": false
  },
  "9": {
-  "source": "* '''Permanent growth.''' Each assimilation heals you and permanently raises your STR, SKP and PWR, up to four times.\n* '''Healing on demand.''' Regeneration restores 25% of your max health in 3 seconds.\n* '''Water Affinity.''' Being underwater or drinking any potion speeds up your health, Ki and stamina regeneration.\n* '''Knockdowns.''' While Assimilation is selected, your finishing blows knock enemies down instead of killing them.",
-  "translation": "* '''Crescimento permanente.''' Cada assimilação cura você e aumenta permanentemente seus STR, SKP e PWR, até quatro vezes.\n* '''Cura sob demanda.''' Regeneração restaura 25% da sua vida máxima em 3 segundos.\n* '''Afinidade com a Água.''' Ficar debaixo d'água ou beber qualquer poção acelera sua regeneração de vida, Ki e estâmina.\n* '''Nocautes.''' Enquanto Assimilação estiver selecionada, seus golpes finais derrubam os inimigos em vez de matá-los.",
+  "source": "* '''Permanent growth.''' Each assimilation heals you and permanently raises your STR, SKP and PWR, up to four times.\n* '''Healing on demand.''' Regeneration restores 25% of your max health in 3 seconds.\n* '''Water Affinity.''' Being underwater or drinking any potion speeds up your health, Ki and stamina regeneration.\n* '''Knockdowns.''' While Assimilation is selected, your finishing blows knock enemies down instead of killing them.\n* '''Darkness Eye Beam.''' Only Namekians can equip [[Special:MyLanguage/Piccolo|Piccolo]]'s Darkness Eye Beam, a strike combo that costs 11,000 TP (see [[Special:MyLanguage/Strike Attacks|Strike Attacks]]).",
+  "translation": "* '''Crescimento permanente.''' Cada assimilação cura você e aumenta permanentemente seus STR, SKP e PWR, até quatro vezes.\n* '''Cura sob demanda.''' Regeneração restaura 25% da sua vida máxima em 3 segundos.\n* '''Afinidade com a Água.''' Ficar debaixo d'água ou beber qualquer poção acelera sua regeneração de vida, Ki e estâmina.\n* '''Nocautes.''' Enquanto Assimilação estiver selecionada, seus golpes finais derrubam os inimigos em vez de matá-los.\n* '''Raio Ocular das Trevas.''' Só os Namekuseijins podem equipar o Raio Ocular das Trevas do [[Special:MyLanguage/Piccolo|Piccolo]], um combo de golpes que custa 11,000 TP (veja [[Special:MyLanguage/Strike Attacks|Ataques de Golpe]]).",
   "outdated": false
  },
  "10": {
@@ -92,6 +92,11 @@
  "18": {
   "source": "Being underwater or drinking any potion boosts your health, Ki and stamina regeneration by '''25%''' for '''5 seconds'''.",
   "translation": "Ficar debaixo d'água ou beber qualquer poção aumenta sua regeneração de vida, Ki e estâmina em '''25%''' por '''5 segundos'''.",
+  "outdated": false
+ },
+ "52": {
+  "source": "While you hold G, the target slowly turns pale. Once it is absorbed, it dissolves in strips that stream into you, and lightning crackles around you for 3 seconds. These effects are not shown while an Iris shaderpack is in use.",
+  "translation": "Enquanto você segura G, o alvo vai ficando pálido. Quando é absorvido, ele se desfaz em tiras que fluem até você, e raios envolvem você por 3 segundos. Esses efeitos não aparecem enquanto você usa um shaderpack do Iris.",
   "outdated": false
  },
  "19": {
@@ -150,8 +155,8 @@
   "outdated": false
  },
  "51": {
-  "source": "Back to normal size: a bulky, muscular evil Namekian with red eyes, red lightning and a dark red glowing outline.",
-  "translation": "De volta ao tamanho normal: um Namekuseijin maligno corpulento e musculoso, com olhos vermelhos, raios vermelhos e um contorno brilhante vermelho-escuro.",
+  "source": "Back to normal size: a bulky, muscular evil Namekian with red eyes, red lightning and a dark red outline with flames.",
+  "translation": "De volta ao tamanho normal: um Namekuseijin maligno corpulento e musculoso, com olhos vermelhos, raios vermelhos e um contorno vermelho-escuro com chamas.",
   "outdated": false
  },
  "41": {

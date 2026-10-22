@@ -1,0 +1,57 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Hostile, wild enemy; tournament fighter</translate>
+|Dimension={{L|Earth}}
+|Spawns=<translate><!--T:2--> Badlands, mountains, hills, the Rocky biome and biomes with savanna villages, under open sky; rare and always alone</translate>
+|Behavior=<translate><!--T:3--> Attacks on sight; can't fly; Novice AI</translate>
+|Health=180
+|Damage=14
+|Drops=<translate><!--T:4--> Raw Dino Tail, Raw Dino Meat</translate>
+}}
+<translate>
+<!--T:5-->
+'''Giran''' is the winged monster of the World Martial Arts Tournament. A huge wild Giran roams the lands of [[Special:MyLanguage/Earth|Earth]] where the [[Special:MyLanguage/Dinosaurs|dinosaurs]] live, and the tournament fighter is one of the contenders of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]].
+</translate>
+
+<translate>
+== Spawning == <!--T:6-->
+
+<!--T:7-->
+The wild Giran spawns in the same biomes as the dinosaurs: badlands, mountains, hills, the DMZ '''Rocky''' biome and biomes with savanna villages (spawn weight 6, always alone). It is a '''wild enemy''': it spawns on the surface under open sky, day or night, away from torches and other light, and never in Peaceful (see [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]]). It is rare: only 20% of its natural spawn attempts succeed, and it never spawns within 64 blocks of another Giran. In Creative, the '''Giran Spawn Egg''' spawns a wild Giran.
+</translate>
+
+<translate>
+== Behavior == <!--T:8-->
+
+<!--T:9-->
+The wild Giran is bigger than the tournament fighter: 1.56 times the normal size, with a hitbox 1.2 blocks wide and 2.9 blocks tall. It can't fly, attacks on sight and fights on the '''Novice''' AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]). It shrugs off 60% of the knockback it takes.
+</translate>
+
+<translate>
+== Drops == <!--T:10-->
+
+<!--T:11-->
+* 0–1 '''Raw Dino Tail''' (cooks if on fire, +0–1 Looting)
+* 1–3 '''Raw Dino Meat''' (cooks if on fire, +0–1 Looting)
+</translate>
+
+<translate>
+== In the tournament == <!--T:12-->
+</translate>
+{{Main|World Martial Arts Tournament}}
+<translate>
+<!--T:13-->
+The tournament Giran, a separate and smaller fighter, is one of the contenders who can be drawn for the qualifier rounds of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]. Each run draws its contenders at random, so he isn't in every bracket. His stats come from the seat he is drawn into: by default a contender has between 147,000 and 392,000 health, 6,100 to 16,300 melee damage and 5,500 to 14,700 ki damage, fights on the Smart or Elite AI tier, and gets 8% stronger for every round already played. The tournament is non-lethal. See [[Special:MyLanguage/Tournaments|Tournaments]] for how bouts work.
+</translate>
+
+<translate>
+== In the story == <!--T:14-->
+
+<!--T:15-->
+In the [[Special:MyLanguage/Classic Saga|Classic Saga]] quest '''Tournament: Giran''', he is your first opponent at the 21st World Martial Arts Tournament.
+</translate>
+
+{{Note|type=config|title=<translate><!--T:16--> Entity ids</translate>|<translate><!--T:17--> <code>dragonminez:giran</code> (wild) and <code>dragonminez:saga_giran</code> (tournament and story)</translate>}}
+
+{{Navbox Bestiary}}
+[[Category:Hostile mobs{{#translation:}}]]
+[[Category:Tournament fighters{{#translation:}}]]

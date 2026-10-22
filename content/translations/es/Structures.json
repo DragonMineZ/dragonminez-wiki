@@ -54,6 +54,11 @@
   "translation": "El ring de Cell, sede de los Juegos de Cell.",
   "outdated": false
  },
+ "135": {
+  "source": "An ocean island with the World Martial Arts Tournament, Master Tien and Mr. Satan.",
+  "translation": "Una isla en el océano con el Torneo de Artes Marciales, el Maestro Ten Shin Han y el Sr. Satán.",
+  "outdated": false
+ },
  "11": {
   "source": "Babidi's ship, where the Majin mark is given.",
   "translation": "La nave de Babidi, donde se otorga el sello Majin.",
@@ -82,6 +87,11 @@
  "16": {
   "source": "A crashed Saiyan pod that starts the Saiyan Assault raid.",
   "translation": "Una nave saiyajin estrellada que inicia la incursión Asalto Saiyajin.",
+  "outdated": false
+ },
+ "141": {
+  "source": "A Red Ribbon Army base whose commander starts the Red Ribbon Army Assault raid.",
+  "translation": "Una base de la Patrulla Roja cuyo comandante inicia la incursión Asalto de la Patrulla Roja.",
   "outdated": false
  },
  "17": {
@@ -229,6 +239,16 @@
   "translation": "Cell; arena de torneo",
   "outdated": false
  },
+ "136": {
+  "source": "Oceans, on an island of its own (one per world)",
+  "translation": "Océanos, en una isla propia (una por mundo)",
+  "outdated": false
+ },
+ "137": {
+  "source": "The World Tournament Announcer, [[Special:MyLanguage/Mr. Satan|Mr. Satan]], [[Special:MyLanguage/Master Tien|Master Tien]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]]; tournament arena",
+  "translation": "El Presentador del Torneo de Artes Marciales, el [[Special:MyLanguage/Mr. Satan|Sr. Satán]], el [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]] y [[Special:MyLanguage/Chiaotzu|Chaozu]]; arena de torneo",
+  "outdated": false
+ },
  "46": {
   "source": "Mountains",
   "translation": "Montañas",
@@ -267,6 +287,21 @@
  "53": {
   "source": "Saiyan Assault raid site",
   "translation": "Lugar de incursión del Asalto Saiyajin",
+  "outdated": false
+ },
+ "142": {
+  "source": "'''Red Ribbon base'''",
+  "translation": "'''Base de la Patrulla Roja'''",
+  "outdated": false
+ },
+ "143": {
+  "source": "Plains, Sunflower Plains and Savanna; spread out (at most one per 32 × 32 chunks), at least 8 chunks from villages",
+  "translation": "Llanuras, llanuras de girasoles y sabanas; dispersas (como mucho una cada 32 × 32 chunks), a al menos 8 chunks de las aldeas",
+  "outdated": false
+ },
+ "144": {
+  "source": "A Red Ribbon garrison (16 soldiers, 3 robots) and its commander; raid site of the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]]",
+  "translation": "Una guarnición de la Patrulla Roja (16 soldados, 3 robots) y su comandante; lugar de incursión del [[Special:MyLanguage/Red Ribbon Army Assault|Asalto de la Patrulla Roja]]",
   "outdated": false
  },
  "54": {
@@ -419,6 +454,11 @@
   "translation": "La estructura de cada maestro se coloca '''una vez por mundo''' y solo en sus biomas, así que las estructuras no aparecen unas encima de otras. Antes de colocar una, DragonMineZ revisa el bioma, el agua y la pendiente en toda la superficie que ocupa la estructura y se queda con el mejor lugar que encuentra. Luego, los edificios de superficie se '''ajustan al terreno''': se elige la mejor rotación, el edificio se asienta sobre el suelo a su alrededor y el terreno debajo y alrededor de su base se rellena o se recorta, para que las casas no abran agujeros cuadrados en las colinas ni queden sobre muros de bloques de relleno. El [[Special:MyLanguage/Dr. Gero's Lab|Laboratorio del Dr. Gero]] y la [[Special:MyLanguage/Babidi's Spaceship|Nave de Babidi]], que llegan bajo tierra, conservan su propia colocación.",
   "outdated": false
  },
+ "138": {
+  "source": "The [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island is placed differently: it needs an ocean site that is at least 98% water and away from Ocean Monuments, always faces the same way, and is built step by step as players come within about 200 blocks, because it is too big to place at once.",
+  "translation": "La isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]] se coloca de otra forma: necesita un lugar en el océano que sea al menos un 98% agua y esté lejos de los Monumentos oceánicos, siempre mira hacia el mismo lado y se construye por partes a medida que los jugadores se acercan a unos 200 bloques, porque es demasiado grande para colocarse de una sola vez.",
+  "outdated": false
+ },
  "84": {
   "source": "Some structures have NPCs living in them besides their master, such as '''Chi-Chi''' in [[Special:MyLanguage/Goku's House|Goku's House]]. Each one spawns once per structure, also in structures generated before it was added, and doesn't come back if it dies. Server owners can add their own with a datapack (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).",
   "translation": "Algunas estructuras tienen NPCs que viven en ellas además de su maestro, como '''Chi-Chi''' en la [[Special:MyLanguage/Goku's House|Casa de Goku]]. Cada uno aparece una vez por estructura, incluso en estructuras generadas antes de que se añadiera, y no vuelve si muere. Los dueños de servidores pueden añadir los suyos con un datapack (consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]]).",
@@ -435,8 +475,8 @@
   "outdated": false
  },
  "87": {
-  "source": "Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters only appear in newly generated chunks.",
-  "translation": "Las estructuras únicas que se añadieron en una actualización (por ejemplo, el Palacio de la Adivina Baba, el Árbol del Poder o la Gran Estrella Gete) igual aparecen en los mundos creados antes de ella. Si el lugar que DragonMineZ planeó para ellas ya está generado, la estructura se coloca allí cuando un jugador carga ese chunk. El Árbol del Poder y la Gran Estrella Gete son demasiado grandes para colocarse de una vez, así que se van completando poco a poco (el árbol crece a la vista). Los chunks donde los jugadores pasaron más de una hora se omiten, así que las bases nunca se sobrescriben. Los Cráteres saiyajin solo aparecen en chunks recién generados.",
+  "source": "Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters and Red Ribbon bases only appear in newly generated chunks.",
+  "translation": "Las estructuras únicas que se añadieron en una actualización (por ejemplo, el Palacio de la Adivina Baba, el Árbol del Poder o la Gran Estrella Gete) igual aparecen en los mundos creados antes de ella. Si el lugar que DragonMineZ planeó para ellas ya está generado, la estructura se coloca allí cuando un jugador carga ese chunk. El Árbol del Poder y la Gran Estrella Gete son demasiado grandes para colocarse de una vez, así que se van completando poco a poco (el árbol crece a la vista). Los chunks donde los jugadores pasaron más de una hora se omiten, así que las bases nunca se sobrescriben. Los Cráteres saiyajin y las bases de la Patrulla Roja solo aparecen en chunks recién generados.",
   "outdated": false
  },
  "88": {
@@ -445,8 +485,8 @@
   "outdated": false
  },
  "89": {
-  "source": "* '''Master structures''' (every structure that is a master's home, plus the Time Chamber) can't be damaged by ki attacks unless the gamerule <code>allowKiGriefingMasterStructures</code> is <code>true</code> (default <code>false</code>).\n* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).\n* Some lairs have their own unbreakable parts: the wood and roots of the [[Special:MyLanguage/Tree of Might|Tree of Might]] and the hull of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].",
-  "translation": "* Las '''estructuras de maestros''' (toda estructura que es el hogar de un maestro, más la Cámara del Tiempo) no pueden ser dañadas por ataques de ki, a menos que la gamerule <code>allowKiGriefingMasterStructures</code> sea <code>true</code> (por defecto <code>false</code>).\n* En las '''arenas de torneo''' (el [[Special:MyLanguage/Fortuneteller Baba's Palace|Palacio de la Adivina Baba]], la [[Special:MyLanguage/Cell Arena|Arena de Cell]] y el recinto del Torneo del Otro Mundo) no pueden construir ni romper bloques los jugadores en modo supervivencia o aventura, ni las explosiones ni los mobs, a menos que la gamerule <code>allowBuildingInArenaStructures</code> sea <code>true</code> (por defecto <code>false</code>).\n* Algunas guaridas tienen sus propias partes indestructibles: la madera y las raíces del [[Special:MyLanguage/Tree of Might|Árbol del Poder]] y el casco de la [[Special:MyLanguage/Big Gete Star|Gran Estrella Gete]].",
+  "source": "* '''Master structures''' (every structure that is a master's home, plus the Time Chamber) can't be damaged by ki attacks unless the gamerule <code>allowKiGriefingMasterStructures</code> is <code>true</code> (default <code>false</code>).\n* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], the Otherworld Tournament grounds and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).\n* Some lairs have their own unbreakable parts: the wood and roots of the [[Special:MyLanguage/Tree of Might|Tree of Might]] and the hull of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].",
+  "translation": "* Las '''estructuras de maestros''' (toda estructura que es el hogar de un maestro, más la Cámara del Tiempo) no pueden ser dañadas por ataques de ki, a menos que la gamerule <code>allowKiGriefingMasterStructures</code> sea <code>true</code> (por defecto <code>false</code>).\n* En las '''arenas de torneo''' (el [[Special:MyLanguage/Fortuneteller Baba's Palace|Palacio de la Adivina Baba]], la [[Special:MyLanguage/Cell Arena|Arena de Cell]], el recinto del Torneo del Otro Mundo y la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]]) no pueden construir ni romper bloques los jugadores en modo supervivencia o aventura, ni las explosiones ni los mobs, a menos que la gamerule <code>allowBuildingInArenaStructures</code> sea <code>true</code> (por defecto <code>false</code>).\n* Algunas guaridas tienen sus propias partes indestructibles: la madera y las raíces del [[Special:MyLanguage/Tree of Might|Árbol del Poder]] y el casco de la [[Special:MyLanguage/Big Gete Star|Gran Estrella Gete]].",
   "outdated": false
  },
  "90": {
@@ -564,6 +604,16 @@
   "translation": "1 Chip del Radar (Tierra) de nivel 1",
   "outdated": false
  },
+ "139": {
+  "source": "Capsule Corp Assistant, tier 3 (always offered)",
+  "translation": "Asistente de la Corporación Cápsula, nivel 3 (siempre disponible)",
+  "outdated": false
+ },
+ "140": {
+  "source": "4 Gold Ingots",
+  "translation": "4 Lingotes de oro",
+  "outdated": false
+ },
  "113": {
   "source": "Capsule Corp Assistant, tier 4",
   "translation": "Asistente de la Corporación Cápsula, nivel 4",
@@ -670,8 +720,8 @@
   "outdated": false
  },
  "134": {
-  "source": "Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace map is offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.",
-  "translation": "Todo mapa de la Corporación Cápsula también cuesta un mapa en blanco, y cada uno de esos intercambios de mapas se puede usar hasta 8 veces (también los de la Corporación Cápsula Namekiana). El mapa del Palacio de la Adivina Baba lo ofrece todo Asistente de la Corporación Cápsula de nivel 3 o superior, y el de la Casa de Majin Buu, todo asistente de nivel 5; se añaden la próxima vez que abres sus intercambios, así que los asistentes que subieron de nivel antes también los reciben. Los mapas del Comerciante Namekiano y del Patrullero del Tiempo tienen 4 usos cada uno. Consulta las páginas de los NPCs en el [[Special:MyLanguage/Bestiary|Bestiario]] para ver sus otros intercambios.",
+  "source": "Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace and World Martial Arts Tournament maps are offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.",
+  "translation": "Todo mapa de la Corporación Cápsula también cuesta un mapa en blanco, y cada uno de esos intercambios de mapas se puede usar hasta 8 veces (también los de la Corporación Cápsula Namekiana). Los mapas del Palacio de la Adivina Baba y del Torneo de Artes Marciales los ofrece todo Asistente de la Corporación Cápsula de nivel 3 o superior, y el de la Casa de Majin Buu, todo asistente de nivel 5; se añaden la próxima vez que abres sus intercambios, así que los asistentes que subieron de nivel antes también los reciben. Los mapas del Comerciante Namekiano y del Patrullero del Tiempo tienen 4 usos cada uno. Consulta las páginas de los NPCs en el [[Special:MyLanguage/Bestiary|Bestiario]] para ver sus otros intercambios.",
   "outdated": false
  }
 }

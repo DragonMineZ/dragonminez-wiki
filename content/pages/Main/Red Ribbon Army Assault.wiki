@@ -1,0 +1,105 @@
+{{Infobox Raid
+|quote=<translate><!--T:1--> Send every soldier we have! Nobody humiliates the Red Ribbon Army!</translate>
+|Raid id=red_ribbon_assault
+|Dimension={{L|Earth}}
+|Raid site=<translate><!--T:2--> Red Ribbon base: an army base held by Red Ribbon soldiers, robots and their commander</translate>
+|Waves=5
+|Bosses=<translate><!--T:3--> Colonel Silver (wave 3); Sergeant Metallic and Ninja Murasaki (wave 4); General Blue and General Black's Robot (wave 5)</translate>
+|Scout health=150
+|Scout melee=8
+|Scout ki=0
+|Rewards=<translate><!--T:4--> 5,700 TP, Hero of the Village and Hero of the World (10 min), 8 Golden Carrots, 2 Senzu Beans, 1 Red Capsule, 1 Blue Capsule</translate>
+|Defeat penalty=<translate><!--T:5--> −5 alignment</translate>
+}}
+<translate>
+<!--T:6-->
+The '''Red Ribbon Army Assault''' is a raid of [[Special:MyLanguage/Earth|Earth]] and the easiest of the four raids. Kill the commander of a Red Ribbon base and General Red sends the whole [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] after you: five waves of soldiers and robots, led by '''Colonel Silver''', then '''Sergeant Metallic''' and '''Ninja Murasaki''', and finally '''General Blue''' and '''General Black's Robot'''.
+</translate>
+
+<translate>
+== Finding a Red Ribbon base == <!--T:7-->
+
+<!--T:8-->
+'''Red Ribbon bases''' are large army bases (84 × 146 blocks, 23 blocks high) found in the Plains, Sunflower Plains and Savanna biomes of the Overworld. They are spread out (at most one in every 32 × 32 chunk area, at least 16 chunks apart) and kept at least 8 chunks away from villages, and they only appear in newly generated chunks. Use <code>/dmzlocate red_ribbon_base</code> to find the nearest one; no villager sells a map to them. Bases have no build or ki protection. They are not the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a separate outpost that keeps spawning soldiers. See [[Special:MyLanguage/Structures|Structures]].
+</translate>
+
+<translate>
+== The garrison == <!--T:9-->
+
+<!--T:10-->
+When you come within 80 blocks of a base, its garrison appears and you get a warning: ''"You spot a Red Ribbon Army base nearby... its commander must be inside the headquarters."''. The garrison is 16 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]] and 3 Red Ribbon Robots posted around the base, plus the '''Red Ribbon Commander''' inside the headquarters: a named Red Ribbon's Soldier with 150 health and 8 melee damage. All of them show the purple supervillain tint and outline and don't despawn. Each guard stays within 12 blocks of its post, and the commander within 10 blocks of his. The garrison doesn't appear in Peaceful.
+</translate>
+
+<translate>
+== Starting the raid == <!--T:11-->
+
+<!--T:12-->
+Kill the commander. The player who kills him (or the nearest player within 48 blocks, if nobody gets the credit) receives the '''Hunted''' effect for 60 seconds, and the alarm goes off: ''"The alarm is blaring! The whole Red Ribbon Army is mobilizing against you!"''. When Hunted runs out, the raid starts where you stand and General Red gives the order: ''"Send every soldier we have! Nobody humiliates the Red Ribbon Army!"''. Drinking milk to remove Hunted calls the raid off. Each base can start only one raid: once its commander is dead, the base is spent. The full flow is explained on [[Special:MyLanguage/Raids#How a raid plays out|Raids]].
+</translate>
+
+<translate>
+== Waves == <!--T:13-->
+
+<!--T:14-->
+Stats are the defaults, before the story difficulty multiplier of the player who started the raid. The soldiers and robots spawn on the ground around you and fight like the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] mobs outside raids, so the AI tiers don't apply to them; each robot is one of the three robot models, drawn at random. The bosses drop in from above and stay dormant until the soldiers and robots of their wave are dead.
+</translate>
+{| class="wikitable"
+! <translate><!--T:15--> Wave</translate> !! <translate><!--T:16--> Enemies</translate> !! <translate><!--T:17--> Health / melee / ki</translate> !! <translate><!--T:18--> AI tier</translate>
+|-
+| 1 || <translate><!--T:19--> 8 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]</translate> || 60 / 6 / 0 || —
+|-
+| rowspan="2" | 2 || <translate><!--T:20--> 10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]</translate> || 70 / 7 / 0 || —
+|-
+| <translate><!--T:21--> 3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]</translate> || 150 / 10 / 0 || —
+|-
+| rowspan="2" | 3 || <translate><!--T:22--> 10 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]</translate> || 80 / 8 / 0 || —
+|-
+| <translate><!--T:23--> '''Colonel Silver''' (boss)</translate> || 560 / 26 / 10 || <translate><!--T:24--> Smart</translate>
+|-
+| rowspan="4" | 4 || <translate><!--T:25--> 12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]</translate> || 90 / 9 / 0 || —
+|-
+| <translate><!--T:26--> 3 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Robots]]</translate> || 170 / 12 / 0 || —
+|-
+| <translate><!--T:27--> '''Sergeant Metallic''' (boss)</translate> || 740 / 36 / 0 || <translate><!--T:28--> Smart</translate>
+|-
+| <translate><!--T:29--> '''Ninja Murasaki''' (boss)</translate> || 640 / 31 / 12 || <translate><!--T:30--> Smart</translate>
+|-
+| rowspan="3" | 5 || <translate><!--T:31--> 12 [[Special:MyLanguage/Red Ribbon Army|Red Ribbon's Soldiers]]</translate> || 100 / 10 / 0 || —
+|-
+| <translate><!--T:32--> '''General Blue''' (boss)</translate> || 820 / 38 / 20 || <translate><!--T:33--> Smart</translate>
+|-
+| <translate><!--T:34--> '''General Black's Robot''' (boss)</translate> || 1,100 / 54 / 45 || <translate><!--T:35--> Elite</translate>
+|}
+
+<translate>
+== Bosses == <!--T:36-->
+
+<!--T:37-->
+None of the bosses can fly. '''Ninja Murasaki''' carries a katana and steps out of the way of attacks every so often; after landing three hits he runs away from you for 3 seconds. '''Sergeant Metallic''' is a big robot, 1.4 times the normal size, and '''General Blue''' attacks twice as fast as a normal fighter. '''General Black's Robot''' is the strongest enemy of the raid and the only one on the Elite AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+<translate>
+== Rewards == <!--T:38-->
+
+<!--T:39-->
+Every participant still fighting when the last wave is cleared gets:
+* '''5,700 TP'''
+* '''Hero of the Village''' and '''Hero of the World''' for 10 minutes (see [[Special:MyLanguage/Effects|Effects]])
+* 8 [[Special:MyLanguage/Golden Carrot|Golden Carrots]], 2 [[Special:MyLanguage/Senzu Bean|Senzu Beans]], 1 [[Special:MyLanguage/Capsules|Red Capsule]] (STR) and 1 [[Special:MyLanguage/Capsules|Blue Capsule]] (ENE)
+</translate>
+
+<translate>
+== Defeat == <!--T:40-->
+
+<!--T:41-->
+If every participant falls or leaves, the raid is lost: the remaining soldiers vanish, everyone sees ''"You couldn't stop the Red Ribbon Army..."'' and loses '''5 alignment''' (see [[Special:MyLanguage/Alignment|Alignment]]).
+</translate>
+
+<translate>
+== Configuration == <!--T:42-->
+
+<!--T:43-->
+The raid's trigger, waves and rewards are defined in <code>config/dragonminez/raids/red_ribbon_assault.json</code>; the fields are explained on [[Special:MyLanguage/Raids#Configuration|Raids]]. Operators can start the raid anywhere with <code>/dmzraid start red_ribbon_assault</code> (see [[Special:MyLanguage/Commands|Commands]]).
+</translate>
+
+{{Navbox Challenges}}

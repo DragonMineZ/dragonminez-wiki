@@ -34,6 +34,7 @@
 <!--T:18-->
 * Rewards depend on how long you train, the level you reach and your grade (performance), and they scale with your current '''TP cost per stat point''', so they stay worthwhile as you grow.
 * The server checks every run, so rewards can't be faked.
+* Doing anything else while a minigame is open (melee, ki blasts, strike attacks, other techniques, attacking, breaking or placing blocks, using items or crafting) cancels the run and pays '''0 TP'''.
 * There is no per-game TP cap by default.
 * The Progression TP boost doesn't apply to minigames, since they already scale with your stat cost. Your other TP boosts do; see [[Special:MyLanguage/Training Points and Mastery|Training Points and Mastery]].
 </translate>

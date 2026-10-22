@@ -10,8 +10,8 @@
   "outdated": false
  },
  "2": {
-  "source": "Biomes with savanna, plains or snowy villages, and inside the Red Ribbon Tower",
-  "translation": "Biomas com vilas de savana, de planície ou nevadas, e dentro da Torre da Red Ribbon",
+  "source": "Biomes with savanna, plains or snowy villages, inside the Red Ribbon Tower, and as the garrison of Red Ribbon bases",
+  "translation": "Biomas com vilas de savana, de planície ou nevadas, dentro da Torre da Red Ribbon e como guarnição das bases da Red Ribbon",
   "outdated": false
  },
  "3": {
@@ -30,8 +30,8 @@
   "outdated": false
  },
  "6": {
-  "source": "The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike.",
-  "translation": "O '''Exército Red Ribbon''' coloca em campo soldados e robôs que patrulham as terras ao redor das vilas da [[Special:MyLanguage/Earth|Terra]] e guarnecem a [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]], que continua gerando-os dentro de suas muralhas. Eles atacam jogadores e aldeões sem distinção.",
+  "source": "The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike. They also guard the Red Ribbon bases, whose commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid.",
+  "translation": "O '''Exército Red Ribbon''' coloca em campo soldados e robôs que patrulham as terras ao redor das vilas da [[Special:MyLanguage/Earth|Terra]] e guarnecem a [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]], que continua gerando-os dentro de suas muralhas. Eles atacam jogadores e aldeões sem distinção. Eles também guardam as bases da Red Ribbon, cujo comandante inicia a incursão [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]].",
   "outdated": false
  },
  "7": {
@@ -117,6 +117,16 @@
  "21": {
   "source": "Soldiers and robots are '''wild enemies''': out in the open they spawn under open sky, day or night, away from torches and other light. The [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a Red Ribbon outpost found in most land biomes, also spawns them indoors in dim spots (block light 7 or less), and vanilla monsters don't spawn in it. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]] and [[Special:MyLanguage/Structures|Structures]].",
   "translation": "Soldados e robôs são '''inimigos selvagens''': ao ar livre, surgem a céu aberto, de dia ou de noite, longe de tochas e outras luzes. A [[Special:MyLanguage/Red Ribbon Tower|Torre da Red Ribbon]], um posto avançado da Red Ribbon encontrado na maioria dos biomas terrestres, também os gera em ambientes internos, em pontos escuros (luz de bloco 7 ou menos), e os monstros vanilla não surgem nela. Veja [[Special:MyLanguage/Bestiary#How wild enemies spawn|como surgem os inimigos selvagens]] e [[Special:MyLanguage/Structures|Estruturas]].",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Red Ribbon bases ==",
+  "translation": "== Bases da Red Ribbon ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "'''Red Ribbon bases''' are large army bases in the Plains, Sunflower Plains and Savanna biomes of the Overworld; find the nearest one with <code>/dmzlocate red_ribbon_base</code>. When you come within 80 blocks, a garrison appears: 16 Red Ribbon's Soldiers and 3 robots posted around the base, each staying within 12 blocks of its post, and the '''Red Ribbon Commander''' inside the headquarters, a named soldier with 150 health and 8 melee damage. The garrison shows the purple supervillain tint and outline and doesn't despawn. Killing the commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid: five waves of soldiers and robots led by Colonel Silver, Sergeant Metallic, Ninja Murasaki, General Blue and General Black's Robot.",
+  "translation": "As '''bases da Red Ribbon''' são grandes bases militares nos biomas Planície, Planície de girassóis e Savana do Overworld; encontre a mais próxima com <code>/dmzlocate red_ribbon_base</code>. Quando você chega a menos de 80 blocos, uma guarnição aparece: 16 Soldados da Red Ribbon e 3 robôs posicionados pela base, cada um a menos de 12 blocos do seu posto, e o '''Comandante do Exército Red Ribbon''' dentro do quartel-general, um soldado com nome próprio, 150 de vida e 8 de dano corpo a corpo. A guarnição mostra o tom e o contorno roxos de supervilão e não desaparece. Matar o comandante inicia a incursão [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]]: cinco ondas de soldados e robôs lideradas pelo Coronel Silver, pelo Sargento Metallic, pelo Ninja Murasaki, pelo General Blue e pelo Robô do General Black.",
   "outdated": false
  },
  "22": {

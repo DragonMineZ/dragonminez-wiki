@@ -515,8 +515,8 @@
   "outdated": false
  },
  "103": {
-  "source": "The player needs at least this alignment to talk to the NPC. Even if the NPC isn't hostile, a low enough alignment still blocks interaction. It can also be written directly on the rule, without the <code>interaction</code> wrapper.",
-  "translation": "El jugador necesita al menos este alineamiento para hablar con el NPC. Aunque el NPC no sea hostil, un alineamiento lo bastante bajo sigue bloqueando la interacción. También se puede escribir directamente en la regla, sin el contenedor <code>interaction</code>.",
+  "source": "Below this alignment the NPC still talks to the player, but greets them coldly, and its side quests show as locked (saga quests, quests with their own alignment condition and quests already in progress stay available). It can also be written directly on the rule, without the <code>interaction</code> wrapper.",
+  "translation": "Por debajo de este alineamiento el NPC sigue hablando con el jugador, pero lo saluda con frialdad, y sus misiones secundarias aparecen bloqueadas (las misiones de saga, las que tienen su propia condición de alineamiento y las que ya están en curso siguen disponibles). También se puede escribir directamente en la regla, sin el contenedor <code>interaction</code>.",
   "outdated": false
  },
  "104": {
@@ -530,8 +530,8 @@
   "outdated": false
  },
  "106": {
-  "source": "All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he is present but won't talk (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and can be talked to.",
-  "translation": "Los cuatro campos de umbral son opcionales: omite los que no apliquen. Tomando como ejemplo la entrada <code>goku</code> de arriba: con menos de 25 de alineamiento, Goku es hostil; de 25 a 60 está presente pero no habla (el alineamiento está por debajo del <code>min_alignment</code> de 61); con 61 o más es amistoso y se puede hablar con él.",
+  "source": "All four threshold fields are optional: leave out whichever don't apply. Reading the <code>goku</code> entry above as an example: below 25 alignment Goku is hostile; from 25 to 60 he still talks to you, but coldly, and his side quests stay locked (the alignment is under the <code>min_alignment</code> of 61); at 61 or more he is friendly and everything is open.",
+  "translation": "Los cuatro campos de umbral son opcionales: omite los que no apliquen. Tomando como ejemplo la entrada <code>goku</code> de arriba: con menos de 25 de alineamiento, Goku es hostil; de 25 a 60 sigue hablando contigo, pero con frialdad, y sus misiones secundarias siguen bloqueadas (el alineamiento está por debajo del <code>min_alignment</code> de 61); con 61 o más es amistoso y todo queda disponible.",
   "outdated": false
  },
  "107": {

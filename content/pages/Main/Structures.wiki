@@ -13,12 +13,14 @@ DragonMineZ generates landmark structures across its worlds. Most of them are th
 {{Card|Dr. Gero's Lab|<translate><!--T:8--> Where Humans can become Androids.</translate>}}
 {{Card|Fortuneteller Baba's Palace|<translate><!--T:9--> Baba's palace rising from the sea, and her tournament.</translate>}}
 {{Card|Cell Arena|<translate><!--T:10--> Cell's ring, home of the Cell Games.</translate>}}
+{{Card|World Martial Arts Tournament|<translate><!--T:135--> An ocean island with the World Martial Arts Tournament, Master Tien and Mr. Satan.</translate>}}
 {{Card|Babidi's Spaceship|<translate><!--T:11--> Babidi's ship, where the Majin mark is given.</translate>}}
 {{Card|Trunks' Ship|<translate><!--T:12--> Trunks' time machine.</translate>}}
 {{Card|Vegeta's Saiyan Pod|<translate><!--T:13--> Vegeta and Bulma, at a crashed Saiyan pod.</translate>}}
 {{Card|Red Ribbon Tower|<translate><!--T:14--> A Red Ribbon outpost that keeps spawning soldiers and robots.</translate>}}
 {{Card|Tree of Might|<translate><!--T:15--> A giant tree in the swamps and the lair of Turles.</translate>}}
 {{Card|Saiyan Crater|<translate><!--T:16--> A crashed Saiyan pod that starts the Saiyan Assault raid.</translate>}}
+{{Card|Red Ribbon Army Assault|<translate><!--T:141--> A Red Ribbon Army base whose commander starts the Red Ribbon Army Assault raid.</translate>}}
 {{Card|Frieza's Ship|<translate><!--T:17--> Frieza's ship on the Ajissa Plains of Namek.</translate>}}
 {{Card|Grand Elder's House|<translate><!--T:18--> Grand Elder Guru's home in the Sacred Land of Namek.</translate>}}
 {{Card|Namekian Village|<translate><!--T:19--> Namekian traders and warriors on Namek.</translate>}}
@@ -54,6 +56,8 @@ DragonMineZ generates landmark structures across its worlds. Most of them are th
 |-
 | {{L|Cell Arena}} || <code>cell_arena</code> || {{L|Earth}} || <translate><!--T:44--> Plains</translate> || <translate><!--T:45--> Cell; tournament arena</translate>
 |-
+| {{L|World Martial Arts Tournament}} || <code>budokai_tenkaichi</code> || {{L|Earth}} || <translate><!--T:136--> Oceans, on an island of its own (one per world)</translate> || <translate><!--T:137--> The World Tournament Announcer, [[Special:MyLanguage/Mr. Satan|Mr. Satan]], [[Special:MyLanguage/Master Tien|Master Tien]] and [[Special:MyLanguage/Chiaotzu|Chiaotzu]]; tournament arena</translate>
+|-
 | {{L|Babidi's Spaceship}} || <code>babidi</code> || {{L|Earth}} || <translate><!--T:46--> Mountains</translate> || {{L|Babidi}}
 |-
 | {{L|Trunks' Ship}} || <code>trunks_ship</code> || {{L|Earth}} || <translate><!--T:47--> Land biomes</translate> || {{L|Trunks}}
@@ -63,6 +67,8 @@ DragonMineZ generates landmark structures across its worlds. Most of them are th
 | {{L|Tree of Might}} || <code>tree_of_might</code> || {{L|Earth}} || <translate><!--T:50--> Swamps, at least 1,000 blocks from 0, 0 (one per world)</translate> || <translate><!--T:51--> Lair of Turles</translate>
 |-
 | {{L|Saiyan Crater}} || <code>saiyan_crater</code> || {{L|Earth}} || <translate><!--T:52--> Anywhere on land, spread out and kept away from villages</translate> || <translate><!--T:53--> Saiyan Assault raid site</translate>
+|-
+| <translate><!--T:142--> '''Red Ribbon base'''</translate> || <code>red_ribbon_base</code> || {{L|Earth}} || <translate><!--T:143--> Plains, Sunflower Plains and Savanna; spread out (at most one per 32 × 32 chunks), at least 8 chunks from villages</translate> || <translate><!--T:144--> A Red Ribbon garrison (16 soldiers, 3 robots) and its commander; raid site of the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]]</translate>
 |-
 | {{L|Red Ribbon Tower}} || <code>rrtower</code> || {{L|Earth}} || <translate><!--T:54--> Most land biomes</translate> || <translate><!--T:55--> A Red Ribbon outpost where [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]] soldiers and robots spawn</translate>
 |-
@@ -118,6 +124,9 @@ Some services have their own alignment rules, such as Babidi's mark or the Grand
 <translate>
 <!--T:83-->
 Each master's structure is placed '''once per world''' and only in its biomes, so structures don't spawn on top of each other. Before placing one, DragonMineZ checks the biome, water and slope over the structure's whole footprint and keeps the best spot it finds. The surface buildings are then '''fitted to the terrain''': the best rotation is chosen, the building is set on the ground around it, and the land under and around its footprint is filled or trimmed, so houses don't cut square holes into hills or stand on walls of filler blocks. [[Special:MyLanguage/Dr. Gero's Lab|Dr. Gero's Lab]] and [[Special:MyLanguage/Babidi's Spaceship|Babidi's Spaceship]], which reach underground, keep their own placement.
+
+<!--T:138-->
+The [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island is placed differently: it needs an ocean site that is at least 98% water and away from Ocean Monuments, always faces the same way, and is built step by step as players come within about 200 blocks, because it is too big to place at once.
 </translate>
 
 <translate>
@@ -135,7 +144,7 @@ Server owners can turn DragonMineZ structures off entirely.
 </translate>
 <translate>
 <!--T:87-->
-Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters only appear in newly generated chunks.
+Unique structures that were added in an update (for example Fortuneteller Baba's Palace, the Tree of Might or the Big Gete Star) still show up in worlds created before it. If the spot DragonMineZ planned for them is already generated, the structure is placed there when a player loads that chunk. The Tree of Might and the Big Gete Star are too big to place at once, so they're filled in gradually (the tree visibly grows). Chunks where players have spent more than an hour are skipped, so bases are never overwritten. Saiyan Craters and Red Ribbon bases only appear in newly generated chunks.
 </translate>
 
 <translate>
@@ -145,7 +154,7 @@ Unique structures that were added in an update (for example Fortuneteller Baba's
 <translate>
 <!--T:89-->
 * '''Master structures''' (every structure that is a master's home, plus the Time Chamber) can't be damaged by ki attacks unless the gamerule <code>allowKiGriefingMasterStructures</code> is <code>true</code> (default <code>false</code>).
-* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]] and the Otherworld Tournament grounds) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).
+* '''Tournament arenas''' ([[Special:MyLanguage/Fortuneteller Baba's Palace|Fortuneteller Baba's Palace]], the [[Special:MyLanguage/Cell Arena|Cell Arena]], the Otherworld Tournament grounds and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island) can't be built in or broken by survival or adventure players, explosions or mob griefing unless the gamerule <code>allowBuildingInArenaStructures</code> is <code>true</code> (default <code>false</code>).
 * Some lairs have their own unbreakable parts: the wood and roots of the [[Special:MyLanguage/Tree of Might|Tree of Might]] and the hull of the [[Special:MyLanguage/Big Gete Star|Big Gete Star]].
 </translate>
 
@@ -191,6 +200,8 @@ Several NPCs sell treasure maps with a red X that point to the nearest structure
 |-
 | {{L|Cell Arena}} || <translate><!--T:111--> Capsule Corp Assistant, tier 3</translate> || <translate><!--T:112--> 1 Tier-1 Radar Chip</translate>
 |-
+| {{L|World Martial Arts Tournament}} || <translate><!--T:139--> Capsule Corp Assistant, tier 3 (always offered)</translate> || <translate><!--T:140--> 4 Gold Ingots</translate>
+|-
 | {{L|Dr. Gero's Lab}} || <translate><!--T:113--> Capsule Corp Assistant, tier 4</translate> || <translate><!--T:114--> 16 Iron Ingots</translate>
 |-
 | {{L|Trunks' Ship}} || <translate><!--T:115--> Capsule Corp Assistant, tier 4</translate> || <translate><!--T:116--> 1 Iron Sword</translate>
@@ -214,7 +225,7 @@ Several NPCs sell treasure maps with a red X that point to the nearest structure
 
 <translate>
 <!--T:134-->
-Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace map is offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.
+Every Capsule Corp map also costs an empty Map, and each of those map trades can be used up to 8 times (the Capsule Corp Namekian's too). The Fortuneteller Baba's Palace and World Martial Arts Tournament maps are offered by every Capsule Corp Assistant of tier 3 or higher and the Majin Buu's House map by every tier-5 assistant; they're added the next time you open its trades, so assistants that levelled up before get them too. The Namekian Trader's and the Time Patroller's maps have 4 uses each. See the NPCs' pages in the [[Special:MyLanguage/Bestiary|Bestiary]] for their other trades.
 </translate>
 
 {{Navbox Structures}}

@@ -1,6 +1,6 @@
 <translate>
 <!--T:1-->
-'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap and a roar that pushes everyone back. They activate as soon as you press the slot key and share a short lockout with each other.
+'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap, a roar that pushes everyone back, and Majin tricks that turn enemies into candy or wrap them in gum. They activate as soon as you press the slot key and share a short lockout with each other.
 </translate>
 
 <translate>
@@ -20,16 +20,29 @@
 {| class="wikitable"
 ! <translate><!--T:5--> Technique</translate> !! <translate><!--T:6--> Taught by</translate> !! <translate><!--T:7--> TP cost</translate> !! <translate><!--T:8--> Cooldown (seconds)</translate> !! <translate><!--T:9--> Effect</translate>
 |-
-| {{L|Solar Flare}} || {{L|Krillin}} || 2,000 || 45 || <translate><!--T:10--> A blinding flash: everyone within 20 blocks who can see you and is looking your way is blinded for 6–12 seconds. Blinded mobs lose their target.</translate>
+| {{L|Solar Flare}} || {{L|Krillin}}, {{L|Master Tien}} || 2,000 || 45 || <translate><!--T:10--> A blinding flash: everyone within 20 blocks who can see you and is looking your way is blinded for 6–12 seconds. Blinded mobs lose their target.</translate>
 |-
 | {{L|Afterimage}} || {{L|Master Roshi}}, {{L|Krillin}}, {{L|Cell}} || 2,500 || 10 || <translate><!--T:11--> With a locked-on target within 24 blocks, you blink around it and end up behind it; without one, you leave an afterimage behind and step a few blocks forward. Mobs targeting you within 16 blocks lose track of you.</translate>
 |-
 | '''<translate><!--T:12--> Sleep Recovery</translate>''' || {{L|Majin Buu}} || 3,000 || 60 || <translate><!--T:13--> A 7-second nap that heals 10% of your max health every second (up to 70%). You can't move, attack or use items while you sleep, and taking damage wakes you up. Only [[Special:MyLanguage/Majin|Majins]] can equip it.</translate>
+|-
+| '''<translate><!--T:27--> Candy Beam</translate>''' || {{L|Majin Buu}} || 5,000 || 30 || <translate><!--T:28--> Turns an enemy within 5 blocks in your line of sight (your locked-on target first) into candy for 3 seconds. A candied target can't attack. With no enemy close enough nothing happens and no Ki is spent. Only [[Special:MyLanguage/Majin|Majins]] can equip it.</translate>
+|-
+| '''<translate><!--T:29--> Gum Bind</translate>''' || {{L|Majin Buu}} || 9,000 || 45 || <translate><!--T:30--> Throws a Majin Gum Ball at your locked-on target within 24 blocks (otherwise where you aim) that wraps the first enemy it hits in Majin Gum. A bound target can't attack. Players stay bound for 10 seconds; other enemies for 10 seconds, or less if they are stronger than you. Only [[Special:MyLanguage/Majin|Majins]] can equip it.</translate>
 |}
 
 <translate>
 <!--T:14-->
-'''Sleep Recovery''' is a Majin technique: any race can learn it from Majin Buu, but only a Majin can equip it in a technique slot (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use it in the story: they take a 7-second nap that heals up to 60% of their max health.
+'''Sleep Recovery''', the '''Candy Beam''' and '''Gum Bind''' are Majin techniques: any race can learn them from Majin Buu, but only a Majin can equip them in a technique slot or upgrade them (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use Sleep Recovery in the story: they take a 7-second nap that heals up to 60% of their max health.
+
+=== Breaking free from Gum Bind === <!--T:31-->
+
+<!--T:32-->
+* A player wrapped in gum breaks free by mashing the '''Sneak''' key ({{Key|Shift}}): every press takes 0.25 seconds off the bind.
+* The bind also ends if the victim is knocked down or gets more than 24 blocks away from you.
+* Against other enemies, a stronger target is bound for 10 seconds × your Battle Power ÷ its Battle Power, but always at least 2 seconds.
+* [[Special:MyLanguage/World Bosses|World bosses]] and giant multi-part bosses can't be bound.
+* Majin Buu also uses Gum Bind against you in the story, and the Majin Candy attack of the bosses that use it has the same effect as the Candy Beam.
 </translate>
 
 <translate>

@@ -10,8 +10,8 @@
   "outdated": false
  },
  "2": {
-  "source": "Biomes with savanna, plains or snowy villages, and inside the Red Ribbon Tower",
-  "translation": "Biomas con aldeas de sabana, de llanura o nevadas, y dentro de la Torre de la Patrulla Roja",
+  "source": "Biomes with savanna, plains or snowy villages, inside the Red Ribbon Tower, and as the garrison of Red Ribbon bases",
+  "translation": "Biomas con aldeas de sabana, de llanura o nevadas, dentro de la Torre de la Patrulla Roja y como guarnición de las bases de la Patrulla Roja",
   "outdated": false
  },
  "3": {
@@ -30,8 +30,8 @@
   "outdated": false
  },
  "6": {
-  "source": "The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike.",
-  "translation": "El '''Ejército de la Patrulla Roja''' despliega soldados y robots que patrullan los alrededores de las aldeas de la [[Special:MyLanguage/Earth|Tierra]] y custodian la [[Special:MyLanguage/Red Ribbon Tower|Torre de la Patrulla Roja]], que no deja de generarlos dentro de sus muros. Atacan por igual a jugadores y aldeanos.",
+  "source": "The '''Red Ribbon Army''' fields soldiers and robots that patrol the land around [[Special:MyLanguage/Earth|Earth]]'s villages and garrison the [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], which keeps spawning them inside its walls. They attack players and villagers alike. They also guard the Red Ribbon bases, whose commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid.",
+  "translation": "El '''Ejército de la Patrulla Roja''' despliega soldados y robots que patrullan los alrededores de las aldeas de la [[Special:MyLanguage/Earth|Tierra]] y custodian la [[Special:MyLanguage/Red Ribbon Tower|Torre de la Patrulla Roja]], que no deja de generarlos dentro de sus muros. Atacan por igual a jugadores y aldeanos. También custodian las bases de la Patrulla Roja, cuyo comandante inicia la incursión [[Special:MyLanguage/Red Ribbon Army Assault|Asalto de la Patrulla Roja]].",
   "outdated": false
  },
  "7": {
@@ -117,6 +117,16 @@
  "21": {
   "source": "Soldiers and robots are '''wild enemies''': out in the open they spawn under open sky, day or night, away from torches and other light. The [[Special:MyLanguage/Red Ribbon Tower|Red Ribbon Tower]], a Red Ribbon outpost found in most land biomes, also spawns them indoors in dim spots (block light 7 or less), and vanilla monsters don't spawn in it. See [[Special:MyLanguage/Bestiary#How wild enemies spawn|how wild enemies spawn]] and [[Special:MyLanguage/Structures|Structures]].",
   "translation": "Los soldados y los robots son '''enemigos salvajes''': al aire libre aparecen a cielo abierto, de día o de noche, lejos de las antorchas y otras luces. La [[Special:MyLanguage/Red Ribbon Tower|Torre de la Patrulla Roja]], un puesto de avanzada de la Patrulla Roja que se encuentra en la mayoría de los biomas terrestres, también los genera en interiores en zonas oscuras (luz de bloque 7 o menos), y los monstruos vanilla no aparecen en ella. Consulta [[Special:MyLanguage/Bestiary#How wild enemies spawn|cómo aparecen los enemigos salvajes]] y [[Special:MyLanguage/Structures|Estructuras]].",
+  "outdated": false
+ },
+ "27": {
+  "source": "== Red Ribbon bases ==",
+  "translation": "== Bases de la Patrulla Roja ==",
+  "outdated": false
+ },
+ "28": {
+  "source": "'''Red Ribbon bases''' are large army bases in the Plains, Sunflower Plains and Savanna biomes of the Overworld; find the nearest one with <code>/dmzlocate red_ribbon_base</code>. When you come within 80 blocks, a garrison appears: 16 Red Ribbon's Soldiers and 3 robots posted around the base, each staying within 12 blocks of its post, and the '''Red Ribbon Commander''' inside the headquarters, a named soldier with 150 health and 8 melee damage. The garrison shows the purple supervillain tint and outline and doesn't despawn. Killing the commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid: five waves of soldiers and robots led by Colonel Silver, Sergeant Metallic, Ninja Murasaki, General Blue and General Black's Robot.",
+  "translation": "Las '''bases de la Patrulla Roja''' son grandes bases militares en los biomas Llanura, Llanura de girasoles y Sabana del Overworld; encuentra la más cercana con <code>/dmzlocate red_ribbon_base</code>. Cuando te acercas a menos de 80 bloques, aparece una guarnición: 16 Soldados Red Ribbon y 3 robots apostados por la base, cada uno a menos de 12 bloques de su puesto, y el '''Comandante de la Patrulla Roja''' dentro del cuartel general, un soldado con nombre propio, 150 de vida y 8 de daño cuerpo a cuerpo. La guarnición muestra el tinte y el contorno morados de supervillano y no desaparece. Matar al comandante inicia la incursión [[Special:MyLanguage/Red Ribbon Army Assault|Asalto de la Patrulla Roja]]: cinco oleadas de soldados y robots lideradas por el Coronel Silver, el Sargento Metallic, el Ninja Murasaki, el General Blue y el Robot del General Black.",
   "outdated": false
  },
  "22": {

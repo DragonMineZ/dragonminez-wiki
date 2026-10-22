@@ -58,6 +58,7 @@ PAGE_RULES = [
     (r'^dragonminez:senzu_\w+$', 'Senzu Bean'),
     (r'^dragonminez:(aura_lily|hermit_fern|kaioshin_fruit|katchin_sprout|meteor_flower|namek_moss|oozaru_root|zenkai_lotus|turtle_scale)$', 'Farming'),
     (r'^dragonminez:saiyan_ship$', 'Space Pod'),
+    (r'^dragonminez:(car_red|car_yellow|cc576|frieza_capsule|vehicle_\w+)$', 'Vehicles'),
     (r'^dragonminez:yajirobe_katana$', "Yajirobe's Katana"),
     (r'^dragonminez:\w*(cooked|frog_legs)\w*$', 'Food'),
     (r'^dragonminez:(raw_dino_meat|raw_baby_dino_meat|dino_tail_raw)$', 'Dinosaurs'),

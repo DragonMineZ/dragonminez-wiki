@@ -145,8 +145,8 @@
   "outdated": false
  },
  "29": {
-  "source": "List of the races allowed to learn this skill. An empty list (or <code>\"all\"</code>) means every race can learn it. For techniques (ki, strike and evasion), every race can still learn them from a master, but only the listed races can equip them in a technique slot. By default <code>gum_punch</code>, <code>mystic_ball</code> and <code>sleep_recovery</code> are set to <code>[\"majin\"]</code>.",
-  "translation": "Lista de las razas que pueden aprender esta habilidad. Una lista vacía (o <code>\"all\"</code>) significa que cualquier raza puede aprenderla. En las técnicas (de ki, Super Golpe y evasión), cualquier raza puede aprenderlas igualmente de un maestro, pero solo las razas de la lista pueden equiparlas en una ranura de técnica. Por defecto, <code>gum_punch</code>, <code>mystic_ball</code> y <code>sleep_recovery</code> están en <code>[\"majin\"]</code>.",
+  "source": "List of the races allowed to learn this skill. An empty list (or <code>\"all\"</code>) means every race can learn it. For techniques (ki, strike and evasion), every race can still learn them from a master, but only the listed races can equip them in a technique slot or upgrade them. By default <code>gum_punch</code>, <code>mystic_ball</code>, <code>sleep_recovery</code>, <code>candy_beam</code> and <code>gum_bind</code> are set to <code>[\"majin\"]</code>, <code>darkness_eye_beam</code> to <code>[\"namekian\"]</code>, <code>android_combo</code> to <code>[\"android\"]</code> and <code>perfect_rush</code> to <code>[\"bioandroid\"]</code>. <code>\"android\"</code> also allows any character with the android upgrade.",
+  "translation": "Lista de las razas que pueden aprender esta habilidad. Una lista vacía (o <code>\"all\"</code>) significa que cualquier raza puede aprenderla. En las técnicas (de ki, Super Golpe y evasión), cualquier raza puede aprenderlas igualmente de un maestro, pero solo las razas de la lista pueden equiparlas en una ranura de técnica o mejorarlas. Por defecto, <code>gum_punch</code>, <code>mystic_ball</code>, <code>sleep_recovery</code>, <code>candy_beam</code> y <code>gum_bind</code> están en <code>[\"majin\"]</code>, <code>darkness_eye_beam</code> en <code>[\"namekian\"]</code>, <code>android_combo</code> en <code>[\"android\"]</code> y <code>perfect_rush</code> en <code>[\"bioandroid\"]</code>. <code>\"android\"</code> también permite a cualquier personaje con la mejora androide.",
   "outdated": false
  },
  "30": {
@@ -380,8 +380,8 @@
   "outdated": false
  },
  "76": {
-  "source": "Set per technique, for example <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> / <code>mystic_ball</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120",
-  "translation": "Se define por técnica, por ejemplo <code>meteor_burst</code> 600, <code>dragon_fist</code> 320, <code>oozaru_fist</code> / <code>mystic_ball</code> 280, <code>super_god_fist</code> / <code>kaioken_attack</code> / <code>spirit_breaking_cannon</code> 240, <code>deadly_dance_vegetto</code> 200, <code>meteor</code> / <code>deadly_dance</code> / <code>shining_sword_attack</code> 160, <code>wolf_fang</code> 140, <code>oozaru_slam</code> 120",
+  "source": "Set per technique: <code>meteor_burst</code> 600, <code>darkness_eye_beam</code> 410, <code>dimensional_sword_attack</code> / <code>android_combo</code> 380, <code>spirit_breaker</code> 370, <code>beam_sword_slash</code> 350, <code>dimensional_punch</code> 340, <code>spirit_breaking_cannon</code> / <code>perfect_rush</code> 330, <code>dragon_fist</code> / <code>shining_sword_attack</code> / <code>mystic_ball</code> / <code>death_chaser</code> 320, <code>super_god_fist</code> 300, <code>combo_meteor</code> 290, <code>oozaru_fist</code> 280, <code>gum_punch</code> / <code>blue_hurricane</code> 260, <code>grab</code> 210, <code>deadly_dance_vegetto</code> 200, <code>kaioken_attack</code> / <code>oozaru_slam</code> 180, <code>meteor</code> / <code>deadly_dance</code> 160, <code>wolf_fang</code> 140",
+  "translation": "Se define por técnica: <code>meteor_burst</code> 600, <code>darkness_eye_beam</code> 410, <code>dimensional_sword_attack</code> / <code>android_combo</code> 380, <code>spirit_breaker</code> 370, <code>beam_sword_slash</code> 350, <code>dimensional_punch</code> 340, <code>spirit_breaking_cannon</code> / <code>perfect_rush</code> 330, <code>dragon_fist</code> / <code>shining_sword_attack</code> / <code>mystic_ball</code> / <code>death_chaser</code> 320, <code>super_god_fist</code> 300, <code>combo_meteor</code> 290, <code>oozaru_fist</code> 280, <code>gum_punch</code> / <code>blue_hurricane</code> 260, <code>grab</code> 210, <code>deadly_dance_vegetto</code> 200, <code>kaioken_attack</code> / <code>oozaru_slam</code> 180, <code>meteor</code> / <code>deadly_dance</code> 160, <code>wolf_fang</code> 140",
   "outdated": false
  },
  "77": {
@@ -440,8 +440,8 @@
   "outdated": false
  },
  "88": {
-  "source": "Set per technique, for example <code>sleep_recovery</code> 1200, <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
-  "translation": "Se define por técnica, por ejemplo <code>sleep_recovery</code> 1200, <code>taiyoken</code> 900, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
+  "source": "Set per technique: <code>sleep_recovery</code> 1200, <code>taiyoken</code> / <code>gum_bind</code> 900, <code>candy_beam</code> 600, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
+  "translation": "Se define por técnica: <code>sleep_recovery</code> 1200, <code>taiyoken</code> / <code>gum_bind</code> 900, <code>candy_beam</code> 600, <code>afterimage</code> 200, <code>rage_scream</code> / <code>dimensional_teleport</code> 80",
   "outdated": false
  },
  "89": {
@@ -467,6 +467,21 @@
  "93": {
   "source": "XP gains (evasion techniques gain XP each time they're used).",
   "translation": "Ganancias de XP (las técnicas de evasión ganan XP cada vez que se usan).",
+  "outdated": false
+ },
+ "96": {
+  "source": "== New defaults on existing servers ==",
+  "translation": "== Nuevos valores por defecto en servidores existentes ==",
+  "outdated": false
+ },
+ "97": {
+  "source": "Every time <code>skills.json</code> and <code>techniques.json</code> are loaded (when the server starts or with <code>/dmzreload</code>), the default entries they are missing are added, without changing any value already in the files:\n* in <code>skills.json</code>, a missing skill or technique is added to <code>skills</code> with its default costs and races, and to the list of every master who offers it by default; a master missing from <code>skillOfferings</code> is added with its whole default list;\n* in <code>techniques.json</code>, a missing ki attack type, strike technique or evasion technique is added with its default values.",
+  "translation": "Cada vez que se cargan <code>skills.json</code> y <code>techniques.json</code> (al iniciar el servidor o con <code>/dmzreload</code>), se añaden las entradas por defecto que les faltan, sin cambiar ningún valor que ya esté en los archivos:\n* en <code>skills.json</code>, una habilidad o técnica que falta se añade a <code>skills</code> con sus costos y razas por defecto, y a la lista de cada maestro que la ofrece por defecto; un maestro que falta en <code>skillOfferings</code> se añade con toda su lista por defecto;\n* en <code>techniques.json</code>, un tipo de ataque de ki, una técnica de golpe o una técnica de evasión que falta se añade con sus valores por defecto.",
+  "outdated": false
+ },
+ "98": {
+  "source": "This is how new techniques reach an existing server. In 2.2 that means the strike techniques <code>darkness_eye_beam</code>, <code>death_chaser</code>, <code>android_combo</code>, <code>perfect_rush</code>, <code>spirit_breaker</code> and <code>beam_sword_slash</code>, the evasion techniques <code>candy_beam</code> and <code>gum_bind</code>, and the <code>tien</code> offering of [[Special:MyLanguage/Master Tien|Master Tien]]. Because existing values are never overwritten, a server that already had a <code>techniques.json</code> keeps its old strike cooldowns: compare them with the defaults above and edit them if you want the new ones.",
+  "translation": "Así es como las técnicas nuevas llegan a un servidor existente. En la 2.2 eso incluye las técnicas de golpe <code>darkness_eye_beam</code>, <code>death_chaser</code>, <code>android_combo</code>, <code>perfect_rush</code>, <code>spirit_breaker</code> y <code>beam_sword_slash</code>, las técnicas de evasión <code>candy_beam</code> y <code>gum_bind</code>, y la oferta <code>tien</code> del [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]]. Como los valores existentes nunca se sobrescriben, un servidor que ya tenía un <code>techniques.json</code> conserva sus tiempos de recarga anteriores de los Super Golpes: compáralos con los valores por defecto de arriba y edítalos si quieres los nuevos.",
   "outdated": false
  },
  "94": {

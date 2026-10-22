@@ -79,7 +79,7 @@ These are the defaults; server owners can change every cost, which races may lea
 |-
 | '''<translate><!--T:39--> Jump</translate>''' || 10 || {{L|Master Roshi}}, {{L|Frieza}} || <translate><!--T:40--> Higher jumping (scales with level).</translate>
 |-
-| '''<translate><!--T:41--> Sprint</translate>''' || 10 || {{L|Krillin}}, {{L|Frieza}} || <translate><!--T:42--> Faster sprinting (scales with level).</translate>
+| '''<translate><!--T:41--> Sprint</translate>''' || 10 || {{L|Krillin}}, {{L|Frieza}} || <translate><!--T:42--> +6% movement speed per level while it is switched on and your Power Release is at least 5%.</translate>
 |-
 | {{L|Fly}} || 10 || {{L|Goku}}, {{L|Frieza}} || <translate><!--T:43--> Ki flight, toggled with {{Key|F}}; levels increase your speed. Switch between Search Fly and Combat Fly with {{Key|Alt}} + {{Key|F}}.</translate>
 |-
@@ -105,7 +105,7 @@ These abilities quietly modify your combat. They are bought and levelled like an
 |-
 | '''<translate><!--T:56--> Ki Boost</translate>''' || 4 || {{L|Gohan}}, {{L|Trunks}}, {{L|Cell}} || <translate><!--T:57--> +25% Ki regeneration per level while you are actively charging Ki. It does not affect passive regeneration.</translate>
 |-
-| {{L|Ki Manipulation}} || 10 || {{L|King Kai}}, {{L|Cell}} || <translate><!--T:58--> Form ki weapons (Ki Blade, Ki Scythe, Ki Claw Lance) that deal your Ki Damage × the weapon's scaling × 10% per level, and raise basic ki-blast damage by 5% of your Ki Damage per level. Level 5 unlocks Shadow Dummy sparring.</translate>
+| {{L|Ki Manipulation}} || 10 || {{L|King Kai}}, {{L|Cell}} || <translate><!--T:58--> Form glowing ki weapons (Ki Blade, Ki Scythe, Ki Claw Lance) that deal your Ki Damage × the weapon's scaling × 10% per level, and raise basic ki-blast damage by 5% of your Ki Damage per level. Level 5 unlocks Shadow Dummy sparring.</translate>
 |-
 | {{L|Ki Infusion}} || 10 || {{L|Old Kai}}, {{L|Yamcha}}, {{L|Cell}} || <translate><!--T:59--> Bonus melee damage equal to 2.5% of your max Ki per level (up to +25%), paid with 2.5%–7.5% of your max Ki per hit.</translate>
 |-

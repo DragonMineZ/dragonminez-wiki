@@ -214,14 +214,19 @@
   "translation": "'''Maestros malvados''' ([[Special:MyLanguage/Cell|Cell]] y [[Special:MyLanguage/Frieza|Freezer]]) necesitan un alineamiento de '''40 o menos'''.",
   "outdated": false
  },
+ "75": {
+  "source": "[[Special:MyLanguage/Master Tien|Master Tien]] keeps his Skills and Train open at any alignment, but below '''41''' he greets you coldly and his side quests show as locked, and below '''25''' he turns hostile.",
+  "translation": "El [[Special:MyLanguage/Master Tien|Maestro Ten Shin Han]] mantiene abiertos Habilidades y Entrenar con cualquier alineamiento, pero por debajo de '''41''' te saluda con frialdad y sus misiones secundarias aparecen bloqueadas, y por debajo de '''25''' se vuelve hostil.",
+  "outdated": false
+ },
  "43": {
   "source": "'''Every other master''' (Piccolo, Vegeta, Trunks, Yamcha, [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] and the rest) has no alignment requirement by default.",
   "translation": "'''Todos los demás maestros''' (Piccolo, Vegeta, Trunks, Yamcha, la [[Special:MyLanguage/Fortuneteller Baba|Adivina Baba]], [[Special:MyLanguage/Majin Buu|Majin Buu]] y el resto) no tienen requisito de alineamiento por defecto.",
   "outdated": false
  },
  "44": {
-  "source": "A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new quests''' stay locked (\"Requires an alignment of 61 or higher\" or \"40 or lower\") until your alignment fits. Quests you already started can still be turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.",
-  "translation": "Un maestro cuyo requisito no cumples te sigue hablando, aunque con más frialdad, pero sus '''Habilidades''', '''Entrenar''' y las '''misiones nuevas''' quedan bloqueados (\"Requiere un alineamiento de 61 o más\" o \"40 o menos\") hasta que tu alineamiento encaje. Las misiones que ya empezaste se pueden entregar igual, y sus otros servicios y torneos (como los [[Special:MyLanguage/Cell Games|Juegos de Cell]] de Cell) siguen abiertos. Cada maestro tiene varias frases de saludo, además de frases frías para cuando no le gusta tu alineamiento.",
+  "source": "A master whose requirement you don't meet still talks to you, just more coldly, but their '''Skills''', '''Train''' and '''new side quests''' stay locked (\"Requires an alignment of 61 or higher\" or \"40 or lower\") until your alignment fits. Saga quests are never locked this way, quests you already started can still be completed and turned in, and their other services and tournaments (such as Cell's [[Special:MyLanguage/Cell Games|Cell Games]]) stay open. Every master has several greeting lines, plus cold lines when they dislike your alignment.",
+  "translation": "Un maestro cuyo requisito no cumples te sigue hablando, aunque con más frialdad, pero sus '''Habilidades''', '''Entrenar''' y las '''misiones secundarias nuevas''' quedan bloqueados (\"Requiere un alineamiento de 61 o más\" o \"40 o menos\") hasta que tu alineamiento encaje. Las misiones de saga nunca se bloquean así, las misiones que ya empezaste se pueden completar y entregar igual, y sus otros servicios y torneos (como los [[Special:MyLanguage/Cell Games|Juegos de Cell]] de Cell) siguen abiertos. Cada maestro tiene varias frases de saludo, además de frases frías para cuando no le gusta tu alineamiento.",
   "outdated": false
  },
  "45": {
@@ -335,8 +340,8 @@
   "outdated": false
  },
  "67": {
-  "source": "Besides the master rule above, each NPC can turn hostile or refuse to talk depending on your alignment. By default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20), and some refuse to talk to you until your alignment is high enough. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
-  "translation": "Además de la regla de los maestros de arriba, cada NPC puede volverse hostil o negarse a hablar según tu alineamiento. Por defecto, muchos NPCs de la historia se vuelven '''hostiles por debajo de 25''' (Piccolo, por debajo de 20), y algunos se niegan a hablarte hasta que tu alineamiento sea lo bastante alto. Los dueños de servidores ajustan estos umbrales para cada NPC: consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]].",
+  "source": "Besides the master rule above, each NPC has its own alignment range, and by default many of the story's NPCs turn '''hostile below 25''' (Piccolo below 20). Every NPC still talks to you: if you are outside its range or it has turned hostile, it greets you with a \"disliked\" line. Its '''Quests''' option always opens, but side quests from an NPC that needs a different alignment show as locked (for example \"Requires an alignment of 41 or higher.\"). Saga quests, quests with their own alignment condition and quests you already have in progress or ready to turn in are never locked this way. Server owners set these thresholds per NPC: see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]].",
+  "translation": "Además de la regla de los maestros de arriba, cada NPC tiene su propio rango de alineamiento, y por defecto muchos NPCs de la historia se vuelven '''hostiles por debajo de 25''' (Piccolo, por debajo de 20). Todos los NPCs te siguen hablando: si estás fuera de su rango o se volvió hostil, te saluda con una línea de rechazo. Su opción '''Misiones''' siempre se abre, pero las misiones secundarias de un NPC que pide otro alineamiento aparecen bloqueadas (por ejemplo \"Requiere un alineamiento de 41 o más.\"). Las misiones de saga, las misiones con su propia condición de alineamiento y las que ya tienes en curso o listas para entregar nunca se bloquean así. Los dueños de servidores ajustan estos umbrales para cada NPC: consulta [[Special:MyLanguage/NPC Placement and Alignment|Ubicación y alineamiento de NPCs]].",
   "outdated": false
  },
  "68": {

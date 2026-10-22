@@ -1,0 +1,161 @@
+<translate>
+<!--T:1-->
+'''Vehicles''' carry you and your friends across the world without spending any ki. You can build cars and an aircraft from parts at a crafting table, get some of those parts from [[Special:MyLanguage/Bulma|Bulma]], or wish for '''Frieza's Capsule''' from [[Special:MyLanguage/Porunga|Porunga]]. The [[Special:MyLanguage/Space Pod|Space Pod]], the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and the Black Nimbus are vehicles too, and every vehicle shares the same controls and rules.
+</translate>
+
+<translate>
+== Vehicles at a glance == <!--T:2-->
+</translate>
+{| class="wikitable"
+! <translate><!--T:3--> Vehicle</translate> !! <translate><!--T:4--> Type</translate> !! <translate><!--T:5--> Seats</translate> !! <translate><!--T:6--> Speed (blocks per second)</translate> !! <translate><!--T:7--> Sprinting</translate> !! <translate><!--T:8--> Climbing and descending</translate> !! <translate><!--T:9--> How to get it</translate>
+|-
+| '''<translate><!--T:10--> Red Car / Yellow Car</translate>''' || <translate><!--T:11--> Ground</translate> || 2 || 9 || 15.3 || <translate><!--T:12--> — (backs up at 3.6)</translate> || <translate><!--T:13--> Crafting</translate>
+|-
+| '''<translate><!--T:14--> Capsule Corp. 576</translate>''' || <translate><!--T:15--> Flying (always airborne)</translate> || 4 || 18 || 28.8 || 6 || <translate><!--T:16--> Crafting</translate>
+|-
+| '''<translate><!--T:17--> Frieza's Capsule</translate>''' || <translate><!--T:18--> Hybrid (hovers on the ground, can take off)</translate> || 1 || 10 || 16 || 8 || <translate><!--T:19--> A wish to {{L|Porunga}}</translate>
+|-
+| {{L|Space Pod}} || <translate><!--T:20--> Flying</translate> || 1 || 21.6 || — || 7 || <translate><!--T:21--> Saiyan Saga quest 15, a wish to Shenron, crafting</translate>
+|-
+| {{L|Flying Nimbus}} || <translate><!--T:22--> Flying</translate> || 2 || 24 || <translate><!--T:23--> Dash boost instead</translate> || 8 || <translate><!--T:24--> [[Special:MyLanguage/Korin|Korin]]; only carries riders with an alignment of 67 or more</translate>
+|-
+| '''<translate><!--T:25--> [[Special:MyLanguage/Flying Nimbus|Black Nimbus]]</translate>''' || <translate><!--T:26--> Flying</translate> || 1 || 24 || <translate><!--T:27--> Dash boost instead</translate> || 8 || <translate><!--T:28--> [[Special:MyLanguage/Korin|Korin]]; only carries riders with an alignment of 66 or less</translate>
+|}
+<translate>
+<!--T:29-->
+Vehicle speeds are fixed: they don't depend on your stats, skills or form. Sprinting only speeds up the cars, the Capsule Corp. 576 and Frieza's Capsule; the clouds have a Dash boost instead.
+</translate>
+
+<translate>
+== Placing and boarding == <!--T:30-->
+
+<!--T:31-->
+* '''Place:''' right-click a block with the vehicle item. The vehicle appears facing the way you look, and the item is used up (except in Creative mode). Vehicle items don't stack. If something is in the way you get "There is not enough room to place this vehicle here."
+* '''Board:''' right-click the vehicle. The first player to get in drives and the others take the free seats. The [[Special:MyLanguage/Space Pod|Space Pod]] opens its hatch on the first click and lets you in on the second.
+* '''Get out:''' press Sneak ({{Key|Left Shift}} by default), as with any other mount. The cars, the Capsule Corp. 576 and Frieza's Capsule let you out beside them.
+* '''Pick up:''' hit the vehicle to turn it back into its item.
+
+<!--T:32-->
+Vehicles need no fuel and never despawn. Only a hit from a player affects them, and that hit picks them up: they ignore fire, mobs, explosions and fall damage.
+</translate>
+{{Note|type=warning|title=<translate><!--T:33--> Anyone can pick it up</translate>|<translate><!--T:34--> Any player can pick up any vehicle by hitting it, not only the player who placed it.</translate>}}
+
+<translate>
+== Controls == <!--T:35-->
+</translate>
+{| class="wikitable"
+! <translate><!--T:36--> Key</translate> !! <translate><!--T:37--> What it does</translate>
+|-
+| <translate><!--T:38--> Mouse</translate> || <translate><!--T:39--> Steer: the vehicle turns to face where you look.</translate>
+|-
+| {{Key|W}} / {{Key|S}} || <translate><!--T:40--> Move forward or back. The cars back up slowly.</translate>
+|-
+| {{Key|A}} / {{Key|D}} || <translate><!--T:41--> Move sideways. The cars can't.</translate>
+|-
+| <translate><!--T:42--> Jump ({{Key|Space}})</translate> || <translate><!--T:43--> Climb. In Frieza's Capsule, double-tap it to take off.</translate>
+|-
+| <translate><!--T:44--> Second Function ({{Key|Left Alt}})</translate> || <translate><!--T:45--> Descend.</translate>
+|-
+| <translate><!--T:46--> Sprint ({{Key|Left Ctrl}})</translate> || <translate><!--T:47--> Go faster (cars, Capsule Corp. 576 and Frieza's Capsule).</translate>
+|-
+| <translate><!--T:48--> Dash ({{Key|R}})</translate> || <translate><!--T:49--> A burst of speed (Flying Nimbus and Black Nimbus only).</translate>
+|-
+| <translate><!--T:50--> Technique Slot 1–4 ({{Key|Alt}} + {{Key|1}}–{{Key|4}})</translate> || <translate><!--T:51--> Move to seat 1–4. Seat 1 is the driver's seat. If the seat is taken you get "Seat 2 is already taken." (with that seat's number).</translate>
+|-
+| <translate><!--T:52--> Sneak ({{Key|Left Shift}})</translate> || <translate><!--T:53--> Get out.</translate>
+|}
+<translate>
+<!--T:54-->
+The keys shown are the defaults; vehicles follow your own key bindings (see [[Special:MyLanguage/Controls|Controls]]).
+</translate>
+
+<translate>
+== While you ride == <!--T:55-->
+
+<!--T:56-->
+* You can't fire [[Special:MyLanguage/Techniques|techniques]] from any vehicle: the technique slot keys pick seats instead.
+* [[Special:MyLanguage/Fly|Fly]] switches off when you get on, and you can't switch it back on until you get off.
+* Ground vehicles drive up 1-block steps on their own; flying vehicles only take small steps (0.6 blocks) without climbing.
+* A driven ground vehicle, or Frieza's Capsule when it lands, rests on the surface of still water instead of sinking.
+* Flying vehicles lean into turns and climbs. The cars, the Capsule Corp. 576, Frieza's Capsule and the Space Pod have engine sounds, and the cars, the Capsule Corp. 576 and the Space Pod leave exhaust smoke while someone drives.
+* An empty flying vehicle slowly drifts down to the ground, and any vehicle left in water or lava sinks.
+* The Capsule Corp. 576 moves your third-person camera 6 blocks further back so the whole aircraft fits on screen.
+</translate>
+
+<translate>
+== Cars == <!--T:57-->
+
+<!--T:58-->
+The '''Red Car''' and the '''Yellow Car''' are the same two-seat ground vehicle in two colors. They only drive on the ground, can't move sideways, back up slowly and go much faster while you sprint. Each one takes 2 Vehicle Plating, 2 Vehicle Seats, 1 Vehicle Engine, 2 Black Wool and a Red or Yellow Dye.
+</translate>
+{{Recipe|car_red|car_yellow}}
+
+<translate>
+== Capsule Corp. 576 == <!--T:59-->
+
+<!--T:60-->
+The '''Capsule Corp. 576''' is a four-seat aircraft and, while you sprint, the fastest vehicle in the game. It is always in flight: it holds its height when you let go of the controls and only climbs or descends when you tell it to. Building one takes 2 Vehicle Propellers, 2 Vehicle Engines, 2 Vehicle Seats, 2 Vehicle Plating and 1 Glass.
+</translate>
+{{Recipe|cc576}}
+
+<translate>
+== Frieza's Capsule == <!--T:61-->
+
+<!--T:62-->
+'''Frieza's Capsule''' is Frieza's one-seat hover pod. It glides along the ground, bobbing gently, until you '''double-tap Jump''': it then takes off in a ring of clouds and flies like the other aircraft. It lands by itself when you descend onto the ground or onto still water. Sprinting makes it faster both on the ground and in the air.
+
+<!--T:63-->
+It can't be crafted: you get it with the '''Frieza's Capsule''' wish from [[Special:MyLanguage/Porunga|Porunga]]. Porunga (Daima), in the Demon Realm, has his own wish list with the same wishes, this one included.
+</translate>
+{{Note|type=warning|title=<translate><!--T:64--> Worlds from before version 2.2</translate>|<translate><!--T:65--> Each world keeps the Porunga wish list it already has (<code>dragonminez/wishes/porunga.json</code> in the world folder), so worlds created before version 2.2 don't get the Frieza's Capsule wish on their own. Server owners can add it by hand, or delete that file so the default list is written again (which also undoes any changes made to it). See [[Special:MyLanguage/Custom Wishes|Custom Wishes]].</translate>}}
+
+<translate>
+== Space Pod and the clouds == <!--T:66-->
+
+<!--T:67-->
+The [[Special:MyLanguage/Space Pod|Space Pod]], the [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] and the Black Nimbus use the same controls and rules as the other vehicles. Their own pages explain how to get them, the Space Pod's trips to other worlds and the alignment each cloud asks of its riders.
+</translate>
+<div class="dmz-cards">
+{{Card|Space Pod|<translate><!--T:68--> A one-person spacecraft that takes you between worlds.</translate>}}
+{{Card|Flying Nimbus|<translate><!--T:69--> Korin's cloud for the pure of heart, and its dark counterpart, the Black Nimbus.</translate>}}
+</div>
+
+<translate>
+== Vehicle parts == <!--T:70-->
+
+<!--T:71-->
+The cars and the Capsule Corp. 576 are built from four parts, all made at a crafting table. Vehicle Engines, Propellers and Seats stack to 16, and Vehicle Plating to 32.
+</translate>
+{| class="wikitable"
+! <translate><!--T:72--> Part</translate> !! <translate><!--T:73--> Used in</translate> !! <translate><!--T:74--> Recipe</translate>
+|-
+| '''<translate><!--T:75--> Vehicle Engine</translate>''' || <translate><!--T:76--> Cars (1), Capsule Corp. 576 (2)</translate> || {{Recipe|vehicle_engine}}
+|-
+| '''<translate><!--T:77--> Vehicle Propeller</translate>''' || <translate><!--T:78--> Capsule Corp. 576 (2)</translate> || {{Recipe|vehicle_propeller}}
+|-
+| '''<translate><!--T:79--> Vehicle Seat</translate>''' || <translate><!--T:80--> Cars (2), Capsule Corp. 576 (2)</translate> || {{Recipe|vehicle_seat}}
+|-
+| '''<translate><!--T:81--> Vehicle Plating ×2</translate>''' || <translate><!--T:82--> Cars (2), Capsule Corp. 576 (2)</translate> || {{Recipe|vehicle_plating}}
+|}
+
+<translate>
+=== Parts from Bulma === <!--T:83-->
+
+<!--T:84-->
+[[Special:MyLanguage/Bulma|Bulma]] gives out parts as rewards for some of her [[Special:MyLanguage/Sidequests|side quests]]. Deliver the items to her, then talk to her to finish the quest:
+</translate>
+{| class="wikitable"
+! <translate><!--T:85--> Side quest</translate> !! <translate><!--T:86--> Unlocks after</translate> !! <translate><!--T:87--> Deliver</translate> !! <translate><!--T:88--> Reward</translate>
+|-
+| <translate><!--T:89--> [[Special:MyLanguage/Sidequests#sq-bulma_capsule_development|Capsule Corp R&D]]</translate> || <translate><!--T:90--> [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 1</translate> || <translate><!--T:91--> 16 Iron Ingots, 16 Redstone Dust, 2 Pistons</translate> || <translate><!--T:92--> 4 Attributes, 1 Vehicle Engine</translate>
+|-
+| <translate><!--T:93--> [[Special:MyLanguage/Sidequests#sq-bulma_vehicle_upholstery|Comfortable Ride]]</translate> || <translate><!--T:94--> [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 3</translate> || <translate><!--T:95--> 8 Leather, 4 Cyan Wool, 4 Iron Ingots</translate> || <translate><!--T:96--> 3 Attributes, 2 Vehicle Seats</translate>
+|-
+| <translate><!--T:97--> [[Special:MyLanguage/Sidequests#sq-bulma_rare_mineral_survey|Rare Mineral Survey]]</translate> || <translate><!--T:98--> [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 8</translate> || <translate><!--T:99--> 12 Iron Ingots, 12 Copper Ingots, 4 Amethyst Shards</translate> || <translate><!--T:100--> 3 Attributes, 2 Vehicle Plating</translate>
+|-
+| <translate><!--T:101--> [[Special:MyLanguage/Sidequests#sq-bulma_flight_stabilizer|Flight Stabilizer]]</translate> || <translate><!--T:102--> [[Special:MyLanguage/Saiyan Saga|Saiyan Saga]] quest 9</translate> || <translate><!--T:103--> 16 Feathers, 8 Iron Ingots, 4 Gold Ingots</translate> || <translate><!--T:104--> 3 Attributes, 1 Vehicle Propeller</translate>
+|-
+| <translate><!--T:105--> [[Special:MyLanguage/Sidequests#sq-merchant_alien_artifacts|Alien Artifacts]]</translate> || <translate><!--T:106--> [[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest 4</translate> || <translate><!--T:107--> 16 Kikono Shards, 4 Diamonds</translate> || <translate><!--T:108--> 13 Attributes, 1 Vehicle Engine</translate>
+|}
+
+{{Navbox Items}}

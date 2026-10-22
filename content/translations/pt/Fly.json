@@ -119,6 +119,11 @@
   "translation": "Por padrão, sofrer ou causar dano no Voo de Busca muda você para o Voo de Combate por '''8 segundos'''.",
   "outdated": false
  },
+ "31": {
+  "source": "Since version 2.2, Search Fly is '''18%''' slower and Combat Fly '''15%''' slower than before; the rush of a [[Special:MyLanguage/Strike Attacks|strike attack]] keeps its speed. The aura you show while sprinting in flight no longer lights up its surroundings.",
+  "translation": "Desde a versão 2.2, o Voo de Busca é '''18%''' mais lento e o Voo de Combate '''15%''' mais lento do que antes; a investida de um [[Special:MyLanguage/Strike Attacks|ataque de golpe]] mantém a velocidade. A aura que você mostra ao correr enquanto voa não ilumina mais os arredores.",
+  "outdated": false
+ },
  "24": {
   "source": "=== Flight options ===",
   "translation": "=== Opções de voo ===",
@@ -150,8 +155,8 @@
   "outdated": false
  },
  "30": {
-  "source": "* If you can't fly yet, [[Special:MyLanguage/Korin|Korin]] gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] (or a Black Nimbus if your alignment is 50 or lower).\n* All flight keys can be rebound in Minecraft's controls (see [[Special:MyLanguage/Controls|Controls]]).",
-  "translation": "* Se você ainda não consegue voar, [[Special:MyLanguage/Korin|Karin]] dá a você uma [[Special:MyLanguage/Flying Nimbus|Nuvem Voadora]] (ou uma Nuvem Negra se a sua índole for 50 ou menos).\n* Todas as teclas de voo podem ser reatribuídas nos controles do Minecraft (veja [[Special:MyLanguage/Controls|Controles]]).",
+  "source": "* If you can't fly yet, [[Special:MyLanguage/Korin|Korin]] gives you a [[Special:MyLanguage/Flying Nimbus|Flying Nimbus]] (or a Black Nimbus if your alignment is 50 or lower).\n* Fly switches off when you get on a [[Special:MyLanguage/Vehicles|vehicle]], and you can't switch it on while you ride.\n* All flight keys can be rebound in Minecraft's controls (see [[Special:MyLanguage/Controls|Controls]]).",
+  "translation": "* Se você ainda não consegue voar, [[Special:MyLanguage/Korin|Karin]] dá a você uma [[Special:MyLanguage/Flying Nimbus|Nuvem Voadora]] (ou uma Nuvem Negra se a sua índole for 50 ou menos).\n* Voar desliga quando você embarca em um [[Special:MyLanguage/Vehicles|veículo]], e você não pode ligá-lo enquanto estiver nele.\n* Todas as teclas de voo podem ser reatribuídas nos controles do Minecraft (veja [[Special:MyLanguage/Controls|Controles]]).",
   "outdated": false
  }
 }

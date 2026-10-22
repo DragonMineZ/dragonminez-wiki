@@ -135,8 +135,8 @@
   "outdated": false
  },
  "27": {
-  "source": "Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.",
-  "translation": "Todos los permisos de DMZ a la vez. También es necesario (o el nivel de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> y <code>/dmzdebug</code>.",
+  "source": "Every DMZ permission, at once. Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and for using <code>/dmzdebug</code> on another player.",
+  "translation": "Todos los permisos de DMZ a la vez. También es necesario (o el nivel de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> y para usar <code>/dmzdebug</code> con otro jugador.",
   "outdated": false
  },
  "28": {
@@ -739,9 +739,19 @@
   "translation": "Cambiar la clase de otro jugador.",
   "outdated": false
  },
+ "151": {
+  "source": "Trigger test forms, racial skills and states on yourself with <code>/dmztrigger</code>.",
+  "translation": "Activar formas, habilidades raciales y estados de prueba en ti mismo con <code>/dmztrigger</code>.",
+  "outdated": false
+ },
+ "152": {
+  "source": "The same, on another player.",
+  "translation": "Lo mismo, en otro jugador.",
+  "outdated": false
+ },
  "148": {
-  "source": "Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and <code>/dmzdebug</code>.",
-  "translation": "También es necesario (o el nivel de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> y <code>/dmzdebug</code>.",
+  "source": "Also required (or operator level 2) for <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> and for using <code>/dmzdebug</code> on another player.",
+  "translation": "También es necesario (o el nivel de operador 2) para <code>/dmzconfig</code>, <code>/dmzrestoreupdate</code> y para usar <code>/dmzdebug</code> con otro jugador.",
   "outdated": false
  },
  "149": {

@@ -1,0 +1,65 @@
+{{Infobox Mob
+|Type=<translate><!--T:1--> Tournament fighter, quest NPC</translate>
+|Dimension={{L|Earth}}, {{L|Otherworld}}
+|Spawns=<translate><!--T:2--> Quest NPC on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island; tournament fighter in three tournaments</translate>
+|Behavior=<translate><!--T:3--> Friendly to every player; as a fighter he walks and leaps, Smart AI as the World Champion</translate>
+|Abilities=<translate><!--T:4--> Leap strike; no flight and no ki attacks</translate>
+|Drops=<translate><!--T:5--> None</translate>
+}}
+<translate>
+<!--T:6-->
+'''Mr. Satan''' is the World Champion: the reigning champion and last opponent of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]]. He can also be drawn as a contender in the [[Special:MyLanguage/Cell Games|Cell Games]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]], and he waits on the tournament island as a quest NPC with four side quests.
+</translate>
+
+<translate>
+== Finding him == <!--T:7-->
+
+<!--T:8-->
+Mr. Satan stands near the World Tournament Announcer on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island, in the oceans of [[Special:MyLanguage/Earth|Earth]]. Find the island with {{Command|/dmzlocate budokai_tenkaichi}} or a map from a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher. He is friendly and talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]].
+</translate>
+
+<translate>
+== In the tournaments == <!--T:9-->
+
+<!--T:10-->
+Mr. Satan is the '''champion''' of the World Martial Arts Tournament: after the qualifier rounds, [[Special:MyLanguage/Gohan|Gohan]] and Majin [[Special:MyLanguage/Vegeta|Vegeta]], you face him in the title match. Like the other fixed fighters, he doesn't get stronger from round to round. His default stats are:
+</translate>
+{| class="wikitable"
+! <translate><!--T:11--> Stage</translate> !! <translate><!--T:12--> Health / melee / ki</translate> !! <translate><!--T:13--> AI tier</translate>
+|-
+| <translate><!--T:14--> Champion</translate> || 96,000 / 4,200 / 1,500 || <translate><!--T:15--> Smart</translate>
+|}
+
+<translate>
+<!--T:16-->
+Beating him wins the tournament: '''1,800,000 TP''' and '''+5 alignment'''. Bouts end at knockout, so nobody dies. See [[Special:MyLanguage/Tournaments|Tournaments]] for how bouts work.
+
+<!--T:17-->
+He is also in the contender pools of the [[Special:MyLanguage/Cell Games|Cell Games]] and the [[Special:MyLanguage/Otherworld Tournament|Otherworld Tournament]]. There his stats come from the seat he is drawn into, not from the character: by default between 66,500 and 210,000 health in the Cell Games and between 238,000 and 612,500 in the Otherworld Tournament. The Cell Games are '''lethal''': losing a bout there kills you.
+</translate>
+
+<translate>
+== Behavior and abilities == <!--T:18-->
+
+<!--T:19-->
+Mr. Satan has his own model. He can't fly and has no ki attacks: he fights with plain melee and a '''leap strike'''. When his target is 4 to 14 blocks away, or up to 9 blocks above him, he jumps at it and punches on contact. He can leap again 3.5 seconds after landing.
+
+<!--T:20-->
+How well he fights depends on his AI tier (see [[Special:MyLanguage/Sagas#Enemy AI tiers|enemy AI tiers]]).
+</translate>
+
+<translate>
+== Side quests == <!--T:21-->
+</translate>
+{{Main|Sidequests}}
+<translate>
+<!--T:22-->
+Mr. Satan's side quests open after the [[Special:MyLanguage/Android Saga|Android Saga]] quest ''Super Perfect Cell'' and the [[Special:MyLanguage/Buu Saga|Buu Saga]] quest ''Satan and Majin Buu''. Enemies spawned by these quests scale with your story difficulty.
+</translate>
+{{#invoke:Sidequests|giver|mr_satan}}
+
+{{Note|type=config|title=<translate><!--T:23--> Ids</translate>|<translate><!--T:24--> <code>dragonminez:saga_mr_satan</code> (fighter), <code>mr_satan</code> (quest NPC)</translate>}}
+
+{{Navbox Bestiary}}
+[[Category:NPCs{{#translation:}}]]
+[[Category:Tournament fighters{{#translation:}}]]

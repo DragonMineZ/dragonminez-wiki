@@ -20,8 +20,8 @@
   "outdated": false
  },
  "4": {
-  "source": "'''Earth''' is the vanilla Overworld (<code>minecraft:overworld</code>), the world where every character starts. DragonMineZ doesn't add a separate Earth dimension: it fills the Overworld with the homes of most [[Special:MyLanguage/Masters|masters]], landmark structures, Dragon Ball wildlife and enemies, the Earth Dragon Balls that summon [[Special:MyLanguage/Shenron|Shenron]], the world boss [[Special:MyLanguage/Turles|Turles]] and the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] raid.",
-  "translation": "A '''Terra''' é o Overworld vanilla (<code>minecraft:overworld</code>), o mundo onde todo personagem começa. O DragonMineZ não adiciona uma dimensão separada para a Terra: ele preenche o Overworld com as casas da maioria dos [[Special:MyLanguage/Masters|mestres]], estruturas marcantes, fauna e inimigos de Dragon Ball, as Esferas do Dragão da Terra que invocam [[Special:MyLanguage/Shenron|Shenlong]], o chefe de mundo [[Special:MyLanguage/Turles|Turles]] e a incursão [[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]].",
+  "source": "'''Earth''' is the vanilla Overworld (<code>minecraft:overworld</code>), the world where every character starts. DragonMineZ doesn't add a separate Earth dimension: it fills the Overworld with the homes of most [[Special:MyLanguage/Masters|masters]], landmark structures, Dragon Ball wildlife and enemies, the Earth Dragon Balls that summon [[Special:MyLanguage/Shenron|Shenron]], the world boss [[Special:MyLanguage/Turles|Turles]], the [[Special:MyLanguage/Saiyan Assault|Saiyan Assault]] and [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raids and the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]].",
+  "translation": "A '''Terra''' é o Overworld vanilla (<code>minecraft:overworld</code>), o mundo onde todo personagem começa. O DragonMineZ não adiciona uma dimensão separada para a Terra: ele preenche o Overworld com as casas da maioria dos [[Special:MyLanguage/Masters|mestres]], estruturas marcantes, fauna e inimigos de Dragon Ball, as Esferas do Dragão da Terra que invocam [[Special:MyLanguage/Shenron|Shenlong]], o chefe de mundo [[Special:MyLanguage/Turles|Turles]], as incursões [[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]] e [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]] e o [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]].",
   "outdated": false
  },
  "5": {
@@ -94,14 +94,24 @@
   "translation": "O bioma Rochoso, em pontos pouco iluminados.",
   "outdated": false
  },
+ "55": {
+  "source": "The same biomes as the dinosaurs, alone and rarely (never near another Giran). Hostile.",
+  "translation": "Os mesmos biomas que os dinossauros, sozinho e raramente (nunca perto de outro Giran). Hostil.",
+  "outdated": false
+ },
+ "56": {
+  "source": "Snowy biomes, in groups of 2 to 4. Hostile.",
+  "translation": "Biomas nevados, em grupos de 2 a 4. Hostil.",
+  "outdated": false
+ },
  "19": {
   "source": "A villager profession whose house generates in plains villages. Sells treasure maps to Earth structures.",
   "translation": "Uma profissão de aldeão cuja casa é gerada em vilas de planície. Vende mapas do tesouro para estruturas da Terra.",
   "outdated": false
  },
  "20": {
-  "source": "Some structures also house quest NPCs, such as '''Bulma''' at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]] and '''Chi-Chi''' at [[Special:MyLanguage/Goku's House|Goku's House]].",
-  "translation": "Algumas estruturas também abrigam NPCs de missões, como '''Bulma''' na [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin do Vegeta]] e '''Chi-Chi''' na [[Special:MyLanguage/Goku's House|Casa do Goku]].",
+  "source": "Some structures also house quest NPCs, such as '''Bulma''' at [[Special:MyLanguage/Vegeta's Saiyan Pod|Vegeta's Saiyan Pod]], '''Chi-Chi''' at [[Special:MyLanguage/Goku's House|Goku's House]], and [[Special:MyLanguage/Chiaotzu|Chiaotzu]] and [[Special:MyLanguage/Mr. Satan|Mr. Satan]] on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island.",
+  "translation": "Algumas estruturas também abrigam NPCs de missões, como '''Bulma''' na [[Special:MyLanguage/Vegeta's Saiyan Pod|Nave saiyajin do Vegeta]], '''Chi-Chi''' na [[Special:MyLanguage/Goku's House|Casa do Goku]], e [[Special:MyLanguage/Chiaotzu|Chaoz]] e o [[Special:MyLanguage/Mr. Satan|Mr. Satan]] na ilha do [[Special:MyLanguage/World Martial Arts Tournament|Torneio de Artes Marciais]].",
   "outdated": false
  },
  "21": {
@@ -184,6 +194,16 @@
   "translation": "[[Special:MyLanguage/Fortuneteller Baba|Vovó Uranai]] e o torneio dela",
   "outdated": false
  },
+ "57": {
+  "source": "Oceans (one per world)",
+  "translation": "Oceanos (um por mundo)",
+  "outdated": false
+ },
+ "58": {
+  "source": "[[Special:MyLanguage/Master Tien|Master Tien]], [[Special:MyLanguage/Chiaotzu|Chiaotzu]], [[Special:MyLanguage/Mr. Satan|Mr. Satan]] and the tournament",
+  "translation": "[[Special:MyLanguage/Master Tien|Mestre Tenshinhan]], [[Special:MyLanguage/Chiaotzu|Chaoz]], [[Special:MyLanguage/Mr. Satan|Mr. Satan]] e o torneio",
+  "outdated": false
+ },
  "37": {
   "source": "Plains",
   "translation": "Planícies",
@@ -244,6 +264,21 @@
   "translation": "Um posto avançado da Red Ribbon que não para de gerar soldados e robôs da [[Special:MyLanguage/Red Ribbon Army|Red Ribbon]]",
   "outdated": false
  },
+ "59": {
+  "source": "Red Ribbon base",
+  "translation": "Base do Exército Red Ribbon",
+  "outdated": false
+ },
+ "60": {
+  "source": "Plains and savannas",
+  "translation": "Planícies e savanas",
+  "outdated": false
+ },
+ "61": {
+  "source": "A commander, soldiers and robots; killing the commander starts the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] raid",
+  "translation": "Um comandante, soldados e robôs; matar o comandante inicia a incursão [[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]]",
+  "outdated": false
+ },
  "49": {
   "source": "== Dragon Balls ==",
   "translation": "== Esferas do Dragão ==",
@@ -255,13 +290,13 @@
   "outdated": false
  },
  "51": {
-  "source": "== World boss and raid ==",
-  "translation": "== Chefe de mundo e incursão ==",
+  "source": "== World boss and raids ==",
+  "translation": "== Chefe de mundo e incursões ==",
   "outdated": false
  },
  "52": {
-  "source": "* '''[[Special:MyLanguage/Turles|Turles]]''' sleeps in the clearing under the [[Special:MyLanguage/Tree of Might|Tree of Might]]. See [[Special:MyLanguage/World Bosses|World Bosses]].\n* Killing the scout at a [[Special:MyLanguage/Saiyan Crater|Saiyan Crater]] starts the '''[[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]''' raid. See [[Special:MyLanguage/Raids|Raids]].",
-  "translation": "* '''[[Special:MyLanguage/Turles|Turles]]''' dorme na clareira sob a [[Special:MyLanguage/Tree of Might|Árvore do Poder]]. Veja [[Special:MyLanguage/World Bosses|Chefes de mundo]].\n* Matar o batedor de uma [[Special:MyLanguage/Saiyan Crater|Cratera saiyajin]] inicia a incursão '''[[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]]'''. Veja [[Special:MyLanguage/Raids|Incursões]].",
+  "source": "* '''[[Special:MyLanguage/Turles|Turles]]''' sleeps in the clearing under the [[Special:MyLanguage/Tree of Might|Tree of Might]]. See [[Special:MyLanguage/World Bosses|World Bosses]].\n* Killing the scout at a [[Special:MyLanguage/Saiyan Crater|Saiyan Crater]] starts the '''[[Special:MyLanguage/Saiyan Assault|Saiyan Assault]]''' raid. See [[Special:MyLanguage/Raids|Raids]].\n* Killing the commander of a Red Ribbon base starts the '''[[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]]''' raid.",
+  "translation": "* '''[[Special:MyLanguage/Turles|Turles]]''' dorme na clareira sob a [[Special:MyLanguage/Tree of Might|Árvore do Poder]]. Veja [[Special:MyLanguage/World Bosses|Chefes de mundo]].\n* Matar o batedor de uma [[Special:MyLanguage/Saiyan Crater|Cratera saiyajin]] inicia a incursão '''[[Special:MyLanguage/Saiyan Assault|Ataque Saiyajin]]'''. Veja [[Special:MyLanguage/Raids|Incursões]].\n* Matar o comandante de uma base do Exército Red Ribbon inicia a incursão '''[[Special:MyLanguage/Red Ribbon Army Assault|Ataque do Exército Red Ribbon]]'''.",
   "outdated": false
  },
  "53": {

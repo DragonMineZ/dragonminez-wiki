@@ -25,8 +25,8 @@
   "outdated": false
  },
  "5": {
-  "source": "'''Instant Transmission''' lets you teleport by locking onto ki. A quick tap of the key puts you right behind the target you are looking at, which makes it a combat tool as much as a travel one. From level 5 you can also hold the key to warp to masters, party members and other players far away.",
-  "translation": "La '''Teletransportación Instantánea''' te permite teletransportarte fijando un ki. Un toque rápido de la tecla te coloca justo detrás del objetivo al que miras, lo que la convierte tanto en una herramienta de combate como de viaje. Desde el nivel 5 también puedes mantener pulsada la tecla para viajar hasta maestros, miembros del grupo y otros jugadores que estén lejos.",
+  "source": "'''Instant Transmission''' lets you teleport by locking onto ki. A quick tap of the key puts you right behind the target you are looking at, which makes it a combat tool as much as a travel one. From level 5 you can also hold the key to warp to masters, party members and other players far away, paying Ki for the trip.",
+  "translation": "La '''Teletransportación Instantánea''' te permite teletransportarte fijando un ki. Un toque rápido de la tecla te coloca justo detrás del objetivo al que miras, lo que la convierte tanto en una herramienta de combate como de viaje. Desde el nivel 5 también puedes mantener pulsada la tecla para viajar hasta maestros, miembros del grupo y otros jugadores que estén lejos, pagando Ki por el viaje.",
   "outdated": false
  },
  "6": {
@@ -75,8 +75,8 @@
   "outdated": false
  },
  "15": {
-  "source": "From '''level 5''', '''hold''' {{Key|H}} for half a second to open the Instant Transmission menu and pick a destination:",
-  "translation": "Desde el '''nivel 5''', '''mantén pulsada''' {{Key|H}} medio segundo para abrir el menú de Teletransportación Instantánea y elegir un destino:",
+  "source": "From '''level 5''', '''hold''' {{Key|H}} for half a second to open the Instant Transmission menu and pick a destination. The menu has two tabs: '''NPCs''' for masters and '''Players''' for everyone else.",
+  "translation": "Desde el '''nivel 5''', '''mantén pulsada''' {{Key|H}} medio segundo para abrir el menú de Teletransportación Instantánea y elegir un destino. El menú tiene dos pestañas: '''NPCs''' para los maestros y '''Jugadores''' para todos los demás.",
   "outdated": false
  },
  "16": {
@@ -84,9 +84,54 @@
   "translation": "* cualquier [[Special:MyLanguage/Masters|maestro]] cuyo Ki hayas aprendido hablando con él al menos una vez;\n* los '''miembros de tu grupo''';\n* otros jugadores a '''200 bloques por nivel''' o menos cuyo Poder de Combate sea parecido al tuyo (entre el 90% y el 125% del tuyo).",
   "outdated": false
  },
+ "24": {
+  "source": "Each entry shows a planet icon for the dimension it is in and the Ki the trip costs ('''Ki required'''). Destinations you can't reach are greyed out, and you can't travel if you don't have enough Ki.",
+  "translation": "Cada entrada muestra un ícono del planeta de la dimensión en la que está y el Ki que cuesta el viaje ('''Ki requerido'''). Los destinos a los que no puedes llegar aparecen en gris, y no puedes viajar si no tienes suficiente Ki.",
+  "outdated": false
+ },
  "17": {
   "source": "From '''level 10''', masters and party members in other dimensions can be reached too. After a warp to a master or a player, Instant Transmission has a 30-second cooldown by default.",
   "translation": "Desde el '''nivel 10''' también puedes llegar a maestros y miembros del grupo que estén en otras dimensiones. Tras viajar hasta un maestro o un jugador, la Teletransportación Instantánea tiene un tiempo de recarga de 30 segundos por defecto.",
+  "outdated": false
+ },
+ "25": {
+  "source": "== Ki cost of a warp ==",
+  "translation": "== Costo de Ki de un viaje ==",
+  "outdated": false
+ },
+ "26": {
+  "source": "A warp from the menu costs Ki:\n* a base of '''50 Ki''' (five times the fly-dash cost with the default settings);\n* '''5 Ki''' for every full 25 blocks to a destination in the same dimension;\n* a '''route fee''' to a destination in another dimension: the difference between the two dimensions' values below. A trip from Earth to Namek costs 2,000 Ki extra, and one from Namek to the Otherworld 18,000.",
+  "translation": "Un viaje desde el menú cuesta Ki:\n* una base de '''50 Ki''' (cinco veces el costo del dash en vuelo con la configuración por defecto);\n* '''5 Ki''' por cada 25 bloques completos hasta un destino en la misma dimensión;\n* una '''tarifa de ruta''' hasta un destino en otra dimensión: la diferencia entre los valores de las dos dimensiones de la tabla. Un viaje de la Tierra a Namek cuesta 2,000 de Ki extra, y uno de Namek al Otro Mundo 18,000.",
+  "outdated": false
+ },
+ "27": {
+  "source": "Warps are free in Creative mode.",
+  "translation": "En el modo Creativo los viajes son gratis.",
+  "outdated": false
+ },
+ "28": {
+  "source": "Dimension",
+  "translation": "Dimensión",
+  "outdated": false
+ },
+ "29": {
+  "source": "Route value (Ki)",
+  "translation": "Valor de ruta (Ki)",
+  "outdated": false
+ },
+ "30": {
+  "source": "The Nether",
+  "translation": "El Nether",
+  "outdated": false
+ },
+ "31": {
+  "source": "The End",
+  "translation": "El End",
+  "outdated": false
+ },
+ "32": {
+  "source": "Any other dimension",
+  "translation": "Cualquier otra dimensión",
   "outdated": false
  },
  "18": {

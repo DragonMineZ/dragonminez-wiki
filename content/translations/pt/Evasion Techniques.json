@@ -5,8 +5,8 @@
   "outdated": false
  },
  "1": {
-  "source": "'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap and a roar that pushes everyone back. They activate as soon as you press the slot key and share a short lockout with each other.",
-  "translation": "As '''técnicas de evasão''' são movimentos de utilidade que ajudam você a escapar, se reposicionar ou virar uma luta: clarões que cegam, imagens residuais, teleportes, um cochilo que cura e um rugido que empurra todos para trás. Elas são ativadas assim que você aperta a tecla do slot e compartilham um breve bloqueio entre si.",
+  "source": "'''Evasion techniques''' are utility moves that help you escape, reposition or turn a fight around: blinding flashes, afterimages, teleports, a healing nap, a roar that pushes everyone back, and Majin tricks that turn enemies into candy or wrap them in gum. They activate as soon as you press the slot key and share a short lockout with each other.",
+  "translation": "As '''técnicas de evasão''' são movimentos de utilidade que ajudam você a escapar, se reposicionar ou virar uma luta: clarões que cegam, imagens residuais, teleportes, um cochilo que cura, um rugido que empurra todos para trás e truques Majin que transformam os inimigos em doce ou os envolvem em goma. Elas são ativadas assim que você aperta a tecla do slot e compartilham um breve bloqueio entre si.",
   "outdated": false
  },
  "2": {
@@ -69,9 +69,39 @@
   "translation": "Um cochilo de 7 segundos que cura 10% da sua vida máxima a cada segundo (até 70%). Você não pode se mover, atacar nem usar itens enquanto dorme, e sofrer dano acorda você. Só os [[Special:MyLanguage/Majin|Majins]] podem equipá-lo.",
   "outdated": false
  },
+ "27": {
+  "source": "Candy Beam",
+  "translation": "Raio de Doce",
+  "outdated": false
+ },
+ "28": {
+  "source": "Turns an enemy within 5 blocks in your line of sight (your locked-on target first) into candy for 3 seconds. A candied target can't attack. With no enemy close enough nothing happens and no Ki is spent. Only [[Special:MyLanguage/Majin|Majins]] can equip it.",
+  "translation": "Transforma em doce por 3 segundos um inimigo a até 5 blocos na sua linha de visão (primeiro o seu alvo travado). Um alvo transformado em doce não pode atacar. Se nenhum inimigo estiver perto o bastante, nada acontece e nenhum Ki é gasto. Só os [[Special:MyLanguage/Majin|Majins]] podem equipá-lo.",
+  "outdated": false
+ },
+ "29": {
+  "source": "Gum Bind",
+  "translation": "Amarra de Goma",
+  "outdated": false
+ },
+ "30": {
+  "source": "Throws a Majin Gum Ball at your locked-on target within 24 blocks (otherwise where you aim) that wraps the first enemy it hits in Majin Gum. A bound target can't attack. Players stay bound for 10 seconds; other enemies for 10 seconds, or less if they are stronger than you. Only [[Special:MyLanguage/Majin|Majins]] can equip it.",
+  "translation": "Arremessa uma Bola de Goma Majin no seu alvo travado a até 24 blocos (senão, para onde você mira) que envolve em Goma Majin o primeiro inimigo que acerta. Um alvo amarrado não pode atacar. Jogadores ficam amarrados por 10 segundos; os outros inimigos por 10 segundos, ou menos se forem mais fortes que você. Só os [[Special:MyLanguage/Majin|Majins]] podem equipá-la.",
+  "outdated": false
+ },
  "14": {
-  "source": "'''Sleep Recovery''' is a Majin technique: any race can learn it from Majin Buu, but only a Majin can equip it in a technique slot (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use it in the story: they take a 7-second nap that heals up to 60% of their max health.",
-  "translation": "A '''Regeneração do Sono''' é uma técnica Majin: qualquer raça pode aprendê-la com Majin Boo, mas só um Majin pode equipá-la em um slot de técnica (veja [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]). [[Special:MyLanguage/Kid Buu|Kid Boo]] e [[Special:MyLanguage/Majin Kuu|Majin Kuu]] também a usam na história: eles tiram um cochilo de 7 segundos que cura até 60% da vida máxima.",
+  "source": "'''Sleep Recovery''', the '''Candy Beam''' and '''Gum Bind''' are Majin techniques: any race can learn them from Majin Buu, but only a Majin can equip them in a technique slot or upgrade them (see [[Special:MyLanguage/Techniques#Learning techniques|Techniques]]). [[Special:MyLanguage/Kid Buu|Kid Buu]] and [[Special:MyLanguage/Majin Kuu|Majin Kuu]] also use Sleep Recovery in the story: they take a 7-second nap that heals up to 60% of their max health.",
+  "translation": "A '''Regeneração do Sono''', o '''Raio de Doce''' e a '''Amarra de Goma''' são técnicas Majin: qualquer raça pode aprendê-las com Majin Boo, mas só um Majin pode equipá-las em um slot de técnica ou melhorá-las (veja [[Special:MyLanguage/Techniques#Learning techniques|Técnicas]]). [[Special:MyLanguage/Kid Buu|Kid Boo]] e [[Special:MyLanguage/Majin Kuu|Majin Kuu]] também usam a Regeneração do Sono na história: eles tiram um cochilo de 7 segundos que cura até 60% da vida máxima.",
+  "outdated": false
+ },
+ "31": {
+  "source": "=== Breaking free from Gum Bind ===",
+  "translation": "=== Como se soltar da Amarra de Goma ===",
+  "outdated": false
+ },
+ "32": {
+  "source": "* A player wrapped in gum breaks free by mashing the '''Sneak''' key ({{Key|Shift}}): every press takes 0.25 seconds off the bind.\n* The bind also ends if the victim is knocked down or gets more than 24 blocks away from you.\n* Against other enemies, a stronger target is bound for 10 seconds × your Battle Power ÷ its Battle Power, but always at least 2 seconds.\n* [[Special:MyLanguage/World Bosses|World bosses]] and giant multi-part bosses can't be bound.\n* Majin Buu also uses Gum Bind against you in the story, and the Majin Candy attack of the bosses that use it has the same effect as the Candy Beam.",
+  "translation": "* Um jogador envolvido em goma se solta apertando várias vezes a tecla de '''Agachar''' ({{Key|Shift}}): cada toque tira 0.25 segundos da amarra.\n* A amarra também termina se a vítima for nocauteada ou se afastar mais de 24 blocos de você.\n* Contra os outros inimigos, um alvo mais forte fica amarrado por 10 segundos × o seu Poder de luta ÷ o Poder de luta dele, mas sempre pelo menos 2 segundos.\n* [[Special:MyLanguage/World Bosses|Chefes de mundo]] e chefes gigantes de várias partes não podem ser amarrados.\n* Majin Boo também usa a Amarra de Goma contra você na história, e o ataque Doce Majin dos chefes que o usam tem o mesmo efeito do Raio de Doce.",
   "outdated": false
  },
  "15": {

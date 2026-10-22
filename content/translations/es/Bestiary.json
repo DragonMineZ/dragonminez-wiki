@@ -84,6 +84,16 @@
   "translation": "Soldados cultivados como plantas que pueden aferrarse a ti y autodestruirse.",
   "outdated": false
  },
+ "90": {
+  "source": "A Saibaman variant that hunts in small groups in snowy biomes and never self-destructs.",
+  "translation": "Una variante del Saibaman que caza en grupos pequeños en biomas nevados y nunca se autodestruye.",
+  "outdated": false
+ },
+ "91": {
+  "source": "A huge wild Giran, rare and always alone, in the lands where dinosaurs live.",
+  "translation": "Un Giran salvaje enorme, poco común y siempre solo, en las tierras donde viven los dinosaurios.",
+  "outdated": false
+ },
  "17": {
   "source": "Frieza's army, occupying the plains of Planet Namek.",
   "translation": "El ejército de Freezer, que ocupa las llanuras del planeta Namek.",
@@ -114,14 +124,19 @@
   "translation": "Los soldados del Rey Gomah, que asaltan las aldeas demoníacas.",
   "outdated": false
  },
+ "92": {
+  "source": "'''Halloween:''' only on October 31 (by the server's date), '''Evil Clones''' of Goku, Vegeta, Piccolo, Nappa and Krillin roam the Overworld at night, in dark spots like vanilla monsters. They spawn alone (Evil Clone Krillin sometimes in pairs) and have 1,800 health, 90 melee damage, 140 ki damage and a Battle Power of 1,200. They can't fly and only fire small red ki blasts. Each clone has its own spawn egg. On October 31 the masters also wear carved pumpkins (this one follows your own computer's date).",
+  "translation": "'''Halloween:''' solo el 31 de octubre (según la fecha del servidor), los '''Clones Malvados''' de Goku, Vegeta, Piccolo, Nappa y Krilin recorren el Overworld de noche, en zonas oscuras, como los monstruos vanilla. Aparecen solos (el Clon Malvado de Krilin a veces en pareja) y tienen 1,800 de vida, 90 de daño cuerpo a cuerpo, 140 de daño de ki y un Poder de Combate de 1,200. No pueden volar y solo disparan pequeñas ráfagas de ki rojas. Cada clon tiene su propio huevo generador. El 31 de octubre los maestros también llevan calabazas talladas (esto sigue la fecha de tu propia computadora).",
+  "outdated": false
+ },
  "45": {
   "source": "== Raid enemies ==",
   "translation": "== Enemigos de incursión ==",
   "outdated": false
  },
  "46": {
-  "source": "The invaders of the three [[Special:MyLanguage/Raids|raids]]: the soldiers that fill each wave and the bosses that lead them. [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]] also fight in raids, but they roam their worlds too and are listed under hostile mobs.",
-  "translation": "Los invasores de las tres [[Special:MyLanguage/Raids|incursiones]]: los soldados que llenan cada oleada y los jefes que los lideran. Los [[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]] y los [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]] también pelean en incursiones, pero además recorren sus mundos y aparecen en la sección de enemigos.",
+  "source": "The invaders of the four [[Special:MyLanguage/Raids|raids]]: the soldiers that fill each wave and the bosses that lead them. [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]] and the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]]'s soldiers and robots also fight in raids, but they roam their worlds too and are listed under hostile mobs. The bosses of the [[Special:MyLanguage/Red Ribbon Army Assault|Red Ribbon Army Assault]] (Colonel Silver, Sergeant Metallic, Ninja Murasaki, General Blue and General Black's Robot) are described on the raid's page.",
+  "translation": "Los invasores de las cuatro [[Special:MyLanguage/Raids|incursiones]]: los soldados que llenan cada oleada y los jefes que los lideran. Los [[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]], los [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]] y los soldados y robots del [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] también pelean en incursiones, pero además recorren sus mundos y aparecen en la sección de enemigos. Los jefes del [[Special:MyLanguage/Red Ribbon Army Assault|Asalto de la Patrulla Roja]] (Coronel Silver, Sargento Metallic, Ninja Murasaki, General Blue y Robot del General Black) se describen en la página de la incursión.",
   "outdated": false
  },
  "47": {
@@ -195,8 +210,8 @@
   "outdated": false
  },
  "61": {
-  "source": "The NPC fighters of the three [[Special:MyLanguage/Tournaments|tournaments]]; most of them are story opponents in the sagas too. Characters who are masters elsewhere, such as [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] and [[Special:MyLanguage/Cell|Cell]], list their tournament forms on their own pages.",
-  "translation": "Los luchadores NPC de los tres [[Special:MyLanguage/Tournaments|torneos]]; la mayoría también son rivales de la historia en las sagas. Los personajes que en otras partes son maestros, como [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] y [[Special:MyLanguage/Cell|Cell]], muestran sus formas de torneo en sus propias páginas.",
+  "source": "The NPC fighters of the four [[Special:MyLanguage/Tournaments|tournaments]]; most of them are story opponents in the sagas too. [[Special:MyLanguage/Giran|Giran]], who also roams the wild, is listed under hostile mobs. Characters who are masters elsewhere, such as [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] and [[Special:MyLanguage/Cell|Cell]], list their tournament forms on their own pages.",
+  "translation": "Los luchadores NPC de los cuatro [[Special:MyLanguage/Tournaments|torneos]]; la mayoría también son rivales de la historia en las sagas. [[Special:MyLanguage/Giran|Giran]], que también vive en estado salvaje, aparece en la sección de enemigos. Los personajes que en otras partes son maestros, como [[Special:MyLanguage/Goku|Goku]], [[Special:MyLanguage/Gohan|Gohan]], [[Special:MyLanguage/Vegeta|Vegeta]], [[Special:MyLanguage/Trunks|Trunks]], [[Special:MyLanguage/Piccolo|Piccolo]] y [[Special:MyLanguage/Cell|Cell]], muestran sus formas de torneo en sus propias páginas.",
   "outdated": false
  },
  "62": {
@@ -410,8 +425,8 @@
   "outdated": false
  },
  "37": {
-  "source": "[[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]] and [[Special:MyLanguage/Mini Buu|Mini Buus]] are '''wild enemies'''. They have their own spawn category with its own cap of '''14''' (scaled with the loaded area like vanilla mob caps), separate from vanilla monsters, so the two never take each other's spawn slots. Their natural spawns follow these rules:",
-  "translation": "Los [[Special:MyLanguage/Bandit|Bandidos]], el [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] (soldados y robots), los [[Special:MyLanguage/Sabertooth Tiger|Tigres Dientes de Sable]], los [[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]] y los [[Special:MyLanguage/Mini Buu|Mini Buus]] son '''enemigos salvajes'''. Tienen su propia categoría de aparición con su propio límite de '''14''' (escalado con el área cargada como los límites de criaturas vanilla), separada de los monstruos vanilla, así que nunca se quitan los huecos de aparición entre sí. Sus apariciones naturales siguen estas reglas:",
+  "source": "[[Special:MyLanguage/Bandit|Bandits]], the [[Special:MyLanguage/Red Ribbon Army|Red Ribbon Army]] (soldiers and robots), [[Special:MyLanguage/Sabertooth Tiger|Sabertooth Tigers]], [[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Mini Buu|Mini Buus]] and the wild [[Special:MyLanguage/Giran|Giran]] are '''wild enemies'''. They have their own spawn category with its own cap of '''14''' (scaled with the loaded area like vanilla mob caps), separate from vanilla monsters, so the two never take each other's spawn slots. Their natural spawns follow these rules:",
+  "translation": "Los [[Special:MyLanguage/Bandit|Bandidos]], el [[Special:MyLanguage/Red Ribbon Army|Ejército de la Patrulla Roja]] (soldados y robots), los [[Special:MyLanguage/Sabertooth Tiger|Tigres Dientes de Sable]], los [[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]], los [[Special:MyLanguage/Mini Buu|Mini Buus]] y el [[Special:MyLanguage/Giran|Giran]] salvaje son '''enemigos salvajes'''. Tienen su propia categoría de aparición con su propio límite de '''14''' (escalado con el área cargada como los límites de criaturas vanilla), separada de los monstruos vanilla, así que nunca se quitan los huecos de aparición entre sí. Sus apariciones naturales siguen estas reglas:",
   "outdated": false
  },
  "38": {
@@ -435,8 +450,8 @@
   "outdated": false
  },
  "42": {
-  "source": "Story-style mobs that spawn naturally ([[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Saibamen|Saibamen]], [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Hell Ogre|Hell's ogres]] and [[Special:MyLanguage/Mini Buu|Mini Buu]]) fight on the '''Novice''' AI tier: slow reactions, melee, random combos and the occasional ki attack, with no dashing and no Zanzoken. Some of them also fire ki blasts. The other AI tiers are explained on [[Special:MyLanguage/Sagas|Sagas]].",
-  "translation": "Las criaturas de estilo historia que aparecen de forma natural ([[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]], [[Special:MyLanguage/Saibamen|Saibamen]], [[Special:MyLanguage/Gete Robot|Robots Gete]], [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]], [[Special:MyLanguage/Hell Ogre|ogros del Infierno]] y [[Special:MyLanguage/Mini Buu|Mini Buu]]) pelean en el nivel de IA '''Novato''': reacciones lentas, cuerpo a cuerpo, combos aleatorios y algún ataque de ki ocasional, sin dashes ni Zanzoken. Algunas también disparan ráfagas de ki. Los demás niveles de IA se explican en [[Special:MyLanguage/Sagas|Sagas]].",
+  "source": "Story-style mobs that spawn naturally ([[Special:MyLanguage/Frieza Soldier|Frieza's Soldiers]], [[Special:MyLanguage/Saibamen|Saibamen]], the [[Special:MyLanguage/Bioman|Bioman]], the wild [[Special:MyLanguage/Giran|Giran]], [[Special:MyLanguage/Gete Robot|Gete Robots]], [[Special:MyLanguage/Gomah Soldier|Gomah's soldiers]], [[Special:MyLanguage/Hell Ogre|Hell's ogres]] and [[Special:MyLanguage/Mini Buu|Mini Buu]]) fight on the '''Novice''' AI tier: slow reactions, melee, random combos and the occasional ki attack, with no dashing and no Zanzoken. Some of them also fire ki blasts. The other AI tiers are explained on [[Special:MyLanguage/Sagas|Sagas]].",
+  "translation": "Las criaturas de estilo historia que aparecen de forma natural ([[Special:MyLanguage/Frieza Soldier|Soldados de Freezer]], [[Special:MyLanguage/Saibamen|Saibamen]], el [[Special:MyLanguage/Bioman|Bioman]], el [[Special:MyLanguage/Giran|Giran]] salvaje, [[Special:MyLanguage/Gete Robot|Robots Gete]], [[Special:MyLanguage/Gomah Soldier|soldados de Gomah]], [[Special:MyLanguage/Hell Ogre|ogros del Infierno]] y [[Special:MyLanguage/Mini Buu|Mini Buu]]) pelean en el nivel de IA '''Novato''': reacciones lentas, cuerpo a cuerpo, combos aleatorios y algún ataque de ki ocasional, sin dashes ni Zanzoken. Algunas también disparan ráfagas de ki. Los demás niveles de IA se explican en [[Special:MyLanguage/Sagas|Sagas]].",
   "outdated": false
  },
  "43": {

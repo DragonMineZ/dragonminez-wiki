@@ -1,0 +1,77 @@
+{
+ "Page_display_title": {
+  "source": "World Tournament Announcer",
+  "translation": "Presentador del Torneo de Artes Marciales",
+  "outdated": false
+ },
+ "1": {
+  "source": "NPC, tournament host",
+  "translation": "NPC, anfitrión del torneo",
+  "outdated": false
+ },
+ "2": {
+  "source": "By the ring of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island (one per world)",
+  "translation": "Junto al ring de la isla del [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]] (una por mundo)",
+  "outdated": false
+ },
+ "3": {
+  "source": "Friendly; talks to every player; can't be hurt",
+  "translation": "Amistoso; habla con todos los jugadores; no puede recibir daño",
+  "outdated": false
+ },
+ "4": {
+  "source": "Tournament screen",
+  "translation": "Pantalla del torneo",
+  "outdated": false
+ },
+ "5": {
+  "source": "None",
+  "translation": "Ninguno",
+  "outdated": false
+ },
+ "6": {
+  "source": "The '''World Tournament Announcer''' hosts the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] on its island in the ocean. Talk to him to enter the tournament.",
+  "translation": "El '''Presentador del Torneo de Artes Marciales''' organiza el [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]] en su isla del océano. Habla con él para entrar al torneo.",
+  "outdated": false
+ },
+ "7": {
+  "source": "== Finding him ==",
+  "translation": "== Dónde encontrarlo ==",
+  "outdated": false
+ },
+ "8": {
+  "source": "The announcer stands by the tournament ring, next to [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. The island generates once per world in the ocean: find it with <code>/dmzlocate budokai_tenkaichi</code> or with the map sold by the [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]].",
+  "translation": "El presentador está junto al ring del torneo, al lado del [[Special:MyLanguage/Mr. Satan|Sr. Satán]]. La isla aparece una vez por mundo en el océano: encuéntrala con <code>/dmzlocate budokai_tenkaichi</code> o con el mapa que vende el [[Special:MyLanguage/Capsule Corp Assistant|Asistente de la Corporación Cápsula]].",
+  "outdated": false
+ },
+ "9": {
+  "source": "== In the tournament ==",
+  "translation": "== En el torneo ==",
+  "outdated": false
+ },
+ "10": {
+  "source": "The announcer is the host of the World Martial Arts Tournament, a non-lethal four-star bracket that ends with [[Special:MyLanguage/Gohan|Gohan (End)]], Majin Vegeta and the champion, [[Special:MyLanguage/Mr. Satan|Mr. Satan]]. Press '''Tournament''' in his dialogue to open the tournament screen, then '''Enter''' while you are within 12 blocks of him. See [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] for the fighters and rewards, and [[Special:MyLanguage/Tournaments|Tournaments]] for how entering and bouts work.",
+  "translation": "El presentador es el anfitrión del Torneo de Artes Marciales, una eliminatoria sin muertes de cuatro estrellas que termina con [[Special:MyLanguage/Gohan|Gohan (End)]], Majin Vegeta y el campeón, el [[Special:MyLanguage/Mr. Satan|Sr. Satán]]. Presiona '''Torneo''' en su diálogo para abrir la pantalla del torneo y luego '''Entrar''' mientras estés a 12 bloques o menos de él. Consulta [[Special:MyLanguage/World Martial Arts Tournament|Torneo de Artes Marciales]] para ver los luchadores y las recompensas, y [[Special:MyLanguage/Tournaments|Torneos]] para saber cómo funcionan la inscripción y los combates.",
+  "outdated": false
+ },
+ "11": {
+  "source": "== Behavior and abilities ==",
+  "translation": "== Comportamiento y habilidades ==",
+  "outdated": false
+ },
+ "12": {
+  "source": "Right-click the announcer to open his dialogue. He greets you with one of several welcome lines and offers '''Tournament''', which opens the tournament screen.",
+  "translation": "Haz clic derecho sobre el presentador para abrir su diálogo. Te saluda con una de varias frases de bienvenida y te ofrece '''Torneo''', que abre la pantalla del torneo.",
+  "outdated": false
+ },
+ "13": {
+  "source": "He teaches no skills and gives no quests. He talks to every player, whatever their [[Special:MyLanguage/Alignment|alignment]]. Like the [[Special:MyLanguage/Masters|masters]], he stays in place, can't be pushed and can't be hurt. He is never drawn as a fighter in any tournament.",
+  "translation": "No enseña habilidades ni da misiones. Habla con todos los jugadores, sea cual sea su [[Special:MyLanguage/Alignment|alineamiento]]. Como los [[Special:MyLanguage/Masters|maestros]], se queda en su sitio, no se le puede empujar y no puede recibir daño. Nunca sale como luchador en ningún torneo.",
+  "outdated": false
+ },
+ "14": {
+  "source": "Entity id",
+  "translation": "ID de entidad",
+  "outdated": false
+ }
+}

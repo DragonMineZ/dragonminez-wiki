@@ -1,0 +1,65 @@
+{{Infobox Master
+|Location={{L|Earth}}, <translate><!--T:1--> an island in the ocean</translate>
+|Structure={{L|World Martial Arts Tournament}}
+|Alignment=<translate><!--T:2--> None for Skills and Train (greets you coldly below 41)</translate>
+|Locate=/dmzlocate budokai_tenkaichi
+|Teaches={{L|Ki Control}}, {{L|Solar Flare}}, <translate><!--T:3--> Dodon Ray, Tri-Beam, Neo Tri-Beam</translate>
+}}
+<translate>
+<!--T:4-->
+'''Master Tien''' is a [[Special:MyLanguage/Masters|master]] who lives on the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]] island, in the oceans of [[Special:MyLanguage/Earth|Earth]], together with [[Special:MyLanguage/Chiaotzu|Chiaotzu]]. He is the only master who teaches the Dodon Ray, the Tri-Beam and the Neo Tri-Beam, and he trains characters of any alignment.
+</translate>
+
+<translate>
+== Location == <!--T:5-->
+</translate>
+<translate>
+<!--T:6-->
+Master Tien and Chiaotzu stand together on the island of the [[Special:MyLanguage/World Martial Arts Tournament|World Martial Arts Tournament]], about 130 blocks from the ring. The island generates once per world in the oceans: find it with {{Command|/dmzlocate budokai_tenkaichi}} or buy a map from a [[Special:MyLanguage/Capsule Corp Assistant|Capsule Corp Assistant]] of tier 3 or higher (1 Map and 4 Gold Ingots).
+</translate>
+
+<translate>
+== Alignment == <!--T:7-->
+</translate>
+<translate>
+<!--T:8-->
+Master Tien's '''Skills''' and '''Train''' are open at any [[Special:MyLanguage/Alignment|alignment]]. Below 41 he greets you with a colder line (for example "The Tri-Beam is a technique for protecting others, not for hurting them."), and below 25 he treats you as hostile. Server owners can change both limits in the NPC alignment rules (see [[Special:MyLanguage/NPC Placement and Alignment|NPC Placement and Alignment]]).
+</translate>
+
+<translate>
+== Skills and techniques == <!--T:9-->
+</translate>
+{{See also|Skills|Techniques}}
+{| class="wikitable"
+! <translate><!--T:10--> Skill or technique</translate> !! <translate><!--T:11--> Type</translate> !! <translate><!--T:12--> Cost (TP)</translate>
+|-
+| {{L|Ki Control}} || <translate><!--T:13--> Skill</translate> || 3,000
+|-
+| {{L|Solar Flare}} || <translate><!--T:14--> Evasion technique</translate> || 2,000
+|-
+| <translate><!--T:15--> Dodon Ray</translate> || <translate><!--T:16--> Ki attack</translate> || 3,000
+|-
+| <translate><!--T:17--> Tri-Beam</translate> || <translate><!--T:18--> Ki attack</translate> || 5,000
+|-
+| <translate><!--T:19--> Neo Tri-Beam</translate> || <translate><!--T:20--> Ki attack</translate> || 8,000
+|}
+
+<translate>
+<!--T:21-->
+Everything is paid for with Training Points, and your race has to allow each skill. His '''Train''' option spawns a Shadow Clone to spar with.
+
+<!--T:22-->
+After the Neo Tri-Beam you can fire up to 3 follow-up shots within a 3-second window. Each one costs 10% of your maximum health and needs at least 20% health left.
+</translate>
+
+<translate>
+== Side quests == <!--T:23-->
+</translate>
+<translate>
+<!--T:24-->
+Master Tien gives no side quests himself, but Chiaotzu's ''A Gift for Tien'' has you bring him 10 Cooked Salmon and 10 Bread. See [[Special:MyLanguage/Chiaotzu|Chiaotzu]].
+</translate>
+
+{{Note|type=config|title=<translate><!--T:25--> Server settings</translate>|<translate><!--T:26--> What he teaches is the <code>tien</code> list of <code>skillOfferings</code> in <code>config/dragonminez/skills.json</code>. Existing servers get it added the next time the file loads, without touching their other values.</translate>}}
+
+{{Navbox Masters}}

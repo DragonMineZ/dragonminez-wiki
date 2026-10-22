@@ -40,7 +40,7 @@ This page lists DragonMineZ's default key bindings and key combinations. Every k
 |-
 | {{Key|Alt}} + {{Key|G}} || <translate><!--T:26--> '''Descend (Lower Form)''': drop one form or stack-form tier. With a racial skill selected it triggers the racial '''secondary action''' instead (for example dismissing a Cell Jr. or a Bio-Android's Self-Destruct).</translate>
 |-
-| {{Key|Alt}} + {{Key|Right Mouse}} || <translate><!--T:27--> Fire a basic '''ki blast'''.</translate>
+| {{Key|Alt}} + {{Key|Right Mouse}} || <translate><!--T:27--> Tap to fire a basic '''ki blast''' (your shots alternate hands). Hold for 0.3 seconds to fire a '''Ki Volley''' of 6 ki blasts (30-second cooldown). See [[Special:MyLanguage/Combat#Ki blasts and Ki Volley|Combat]].</translate>
 |-
 | <translate><!--T:28--> {{Key|Ctrl}} + {{Key|Alt}} + {{Key|Right Mouse}} (hold)</translate> || <translate><!--T:29--> '''Ki Transfer''': give your Ki to the player you are looking at (within 8 blocks) for as long as you hold the keys. {{Key|Ctrl}} and {{Key|Alt}} are fixed here and don't follow the Second Function key. See [[Special:MyLanguage/Ki Transfer|Ki Transfer]].</translate>
 |-
@@ -49,6 +49,8 @@ This page lists DragonMineZ's default key bindings and key combinations. Every k
 | {{Key|Z}} || <translate><!--T:31--> '''Lock on''' to a target.</translate>
 |-
 | {{Key|Right Mouse}} || <translate><!--T:32--> '''Block''' (with empty hands). Starting a block right before a hit lands is a '''parry''' (see [[Special:MyLanguage/Combat#Parrying|Combat]]).</translate>
+|-
+| <translate><!--T:66--> {{Key|Shift}} (mash)</translate> || <translate><!--T:67--> Break free from '''Gum Bind''' when a Majin wraps you in gum: every press of the Sneak key takes 0.25 seconds off the bind (see [[Special:MyLanguage/Evasion Techniques#Breaking free from Gum Bind|Evasion Techniques]]).</translate>
 |}
 
 <translate>
@@ -63,6 +65,29 @@ This page lists DragonMineZ's default key bindings and key combinations. Every k
 | {{Key|Alt}} + {{Key|F}} || <translate><!--T:37--> '''Switch flight mode''' between '''Combat Fly''' and '''Search Fly'''. The flight mode, the flight speed cap and the flight '''Mode Lock''' are also in the Utility Menu under '''Movement → Fly''' (see [[Special:MyLanguage/Menus#Utility Menu|Menus]]).</translate>
 |-
 | {{Key|F4}} || <translate><!--T:38--> [[Special:MyLanguage/Ki Sense|Ki Sense]]: cycle the Ki Sense display through Combat mode, Search mode and off (needs the Ki Sense skill). While you wear a [[Special:MyLanguage/Scouters|scouter]] it toggles the scouter readout instead.</translate>
+|}
+
+<translate>
+== Vehicles == <!--T:68-->
+
+<!--T:69-->
+While you ride a [[Special:MyLanguage/Vehicles|vehicle]], these keys drive it. You can't fire techniques while riding, and flight turns off when you get on.
+</translate>
+
+{| class="wikitable"
+! <translate><!--T:70--> Key</translate> !! <translate><!--T:71--> Action</translate>
+|-
+| {{Key|W}} {{Key|A}} {{Key|S}} {{Key|D}} || <translate><!--T:72--> Drive (cars can't strafe).</translate>
+|-
+| {{Key|Space}} || <translate><!--T:73--> Ascend. Double-tap it to take off with Frieza's Capsule.</translate>
+|-
+| {{Key|Alt}} || <translate><!--T:74--> Descend (the Second Function key).</translate>
+|-
+| {{Key|Ctrl}} || <translate><!--T:75--> Sprint: go faster with vehicles that have a sprint speed.</translate>
+|-
+| {{Key|R}} || <translate><!--T:76--> Boost (Flying Nimbus and Black Nimbus only).</translate>
+|-
+| {{Key|Alt}} + {{Key|1}} / {{Key|2}} / {{Key|3}} / {{Key|4}} || <translate><!--T:77--> Move to seat 1–4 (the technique slot 1–4 keys). Seat 1 drives.</translate>
 |}
 
 <translate>
@@ -98,6 +123,9 @@ Save techniques to slots in the Skills tab and fire them with a modifier plus a 
 <translate>
 <!--T:53-->
 Ki attacks charge while you hold the slot key and fire when you release it; strike attacks and evasion techniques activate as soon as you press it. See [[Special:MyLanguage/Techniques|Techniques]].
+
+<!--T:78-->
+While the '''cinematic camera''' of a strike attack plays, you can't look around with the mouse or toggle lock-on (see [[Special:MyLanguage/Strike Attacks#Cinematic camera|Strike Attacks]]).
 
 == Minigames == <!--T:54-->
 </translate>

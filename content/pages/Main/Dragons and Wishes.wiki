@@ -104,6 +104,9 @@ Server owners can replace a dragon's wish list on their world, and add-on packs 
 * some sets never scatter on their own, and their balls only come from quests, bosses or other rewards;
 * a wish can be limited to once per summon, even on a dragon that grants several wishes;
 * besides items, wishes can grant Attributes, Attribute Points, Training Points or skill levels, revive players, or run server commands.
+
+<!--T:49-->
+Each world keeps its wish lists as files in <code>&lt;world&gt;/dragonminez/wishes/</code>: <code>shenron.json</code>, <code>porunga.json</code> and <code>porunga_daima.json</code>, since Porunga (Daima) has his own list. A file is only written when it is missing, so a world created before an update keeps its old lists. For example, Porunga's '''Frieza's Capsule''' wish (a hover [[Special:MyLanguage/Vehicles|vehicle]]) doesn't appear in an older world until the server adds it to <code>porunga.json</code> or deletes the file so it is generated again.
 </translate>
 
 {{Navbox Dragons}}

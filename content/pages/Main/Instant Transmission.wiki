@@ -9,7 +9,7 @@
 }}
 <translate>
 <!--T:5-->
-'''Instant Transmission''' lets you teleport by locking onto ki. A quick tap of the key puts you right behind the target you are looking at, which makes it a combat tool as much as a travel one. From level 5 you can also hold the key to warp to masters, party members and other players far away.
+'''Instant Transmission''' lets you teleport by locking onto ki. A quick tap of the key puts you right behind the target you are looking at, which makes it a combat tool as much as a travel one. From level 5 you can also hold the key to warp to masters, party members and other players far away, paying Ki for the trip.
 </translate>
 
 <translate>
@@ -42,17 +42,54 @@ The jump costs Ki (more the farther you go) and shares the '''dash cooldown''' (
 == Hold: the Instant Transmission menu == <!--T:14-->
 
 <!--T:15-->
-From '''level 5''', '''hold''' {{Key|H}} for half a second to open the Instant Transmission menu and pick a destination:
+From '''level 5''', '''hold''' {{Key|H}} for half a second to open the Instant Transmission menu and pick a destination. The menu has two tabs: '''NPCs''' for masters and '''Players''' for everyone else.
 
 <!--T:16-->
 * any [[Special:MyLanguage/Masters|master]] whose Ki you have learned, by talking to them at least once;
 * your '''party members''';
 * other players within '''200 blocks per level''' whose Battle Power is close to yours (between 90% and 125% of it).
 
+<!--T:24-->
+Each entry shows a planet icon for the dimension it is in and the Ki the trip costs ('''Ki required'''). Destinations you can't reach are greyed out, and you can't travel if you don't have enough Ki.
+
 <!--T:17-->
 From '''level 10''', masters and party members in other dimensions can be reached too. After a warp to a master or a player, Instant Transmission has a 30-second cooldown by default.
 </translate>
 {{Config|Combat Config|dashCooldownSeconds / teleportCooldownSeconds}}
+
+<translate>
+== Ki cost of a warp == <!--T:25-->
+
+<!--T:26-->
+A warp from the menu costs Ki:
+* a base of '''50 Ki''' (five times the fly-dash cost with the default settings);
+* '''5 Ki''' for every full 25 blocks to a destination in the same dimension;
+* a '''route fee''' to a destination in another dimension: the difference between the two dimensions' values below. A trip from Earth to Namek costs 2,000 Ki extra, and one from Namek to the Otherworld 18,000.
+
+<!--T:27-->
+Warps are free in Creative mode.
+</translate>
+{| class="wikitable"
+! <translate><!--T:28--> Dimension</translate> !! <translate><!--T:29--> Route value (Ki)</translate>
+|-
+| {{L|Earth}} || 0
+|-
+| {{L|Namek}} || 2,000
+|-
+| {{L|Sacred Kai Planet}} || 8,000
+|-
+| {{L|Hyperbolic Time Chamber}} || 10,000
+|-
+| <translate><!--T:30--> The Nether</translate> || 12,000
+|-
+| {{L|Demon Realm}} || 15,000
+|-
+| <translate><!--T:31--> The End</translate> || 18,000
+|-
+| {{L|Otherworld}} || 20,000
+|-
+| <translate><!--T:32--> Any other dimension</translate> || 10,000
+|}
 
 <translate>
 == Who can't be reached == <!--T:18-->

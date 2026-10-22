@@ -45,6 +45,8 @@ Pick three wishes each time you summon Porunga. You can spend several of them on
 |-
 | <translate><!--T:17--> Brave Sword</translate> || <translate><!--T:18--> The [[Special:MyLanguage/Brave Sword|Brave Sword]], a special weapon.</translate>
 |-
+| <translate><!--T:47--> Frieza's Capsule</translate> || <translate><!--T:48--> Frieza's personal hover capsule, a one-seat [[Special:MyLanguage/Vehicles|vehicle]] that glides along the ground and can take off. It can't be crafted.</translate>
+|-
 | <translate><!--T:19--> Reset Passive</translate> || <translate><!--T:20--> Clears your racial passive progress: Zenkai boosts and Power Release bonus, assimilations, absorptions and Cell Jrs. See [[Special:MyLanguage/Racial Skills|Racial Skills]].</translate>
 |-
 | <translate><!--T:21--> Re-Customize Character</translate> || <translate><!--T:22--> Reopens [[Special:MyLanguage/Character Customization|character customization]]. You can change your appearance and class, but not your race. Your stats and skills are kept.</translate>
@@ -78,6 +80,7 @@ Pick three wishes each time you summon Porunga. You can spend several of them on
 * The revive wish only works on players who are dead in the [[Special:MyLanguage/Otherworld|Otherworld]] and online. Revived players lose their halo and are fully alive again.
 * After a '''Reset Story Progress''', story rewards shrink on every new run (by default 50% on the second run, 25% on the third, and so on).
 * The [[Special:MyLanguage/Frieza Saga|Frieza Saga]] quest ''Summon Porunga'' asks you to summon him with the Namek Dragon Balls.
+* Each world keeps Porunga's list in <code>&lt;world&gt;/dragonminez/wishes/porunga.json</code>, which is only written when it is missing. A world created before Frieza's Capsule was added keeps its old list, so the wish only appears there if the server adds it to the file or deletes the file so it is generated again (see [[Special:MyLanguage/Custom Wishes|Custom Wishes]]).
 </translate>
 
 <translate>
@@ -85,7 +88,7 @@ Pick three wishes each time you summon Porunga. You can spend several of them on
 </translate>
 <translate>
 <!--T:44-->
-'''Porunga (Daima)''' is a second Porunga who lives in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He offers the same wish list as Porunga, with three wishes per summon.
+'''Porunga (Daima)''' is a second Porunga who lives in the [[Special:MyLanguage/Demon Realm|Demon Realm]]. He has his own wish list, <code>porunga_daima.json</code>, which by default is the same as Porunga's (Frieza's Capsule included), with three wishes per summon.
 </translate>
 
 <translate>
