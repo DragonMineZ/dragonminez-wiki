@@ -18,6 +18,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 * <translate>Losing a spar now knocks you out instead of killing you: your sparring partner leaves and the quest fails.</translate>
 * <translate>[[Special:MyLanguage/Chiaotzu|Chiaotzu]] now has a 50% chance to self-destruct at low health instead of 100%, and never does it during a spar.</translate>
 * <translate>You are now sent to the [[Special:MyLanguage/Otherworld|Otherworld]] when you respawn instead of when you die, so grave and waypoint mods mark the place where you died.</translate>
+* <translate>Party members now share quest progress up to 256 blocks away instead of 128. Server owners can change it with <code>partyQuestShareRange</code> in <code>general-server.json</code>.</translate>
 
 <translate>
 === Combat and techniques ===
@@ -25,6 +26,7 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 
 * <translate>Ki attacks taught by [[Special:MyLanguage/Masters|masters]] can no longer be upgraded and no longer gain XP. Upgrades already bought on them are reset.</translate>
 * <translate>The Kamehameha at the end of the Kaioken Attack now aims at the target.</translate>
+* <translate>Reworked the damage reduction that defense gives, which had become too low after the stat limit went up to 1,000,000: it now reaches 50% at 1.5% of the stat limit (15,000 Resistance with the default limit) and the 88% cap at 5% (50,000 Resistance), and both points follow the configured stat limit. Server owners can tune it with <code>defenseSoftcapStatFraction</code>, <code>defenseSoftcapReduction</code> and <code>defenseHardcapStatFraction</code> in <code>combat.json</code>; <code>defenseReductionScale</code> was removed.</translate>
 * <translate>Ki attacks are no longer pushed by flowing water, so a Spirit Bomb or a Supernova no longer changes direction when it crosses a waterfall.</translate>
 * <translate>Ki and Stamina now refill to exactly 100%, so Ki Overcharge can be used again.</translate>
 * <translate>A flight speed limit of 0 no longer makes you fly at almost no speed while the menu shows 100%.</translate>
@@ -63,6 +65,13 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 </translate>
 
 * <translate>The [[Special:MyLanguage/Training Minigames|Rhythm minigame]] now analyzes songs more reliably.</translate>
+
+<translate>
+=== Translations ===
+</translate>
+
+* <translate>Translations no longer come from Crowdin. The Spanish and Portuguese files now live in the <code>lang</code> folder of the [https://github.com/DragonMineZ/dragonminez/tree/main/lang DragonMineZ GitHub repository], where anyone can improve them with a pull request.</translate>
+* <translate>The game downloads the language you pick from GitHub, keeps a copy, and only downloads it again when the file changed. Every Latin American Spanish variant uses the Mexican Spanish file. Turn it off with <code>-Ddmz.translations.enabled=false</code>.</translate>
 
 <translate>
 === Add-on API ===
