@@ -4,71 +4,71 @@ The changelog lists every change made to DragonMineZ, newest version first. Vers
 </translate>
 
 <translate>
-== Version 2.2.1 ==
+== Version 2.2.1 == <!--T:293-->
 </translate>
 
 <translate>
-=== Story and quests ===
+=== Story and quests === <!--T:294-->
 </translate>
 
-* <translate>Delivery quests: each item type can now be delivered on its own (for example, the fish first and the bread later in Master Roshi's groceries quest), also to the NPC you turn the quest in to.</translate>
-* <translate>The quest menu and the NPC quest sheet now show the progress of delivery objectives.</translate>
-* <translate>The tracked quest notification now lists every objective you still have to complete, not just the first one.</translate>
-* <translate>NPC quest lists now refresh right after you accept or turn in a quest, so follow-up quests no longer show as locked until you reopen the dialogue.</translate>
-* <translate>Losing a spar now knocks you out instead of killing you: your sparring partner leaves and the quest fails.</translate>
-* <translate>[[Special:MyLanguage/Chiaotzu|Chiaotzu]] now has a 50% chance to self-destruct at low health instead of 100%, and never does it during a spar.</translate>
-* <translate>You are now sent to the [[Special:MyLanguage/Otherworld|Otherworld]] when you respawn instead of when you die, so grave and waypoint mods mark the place where you died.</translate>
+* <translate><!--T:295--> Delivery quests: each item type can now be delivered on its own (for example, the fish first and the bread later in Master Roshi's groceries quest), also to the NPC you turn the quest in to.</translate>
+* <translate><!--T:296--> The quest menu and the NPC quest sheet now show the progress of delivery objectives.</translate>
+* <translate><!--T:297--> The tracked quest notification now lists every objective you still have to complete, not just the first one.</translate>
+* <translate><!--T:298--> NPC quest lists now refresh right after you accept or turn in a quest, so follow-up quests no longer show as locked until you reopen the dialogue.</translate>
+* <translate><!--T:299--> Losing a spar now knocks you out instead of killing you: your sparring partner leaves and the quest fails.</translate>
+* <translate><!--T:300--> [[Special:MyLanguage/Chiaotzu|Chiaotzu]] now has a 50% chance to self-destruct at low health instead of 100%, and never does it during a spar.</translate>
+* <translate><!--T:301--> You are now sent to the [[Special:MyLanguage/Otherworld|Otherworld]] when you respawn instead of when you die, so grave and waypoint mods mark the place where you died.</translate>
 
 <translate>
-=== Combat and techniques ===
+=== Combat and techniques === <!--T:302-->
 </translate>
 
-* <translate>Ki attacks taught by [[Special:MyLanguage/Masters|masters]] can no longer be upgraded and no longer gain XP. Upgrades already bought on them are reset.</translate>
-* <translate>The Kamehameha at the end of the Kaioken Attack now aims at the target.</translate>
-* <translate>Ki attacks are no longer pushed by flowing water, so a Spirit Bomb or a Supernova no longer changes direction when it crosses a waterfall.</translate>
-* <translate>Ki and Stamina now refill to exactly 100%, so Ki Overcharge can be used again.</translate>
-* <translate>A flight speed limit of 0 no longer makes you fly at almost no speed while the menu shows 100%.</translate>
-* <translate>Pausing the game while flying no longer builds up momentum that launches you away when you unpause.</translate>
+* <translate><!--T:303--> Ki attacks taught by [[Special:MyLanguage/Masters|masters]] can no longer be upgraded and no longer gain XP. Upgrades already bought on them are reset.</translate>
+* <translate><!--T:304--> The Kamehameha at the end of the Kaioken Attack now aims at the target.</translate>
+* <translate><!--T:305--> Ki attacks are no longer pushed by flowing water, so a Spirit Bomb or a Supernova no longer changes direction when it crosses a waterfall.</translate>
+* <translate><!--T:306--> Ki and Stamina now refill to exactly 100%, so Ki Overcharge can be used again.</translate>
+* <translate><!--T:307--> A flight speed limit of 0 no longer makes you fly at almost no speed while the menu shows 100%.</translate>
+* <translate><!--T:308--> Pausing the game while flying no longer builds up momentum that launches you away when you unpause.</translate>
 
 <translate>
-=== Character ===
+=== Character === <!--T:309-->
 </translate>
 
-* <translate>Clearing a hair style in the hair editor now keeps it empty, SSJ4 included, instead of falling back to the default hair.</translate>
-* <translate>The Re-Customize wish lets you change your class again; only your race stays locked.</translate>
-* <translate>The TP Multiplier in the stats screen now shows the multiplier the server really applies to combat TP.</translate>
-* <translate>[[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]'s return timer multiplier now only grows with each revive when <code>babaHardcoreEnabled</code> is on.</translate>
+* <translate><!--T:310--> Clearing a hair style in the hair editor now keeps it empty, SSJ4 included, instead of falling back to the default hair.</translate>
+* <translate><!--T:311--> The Re-Customize wish lets you change your class again; only your race stays locked.</translate>
+* <translate><!--T:312--> The TP Multiplier in the stats screen now shows the multiplier the server really applies to combat TP.</translate>
+* <translate><!--T:313--> [[Special:MyLanguage/Fortuneteller Baba|Fortuneteller Baba]]'s return timer multiplier now only grows with each revive when <code>babaHardcoreEnabled</code> is on.</translate>
 
 <translate>
-=== World and structures ===
+=== World and structures === <!--T:314-->
 </translate>
 
-* <translate>Structures can no longer generate above the build limit, so [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] no longer gets cut off on mountains.</translate>
-* <translate>Dragon Balls no longer spawn inside master structures, and balls that were already inside one are moved.</translate>
-* <translate>Masters and quest NPCs that belong to a structure now come back if they go missing, and structures built near you spawn their NPCs right away.</translate>
-* <translate>The [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] is placed again if its chunk exists without it (for example after deleting the dimension folder), and its portal no longer drops you above the dimension's ceiling.</translate>
-* <translate>Deleting a dimension folder now resets the [[Special:MyLanguage/World Bosses|world boss]] lairs in it, so they are built again (for example [[Special:MyLanguage/Janemba|Janemba]]'s arena in the Otherworld).</translate>
-* <translate>Lighter terrain generation in the Otherworld.</translate>
-* <translate>New recipe: Turtle Scale → Scute.</translate>
+* <translate><!--T:315--> Structures can no longer generate above the build limit, so [[Special:MyLanguage/Kami's Lookout|Kami's Lookout]] no longer gets cut off on mountains.</translate>
+* <translate><!--T:316--> Dragon Balls no longer spawn inside master structures, and balls that were already inside one are moved.</translate>
+* <translate><!--T:317--> Masters and quest NPCs that belong to a structure now come back if they go missing, and structures built near you spawn their NPCs right away.</translate>
+* <translate><!--T:318--> The [[Special:MyLanguage/Hyperbolic Time Chamber|Hyperbolic Time Chamber]] is placed again if its chunk exists without it (for example after deleting the dimension folder), and its portal no longer drops you above the dimension's ceiling.</translate>
+* <translate><!--T:319--> Deleting a dimension folder now resets the [[Special:MyLanguage/World Bosses|world boss]] lairs in it, so they are built again (for example [[Special:MyLanguage/Janemba|Janemba]]'s arena in the Otherworld).</translate>
+* <translate><!--T:320--> Lighter terrain generation in the Otherworld.</translate>
+* <translate><!--T:321--> New recipe: Turtle Scale → Scute.</translate>
 
 <translate>
-=== Raids ===
+=== Raids === <!--T:322-->
 </translate>
 
-* <translate>[[Special:MyLanguage/Raids|Raid]] enemies no longer despawn after transforming, and a raid stops waiting for an enemy that vanished without dying after 30 seconds instead of staying active forever.</translate>
-* <translate>Switching the world to Peaceful now cancels active raids, and enemies left over from a finished raid are removed.</translate>
+* <translate><!--T:323--> [[Special:MyLanguage/Raids|Raid]] enemies no longer despawn after transforming, and a raid stops waiting for an enemy that vanished without dying after 30 seconds instead of staying active forever.</translate>
+* <translate><!--T:324--> Switching the world to Peaceful now cancels active raids, and enemies left over from a finished raid are removed.</translate>
 
 <translate>
-=== Training ===
+=== Training === <!--T:325-->
 </translate>
 
-* <translate>The [[Special:MyLanguage/Training Minigames|Rhythm minigame]] now analyzes songs more reliably.</translate>
+* <translate><!--T:326--> The [[Special:MyLanguage/Training Minigames|Rhythm minigame]] now analyzes songs more reliably.</translate>
 
 <translate>
-=== Add-on API ===
+=== Add-on API === <!--T:327-->
 </translate>
 
-* <translate><code>QuestFailEvent</code> has the new <code>SPAR_LOST</code> reason, used when a sparring partner knocks the player out.</translate>
+* <translate><!--T:328--> <code>QuestFailEvent</code> has the new <code>SPAR_LOST</code> reason, used when a sparring partner knocks the player out.</translate>
 
 <translate>
 == Version 2.2 == <!--T:2-->
