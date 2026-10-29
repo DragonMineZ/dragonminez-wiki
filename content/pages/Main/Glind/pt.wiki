@@ -1,0 +1,160 @@
+{{Infobox Race
+|forms=Male 1; Male 2; Female 1; Female 2
+|Male 2_image=Glind (Male 2).png
+|Female 1_image=Glind (Female 1).png
+|Female 2_image=Glind (Female 2).png
+|quote=Uma raça ancestral de pele lilás, cujo ki carrega um traço divino que escapa dos scouters e dos sentidos dos guerreiros mortais.
+|Type=Raça jogável
+|Racial skill=Ki Divino, Corpo Celestial, Punição Divina, Luz e Escuridão
+|Forms=Super Formas (Melhorado, Fora de Controle, Super, Absorção, Forma Verdadeira), Formas Lendárias (incluindo as duas formas Poder do Tempo)
+|Stack forms={{L|Kaioken}}, {{L|Ultimate}}
+|Strengths=Oculto do Sentido de Ki e dos scouters, regeneração mais rápida, reduz a cura dos jogadores que atinge, dano bônus contra a índole oposto
+|Playstyle=Duelista esquivo com traços raciais totalmente passivos
+|Fusion={{L|Fusion Dance}}, {{L|Potara Earrings}}, {{L|Medi-Bug Beetles}}
+}}
+Os '''Glinds''' são uma raça ancestral de pele lilás, quase idêntica aos [[Special:MyLanguage/Human|Humanos]] à primeira vista. O ki deles carrega um traço divino que escapa dos scouters e dos sentidos dos guerreiros mortais, e eles não têm piedade de ninguém mais fraco: esmagam a capacidade de recuperação dos inimigos. Em DragonMineZ, todas as partes da habilidade racial Glind são passivas, e os Glinds são a única raça com o estilo de aura 3D '''Deus''' e as duas formas '''Poder do Tempo'''.
+
+<span id="Overview_and_strengths"></span>
+== Visão geral e pontos fortes ==
+
+* '''Ki oculto.''' O [[Special:MyLanguage/Ki Sense|Sentido de Ki]], os scouters e a [[Special:MyLanguage/Instant Transmission|Transmissão instantânea]] não conseguem encontrar você, a menos que quem procura seja outro Glind, tenha desbloqueado ou esteja usando uma Forma Divina, ou esteja sob a Bênção de Kami.
+* '''Sentidos divinos.''' Seu Ki Divino permite sentir jogadores em uma Forma Divina, como o [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyajin Deus]], que ficam ocultos para todos sem ki de deus.
+* '''Corpo Celestial.''' Regeneração de vida, Ki e estâmina mais rápida, e mais chance de esquiva com Meditação.
+* '''Punição Divina.''' Seus golpes reduzem a cura dos jogadores que você atinge.
+* '''Luz e Escuridão.''' Dano bônus contra jogadores da índole oposto, e sempre contra inimigos que não são jogadores.
+* '''Nada para ativar.''' Todos os traços raciais funcionam sozinhos.
+
+<span id="Racial_skill"></span>
+== Habilidade racial ==
+{{Config|General Server Config|racialSkills.glind}}
+Todas as partes da habilidade racial Glind são passivas: não há nada para selecionar nem ativar.
+{| class="wikitable"
+! Parte !! O que faz
+|-
+| '''Ki Divino''' || O Sentido de Ki, os scouters e a Transmissão instantânea não conseguem encontrar você, a menos que quem procura seja um Glind que também tenha Ki Divino, tenha desbloqueado uma '''Forma Divina''' ou esteja em uma, ou esteja sob a '''Bênção de Kami'''. Travar Mira continua funcionando. O Ki Divino também conta como ki de deus: você pode encontrar jogadores em uma Forma Divina (como o [[Special:MyLanguage/Super Saiyan God Ritual|Super Saiyajin Deus]]) com o Sentido de Ki, travar a mira neles e alcançá-los com a Transmissão instantânea.
+|-
+| '''Corpo Celestial''' || Sua regeneração de vida, Ki e estâmina é '''25%''' maior, e sua chance de esquivar ataques corpo a corpo com Meditação é '''50%''' maior.
+|-
+| '''Punição Divina''' || Seus ataques reduzem em '''20%''' a cura dos jogadores que você atinge por '''6 segundos'''. Sua habilidade e seu encantamento de Redução de Cura se somam por cima com '''50%''' de eficácia, até '''40%''' no total.
+|-
+| '''Luz e Escuridão''' || Cause '''10%''' mais dano a jogadores da índole oposto ('''15%''' contra o Clã Freeza, '''5%''' contra Majins): com '''25''' de índole ou menos, você pune jogadores com '''60''' ou mais, e com '''75''' ou mais, pune jogadores com '''40''' ou menos. Contra qualquer inimigo que não seja jogador, você sempre causa '''7.5%''' mais dano.
+|}
+
+* A '''Bênção de Kami''' é concedida por Dende aos jogadores com boa índole (veja [[Special:MyLanguage/Effects|Efeitos]]).
+* Luz e Escuridão depende da sua [[Special:MyLanguage/Alignment|índole]]: um Glind com índole entre 26 e 74 não recebe bônus contra jogadores, apenas o bônus contra inimigos que não são jogadores.
+
+<span id="Transformations"></span>
+== Transformações ==
+{{Main|Transformations}}
+''Nível'' é o nível da habilidade de forma (Super Formas ou Formas Lendárias) que desbloqueia a forma, e ''Custo de TP'' é o preço desse nível. Cada forma depois da primeira do grupo também exige '''25% de domínio''' na anterior. Os multiplicadores são os padrões com 0% de domínio e crescem até 1.5 vez com 100% de domínio. ''Consumo de ki'' é o consumo base por tick; veja o [[Special:MyLanguage/Transformations#Energy consumption while transformed|consumo de energia]].
+{{Form group|glind|superforms}}
+{{Race form|glind|superforms|buffed
+|level=1
+|cost=18,000
+|story={{L|Classic Saga}} #46
+|power=1.75
+|def=1.425
+|drain=0.106
+|text=Um corpo um pouco mais corpulento; seu visual quase não muda.
+}}
+{{Race form|glind|superforms|outofcontrol
+|level=2
+|cost=31,000
+|story={{L|Saiyan Saga}} #12
+|power=2.25
+|def=1.9375
+|drain=0.24
+|text=Seu poder sai do controle: olhos vermelhos, uma aura vermelha e um contorno vermelho pulsante com pequenas chamas.
+}}
+{{Race form|glind|superforms|super
+|level=3
+|cost=52,000
+|story={{L|Frieza Saga}} #10
+|power=2.85
+|def=2.3625
+|drain=0.371
+|text=Olhos vermelhos com uma aura azul e um contorno azul-claro pulsante com pequenas chamas.
+}}
+{{Race form|glind|superforms|absorption
+|level=4
+|cost=83,000
+|story={{L|Buu Saga}} #1
+|power=3.45
+|def=2.725
+|drain=0.446
+|text=Uma enorme juba de cabelo branco e pelos pelo corpo, com uma aura azul e um contorno branco brilhante com chamas.
+}}
+{{Race form|glind|superforms|trueform
+|level=5
+|cost=117,000
+|story={{L|Buu Saga}} #35
+|power=4.9
+|def=3.6875
+|drain=0.62
+|text=O nível máximo dos Glinds: um corpo quase duas vezes maior, de pele azul, cabelo vermelho longo, olhos vermelhos e uma aura violeta. É a forma Glind mais forte, mas o [[Special:MyLanguage/Ultimate|Ultimate]] nunca a copia.
+}}
+{{Form group end}}
+{{Form group|glind|legendaryforms
+|text=As Formas Lendárias não podem ser compradas com TP por padrão: a [[Special:MyLanguage/Movies Saga|Saga de Filmes]] concede seus níveis, e os Mutantes podem pegá-las emprestadas (veja [[Special:MyLanguage/Transformations#Legendary forms|Formas lendárias]]). O terceiro nível desbloqueia as duas formas Poder do Tempo; veja [[Special:MyLanguage/Glind#Time Power|Poder do Tempo]].
+}}
+{{Race form|glind|legendaryforms|transcended
+|level=1
+|cost=—
+|story=—
+|power=3.75
+|def=2.8625
+|drain=0.426
+|text=Um corpo transcendido de pele pálida, pernas e cauda azuis, cabelo carmesim, olhos dourados e uma aura violeta.
+}}
+{{Race form|glind|legendaryforms|darkking
+|level=2
+|cost=—
+|story=—
+|power=4.8
+|def=3.5875
+|drain=0.613
+|text=Um rei das trevas musculoso, com cabelo carmesim, olhos vermelhos, uma aura vermelho-intensa e um contorno vermelho com chamas.
+}}
+{{Race form|glind|legendaryforms|timepower_darkking
+|level=3
+|cost=—
+|story=—
+|power=5.6
+|def=4.0125
+|drain=0.805
+|text=A mais sombria das duas formas Poder do Tempo: cabelo carmesim com pequenos chifres, olhos vermelhos, armadura escura com marcas vermelhas e um contorno preto grosso com chamas intensas.
+}}
+{{Race form|glind|legendaryforms|timepower_realmoflight
+|level=3
+|cost=—
+|story=—
+|power=5.6
+|def=4.0125
+|drain=0.805
+|text=A forma luminosa do Poder do Tempo: seu corpo cresce um pouco e fica envolto em uma aura dourado-clara e um contorno branco e dourado-claro com chamas intensas. Atrás da parte de cima das suas costas flutua uma auréola dourada em forma de engrenagem de dez dentes, com dois braços em V e uma haste no meio: as bordas tremulam, o brilho pulsa devagar e ele surge aos poucos quando você se transforma.
+}}
+{{Form group end}}
+
+<span id="Time_Power"></span>
+=== Poder do Tempo ===
+
+Os Glinds recebem duas formas alternativas no terceiro nível Lendário. As duas formas '''Poder do Tempo''' são desbloqueadas nesse nível e cada uma exige '''25% de domínio em Rei das Trevas''': você pode usar qualquer uma delas, ou as duas. Elas compartilham entre si '''50%''' do domínio que ganham.
+
+<span id="Appearance"></span>
+== Aparência ==
+{{Main|Character Customization}}
+* '''Modelo:''' o corpo e as partes do rosto dos Humanos com cores Glind. Os Glinds não podem usar a skin do Minecraft.
+* '''Olhos:''' além dos estilos de olhos humanos, os Glinds têm seu próprio estilo de olhos Glind, o primeiro da lista '''Olhos'''.
+* '''Cabeça:''' os Glinds usam '''orelhas''' (parte da cabeça <code>ears1</code>), e você pode usar as orelhas e um penteado ao mesmo tempo. Melhorado, Fora de Controle, Super, Absorção, Poder do Tempo: Rei das Trevas e Poder do Tempo: Reino da Luz mantêm suas orelhas e seu penteado.
+* '''Cabelo:''' sim. Os Glinds podem escolher qualquer penteado predefinido e criar seus próprios estilos no editor de cabelo.
+* '''Gênero:''' sim, com modelos masculino e feminino, inclusive na forma Transcendido.
+* '''Tipos corporais:''' 2 para cada gênero, com o tipo corporal 1 como padrão. O segundo tipo corporal masculino tem braços finos.
+* '''Aura:''' os Glinds podem escolher o estilo de aura exclusivo '''3D: Deus''', uma chama em constante mudança.
+* '''Formas:''' várias formas mudam sua aparência. '''Fora de Controle''' e '''Super''' adicionam um contorno pulsante com pequenas chamas (vermelho e azul-claro), e '''Absorção''', um contorno branco com chamas. '''Rei das Trevas''' dá a você um corpo mais corpulento, cabelo carmesim (seu espaço de penteado SSJ2), olhos vermelhos sobre esclera preta, um contorno vermelho com chamas e uma aura vermelha e preta. '''Poder do Tempo: Rei das Trevas''' tem seu próprio modelo com marcas vermelhas, os mesmos olhos vermelhos sobre esclera preta e um contorno preto com chamas intensas, e '''Poder do Tempo: Reino da Luz''', um contorno branco com chamas intensas e uma auréola do tempo dourada nas costas. Com o estilo de aura '''3D: Sparking''', a aura de Absorção tem uma borda externa branca, e as auras escuras de Transcendido, Forma Verdadeira e Poder do Tempo: Rei das Trevas, uma preta.
+
+<span id="Configuration"></span>
+== Configuração ==
+As quatro partes da habilidade racial são ajustadas na seção <code>glind</code> de <code>racialSkills</code> no <code>general-server.json</code>, incluindo os limites de índole e os bônus de dano de Luz e Escuridão, e o Ki Divino pode ser desativado separadamente (<code>divineKi</code>). A escala de TP de Super Formas fica em <code>races/glind/character.json</code>, e os valores de cada forma ficam no arquivo da forma.
+{{See also|General Server Config|Custom Races|Custom Forms}}
+
+{{Navbox Races}}
