@@ -254,7 +254,7 @@ def pull_files(wiki: Wiki, base: str, files, report: Report):
 
 def main() -> int:
     parser = argparse.ArgumentParser(description='Bring pages, translations and files edited on the wiki into content/.')
-    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://dragonminez.com/wiki/w/api.php'))
+    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://wiki.dragonminez.com/api.php'))
     parser.add_argument('--base', default='', help='commit that matched the wiki at the last sync (empty: none yet)')
     parser.add_argument('--since', default='', help='timestamp of the last sync; only edits after it are checked')
     parser.add_argument('--report', help='write a commit message with what was brought to this file')
