@@ -83,7 +83,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description='Publish what changed in content/ to the wiki: pages, files, unit markers and translations.')
     parser.add_argument('--base', default='', help='commit to diff against (the push "before" SHA); empty or zeros = everything')
     parser.add_argument('--full', action='store_true', help='sync every page, file and translation')
-    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://wiki.dragonminez.com/api.php'))
+    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://dragonminez.com/wiki/w/api.php'))
     parser.add_argument('--job-limit', type=int, default=10, help='queue size considered drained before importing translations')
     parser.add_argument('--job-timeout', type=int, default=1200, help='seconds to wait for the queue')
     parser.add_argument('--dry-run', action='store_true', help='only print what would be published')

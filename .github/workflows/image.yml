@@ -8,6 +8,8 @@ on:
       - skins/**
       - extensions/**
       - config/**
+      - compose.yaml
+      - scripts/vps-deploy.sh
       - .github/workflows/image.yml
   workflow_dispatch:
 
@@ -21,8 +23,6 @@ concurrency:
 
 env:
   IMAGE: ghcr.io/dragonminez/dragonminez-wiki
-  # Optional: Dokploy "Deploy webhook" URL of the compose app (repo secret).
-  DOKPLOY_WEBHOOK_URL: ${{ secrets.DOKPLOY_WEBHOOK_URL }}
 
 jobs:
   build:
@@ -51,14 +51,28 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Trigger Dokploy redeploy
-        if: ${{ env.DOKPLOY_WEBHOOK_URL != '' }}
+  deploy:
+    name: Deploy to the VPS
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH
+        env:
+          DMZ_VPS_HOST: ${{ vars.DMZ_VPS_HOST }}
+          DMZ_VPS_PORT: ${{ vars.DMZ_VPS_PORT }}
+          WIKI_DEPLOY_KEY: ${{ secrets.WIKI_DEPLOY_KEY }}
+          DMZ_VPS_KNOWN_HOSTS: ${{ secrets.DMZ_VPS_KNOWN_HOSTS }}
         run: |
-          status=$(curl -sS -o dokploy.txt -w '%{http_code}' -X POST "$DOKPLOY_WEBHOOK_URL" \
-            -H 'Content-Type: application/json' -H 'X-GitHub-Event: push' \
-            --data-binary @"$GITHUB_EVENT_PATH")
-          cat dokploy.txt; echo
-          if [ "$status" -lt 200 ] || [ "$status" -ge 300 ]; then
-            echo "::error::Dokploy answered $status. Check that Autodeploy is on for the wiki app and that its branch is main."
-            exit 1
+          if [ -z "$WIKI_DEPLOY_KEY" ]; then
+            echo "::warning::WIKI_DEPLOY_KEY is not set: the image is built but not deployed (docs/SERVER.md, Despliegue sin Dokploy)."
+            exit 0
           fi
+          : "${DMZ_VPS_HOST:?DMZ_VPS_HOST variable is required}"
+          : "${DMZ_VPS_KNOWN_HOSTS:?DMZ_VPS_KNOWN_HOSTS secret is required}"
+          port="${DMZ_VPS_PORT:-22}"
+          install -m 700 -d ~/.ssh
+          echo "$WIKI_DEPLOY_KEY" > ~/.ssh/wiki_deploy_key
+          chmod 600 ~/.ssh/wiki_deploy_key
+          echo "$DMZ_VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          # The key is locked to one command on the server (scripts/vps-deploy.sh); the word after the host is ignored.
+          ssh -i ~/.ssh/wiki_deploy_key -p "$port" -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes dmzweb@"$DMZ_VPS_HOST" deploy

@@ -132,7 +132,7 @@ La base de datos de la VPS nunca se migra desde una PC. El código va solo del r
 
 | Qué cambió | Workflow | Qué hace |
 |---|---|---|
-| `skins/`, `extensions/`, `config/`, `docker/` | `.github/workflows/image.yml` | Construye la imagen en GHCR y avisa a Dokploy (`DOKPLOY_WEBHOOK_URL`) para redesplegar. |
+| `skins/`, `extensions/`, `config/`, `docker/`, `compose.yaml` | `.github/workflows/image.yml` | Construye la imagen en GHCR y la despliega por SSH (`scripts/vps-deploy.sh`, ver *Despliegue sin Dokploy*). |
 | `content/` (páginas, imágenes, traducciones), y cada hora | `.github/workflows/content.yml` | 1) `tools/pull_wiki.py` trae al repo lo editado en la wiki desde el último sync y lo commitea ("chore: edits from the wiki", con los usuarios). 2) `tools/sync_content.py` publica lo que cambió en el repo, marca para traducción las páginas fuente cambiadas, espera a que se vacíe la cola, importa las traducciones y commitea los marcadores `<!--T:n-->` nuevos. 3) Mueve el tag `wiki-synced` al estado sincronizado. |
 
 **Cómo decide qué gana.** El tag `wiki-synced` apunta al contenido que coincidía con la wiki en el último sync que terminó bien (su mensaje es la hora de ese sync). Con eso cada página, imagen o unidad traducida tiene tres versiones: la del último sync, la del repo y la de la wiki.
@@ -146,7 +146,36 @@ La base de datos de la VPS nunca se migra desde una PC. El código va solo del r
 
 Para el workflow de contenido hacen falta dos *secrets* del repo (`Settings → Secrets and variables → Actions`): `MW_BOT_USER` y `MW_BOT_PASSWORD`, una BotPassword con los grants de la sección de instalación (con la forma `<usuario>@sync`). Cualquiera con permisos de administrador en la wiki puede crearla desde `Special:BotPasswords` sin entrar a la VPS. `Actions → Sync content → Run workflow` permite relanzarlo a mano, en modo *dry run* (solo lista) o *full*: compara todo el repo con la wiki y publica solo lo que falta o difiere (páginas, archivos y unidades traducidas), y marca para traducción solo las páginas que cambiaron o que la wiki no tiene marcadas. Sirve para ponerse al día si un sync no corrió o falló.
 
-Para que el deploy sea automático, el secret `DOKPLOY_WEBHOOK_URL` lleva la *Webhook URL* de la app de la wiki en Dokploy (pestaña *Deployments*), con *Autodeploy* activado en la app. El workflow le reenvía el evento de push de GitHub (así Dokploy reconoce la rama `main`) recién cuando la imagen nueva ya está en GHCR, y falla en rojo si Dokploy no acepta el deploy.
+### Despliegue sin Dokploy
+
+Igual que dragonminez-web: después de construir la imagen, `image.yml` entra a la VPS por SSH como `dmzweb` con una clave que solo puede ejecutar `/usr/local/sbin/dmz-wiki-deploy` (copia de `scripts/vps-deploy.sh`, de root). El script baja `compose.yaml` de `main`, hace `pull` y recrea los contenedores en `/opt/dragonminez-wiki/`. Traefik (el de Dokploy) los enruta por las etiquetas de `compose.yaml`; nadie necesita entrar a Dokploy. Mientras falte el secret `WIKI_DEPLOY_KEY`, el workflow construye la imagen y avisa que no desplegó.
+
+Preparación, una sola vez, como root en la VPS (el usuario `dmzweb` ya existe por la web):
+
+```bash
+# 1. Carpeta, script y clave (la clave se AGREGA a authorized_keys: la de la web sigue ahí).
+install -d -m 750 -o dmzweb -g dmzweb /opt/dragonminez-wiki
+curl -fsSL https://raw.githubusercontent.com/DragonMineZ/dragonminez-wiki/main/scripts/vps-deploy.sh -o /usr/local/sbin/dmz-wiki-deploy
+chown root:root /usr/local/sbin/dmz-wiki-deploy && chmod 755 /usr/local/sbin/dmz-wiki-deploy
+ssh-keygen -t ed25519 -N "" -C "github actions dragonminez-wiki" -f /root/dmz_wiki_deploy
+echo 'command="/usr/local/sbin/dmz-wiki-deploy",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty' "$(cat /root/dmz_wiki_deploy.pub)" >> /home/dmzweb/.ssh/authorized_keys
+cat /root/dmz_wiki_deploy   # va al secret WIKI_DEPLOY_KEY del repo; después: shred -u /root/dmz_wiki_deploy /root/dmz_wiki_deploy.pub
+
+# 2. Encontrar la wiki que corre Dokploy: su proyecto, sus datos y su .env.
+OLD=$(docker ps --format '{{.ID}} {{.Image}}' | awk '/dragonminez-wiki/ {print $1; exit}')
+PROJECT=$(docker inspect "$OLD" --format '{{index .Config.Labels "com.docker.compose.project"}}')
+DATA=$(dirname "$(docker inspect "$OLD" --format '{{range .Mounts}}{{if eq .Destination "/var/www/data"}}{{.Source}}{{end}}{{end}}')")
+echo "$PROJECT $DATA"; ls "$DATA" "$(dirname "$DATA")/.env"   # debe listar db images secrets y el .env
+
+# 3. Corte (un par de minutos sin wiki). Los datos se copian; los de Dokploy quedan como respaldo.
+install -m 640 -o root -g dmzweb "$(dirname "$DATA")/.env" /opt/dragonminez-wiki/.env
+docker stop $(docker ps -q --filter "label=com.docker.compose.project=$PROJECT")
+cp -a "$DATA" /opt/dragonminez-wiki/data
+sudo -u dmzweb /usr/local/sbin/dmz-wiki-deploy
+ls /etc/dokploy/traefik/dynamic | grep -i wiki   # si aparece un archivo, moverlo a /etc/dokploy/traefik/disabled/
+```
+
+Comprobar: `curl -s "https://dragonminez.com/wiki/w/api.php?action=query&meta=siteinfo&format=json"` devuelve JSON con `"scriptpath":"/wiki/w"`, y `https://wiki.dragonminez.com/Main_Page` redirige a `https://dragonminez.com/wiki/Main_Page`. Volver atrás: `cd /opt/dragonminez-wiki && sudo -u dmzweb docker compose down`, y `docker start` de los contenedores del proyecto `$PROJECT`. Nunca volver a desplegar la app de la wiki desde Dokploy: levantaría una segunda wiki sobre los datos viejos. Después se puede borrar el secret `DOKPLOY_WEBHOOK_URL`. Si `scripts/vps-deploy.sh` cambia, copiarlo de nuevo como root (paso 1).
 
 Lo mismo a mano desde una PC, con las variables de entorno de la BotPassword:
 

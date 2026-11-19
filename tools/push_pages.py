@@ -126,7 +126,7 @@ class Wiki:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description='Publish content/pages to a MediaWiki through the API.')
-    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://wiki.dragonminez.com/api.php'))
+    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://dragonminez.com/wiki/w/api.php'))
     parser.add_argument('--dir', default=str(pathlib.Path(__file__).resolve().parent.parent / 'content' / 'pages'))
     parser.add_argument('--only', action='append', default=[], help='Glob over page titles, repeatable.')
     parser.add_argument('--summary', default='Sync from dragonminez-wiki repository')

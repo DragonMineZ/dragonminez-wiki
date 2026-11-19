@@ -160,7 +160,7 @@ def main() -> int:
     parser.add_argument('command', choices=['mark', 'export', 'import'])
     parser.add_argument('titles', nargs='*')
     parser.add_argument('--every-page', action='store_true', help='every content page that contains <translate>')
-    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://wiki.dragonminez.com/api.php'))
+    parser.add_argument('--api', default=os.environ.get('MW_API', 'https://dragonminez.com/wiki/w/api.php'))
     parser.add_argument('--lang', action='append', choices=TARGETS)
     parser.add_argument('--summary', default='Translation sync from dragonminez-wiki repository')
     parser.add_argument('--base-ref', help='import: commit that matched the wiki at the last sync; units edited on the wiki since then are not overwritten')
