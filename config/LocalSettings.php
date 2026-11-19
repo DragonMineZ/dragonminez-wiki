@@ -84,8 +84,8 @@ $wgCacheDirectory = $dmzEnv( 'MW_CACHE_DIR', "$IP/cache" );
 $wgUseFileCache = false;
 $wgInvalidateCacheOnLocalSettingsChange = false;
 $wgParserCacheExpireTime = 30 * 86400;
-// Pages rendered before this time are stale (the move to /wiki changed every image and link URL).
-$wgCacheEpoch = '20261119020000';
+// Pages rendered before this time are stale (the /wiki move changed every image, link and language URL).
+$wgCacheEpoch = '20261119220307';
 $wgJobRunRate = 0;
 $wgCdnServersNoPurge = [ '127.0.0.1', '::1', '10.0.0.0/8', '172.16.0.0/12', '192.168.0.0/16' ];
 

@@ -106,7 +106,7 @@ class Hooks implements
 		}
 		if ( $suffix !== null && !$sourceCopy && $base->exists() ) {
 			$path = (string)parse_url( $request->getRequestURL(), PHP_URL_PATH );
-			if ( strpos( $path, "/$suffix/" ) !== 0 ) {
+			if ( strpos( $path, $this->languagePrefix( $suffix ) . '/' ) !== 0 ) {
 				$output->redirect( $title->getFullURL( $query ), '301' );
 				return false;
 			}
@@ -122,11 +122,7 @@ class Hooks implements
 		if ( $suffix === null || $suffix === ReaderLanguage::sourceLanguage( $this->config ) ) {
 			return;
 		}
-		if ( $base->isMainPage() ) {
-			$path = "/$suffix/";
-		} else {
-			$path = "/$suffix" . str_replace( '$1', wfUrlencode( $base->getPrefixedDBkey() ), (string)$this->config->get( 'ArticlePath' ) );
-		}
+		$path = $this->languagePrefix( $suffix ) . '/' . ( $base->isMainPage() ? '' : wfUrlencode( $base->getPrefixedDBkey() ) );
 		$url = $query === '' || $query === [] ? $path : $path . '?' . ( is_array( $query ) ? wfArrayToCgi( $query ) : $query );
 	}
 
@@ -137,10 +133,16 @@ class Hooks implements
 			if ( $code === $source ) {
 				continue;
 			}
-			$router->add( "/$code" . (string)$this->config->get( 'ArticlePath' ), [ 'title' => "\$1/$code" ] );
-			$router->addStrict( "/$code", [ 'title' => "$main/$code" ] );
-			$router->addStrict( "/$code/", [ 'title' => "$main/$code" ] );
+			$prefix = $this->languagePrefix( $code );
+			$router->add( "$prefix/\$1", [ 'title' => "\$1/$code" ] );
+			$router->addStrict( $prefix, [ 'title' => "$main/$code" ] );
+			$router->addStrict( "$prefix/", [ 'title' => "$main/$code" ] );
 		}
+	}
+
+	/** Translations live under the article path: /wiki/es/<Page>, main page /wiki/es/. */
+	private function languagePrefix( string $code ): string {
+		return str_replace( '$1', $code, (string)$this->config->get( 'ArticlePath' ) );
 	}
 
 	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {
