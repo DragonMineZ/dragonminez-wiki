@@ -20,13 +20,15 @@ require $dmzSecretsFile;
 
 $wgSitename = 'DragonMineZ Wiki';
 $wgMetaNamespace = 'DragonMineZ_Wiki';
-$wgServer = $dmzEnv( 'MW_SERVER', 'https://wiki.dragonminez.com' );
+// The wiki lives at dragonminez.com/wiki: pages at /wiki/<Title>, scripts and assets at /wiki/w (Alias in docker/apache).
+// An old MW_SERVER still pointing at the retired subdomain is mapped to the new host.
+$wgServer = str_replace( '://wiki.dragonminez.com', '://dragonminez.com', $dmzEnv( 'MW_SERVER', 'https://dragonminez.com' ) );
 $wgCanonicalServer = $wgServer;
-$wgScriptPath = '';
+$wgScriptPath = '/wiki/w';
 $wgArticlePath = '/wiki/$1';
 $wgUsePathInfo = true;
 $wgResourceBasePath = $wgScriptPath;
-$wgMainPageIsDomainRoot = true;
+$wgMainPageIsDomainRoot = false;
 $wgExternalLinkTarget = '_blank';
 
 $wgLanguageCode = 'en';

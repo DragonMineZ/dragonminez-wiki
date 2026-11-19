@@ -100,7 +100,7 @@ Confirma memoria, disco, Docker, puertos ocupados y cómo está configurado el p
 
    Los dos secretos también pueden ir en `data/secrets/secrets.php` (`$dmzClerkSecretKey`, `$dmzDiscordBotToken`); si están en los dos lados, gana el archivo. Nunca en el repo.
 2. Redesplegar. El contenedor `jobrunner` corre `update --quick` al arrancar, que crea la tabla `dmz_discord_link` (sin Dokploy: `sudo bash scripts/update.sh`).
-3. En Clerk, comprobar que `https://wiki.dragonminez.com` está entre los orígenes permitidos de la instancia de producción (los subdominios de dragonminez.com suelen estarlo; si el modal de Clerk no abre, agregarlo con `PATCH /v1/instance` → `allowed_origins`).
+3. En Clerk, comprobar que `https://dragonminez.com` está entre los orígenes permitidos de la instancia de producción (la wiki vive en `dragonminez.com/wiki`, el mismo origen que la web).
 
 | Rol en Discord | Grupos en la wiki | Puede |
 |---|---|---|
@@ -125,6 +125,8 @@ Se cambia con `$wgDMZDiscordGroupRoles` (nombres o IDs de rol; `@administrator` 
 Todo comando de mantenimiento corre como `www-data`: si corre como root, SQLite y la caché quedan con archivos que Apache no puede escribir.
 
 ## Despliegue automático
+
+La wiki se publica en `https://dragonminez.com/wiki/`: páginas en `/wiki/<Título>`, scripts y archivos en `/wiki/w/` (`Alias` en `docker/apache/dmz-wiki.conf`). Las etiquetas de Traefik de `compose.yaml` mandan `dragonminez.com/wiki` a este contenedor (la regla más larga gana a la de la web) y redirigen `wiki.dragonminez.com/*` con un 301 a la misma página bajo `/wiki`. El dominio `wiki.dragonminez.com` que tenga la app en Dokploy puede borrarse.
 
 La base de datos de la VPS nunca se migra desde una PC. El código va solo del repo a la wiki; el contenido se sincroniza en los dos sentidos.
 

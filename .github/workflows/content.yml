@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     env:
-      MW_API: ${{ vars.MW_API || 'https://wiki.dragonminez.com/api.php' }}
+      MW_API: ${{ vars.MW_API || 'https://dragonminez.com/wiki/w/api.php' }}
       MW_BOT_USER: ${{ secrets.MW_BOT_USER }}
       MW_BOT_PASSWORD: ${{ secrets.MW_BOT_PASSWORD }}
     steps:

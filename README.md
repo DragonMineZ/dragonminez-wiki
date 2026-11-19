@@ -1,6 +1,6 @@
 # DragonMineZ Wiki
 
-Código, skin y contenido de [wiki.dragonminez.com](https://wiki.dragonminez.com): MediaWiki 1.43 con el diseño de [dragonminez.com](https://dragonminez.com), en inglés, español y portugués.
+Código, skin y contenido de [dragonminez.com/wiki](https://dragonminez.com/wiki/): MediaWiki 1.43 con el diseño de [dragonminez.com](https://dragonminez.com), en inglés, español y portugués.
 
 ## Estructura
 

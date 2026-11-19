@@ -3,9 +3,9 @@
 `content/pages/<Espacio de nombres>/<Título>.<ext>` refleja páginas de la wiki (`Main` = espacio principal; `.wiki` wikitext, `.lua` módulos, `.css`/`.js`/`.json` se publican con la extensión en el título). `content/files/` son archivos a subir (`File:<nombre>`).
 
 ```bash
-python tools/push_pages.py --api https://wiki.dragonminez.com/api.php --dry-run
-python tools/push_pages.py --api https://wiki.dragonminez.com/api.php
-python tools/push_pages.py --api https://wiki.dragonminez.com/api.php --only "Races" --only "Template:Infobox*"
+python tools/push_pages.py --api https://dragonminez.com/wiki/w/api.php --dry-run
+python tools/push_pages.py --api https://dragonminez.com/wiki/w/api.php
+python tools/push_pages.py --api https://dragonminez.com/wiki/w/api.php --only "Races" --only "Template:Infobox*"
 ```
 
 ## Organización
@@ -39,9 +39,9 @@ Por dentro cada traducción es la página `<Página>/es` o `<Página>/pt`, pero 
 **Cargar las traducciones en una wiki** (por ejemplo, producción después del deploy):
 
 ```bash
-python tools/push_pages.py --api https://wiki.dragonminez.com/api.php
-python tools/translations.py mark --every-page --api https://wiki.dragonminez.com/api.php
-python tools/translations.py import --every-page --api https://wiki.dragonminez.com/api.php
+python tools/push_pages.py --api https://dragonminez.com/wiki/w/api.php
+python tools/translations.py mark --every-page --api https://dragonminez.com/wiki/w/api.php
+python tools/translations.py import --every-page --api https://dragonminez.com/wiki/w/api.php
 ```
 
 Como los archivos ya traen los marcadores `<!--T:n-->`, la wiki conserva los mismos números de unidad y el import encaja sin conflictos.

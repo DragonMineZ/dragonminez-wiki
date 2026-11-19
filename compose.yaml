@@ -32,6 +32,31 @@ services:
     mem_limit: 768m
     memswap_limit: 1g
     cpus: 1.5
+    # Traefik: dragonminez.com/wiki comes here (the longer rule wins over the website's Host rule), and the old
+    # wiki.dragonminez.com redirects permanently to the same page under dragonminez.com/wiki.
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: dokploy-network
+      traefik.http.services.dmzwiki.loadbalancer.server.port: "80"
+      traefik.http.routers.dmzwiki.rule: Host(`dragonminez.com`) && PathPrefix(`/wiki`)
+      traefik.http.routers.dmzwiki.entrypoints: websecure
+      traefik.http.routers.dmzwiki.tls.certresolver: letsencrypt
+      traefik.http.routers.dmzwiki.service: dmzwiki
+      traefik.http.routers.dmzwiki-http.rule: Host(`dragonminez.com`) && PathPrefix(`/wiki`)
+      traefik.http.routers.dmzwiki-http.entrypoints: web
+      traefik.http.routers.dmzwiki-http.middlewares: dmzwiki-https
+      traefik.http.routers.dmzwiki-http.service: dmzwiki
+      traefik.http.middlewares.dmzwiki-https.redirectscheme.scheme: https
+      traefik.http.middlewares.dmzwiki-https.redirectscheme.permanent: "true"
+      traefik.http.routers.dmzwiki-old.rule: Host(`wiki.dragonminez.com`)
+      traefik.http.routers.dmzwiki-old.priority: "10000"
+      traefik.http.routers.dmzwiki-old.entrypoints: web,websecure
+      traefik.http.routers.dmzwiki-old.tls.certresolver: letsencrypt
+      traefik.http.routers.dmzwiki-old.middlewares: dmzwiki-moved
+      traefik.http.routers.dmzwiki-old.service: dmzwiki
+      traefik.http.middlewares.dmzwiki-moved.redirectregex.regex: ^https?://wiki\.dragonminez\.com/(?:wiki/)?(.*)
+      traefik.http.middlewares.dmzwiki-moved.redirectregex.replacement: https://dragonminez.com/wiki/$${1}
+      traefik.http.middlewares.dmzwiki-moved.redirectregex.permanent: "true"
 
   jobrunner:
     <<: *wiki

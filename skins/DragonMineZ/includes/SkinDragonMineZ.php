@@ -54,6 +54,7 @@ class SkinDragonMineZ extends SkinMustache {
 		return $data + [
 			'dmz-web-url' => $web . '/',
 			'dmz-hairsalon-url' => $web . '/hairsalon',
+			'dmz-forum-url' => $web . '/forum',
 			'dmz-discord-url' => self::DISCORD,
 			'dmz-wiki-home-url' => SpecialPage::getTitleFor( 'MyLanguage', $mainPage->getPrefixedDBkey() )->getLocalURL(),
 			'dmz-search-url' => SpecialPage::getTitleFor( 'Search' )->getLocalURL(),

@@ -166,7 +166,7 @@ class DiscordAccess {
 	protected function call( string $path ): array {
 		$request = $this->http->create( rtrim( $this->api, '/' ) . $path, [ 'method' => 'GET', 'timeout' => 10 ], __METHOD__ );
 		$request->setHeader( 'Authorization', 'Bot ' . $this->botToken );
-		$request->setHeader( 'User-Agent', 'DiscordBot (https://wiki.dragonminez.com, 1.0)' );
+		$request->setHeader( 'User-Agent', 'DiscordBot (https://dragonminez.com/wiki, 1.0)' );
 		$request->execute();
 		$status = $request->getStatus();
 		if ( $status !== 200 && $status !== 404 ) {
